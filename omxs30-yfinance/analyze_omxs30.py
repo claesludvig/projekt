@@ -24,14 +24,27 @@ LINE_STYLES = {
 }
 
 
+def smooth_close(df):
+    """OMXS30 uppdateras glesare än stapelupplösningen, så Close ligger ofta still
+    i flera staplar i rad och hoppar sedan till nästa notering. Det ger en
+    trappstegsformad kurva. Vi tar bort de upprepade (inaktuella) värdena och
+    interpolerar linjärt mellan de faktiska prisändringarna för en mjuk kurva."""
+    raw = df["Close"]
+    deduped = raw.mask(raw.eq(raw.shift()))
+    deduped.iloc[0] = raw.iloc[0]
+    df["CloseSmooth"] = deduped.interpolate(method="time")
+    return df
+
+
 def add_moving_averages(df, windows=MA_WINDOWS):
     for window in windows:
-        df[f"MA{window}"] = df["Close"].rolling(window=window).mean()
+        df[f"MA{window}"] = df["CloseSmooth"].rolling(window=window).mean()
     return df
 
 
 def fetch_and_prepare(ticker: str, period: str, interval: str):
     df = fetch_data(ticker=ticker, period=period, interval=interval)
+    df = smooth_close(df)
     df = add_moving_averages(df)
     save_data(df, interval=interval)
     return df
@@ -43,7 +56,7 @@ def plot_multi_interval(dfs: dict, output_path: Path, ticker: str):
     for interval, df in dfs.items():
         ax.plot(
             df.index,
-            df["Close"],
+            df["CloseSmooth"],
             label=f"Close ({interval})",
             color="grey",
             alpha=0.25,
