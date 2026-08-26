@@ -24,12 +24,12 @@ def fetch_data(ticker: str = TICKER, period: str = DEFAULT_PERIOD, interval: str
     return df
 
 
-def save_data(df, output_dir: Path = OUTPUT_DIR) -> Path:
+def save_data(df, interval: str = DEFAULT_INTERVAL, output_dir: Path = OUTPUT_DIR) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    timestamped_path = output_dir / f"omxs30_15m_{timestamp}.csv"
+    timestamped_path = output_dir / f"omxs30_{interval}_{timestamp}.csv"
     df.to_csv(timestamped_path)
-    df.to_csv(output_dir / "omxs30_15m_latest.csv")
+    df.to_csv(output_dir / f"omxs30_{interval}_latest.csv")
     return timestamped_path
 
 
@@ -43,7 +43,7 @@ def main() -> None:
     args = parser.parse_args()
 
     df = fetch_data(args.ticker, args.period, args.interval)
-    path = save_data(df)
+    path = save_data(df, args.interval)
     print(f"Sparade {len(df)} rader ({args.interval}-data, {args.period}) till {path}")
 
 

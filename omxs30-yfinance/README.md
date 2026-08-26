@@ -29,6 +29,20 @@ Valfria flaggor:
 python fetch_omxs30.py --ticker "^OMXS30" --period 1mo --interval 15m
 ```
 
+## Analys: MA20/MA50 över flera intervall
+
+```bash
+python analyze_omxs30.py
+```
+
+Hämtar OMXS30 på både `15m` och `1h` (senaste månaden), räknar ut MA20 och MA50 för respektive intervall och plottar allt i samma graf: `data/omxs30_ma_multi_interval.png`. Priskurvorna ritas ljusgrå i bakgrunden, MA-linjerna i tydliga färger per intervall.
+
+Valfria flaggor:
+
+```bash
+python analyze_omxs30.py --period 1mo --intervals 15m 1h
+```
+
 ## Automatisk körning
 
 ### Alternativ 1: GitHub Actions (rekommenderas)
