@@ -9,6 +9,8 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -29,3 +31,11 @@ jobs:
           name: omxs30-data
           path: omxs30-yfinance/data
           retention-days: 30
+
+      - name: Commit chart (CSV:er är gitignorade och committas inte)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f omxs30-yfinance/data/omxs30_ma_multi_interval.png
+          git diff --cached --quiet || git commit -m "Auto: uppdaterad OMXS30 MA-graf"
+          git push
