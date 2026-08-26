@@ -30,6 +30,11 @@ def fetch_daily(ticker: str, period: str) -> pd.Series:
     if isinstance(close, pd.DataFrame):
         close = close.iloc[:, 0]
     close.name = ticker
+    # Olika tickers kan komma tillbaka med olika tidszons-/tidsstämpelformat
+    # (t.ex. ^OMXS30 tz-aware, BZ=F/^TNX inte), vilket gör att en concat på
+    # de råa DatetimeIndex-objekten missar nästan alla dagar. Normalisera
+    # till rent kalenderdatum så serierna går att slå ihop dag för dag.
+    close.index = pd.to_datetime(close.index.date)
     return close
 
 
