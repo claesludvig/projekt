@@ -12,14 +12,13 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import yfinance as yf
 
-TICKERS = {
-    "OMXS30": "^OMXS30",
+DAILY_TICKERS = {
     "Brent-olja": "BZ=F",
     "US10Y-ränta": "^TNX",
 }
 OUTPUT_DIR = Path(__file__).resolve().parent / "data"
 DEFAULT_PERIOD = "6mo"
-ROLLING_WINDOW = 20
+ROLLING_WINDOW = 10
 
 
 def fetch_daily(ticker: str, period: str) -> pd.Series:
@@ -38,8 +37,28 @@ def fetch_daily(ticker: str, period: str) -> pd.Series:
     return close
 
 
+def fetch_omxs30_daily(period: str) -> pd.Series:
+    """^OMXS30 saknar i praktiken historik via yfinance vid interval="1d" på
+    den här datakällan (en riktig körning gav bara dagens rad, oavsett
+    period) — samma typ av begränsning som vi såg för intradagsdata i
+    övriga omxs30-yfinance-projektet. Hämtar istället på 1h-upplösning
+    (som har riktig flerveckorshistorik) och tar sista noteringen per
+    kalenderdag som proxy för dagsstängning."""
+    df = yf.download("^OMXS30", period=period, interval="1h", auto_adjust=False, progress=False)
+    if df.empty:
+        raise RuntimeError("Ingen data hämtades för ^OMXS30 (1h)")
+    close = df["Close"]
+    if isinstance(close, pd.DataFrame):
+        close = close.iloc[:, 0]
+    close.index = pd.to_datetime(close.index.date)
+    daily = close.groupby(close.index).last()
+    daily.name = "OMXS30"
+    return daily
+
+
 def build_dataset(period: str) -> pd.DataFrame:
-    series = {label: fetch_daily(ticker, period) for label, ticker in TICKERS.items()}
+    series = {"OMXS30": fetch_omxs30_daily(period)}
+    series.update({label: fetch_daily(ticker, period) for label, ticker in DAILY_TICKERS.items()})
     for label, s in series.items():
         print(f"  {label}: {len(s)} rader, {s.index.min()} -> {s.index.max()}")
     df = pd.concat(series.values(), axis=1, keys=series.keys())
