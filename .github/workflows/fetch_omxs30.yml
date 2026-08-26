@@ -1,0 +1,31 @@
+name: Fetch OMXS30 data
+
+on:
+  schedule:
+    # Vardagar 17:00 UTC (efter stängning på Stockholmsbörsen)
+    - cron: "0 17 * * 1-5"
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r omxs30-yfinance/requirements.txt
+
+      - name: Fetch data and build MA20/MA50 chart (15m + 1h)
+        working-directory: omxs30-yfinance
+        run: python analyze_omxs30.py
+
+      - name: Upload data and chart as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: omxs30-data
+          path: omxs30-yfinance/data
+          retention-days: 30
