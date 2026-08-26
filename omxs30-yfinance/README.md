@@ -47,7 +47,7 @@ python analyze_omxs30.py --period 1mo --intervals 15m 1h
 
 ### Alternativ 1: GitHub Actions (rekommenderas)
 
-Workflowen `.github/workflows/fetch_omxs30.yml` kör scriptet automatiskt vardagar 17:00 UTC (efter stängning på Stockholmsbörsen) och committar ny data till repot. Går även att köra manuellt via "Run workflow" i GitHub Actions-fliken.
+Workflowen `.github/workflows/fetch_omxs30.yml` kör `analyze_omxs30.py` automatiskt vardagar 17:00 UTC (efter stängning på Stockholmsbörsen) och laddar upp CSV-filerna samt MA-grafen som en artifact (`omxs30-data`), hämtningsbar under körningen i GitHub Actions-fliken. Går även att triggas manuellt via "Run workflow".
 
 ### Alternativ 2: cron (lokalt/server)
 
