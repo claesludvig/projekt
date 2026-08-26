@@ -1,0 +1,31 @@
+name: OMXS30 vs olja/ränta - korrelation
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r omxs30-yfinance/requirements.txt
+
+      - name: Run correlation analysis
+        working-directory: omxs30-yfinance
+        run: python correlation_analysis.py
+
+      - name: Commit data and chart
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add omxs30-yfinance/data
+          git diff --cached --quiet || git commit -m "Auto: uppdaterad OMXS30/olja/ränta-korrelation"
+          git push
