@@ -35,7 +35,12 @@ python fetch_omxs30.py --ticker "^OMXS30" --period 1mo --interval 15m
 python analyze_omxs30.py
 ```
 
-Hämtar OMXS30 på både `15m` och `1h` (senaste månaden), räknar ut MA20 och MA50 för respektive intervall och plottar allt i samma graf: `data/omxs30_ma_multi_interval.png`. Priskurvorna ritas ljusgrå i bakgrunden, MA-linjerna i tydliga färger per intervall.
+Hämtar OMXS30 på både `15m` och `1h` (senaste månaden), räknar ut MA20 och MA50 för respektive intervall och plottar allt i `data/omxs30_ma_multi_interval.png`. Priskurvorna ritas ljusgrå i bakgrunden, MA-linjerna i tydliga färger per intervall.
+
+Grafen har två delar:
+- **Prispanel** (överst): Close + MA20/MA50 per intervall.
+- **Trendstyrke-panel** (nederst): `(MA20 − MA50) / MA50 × 100` per intervall — ett prisoberoende %-mått på trendriktning/styrka, jämförbart rakt av mellan olika tidsintervall. Positivt = uppåttrend, negativt = nedåttrend, nollgenomgång = trendvändning.
+- Perioder (>2h) där det snabba och det långsamma intervallet är **oense om trendriktning** skuggas rött i båda panelerna — t.ex. uppåtmomentum på 15m samtidigt som 1h-trenden är på väg ner, en tidig varningssignal snarare än en köpsignal.
 
 Valfria flaggor:
 
