@@ -2,9 +2,11 @@
 """Räknar ut MA20/MA50 för OMXS30 på flera tidsintervall och plottar dem i samma graf."""
 
 import argparse
+import re
 from pathlib import Path
 
 import matplotlib
+import pandas as pd
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -24,15 +26,30 @@ LINE_STYLES = {
 }
 
 
-def smooth_close(df):
-    """OMXS30 uppdateras glesare än stapelupplösningen, så Close ligger ofta still
-    i flera staplar i rad och hoppar sedan till nästa notering. Det ger en
-    trappstegsformad kurva. Vi tar bort de upprepade (inaktuella) värdena och
-    interpolerar linjärt mellan de faktiska prisändringarna för en mjuk kurva."""
-    raw = df["Close"]
-    deduped = raw.mask(raw.eq(raw.shift()))
-    deduped.iloc[0] = raw.iloc[0]
-    df["CloseSmooth"] = deduped.interpolate(method="time")
+def _interval_to_pandas_freq(interval: str) -> str:
+    """Yahoo Finance-intervall (t.ex. '15m', '1h', '1d') -> pandas frekvenssträng."""
+    match = re.fullmatch(r"(\d*)(m|h|d|wk|mo)", interval)
+    if not match:
+        raise ValueError(f"Okänt intervall: {interval}")
+    amount, unit = match.groups()
+    amount = amount or "1"
+    unit_map = {"m": "min", "h": "h", "d": "D", "wk": "W", "mo": "MS"}
+    return f"{amount}{unit_map[unit]}"
+
+
+def smooth_close(df, interval: str):
+    """OMXS30 har hos Yahoo Finance bara noteringar under en liten del av
+    handelsdagen (för det här intervallet runt kl 09:30-11:30 amerikansk tid)
+    och saknar data helt resten av dygnet och på helger. Räknar man MA radvis
+    på rådatan blandas då flera dagar ihop i samma fönster, vilket gör att
+    kurvan ligger still inom varje dag och hoppar en gång per dag i stället
+    för att röra sig mjukt. Vi bygger därför ett sammanhängande tidsraster i
+    intervallets upplösning och interpolerar linjärt över luckorna, så att
+    MA-beräkningen får en kontinuerlig kurva att jobba med."""
+    freq = _interval_to_pandas_freq(interval)
+    full_index = pd.date_range(df.index.min(), df.index.max(), freq=freq)
+    df = df.reindex(df.index.union(full_index)).sort_index()
+    df["CloseSmooth"] = df["Close"].interpolate(method="time")
     return df
 
 
@@ -44,7 +61,7 @@ def add_moving_averages(df, windows=MA_WINDOWS):
 
 def fetch_and_prepare(ticker: str, period: str, interval: str):
     df = fetch_data(ticker=ticker, period=period, interval=interval)
-    df = smooth_close(df)
+    df = smooth_close(df, interval)
     df = add_moving_averages(df)
     save_data(df, interval=interval)
     return df
