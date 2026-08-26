@@ -40,8 +40,12 @@ def fetch_daily(ticker: str, period: str) -> pd.Series:
 
 def build_dataset(period: str) -> pd.DataFrame:
     series = {label: fetch_daily(ticker, period) for label, ticker in TICKERS.items()}
+    for label, s in series.items():
+        print(f"  {label}: {len(s)} rader, {s.index.min()} -> {s.index.max()}")
     df = pd.concat(series.values(), axis=1, keys=series.keys())
-    return df.dropna(how="any")
+    merged = df.dropna(how="any")
+    print(f"  Efter sammanslagning (gemensamma datum): {len(merged)} rader")
+    return merged
 
 
 def compute_returns(df: pd.DataFrame) -> pd.DataFrame:
