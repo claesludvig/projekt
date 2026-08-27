@@ -27,5 +27,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add omxs30-yfinance/data
-          git diff --cached --quiet || git commit -m "Auto: uppdaterad OMXS30/olja/ränta-korrelation"
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterad OMXS30/olja/ränta-korrelation"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
           git push
