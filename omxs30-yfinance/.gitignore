@@ -1,5 +1,2 @@
-data/omxs30_*_20*.csv
-!data/*_latest.csv
-!data/.gitkeep
 __pycache__/
 *.pyc

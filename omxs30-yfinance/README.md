@@ -2,9 +2,9 @@
 
 Automatisk datahämtning av OMXS30 (`^OMXS30`) från Yahoo Finance via [yfinance](https://github.com/ranaroussi/yfinance).
 
-Standard: 15-minutersintervall, senaste månaden (`period="1mo"`, `interval="15m"`).
+All prisdata (OMXS30-intradagsdata, Brent-olja, US10Y-ränta) lagras **inkrementellt** i en delad SQLite-databas, `data/market.db`, committad till repot mellan körningar. Varje körning hämtar bara en liten buffert nya observationer sedan senast lagrade datapunkt och skriver in dem (`INSERT OR REPLACE`, idempotent) — inte hela historiken på nytt. Det gör körningarna snabba och håller nere antalet anrop mot Yahoo, och som bonus växer historiken längre bak i tiden än Yahoos eget retention-fönster för intradagsdata annars skulle tillåta (`15m` ~60 dagar, `1h` ~730 dagar) eftersom vi aldrig tappar det vi redan hämtat.
 
-> Yahoo Finance begränsar hur långt tillbaka intradagsdata går: `15m`-data finns max 60 dagar tillbaka, `1m` bara 7 dagar. En månad ryms alltså gott och väl inom gränsen.
+Första körningen mot en tom databas gör en full backfill upp till Yahoos gräns för respektive intervall; alla körningar därefter är inkrementella.
 
 ## Installation
 
@@ -16,17 +16,13 @@ pip install -r requirements.txt
 ## Körning
 
 ```bash
-python fetch_omxs30.py
+python fetch_omxs30.py --interval 15m
 ```
 
-Detta sparar två filer i `data/`:
-- `omxs30_15m_<timestamp>.csv` – tidsstämplad historik över varje körning
-- `omxs30_15m_latest.csv` – alltid senaste hämtningen
-
-Valfria flaggor:
+Hämtar nya observationer sedan senast och upsertar dem i `data/market.db`. Valfria flaggor:
 
 ```bash
-python fetch_omxs30.py --ticker "^OMXS30" --period 1mo --interval 15m
+python fetch_omxs30.py --ticker "^OMXS30" --interval 1h
 ```
 
 ## Analys: MA20/MA50 över flera intervall
@@ -35,7 +31,7 @@ python fetch_omxs30.py --ticker "^OMXS30" --period 1mo --interval 15m
 python analyze_omxs30.py
 ```
 
-Hämtar OMXS30 på både `15m` och `1h` (senaste månaden), räknar ut MA20 och MA50 för respektive intervall och plottar allt i `data/omxs30_ma_multi_interval.png`. Priskurvorna ritas ljusgrå i bakgrunden, MA-linjerna i tydliga färger per intervall.
+Hämtar OMXS30 inkrementellt på både `15m` och `1h`, räknar ut MA20 och MA50 över hela den lagrade historiken i `market.db` för respektive intervall, skriver `data/omxs30_15m_latest.csv` / `data/omxs30_1h_latest.csv` (samma kolumnformat som tidigare: Adj Close, Close, High, Low, Open, Volume, CloseSmooth, MA20, MA50, TrendStrength) och plottar allt i `data/omxs30_ma_multi_interval.png`. Priskurvorna ritas ljusgrå i bakgrunden, MA-linjerna i tydliga färger per intervall.
 
 Grafen har två delar:
 - **Prispanel** (överst): Close + MA20/MA50 per intervall.
@@ -45,7 +41,7 @@ Grafen har två delar:
 Valfria flaggor:
 
 ```bash
-python analyze_omxs30.py --period 1mo --intervals 15m 1h
+python analyze_omxs30.py --intervals 15m 1h
 ```
 
 ## Automatisk körning

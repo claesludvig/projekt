@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Räknar ut MA20/MA50 för OMXS30 på flera tidsintervall och plottar dem i samma graf."""
+"""Räknar ut MA20/MA50 för OMXS30 på flera tidsintervall och plottar dem i samma graf.
+
+Datan hämtas inkrementellt (se fetch_omxs30.fetch_incremental) och lagras i
+market.db; MA/trendstyrka beräknas sedan över hela den ackumulerade
+historiken i databasen, inte bara den senast hämtade bufferten."""
 
 import argparse
 import re
@@ -13,7 +17,8 @@ matplotlib.use("Agg")
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 
-from fetch_omxs30 import DEFAULT_PERIOD, TICKER, fetch_data, save_data
+import db
+from fetch_omxs30 import TICKER, fetch_incremental
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "data"
 INTERVALS = ("15m", "1h")
@@ -71,12 +76,23 @@ def add_trend_strength(df):
     return df
 
 
-def fetch_and_prepare(ticker: str, period: str, interval: str):
-    df = fetch_data(ticker=ticker, period=period, interval=interval)
+def save_latest_csv(df, interval: str, output_dir: Path = OUTPUT_DIR) -> Path:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    out = df.copy()
+    out.insert(0, "Adj Close", out["Close"])
+    out = out[["Adj Close", "Close", "High", "Low", "Open", "Volume", "CloseSmooth", "MA20", "MA50", "TrendStrength"]]
+    path = output_dir / f"omxs30_{interval}_latest.csv"
+    out.to_csv(path)
+    return path
+
+
+def fetch_and_prepare(conn, ticker: str, interval: str):
+    fetch_incremental(conn, ticker, interval)
+    df = db.read_intraday(conn, interval)
     df = smooth_close(df, interval)
     df = add_moving_averages(df)
     df = add_trend_strength(df)
-    save_data(df, interval=interval)
+    save_latest_csv(df, interval)
     return df
 
 
@@ -180,10 +196,9 @@ def plot_multi_interval(dfs: dict, output_path: Path, ticker: str):
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Hämta OMXS30 på flera intervall, räkna MA20/MA50 och plotta i samma graf."
+        description="Hämta OMXS30 på flera intervall inkrementellt, räkna MA20/MA50 och plotta i samma graf."
     )
     parser.add_argument("--ticker", default=TICKER)
-    parser.add_argument("--period", default=DEFAULT_PERIOD, help="Tidsperiod, t.ex. 1mo (default: 1mo)")
     parser.add_argument(
         "--intervals",
         nargs="+",
@@ -192,9 +207,10 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    conn = db.connect()
     dfs = {}
     for interval in args.intervals:
-        dfs[interval] = fetch_and_prepare(args.ticker, args.period, interval)
+        dfs[interval] = fetch_and_prepare(conn, args.ticker, interval)
 
     output_path = OUTPUT_DIR / "omxs30_ma_multi_interval.png"
     plot_multi_interval(dfs, output_path, args.ticker)
