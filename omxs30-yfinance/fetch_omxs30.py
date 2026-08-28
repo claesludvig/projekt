@@ -15,10 +15,13 @@ import db
 TICKER = "^OMXS30"
 DEFAULT_INTERVAL = "15m"
 
-# Yahoos ungefärliga maxhistorik (dagar) per intervall - styr hur långt
-# tillbaka en första backfill hämtar när databasen är tom.
-MAX_BACKFILL_DAYS = {"15m": 60, "1h": 730}
-DEFAULT_MAX_BACKFILL_DAYS = 60
+# Yahoos maxhistorik (dagar) per intervall, minus en säkerhetsmarginal —
+# en förfrågan exakt på gränsen (t.ex. start = idag - 60 dagar för 15m)
+# avvisas i praktiken av Yahoo eftersom "nu" hunnit röra sig något mellan
+# beräkningen och att förfrågan når fram. Styr hur långt tillbaka en
+# första backfill hämtar när databasen är tom.
+MAX_BACKFILL_DAYS = {"15m": 58, "1h": 725}
+DEFAULT_MAX_BACKFILL_DAYS = 58
 INCREMENTAL_BUFFER_DAYS = 5
 
 
