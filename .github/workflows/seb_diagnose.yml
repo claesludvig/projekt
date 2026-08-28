@@ -18,3 +18,11 @@ jobs:
 
       - name: Diagnose SEB research site
         run: python seb-research-digest/diagnose.py
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Diagnose SEB research site (rendered, via headless browser)
+        run: python seb-research-digest/diagnose_playwright.py
