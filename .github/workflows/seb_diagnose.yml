@@ -19,6 +19,9 @@ jobs:
       - name: Diagnose SEB research site
         run: python seb-research-digest/diagnose.py
 
+      - name: Test direct httpx calls to mapi endpoints (no browser)
+        run: python seb-research-digest/diagnose_api.py
+
       - name: Install Playwright + Chromium
         run: |
           pip install playwright
