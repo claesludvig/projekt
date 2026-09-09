@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>OMXS30 - vem kommenterar och vad sägs</title>
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <style>
+        .kommentar-text { white-space: pre-wrap; font-size: .85rem; max-height: 18rem; overflow-y: auto; }
+        .kadens-daglig { background-color: #1cc88a; }
+        .kadens-nastan-daglig { background-color: #36b9cc; }
+        .kadens-veckovis { background-color: #f6c23e; }
+        .kadens-sporadisk { background-color: #858796; }
+        .temaord { display: inline-block; margin: 0 .25rem .25rem 0; }
+        .tonstapel { height: .6rem; border-radius: .3rem; overflow: hidden; display: flex; }
+        .tonstapel span { display: block; height: 100%; }
+    </style>
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <div class="container-fluid py-4">
+
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <div>
+                            <h1 class="h3 mb-0 text-gray-800">OMXS30 &ndash; vem kommenterar, och vad sägs</h1>
+                            <small class="text-muted" id="uppdaterad">Laddar&hellip;</small>
+                        </div>
+                        <a href="index.html" class="btn btn-sm btn-secondary">
+                            <i class="fas fa-arrow-left fa-sm"></i> Till dashboarden
+                        </a>
+                    </div>
+
+                    <div id="saknas" class="alert alert-warning d-none">
+                        <strong>Ingen data ännu.</strong> Kör
+                        <code>python omxs30-kommentarer/discover.py</code> och
+                        <code>python omxs30-kommentarer/collect.py</code>,
+                        eller starta workflowet <em>OMXS30-kommentarer</em> i GitHub Actions.
+                    </div>
+
+                    <!-- Nyckeltal -->
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Kommentatorer i registret</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800" id="kpi-antal">&ndash;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Skriver i princip varje börsdag</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800" id="kpi-dagliga">&ndash;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Artiklar i mätfönstret</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800" id="kpi-artiklar">&ndash;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Hämtade texter</div>
+                                    <div class="h5 mb-0 font-weight-bold text-gray-800" id="kpi-texter">&ndash;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vem kommenterar -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                            <h6 class="m-0 font-weight-bold text-primary">Vem kommenterar OMXS30 &ndash; och hur ofta</h6>
+                            <small class="text-muted" id="fonster"></small>
+                        </div>
+                        <div class="card-body">
+                            <p class="small text-muted">
+                                Andelen är antal dagar med publicering delat på antal börsdagar i mätfönstret.
+                                Mätt på faktiska publiceringar, inte på vad utgivarna säger att de gör.
+                            </p>
+                            <div class="table-responsive">
+                                <table class="table table-sm table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Utgivare</th>
+                                            <th class="text-right">Artiklar</th>
+                                            <th class="text-right">Dagar</th>
+                                            <th class="text-right">Andel börsdagar</th>
+                                            <th>Kadens</th>
+                                            <th>Senaste</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="kommentatorer-tabell">
+                                        <tr><td colspan="6" class="text-muted">Laddar&hellip;</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dagsvy -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Dag för dag: tonläge och teman</h6>
+                        </div>
+                        <div class="card-body" id="dagsvy">
+                            <p class="text-muted mb-0">Laddar&hellip;</p>
+                        </div>
+                    </div>
+
+                    <!-- Vad som sägs -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Vad som sägs</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-row mb-3">
+                                <div class="col-md-6 mb-2">
+                                    <input type="text" id="sok" class="form-control" placeholder="Sök i rubriker och texter, t.ex. motstånd, ränta, verkstad">
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <select id="filter-kalla" class="form-control"><option value="">Alla källor</option></select>
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <select id="filter-ton" class="form-control">
+                                        <option value="">Alla tonlägen</option>
+                                        <option value="positiv">Positiv</option>
+                                        <option value="neutral">Neutral</option>
+                                        <option value="negativ">Negativ</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="kommentarer"><p class="text-muted">Laddar&hellip;</p></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+    (function () {
+        var BAS = "omxs30-kommentarer/data/";
+        var kommentarer = [];
+
+        function esc(s) {
+            return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+                return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+            });
+        }
+
+        function hamta(fil) {
+            return fetch(BAS + fil, { cache: "no-store" })
+                .then(function (r) { return r.ok ? r.json() : null; })
+                .catch(function () { return null; });
+        }
+
+        function kadensKlass(k) {
+            if (k === "daglig") return "kadens-daglig";
+            if (k === "nastan daglig") return "kadens-nastan-daglig";
+            if (k === "veckovis") return "kadens-veckovis";
+            return "kadens-sporadisk";
+        }
+
+        function kadensText(k) {
+            return k === "nastan daglig" ? "nästan daglig" : k;
+        }
+
+        function pluralis(n, ental, flertal) {
+            return n + " " + (n === 1 ? ental : flertal);
+        }
+
+        function tonKlass(t) {
+            return t === "positiv" ? "success" : t === "negativ" ? "danger" : "secondary";
+        }
+
+        function ritaKommentatorer(data) {
+            var tbody = document.getElementById("kommentatorer-tabell");
+            if (!data || !data.kommentatorer || !data.kommentatorer.length) {
+                tbody.innerHTML = '<tr><td colspan="6" class="text-muted">Ingen data ännu &ndash; kör discover.py.</td></tr>';
+                return;
+            }
+            var lista = data.kommentatorer;
+            document.getElementById("kpi-antal").textContent = lista.length;
+            document.getElementById("kpi-dagliga").textContent =
+                lista.filter(function (k) { return k.kadens === "daglig" || k.kadens === "nastan daglig"; }).length;
+            document.getElementById("kpi-artiklar").textContent = data.antal_artiklar || 0;
+            if (data.fonster) {
+                document.getElementById("fonster").textContent =
+                    data.fonster.fran + " till " + data.fonster.till + " (" + data.fonster.borsdagar + " börsdagar)";
+            }
+
+            tbody.innerHTML = lista.map(function (k, i) {
+                var exempel = (k.exempel || []).map(function (e) {
+                    return '<li><a href="' + esc(e.lank) + '" target="_blank" rel="noopener">' +
+                        esc(e.titel) + '</a> <span class="text-muted">' + esc(e.datum) + '</span></li>';
+                }).join("");
+                return '' +
+                    '<tr data-toggle="collapse" data-target="#ex' + i + '" style="cursor:pointer">' +
+                    '<td><i class="fas fa-caret-right text-muted mr-1"></i>' + esc(k.utgivare) + '</td>' +
+                    '<td class="text-right">' + k.antal_artiklar + '</td>' +
+                    '<td class="text-right">' + k.distinkta_dagar + '</td>' +
+                    '<td class="text-right">' + Math.round(k.andel_borsdagar * 100) + '&nbsp;%</td>' +
+                    '<td><span class="badge text-white ' + kadensKlass(k.kadens) + '">' + esc(kadensText(k.kadens)) + '</span></td>' +
+                    '<td>' + esc(k.senaste) + '</td></tr>' +
+                    '<tr class="collapse" id="ex' + i + '"><td colspan="6" class="bg-light">' +
+                    '<ul class="small mb-0">' + (exempel || '<li class="text-muted">Inga exempel</li>') + '</ul></td></tr>';
+            }).join("");
+        }
+
+        function ritaDagsvy(data) {
+            var el = document.getElementById("dagsvy");
+            if (!data || !data.dagar || !data.dagar.length) {
+                el.innerHTML = '<p class="text-muted mb-0">Ingen dagsdata ännu &ndash; kör collect.py.</p>';
+                return;
+            }
+            el.innerHTML = data.dagar.slice(0, 10).map(function (d) {
+                var tot = d.ton.positiv + d.ton.neutral + d.ton.negativ || 1;
+                var bredd = function (n) { return (n / tot * 100).toFixed(1) + "%"; };
+                var teman = (d.teman || []).map(function (t) {
+                    return '<span class="badge badge-light border temaord">' + esc(t[0]) + ' <span class="text-muted">' + t[1] + '</span></span>';
+                }).join("");
+                return '' +
+                    '<div class="mb-3 pb-3 border-bottom">' +
+                    '<div class="d-flex justify-content-between"><strong>' + esc(d.datum) + '</strong>' +
+                    '<span class="text-muted small">' + pluralis(d.antal, 'kommentar', 'kommentarer') +
+                    ' &middot; ' + pluralis(d.kallor.length, 'källa', 'källor') + '</span></div>' +
+                    '<div class="tonstapel my-2">' +
+                    '<span style="width:' + bredd(d.ton.positiv) + ';background:#1cc88a"></span>' +
+                    '<span style="width:' + bredd(d.ton.neutral) + ';background:#dddfeb"></span>' +
+                    '<span style="width:' + bredd(d.ton.negativ) + ';background:#e74a3b"></span></div>' +
+                    '<div class="small text-muted mb-2">' + d.ton.positiv + ' positiva &middot; ' +
+                    d.ton.neutral + ' neutrala &middot; ' + d.ton.negativ + ' negativa</div>' +
+                    '<div>' + teman + '</div></div>';
+            }).join("");
+        }
+
+        function ritaKommentarer() {
+            var q = document.getElementById("sok").value.toLowerCase();
+            var kalla = document.getElementById("filter-kalla").value;
+            var ton = document.getElementById("filter-ton").value;
+            var el = document.getElementById("kommentarer");
+
+            var urval = kommentarer.filter(function (k) {
+                if (kalla && k.kalla !== kalla) return false;
+                if (ton && k.ton.etikett !== ton) return false;
+                if (q && (k.titel + " " + k.fulltext).toLowerCase().indexOf(q) === -1) return false;
+                return true;
+            });
+
+            if (!urval.length) {
+                el.innerHTML = '<p class="text-muted">Inga kommentarer matchar filtret.</p>';
+                return;
+            }
+
+            el.innerHTML = urval.map(function (k, i) {
+                return '' +
+                    '<div class="card mb-2">' +
+                    '<div class="card-body py-3">' +
+                    '<div class="d-flex justify-content-between align-items-start">' +
+                    '<div><a href="' + esc(k.url) + '" target="_blank" rel="noopener" class="font-weight-bold">' +
+                    esc(k.titel) + '</a>' +
+                    '<div class="small text-muted">' + esc(k.kalla) +
+                    (k.forfattare ? ' &middot; ' + esc(k.forfattare) : '') +
+                    (k.publicerad ? ' &middot; ' + esc(k.publicerad) : '') +
+                    ' &middot; ' + k.ord + ' ord</div></div>' +
+                    '<span class="badge badge-' + tonKlass(k.ton.etikett) + '">' + esc(k.ton.etikett) + '</span>' +
+                    '</div>' +
+                    (k.fulltext ? '<a class="small d-inline-block mt-2" data-toggle="collapse" href="#txt' + i + '">Visa text</a>' +
+                        '<div class="collapse mt-2" id="txt' + i + '"><div class="kommentar-text bg-light p-2 rounded">' +
+                        esc(k.fulltext) + '</div></div>' : '') +
+                    '</div></div>';
+            }).join("");
+        }
+
+        Promise.all([hamta("kommentatorer.json"), hamta("latest_commentary.json"), hamta("dagsvy.json")])
+            .then(function (res) {
+                var komm = res[0], texter = res[1], dagar = res[2];
+                if (!komm && !texter) document.getElementById("saknas").classList.remove("d-none");
+
+                ritaKommentatorer(komm);
+                ritaDagsvy(dagar);
+
+                kommentarer = (texter && texter.kommentarer) || [];
+                document.getElementById("kpi-texter").textContent = kommentarer.length;
+                document.getElementById("uppdaterad").textContent =
+                    "Senast uppdaterad: " + ((texter && texter.hamtad) || (komm && komm.uppdaterad) || "okänt");
+
+                var kallor = [];
+                kommentarer.forEach(function (k) { if (kallor.indexOf(k.kalla) === -1) kallor.push(k.kalla); });
+                var sel = document.getElementById("filter-kalla");
+                kallor.sort().forEach(function (k) {
+                    var o = document.createElement("option");
+                    o.value = o.textContent = k;
+                    sel.appendChild(o);
+                });
+
+                ritaKommentarer();
+                ["sok", "filter-kalla", "filter-ton"].forEach(function (id) {
+                    document.getElementById(id).addEventListener("input", ritaKommentarer);
+                });
+            });
+    })();
+    </script>
+</body>
+
+</html>

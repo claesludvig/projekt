@@ -1,0 +1,142 @@
+{
+  "beskrivning": "Register over kallor som kommenterar OMXS30/Stockholmsborsen. Varje kalla har flera kandidat-URL:er; check_sources.py provar dem i ordning och skriver vilken som fungerar till data/sources_status.json.",
+  "sokfrasor_google_news": [
+    "OMXS30",
+    "Stockholmsborsen OMXS30",
+    "\"borsen idag\" Stockholmsborsen",
+    "storbolagsindex OMXS30",
+    "teknisk analys OMXS30"
+  ],
+  "kallor": [
+    {
+      "id": "placera",
+      "namn": "Placera (Avanza / Nyhetsbyran Direkt)",
+      "typ": "redaktion",
+      "forvantad_kadens": "flera ganger per borsdag",
+      "hemsida": "https://www.placera.se/",
+      "feeds": [
+        "https://www.placera.se/rss",
+        "https://www.placera.se/rss/nyheter",
+        "https://www.placera.se/feed",
+        "https://www.placera.se/rss.xml"
+      ],
+      "listningar": ["https://www.placera.se/nyheter"],
+      "lank_monster": "/nyheter/",
+      "not": "Publicerar Direkt-telegram av typen 'OMXS30-index ...' varje borsdag."
+    },
+    {
+      "id": "di",
+      "namn": "Dagens Industri",
+      "typ": "redaktion",
+      "forvantad_kadens": "flera ganger per borsdag",
+      "hemsida": "https://www.di.se/",
+      "feeds": [
+        "https://www.di.se/rss",
+        "https://www.di.se/rss/borsmarknad",
+        "https://www.di.se/rss/nyheter/"
+      ],
+      "listningar": ["https://www.di.se/bors/"],
+      "lank_monster": "/nyheter/",
+      "not": "Betalvagg pa merparten av texten; rubrik och ingress ar oftast oppna."
+    },
+    {
+      "id": "efn",
+      "namn": "EFN Ekonomikanalen",
+      "typ": "redaktion",
+      "forvantad_kadens": "daglig (Marknadsmorgon, Borslunch)",
+      "hemsida": "https://efn.se/",
+      "feeds": ["https://efn.se/feed/", "https://efn.se/rss", "https://efn.se/feed"],
+      "listningar": ["https://efn.se/bors/instrument/17921/omxs30/oversikt"],
+      "lank_monster": "/",
+      "not": "Mycket av innehallet ar video; textbeskrivningarna ar anda anvandbara."
+    },
+    {
+      "id": "nordnet-blogg",
+      "namn": "Nordnetbloggen",
+      "typ": "maklare",
+      "forvantad_kadens": "flera ganger per vecka",
+      "hemsida": "https://blogg.nordnet.se/",
+      "feeds": ["https://blogg.nordnet.se/feed/", "https://www.nordnet.se/blogg/feed/"],
+      "listningar": ["https://blogg.nordnet.se/"],
+      "lank_monster": "/",
+      "not": "Trading Direkt sands varje borsdag och sammanfattas ofta i bloggen."
+    },
+    {
+      "id": "borskollen",
+      "namn": "Borskollen",
+      "typ": "aggregator",
+      "forvantad_kadens": "daglig",
+      "hemsida": "https://www.borskollen.se/",
+      "feeds": ["https://www.borskollen.se/rss", "https://www.borskollen.se/feed", "https://www.borskollen.se/rss.xml"],
+      "listningar": ["https://www.borskollen.se/nyheter"],
+      "lank_monster": "/",
+      "not": "Aggregerar Finwire/MFN och egen redaktion."
+    },
+    {
+      "id": "swedbank-aktiellt",
+      "namn": "Swedbank Aktiellt (Teknisk Analys)",
+      "typ": "bank",
+      "forvantad_kadens": "veckovis teknisk analys, tatare marknadskommentar",
+      "hemsida": "https://www.swedbank-aktiellt.se/",
+      "feeds": ["https://www.swedbank-aktiellt.se/rss", "https://www.swedbank-aktiellt.se/feed"],
+      "listningar": ["https://www.swedbank-aktiellt.se/analyser/teknisk_analys/"],
+      "lank_monster": "/analyser/",
+      "not": "Har ett fast OMXS30-avsnitt i den tekniska analysen."
+    },
+    {
+      "id": "tekniskanalys-org",
+      "namn": "Tobbes veckobrev (tekniskanalys.org / BNP Paribas)",
+      "typ": "teknisk analys",
+      "forvantad_kadens": "veckovis",
+      "hemsida": "https://www.tekniskanalys.org/",
+      "feeds": ["https://www.tekniskanalys.org/feed/", "https://www.tekniskanalys.org/rss"],
+      "listningar": ["https://www.tekniskanalys.org/"],
+      "lank_monster": "/",
+      "not": "Rena nivaresonemang om OMXS30 (stod/motstand), bra som komplement till nyhetsfloden."
+    },
+    {
+      "id": "daytrading-se",
+      "namn": "Daytrading.se",
+      "typ": "teknisk analys",
+      "forvantad_kadens": "manadsvis/periodisk",
+      "hemsida": "https://www.daytrading.se/",
+      "feeds": ["https://www.daytrading.se/feed/"],
+      "listningar": ["https://www.daytrading.se/teknisk-analys-av-omxs30/"],
+      "lank_monster": "/",
+      "not": "Uppdaterad OMXS30-sida snarare an flode."
+    },
+    {
+      "id": "investtech",
+      "namn": "Investtech",
+      "typ": "teknisk analys",
+      "forvantad_kadens": "daglig (automatgenererad)",
+      "hemsida": "https://www.investtech.com/",
+      "feeds": [],
+      "listningar": ["https://www.investtech.com/main/market.php?CompanyID=46100009"],
+      "lank_monster": "/main/",
+      "not": "Automatgenererad teknisk analys av OMXS30 som uppdateras varje borsdag."
+    },
+    {
+      "id": "aktiespararna",
+      "namn": "Aktiespararna",
+      "typ": "organisation",
+      "forvantad_kadens": "daglig",
+      "hemsida": "https://www.aktiespararna.se/",
+      "feeds": ["https://www.aktiespararna.se/rss", "https://www.aktiespararna.se/analyser/rss"],
+      "listningar": ["https://www.aktiespararna.se/nyheter"],
+      "lank_monster": "/",
+      "not": ""
+    },
+    {
+      "id": "reddit-aktiemarknaden",
+      "namn": "r/aktiemarknaden (Reddit)",
+      "typ": "forum",
+      "forvantad_kadens": "daglig (dagens trad)",
+      "hemsida": "https://www.reddit.com/r/aktiemarknaden/",
+      "feeds": ["https://www.reddit.com/r/aktiemarknaden/new/.rss"],
+      "listningar": [],
+      "lank_monster": "/",
+      "not": "Sentiment fran privatsparare, inte professionell kommentar. Halls isar i granssnittet."
+    }
+  ]
+}
