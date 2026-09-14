@@ -1,0 +1,413 @@
+<title>Majoritet i Region Örebro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#F2F4F7; --surface:#FFFFFF; --surface-2:#E9EDF2; --line:#D5DCE5;
+    --ink:#101821; --muted:#5A6876; --accent:#2F4A6B; --track:#DBE1E9;
+    --shadow:0 1px 2px rgba(16,24,33,.06), 0 8px 24px -16px rgba(16,24,33,.35);
+    --r:10px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0D1218; --surface:#151C24; --surface-2:#1C242E; --line:#2A3540;
+      --ink:#E8EDF3; --muted:#93A2B1; --accent:#9CBEE4; --track:#232D38;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0D1218; --surface:#151C24; --surface-2:#1C242E; --line:#2A3540;
+    --ink:#E8EDF3; --muted:#93A2B1; --accent:#9CBEE4; --track:#232D38;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+    font-size:15px; line-height:1.5;
+    padding-block:28px 44px; padding-left:20px; padding-right:20px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px; margin:0 auto; display:flex; flex-direction:column; gap:24px}
+
+  h1,h2,h3,.display{font-family:"Archivo","Archivo Expanded",Helvetica,Arial,sans-serif; font-variation-settings:"wdth" 112; text-wrap:balance; margin:0}
+  h1{font-size:clamp(30px,5.2vw,46px); font-weight:800; letter-spacing:-.015em; line-height:1.02}
+  .eyebrow{font-size:11.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:0 0 10px}
+  .lede{color:var(--muted); max-width:62ch; margin:10px 0 0; font-size:15.5px}
+
+  .panels{display:grid; grid-template-columns:minmax(0,1.12fr) minmax(300px,.88fr); gap:20px; align-items:start}
+  @media (max-width:860px){ .panels{grid-template-columns:1fr} }
+
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r); box-shadow:var(--shadow)}
+  .card > .pad{padding:18px}
+  .card-title{font-size:12px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:0 0 14px}
+
+  /* --- halvcirkel --- */
+  .arc{position:relative}
+  .arc svg{display:block; width:100%; height:auto}
+  .readout{position:absolute; left:0; right:0; bottom:2%; text-align:center; pointer-events:none}
+  .readout .count{font-family:"Archivo",sans-serif; font-variation-settings:"wdth" 125; font-weight:800;
+    font-size:clamp(38px,9vw,60px); line-height:.92; letter-spacing:-.02em; font-variant-numeric:tabular-nums}
+  .readout .of{color:var(--muted); font-weight:500}
+  .readout .state{margin-top:6px; font-size:13px; color:var(--muted)}
+  .readout .state b{color:var(--ink)}
+
+  /* --- majoritetsmätare --- */
+  .meter-head{display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:26px}
+  .pill{display:inline-flex; align-items:center; gap:8px; font-size:12.5px; font-weight:600;
+    padding:5px 11px; border-radius:999px; border:1px solid var(--line); color:var(--muted); background:var(--surface-2)}
+  .pill.on{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+  .meter{position:relative; height:30px}
+  .track{position:absolute; inset:0; display:flex; gap:1px; background:var(--track); border-radius:5px; overflow:hidden}
+  .track i{display:block; height:100%}
+  .thresh{position:absolute; top:-24px; bottom:-6px; left:50.70%; width:0; border-left:2px dashed var(--muted)}
+  .thresh.on{border-left-style:solid; border-color:var(--ink)}
+  .thresh span{position:absolute; top:-2px; left:0; transform:translateX(-50%); white-space:nowrap;
+    font-size:11px; font-weight:600; letter-spacing:.04em; color:var(--muted); background:var(--surface); padding:0 6px}
+  .thresh.on span{color:var(--ink)}
+  .meter-foot{margin-top:14px; font-size:13px; color:var(--muted)}
+  .meter-foot b{color:var(--ink); font-weight:600}
+
+  /* --- partichips --- */
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(146px,1fr)); gap:9px}
+  .chip{position:relative}
+  .chip .pick{
+    width:100%; text-align:left; cursor:pointer; font:inherit; color:var(--ink);
+    background:var(--surface); border:1px solid var(--line); border-radius:8px;
+    padding:9px 34px 9px 10px; display:flex; align-items:center; gap:9px;
+    transition:border-color .12s, background .12s, transform .08s;
+  }
+  .chip .pick:hover{border-color:var(--muted)}
+  .chip .pick:active{transform:translateY(1px)}
+  .tag{flex:none; width:34px; height:26px; border-radius:5px; display:grid; place-items:center;
+    font-family:"Archivo",sans-serif; font-variation-settings:"wdth" 100; font-weight:800; font-size:12.5px; letter-spacing:.02em}
+  .nums{display:flex; flex-direction:column; line-height:1.15; min-width:0}
+  .nums .s{white-space:nowrap; font-weight:600; font-variant-numeric:tabular-nums; font-size:15px}
+  .nums .d{font-size:11.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+  .chip[data-on="1"] .pick{background:var(--surface-2); border-color:var(--ink); box-shadow:inset 3px 0 0 var(--pc)}
+  .chip[data-out="1"] .pick{opacity:.42}
+  .chip[data-out="1"] .tag{filter:grayscale(1)}
+  .ban{position:absolute; top:6px; right:6px; width:22px; height:22px; border-radius:5px; cursor:pointer;
+    border:1px solid transparent; background:transparent; color:var(--muted); font:inherit; font-size:13px; line-height:1; padding:0}
+  .ban:hover{border-color:var(--line); color:var(--ink)}
+  .chip[data-out="1"] .ban{color:var(--ink); opacity:1; border-color:var(--line); background:var(--surface-2)}
+
+  .presets{display:flex; flex-wrap:wrap; gap:7px; margin-top:14px}
+  .preset{font:inherit; font-size:12.5px; cursor:pointer; background:transparent; color:var(--ink);
+    border:1px solid var(--line); border-radius:999px; padding:5px 12px}
+  .preset:hover{border-color:var(--muted); background:var(--surface-2)}
+
+  /* --- förslagslista --- */
+  .list{display:flex; flex-direction:column; gap:6px}
+  .opt{display:flex; align-items:center; justify-content:space-between; gap:12px; width:100%; cursor:pointer;
+    font:inherit; color:var(--ink); text-align:left; background:var(--surface); border:1px solid var(--line);
+    border-radius:8px; padding:9px 12px}
+  .opt:hover{border-color:var(--muted); background:var(--surface-2)}
+  .opt .plus{flex:none; color:var(--muted); font-weight:600; font-size:13px}
+  .opt .badges{display:flex; flex-wrap:wrap; gap:5px; min-width:0}
+  .badge{font-family:"Archivo",sans-serif; font-variation-settings:"wdth" 100; font-weight:700; font-size:11.5px;
+    padding:3px 7px; border-radius:4px}
+  .opt .res{flex:none; text-align:right; font-variant-numeric:tabular-nums; font-size:13px; color:var(--muted)}
+  .opt .res b{display:block; font-size:16px; color:var(--ink); font-weight:600}
+  .note{font-size:13.5px; color:var(--muted); margin:0}
+  .note b{color:var(--ink); font-weight:600}
+  .more{margin-top:10px}
+  .stat{font-size:12.5px; color:var(--muted); margin:14px 0 0; padding-top:12px; border-top:1px solid var(--line)}
+  .stat b{color:var(--ink); font-variant-numeric:tabular-nums}
+
+  footer{font-size:12.5px; color:var(--muted); line-height:1.65; border-top:1px solid var(--line); padding-top:16px}
+  footer p{margin:0 0 6px; max-width:78ch}
+
+  :is(button):focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+  @media (prefers-reduced-motion:reduce){ *{transition:none !important} }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Valet 2026 · Region Örebro län · preliminärt resultat</p>
+    <h1>Majoritet i Region Örebro</h1>
+    <p class="lede">Regionfullmäktige har 71 mandat. Det krävs 36 för egen majoritet. Klicka ihop partier och se vad som går ihop — och vad som inte gör det.</p>
+  </header>
+
+  <div class="panels">
+    <section class="card">
+      <div class="pad">
+        <h2 class="card-title">Din kombination</h2>
+        <div class="arc">
+          <svg id="hemi" viewBox="0 0 800 418" role="img" aria-label="Halvcirkel över de 71 mandaten i regionfullmäktige"></svg>
+          <div class="readout">
+            <div class="count"><span id="sum">0</span><span class="of">/71</span></div>
+            <div class="state" id="state">Inga partier valda</div>
+          </div>
+        </div>
+
+        <div class="meter-head">
+          <span class="pill" id="pill">Under majoritet</span>
+          <span class="note" id="parts"></span>
+        </div>
+        <div class="meter">
+          <div class="track" id="track"></div>
+          <div class="thresh" id="thresh"><span>36 = majoritet</span></div>
+        </div>
+        <p class="meter-foot" id="foot"></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="pad">
+        <h2 class="card-title">Partier · mandat och förändring</h2>
+        <div class="grid" id="chips"></div>
+        <div class="presets" id="presets"></div>
+        <p class="stat">Klicka på partiet för att lägga till det. Klicka på <b>⊘</b> för att utesluta det ur förslagen nedan.</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="card">
+    <div class="pad">
+      <h2 class="card-title" id="sugTitle">Så når du 36</h2>
+      <p class="note" id="sugLede"></p>
+      <div class="list" id="sug" style="margin-top:14px"></div>
+      <button class="preset more" id="more" hidden>Visa alla</button>
+      <p class="stat" id="globalStat"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Mandat enligt Valmyndighetens preliminära resultat (204 av 217 valdistrikt räknade). Siffran under varje parti är förändringen mot föregående val.</p>
+    <p>Halvcirkeln följer vedertagen vänster–högerordning. Örebropartiet placeras sist av utrymmesskäl, inte som en blockmarkering. Verktyget räknar mandat — inget annat. Att en kombination summerar till 36 säger ingenting om partierna vill, kan eller tänker samarbeta.</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var TOTAL = 71, NEED = 36;
+  var P = [
+    {id:"V",   name:"Vänsterpartiet",       seats:6,  chg:0,  color:"#A61231", fg:"#fff"},
+    {id:"S",   name:"Socialdemokraterna",   seats:21, chg:-3, color:"#E1112B", fg:"#fff"},
+    {id:"MP",  name:"Miljöpartiet",         seats:3,  chg:3,  color:"#83CF39", fg:"#10210a"},
+    {id:"C",   name:"Centerpartiet",        seats:4,  chg:-1, color:"#00874F", fg:"#fff"},
+    {id:"L",   name:"Liberalerna",          seats:3,  chg:0,  color:"#7CBDE8", fg:"#0b2233"},
+    {id:"KD",  name:"Kristdemokraterna",    seats:4,  chg:-1, color:"#2D6CB0", fg:"#fff"},
+    {id:"M",   name:"Moderaterna",          seats:13, chg:-1, color:"#0B4EA2", fg:"#fff"},
+    {id:"SD",  name:"Sverigedemokraterna",  seats:6,  chg:-5, color:"#E4CE05", fg:"#231f00"},
+    {id:"ÖrP", name:"Örebropartiet",        seats:11, chg:8,  color:"#7C8894", fg:"#fff"}
+  ];
+  var N = P.length, seatsOf = P.map(function(p){return p.seats;});
+  var sel = 0, out = 0, showAll = false;
+
+  var bit = function(i){ return 1 << i; };
+  var has = function(m,i){ return (m & bit(i)) !== 0; };
+  function sumMask(m){ var s=0; for (var i=0;i<N;i++) if (has(m,i)) s += seatsOf[i]; return s; }
+  function members(m){ var a=[]; for (var i=0;i<N;i++) if (has(m,i)) a.push(i); return a; }
+
+  /* ---- halvcirkel: platser fördelas radvis och tilldelas parti för parti längs bågen ---- */
+  var svg = document.getElementById("hemi");
+  var NS = "http://www.w3.org/2000/svg";
+  var seatEls = [];
+  (function buildArc(){
+    var cx=400, cy=382, rIn=206, rOut=344, rows=4, radii=[], w=0, i, r;
+    for (i=0;i<rows;i++){ r = rIn + (rOut-rIn)*i/(rows-1); radii.push(r); w += r; }
+    var counts = radii.map(function(rr){ return Math.floor(TOTAL*rr/w); });
+    var rest = TOTAL - counts.reduce(function(a,b){return a+b;},0);
+    for (i=rows-1; rest>0; i=(i-1+rows)%rows){ counts[i]++; rest--; }
+    var pts = [];
+    radii.forEach(function(rr, ri){
+      var n = counts[ri];
+      for (var k=0;k<n;k++){
+        var t = (k + 0.5) / n;               // 0 = vänster, 1 = höger
+        var ang = Math.PI * (1 - t);
+        pts.push({a:t, r:rr, x:cx + rr*Math.cos(ang), y:cy - rr*Math.sin(ang)});
+      }
+    });
+    pts.sort(function(u,v){ return (u.a - v.a) || (u.r - v.r); });
+    var idx = 0;
+    P.forEach(function(p, pi){
+      for (var k=0;k<p.seats;k++){
+        var pt = pts[idx++], c = document.createElementNS(NS,"circle");
+        c.setAttribute("cx", pt.x.toFixed(1)); c.setAttribute("cy", pt.y.toFixed(1));
+        c.setAttribute("r", "10.5"); c.setAttribute("fill", p.color);
+        c.setAttribute("stroke", p.color); c.setAttribute("stroke-width","1.5");
+        c.dataset.party = String(pi);
+        svg.appendChild(c); seatEls.push(c);
+      }
+    });
+  })();
+
+  /* ---- partichips ---- */
+  var chipsEl = document.getElementById("chips");
+  P.forEach(function(p, i){
+    var d = document.createElement("div");
+    d.className = "chip"; d.style.setProperty("--pc", p.color); d.dataset.i = String(i);
+    d.innerHTML =
+      '<button class="pick" id="pick-'+i+'" type="button" aria-pressed="false">' +
+        '<span class="tag" style="background:'+p.color+';color:'+p.fg+'">'+p.id+'</span>' +
+        '<span class="nums"><span class="s">'+p.seats+' mandat</span>' +
+        '<span class="d">'+(p.chg>0?"+"+p.chg:(p.chg<0?String(p.chg):"±0"))+'</span></span>' +
+      '</button>' +
+      '<button class="ban" id="ban-'+i+'" type="button" title="Uteslut '+p.name+'" aria-label="Uteslut '+p.name+' ur förslagen">⊘</button>';
+    chipsEl.appendChild(d);
+    d.querySelector(".pick").addEventListener("click", function(){
+      sel ^= bit(i); if (has(sel,i)) out &= ~bit(i); showAll=false; render();
+    });
+    d.querySelector(".ban").addEventListener("click", function(){
+      out ^= bit(i); if (has(out,i)) sel &= ~bit(i); showAll=false; render();
+    });
+  });
+
+  var IDX = {}; P.forEach(function(p,i){ IDX[p.id]=i; });
+  function mask(ids){ var m=0; ids.forEach(function(id){ m |= bit(IDX[id]); }); return m; }
+  var PRESETS = [
+    {label:"Rödgrönt", ids:["S","V","MP"]},
+    {label:"Borgerligt", ids:["M","C","KD","L"]},
+    {label:"S + M", ids:["S","M"]},
+    {label:"Alla utom SD", ids:["V","S","MP","C","L","KD","M","ÖrP"]},
+    {label:"Rensa", ids:[]}
+  ];
+  var presetEl = document.getElementById("presets");
+  PRESETS.forEach(function(pre){
+    var b = document.createElement("button");
+    b.className="preset"; b.type="button"; b.textContent = pre.label;
+    b.addEventListener("click", function(){ sel = mask(pre.ids); out = 0; showAll=false; render(); });
+    presetEl.appendChild(b);
+  });
+
+  /* ---- minimala tillskott: vilka partier som saknas för att nå 36 ---- */
+  function suggestions(base, banned){
+    var baseSeats = sumMask(base), cand = [];
+    for (var i=0;i<N;i++) if (!has(base,i) && !has(banned,i)) cand.push(i);
+    var res = [], lim = 1 << cand.length;
+    for (var m=0;m<lim;m++){
+      var add = 0, s = baseSeats;
+      for (var k=0;k<cand.length;k++) if (m & (1<<k)) { add |= bit(cand[k]); s += seatsOf[cand[k]]; }
+      if (s < NEED) continue;
+      var minimal = true, mem = members(add);
+      for (var j=0;j<mem.length;j++) if (s - seatsOf[mem[j]] >= NEED) { minimal = false; break; }
+      if (minimal) res.push({add:add, total:s, n:mem.length});
+    }
+    res.sort(function(a,b){ return (a.n - b.n) || (a.total - b.total); });
+    return res;
+  }
+  var GLOBAL_MIN = suggestions(0,0).length;
+
+  /* ---- rendering ---- */
+  var sumEl=document.getElementById("sum"), stateEl=document.getElementById("state"),
+      pillEl=document.getElementById("pill"), trackEl=document.getElementById("track"),
+      threshEl=document.getElementById("thresh"), footEl=document.getElementById("foot"),
+      partsEl=document.getElementById("parts"), sugEl=document.getElementById("sug"),
+      sugTitle=document.getElementById("sugTitle"), sugLede=document.getElementById("sugLede"),
+      moreEl=document.getElementById("more"), statEl=document.getElementById("globalStat");
+
+  function badge(i){
+    var p=P[i];
+    return '<span class="badge" style="background:'+p.color+';color:'+p.fg+'">'+p.id+'</span>';
+  }
+  function namesOf(m){ return members(m).map(function(i){ return P[i].id; }).join(" + "); }
+
+  function render(){
+    var total = sumMask(sel), win = total >= NEED, mem = members(sel);
+
+    seatEls.forEach(function(c){
+      var i = +c.dataset.party, on = has(sel,i);
+      c.setAttribute("fill-opacity", on ? "1" : "0.13");
+      c.setAttribute("stroke-opacity", on ? "1" : (has(out,i) ? "0.18" : "0.42"));
+    });
+
+    document.querySelectorAll(".chip").forEach(function(d){
+      var i = +d.dataset.i;
+      d.dataset.on = has(sel,i) ? "1" : "0";
+      d.dataset.out = has(out,i) ? "1" : "0";
+      d.querySelector(".pick").setAttribute("aria-pressed", has(sel,i) ? "true" : "false");
+    });
+
+    sumEl.textContent = total;
+    stateEl.innerHTML = mem.length
+      ? (win ? "<b>Majoritet</b> — " + (total-NEED) + " mandat över gränsen"
+             : "<b>" + (NEED-total) + "</b> mandat saknas")
+      : "Inga partier valda";
+    partsEl.textContent = mem.length ? namesOf(sel) : "";
+
+    pillEl.textContent = win ? "Majoritet · " + total + " av 71" : "Under majoritet · " + total + " av 71";
+    pillEl.classList.toggle("on", win);
+    threshEl.classList.toggle("on", win);
+
+    trackEl.innerHTML = "";
+    mem.forEach(function(i){
+      var s = document.createElement("i");
+      s.style.width = (seatsOf[i]/TOTAL*100) + "%";
+      s.style.background = P[i].color;
+      s.title = P[i].name + ": " + seatsOf[i] + " mandat";
+      trackEl.appendChild(s);
+    });
+
+    if (win){
+      var spare = mem.filter(function(i){ return total - seatsOf[i] >= NEED; });
+      footEl.innerHTML = spare.length
+        ? "Kan lämna utan att majoriteten faller: <b>" + spare.map(function(i){return P[i].id;}).join(", ") + "</b>."
+        : "Ingen kan lämna — <b>varje parti behövs</b> för de 36.";
+    } else if (mem.length){
+      footEl.innerHTML = "Störst parti utanför: <b>" + (function(){
+        var best=-1; for (var i=0;i<N;i++) if (!has(sel,i) && (best<0 || seatsOf[i]>seatsOf[best])) best=i;
+        return P[best].id + " (" + seatsOf[best] + ")";
+      })() + "</b>.";
+    } else {
+      footEl.innerHTML = "Alla 71 mandat ligger kvar i tracket tills du väljer.";
+    }
+
+    var list = suggestions(sel, out);
+    if (win){
+      sugTitle.textContent = "Andra vägar till 36";
+      sugLede.innerHTML = "Du är redan över gränsen. Listan visar minimala majoriteter i hela fullmäktige" +
+        (out ? " — utan " + namesOf(out) + "." : ".");
+      list = suggestions(0, out);
+    } else {
+      sugTitle.textContent = "Så når du 36";
+      sugLede.innerHTML = mem.length
+        ? "Minsta tillskott som tar <b>" + namesOf(sel) + "</b> till majoritet" + (out ? ", utan " + namesOf(out) + "." : ".")
+        : "Alla minimala majoriteter i fullmäktige" + (out ? " utan " + namesOf(out) + "." : " — kombinationer där inget parti kan strykas.");
+    }
+
+    sugEl.innerHTML = "";
+    if (!list.length){
+      var e = document.createElement("p");
+      e.className = "note";
+      e.textContent = "Ingen kombination når 36 med de villkoren.";
+      sugEl.appendChild(e);
+      moreEl.hidden = true;
+    } else {
+      var shown = showAll ? list : list.slice(0, 10);
+      shown.forEach(function(o){
+        var target = win ? o.add : (sel | o.add);
+        var b = document.createElement("button");
+        b.type="button"; b.className="opt";
+        b.innerHTML = '<span class="badges">' + (win ? "" : '<span class="plus">+</span>') +
+          members(o.add).map(badge).join("") + '</span>' +
+          '<span class="res"><b>' + o.total + '</b>+' + (o.total-NEED) + ' över 36</span>';
+        b.addEventListener("click", function(){ sel = target; showAll=false; render(); });
+        sugEl.appendChild(b);
+      });
+      moreEl.hidden = list.length <= 10;
+      moreEl.textContent = showAll ? "Visa färre" : "Visa alla " + list.length;
+    }
+
+    statEl.innerHTML = "Av 512 tänkbara partikombinationer är <b>" + GLOBAL_MIN +
+      "</b> minimala majoriteter — kombinationer på minst 36 mandat där varje parti behövs.";
+
+    if (window.claude && window.claude.hot && window.claude.hot.snapshot) {
+      window.claude.hot.snapshot({sel:sel, out:out});
+    }
+  }
+  moreEl.addEventListener("click", function(){ showAll = !showAll; render(); });
+
+  function start(state){
+    if (state && typeof state.sel === "number"){ sel = state.sel; out = state.out || 0; }
+    else { sel = mask(["S","V","MP"]); }
+    render();
+  }
+  var hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+})();
+</script>
