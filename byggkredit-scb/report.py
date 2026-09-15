@@ -136,10 +136,14 @@ def rita(df: pd.DataFrame, path: Path) -> None:
                                       "Utbud eller efterfrågan?",
                                       "Kreditflödets årstakt minus byggandets, "
                                       "procentenheter · negativt = åtstramning"),
-        lambda ax: panel_linje(ax, df, "spread_fastighet_bostader",
-                               "Räntespread mot styrräntan",
-                               "Utlåningsränta fastighet – bostäder, procentenheter",
-                               farg=SERIE_2),
+        lambda ax: (panel_linje(ax, df, "spread_fastighet_bostader",
+                                "Räntespread mot styrräntan",
+                                "Utlåningsränta fastighet – bostäder, procentenheter",
+                                farg=SERIE_2)
+                    or panel_linje(ax, df, "relativ_ranta_fastighet_bostader",
+                                   "Ränta mot branschgenomsnittet",
+                                   "Fastighet – bostäder minus samtliga branscher, "
+                                   "procentenheter", farg=SERIE_2, nolllinje=True)),
         lambda ax: panel_linje(ax, df, "bredd_antal_lantagare_yoy",
                                "Kreditgivningens bredd",
                                "Antal låntagande företag, årlig förändring i procent",
@@ -198,6 +202,7 @@ def skriv_rapport(df: pd.DataFrame, path: Path) -> None:
         "kredit_per_pabörjad_real": "Kredit per påbörjad lägenhet, real",
         "gap_kredit_minus_byggande": "Gap kredit minus byggande (p.e.)",
         "spread_fastighet_bostader": "Räntespread, fastighet – bostäder (p.e.)",
+        "relativ_ranta_fastighet_bostader": "Ränta mot branschsnitt, fastighet – bostäder (p.e.)",
         "bredd_antal_lantagare_yoy": "Antal låntagare, årstakt (%)",
         "byggkreditindikator": "Byggkreditindikator (z)",
     }

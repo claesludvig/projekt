@@ -58,11 +58,19 @@ class SeriesSpec:
 # koncernen faktiskt verkar i. Bostadsrättsföreningar är undantaget — de
 # identifieras på juridisk form och är därmed den enda helt rena avgränsningen
 # i hela uppsättningen.
+# Etiketterna är numrerade och kortare än man tror: "1.2 Fastighet - Bostäder",
+# "1.3 Bostadsrättsföreningar", "1.7 Bygg". Det finns alltså ingen
+# "Byggverksamhet" att matcha på — bara "Bygg".
+#
+# Totalen hämtas med, inte för att summeras in i flödena (kategorimönstren i
+# indicators.py plockar aldrig upp den) utan för att räntan mot samtliga
+# branscher är den referens som visar om just bostadssidan särbehandlas.
 KRITA_BRANSCHER = (
     r"[Bb]ostadsr",
     r"[Ff]astighet.*[Bb]ost",
     r"[Ff]astighet.*(kontor|lokal)",
-    r"[Bb]yggverksamhet|[Bb]yggindustri",
+    r"[Bb]ygg\b",
+    r"[Tt]otalt, samtliga",
 )
 
 SPECS: list[SeriesSpec] = [
@@ -86,8 +94,11 @@ SPECS: list[SeriesSpec] = [
         label="MFI:s utlåning till hushåll med bostad som säkerhet",
         role="kredit",
         root="FM/FM5001",
-        table=r"utlåning till hushåll.*säkerhet",
-        picks=((r"säkerhet|ändamål", (r"[Ss]måhus", r"[Bb]ostadsrätt", r"[Ää]garlägenhet")),),
+        table=r"Utestående avtal efter MFI, motpart och säkerhet",
+        picks=(
+            (r"motpart", (r"[Hh]ushåll",)),
+            (r"säkerhet", (r"[Ss]måhus", r"[Bb]ostadsrätt", r"[Ää]garlägenhet")),
+        ),
         note="Efterfrågesidan. OBS att SCB inte samlar in lånets ändamål utan "
              "approximerar med panten — blancolån som finansierar bostadsköp "
              "saknas därför helt i serien.",
@@ -97,7 +108,7 @@ SPECS: list[SeriesSpec] = [
         label="Emitterade räntebärande värdepapper, icke-finansiella företag",
         role="kredit",
         root="FM",
-        table=r"[Ee]mitterade värdepapper.*(sektor|emittent)|räntebärande värdepapper.*sektor",
+        table=r"Utestående och emitterat belopp under månaden samt räntekostnader",
         picks=((r"sektor|emittent", (r"[Ii]cke-finansiella",)),),
         note="Fastighetsbolagen är tungt överrepresenterade på den svenska "
              "företagsobligationsmarknaden. Utan det här benet underskattas "
@@ -126,6 +137,10 @@ SPECS: list[SeriesSpec] = [
     ),
 
     # ---------- lager 3: pris ----------
+    # Styrräntan finns inte i SSD — SCB publicerar den inte, den är Riksbankens.
+    # Den hämtas i stället från SWEA (se riksbank.py). Utöver den absoluta
+    # spreaden beräknar indicators.py en relativ ränta mot KRITA:s egen total,
+    # som fungerar även när SWEA inte svarar.
     SeriesSpec(
         key="krita_ranta",
         label="Utlåningsränta till icke-finansiella företag per bransch",
@@ -139,16 +154,6 @@ SPECS: list[SeriesSpec] = [
         note="Ställs mot styrräntan i indicators.py. Spreaden är det snabbaste "
              "måttet på åtstramning som finns i offentlig statistik.",
     ),
-    SeriesSpec(
-        key="styrranta",
-        label="Reporänta / policyränta",
-        role="pris",
-        root="FM",
-        table=r"[Rr]eporänta|[Ss]tyrränta|[Pp]olicyränta",
-        note="Referens för kreditspreaden. Riksbankens eget SWEA-API är "
-             "förstahandskällan; den här tabellen är reserven.",
-    ),
-
     # ---------- lager 4: bredd ----------
     SeriesSpec(
         key="krita_antal",

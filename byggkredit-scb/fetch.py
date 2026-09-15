@@ -19,6 +19,7 @@ import sys
 import pandas as pd
 
 import pxweb
+import riksbank
 import sources
 
 DATA = Path(__file__).resolve().parent / "data"
@@ -65,12 +66,32 @@ def build_selection(client: pxweb.PxWebClient, spec: sources.SeriesSpec, meta: d
             # Variabeln kan utelämnas, vilket ger SCB:s eget totalvärde. Det är
             # det vi vill ha för t.ex. storleksklass — summan över alla klasser.
             continue
-        # Icke-eliminerbar variabel måste anges. Vi tar alla värden och låter
-        # granskningsloggen visa att det skedde, så att en oväntad dimension
-        # inte tyst multiplicerar upp serien.
-        selections[var["code"]] = list(var["values"])
-        labels[var["code"]] = list(var["valueTexts"])
+        # Icke-eliminerbar variabel måste anges. Finns ett totalvärde tar vi
+        # det; annars alla. Skillnaden är inte kosmetisk — hämtar man både
+        # "Totalt" och de enskilda storleksklasserna summerar indicators.py
+        # ihop dem till ungefär det dubbla, och felet syns inte på en graf som
+        # ändå saknar absolut referens.
+        total = _totalvarde(var)
+        if total is not None:
+            kod, etikett = total
+            selections[var["code"]] = [kod]
+            labels[var["code"]] = [etikett]
+        else:
+            selections[var["code"]] = list(var["values"])
+            labels[var["code"]] = list(var["valueTexts"])
     return selections, labels
+
+
+def _totalvarde(var: dict) -> tuple[str, str] | None:
+    """Hittar variabelns eget totalvärde, om det finns. SCB stavar det olika
+    mellan produkter ('Totalt', 'Samtliga', 'Alla MFI', '1. Totalt, samtliga
+    branscher'), så matchningen är medvetet generös."""
+    rx = re.compile(r"\b(totalt?|samtliga|alla)\b", re.IGNORECASE)
+    traffar = [(kod, text) for kod, text in zip(var["values"], var["valueTexts"])
+               if rx.search(text)]
+    # Flera träffar betyder att mönstret fångat något annat än ett totalvärde;
+    # då är det säkrare att hämta allt och låta granskningsloggen visa det.
+    return traffar[0] if len(traffar) == 1 else None
 
 
 def tidy(frame: pd.DataFrame, spec: sources.SeriesSpec, time_code: str) -> pd.DataFrame:
@@ -163,6 +184,21 @@ def main() -> None:
         if frame is not None:
             frame.to_csv(RAW / f"{spec.key}.csv", index=False)
             frames.append(frame)
+
+    # Styrräntan ligger utanför SSD och hämtas från Riksbanken. Den behandlas
+    # som vilken serie som helst i utdatan, men får falla utan att stoppa
+    # körningen — indicators.py räknar en relativ ränta mot KRITA:s egen total
+    # när den absoluta spreaden saknas.
+    if (wanted is None or "styrranta" in wanted) and not args.dry_run:
+        try:
+            swea = riksbank.som_tidig_tabell(args.since)
+        except Exception as exc:
+            failures.append(f"styrranta: {exc}")
+            print(f"[MISS] styrranta (Riksbanken): {exc}", file=sys.stderr)
+        else:
+            swea.to_csv(RAW / "styrranta.csv", index=False)
+            frames.append(swea)
+            print(f"[OK]   styrranta -> Riksbanken SWEA ({len(swea)} månader)")
 
     RESOLUTION_PATH.write_text(json.dumps(resolutions, ensure_ascii=False, indent=2))
     if frames:

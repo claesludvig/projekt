@@ -151,11 +151,22 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
 
     # --- steg 3: pris och bredd ---
     styrranta = to_quarterly(pick(frame, "styrranta"), "last")
+    # Räntan mot samtliga branscher. Den relativa räntan mot den här totalen
+    # svarar på en annan fråga än spreaden mot styrräntan: inte "hur dyrt är
+    # det" utan "särbehandlas bostadssidan". Den finns dessutom kvar när
+    # Riksbankens API inte svarar, eftersom den kommer ur samma KRITA-uttag.
+    ranta_totalt = to_quarterly(
+        pick(frame, "krita_ranta", kategori=r"[Tt]otalt, samtliga"), "last")
+
     for etikett, monster in (("brf", r"bostadsr"), ("fastighet_bostader", r"fastighet.*bost")):
         ranta = to_quarterly(pick(frame, "krita_ranta", kategori=monster), "last")
         out[f"ranta_{etikett}"] = ranta
-        if not styrranta.empty and not ranta.empty:
+        if ranta.empty:
+            continue
+        if not styrranta.empty:
             out[f"spread_{etikett}"] = ranta - styrranta.reindex(ranta.index).ffill()
+        if not ranta_totalt.empty:
+            out[f"relativ_ranta_{etikett}"] = ranta - ranta_totalt.reindex(ranta.index).ffill()
 
     antal = pick(frame, "krita_antal", kategori=r"fastighet.*bost|bostadsr")
     if not antal.empty:
@@ -173,10 +184,16 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
     komponenter = {
         "kredit_per_pabörjad_real": 1,
         "gap_kredit_minus_byggande": 1,
-        "spread_fastighet_bostader": -1,
         "bredd_antal_lantagare_yoy": 1,
         "ki_finansiella_hinder": -1,
     }
+    # Prisbenet får bara väga in en gång. Spreaden mot styrräntan är det bättre
+    # måttet; den relativa räntan mot branschtotalen är reserven när
+    # Riksbankens serie saknas. Att ta med båda hade dubbelviktat samma signal.
+    for prismatt in ("spread_fastighet_bostader", "relativ_ranta_fastighet_bostader"):
+        if prismatt in result and result[prismatt].notna().any():
+            komponenter[prismatt] = -1
+            break
     z = pd.DataFrame({
         namn: zscore(result[namn]) * tecken
         for namn, tecken in komponenter.items() if namn in result
