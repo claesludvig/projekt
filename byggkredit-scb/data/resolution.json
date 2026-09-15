@@ -1,0 +1,180 @@
+{
+  "krita_volym": {
+    "label": "MFI:s utlåning till icke-finansiella företag, utestående belopp per bransch",
+    "roll": "kredit",
+    "note": "Stock, månad. Differentieras till flöde i indicators.py. Innehåller omvärderingar och omklassificeringar som SCB inte rensar bort — till skillnad från hushållsserien, som publiceras även som transaktioner.",
+    "table_path": "FM/FM0002/KRITApubl1",
+    "table_title": "Monetära finansinstitutens (MFI), utlåning till icke-finansiella företag efter bransch och storleksklass. Månad 2019M07 - 2026M07",
+    "selections": {
+      "BranschKrita": [
+        "3",
+        "2",
+        "1",
+        "7",
+        "0"
+      ],
+      "ContentsCode": [
+        "000003FO"
+      ]
+    },
+    "selection_labels": {
+      "BranschKrita": [
+        "1.3 Bostadsrättsföreningar",
+        "1.2 Fastighet - Bostäder",
+        "1.1 Fastighet - Kontor, lokaler m.m.",
+        "1.7 Bygg",
+        "1. Totalt, samtliga branscher"
+      ],
+      "ContentsCode": [
+        "Utestående lånebelopp, mnkr"
+      ]
+    }
+  },
+  "hushall_bolan": {
+    "label": "MFI:s utlåning till hushåll med bostad som säkerhet",
+    "roll": "kredit",
+    "note": "Efterfrågesidan. OBS att SCB inte samlar in lånets ändamål utan approximerar med panten — blancolån som finansierar bostadsköp saknas därför helt i serien.",
+    "table_path": "FM/FM5001/FM5001A/FM5001Sakerhet",
+    "table_title": "Utestående avtal efter MFI, motpart och säkerhet. Månad 2001M12 - 2026M07",
+    "selections": {
+      "Motpartssektor": [
+        "10"
+      ],
+      "MFIsakerhet": [
+        "20",
+        "40",
+        "30"
+      ],
+      "MFI": [
+        "1.1"
+      ],
+      "ContentsCode": [
+        "000007DZ"
+      ]
+    },
+    "selection_labels": {
+      "Motpartssektor": [
+        "hushåll"
+      ],
+      "MFIsakerhet": [
+        "småhus",
+        "bostadsrätter",
+        "ägarlägenheter"
+      ],
+      "MFI": [
+        "MFI"
+      ],
+      "ContentsCode": [
+        "Utestående avtal, mnkr"
+      ]
+    }
+  },
+  "emitterat": {
+    "label": "Emitterade räntebärande värdepapper, icke-finansiella företag",
+    "roll": "kredit",
+    "note": "Fastighetsbolagen är tungt överrepresenterade på den svenska företagsobligationsmarknaden. Utan det här benet underskattas kreditflödet till sektorn kraftigt från mitten av 2010-talet.",
+    "table_path": "FM/FM9998/FM9998A/FM9998T03N",
+    "table_title": "Utestående och emitterat belopp under månaden samt räntekostnader. Månad 2013M03 - 2026M07",
+    "selections": {
+      "Sektor": [
+        "355"
+      ],
+      "ContentsCode": [
+        "000007QS"
+      ]
+    },
+    "selection_labels": {
+      "Sektor": [
+        "Icke-finansiell"
+      ],
+      "ContentsCode": [
+        "Räntekostnad samtliga utestående , procent"
+      ]
+    }
+  },
+  "byggkostnad": {
+    "label": "Byggkostnadsindex för bostadshus",
+    "roll": "namnare",
+    "note": "Deflator för kredit per lägenhet. Utan den går stigande kostnadsläge inte att skilja från stigande belåningsgrad.",
+    "table_path": "PR/PR0502/PR0502A/BKIMAM",
+    "table_title": "Byggkostnadsindex (BKI) för flerbostadshus exkl. moms, 1968=100 efter varuslag Månad 2000M01 - 2026M08",
+    "selections": {
+      "Byggnadsmaterial": [
+        "BTOT"
+      ],
+      "ContentsCode": [
+        "000006JY"
+      ]
+    },
+    "selection_labels": {
+      "Byggnadsmaterial": [
+        "byggmästeri-varor totalt"
+      ],
+      "ContentsCode": [
+        "Byggkostnadsindex (BKI) för flerbostadshus"
+      ]
+    }
+  },
+  "krita_ranta": {
+    "label": "Utlåningsränta till icke-finansiella företag per bransch",
+    "roll": "pris",
+    "note": "Ställs mot styrräntan i indicators.py. Spreaden är det snabbaste måttet på åtstramning som finns i offentlig statistik.",
+    "table_path": "FM/FM0002/KRITApubl1",
+    "table_title": "Monetära finansinstitutens (MFI), utlåning till icke-finansiella företag efter bransch och storleksklass. Månad 2019M07 - 2026M07",
+    "selections": {
+      "BranschKrita": [
+        "3",
+        "2",
+        "1",
+        "7",
+        "0"
+      ],
+      "ContentsCode": [
+        "000003FR"
+      ]
+    },
+    "selection_labels": {
+      "BranschKrita": [
+        "1.3 Bostadsrättsföreningar",
+        "1.2 Fastighet - Bostäder",
+        "1.1 Fastighet - Kontor, lokaler m.m.",
+        "1.7 Bygg",
+        "1. Totalt, samtliga branscher"
+      ],
+      "ContentsCode": [
+        "Ränta, medel, utestående lån i SEK per låntagare, procent"
+      ]
+    }
+  },
+  "krita_antal": {
+    "label": "Antal låntagande företag per bransch",
+    "roll": "bredd",
+    "note": "Volym upp och antal låntagare ned = koncentration till starka balansräkningar. Det är en åtstramning som volymserien döljer.",
+    "table_path": "FM/FM0002/KRITApubl1",
+    "table_title": "Monetära finansinstitutens (MFI), utlåning till icke-finansiella företag efter bransch och storleksklass. Månad 2019M07 - 2026M07",
+    "selections": {
+      "BranschKrita": [
+        "3",
+        "2",
+        "1",
+        "7",
+        "0"
+      ],
+      "ContentsCode": [
+        "000003FN"
+      ]
+    },
+    "selection_labels": {
+      "BranschKrita": [
+        "1.3 Bostadsrättsföreningar",
+        "1.2 Fastighet - Bostäder",
+        "1.1 Fastighet - Kontor, lokaler m.m.",
+        "1.7 Bygg",
+        "1. Totalt, samtliga branscher"
+      ],
+      "ContentsCode": [
+        "Antal företag"
+      ]
+    }
+  }
+}
