@@ -1,0 +1,78 @@
+name: Bygg byggkreditindikatorn
+
+on:
+  schedule:
+    # Den 5:e varje månad 06:00 UTC. KRITA och finansmarknadsstatistiken
+    # publiceras i slutet av föregående månad, så då finns en ny observation.
+    - cron: "0 6 5 * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - "claude/**"
+    paths:
+      - "byggkredit-scb/**"
+      - ".github/workflows/byggkredit.yml"
+
+jobs:
+  bygg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r byggkredit-scb/requirements.txt
+
+      - name: Verifiera beräkningslogiken
+        working-directory: byggkredit-scb
+        run: python tests/test_offline.py
+
+      # Körs som eget steg och före hämtningen: landar en spec i fel tabell
+      # vill man se det i loggen även om själva uttaget sedan fallerar.
+      - name: Lös ut tabeller och värden (dry run)
+        working-directory: byggkredit-scb
+        run: python fetch.py --dry-run
+
+      - name: Hämta serier från SCB och KI
+        working-directory: byggkredit-scb
+        run: python fetch.py --since 2015
+
+      - name: Beräkna indikatorer
+        working-directory: byggkredit-scb
+        run: python indicators.py
+
+      - name: Rita diagram och skriv rapport
+        working-directory: byggkredit-scb
+        run: python report.py
+
+      - name: Visa rapporten i körningssammanfattningen
+        if: always()
+        run: cat byggkredit-scb/data/rapport.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Upload data och diagram som artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: byggkredit-data
+          path: byggkredit-scb/data
+          retention-days: 30
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add byggkredit-scb/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterad byggkreditindikator"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push

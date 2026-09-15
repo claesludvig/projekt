@@ -58,6 +58,21 @@ python report.py              # rita        -> data/byggkredit.png, data/rapport
 python tests/test_offline.py  # verifierar beräkningslogiken utan nätverk
 ```
 
+### I GitHub Actions
+
+`.github/workflows/byggkredit.yml` kör hela kedjan den 5:e varje månad, när
+KRITA och finansmarknadsstatistiken hunnit publicera föregående månad. Den går
+också att starta manuellt, och triggas av pushar som rör katalogen.
+
+Resultatet läggs både som artifact och som commit tillbaka till branchen.
+Att versionshantera utdata är avsiktligt: SCB reviderar bakåt, och en
+git-historik över `data/indikatorer.csv` ger en revisionslogg gratis — man kan
+se exakt vad som stod i serien den dag en prognos skrevs.
+
+Loggen från steget *Lös ut tabeller och värden (dry run)* är det första man
+läser när något ser konstigt ut. Den visar vilken tabell varje spec landade i
+och vilka värden som matchades.
+
 Kör `--dry-run` först. Pipelinen väljer tabeller och värden på **etiketter, inte
 koder**, eftersom SCB byter koder oftare än namn — KRITA gick från SNI 2007 till
 SNI 2025 i februari 2026 och bytte då ut samtliga branschkoder men behöll

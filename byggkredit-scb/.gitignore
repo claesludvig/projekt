@@ -1,6 +1,1 @@
-data/*.csv
-data/*.png
-data/*.json
-data/*.md
-!data/.gitkeep
 __pycache__/
