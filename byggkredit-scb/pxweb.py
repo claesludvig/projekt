@@ -39,7 +39,7 @@ CELL_LIMIT = 100_000
 
 # Markörer för serier som inte uppdateras längre. SCB skriver det i
 # tabelltiteln, KI lägger dem i undermappar med "hist" i namnet.
-NEDLAGD = re.compile(r"uppdateras ej|\bhist\b", re.IGNORECASE)
+NEDLAGD = re.compile(r"uppdateras ej|hist", re.IGNORECASE)
 
 
 class PxWebError(RuntimeError):
@@ -146,7 +146,11 @@ class PxWebClient:
         hits = [t for t in self.walk_tables(root, max_depth) if rx.search(t.text)]
         # Nedlagda serier ligger kvar bredvid sina efterföljare och matchar
         # samma mönster. Finns en levande variant är det alltid den man vill ha.
-        levande = [t for t in hits if not NEDLAGD.search(t.text)]
+        # Både titel och sökväg prövas. SCB skriver "(uppdateras ej)" i titeln,
+        # men KI lägger sina avslutade serier i undermappar — zftgkhist,
+        # zftgmhist — medan titeln ser fullt aktuell ut.
+        levande = [t for t in hits
+                   if not NEDLAGD.search(t.text) and not NEDLAGD.search(t.path)]
         if levande:
             hits = levande
         if not hits:

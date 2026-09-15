@@ -39,26 +39,33 @@ jobs:
         run: python fetch.py --dry-run
 
       # SCB:s och KI:s tabellnamn går inte att gissa utifrån produktsidorna.
-      # Det här steget skriver ut tabellträden för de rötter där mönstren
-      # fortfarande är osäkra, så att de kan skärpas mot verkligheten i
-      # stället för mot antaganden.
-      - name: Diagnostik — lista tabellträd
+      # Trädet skrivs till en fil som committas i stället för att bara hamna i
+      # körningsloggen — en committad textfil går att läsa, diffa och söka i
+      # när ett mönster slutar träffa, vilket loggen från en gammal körning
+      # inte gör.
+      - name: Diagnostik — skriv tabellträd till fil
         if: always()
         continue-on-error: true
         working-directory: byggkredit-scb
         run: |
-          # Filtrerat: hela trädet under BO är flera hundra tabeller, och det
-          # som söks är en handfull. Grep tar med raden före träffen eftersom
-          # sökvägen skrivs ut ovanför titeln.
-          echo "===== BO: nybyggnad ====="
-          python fetch.py --list BO --depth 3 \
-            | grep -iB1 "påbörja\|färdigställ\|nybygg" || true
-          echo "===== PR: byggkostnad ====="
-          python fetch.py --list PR --depth 3 | grep -iB1 "byggkostnad" || true
-          echo "===== KI: hinder ====="
-          python fetch.py --list ftgkvartal --depth 3 \
-            --base https://statistik.konj.se/PxWeb/api/v1/sv/KonjBar \
-            | grep -iB1 "hinder\|bygg" || true
+          {
+            echo "# Tabellträd, genererat $(date -u +%Y-%m-%dT%H:%MZ)"
+            echo
+            echo "## BO — boende, byggande och bebyggelse"
+            python fetch.py --list BO --depth 4
+            echo
+            echo "## PR — priser"
+            python fetch.py --list PR --depth 4
+            echo
+            echo "## KI — konjunkturbarometern, kvartal"
+            python fetch.py --list ftgkvartal --depth 4 \
+              --base https://statistik.konj.se/PxWeb/api/v1/sv/KonjBar
+            echo
+            echo "## KI — konjunkturbarometern, månad"
+            python fetch.py --list ftgmanad --depth 4 \
+              --base https://statistik.konj.se/PxWeb/api/v1/sv/KonjBar
+          } > data/tabelltrad.txt 2>&1
+          wc -l data/tabelltrad.txt
 
       - name: Hämta serier från SCB och KI
         working-directory: byggkredit-scb

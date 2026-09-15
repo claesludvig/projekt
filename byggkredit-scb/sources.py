@@ -119,10 +119,13 @@ SPECS: list[SeriesSpec] = [
         table=r"Utestående och emitterat belopp under månaden samt räntekostnader",
         picks=(
             (r"sektor|emittent", (r"[Ii]cke-finansiell",)),
-            # Utan explicit mått valdes "Räntekostnad samtliga utestående,
-            # procent" — en procentsats som differentierades som vore den ett
-            # kreditflöde och gav 0,1 i stället för miljarder.
-            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Uu]testående belopp",)),
+            # Nominellt, inte marknadsvärderat: en differens på det
+            # marknadsvärderade beloppet mäter till stor del ränterörelser,
+            # inte kreditgivning. Måttet måste anges explicit — utan det valdes
+            # "Räntekostnad samtliga utestående, procent", en procentsats som
+            # differentierades som vore den ett kreditflöde och gav 0,1.
+            (r"^(ContentsCode|Tabellinnehåll)$",
+             (r"^Utestående nominellt emitterat belopp",)),
         ),
         note="Fastighetsbolagen är tungt överrepresenterade på den svenska "
              "företagsobligationsmarknaden. Utan det här benet underskattas "
@@ -136,6 +139,7 @@ SPECS: list[SeriesSpec] = [
         role="namnare",
         root="BO",
         table=r"[Pp]åbörja.*lägenhet",
+        depth=4,
         note="Fysisk produktionsvolym. Nyckeln till att skilja kreditutbud från "
              "byggefterfrågan: faller krediten snabbare än byggandet är krediten "
              "den bindande restriktionen, faller de i takt är det efterfrågan.",
@@ -146,6 +150,7 @@ SPECS: list[SeriesSpec] = [
         role="namnare",
         root="PR",
         table=r"[Bb]yggkostnadsindex.*bostadshus",
+        depth=4,
         note="Deflator för kredit per lägenhet. Utan den går stigande "
              "kostnadsläge inte att skilja från stigande belåningsgrad.",
     ),
