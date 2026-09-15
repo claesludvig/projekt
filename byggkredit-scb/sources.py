@@ -161,8 +161,16 @@ SPECS: list[SeriesSpec] = [
         label="Byggkostnadsindex för bostadshus",
         role="namnare",
         root="PR",
-        table=r"[Bb]yggkostnadsindex.*bostadshus",
+        # Inklusive löneglidning: exklusive löneglidning missar en stor del av
+        # den faktiska kostnadsökningen i en högkonjunktur, vilket är precis
+        # när deflatorn behövs. Tidigare landade mönstret i BKIMAM, som är
+        # materialunderindexet efter varuslag — inte totalkostnaden.
+        table=r"Byggkostnadsindex för bostäder inkl\. löneglidning, 2015=100.*Kvartal",
         depth=4,
+        picks=(
+            (r"hustyp", (r"flerbostadshus",)),
+            (r"kostnadsslag", (r"[Tt]otal byggkostnad|[Bb]yggkostnad totalt",)),
+        ),
         note="Deflator för kredit per lägenhet. Utan den går stigande "
              "kostnadsläge inte att skilja från stigande belåningsgrad.",
     ),
@@ -207,9 +215,13 @@ SPECS: list[SeriesSpec] = [
         label="Byggföretag: finansiella restriktioner som främsta hinder",
         role="enkat",
         base=pxweb.KONJ_BASE,
-        root="",
-        table=r"[Hh]inder.*[Bb]ygg|[Bb]ygg.*hinder",
-        depth=4,
+        root="ftgkvartal",
+        # De fristående hindertabellerna lades ned 2021. Frågan finns kvar,
+        # men som en dimension i barometerns huvudtabell — samma mönster som
+        # påbörjade lägenheter hos SCB: begreppet är ett värde, inte en titel.
+        table=r"^Byggverksamhet\. Kvartal$",
+        depth=2,
+        picks=((r"fråga|serie|variabel|indikator|hinder", (r"hinder",)),),
         note="Konjunkturinstitutet, inte SCB. Enda direkta måttet på kreditutbud "
              "i byggsektorn och det enda benet som leder de övriga.",
     ),
