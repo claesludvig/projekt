@@ -138,8 +138,20 @@ SPECS: list[SeriesSpec] = [
         label="Påbörjade bostadslägenheter",
         role="namnare",
         root="BO",
-        table=r"[Pp]åbörja.*lägenhet",
+        # Ordet "påbörjade" står inte i tabelltiteln — det är ett värde i
+        # tabellinnehåll-dimensionen. Tabellen heter "Lägenheter i nybyggda hus
+        # efter region, hustyp, tabellinnehåll och kvartal", och ett titel-
+        # mönster på "påbörja" kunde därför aldrig träffa den.
+        table=r"Lägenheter i nybyggda hus.*kvartal",
         depth=4,
+        picks=(
+            (r"region", (r"^Riket$",)),
+            # Summan av hustyperna, inte en eventuell totalrad: flerbostadshus
+            # och småhus finansieras på helt olika sätt och det är summan av
+            # dem som är produktionsvolymen.
+            (r"hustyp", (r"flerbostadshus", r"småhus")),
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"^Påbörjade",)),
+        ),
         note="Fysisk produktionsvolym. Nyckeln till att skilja kreditutbud från "
              "byggefterfrågan: faller krediten snabbare än byggandet är krediten "
              "den bindande restriktionen, faller de i takt är det efterfrågan.",
