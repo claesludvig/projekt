@@ -72,7 +72,12 @@ def pick(frame: pd.DataFrame, serie: str, kategori: str | None = None,
 
     # Flera kategorier som matchar summeras — det är det man vill när man ber
     # om t.ex. "alla bostadsrelaterade fastighetsbranscher".
-    series = sub.groupby("tid")["varde"].sum().sort_index()
+    # min_count=1: en grupp där alla värden saknas ska förbli saknad, inte bli
+    # noll. SCB publicerar t.ex. raden "1. Totalt, samtliga branscher" för
+    # KRITA-räntan men lämnar den tom i samtliga månader — utan min_count blev
+    # den 0,00 procent, och varje ränta mätt mot den såg ut att ligga tre
+    # procentenheter över snittet.
+    series = sub.groupby("tid")["varde"].sum(min_count=1).sort_index()
     series.index = pd.PeriodIndex(series.index, freq="M")
     # Luckor fylls med NaN så att diff(12) alltid jämför med rätt månad —
     # kvartalsserier har bara var tredje månad ifylld, och en diff på den
@@ -164,23 +169,16 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
         out["gap_kredit_minus_byggande"] = kredit_yoy - bygg_yoy.reindex(kredit_yoy.index)
 
     # --- steg 3: pris och bredd ---
+    # Prisbenet mäts som spread mot styrräntan. En jämförelse mot KRITA:s egen
+    # branschtotal vore ett naturligt alternativ, men SCB publicerar raden
+    # "1. Totalt, samtliga branscher" tom för räntan i samtliga månader — det
+    # finns alltså inget branschsnitt att mäta mot.
     styrranta = to_quarterly(pick(frame, "styrranta"), "last")
-    # Räntan mot samtliga branscher. Den relativa räntan mot den här totalen
-    # svarar på en annan fråga än spreaden mot styrräntan: inte "hur dyrt är
-    # det" utan "särbehandlas bostadssidan". Den finns dessutom kvar när
-    # Riksbankens API inte svarar, eftersom den kommer ur samma KRITA-uttag.
-    ranta_totalt = to_quarterly(
-        pick(frame, "krita_ranta", kategori=r"[Tt]otalt, samtliga"), "last")
-
     for etikett, monster in (("brf", r"bostadsr"), ("fastighet_bostader", r"fastighet.*bost")):
         ranta = to_quarterly(pick(frame, "krita_ranta", kategori=monster), "last")
         out[f"ranta_{etikett}"] = ranta
-        if ranta.empty:
-            continue
-        if not styrranta.empty:
+        if not ranta.empty and not styrranta.empty:
             out[f"spread_{etikett}"] = ranta - styrranta.reindex(ranta.index).ffill()
-        if not ranta_totalt.empty:
-            out[f"relativ_ranta_{etikett}"] = ranta - ranta_totalt.reindex(ranta.index).ffill()
 
     antal = pick(frame, "krita_antal", kategori=r"fastighet.*bost|bostadsr")
     if not antal.empty:
@@ -201,13 +199,9 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
         "bredd_antal_lantagare_yoy": 1,
         "ki_finansiella_hinder": -1,
     }
-    # Prisbenet får bara väga in en gång. Spreaden mot styrräntan är det bättre
-    # måttet; den relativa räntan mot branschtotalen är reserven när
-    # Riksbankens serie saknas. Att ta med båda hade dubbelviktat samma signal.
-    for prismatt in ("spread_fastighet_bostader", "relativ_ranta_fastighet_bostader"):
-        if prismatt in result and result[prismatt].notna().any():
-            komponenter[prismatt] = -1
-            break
+    if "spread_fastighet_bostader" in result and \
+            result["spread_fastighet_bostader"].notna().any():
+        komponenter["spread_fastighet_bostader"] = -1
     z = pd.DataFrame({
         namn: zscore(result[namn]) * tecken
         for namn, tecken in komponenter.items() if namn in result

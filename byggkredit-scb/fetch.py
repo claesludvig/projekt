@@ -86,11 +86,25 @@ def _totalvarde(var: dict) -> tuple[str, str] | None:
     """Hittar variabelns eget totalvärde, om det finns. SCB stavar det olika
     mellan produkter ('Totalt', 'Samtliga', 'Alla MFI', '1. Totalt, samtliga
     branscher'), så matchningen är medvetet generös."""
+    # Måttdimensionen undantas. Ett "totalvärde" bland måtten finns inte —
+    # där betyder ordet något helt annat, och den generösa matchningen valde
+    # "Räntekostnad samtliga utestående, procent" som om det vore en summa.
+    if var["code"].lower() in CONTENTS_CODES:
+        return None
+
+    par = list(zip(var["values"], var["valueTexts"]))
+    # Exakt etikett först. Utan det vann "byggmästeri-varor totalt" över det
+    # riktiga totalvärdet bara för att det också innehåller ordet "totalt".
+    exakta = [(kod, text) for kod, text in par
+              if text.strip().lower() in {"total", "totalt", "samtliga", "alla"}]
+    if len(exakta) == 1:
+        return exakta[0]
+
     rx = re.compile(r"\b(totalt?|samtliga|alla)\b", re.IGNORECASE)
-    traffar = [(kod, text) for kod, text in zip(var["values"], var["valueTexts"])
-               if rx.search(text)]
-    # Flera träffar betyder att mönstret fångat något annat än ett totalvärde;
-    # då är det säkrare att hämta allt och låta granskningsloggen visa det.
+    traffar = [(kod, text) for kod, text in par if rx.search(text)]
+    # Flera lösa träffar betyder att mönstret fångat något annat än ett
+    # totalvärde; då är det säkrare att hämta allt och låta granskningsloggen
+    # visa det, så att pick():s skyddsräcke får smälla i stället.
     return traffar[0] if len(traffar) == 1 else None
 
 

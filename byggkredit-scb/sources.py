@@ -117,7 +117,13 @@ SPECS: list[SeriesSpec] = [
         role="kredit",
         root="FM",
         table=r"Utestående och emitterat belopp under månaden samt räntekostnader",
-        picks=((r"sektor|emittent", (r"[Ii]cke-finansiell",)),),
+        picks=(
+            (r"sektor|emittent", (r"[Ii]cke-finansiell",)),
+            # Utan explicit mått valdes "Räntekostnad samtliga utestående,
+            # procent" — en procentsats som differentierades som vore den ett
+            # kreditflöde och gav 0,1 i stället för miljarder.
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Uu]testående belopp",)),
+        ),
         note="Fastighetsbolagen är tungt överrepresenterade på den svenska "
              "företagsobligationsmarknaden. Utan det här benet underskattas "
              "kreditflödet till sektorn kraftigt från mitten av 2010-talet.",
@@ -192,16 +198,19 @@ SPECS: list[SeriesSpec] = [
     ),
 ]
 
-# Tidsseriebrott. KRITA gick över från SNI 2007 till SNI 2025 i februari 2026,
-# vilket bytte branschindelningen. Nivåerna är inte jämförbara över brottet och
-# det finns ingen överlappsperiod att länka på, så differensberäkningen sätter
-# observationen vid brottet till NaN i stället för att räkna ut en förändring
-# som i själva verket är en omklassificering.
-BREAKS: dict[str, str] = {
-    "krita_volym": "2026-02",
-    "krita_ranta": "2026-02",
-    "krita_antal": "2026-02",
-}
+# Tidsseriebrott, serienyckel -> första månad som inte är jämförbar bakåt.
+#
+# Tom med flit. Övergången till SNI 2025 i februari 2026 antogs först bryta
+# KRITA-serien, men det stämmer inte för den publicerade tabellen: branschen
+# där är Riksbankens och SCB:s *beräknade* bransch, och den mappningen
+# underhålls över SNI-bytet. Månadsförändringarna i februari 2026 (0,4-0,9 %
+# beroende på bransch) ligger helt inom det normala bruset, och etiketterna är
+# desamma genom hela serien 2019M07-. Antagandet kostade sex månaders färska
+# observationer i flödesberäkningen — just de som en prognos behöver mest.
+#
+# Mekanismen är kvar för den dag ett verkligt brott inträffar. Lägg då in
+# nyckeln här och kontrollera först att nivåhoppet syns i data.
+BREAKS: dict[str, str] = {}
 
 
 def by_key(key: str) -> SeriesSpec:

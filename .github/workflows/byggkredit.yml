@@ -47,13 +47,18 @@ jobs:
         continue-on-error: true
         working-directory: byggkredit-scb
         run: |
-          echo "===== BO ====="
-          python fetch.py --list BO --depth 3
-          echo "===== PR ====="
-          python fetch.py --list PR --depth 3
-          echo "===== KI, kvartal ====="
+          # Filtrerat: hela trädet under BO är flera hundra tabeller, och det
+          # som söks är en handfull. Grep tar med raden före träffen eftersom
+          # sökvägen skrivs ut ovanför titeln.
+          echo "===== BO: nybyggnad ====="
+          python fetch.py --list BO --depth 3 \
+            | grep -iB1 "påbörja\|färdigställ\|nybygg" || true
+          echo "===== PR: byggkostnad ====="
+          python fetch.py --list PR --depth 3 | grep -iB1 "byggkostnad" || true
+          echo "===== KI: hinder ====="
           python fetch.py --list ftgkvartal --depth 3 \
-            --base https://statistik.konj.se/PxWeb/api/v1/sv/KonjBar
+            --base https://statistik.konj.se/PxWeb/api/v1/sv/KonjBar \
+            | grep -iB1 "hinder\|bygg" || true
 
       - name: Hämta serier från SCB och KI
         working-directory: byggkredit-scb
