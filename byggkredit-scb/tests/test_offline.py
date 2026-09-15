@@ -160,6 +160,34 @@ def test_gapet_fangar_utbudsatstramning() -> None:
     assert efter.mean() < 0, f"gapet skulle vara negativt, blev {efter.mean():.1f}"
 
 
+def test_flera_matt_i_samma_serie_ger_fel() -> None:
+    """Regressionstest för den dyraste sortens bugg: ett ContentsCode-mönster
+    som råkar matcha både medel och median, så att de summeras. Resultatet blir
+    ungefär dubbelt för stort och ser fullt rimligt ut på en graf."""
+    frame = syntetisk_data()
+    dubbel = frame[frame["serie"] == "krita_volym"].copy()
+    dubbel["innehall"] = "Utestående låntagarbelopp, median, mnkr"
+    blandad = pd.concat([frame, dubbel], ignore_index=True)
+
+    try:
+        indicators.pick(blandad, "krita_volym", kategori=r"bostadsr")
+    except ValueError as exc:
+        assert "flera mått" in str(exc)
+    else:
+        raise AssertionError("pick() ska vägra summera över flera mått")
+
+
+def test_pick_summerar_daremot_kategorier() -> None:
+    """Kategorier ska fortfarande summeras — det är hela poängen med att kunna
+    be om flera branscher på en gång."""
+    frame = syntetisk_data()
+    brf = indicators.pick(frame, "krita_volym", kategori=r"bostadsr")
+    fastighet = indicators.pick(frame, "krita_volym", kategori=r"fastighet.*bost")
+    bada = indicators.pick(frame, "krita_volym", kategori=r"bostadsr|fastighet.*bost")
+    sista = bada.dropna().index[-1]
+    assert abs(bada[sista] - (brf[sista] + fastighet[sista])) < 1e-6
+
+
 def test_jsonstat2_plattas_ut_i_ratt_ordning() -> None:
     """Värdematrisen är radmajor över dimensionerna i 'id'. Fel avkodning ger
     siffror som ser rimliga ut men hör till fel bransch — värt ett eget test."""

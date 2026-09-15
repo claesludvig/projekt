@@ -18,6 +18,7 @@ from dataclasses import dataclass, field
 from typing import Any, Iterator, Sequence
 import json
 import re
+import sys
 import time
 
 import pandas as pd
@@ -35,6 +36,10 @@ MAX_RETRIES = 4
 # växer obegränsat, så den är också den vi delar upp på när ett uttag blir för
 # stort.
 CELL_LIMIT = 100_000
+
+# Markörer för serier som inte uppdateras längre. SCB skriver det i
+# tabelltiteln, KI lägger dem i undermappar med "hist" i namnet.
+NEDLAGD = re.compile(r"uppdateras ej|\bhist\b", re.IGNORECASE)
 
 
 class PxWebError(RuntimeError):
@@ -118,7 +123,16 @@ class PxWebClient:
         rot anges för brett."""
         if max_depth < 0:
             return
-        for node in self.navigate(root):
+        try:
+            noder = self.navigate(root)
+        except PxWebError as exc:
+            # SSD innehåller nivåer som ligger kvar i navigationen men svarar
+            # 400 (t.ex. BO/BO0303/BO0303Z). En sådan död gren ska inte ta ned
+            # hela sökningen — då blir varje serie under samma rot omöjlig att
+            # hitta, vilket är precis vad som hände innan.
+            print(f"[hoppar över] {root}: {exc}", file=sys.stderr)
+            return
+        for node in noder:
             if node.is_table:
                 yield node
             else:
@@ -130,6 +144,11 @@ class PxWebClient:
         skarpare mönster i sources.py, inte genom att pipelinen gissar."""
         rx = re.compile(title_pattern, re.IGNORECASE)
         hits = [t for t in self.walk_tables(root, max_depth) if rx.search(t.text)]
+        # Nedlagda serier ligger kvar bredvid sina efterföljare och matchar
+        # samma mönster. Finns en levande variant är det alltid den man vill ha.
+        levande = [t for t in hits if not NEDLAGD.search(t.text)]
+        if levande:
+            hits = levande
         if not hits:
             available = [t.text for t in self.walk_tables(root, max_depth)]
             raise PxWebError(

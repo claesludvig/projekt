@@ -83,7 +83,10 @@ SPECS: list[SeriesSpec] = [
         table=r"utlåning till icke-finansiella företag.*bransch",
         picks=(
             (r"bransch", KRITA_BRANSCHER),
-            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Uu]testående|[Ll]ånebelopp|[Vv]olym",)),
+            # Ankrat mönster. "[Uu]testående" ensamt matchade fem mått, bland
+            # dem både medel- och medianräntan — vars etiketter innehåller
+            # ordet "utestående" — som sedan summerades till nonsens.
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"^Utestående lånebelopp",)),
         ),
         note="Stock, månad. Differentieras till flöde i indicators.py. Innehåller "
              "omvärderingar och omklassificeringar som SCB inte rensar bort — till "
@@ -98,6 +101,11 @@ SPECS: list[SeriesSpec] = [
         picks=(
             (r"motpart", (r"[Hh]ushåll",)),
             (r"säkerhet", (r"[Ss]måhus", r"[Bb]ostadsrätt", r"[Ää]garlägenhet")),
+            # Totalen över institut heter bara "MFI" och fångas därför inte av
+            # den generiska totalvärdesmatchningen. Utan det här picket hämtas
+            # totalen tillsammans med banker, bostadsinstitut och finansbolag,
+            # och summeras till ungefär det dubbla.
+            (r"^MFI$", (r"^MFI$",)),
         ),
         note="Efterfrågesidan. OBS att SCB inte samlar in lånets ändamål utan "
              "approximerar med panten — blancolån som finansierar bostadsköp "
@@ -109,7 +117,7 @@ SPECS: list[SeriesSpec] = [
         role="kredit",
         root="FM",
         table=r"Utestående och emitterat belopp under månaden samt räntekostnader",
-        picks=((r"sektor|emittent", (r"[Ii]cke-finansiella",)),),
+        picks=((r"sektor|emittent", (r"[Ii]cke-finansiell",)),),
         note="Fastighetsbolagen är tungt överrepresenterade på den svenska "
              "företagsobligationsmarknaden. Utan det här benet underskattas "
              "kreditflödet till sektorn kraftigt från mitten av 2010-talet.",
@@ -149,7 +157,8 @@ SPECS: list[SeriesSpec] = [
         table=r"utlåning till icke-finansiella företag.*bransch",
         picks=(
             (r"bransch", KRITA_BRANSCHER),
-            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Rr]änta",)),
+            # Medel, inte median. Utan ankaret plockades båda och adderades.
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"^Ränta, medel",)),
         ),
         note="Ställs mot styrräntan i indicators.py. Spreaden är det snabbaste "
              "måttet på åtstramning som finns i offentlig statistik.",

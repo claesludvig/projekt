@@ -56,6 +56,20 @@ def pick(frame: pd.DataFrame, serie: str, kategori: str | None = None,
         sub = sub[sub["innehall"].str.contains(innehall, case=False, regex=True, na=False)]
     if sub.empty:
         return pd.Series(dtype=float, index=pd.PeriodIndex([], freq="M"))
+
+    # Skyddsräcke mot tyst dubbelräkning. Kategorier får summeras — det är
+    # meningen när man ber om flera branscher. Mått får aldrig summeras: ett
+    # uttag som råkat få med både medel- och medianränta, eller både utestående
+    # lånebelopp och låntagarbelopp, ger en siffra som ser rimlig ut men är
+    # ungefär dubbelt för stor. Det felet syns inte på en graf utan absolut
+    # referens, så det ska smälla här i stället.
+    matt = sub["innehall"].dropna().unique()
+    if len(matt) > 1:
+        raise ValueError(
+            f"Serien '{serie}' spänner över flera mått: {', '.join(map(str, matt))}. "
+            f"Skärp ContentsCode-mönstret i sources.py, eller ange innehall= här."
+        )
+
     # Flera kategorier som matchar summeras — det är det man vill när man ber
     # om t.ex. "alla bostadsrelaterade fastighetsbranscher".
     series = sub.groupby("tid")["varde"].sum().sort_index()
