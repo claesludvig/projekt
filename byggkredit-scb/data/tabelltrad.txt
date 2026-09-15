@@ -1,0 +1,705 @@
+# Tabellträd, genererat 2026-09-15T17:48Z
+
+## BO — boende, byggande och bebyggelse
+[hoppar över] BO/BO0303/BO0303Z: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/BO/BO0303/BO0303Z gav 400: Bad Request
+BO/BO0303/BO0303A/OuthLghPrivAllmAr0
+    Bestånd och lediga lägenheter i flerbostadshus efter region och färdigställandeår. År 2019 - 2024
+BO/BO0303/BO0303A/OuthLghPrivAllmAr
+    Bestånd och lediga lägenheter i flerbostadshus efter region och färdigställandeår (uppdateras ej). År 2003 - 2017
+BO/BO0303/BO0303A/OuthPrivAllmTypLgh0
+    Bestånd och lediga lägenheter i flerbostadshus efter region och lägenhetstyp. År 2019 - 2024
+BO/BO0303/BO0303A/OuthPrivAllmTypLgh
+    Bestånd och lediga lägenheter i flerbostadshus efter region och lägenhetstyp (uppdateras ej). År 2003 - 2017
+BO/BO0303/BO0303A/OuthAllm0
+    Lediga lägenheter i flerbostadshus, allmännyttiga bostadsföretag efter region och färdigställandeår 2019 - 2024
+BO/BO0303/BO0303A/OuthAllm
+    Lediga lägenheter i flerbostadshus, allmännyttiga bostadsföretag efter region och  färdigställandeår (uppdateras ej) 2000M09 - 2017M09
+BO/BO0303/BO0303A/OuthAllmLghTypKom0
+    Lediga lägenheter i flerbostadshus, allmännyttiga bostadsföretag efter region och lägenhetstyp 2019 - 2024
+BO/BO0303/BO0303A/OuthAllmLghTypKom
+    Lediga lägenheter i flerbostadshus, allmännyttiga bostadsföretag efter region och lägenhetstyp (uppdateras ej) 2000M09 - 2017M09
+BO/BO0303/BO0303A/OuthAllmLedOrsak
+    Outhyrda lägenheter 1 mars och 1 september i flerbostadshus, allmännyttiga, efter orsak till outhyrd lägenhet och färdigställandeår 2000M09 - 2024M09
+BO/BO0303/BO0303A/OuthPrivAllmOuthyrt
+    Outhyrda och lediga lägenheter i flerbostadshus efter färdigställandeår. År 2003 - 2024
+BO/BO0406/BO0406E/BO0406Tab01
+    Hyra i hyreslägenheter efter län och kommun. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab02
+    Hyra i hyreslägenheter efter stadsdelsområden i storstäder. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab03
+    Hyra i hyreslägenheter efter antal rum för större kommuner samt stadsområden i Stockholm. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab04
+    Hyra i hyreslägenheter efter byggår för större kommuner samt stadsområden i Stockholm. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab05
+    Hyra i hyreslägenheter efter region, antal rum och byggår. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab06
+    Hyra i hyreslägenheter efter region, byggår och ägarkategori. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab07
+    Hyra i hyreslägenheter efter region, antal rum och ägarkategori. År 2016 - 2025
+BO/BO0406/BO0406E/BO0406Tab08
+    Hyra i hyreslägenheter efter antal rum, byggår och ägarkategori. År 2016 - 2025
+BO/BO0406/BO0406F/BO0406Tab09
+    Hyresförändring i hyreslägenheter efter region, antal rum och byggår. År 2016 - 2025
+BO/BO0406/BO0406F/BO0406Tab10
+    Hyresförändring i hyreslägenheter efter region, byggår och ägarkategori. År 2016 - 2025
+BO/BO0406/BO0406F/BO0406Tab11
+    Hyresförändring i hyreslägenheter efter region, antal rum och ägarkategori. År 2016 - 2025
+BO/BO0406/BO0406F/BO0406Tab12
+    Hyresförändring i hyreslägenheter efter antal rum, byggår och ägarkategori. År 2016 - 2025
+BO/BO0406/BO0406G/BO0406TabAh
+    Genomsnittlig årshyra per kvm. År 1969 - 2025
+BO/BO0406/BO0406G/BO0406TabHf
+    Hyresförändring i hyreslägenheter. År 1969 - 2025
+BO/BO0406/BO0406A/Bhudef1ny
+    Antal hyresrättslägenheter, årshyra, bostadsyta efter region, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 2003 - 2014
+BO/BO0406/BO0406A/Bhudef2ny
+    Antal hyresrättslägenheter efter ägarkategori, nybyggår/värdeår, årsintervall och årshyra. (Urvalsundersökning, se fotnoter.) År 2003 - 2010
+BO/BO0406/BO0406A/Bhudef4ny
+    Ny månadshyra, hyresförändring efter region, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 2004 - 2015
+BO/BO0406/BO0406A/Bhudef5ny
+    Ny månadshyra, hyresförändring efter ägarkategori, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 2004 - 2015
+BO/BO0406/BO0406A/Bhudef3ny
+    Årshyra per lägenhet, årshyra per kvadratmeter efter region, ägarkategori, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 2003 - 2014
+BO/BO0406/BO0406B/Bhudef6
+    Bostadsrättslägenheter (BHU) efter region, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) Vartannat år 1999 - 2002
+BO/BO0406/BO0406B/Bhudef1
+    Hyreslägenheter (BHU) efter region, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 1999 - 2002
+BO/BO0406/BO0406B/Bhudef2
+    Hyreslägenheter (BHU) efter ägarkategori, nybyggår/värdeår, årsintervall och årshyra. (Urvalsundersökning, se fotnoter.) År 1999 - 2002
+BO/BO0406/BO0406B/Bhudef3
+    Hyror i hyreslägenheter (BHU) efter region, ägarkategori, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 1999 - 2002
+BO/BO0406/BO0406B/Bhudef7
+    Januariavgifter i bostadsrättslägenheter (BHU) efter region, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) Vartannat år 2000 - 2003
+BO/BO0406/BO0406B/Bhudef4
+    Januarihyror i hyreslägenheter (BHU) efter region, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 2000 - 2003
+BO/BO0406/BO0406B/Bhudef5
+    Januarihyror i hyreslägenheter (BHU) efter ägarkategori, nybyggår/värdeår, årsintervall och lägenhetstyp. (Urvalsundersökning, se fotnoter.) År 2000 - 2003
+BO/BO0406/BO0406C/BhuHushall4
+    Boendeutgift och disponibel inkomst per hushåll m m (BHU) efter upplåtelseform (äganderätt,  bostadsrätt, hyresrätt), hushållstyp och färdigställandeår. (Urvalsundersökning, se fotnoter.) År 2002
+BO/BO0406/BO0406C/BhuHushall1N
+    Boendeutgift och konsumtionsutrymme per hushåll m m (BHU) efter region, upplåtelseform (äganderätt, bostadsrätt, hyresrätt) och hushållstyp. (Urvalsundersökning, se fotnoter.) År 2002 - 2003
+BO/BO0406/BO0406C/BhuHushall1
+    Bostadsutgift och konsumtionsutrymme per hushåll m m (BHU) efter region, upplåtelseform (äganderätt, hyresrätt, bostadsrätt) och hushållstyp. (Urvalsundersökning, se fotnoter.) År 1999 - 2000
+BO/BO0406/BO0406C/BhuHushall3
+    Skuldbelopp, ränteutgift m m per hus för äganderätt (BHU) efter bostadsyta och färdigställandeår. (Urvalsundersökning, se fotnoter.) År 1999 - 2002
+BO/BO0101/BO0101G/AreaHustypKv
+    Bygglov för nybyggnad, bruttoarea efter hustyp. Kvartal 1996K1 - 2026K2
+BO/BO0101/BO0101G/LghHustypKv
+    Bygglov för nybyggnad, antal lägenheter i bostadshus och fritidshus efter region och hustyp. Kvartal 1996K1 - 2026K2
+BO/BO0101/BO0101G/BlovAreaHustypKv
+    Bygglov för nybyggnad, antal och bruttoarea efter region och hustyp. Kvartal 1996K1 - 2026K2
+BO/BO0101/BO0101C/LagenhetNyKv16
+    Lägenheter i nybyggda hus efter region och hustyp. Kvartal 1975K1 - 2026K2
+BO/BO0101/BO0101C/LagenhetNyKv26
+    Lägenheter i nybyggda hus efter region och hustyp (specialbostäder uppdelat). Kvartal 2007K1 - 2026K2
+BO/BO0101/BO0101A/LghReHustypAr
+    Färdigställda lägenheter och rumsenheter i nybyggda hus efter region och hustyp. År 1938 - 2025
+BO/BO0101/BO0101A/LghReHtypUfAr
+    Färdigställda lägenheter i nybyggda hus efter region, hustyp och upplåtelseform. År 1991 - 2025
+BO/BO0101/BO0101A/LghReHtypAkAr
+    Färdigställda lägenheter i nybyggda hus efter region, hustyp och ägarkategori. År 1991 - 2025
+BO/BO0101/BO0101A/LghReHtypLtAr
+    Färdigställda lägenheter i nybyggda hus efter region, hustyp och lägenhetstyp. År 1975 - 2025
+BO/BO0101/BO0101A/LghSpboAr
+    Färdigställda lägenheter (i specialbostäder) i nybyggda hus efter region, typ av specialbostad. År 1996 - 2025
+BO/BO0101/BO0101A/LghHustLghtUpplatAr
+    Färdigställda lägenheter i nybyggda hus efter hustyp, upplåtelseform och lägenhetstyp. År 1991 - 2025
+BO/BO0101/BO0101B/LagenhetOmbNKv
+    Nettoförändring av lägenheter i ombyggda flerbostadshus efter region. Preliminära uppgifter. Kvartal 1989K1 - 2026K2
+BO/BO0101/BO0101D/NettoforRegByggperN
+    Nettoförändring av lägenheter i ombyggda flerbostadshus efter region och byggnadsperiod. År 1989 - 2025[hoppar över] BO/BO0101/BO0101E: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/BO/BO0101/BO0101E gav 400: Bad Request
+
+BO/BO0101/BO0101D/NettoforRegOmbatgard
+    Nettoförändring av lägenheter i ombyggda flerbostadshus efter region och ombyggnadsåtgärd. År 1989 - 2025
+BO/BO0101/BO0101D/LghTillOmbUpplatArN
+    Nettoförändring av lägenheter i ombyggda flerbostadshus efter region och upplåtelseform.  År 1989 - 2025
+BO/BO0101/BO0101D/NettoforRegAgarkat
+    Nettoförändring av lägenheter i ombyggda flerbostadshus efter region och ägarkategori. År 1989 - 2025
+BO/BO0101/BO0101F/LghRivRegUppAr
+    Rivning av lägenheter i flerbostadshus efter region och upplåtelseform. År 2012 - 2025
+BO/BO0101/BO0101F/LagenhRivAkBpLtRArN
+    Rivning av lägenheter i flerbostadshus efter region, ägarkategori, byggnadsperiod, lägenhetstyp och rivningsorsak.  År 1989 - 2025
+BO/BO0101/BO0101F/LagenhRivRiket
+    Rivning av lägenheter i flerbostadshus, riket. År 1949 - 2025
+BO/BO0104/BO0104D/BO0104T01
+    Antal lägenheter efter region och hustyp (inklusive specialbostäder). År 2013 - 2025
+BO/BO0104/BO0104D/BO0104T02
+    Antal lägenheter efter region, hustyp och byggnadsperiod. År 2013 - 2025
+BO/BO0104/BO0104D/BO0104T03
+    Antal lägenheter efter region, hustyp och ägarkategori (inklusive specialbostäder). År 2013 - 2025
+BO/BO0104/BO0104D/BO0104T04
+    Antal lägenheter efter region, hustyp och upplåtelseform (inklusive specialbostäder). År 1990 - 2025
+BO/BO0104/BO0104D/BO0104T5
+    Antal lägenheter efter region, hustyp och bostadsarea. År 2013 - 2025
+BO/BO0104/BO0104D/BO0104T09
+    Antal lägenheter efter region, hustyp och lägenhetstyp (exklusive småhus). År 2013 - 2025
+BO/BO0104/BO0104D/BO0104T7
+    Antal lägenheter i specialbostäder efter region, typ av specialbostad och bostadsarea. År 2013 - 2025
+BO/BO0104/BO0104D/BO0104T01N2
+    Antal lägenheter efter region (DeSO/RegSO 2025) och upplåtelseform.  År 2024 - 2025
+BO/BO0104/BO0104D/BO0104T10N
+    Antal lägenheter efter region (DeSO 2018/RegSO 2020) och upplåtelseform (uppdateras ej). År 2015 - 2023
+BO/BO0104/BO0104H/BO0104T08
+    Antal fritidshus ägda av fysiska personer eller dödsbon efter region. År 1998 - 2025
+BO/BO0104/BO0104H/BO0104T11
+    Antal svensk- och utlandsägda fritidshus ägda av fysiska personer efter region. År 1998 - 2025
+BO/BO0501/BO0501X/NTBO0501K
+    Nyckeltal och förändringstal för fastighetsprisindex, kvartal, preliminära värden 2016K3 - 2026K2
+BO/BO0501/BO0501X/NTBO0501A
+    Nyckeltal och förändringstal för fastighetsprisindex, år 2015 - 2025
+BO/BO0501/BO0501A/FastpiFritidRegAr
+    Fastighetsprisindex för fritidshus (1981=100) efter region. År 1975 - 2025
+BO/BO0501/BO0501A/FastpiFritidshusKv
+    Fastighetsprisindex för fritidshus. Kvartal 1986K1 - 2026K2
+BO/BO0501/BO0501A/FastpiLantbrukRegAr
+    Fastighetsprisindex för lantbruk (1992=100) efter region. År 1988 - 2025
+BO/BO0501/BO0501A/FastpiPSRegAr
+    Fastighetsprisindex för permanenta småhus (1981=100) efter region. År 1975 - 2025
+BO/BO0501/BO0501A/FastpiPSLanAr
+    Fastighetsprisindex för permanenta småhus (1990=100) efter län. År 1990 - 2025
+BO/BO0501/BO0501A/FastpiPSRegKv
+    Fastighetsprisindex för permanenta småhus efter region. Kvartal 1986K1 - 2026K2
+BO/BO0501/BO0501B/FastprisManadAr
+    Försålda fastigheter efter förvärvsmånad och fastighetstyp. År 1992 - 2025
+BO/BO0501/BO0501B/FastprisFHRegKv
+    Försålda fritidshus efter region (riksområden, riket). Kvartal 1998K1 - 2026K2
+BO/BO0501/BO0501B/FastprisFHRegAr
+    Försålda fritidshus efter region (riksområden, riket). År 2000 - 2025
+BO/BO0501/BO0501B/FastprisHHRegionAr
+    Försålda hyreshus efter region (län, riket) och fastighetstyp. År 1989 - 2025
+BO/BO0501/BO0501B/FastprisHHKv
+    Försålda hyreshus. Kvartal 1994K1 - 2026K2
+BO/BO0501/BO0501B/FastprisIFKv
+    Försålda industrier (tillverkningsindustrier). Kvartal 1994K1 - 2026K2
+BO/BO0501/BO0501B/FastprisIFRegionAr
+    Försålda industrier efter region (län, riket) och fastighetstyp. År 1994 - 2025
+BO/BO0501/BO0501B/SmahusT1M
+    Fastighetsprisstatistik för småhus (småhusbarometern). Månad 1997M01 - 2026M08
+BO/BO0501/BO0501B/FastprisLBRegJordAr
+    Försålda lantbruk efter region (län, riket) och andel jordbruksvärde. År 1999 - 2025
+BO/BO0501/BO0501B/SmahusT2M
+    Fastighetsprisstatistik för småhus (småhusbarometern), där månad avser en tremånadersperiod, se fotnot, efter region. Månad 1997M04 - 2026M08
+BO/BO0501/BO0501B/FastprisLBRegSkogAr
+    Försålda lantbruk efter region (län, riket) och andel skogsbruksvärde. År 1999 - 2025
+BO/BO0501/BO0501B/FastprisLBBebyggAr
+    Försålda lantbruk efter region (län, riket) och bebyggelseförhållande. År 1999 - 2025
+BO/BO0501/BO0501B/FastprisLBKv
+    Försålda lantbruk. Kvartal 1999K1 - 2026K2
+BO/BO0501/BO0501B/FastprisPSRegKv
+    Försålda permanenta småhus efter region (län, riksområden, riket). Kvartal 1998K1 - 2026K2
+BO/BO0501/BO0501B/FastprisPSRegAr
+    Försålda permanenta småhus efter region (län, riksområden, riket). År 2000 - 2025
+BO/BO0501/BO0501B/FastprisSHRegionAr
+    Försålda småhus efter region (kommun, län, riket) och fastighetstyp. År 1981 - 2025
+BO/BO0501/BO0501C/FastprisBRFRegionAr
+    Försäljning av bostadsrätter efter region (län, storstadsområden, riket). År 2000 - 2025
+BO/BO0501/BO0501D/LagfartAllaRegionAr
+    Beviljade lagfarter för samtliga fastighetstyper efter region (län, riket) och typ av överlåtelse. År 1999 - 2025
+BO/BO0501/BO0501E/TaxvForandringHH00
+    Basvärdeförändring för hyreshus vid allmän fastighetstaxering 2000 efter region (län, hela landet) och fastighetstyp. År 2000
+BO/BO0501/BO0501E/TaxvForandringHH94
+    Taxeringsvärdeförändring för hyreshus vid allmän fastighetstaxering 1994 efter region (län, hela landet) och fastighetstyp. År 1994
+BO/BO0501/BO0501E/TaxvForandringHH07
+    Taxeringsvärdeförändring för hyreshus vid allmän fastighetstaxering 2007 efter region (län, hela landet) och fastighetstyp. År 2007
+BO/BO0501/BO0501E/TaxvForandringHH04
+    Taxeringsvärdeförändring för hyreshus vid förenklad fastighetstaxering 2004 efter region (län, hela landet) och fastighetstyp. År 2004
+BO/BO0501/BO0501E/TaxvForandringLB05
+    Taxeringsvärdeförändring för lantbruk vid allmän fastighetstaxering 2005 efter region (län, hela landet). År 2005
+BO/BO0501/BO0501E/TaxvForandringSH96
+    Taxeringsvärdeförändring för småhus vid allmän fastighetstaxering 1996 efter region (kommun, län, hela landet) och fastighetstyp. År 1996
+BO/BO0501/BO0501E/TaxvForandringSH03
+    Taxeringsvärdeförändring för småhus vid allmän fastighetstaxering 2003 efter region (kommun, län, hela landet) och fastighetstyp. År 2003
+BO/BO0501/BO0501E/TaxvForandringSH06
+    Taxeringsvärdeförändring för småhus vid förenklad fastighetstaxering 2006 efter region (kommun, län, hela landet) och fastighetstyp. År 2006
+BO/BO0501/BO0501E/TaxvForandringLB08
+    Taxeringsvärdeförändring för lantbruk vid förenklad fastighetstaxering 2008 efter region (län, hela landet). År 2008
+BO/BO0501/BO0501E/TaxvForandringSH09
+    Taxeringsvärdeförändring för småhus vid förenklad fastighetstaxering 2009 efter region (kommun, län, hela landet) och fastighetstyp. År 2009
+BO/BO0501/BO0501S/SnabbStatBO0501
+    Småhusbarometern, förändring från föregående period och motsvarande period föregående år. Månad 2013M10 - 2026M08
+BO/BO0601/BO0601A/TaxeringsvardeOvriga
+    Fastighetstaxering för småhus-, hyreshus-, industri-, täkt-, elproduktions-, och specialenheter efter region och typkod. År 1998 - 2025
+BO/BO0601/BO0601A/TaxeringsvardeLantNY
+    Fastighetstaxering för lantbruksenheter efter region och typkod.  År 1998 - 2025
+BO/BO0601/BO0601A/GenomsnTaxvSmaN
+    Fastighetstaxering för småhus (typkod 220, 221). Taxeringsvärden och genomsnittliga taxeringsvärden efter region och typkod . År 1998 - 2025
+BO/BO0601/BO0601F/BO0601T01
+    Taxeringsvärdeförändring för jämförbara lantbruksenheter för taxeringsåret jämfört med året före en taxering efter region. År 2008 - 2023
+BO/BO0601/BO0601F/BO0601T02
+    Taxeringsvärdeförändring för jämförbara hyreshusenheter för taxeringsåret jämfört med året före en taxering efter region. År 2019 - 2025[hoppar över] BO/BO0601/BO0601G: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/BO/BO0601/BO0601G gav 400: Bad Request
+
+BO/BO0601/BO0601F/BO0601T03
+    Taxeringsvärdeförändring för jämförbara industrienheter för taxeringsåret jämfört med året före en taxering efter region. År 2019 - 2025
+BO/BO0601/BO0601F/BO0601T05
+    Taxeringsenheter (typkod 220, 223, 225, 230), totalt taxeringsvärde år 2020, totalt taxeringsvärde år 2021 samt vägd och ovägd förändring efter region och typkod. År 2021
+BO/BO0601/BO0601F/BO0601T04
+    Taxeringsenheter (typkod 210), totalt taxeringsvärde år 2020, totalt taxeringsvärde år 2021 samt vägd och ovägd förändring efter region och typkod. År 2021
+BO/BO0601/BO0601F/BO0601T05N
+    Taxeringsenheter (typkod 220, 223, 225, 230), totalt taxeringsvärde år 2023, totalt taxeringsvärde år 2024 samt vägd och ovägd förändring efter region och typkod. År 2024
+BO/BO0601/BO0601F/BO0601T04N
+    Taxeringsenheter (typkod 210), totalt taxeringsvärde år 2023, totalt taxeringsvärde år 2024 samt vägd och ovägd förändring efter region och typkod. År 2024
+BO/BO0601/BO0601C/ArealAntSma
+    Taxeringsenheter med uppgift om areal (typkod 200–299) och areal efter region och typkod. År 2003 - 2024
+BO/BO0601/BO0601C/AntTaxvArealSma
+    Taxeringsenheter (typkod 200–299), totalt taxeringsvärde och areal efter region, typkod och ägarkategori. År 2003 - 2024
+BO/BO0601/BO0601C/ArealAntSma220
+    Taxeringsenheter med uppgift om areal (typkod 220) och areal efter region och byggnadskategori. År 2003 - 2024
+BO/BO0601/BO0601C/AntTaxvStrandM
+    Taxeringsenheter (typkod 210–212), genomsnittliga markvärden och arealer efter region, typkod och strandzonsklass. År 2003 - 2024
+BO/BO0601/BO0601C/AntTaxvStrandB
+    Taxeringsenheter (typkod 220,  221), genomsnittliga värden och arealer efter region, typkod och strandzonsklass. År 2003 - 2024
+BO/BO0601/BO0601C/AntTaxvKlSmaM
+    Taxeringsenheter (typkod 200–212) efter region, typkod och taxeringsvärdeklass. År 2003 - 2024
+BO/BO0601/BO0601C/AntTaxvKlSmaB
+    Taxeringsenheter (typkod 213–230) efter region, typkod och taxeringsvärdeklass. År 2003 - 2024
+BO/BO0601/BO0601C/AntTaxvKonAlderSma2
+    Ägare/ägarandelar (med ägarandel minst 1procent) till taxeringsenheter (typkod 200–299) ägda av fysiska personer och totalt taxeringsvärde för ägd andel efter typkod, taxeringsvärdeklass, kön och ägarens ålder. År 2003 - 2024
+BO/BO0601/BO0601C/AlderKlByggvYtaSma
+    Värderingsenheter (typkod 220–230), genomsnittliga areor och byggnadsvärden efter region, typkod och värdeårsklass. År 2003 - 2024
+BO/BO0601/BO0601D/ArealAnt
+    Taxeringsenheter med uppgift om areal (typkod 300–890) och areal efter län och typkod. År 2000 - 2025
+BO/BO0601/BO0601D/AntTaxvAreal
+    Taxeringsenheter (typkod 300–799), totalt taxerings-/basvärde och areal efter län, typkod och ägarkategori. År 2000 - 2025
+BO/BO0601/BO0601D/AntBasvKl
+    Taxeringsenheter (typkod 300–799) efter län, typkod och taxerings-/basvärdeklass. År 2000 - 2025
+BO/BO0601/BO0601D/AlderBasvYta
+    Värderingsenheter (typkod 320, 321, 325, 420-433, 520), genomsnittliga areor och taxerings-/basvärden efter län, slag av enhet och värdeårsklass. År 2000 - 2016
+BO/BO0601/BO0601B/TaxeringsvardeHist
+    Fastighetstaxering för småhus-, hyreshus- och industrienheter efter region och typkod. År 1975 - 1997
+BO/BO0601/BO0601B/TaxvardeLantHist7580
+    Fastighetstaxering för lantbruk. Taxeringsenheter, värderingsenheter och byggnadsvärde efter region och byggnadstyp. År 1975 - 1980
+BO/BO0601/BO0601B/DelvardeLantHist7580
+    Fastighetstaxering för lantbruk. Taxeringsenheter och delvärden efter region. År 1975 - 1980
+BO/BO0601/BO0601B/TaxvardeLantHist8187
+    Fastighetstaxering för lantbruk. Taxeringsenheter, värderingsenheter och byggnadsvärde efter region och byggnadstyp.  År 1981 - 1987
+BO/BO0601/BO0601B/DelvardeLantHist8187
+    Fastighetstaxering för lantbruk. Taxeringsenheter och delvärden efter region.  År 1981 - 1987
+BO/BO0601/BO0601B/TaxvardeLantHist8897
+    Fastighetstaxering för lantbruk. Taxeringsenheter och totalt taxeringsvärde efter region och typkod. År 1988 - 1997
+BO/BO0601/BO0601B/DelvardeLantHist8897
+    Fastighetstaxering för lantbruk. Delvärden och taxeringsenheter med delvärden efter region. År 1988 - 1997
+BO/BO0601/BO0601E/ArealAntLant
+    Taxeringsenheter med uppgift om areal (typkod 100–199) och areal efter län och typkod. År 1998 - 2023
+BO/BO0601/BO0601E/ArealAntSkatteFLant
+    Taxeringsenheter med uppgift om areal (typkod 180,181) och areal efter typkod och ägarkategori. År 1998 - 2023
+BO/BO0601/BO0601E/AntTaxvKLLant
+    Taxeringsenheter (typkod 100–122,199) efter län, typkod och taxeringsvärdeklass. År 1998 - 2023
+BO/BO0601/BO0601E/AgareAgKatTaxvKLLant
+    Ägare/ägarandelar (med ägarandel minst 1procent) till taxeringsenheter (typkod 110,113,120,122) efter län, ägarkategori och taxeringsvärdeklass för ägd andel. År 1998 - 2023
+BO/BO0601/BO0601E/AgarAndTKLKonAldLant
+    Ägare/ägarandelar till taxeringsenheter (typkod 110,113,120,122) ägda av fysiska personer och totalt taxeringsvärde för ägd andel efter taxeringsvärdeklass för ägd andel, ägarens kön och ålder. År 1998 - 2023
+BO/BO0601/BO0601E/AntTESkogsAUtboLant
+    Taxeringsenheter med skog (typkod 110,113,120,122) ägda av fysiska personer samt skogsareal efter län och utboägande. År 2005 - 2023
+BO/BO0601/BO0601E/AntVESkogsAKLVirLant
+    Areal skogsmark (typkod 110,113,120,122), genomsnittligt skogsbruksvärde per hektar skogsmark respektive per skogskubikmeter efter virkesförrådsklass och bonitetsklass. År 1998 - 2023
+BO/BO0601/BO0601E/AntVESkArealVirLant
+    Värderingsenheter (typkod 110,113,120,122) och areal skogsmark, genomsnittligt virkesförråd, genomsnittligt skogsbruksvärde per hektar skogsmark respektive per skogskubikmeter efter län och bonitetsklass. År 1998 - 2023
+BO/BO0601/BO0601E/AntVESkogKLVirkeLant
+    Värderingsenheter (typkod 110,113,120,122) efter virkesförrådsklass och skogsarealklass. År 1998 - 2023
+BO/BO0601/BO0601E/ArealAntSkogAgLant
+    Taxeringsenheter, areal skogsmark och genomsnittligt skogsbruksvärde per hektar skogsmark (typkod 110,113,120,122) efter län, ägarkategori och skogsarealklass. År 1998 - 2023
+BO/BO0601/BO0601E/ArealAntAkerAgLant
+    Taxeringsenheter, areal åkermark och genomsnittligt åkermarksvärde per hektar åkermark (typkod 110,113,120,122) efter län, ägarkategori och åkerarealklass. År 1998 - 2023
+BO/BO0601/BO0601E/GenomsnAkerBeteVLant
+    Genomsnittligt åkermarksvärde och betesmarksvärde (typkod 110,113,120,122) efter län, ägoslag och beskaffenhetsklass. År 1998 - 2023
+BO/BO0601/BO0601E/AntVardeEkbyggLant
+    Ekonomibyggnader och ekonomibyggnadsvärde (typkod 110,113,120,121,122) efter byggnadskategori och värdeklass. År 1998 - 2023
+BO/BO0601/BO0601E/AntVEkbyggRegLant
+    Ekonomibyggnader och ekonomibyggnadsvärde (typkod 110,113,120,121,122) efter län och värdeklass. År 1998 - 2023
+BO/BO0601/BO0601E/AntGenomsnVardYtLant
+    Värderingsenheter (typkod 120) genomsnittliga areor och byggnadsvärden efter län och värdeårsklass. År 1998 - 2023
+BO/BO0601/BO0601E/ArealAgoslagLantN
+    Areal för olika ägoslag (typkod 110,113,120,122) efter län och ägarkategori.  År 1998 - 2023
+BO/BO0601/BO0601E/DelArealAntLantN
+    Taxeringsvärde och delvärden (typkod 110,113,120, 122) efter län och ägarkategori. År 1998 - 2023
+BO/BO0301/BO0301A/IKUIoKTotN
+    Intäkter och kostnader för flerbostadshus efter region, fastighetsägarkategori och intäkts-/kostnadsslag. (Urvalsundersökning, se fotnoter.)  År 2003 - 2015
+BO/BO0301/BO0301A/IKUIoKRegNB
+    Intäkter och kostnader för flerbostadshus (IKU), bostadsrättsföreningar efter region, lägenhetsantal och intäkts-/kostnadsslag. (Urvalsundersökning, se fotnoter). År 2003 - 2015
+BO/BO0301/BO0301A/IKUIoKRegN
+    Intäkter och kostnader för flerbostadshus efter region, nybyggår/värdeår, årsintervall, fastighetsägarkategori och intäkts-/kostnadsslag. (Urvalsundersökning, se fotnoter). År 2003 - 2015
+BO/BO0301/BO0301A/IKUKommIoK
+    Intäkter och kostnader för flerbostadshus (IKU), allmännyttiga bostadsföretag efter region, lägenhetsantal och intäkts-/kostnadsslag. (Urvalsundersökning, se fotnoter). År 2001 - 2015[hoppar över] BO/BO0301/BO0301J: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/BO/BO0301/BO0301J gav 400: Bad Request
+
+BO/BO0301/BO0301A/IKUTaxSkuldTotN
+    Taxeringsvärden, låneskulder, räntor, räntebidrag och ombyggnadsutgifter för flerbostadshus efter region, fastighetsägarkategori och kontoslag. (Urvalsundersökning, se fotnoter.) År 2003 - 2015
+BO/BO0301/BO0301A/IKUTaxSkuldRegN
+    Taxeringsvärden, låneskulder, räntor, räntebidrag samt ombyggnadsutgifter för flerbostadshus efter region, värdeår, fastighetsägarkategori och kontoslag. (Urvalsundersökning, se fotnoter). År 2003 - 2015
+BO/BO0301/BO0301A/IKUKommTaxSkuld
+    Taxeringsvärden, låneskulder, räntor, räntebidrag och ombyggnadsutgifter för flerbostadshus (IKU), allmännyttiga bostadsföretag, efter region, lägenhetsantal och kontoslag.  (Urvalsundersökning, se fotnoter). År 2001 - 2015
+BO/BO0201/BO0201A/PrisPerAreorFH02
+    Pris per kvm för nybyggda ordinära flerbostadshus efter region och brutto-/nettopris. År 1994 - 2024
+BO/BO0201/BO0201A/PrisPerAreorFH04
+    Pris per kvm för nybyggda ordinära flerbostadshus efter region, upplåtelseform och brutto-/nettopris. År 1994 - 2024
+BO/BO0201/BO0201A/PrisPerAreorFH03
+    Pris per kvm för nybyggda ordinära flerbostadshus efter region, byggherre och brutto-/nettopris. År 1994 - 2024
+BO/BO0201/BO0201B/PrisPerLghFH02
+    Pris per lägenhet för nybyggda ordinära flerbostadshus efter region och brutto-/nettopris. År 1998 - 2024
+BO/BO0201/BO0201B/PrisPerLghFH04
+    Pris per lägenhet för nybyggda ordinära flerbostadshus efter region, upplåtelseform och brutto-/nettopris. År 1998 - 2024
+BO/BO0201/BO0201B/PrisPerLghFH03
+    Pris per lägenhet för nybyggda ordinära flerbostadshus efter region, byggherre och brutto-/nettopris. År 1998 - 2024
+BO/BO0201/BO0201C/PrisPerAreorSM02
+    Pris per kvm för nybyggda ordinära gruppbyggda småhus efter region och brutto-/nettopris. År 1994 - 2024
+BO/BO0201/BO0201C/PrisPerAreorSM04
+    Pris per kvm för nybyggda ordinära gruppbyggda småhus efter region, upplåtelseform och brutto-/nettopris. År 1994 - 2024
+BO/BO0201/BO0201C/PrisPerAreorSM03
+    Pris per kvm för nybyggda ordinära gruppbyggda småhus efter region, byggherre och brutto-/nettopris. År 1994 - 2024
+BO/BO0201/BO0201D/PrisPerLghSM02
+    Pris per lägenhet för nybyggda ordinära gruppbyggda småhus efter region och brutto-/nettopris. År 1998 - 2024
+BO/BO0201/BO0201D/PrisPerLghSM04
+    Pris per lägenhet för nybyggda ordinära gruppbyggda småhus efter region, upplåtelseform och brutto-/nettopris. År 1998 - 2024
+BO/BO0201/BO0201D/PrisPerLghSM03
+    Pris per lägenhet för nybyggda ordinära gruppbyggda småhus efter region, byggherre och brutto-/nettopris. År 1998 - 2024
+BO/BO0201/BO0201M/AntVaningarN
+    Lägenheter i nybyggda ordinära flerbostadshus efter antal våningar i huset. År 2007 - 2024
+BO/BO0201/BO0201M/HusformFHN
+    Lägenheter i nybyggda ordinära flerbostadshus efter husform. År 2007 - 2024
+BO/BO0201/BO0201M/FasadMaterialFN
+    Lägenheter i nybyggda ordinära flerbostadshus efter fasadmaterial. År 1995 - 2024
+BO/BO0201/BO0201M/TakmaterialFN
+    Lägenheter i nybyggda ordinära flerbostadshus efter takmaterial. År 1995 - 2024
+BO/BO0201/BO0201M/FortillverkningsgrFN
+    Lägenheter i nybyggda ordinära flerbostadshus efter förtillverkningsgrad. År 1995 - 2024
+BO/BO0201/BO0201M/MaterialiStommeFN
+    Lägenheter i nybyggda ordinära flerbostadshus efter material i husens stomme. År 1995 - 2024
+BO/BO0201/BO0201S/HusformSMN
+    Lägenheter i nybyggda gruppbyggda småhus efter husform. År 2007 - 2024
+BO/BO0201/BO0201S/FasadmaterialSN
+    Lägenheter i nybyggda gruppbyggda småhus efter fasadmaterial. År 1995 - 2024
+BO/BO0201/BO0201S/TakmaterialSN
+    Lägenheter i nybyggda gruppbyggda småhus efter takmaterial. År 1995 - 2024
+BO/BO0201/BO0201E/AreorPerLghRegFHn
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region.  År 1995 - 2024
+BO/BO0201/BO0201E/AreorPerLghUpplFHn
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region och upplåtelseform.  År 1995 - 2024
+BO/BO0201/BO0201E/AreorPerLghBygghFHn
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region och byggherre.  År 1995 - 2024
+BO/BO0201/BO0201F/Upphandlingsform
+    Lägenheter i nybyggda ordinära bostadshus efter hustyp och upphandlingsform. År 1998 - 2024
+BO/BO0201/BO0201F/Entreprenadform
+    Lägenheter i nybyggda ordinära bostadshus upphandlade på entreprenad efter hustyp och entreprenadform. År 1998 - 2024
+BO/BO0201/BO0201F/Anbudsinfordran
+    Lägenheter i nybyggda ordinära bostadshus upphandlade på entreprenad efter hustyp och anbudsinfordran. År 1998 - 2024
+BO/BO0201/BO0201N/KostnaderPerAreorFH2
+    Kostnader per kvm för nybyggda ordinära flerbostadshus efter region och brutto-/nettokostnad. År 1994 - 2017
+BO/BO0201/BO0201N/KostnaderPerAreorFH1
+    Kostnader per kvm för nybyggda ordinära flerbostadshus efter region, exploatering/sanering och brutto-/nettokostnad. År 1994 - 2006
+BO/BO0201/BO0201N/KostnaderPerAreorSM2
+    Kostnader per kvm för nybyggda ordinära gruppbyggda småhus efter region och brutto-/nettokostnad. År 1994 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghFH2
+    Kostnader per lägenhet för nybyggda ordinära flerbostadshus efter region och brutto-/nettokostnad. År 1998 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghSM2
+    Kostnader per lägenhet för nybyggda ordinära gruppbyggda småhus efter region och brutto-/nettokostnad. År 1998 - 2017
+BO/BO0201/BO0201N/KostnaderPerAreorFH3
+    Kostnader per kvm för nybyggda ordinära flerbostadshus efter region, byggherre och brutto-/nettokostnad. År 1994 - 2017
+BO/BO0201/BO0201N/KostnaderPerAreorSM4
+    Kostnader per kvm för nybyggda ordinära gruppbyggda småhus efter region, upplåtelseform och brutto-/nettokostnad. År 1994 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghFH4
+    Kostnader per lägenhet för nybyggda ordinära flerbostadshus efter region, upplåtelseform och brutto-/nettokostnad. År 1998 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghSM4
+    Kostnader per lägenhet för nybyggda ordinära gruppbyggda småhus efter region, upplåtelseform och brutto-/nettokostnad. År 1998 - 2017
+BO/BO0201/BO0201N/KostnaderPerAreorFH4
+    Kostnader per kvm för nybyggda ordinära flerbostadshus efter region, upplåtelseform och brutto-/nettokostnad. År 1994 - 2017
+BO/BO0201/BO0201N/KostnaderPerAreorSM3
+    Kostnader per kvm för nybyggda ordinära gruppbyggda småhus efter region, byggherre och brutto-/nettokostnad. År 1994 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghFH3
+    Kostnader per lägenhet för nybyggda ordinära flerbostadshus efter region, byggherre och brutto-/nettokostnad. År 1998 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghSM3
+    Kostnader per lägenhet för nybyggda ordinära gruppbyggda småhus efter region, byggherre och brutto-/nettokostnad. År 1998 - 2017
+BO/BO0201/BO0201N/KostnaderPerLghFH1
+    Kostnader per lägenhet för nybyggda ordinära flerbostadshus efter region, exploaterings-/saneringsområde och brutto-/nettokostnad. År 1998 - 2006
+BO/BO0201/BO0201J/AreorPerLghRegFH
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region. År 1995 - 2017
+BO/BO0201/BO0201J/AreorPerLghUpplFH
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region och upplåtelseform. År 1995 - 2017
+BO/BO0201/BO0201J/AreorPerLghBygghFH
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region och byggherre. År 1995 - 2017
+BO/BO0201/BO0201J/AreorPerLghExplSanFH
+    Areor per lägenhet för nybyggda ordinära flerbostadshus efter region och exploatering/sanering. År 1995 - 2006
+BO/BO0201/BO0201K/Prisbestamning
+    Lägenheter i nybyggda ordinära bostadshus upphandlade på entreprenad efter hustyp och prisbestämning. År 1998 - 2006
+BO/BO0201/BO0201K/Kostnadsreglering
+    Lägenheter i nybyggda ordinära bostadshus upphandlade på entreprenad med kostnadsreglering efter hustyp och slag av kostnadsreglering. År 1998 - 2006
+BO/BO0201/BO0201K/MedelAreaREOrdFH
+    Rumsenheter och areor i nybyggda ordinära flerbostadshus efter region. År 1998 - 2006
+BO/BO0201/BO0201K/AntVaningar
+    Lägenheter i nybyggda ordinära flerbostadshus efter region och antal våningar i huset. År 1998 - 2006[hoppar över] BO/BO0404/BO0404C: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/BO/BO0404/BO0404C gav 400: Bad Request
+
+BO/BO0201/BO0201K/HusformFH
+    Lägenheter i nybyggda ordinära flerbostadshus efter region och husform. År 1998 - 2006
+BO/BO0201/BO0201L/Upplatform
+    Nybyggda lägenheter efter region, hustyp och upplåtelseform. År 1998 - 2006
+BO/BO0201/BO0201L/AntalObjLgh
+    Byggnadsobjekt och lägenheter i nybyggda bostadshus efter region, hustyp och ordinära/icke ordinära bostadshus. År 1998 - 2006
+BO/BO0201/BO0201L/BygghkatLgh
+    Nybyggda lägenheter efter region, hustyp och byggherre. År 1998 - 2006
+BO/BO0201/BO0201L/BygghkatObjekt
+    Byggnadsobjekt med nybyggda bostadshus efter region, hustyp och byggherre. År 1998 - 2006
+BO/BO0201/BO0201L/Lagenhetstyp
+    Nybyggda lägenheter samt genomsnittlig bostadslägenhetsarea efter region, hustyp och lägenhetstyp. År 1998 - 2006
+BO/BO0201/BO0201L/AntLghIProj
+    Byggnadsobjekt med nybyggda flerbostadshus efter region och lägenhetsantal. År 1998 - 2006
+BO/BO0201/BO0201L/MedelAreaRE
+    Rumsenheter och areor i nybyggda bostadshus efter region och hustyp. År 1998 - 2006
+BO/BO0201/BO0201L/Varme
+    Nybyggda lägenheter efter region, hustyp och uppvärmningssätt. År 1998 - 2006
+BO/BO0201/BO0201L/BygghkatMedelLgh
+    Lägenhetsantal, genomsnitt per objekt för nybyggda flerbostadshus efter region och byggherre. År 1998 - 2006
+BO/BO0201/BO0201L/AntPlan
+    Lägenheter i nybyggda gruppbyggda småhus efter region och antal plan. År 1998 - 2006
+BO/BO0201/BO0201L/HusformSM
+    Lägenheter i nybyggda gruppbyggda småhus efter region och husform. År 1998 - 2006
+BO/BO0404/BO0404A/HyrFHHyModLgh
+    Hyror i nybyggda hus (hyresrätt) efter region, antal rum och modell för hyressättning. År 2022 - 2024
+BO/BO0404/BO0404A/HyrFHHyModBygghLgh
+    Hyror i nybyggda hus (hyresrätt) efter byggherre, antal rum och modell för hyressättning. År 2022 - 2024
+BO/BO0404/BO0404A/HyrBygghNUTS
+    Hyror i nybyggda hus (hyresrätt) efter regional indelning NUTS, byggherre och antal rum. År 2022 - 2024
+BO/BO0404/BO0404A/HyrBygghLgh
+    Hyror i nybyggda hus (hyresrätt) efter region, byggherre och antal rum. År 2022 - 2024
+BO/BO0404/BO0404A/BoRattLgh
+    Avgifter och insatser i nybyggda hus (bostadsrätt) efter region, byggherre och antal rum. År 2022 - 2024
+BO/BO0404/BO0404A/BoNUTS
+    Avgifter och insatser i nybyggda hus (bostadsrätt) efter regional indelning NUTS, byggherre och antal rum. År 2022 - 2024
+BO/BO0404/BO0404B/HyresrattOuthReg
+    Outhyrda lägenheter i nybyggda hus (hyresrätt) efter region. År 2014 - 2020
+
+## PR — priser
+[hoppar över] PR/PR0301/PR0301Ö: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/PR/PR0301/PR0301Ö gav 400: Bad Request
+[hoppar över] PR/PR0101/PR0101F: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/PR/PR0101/PR0101F gav 400: Bad Request
+PR/PR0301/PR0301G/PPI2020M
+    Producentprisindex efter marknad och produktgrupp SPIN 2015, 2020=100. Månad 1990M01 - 2026M07
+PR/PR0301/PR0301G/PPI2020A
+    Producentprisindex efter marknad och produktgrupp SPIN 2015, 2020=100. År 1990 - 2025
+PR/PR0301/PR0301G/PPIvikt
+    Viktandelar (PPI) efter marknad och produktgrupp SPIN 2015. År 2015 - 2026
+PR/PR0301/PR0301G/PPI2020ArManFor
+    Förändringstal producentprisindex efter marknad och produktgrupp SPIN 2015, 2020=100. Månad 2023M01 - 2026M07
+PR/PR0301/PR0301L/TPI2020K
+    Producentprisindex för tjänster (TPI) efter marknad och produktgrupp SPIN 2015, 2020=100. Kvartal 1996K1 - 2026K2
+PR/PR0301/PR0301L/TPI2020A
+    Producentprisindex för tjänster (TPI) efter marknad och produktgrupp SPIN 2015, 2020=100. År 1996 - 2025
+PR/PR0301/PR0301L/TPIvikt
+    Viktandelar (TPI) efter marknad och produktgrupp SPIN 2015.  År 2015 - 2026
+PR/PR0301/PR0301D/ZHMPIM
+    Hemmamarknadsprisindex (HMPI) efter varugrupp SNI69. Månad 1975M01-1995M12 1975M01 - 1995M12
+PR/PR0301/PR0301D/ZEXPIM
+    Exportprisindex (EXPI) efter varugrupp SNI69. Månad 1975M01-1995M12 1975M01 - 1995M12
+PR/PR0301/PR0301D/ZIMPIM
+    Importprisindex (IMPI) efter varugrupp SNI69. Månad 1975M01-1995M12 1975M01 - 1995M12
+PR/PR0301/PR0301D/ZPPIM
+    Producentprisindex (PPI) efter varugrupp SNI69. Månad 1975M01-1995M12 1975M01 - 1995M12
+PR/PR0301/PR0301D/ZITPIM
+    Prisindex för inhemsk tillgång (ITPI) efter varugrupp SNI69. Månad 1975M01-1995M12 1975M01 - 1995M12
+PR/PR0301/PR0301D/ZHMPIAr
+    Hemmamarknadsprisindex (HMPI) efter varugrupp SNI69. År 1969-1995 1969 - 1995
+PR/PR0301/PR0301D/ZEXPIAr
+    Exportprisindex (EXPI) efter varugrupp SNI69. År 1969-1995 1969 - 1995
+PR/PR0301/PR0301D/ZIMPIAr
+    Importprisindex (IMPI) efter varugrupp SNI69. År 1969-1995 1969 - 1995
+PR/PR0301/PR0301D/ZPPIAr
+    Producentprisindex (PPI) efter varugrupp SNI69. År 1969-1995 1969 - 1995
+PR/PR0301/PR0301D/ZITPIAr
+    Prisindex för inhemsk tillgång (ITPI) efter varugrupp SNI69. År 1969-1995 1969 - 1995
+PR/PR0301/PR0301A/SnabbStatPR0301
+    Prisindex i producent- och importled (PPI), förändring från föregående period. Månad 2014M01 - 2026M07
+PR/PR0301/PR0301X/NTPR0301PPI
+    Indextal och förändringstal för Prisindex i producent- och importled (PPI) 2018M01 - 2026M07
+PR/PR0301/PR0301X/NTPR0301TPI
+    Indextal och förändringstal för Tjänsteprisindex 2018K1 - 2026K2
+PR/PR0101/PR0101A/KPI2020M
+    Konsumentprisindex (KPI), totalt, 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101A/KPI2020COICOP2M
+    Konsumentprisindex (KPI) efter avdelningar (COICOP), 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101A/KPI2020COICOPM
+    Konsumentprisindex (KPI) enligt COICOP (alla nivåer), 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101A/KPI2020EPG01M
+    Konsumentprisindex (KPI), livsmedel och alkoholfria drycker, 2020=100. Månad 2026M01 - 2026M08
+PR/PR0101/PR0101A/KPI2020M1980
+    Ombasade serier för fastställda KPI-tal. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101A/KPILevindexM
+    Konsumentprisindex (KPI)/Levnadskostnadsindex utan direkta skatter och sociala förmåner, juli 1914=100. Månad 1914M01 - 2026M08
+PR/PR0101/PR0101A/KPI1980Bransle
+    Konsumentprisindex (KPI), el och bränsle, 1980=100.  Månad 2026M01 - 2026M08
+PR/PR0101/PR0101A/KPILevindexAr
+    Konsumentprisindex (KPI)/Levnadskostnadsindex utan direkta skatter och sociala förmåner, juli 1914=100. År 1914 - 2025
+PR/PR0101/PR0101A/KPItotM
+    Konsumentprisindex (KPI), totalt, 1980=100 (uppdateras ej efter 2025M12). Månad 1980M01 - 2025M12
+PR/PR0101/PR0101A/KPICOI80MN
+    Konsumentprisindex (KPI) efter varu-/tjänstegrupp (COICOP), 1980=100 (uppdateras ej efter 2025M12). Månad 1980M01 - 2025M12
+PR/PR0101/PR0101A/KPI19Bas1980
+    Konsumentprisindex (KPI) efter produktgrupp, 1980=100 (uppdateras ej efter 2025M12). Månad 1980M01 - 2025M12
+PR/PR0101/PR0101A/KPIArViktInd
+    Konsumentprisindex (KPI) År, vikter och index (uppdateras ej efter 2023). År 2005 - 2023
+PR/PR0101/PR0101H/KPIKS2020
+    Konsumentprisindex med konstant skatt (KPI-KS), 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101H/KPIKSAr
+    Konsumentprisindex med konstant skatt (KPI-KS), årsmedeltal, 1980=100. År 1980 - 2025
+PR/PR0101/PR0101H/KPIKS
+    Konsumentprisindex med konstant skatt (KPI-KS), 1980=100 (uppdateras ej efter 2025M12). Månad 1980M01 - 2025M12
+PR/PR0101/PR0101G/KPIF2020
+    Konsumentprisindex med fast ränta (KPIF), 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101G/KPIF2020COICOP2M
+    Konsumentprisindex med fast ränta (KPIF) efter avdelningar (COICOP), 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101G/KPIF2020COICOPM
+    Konsumentprisindex med fast ränta (KPIF) enligt COICOP (alla nivåer), 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101G/KPIF
+    Konsumentprisindex med fast ränta (KPIF), 1987=100 (uppdateras ej efter 2025M12). Månad 1987M01 - 2025M12
+PR/PR0101/PR0101I/KPIFKS2020
+    Konsumentprisindex med fast ränta och konstant skatt (KPIF-KS), 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101I/KPIFKS
+    Konsumentprisindex med fast ränta och konstant skatt (KPIF-KS), 1987=100 (uppdateras ej efter 2025M12). Månad 1987M01 - 2025M12
+PR/PR0101/PR0101J/KPIFXE2020
+    Konsumentprisindex med fast ränta exklusive energi (KPIF-XE), 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101J/KPIFexEN
+    Konsumentprisindex med fast ränta exklusive energi (KPIF-XE), 1987=100 (uppdateras ej efter 2025M12). Månad 1987M01 - 2025M12
+PR/PR0101/PR0101C/HIKP2025
+    Harmoniserat konsumentprisindex (HIKP), 2025=100. Månad 1996M01 - 2026M08
+PR/PR0101/PR0101C/HIKPAR22015
+    Harmoniserat konsumentprisindex, 2015=100. År 1996 - 2025
+PR/PR0101/PR0101C/HIKP
+    Harmoniserat konsumentprisindex (HIKP), 2015=100 (uppdateras ej efter 2025M12). Månad 1996M01 - 2025M12
+PR/PR0101/PR0101K/HIKPKS2025
+    Harmoniserat konsumentprisindex med konstant skatt (HIKP-KS), 2025=100. Månad 2002M12 - 2026M08
+PR/PR0101/PR0101K/HIKPCTAR22015
+    Harmoniserat konsumentprisindex - KS, 2015=100. År 2003 - 2025
+PR/PR0101/PR0101K/HIKPKS
+    Harmoniserat konsumentprisindex med konstant skatt (HIKP-KS), 2015=100 (uppdateras ej efter 2025M12). Månad 2002M12 - 2025M12
+PR/PR0101/PR0101SK/SnabbKPI
+    Snabb-KPI: preliminära förändringstal för KPI, KPIF och KPIF-XE (två decimaler). Månad 2024M08 - 2026M08
+PR/PR0101/PR0101SK/SnabbKPI1d
+    Snabb-KPI: preliminära förändringstal för KPI, KPIF och KPIF-XE (en decimal). Månad 2024M09 - 2026M08
+PR/PR0101/PR0101SK/SnabbKPIAvdelningar
+    Snabb-KPI: Preliminära förändringstal, avdelningar (COICOP) enligt KPI. Månad 2026M01 - 2026M08
+PR/PR0101/PR0101SK/SnabbKPIFSA
+    Snabb-KPI: Preliminära förändringstal, analysgrupper KPIF. Månad 2026M01 - 2026M08
+PR/PR0101/PR0101E/Basbeloppet
+    Prisbasbeloppet (Basbeloppet). År 1960 - 2027
+PR/PR0101/PR0101E/Basbelopp
+    Förhöjt prisbasbelopp. År 1996 - 2027
+PR/PR0101/PR0101L/KPIFastAmed
+    Konsumentprisindex (KPI) fastställda årsmedeltal, totalt, 1980=100. År 1980 - 2025
+PR/PR0101/PR0101L/KPI2020Amed
+    Konsumentprisindex (KPI) årsmedeltal, totalt, 2020=100. År 2005 - 2025
+PR/PR0101/PR0101L/KPISkuggAr
+    Konsumentprisindex (KPI) årsmedeltal totalt, skuggindextal, 1980=100. År 1980 - 2025
+PR/PR0101/PR0101L/KPICOI80Ar
+    Konsumentprisindex (KPI) årsmedeltal efter varu-/tjänstegrupp (COICOP), 1980=100. År 1980 - 2025
+PR/PR0101/PR0101Z/KPIRBBas1980
+    Konsumentprisindex efter varu-/tjänstegrupp (Riksbanken), 1980=100. Månad 1980M01 - 2025M12
+PR/PR0101/PR0101Z/KPIRBAr
+    Konsumentprisindex efter varu-/tjänstegrupp (Riksbanken). År 1980 - 2023
+PR/PR0101/PR0101Z/KPIUndInfRBAr16
+    Underliggande inflation (Riksbanken), Index år till år. År 2003 - 2023
+PR/PR0101/PR0101Z/KPIUndInfRBArMan16
+    Underliggande inflation (Riksbanken), Index år till månad. Månad 2004M01 - 2025M12
+PR/PR0101/PR0101Z/KPIUndInfRBMan16
+    Underliggande inflation (Riksbanken), Index 1987=100. Månad 1987M01 - 2025M12
+PR/PR0101/PR0101DE/KPI2020COICOPMA
+    Detaljerad tabell: Konsumentprisindex (KPI) enligt COICOP (alla nivåer), 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101DE/KPIF2020COICOPMA
+    Detaljerad tabell: Konsumentprisindex med fast ränta (KPIF) enligt COICOP (alla nivåer), 2020=100. Månad 1987M01 - 2026M08[hoppar över] PR/PR0502/PR0502X: GET https://api.scb.se/OV0104/v1/doris/sv/ssd/PR/PR0502/PR0502X gav 400: Bad Request
+
+PR/PR0101/PR0101DE/KPI2020EPG04MA
+    Detaljerad tabell: KPI/KPIF, COICOP 04.2 del av boende (EPG), 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101DE/KPI2020SA1MA
+    Detaljerad tabell: KPI specialaggregat för varor och tjänster, 2020=100. Månad 1980M01 - 2026M08
+PR/PR0101/PR0101DE/KPIF2020SA1MA
+    Detaljerad tabell: KPIF specialaggregat för varor och tjänster, 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101DE/KPIF2020SA2MA
+    Detaljerad tabell: KPIF analysgrupper, 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101DE/KPIF2020SA3MA
+    Detaljerad tabell: Konstanta skatter och räntor, 2020=100. Månad 1987M01 - 2026M08
+PR/PR0101/PR0101DE/KPI2020COICOPAR
+    Detaljerad tabell: Konsumentprisindex (KPI) enligt COICOP (alla nivåer), 2020=100. År 1980 - 2024
+PR/PR0101/PR0101DE/KPIF2020COICOPAR
+    Detaljerad tabell: Konsumentprisindex med fast ränta (KPIF) enligt COICOP (alla nivåer), 2020=100. År 1987 - 2024
+PR/PR0101/PR0101DE/KPI2020EPG04AR
+    Detaljerad tabell: KPI/KPIF, COICOP 04.2 del av boende (EPG), 2020=100. År 1980 - 2024
+PR/PR0101/PR0101DE/KPI2020SA1AR
+    Detaljerad tabell: KPI specialaggregat för varor och tjänster, 2020=100. År 1980 - 2024
+PR/PR0101/PR0101DE/KPIF2020SA2AR
+    Detaljerad tabell: KPIF analysgrupper, 2020=100. År 1987 - 2024
+PR/PR0101/PR0101DE/KPIF2020SA1AR
+    Detaljerad tabell: KPIF specialaggregat för varor och tjänster, 2020=100 År 1987 - 2024
+PR/PR0101/PR0101DE/KPIF2020SA3AR
+    Detaljerad tabell: Konstanta skatter och räntor, 2020=100. År 2003 - 2024
+PR/PR0501/ByggIndexAr
+    Byggnadsprisindex för bostäder (BPI), inkl mervärdesskatt efter hustyp och indexslag. År 1968 - 2024
+PR/PR0501/ByggIndexKv
+    Byggnadsprisindex för bostäder (BPI), inkl mervärdesskatt efter hustyp och indexslag. Kvartal 1968K1 - 2024K4
+PR/PR0502/PR0502A/FPIBOM2015
+    Byggkostnadsindex för bostäder exkl. löneglidning och moms, 2015=100, efter hustyp och kostnadsslag. Månad 2015M01 - 2026M08
+PR/PR0502/PR0502A/FPIBOM
+    Byggkostnadsindex för bostäder exkl. löneglidning och moms, 1968=100, efter hustyp och kostnadsslag.  Månad 1975M01 - 2026M08
+PR/PR0502/PR0502A/FPIJBM15
+    Byggkostnadsindex för jordbruksbyggnader exkl. löneglidning och moms, 2015=100, efter kostnadsslag. Månad 2015M01 - 2026M08
+PR/PR0502/PR0502A/FPIJBM
+    Byggkostnadsindex för jordbruksbyggnader exkl. löneglidning och moms, 1980=100, efter kostnadsslag. Månad 1980M01 - 2026M08
+PR/PR0502/PR0502A/BKIMAM
+    Byggkostnadsindex (BKI) för flerbostadshus exkl. moms, 1968=100 efter varuslag Månad 2000M01 - 2026M08
+PR/PR0502/PR0502A/FPIBOAr
+    Byggkostnadsindex för bostäder exkl. löneglidning och moms, 1968=100, efter hustyp och kostnadsslag. År 1975 - 2025
+PR/PR0502/PR0502B/FPIInLg15KvN
+    Byggkostnadsindex för bostäder inkl. löneglidning, 2015=100, efter hustyp och kostnadsslag. Kvartal 2015K1 - 2026K2
+PR/PR0502/PR0502B/FPIEUKvN
+    Byggkostnadsindex för bostäder inkl. löneglidning exkl. moms, 2021=100 (Eurostat). Kvartal 2000K1 - 2026K2
+PR/PR0502/PR0502B/FPIInLgKv
+    Byggkostnadsindex för bostäder inkl. löneglidning, 1968=100, efter hustyp och kostnadsslag. Kvartal 1975K1 - 2026K2
+PR/PR0502/PR0502B/FPIInLgAr
+    Byggkostnadsindex för bostäder inkl. löneglidning, 1968=100, efter hustyp och kostnadsslag. År 1975 - 2025
+
+## KI — konjunkturbarometern, kvartal
+ftgkvartal/Barboaq.px
+    Byggverksamhet. Kvartal
+ftgkvartal/Barhanq.px
+    Handel. Kvartal
+ftgkvartal/Barindq.px
+    Tillverkningsindustri. Kvartal
+ftgkvartal/Bartjaq.px
+    Tjänstesektorn. Kvartal
+ftgkvartal/Bartotq.px
+    Totala näringslivet. Kvartal
+ftgkvartal/finans1q.px
+    Att finansiera företagets verksamhet, är för närvarande. Kvartal
+ftgkvartal/finans2q.px
+    Om finansiering är svårare än normalt, beror det främst på. Kvartal
+ftgkvartal/prisorsak.px
+    Vilken var den viktigaste orsaken till att försäljningspriserna ändrades senast. Kvartal
+ftgkvartal/zftgkhist/BarboahinderQHist.px
+    Byggverksamhet främsta hinder. Kvartal (1974Q2-2021Q4)
+ftgkvartal/zftgkhist/BarboaorderveckorQHist.px
+    Byggverksamhet orderveckor. Kvartal (1996Q2-2025Q2)
+ftgkvartal/zftgkhist/barboaQHist2.px
+    Byggverksamhet. Kvartal (1974Q2-2010Q4)
+ftgkvartal/zftgkhist/BarindhinderQHist.px
+    Tillverkningsindustri främsta hinder. Kvartal (1968Q2-2021Q4)
+ftgkvartal/zftgkhist/BarindorderveckorQHist.px
+    Tillverkningsindustri orderveckor och konkurrenssituation hemma. Kvartal (1996Q2-2025Q2)
+ftgkvartal/zftgkhist/barindQHist2.px
+    Tillverkningsindustri. Kvartal (1964Q2-2010Q4)
+ftgkvartal/zftgkhist/BartjahinderQHist.px
+    Tjänstesektorn främsta hinder. Kvartal (2003Q2-2021Q4)
+ftgkvartal/zftgkhist/bartjaQHist2.px
+    Tjänstesektorn. Kvartal (1990Q4-2010Q4)
+ftgkvartal/zftgkhist/bartotHinderQHist.px
+    Totala näringslivet främsta hinder: efterfrågan. Kvartal (1991Q3-2021Q4)
+
+## KI — konjunkturbarometern, månad
+ftgmanad/Barboam.px
+    Byggverksamhet. Månad
+ftgmanad/Barhanm.px
+    Handel. Månad
+ftgmanad/Barindm.px
+    Tillverkningsindustri. Månad
+ftgmanad/Bartjam.px
+    Tjänstesektorn. Månad
+ftgmanad/Bartotm.px
+    Totala näringslivet. Månad
+ftgmanad/zftgmhist/BarboaHinderMHist.px
+    Byggindustri främsta hinder. Månad (1996M02-2021M12)
+ftgmanad/zftgmhist/Finans1mHist.px
+    Att finansiera företagets verksamhet är för närvarande. Månad (2008M11-2022M01)
+ftgmanad/zftgmhist/Finans2mHist.px
+    Om finansiering är svårare än normalt, beror det främst på. Månad (2008M11-2022M01)

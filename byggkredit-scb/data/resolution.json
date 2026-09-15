@@ -69,6 +69,29 @@
       ]
     }
   },
+  "emitterat": {
+    "label": "Emitterade räntebärande värdepapper, icke-finansiella företag",
+    "roll": "kredit",
+    "note": "Fastighetsbolagen är tungt överrepresenterade på den svenska företagsobligationsmarknaden. Utan det här benet underskattas kreditflödet till sektorn kraftigt från mitten av 2010-talet.",
+    "table_path": "FM/FM9998/FM9998A/FM9998T03N",
+    "table_title": "Utestående och emitterat belopp under månaden samt räntekostnader. Månad 2013M03 - 2026M07",
+    "selections": {
+      "Sektor": [
+        "355"
+      ],
+      "ContentsCode": [
+        "000007QQ"
+      ]
+    },
+    "selection_labels": {
+      "Sektor": [
+        "Icke-finansiell"
+      ],
+      "ContentsCode": [
+        "Utestående nominellt emitterat belopp vid utgången av månaden, mnkr"
+      ]
+    }
+  },
   "byggkostnad": {
     "label": "Byggkostnadsindex för bostadshus",
     "roll": "namnare",
