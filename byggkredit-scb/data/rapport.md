@@ -6,13 +6,11 @@ Automatiskt genererad sammanfattning. Läs tillsammans med `data/resolution.json
 
 | Mått | Period | Värde |
 |---|---|---|
-| Kreditflöde, bostadsrättsföreningar (12 mån) | 2026Q1 | 4 654.0 |
-| Kreditflöde, fastighet – bostäder (12 mån) | 2026Q1 | 13 291.0 |
-| Kreditflöde, byggverksamhet (12 mån) | 2026Q1 | 7 022.0 |
+| Kreditflöde, bostadsrättsföreningar (12 mån) | 2026Q3 | 11 630.0 |
+| Kreditflöde, fastighet – bostäder (12 mån) | 2026Q3 | 18 776.0 |
+| Kreditflöde, byggverksamhet (12 mån) | 2026Q3 | 6 924.0 |
 | Kreditflöde, hushållens bolån (12 mån) | 2026Q3 | 141 058.0 |
-| Kreditflöde, obligationer (12 mån) | 2026Q3 | 0.1 |
 | Räntespread, fastighet – bostäder (p.e.) | 2026Q3 | 1.3 |
-| Ränta mot branschsnitt, fastighet – bostäder (p.e.) | 2026Q3 | 3.1 |
 | Antal låntagare, årstakt (%) | 2026Q3 | 0.2 |
 | Byggkreditindikator (z) | 2026Q3 | -1.3 |
 
