@@ -184,13 +184,20 @@ def main() -> None:
         except Exception as exc:
             # En serie som inte går att lösa ut ska inte stoppa de andra —
             # hellre en partiell uppsättning med tydlig avvikelselista än
-            # ingenting alls.
+            # ingenting alls. Missen skrivs till granskningsloggen och inte
+            # bara till stderr: felmeddelandet räknar upp vilka tabeller och
+            # värden som faktiskt fanns, och det är den upplysningen man
+            # behöver för att rätta mönstret. I en körningslogg försvinner den.
             failures.append(f"{spec.key}: {exc}")
+            resolutions[spec.key] = {"label": spec.label, "roll": spec.role,
+                                     "note": spec.note, "status": "miss",
+                                     "fel": str(exc)}
             print(f"[MISS] {spec.key}: {exc}", file=sys.stderr)
             continue
 
         resolutions[spec.key] = {"label": spec.label, "roll": spec.role,
-                                 "note": spec.note, **asdict(resolution)}
+                                 "note": spec.note, "status": "ok",
+                                 **asdict(resolution)}
         print(f"[OK]   {spec.key} -> {resolution.table_path} ({resolution.table_title})")
         for code, texts in resolution.selection_labels.items():
             print(f"         {code}: {', '.join(texts[:6])}"

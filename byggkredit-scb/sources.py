@@ -62,15 +62,14 @@ class SeriesSpec:
 # "1.3 Bostadsrättsföreningar", "1.7 Bygg". Det finns alltså ingen
 # "Byggverksamhet" att matcha på — bara "Bygg".
 #
-# Totalen hämtas med, inte för att summeras in i flödena (kategorimönstren i
-# indicators.py plockar aldrig upp den) utan för att räntan mot samtliga
-# branscher är den referens som visar om just bostadssidan särbehandlas.
+# Totalraden hämtas inte längre. Den togs med för att kunna mäta räntan mot ett
+# branschsnitt, men SCB publicerar den raden tom för räntan i samtliga månader,
+# så referensen finns inte.
 KRITA_BRANSCHER = (
     r"[Bb]ostadsr",
     r"[Ff]astighet.*[Bb]ost",
     r"[Ff]astighet.*(kontor|lokal)",
     r"[Bb]ygg\b",
-    r"[Tt]otalt, samtliga",
 )
 
 SPECS: list[SeriesSpec] = [

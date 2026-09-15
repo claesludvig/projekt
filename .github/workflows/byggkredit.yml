@@ -92,6 +92,8 @@ jobs:
           retention-days: 30
 
       - name: Commit data
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -100,8 +102,21 @@ jobs:
           git commit -m "Auto: uppdaterad byggkreditindikator"
           for i in 1 2 3 4 5; do
             git push && exit 0
-            echo "Push misslyckades (försök $i), hämtar och rebasar..."
-            git pull --rebase
+            # Genererad data går inte att slå ihop rad för rad. Ett rebase mot
+            # en annan körnings utdata ger add/add-konflikt i samma filer, och
+            # loopen fastnade där utan att någonsin komma vidare. Körningens
+            # egna filer är per definition de färska, så de läggs ovanpå
+            # fjärrens historik i stället för att försöka mergas med den.
+            echo "Push misslyckades (försök $i), lägger om ovanpå fjärren..."
+            rm -rf "$RUNNER_TEMP/data"
+            cp -r byggkredit-scb/data "$RUNNER_TEMP/data"
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+            rm -rf byggkredit-scb/data
+            cp -r "$RUNNER_TEMP/data" byggkredit-scb/data
+            git add byggkredit-scb/data
+            git diff --cached --quiet && exit 0
+            git commit -m "Auto: uppdaterad byggkreditindikator"
             sleep $((i * 3))
           done
           git push
