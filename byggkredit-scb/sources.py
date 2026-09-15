@@ -1,0 +1,197 @@
+#!/usr/bin/env python3
+"""Deklarativ specifikation av de serier pipelinen bygger på.
+
+Urvalet utgår från en enda observation: *utlåningsstockar per bransch mäter
+ägandet av det befintliga beståndet, inte finansieringen av produktionen.*
+"Fastighet - bostäder" domineras av beståndsägare, och stocken rör sig av skäl
+som inte är ny kredit (amortering, omvärdering, omklassificering). Att läsa den
+serien rakt av som "kreditutgivning till byggmarknaden" ger fel svar i just de
+lägen man bryr sig om — vändpunkterna.
+
+Pipelinen angriper det i fyra lager, och varje serie nedan är taggad med vilket
+lager den tillhör via `role`:
+
+  kredit   Kreditflödet självt, uppdelat på de motparter som faktiskt
+           finansierar bostadsproduktion i olika skeden. Bostadsrätts-
+           föreningarna är den renaste posten: en förenings permanenta lån
+           löser byggnadskreditivet vid inflyttning, så serien är i praktiken
+           nyproduktion i bostadsrätt med projekttidens eftersläpning.
+  namnare  Fysisk produktionsvolym och byggkostnad. Utan nämnare är ett
+           kreditflöde i kronor oläsbart — det enda intressanta är hur mycket
+           kredit som går åt per producerad enhet.
+  pris     Räntor per bransch. Kreditgivning stramas åt på pris innan den
+           stramas åt på volym; prisbenet vänder därför före volymbenet.
+  bredd    Antal låntagande företag. Stigande volym med fallande antal
+           låntagare är koncentration till starka balansräkningar, alltså en
+           åtstramning som volymserien ensam visar som oförändrad.
+  enkat    Byggföretagens egen rapportering av finansiella restriktioner
+           (KI:s barometer). Enda direkta måttet på kreditutbud, och det
+           enda som leder snarare än släpar.
+
+Tabeller och värden matchas på etiketter, inte koder — se pxweb.py. Roten och
+titelmönstret nedan är mina bästa gissningar utifrån SCB:s publicerade
+tabellnamn; kör `python fetch.py --list <rot>` om ett mönster missar, och
+justera mönstret här."""
+
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+
+import pxweb
+
+
+@dataclass(frozen=True)
+class SeriesSpec:
+    key: str
+    label: str
+    role: str
+    root: str
+    table: str
+    picks: tuple[tuple[str, tuple[str, ...]], ...] = ()
+    base: str = pxweb.SCB_BASE
+    depth: int = 3
+    note: str = ""
+
+
+# Branschetiketterna i KRITA är Riksbankens och SCB:s beräknade bransch, inte
+# ren SNI: bolag med SNI "verksamhet vid huvudkontor" flyttas till den bransch
+# koncernen faktiskt verkar i. Bostadsrättsföreningar är undantaget — de
+# identifieras på juridisk form och är därmed den enda helt rena avgränsningen
+# i hela uppsättningen.
+KRITA_BRANSCHER = (
+    r"[Bb]ostadsr",
+    r"[Ff]astighet.*[Bb]ost",
+    r"[Ff]astighet.*(kontor|lokal)",
+    r"[Bb]yggverksamhet|[Bb]yggindustri",
+)
+
+SPECS: list[SeriesSpec] = [
+    # ---------- lager 1: kreditflödet ----------
+    SeriesSpec(
+        key="krita_volym",
+        label="MFI:s utlåning till icke-finansiella företag, utestående belopp per bransch",
+        role="kredit",
+        root="FM/FM0002",
+        table=r"utlåning till icke-finansiella företag.*bransch",
+        picks=(
+            (r"bransch", KRITA_BRANSCHER),
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Uu]testående|[Ll]ånebelopp|[Vv]olym",)),
+        ),
+        note="Stock, månad. Differentieras till flöde i indicators.py. Innehåller "
+             "omvärderingar och omklassificeringar som SCB inte rensar bort — till "
+             "skillnad från hushållsserien, som publiceras även som transaktioner.",
+    ),
+    SeriesSpec(
+        key="hushall_bolan",
+        label="MFI:s utlåning till hushåll med bostad som säkerhet",
+        role="kredit",
+        root="FM/FM5001",
+        table=r"utlåning till hushåll.*säkerhet",
+        picks=((r"säkerhet|ändamål", (r"[Ss]måhus", r"[Bb]ostadsrätt", r"[Ää]garlägenhet")),),
+        note="Efterfrågesidan. OBS att SCB inte samlar in lånets ändamål utan "
+             "approximerar med panten — blancolån som finansierar bostadsköp "
+             "saknas därför helt i serien.",
+    ),
+    SeriesSpec(
+        key="emitterat",
+        label="Emitterade räntebärande värdepapper, icke-finansiella företag",
+        role="kredit",
+        root="FM",
+        table=r"[Ee]mitterade värdepapper.*(sektor|emittent)|räntebärande värdepapper.*sektor",
+        picks=((r"sektor|emittent", (r"[Ii]cke-finansiella",)),),
+        note="Fastighetsbolagen är tungt överrepresenterade på den svenska "
+             "företagsobligationsmarknaden. Utan det här benet underskattas "
+             "kreditflödet till sektorn kraftigt från mitten av 2010-talet.",
+    ),
+
+    # ---------- lager 2: nämnare ----------
+    SeriesSpec(
+        key="pabörjade",
+        label="Påbörjade bostadslägenheter",
+        role="namnare",
+        root="BO",
+        table=r"[Pp]åbörja.*lägenhet",
+        note="Fysisk produktionsvolym. Nyckeln till att skilja kreditutbud från "
+             "byggefterfrågan: faller krediten snabbare än byggandet är krediten "
+             "den bindande restriktionen, faller de i takt är det efterfrågan.",
+    ),
+    SeriesSpec(
+        key="byggkostnad",
+        label="Byggkostnadsindex för bostadshus",
+        role="namnare",
+        root="PR",
+        table=r"[Bb]yggkostnadsindex.*bostadshus",
+        note="Deflator för kredit per lägenhet. Utan den går stigande "
+             "kostnadsläge inte att skilja från stigande belåningsgrad.",
+    ),
+
+    # ---------- lager 3: pris ----------
+    SeriesSpec(
+        key="krita_ranta",
+        label="Utlåningsränta till icke-finansiella företag per bransch",
+        role="pris",
+        root="FM/FM0002",
+        table=r"utlåning till icke-finansiella företag.*bransch",
+        picks=(
+            (r"bransch", KRITA_BRANSCHER),
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Rr]änta",)),
+        ),
+        note="Ställs mot styrräntan i indicators.py. Spreaden är det snabbaste "
+             "måttet på åtstramning som finns i offentlig statistik.",
+    ),
+    SeriesSpec(
+        key="styrranta",
+        label="Reporänta / policyränta",
+        role="pris",
+        root="FM",
+        table=r"[Rr]eporänta|[Ss]tyrränta|[Pp]olicyränta",
+        note="Referens för kreditspreaden. Riksbankens eget SWEA-API är "
+             "förstahandskällan; den här tabellen är reserven.",
+    ),
+
+    # ---------- lager 4: bredd ----------
+    SeriesSpec(
+        key="krita_antal",
+        label="Antal låntagande företag per bransch",
+        role="bredd",
+        root="FM/FM0002",
+        table=r"utlåning till icke-finansiella företag.*bransch",
+        picks=(
+            (r"bransch", KRITA_BRANSCHER),
+            (r"^(ContentsCode|Tabellinnehåll)$", (r"[Aa]ntal",)),
+        ),
+        note="Volym upp och antal låntagare ned = koncentration till starka "
+             "balansräkningar. Det är en åtstramning som volymserien döljer.",
+    ),
+
+    # ---------- lager 5: enkät ----------
+    SeriesSpec(
+        key="ki_finansiella_hinder",
+        label="Byggföretag: finansiella restriktioner som främsta hinder",
+        role="enkat",
+        base=pxweb.KONJ_BASE,
+        root="",
+        table=r"[Hh]inder.*[Bb]ygg|[Bb]ygg.*hinder",
+        depth=4,
+        note="Konjunkturinstitutet, inte SCB. Enda direkta måttet på kreditutbud "
+             "i byggsektorn och det enda benet som leder de övriga.",
+    ),
+]
+
+# Tidsseriebrott. KRITA gick över från SNI 2007 till SNI 2025 i februari 2026,
+# vilket bytte branschindelningen. Nivåerna är inte jämförbara över brottet och
+# det finns ingen överlappsperiod att länka på, så differensberäkningen sätter
+# observationen vid brottet till NaN i stället för att räkna ut en förändring
+# som i själva verket är en omklassificering.
+BREAKS: dict[str, str] = {
+    "krita_volym": "2026-02",
+    "krita_ranta": "2026-02",
+    "krita_antal": "2026-02",
+}
+
+
+def by_key(key: str) -> SeriesSpec:
+    for spec in SPECS:
+        if spec.key == key:
+            return spec
+    raise KeyError(key)
