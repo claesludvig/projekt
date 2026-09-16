@@ -134,8 +134,8 @@ def rita(df: pd.DataFrame, path: Path) -> None:
                                "Produktionsnära kreditflöde / påbörjade, deflaterat med BKI"),
         lambda ax: panel_divergerande(ax, df, "gap_kredit_minus_byggande",
                                       "Utbud eller efterfrågan?",
-                                      "Kreditflödets årstakt minus byggandets, "
-                                      "procentenheter · negativt = åtstramning"),
+                                      "Kreditflöde minus byggande, standardavvikelser · "
+                                      "negativt = åtstramning"),
         lambda ax: panel_linje(ax, df, "spread_fastighet_bostader",
                                "Räntespread mot styrräntan",
                                "Utlåningsränta fastighet – bostäder minus styrräntan, "
@@ -196,7 +196,7 @@ def skriv_rapport(df: pd.DataFrame, path: Path) -> None:
         "flode_hushall_bolan": "Kreditflöde, hushållens bolån (12 mån)",
         "flode_obligationer": "Kreditflöde, obligationer (12 mån)",
         "kredit_per_pabörjad_real": "Kredit per påbörjad lägenhet, real",
-        "gap_kredit_minus_byggande": "Gap kredit minus byggande (p.e.)",
+        "gap_kredit_minus_byggande": "Gap kredit minus byggande (std.avv.)",
         "spread_fastighet_bostader": "Räntespread, fastighet – bostäder (p.e.)",
         "bredd_antal_lantagare_yoy": "Antal låntagare, årstakt (%)",
         "byggkreditindikator": "Byggkreditindikator (z)",
@@ -219,12 +219,12 @@ def skriv_rapport(df: pd.DataFrame, path: Path) -> None:
     if (gap := _senaste(df, "gap_kredit_minus_byggande")) is not None:
         period, varde = gap
         if varde < 0:
-            rader.append(f"Gapet mot byggandet är {varde:.1f} procentenheter: krediten "
+            rader.append(f"Gapet mot byggandet är {varde:.2f} standardavvikelser: krediten "
                          f"drar sig undan snabbare än produktionen faller. Det talar "
                          f"för att finansieringen, inte bostadsefterfrågan, är den "
                          f"bindande restriktionen.")
         else:
-            rader.append(f"Gapet mot byggandet är {varde:+.1f} procentenheter: krediten "
+            rader.append(f"Gapet mot byggandet är {varde:+.2f} standardavvikelser: krediten "
                          f"håller emot bättre än produktionen. Restriktionen ligger då "
                          f"på efterfrågesidan, inte i finansieringen.")
 

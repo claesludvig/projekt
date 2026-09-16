@@ -153,7 +153,11 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
     out["flode_produktionsnara"] = to_quarterly(produktionsnara, "last")
 
     # --- steg 2: normalisering mot fysisk produktion ---
-    pabörjade = to_quarterly(pick(frame, "pabörjade"), "sum")
+    # Rullande fyra kvartal. Kreditflödet är en tolvmånadersförändring, så en
+    # nämnare på ett enskilt kvartal jämför tolv månaders kredit med tre
+    # månaders byggande — kvoten blir fyra gånger för stor och begreppsligt
+    # obegriplig. Det syntes inte förrän serierna kördes skarpt mot varandra.
+    pabörjade = to_quarterly(pick(frame, "pabörjade"), "sum").rolling(4).sum()
     bki = to_quarterly(pick(frame, "byggkostnad"), "mean")
     if not pabörjade.empty:
         kvot = out["flode_produktionsnara"] / pabörjade.reindex(out["flode_produktionsnara"].index)
@@ -161,12 +165,19 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
         if not bki.empty:
             out["kredit_per_pabörjad_real"] = deflate(kvot, bki)
 
-        # Utbud eller efterfrågan? Gapet mellan kreditflödets och byggandets
-        # årstakt. Negativt gap = krediten drar sig undan snabbare än
-        # produktionen faller, dvs. åtstramning utöver konjunkturen.
-        kredit_yoy = out["flode_produktionsnara"].pct_change(4) * 100
-        bygg_yoy = pabörjade.pct_change(4) * 100
-        out["gap_kredit_minus_byggande"] = kredit_yoy - bygg_yoy.reindex(kredit_yoy.index)
+        # Utbud eller efterfrågan? Gapet mellan kreditflödet och byggandet,
+        # mätt i standardavvikelser. Negativt gap = krediten drar sig undan
+        # snabbare än produktionen faller, dvs. åtstramning utöver konjunkturen.
+        #
+        # Måttet räknades först som skillnad i årlig procentförändring. Det går
+        # inte: kreditflödet passerar noll — 2025Q3 låg det på -722 mnkr — och
+        # en procentförändring av en serie som byter tecken exploderar. Samma
+        # mått gav -151 procent ett kvartal och +1393 två kvartal senare utan
+        # att något verkligt hänt. Standardavvikelser har ingen nämnare som kan
+        # gå mot noll, och gör dessutom de två benen direkt jämförbara.
+        out["gap_kredit_minus_byggande"] = (
+            zscore(out["flode_produktionsnara"])
+            - zscore(pabörjade).reindex(out["flode_produktionsnara"].index))
 
     # --- steg 3: pris och bredd ---
     # Prisbenet mäts som spread mot styrräntan. En jämförelse mot KRITA:s egen
@@ -195,9 +206,14 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
     result = pd.DataFrame(out).sort_index()
 
     # Alla komponenter orienteras så att positivt = lättare kreditvillkor.
+    # Gapet ingår medvetet inte. Det och kredit_per_pabörjad_real mäter samma
+    # sak — kredit ställd mot byggande — från två håll, och att ta med båda
+    # hade gett den dimensionen dubbel vikt i ett index med fyra ben. Gapet
+    # redovisas och ritas ändå: som diagnos svarar det på en annan fråga än
+    # nivåkvoten, nämligen om krediten rör sig annorlunda än byggandet i
+    # förhållande till sin egen historia.
     komponenter = {
         "kredit_per_pabörjad_real": 1,
-        "gap_kredit_minus_byggande": 1,
         "bredd_antal_lantagare_yoy": 1,
         "ki_finansieringslage": -1,
     }

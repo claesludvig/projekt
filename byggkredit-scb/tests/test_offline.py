@@ -152,12 +152,34 @@ def test_spread_och_normalisering_beraknas() -> None:
 
 
 def test_gapet_fangar_utbudsatstramning() -> None:
-    """Krediten faller kraftigare än byggandet i det syntetiska fallet, så
-    gapet ska vara tydligt negativt efter åtstramningen."""
-    resultat = indicators.build(syntetisk_data())
-    gap = resultat["gap_kredit_minus_byggande"].dropna()
-    efter = gap[gap.index >= pd.Period("2023-04", freq="Q")]
-    assert efter.mean() < 0, f"gapet skulle vara negativt, blev {efter.mean():.1f}"
+    """Krediten viker medan byggandet ligger stilla — då ska gapet bli
+    negativt. Notera att måttet är relativt: två serier som båda faller lika
+    mycket i förhållande till sin egen historia ger gap nära noll, oavsett hur
+    olika stora fallen är i kronor. Det är priset för att slippa nämnaren som
+    exploderar när kreditflödet passerar noll."""
+    manader = _manader()
+    rader: list[dict] = []
+    nivå = 400_000.0
+    volym = {}
+    for m in manader:
+        nivå *= 1.01 if m < ATSTRAMNING else 1.0005
+        volym[m] = nivå
+    rader += _rader("krita_volym", "kredit", "Bostadsrättsföreningar",
+                    "Utestående lånebelopp", volym)
+
+    # Byggandet ligger i stort sett stilla genom hela perioden. Variationen får
+    # inte ha period fyra: en rullande fyrakvartalssumma utplånar den exakt, och
+    # då blir standardavvikelsen noll och z-poängen odefinierad.
+    pab = {m: 4000.0 + 60.0 * (((i * 37) % 11) - 5)
+           for i, m in enumerate(m for m in manader if m.month in (1, 4, 7, 10))}
+    rader += _rader("pabörjade", "namnare", "Riket | flerbostadshus", "Lägenheter", pab)
+
+    frame = pd.DataFrame(rader)
+    frame["tid"] = frame["tid"].map(lambda v: pd.Period(v, freq="M"))
+    gap = indicators.build(frame)["gap_kredit_minus_byggande"].dropna()
+    efter = gap[gap.index >= pd.Period("2024-01", freq="Q")]
+    assert efter.mean() < -0.5, \
+        f"gapet skulle vara tydligt negativt, blev {efter.mean():.2f}"
 
 
 def test_flera_matt_i_samma_serie_ger_fel() -> None:
@@ -186,6 +208,60 @@ def test_pick_summerar_daremot_kategorier() -> None:
     bada = indicators.pick(frame, "krita_volym", kategori=r"bostadsr|fastighet.*bost")
     sista = bada.dropna().index[-1]
     assert abs(bada[sista] - (brf[sista] + fastighet[sista])) < 1e-6
+
+
+def test_gapet_exploderar_inte_nar_kreditflodet_passerar_noll() -> None:
+    """Regressionstest mot ett verkligt metodfel. Gapet räknades först som
+    skillnad i årlig procentförändring, men kreditflödet passerar noll — i
+    skarpa data låg det på -722 mnkr ett kvartal — och då exploderar kvoten.
+    Måttet gav -151 procent ett kvartal och +1393 två kvartal senare utan att
+    något verkligt hade hänt."""
+    manader = _manader()
+    rader: list[dict] = []
+
+    # Stock som planar ut och sjunker något, så att tolvmånadersflödet går
+    # igenom noll och byter tecken.
+    nivå = 400_000.0
+    volym = {}
+    for i, m in enumerate(manader):
+        nivå *= 1.008 if i < 40 else (0.999 if i < 70 else 1.004)
+        volym[m] = nivå
+    rader += _rader("krita_volym", "kredit", "Bostadsrättsföreningar",
+                    "Utestående lånebelopp", volym)
+    rader += _rader("krita_volym", "kredit", "Fastighet - bostäder",
+                    "Utestående lånebelopp", {m: v * 2 for m, v in volym.items()})
+
+    # Byggandet varierar milt. En helt konstant nämnare har
+    # standardavvikelse noll och gör z-poängen odefinierad.
+    pab = {m: 4000.0 + 120.0 * ((i % 5) - 2)
+           for i, m in enumerate(m for m in manader if m.month in (1, 4, 7, 10))}
+    rader += _rader("pabörjade", "namnare", "Riket | flerbostadshus", "Lägenheter", pab)
+
+    frame = pd.DataFrame(rader)
+    frame["tid"] = frame["tid"].map(lambda v: pd.Period(v, freq="M"))
+    resultat = indicators.build(frame)
+
+    flode = resultat["flode_produktionsnara"].dropna()
+    assert (flode < 0).any() and (flode > 0).any(), \
+        "testfallet ska faktiskt innehålla ett teckenbyte"
+
+    gap = resultat["gap_kredit_minus_byggande"].dropna()
+    assert not gap.empty, "gapet ska gå att beräkna"
+    assert gap.abs().max() < 10, \
+        f"gapet ska vara i standardavvikelser, inte explodera (max {gap.abs().max():.1f})"
+
+
+def test_namnaren_matchar_kreditflodets_fonster() -> None:
+    """Kreditflödet är en tolvmånadersförändring, så nämnaren måste vara fyra
+    kvartals byggande. Ett enskilt kvartal gör kvoten fyra gånger för stor."""
+    frame = syntetisk_data()
+    resultat = indicators.build(frame)
+    kvartalsvis = indicators.to_quarterly(indicators.pick(frame, "pabörjade"), "sum")
+    kvot = resultat["kredit_per_pabörjad"].dropna()
+    sista = kvot.index[-1]
+    forvantat = resultat["flode_produktionsnara"][sista] / (kvartalsvis[sista] * 4)
+    assert abs(kvot[sista] - forvantat) < 1e-6, \
+        "kvoten ska använda fyra kvartals byggande som nämnare"
 
 
 def test_jsonstat2_plattas_ut_i_ratt_ordning() -> None:
