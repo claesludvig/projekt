@@ -34,16 +34,30 @@ Fem lager, som var och en motsvarar en `role` i `sources.py`:
 | `namnare` | Påbörjade lägenheter och byggkostnadsindex | Gör kreditflödet till en kvot per producerad enhet — i praktiken produktionssystemets belåningsgrad |
 | `pris` | Utlåningsränta per bransch mot styrräntan | Kreditgivning stramas åt på pris innan den stramas åt på volym |
 | `bredd` | Antal låntagande företag | Volym upp och antal låntagare ned är koncentration till starka balansräkningar, alltså en åtstramning som volymserien döljer |
-| `enkat` | KI:s barometer, finansiella restriktioner som främsta hinder | Enda direkta måttet på kreditutbud, och det enda benet som leder de övriga |
+| `enkat` | KI:s barometer: andel byggföretag som uppger att finansieringen är svårare än normalt | Enda direkta måttet på kreditutbud, och det enda benet som leder de övriga |
 
 Det avgörande steget är nämnaren. **Faller kreditflödet snabbare än byggandet
 är krediten den bindande restriktionen; faller de i takt är det efterfrågan på
 bostäder.** Den skillnaden går inte att se i volymserien, och det är den en
-prognos hänger på. Måttet heter `gap_kredit_minus_byggande` och är
-kreditflödets årstakt minus byggandets, i procentenheter.
+prognos hänger på.
+
+Måttet finns i två former, som svarar på olika frågor:
+
+- `kredit_per_pabörjad_real` — produktionsnära kreditflöde per påbörjad
+  lägenhet, deflaterat. Nivåmåttet: produktionssystemets belåningsgrad.
+  Nämnaren är rullande fyra kvartal, för att matcha kreditflödets
+  tolvmånadersfönster.
+- `gap_kredit_minus_byggande` — samma jämförelse i standardavvikelser.
+  Måttet räknades först som skillnad i årlig procentförändring, men
+  kreditflödet passerar noll (2025Q3 låg det på −722 mnkr) och då exploderar
+  kvoten. Priset för standardavvikelser är att måttet blir relativt: två serier
+  som faller lika mycket i förhållande till sin egen historia ger gap nära noll
+  oavsett hur olika stora fallen är i kronor.
 
 Lagren vägs till sist ihop till `byggkreditindikator`, ett z-poängindex där
-positivt betyder lättare kreditvillkor än normalt under perioden.
+positivt betyder lättare kreditvillkor än normalt under perioden. Gapet ingår
+inte i sammanvägningen — det och nivåkvoten mäter samma dimension från två
+håll, och båda hade gett den dubbel vikt i ett index med fyra ben.
 
 ## Användning
 
@@ -118,9 +132,38 @@ och justera titel- eller värdemönstret i `sources.py`.
 - **Utländska direktlån och kreditfonder fångas dåligt.** MFI-aggregatet täcker
   svenska monetära finansinstitut; obligationsbenet fångar en del av resten,
   men inte allt.
-- **Tidsseriebrott vid SNI 2025 (2026-02).** Det finns ingen överlappsperiod att
-  länka på, så flöden vars fönster spänner över brottet sätts till saknat värde
-  i stället för att redovisa en omklassificering som kreditgivning.
+- **Inget tidsseriebrott vid SNI 2025.** Övergången i februari 2026 antogs
+  först bryta KRITA-serien. Det stämmer inte för den publicerade tabellen:
+  branschen där är beräknad bransch, och mappningen underhålls över bytet.
+  Månadsförändringarna i februari 2026 ligger inom det normala bruset och
+  etiketterna är desamma genom hela serien. Mekanismen för att maskera brott
+  finns kvar i koden men är avstängd.
+- **SCB publicerar ingen genomsnittsränta för samtliga branscher.** Raden finns
+  i KRITA men är tom i alla månader, så räntan går inte att mäta mot ett
+  branschsnitt. Prisbenet är spread mot styrräntan.
+- **Påbörjade lägenheter släpar ett kvartal** efter KRITA och är preliminära;
+  SCB reviderar upp för sen inrapportering. Det gör att nivåkvoten och gapet
+  saknar värde för det senaste kvartalet.
+
+## Vad som faktiskt hämtas
+
+Upplöst vid senaste körningen (se `data/resolution.json` för aktuell status):
+
+| Serie | Tabell |
+|---|---|
+| `krita_volym`, `krita_ranta`, `krita_antal` | `FM/FM0002/KRITApubl1` |
+| `hushall_bolan` | `FM/FM5001/FM5001A/FM5001Sakerhet` |
+| `emitterat` | `FM/FM9998/FM9998A/FM9998T03N` |
+| `pabörjade` | `BO/BO0101/BO0101C/LagenhetNyKv16` |
+| `byggkostnad` | `PR/PR0502/PR0502B/FPIInLg15KvN` |
+| `ki_finansieringslage` | `ftgkvartal/finans1q.px` (KI) |
+| `styrranta` | Riksbankens SWEA-API |
+
+`data/tabelltrad.txt` innehåller hela tabellträdet för BO, PR och KI, skrivet
+vid varje körning. Det är den filen man går till när ett mönster slutar träffa —
+båda gångerna ett begrepp visade sig vara ett *värde i en dimension* snarare än
+en tabelltitel (påbörjade lägenheter hos SCB, finansieringsfrågan hos KI) var
+det trädet som avslöjade det.
 
 ## Källor
 
@@ -130,7 +173,8 @@ och justera titel- eller värdemönstret i `sources.py`.
 - SCB, Emitterade värdepapper — räntebärande värdepapper efter emittentsektor
 - SCB, Boende/byggande (BO) — påbörjade bostadslägenheter
 - SCB, Priser (PR) — byggkostnadsindex för bostadshus
-- Konjunkturinstitutet, Konjunkturbarometern — byggföretagens hinder
+- Konjunkturinstitutet, Konjunkturbarometern — "Att finansiera företagets
+  verksamhet, är för närvarande" (ftgkvartal/finans1q)
 
 Kompletterande källor som pipelinen inte läser men som hör till bilden:
 Finansinspektionens bolåneundersökning (belåningsgrader och skuldkvoter på nya
