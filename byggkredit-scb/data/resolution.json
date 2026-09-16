@@ -97,15 +97,63 @@
     "label": "Påbörjade bostadslägenheter",
     "roll": "namnare",
     "note": "Fysisk produktionsvolym. Nyckeln till att skilja kreditutbud från byggefterfrågan: faller krediten snabbare än byggandet är krediten den bindande restriktionen, faller de i takt är det efterfrågan.",
-    "status": "miss",
-    "fel": "Flera tabeller under 'BO' matchar 'Lägenheter i nybyggda hus.*kvartal': BO/BO0101/BO0101C/LagenhetNyKv16 (Lägenheter i nybyggda hus efter region och hustyp. Kvartal 1975K1 - 2026K2), BO/BO0101/BO0101C/LagenhetNyKv26 (Lägenheter i nybyggda hus efter region och hustyp (specialbostäder uppdelat). Kvartal 2007K1 - 2026K2)"
+    "status": "ok",
+    "table_path": "BO/BO0101/BO0101C/LagenhetNyKv16",
+    "table_title": "Lägenheter i nybyggda hus efter region och hustyp. Kvartal 1975K1 - 2026K2",
+    "selections": {
+      "Region": [
+        "00"
+      ],
+      "Hustyp": [
+        "FLERBO",
+        "SMÅHUS"
+      ],
+      "ContentsCode": [
+        "BO0101A4"
+      ]
+    },
+    "selection_labels": {
+      "Region": [
+        "Riket"
+      ],
+      "Hustyp": [
+        "flerbostadshus",
+        "småhus"
+      ],
+      "ContentsCode": [
+        "Påbörjade lägenheter i nybyggda hus"
+      ]
+    }
   },
   "byggkostnad": {
     "label": "Byggkostnadsindex för bostadshus",
     "roll": "namnare",
     "note": "Deflator för kredit per lägenhet. Utan den går stigande kostnadsläge inte att skilja från stigande belåningsgrad.",
-    "status": "miss",
-    "fel": "Inget värde i 'kostnadsslag' matchar '[Tt]otal byggkostnad|[Bb]yggkostnad totalt'. Fanns: totalt exkl. mervärdesskatt, arbetslön"
+    "status": "ok",
+    "table_path": "PR/PR0502/PR0502B/FPIInLg15KvN",
+    "table_title": "Byggkostnadsindex för bostäder inkl. löneglidning, 2015=100, efter hustyp och kostnadsslag. Kvartal 2015K1 - 2026K2",
+    "selections": {
+      "Hustyp": [
+        "FLERBO"
+      ],
+      "Kostnadsslag": [
+        "TOTEM"
+      ],
+      "ContentsCode": [
+        "000005TI"
+      ]
+    },
+    "selection_labels": {
+      "Hustyp": [
+        "flerbostadshus"
+      ],
+      "Kostnadsslag": [
+        "totalt exkl. mervärdesskatt"
+      ],
+      "ContentsCode": [
+        "Index"
+      ]
+    }
   },
   "krita_ranta": {
     "label": "Utlåningsränta till icke-finansiella företag per bransch",
@@ -167,11 +215,30 @@
       ]
     }
   },
-  "ki_finansiella_hinder": {
-    "label": "Byggföretag: finansiella restriktioner som främsta hinder",
+  "ki_finansieringslage": {
+    "label": "Byggföretag: finansiering svårare än normalt",
     "roll": "enkat",
-    "note": "Konjunkturinstitutet, inte SCB. Enda direkta måttet på kreditutbud i byggsektorn och det enda benet som leder de övriga.",
-    "status": "miss",
-    "fel": "Inget värde i 'Fråga' matchar 'hinder'. Fanns: Byggmarknaden om 1 år, Företagens inflationsförväntningar på 12 månaders sikt"
+    "note": "Konjunkturinstitutet, inte SCB. Enda direkta måttet på kreditutbud i byggsektorn och det enda benet som leder de övriga. De fristående hindertabellerna lades ned 2021 när frågan gjordes om.",
+    "status": "ok",
+    "table_path": "ftgkvartal/finans1q.px",
+    "table_title": "Att finansiera företagets verksamhet, är för närvarande. Kvartal",
+    "selections": {
+      "Bransch": [
+        "byg"
+      ],
+      "Svarsalternativ": [
+        "1p",
+        "2p"
+      ]
+    },
+    "selection_labels": {
+      "Bransch": [
+        "Bygg"
+      ],
+      "Svarsalternativ": [
+        "Avsevärt svårare än normalt",
+        "Svårare än normalt"
+      ]
+    }
   }
 }
