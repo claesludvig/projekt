@@ -141,7 +141,7 @@ SPECS: list[SeriesSpec] = [
         # tabellinnehåll-dimensionen. Tabellen heter "Lägenheter i nybyggda hus
         # efter region, hustyp, tabellinnehåll och kvartal", och ett titel-
         # mönster på "påbörja" kunde därför aldrig träffa den.
-        table=r"Lägenheter i nybyggda hus.*kvartal",
+        table=r"Lägenheter i nybyggda hus efter region och hustyp\. Kvartal",
         depth=4,
         picks=(
             (r"region", (r"^Riket$",)),
@@ -168,7 +168,7 @@ SPECS: list[SeriesSpec] = [
         depth=4,
         picks=(
             (r"hustyp", (r"flerbostadshus",)),
-            (r"kostnadsslag", (r"[Tt]otal byggkostnad|[Bb]yggkostnad totalt",)),
+            (r"kostnadsslag", (r"^totalt exkl",)),
         ),
         note="Deflator för kredit per lägenhet. Utan den går stigande "
              "kostnadsläge inte att skilja från stigande belåningsgrad.",
@@ -210,19 +210,25 @@ SPECS: list[SeriesSpec] = [
 
     # ---------- lager 5: enkät ----------
     SeriesSpec(
-        key="ki_finansiella_hinder",
-        label="Byggföretag: finansiella restriktioner som främsta hinder",
+        key="ki_finansieringslage",
+        label="Byggföretag: finansiering svårare än normalt",
         role="enkat",
         base=pxweb.KONJ_BASE,
         root="ftgkvartal",
-        # De fristående hindertabellerna lades ned 2021. Frågan finns kvar,
-        # men som en dimension i barometerns huvudtabell — samma mönster som
-        # påbörjade lägenheter hos SCB: begreppet är ett värde, inte en titel.
-        table=r"^Byggverksamhet\. Kvartal$",
+        # Bättre än den hinderfråga jag först letade efter. Den frågan ställer
+        # finansiering som ett alternativ bland många (efterfrågan, arbetskraft,
+        # material) och fångar bara de företag för vilka finansiering är det
+        # *främsta* hindret. Den här frågan ställs direkt till alla företag och
+        # är i praktiken en kreditvillkorsenkät sedd från låntagarsidan.
+        table=r"^Att finansiera företagets verksamhet",
         depth=2,
-        picks=((r"fråga|serie|variabel|indikator|hinder", (r"hinder",)),),
+        picks=(
+            (r"bransch|sektor|näringsgren", (r"[Bb]ygg",)),
+            (r"svar|alternativ|läge", (r"svårare",)),
+        ),
         note="Konjunkturinstitutet, inte SCB. Enda direkta måttet på kreditutbud "
-             "i byggsektorn och det enda benet som leder de övriga.",
+             "i byggsektorn och det enda benet som leder de övriga. De "
+             "fristående hindertabellerna lades ned 2021 när frågan gjordes om.",
     ),
 ]
 

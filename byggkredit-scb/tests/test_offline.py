@@ -82,7 +82,7 @@ def syntetisk_data() -> pd.DataFrame:
     rader += _rader("styrranta", "pris", "Totalt", "Reporänta", styr)
 
     hinder = {m: (28.0 if m >= ATSTRAMNING else 6.0) for m in manader}
-    rader += _rader("ki_finansiella_hinder", "enkat", "Byggföretag", "Andel", hinder)
+    rader += _rader("ki_finansieringslage", "enkat", "Byggföretag", "Andel", hinder)
 
     frame = pd.DataFrame(rader)
     frame["tid"] = frame["tid"].map(lambda v: pd.Period(v, freq="M"))

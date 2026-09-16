@@ -186,9 +186,11 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
             antal.pct_change(12) * 100, "last")
 
     # --- steg 4: sammanvägning ---
-    hinder = to_quarterly(pick(frame, "ki_finansiella_hinder"), "mean")
-    if not hinder.empty:
-        out["ki_finansiella_hinder"] = hinder
+    # Andelen byggföretag som uppger att finansieringen är svårare än normalt.
+    # Hög andel = stram kredit, därför negativt tecken i sammanvägningen.
+    finansiering = to_quarterly(pick(frame, "ki_finansieringslage"), "mean")
+    if not finansiering.empty:
+        out["ki_finansieringslage"] = finansiering
 
     result = pd.DataFrame(out).sort_index()
 
@@ -197,7 +199,7 @@ def build(frame: pd.DataFrame) -> pd.DataFrame:
         "kredit_per_pabörjad_real": 1,
         "gap_kredit_minus_byggande": 1,
         "bredd_antal_lantagare_yoy": 1,
-        "ki_finansiella_hinder": -1,
+        "ki_finansieringslage": -1,
     }
     if "spread_fastighet_bostader" in result and \
             result["spread_fastighet_bostader"].notna().any():
