@@ -1,0 +1,57 @@
+name: Svensk politik & regeringsförhandlingar - digest
+
+on:
+  schedule:
+    # 05:00 och 15:00 UTC = 07:00 och 17:00 svensk sommartid.
+    # Under vintertid landar körningarna en timme senare (08:00/18:00).
+    - cron: "0 5,15 * * *"
+  workflow_dispatch: {}
+
+# Två körningar per dag får aldrig skriva seen.json samtidigt - då kan den ena
+# köra över den andras arkiv och material skickas ut i dubbletter.
+concurrency:
+  group: svensk-politik-digest
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r svensk-politik-digest/requirements.txt
+
+      - name: Fetch articles
+        id: fetch
+        run: |
+          python svensk-politik-digest/scraper.py
+          new_count=$(python -c "import json;print(json.load(open('svensk-politik-digest/data/latest_articles.json'))['new_count'])")
+          echo "new_count=$new_count" >> "$GITHUB_OUTPUT"
+          echo "Nya poster denna körning: $new_count"
+
+      - name: Commit data
+        if: steps.fetch.outputs.new_count != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add svensk-politik-digest/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterad svensk politik-digest (${{ steps.fetch.outputs.new_count }} nya)"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push
+
+      - name: Inget nytt
+        if: steps.fetch.outputs.new_count == '0'
+        run: echo "Inget nytt sedan förra utskicket - hoppar över commit."
