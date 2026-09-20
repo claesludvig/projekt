@@ -67,6 +67,10 @@ HEADERS = {
 # anslutningen, och HOST_DELAY håller takten nere per värd.
 CLIENT = httpx.Client(headers=HEADERS, follow_redirects=True, timeout=30.0)
 HOST_DELAY = 1.5
+# dn.se stryper hårdare än övriga och börjar svara 406 en bit in i en serie.
+# Utskicket hämtar en handfull DN-artiklar per körning, så en längre paus kostar
+# några sekunder och är värd brödtexten.
+HOST_DELAY_OVERRIDES = {"www.dn.se": 4.0, "dn.se": 4.0}
 BLOCKED = (403, 406, 429)
 _last_call: dict[str, float] = {}
 
@@ -77,7 +81,8 @@ def http_get(url: str) -> httpx.Response:
 
     def once(target: str) -> httpx.Response:
         h = httpx.URL(target).host
-        wait = HOST_DELAY - (time.monotonic() - _last_call.get(h, 0.0))
+        delay = HOST_DELAY_OVERRIDES.get(h, HOST_DELAY)
+        wait = delay - (time.monotonic() - _last_call.get(h, 0.0))
         if wait > 0:
             time.sleep(wait)
         _last_call[h] = time.monotonic()
