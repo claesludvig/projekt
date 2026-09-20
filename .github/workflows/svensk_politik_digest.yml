@@ -6,6 +6,14 @@ on:
     # Under vintertid landar körningarna en timme senare (08:00/18:00).
     - cron: "0 5,15 * * *"
   workflow_dispatch: {}
+  # TILLFÄLLIG: skarpt test av flödena innan workflowet ligger på main.
+  # Endast källfiler triggar, så datacommiten inte startar en ny körning.
+  push:
+    branches:
+      - claude/ecstatic-volta-01uet0
+    paths:
+      - "svensk-politik-digest/**.py"
+      - ".github/workflows/svensk_politik_digest.yml"
 
 # Två körningar per dag får aldrig skriva seen.json samtidigt - då kan den ena
 # köra över den andras arkiv och material skickas ut i dubbletter.
