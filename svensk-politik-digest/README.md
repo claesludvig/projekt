@@ -15,6 +15,26 @@ redan skickats ut.
 | Manuell körning | `workflow_dispatch` i Actions |
 | Commit | Bara när körningen faktiskt hittat något nytt |
 
+## Analys
+
+`analyze.py` är det som gör utskicket till mer än en länklista. Den skickar
+dagens material till Claude (`claude-opus-5`) och får tillbaka en syntetiserad
+rubrik, två till fyra stycken analytisk brödtext och en punktlista — samma
+uppbyggnad som podd-rapporterna. Svaret är schemastyrt (`output_config.format`),
+så renderaren slipper tolka fri text.
+
+Prompten är strikt på tre punkter, eftersom de är där en analys spårar ur:
+
+- **Ingen uppgift utan täckning i materialet.** Inga påhittade namn, siffror
+  eller citat.
+- **Skilj rapportering från bedömning.** Skriv ut vem som tycker vad.
+- **Betalväggade poster ska inte övertolkas.** De visar vem som skriver om vad
+  och med vilken vinkel — inte mer än ingressen säger.
+
+Resultatet hamnar i `data/analysis.json` och committas med resten.
+Kräver `ANTHROPIC_API_KEY` som secret. Saknas den hoppas analysen över och
+mejlet faller tillbaka på enbart källistan.
+
 ## Mejlutskick
 
 Utskicket mejlas från din Gmail till din Gmail när körningen hittat något nytt.
@@ -27,6 +47,7 @@ Tre secrets på repot styr det (Settings → Secrets and variables → Actions):
 | `GMAIL_USER` | Din Gmail-adress — avsändare, och mottagare om inget annat anges |
 | `GMAIL_APP_PASSWORD` | App-lösenord på 16 tecken, **inte** kontots vanliga lösenord |
 | `DIGEST_TO` | Valfri. Annan mottagare än avsändaren |
+| `ANTHROPIC_API_KEY` | Nyckel för analyssteget |
 
 App-lösenordet skapas under Google-kontot → Säkerhet → Tvåstegsverifiering →
 App-lösenord. Google tillåter inte vanlig lösenordsinloggning mot SMTP, och ett
@@ -43,6 +64,7 @@ delas mellan mejlet och manuella utskick, så det bara finns på ett ställe.
   källa.
 - **`digest.md`** — samma innehåll läsbart, grupperat i *Analys och kommentar*,
   *Rapportering* och *Officiella besked*.
+- **`analysis.json`** — rubrik, brödtext och punktlista från `analyze.py`.
 - **`seen.json`** — arkivet som gör utskicket inkrementellt. URL:er och
   rubriknycklar för allt som redan skickats, med tidsstämpel. **Filen måste
   vara committad** — utan den börjar nästa körning om från noll och upprepar

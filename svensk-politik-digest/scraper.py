@@ -154,6 +154,18 @@ def relevance(text: str) -> list[str]:
     return parties if len(parties) >= 2 else []
 
 
+def kind_for(url: str, source_kind: str) -> str:
+    """Ledartexter kommer också in via nyhetsflödena.
+
+    DN:s politikflöde blandar in ledare, som annars hamnar under Rapportering
+    i utskicket trots att de är kommentar. Sökvägen avgör när den säger något;
+    annars gäller källans egen typ.
+    """
+    if "/ledare/" in url or "/kronikor/" in url or "/kultur/debatt/" in url:
+        return "kommentar"
+    return source_kind
+
+
 def find_commentator(*fields: str) -> str:
     blob = " ".join(f or "" for f in fields).lower()
     for name in COMMENTATORS:
@@ -374,7 +386,7 @@ def main() -> None:
                     "url": url,
                     "title": title,
                     "source": source["name"],
-                    "kind": source["kind"],
+                    "kind": kind_for(url, source["kind"]),
                     "published": published,
                     "author": author,
                     "commentator": commentator,

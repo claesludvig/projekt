@@ -36,6 +36,13 @@ jobs:
           echo "new_count=$new_count" >> "$GITHUB_OUTPUT"
           echo "Nya poster denna körning: $new_count"
 
+      - name: Skriv analysen
+        if: steps.fetch.outputs.new_count != '0'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python svensk-politik-digest/analyze.py
+
+      # Efter analysen, så analysis.json följer med i commiten.
       - name: Commit data
         if: steps.fetch.outputs.new_count != '0'
         run: |
