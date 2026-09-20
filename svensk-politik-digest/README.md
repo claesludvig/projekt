@@ -40,15 +40,28 @@ Tre spärrar, i den ordningen:
 
 ## Ämnesfilter
 
-Nyhets- och ledarflödena är breda, så varje post prövas mot `sources.py`:
+Alla flöden är breda, så varje post prövas mot `sources.py`:
 
-- en träff bland **ämnesorden** (`regeringsbildning`, `talmansrunda`,
-  `sonderingsuppdrag`, `vågmästare` …) räcker, eller
-- minst **två olika partinamn** i rubrik/ingress.
+- en träff bland **ämnesorden** (`regeringsbildning`, `talman`, `sondering`,
+  `vågmästar` …) räcker, eller
+- minst **två olika partier** i rubrik/ingress.
+
+Två fallgropar som filtret är byggt runt:
+
+- **Ämnesorden är stammar, inte fulla ordformer.** Svenskan böjer i bestämd
+  form och plural, så `talmansrunda` missar `talmansrundorna` medan `talmansrund`
+  fångar båda. Kapa ändelsen när du lägger till ord.
+- **Partiträffar räknas per parti, inte per söksträng.** Varianterna överlappar
+  som delsträngar — `moderat` ligger inuti `moderaterna` — så räknade man dem
+  var för sig skulle ett enda omnämnande av ett parti se ut som två träffar och
+  släppa igenom vilken partinotis som helst.
 
 Träffar sparas i `matched_terms` per post, så det går att se varför något kom
-med. Officiella källor (regeringen.se, riksdagen.se) filtreras inte — allt de
-publicerar är relevant.
+med.
+
+Även de officiella källorna filtreras. Regeringen.se publicerar allt från
+statsbesök till myndighetsuppdrag; utan filter dränkte det utskicket i material
+som inte rör regeringsbildningen.
 
 ## Kommentatorer
 
@@ -60,12 +73,25 @@ satt och markeras `[kommentator]` i `digest.md`.
 
 Lägg till fler genom att fylla på listan — ingen annan ändring behövs.
 
-## Betalvägg
+## Betalvägg och hämtningsfel
 
 DN, SvD och Expressen ger sällan fulltext till en oinloggad hämtare. Sådana
 poster tas **ändå med**, med rubrik och ingress från RSS och `paywall: true`
 satt. Vem som skriver vad, och med vilken vinkel, är halva poängen med
 kommentarsbevakningen även när brödtexten saknas.
+
+De två fallen hålls isär i utdatan:
+
+| Fält | Betyder |
+|---|---|
+| `paywall: true` | Texten hämtades men är avkortad — inloggning krävs |
+| `fetch_error: "..."` | Vi kom inte fram alls; felet sparas ordagrant |
+
+Blandades de ihop skulle ett trasigt flöde se ut som en betalvägg och felet
+aldrig upptäckas. Antalet poster utan brödtext summeras i `fetch_errors`.
+
+Hämtaren skickar en fullständig `Accept`-header. Utan den svarar DN `406 Not
+Acceptable` och Sveriges Radio `403` — båda såg först ut som betalväggar.
 
 ## Källor som kan flytta
 
@@ -77,6 +103,9 @@ av körningen fortsätter. Vilken URL som faktiskt användes syns i `sources` i
 
 TT har inget öppet allmänt nyhetsflöde. TT-materialet kommer in via SVT och
 Ekot, som publicerar det vidare.
+
+Riksdagen saknar RSS på `www.riksdagen.se` (svarar 404). I stället används
+öppna data-API:et `data.riksdagen.se/dokumentlista` med `utformat=rss`.
 
 ## Köra lokalt
 

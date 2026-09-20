@@ -30,7 +30,7 @@ from bs4 import BeautifulSoup
 
 from sources import (
     COMMENTATORS,
-    PARTY_TERMS,
+    PARTIES,
     PAYWALL_MARKERS,
     SOURCES,
     TOPIC_TERMS,
@@ -49,6 +49,12 @@ HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ),
+    # DN svarar 406 Not Acceptable och Sveriges Radio 403 på en förfrågan utan
+    # Accept-header. Samma sträng täcker både artikelsidor och RSS-flöden.
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "application/rss+xml;q=0.9,*/*;q=0.8"
     ),
     "Accept-Language": "sv-SE,sv;q=0.9",
 }
@@ -101,10 +107,14 @@ def relevance(text: str) -> list[str]:
     """Returnerar matchade nyckelord — tom lista betyder 'inte politisk nog'."""
     low = (text or "").lower()
     hits = [t for t in TOPIC_TERMS if t in low]
-    parties = sorted({p for p in PARTY_TERMS if p in low})
+    # Räkna per parti, inte per söksträng: varianterna överlappar som
+    # delsträngar och ett parti får aldrig räknas två gånger.
+    parties = sorted(
+        name for name, variants in PARTIES.items() if any(v in low for v in variants)
+    )
     if hits:
         return hits + parties
-    # Utan ämnesord krävs två olika partinamn för att undvika lösa omnämnanden.
+    # Utan ämnesord krävs två olika partier för att undvika lösa omnämnanden.
     return parties if len(parties) >= 2 else []
 
 
@@ -136,14 +146,19 @@ def resolve_feed(source: dict):
     return "", []
 
 
-def fetch_fulltext(url: str) -> tuple[str, str, bool]:
-    """Returnerar (brödtext, författare, paywall)."""
+def fetch_fulltext(url: str) -> tuple[str, str, bool, str]:
+    """Returnerar (brödtext, författare, paywall, fel).
+
+    Betalvägg och hämtningsfel måste hållas isär: båda ger kort eller tom
+    brödtext, men det ena betyder "texten finns bakom inloggning" och det
+    andra "vi kom inte fram". Blandas de ihop ser ett trasigt flöde ut som en
+    betalvägg och felet upptäcks aldrig.
+    """
     try:
         r = httpx.get(url, headers=HEADERS, follow_redirects=True, timeout=30.0)
         r.raise_for_status()
     except Exception as e:
-        print(f"      fulltext misslyckades: {e}")
-        return "", "", False
+        return "", "", False, str(e).split("\n")[0][:200]
 
     soup = BeautifulSoup(r.content, "html.parser")
 
@@ -173,8 +188,8 @@ def fetch_fulltext(url: str) -> tuple[str, str, bool]:
         body = "\n".join(t for t in texts if len(t) > 40)
 
     low = body.lower()
-    paywall = any(m in low for m in PAYWALL_MARKERS) or len(body.split()) < 60
-    return body, author, paywall
+    paywall = any(m in low for m in PAYWALL_MARKERS) or 0 < len(body.split()) < 60
+    return body, author, paywall, ""
 
 
 # --------------------------------------------------------------------------
@@ -240,7 +255,12 @@ def write_digest(articles: list[dict], generated_at: str, skipped: dict) -> None
             byline = a["author"] or a["commentator"]
             meta = " · ".join(x for x in [a["source"], a["published"], byline] if x)
             flag = " **[kommentator]**" if a["commentator"] else ""
-            lock = " _(betalvägg — endast ingress)_" if a["paywall"] else ""
+            if a.get("fetch_error"):
+                lock = " _(brödtext ej hämtad — endast ingress)_"
+            elif a["paywall"]:
+                lock = " _(betalvägg — endast ingress)_"
+            else:
+                lock = ""
             lines.append(f"### [{a['title']}]({a['url']}){flag}")
             lines.append(f"{meta}{lock}")
             lines.append("")
@@ -261,6 +281,7 @@ def main() -> None:
 
     new_articles: list[dict] = []
     skipped = {"seen": 0, "offtopic": 0, "old": 0}
+    fetch_errors = 0
     source_status: list[dict] = []
 
     for source in SOURCES:
@@ -295,7 +316,7 @@ def main() -> None:
                 continue
 
             print(f"  Hämtar: {title[:70]} ...", end=" ", flush=True)
-            fulltext, author, paywall = fetch_fulltext(url)
+            fulltext, author, paywall, fetch_error = fetch_fulltext(url)
             if fulltext and not matched:
                 matched = relevance(fulltext)
 
@@ -314,6 +335,7 @@ def main() -> None:
                     "summary": summary,
                     "fulltext": fulltext,
                     "paywall": paywall,
+                    "fetch_error": fetch_error,
                     "matched_terms": matched,
                     "first_seen": stamp,
                 }
@@ -321,7 +343,11 @@ def main() -> None:
             seen["urls"][url] = stamp
             seen["titles"][tkey] = stamp
             added += 1
-            print(f"OK ({len(fulltext.split())} ord{', betalvägg' if paywall else ''})")
+            fetch_errors += 1 if fetch_error else 0
+            if fetch_error:
+                print(f"bara ingress (hämtning nekad: {fetch_error[:60]})")
+            else:
+                print(f"OK ({len(fulltext.split())} ord{', betalvägg' if paywall else ''})")
 
         print(f"  {added} nya poster")
         source_status.append(
@@ -336,6 +362,7 @@ def main() -> None:
                 "fetched_at": stamp,
                 "new_count": len(new_articles),
                 "skipped": skipped,
+                "fetch_errors": fetch_errors,
                 "sources": source_status,
                 "articles": new_articles,
             },
@@ -354,7 +381,7 @@ def main() -> None:
     print(
         f"\nSparade {len(new_articles)} nya poster till {LATEST_PATH}"
         f" ({skipped['seen']} redan utskickade, {skipped['offtopic']} utanför ämnet,"
-        f" {skipped['old']} för gamla)"
+        f" {skipped['old']} för gamla, {fetch_errors} utan brödtext)"
     )
 
 

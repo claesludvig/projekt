@@ -83,76 +83,88 @@ SOURCES = [
     {
         "name": "Regeringen.se",
         "kind": "officiell",
-        "filter": False,
+        # Flödet är allt regeringen publicerar - statsbesök, myndighetsuppdrag,
+        # utredningsdirektiv. Utan filter dränker det utskicket, så det prövas
+        # mot samma ämnesord som nyhetsflödena.
+        "filter": True,
         "urls": [
-            "https://www.regeringen.se/rss/",
             "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy"
             "&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
+            "https://www.regeringen.se/rss/",
         ],
     },
     {
         "name": "Riksdagen",
         "kind": "officiell",
-        "filter": False,
+        "filter": True,
+        # www.riksdagen.se/sv/aktuellt/rss/ svarar 404. Öppna data-API:et
+        # (data.riksdagen.se) levererar dokumentlistor som RSS via utformat=rss.
         "urls": [
+            "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning"
+            "&sort=datum&sortorder=desc&utformat=rss",
+            "https://data.riksdagen.se/dokumentlista/?sok=&doktyp=&sort=datum"
+            "&sortorder=desc&utformat=rss&a=s",
             "https://www.riksdagen.se/sv/aktuellt/rss/",
-            "https://www.riksdagen.se/rss/aktuellt/",
         ],
     },
 ]
 
 # Ett ensamt ämnesord räcker för att artikeln ska tas med. Listan är medvetet
-# smal mot regeringsbildningen — bred svensk inrikespolitik fångas i stället
+# smal mot regeringsbildningen - bred svensk inrikespolitik fångas i stället
 # via partinamnen nedan, som kräver två träffar.
+#
+# Orden är STAMMAR, inte fulla ordformer, eftersom svenska böjer i bestämd form
+# och plural: "talmansrunda" matchar inte "talmansrundorna", men "talmansrund"
+# matchar båda. Lägg till nya ord i samma form - kapa ändelsen.
 TOPIC_TERMS = [
-    "regeringsbildning",
+    "regeringsbildning",      # -en
     "regeringsbildande",
-    "regeringsförhandling",
-    "regeringsunderlag",
-    "regeringsfrågan",
+    "regeringsförhandling",   # -ar, -arna
+    "regeringsunderlag",      # -et
+    "regeringsfråg",          # -an, -orna
     "regeringsalternativ",
-    "regeringsmakten",
-    "talmansrunda",
-    "talmannen",
-    "sonderingar",
-    "sonderingsuppdrag",
-    "statsministeromröstning",
-    "statsministerkandidat",
-    "blivande statsminister",
-    "koalition",
-    "koalitionsregering",
-    "samarbetsparti",
-    "samarbetspartier",
-    "stödparti",
-    "mandatfördelning",
-    "riksdagsval",
-    "valresultat",
-    "regeringskris",
-    "misstroendeförklaring",
-    "tidöavtalet",
-    "budgetförhandling",
-    "statsrådspost",
-    "ministerpost",
-    "departementsfördelning",
-    "partiledarsamtal",
-    "vågmästare",
+    "regeringsmakt",          # -en
+    "regeringskris",          # -en
+    "regeringsskifte",        # -t
+    "regeringsombildning",    # -en
+    "övergångsregering",      # -en
+    "expeditionsministär",    # -en
+    "talman",                 # talmannen, talmansrunda, talmansrundorna
+    "sondering",              # -ar, -arna, sonderingsuppdrag
+    "statsminister",          # -n, -posten, -kandidat, -omröstning
+    "statsrådspost",          # -en, -er
+    "statsrådsberedning",     # -en
+    "ministerpost",           # -en, -er
+    "departementsfördelning", # -en
+    "koalition",              # -en, -er, koalitionsregering
+    "samarbetspart",          # -i, -ier, -ierna
+    "stödparti",              # -er, -erna
+    "partiledar",             # partiledare, -na, -samtal, -debatt
+    "mandatfördelning",       # -en
+    "riksdagsval",            # -et
+    "valresultat",            # -et
+    "misstroendeförklaring",  # -en
+    "budgetförhandling",      # -ar, -arna
+    "vågmästar",              # vågmästare, -rollen
+    "tidöavtal",              # -et
 ]
 
-# Partinamn: kräver minst två distinkta träffar för att artikeln ska räknas som
-# politisk. Förkortningar (S, M, SD) är för brusiga för att matcha på.
-PARTY_TERMS = [
-    "socialdemokraterna",
-    "moderaterna",
-    "sverigedemokraterna",
-    "centerpartiet",
-    "vänsterpartiet",
-    "kristdemokraterna",
-    "liberalerna",
-    "miljöpartiet",
-    "socialdemokratiska",
-    "moderat",
-    "sverigedemokratisk",
-]
+# Partinamn: kräver minst två olika *partier* för att artikeln ska räknas som
+# politisk. Varianterna grupperas per parti eftersom de överlappar som
+# delsträngar - "moderat" ligger inuti "moderaterna", och räknades de var för
+# sig skulle ett enda omnämnande av ett parti se ut som två träffar och släppa
+# igenom vilken partinotis som helst. Förkortningar (S, M, SD) är för brusiga
+# för att matcha på.
+PARTIES = {
+    "Socialdemokraterna": ["socialdemokraterna", "socialdemokratiska", "socialdemokratisk"],
+    "Moderaterna": ["moderaterna", "moderat"],
+    "Sverigedemokraterna": ["sverigedemokraterna", "sverigedemokratisk"],
+    "Centerpartiet": ["centerpartiet", "centerpartist"],
+    "Vänsterpartiet": ["vänsterpartiet", "vänsterpartist"],
+    "Kristdemokraterna": ["kristdemokraterna", "kristdemokrat"],
+    "Liberalerna": ["liberalerna"],
+    "Miljöpartiet": ["miljöpartiet", "miljöpartist"],
+}
 
 # Namngivna politiska kommentatorer. Träffar markeras i utskicket så att analys
 # går att skilja från ren rapportering. Matchas mot författarfält och mot
