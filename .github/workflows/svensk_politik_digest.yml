@@ -1,10 +1,12 @@
-name: Svensk politik & regeringsförhandlingar - digest
+name: Svensk politik & regeringsförhandlingar - hämtning
 
+# Ingen egen schemaläggning här. En Claude-Routine anropar det här workflowet
+# via GitHub API två gånger om dagen, väntar in det och läser sedan
+# svensk-politik-digest/data/ via samma API för att skriva och mejla utskicket.
+# Skälet till uppdelningen: hämtningen behöver en runner med öppet nät, men
+# analysen gör Claude själv och mejlet går via det kopplade Gmail-kontot -
+# inga API-nycklar och inga SMTP-hemligheter i repot.
 on:
-  schedule:
-    # 05:00 och 15:00 UTC = 07:00 och 17:00 svensk sommartid.
-    # Under vintertid landar körningarna en timme senare (08:00/18:00).
-    - cron: "0 5,15 * * *"
   workflow_dispatch: {}
 
 # Två körningar per dag får aldrig skriva seen.json samtidigt - då kan den ena
@@ -16,8 +18,10 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -25,10 +29,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Installera beroenden
         run: pip install -r svensk-politik-digest/requirements.txt
 
-      - name: Fetch articles
+      - name: Hämta nya poster
         id: fetch
         run: |
           python svensk-politik-digest/scraper.py
@@ -36,37 +40,22 @@ jobs:
           echo "new_count=$new_count" >> "$GITHUB_OUTPUT"
           echo "Nya poster denna körning: $new_count"
 
-      - name: Skriv analysen
-        if: steps.fetch.outputs.new_count != '0'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python svensk-politik-digest/analyze.py
-
-      # Efter analysen, så analysis.json följer med i commiten.
-      - name: Commit data
-        if: steps.fetch.outputs.new_count != '0'
+      # Läget måste checkas in, annars minns Routinen ingenting nästa gång.
+      - name: Spara läget
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add svensk-politik-digest/data
-          git diff --cached --quiet && exit 0
-          git commit -m "Auto: uppdaterad svensk politik-digest (${{ steps.fetch.outputs.new_count }} nya)"
-          for i in 1 2 3 4 5; do
-            git push && exit 0
-            echo "Push misslyckades (försök $i), hämtar och rebasar..."
-            git pull --rebase
-            sleep $((i * 3))
-          done
-          git push
-
-      - name: Skicka utskicket som mejl
-        if: steps.fetch.outputs.new_count != '0'
-        env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          DIGEST_TO: ${{ secrets.DIGEST_TO }}
-        run: python svensk-politik-digest/send_email.py
-
-      - name: Inget nytt
-        if: steps.fetch.outputs.new_count == '0'
-        run: echo "Inget nytt sedan förra utskicket - hoppar över commit."
+          if git diff --staged --quiet; then
+            echo "Inget nytt att spara."
+          else
+            git commit -m "Politikhämtning $(date -u +%Y-%m-%d\ %H:%M) UTC (${{ steps.fetch.outputs.new_count }} nya)"
+            for i in 1 2 3 4 5; do
+              git push && exit 0
+              echo "Push misslyckades (försök $i), hämtar och rebasar..."
+              git pull --rebase
+              sleep $((i * 3))
+            done
+            git push
+          fi

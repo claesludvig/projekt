@@ -10,52 +10,53 @@ redan skickats ut.
 
 | | |
 |---|---|
-| Schema | 05:00 och 15:00 UTC dagligen (07:00/17:00 svensk sommartid, 08:00/18:00 vintertid) |
-| Workflow | `.github/workflows/svensk_politik_digest.yml` |
-| Manuell körning | `workflow_dispatch` i Actions |
+| Schema | Ligger i Routinen på claude.ai, inte i workflowet |
+| Workflow | `.github/workflows/svensk_politik_digest.yml` — bara hämtning |
+| Trigger | `workflow_dispatch`, anropat av Routinen via GitHub API |
+| Hemligheter | Inga |
 | Commit | Bara när körningen faktiskt hittat något nytt |
 
-## Analys
+## Schemalagd körning: Actions för hämtning, Routine för resten
 
-`analyze.py` är det som gör utskicket till mer än en länklista. Den skickar
-dagens material till Claude (`claude-opus-5`) och får tillbaka en syntetiserad
-rubrik, två till fyra stycken analytisk brödtext och en punktlista — samma
-uppbyggnad som podd-rapporterna. Svaret är schemastyrt (`output_config.format`),
-så renderaren slipper tolka fri text.
+Samma uppdelning som `chronicle-ingest` använder för poddbevakningen. Analys,
+mejl och läget mellan körningar sköts av en schemalagd **Routine** på claude.ai
+— inte av `claude-code-action`, inte av Claude API och inte av SMTP. Det tar
+bort behovet av API-nycklar och mejlhemligheter i repot helt.
 
-Prompten är strikt på tre punkter, eftersom de är där en analys spårar ur:
+Workflowet `.github/workflows/svensk_politik_digest.yml` gör bara hämtningen,
+som behöver en runner med öppet nät. Det triggas via GitHub API av Routinen,
+två gånger om dagen, inte av ett eget cron-schema i filen:
 
-- **Ingen uppgift utan täckning i materialet.** Inga påhittade namn, siffror
-  eller citat.
-- **Skilj rapportering från bedömning.** Skriv ut vem som tycker vad.
-- **Betalväggade poster ska inte övertolkas.** De visar vem som skriver om vad
-  och med vilken vinkel — inte mer än ingressen säger.
+```
+Routine (claude.ai, schemalagd)
+      │
+      ├─► triggar svensk_politik_digest.yml via GitHub API, väntar in den
+      │        scraper.py   RSS → ämnesfilter → dedup mot seen.json
+      │                     → data/latest_articles.json, data/digest.md
+      │                     → git commit i det här repot
+      │
+      ├─► läser data/latest_articles.json och data/sammanfattningar/ via GitHub API
+      ├─► skriver den svenska analysen själv (ingen extra hemlighet)
+      ├─► renderar med mall.py och mejlar via det kopplade Gmail-kontot
+      └─► skriver tillbaka data/rapporter/<datum>.json och
+           data/sammanfattningar/<datum>.txt via GitHub API
+```
 
-Resultatet hamnar i `data/analysis.json` och committas med resten.
-Kräver `ANTHROPIC_API_KEY` som secret. Saknas den hoppas analysen över och
-mejlet faller tillbaka på enbart källistan.
+`.claude/skills/politikrapport/` innehåller stilreglerna för rapporten: ton,
+JSON-formen, hur rapportering skiljs från kommentar, och att värdet ligger i
+jämförelsen med förra utskicket.
 
-## Mejlutskick
+### Läget mellan körningar
 
-Utskicket mejlas från din Gmail till din Gmail när körningen hittat något nytt.
-Samma villkor som styr commiten, så en tom körning ger inget mejl.
+`data/seen.json` är minnet för vad som redan skickats, `data/sammanfattningar/`
+minnet för vad som redan sagts. Båda checkas in — varken en Actions-runner
+eller en Routine-session har ett filsystem som består mellan körningar, så allt
+som ska överleva måste ligga i git.
 
-Tre secrets på repot styr det (Settings → Secrets and variables → Actions):
+### Hemligheter som måste ligga i repot
 
-| Secret | Innehåll |
-|---|---|
-| `GMAIL_USER` | Din Gmail-adress — avsändare, och mottagare om inget annat anges |
-| `GMAIL_APP_PASSWORD` | App-lösenord på 16 tecken, **inte** kontots vanliga lösenord |
-| `DIGEST_TO` | Valfri. Annan mottagare än avsändaren |
-| `ANTHROPIC_API_KEY` | Nyckel för analyssteget |
-
-App-lösenordet skapas under Google-kontot → Säkerhet → Tvåstegsverifiering →
-App-lösenord. Google tillåter inte vanlig lösenordsinloggning mot SMTP, och ett
-app-lösenord kan återkallas för sig utan att kontots huvudlösenord ändras.
-
-Saknas secrets hoppar `send_email.py` över sändningen och avslutas utan fel —
-hämtningen och commiten fungerar ändå. Formatet ligger i `render_email.py` och
-delas mellan mejlet och manuella utskick, så det bara finns på ett ställe.
+Inga. Hämtningen läser öppna RSS-flöden, analysen och mejlet sker i Routinen
+som autentiserar mot GitHub och Gmail via redan kopplade konton.
 
 ## Filer i `data/`
 
@@ -64,7 +65,10 @@ delas mellan mejlet och manuella utskick, så det bara finns på ett ställe.
   källa.
 - **`digest.md`** — samma innehåll läsbart, grupperat i *Analys och kommentar*,
   *Rapportering* och *Officiella besked*.
-- **`analysis.json`** — rubrik, brödtext och punktlista från `analyze.py`.
+- **`rapporter/<datum>.json`** — rubrik, brödtext och punktlista, skriven av
+  Routinen. `mall.py` renderar den till mejlets HTML.
+- **`sammanfattningar/<datum>.txt`** — 3–5 meningar om läget, kontext åt nästa
+  utskick. Utan dem tappar rapporten sin jämförelse mot föregående dag.
 - **`seen.json`** — arkivet som gör utskicket inkrementellt. URL:er och
   rubriknycklar för allt som redan skickats, med tidsstämpel. **Filen måste
   vara committad** — utan den börjar nästa körning om från noll och upprepar
@@ -195,3 +199,14 @@ python svensk-politik-digest/scraper.py
 
 Vill man se vad en körning skulle ge utan att röra arkivet: kopiera undan
 `data/seen.json` först och lägg tillbaka den efteråt.
+
+Och rendera ett färdigt utskick till HTML:
+
+```python
+import json, sys; sys.path.insert(0, "svensk-politik-digest")
+from mall import rendera
+print(rendera(
+    json.load(open("svensk-politik-digest/data/rapporter/2026-09-20.json", encoding="utf-8")),
+    json.load(open("svensk-politik-digest/data/latest_articles.json", encoding="utf-8")),
+))
+```
