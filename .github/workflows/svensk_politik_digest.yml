@@ -52,6 +52,14 @@ jobs:
           done
           git push
 
+      - name: Skicka utskicket som mejl
+        if: steps.fetch.outputs.new_count != '0'
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+        run: python svensk-politik-digest/send_email.py
+
       - name: Inget nytt
         if: steps.fetch.outputs.new_count == '0'
         run: echo "Inget nytt sedan förra utskicket - hoppar över commit."

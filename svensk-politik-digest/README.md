@@ -15,6 +15,27 @@ redan skickats ut.
 | Manuell körning | `workflow_dispatch` i Actions |
 | Commit | Bara när körningen faktiskt hittat något nytt |
 
+## Mejlutskick
+
+Utskicket mejlas från din Gmail till din Gmail när körningen hittat något nytt.
+Samma villkor som styr commiten, så en tom körning ger inget mejl.
+
+Tre secrets på repot styr det (Settings → Secrets and variables → Actions):
+
+| Secret | Innehåll |
+|---|---|
+| `GMAIL_USER` | Din Gmail-adress — avsändare, och mottagare om inget annat anges |
+| `GMAIL_APP_PASSWORD` | App-lösenord på 16 tecken, **inte** kontots vanliga lösenord |
+| `DIGEST_TO` | Valfri. Annan mottagare än avsändaren |
+
+App-lösenordet skapas under Google-kontot → Säkerhet → Tvåstegsverifiering →
+App-lösenord. Google tillåter inte vanlig lösenordsinloggning mot SMTP, och ett
+app-lösenord kan återkallas för sig utan att kontots huvudlösenord ändras.
+
+Saknas secrets hoppar `send_email.py` över sändningen och avslutas utan fel —
+hämtningen och commiten fungerar ändå. Formatet ligger i `render_email.py` och
+delas mellan mejlet och manuella utskick, så det bara finns på ett ställe.
+
 ## Filer i `data/`
 
 - **`latest_articles.json`** — själva utskicket. Enbart poster som tillkommit
