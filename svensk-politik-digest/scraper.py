@@ -21,6 +21,7 @@ kommentarsbevakningen.
 import hashlib
 import json
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -57,7 +58,42 @@ HEADERS = {
         "application/rss+xml;q=0.9,*/*;q=0.8"
     ),
     "Accept-Language": "sv-SE,sv;q=0.9",
+    "Upgrade-Insecure-Requests": "1",
 }
+
+# En delad klient i stället för fristående httpx.get-anrop: DN släpper igenom de
+# tre första hämtningarna och svarar 406 på resten när varje anrop kommer utan
+# cookies och utan uppehåll. Klienten behåller cookies och återanvänder
+# anslutningen, och HOST_DELAY håller takten nere per värd.
+CLIENT = httpx.Client(headers=HEADERS, follow_redirects=True, timeout=30.0)
+HOST_DELAY = 1.5
+BLOCKED = (403, 406, 429)
+_last_call: dict[str, float] = {}
+
+
+def http_get(url: str) -> httpx.Response:
+    """Hämtar en URL med paus per värd och ett andra försök vid avvisning."""
+    host = httpx.URL(url).host
+
+    def once(target: str) -> httpx.Response:
+        h = httpx.URL(target).host
+        wait = HOST_DELAY - (time.monotonic() - _last_call.get(h, 0.0))
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[h] = time.monotonic()
+        return CLIENT.get(target)
+
+    r = once(url)
+    if r.status_code in BLOCKED:
+        # Avvisad: vänta ut en eventuell strypning och försök igen.
+        time.sleep(3.0)
+        r = once(url)
+    if r.status_code in BLOCKED and host.startswith("www."):
+        # Sveriges Radio svarar 403 på www.sverigesradio.se men serverar
+        # samma artikel utan prefixet.
+        r = once(url.replace("://www.", "://", 1))
+    r.raise_for_status()
+    return r
 
 
 # --------------------------------------------------------------------------
@@ -134,9 +170,7 @@ def resolve_feed(source: dict):
     """Provar källans kandidat-URL:er och tar den första som ger poster."""
     for url in source["urls"]:
         try:
-            r = httpx.get(url, headers=HEADERS, follow_redirects=True, timeout=25.0)
-            r.raise_for_status()
-            feed = feedparser.parse(r.content)
+            feed = feedparser.parse(http_get(url).content)
         except Exception as e:
             print(f"    [!] {url}: {e}")
             continue
@@ -155,8 +189,7 @@ def fetch_fulltext(url: str) -> tuple[str, str, bool, str]:
     betalvägg och felet upptäcks aldrig.
     """
     try:
-        r = httpx.get(url, headers=HEADERS, follow_redirects=True, timeout=30.0)
-        r.raise_for_status()
+        r = http_get(url)
     except Exception as e:
         return "", "", False, str(e).split("\n")[0][:200]
 

@@ -90,8 +90,15 @@ De två fallen hålls isär i utdatan:
 Blandades de ihop skulle ett trasigt flöde se ut som en betalvägg och felet
 aldrig upptäckas. Antalet poster utan brödtext summeras i `fetch_errors`.
 
-Hämtaren skickar en fullständig `Accept`-header. Utan den svarar DN `406 Not
-Acceptable` och Sveriges Radio `403` — båda såg först ut som betalväggar.
+Hämtningen är byggd runt tre saker som skarpa körningar avslöjade:
+
+- **Delad klient med cookies.** DN släppte igenom de tre första artiklarna och
+  svarade `406 Not Acceptable` på resten när varje anrop gjordes fristående.
+  En återanvänd `httpx.Client` behåller cookies och anslutning.
+- **Paus per värd** (`HOST_DELAY`, 1,5 s) så vi inte stryps.
+- **Andra försök vid avvisning**, och för `www.`-värdar ett försök utan
+  prefixet — Sveriges Radio svarar `403` på `www.sverigesradio.se` men
+  serverar samma artikel utan det.
 
 ## Källor som kan flytta
 
