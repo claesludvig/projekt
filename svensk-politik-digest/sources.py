@@ -12,10 +12,14 @@ faktiskt ger poster. Då dör inte hela körningen för att ett flöde flyttat.
 
 # kind: "nyhet" = rapportering, "kommentar" = ledare/analys, "officiell" = myndighet
 # filter: True = kräver träff i ämnesfiltret, False = allt i flödet är relevant
+# paywalled: True = kort brödtext får tolkas som betalvägg. Falskt för öppna
+#   avsändare, annars flaggas ett kort riksdagsdokument eller pressmeddelande
+#   som betalvägg bara för att det är kort.
 SOURCES = [
     # --- Nyhetsrapportering ------------------------------------------------
     {
         "name": "SVT Nyheter",
+        "paywalled": False,
         "kind": "nyhet",
         "filter": True,
         "urls": [
@@ -26,6 +30,7 @@ SOURCES = [
     },
     {
         "name": "Ekot, Sveriges Radio",
+        "paywalled": False,
         "kind": "nyhet",
         "filter": True,
         "urls": [
@@ -35,6 +40,7 @@ SOURCES = [
     },
     {
         "name": "DN Nyheter",
+        "paywalled": True,
         "kind": "nyhet",
         "filter": True,
         "urls": [
@@ -45,6 +51,7 @@ SOURCES = [
     # --- Ledare, analys och kommentar --------------------------------------
     {
         "name": "DN Ledare",
+        "paywalled": True,
         "kind": "kommentar",
         "filter": True,
         "urls": [
@@ -54,6 +61,7 @@ SOURCES = [
     },
     {
         "name": "SvD Ledare",
+        "paywalled": True,
         "kind": "kommentar",
         "filter": True,
         "urls": [
@@ -63,6 +71,7 @@ SOURCES = [
     },
     {
         "name": "Expressen Ledare",
+        "paywalled": True,
         "kind": "kommentar",
         "filter": True,
         "urls": [
@@ -72,6 +81,7 @@ SOURCES = [
     },
     {
         "name": "Aftonbladet Ledare",
+        "paywalled": True,
         "kind": "kommentar",
         "filter": True,
         "urls": [
@@ -82,6 +92,7 @@ SOURCES = [
     # --- Officiella källor --------------------------------------------------
     {
         "name": "Regeringen.se",
+        "paywalled": False,
         "kind": "officiell",
         # Flödet är allt regeringen publicerar - statsbesök, myndighetsuppdrag,
         # utredningsdirektiv. Utan filter dränker det utskicket, så det prövas
@@ -95,6 +106,7 @@ SOURCES = [
     },
     {
         "name": "Riksdagen",
+        "paywalled": False,
         "kind": "officiell",
         "filter": True,
         # www.riksdagen.se/sv/aktuellt/rss/ svarar 404. Öppna data-API:et

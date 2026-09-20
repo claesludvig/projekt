@@ -97,8 +97,37 @@ Hämtningen är byggd runt tre saker som skarpa körningar avslöjade:
   En återanvänd `httpx.Client` behåller cookies och anslutning.
 - **Paus per värd** (`HOST_DELAY`, 1,5 s) så vi inte stryps.
 - **Andra försök vid avvisning**, och för `www.`-värdar ett försök utan
-  prefixet — Sveriges Radio svarar `403` på `www.sverigesradio.se` men
-  serverar samma artikel utan det.
+  prefixet.
+
+Sidor avkodas via `r.text` (httpx följer serverns `Content-Type`) i stället för
+råa bytes. BeautifulSoup gissar annars kodningen och gissar fel när sidan saknar
+charset-deklaration — då blir å, ä och ö sönderkodade och både
+betalväggsmarkörerna och ämnesfiltret slutar matcha.
+
+### Kända begränsningar
+
+Uppmätt i skarp drift, inte gissat:
+
+| Källa | Läge |
+|---|---|
+| SVT, Expressen, regeringen.se | Fulltext, stabilt |
+| DN | Flödet fungerar, men ~7 av 10 artikelhämtningar ger `406`. DN stryper datacenter-IP:n; längre pauser och cookies testades utan mätbar effekt. Posterna kommer med som rubrik + ingress + skribent |
+| DN Ledare | Flödet svarar oregelbundet — uppe i en körning, `406` i nästa |
+| Sveriges Radio | Artikelsidor svarar `403`. RSS-ingressen används |
+| Riksdagen | Dokumentlistan fungerar; en del av dess länkar pekar på sidor som svarar `404` |
+
+Det som går förlorat är brödtexten, inte posten. Rubrik, ingress, skribent,
+kommentatorsmarkering och datum kommer med i samtliga fall.
+
+## Tester
+
+```bash
+python svensk-politik-digest/test_scraper.py
+```
+
+Kör helt utan nätverk. Täcker ämnesfiltret (stammar, partiräkning),
+dedupen mellan två körningar, åldersgränsen och skillnaden mellan betalvägg
+och hämtningsfel.
 
 ## Källor som kan flytta
 

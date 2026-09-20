@@ -67,10 +67,6 @@ HEADERS = {
 # anslutningen, och HOST_DELAY håller takten nere per värd.
 CLIENT = httpx.Client(headers=HEADERS, follow_redirects=True, timeout=30.0)
 HOST_DELAY = 1.5
-# dn.se stryper hårdare än övriga och börjar svara 406 en bit in i en serie.
-# Utskicket hämtar en handfull DN-artiklar per körning, så en längre paus kostar
-# några sekunder och är värd brödtexten.
-HOST_DELAY_OVERRIDES = {"www.dn.se": 4.0, "dn.se": 4.0}
 BLOCKED = (403, 406, 429)
 _last_call: dict[str, float] = {}
 
@@ -81,8 +77,7 @@ def http_get(url: str) -> httpx.Response:
 
     def once(target: str) -> httpx.Response:
         h = httpx.URL(target).host
-        delay = HOST_DELAY_OVERRIDES.get(h, HOST_DELAY)
-        wait = delay - (time.monotonic() - _last_call.get(h, 0.0))
+        wait = HOST_DELAY - (time.monotonic() - _last_call.get(h, 0.0))
         if wait > 0:
             time.sleep(wait)
         _last_call[h] = time.monotonic()
@@ -185,7 +180,7 @@ def resolve_feed(source: dict):
     return "", []
 
 
-def fetch_fulltext(url: str) -> tuple[str, str, bool, str]:
+def fetch_fulltext(url: str, may_paywall: bool) -> tuple[str, str, bool, str]:
     """Returnerar (brödtext, författare, paywall, fel).
 
     Betalvägg och hämtningsfel måste hållas isär: båda ger kort eller tom
@@ -198,7 +193,11 @@ def fetch_fulltext(url: str) -> tuple[str, str, bool, str]:
     except Exception as e:
         return "", "", False, str(e).split("\n")[0][:200]
 
-    soup = BeautifulSoup(r.content, "html.parser")
+    # r.text, inte r.content: httpx avkodar enligt serverns Content-Type medan
+    # BeautifulSoup gissar utifrån bytes och gissar fel när sidan saknar
+    # charset-deklaration. Då blir å, ä och ö sönderkodade, och både
+    # betalväggsmarkörerna och ämnesfiltret slutar matcha svensk text.
+    soup = BeautifulSoup(r.text, "html.parser")
 
     author = ""
     body = ""
@@ -220,13 +219,22 @@ def fetch_fulltext(url: str) -> tuple[str, str, bool, str]:
                 names = [clean(a.get("name", "")) for a in au if isinstance(a, dict)]
                 author = author or ", ".join(n for n in names if n)
 
+    # Artikelbehållaren behövs även när JSON-LD gav brödtexten: betalväggs-
+    # notisen ("Logga in för att läsa") är kortare än stycketröskeln nedan och
+    # syns därför inte i den rensade brödtexten. Behållaren, inte hela sidan,
+    # så att en prenumerationsuppmaning i sidfoten inte flaggar fria artiklar.
+    container = soup.find("article") or soup.find("main") or soup
     if not body:
-        main = soup.find("article") or soup.find("main") or soup
-        texts = [clean(b.get_text(" ")) for b in main.find_all(["p", "h2", "h3"])]
+        texts = [clean(b.get_text(" ")) for b in container.find_all(["p", "h2", "h3"])]
         body = "\n".join(t for t in texts if len(t) > 40)
 
-    low = body.lower()
-    paywall = any(m in low for m in PAYWALL_MARKERS) or 0 < len(body.split()) < 60
+    low = (body + " " + clean(container.get_text(" "))).lower()
+    # En uttalad betalväggsmarkering gäller alltid. Kort text får däremot bara
+    # tolkas som betalvägg hos avsändare som har en - annars flaggas korta
+    # riksdagsdokument och pressmeddelanden felaktigt.
+    paywall = any(m in low for m in PAYWALL_MARKERS) or (
+        may_paywall and 0 < len(body.split()) < 60
+    )
     return body, author, paywall, ""
 
 
@@ -354,7 +362,7 @@ def main() -> None:
                 continue
 
             print(f"  Hämtar: {title[:70]} ...", end=" ", flush=True)
-            fulltext, author, paywall, fetch_error = fetch_fulltext(url)
+            fulltext, author, paywall, fetch_error = fetch_fulltext(url, source.get("paywalled", False))
             if fulltext and not matched:
                 matched = relevance(fulltext)
 
