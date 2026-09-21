@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-09-20T11:57:00.354946+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-09-21T06:16:12.810094+00:00",
+  "new_count": 9,
   "skipped": {
-    "seen": 36,
-    "offtopic": 136,
+    "seen": 35,
+    "offtopic": 132,
     "old": 34
   },
-  "fetch_errors": 2,
+  "fetch_errors": 6,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 6,
       "ok": true
     },
     {
@@ -29,19 +29,19 @@
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 4,
+      "new": 0,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,76 +65,171 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/ledare/nu-har-vi-ett-resultat-det-har-ar-regeringsalternativen",
-      "title": "Ledare: Nu har vi ett resultat – det här är regeringsalternativen",
-      "source": "DN Ledare",
+      "url": "https://www.svd.se/a/Gx7xql/datacenter-kan-radda-vindkraftsindustrin",
+      "title": "Datacenter kan rädda vindkraftsindustrin",
+      "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-09-17",
-      "author": "DN:s ledarredaktion",
+      "published": "2026-09-21",
+      "author": "Olle Lindström/TT",
       "commentator": "",
-      "summary": "Moderaterna och vännerna i näringslivet bör noggrant begrunda realiteterna. Föredrar man ett betydande inflytande över politiken genom att styra tillsammans med Magdalena Andersson (S) – eller föredrar man att hon löser uppgiften med C, MP och V?",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-20 13:57\nArtikelns ursprungsadress: https://www.dn.se/ledare/nu-har-vi-ett-resultat-det-har-ar-regeringsalternativen/\nModeraterna och vännerna i näringslivet bör noggrant begrunda realiteterna. Föredrar man ett betydande inflytande över politiken genom att styra tillsammans med Magdalena Andersson (S) – eller föredrar man att hon löser uppgiften med C, MP och V?\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "summary": "Det är fortsatt stiltje bland vindkraftsbyggarna. Men nya datacenter och valresultatet kan vara goda…",
+      "fulltext": "Det är fortsatt stiltje bland vindkraftsbyggarna. Men nya datacenter och valresultatet kan vara goda nyheter för branschen.\n– Vi är väldigt förhoppningsfulla, säger Nils Grunditz, vd på branschorganisationen Green Power Sweden.\nDe senaste åren har investeringarna i ny vindkraft stannat av helt. Under andra kvartalet gjordes inte en enda investering i ny vindkraft eller i storskaliga solcellsparker, enligt ny statistik från branschorganisationen. Och så har det i princip sett ut i närmare två år, åtminstone för vindindustrin.\n– Det är en kombination av ett sämre marknadsläge och politisk osäkerhet som gör att man avvaktar, säger Nils Grunditz.\nMed det sämre marknadsläget menar han att efterfrågan på ny elproduktion inte riktigt vill ta fart.\nGamla investeringar gör att det ändå byggs ut mer vindkraft de närmste två åren, men sedan börjar det sina.\nNya datacenter, som nu är på gång att poppa upp lite här och var, kan bli det som får vindkraftsbyggarna att sätta spaden i jorden igen. De är viktiga nya kunder.\n– Det är det definitivt. Mer traditionell industri har kanske en viss betalningsvilja för elen. Datacenter har mycket högre betalningsvilja, säger Grunditz.\n– Många av våra medlemmar berättar att det är många datacenter som står på kö för att få nätanslutningar, fortsätter han.\nEn annan sak som kan bättra på villkoren för de förnybara energikällorna är valresultatet. De rödgröna står mer på vindkraftsbolagens sida än vad Tidöregeringen gjorde, enligt branschen.\n– Vi är väldigt förhoppningsfulla om att det finns en ambition från de här partierna, som nu lär försöka bilda regering, kring förnybart. Det är väldigt uttalat, säger Nils Grunditz.\nFramför allt vill han se teknikneutrala regler. Om kärnkraften får massiva statliga stöd, bör även vind och sol kunna få det.\nMen elnät, betalda av staten, till de havsbaserade vindkraftparkerna som har fått tillstånd räcker inte.\n– Nej, det är inte tillräckligt, säger han och pekar på att vindkraftsbolagen vill ha någon form av prisgarantier på samma vis som kärnkraften.\nAtt elpriset varit så lågt, speciellt när det blåser och att det är just då som snurrorna producerar energi, har pressat lönsamheten. Många vindkraftsbolag gör förluster.\nFast så enkelt är det inte, anser Grunditz.\n– Det finns en idé om att det generellt går dåligt för vindkraften. Det är en grov förenkling. Det beror helt på vad man har för lånevillkor, vad man har skrivit för typ av avtal, säger han och fortsätter:\n– Men absolut, det är definitivt tuffare i norra Sverige.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsalternativ",
-        "Moderaterna"
+        "valresultat"
       ],
-      "first_seen": "2026-09-20T11:57:00.354946+00:00"
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/max-hjelm-veronica-maggio-har-ratt-om-vad-valet-handlade-om",
-      "title": "Max Hjelm: Veronica Maggio har rätt om vad valet handlade om",
-      "source": "DN Ledare",
+      "url": "https://www.expressen.se/ledare/kriser-tornar-upp-sig-medan-politikerna-fikar",
+      "title": "Kriser tornar upp sig medan politikerna fikar",
+      "source": "Expressen Ledare",
       "kind": "kommentar",
-      "published": "2026-09-16",
-      "author": "Max Hjelm",
+      "published": "2026-09-21",
+      "author": "ledarredaktionen",
       "commentator": "",
-      "summary": "Regeringsbildningen kan bli svår. Under tiden är det viktigt att inte glömma varför principen om att hålla Sverigedemokraterna utanför politisk makt är viktig.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-20 13:57\nArtikelns ursprungsadress: https://www.dn.se/ledare/max-hjelm-veronica-maggio-har-ratt-om-vad-valet-handlade-om/\nRegeringsbildningen kan bli svår. Under tiden är det viktigt att inte glömma varför principen om att hålla Sverigedemokraterna utanför politisk makt är viktig.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nHör ni tonerna? Redan innan rösterna räknats och valaffischerna plockats ned förvandlades politiker och opinionsbildare i Tidösfären till ormtjusare. Flöjten är framme och Centerpartiet ska lockas högerut.\nTanken är, på ytan, förståelig: att slippa Vänsterpartiet och i stället få borgerlig ekonomisk politik låter som en hit för ett liberalt parti.\nVarför dansar inte C direkt efter melodin?\nMöjligen av samma anledning som Socialdemokraterna och Vänsterpartiet hade kunnat få igenom en annorlunda a-kassa och tandvårdsreform i ett regeringssamarbete med Sverigedemokraterna – men avstår.\nMan vill inte ha den där skiten som kommer med.\nFör vi har ju sett hur det blir. Före valet 2022 kunde man tro att det skulle gå att kollra bort SD i regeringsförhandlingar. Efter att Tidöavtalet presenterades kan ingen längre tro att de borgerliga är i stånd till det. Sverige fick angiveri-, utvisnings- och vandelspolitik. Splittringsretoriken och utfallen mot muslimer och invandrare åt sig in i regeringspartierna – både M och KD har företrädare som, efter söndagens val, sprider SD:s konspirationsteorier om importerat röstboskap.\nSamarbetet har berättigats med ett fokus på att ”lösa samhällsproblem”, men det håller ju inte.\nEn stram migrationspolitik hade inte krävt inhumana utvisningar och splittring av familjer. Att minska gängkriminalitet och utanförskap går bättre att göra utan ett parti som insisterar på segregation. Islamister bekämpas inte genom att legitimera ett parti som misstänkliggör, och hetsar mot, alla muslimer. En politik som fungerar för bilister måste inte genomdrivas på bekostnad av klimatet – men med ett i princip klimatförändringsförnekande parti blir det så.\nPå valdagen lade Veronica Maggio upp ett Instagraminlägg, och menade att det kändes som ett mer ödesmättat val än vanligt: ”Ofta har rött eller blått bara inneburit olika strategier för att nå ungefär samma mål. En karensdag hit eller en skattesänkning dit. Ett mer gynnsamt klimat för företagande, eller bort med vinster i välfärden, vad vet jag.” Lite klumpigt skrivet kanske, ekonomisk politik är förstås viktigt. Men själva utgångspunkten delades av många. Maggio fortsatte: ”SD har en nationalistisk idé om svenskhet, kultur och assimilation som går längre än enbart frågan om hur många människor Sverige bör ta emot. Det här är större än ett plånboksbeslut.”\nVeronica Maggio har tagit bort inlägget efter valet, men tanken borde sitta kvar i våra huvuden som en av hennes refränger. Innan vi kan bråka om ekonomi måste vi enas som ett ”vi” igen.\nMax Hjelm: Vänsterpartiets egotripp kostade nästan oppositionen valvinsten\nMax Hjelm: Simona Mohamssons valspurt är dramatisk – men Liberalerna är ett nytt parti\nDN:s ledarredaktion: I en demokrati är muslimers röster lika mycket värda\n”Jag är en mentalhandikappad småpartiröstare”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: I en demokrati är muslimers röster lika mycket värda\nMax Hjelm: Vänsterpartiets egotripp kostade nästan oppositionen valvinsten\nMax Hjelm: Mohamssons valspurt är dramatisk – men Liberalerna är ett nytt parti",
+      "summary": "Ingen vet hur lång tid det tar för Sverige att få en ny statsminister. Samtidigt hopar sig orosmolnen. Talmannen måste snabba på regeringsbildningen.",
+      "fulltext": "Ingen vet hur lång tid det tar för Sverige att få en ny statsminister. Samtidigt hopar sig orosmolnen. Talmannen måste snabba på regeringsbildningen.\nKriser tornar upp sig medan politikerna fikar\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nUnder hela valrörelsen har vänsterpartiernas kritiker varnat för att en rödgrön seger skulle leda till oordnad materia. Nu har det hänt. Centern vägrar att ens sitta ner och prata om Vänsterpartiet inte släpper kravet på ministerposter. Vänstern driver hellre Sverige till nyval än ger upp. Fredagens fikaträffar med talmannen har inte gett något.\nMitt i allt detta står Magdalena Andersson som måste sy ihop det.\nSom Elisabeth Thand Ringqvist sa redan i augusti: Det kommer ta tid att bilda regering.\nVärlden fortsätter att existera också när Socialdemokraterna nått sitt mål om att dricka pulverkaffe och äta mandelkubb tillsammans med C, V och MP, och därmed överhuvudtaget kan börja fila på ett avtal. Det ser ut att bli en osäker höst. Utan en stabil regering på plats blir det mycket svårare för Sverige att hantera de kriser som kan uppstå.\nRedan nu, när sommaren precis är på väg att släppa taget, har södra Sverige upplevt extrema elpristoppar. Flera faktorer tyder på att det bara är början. Vattenkraften dras med låga nivåer. Underhållsarbete pågår för flera kärnkraftsreaktorer. Gaslagren i Europa är lägre än de brukar.\nSammanlagt talar det för svängande och stundtals höga elpriser.\nDet kommer att upplevas som tondövt om politikerna i vinter fortfarande är besatta av röda linjer och vem som vägrar fika med vem om många svenskar ser sina elräkningar skena. Inte för att politikerna kan eller bör styra elpriset. Men folk kommer att vilja ha svar på vad de gör för att säkra elförsörjningen i framtiden. Ingen vill ha permanent pris-jojo så fort det blir kallt.\nYtterligare ett orosmoln är att inflationen kan ta fart igen. Riksbankens prognos är förvisso att prisökningarna ligger kring målet det kommande året. Men om det värsta scenariot inträffar och det blir en kall, utdragen vinter – läs: höga elpriser – finns en risk för att inflationen tar fart igen. Lägg stigande bensin- och dieselpriser nedströms från Irankriget på det.\nIngen vet hur det blir. Men om inflationen tar fart igen behövs en stabil regering med en tydlig riktning för att hantera det.\nAllvarligast är dock det säkerhetspolitiska läget. De ryska aggressionerna mot Europa fortsätter. Putin skickar bestyckade drönare i europeiskt luftrum, saboterar elnät och ägnar sig åt cyberattacker. Inget talar för att de ryska angreppen kommer att avta.\nÄn behövs ingen samlingsregering med alla partier. Det är inte krig. Men Sverige kan inte vara fast i månader av kaffesörplande om Ryssland får för sig att rikta attacker mot svensk infrastruktur eller om ryska stridsflyg skulle kränka svenskt luftrum. Sverige kommer förvisso inte sakna styre eftersom övergångsregeringen leder landet, men den parlamentariska oron riskerar att ta fokus från behovet av att hantera yttre hot och kriser.\nGoda skäl finns därmed för att inte upprepa den 134 dagar långa regeringsbildningen från 2018. Ledare i EU och Nato måste veta vem de ska ringa.\nTalmannen har all anledning att snabba på.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "Sverigedemokraterna"
+        "talman",
+        "statsminister"
       ],
-      "first_seen": "2026-09-20T11:57:00.354946+00:00"
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/max-hjelm-vansterpartiets-egotripp-kostade-nastan-oppositionen-valvinsten",
-      "title": "Max Hjelm: Vänsterpartiets egotripp kostade nästan oppositionen valvinsten",
-      "source": "DN Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-15",
-      "author": "Max Hjelm",
+      "url": "https://www.sverigesradio.se/artikel/9304059",
+      "title": "Leijonborg vill representera äldre i riksdagen: ”Viss ålderism”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-21",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Socialdemokraterna satte laget framför jaget. Det motsatta kan sägas om Vänsterpartiet.",
+      "summary": "Lars Leijonborg gör comeback som riksdagsledamot för Liberalerna. Senast han satt i riksdagen var för 17 år sedan. Med sina 76 år kommer den tidigare partiledaren vara bland de äldsta: ”Det finns rätt få i pensionsåldern i riksdagen, så en roll jag kan ta på mig är att representera min åldersgrupp”. Leijonborg blev invald på ett Malmömandat men bor i Stockholm och vissa kritiska röster har höjts i och med detta. ”Det är valsystemet – det råkade bli så att jag blev inräknad just i Malmö”, säger han som svar på kritiken. ”Men jag har varit mycket i Skåne och känner mycket för Skåne och Malmö”.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/ledare/max-hjelm-vansterpartiets-egotripp-kostade-nastan-oppositionen-valvinsten'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304059'",
+      "matched_terms": [
+        "partiledar",
+        "Liberalerna"
+      ],
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9302835",
+      "title": "Ny regering kan öppna för mer vindkraft till havs",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-21",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Ett regeringsskifte kan leda till nya diskussioner kring statligt stöd till havsbaserad vindkraft. Tillstånd finns redan för flera projekt, men ännu saknas slutliga investeringsbeslut. Utan ett statligt stöd kan projekten bli kvar på ritbordet, enligt vindkraftsbranschen. ”Om man vill få fram ny elproduktion behövs det, precis som för kärnkraften, någon typ av riskdelning. Som det är nu så får man inte ihop kalkylen”, säger Per Holm på branschorganisationen Energiföretagen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9302835'",
+      "matched_terms": [
+        "regeringsskifte"
+      ],
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9303556",
+      "title": "Här ökade valdeltagandet med 17 procentenheter",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-21",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Valdeltagandet ökade kraftigt i utsatta områden runt om i landet, där det tidigare legat lågt. I Ronna i Södertälje har ökningen varit rekordstor – 17 procentenheter i distriktet Ronna Södra. De partier som ökat mest är Vänsterpartiet och Socialdemokraterna.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9303556'",
       "matched_terms": [
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-20T11:57:00.354946+00:00"
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/ulf-kristersson-har-fatt-en-andra-chans-tar-han-den",
-      "title": "Ledare: Ulf Kristersson har fått en andra chans – tar han den?",
-      "source": "DN Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-14",
-      "author": "DN:s ledarredaktion",
+      "url": "https://www.svt.se/nyheter/inrikes/nya-valjarstrommar-i-bruksorter-m-okar-s-och-sd-tappar",
+      "title": "Nya väljarströmmar i bruksorter – M ökar, S och SD tappar",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-20",
+      "author": "Hedda Berglund",
       "commentator": "",
-      "summary": "Sverigedemokraterna backar och Tidöpartierna hade på valnatten förlorat sin majoritet. Moderaterna har möjlighet att staka ut en ny väg.",
-      "fulltext": "",
+      "summary": "I flera klassiska bruksorter har väljarstödet förändrats i årets riksdagsval. Moderaterna ökar, samtidigt som både Socialdemokraterna och Sverigedemokraterna tappar. Christer West, som bor i Hagfors, är en av väljarna som bytt parti. – Tidö har gjort ett jättebra jobb, säger han.",
+      "fulltext": "I flera klassiska bruksorter har väljarstödet förändrats i årets riksdagsval. Moderaterna ökar, samtidigt som både Socialdemokraterna och Sverigedemokraterna tappar. Christer West, som bor i Hagfors, är en av väljarna som bytt parti.\n– Tidö har gjort ett jättebra jobb, säger han.\nHagfors i Värmland är en klassisk svensk bruksort, där järn- och stålindustrin har präglat både arbetsmarknaden och samhället.\nSocialdemokraterna har länge haft ett starkt stöd och är fortfarande största parti i riksdagsvalet. Men stödet har minskat.\nChrister West röstade tidigare på Socialdemokraterna men bytte till SD i riksdagsvalet 2022. I år fick Liberalerna en stödröst, eftersom han ville se fyra år till med Tidöregeringen.\n– Jag tycker att alla har skött sig bra. Gunnar Strömmer är den bästa politiker vi haft på väldigt många år, men jag gillar de liberala ministrarna också, säger han.\nI videon berättar Christer West vad han tycker har blivit bättre de senaste åren – och varför han lämnade SD.\nChrister West speglar ett större skifte bland väljarna i Hagfors.\nSocialdemokraterna har tappat stöd under flera val, samtidigt som Sverigedemokraterna har vuxit. Men i årets riksdagsval bröts den utvecklingen i Hagfors. S tappade 5,3 procentenheter och SD 1,6, medan M ökade med 4,9 procentenheter.\nHagfors är inte ensamt om förändringen. En genomgång som SVT gjort av 15 utvalda bruksorter i Mellansverige visar samma utveckling i samtliga kommuner.\nS har tappat stöd sedan 2018. SD ökade fram till 2022, men backar nu. M har samtidigt ökat i de tre valen.\nKartläggningen är gjord i 15 kommuner i Mellansverige där Socialdemokraterna traditionellt varit starka: Degerfors, Fagersta, Hagfors, Hallstahammar, Hofors, Hällefors, Ludvika, Munkfors, Norberg, Sandviken, Smedjebacken, Storfors, Surahammar och Säter.\nKommunerna är sedan länge traditionella fästen för Socialdemokraterna. Orterna har dominerats av en stor arbetsgivare inom gruv-, stål- och/eller verkstadsindustri.\nJämförelsen mellan partierna är gjord mellan de slutliga valresultaten 2018 och 2022 och det preliminära valresultatet 2026.\nModeraterna: 2018: 12,9 2022: 13,7 2026: 16,5\nSverigedemokraterna: 2018: 22,1 2022: 28,1 2026: 24,9\nSocialdemokraterna: 2018: 39,2 2022: 37,0 2026: 33,2\nTabellen visar den aggregerade väljarandelen i riksdagsvalen i alla 15 kommunerna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/ledare/ulf-kristersson-har-fatt-en-andra-chans-tar-han-den'",
+      "fetch_error": "",
       "matched_terms": [
+        "riksdagsval",
         "Moderaterna",
+        "Socialdemokraterna",
         "Sverigedemokraterna"
       ],
-      "first_seen": "2026-09-20T11:57:00.354946+00:00"
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9304007",
+      "title": "Merz parti CDU åker ur en delstat för första gången",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Ytterhögerpartiet AfD och vänsterpartiet Die Linke blev vinnarna i gårdagens två tyska delstatsval – i huvudstaden Berlin och i Mecklenburg-Vorpommern. Den stora förloraren var kristdemokraterna, CDU, som backade kraftigt i Berlin och även åkte ur delstatsparlamentet i Mecklenburg-Vorpommern. Förbundkansler Merz uttalade sig efter valen och sa att han kommer att sitta kvar som partiledare och förbundskansler.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304007'",
+      "matched_terms": [
+        "partiledar",
+        "Kristdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9303999",
+      "title": "Fortsatt låst läge mellan V och C: ”Kaffetermosen är på”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Vänsterpartiets vice partiledare Ida Gabrielsson säger att partiet kommer stå på sig och är redo att gå till extraval om Centerpartiet inte vill förhandla om regeringsmakten. Ansvaret för det låsta läget i regeringsförhandlingarna lägger Ida Gabrielsson på Centerterpartiet, men säger att V är öppna för att inleda samtal. Ekot har sökt Centerpartiet som avböjer kommenter.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9303999'",
+      "matched_terms": [
+        "regeringsförhandling",
+        "regeringsmakt",
+        "partiledar",
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9303956",
+      "title": "Framgång för AFD i tyska delstatsval – CDU ser ut att åka ur",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Tyska kristdemokraterna CDU åker ur delstatsparlamenetet i Mecklenburg Vorpommern, enligt en ny prognos. Det är något som aldrig tidigare har i ett delstatsval. Vinnarna i dagens två delstatsval är ytterhögerpartiet AFD och Vänsterpartiet Die Linke, visar prognoser. Förbundskansler Friedrich Merz kallar CDU:s resultat för en katastrof. I båda valen är valdeltagande mycket högt.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9303956'",
+      "matched_terms": [
+        "Kristdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-21T06:16:12.810094+00:00"
     }
   ]
 }
