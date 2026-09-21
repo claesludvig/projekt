@@ -10,7 +10,8 @@ redan skickats ut.
 
 | | |
 |---|---|
-| Schema | Ligger i Routinen på claude.ai, inte i workflowet |
+| Schema | 08:00 och 16:00 svensk tid, satt i Routinen — inte i workflowet |
+| Routine | `trig_01SEqC2pFg8wtTBcGcpAk5KS`, bunden till samma beständiga session som podd- och FX-bevakningen |
 | Workflow | `.github/workflows/svensk_politik_digest.yml` — bara hämtning |
 | Trigger | `workflow_dispatch`, anropat av Routinen via GitHub API |
 | Hemligheter | Inga |
@@ -25,7 +26,16 @@ bort behovet av API-nycklar och mejlhemligheter i repot helt.
 
 Workflowet `.github/workflows/svensk_politik_digest.yml` gör bara hämtningen,
 som behöver en runner med öppet nät. Det triggas via GitHub API av Routinen,
-två gånger om dagen, inte av ett eget cron-schema i filen:
+två gånger om dagen, inte av ett eget cron-schema i filen.
+
+Routinens cron står i UTC (`0 6,14 * * *`) och motsvarar 08:00 och 16:00 svensk
+sommartid. När vintertiden slår till i slutet av oktober landar körningarna en
+timme senare, 07:00 och 15:00 — ändra till `0 7,15 * * *` om de ska ligga kvar
+på 08 och 16.
+
+Routinen binder till samma beständiga session som podd- och FX-bevakningen.
+Det är den sessionen som håller Gmail-kopplingen; en Routine som startar en
+färsk session varje gång får inga connector-verktyg och kan inte mejla.
 
 ```
 Routine (claude.ai, schemalagd)
