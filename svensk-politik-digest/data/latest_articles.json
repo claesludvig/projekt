@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-09-21T06:16:12.810094+00:00",
-  "new_count": 9,
+  "fetched_at": "2026-09-21T14:16:46.222576+00:00",
+  "new_count": 1,
   "skipped": {
-    "seen": 35,
-    "offtopic": 132,
-    "old": 34
+    "seen": 40,
+    "offtopic": 137,
+    "old": 32
   },
-  "fetch_errors": 6,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 6,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,171 +65,22 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/Gx7xql/datacenter-kan-radda-vindkraftsindustrin",
-      "title": "Datacenter kan rädda vindkraftsindustrin",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-21",
-      "author": "Olle Lindström/TT",
-      "commentator": "",
-      "summary": "Det är fortsatt stiltje bland vindkraftsbyggarna. Men nya datacenter och valresultatet kan vara goda…",
-      "fulltext": "Det är fortsatt stiltje bland vindkraftsbyggarna. Men nya datacenter och valresultatet kan vara goda nyheter för branschen.\n– Vi är väldigt förhoppningsfulla, säger Nils Grunditz, vd på branschorganisationen Green Power Sweden.\nDe senaste åren har investeringarna i ny vindkraft stannat av helt. Under andra kvartalet gjordes inte en enda investering i ny vindkraft eller i storskaliga solcellsparker, enligt ny statistik från branschorganisationen. Och så har det i princip sett ut i närmare två år, åtminstone för vindindustrin.\n– Det är en kombination av ett sämre marknadsläge och politisk osäkerhet som gör att man avvaktar, säger Nils Grunditz.\nMed det sämre marknadsläget menar han att efterfrågan på ny elproduktion inte riktigt vill ta fart.\nGamla investeringar gör att det ändå byggs ut mer vindkraft de närmste två åren, men sedan börjar det sina.\nNya datacenter, som nu är på gång att poppa upp lite här och var, kan bli det som får vindkraftsbyggarna att sätta spaden i jorden igen. De är viktiga nya kunder.\n– Det är det definitivt. Mer traditionell industri har kanske en viss betalningsvilja för elen. Datacenter har mycket högre betalningsvilja, säger Grunditz.\n– Många av våra medlemmar berättar att det är många datacenter som står på kö för att få nätanslutningar, fortsätter han.\nEn annan sak som kan bättra på villkoren för de förnybara energikällorna är valresultatet. De rödgröna står mer på vindkraftsbolagens sida än vad Tidöregeringen gjorde, enligt branschen.\n– Vi är väldigt förhoppningsfulla om att det finns en ambition från de här partierna, som nu lär försöka bilda regering, kring förnybart. Det är väldigt uttalat, säger Nils Grunditz.\nFramför allt vill han se teknikneutrala regler. Om kärnkraften får massiva statliga stöd, bör även vind och sol kunna få det.\nMen elnät, betalda av staten, till de havsbaserade vindkraftparkerna som har fått tillstånd räcker inte.\n– Nej, det är inte tillräckligt, säger han och pekar på att vindkraftsbolagen vill ha någon form av prisgarantier på samma vis som kärnkraften.\nAtt elpriset varit så lågt, speciellt när det blåser och att det är just då som snurrorna producerar energi, har pressat lönsamheten. Många vindkraftsbolag gör förluster.\nFast så enkelt är det inte, anser Grunditz.\n– Det finns en idé om att det generellt går dåligt för vindkraften. Det är en grov förenkling. Det beror helt på vad man har för lånevillkor, vad man har skrivit för typ av avtal, säger han och fortsätter:\n– Men absolut, det är definitivt tuffare i norra Sverige.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.expressen.se/ledare/kriser-tornar-upp-sig-medan-politikerna-fikar",
-      "title": "Kriser tornar upp sig medan politikerna fikar",
-      "source": "Expressen Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-21",
-      "author": "ledarredaktionen",
-      "commentator": "",
-      "summary": "Ingen vet hur lång tid det tar för Sverige att få en ny statsminister. Samtidigt hopar sig orosmolnen. Talmannen måste snabba på regeringsbildningen.",
-      "fulltext": "Ingen vet hur lång tid det tar för Sverige att få en ny statsminister. Samtidigt hopar sig orosmolnen. Talmannen måste snabba på regeringsbildningen.\nKriser tornar upp sig medan politikerna fikar\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nUnder hela valrörelsen har vänsterpartiernas kritiker varnat för att en rödgrön seger skulle leda till oordnad materia. Nu har det hänt. Centern vägrar att ens sitta ner och prata om Vänsterpartiet inte släpper kravet på ministerposter. Vänstern driver hellre Sverige till nyval än ger upp. Fredagens fikaträffar med talmannen har inte gett något.\nMitt i allt detta står Magdalena Andersson som måste sy ihop det.\nSom Elisabeth Thand Ringqvist sa redan i augusti: Det kommer ta tid att bilda regering.\nVärlden fortsätter att existera också när Socialdemokraterna nått sitt mål om att dricka pulverkaffe och äta mandelkubb tillsammans med C, V och MP, och därmed överhuvudtaget kan börja fila på ett avtal. Det ser ut att bli en osäker höst. Utan en stabil regering på plats blir det mycket svårare för Sverige att hantera de kriser som kan uppstå.\nRedan nu, när sommaren precis är på väg att släppa taget, har södra Sverige upplevt extrema elpristoppar. Flera faktorer tyder på att det bara är början. Vattenkraften dras med låga nivåer. Underhållsarbete pågår för flera kärnkraftsreaktorer. Gaslagren i Europa är lägre än de brukar.\nSammanlagt talar det för svängande och stundtals höga elpriser.\nDet kommer att upplevas som tondövt om politikerna i vinter fortfarande är besatta av röda linjer och vem som vägrar fika med vem om många svenskar ser sina elräkningar skena. Inte för att politikerna kan eller bör styra elpriset. Men folk kommer att vilja ha svar på vad de gör för att säkra elförsörjningen i framtiden. Ingen vill ha permanent pris-jojo så fort det blir kallt.\nYtterligare ett orosmoln är att inflationen kan ta fart igen. Riksbankens prognos är förvisso att prisökningarna ligger kring målet det kommande året. Men om det värsta scenariot inträffar och det blir en kall, utdragen vinter – läs: höga elpriser – finns en risk för att inflationen tar fart igen. Lägg stigande bensin- och dieselpriser nedströms från Irankriget på det.\nIngen vet hur det blir. Men om inflationen tar fart igen behövs en stabil regering med en tydlig riktning för att hantera det.\nAllvarligast är dock det säkerhetspolitiska läget. De ryska aggressionerna mot Europa fortsätter. Putin skickar bestyckade drönare i europeiskt luftrum, saboterar elnät och ägnar sig åt cyberattacker. Inget talar för att de ryska angreppen kommer att avta.\nÄn behövs ingen samlingsregering med alla partier. Det är inte krig. Men Sverige kan inte vara fast i månader av kaffesörplande om Ryssland får för sig att rikta attacker mot svensk infrastruktur eller om ryska stridsflyg skulle kränka svenskt luftrum. Sverige kommer förvisso inte sakna styre eftersom övergångsregeringen leder landet, men den parlamentariska oron riskerar att ta fokus från behovet av att hantera yttre hot och kriser.\nGoda skäl finns därmed för att inte upprepa den 134 dagar långa regeringsbildningen från 2018. Ledare i EU och Nato måste veta vem de ska ringa.\nTalmannen har all anledning att snabba på.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman",
-        "statsminister"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9304059",
-      "title": "Leijonborg vill representera äldre i riksdagen: ”Viss ålderism”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-21",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Lars Leijonborg gör comeback som riksdagsledamot för Liberalerna. Senast han satt i riksdagen var för 17 år sedan. Med sina 76 år kommer den tidigare partiledaren vara bland de äldsta: ”Det finns rätt få i pensionsåldern i riksdagen, så en roll jag kan ta på mig är att representera min åldersgrupp”. Leijonborg blev invald på ett Malmömandat men bor i Stockholm och vissa kritiska röster har höjts i och med detta. ”Det är valsystemet – det råkade bli så att jag blev inräknad just i Malmö”, säger han som svar på kritiken. ”Men jag har varit mycket i Skåne och känner mycket för Skåne och Malmö”.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304059'",
-      "matched_terms": [
-        "partiledar",
-        "Liberalerna"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9302835",
-      "title": "Ny regering kan öppna för mer vindkraft till havs",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-21",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Ett regeringsskifte kan leda till nya diskussioner kring statligt stöd till havsbaserad vindkraft. Tillstånd finns redan för flera projekt, men ännu saknas slutliga investeringsbeslut. Utan ett statligt stöd kan projekten bli kvar på ritbordet, enligt vindkraftsbranschen. ”Om man vill få fram ny elproduktion behövs det, precis som för kärnkraften, någon typ av riskdelning. Som det är nu så får man inte ihop kalkylen”, säger Per Holm på branschorganisationen Energiföretagen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9302835'",
-      "matched_terms": [
-        "regeringsskifte"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9303556",
-      "title": "Här ökade valdeltagandet med 17 procentenheter",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-21",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Valdeltagandet ökade kraftigt i utsatta områden runt om i landet, där det tidigare legat lågt. I Ronna i Södertälje har ökningen varit rekordstor – 17 procentenheter i distriktet Ronna Södra. De partier som ökat mest är Vänsterpartiet och Socialdemokraterna.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9303556'",
-      "matched_terms": [
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/nya-valjarstrommar-i-bruksorter-m-okar-s-och-sd-tappar",
-      "title": "Nya väljarströmmar i bruksorter – M ökar, S och SD tappar",
+      "url": "https://www.svt.se/nyheter/inrikes/efter-valet-vad-hander-nu",
+      "title": "Efter valet – vad händer nu?",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-09-20",
-      "author": "Hedda Berglund",
+      "published": "2026-09-21",
+      "author": "SVT Nyheter",
       "commentator": "",
-      "summary": "I flera klassiska bruksorter har väljarstödet förändrats i årets riksdagsval. Moderaterna ökar, samtidigt som både Socialdemokraterna och Sverigedemokraterna tappar. Christer West, som bor i Hagfors, är en av väljarna som bytt parti. – Tidö har gjort ett jättebra jobb, säger han.",
-      "fulltext": "I flera klassiska bruksorter har väljarstödet förändrats i årets riksdagsval. Moderaterna ökar, samtidigt som både Socialdemokraterna och Sverigedemokraterna tappar. Christer West, som bor i Hagfors, är en av väljarna som bytt parti.\n– Tidö har gjort ett jättebra jobb, säger han.\nHagfors i Värmland är en klassisk svensk bruksort, där järn- och stålindustrin har präglat både arbetsmarknaden och samhället.\nSocialdemokraterna har länge haft ett starkt stöd och är fortfarande största parti i riksdagsvalet. Men stödet har minskat.\nChrister West röstade tidigare på Socialdemokraterna men bytte till SD i riksdagsvalet 2022. I år fick Liberalerna en stödröst, eftersom han ville se fyra år till med Tidöregeringen.\n– Jag tycker att alla har skött sig bra. Gunnar Strömmer är den bästa politiker vi haft på väldigt många år, men jag gillar de liberala ministrarna också, säger han.\nI videon berättar Christer West vad han tycker har blivit bättre de senaste åren – och varför han lämnade SD.\nChrister West speglar ett större skifte bland väljarna i Hagfors.\nSocialdemokraterna har tappat stöd under flera val, samtidigt som Sverigedemokraterna har vuxit. Men i årets riksdagsval bröts den utvecklingen i Hagfors. S tappade 5,3 procentenheter och SD 1,6, medan M ökade med 4,9 procentenheter.\nHagfors är inte ensamt om förändringen. En genomgång som SVT gjort av 15 utvalda bruksorter i Mellansverige visar samma utveckling i samtliga kommuner.\nS har tappat stöd sedan 2018. SD ökade fram till 2022, men backar nu. M har samtidigt ökat i de tre valen.\nKartläggningen är gjord i 15 kommuner i Mellansverige där Socialdemokraterna traditionellt varit starka: Degerfors, Fagersta, Hagfors, Hallstahammar, Hofors, Hällefors, Ludvika, Munkfors, Norberg, Sandviken, Smedjebacken, Storfors, Surahammar och Säter.\nKommunerna är sedan länge traditionella fästen för Socialdemokraterna. Orterna har dominerats av en stor arbetsgivare inom gruv-, stål- och/eller verkstadsindustri.\nJämförelsen mellan partierna är gjord mellan de slutliga valresultaten 2018 och 2022 och det preliminära valresultatet 2026.\nModeraterna: 2018: 12,9 2022: 13,7 2026: 16,5\nSverigedemokraterna: 2018: 22,1 2022: 28,1 2026: 24,9\nSocialdemokraterna: 2018: 39,2 2022: 37,0 2026: 33,2\nTabellen visar den aggregerade väljarandelen i riksdagsvalen i alla 15 kommunerna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Valresultatet ligger fast och talmansrundorna är igång. Men vad händer nu och när kommer Sverige ha en ny regering? Ställ dina frågor till SVT:s politikreporter Julia Lindvall som svarar från 14.00.",
+      "fulltext": "Valresultatet ligger fast och talmansrundorna är igång. Men vad händer nu och när kommer Sverige ha en ny regering? Ställ dina frågor till SVT:s politikreporter Julia Lindvall som svarar från 14.00.\nNu stänger vi chatten för den här gången. Så mycket intressanta frågor, tack för det! Nästa gång vi chattar vet vi kanske mer om hur det gått med låsningen mellan C och V.\nEmma • Kan en statsminister väljas nästa vecka utan färdig regering?\nNej för statsministerposten hänger liksom ihop med hur regeringen ska se ut. Talmannen behöver i samband med att man röstar om ny statsminister redovisa vilka partier som är tänka att ingå i regeringen.\nBertil Forsberg • Varför är ministrar viktigare än att få igenom sin politik ?\nV menar att man behöver ministrar för att kunna få igenom politik, att mycket makt utgår från regeringskansliet och att det är därför de behöver sitta i regering. Inte bara för att ”ha ministrar”. Men SD den här mandatperioden är väl ett bevis på att det ändå går att få stort inflytande över politiken utan att sitta i själva regeringen.\nMartin • Finns det några officiella hållpunkter i form av presskonferenser eller dylikt, eller är det upp till S att kalla till det?\nNär den nya talmannen väljs den 28e september kommer Andersson att få veta hur lång tid hon har på sig i första sonderingsrundan. Då blir det sannolikt pressträff med nya talmannen också. Annars tror jag inte S kommer kalla till pressträff förrän de känner att de kommit vidare i förhandlingarna.\nFredrik • Kan S regera med bara c och mp?\nDet skulle isf ändå krävas att V släppte fram Andersson som statsminister, vilket de sagt att de inte kommer göra om de inte sitter med i regeringen.\nJohannes • Om Andersons sönderingsuppdrag nedröstats, betyder det att uppdraget kommer per automatik att gå till M?\nNej inte automatiskt, det är upp till talmannen att bestämma. Kan bli så att hon får frågan igen direkt om hon kan visa på att hon kan ha en lösning på g. Kan ju vara så att V eller C byter hållning efter någon/några statsministeromröstningar, och att talmannen anser att Andersson fortfarande är den kandidat som har störst möjlighet att samla ett regeringsunderlag.\nDaniel • Med tanke på att både C och V är så pass låsta, hur sannolikt är det att Kristersson får ett sonderingsuppdrag i nästa månad? Förutsatt att Andersson inte lyckas på första eller ens andra försöket.\nDet ska inte uteslutas att frågan går till Kristersson i ett senare skede!\nNils H • Tror att S skulle få igenom maximalt av sin sakpolitik genom att stödja en M, KD, L och C regering. Men jag tror tyvärr att de är mer intresserade av att leda än att faktiskt få igenom sin politik….\nHmmm är inte så säker på att de hade fått igenom maximalt med politik i en sådan konstellation. Ta tex flera av deras viktigaste vallöften, inget av de partierna du nämner vill ha slopat karensavdrag, indexering av statsbidragen, eller en bankskatt.\nChristoffer Brandt • Vad har C sagt om passivt stöd från SD? Om M, L, KD och C bildar regering och SD väljer att stå utanför men ändå tolerera regeringen – skulle C acceptera ett sådant passivt stöd?\nCenterpartiets linje är att de inte vill att Sverigedemokraterna ska ha något inflytande över svensk politik. De säger att de varken kommer släppa fram en regering där SD ingår, ELLER en regering som behöver stöd av SD för att tillträda. Så i så fall skulle de behöva byta linje, det är inte förenligt med deras nuvarande förhållningssätt till SD.\nKubbe • Vilka scenarion ser du som troligast när det kommer till att få V och C att gemensamt släppa fram en regering?\nTycker det är för tidigt att säga, mycket kommer handla om hur S väljer att spela sina kort nu. Vem sätter de press på och hur? Tror inte man ska utesluta ett läge där både V och C tvingas backa, så att båda känner att de gett upp saker. Evt att det kan sluta med en S + MP-regering eller en regering med bara S. Den som lever får se!\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "riksdagsval",
-        "Moderaterna",
-        "Socialdemokraterna",
-        "Sverigedemokraterna"
+        "talman",
+        "valresultat"
       ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9304007",
-      "title": "Merz parti CDU åker ur en delstat för första gången",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Ytterhögerpartiet AfD och vänsterpartiet Die Linke blev vinnarna i gårdagens två tyska delstatsval – i huvudstaden Berlin och i Mecklenburg-Vorpommern. Den stora förloraren var kristdemokraterna, CDU, som backade kraftigt i Berlin och även åkte ur delstatsparlamentet i Mecklenburg-Vorpommern. Förbundkansler Merz uttalade sig efter valen och sa att han kommer att sitta kvar som partiledare och förbundskansler.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304007'",
-      "matched_terms": [
-        "partiledar",
-        "Kristdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9303999",
-      "title": "Fortsatt låst läge mellan V och C: ”Kaffetermosen är på”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Vänsterpartiets vice partiledare Ida Gabrielsson säger att partiet kommer stå på sig och är redo att gå till extraval om Centerpartiet inte vill förhandla om regeringsmakten. Ansvaret för det låsta läget i regeringsförhandlingarna lägger Ida Gabrielsson på Centerterpartiet, men säger att V är öppna för att inleda samtal. Ekot har sökt Centerpartiet som avböjer kommenter.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9303999'",
-      "matched_terms": [
-        "regeringsförhandling",
-        "regeringsmakt",
-        "partiledar",
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9303956",
-      "title": "Framgång för AFD i tyska delstatsval – CDU ser ut att åka ur",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Tyska kristdemokraterna CDU åker ur delstatsparlamenetet i Mecklenburg Vorpommern, enligt en ny prognos. Det är något som aldrig tidigare har i ett delstatsval. Vinnarna i dagens två delstatsval är ytterhögerpartiet AFD och Vänsterpartiet Die Linke, visar prognoser. Förbundskansler Friedrich Merz kallar CDU:s resultat för en katastrof. I båda valen är valdeltagande mycket högt.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9303956'",
-      "matched_terms": [
-        "Kristdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-21T06:16:12.810094+00:00"
+      "first_seen": "2026-09-21T14:16:46.222576+00:00"
     }
   ]
 }
