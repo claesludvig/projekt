@@ -113,6 +113,13 @@ Två fallgropar som filtret är byggt runt:
   var för sig skulle ett enda omnämnande av ett parti se ut som två träffar och
   släppa igenom vilken partinotis som helst.
 
+En tredje spärr gäller geografin: **svensk politik, inte politik på svenska.**
+Svenska medier översätter utländska partinamn till gemener — "tyska
+kristdemokraterna CDU", "vänsterpartiet Die Linke" — vilket fick två tyska
+delstatsval att passera tvåpartiskravet första morgonen i drift. Bär en post en
+utländsk markör måste den därför också ha ett svenskt ankare (Sverige, riksdagen,
+talman, regeringsbildning, en svensk partiledares namn) för att komma med.
+
 Träffar sparas i `matched_terms` per post, så det går att se varför något kom
 med.
 

@@ -178,6 +178,31 @@ PARTIES = {
     "Miljöpartiet": ["miljöpartiet", "miljöpartist"],
 }
 
+# Svensk politik, inte politik på svenska. Svenska medier översätter utländska
+# partinamn till gemener - "tyska kristdemokraterna CDU", "vänsterpartiet Die
+# Linke" - vilket får partiräkningen att se två svenska partier i en notis om
+# ett tyskt delstatsval. En post som bär en utländsk markör måste därför också
+# ha ett svenskt ankare för att komma med.
+UTLANDSKA_MARKORER = [
+    "delstat",
+    "tyskland", "tyska", "tysk ",
+    "norge", "norska", "danmark", "danska", "finland", "finska",
+    "storbritannien", "brittisk", "usa", "amerikansk",
+    "frankrike", "fransk", "polen", "polsk", "nederländ",
+    "bundestag", "folketinget", "stortinget", "riksdagen i helsingfors",
+    "europaparlamentet", "eu-kommissionen",
+]
+
+SVENSKA_ANKARE = [
+    "sverige", "svensk",
+    "riksdagen", "riksdagsval", "riksdagsledamot", "riksdagspart",
+    "talman",
+    "regeringsbildning", "regeringsförhandling", "regeringsunderlag",
+    "sondering", "tidöavtal", "statsrådsbered", "rosenbad",
+    "magdalena andersson", "ulf kristersson", "nooshi dadgostar",
+    "jimmie åkesson", "ebba busch", "andreas norlén", "thand ringqvist",
+]
+
 # Namngivna politiska kommentatorer. Träffar markeras i utskicket så att analys
 # går att skilja från ren rapportering. Matchas mot författarfält och mot
 # titel/ingress, eftersom flera flöden saknar strukturerat författarfält.

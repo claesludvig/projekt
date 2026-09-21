@@ -46,6 +46,12 @@ RSS = """<?xml version="1.0" encoding="UTF-8"?>
   <pubDate>Fri, 19 Sep 2026 07:30:00 GMT</pubDate>
 </item>
 <item>
+  <title>Tyska kristdemokraterna CDU åker ur delstatsparlamentet</title>
+  <link>https://example.test/artikel/tyskland</link>
+  <description>Ytterhögerpartiet AfD och vänsterpartiet Die Linke vann de tyska delstatsvalen.</description>
+  <pubDate>Fri, 19 Sep 2026 06:30:00 GMT</pubDate>
+</item>
+<item>
   <title>Moderaterna presenterade en ny skolsatsning</title>
   <link>https://example.test/artikel/skola</link>
   <description>Ett enda parti nämns i en skolnyhet.</description>
@@ -154,6 +160,7 @@ def main() -> int:
         ("fyra relevanta poster togs med", first["new_count"] == 4),
         ("ett ensamt partinamn räcker inte", "skolsatsning" not in rubriker),
         ("ämnesfrämmande post filtrerades bort", "Elpriset" not in rubriker),
+        ("utländsk politik på svenska filtrerades bort", "CDU" not in rubriker),
         ("för gammal post togs bort", first["skipped"]["old"] >= 1),
         ("böjd form fångas av stammen (talmansrundorna)", bk is not None),
         ("andra körningen gav inget nytt", second["new_count"] == 0),

@@ -34,7 +34,9 @@ from sources import (
     PARTIES,
     PAYWALL_MARKERS,
     SOURCES,
+    SVENSKA_ANKARE,
     TOPIC_TERMS,
+    UTLANDSKA_MARKORER,
 )
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "data"
@@ -142,6 +144,16 @@ def entry_date(entry) -> str:
 def relevance(text: str) -> list[str]:
     """Returnerar matchade nyckelord — tom lista betyder 'inte politisk nog'."""
     low = (text or "").lower()
+
+    # Utländsk politik skriven på svenska ser ut som svensk politik för
+    # filtret: "tyska kristdemokraterna CDU" och "vänsterpartiet Die Linke"
+    # räknades som två svenska partier. Bär posten en utländsk markör krävs
+    # därför också ett svenskt ankare.
+    if any(m in low for m in UTLANDSKA_MARKORER) and not any(
+        a in low for a in SVENSKA_ANKARE
+    ):
+        return []
+
     hits = [t for t in TOPIC_TERMS if t in low]
     # Räkna per parti, inte per söksträng: varianterna överlappar som
     # delsträngar och ett parti får aldrig räknas två gånger.
