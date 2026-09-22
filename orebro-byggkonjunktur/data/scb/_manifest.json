@@ -1,66 +1,82 @@
 [
  {
-  "id": "NattSni07KonKN",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "rams_bygg_kommun_2008_2018",
+  "fil": "rams_bygg_kommun_2008_2018.csv",
+  "rader": 449,
+  "titel": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI 2007, kön, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNI07KonK",
+  "status": "ok"
  },
  {
-  "id": "DagSni07KonKN",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "rams_bygg_kommun_2019_2021",
+  "fil": "rams_bygg_kommun_2019_2021.csv",
+  "rader": 449,
+  "titel": "Förvärvsarbetande 16-74 år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI 2007, kön, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/DagSni07KonKN",
+  "status": "ok"
  },
  {
-  "id": "NattSNI07KonK",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "nr_lan_aggregat",
+  "fil": "nr_lan_aggregat.csv",
+  "rader": 11,
+  "titel": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS2010) efter region, näringsgren SNI 2007, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T03A",
+  "status": "ok"
  },
  {
-  "id": "NattSNIKonK",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "nr_nuts2_bransch",
+  "fil": "nr_nuts2_bransch.csv",
+  "rader": 11,
+  "titel": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS2010) efter region, näringsgren SNI 2007, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T04A",
+  "status": "ok"
  },
  {
-  "id": "AMPAK4",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "nr_investeringar",
+  "fil": "nr_investeringar.csv",
+  "rader": 46,
+  "titel": "Fasta bruttoinvesteringar (ENS2010), löpande priser, mnkr efter region, näringsgren SNI 2007, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T05A",
+  "status": "ok"
  },
  {
-  "id": "DagSNI07KonK",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "lonesumma_lan",
+  "fil": "lonesumma_lan.csv",
+  "rader": 3,
+  "titel": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter län, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMLan",
+  "status": "ok"
  },
  {
-  "id": "DagSNIKonK",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "lonesumma_bransch_riket",
+  "fil": "lonesumma_bransch_riket.csv",
+  "rader": 17,
+  "titel": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter näringsgren SNI 2007, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMSNI07",
+  "status": "ok"
  },
  {
-  "id": "AMPAK3",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "skatteunderlag_kommun",
+  "fil": "skatteunderlag_kommun.csv",
+  "rader": 15,
+  "titel": "Skatteunderlag och skattekraft efter region, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/SkatteKraft",
+  "status": "ok"
  },
  {
-  "id": "YREG56BAS",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
+  "namn": "kommunalskatt",
+  "fil": "kommunalskatt.csv",
+  "rader": 15,
+  "titel": "Kommunalskatteuppgifter efter region, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatt",
+  "status": "ok"
  },
  {
-  "id": "YREG56N",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
- },
- {
-  "id": "YREG56",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
- },
- {
-  "id": "YREG21",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
- },
- {
-  "id": "YREG2107",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe4 in position 11: invalid continuation byte"
- },
- {
-  "id": "YREG37",
-  "status": "fel: 'utf-8' codec can't decode byte 0xd6 in position 138: invalid continuation byte"
- },
- {
-  "id": "SamForvInk1b",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe5 in position 10: invalid continuation byte"
- },
- {
-  "id": "NetInk02",
-  "status": "fel: 'utf-8' codec can't decode byte 0xe5 in position 10: invalid continuation byte"
+  "namn": "utjamning",
+  "fil": "utjamning.csv",
+  "rader": 13,
+  "titel": "Kommunalekonomisk utjämning efter region, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0115/OE0115A/KomEkUtj",
+  "status": "ok"
  }
 ]
