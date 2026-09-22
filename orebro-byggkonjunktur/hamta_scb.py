@@ -14,7 +14,9 @@ Vad kartläggningen visade, och varför listan ser ut som den gör:
     Full branschindelning finns bara på riksområdesnivå (NUTS2), där Örebro
     ingår i Östra Mellansverige. Därför hämtas båda.
   * Byggsysselsättning per län/kommun finns i stället i RAMS (AM0207), med
-    SNI2007-koden F = byggverksamhet. Serien är uppdelad på två tabeller.
+    SNI2007-koden F = byggverksamhet. RAMS slutar dock 2021. Efterföljaren
+    heter BAS och ligger under AM0210 ("Arbetsmarknadsstatus"), med både
+    årsregister och en månadsserie som är aktuell in i innevarande år.
   * Lönesummor (AM0302) finns per län UTAN bransch och per bransch UTAN län.
     Länsvis bygglönesumma måste därför skattas, inte hämtas.
   * Skatteunderlag, skattesatser och utjämningsutfall per kommun finns i OE.
@@ -94,6 +96,34 @@ def json_hamta(url, data=None):
 #   [ ... ]   explicita koder
 
 HAMTNINGAR = [
+    {
+        "namn": "bas_arsregister_2021_",
+        "url": f"{V1}/AM/AM0210/AM0210F/ArRegArbStDoN",
+        "val": {"Region": "OREBRO", "SNI2007": "*", "Kon": "*",
+                "Fodelseregion": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "BAS arligt register: sysselsatta per region och bransch (RAMS efterfoljare)",
+    },
+    {
+        "namn": "bas_ar_preliminar",
+        "url": f"{V1}/AM/AM0210/AM0210B/ArbStDoNArNN",
+        "val": {"Region": "OREBRO", "SNI2007": "*", "Kon": "*",
+                "Fodelseregion": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "BAS arsvis preliminar - farskaste helarsuppgiften",
+    },
+    {
+        "namn": "bas_manad_bygg",
+        "url": f"{V1}/AM/AM0210/AM0210B/ArbStDoNMNN",
+        "val": {"Region": "OREBRO", "SNI2007": "BYGG", "Kon": "*",
+                "Fodelseregion": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "BAS manadsvis: byggsysselsattning, farskaste konjunktursignalen",
+    },
+    {
+        "namn": "bas_ar_slutlig",
+        "url": f"{V1}/AM/AM0210/AM0210E/ZArbStDoNArN",
+        "val": {"Region": "OREBRO", "SNI2007": "*", "Kon": "*",
+                "Fodelseregion": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "BAS arsvis slutlig statistik",
+    },
     {
         "namn": "rams_bygg_kommun_2008_2018",
         "url": f"{V1}/AM/AM0207/AM0207K/DagSNI07KonK",
