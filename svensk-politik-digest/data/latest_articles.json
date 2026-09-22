@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-21T14:16:46.222576+00:00",
-  "new_count": 1,
+  "fetched_at": "2026-09-22T06:18:43.072945+00:00",
+  "new_count": 5,
   "skipped": {
-    "seen": 40,
-    "offtopic": 137,
+    "seen": 30,
+    "offtopic": 143,
     "old": 32
   },
   "fetch_errors": 0,
@@ -11,7 +11,7 @@
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,22 +65,92 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/efter-valet-vad-hander-nu",
-      "title": "Efter valet – vad händer nu?",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-21",
-      "author": "SVT Nyheter",
+      "url": "https://www.svd.se/a/16ao5B/froken-snusk-funkar-samre-an-sydney-sweeney",
+      "title": "SD måste klä på sig politiken",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-22",
+      "author": "Madina Refoi",
       "commentator": "",
-      "summary": "Valresultatet ligger fast och talmansrundorna är igång. Men vad händer nu och när kommer Sverige ha en ny regering? Ställ dina frågor till SVT:s politikreporter Julia Lindvall som svarar från 14.00.",
-      "fulltext": "Valresultatet ligger fast och talmansrundorna är igång. Men vad händer nu och när kommer Sverige ha en ny regering? Ställ dina frågor till SVT:s politikreporter Julia Lindvall som svarar från 14.00.\nNu stänger vi chatten för den här gången. Så mycket intressanta frågor, tack för det! Nästa gång vi chattar vet vi kanske mer om hur det gått med låsningen mellan C och V.\nEmma • Kan en statsminister väljas nästa vecka utan färdig regering?\nNej för statsministerposten hänger liksom ihop med hur regeringen ska se ut. Talmannen behöver i samband med att man röstar om ny statsminister redovisa vilka partier som är tänka att ingå i regeringen.\nBertil Forsberg • Varför är ministrar viktigare än att få igenom sin politik ?\nV menar att man behöver ministrar för att kunna få igenom politik, att mycket makt utgår från regeringskansliet och att det är därför de behöver sitta i regering. Inte bara för att ”ha ministrar”. Men SD den här mandatperioden är väl ett bevis på att det ändå går att få stort inflytande över politiken utan att sitta i själva regeringen.\nMartin • Finns det några officiella hållpunkter i form av presskonferenser eller dylikt, eller är det upp till S att kalla till det?\nNär den nya talmannen väljs den 28e september kommer Andersson att få veta hur lång tid hon har på sig i första sonderingsrundan. Då blir det sannolikt pressträff med nya talmannen också. Annars tror jag inte S kommer kalla till pressträff förrän de känner att de kommit vidare i förhandlingarna.\nFredrik • Kan S regera med bara c och mp?\nDet skulle isf ändå krävas att V släppte fram Andersson som statsminister, vilket de sagt att de inte kommer göra om de inte sitter med i regeringen.\nJohannes • Om Andersons sönderingsuppdrag nedröstats, betyder det att uppdraget kommer per automatik att gå till M?\nNej inte automatiskt, det är upp till talmannen att bestämma. Kan bli så att hon får frågan igen direkt om hon kan visa på att hon kan ha en lösning på g. Kan ju vara så att V eller C byter hållning efter någon/några statsministeromröstningar, och att talmannen anser att Andersson fortfarande är den kandidat som har störst möjlighet att samla ett regeringsunderlag.\nDaniel • Med tanke på att både C och V är så pass låsta, hur sannolikt är det att Kristersson får ett sonderingsuppdrag i nästa månad? Förutsatt att Andersson inte lyckas på första eller ens andra försöket.\nDet ska inte uteslutas att frågan går till Kristersson i ett senare skede!\nNils H • Tror att S skulle få igenom maximalt av sin sakpolitik genom att stödja en M, KD, L och C regering. Men jag tror tyvärr att de är mer intresserade av att leda än att faktiskt få igenom sin politik….\nHmmm är inte så säker på att de hade fått igenom maximalt med politik i en sådan konstellation. Ta tex flera av deras viktigaste vallöften, inget av de partierna du nämner vill ha slopat karensavdrag, indexering av statsbidragen, eller en bankskatt.\nChristoffer Brandt • Vad har C sagt om passivt stöd från SD? Om M, L, KD och C bildar regering och SD väljer att stå utanför men ändå tolerera regeringen – skulle C acceptera ett sådant passivt stöd?\nCenterpartiets linje är att de inte vill att Sverigedemokraterna ska ha något inflytande över svensk politik. De säger att de varken kommer släppa fram en regering där SD ingår, ELLER en regering som behöver stöd av SD för att tillträda. Så i så fall skulle de behöva byta linje, det är inte förenligt med deras nuvarande förhållningssätt till SD.\nKubbe • Vilka scenarion ser du som troligast när det kommer till att få V och C att gemensamt släppa fram en regering?\nTycker det är för tidigt att säga, mycket kommer handla om hur S väljer att spela sina kort nu. Vem sätter de press på och hur? Tror inte man ska utesluta ett läge där både V och C tvingas backa, så att båda känner att de gett upp saker. Evt att det kan sluta med en S + MP-regering eller en regering med bara S. Den som lever får se!\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Valresultatet blottar provokationens begränsningar.",
+      "fulltext": "Bröst, Fröken Snusk och återvandringsreklam – provokation är en genväg till uppmärksamhet. Men SD:s valresultat visar vad som händer när reaktionerna blir viktigare än politiken.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nD et är svårt att vinna över bröst i kampen om uppmärksamheten. Särskilt när de tillhör skådespelerskan Sydney Sweeney, som i en ny omtalad reklamkampanj poserar naken bakom två amerikanska fotbollar. Ung, blond och med en klassisk pinupfigur har hon blivit en politisk symbol. Kulturkriget har bokstavligen klätt av sig.\nKonservativa har gjort Sweeney, som är registrerad republikan, till en anti-woke-ikon och hennes utseende som motbild till progressiva ideal. I Maga-kretsar har hon blivit poster girl för en “sexigare höger”. Donald Trump har tidigare hyllat henne, och företagen vet förstås vad de gör. Den unga kvinnokroppen fångar den manliga blicken och provokationen säljer som smör. Ju fler som förfasas, desto bättre.\nReceptet är gammalt men effektivt. Väck begär, väck anstöt och låt reaktionen sköta reklamen. Känns det igen? Javisst, även Sverigedemokraternas valrörelse blev en uppvisning i provokation som politisk kampanjmetod.\nVi fick se fröken Snusk strippa till vulgära låtar om kåta flickor och erotiska aktiviteter som gör sig bättre i sång än i tryck. Jimmie-luftballonger lyfte mot skyn, dansband spelade och bussar rullade med budskapet ”Saknar du Mogadishu? Återvandringsbidraget hjälper dig hem”. När kampanjerna väckte protester sammanfattade SD:s kampanjstrateg poängen väl: ”Folk ska prata”.\nSD gjorde vad de kunde för att få ännu en valrörelse att kretsa kring dem. Säga vad man vill om taktiken, men den populistiska högern har blivit skicklig på att skapa åtråvärd provokation, och därmed framstå som folklig och kulturellt relevant.\nDet fungerar, tills reaktionen blir större än politiken.\nSpektaklet avslöjar en ideologisk kullerbytta. Konservatismen som en gång predikade anständighet, återhållsamhet och ordning har fått en rebellisk estetik. Ogenerat feminina kvinnor gör uttrycket både lockande och mindre hotfullt, medan grova memes och ett råare tonläge riktar långfingret åt etablissemanget.\nPå så vis har det sexiga och vulgära blivit den nya högerns revolt mot en vänster som framställs som pryd, ängslig och tillrättavisande. Budskapet är ungefär: Ha kul, säg vad du tycker, se ut som du vill och strunta fullständigt i vem som sätter kaffet i halsen. Den som undrar hur det ser ut i praktiken kan slå på SD-nära Riks och studera de kvinnliga nyhetsuppläsarna.\nKonservatismen som en gång predikade anständighet, återhållsamhet och ordning har fått en rebellisk estetik.\nMen valresultatet blottar metodens begränsning. För första gången backade SD i ett riksdagsval. Det betyder inte att provokationerna orsakade tappet, men uppmärksamheten räckte inte för att övertyga väljarna. Det går alltså att dominera flödet utan att vinna valet.\nSamtidigt har konkurrenterna närmat sig SD i migrationsfrågan och gjort att paradgrenen förlorat sin särställning. Då återstår hur SD ska förbli relevant. Antingen genom att visa regeringsduglighet i välfärd, ekonomi och vardagspolitik, eller genom ett radikalare kulturkrig. Väljer partiet det senare krävs nya konflikter att äga. Nu tycks turen ha kommit till jakten på pedofiler, med uthängningssajten Dumpen som politiskt samarbetspartner.\nSydney Sweeney och SD har gjort motståndarnas ilska till en tillgång. Den som provocerar får inte bara blickarna, utan också kritikerna att sköta en del av spridningen. För Sweeney är det en lysande affär, men för ett maktbärande parti behöver uppmärksamheten omsättas i idéer som inger förtroende.\nSweeney kan alltså fortsätta klä av sig. För SD återstår att klä på sig – politiken.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
         "valresultat"
       ],
-      "first_seen": "2026-09-21T14:16:46.222576+00:00"
+      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/y5olOR/c-och-v-langt-ifran-varandra-men-inte-lokalt-borja-prata",
+      "title": "C och V i låst läge – men inte lokalt: ”Börja prata”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-22",
+      "author": "Oskar Carlsson",
+      "commentator": "",
+      "summary": "Avståndet mellan Centerpartiet och Vänsterpartiet tycks fortsatt stort – på nationell nivå.",
+      "fulltext": "Avståndet mellan Centerpartiet och Vänsterpartiet tycks fortsatt stort – på nationell nivå. Lokalt samarbetar partierna redan på många håll i landet. ”Vi har inga svårigheter här”, säger Birgitta Dahlbäck (C), regionråd i Norrbotten.\nC vägrar fortsatt gemensamma partiledarsamtal, skriver TT på måndagen med hänvisning till en insatt V-källa.\nV tänker i sin tur inte backa från sitt ministerkrav, fastlog vice partiledare Ida Gabrielsson i SVT:s Agenda på söndagen.\nLåst läge för Andersson: ”V ska inte ha inflytande”\nSaknades 27 röster – så kryssades profilerna",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/ulf-kristersson-ministrar-har-ocksa-yttrandefrihet",
+      "title": "Ulf Kristersson: Ministrar har också yttrandefrihet",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-22",
+      "author": "Kristina Lagerström",
+      "commentator": "",
+      "summary": "Carl-Oskar Bohlin, minister för civilt försvar, föregick SVT:s publicering av kortdokumentären Drevet genom att lägga ut intervjun i sin helhet på Youtube. På en presskonferens i riksdagen några dagar senare kallade statsministern kritiken av Bohlins agerande för ”lite prinsessan på ärten”. I en intervju med SVT fortsatte han att uttala sitt stöd.",
+      "fulltext": "Carl-Oskar Bohlin, minister för civilt försvar, föregick SVT:s publicering av kortdokumentären Drevet genom att lägga ut intervjun i sin helhet på Youtube. På en presskonferens i riksdagen några dagar senare kallade statsministern kritiken av Bohlins agerande för ”lite prinsessan på ärten”. I en intervju med SVT fortsatte han att uttala sitt stöd.\n– Jag tycker han är en utomordentligt bra minister med hög integritet, som ibland också säger ifrån när han tycker det finns skäl till det, säger statsminister Ulf Kristersson (M).\nSe hela den oklippta intervjun med Ulf Kristersson om Bohlin efter slutdebatten inför valet.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/det-sista-nooshi-dadgostar-behovde",
+      "title": "”Det här var det sista Nooshi Dadgostar (V) behövde”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-21",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Nooshi Dadgostar (V) och partiledningen har den senaste veckan argumenterat för att Vänsterpartiet bör få ministerposter. I det läget är uppgifterna om misstänkt valfusk det sista partiet behöver.",
+      "fulltext": "Nooshi Dadgostar (V) och partiledningen har den senaste veckan argumenterat för att Vänsterpartiet bör få ministerposter. I det läget är uppgifterna om misstänkt valfusk det sista partiet behöver.\nAtt en person som står längst ned på listan, som bara varit medlem i drygt ett år och som är okänd för partiledningen, lyckas kryssa sig in är så klart anmärkningsvärt.\nDet innebär inte att han inte kan göra ett bra jobb som företrädare för partiet i riksdagen. Men det visar återigen att partiet behöver ha bättre koll på sina listor.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-ska-opinionsmatningar-avgora-regeringsfragan",
+      "title": "Tomas Ramberg: Ska opinionsmätningar avgöra regeringsfrågan?",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-21",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Samtalen om vilka partier som ska sitta i nästa regering inleddes med en tvärnit när partierna upprepade sina oförenliga vallöften. Till sist avgörs regeringsförhandlingen av vilken svekdebatt ledningarna för V och C har lättast att leva med. Opinionsmätningarnas tid är inte över.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-22 08:17\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-ska-opinionsmatningar-avgora-regeringsfragan/\nSamtalen om vilka partier som ska sitta i nästa regering inleddes med en tvärnit när partierna upprepade sina oförenliga vallöften.\nTill sist avgörs regeringsförhandlingen av vilken svekdebatt ledningarna för V och C har lättast att leva med. Opinionsmätningarnas tid är inte över.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling",
+        "regeringsfråg"
+      ],
+      "first_seen": "2026-09-22T06:18:43.072945+00:00"
     }
   ]
 }
