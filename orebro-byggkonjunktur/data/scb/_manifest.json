@@ -99,6 +99,14 @@
   "namn": "kommunalskatt",
   "fil": "kommunalskatt.csv",
   "rader": 15,
+  "titel": "Kommunalskatter efter region, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatter2000",
+  "status": "ok"
+ },
+ {
+  "namn": "kommunalskatt_1993_1999",
+  "fil": "kommunalskatt_1993_1999.csv",
+  "rader": 15,
   "titel": "Kommunalskatteuppgifter efter region, tabellinnehåll och år",
   "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatt",
   "status": "ok"
