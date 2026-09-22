@@ -1,0 +1,67 @@
+name: Hämta SCB-data för Örebro-analysen
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - claude/byggbransch-orebro-sysselsattning-kud6uh
+    paths:
+      - orebro-byggkonjunktur/hamta_scb.py
+      - orebro-byggkonjunktur/kalibrera.py
+      - .github/workflows/orebro_bygg_scb.yml
+
+jobs:
+  hamta:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Hämta serier från SCB:s statistikdatabas
+        id: hamta
+        continue-on-error: true
+        working-directory: orebro-byggkonjunktur
+        run: python hamta_scb.py
+
+      - name: Kalibrera parametrarna mot hämtad data
+        if: always()
+        continue-on-error: true
+        working-directory: orebro-byggkonjunktur
+        run: |
+          test -f kalibrera.py || exit 0
+          python kalibrera.py
+
+      - name: Kör modellen med kalibrerade värden
+        if: always()
+        continue-on-error: true
+        working-directory: orebro-byggkonjunktur
+        run: python modell.py --csv
+
+      - name: Ladda upp allt som artefakt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: orebro-scb-data
+          path: orebro-byggkonjunktur/data
+          retention-days: 30
+
+      - name: Commit hämtad data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add orebro-byggkonjunktur/data orebro-byggkonjunktur/parametrar.py
+          git diff --cached --quiet && echo "Inget nytt att committa" && exit 0
+          git commit -m "Auto: SCB-data och kalibrering för Örebro-analysen"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push
