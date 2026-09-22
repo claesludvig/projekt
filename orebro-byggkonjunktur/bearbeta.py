@@ -152,8 +152,23 @@ def main():
     # befolkningsviktad utjämning per invånare i länets kommuner, senaste året
     kommun_utj = {k: senaste(v) for k, v in utj.items() if k.split()[0].startswith("18")}
 
+    # Länets relativa lönenivå: lönesumma per sysselsatt i länet delat med
+    # samma tal för riket. Används för att räkna om rikets bygglön till länet.
+    rel_lon, snittlon_lanet = None, None
+    gem = [a for a in lonlan if lonlan.get(a) and lonriket.get(a)
+           and bas["totalt_lanet"].get(a) and bas["totalt_riket"].get(a)]
+    if gem:
+        a = gem[-1]
+        rel_lon = ((lonlan[a] / lonriket[a])
+                   / (bas["totalt_lanet"][a] / bas["totalt_riket"][a]))
+        snittlon_lanet = lonlan[a] * 1e9 / bas["totalt_lanet"][a]
+        lonear = a
+
     kal = {
         "kalla": "SCB statistikdatabasen via GitHub Actions",
+        "lanets_relativa_lonenniva": rel_lon,
+        "snittlon_per_sysselsatt_lanet": snittlon_lanet,
+        "lonenniva_ar": lonear if gem else None,
         "bas_byggsysselsatta_lanet": bl,
         "bas_byggsysselsatta_riket": br,
         "bas_totalt_lanet": bas["totalt_lanet"],
@@ -200,6 +215,10 @@ def main():
           f"{int(bas['totalt_lanet'][toppar]):,}".replace(",", " ")
           + f" -> {sist}: {int(bas['totalt_lanet'][sist]):,}".replace(",", " "))
     print(f"Lönesumma per byggsysselsatt (riket, {ar_lon}): {v_lon:,.0f} kr".replace(",", " "))
+    if rel_lon:
+        print(f"Länets lönenivå i förhållande till riket: {rel_lon:.3f}")
+        print(f"  -> bygglön i länet: {v_lon*rel_lon:,.0f} kr".replace(",", " "))
+        print(f"Snittlön per sysselsatt i länet: {snittlon_lanet:,.0f} kr".replace(",", " "))
     print(f"Skatteunderlag Örebro län ({ar_su}): {v_su/1e9:,.1f} mdr kr".replace(",", " "))
     print(f"Total kommunal skattesats i länet ({ar_sats}): {v_sats} %")
     print(f"\nSkrev {os.path.relpath(UT, HAR)}")

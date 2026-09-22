@@ -7,7 +7,7 @@ on:
       - claude/byggbransch-orebro-sysselsattning-kud6uh
     paths:
       - orebro-byggkonjunktur/hamta_scb.py
-      - orebro-byggkonjunktur/kalibrera.py
+      - orebro-byggkonjunktur/bearbeta.py
       - .github/workflows/orebro_bygg_scb.yml
 
 jobs:
@@ -37,9 +37,7 @@ jobs:
         if: always()
         continue-on-error: true
         working-directory: orebro-byggkonjunktur
-        run: |
-          test -f kalibrera.py || exit 0
-          python kalibrera.py
+        run: python bearbeta.py
 
       - name: Kör modellen med kalibrerade värden
         if: always()
