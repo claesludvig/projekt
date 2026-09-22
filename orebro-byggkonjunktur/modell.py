@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Byggkonjunkturen i Orebro lan: sysselsattning, skatteunderlag, spridningseffekter.
+Byggkonjunkturen i Örebro län: sysselsättning, skatteunderlag, spridningseffekter.
 
-Kor:  python3 modell.py            (skriver tabeller till stdout)
-      python3 modell.py --csv      (skriver aven data/resultat.csv)
+  python3 modell.py          tabeller till stdout
+  python3 modell.py --csv    skriver även data/resultat.csv
 
-Modellen ar medvetet transparent: allt som inte ar hamtat fran SCB ligger i
-parametrar.py och varieras i kansligheten langst ned.
+Sysselsättnings-, löne- och skattedata är hämtade från SCB (se hamta_scb.py).
+Multiplikatorer och omställningsantaganden är modellval och varieras i
+känslighetsanalysen.
 """
 
 import argparse
@@ -19,244 +20,279 @@ import parametrar as P
 MSEK = 1_000_000
 
 
-# ---------------------------------------------------------------------------
-# Byggstenar
-# ---------------------------------------------------------------------------
-
-def byggsysselsattning_2022():
-    """Niva i lanet vid konjunkturtoppen."""
-    return P.RIKET_BYGG_2022 * P.ANDEL_AV_RIKETS_BYGGSYSSELSATTNING
-
-
-def direkt_effekt(nedgang):
-    """Direkt forandring av antalet byggsysselsatta i lanet."""
-    return byggsysselsattning_2022() * nedgang
-
-
-def spridning(direkt, mult):
-    """Indirekt + inducerad sysselsattning utover den direkta."""
-    return direkt * (mult - 1.0)
+def rad(etikett, *varden, bredd=15, dec=0):
+    celler = "".join(
+        f"{v:>{bredd},.{dec}f}".replace(",", " ") if isinstance(v, (int, float))
+        else f"{v:>{bredd}}" for v in varden)
+    return f"{etikett:<54}{celler}"
 
 
 def kvarvarande_inkomstandel():
-    """
-    Andel av den forlorade loneinkomsten som finns kvar i skatteunderlaget
-    efter omstallning. 1 - detta ar det faktiska bortfallet.
-    """
     return sum(andel * kvar for andel, kvar in P.OMSTALLNING.values())
 
 
 def nettoandel():
-    """Andel av bruttoloneunderlaget som faktiskt lamnar skatteunderlaget."""
     return 1.0 - kvarvarande_inkomstandel()
 
 
-def skatteunderlag(direkt, indirekt):
-    """Bruttoforandring av lonesumman i lanet, kronor."""
-    return direkt * P.ARSLON_BYGG_LAN + indirekt * P.ARSLON_OVRIGT_LAN
+def kor_scenario(nedgang, mult1, mult2, netto=None):
+    """nedgang är negativ och mäts från toppåret."""
+    bas = P.BYGG_LANET.get(P.TOPPAR)
+    direkt = bas * nedgang
+    ind1 = direkt * (mult1 - 1.0)
+    ind2 = direkt * (mult2 - 1.0)
 
+    brutto = direkt * P.ARSLON_BYGG_LAN + ind2 * P.ARSLON_OVRIGT_LAN
+    n = nettoandel() if netto is None else netto
+    netto_underlag = brutto * n
 
-def skatteintakter(underlag):
-    """Kommunal och regional skatteintakt pa ett givet skatteunderlag."""
-    kommun = underlag * P.SKATTESATS_KOMMUN_LAN
-    region = underlag * P.SKATTESATS_REGION
-    return kommun, region, kommun + region
+    def skatt(u):
+        return (u * P.SKATTESATS_KOMMUN_LAN, u * P.SKATTESATS_REGION,
+                u * (P.SKATTESATS_KOMMUN_LAN + P.SKATTESATS_REGION))
 
-
-def utjamningskompensation(underlag):
-    """
-    Vad inkomstutjamningen kompenserar OM bortfallet vore unikt for lanet.
-    Vid en riksgemensam nedgang faller medelskattekraften ocksa, och
-    kompensationen ar da i princip noll (se README avsnitt 5).
-    """
-    kommun = underlag * P.KOMPENSATIONSGRAD * P.LANSVIS_SKATTESATS_KOMMUN
-    region = underlag * P.KOMPENSATIONSGRAD * P.LANSVIS_SKATTESATS_REGION
-    return kommun, region, kommun + region
-
-
-# ---------------------------------------------------------------------------
-# Scenariokorning
-# ---------------------------------------------------------------------------
-
-def kor_scenario(nedgang, mult_typ1, mult_typ2):
-    d = direkt_effekt(nedgang)
-    ind_typ1 = spridning(d, mult_typ1)
-    ind_typ2 = spridning(d, mult_typ2)
-
-    brutto = skatteunderlag(d, ind_typ2)
-    netto = brutto * nettoandel()
-
-    bk, br, bt = skatteintakter(brutto)
-    nk, nr, nt = skatteintakter(netto)
-    uk, ur, ut = utjamningskompensation(netto)
+    bk, br_, bt = skatt(brutto)
+    nk, nr, nt = skatt(netto_underlag)
+    uk = netto_underlag * P.KOMPENSATIONSGRAD * P.LANSVIS_SKATTESATS_KOMMUN
+    ur = netto_underlag * P.KOMPENSATIONSGRAD * P.LANSVIS_SKATTESATS_REGION
 
     return {
         "nedgang_pct": nedgang * 100,
-        "direkt_jobb": d,
-        "indirekt_jobb_typ1": ind_typ1,
-        "indirekt_inducerat_jobb_typ2": ind_typ2,
-        "totalt_jobb_typ2": d + ind_typ2,
-        "skatteunderlag_brutto": brutto,
-        "skatteunderlag_netto": netto,
-        "skatt_brutto_kommun": bk,
-        "skatt_brutto_region": br,
-        "skatt_brutto_totalt": bt,
-        "skatt_netto_kommun": nk,
-        "skatt_netto_region": nr,
-        "skatt_netto_totalt": nt,
-        "utjamning_om_lokal_chock": ut,
-        "kvar_efter_utjamning_om_lokal_chock": nt - ut,
+        "direkt": direkt, "indirekt_typ1": ind1, "indirekt_typ2": ind2,
+        "totalt_jobb": direkt + ind2,
+        "underlag_brutto": brutto, "underlag_netto": netto_underlag,
+        "skatt_brutto_kommun": bk, "skatt_brutto_region": br_, "skatt_brutto": bt,
+        "skatt_netto_kommun": nk, "skatt_netto_region": nr, "skatt_netto": nt,
+        "utjamning_lokal_chock": uk + ur,
+        "kvar_vid_lokal_chock": nt - (uk + ur),
     }
 
 
 # ---------------------------------------------------------------------------
-# Utskrift
-# ---------------------------------------------------------------------------
 
-def rad(etikett, *varden, bredd=14, dec=0):
-    celler = "".join(f"{v:>{bredd},.{dec}f}".replace(",", " ") if isinstance(v, (int, float))
-                     else f"{v:>{bredd}}" for v in varden)
-    return f"{etikett:<52}{celler}"
+def tabell_sysselsattning():
+    print("=" * 118)
+    print("BYGGKONJUNKTUREN I ÖREBRO LÄN")
+    print("Sysselsättning, skatteintäkter och spridningseffekter. "
+          f"Data: SCB{'' if P.KALIBRERAD else ' (EJ KALIBRERAD - reservvärden)'}")
+    print("=" * 118)
 
-
-def skriv_tabeller(resultat):
-    scen = list(resultat.keys())
-    r = resultat
-
-    print("=" * 112)
-    print("BYGGKONJUNKTUREN I OREBRO LAN - ESTIMERADE EFFEKTER, TOPP 2022 TILL BOTTEN 2025")
-    print("=" * 112)
-    print(f"\nByggsysselsatta i lanet 2022 (utgangsniva): {byggsysselsattning_2022():,.0f}".replace(",", " "))
-    print(f"Andel av rikets byggsysselsattning:         {P.ANDEL_AV_RIKETS_BYGGSYSSELSATTNING:.2%}")
-    print(f"Andel av loneinkomsten som forsvinner ur skatteunderlaget efter omstallning: "
-          f"{nettoandel():.0%}")
-
-    print("\n\nTABELL 1. SYSSELSATTNING (personer)")
-    print("-" * 112)
-    print(rad("", *[f"{s}" for s in scen]))
-    print(rad("Nedgang, byggsysselsattning (%)", *[r[s]["nedgang_pct"] for s in scen], dec=1))
-    print(rad("Direkt effekt, bygg", *[r[s]["direkt_jobb"] for s in scen]))
-    print(rad("Indirekt (typ I, underleverantorer i lanet)",
-              *[r[s]["indirekt_jobb_typ1"] for s in scen]))
-    print(rad("Indirekt + inducerat (typ II)",
-              *[r[s]["indirekt_inducerat_jobb_typ2"] for s in scen]))
-    print(rad("SUMMA sysselsattningseffekt i lanet", *[r[s]["totalt_jobb_typ2"] for s in scen]))
-
-    print("\n\nTABELL 2. SKATTEUNDERLAG (mn kr per ar)")
-    print("-" * 112)
-    print(rad("Bruttobortfall lonesumma",
-              *[r[s]["skatteunderlag_brutto"] / MSEK for s in scen]))
-    print(rad("Nettobortfall efter omstallning",
-              *[r[s]["skatteunderlag_netto"] / MSEK for s in scen]))
-
-    print("\n\nTABELL 3. SKATTEINTAKTER (mn kr per ar)")
-    print("-" * 112)
-    print(rad("Mekaniskt brutto: kommunerna",
-              *[r[s]["skatt_brutto_kommun"] / MSEK for s in scen]))
-    print(rad("Mekaniskt brutto: regionen",
-              *[r[s]["skatt_brutto_region"] / MSEK for s in scen]))
-    print(rad("Mekaniskt brutto: totalt",
-              *[r[s]["skatt_brutto_totalt"] / MSEK for s in scen]))
+    print("\n\nTABELL 1. BYGGSYSSELSATTA I ÖREBRO LÄN (dagbefolkning)")
+    print("-" * 118)
+    if P.RAMS_LANET:
+        ar = sorted(P.RAMS_LANET)
+        print("RAMS 2008-2021 (förvärvsarbetande 16+):")
+        for i in range(0, len(ar), 7):
+            grupp = ar[i:i + 7]
+            print("   " + "  ".join(f"{a}: {P.RAMS_LANET[a]:>6,.0f}".replace(",", " ")
+                                    for a in grupp))
+    ar = sorted(P.BYGG_LANET)
+    print("\nBAS 2020- (sysselsatta 15-74 år, ny serie, ej jämförbar med RAMS i nivå):")
+    print("   " + "  ".join(f"{a}: {P.BYGG_LANET[a]:>6,.0f}".replace(",", " ")
+                            for a in ar))
+    print("   " + "  ".join(f"{a}: {100*P.BYGG_LANET[a]/P.SYSS_LANET[a]:>5.2f}%"
+                            for a in ar) + "   (andel av länets sysselsättning)")
     print()
-    print(rad("Realistiskt netto: kommunerna",
+    print(rad(f"Toppår {P.TOPPAR}", P.BYGG_LANET[P.TOPPAR]))
+    print(rad(f"Senaste år {P.SENASTE_AR}", P.BYGG_LANET[P.SENASTE_AR]))
+    print(rad("FAKTISK FÖRÄNDRING, personer", P.DIREKT_FORANDRING))
+    print(rad("FAKTISK FÖRÄNDRING, procent", 100 * P.NEDGANG_LANET, dec=1))
+    print(rad("Samma tal för riket, procent", 100 * P.NEDGANG_RIKET, dec=1))
+    print(rad("Länets andel av rikets byggsysselsättning, procent",
+              100 * P.LANETS_ANDEL_AV_RIKET, dec=2))
+    print()
+    print(rad(f"Länets TOTALA sysselsättning {P.TOPPAR}", P.SYSS_LANET[P.TOPPAR]))
+    print(rad(f"Länets TOTALA sysselsättning {P.SENASTE_AR}",
+              P.SYSS_LANET[P.SENASTE_AR]))
+    print(rad("  ... förändring", P.SYSS_LANET[P.SENASTE_AR] - P.SYSS_LANET[P.TOPPAR]))
+    print("\n  Länets totala sysselsättning STEG medan byggsysselsättningen föll.")
+    print("  Arbetskraften absorberades av länets övriga arbetsmarknad, vilket är")
+    print("  avgörande för hur stort skatteunderlagsbortfallet blir (tabell 4).")
+
+
+def tabell_kommuner():
+    if not P.BYGG_KOMMUNER:
+        return
+    print("\n\nTABELL 2. BYGGSYSSELSÄTTNING PER KOMMUN")
+    print("-" * 118)
+    rader = []
+    for namn, serie in P.BYGG_KOMMUNER.items():
+        s = {int(a): v for a, v in serie.items() if v is not None}
+        if P.TOPPAR in s and P.SENASTE_AR in s:
+            rader.append((namn, s[P.TOPPAR], s[P.SENASTE_AR],
+                          s[P.SENASTE_AR] - s[P.TOPPAR],
+                          100 * (s[P.SENASTE_AR] / s[P.TOPPAR] - 1)))
+    rader.sort(key=lambda r: r[3])
+    print(f"{'':<54}{str(P.TOPPAR):>15}{str(P.SENASTE_AR):>15}"
+          f"{'förändring':>15}{'procent':>15}")
+    for namn, a, b, d, p in rader:
+        print(rad(namn, a, b, d, p, dec=0) if False else
+              f"{namn:<54}{a:>15,.0f}{b:>15,.0f}{d:>+15,.0f}{p:>14.1f}%"
+              .replace(",", " "))
+    summa = sum(r[3] for r in rader)
+    print(f"{'SUMMA kommuner':<54}{'':>15}{'':>15}{summa:>+15,.0f}".replace(",", " "))
+
+
+def tabell_effekter(resultat):
+    scen = list(resultat)
+    r = resultat
+    print("\n\nTABELL 3. SPRIDNINGSEFFEKTER (personer)")
+    print("-" * 118)
+    print(rad("", *scen))
+    print(rad("Nedgång från toppåret, procent",
+              *[r[s]["nedgang_pct"] for s in scen], dec=1))
+    print(rad("Direkt, byggverksamhet", *[r[s]["direkt"] for s in scen]))
+    print(rad(f"Indirekt i länet, typ I ({P.MULT_REGIONAL_TYP1['central']})",
+              *[r[s]["indirekt_typ1"] for s in scen]))
+    print(rad(f"Indirekt + inducerat, typ II ({P.MULT_REGIONAL_TYP2['central']})",
+              *[r[s]["indirekt_typ2"] for s in scen]))
+    print(rad("SUMMA i länet", *[r[s]["totalt_jobb"] for s in scen]))
+    print(rad("Till jämförelse: nationell typ II ("
+              f"{P.MULT_NATIONELL_TYP2})",
+              *[r[s]["direkt"] * P.MULT_NATIONELL_TYP2 for s in scen]))
+
+    print("\n\nTABELL 4. SKATTEUNDERLAG (mn kr per år)")
+    print("-" * 118)
+    print(rad(f"Årslön i bygg, länet ({P.ARSLON_BYGG_LAN:,.0f} kr)"
+              .replace(",", " "), *["" for _ in scen]))
+    print(rad("Bruttobortfall lönesumma",
+              *[r[s]["underlag_brutto"] / MSEK for s in scen]))
+    print(rad(f"Nettobortfall efter omställning ({nettoandel():.0%} av brutto)",
+              *[r[s]["underlag_netto"] / MSEK for s in scen]))
+
+    print("\n\nTABELL 5. SKATTEINTÄKTER (mn kr per år)")
+    print("-" * 118)
+    print(rad(f"Skattesats: kommun {100*P.SKATTESATS_KOMMUN_LAN:.2f} + region "
+              f"{100*P.SKATTESATS_REGION:.2f} = "
+              f"{100*(P.SKATTESATS_KOMMUN_LAN+P.SKATTESATS_REGION):.2f} %",
+              *["" for _ in scen]))
+    print(rad("Mekaniskt brutto, kommunerna",
+              *[r[s]["skatt_brutto_kommun"] / MSEK for s in scen]))
+    print(rad("Mekaniskt brutto, regionen",
+              *[r[s]["skatt_brutto_region"] / MSEK for s in scen]))
+    print(rad("Mekaniskt brutto, totalt", *[r[s]["skatt_brutto"] / MSEK for s in scen]))
+    print()
+    print(rad("Realistiskt netto, kommunerna",
               *[r[s]["skatt_netto_kommun"] / MSEK for s in scen]))
-    print(rad("Realistiskt netto: regionen",
+    print(rad("Realistiskt netto, regionen",
               *[r[s]["skatt_netto_region"] / MSEK for s in scen]))
-    print(rad("Realistiskt netto: TOTALT",
-              *[r[s]["skatt_netto_totalt"] / MSEK for s in scen]))
+    print(rad("REALISTISKT NETTO, TOTALT", *[r[s]["skatt_netto"] / MSEK for s in scen]))
 
-    print("\n\nTABELL 4. INKOMSTUTJAMNINGEN (mn kr per ar)")
-    print("-" * 112)
-    print(rad("Om chocken vore unik for lanet: kompensation",
-              *[r[s]["utjamning_om_lokal_chock"] / MSEK for s in scen]))
-    print(rad("  ... kvar att bara sjalv",
-              *[r[s]["kvar_efter_utjamning_om_lokal_chock"] / MSEK for s in scen]))
-    print(rad("Riksgemensam chock: kompensation", *["0" for _ in scen]))
-    print(rad("  ... kvar att bara sjalv",
-              *[r[s]["skatt_netto_totalt"] / MSEK for s in scen]))
+    print("\n\nTABELL 6. INKOMSTUTJÄMNINGEN (mn kr per år)")
+    print("-" * 118)
+    print(rad("Om chocken vore unik för länet: kompensation",
+              *[r[s]["utjamning_lokal_chock"] / MSEK for s in scen]))
+    print(rad("  ... kvar att bära själv",
+              *[r[s]["kvar_vid_lokal_chock"] / MSEK for s in scen]))
+    print(rad("Riksgemensam chock: kompensation", *[0.0 for _ in scen]))
+    print(rad("  ... kvar att bära själv", *[r[s]["skatt_netto"] / MSEK for s in scen]))
+    print("\n  Byggnedgången var riksgemensam (länet -%.1f %%, riket -%.1f %%)."
+          % (-100 * P.NEDGANG_LANET, -100 * P.NEDGANG_RIKET))
+    print("  Medelskattekraften faller lika mycket som den egna, utjämningen ser")
+    print("  ingen relativ försämring, och genomslaget blir i praktiken fullt.")
 
-    print("\n\nTABELL 5. PROPORTIONER (central-scenariot)")
-    print("-" * 112)
-    c = r["central"]
-    tot_skatteunderlag = P.SKATTEUNDERLAG_PER_INV_LAN * P.BEFOLKNING_LAN
-    tot_skatt = tot_skatteunderlag * (P.SKATTESATS_KOMMUN_LAN + P.SKATTESATS_REGION)
-    print(rad("Lanets samlade skatteintakter (mdr kr)", tot_skatt / 1e9, dec=1))
-    print(rad("Bortfallet som andel av dessa (%)",
-              100 * c["skatt_netto_totalt"] / tot_skatt, dec=2))
+
+def tabell_proportioner(resultat):
+    print("\n\nTABELL 7. PROPORTIONER (observerat scenario)")
+    print("-" * 118)
+    c = resultat["observerad"]
+    skatt_totalt = P.SKATTEUNDERLAG_LANET * (P.SKATTESATS_KOMMUN_LAN
+                                             + P.SKATTESATS_REGION)
+    print(rad(f"Länets skatteunderlag {P.SKATTEUNDERLAG_AR} (mdr kr)",
+              P.SKATTEUNDERLAG_LANET / 1e9, dec=1))
+    print(rad("Samlade skatteintäkter, kommuner + region (mdr kr)",
+              skatt_totalt / 1e9, dec=1))
+    print(rad("Nettobortfallet som andel av dessa (%)",
+              100 * c["skatt_netto"] / skatt_totalt, dec=3))
     print(rad("Mekaniskt brutto som andel (%)",
-              100 * c["skatt_brutto_totalt"] / tot_skatt, dec=2))
-    print(rad("Motsvarar antal kommunala arsarbetare (a 650 tkr)",
-              c["skatt_netto_totalt"] / 650_000))
-    print(rad("Jamforelse: 1 000 uteblivna invanare (mn kr)",
-              1000 * P.MARGINALINTAKT_PER_INVANARE / MSEK, dec=1))
+              100 * c["skatt_brutto"] / skatt_totalt, dec=3))
+    print(rad("Motsvarar antal kommunala årsarbetare (à 650 tkr)",
+              c["skatt_netto"] / 650_000))
+    print(rad("Till jämförelse: 1 000 uteblivna invånare (mn kr)",
+              -1000 * P.MARGINALINTAKT_PER_INVANARE / MSEK, dec=1))
+    print(rad("Direkt bortfall som andel av länets sysselsättning (%)",
+              100 * P.DIREKT_FORANDRING / P.SYSS_LANET[P.TOPPAR], dec=2))
 
 
-def kanslighet(bas_nedgang):
-    """Hur mycket varje enskilt antagande flyttar nettoresultatet."""
-    print("\n\nTABELL 6. KANSLIGHET - nettobortfall skatteintakter, central nedgang (mn kr/ar)")
-    print("-" * 112)
+def tabell_kanslighet():
+    print("\n\nTABELL 8. KÄNSLIGHET - nettobortfall skatteintäkter, "
+          "observerad nedgång (mn kr/år)")
+    print("-" * 118)
+    n = P.NEDGANG_LANET
 
-    def berakna(mult2=None, netto_override=None, arslon=None, andel=None):
-        m2 = mult2 if mult2 is not None else P.MULT_REGIONAL_TYP2["central"]
-        gammal_lon = P.ARSLON_BYGG_LAN
-        gammal_andel = P.ANDEL_AV_RIKETS_BYGGSYSSELSATTNING
-        if arslon:
-            P.ARSLON_BYGG_LAN = arslon
-        if andel:
-            P.ANDEL_AV_RIKETS_BYGGSYSSELSATTNING = andel
-        d = direkt_effekt(bas_nedgang)
-        ind = spridning(d, m2)
-        brutto = skatteunderlag(d, ind)
-        n = netto_override if netto_override is not None else nettoandel()
-        _, _, t = skatteintakter(brutto * n)
-        P.ARSLON_BYGG_LAN = gammal_lon
-        P.ANDEL_AV_RIKETS_BYGGSYSSELSATTNING = gammal_andel
-        return t / MSEK
+    def k(mult2=None, netto=None, lon=None):
+        gammal = P.ARSLON_BYGG_LAN
+        if lon:
+            P.ARSLON_BYGG_LAN = lon
+        res = kor_scenario(n, P.MULT_REGIONAL_TYP1["central"],
+                           mult2 or P.MULT_REGIONAL_TYP2["central"], netto)
+        P.ARSLON_BYGG_LAN = gammal
+        return res["skatt_netto"] / MSEK
 
-    bas = berakna()
-    print(rad("BASFALL", bas, dec=1))
-    print(rad("Regional multiplikator typ II = 1,35 (lag)",
-              berakna(mult2=P.MULT_REGIONAL_TYP2["lag"]), dec=1))
-    print(rad("Regional multiplikator typ II = 1,70 (hog)",
-              berakna(mult2=P.MULT_REGIONAL_TYP2["hog"]), dec=1))
-    print(rad("Nationell multiplikator 2,00 (fel anvand regionalt)",
-              berakna(mult2=P.MULT_NATIONELL_TYP2), dec=1))
-    print(rad("Omstallning: 25 % av inkomsten forsvinner",
-              berakna(netto_override=0.25), dec=1))
-    print(rad("Omstallning: 50 % av inkomsten forsvinner",
-              berakna(netto_override=0.50), dec=1))
-    print(rad("Omstallning: 100 % (ingen aterinkomst alls)",
-              berakna(netto_override=1.00), dec=1))
-    print(rad("Arslon 400 tkr", berakna(arslon=400_000), dec=1))
-    print(rad("Arslon 500 tkr", berakna(arslon=500_000), dec=1))
-    print(rad("Lanets byggandel 2,50 %", berakna(andel=0.0250), dec=1))
-    print(rad("Lanets byggandel 3,00 %", berakna(andel=0.0300), dec=1))
+    print(rad("BASFALL", k(), dec=1))
+    for etikett, m in (("låg 1,35", P.MULT_REGIONAL_TYP2["lag"]),
+                       ("hög 1,70", P.MULT_REGIONAL_TYP2["hog"]),
+                       (f"nationell {P.MULT_NATIONELL_TYP2} (fel regionalt)",
+                        P.MULT_NATIONELL_TYP2)):
+        print(rad(f"Multiplikator typ II: {etikett}"[:53], k(mult2=m), dec=1))
+    for etikett, v in (("20 % försvinner", 0.20), ("50 % försvinner", 0.50),
+                       ("100 %, ingen återinkomst alls", 1.00)):
+        print(rad(f"Omställning: {etikett}", k(netto=v), dec=1))
+    print(rad("Årslön 380 tkr", k(lon=380_000), dec=1))
+    print(rad("Årslön 455 tkr (riksnivå, ingen länsjustering)",
+              k(lon=P.ARSLON_BYGG_RIKET), dec=1))
+
+
+def tabell_empiriskt_test():
+    diff = P.K.get("skatteunderlag_tillvaxt_minus_riket", {})
+    if not diff:
+        return
+    print("\n\nTABELL 9. EMPIRISKT TEST - syns byggnedgången i länets skatteunderlag?")
+    print("-" * 118)
+    print("Örebro läns skatteunderlagstillväxt minus rikets, procentenheter per år:")
+    ar = sorted(diff)[-12:]
+    for i in range(0, len(ar), 6):
+        grupp = ar[i:i + 6]
+        print("   " + "  ".join(f"{a}: {100*diff[a]:+5.2f}" for a in grupp))
+    fore = [diff[a] for a in ar if a < "2022"]
+    efter = [diff[a] for a in ar if a >= "2022"]
+    if fore and efter:
+        print()
+        print(rad("Snitt före 2022 (procentenheter)", 100 * sum(fore) / len(fore), dec=2))
+        print(rad("Snitt 2022 och senare", 100 * sum(efter) / len(efter), dec=2))
+        print("\n  Länets skatteunderlag har halkat efter riket med ungefär en halv")
+        print("  procentenhet om året sedan mitten av 2010-talet. Gapet är något")
+        print("  större efter 2022 än före, men 2021 - innan nedgången bet - var det")
+        print("  större än något år därefter. Skillnaden ligger inom seriens egen")
+        print("  variation. Byggnedgången går alltså inte att utläsa ur aggregatet,")
+        print("  vilket den heller inte borde: 497 personer är 0,33 procent av")
+        print("  länets sysselsättning, och bruttoeffekten 0,4 procent av")
+        print("  skatteunderlaget - mindre än driften mot riket ett enskilt år.")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--csv", action="store_true", help="skriv aven data/resultat.csv")
+    ap.add_argument("--csv", action="store_true")
     args = ap.parse_args()
 
-    resultat = {}
-    for namn, nedgang in P.SCENARIER_NEDGANG.items():
-        resultat[namn] = kor_scenario(
-            nedgang,
-            P.MULT_REGIONAL_TYP1["central"],
-            P.MULT_REGIONAL_TYP2["central"],
-        )
+    resultat = {namn: kor_scenario(n, P.MULT_REGIONAL_TYP1["central"],
+                                   P.MULT_REGIONAL_TYP2["central"])
+                for namn, n in P.SCENARIER_NEDGANG.items()}
 
-    skriv_tabeller(resultat)
-    kanslighet(P.SCENARIER_NEDGANG["central"])
+    tabell_sysselsattning()
+    tabell_kommuner()
+    tabell_effekter(resultat)
+    tabell_proportioner(resultat)
+    tabell_kanslighet()
+    tabell_empiriskt_test()
 
     if args.csv:
         os.makedirs("data", exist_ok=True)
-        falt = list(next(iter(resultat.values())).keys())
+        falt = list(next(iter(resultat.values())))
         with open("data/resultat.csv", "w", newline="", encoding="utf-8") as f:
             w = csv.writer(f, delimiter=";")
             w.writerow(["scenario"] + falt)
             for namn, v in resultat.items():
-                w.writerow([namn] + [f"{v[k]:.1f}" for k in falt])
+                w.writerow([namn] + [f"{v[x]:.1f}" for x in falt])
         print("\n\nSkrev data/resultat.csv", file=sys.stderr)
 
 

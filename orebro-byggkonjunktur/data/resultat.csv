@@ -1,4 +1,4 @@
-scenario;nedgang_pct;direkt_jobb;indirekt_jobb_typ1;indirekt_inducerat_jobb_typ2;totalt_jobb_typ2;skatteunderlag_brutto;skatteunderlag_netto;skatt_brutto_kommun;skatt_brutto_region;skatt_brutto_totalt;skatt_netto_kommun;skatt_netto_region;skatt_netto_totalt;utjamning_om_lokal_chock;kvar_efter_utjamning_om_lokal_chock
-mild;-5.0;-510.1;-127.5;-255.1;-765.2;-336682500.0;-125414231.2;-72723420.0;-41411947.5;-114135367.5;-27089473.9;-15425950.4;-42515424.4;-37768495.7;-4746928.7
-central;-7.5;-765.2;-191.3;-382.6;-1147.8;-505023750.0;-188121346.9;-109085130.0;-62117921.2;-171203051.2;-40634210.9;-23138925.7;-63773136.6;-56652743.6;-7120393.0
-hard;-11.0;-1122.3;-280.6;-561.1;-1683.4;-740701500.0;-275911308.8;-159991524.0;-91106284.5;-251097808.5;-59596842.7;-33937091.0;-93533933.7;-83090690.6;-10443243.0
+scenario;nedgang_pct;direkt;indirekt_typ1;indirekt_typ2;totalt_jobb;underlag_brutto;underlag_netto;skatt_brutto_kommun;skatt_brutto_region;skatt_brutto;skatt_netto_kommun;skatt_netto_region;skatt_netto;utjamning_lokal_chock;kvar_vid_lokal_chock
+observerad;-4.5;-497.0;-124.2;-248.5;-745.5;-305856074.3;-86404341.0;-66187254.5;-37620297.1;-103807551.6;-18697899.4;-10627733.9;-29325633.3;-26020667.3;-3304966.0
+fortsatt;-8.0;-891.3;-222.8;-445.6;-1336.9;-548497790.5;-154950625.8;-118694921.9;-67465228.2;-186160150.1;-33531315.4;-19058927.0;-52590242.4;-46663381.0;-5926861.4
+hard;-11.0;-1225.5;-306.4;-612.8;-1838.3;-754184462.0;-213057110.5;-163205517.6;-92764688.8;-255970206.4;-46105558.7;-26206024.6;-72311583.3;-64162148.8;-8149434.5

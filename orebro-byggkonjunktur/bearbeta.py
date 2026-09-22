@@ -120,13 +120,28 @@ def skattedata():
     underlag = {x[0]: {a: tal(x[i]) for i, a in kol} for x in r[1:]}
 
     r = las("kommunalskatt.csv")
-    kol = arskolumner(r[0], "Skattesats, total kommunal")
-    satser = {x[0]: {a: tal(x[i]) for i, a in kol} for x in r[1:]}
+    satser = {}
+    for etikett, prefix in (("total", "Skattesats, total kommunal"),
+                            ("kommun", "Skattesats till kommun"),
+                            ("region", "Skattesats till region")):
+        kol = arskolumner(r[0], prefix)
+        satser[etikett] = {x[0]: {a: tal(x[i]) for i, a in kol} for x in r[1:]}
 
     r = las("utjamning.csv")
     kol = arskolumner(r[0], "Inkomstutjämning")
     utj = {x[0]: {a: tal(x[i]) for i, a in kol} for x in r[1:]}
     return underlag, satser, utj
+
+
+def relativ_utveckling(underlag):
+    """Örebro läns skatteunderlagstillväxt minus rikets, per år."""
+    ri, la = underlag.get(RIKET, {}), underlag.get(LANET, {})
+    ar = sorted(a for a in la if la.get(a) and ri.get(a))
+    ut = {}
+    for f, t in zip(ar, ar[1:]):
+        ut[t] = (la[t] / la[f] - 1) - (ri[t] / ri[f] - 1)
+    andel = {a: la[a] / ri[a] for a in ar}
+    return ut, andel
 
 
 def senaste(d):
@@ -146,7 +161,10 @@ def main():
     sist = ar[-1]
 
     ar_su, v_su = senaste(underlag.get(LANET, {}))
-    ar_sats, v_sats = senaste(satser.get(LANET, {}))
+    diff_tillvaxt, andel_su = relativ_utveckling(underlag)
+    ar_sats, v_sats = senaste(satser["total"].get(LANET, {}))
+    ar_sk, v_sk = senaste(satser["kommun"].get(LANET, {}))
+    ar_sr, v_sr = senaste(satser["region"].get(LANET, {}))
     ar_lon, v_lon = senaste(per_syss)
 
     # befolkningsviktad utjämning per invånare i länets kommuner, senaste året
@@ -187,10 +205,14 @@ def main():
         "lonesumma_lanet_mdr": lonlan,
         "lonesumma_riket_mdr": lonriket,
         "skatteunderlag_lanet": {"ar": ar_su, "varde": v_su},
+        "skatteunderlag_tillvaxt_minus_riket": diff_tillvaxt,
+        "skatteunderlag_andel_av_riket": andel_su,
         "skatteunderlag_kommuner": {k: senaste(v) for k, v in underlag.items()
                                     if k.split()[0].startswith("18")},
         "skattesats_lanet": {"ar": ar_sats, "varde": v_sats},
-        "skattesats_kommuner": {k: senaste(v) for k, v in satser.items()
+        "skattesats_kommun_lanet": {"ar": ar_sk, "varde": v_sk},
+        "skattesats_region_lanet": {"ar": ar_sr, "varde": v_sr},
+        "skattesats_kommuner": {k: senaste(v) for k, v in satser["total"].items()
                                 if k.split()[0].startswith("18")},
         "inkomstutjamning_per_invanare": kommun_utj,
     }
@@ -220,7 +242,21 @@ def main():
         print(f"  -> bygglön i länet: {v_lon*rel_lon:,.0f} kr".replace(",", " "))
         print(f"Snittlön per sysselsatt i länet: {snittlon_lanet:,.0f} kr".replace(",", " "))
     print(f"Skatteunderlag Örebro län ({ar_su}): {v_su/1e9:,.1f} mdr kr".replace(",", " "))
-    print(f"Total kommunal skattesats i länet ({ar_sats}): {v_sats} %")
+    print(f"Skattesats i länet ({ar_sats}): kommun {v_sk} + region {v_sr} "
+          f"= {v_sats} %")
+    print("\nSkatteunderlagets tillväxt i länet minus rikets, procentenheter:")
+    sen = sorted(diff_tillvaxt)[-12:]
+    for a in sen:
+        print(f"   {a}: {100*diff_tillvaxt[a]:+.2f}")
+    fore = [diff_tillvaxt[a] for a in sen if a < "2022"]
+    efter = [diff_tillvaxt[a] for a in sen if a >= "2022"]
+    if fore and efter:
+        print(f"   snitt fore 2022: {100*sum(fore)/len(fore):+.2f}   "
+              f"2022 och senare: {100*sum(efter)/len(efter):+.2f}")
+        print("   Gapet ar nagot storre efter 2022, men 2021 var storre an nagot "
+              "ar darefter -")
+        print("   skillnaden ligger inom seriens egen variation.")
+
     print(f"\nSkrev {os.path.relpath(UT, HAR)}")
 
 
