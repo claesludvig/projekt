@@ -1,34 +1,34 @@
 # Svensk politik och regeringsförhandlingarna — 2026-09-22
 
-5 nya poster sedan förra utskicket (30 redan utskickade, 143 utanför ämnet).
+5 nya poster sedan förra utskicket (30 redan utskickade, 145 utanför ämnet).
 
 ## Analys och kommentar
 
-### [SD måste klä på sig politiken](https://www.svd.se/a/16ao5B/froken-snusk-funkar-samre-an-sydney-sweeney)
-SvD Ledare · 2026-09-22 · Madina Refoi
+### [S-källa: ”Naturligtvis ingen tillgång för V”](https://www.svd.se/a/JOdl9P/s-kalla-naturligtvis-ingen-tillgang-for-v)
+SvD Ledare · 2026-09-22 · Jenny Nyman
 
-Valresultatet blottar provokationens begränsningar.
-
-### [C och V i låst läge – men inte lokalt: ”Börja prata”](https://www.svd.se/a/y5olOR/c-och-v-langt-ifran-varandra-men-inte-lokalt-borja-prata)
-SvD Ledare · 2026-09-22 · Oskar Carlsson
-
-Avståndet mellan Centerpartiet och Vänsterpartiet tycks fortsatt stort – på nationell nivå.
+Läget i regeringsfrågan är fortsatt låst – och tumultet kring den okände V-kandidaten kan försvåra…
 
 ## Rapportering
 
-### [Ulf Kristersson: Ministrar har också yttrandefrihet](https://www.svt.se/nyheter/inrikes/ulf-kristersson-ministrar-har-ocksa-yttrandefrihet)
-SVT Nyheter · 2026-09-22 · Kristina Lagerström
+### [Statsvetaren: ”Teoretiskt kan vi få en regeringskris”](https://www.sverigesradio.se/artikel/9305169)
+Ekot, Sveriges Radio · 2026-09-22 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Carl-Oskar Bohlin, minister för civilt försvar, föregick SVT:s publicering av kortdokumentären Drevet genom att lägga ut intervjun i sin helhet på Youtube. På en presskonferens i riksdagen några dagar senare kallade statsministern kritiken av Bohlins agerande för ”lite prinsessan på ärten”. I en intervju med SVT fortsatte han att uttala sitt stöd.
+Det misstänkta valfusket kopplat till Vänsterpartiet i Dalarna skulle kunna leda till ett omval i valkretsen. Något som i sin tur skulle kunna leda till en regeringskris, om valresultatet i Dalarna skulle skilja sig kraftigt. Det menar statsvetaren Jan Teorell. ”Om anklagelserna skulle visa sig stämma, kan det påverka mandaten i riksdagen”, säger Teorell.
 
-### [”Det här var det sista Nooshi Dadgostar (V) behövde”](https://www.svt.se/nyheter/inrikes/det-sista-nooshi-dadgostar-behovde) **[kommentator]**
-SVT Nyheter · 2026-09-21 · Elisabeth Marmorstein
+### [Karlsbro (L) tackar nej till riksdagsplatsen – stannar i EU-parlamentet](https://www.sverigesradio.se/artikel/9304992)
+Ekot, Sveriges Radio · 2026-09-22 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Nooshi Dadgostar (V) och partiledningen har den senaste veckan argumenterat för att Vänsterpartiet bör få ministerposter. I det läget är uppgifterna om misstänkt valfusk det sista partiet behöver.
+Liberalernas EU-parlamentariker Karin Karlsbro, som har valts in i riksdagen, ger nu besked om att hon blir kvar i Bryssel. "Sett utifrån väljarnas perspektiv gör jag fortfarande störst nytta i Bryssel", skriver hon i ett inlägg på sociala medier som Ekot har tagit del av. Karin Karlsbro kommenterar också valresultatet, och kommer med en uppmaning om att sluta använda begreppet det “blågula laget”.
 
-### [Tomas Ramberg: Ska opinionsmätningar avgöra regeringsfrågan?](https://www.dn.se/sverige/tomas-ramberg-ska-opinionsmatningar-avgora-regeringsfragan) **[kommentator]**
-DN Nyheter · 2026-09-21 · Tomas Ramberg
+### [Han har stridit för rebellerna: ”Vi ska fortsätta kriga mot regeringen”](https://www.sverigesradio.se/artikel/9304962)
+Ekot, Sveriges Radio · 2026-09-22 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Samtalen om vilka partier som ska sitta i nästa regering inleddes med en tvärnit när partierna upprepade sina oförenliga vallöften. Till sist avgörs regeringsförhandlingen av vilken svekdebatt ledningarna för V och C har lättast att leva med. Opinionsmätningarnas tid är inte över.
+Sju etiopiska rebellgrupper går samman i en historisk militärallians för att störta premiärminister Abiy Ahmed. De forna rivalerna har tidigare krigat mot varandra men väljer nu att enas mot regeringen. ”Jag har stridit vid frontlinjen och har sett hur regeringen massavrättat civila och därför ska vi fortsätta kriga mot dom , säger en man som tidigare stridit för rebellgruppen TPLF som ingår i den nya fronten. Men koalitionen ifrågasätts starkt. Grupperna har skilda ideologier och territoriella tvister kring Tigray regionen. Dessutom är centralregeringen helt överlägsen i luften vid ett eventuellt krig.
 
-_Genererat 2026-09-22T06:18:43.072945+00:00._
+### [Helena Gissén: ”V:s utsikter att få ministerposter minskar”](https://www.sverigesradio.se/artikel/9304972)
+Ekot, Sveriges Radio · 2026-09-22 · Ekot _(brödtext ej hämtad — endast ingress)_
+
+Vänsterpartiets högsta ledning har inte kommenterat utredningen om valfusk som kretsar kring den Vänsterpartist från Dalarna som tagit sig in i riksdagen via personkryss. En historia som Helena Gissén, Ekots inrikespolitiska kommentator, beskriver som sensationell på flera sätt. Gissén tror att V sitter i intensiva krismöten: ”Min gissning är att partiet vill förmå honom att avsäga sig platsen”. Hon tror även att den pågående processen att bilda en regerings kommer påverkas: ”Nu sprids en oro på den rödgröna sidan att mandatperioden ska börja med att Vänsterpartiet får en politisk vilde, vilket skulle göra en redan skör majoritet ännu skörare”.
+
+_Genererat 2026-09-22T14:16:30.310585+00:00._

@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-09-22T06:18:43.072945+00:00",
+  "fetched_at": "2026-09-22T14:16:30.310585+00:00",
   "new_count": 5,
   "skipped": {
     "seen": 30,
-    "offtopic": 143,
-    "old": 32
+    "offtopic": 145,
+    "old": 30
   },
-  "fetch_errors": 0,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 4,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,92 +65,93 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/16ao5B/froken-snusk-funkar-samre-an-sydney-sweeney",
-      "title": "SD måste klä på sig politiken",
+      "url": "https://www.svd.se/a/JOdl9P/s-kalla-naturligtvis-ingen-tillgang-for-v",
+      "title": "S-källa: ”Naturligtvis ingen tillgång för V”",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-09-22",
-      "author": "Madina Refoi",
+      "author": "Jenny Nyman",
       "commentator": "",
-      "summary": "Valresultatet blottar provokationens begränsningar.",
-      "fulltext": "Bröst, Fröken Snusk och återvandringsreklam – provokation är en genväg till uppmärksamhet. Men SD:s valresultat visar vad som händer när reaktionerna blir viktigare än politiken.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nD et är svårt att vinna över bröst i kampen om uppmärksamheten. Särskilt när de tillhör skådespelerskan Sydney Sweeney, som i en ny omtalad reklamkampanj poserar naken bakom två amerikanska fotbollar. Ung, blond och med en klassisk pinupfigur har hon blivit en politisk symbol. Kulturkriget har bokstavligen klätt av sig.\nKonservativa har gjort Sweeney, som är registrerad republikan, till en anti-woke-ikon och hennes utseende som motbild till progressiva ideal. I Maga-kretsar har hon blivit poster girl för en “sexigare höger”. Donald Trump har tidigare hyllat henne, och företagen vet förstås vad de gör. Den unga kvinnokroppen fångar den manliga blicken och provokationen säljer som smör. Ju fler som förfasas, desto bättre.\nReceptet är gammalt men effektivt. Väck begär, väck anstöt och låt reaktionen sköta reklamen. Känns det igen? Javisst, även Sverigedemokraternas valrörelse blev en uppvisning i provokation som politisk kampanjmetod.\nVi fick se fröken Snusk strippa till vulgära låtar om kåta flickor och erotiska aktiviteter som gör sig bättre i sång än i tryck. Jimmie-luftballonger lyfte mot skyn, dansband spelade och bussar rullade med budskapet ”Saknar du Mogadishu? Återvandringsbidraget hjälper dig hem”. När kampanjerna väckte protester sammanfattade SD:s kampanjstrateg poängen väl: ”Folk ska prata”.\nSD gjorde vad de kunde för att få ännu en valrörelse att kretsa kring dem. Säga vad man vill om taktiken, men den populistiska högern har blivit skicklig på att skapa åtråvärd provokation, och därmed framstå som folklig och kulturellt relevant.\nDet fungerar, tills reaktionen blir större än politiken.\nSpektaklet avslöjar en ideologisk kullerbytta. Konservatismen som en gång predikade anständighet, återhållsamhet och ordning har fått en rebellisk estetik. Ogenerat feminina kvinnor gör uttrycket både lockande och mindre hotfullt, medan grova memes och ett råare tonläge riktar långfingret åt etablissemanget.\nPå så vis har det sexiga och vulgära blivit den nya högerns revolt mot en vänster som framställs som pryd, ängslig och tillrättavisande. Budskapet är ungefär: Ha kul, säg vad du tycker, se ut som du vill och strunta fullständigt i vem som sätter kaffet i halsen. Den som undrar hur det ser ut i praktiken kan slå på SD-nära Riks och studera de kvinnliga nyhetsuppläsarna.\nKonservatismen som en gång predikade anständighet, återhållsamhet och ordning har fått en rebellisk estetik.\nMen valresultatet blottar metodens begränsning. För första gången backade SD i ett riksdagsval. Det betyder inte att provokationerna orsakade tappet, men uppmärksamheten räckte inte för att övertyga väljarna. Det går alltså att dominera flödet utan att vinna valet.\nSamtidigt har konkurrenterna närmat sig SD i migrationsfrågan och gjort att paradgrenen förlorat sin särställning. Då återstår hur SD ska förbli relevant. Antingen genom att visa regeringsduglighet i välfärd, ekonomi och vardagspolitik, eller genom ett radikalare kulturkrig. Väljer partiet det senare krävs nya konflikter att äga. Nu tycks turen ha kommit till jakten på pedofiler, med uthängningssajten Dumpen som politiskt samarbetspartner.\nSydney Sweeney och SD har gjort motståndarnas ilska till en tillgång. Den som provocerar får inte bara blickarna, utan också kritikerna att sköta en del av spridningen. För Sweeney är det en lysande affär, men för ett maktbärande parti behöver uppmärksamheten omsättas i idéer som inger förtroende.\nSweeney kan alltså fortsätta klä av sig. För SD återstår att klä på sig – politiken.",
+      "summary": "Läget i regeringsfrågan är fortsatt låst – och tumultet kring den okände V-kandidaten kan försvåra…",
+      "fulltext": "Läget i regeringsfrågan är fortsatt låst – och tumultet kring den okände V-kandidaten kan försvåra ytterligare. En centerpartist kallar partiet för ”tomtar”, en socialdemokrat säger att ”det naturligtvis inte är en tillgång för V”.\nUppgifterna om V-kandidaten Mohamed Abdukardir Ali, som oväntat kryssats in i riksdagen, har skapat tumult i politiken. Just nu utreds misstänkt valfusk i Dalarna, något som enligt flera medier kopplas till omständigheter kring hans inval i riksdagen.\nFörst ett drygt dygn efter att uppgifterna uppmärksammades kommenterar Vänsterpartiet saken.\nSå röstade din granne – se valresultatet i ditt kvarter\nFlera överklaganden efter misstänkta fusket\nV-kandidat kopplas till utredning om valfusk",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "valresultat"
+        "regeringsfråg"
       ],
-      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+      "first_seen": "2026-09-22T14:16:30.310585+00:00"
     },
     {
-      "url": "https://www.svd.se/a/y5olOR/c-och-v-langt-ifran-varandra-men-inte-lokalt-borja-prata",
-      "title": "C och V i låst läge – men inte lokalt: ”Börja prata”",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.sverigesradio.se/artikel/9305169",
+      "title": "Statsvetaren: ”Teoretiskt kan vi få en regeringskris”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
       "published": "2026-09-22",
-      "author": "Oskar Carlsson",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Avståndet mellan Centerpartiet och Vänsterpartiet tycks fortsatt stort – på nationell nivå.",
-      "fulltext": "Avståndet mellan Centerpartiet och Vänsterpartiet tycks fortsatt stort – på nationell nivå. Lokalt samarbetar partierna redan på många håll i landet. ”Vi har inga svårigheter här”, säger Birgitta Dahlbäck (C), regionråd i Norrbotten.\nC vägrar fortsatt gemensamma partiledarsamtal, skriver TT på måndagen med hänvisning till en insatt V-källa.\nV tänker i sin tur inte backa från sitt ministerkrav, fastlog vice partiledare Ida Gabrielsson i SVT:s Agenda på söndagen.\nLåst läge för Andersson: ”V ska inte ha inflytande”\nSaknades 27 röster – så kryssades profilerna",
+      "summary": "Det misstänkta valfusket kopplat till Vänsterpartiet i Dalarna skulle kunna leda till ett omval i valkretsen. Något som i sin tur skulle kunna leda till en regeringskris, om valresultatet i Dalarna skulle skilja sig kraftigt. Det menar statsvetaren Jan Teorell. ”Om anklagelserna skulle visa sig stämma, kan det påverka mandaten i riksdagen”, säger Teorell.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305169'",
       "matched_terms": [
-        "Centerpartiet",
+        "regeringskris",
+        "valresultat",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+      "first_seen": "2026-09-22T14:16:30.310585+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/ulf-kristersson-ministrar-har-ocksa-yttrandefrihet",
-      "title": "Ulf Kristersson: Ministrar har också yttrandefrihet",
-      "source": "SVT Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9304992",
+      "title": "Karlsbro (L) tackar nej till riksdagsplatsen – stannar i EU-parlamentet",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-09-22",
-      "author": "Kristina Lagerström",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Carl-Oskar Bohlin, minister för civilt försvar, föregick SVT:s publicering av kortdokumentären Drevet genom att lägga ut intervjun i sin helhet på Youtube. På en presskonferens i riksdagen några dagar senare kallade statsministern kritiken av Bohlins agerande för ”lite prinsessan på ärten”. I en intervju med SVT fortsatte han att uttala sitt stöd.",
-      "fulltext": "Carl-Oskar Bohlin, minister för civilt försvar, föregick SVT:s publicering av kortdokumentären Drevet genom att lägga ut intervjun i sin helhet på Youtube. På en presskonferens i riksdagen några dagar senare kallade statsministern kritiken av Bohlins agerande för ”lite prinsessan på ärten”. I en intervju med SVT fortsatte han att uttala sitt stöd.\n– Jag tycker han är en utomordentligt bra minister med hög integritet, som ibland också säger ifrån när han tycker det finns skäl till det, säger statsminister Ulf Kristersson (M).\nSe hela den oklippta intervjun med Ulf Kristersson om Bohlin efter slutdebatten inför valet.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Liberalernas EU-parlamentariker Karin Karlsbro, som har valts in i riksdagen, ger nu besked om att hon blir kvar i Bryssel. \"Sett utifrån väljarnas perspektiv gör jag fortfarande störst nytta i Bryssel\", skriver hon i ett inlägg på sociala medier som Ekot har tagit del av. Karin Karlsbro kommenterar också valresultatet, och kommer med en uppmaning om att sluta använda begreppet det “blågula laget”.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304992'",
       "matched_terms": [
-        "statsminister"
+        "valresultat",
+        "Liberalerna"
       ],
-      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+      "first_seen": "2026-09-22T14:16:30.310585+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/det-sista-nooshi-dadgostar-behovde",
-      "title": "”Det här var det sista Nooshi Dadgostar (V) behövde”",
-      "source": "SVT Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9304962",
+      "title": "Han har stridit för rebellerna: ”Vi ska fortsätta kriga mot regeringen”",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-09-21",
-      "author": "Elisabeth Marmorstein",
-      "commentator": "Elisabeth Marmorstein",
-      "summary": "Nooshi Dadgostar (V) och partiledningen har den senaste veckan argumenterat för att Vänsterpartiet bör få ministerposter. I det läget är uppgifterna om misstänkt valfusk det sista partiet behöver.",
-      "fulltext": "Nooshi Dadgostar (V) och partiledningen har den senaste veckan argumenterat för att Vänsterpartiet bör få ministerposter. I det läget är uppgifterna om misstänkt valfusk det sista partiet behöver.\nAtt en person som står längst ned på listan, som bara varit medlem i drygt ett år och som är okänd för partiledningen, lyckas kryssa sig in är så klart anmärkningsvärt.\nDet innebär inte att han inte kan göra ett bra jobb som företrädare för partiet i riksdagen. Men det visar återigen att partiet behöver ha bättre koll på sina listor.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "published": "2026-09-22",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Sju etiopiska rebellgrupper går samman i en historisk militärallians för att störta premiärminister Abiy Ahmed. De forna rivalerna har tidigare krigat mot varandra men väljer nu att enas mot regeringen. ”Jag har stridit vid frontlinjen och har sett hur regeringen massavrättat civila och därför ska vi fortsätta kriga mot dom , säger en man som tidigare stridit för rebellgruppen TPLF som ingår i den nya fronten. Men koalitionen ifrågasätts starkt. Grupperna har skilda ideologier och territoriella tvister kring Tigray regionen. Dessutom är centralregeringen helt överlägsen i luften vid ett eventuellt krig.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304962'",
+      "matched_terms": [
+        "koalition"
+      ],
+      "first_seen": "2026-09-22T14:16:30.310585+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9304972",
+      "title": "Helena Gissén: ”V:s utsikter att få ministerposter minskar”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-22",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Vänsterpartiets högsta ledning har inte kommenterat utredningen om valfusk som kretsar kring den Vänsterpartist från Dalarna som tagit sig in i riksdagen via personkryss. En historia som Helena Gissén, Ekots inrikespolitiska kommentator, beskriver som sensationell på flera sätt. Gissén tror att V sitter i intensiva krismöten: ”Min gissning är att partiet vill förmå honom att avsäga sig platsen”. Hon tror även att den pågående processen att bilda en regerings kommer påverkas: ”Nu sprids en oro på den rödgröna sidan att mandatperioden ska börja med att Vänsterpartiet får en politisk vilde, vilket skulle göra en redan skör majoritet ännu skörare”.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304972'",
       "matched_terms": [
         "ministerpost",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-22T06:18:43.072945+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-ska-opinionsmatningar-avgora-regeringsfragan",
-      "title": "Tomas Ramberg: Ska opinionsmätningar avgöra regeringsfrågan?",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-21",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Samtalen om vilka partier som ska sitta i nästa regering inleddes med en tvärnit när partierna upprepade sina oförenliga vallöften. Till sist avgörs regeringsförhandlingen av vilken svekdebatt ledningarna för V och C har lättast att leva med. Opinionsmätningarnas tid är inte över.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-22 08:17\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-ska-opinionsmatningar-avgora-regeringsfragan/\nSamtalen om vilka partier som ska sitta i nästa regering inleddes med en tvärnit när partierna upprepade sina oförenliga vallöften.\nTill sist avgörs regeringsförhandlingen av vilken svekdebatt ledningarna för V och C har lättast att leva med. Opinionsmätningarnas tid är inte över.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsförhandling",
-        "regeringsfråg"
-      ],
-      "first_seen": "2026-09-22T06:18:43.072945+00:00"
+      "first_seen": "2026-09-22T14:16:30.310585+00:00"
     }
   ]
 }
