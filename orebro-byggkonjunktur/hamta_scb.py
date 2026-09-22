@@ -179,9 +179,15 @@ HAMTNINGAR = [
     },
     {
         "namn": "kommunalskatt",
+        "url": f"{V1}/OE/OE0101/Kommunalskatter2000",
+        "val": {"Region": "OREBRO", "ContentsCode": "*", "Tid": "*"},
+        "om": "Skattesatser per kommun, 2000 och framat (Kommunalskatt slutar 1999)",
+    },
+    {
+        "namn": "kommunalskatt_1993_1999",
         "url": f"{V1}/OE/OE0101/Kommunalskatt",
         "val": {"Region": "OREBRO", "ContentsCode": "*", "Tid": "*"},
-        "om": "Skattesatser per kommun",
+        "om": "Skattesatser per kommun, aldre serie",
     },
     {
         "namn": "utjamning",
