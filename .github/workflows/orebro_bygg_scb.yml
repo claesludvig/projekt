@@ -22,11 +22,16 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Kartlägg statistikdatabasens träd
+        continue-on-error: true
+        working-directory: orebro-byggkonjunktur
+        run: python hamta_scb.py sok
+
       - name: Hämta serier från SCB:s statistikdatabas
         id: hamta
         continue-on-error: true
         working-directory: orebro-byggkonjunktur
-        run: python hamta_scb.py
+        run: python hamta_scb.py hamta
 
       - name: Kalibrera parametrarna mot hämtad data
         if: always()

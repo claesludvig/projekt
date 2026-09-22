@@ -1,44 +1,37 @@
 #!/usr/bin/env python3
 """
-Hämtar underlaget till Örebro-analysen från SCB:s statistikdatabas.
+Hämtar underlaget till Örebro-analysen från SCB:s statistikdatabas (PxWeb v1).
 
-Körs i GitHub Actions, där api.scb.se är nåbar. Skriptet är autonomt:
+Körs i GitHub Actions, där api.scb.se är nåbar.
 
-  1. Hittar ett fungerande API (PxWeb v2 -> v2beta -> v1).
-  2. Letar upp kandidattabeller i de ämnesområden analysen behöver.
-  3. Väljer automatiskt de tabeller som har både en regionvariabel med
-     Örebro län (kod 18) och en näringsgrensvariabel med byggverksamhet
-     (SNI F / 41-43).
-  4. Hämtar hela tidsserien för Örebro län och skriver CSV.
-  5. Dumpar en fullständig katalog över kandidaterna så att urvalet kan
-     granskas och förfinas i nästa körning.
+  python3 hamta_scb.py sok      # kartlägger trädet, skriver data/scb/_katalog.json
+  python3 hamta_scb.py hamta    # hämtar den explicita listan nedan (standard)
 
-Utdata hamnar i data/scb/. Allt skrivs också till stdout så att körningen
-går att följa i Actions-loggen.
+Vad kartläggningen visade, och varför listan ser ut som den gör:
+
+  * Regionalräkenskaperna (NR0105) särredovisar INTE byggverksamhet på länsnivå.
+    Länstabellen har bara fem aggregat (varuproducenter, tjänsteproducenter...).
+    Full branschindelning finns bara på riksområdesnivå (NUTS2), där Örebro
+    ingår i Östra Mellansverige. Därför hämtas båda.
+  * Byggsysselsättning per län/kommun finns i stället i RAMS (AM0207), med
+    SNI2007-koden F = byggverksamhet. Serien är uppdelad på två tabeller.
+  * Lönesummor (AM0302) finns per län UTAN bransch och per bransch UTAN län.
+    Länsvis bygglönesumma måste därför skattas, inte hämtas.
+  * Skatteunderlag, skattesatser och utjämningsutfall per kommun finns i OE.
 """
 
-import itertools
 import json
 import os
 import re
 import sys
 import time
 import urllib.error
-import urllib.parse
 import urllib.request
 
-UA = {"User-Agent": "orebro-byggkonjunktur/1.0 (analys av regional byggsysselsattning)"}
+UA = {"User-Agent": "orebro-byggkonjunktur/1.0"}
 UTDATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "scb")
-
 V1 = "https://api.scb.se/OV0104/v1/doris/sv/ssd"
-V2_KANDIDATER = [
-    "https://api.scb.se/ov0104/v2/api/v2",
-    "https://api.scb.se/ov0104/v2beta/api/v2",
-]
 
-OREBRO = "18"
-
-# SCB:s v1-API tillåter 10 anrop per 10 sekunder.
 PAUS = 1.2
 _senaste = [0.0]
 
@@ -50,8 +43,8 @@ def _strypt():
     _senaste[0] = time.time()
 
 
-def hamta(url, data=None, forsok=3):
-    """GET, eller POST om data ges. Returnerar text."""
+def hamta_ra(url, data=None, forsok=3):
+    """GET, eller POST om data ges. Returnerar bytes."""
     for n in range(forsok):
         _strypt()
         try:
@@ -61,13 +54,14 @@ def hamta(url, data=None, forsok=3):
                 huvuden["Content-Type"] = "application/json"
             req = urllib.request.Request(url, data=kropp, headers=huvuden)
             with urllib.request.urlopen(req, timeout=90) as r:
-                return r.read().decode("utf-8-sig")
+                return r.read()
         except urllib.error.HTTPError as e:
+            detalj = e.read()[:400].decode("latin-1", "replace")
             if e.code == 429:
                 time.sleep(5 * (n + 1))
                 continue
             if n == forsok - 1:
-                raise
+                raise RuntimeError(f"HTTP {e.code}: {detalj}") from None
             time.sleep(2 * (n + 1))
         except Exception:                                    # noqa: BLE001
             if n == forsok - 1:
@@ -76,204 +70,215 @@ def hamta(url, data=None, forsok=3):
     raise RuntimeError(url)
 
 
-def json_hamta(url, data=None):
-    return json.loads(hamta(url, data))
-
-
-# ---------------------------------------------------------------------------
-# Identifiering av rätt variabler och värden
-# ---------------------------------------------------------------------------
-
-BYGG_MONSTER = re.compile(
-    r"byggverksamhet|byggindustri|bygg- och anl|construction", re.IGNORECASE)
-BYGG_KODER = {"F", "41-43", "41+42+43", "45", "F, 41-43", "SNI41-43"}
-
-REGION_MONSTER = re.compile(r"region|l[aä]n|kommun", re.IGNORECASE)
-
-
-def hitta_variabel(variabler, monster, koder=None):
-    """Returnerar (variabelkod, [matchande värdekoder]) eller None."""
-    for v in variabler:
-        koder_i_var = v.get("values") or v.get("valueCodes") or []
-        texter = v.get("valueTexts") or v.get("valueLabels") or []
-        traffar = []
-        for kod, text in itertools.zip_longest(koder_i_var, texter, fillvalue=""):
-            if koder and str(kod).strip() in koder:
-                traffar.append(kod)
-            elif monster and monster.search(str(text)):
-                traffar.append(kod)
-        if traffar:
-            return v.get("code") or v.get("id"), traffar
-    return None
-
-
-def hittar_orebro(variabler):
-    for v in variabler:
-        kod = v.get("code") or v.get("id") or ""
-        if not REGION_MONSTER.search(kod) and not REGION_MONSTER.search(v.get("text", "")):
+def avkoda(b):
+    """SCB skickar csv i latin-1 och json i utf-8. Prova i tur och ordning."""
+    for kodning in ("utf-8-sig", "cp1252", "latin-1"):
+        try:
+            return b.decode(kodning)
+        except UnicodeDecodeError:
             continue
-        varden = [str(x) for x in (v.get("values") or v.get("valueCodes") or [])]
-        if OREBRO in varden:
-            return kod, [OREBRO]
-        # kommunnivå: alla kommuner i Örebro län börjar på 18
-        lans_kommuner = [x for x in varden if x.startswith("18") and len(x) == 4]
-        if lans_kommuner:
-            return kod, lans_kommuner
-    return None
+    return b.decode("latin-1", "replace")
+
+
+def json_hamta(url, data=None):
+    return json.loads(avkoda(hamta_ra(url, data)))
 
 
 # ---------------------------------------------------------------------------
-# API v1: navigera trädet
+# Explicit hämtningslista
+# ---------------------------------------------------------------------------
+# Värdespecifikation per variabel:
+#   "*"       alla värden
+#   "OREBRO"  riket + Örebro län + länets tolv kommuner
+#   "BYGG"    de värden vars etikett handlar om byggverksamhet
+#   [ ... ]   explicita koder
+
+HAMTNINGAR = [
+    {
+        "namn": "rams_bygg_kommun_2008_2018",
+        "url": f"{V1}/AM/AM0207/AM0207K/DagSNI07KonK",
+        "val": {"Region": "OREBRO", "SNI2007": "*", "Kon": "*",
+                "ContentsCode": "*", "Tid": "*"},
+        "om": "RAMS dagbefolkning per kommun och bransch, 2008-2018",
+    },
+    {
+        "namn": "rams_bygg_kommun_2019_2021",
+        "url": f"{V1}/AM/AM0207/AM0207Z/DagSni07KonKN",
+        "val": {"Region": "OREBRO", "SNI2007": "*", "Kon": "*",
+                "ContentsCode": "*", "Tid": "*"},
+        "om": "RAMS dagbefolkning per kommun och bransch, 2019-2021",
+    },
+    {
+        "namn": "nr_lan_aggregat",
+        "url": f"{V1}/NR/NR0105/NR0105A/NR0105ENS2010T03A",
+        "val": {"Region": ["00", "18"], "SNI2007": "*",
+                "ContentsCode": "*", "Tid": "*"},
+        "om": "Regionalräkenskaper: BRP, sysselsatta, löner per län (5 aggregat)",
+    },
+    {
+        "namn": "nr_nuts2_bransch",
+        "url": f"{V1}/NR/NR0105/NR0105A/NR0105ENS2010T04A",
+        "val": {"Region": "*", "SNI2007": "BYGG",
+                "ContentsCode": "*", "Tid": "*"},
+        "om": "Regionalräkenskaper: byggverksamhet per riksområde (NUTS2)",
+    },
+    {
+        "namn": "nr_investeringar",
+        "url": f"{V1}/NR/NR0105/NR0105A/NR0105ENS2010T05A",
+        "val": {"Region": "*", "SNI2007": "BYGG",
+                "ContentsCode": "*", "Tid": "*"},
+        "om": "Fasta bruttoinvesteringar per region och näringsgren",
+    },
+    {
+        "namn": "lonesumma_lan",
+        "url": f"{V1}/AM/AM0302/AM0302A/LSUMLan",
+        "val": {"Lan": ["00", "18"], "ContentsCode": "*", "Tid": "*"},
+        "om": "Lönesummor per län, alla branscher",
+    },
+    {
+        "namn": "lonesumma_bransch_riket",
+        "url": f"{V1}/AM/AM0302/AM0302A/LSUMSNI07",
+        "val": {"SNI2007": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "Lönesummor per bransch, riket - ger byggets lön per anställd",
+    },
+    {
+        "namn": "skatteunderlag_kommun",
+        "url": f"{V1}/OE/OE0101/SkatteKraft",
+        "val": {"Region": "OREBRO", "ContentsCode": "*", "Tid": "*"},
+        "om": "Skatteunderlag och skattekraft per kommun",
+    },
+    {
+        "namn": "kommunalskatt",
+        "url": f"{V1}/OE/OE0101/Kommunalskatt",
+        "val": {"Region": "OREBRO", "ContentsCode": "*", "Tid": "*"},
+        "om": "Skattesatser per kommun",
+    },
+    {
+        "namn": "utjamning",
+        "url": f"{V1}/OE/OE0115/OE0115A/KomEkUtj",
+        "val": {"Region": "OREBRO", "ContentsCode": "*", "Tid": "*"},
+        "om": "Kommunalekonomisk utjämning, utfall per kommun",
+    },
+]
+
+BYGG_MONSTER = re.compile(r"byggverksamhet|byggindustri|bygg- och anl", re.I)
+
+
+def los_varden(spec, variabel):
+    koder = [str(x) for x in variabel.get("values", [])]
+    texter = variabel.get("valueTexts", [])
+    if spec == "*":
+        return ["*"], "all"
+    if spec == "OREBRO":
+        valda = [k for k in koder if k == "00" or k == "18"
+                 or (k.startswith("18") and len(k) == 4)]
+        return valda, "item"
+    if spec == "BYGG":
+        valda = [k for k, t in zip(koder, texter) if BYGG_MONSTER.search(t or "")]
+        return valda or ["*"], ("item" if valda else "all")
+    return [k for k in spec if k in koder] or list(spec), "item"
+
+
+def kor_hamtningar():
+    os.makedirs(UTDATA, exist_ok=True)
+    manifest = []
+    for h in HAMTNINGAR:
+        print(f"\n--- {h['namn']}: {h['om']}")
+        try:
+            meta = json_hamta(h["url"])
+        except Exception as e:                               # noqa: BLE001
+            print(f"    metadata misslyckades: {e}")
+            manifest.append({"namn": h["namn"], "status": f"metadatafel: {e}"})
+            continue
+
+        variabler = {v["code"]: v for v in meta.get("variables", [])}
+        fraga = []
+        for kod, spec in h["val"].items():
+            if kod not in variabler:
+                print(f"    varning: variabeln {kod} finns inte "
+                      f"(tabellen har {list(variabler)})")
+                continue
+            varden, filt = los_varden(spec, variabler[kod])
+            print(f"    {kod}: {filt} -> {varden[:6]}{'...' if len(varden) > 6 else ''}")
+            fraga.append({"code": kod, "selection": {"filter": filt, "values": varden}})
+
+        try:
+            csv_text = avkoda(hamta_ra(h["url"], {"query": fraga,
+                                                  "response": {"format": "csv"}}))
+        except Exception as e:                               # noqa: BLE001
+            print(f"    HÄMTNING MISSLYCKADES: {e}")
+            manifest.append({"namn": h["namn"], "status": f"fel: {e}"})
+            continue
+
+        fil = f"{h['namn']}.csv"
+        with open(os.path.join(UTDATA, fil), "w", encoding="utf-8") as f:
+            f.write(csv_text)
+        rader = csv_text.count("\n")
+        print(f"    OK -> {fil} ({rader} rader)")
+        for r in csv_text.splitlines()[:3]:
+            print(f"      {r[:150]}")
+        manifest.append({"namn": h["namn"], "fil": fil, "rader": rader,
+                         "titel": meta.get("title", ""), "url": h["url"],
+                         "status": "ok"})
+
+    with open(os.path.join(UTDATA, "_manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=1)
+    ok = sum(1 for m in manifest if m["status"] == "ok")
+    print(f"\nKLART: {ok} av {len(HAMTNINGAR)} hämtningar lyckades")
+    return 0 if ok else 1
+
+
+# ---------------------------------------------------------------------------
+# Kartläggning av trädet (bredare än förra gången - BAS missades)
 # ---------------------------------------------------------------------------
 
 AMNEN = {
     "NR": re.compile(r"regionalr[aä]kenskap|input-output|tillg[aå]ng och anv", re.I),
-    "AM": re.compile(r"registerbaserad|arbetsmarknadsstatistik|l[oö]nesumm|yrkesregist", re.I),
-    "OE": re.compile(r"skatt|kommunal", re.I),
-    "HE": re.compile(r"inkomst", re.I),
+    "AM": re.compile(r"arbetsmarknad|syssels[aä]tt|l[oö]nesumm|registerbaserad|"
+                     r"yrkesregist|befolkningens", re.I),
+    "OE": re.compile(r"skatt|kommunal|utj[aä]mning", re.I),
 }
 
 
-def v1_katalog():
-    """Går igenom utvalda ämnesområden och returnerar kandidattabeller."""
-    kandidater = []
+def sok():
+    os.makedirs(UTDATA, exist_ok=True)
+    katalog = []
     for amne, monster in AMNEN.items():
         try:
             mappar = json_hamta(f"{V1}/{amne}")
         except Exception as e:                               # noqa: BLE001
-            print(f"  [{amne}] kunde inte läsas: {e}")
+            print(f"[{amne}] {e}")
             continue
-        traffade = [m for m in mappar if monster.search(m.get("text", ""))]
-        print(f"  [{amne}] {len(mappar)} mappar, {len(traffade)} matchar sökprofilen")
-        for m in traffade:
-            sokvag = f"{V1}/{amne}/{m['id']}"
-            try:
-                noder = json_hamta(sokvag)
-            except Exception as e:                           # noqa: BLE001
-                print(f"    {m['id']}: {e}")
+        print(f"\n[{amne}] {len(mappar)} mappar:")
+        for m in mappar:
+            traff = bool(monster.search(m.get("text", "")))
+            print(f"   {'*' if traff else ' '} {m['id']:<10} {m.get('text','')[:66]}")
+            if not traff:
                 continue
-            # en nivå till om det är undermappar
-            tabeller = [n for n in noder if n.get("type") == "t"]
-            for under in [n for n in noder if n.get("type") == "l"]:
+            try:
+                noder = json_hamta(f"{V1}/{amne}/{m['id']}")
+            except Exception as e:                           # noqa: BLE001
+                print(f"       {e}")
+                continue
+            tabeller = [(n, None) for n in noder if n.get("type") == "t"]
+            for u in [n for n in noder if n.get("type") == "l"]:
                 try:
-                    tabeller += [
-                        dict(n, _under=under["id"])
-                        for n in json_hamta(f"{sokvag}/{under['id']}")
-                        if n.get("type") == "t"
-                    ]
+                    tabeller += [(n, u["id"]) for n in json_hamta(
+                        f"{V1}/{amne}/{m['id']}/{u['id']}") if n.get("type") == "t"]
                 except Exception:                            # noqa: BLE001
                     pass
-            print(f"    {m['id']} ({m.get('text','')[:50]}): {len(tabeller)} tabeller")
-            for t in tabeller:
-                delar = [amne, m["id"]]
-                if t.get("_under"):
-                    delar.append(t["_under"])
-                delar.append(t["id"])
-                kandidater.append({
-                    "id": t["id"],
-                    "text": t.get("text", ""),
-                    "uppdaterad": t.get("updated"),
-                    "url": f"{V1}/" + "/".join(delar),
-                    "amne": amne,
-                })
-    return kandidater
-
-
-# ---------------------------------------------------------------------------
-# Huvudflöde
-# ---------------------------------------------------------------------------
-
-def sakert_filnamn(s):
-    return re.sub(r"[^A-Za-z0-9_.-]+", "_", s)[:90]
-
-
-def main():
-    os.makedirs(UTDATA, exist_ok=True)
-    print("=" * 78)
-    print("SCB-hämtning: byggsysselsättning och skatteunderlag i Örebro län")
-    print("=" * 78)
-
-    print("\n1. Letar kandidattabeller i statistikdatabasen (v1-trädet)")
-    kandidater = v1_katalog()
-    print(f"\n   {len(kandidater)} tabeller totalt i de valda ämnesområdena")
-
-    print("\n2. Läser metadata och väljer ut relevanta tabeller")
-    katalog, valda = [], []
-    for k in kandidater:
-        try:
-            meta = json_hamta(k["url"])
-        except Exception as e:                               # noqa: BLE001
-            print(f"   {k['id']}: metadata misslyckades ({e})")
-            continue
-        variabler = meta.get("variables", [])
-        post = dict(k, titel=meta.get("title", ""), variabler=[
-            {
-                "kod": v.get("code"),
-                "text": v.get("text"),
-                "antal_varden": len(v.get("values", [])),
-                "exempel": list(zip(v.get("values", [])[:8], v.get("valueTexts", [])[:8])),
-            }
-            for v in variabler
-        ])
-
-        region = hittar_orebro(variabler)
-        bygg = hitta_variabel(variabler, BYGG_MONSTER, BYGG_KODER)
-        post["har_orebro"] = bool(region)
-        post["har_bygg"] = bool(bygg)
-        katalog.append(post)
-
-        if region and bygg:
-            valda.append((k, meta, region, bygg))
-            print(f"   VALD  {k['id']:<28} {meta.get('title','')[:70]}")
-
+            for t, under in tabeller:
+                delar = [amne, m["id"]] + ([under] if under else []) + [t["id"]]
+                katalog.append({"id": t["id"], "text": t.get("text", ""),
+                                "uppdaterad": t.get("updated"),
+                                "url": f"{V1}/" + "/".join(delar)})
+            print(f"       {len(tabeller)} tabeller")
     with open(os.path.join(UTDATA, "_katalog.json"), "w", encoding="utf-8") as f:
         json.dump(katalog, f, ensure_ascii=False, indent=1)
-    print(f"\n   Skrev katalog över {len(katalog)} tabeller till data/scb/_katalog.json")
-    print(f"   {len(valda)} tabeller har både Örebro län och byggverksamhet")
-
-    print("\n3. Hämtar data för Örebro län")
-    manifest = []
-    for k, meta, (regvar, regvarden), (byggvar, byggvarden) in valda:
-        fraga = [
-            {"code": regvar, "selection": {"filter": "item", "values": regvarden}},
-            {"code": byggvar, "selection": {"filter": "item", "values": byggvarden}},
-        ]
-        # alla år, alla mått
-        for v in meta.get("variables", []):
-            kod = v.get("code")
-            if kod in (regvar, byggvar):
-                continue
-            if v.get("time") or kod in ("Tid", "ContentsCode"):
-                fraga.append({"code": kod, "selection": {"filter": "all", "values": ["*"]}})
-        try:
-            csv_text = hamta(k["url"], {"query": fraga, "response": {"format": "csv"}})
-        except Exception as e:                               # noqa: BLE001
-            print(f"   {k['id']}: hämtning misslyckades ({e})")
-            manifest.append({"id": k["id"], "status": f"fel: {e}"})
-            continue
-        namn = sakert_filnamn(f"{k['id']}_{meta.get('title','')[:40]}") + ".csv"
-        with open(os.path.join(UTDATA, namn), "w", encoding="utf-8") as f:
-            f.write(csv_text)
-        rader = csv_text.count("\n")
-        print(f"   OK    {namn}  ({rader} rader)")
-        print("         " + "\n         ".join(csv_text.splitlines()[:4]))
-        manifest.append({
-            "id": k["id"], "titel": meta.get("title", ""), "fil": namn,
-            "rader": rader, "url": k["url"],
-            "regionvariabel": regvar, "branschvariabel": byggvar,
-            "status": "ok",
-        })
-
-    with open(os.path.join(UTDATA, "_manifest.json"), "w", encoding="utf-8") as f:
-        json.dump(manifest, f, ensure_ascii=False, indent=1)
-
-    lyckade = sum(1 for m in manifest if m.get("status") == "ok")
-    print(f"\nKLART: {lyckade} av {len(valda)} tabeller hämtade till data/scb/")
-    if not lyckade:
-        print("Inget hämtat - granska data/scb/_katalog.json och justera urvalet.")
-        return 1
+    print(f"\nSkrev {len(katalog)} tabeller till data/scb/_katalog.json")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    lage = sys.argv[1] if len(sys.argv) > 1 else "hamta"
+    sys.exit(sok() if lage == "sok" else kor_hamtningar())
