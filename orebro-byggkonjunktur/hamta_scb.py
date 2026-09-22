@@ -92,10 +92,32 @@ def json_hamta(url, data=None):
 # Värdespecifikation per variabel:
 #   "*"       alla värden
 #   "OREBRO"  riket + Örebro län + länets tolv kommuner
+#   "LAN"     riket + samtliga län (tvåställiga regionkoder)
 #   "BYGG"    de värden vars etikett handlar om byggverksamhet
 #   [ ... ]   explicita koder
 
 HAMTNINGAR = [
+    {
+        "namn": "bas_ar_alla_lan",
+        "url": f"{V1}/AM/AM0210/AM0210B/ArbStDoNArNN",
+        "val": {"Region": "LAN", "SNI2007": "*", "Kon": "*",
+                "Fodelseregion": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "BAS arsvis, SAMTLIGA lan och branscher - ger regionfordelningen",
+    },
+    {
+        "namn": "bas_manad_alla_lan_bygg",
+        "url": f"{V1}/AM/AM0210/AM0210B/ArbStDoNMNN",
+        "val": {"Region": "LAN", "SNI2007": "BYGG", "Kon": "*",
+                "Fodelseregion": "*", "ContentsCode": "*", "Tid": "*"},
+        "om": "BAS manadsvis, byggverksamhet i samtliga lan",
+    },
+    {
+        "namn": "rams_bygg_alla_lan_2008_2018",
+        "url": f"{V1}/AM/AM0207/AM0207K/DagSNI07KonK",
+        "val": {"Region": "LAN", "SNI2007": "*", "Kon": "*",
+                "ContentsCode": "*", "Tid": "*"},
+        "om": "RAMS 2008-2018, samtliga lan - langre bakgrund till regionfordelningen",
+    },
     {
         "namn": "bas_arsregister_2021_",
         "url": f"{V1}/AM/AM0210/AM0210F/ArRegArbStDoN",
@@ -209,6 +231,8 @@ def los_varden(spec, variabel):
         valda = [k for k in koder if k == "00" or k == "18"
                  or (k.startswith("18") and len(k) == 4)]
         return valda, "item"
+    if spec == "LAN":
+        return [k for k in koder if len(k) == 2], "item"
     if spec == "BYGG":
         valda = [k for k, t in zip(koder, texter) if BYGG_MONSTER.search(t or "")]
         return valda or ["*"], ("item" if valda else "all")
