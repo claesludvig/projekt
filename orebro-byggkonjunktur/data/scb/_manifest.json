@@ -1,5 +1,29 @@
 [
  {
+  "namn": "bas_ar_alla_lan",
+  "fil": "bas_ar_alla_lan.csv",
+  "rader": 3367,
+  "titel": "Sysselsatta 15–74 år. Preliminär statistik efter region, kön, näringsgren SNI 2007, födelseregion, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/ArbStDoNArNN",
+  "status": "ok"
+ },
+ {
+  "namn": "bas_manad_alla_lan_bygg",
+  "fil": "bas_manad_alla_lan_bygg.csv",
+  "rader": 199,
+  "titel": "Sysselsatta 15–74 år. Preliminär statistik efter region, kön, näringsgren SNI 2007, födelseregion, tabellinnehåll och månad",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/ArbStDoNMNN",
+  "status": "ok"
+ },
+ {
+  "namn": "rams_bygg_alla_lan_2008_2018",
+  "fil": "rams_bygg_alla_lan_2008_2018.csv",
+  "rader": 705,
+  "titel": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI 2007, kön, tabellinnehåll och år",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNI07KonK",
+  "status": "ok"
+ },
+ {
   "namn": "bas_arsregister_2021_",
   "fil": "bas_arsregister_2021_.csv",
   "rader": 2143,

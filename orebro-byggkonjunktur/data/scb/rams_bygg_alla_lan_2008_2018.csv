@@ -1,0 +1,705 @@
+"region","näringsgren SNI 2007","kön","Antal 2008","Antal 2009","Antal 2010","Antal 2011","Antal 2012","Antal 2013","Antal 2014","Antal 2015","Antal 2016","Antal 2017","Antal 2018"
+"00 Riket","A jordbruk, skogsbruk och fiske","män",59348,60672,63369,77312,76712,76751,76283,75121,72349,72720,70139
+"00 Riket","A jordbruk, skogsbruk och fiske","kvinnor",14959,15526,16632,22952,23418,24156,24281,24191,22423,23831,22539
+"00 Riket","B+C tillverkning och utvinning","män",504905,452748,453026,459732,449212,436776,430015,427386,418060,420334,425271
+"00 Riket","B+C tillverkning och utvinning","kvinnor",160018,142463,142087,143337,140923,136569,134320,133089,130713,131019,133996
+"00 Riket","D+E energiförsörjning; miljöverksamhet","män",34306,34464,34771,35195,36100,36447,37170,37615,37643,38202,38665
+"00 Riket","D+E energiförsörjning; miljöverksamhet","kvinnor",10100,10311,10343,10586,11111,11141,11514,11696,11971,12188,12609
+"00 Riket","F byggverksamhet","män",270627,265795,276407,288364,290823,291344,294733,303933,312829,321710,328787
+"00 Riket","F byggverksamhet","kvinnor",23010,22737,24240,25758,27110,26958,27713,29146,30832,32733,34730
+"00 Riket","G handel","män",299711,290115,298333,305222,307640,309797,312295,314650,318924,323536,326332
+"00 Riket","G handel","kvinnor",246728,239503,248100,249145,253536,254541,254659,258212,262760,263993,265307
+"00 Riket","H transport och magasinering","män",174967,169227,172926,175838,176182,177402,176158,176388,177926,180437,183566
+"00 Riket","H transport och magasinering","kvinnor",52354,49360,49721,50326,49799,49537,48748,48275,48389,49042,50354
+"00 Riket","I hotell- och restaurangverksamhet","män",57937,58814,63225,65716,70165,74177,76106,78728,81012,83794,84778
+"00 Riket","I hotell- och restaurangverksamhet","kvinnor",70456,71002,75815,74982,79986,83165,83804,85278,86631,85405,84135
+"00 Riket","J information och kommunikation","män",115254,113902,114459,118603,120849,123395,125448,126355,140459,144783,149621
+"00 Riket","J information och kommunikation","kvinnor",53609,52018,51652,52588,52845,52618,52641,52639,56996,58115,60030
+"00 Riket","K finans- och försäkringsverksamhet","män",42216,41582,42381,42985,43282,43883,44554,45283,46130,47173,47861
+"00 Riket","K finans- och försäkringsverksamhet","kvinnor",48919,47305,47408,47083,47066,47145,47136,47317,47404,47916,48277
+"00 Riket","L fastighetsverksamhet","män",41321,41905,41963,43276,43944,45957,45973,47199,48119,48602,49204
+"00 Riket","L fastighetsverksamhet","kvinnor",24629,24607,25230,25880,26605,27881,28352,29622,30543,31528,32325
+"00 Riket","M+N företagstjänster","män",262969,255188,268362,285067,292077,297310,302218,313744,321897,336343,343833
+"00 Riket","M+N företagstjänster","kvinnor",207848,202508,211591,219461,227906,228820,231382,239578,246566,255321,261257
+"00 Riket","O offentlig förvaltning och försvar","män",105658,105551,107572,110983,111920,115501,116286,116586,120045,123653,128121
+"00 Riket","O offentlig förvaltning och försvar","kvinnor",133897,134859,138553,141299,144470,148744,151498,155161,162257,169434,177024
+"00 Riket","P utbildning ","män",111782,111494,117596,118546,121340,124178,126342,129398,136463,139924,141239
+"00 Riket","P utbildning ","kvinnor",338973,333986,343899,348300,352892,357186,361699,369359,384600,394770,399479
+"00 Riket","Q vård och omsorg; sociala tjänster","män",118224,119957,123326,126046,130752,137006,143040,152292,163997,165888,165643
+"00 Riket","Q vård och omsorg; sociala tjänster","kvinnor",586665,580225,591271,593109,603937,611986,621031,634257,648048,646250,640986
+"00 Riket","R+S+T+U kulturella och personliga tjänster m.m.","män",79005,80128,81070,83176,85982,87938,88106,88350,89491,89913,90237
+"00 Riket","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",105720,106896,109801,112192,115984,118978,120081,121430,122775,123505,124403
+"00 Riket","00 okänd verksamhet","män",22174,20180,19969,21536,21959,21631,22239,21757,20084,21751,21249
+"00 Riket","00 okänd verksamhet","kvinnor",28500,25715,27622,31005,30973,31286,31489,31310,29989,31080,29922
+"01 Stockholms län","A jordbruk, skogsbruk och fiske","män",2070,2100,2318,2760,2667,2723,2740,2723,2516,2607,2491
+"01 Stockholms län","A jordbruk, skogsbruk och fiske","kvinnor",1004,1043,1158,1505,1502,1636,1633,1630,1539,1673,1575
+"01 Stockholms län","B+C tillverkning och utvinning","män",55870,53160,53077,54275,53232,51551,50862,50829,44166,44659,46062
+"01 Stockholms län","B+C tillverkning och utvinning","kvinnor",22861,21613,21337,21653,21470,20779,20345,20505,18633,18770,19515
+"01 Stockholms län","D+E energiförsörjning; miljöverksamhet","män",5548,5674,5762,5980,6259,6484,6739,6835,6932,7127,7171
+"01 Stockholms län","D+E energiförsörjning; miljöverksamhet","kvinnor",2105,2192,2258,2319,2502,2500,2546,2606,2647,2656,2738
+"01 Stockholms län","F byggverksamhet","män",57080,56488,58692,61411,63516,64328,65787,68794,70800,72672,73605
+"01 Stockholms län","F byggverksamhet","kvinnor",6097,6204,6643,7057,7513,7676,8032,8629,9068,9749,10268
+"01 Stockholms län","G handel","män",80892,78098,80000,81802,83517,84386,85795,85901,87086,89176,88869
+"01 Stockholms län","G handel","kvinnor",65530,64038,67032,67733,69364,69858,70719,73150,75535,76542,76885
+"01 Stockholms län","H transport och magasinering","män",44495,43549,44808,45455,45845,46511,47183,47051,47558,48075,49251
+"01 Stockholms län","H transport och magasinering","kvinnor",15126,14275,14305,14275,13976,14006,14148,13828,14036,14137,14574
+"01 Stockholms län","I hotell- och restaurangverksamhet","män",19798,20355,21919,23219,24834,26394,27001,27824,28628,29237,29387
+"01 Stockholms län","I hotell- och restaurangverksamhet","kvinnor",18704,18811,20439,20395,21897,23132,23714,24367,24865,24608,24371
+"01 Stockholms län","J information och kommunikation","män",54531,53503,54737,56546,57066,58491,59704,60491,69332,70470,72226
+"01 Stockholms län","J information och kommunikation","kvinnor",26897,26335,26378,26766,26880,27036,27522,27990,31014,31569,32709
+"01 Stockholms län","K finans- och försäkringsverksamhet","män",24041,23580,24292,24980,25223,25598,26144,26774,27541,28579,29427
+"01 Stockholms län","K finans- och försäkringsverksamhet","kvinnor",24873,24176,24442,24574,24693,24802,24899,25140,25292,25905,26293
+"01 Stockholms län","L fastighetsverksamhet","män",9957,9779,9800,10137,10409,10850,10914,11314,11632,11800,12027
+"01 Stockholms län","L fastighetsverksamhet","kvinnor",6729,6725,6730,6945,7417,7605,7818,8165,8369,8727,9030
+"01 Stockholms län","M+N företagstjänster","män",86235,85440,89870,94648,97962,100150,101724,105575,107824,111681,113373
+"01 Stockholms län","M+N företagstjänster","kvinnor",71866,70469,74319,77928,81486,82550,84146,87081,90615,93786,95318
+"01 Stockholms län","O offentlig förvaltning och försvar","män",27955,28821,29305,30119,31226,31569,31890,32208,33181,34082,34749
+"01 Stockholms län","O offentlig förvaltning och försvar","kvinnor",35679,36232,37259,37840,38813,39917,40572,41064,42382,44371,45425
+"01 Stockholms län","P utbildning ","män",26653,27177,28255,28406,29574,30451,31058,32107,33230,33829,34405
+"01 Stockholms län","P utbildning ","kvinnor",73824,74575,76942,78425,80050,81228,82305,84115,86443,87543,89306
+"01 Stockholms län","Q vård och omsorg; sociala tjänster","män",25737,26321,27314,28132,29512,30670,31848,33331,35014,35305,35167
+"01 Stockholms län","Q vård och omsorg; sociala tjänster","kvinnor",101092,101963,105141,106240,109472,111127,113795,116327,118569,118260,117575
+"01 Stockholms län","R+S+T+U kulturella och personliga tjänster m.m.","män",22731,23160,23986,24536,25378,26096,26289,26589,27005,27522,27678
+"01 Stockholms län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",29800,30540,31752,32668,34110,35003,35920,36515,36989,37552,37993
+"01 Stockholms län","00 okänd verksamhet","män",3547,3021,3087,3226,3108,3200,3240,3186,2830,3103,2709
+"01 Stockholms län","00 okänd verksamhet","kvinnor",4928,3950,4059,3979,4097,4394,4213,4314,4048,4003,3629
+"03 Uppsala län","A jordbruk, skogsbruk och fiske","män",2141,2175,2219,2584,2659,2757,2588,2543,2497,2483,2450
+"03 Uppsala län","A jordbruk, skogsbruk och fiske","kvinnor",495,515,537,666,763,802,780,818,758,819,769
+"03 Uppsala län","B+C tillverkning och utvinning","män",9776,9074,9022,9148,9021,8790,8847,8664,8588,8728,8850
+"03 Uppsala län","B+C tillverkning och utvinning","kvinnor",3714,3366,3344,3451,3500,3430,3421,3338,3287,3286,3290
+"03 Uppsala län","D+E energiförsörjning; miljöverksamhet","män",1631,1684,1679,1668,1831,1801,1846,1929,1910,1878,1892
+"03 Uppsala län","D+E energiförsörjning; miljöverksamhet","kvinnor",428,477,489,476,578,575,609,613,609,616,646
+"03 Uppsala län","F byggverksamhet","män",10039,9839,10317,11002,11244,11423,11647,12125,12503,12797,12839
+"03 Uppsala län","F byggverksamhet","kvinnor",712,708,818,908,1102,1167,1198,1262,1343,1402,1416
+"03 Uppsala län","G handel","män",7263,7173,7599,7631,7955,8108,8095,8202,8657,8890,9231
+"03 Uppsala län","G handel","kvinnor",6828,6584,6978,6803,7019,7111,7055,7151,7441,7631,7745
+"03 Uppsala län","H transport och magasinering","män",4670,4606,4645,4695,4803,4922,4764,4543,4600,4626,4758
+"03 Uppsala län","H transport och magasinering","kvinnor",1203,1197,1185,1171,1140,1129,1047,948,879,917,932
+"03 Uppsala län","I hotell- och restaurangverksamhet","män",1532,1535,1750,1807,1999,2147,2158,2297,2308,2300,2333
+"03 Uppsala län","I hotell- och restaurangverksamhet","kvinnor",1841,1870,2054,2016,2181,2242,2238,2211,2284,2218,2214
+"03 Uppsala län","J information och kommunikation","män",2530,2508,2370,2509,2597,2585,2751,2851,3007,3205,3276
+"03 Uppsala län","J information och kommunikation","kvinnor",980,939,936,942,943,908,978,976,1024,1097,1111
+"03 Uppsala län","K finans- och försäkringsverksamhet","män",675,653,678,640,668,655,659,688,713,798,722
+"03 Uppsala län","K finans- och försäkringsverksamhet","kvinnor",967,877,858,838,843,814,790,809,890,891,824
+"03 Uppsala län","L fastighetsverksamhet","män",1295,1337,1369,1422,1452,1453,1450,1536,1503,1503,1593
+"03 Uppsala län","L fastighetsverksamhet","kvinnor",736,737,741,802,856,932,914,953,1019,1085,1127
+"03 Uppsala län","M+N företagstjänster","män",10149,10403,8931,9726,9530,9805,10006,10248,10463,10983,11030
+"03 Uppsala län","M+N företagstjänster","kvinnor",9149,9356,7579,7819,7721,7943,7980,8273,8622,8764,9040
+"03 Uppsala län","O offentlig förvaltning och försvar","män",3725,3559,3644,4462,4525,4777,4843,4777,4965,5025,5212
+"03 Uppsala län","O offentlig förvaltning och försvar","kvinnor",4394,4331,4247,4496,4834,4845,5078,5169,5645,5959,6266
+"03 Uppsala län","P utbildning ","män",3445,3450,5658,5410,5646,5724,5800,5918,6023,6272,6292
+"03 Uppsala län","P utbildning ","kvinnor",11333,11148,13929,14087,14535,14271,14263,14722,15264,15782,16092
+"03 Uppsala län","Q vård och omsorg; sociala tjänster","män",5135,5179,5443,5625,5769,6198,6470,7062,7670,7655,7638
+"03 Uppsala län","Q vård och omsorg; sociala tjänster","kvinnor",20926,20701,21401,21630,21970,22548,22797,23364,23946,23832,23806
+"03 Uppsala län","R+S+T+U kulturella och personliga tjänster m.m.","män",2415,2387,2540,2637,2735,2825,2801,2775,2801,2867,2876
+"03 Uppsala län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",3572,3631,3717,3842,3928,4125,4165,4257,4241,4225,4212
+"03 Uppsala län","00 okänd verksamhet","män",719,635,549,591,604,543,639,559,458,534,788
+"03 Uppsala län","00 okänd verksamhet","kvinnor",784,716,692,808,886,814,922,831,738,833,984
+"04 Södermanlands län","A jordbruk, skogsbruk och fiske","män",1844,1889,1929,2207,2154,2116,2083,2017,1952,1981,1877
+"04 Södermanlands län","A jordbruk, skogsbruk och fiske","kvinnor",544,531,597,699,673,685,693,665,643,670,632
+"04 Södermanlands län","B+C tillverkning och utvinning","män",16174,13648,13968,14316,13784,13572,13199,12799,12563,12368,12522
+"04 Södermanlands län","B+C tillverkning och utvinning","kvinnor",5109,4371,4311,4393,4166,4081,4034,3875,3745,3635,3706
+"04 Södermanlands län","D+E energiförsörjning; miljöverksamhet","män",802,884,860,858,907,935,928,967,1037,1073,1048
+"04 Södermanlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",289,300,266,251,246,239,231,256,296,305,279
+"04 Södermanlands län","F byggverksamhet","män",7910,7655,8022,8420,8321,8306,8352,8701,8821,9263,9572
+"04 Södermanlands län","F byggverksamhet","kvinnor",538,518,556,574,642,633,635,682,678,711,777
+"04 Södermanlands län","G handel","män",6836,6486,6738,6976,6940,6839,6805,6783,6905,7004,7073
+"04 Södermanlands län","G handel","kvinnor",5716,5562,5721,5721,5709,5688,5661,5466,5518,5570,5661
+"04 Södermanlands län","H transport och magasinering","män",3814,3576,3578,3695,3674,3758,3680,3684,3726,3717,3836
+"04 Södermanlands län","H transport och magasinering","kvinnor",1060,982,941,950,935,929,863,846,818,804,844
+"04 Södermanlands län","I hotell- och restaurangverksamhet","män",1173,1175,1289,1343,1423,1472,1549,1657,1647,1726,1777
+"04 Södermanlands län","I hotell- och restaurangverksamhet","kvinnor",1740,1684,1688,1757,1830,1879,1919,1998,2010,1972,1981
+"04 Södermanlands län","J information och kommunikation","män",1165,1110,1084,1084,1114,1112,1048,999,984,1109,1106
+"04 Södermanlands län","J information och kommunikation","kvinnor",564,530,518,522,513,501,470,459,507,584,534
+"04 Södermanlands län","K finans- och försäkringsverksamhet","män",457,440,434,442,445,451,439,428,407,392,407
+"04 Södermanlands län","K finans- och försäkringsverksamhet","kvinnor",781,760,747,744,720,716,695,680,639,628,656
+"04 Södermanlands län","L fastighetsverksamhet","män",1156,1212,1227,1219,1240,1251,1270,1298,1352,1294,1327
+"04 Södermanlands län","L fastighetsverksamhet","kvinnor",839,858,894,893,924,954,971,1019,997,1018,1083
+"04 Södermanlands län","M+N företagstjänster","män",4537,4478,4954,5503,5614,5815,5809,5907,6008,6350,6549
+"04 Södermanlands län","M+N företagstjänster","kvinnor",3525,3545,4081,4412,4557,4477,4269,4360,4438,4546,4552
+"04 Södermanlands län","O offentlig förvaltning och försvar","män",2410,2448,2459,2459,2458,2533,2543,2528,2534,2616,2740
+"04 Södermanlands län","O offentlig förvaltning och försvar","kvinnor",3242,3146,3150,3276,3334,3491,3583,3611,3751,3979,4177
+"04 Södermanlands län","P utbildning ","män",2833,2769,2880,2953,3067,3197,3129,3200,3456,3614,3592
+"04 Södermanlands län","P utbildning ","kvinnor",9247,9046,9316,9341,9529,9871,10009,10135,10616,11181,11294
+"04 Södermanlands län","Q vård och omsorg; sociala tjänster","män",3503,3598,3503,3575,3617,3893,4080,4374,4668,4744,4807
+"04 Södermanlands län","Q vård och omsorg; sociala tjänster","kvinnor",17006,16687,16971,17201,17409,17833,18205,18652,18908,18907,18773
+"04 Södermanlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",1758,1738,1715,1776,1833,1933,1937,1933,2009,1982,2018
+"04 Södermanlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2739,2717,2695,2819,2919,3007,3018,3009,3046,2997,3006
+"04 Södermanlands län","00 okänd verksamhet","män",739,727,721,678,672,666,693,753,750,816,673
+"04 Södermanlands län","00 okänd verksamhet","kvinnor",1520,1460,1344,1142,1042,1030,995,1110,1177,1196,942
+"05 Östergötlands län","A jordbruk, skogsbruk och fiske","män",3475,3587,3697,4190,4111,4121,4080,3981,3859,3795,3691
+"05 Östergötlands län","A jordbruk, skogsbruk och fiske","kvinnor",714,748,821,1033,1068,1105,1119,1076,1062,1071,1047
+"05 Östergötlands län","B+C tillverkning och utvinning","män",26975,24673,24441,24677,24214,23984,23388,23398,22995,23161,23557
+"05 Östergötlands län","B+C tillverkning och utvinning","kvinnor",7323,6655,6529,6475,6486,6401,6161,6162,5966,6048,6230
+"05 Östergötlands län","D+E energiförsörjning; miljöverksamhet","män",1359,1351,1388,1395,1383,1426,1494,1472,1529,1546,1623
+"05 Östergötlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",388,402,398,393,401,397,434,424,468,482,558
+"05 Östergötlands län","F byggverksamhet","män",11471,11476,11903,12248,12292,12478,12812,13268,13860,14202,14292
+"05 Östergötlands län","F byggverksamhet","kvinnor",850,838,967,962,1019,989,979,1049,1141,1185,1214
+"05 Östergötlands län","G handel","män",11823,11632,11938,12037,12082,12349,12319,12427,12239,12508,12751
+"05 Östergötlands län","G handel","kvinnor",9490,9186,9575,9411,9567,9658,9537,9468,9486,9428,9452
+"05 Östergötlands län","H transport och magasinering","män",6745,6507,6498,6687,7033,6865,6723,6802,6823,7023,7215
+"05 Östergötlands län","H transport och magasinering","kvinnor",1820,1722,1735,1805,1907,1817,1874,1815,1817,1885,1979
+"05 Östergötlands län","I hotell- och restaurangverksamhet","män",2069,2076,2183,2323,2450,2599,2682,2782,2892,3012,3052
+"05 Östergötlands län","I hotell- och restaurangverksamhet","kvinnor",2731,2769,2928,2978,3188,3354,3320,3408,3548,3476,3332
+"05 Östergötlands län","J information och kommunikation","män",4301,4359,4289,4402,4637,4867,4993,4973,5851,6014,6291
+"05 Östergötlands län","J information och kommunikation","kvinnor",1621,1604,1554,1580,1629,1707,1746,1677,1907,1943,2008
+"05 Östergötlands län","K finans- och försäkringsverksamhet","män",1041,1063,1069,1042,966,977,967,1029,974,966,909
+"05 Östergötlands län","K finans- och försäkringsverksamhet","kvinnor",1311,1278,1323,1282,1260,1253,1228,1292,1241,1242,1216
+"05 Östergötlands län","L fastighetsverksamhet","män",1885,1928,1891,1988,2033,2073,2054,2130,2190,2256,2322
+"05 Östergötlands län","L fastighetsverksamhet","kvinnor",984,1009,1058,1092,1184,1213,1231,1295,1335,1341,1330
+"05 Östergötlands län","M+N företagstjänster","män",10939,10480,11124,11999,12346,12349,12725,12933,13763,14080,14913
+"05 Östergötlands län","M+N företagstjänster","kvinnor",8314,7926,8332,8655,8899,8804,9079,9436,9959,9695,10249
+"05 Östergötlands län","O offentlig förvaltning och försvar","män",4644,4536,4670,4704,4544,4665,4767,5185,5189,5689,5824
+"05 Östergötlands län","O offentlig förvaltning och försvar","kvinnor",5559,5715,5651,5735,5720,5826,6006,6592,6965,7584,7833
+"05 Östergötlands län","P utbildning ","män",5617,5656,5819,5903,6027,6141,6233,6272,6415,6540,6310
+"05 Östergötlands län","P utbildning ","kvinnor",15347,15322,15669,15882,16080,16356,16626,17222,17835,18525,18572
+"05 Östergötlands län","Q vård och omsorg; sociala tjänster","män",5120,5185,5352,5456,5636,5935,6253,6470,7067,7137,7204
+"05 Östergötlands län","Q vård och omsorg; sociala tjänster","kvinnor",26928,26355,27004,27181,27806,28511,28929,29492,30277,30136,30116
+"05 Östergötlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",3186,3211,3321,3416,3413,3650,3620,3604,3688,3639,3611
+"05 Östergötlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",4377,4333,4509,4714,4774,4938,4939,5004,5023,4977,5043
+"05 Östergötlands län","00 okänd verksamhet","män",903,819,783,832,734,773,849,769,721,902,835
+"05 Östergötlands län","00 okänd verksamhet","kvinnor",870,826,919,1111,1008,939,1014,981,982,1320,1199
+"06 Jönköpings län","A jordbruk, skogsbruk och fiske","män",2977,3035,3196,3986,3911,3919,3913,3860,3723,3748,3760
+"06 Jönköpings län","A jordbruk, skogsbruk och fiske","kvinnor",680,696,738,1203,1220,1202,1196,1206,1111,1184,1073
+"06 Jönköpings län","B+C tillverkning och utvinning","män",32686,28716,29455,29914,29312,28456,28475,28873,29388,29900,30223
+"06 Jönköpings län","B+C tillverkning och utvinning","kvinnor",12338,10368,10618,10791,10752,10425,10305,10289,10377,10616,10646
+"06 Jönköpings län","D+E energiförsörjning; miljöverksamhet","män",1056,1101,1108,1097,1098,1169,1174,1184,1139,1407,1330
+"06 Jönköpings län","D+E energiförsörjning; miljöverksamhet","kvinnor",225,221,231,234,255,268,278,279,277,343,321
+"06 Jönköpings län","F byggverksamhet","män",8684,8659,8899,9264,9248,9154,9086,9305,9678,9804,10043
+"06 Jönköpings län","F byggverksamhet","kvinnor",679,680,691,726,759,722,731,754,750,756,813
+"06 Jönköpings län","G handel","män",11519,11091,11544,11738,11778,11774,11993,11871,11867,11884,12111
+"06 Jönköpings län","G handel","kvinnor",8624,8310,8614,8630,8691,8641,8690,8532,8679,8755,8811
+"06 Jönköpings län","H transport och magasinering","män",7196,6967,7061,7317,7135,7219,7186,7410,7377,7718,8012
+"06 Jönköpings län","H transport och magasinering","kvinnor",2325,2128,2166,2190,2051,1964,1850,1990,1981,2186,2391
+"06 Jönköpings län","I hotell- och restaurangverksamhet","män",1415,1464,1553,1609,1743,1736,1847,1972,1982,2061,2135
+"06 Jönköpings län","I hotell- och restaurangverksamhet","kvinnor",2134,2129,2258,2230,2320,2451,2500,2598,2596,2598,2501
+"06 Jönköpings län","J information och kommunikation","män",1916,1944,1916,1965,1989,1995,1978,1968,2094,2198,2208
+"06 Jönköpings län","J information och kommunikation","kvinnor",786,766,765,728,724,700,663,662,693,747,701
+"06 Jönköpings län","K finans- och försäkringsverksamhet","män",646,605,579,582,620,593,603,576,542,542,483
+"06 Jönköpings län","K finans- och försäkringsverksamhet","kvinnor",718,669,670,665,638,626,622,607,587,575,530
+"06 Jönköpings län","L fastighetsverksamhet","män",1556,1351,1350,1350,1370,1569,1458,1454,1540,1523,1538
+"06 Jönköpings län","L fastighetsverksamhet","kvinnor",702,663,634,636,628,725,678,654,767,810,820
+"06 Jönköpings län","M+N företagstjänster","män",5766,5364,6296,6776,6858,7118,7452,7861,8478,8764,8975
+"06 Jönköpings län","M+N företagstjänster","kvinnor",4845,4554,4850,4920,5149,5329,5474,5796,5962,6115,6289
+"06 Jönköpings län","O offentlig förvaltning och försvar","män",3407,3425,3371,3493,3470,3712,3653,3667,3780,3832,4094
+"06 Jönköpings län","O offentlig förvaltning och försvar","kvinnor",3984,4007,4137,4133,4244,4376,4554,4660,4837,5012,5361
+"06 Jönköpings län","P utbildning ","män",3409,3383,3598,3571,3539,3525,3610,3720,4114,4215,4300
+"06 Jönköpings län","P utbildning ","kvinnor",12158,11927,12315,12595,12498,12661,12650,13211,13943,14296,14541
+"06 Jönköpings län","Q vård och omsorg; sociala tjänster","män",4088,4135,4215,4343,4557,4649,4964,5158,5580,5723,5588
+"06 Jönköpings län","Q vård och omsorg; sociala tjänster","kvinnor",24533,24244,24764,24430,24722,24941,25103,25300,25938,25718,25330
+"06 Jönköpings län","R+S+T+U kulturella och personliga tjänster m.m.","män",2333,2346,2272,2318,2465,2514,2416,2462,2513,2500,2504
+"06 Jönköpings län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",3080,3061,3120,3148,3190,3308,3266,3204,3341,3386,3429
+"06 Jönköpings län","00 okänd verksamhet","män",841,764,700,722,674,673,711,697,672,735,763
+"06 Jönköpings län","00 okänd verksamhet","kvinnor",1037,962,1004,1049,1110,1059,1089,1073,1019,1229,1393
+"07 Kronobergs län","A jordbruk, skogsbruk och fiske","män",2089,2224,2297,2836,2687,2686,2752,2735,2595,2583,2435
+"07 Kronobergs län","A jordbruk, skogsbruk och fiske","kvinnor",538,584,599,891,772,768,795,831,741,800,702
+"07 Kronobergs län","B+C tillverkning och utvinning","män",17404,15064,15357,15709,15124,14232,14028,13906,14025,14578,14735
+"07 Kronobergs län","B+C tillverkning och utvinning","kvinnor",4778,4136,4139,4157,4033,3745,3660,3454,3480,3528,3640
+"07 Kronobergs län","D+E energiförsörjning; miljöverksamhet","män",426,406,432,462,473,465,454,437,459,472,465
+"07 Kronobergs län","D+E energiförsörjning; miljöverksamhet","kvinnor",105,103,109,111,105,101,98,101,114,114,111
+"07 Kronobergs län","F byggverksamhet","män",5026,4922,5030,5147,5279,5186,5226,5246,5440,5563,5795
+"07 Kronobergs län","F byggverksamhet","kvinnor",450,432,437,443,470,432,454,437,470,508,548
+"07 Kronobergs län","G handel","män",6298,6105,6060,6107,6252,6244,6456,6675,6686,6707,6807
+"07 Kronobergs län","G handel","kvinnor",5136,4818,4906,4843,5049,5164,5200,5422,5418,5394,5315
+"07 Kronobergs län","H transport och magasinering","män",3773,3633,3715,3684,3684,3653,3742,3769,3854,3878,3916
+"07 Kronobergs län","H transport och magasinering","kvinnor",1097,1009,1015,1056,1099,1078,1053,1037,1029,1022,1069
+"07 Kronobergs län","I hotell- och restaurangverksamhet","män",745,777,842,846,917,950,978,981,1041,1138,1143
+"07 Kronobergs län","I hotell- och restaurangverksamhet","kvinnor",1186,1166,1267,1249,1320,1312,1290,1341,1378,1403,1350
+"07 Kronobergs län","J information och kommunikation","män",1728,1685,1700,2027,2063,2098,2059,2025,2140,2279,2326
+"07 Kronobergs län","J information och kommunikation","kvinnor",1015,1019,983,1176,1182,1108,1129,1130,1135,1191,1214
+"07 Kronobergs län","K finans- och försäkringsverksamhet","män",566,582,592,601,623,636,601,571,492,501,408
+"07 Kronobergs län","K finans- och försäkringsverksamhet","kvinnor",668,652,635,624,614,615,616,587,501,444,435
+"07 Kronobergs län","L fastighetsverksamhet","män",682,753,703,752,759,801,800,801,813,789,834
+"07 Kronobergs län","L fastighetsverksamhet","kvinnor",351,359,363,376,382,384,392,444,501,497,492
+"07 Kronobergs län","M+N företagstjänster","män",3769,3631,3994,4128,3919,4211,4546,4925,5062,5434,5774
+"07 Kronobergs län","M+N företagstjänster","kvinnor",3199,2937,3066,3080,2922,2992,3297,3728,3920,4119,4233
+"07 Kronobergs län","O offentlig förvaltning och försvar","män",1368,1414,1443,1399,1414,1444,1455,1482,1589,1590,1715
+"07 Kronobergs län","O offentlig förvaltning och försvar","kvinnor",2042,2117,2161,2172,2173,2227,2285,2368,2545,2650,2815
+"07 Kronobergs län","P utbildning ","män",2198,2189,2203,2154,2190,2246,2351,2445,2624,2716,2779
+"07 Kronobergs län","P utbildning ","kvinnor",6889,6743,6767,6828,6908,6963,7095,7257,7592,7965,8123
+"07 Kronobergs län","Q vård och omsorg; sociala tjänster","män",2334,2424,2455,2514,2718,2824,2929,3044,3319,3403,3390
+"07 Kronobergs län","Q vård och omsorg; sociala tjänster","kvinnor",12836,12599,12892,12904,13339,13345,13453,13605,13852,13591,13577
+"07 Kronobergs län","R+S+T+U kulturella och personliga tjänster m.m.","män",1451,1453,1394,1419,1556,1690,1656,1564,1535,1523,1453
+"07 Kronobergs län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",1813,1845,1818,1825,1974,2026,2026,2004,2005,2020,1986
+"07 Kronobergs län","00 okänd verksamhet","män",713,607,663,673,611,667,574,651,667,789,772
+"07 Kronobergs län","00 okänd verksamhet","kvinnor",1317,1174,1217,1279,1035,995,892,970,1086,1341,1300
+"08 Kalmar län","A jordbruk, skogsbruk och fiske","män",3252,3387,3513,4107,4026,3985,3982,3910,3804,3816,3660
+"08 Kalmar län","A jordbruk, skogsbruk och fiske","kvinnor",699,737,782,1075,1051,1068,1082,1055,952,1028,964
+"08 Kalmar län","B+C tillverkning och utvinning","män",17754,15570,15935,15991,15304,14848,14940,14910,14668,14977,15262
+"08 Kalmar län","B+C tillverkning och utvinning","kvinnor",5275,4572,4753,4749,4559,4379,4313,4252,4230,4412,4452
+"08 Kalmar län","D+E energiförsörjning; miljöverksamhet","män",1682,1697,1686,1649,1626,1661,1688,1734,1643,1591,1552
+"08 Kalmar län","D+E energiförsörjning; miljöverksamhet","kvinnor",393,405,403,411,423,444,470,460,457,435,442
+"08 Kalmar län","F byggverksamhet","män",6415,6488,6631,6832,6787,6760,6740,6813,6910,6896,7238
+"08 Kalmar län","F byggverksamhet","kvinnor",500,458,476,471,488,498,561,531,568,541,605
+"08 Kalmar län","G handel","män",5610,5411,5547,5596,5595,5659,5535,5574,5689,5850,5850
+"08 Kalmar län","G handel","kvinnor",5381,5138,5264,5121,5259,5166,5096,5129,5268,5137,5047
+"08 Kalmar län","H transport och magasinering","män",3785,3737,3741,3737,3698,3638,3526,3442,3527,3546,3593
+"08 Kalmar län","H transport och magasinering","kvinnor",817,788,788,792,803,787,720,718,751,774,781
+"08 Kalmar län","I hotell- och restaurangverksamhet","män",1205,1232,1280,1315,1386,1443,1450,1528,1622,1642,1659
+"08 Kalmar län","I hotell- och restaurangverksamhet","kvinnor",1671,1715,1770,1738,1830,1913,1859,1856,1941,1864,1853
+"08 Kalmar län","J information och kommunikation","män",1237,1144,1076,1097,1060,1055,1027,1066,1105,1165,1194
+"08 Kalmar län","J information och kommunikation","kvinnor",703,673,637,655,600,526,476,459,478,452,429
+"08 Kalmar län","K finans- och försäkringsverksamhet","män",426,419,421,443,456,444,441,437,425,393,390
+"08 Kalmar län","K finans- och försäkringsverksamhet","kvinnor",580,529,531,537,538,530,518,509,483,491,478
+"08 Kalmar län","L fastighetsverksamhet","män",929,1006,1012,1016,1079,1099,1073,1123,1158,1173,1120
+"08 Kalmar län","L fastighetsverksamhet","kvinnor",476,505,543,542,580,582,568,614,602,545,589
+"08 Kalmar län","M+N företagstjänster","män",3910,3904,4273,4560,4648,5055,5164,5263,5606,5762,5438
+"08 Kalmar län","M+N företagstjänster","kvinnor",3201,3279,3456,3466,3440,3724,3705,3750,3774,3871,3806
+"08 Kalmar län","O offentlig förvaltning och försvar","män",2119,2151,2130,2113,2171,2189,2226,2195,2279,2403,2563
+"08 Kalmar län","O offentlig förvaltning och försvar","kvinnor",2720,2747,2791,2835,3008,3069,3194,3147,3354,3554,3808
+"08 Kalmar län","P utbildning ","män",2767,2701,2622,2591,2673,2612,2646,2705,2944,2900,2880
+"08 Kalmar län","P utbildning ","kvinnor",8404,8162,8197,8194,8282,8295,8403,8488,9136,9113,9217
+"08 Kalmar län","Q vård och omsorg; sociala tjänster","män",2844,2962,3029,3081,3155,3312,3503,3675,3870,3933,3985
+"08 Kalmar län","Q vård och omsorg; sociala tjänster","kvinnor",16325,16344,16646,16726,16661,16671,16840,17030,17181,17185,17046
+"08 Kalmar län","R+S+T+U kulturella och personliga tjänster m.m.","män",1610,1629,1651,1666,1728,1792,1768,1767,1786,1755,1801
+"08 Kalmar län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2126,2055,2140,2191,2214,2344,2355,2384,2424,2417,2449
+"08 Kalmar län","00 okänd verksamhet","män",881,778,774,753,723,694,712,759,727,754,793
+"08 Kalmar län","00 okänd verksamhet","kvinnor",1140,934,1057,1087,1143,1174,1181,1208,1191,1147,1033
+"09 Gotlands län","A jordbruk, skogsbruk och fiske","män",1244,1245,1286,1439,1436,1436,1437,1389,1360,1359,1273
+"09 Gotlands län","A jordbruk, skogsbruk och fiske","kvinnor",236,263,278,340,356,366,383,355,353,347,358
+"09 Gotlands län","B+C tillverkning och utvinning","män",1537,1374,1469,1502,1488,1444,1395,1383,1433,1398,1465
+"09 Gotlands län","B+C tillverkning och utvinning","kvinnor",399,363,398,382,393,384,378,377,387,380,383
+"09 Gotlands län","D+E energiförsörjning; miljöverksamhet","män",121,127,135,129,242,141,123,121,113,201,192
+"09 Gotlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",21,22,21,22,43,26,24,39,35,51,55
+"09 Gotlands län","F byggverksamhet","män",2014,2066,2097,2228,2232,2230,2205,2279,2309,2336,2396
+"09 Gotlands län","F byggverksamhet","kvinnor",144,153,156,186,183,171,175,168,164,172,186
+"09 Gotlands län","G handel","män",1305,1306,1320,1331,1317,1313,1410,1393,1361,1388,1398
+"09 Gotlands län","G handel","kvinnor",1134,1146,1154,1171,1198,1186,1196,1197,1223,1207,1189
+"09 Gotlands län","H transport och magasinering","män",931,926,945,976,957,924,926,931,934,936,959
+"09 Gotlands län","H transport och magasinering","kvinnor",293,298,279,284,285,273,279,263,270,273,277
+"09 Gotlands län","I hotell- och restaurangverksamhet","män",535,512,584,552,593,609,664,679,660,693,738
+"09 Gotlands län","I hotell- och restaurangverksamhet","kvinnor",627,629,666,634,682,730,739,806,814,799,802
+"09 Gotlands län","J information och kommunikation","män",253,253,237,259,256,258,245,254,259,269,266
+"09 Gotlands län","J information och kommunikation","kvinnor",116,105,101,104,109,107,114,98,111,110,114
+"09 Gotlands län","K finans- och försäkringsverksamhet","män",277,272,295,297,267,276,267,270,261,273,284
+"09 Gotlands län","K finans- och försäkringsverksamhet","kvinnor",379,367,404,382,359,378,356,347,313,328,343
+"09 Gotlands län","L fastighetsverksamhet","män",302,294,295,306,324,297,271,267,331,315,317
+"09 Gotlands län","L fastighetsverksamhet","kvinnor",130,128,119,134,135,133,93,113,123,127,126
+"09 Gotlands län","M+N företagstjänster","män",919,942,944,1004,896,1014,1018,1053,1054,1072,1065
+"09 Gotlands län","M+N företagstjänster","kvinnor",806,799,822,818,788,774,775,765,762,753,741
+"09 Gotlands län","O offentlig förvaltning och försvar","män",915,947,912,943,911,891,949,962,979,1151,1293
+"09 Gotlands län","O offentlig förvaltning och försvar","kvinnor",1306,1224,1256,1350,1310,1308,1380,1403,1520,1560,1704
+"09 Gotlands län","P utbildning ","män",803,806,748,735,704,677,678,715,727,737,736
+"09 Gotlands län","P utbildning ","kvinnor",2120,2146,2048,1989,2044,2055,2040,2095,2098,2155,2129
+"09 Gotlands län","Q vård och omsorg; sociala tjänster","män",843,830,843,846,864,886,910,974,1024,989,992
+"09 Gotlands län","Q vård och omsorg; sociala tjänster","kvinnor",3860,3713,3724,3811,3825,3794,3849,3919,3936,3914,3967
+"09 Gotlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",768,791,802,845,837,817,802,806,817,806,808
+"09 Gotlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",812,822,867,878,857,827,858,877,869,841,884
+"09 Gotlands län","00 okänd verksamhet","män",280,269,250,263,239,269,248,250,228,272,266
+"09 Gotlands län","00 okänd verksamhet","kvinnor",434,491,555,604,587,606,597,531,512,561,516
+"10 Blekinge län","A jordbruk, skogsbruk och fiske","män",1356,1341,1386,1694,1651,1675,1670,1604,1553,1541,1497
+"10 Blekinge län","A jordbruk, skogsbruk och fiske","kvinnor",238,279,315,426,421,451,457,439,397,398,382
+"10 Blekinge län","B+C tillverkning och utvinning","män",11360,9944,10014,10336,10009,9954,9826,9795,9361,9634,9508
+"10 Blekinge län","B+C tillverkning och utvinning","kvinnor",2870,2471,2444,2494,2432,2447,2416,2398,2239,2369,2321
+"10 Blekinge län","D+E energiförsörjning; miljöverksamhet","män",652,633,629,643,647,639,616,609,610,608,624
+"10 Blekinge län","D+E energiförsörjning; miljöverksamhet","kvinnor",182,174,187,190,185,177,166,165,179,184,180
+"10 Blekinge län","F byggverksamhet","män",3939,3797,3907,4009,3962,3978,3947,4120,4193,4353,4281
+"10 Blekinge län","F byggverksamhet","kvinnor",342,310,318,344,353,305,297,324,320,356,354
+"10 Blekinge län","G handel","män",3092,3017,3067,3111,3034,2995,2988,2937,3044,3035,3147
+"10 Blekinge län","G handel","kvinnor",2759,2682,2662,2681,2699,2598,2567,2610,2620,2612,2552
+"10 Blekinge län","H transport och magasinering","män",2005,1935,1890,1886,1844,1817,1849,1825,1800,1961,2059
+"10 Blekinge län","H transport och magasinering","kvinnor",467,436,445,449,426,405,462,447,464,470,478
+"10 Blekinge län","I hotell- och restaurangverksamhet","män",606,648,694,678,702,730,759,845,826,902,931
+"10 Blekinge län","I hotell- och restaurangverksamhet","kvinnor",784,877,961,964,989,993,995,1015,1029,996,959
+"10 Blekinge län","J information och kommunikation","män",1382,1341,1299,1334,1291,1284,1296,1315,1952,1975,1959
+"10 Blekinge län","J information och kommunikation","kvinnor",785,741,708,692,678,629,617,616,734,693,637
+"10 Blekinge län","K finans- och försäkringsverksamhet","män",219,231,227,198,209,203,207,201,187,190,203
+"10 Blekinge län","K finans- och försäkringsverksamhet","kvinnor",355,331,330,312,306,302,306,292,296,291,299
+"10 Blekinge län","L fastighetsverksamhet","män",679,703,719,694,696,708,692,744,715,737,730
+"10 Blekinge län","L fastighetsverksamhet","kvinnor",282,286,284,287,294,303,276,291,286,303,302
+"10 Blekinge län","M+N företagstjänster","män",3060,2912,2826,3080,3286,3247,3151,3320,3558,3638,3633
+"10 Blekinge län","M+N företagstjänster","kvinnor",2574,2587,2497,2597,2969,2768,2734,2723,2887,2914,2818
+"10 Blekinge län","O offentlig förvaltning och försvar","män",3686,3591,3725,3626,3494,3549,3455,3421,3534,3615,3633
+"10 Blekinge län","O offentlig förvaltning och försvar","kvinnor",2357,2427,2594,2488,2534,2689,2606,2601,2473,2614,2703
+"10 Blekinge län","P utbildning ","män",1718,1717,1714,1690,1652,1662,1735,1796,2029,2073,2100
+"10 Blekinge län","P utbildning ","kvinnor",5470,5306,5423,5404,5337,5429,5483,5590,6038,6116,6123
+"10 Blekinge län","Q vård och omsorg; sociala tjänster","män",1642,1570,1641,1647,1674,1837,2062,2193,2546,2584,2577
+"10 Blekinge län","Q vård och omsorg; sociala tjänster","kvinnor",10715,10279,10500,10417,10228,10589,10822,11027,11533,11429,11365
+"10 Blekinge län","R+S+T+U kulturella och personliga tjänster m.m.","män",942,981,984,979,1069,1114,1083,1058,1048,1013,1036
+"10 Blekinge län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",1287,1268,1326,1323,1345,1371,1339,1343,1371,1359,1393
+"10 Blekinge län","00 okänd verksamhet","män",394,406,379,408,445,501,505,455,450,568,549
+"10 Blekinge län","00 okänd verksamhet","kvinnor",539,543,474,570,568,594,682,674,651,769,778
+"12 Skåne län","A jordbruk, skogsbruk och fiske","män",7946,7965,8277,9420,9416,9407,9336,9115,8775,8748,8370
+"12 Skåne län","A jordbruk, skogsbruk och fiske","kvinnor",2513,2524,2648,3086,3184,3253,3307,3343,3279,3391,3278
+"12 Skåne län","B+C tillverkning och utvinning","män",53576,48770,47494,47064,45882,44501,44294,43393,42950,42603,42674
+"12 Skåne län","B+C tillverkning och utvinning","kvinnor",19177,17449,16712,16153,15567,15114,15312,14734,14621,14518,14535
+"12 Skåne län","D+E energiförsörjning; miljöverksamhet","män",3952,3849,3830,4040,4073,4052,4166,4252,4291,4242,4365
+"12 Skåne län","D+E energiförsörjning; miljöverksamhet","kvinnor",1306,1312,1294,1368,1406,1374,1409,1421,1482,1526,1588
+"12 Skåne län","F byggverksamhet","män",34712,33239,34867,36648,36454,36021,36252,37268,38606,39788,41048
+"12 Skåne län","F byggverksamhet","kvinnor",3194,3022,3143,3454,3554,3491,3570,3749,3946,4165,4550
+"12 Skåne län","G handel","män",41380,40023,41481,43486,43870,44092,43943,44875,45843,46449,47013
+"12 Skåne län","G handel","kvinnor",32611,31935,33222,33534,34039,34377,33757,34567,34894,35140,35535
+"12 Skåne län","H transport och magasinering","män",22322,21530,22073,22316,21943,22115,22076,22098,22223,22645,23035
+"12 Skåne län","H transport och magasinering","kvinnor",6580,6284,6315,6391,6181,6189,6105,6017,6063,6152,6273
+"12 Skåne län","I hotell- och restaurangverksamhet","män",6635,6829,7347,7493,8051,8513,8696,9077,9235,9695,9857
+"12 Skåne län","I hotell- och restaurangverksamhet","kvinnor",7938,8205,8805,8618,9140,9236,9162,9548,9873,9804,9737
+"12 Skåne län","J information och kommunikation","män",12071,12918,12582,12701,12817,12985,13326,13511,14601,15535,16337
+"12 Skåne län","J information och kommunikation","kvinnor",5235,5223,5159,5241,5213,5207,5114,5156,5389,5531,5787
+"12 Skåne län","K finans- och försäkringsverksamhet","män",3656,3602,3654,3686,3620,3724,3824,3824,3874,3857,3964
+"12 Skåne län","K finans- och försäkringsverksamhet","kvinnor",4418,4189,4125,4033,4016,4095,4114,4093,4153,4064,4137
+"12 Skåne län","L fastighetsverksamhet","män",5415,5487,5465,5655,5769,6023,6189,6353,6428,6698,6698
+"12 Skåne län","L fastighetsverksamhet","kvinnor",3251,3204,3368,3517,3569,3621,3851,4043,4131,4377,4377
+"12 Skåne län","M+N företagstjänster","män",34860,33369,35938,37305,37895,37863,38176,39452,39327,40813,41702
+"12 Skåne län","M+N företagstjänster","kvinnor",25244,24967,27192,27623,28555,28125,28235,29268,29481,30244,31078
+"12 Skåne län","O offentlig förvaltning och försvar","män",10894,10821,10803,11121,11204,11810,11668,11531,11811,12231,13077
+"12 Skåne län","O offentlig förvaltning och försvar","kvinnor",14352,14297,14727,15479,15757,16416,16281,16720,17749,18836,20701
+"12 Skåne län","P utbildning ","män",14091,14244,14606,15244,15790,16517,17016,17421,18744,19208,19742
+"12 Skåne län","P utbildning ","kvinnor",43556,42928,43910,45061,46025,47288,48091,49186,51221,52803,53179
+"12 Skåne län","Q vård och omsorg; sociala tjänster","män",14296,14549,14930,15336,15726,16519,17513,18902,20642,20632,20812
+"12 Skåne län","Q vård och omsorg; sociala tjänster","kvinnor",73363,72708,73359,73840,75023,76025,77800,79774,82361,81864,81417
+"12 Skåne län","R+S+T+U kulturella och personliga tjänster m.m.","män",9401,9616,9592,10024,10420,10733,10914,10978,11122,11145,11080
+"12 Skåne län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",12405,12767,13089,13391,13965,14266,14564,14710,14891,15217,15031
+"12 Skåne län","00 okänd verksamhet","män",2662,2322,2651,2706,2768,2740,2900,2826,2567,2733,2492
+"12 Skåne län","00 okänd verksamhet","kvinnor",3677,3421,4936,5043,5013,4838,4599,4617,4243,4451,4080
+"13 Hallands län","A jordbruk, skogsbruk och fiske","män",2753,2793,2866,3494,3368,3315,3272,3207,3090,3137,3030
+"13 Hallands län","A jordbruk, skogsbruk och fiske","kvinnor",727,789,843,1058,1036,1037,1045,1033,975,1034,997
+"13 Hallands län","B+C tillverkning och utvinning","män",14686,13243,13176,13485,13193,12569,12248,12426,12286,12447,12539
+"13 Hallands län","B+C tillverkning och utvinning","kvinnor",4469,3980,4045,4157,4071,3926,3786,3832,3860,3964,3983
+"13 Hallands län","D+E energiförsörjning; miljöverksamhet","män",2340,2366,2349,2353,2398,2367,2316,2378,2336,2289,2334
+"13 Hallands län","D+E energiförsörjning; miljöverksamhet","kvinnor",648,672,647,645,664,674,690,711,679,664,691
+"13 Hallands län","F byggverksamhet","män",8869,8894,9262,9779,9887,9929,10037,10443,10854,11190,11490
+"13 Hallands län","F byggverksamhet","kvinnor",683,681,718,746,793,793,829,846,962,1009,1031
+"13 Hallands län","G handel","män",9992,9785,10328,10714,10725,10821,11080,11058,11307,11314,11370
+"13 Hallands län","G handel","kvinnor",8963,8689,9205,9286,9518,9509,9553,9569,9686,9667,9890
+"13 Hallands län","H transport och magasinering","män",4642,4504,4632,4755,4886,4800,4745,4598,4743,4815,4775
+"13 Hallands län","H transport och magasinering","kvinnor",1147,1018,1043,1129,1316,1329,1296,1229,1280,1297,1325
+"13 Hallands län","I hotell- och restaurangverksamhet","män",1434,1479,1621,1667,1776,1859,1915,2017,2124,2196,2260
+"13 Hallands län","I hotell- och restaurangverksamhet","kvinnor",2274,2474,2577,2477,2782,2876,2908,2949,2939,2880,2890
+"13 Hallands län","J information och kommunikation","män",1149,1160,1162,1226,1221,1248,1288,1268,1292,1386,1402
+"13 Hallands län","J information och kommunikation","kvinnor",613,625,627,646,641,630,604,579,559,569,551
+"13 Hallands län","K finans- och försäkringsverksamhet","män",629,634,630,623,632,658,637,689,687,697,721
+"13 Hallands län","K finans- och försäkringsverksamhet","kvinnor",954,941,908,906,881,891,871,903,896,909,963
+"13 Hallands län","L fastighetsverksamhet","män",1137,1214,1224,1184,1214,1262,1337,1319,1375,1277,1276
+"13 Hallands län","L fastighetsverksamhet","kvinnor",663,651,681,637,670,721,812,836,943,851,845
+"13 Hallands län","M+N företagstjänster","män",5205,4980,5602,6243,6189,6204,6486,6776,6807,7313,7260
+"13 Hallands län","M+N företagstjänster","kvinnor",4138,4031,4347,4715,4731,4800,4981,5005,5093,5407,5413
+"13 Hallands län","O offentlig förvaltning och försvar","män",2228,2274,2314,2526,2476,2578,2624,2661,2668,2744,2847
+"13 Hallands län","O offentlig förvaltning och försvar","kvinnor",2907,2856,2943,3185,3221,3370,3474,3583,3661,3852,3869
+"13 Hallands län","P utbildning ","män",3439,3399,3403,3509,3535,3504,3515,3644,3849,3953,3939
+"13 Hallands län","P utbildning ","kvinnor",11420,11082,11354,11505,11688,11559,11680,12027,12456,12908,12965
+"13 Hallands län","Q vård och omsorg; sociala tjänster","män",2936,2963,3039,3086,3295,3406,3518,3707,4052,4254,4305
+"13 Hallands län","Q vård och omsorg; sociala tjänster","kvinnor",18197,18133,18361,18335,18906,19162,19397,19438,19938,20328,20153
+"13 Hallands län","R+S+T+U kulturella och personliga tjänster m.m.","män",1922,1928,1951,2013,2178,2250,2306,2303,2331,2330,2331
+"13 Hallands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2902,2919,2977,3004,3161,3319,3332,3345,3382,3359,3486
+"13 Hallands län","00 okänd verksamhet","män",859,800,741,688,752,789,760,778,765,686,730
+"13 Hallands län","00 okänd verksamhet","kvinnor",1315,1196,1230,1463,1413,1385,1396,1483,1512,1255,1326
+"14 Västra Götalands län","A jordbruk, skogsbruk och fiske","män",7982,8258,8776,10992,10848,10730,10686,10595,10358,10359,10077
+"14 Västra Götalands län","A jordbruk, skogsbruk och fiske","kvinnor",2021,2116,2247,3015,3099,3201,3191,3199,2974,3103,2992
+"14 Västra Götalands län","B+C tillverkning och utvinning","män",103375,92633,92136,92601,90256,88078,86551,87801,87789,88626,89960
+"14 Västra Götalands län","B+C tillverkning och utvinning","kvinnor",35206,31136,30826,31042,30543,29620,29016,29487,29964,29595,30678
+"14 Västra Götalands län","D+E energiförsörjning; miljöverksamhet","män",5243,5365,5455,5472,5602,5737,5855,5841,5887,6021,6106
+"14 Västra Götalands län","D+E energiförsörjning; miljöverksamhet","kvinnor",1531,1549,1559,1626,1661,1722,1788,1823,1881,1927,1947
+"14 Västra Götalands län","F byggverksamhet","män",44919,43873,45825,47681,48127,48137,49070,50400,51935,53435,54534
+"14 Västra Götalands län","F byggverksamhet","kvinnor",3716,3647,3892,4140,4321,4395,4485,4800,5129,5464,5862
+"14 Västra Götalands län","G handel","män",53763,52184,53878,54896,54921,55273,55808,56162,56942,57844,58613
+"14 Västra Götalands län","G handel","kvinnor",45451,44125,45601,45664,46329,46571,46745,46837,47434,47842,48327
+"14 Västra Götalands län","H transport och magasinering","män",31479,29891,30241,31273,31299,31369,31130,31177,31283,31881,32247
+"14 Västra Götalands län","H transport och magasinering","kvinnor",10964,10280,10291,10507,10389,10220,10038,9968,9831,9973,9995
+"14 Västra Götalands län","I hotell- och restaurangverksamhet","män",9506,9616,10235,10639,11335,12026,12444,12509,13032,13453,13483
+"14 Västra Götalands län","I hotell- och restaurangverksamhet","kvinnor",12228,12527,13161,13115,14032,14607,14914,14641,14767,14438,14161
+"14 Västra Götalands län","J information och kommunikation","män",16778,16180,16308,17115,17856,18456,18694,18771,21020,21787,23151
+"14 Västra Götalands län","J information och kommunikation","kvinnor",6941,6463,6480,6707,6756,6745,6694,6626,7348,7597,8102
+"14 Västra Götalands län","K finans- och försäkringsverksamhet","män",4371,4271,4284,4278,4300,4299,4296,4404,4586,4637,4638
+"14 Västra Götalands län","K finans- och försäkringsverksamhet","kvinnor",5903,5743,5653,5582,5561,5492,5480,5508,5541,5624,5560
+"14 Västra Götalands län","L fastighetsverksamhet","män",7141,7292,7452,7714,7771,8335,8111,8279,8413,8453,8494
+"14 Västra Götalands län","L fastighetsverksamhet","kvinnor",4188,4251,4513,4606,4563,4975,4891,5046,5223,5420,5602
+"14 Västra Götalands län","M+N företagstjänster","män",45643,43319,45504,49341,50864,51754,52705,55889,58013,62225,64370
+"14 Västra Götalands län","M+N företagstjänster","kvinnor",32967,31288,32705,34589,36613,36433,36668,38832,40113,43045,44948
+"14 Västra Götalands län","O offentlig förvaltning och försvar","män",16091,15542,16290,16926,16924,17702,18014,17815,18598,19063,19738
+"14 Västra Götalands län","O offentlig förvaltning och försvar","kvinnor",21165,21089,21758,22277,22865,23562,23928,24504,25952,27376,28980
+"14 Västra Götalands län","P utbildning ","män",17243,16980,18870,19046,19347,19887,20274,20726,22053,22702,22677
+"14 Västra Götalands län","P utbildning ","kvinnor",57164,55589,57653,58206,58702,59659,60895,61837,64622,66730,67277
+"14 Västra Götalands län","Q vård och omsorg; sociala tjänster","män",19299,19687,20369,20788,21635,22642,23464,25125,27280,27582,27279
+"14 Västra Götalands län","Q vård och omsorg; sociala tjänster","kvinnor",103201,102436,104124,104030,105913,106875,107858,110606,113555,113215,111995
+"14 Västra Götalands län","R+S+T+U kulturella och personliga tjänster m.m.","män",12748,13109,13020,13433,13800,13729,13686,13895,13898,13996,14064
+"14 Västra Götalands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",17149,17362,17866,18215,18810,19024,19030,19415,19657,19816,19838
+"14 Västra Götalands län","00 okänd verksamhet","män",3975,3799,3378,3899,4431,3655,3735,3866,3564,3413,3271
+"14 Västra Götalands län","00 okänd verksamhet","kvinnor",4165,3932,3741,5048,4850,5098,5136,5529,5308,4787,4616
+"17 Värmlands län","A jordbruk, skogsbruk och fiske","män",2493,2628,2713,3526,3516,3580,3583,3566,3427,3496,3383
+"17 Värmlands län","A jordbruk, skogsbruk och fiske","kvinnor",557,613,652,1098,1113,1155,1137,1164,1060,1135,1032
+"17 Värmlands län","B+C tillverkning och utvinning","män",17798,15196,15702,15974,15753,14802,14235,13933,14043,14104,14055
+"17 Värmlands län","B+C tillverkning och utvinning","kvinnor",4416,3820,3817,3799,3830,3651,3532,3467,3468,3444,3476
+"17 Värmlands län","D+E energiförsörjning; miljöverksamhet","män",1136,1059,1072,997,1028,1035,977,988,955,965,1033
+"17 Värmlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",204,207,196,187,190,199,200,200,206,202,224
+"17 Värmlands län","F byggverksamhet","män",7497,7257,7621,7811,7802,7950,8049,8290,8627,9212,9473
+"17 Värmlands län","F byggverksamhet","kvinnor",550,442,466,485,481,482,519,574,603,658,685
+"17 Värmlands län","G handel","män",7699,7416,7486,7697,7759,7828,7868,7891,7856,7774,7915
+"17 Värmlands län","G handel","kvinnor",6623,6329,6462,6540,6704,6699,6669,6702,6583,6524,6530
+"17 Värmlands län","H transport och magasinering","män",4246,4108,4199,4268,4096,4185,4089,4156,4234,4256,4220
+"17 Värmlands län","H transport och magasinering","kvinnor",1032,962,1064,1069,1016,1055,1012,1008,1016,1078,1113
+"17 Värmlands län","I hotell- och restaurangverksamhet","män",1181,1215,1298,1337,1398,1456,1483,1566,1674,1743,1837
+"17 Värmlands län","I hotell- och restaurangverksamhet","kvinnor",1882,1901,2074,1984,2145,2235,2124,2157,2183,2111,2115
+"17 Värmlands län","J information och kommunikation","män",1962,1907,1877,2023,2159,2106,2130,2118,2050,2114,2111
+"17 Värmlands län","J information och kommunikation","kvinnor",810,766,728,737,797,776,760,711,666,652,640
+"17 Värmlands län","K finans- och försäkringsverksamhet","män",536,545,530,505,490,496,482,477,480,474,461
+"17 Värmlands län","K finans- och försäkringsverksamhet","kvinnor",703,675,686,624,610,640,608,626,611,601,602
+"17 Värmlands län","L fastighetsverksamhet","män",1102,1197,1131,1231,1270,1385,1324,1415,1375,1384,1424
+"17 Värmlands län","L fastighetsverksamhet","kvinnor",626,560,536,611,659,704,703,726,742,773,880
+"17 Värmlands län","M+N företagstjänster","män",5480,5133,5426,5825,5810,5898,6008,6318,6358,6652,6874
+"17 Värmlands län","M+N företagstjänster","kvinnor",3910,3772,3952,4201,4274,4334,4322,4449,4451,4597,4602
+"17 Värmlands län","O offentlig förvaltning och försvar","män",2789,2993,2806,2851,2808,2757,2843,2809,2837,2857,2912
+"17 Värmlands län","O offentlig förvaltning och försvar","kvinnor",3852,3904,3997,4096,4157,4198,4305,4379,4624,4667,4721
+"17 Värmlands län","P utbildning ","män",3080,3061,3029,3007,3038,3014,3006,3008,3297,3355,3452
+"17 Värmlands län","P utbildning ","kvinnor",9465,9203,9258,9332,9354,9399,9434,9630,10263,10463,10679
+"17 Värmlands län","Q vård och omsorg; sociala tjänster","män",2907,2874,2992,3013,3062,3298,3398,3759,4096,4104,4102
+"17 Värmlands län","Q vård och omsorg; sociala tjänster","kvinnor",18444,17961,18459,18350,18523,18562,18684,19257,19799,19812,19653
+"17 Värmlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",2260,2252,2252,2283,2276,2216,2157,2106,2127,2154,2144
+"17 Värmlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2929,2969,3042,3105,3094,3109,3106,3139,3115,3097,3196
+"17 Värmlands län","00 okänd verksamhet","män",804,807,785,965,975,947,940,877,740,926,1032
+"17 Värmlands län","00 okänd verksamhet","kvinnor",929,939,956,1237,1294,1261,1350,1265,994,1230,1201
+"18 Örebro län","A jordbruk, skogsbruk och fiske","män",1961,1938,2023,2463,2446,2469,2439,2374,2307,2262,2195
+"18 Örebro län","A jordbruk, skogsbruk och fiske","kvinnor",432,416,458,637,664,686,688,668,620,644,662
+"18 Örebro län","B+C tillverkning och utvinning","män",18415,16070,16109,16766,16611,16054,15509,15335,15535,15567,15940
+"18 Örebro län","B+C tillverkning och utvinning","kvinnor",5347,4684,4681,4915,4949,4654,4514,4382,4410,4523,4703
+"18 Örebro län","D+E energiförsörjning; miljöverksamhet","män",992,944,947,929,949,937,984,974,952,933,954
+"18 Örebro län","D+E energiförsörjning; miljöverksamhet","kvinnor",251,225,242,248,236,231,248,270,287,268,290
+"18 Örebro län","F byggverksamhet","män",8005,7945,8168,8519,8376,8334,8572,8814,9331,9802,9989
+"18 Örebro län","F byggverksamhet","kvinnor",631,604,623,683,657,646,685,714,764,912,980
+"18 Örebro län","G handel","män",8840,8391,8879,9018,8902,9029,9043,8976,9120,9184,9298
+"18 Örebro län","G handel","kvinnor",6525,6236,6396,6514,6488,6575,6464,6423,6513,6577,6462
+"18 Örebro län","H transport och magasinering","män",4973,4843,4922,4937,5110,5201,5171,5276,5342,5444,5460
+"18 Örebro län","H transport och magasinering","kvinnor",1303,1256,1254,1282,1279,1372,1407,1470,1434,1431,1507
+"18 Örebro län","I hotell- och restaurangverksamhet","män",1271,1271,1396,1465,1549,1636,1651,1774,1865,1944,1929
+"18 Örebro län","I hotell- och restaurangverksamhet","kvinnor",1786,1801,1934,1950,2086,2143,2116,2184,2224,2188,2095
+"18 Örebro län","J information och kommunikation","män",1753,1737,1709,1792,1881,1885,2069,2080,2079,2251,2274
+"18 Örebro län","J information och kommunikation","kvinnor",728,667,644,640,714,719,738,716,779,752,799
+"18 Örebro län","K finans- och försäkringsverksamhet","män",548,545,525,507,521,535,577,587,562,504,481
+"18 Örebro län","K finans- och försäkringsverksamhet","kvinnor",644,618,606,594,614,606,616,608,579,522,511
+"18 Örebro län","L fastighetsverksamhet","män",1271,1293,1331,1377,1301,1326,1357,1389,1435,1432,1481
+"18 Örebro län","L fastighetsverksamhet","kvinnor",652,674,715,726,717,754,766,811,867,888,932
+"18 Örebro län","M+N företagstjänster","män",5925,5490,5992,6335,6361,6223,6387,6647,6627,7089,7480
+"18 Örebro län","M+N företagstjänster","kvinnor",5546,5096,5551,5607,5578,5299,5260,5379,5387,5482,5540
+"18 Örebro län","O offentlig förvaltning och försvar","män",3199,3288,3285,3373,3501,3695,3669,3734,3983,4131,4228
+"18 Örebro län","O offentlig förvaltning och försvar","kvinnor",4396,4497,4630,4723,4788,5023,5174,5286,5569,5825,5999
+"18 Örebro län","P utbildning ","män",3663,3526,3605,3638,3643,3771,3745,3865,4047,4193,4297
+"18 Örebro län","P utbildning ","kvinnor",10405,10302,10296,10162,10443,10510,10481,10804,11287,11684,11958
+"18 Örebro län","Q vård och omsorg; sociala tjänster","män",3765,3817,3916,3984,4074,4229,4469,4726,4988,5076,5082
+"18 Örebro län","Q vård och omsorg; sociala tjänster","kvinnor",19584,19192,19304,19309,19729,19953,20409,21252,21311,21528,21432
+"18 Örebro län","R+S+T+U kulturella och personliga tjänster m.m.","män",2198,2157,2225,2247,2285,2361,2393,2400,2473,2490,2511
+"18 Örebro län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2776,2752,2859,2846,2943,3110,2991,2998,3145,3088,3184
+"18 Örebro län","00 okänd verksamhet","män",524,549,541,623,612,688,676,601,608,625,608
+"18 Örebro län","00 okänd verksamhet","kvinnor",639,717,709,826,845,907,915,776,758,839,744
+"19 Västmanlands län","A jordbruk, skogsbruk och fiske","män",1304,1338,1384,1633,1634,1578,1532,1535,1467,1482,1420
+"19 Västmanlands län","A jordbruk, skogsbruk och fiske","kvinnor",330,355,374,471,487,490,487,472,473,480,489
+"19 Västmanlands län","B+C tillverkning och utvinning","män",20132,17745,17869,18305,18428,18178,17781,17364,16945,16382,16726
+"19 Västmanlands län","B+C tillverkning och utvinning","kvinnor",6144,5433,5571,5637,5675,5488,5388,5221,5026,4899,4994
+"19 Västmanlands län","D+E energiförsörjning; miljöverksamhet","män",1098,1012,991,1009,992,1019,1061,1084,1124,1117,1139
+"19 Västmanlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",309,300,305,309,306,308,321,334,354,367,384
+"19 Västmanlands län","F byggverksamhet","män",7132,6922,7220,7426,7386,7459,7390,7660,7760,8037,8167
+"19 Västmanlands län","F byggverksamhet","kvinnor",612,644,617,684,707,720,726,727,778,880,858
+"19 Västmanlands län","G handel","män",7180,6915,6766,7166,7088,7119,7155,7274,7225,7285,7404
+"19 Västmanlands län","G handel","kvinnor",5731,5389,5459,5779,5820,5705,5614,5635,5672,5579,5634
+"19 Västmanlands län","H transport och magasinering","män",3499,3265,3687,3773,3817,3955,3780,3812,3814,3873,3943
+"19 Västmanlands län","H transport och magasinering","kvinnor",1047,987,1063,1071,1084,1079,894,990,961,963,1001
+"19 Västmanlands län","I hotell- och restaurangverksamhet","män",1148,1109,1181,1225,1318,1416,1477,1540,1544,1707,1799
+"19 Västmanlands län","I hotell- och restaurangverksamhet","kvinnor",1365,1297,1412,1396,1489,1566,1596,1513,1555,1638,1652
+"19 Västmanlands län","J information och kommunikation","män",1812,1764,1794,1844,1834,1852,1837,1671,1654,1624,1680
+"19 Västmanlands län","J information och kommunikation","kvinnor",874,844,823,806,743,679,664,625,578,554,558
+"19 Västmanlands län","K finans- och försäkringsverksamhet","män",462,451,439,450,451,457,477,468,455,458,433
+"19 Västmanlands län","K finans- och försäkringsverksamhet","kvinnor",642,626,609,584,583,571,590,582,584,587,545
+"19 Västmanlands län","L fastighetsverksamhet","män",946,1026,987,962,962,1012,1052,1034,1059,1119,1100
+"19 Västmanlands län","L fastighetsverksamhet","kvinnor",647,659,680,681,656,675,721,746,778,824,797
+"19 Västmanlands län","M+N företagstjänster","män",5667,5456,6135,6711,6880,7178,7059,7298,7447,8327,8653
+"19 Västmanlands län","M+N företagstjänster","kvinnor",4616,4597,4832,4850,5077,5198,5217,5386,5567,6070,6124
+"19 Västmanlands län","O offentlig förvaltning och försvar","män",2339,2337,2476,2513,2382,2487,2603,2563,2608,2657,2730
+"19 Västmanlands län","O offentlig förvaltning och försvar","kvinnor",3388,3329,3496,3521,3439,3612,3863,3884,4058,4048,4153
+"19 Västmanlands län","P utbildning ","män",2684,2656,2613,2557,2580,2650,2740,2767,2910,2954,3089
+"19 Västmanlands län","P utbildning ","kvinnor",9414,9185,8794,8717,8695,8858,9073,9193,9490,9700,10088
+"19 Västmanlands län","Q vård och omsorg; sociala tjänster","män",2668,2800,2859,2907,3076,3222,3310,3634,3871,3975,4036
+"19 Västmanlands län","Q vård och omsorg; sociala tjänster","kvinnor",14974,14917,15508,15653,16037,16388,16717,17381,17991,17836,17914
+"19 Västmanlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",1532,1543,1525,1555,1607,1628,1626,1678,1739,1711,1693
+"19 Västmanlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2312,2335,2362,2390,2460,2585,2503,2626,2636,2598,2608
+"19 Västmanlands län","00 okänd verksamhet","män",463,465,467,447,498,500,547,484,496,533,529
+"19 Västmanlands län","00 okänd verksamhet","kvinnor",569,525,493,577,664,659,680,615,566,628,561
+"20 Dalarnas län","A jordbruk, skogsbruk och fiske","män",2529,2557,2665,3260,3361,3404,3414,3475,3205,3338,3188
+"20 Dalarnas län","A jordbruk, skogsbruk och fiske","kvinnor",636,617,651,1028,1158,1191,1223,1201,970,1187,1009
+"20 Dalarnas län","B+C tillverkning och utvinning","män",19688,17742,17691,17991,17307,16932,16461,16239,16007,15936,15727
+"20 Dalarnas län","B+C tillverkning och utvinning","kvinnor",5261,4698,4818,4858,4580,4425,4273,4213,4140,4080,4116
+"20 Dalarnas län","D+E energiförsörjning; miljöverksamhet","män",1121,1070,1100,1101,1072,1125,1110,1124,1116,1143,1199
+"20 Dalarnas län","D+E energiförsörjning; miljöverksamhet","kvinnor",257,239,251,250,269,264,280,293,304,300,320
+"20 Dalarnas län","F byggverksamhet","män",8951,8960,9410,9639,9658,9485,9454,9467,9820,10193,10559
+"20 Dalarnas län","F byggverksamhet","kvinnor",646,677,743,730,803,743,740,769,822,831,882
+"20 Dalarnas län","G handel","män",7593,7522,7724,7752,7669,7771,7758,7911,8018,8038,8246
+"20 Dalarnas län","G handel","kvinnor",6289,6093,6257,6254,6301,6349,6380,6388,6440,6316,6356
+"20 Dalarnas län","H transport och magasinering","män",4367,4199,4199,4285,4161,4181,4016,4181,4212,4214,4318
+"20 Dalarnas län","H transport och magasinering","kvinnor",1056,986,959,971,912,931,915,910,920,958,1000
+"20 Dalarnas län","I hotell- och restaurangverksamhet","män",1543,1607,1701,1719,1832,1831,1819,1890,1918,2046,2073
+"20 Dalarnas län","I hotell- och restaurangverksamhet","kvinnor",2377,2301,2380,2334,2405,2413,2358,2381,2360,2289,2239
+"20 Dalarnas län","J information och kommunikation","män",1579,1500,1489,1401,1418,1464,1437,1422,1414,1518,1565
+"20 Dalarnas län","J information och kommunikation","kvinnor",640,602,563,480,480,490,413,428,432,470,488
+"20 Dalarnas län","K finans- och försäkringsverksamhet","män",455,454,465,458,467,457,420,425,415,436,428
+"20 Dalarnas län","K finans- och försäkringsverksamhet","kvinnor",622,590,593,597,573,539,508,532,509,508,493
+"20 Dalarnas län","L fastighetsverksamhet","män",1088,1136,1173,1187,1170,1203,1236,1212,1212,1246,1257
+"20 Dalarnas län","L fastighetsverksamhet","kvinnor",683,641,661,678,643,709,737,757,780,797,813
+"20 Dalarnas län","M+N företagstjänster","män",4687,4849,5054,5504,5829,5761,5883,5911,6245,6296,6310
+"20 Dalarnas län","M+N företagstjänster","kvinnor",4042,4126,4275,4374,4542,4638,4649,4731,4698,4716,4778
+"20 Dalarnas län","O offentlig förvaltning och försvar","män",3084,3049,3034,3205,3252,3214,3191,3165,3178,3275,3410
+"20 Dalarnas län","O offentlig förvaltning och försvar","kvinnor",3829,3867,4009,4079,4257,4334,4370,4418,4563,4706,4907
+"20 Dalarnas län","P utbildning ","män",3122,2939,2965,3007,3040,3087,3166,3214,3584,3803,3843
+"20 Dalarnas län","P utbildning ","kvinnor",9359,8881,9057,9180,9256,9385,9495,9715,10399,11001,11108
+"20 Dalarnas län","Q vård och omsorg; sociala tjänster","män",3908,3940,3891,3926,4063,4210,4407,4773,5232,5283,5213
+"20 Dalarnas län","Q vård och omsorg; sociala tjänster","kvinnor",20871,20559,20463,20230,20642,20784,20962,21178,21222,21021,20697
+"20 Dalarnas län","R+S+T+U kulturella och personliga tjänster m.m.","män",2351,2431,2496,2420,2532,2573,2661,2673,2707,2654,2659
+"20 Dalarnas län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",3325,3286,3346,3356,3410,3465,3566,3477,3464,3398,3479
+"20 Dalarnas län","00 okänd verksamhet","män",694,602,625,716,725,749,953,822,706,782,838
+"20 Dalarnas län","00 okänd verksamhet","kvinnor",845,683,861,1020,913,965,1171,1098,1107,1141,1201
+"21 Gävleborgs län","A jordbruk, skogsbruk och fiske","män",2626,2705,2850,3487,3564,3421,3459,3401,3371,3323,3188
+"21 Gävleborgs län","A jordbruk, skogsbruk och fiske","kvinnor",565,581,608,904,908,963,995,1033,936,971,921
+"21 Gävleborgs län","B+C tillverkning och utvinning","män",20360,18197,18396,18585,17781,17201,16683,15977,15688,15881,15760
+"21 Gävleborgs län","B+C tillverkning och utvinning","kvinnor",4876,4313,4484,4560,4286,4107,3985,3867,3805,3833,3836
+"21 Gävleborgs län","D+E energiförsörjning; miljöverksamhet","män",1105,1057,1075,1075,1101,1102,1114,1115,1130,1163,1198
+"21 Gävleborgs län","D+E energiförsörjning; miljöverksamhet","kvinnor",374,383,383,394,417,408,426,420,407,445,457
+"21 Gävleborgs län","F byggverksamhet","män",9164,9001,9253,9816,9573,9633,9594,9944,10013,10260,10496
+"21 Gävleborgs län","F byggverksamhet","kvinnor",542,593,676,755,722,711,682,732,769,788,873
+"21 Gävleborgs län","G handel","män",6329,6181,6211,6200,6221,6183,6158,6335,6418,6550,6768
+"21 Gävleborgs län","G handel","kvinnor",5669,5616,5663,5565,5585,5498,5494,5526,5550,5511,5488
+"21 Gävleborgs län","H transport och magasinering","män",4748,4644,4814,4896,4810,4845,4693,4701,4745,4795,4835
+"21 Gävleborgs län","H transport och magasinering","kvinnor",1153,1111,1125,1139,1137,1140,1099,1118,1096,1103,1131
+"21 Gävleborgs län","I hotell- och restaurangverksamhet","män",1292,1228,1339,1468,1561,1678,1697,1685,1799,1920,1944
+"21 Gävleborgs län","I hotell- och restaurangverksamhet","kvinnor",2245,2111,2227,2225,2361,2404,2407,2380,2394,2406,2273
+"21 Gävleborgs län","J information och kommunikation","män",1461,1378,1407,1512,1577,1645,1572,1479,1483,1523,1557
+"21 Gävleborgs län","J information och kommunikation","kvinnor",793,732,708,747,717,719,667,607,621,658,670
+"21 Gävleborgs län","K finans- och försäkringsverksamhet","män",485,449,442,442,441,438,467,434,457,428,441
+"21 Gävleborgs län","K finans- och försäkringsverksamhet","kvinnor",677,625,639,608,631,606,598,549,541,524,518
+"21 Gävleborgs län","L fastighetsverksamhet","män",1233,1254,1261,1391,1401,1439,1442,1438,1418,1406,1404
+"21 Gävleborgs län","L fastighetsverksamhet","kvinnor",604,607,611,605,641,705,740,749,649,714,733
+"21 Gävleborgs län","M+N företagstjänster","män",6071,5724,5870,5799,5946,5803,5849,5900,6007,6082,6262
+"21 Gävleborgs län","M+N företagstjänster","kvinnor",5025,4567,4590,4563,4823,4804,4762,4680,4656,4619,4752
+"21 Gävleborgs län","O offentlig förvaltning och försvar","män",2795,2805,2884,2834,2872,3002,3036,3042,3291,3354,3525
+"21 Gävleborgs län","O offentlig förvaltning och försvar","kvinnor",4249,4832,5078,4697,4904,4893,5041,5397,5738,5502,5673
+"21 Gävleborgs län","P utbildning ","män",3020,2926,2934,2931,2896,2967,3029,3120,3262,3445,3473
+"21 Gävleborgs län","P utbildning ","kvinnor",9451,9122,9185,9369,9102,9279,9347,9568,10097,10418,10494
+"21 Gävleborgs län","Q vård och omsorg; sociala tjänster","män",3251,3235,3340,3387,3408,3517,3696,4034,4389,4526,4450
+"21 Gävleborgs län","Q vård och omsorg; sociala tjänster","kvinnor",18991,18178,18645,19041,18965,19245,19385,19851,20109,20412,20106
+"21 Gävleborgs län","R+S+T+U kulturella och personliga tjänster m.m.","män",2006,1968,1979,2072,2102,2109,2154,2169,2231,2250,2308
+"21 Gävleborgs län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2849,2841,2854,2874,2964,3055,3113,3123,3139,3167,3147
+"21 Gävleborgs län","00 okänd verksamhet","män",782,651,634,731,828,905,895,852,834,1026,1279
+"21 Gävleborgs län","00 okänd verksamhet","kvinnor",996,737,787,983,1259,1294,1278,1104,1141,1132,1294
+"22 Västernorrlands län","A jordbruk, skogsbruk och fiske","män",2235,2245,2418,3109,3182,3262,3317,3238,3058,3083,3022
+"22 Västernorrlands län","A jordbruk, skogsbruk och fiske","kvinnor",588,627,686,995,1042,1093,1104,1098,975,1075,991
+"22 Västernorrlands län","B+C tillverkning och utvinning","män",13393,11992,11559,11843,11691,11486,11405,11307,11020,11001,11012
+"22 Västernorrlands län","B+C tillverkning och utvinning","kvinnor",2993,2664,2593,2688,2673,2645,2584,2569,2458,2437,2509
+"22 Västernorrlands län","D+E energiförsörjning; miljöverksamhet","män",983,1047,1034,1069,1112,1074,1118,1161,1170,1159,1157
+"22 Västernorrlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",293,321,310,305,302,292,316,315,327,324,342
+"22 Västernorrlands län","F byggverksamhet","män",8244,7928,7821,8048,8050,8023,7847,7818,7958,8028,8343
+"22 Västernorrlands län","F byggverksamhet","kvinnor",561,566,571,546,578,564,549,573,615,633,672
+"22 Västernorrlands län","G handel","män",6677,6349,6381,6372,6462,6392,6342,6422,6429,6361,6332
+"22 Västernorrlands län","G handel","kvinnor",5336,5072,5148,5014,5100,5038,5029,5076,5030,4981,4894
+"22 Västernorrlands län","H transport och magasinering","män",5010,4859,4975,5018,4956,4850,4596,4658,4705,4717,4716
+"22 Västernorrlands län","H transport och magasinering","kvinnor",1322,1202,1241,1277,1268,1196,1094,1087,1114,1042,994
+"22 Västernorrlands län","I hotell- och restaurangverksamhet","män",1082,1027,1116,1116,1216,1315,1311,1385,1395,1459,1462
+"22 Västernorrlands län","I hotell- och restaurangverksamhet","kvinnor",1560,1509,1632,1599,1653,1737,1722,1760,1740,1733,1707
+"22 Västernorrlands län","J information och kommunikation","män",2535,2482,2467,2673,2778,2769,2808,2791,2782,2891,2907
+"22 Västernorrlands län","J information och kommunikation","kvinnor",1167,1143,1129,1178,1205,1144,1105,1054,1031,1041,1018
+"22 Västernorrlands län","K finans- och försäkringsverksamhet","män",1115,1167,1206,1180,1216,1286,1293,1306,1358,1356,1341
+"22 Västernorrlands län","K finans- och försäkringsverksamhet","kvinnor",1528,1545,1564,1572,1586,1618,1642,1628,1666,1697,1777
+"22 Västernorrlands län","L fastighetsverksamhet","män",925,962,946,962,997,1063,1043,1058,1136,1122,1119
+"22 Västernorrlands län","L fastighetsverksamhet","kvinnor",649,664,675,680,670,679,687,686,717,712,720
+"22 Västernorrlands län","M+N företagstjänster","män",5254,5205,5194,5381,5485,5518,5608,5644,5966,6107,6147
+"22 Västernorrlands län","M+N företagstjänster","kvinnor",3750,3729,3824,3659,3778,3893,4006,4080,4124,4029,4088
+"22 Västernorrlands län","O offentlig förvaltning och försvar","män",3340,3112,3156,3170,3205,3312,3301,3324,3371,3472,3608
+"22 Västernorrlands län","O offentlig förvaltning och försvar","kvinnor",4933,4680,4788,4678,4734,4819,4781,4916,5005,5165,5349
+"22 Västernorrlands län","P utbildning ","män",2489,2535,2601,2655,2626,2683,2730,2795,2965,3076,3000
+"22 Västernorrlands län","P utbildning ","kvinnor",8675,8575,8764,8711,8638,8553,8725,8916,9317,9611,9462
+"22 Västernorrlands län","Q vård och omsorg; sociala tjänster","män",3426,3402,3403,3410,3636,3786,3948,4258,4616,4734,4688
+"22 Västernorrlands län","Q vård och omsorg; sociala tjänster","kvinnor",16971,16457,16221,16117,16351,16556,16726,16872,17216,17269,16981
+"22 Västernorrlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",2148,2192,2141,2153,2175,2212,2162,2123,2065,1972,2022
+"22 Västernorrlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2731,2762,2702,2736,2802,2837,2826,2799,2794,2758,2771
+"22 Västernorrlands län","00 okänd verksamhet","män",648,561,633,737,674,799,803,757,680,717,654
+"22 Västernorrlands län","00 okänd verksamhet","kvinnor",800,645,764,908,904,903,937,901,803,825,844
+"23 Jämtlands län","A jordbruk, skogsbruk och fiske","män",2211,2286,2345,2960,2913,2894,2896,2893,2724,2737,2643
+"23 Jämtlands län","A jordbruk, skogsbruk och fiske","kvinnor",394,417,441,716,743,758,775,733,682,728,690
+"23 Jämtlands län","B+C tillverkning och utvinning","män",4731,4014,3901,3969,3902,3827,3771,3747,3691,3750,3783
+"23 Jämtlands län","B+C tillverkning och utvinning","kvinnor",1261,1041,1046,1065,1003,948,937,932,933,944,946
+"23 Jämtlands län","D+E energiförsörjning; miljöverksamhet","män",714,734,744,743,737,689,698,691,664,629,638
+"23 Jämtlands län","D+E energiförsörjning; miljöverksamhet","kvinnor",106,103,106,106,105,106,116,121,118,124,126
+"23 Jämtlands län","F byggverksamhet","män",3956,3941,4050,4198,4177,4114,4174,4183,4369,4535,4709
+"23 Jämtlands län","F byggverksamhet","kvinnor",223,210,225,278,285,263,294,271,296,289,308
+"23 Jämtlands län","G handel","män",3170,3109,3216,3318,3260,3232,3300,3390,3396,3408,3398
+"23 Jämtlands län","G handel","kvinnor",2640,2636,2645,2683,2669,2647,2626,2629,2638,2682,2718
+"23 Jämtlands län","H transport och magasinering","män",2327,2327,2332,2352,2406,2425,2350,2335,2356,2365,2320
+"23 Jämtlands län","H transport och magasinering","kvinnor",484,458,440,437,459,460,450,440,449,470,477
+"23 Jämtlands län","I hotell- och restaurangverksamhet","män",1256,1253,1372,1263,1257,1307,1311,1354,1373,1424,1427
+"23 Jämtlands län","I hotell- och restaurangverksamhet","kvinnor",1451,1416,1566,1416,1507,1552,1469,1519,1468,1460,1473
+"23 Jämtlands län","J information och kommunikation","män",930,851,857,910,914,949,957,974,955,962,993
+"23 Jämtlands län","J information och kommunikation","kvinnor",515,429,412,402,412,408,362,350,341,285,281
+"23 Jämtlands län","K finans- och försäkringsverksamhet","män",345,310,343,344,347,342,338,356,364,344,359
+"23 Jämtlands län","K finans- och försäkringsverksamhet","kvinnor",468,430,424,420,415,408,396,430,407,427,433
+"23 Jämtlands län","L fastighetsverksamhet","män",541,564,563,622,573,577,572,595,621,619,601
+"23 Jämtlands län","L fastighetsverksamhet","kvinnor",245,303,297,252,259,285,276,300,299,297,310
+"23 Jämtlands län","M+N företagstjänster","män",3557,3289,3181,3180,3181,3425,3356,3389,3544,3645,3740
+"23 Jämtlands län","M+N företagstjänster","kvinnor",2592,2492,2500,2471,2468,2666,2616,2629,2672,3011,3127
+"23 Jämtlands län","O offentlig förvaltning och försvar","män",1722,1766,1768,1821,1822,1825,1799,1862,1946,2150,2256
+"23 Jämtlands län","O offentlig förvaltning och försvar","kvinnor",2336,2385,2497,2728,2742,2664,2676,2879,3011,3143,3293
+"23 Jämtlands län","P utbildning ","män",1698,1665,1666,1699,1708,1743,1770,1818,1857,1929,1948
+"23 Jämtlands län","P utbildning ","kvinnor",4717,4723,4744,4832,4856,4835,4881,4901,5062,5080,5091
+"23 Jämtlands län","Q vård och omsorg; sociala tjänster","män",2176,2155,2222,2287,2322,2428,2490,2699,2792,2796,2730
+"23 Jämtlands län","Q vård och omsorg; sociala tjänster","kvinnor",9413,9169,9352,9313,9470,9599,9701,9735,9768,9552,9354
+"23 Jämtlands län","R+S+T+U kulturella och personliga tjänster m.m.","män",1272,1266,1243,1382,1430,1477,1449,1378,1438,1453,1432
+"23 Jämtlands län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",1370,1394,1441,1496,1512,1539,1515,1535,1542,1537,1528
+"23 Jämtlands län","00 okänd verksamhet","män",423,398,435,454,439,475,467,475,499,529,494
+"23 Jämtlands län","00 okänd verksamhet","kvinnor",477,382,378,497,448,468,460,431,599,648,594
+"24 Västerbottens län","A jordbruk, skogsbruk och fiske","män",2517,2554,2643,3717,3739,3734,3689,3585,3422,3536,3301
+"24 Västerbottens län","A jordbruk, skogsbruk och fiske","kvinnor",560,578,644,1158,1160,1209,1174,1169,997,1134,1047
+"24 Västerbottens län","B+C tillverkning och utvinning","män",14962,12778,12945,13474,13172,12858,12818,12453,12293,12146,12436
+"24 Västerbottens län","B+C tillverkning och utvinning","kvinnor",3516,2836,2930,3082,3023,2955,2918,2843,2797,2771,2900
+"24 Västerbottens län","D+E energiförsörjning; miljöverksamhet","män",1164,1199,1233,1243,1269,1284,1302,1357,1269,1287,1255
+"24 Västerbottens län","D+E energiförsörjning; miljöverksamhet","kvinnor",448,456,438,461,505,518,527,525,514,521,552
+"24 Västerbottens län","F byggverksamhet","män",7603,7522,8004,8376,8439,8482,8384,8866,9066,9427,9821
+"24 Västerbottens län","F byggverksamhet","kvinnor",520,517,583,594,641,616,617,689,781,797,858
+"24 Västerbottens län","G handel","män",6886,6593,6613,6510,6483,6578,6576,6717,6953,6995,6909
+"24 Västerbottens län","G handel","kvinnor",5142,4961,5044,4981,5148,5179,5285,5446,5854,5730,5640
+"24 Västerbottens län","H transport och magasinering","män",5003,4883,4910,4856,4949,4958,4856,4898,4849,4802,4796
+"24 Västerbottens län","H transport och magasinering","kvinnor",1047,1009,1039,1066,1110,1116,1063,1061,1053,1037,1059
+"24 Västerbottens län","I hotell- och restaurangverksamhet","män",1217,1197,1250,1287,1413,1520,1597,1682,1741,1745,1762
+"24 Västerbottens län","I hotell- och restaurangverksamhet","kvinnor",1753,1745,1850,1732,1873,1985,2037,2134,2129,2100,2012
+"24 Västerbottens län","J information och kommunikation","män",2332,2402,2423,2463,2481,2473,2440,2566,2624,2702,2921
+"24 Västerbottens län","J information och kommunikation","kvinnor",803,810,829,836,873,875,858,807,796,799,860
+"24 Västerbottens län","K finans- och försäkringsverksamhet","män",717,702,699,712,740,766,804,747,744,762,780
+"24 Västerbottens län","K finans- och försäkringsverksamhet","kvinnor",777,729,721,701,701,726,729,711,723,705,700
+"24 Västerbottens län","L fastighetsverksamhet","män",1008,1023,1033,1056,1062,1096,1205,1224,1236,1283,1306
+"24 Västerbottens län","L fastighetsverksamhet","kvinnor",628,607,613,623,593,645,656,688,727,755,738
+"24 Västerbottens län","M+N företagstjänster","män",5521,5249,5556,5858,6118,6377,6331,6378,6601,6766,6902
+"24 Västerbottens län","M+N företagstjänster","kvinnor",3953,3836,4128,4183,4446,4426,4301,4279,4396,4506,4757
+"24 Västerbottens län","O offentlig förvaltning och försvar","män",2434,2344,2428,2434,2493,2582,2593,2574,2622,2714,2827
+"24 Västerbottens län","O offentlig förvaltning och försvar","kvinnor",3109,3128,3303,3430,3526,3677,3755,3755,3804,3975,4156
+"24 Västerbottens län","P utbildning ","män",4712,4764,4826,4883,5051,5101,5096,5083,5177,5213,5255
+"24 Västerbottens län","P utbildning ","kvinnor",10914,10842,11194,11355,11601,11513,11543,11517,11839,12100,12171
+"24 Västerbottens län","Q vård och omsorg; sociala tjänster","män",4918,4916,5095,5200,5396,5651,5819,6143,6688,6870,7012
+"24 Västerbottens län","Q vård och omsorg; sociala tjänster","kvinnor",20594,20334,20780,20790,21038,21113,21223,21584,21852,21803,21420
+"24 Västerbottens län","R+S+T+U kulturella och personliga tjänster m.m.","män",2014,2050,2060,2114,2207,2212,2201,2161,2213,2187,2213
+"24 Västerbottens län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2748,2753,2794,2839,2880,2935,2874,2934,2967,2976,3027
+"24 Västerbottens län","00 okänd verksamhet","män",738,680,615,762,786,750,754,688,607,699,649
+"24 Västerbottens län","00 okänd verksamhet","kvinnor",810,816,701,862,967,1008,1037,861,726,851,836
+"25 Norrbottens län","A jordbruk, skogsbruk och fiske","män",2343,2422,2568,3448,3423,3539,3415,3375,3286,3306,3188
+"25 Norrbottens län","A jordbruk, skogsbruk och fiske","kvinnor",488,497,555,948,998,1037,1017,1003,926,959,929
+"25 Norrbottens län","B+C tillverkning och utvinning","män",14253,13145,13310,13807,13748,13459,13299,12854,12626,12488,12475
+"25 Norrbottens län","B+C tillverkning och utvinning","kvinnor",2685,2494,2691,2836,2932,2965,3042,2892,2887,2967,3137
+"25 Norrbottens län","D+E energiförsörjning; miljöverksamhet","män",1181,1205,1262,1283,1301,1305,1407,1362,1377,1351,1390
+"25 Norrbottens län","D+E energiförsörjning; miljöverksamhet","kvinnor",237,248,250,280,312,318,337,320,330,334,358
+"25 Norrbottens län","F byggverksamhet","män",8997,8923,9408,9862,10013,9934,10108,10129,9976,9917,10097
+"25 Norrbottens län","F byggverksamhet","kvinnor",820,833,921,992,1039,941,955,866,865,927,990
+"25 Norrbottens län","G handel","män",5564,5328,5557,5764,5810,5812,5868,5876,5883,5892,5829
+"25 Norrbottens län","G handel","kvinnor",5150,4958,5092,5217,5280,5324,5322,5289,5278,5168,5176
+"25 Norrbottens län","H transport och magasinering","män",4937,4738,5061,4977,5076,5211,5077,5041,5221,5150,5302
+"25 Norrbottens län","H transport och magasinering","kvinnor",1011,972,1028,1015,1026,1062,1079,1085,1127,1070,1154
+"25 Norrbottens län","I hotell- och restaurangverksamhet","män",1294,1209,1275,1345,1412,1540,1617,1684,1706,1751,1790
+"25 Norrbottens län","I hotell- och restaurangverksamhet","kvinnor",2179,2065,2166,2175,2276,2405,2417,2512,2534,2424,2418
+"25 Norrbottens län","J information och kommunikation","män",1849,1776,1676,1720,1840,1818,1789,1762,1781,1806,1871
+"25 Norrbottens län","J information och kommunikation","kvinnor",1023,1002,970,1003,1036,1004,947,913,853,821,819
+"25 Norrbottens län","K finans- och försäkringsverksamhet","män",549,607,577,575,580,592,611,592,606,586,581
+"25 Norrbottens län","K finans- och försäkringsverksamhet","kvinnor",951,955,940,904,924,917,954,884,952,953,964
+"25 Norrbottens län","L fastighetsverksamhet","män",1073,1094,1031,1051,1092,1135,1123,1216,1177,1173,1236
+"25 Norrbottens län","L fastighetsverksamhet","kvinnor",564,516,514,557,565,577,571,686,688,667,679
+"25 Norrbottens län","M+N företagstjänster","män",5815,5571,5698,6161,6460,6542,6775,7057,7139,7264,7383
+"25 Norrbottens län","M+N företagstjänster","kvinnor",4586,4555,4693,4931,5090,4843,4906,4948,4989,5032,5004
+"25 Norrbottens län","O offentlig förvaltning och försvar","män",4514,4328,4669,4891,4768,5208,5164,5081,5102,5002,5140
+"25 Norrbottens län","O offentlig förvaltning och försvar","kvinnor",4098,4049,4081,4081,4110,4428,4592,4825,5051,5056,5131
+"25 Norrbottens län","P utbildning ","män",3098,2951,2981,2957,3014,3019,3015,3059,3156,3197,3130
+"25 Norrbottens län","P utbildning ","kvinnor",9641,9179,9084,9125,9269,9219,9180,9230,9582,9596,9610
+"25 Norrbottens län","Q vård och omsorg; sociala tjänster","män",3428,3415,3475,3503,3557,3894,3989,4251,4593,4583,4586
+"25 Norrbottens län","Q vård och omsorg; sociala tjänster","kvinnor",17841,17296,17652,17561,17908,18365,18376,18613,18786,18638,18309
+"25 Norrbottens län","R+S+T+U kulturella och personliga tjänster m.m.","män",1959,1920,1921,1888,1956,2007,2025,1928,1945,1964,1995
+"25 Norrbottens län","R+S+T+U kulturella och personliga tjänster m.m.","kvinnor",2618,2484,2525,2532,2672,2785,2775,2732,2734,2720,2713
+"25 Norrbottens län","00 okänd verksamhet","män",585,520,558,662,661,648,638,652,515,609,525
+"25 Norrbottens län","00 okänd verksamhet","kvinnor",709,666,745,912,927,895,945,938,828,894,851
