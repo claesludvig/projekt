@@ -90,17 +90,20 @@ def _download(ticker: str) -> pd.Series:
     close.index = pd.to_datetime(close.index.date)
     close = close[~close.index.duplicated(keep="last")].astype(float)
 
-    # Yahoos dagsserie för index saknar ibland gårdagens stängning fast den
-    # finns i Ticker.history — fyll på de sista dagarna därifrån.
+    # Yahoos dagsserie för index saknar ofta gårdagens stängning på morgonen
+    # (svensk tid) fast timdatan har den. Fyll på avslutade dagar med sista
+    # timstapelns stängning — i praktiken samma som dagsstängningen.
     try:
-        kort = yf.Ticker(ticker).history(period="5d", interval="1d", auto_adjust=False)["Close"].dropna()
-        kort.index = pd.to_datetime(kort.index.date)
-        nya = kort[kort.index > close.index[-1]] if len(close) else kort
-        if len(nya):
-            print(f"  {ticker}: kompletterade med {', '.join(str(d.date()) for d in nya.index)} från Ticker.history")
-            close = pd.concat([close, nya.astype(float)])
+        tim = yf.Ticker(ticker).history(period="5d", interval="1h", auto_adjust=False)["Close"].dropna()
+        if len(tim):
+            dagar = pd.to_datetime(tim.index.tz_localize(None).date if tim.index.tz is None else tim.index.date)
+            per_dag = pd.Series(tim.values, index=dagar).groupby(level=0).last()
+            nya = per_dag[(per_dag.index > close.index[-1]) & (per_dag.index < idag)] if len(close) else per_dag
+            if len(nya):
+                print(f"  {ticker}: kompletterade {', '.join(str(d.date()) for d in nya.index)} från timdata")
+                close = pd.concat([close, nya.astype(float)])
     except Exception as exc:  # noqa: BLE001
-        print(f"  {ticker}: Ticker.history misslyckades ({exc})")
+        print(f"  {ticker}: timdata misslyckades ({exc})")
     return close
 
 
