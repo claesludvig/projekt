@@ -1,6 +1,6 @@
 # Arbetsutkast: Marknadspulsen v2, med data först
 
-Status: **utkast, inget är byggt och ingenting körs.** Den gamla rutinen (`trig_01TkoGSFWagxXtcuG6x5EbtH`) kör vidare oförändrad. Den ordagranna kopian ligger i [`original/`](original/rutin_fx_rantor_backup_2026-09-23.md).
+Status: **byggt på utvecklingsbranchen och körs inte av någon rutin än** (se Status längst ner). Den gamla rutinen (`trig_01TkoGSFWagxXtcuG6x5EbtH`) kör vidare oförändrad. Den ordagranna kopian ligger i [`original/`](original/rutin_fx_rantor_backup_2026-09-23.md).
 
 ## Vad som ändras
 
@@ -27,7 +27,7 @@ MARKNADSPULSEN — 2026-09-24                        (rubrik = dagens huvudröre
    VIX (nivå, punkter)
 
 2. RÄNTOR (förändring i bp)
-   US 2Y / US 10Y / (SE 10Y, DE 10Y — se öppna frågor)
+   US 3M / 2Y / 10Y / 30Y
 
 3. VALUTOR (%)
    EUR/USD, USD/SEK, EUR/SEK, EUR/NOK
@@ -63,8 +63,10 @@ Kontrollera varje ticker i den första testkörningen på Actions. Från den hä
 | | S&P 500 | `^GSPC` | |
 | | Nasdaq 100 | `^NDX` | |
 | | VIX | `^VIX` | nivå + förändring i punkter |
-| Räntor | US 10Y | `^TNX` | ×10 = bp |
-| | US 2Y | `2YY=F` eller `^IRX` (3M) | osäker, testas |
+| Räntor | US 3M | `^IRX` | |
+| | US 10Y | `^TNX` | |
+| | US 30Y | `^TYX` | |
+| | US 2Y | `2YY=F` | osäker, testas |
 | Valutor | EUR/USD | `EURUSD=X` | |
 | | USD/SEK | `SEK=X` / `USDSEK=X` | |
 | | EUR/SEK | `EURSEK=X` | |
@@ -94,7 +96,7 @@ Rutin (08:00 vardagar)
 ```
 
 Nya filer:
-- `marknadspuls/hamta.py`: hämtar alla instrument (inkrementellt i `market.db`, som idag), räknar tabellen och korrelationerna och skriver `data/marknadspuls.json` och `data/graf_*.png`.
+- `marknadspuls/hamta.py`: hämtar 6 månaders dagsdata per instrument, räknar tabellen och korrelationerna och skriver `data/marknadspuls.json` och `data/grafer/<datum>/*.png`. Dagens ofullständiga stapel kapas bort, så att alla tabellrader bygger på stängningskurser.
 - `marknadspuls/mall.py`: `rendera(rapport, data)` → HTML + textversion.
 - `.github/workflows/marknadspuls.yml`
 
