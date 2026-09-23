@@ -76,7 +76,7 @@ def _tabell_html(grupp: dict, perioder: list, data_t_o_m: str) -> str:
         if r["enhet"] != "pct" and enheter != {r["enhet"]}:
             namn += f' <span style="color:{C_DAMPAD};font-size:10px;">({ENHET_ETIKETT[r["enhet"]]})</span>'
         if gammal:
-            namn += f'<br><span style="color:{C_DAMPAD};font-size:10px;">per {r["datum"][5:].replace("-", "/")}</span>'
+            namn += f'<br><span style="color:{C_DAMPAD};font-size:10px;">per {int(r["datum"][8:])}/{int(r["datum"][5:7])}</span>'
         celler = [
             f'<td style="padding:5px 2px;font-size:12px;color:{C_TEXT};text-align:left;white-space:nowrap;">{namn}</td>',
             f'<td style="padding:5px 2px;font-size:12px;color:{C_TEXT};text-align:right;white-space:nowrap;">{fmt_senast(r)}</td>',
