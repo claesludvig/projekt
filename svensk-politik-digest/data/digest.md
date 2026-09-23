@@ -1,27 +1,44 @@
 # Svensk politik och regeringsförhandlingarna — 2026-09-23
 
-4 nya poster sedan förra utskicket (19 redan utskickade, 132 utanför ämnet).
+7 nya poster sedan förra utskicket (25 redan utskickade, 150 utanför ämnet).
+
+## Analys och kommentar
+
+### [Dadgostar duckar frågor om misstänkt valfusk](https://www.svd.se/a/43aVjV/dadgostar-duckar-fragor-om-misstankt-valfusk)
+SvD Ledare · 2026-09-23 · Etezaz Yousuf, Jenny Nyman
+
+På onsdagseftermiddagen har Vänsterpartiets partiledare Nooshi Dadgostar fortfarande inte…
+
+### [S: Självklart kan inte Norlén sitta kvar](https://www.svd.se/a/gk2r0J/s-sjalvklart-kan-inte-norlen-sitter-kvar)
+SvD Ledare · 2026-09-23 · Niklas Svahn/TT
+
+Socialdemokraterna vill ha en ny talman när riksdagen röstar på måndag.
 
 ## Rapportering
 
-### [Nya liberala utbrytarpartier: Så gick det i valet](https://www.sverigesradio.se/artikel/9304858)
+### [Efter misstänkta valfusket – nytt fall utreds](https://www.svt.se/nyheter/inrikes/efter-misstankta-valfusket-nytt-fall-utreds)
+SVT Nyheter · 2026-09-23 · Johan Wikén, Oskar Jönsson
+
+Riksenheten mot korruption utreder den misstänkta valfuskhärvan i Borlänge. Men specialenheten inom Åklagarmyndigheten utreder även ett annat ärende kopplat till riksdagsvalet. – Rubriceringen är otillbörlig förmån vid röstning, säger åklagaren Oskar Edvardsson.
+
+### [Detta har hänt: Tystnaden från Vänsterpartiet](https://www.sverigesradio.se/artikel/9305777)
 Ekot, Sveriges Radio · 2026-09-23 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-De nya partier som startat i år som en reaktion på Liberalernas nya linje gentemot Sverigedemokraterna har kommit in i två av sex kommuner där de ställt upp. De lyckas i Flen och Habo, men inte i Ulricehamn, Knivsta, Enköping och Uppsala. I Habo tvingas också samtidigt Liberalerna lämna kommunpolitiken, medan de lyckas hålla sig kvar i övriga kommuner där de fått konkurrens av nya liberala partier.
+Vänsterpartiets ledning har lagt locket på rörande brottsmisstankarna. Samtidigt pågår regeringsförhandlingarna för fullt. Socialdemokraternas partiledare Magdalena Andersson har fått i uppdrag att bilda en regering, där Vänsterpartiet vill ingå. ”Jag ser väldigt, väldigt allvarligt på misstankarna som finns”, säger hon. Så här säger Helena Gissén, politisk kommentator: ”Det solkar ju ner deras lag i den mån man kan prata om ett lag. Det är ju inte positivt för Socialdemokraterna att ett parti som trots allt troligen kommer behövas i deras regeringsunderlag dras med såna här historier”.
 
-### [”Om Moderaterna kan spöa Socialdemokraterna här, då kan de göra det överallt”](https://www.dn.se/sverige/om-moderaterna-kan-spoa-socialdemokraterna-har-da-kan-de-gora-det-overallt)
-DN Nyheter · 2026-09-23 · Malena Rydell, Linus Sundahl Djerf
+### [Detta har hänt: Misstänkts valfusk utreds](https://www.sverigesradio.se/artikel/9305768)
+Ekot, Sveriges Radio · 2026-09-23 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Moderaternas skräck var att SD-samarbetet skulle få dem att krympa. I stället blev det tvärtom. I röda Dalarna gör Moderaterna ett succéval. – Det är kittlande och lite svindlande att bruksorten nu är blå, säger Gabriel Erhling Perers.
+Under måndagen den 21 september rapporterar Dagens industri och Expressen att en åklagare utreder olaglig valpåverkan i samband med riksdagsvalet i Dalarna. Enligt en polisanmälan som Expressen har tagit del av har personer skjutsat väljare från utanförskapsområden och försett dem med förkryssade valsedlar på Mohamed Ali. Det förekommer även medieuppgifter om att det finns bilder på personer som ger pengar och valsedlar till människor.
 
-### [Tomas Ramberg: Kan V-affären påverka regeringsbildningen?](https://www.dn.se/sverige/tomas-ramberg-kan-v-affaren-paverka-regeringsbildningen) **[kommentator]**
-DN Nyheter · 2026-09-22 · Tomas Ramberg
+### [Andersson (S) tror hon får ihop en regering: ”Bra samtal”](https://www.sverigesradio.se/artikel/9305778)
+Ekot, Sveriges Radio · 2026-09-23 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Den större frågan bakom polisutredningen om påstått valfusk i Dalarna är om den kan påverka vilka partier som sitter i Sveriges regering de närmaste fyra åren. Vänsterpartiets ledning kämpar nu för att minimera effekten på regeringsförhandlingarna. Det är ännu inte klarlagt om valfusk verkligen förekommit, men för Vänsterpartiet är skadan ett faktum.
+Socialdemokraternas partiledare Magdalena Andersson kommenterar nu för första gången försöken att få ihop en regering, efter att talmannen i fredags gav henne sonderingsuppdraget. ”Jag har haft bra samtal med flera, eller de flesta, av partiledarna i Sveriges riksdag”, säger Andersson, men berättar inte vilka partiledare det handlar om. Däremot säger hon att samtalen gett en bild över vilka partier som det är meningsfullt att fortsätta prata med. Hon säger också att hon tror att hon kommer att få ihop en regering.
 
-### [V: Ali skrivit under kandidatkontrakt](https://www.dn.se/sverige/v-vill-inte-svara-pa-om-ali-skrivit-under-kandidatkontrakt)
-DN Nyheter · 2026-09-22 · Christy Chamy
+### [Expert: Det kan röstfusk leda till](https://www.dn.se/sverige/expert-det-kan-rostfusk-leda-till)
+DN Nyheter · 2026-09-23 · Jakob Kerren, Ossi Carp, Amanda Dahl
 
-Vänsterpartiet tog inför årets riksdagsval fram en ny kandidatförsäkran – en skriftlig överenskommelse mellan partiet och dem som kandiderat i valet. På tisdagskvällen bekräftade partiet att Mohamed Abdukardir Ali har skrivit under avtalet.
+Om V-kandidaten Mohamed Abdukardir Ali har kommit in i riksdagen genom röstfusk kan det få konsekvenser för mandatfördelningen i riksdagen – och i slutändan leda till omval. – Röstfusk är inget bagatellbrott, man tenderar att se ganska allvarligt på sådant, säger professor Joakim Nergelius.
 
-_Genererat 2026-09-23T06:16:12.098824+00:00._
+_Genererat 2026-09-23T14:16:33.269525+00:00._

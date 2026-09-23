@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-09-23T06:16:12.098824+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-09-23T14:16:33.269525+00:00",
+  "new_count": 7,
   "skipped": {
-    "seen": 19,
-    "offtopic": 132,
-    "old": 30
+    "seen": 25,
+    "offtopic": 150,
+    "old": 28
   },
-  "fetch_errors": 1,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 3,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "",
+      "feed": "https://www.dn.se/ledare/rss/",
       "new": 0,
-      "ok": false
+      "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,77 +65,132 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9304858",
-      "title": "Nya liberala utbrytarpartier: Så gick det i valet",
+      "url": "https://www.svd.se/a/43aVjV/dadgostar-duckar-fragor-om-misstankt-valfusk",
+      "title": "Dadgostar duckar frågor om misstänkt valfusk",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-23",
+      "author": "Etezaz Yousuf, Jenny Nyman",
+      "commentator": "",
+      "summary": "På onsdagseftermiddagen har Vänsterpartiets partiledare Nooshi Dadgostar fortfarande inte…",
+      "fulltext": "På onsdagseftermiddagen har Vänsterpartiets partiledare Nooshi Dadgostar fortfarande inte kommenterat utredningen om valfusk som kopplas till Mohamed Abdukardir Ali – som kryssat sin väg in i riksdagen.\nMohamed Abdukardir Ali från Borlänge blev oväntat invald till riksdagen genom personkryss, efter att ha stått först på plats nio på Vänsterpartiets lista i Dalarna – och fått över 600 röster. Men den nyinvalde riksdagsledamotens kandidatur har nu blivit föremål för en brottsutredning.\nFörundersökningen inleddes efter att en anmälan om ”otillbörligt verkande vid röstning” inkommit till Åklagarmyndighetens riksenhet mot korruption, men lades inledningsvis ner.\nEfter valet har utredningen dock återupptagits.\n– Vid första tillfället lades den ned eftersom jag tyckte att det fanns bevisproblem. Sedan tillkom det nya uppgifter som gjorde att det finns skäl att kika på det igen, säger åklagaren och förundersökningsledaren Oskar Edvardsson till TT under onsdagen.\nEnligt uppgifter i flera medier handlar utredningen om förkryssade valsedlar i riksdagsvalet. Expressen har även rapporterat om en anonym polisanmälan, där det finns uppgifter om att personer ska ha skjutsat väljare från utanförskapsområden och försett dem med förkryssade valsedlar.\nUnder hela måndagen svarade Vänsterpartiets partiledning inte på frågor från media. På tisdagseftermiddagen skickade partisekreterare Maria Forsberg ut ett skriftligt uttalande om att Abdukardir Ali tar en ”time-out”.\nUnder onsdagsmorgonen kom partisekreterare Maria Forsberg ut och uttalade sig till reportrar utanför partiets riksdagskansli.\nHon meddelade att Abdukardir Ali inte kommer att tjänstgöra som riksdagsledamot under mandatperiodens inledning – men att han kommer att sitta kvar i riksdagen.\n– Han kommer inte att lämna sin riksdagsplats, sa hon till reportrarna.\nEn källa med insyn uppger att partiet är medvetet om att ”time-out” inte är ett giltigt skäl för frånvaro från riksdagen. Och utan giltig frånvaro är det inte ett möjligt att få in en tjänstgörande ersättare för Mohamed Abdukardir Ali, som väntas bli Kajsa Fredholm som stod etta på listan i Dalarna.\nDärför kommer partiet, uppger källan, att försöka hitta ett giltigt skäl i riksdagens regler så att partiet kan få in ersättare för Abdukardir Ali.\nSamtidigt uppger man från centralt håll att Vänsterpartiet är emot personvalssystemet.\nPå onsdagseftermiddagen har partiledare Nooshi Dadgostar fortfarande inte velat kommentera utredningen om valfusk. Utanför partikansliet på Kungsholmen i Stockholm, där Vänsterpartiet har möte, hade det under onsdagseftermiddagen samlats en stor grupp journalister.\nEn kanslianställd kommer ut och säger att det inte blir några fler kommentarer under dagen, berättar SvD:s utsända reporter. Kanslipersonen får en fråga om Nooshi Dadgostar eller vice partiledare Ida Gabrielsson kommer att säga något – men den frågan får inget svar.\nSvD har sökt Maria Forsberg, Ida Gabrielsson och Nooshi Dadgostar under dagen.\nSå röstade din granne – se valresultatet i ditt kvarter",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/gk2r0J/s-sjalvklart-kan-inte-norlen-sitter-kvar",
+      "title": "S: Självklart kan inte Norlén sitta kvar",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-23",
+      "author": "Niklas Svahn/TT",
+      "commentator": "",
+      "summary": "Socialdemokraterna vill ha en ny talman när riksdagen röstar på måndag.",
+      "fulltext": "Socialdemokraterna vill ha en ny talman när riksdagen röstar på måndag.\n– För mig är det självklart att Andreas Norlén inte sitter kvar, säger S gruppledare Lena Hallengren.\nTalmansomröstningen sker på måndag i samband med uppropet för nya riksdagsledamöter.\nModeraten Andreas Norlén har då suttit på posten sedan valet 2018.\n– Han är en moderat riksdagsledamot och förslaget från Tidösidan. Vi backade upp honom förra mandatperioden för att vi inte ville ha en sverigedemokrat. Det finns ingen som helst anledning för oss att inte ha någon från den nya majoriteten, säger Hallengren.\nDen nya talmannen måste enligt henne vara en socialdemokrat.\n– Vi är det överlägset största partiet och principen har alltid varit att man går i storleksordning. Det gäller även första, andra och tredje vice talman.\nDet är oklart om de rödgröna partierna S, C, V och MP kommer enas om en gemensam talmanskandidat. Det är också oklart om Norlén faktiskt nomineras och om de fyra Tidöpartierna kan sluta upp bakom honom.\nDe rödgröna har samtidigt enats om att bilda en kartell i riksdagen för att säkra majoriteter i alla riksdagens utskott. Utan en kartell hade de inte fått lika stort inflytande. Det är en förhandling som har skett mellan gruppledarna för respektive parti.\nHallengren ger som exempel att i ett utskott med 17 platser får de rödgröna nio platser och Tidösidan åtta. I riksdagen finns också organ som EU-nämnden, riksdagsstyrelsen, utrikesnämnden och riksbanksfullmäktige. De har också diskuterats.\n– För oss är det helt självklart att agera på det sättet. Det har inte varit några svåra förhandlingar, vi är överens om att Tidö har gjort sitt, säger hon.\nVem som ska få ordförandeposten i respektive utskott är inget som har diskuterats ännu.\n– Det här kommer att pågå i flera veckor framåt.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/efter-misstankta-valfusket-nytt-fall-utreds",
+      "title": "Efter misstänkta valfusket – nytt fall utreds",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-23",
+      "author": "Johan Wikén, Oskar Jönsson",
+      "commentator": "",
+      "summary": "Riksenheten mot korruption utreder den misstänkta valfuskhärvan i Borlänge. Men specialenheten inom Åklagarmyndigheten utreder även ett annat ärende kopplat till riksdagsvalet. – Rubriceringen är otillbörlig förmån vid röstning, säger åklagaren Oskar Edvardsson.",
+      "fulltext": "Riksenheten mot korruption utreder den misstänkta valfuskhärvan i Borlänge. Men specialenheten inom Åklagarmyndigheten utreder även ett annat ärende kopplat till riksdagsvalet.\n– Rubriceringen är otillbörlig förmån vid röstning, säger åklagaren Oskar Edvardsson.\nDe senaste dagarna har rubriker om det misstänkta valfusket i Borlänge avlöst varandra. Brottsrubriceringen är otillbörligt verkande vid röstning och fallet utreds av Riksenheten mot korruption.\nDet finns också ett annat ärende som utreds av specialenheten efter valet – men det har ingen koppling till utredningen i Borlänge. Rubriceringen är otillbörlig förmån vid röstning. Åklagaren Oskar Edvardsson vill inte gå in på detaljer om vad som har hänt – men ger ett exempel på vad rubriceringen innefattar.\n– Exempelvis skulle det kunna vara att någon försöker sälja sin röst.\nDet finns en misstänkt person i ärendet, men brottsplatsen är inte helt klarlagd.\n– Platsen kan vara lite flytande om det har skett elektroniskt. Det är en pågående förundersökning. Vi får se vad det landar i, säger Oskar Edvardsson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "riksdagsval"
+      ],
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9305777",
+      "title": "Detta har hänt: Tystnaden från Vänsterpartiet",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-09-23",
       "author": "Ekot",
       "commentator": "",
-      "summary": "De nya partier som startat i år som en reaktion på Liberalernas nya linje gentemot Sverigedemokraterna har kommit in i två av sex kommuner där de ställt upp. De lyckas i Flen och Habo, men inte i Ulricehamn, Knivsta, Enköping och Uppsala. I Habo tvingas också samtidigt Liberalerna lämna kommunpolitiken, medan de lyckas hålla sig kvar i övriga kommuner där de fått konkurrens av nya liberala partier.",
+      "summary": "Vänsterpartiets ledning har lagt locket på rörande brottsmisstankarna. Samtidigt pågår regeringsförhandlingarna för fullt. Socialdemokraternas partiledare Magdalena Andersson har fått i uppdrag att bilda en regering, där Vänsterpartiet vill ingå. ”Jag ser väldigt, väldigt allvarligt på misstankarna som finns”, säger hon. Så här säger Helena Gissén, politisk kommentator: ”Det solkar ju ner deras lag i den mån man kan prata om ett lag. Det är ju inte positivt för Socialdemokraterna att ett parti som trots allt troligen kommer behövas i deras regeringsunderlag dras med såna här historier”.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9304858'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305777'",
       "matched_terms": [
-        "Liberalerna",
-        "Sverigedemokraterna"
+        "regeringsförhandling",
+        "regeringsunderlag",
+        "partiledar",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-23T06:16:12.098824+00:00"
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/om-moderaterna-kan-spoa-socialdemokraterna-har-da-kan-de-gora-det-overallt",
-      "title": "”Om Moderaterna kan spöa Socialdemokraterna här, då kan de göra det överallt”",
+      "url": "https://www.sverigesradio.se/artikel/9305768",
+      "title": "Detta har hänt: Misstänkts valfusk utreds",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Under måndagen den 21 september rapporterar Dagens industri och Expressen att en åklagare utreder olaglig valpåverkan i samband med riksdagsvalet i Dalarna. Enligt en polisanmälan som Expressen har tagit del av har personer skjutsat väljare från utanförskapsområden och försett dem med förkryssade valsedlar på Mohamed Ali. Det förekommer även medieuppgifter om att det finns bilder på personer som ger pengar och valsedlar till människor.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305768'",
+      "matched_terms": [
+        "riksdagsval"
+      ],
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9305778",
+      "title": "Andersson (S) tror hon får ihop en regering: ”Bra samtal”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraternas partiledare Magdalena Andersson kommenterar nu för första gången försöken att få ihop en regering, efter att talmannen i fredags gav henne sonderingsuppdraget. ”Jag har haft bra samtal med flera, eller de flesta, av partiledarna i Sveriges riksdag”, säger Andersson, men berättar inte vilka partiledare det handlar om. Däremot säger hon att samtalen gett en bild över vilka partier som det är meningsfullt att fortsätta prata med. Hon säger också att hon tror att hon kommer att få ihop en regering.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305778'",
+      "matched_terms": [
+        "talman",
+        "sondering",
+        "partiledar",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/expert-det-kan-rostfusk-leda-till",
+      "title": "Expert: Det kan röstfusk leda till",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-09-23",
-      "author": "Malena Rydell, Linus Sundahl Djerf",
+      "author": "Jakob Kerren, Ossi Carp, Amanda Dahl",
       "commentator": "",
-      "summary": "Moderaternas skräck var att SD-samarbetet skulle få dem att krympa. I stället blev det tvärtom. I röda Dalarna gör Moderaterna ett succéval. – Det är kittlande och lite svindlande att bruksorten nu är blå, säger Gabriel Erhling Perers.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-23 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/om-moderaterna-kan-spoa-socialdemokraterna-har-da-kan-de-gora-det-overallt/\nModeraternas skräck var att SD-samarbetet skulle få dem att krympa.\nI röda Dalarna gör Moderaterna ett succéval.\n– Det är kittlande och lite svindlande att bruksorten nu är blå, säger Gabriel Erhling Perers.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDalahästen på kavajslaget är mörkblå. Moderatblå.\nI över 40 år har Ulf Berg arbetat för att byta färg på det röda Dalarna. Vid sidan om sitt jobb som polis har han stridit mot sossepampar och blivit länets mest kända moderat bredvid Carl-Oskar Bohlin.\n69-åringen leder Moderaterna i Dalarna, fram tills häromåret styrde han också över Jägareförbundet i länet.\nDen här valrörelsen har han lärt sig lägga ut reels från gårdsplanen i byn By utanför Avesta.\nPå gården förvaltar han svärfaderns bikupor.\nHonungen slungades i god tid före valet – i fall han skulle få en sista moderat triumf.\nModeraterna gjorde ett historiskt bra val i Dalarna – och i flera kommuner växer de rejält samtidigt som Sverigedemokraterna backar. I kommunvalet i Avesta växer M med nästan 6 procentenheter till 27,7 procent medan SD krymper till 13,2 procent.\nI riksdagsvalet vann Ulf Kristerssons block över det rödgröna blocket i alla Dala-kommuner utom Falun och Borlänge.\n– Jag får citera en känd socialdemokrat: Den såg jag inte komma.\nNu tror den före detta polisinspektören att det var med frågan om mängdrabatt för brottslingar som allt vände.\n– När vi sade att Socialdemokraterna tyckte att man kunde våldta kvinnor gratis. Helt plötsligt började det hända.\n”Framtiden är blå” ropar Stockholmsmoderaterna nu på sociala medier.\nI partiet märks en lättnad över att inte bli lillasyskon till SD.\nFramgångarna kan dels tillskrivas förstagångsväljarna, där Moderaterna cementerat sin plats som största parti.\nMedan Moderaterna ligger still eller minskar i storstäderna syns helt andra siffror i orter i Värmland, Bergslagen och flera Norrlandslän.\nDe ökar ”på platser där sossarna förr var kungar och man länge betraktade Moderaterna som överhetens parti”, skriver den socialdemokratiska ledarskribenten Daniel Swedin .\nHar Moderaterna blivit ett landsbygdsparti?\nHan vantrivdes svårt de tio år då han var riksdagsman och pendlade till Stockholm.\n– Det var Gösta Bohman som gjorde mig till moderat. Han bar kniv och slogs för folket.\nModeratledaren Bohman lät sig ofta fotograferas med en slidkniv i bältet, en rustik skärgårdskarl som när som helst kunde behöva skära av en tamp eller filéa en abborre.\nUlf Berg växte upp under knappa omständigheter, med en ensamstående mamma och en morfar som var ordförande i bondeförbundet i Dalarna och i Lantbrukarnas Riksförbund (LRF).\nSom 12-åring började Ulf Berg jobba på morbrödernas sågverk, berättar han inte utan stolthet i rösten.\n– Många tror att man blir moderat för att man har ett rikt arv att bevaka. Så är det inte för mig. Jag tror på friheten att få bestämma själv och inte detaljstyras av politiken.\nNär Moderaterna utvärderade valet 2022 var de på sätt och vis ett mer stukat parti än nu, trots att de just vunnit regeringsmakten. De tappade stöd framför allt i storstäder men också på landsbygden i stort.\nI partiet fanns en oro för att Sverigedemokraterna skulle bli Socialdemokratins huvudmotståndare.\nVem kommer vilja rösta på kopian när originalet finns? sade skeptiska debattörer på vänstersidan.\nAvestabon Henrik Johansson skrattar. Han har varit en av dem.\nJohansson är kommunikatör för Socialdemokraterna i Avesta, men mer känd för att han i tio år drev sajten ”Inte rasist, men…” (IRM) som granskade och drev med Sverigedemokrater.\nSajten, som beskrivits som ”ett Expo rattat av Kjell Bergqvist”, hade sin storhetstid samtidigt som Bergslagen blev ett av SD:s starkaste fästen.\nÖver hundra Sverigedemokrater avsattes efter att IRM berättat om rasistiska utspel och skandaler. Men kort efter att Tidöregeringen tillträtt 2022 stängde man ner sajten för gott.\nNu driver Johansson den tvärpolitiska podden Babels torn, ihop med personer från Centern, Moderaterna och Miljöpartiet.\n– Flera partier säger numera ganska liknande saker om invandringen som SD. Det har pågått så länge att jag inte tror att SD uppfattas som originalet på samma sätt.\nSverigedemokraterna backar i hela södra Dalarna, och hårdast är fallet i Avesta. Gruppledaren Hans-Erik Bergvall suckar uppgivet i lokaltidningen att han tror att merparten av SD:s röster gått till Moderaterna.\nHenrik Johansson har märkt just det när han lyssnat på sina vänner som är ”höger eller ytterhöger”.\n– För första gången börjar folk tappa förtroendet för att SD ska åstadkomma någonting. Då går man till Moderaterna som man uppfattar kommer med mer trovärdiga lösningar. Man vill inte slösa bort sin röst på SD.\nHan tror inte att det är lönt att försöka få tillbaka SD-väljarna till sitt eget parti.\n– De som övergav S en gång är redan borträknade. De har inte röstat på oss på så länge. De är förlorade just nu, och det kräver ett mer långsiktigt arbete för att nå dem.\nFrån sin gårdsplan i Fors i Avesta kommun har Gabriel Ehrling Perers utsikt över kartongfabriken. Här i vad han kallar ”den djupa södern” av Dalarna har familjen – en tung Centersläkt – bott sedan 1600-talet. Hans mamma var talskrivare åt Centerledaren Olle Johansson. Själv har han aldrig varit med i något parti, men är politisk redaktör på oberoende liberala Falu-Kuriren och Avesta Tidning.\n– De första rader jag skrev i tidningen handlade om att jag var arg på något Ulf Berg hade sagt. Vi har en sedan 25 år pågående skärmytsling, säger han och ler.\nGabriel Ehrling Perers tar fram valkartan över Dalarna och zoomar in på Fors, där han växte upp på 90-talet i ”ett kompakt sosseri”.\nI kommunvalet vann Moderaterna över Socialdemokraterna i Fors.\n– Det är ett tronskifte som skett. S har vunnit här sedan demokratins införande. Det är både kittlande och svindlande.\nEgentligen borde det inte vara möjligt, menar Gabriel Ehrling Perers.\n– Det här är inget borgerligt landskap. Demografin, utbildningsnivån och andra klassgrejer pekar i en annan riktning. Om Moderaterna kan spöa sossarna här, då kan de göra det överallt.\nI en halvcirkel runt Stora Ensos kartongfabrik i Fors ligger bruksrestaurangen och tegelradhus som Ralph Erskine ritade åt arbetarna på 50-talet.\nGabriel Erling Perers morsar på dagisföräldrar utanför Ica.\n– Släpp ner Ulf Kristersson på den här parkeringen. Han är en rätt oväntad person att göra ett bra val här. Många uppfattar honom som en kamrer med en mästrande ton.\nEhrling Perers är förvånad över Moderaternas framgång. Han var övertygad om att SD skulle befästa sin starka position i Dalarna.\n– Men samtidigt: Moderaterna i Dalarna är 0 procent Ulf Kristersson. Moderater här är i stor utsträckning gubbar som är arga på kommunen, som inte varit med en minut i MUF. De är underdogs så det bara skriker om det, formade av att bekämpa sosseriet. Som Ulf Berg.\n– Jag har slutat räkna hur många gånger han sagt upp tidningen i raseri. Han kommer alltid tillbaka.\nNästgårds till Gabriel Ehrling Perers ligger Ytterbennings gård, där bonden Maggan Eriksson jobbar.\nFör henne – en tidigare moderatväljare – är Sverigedemokraterna landsbygdens och livsmedelsproduktionens sista hopp.\n– Att Jimmie valde att åka till Horndal ser jag som en fjäder i hatten.\nNär Ica-butiken sade nej ordnade hon så att Jimmie Åkesson och SD-bussen ändå kunde komma till grannorten och kampanja med ”Frihetshyllan” – ett utbud av alkohol som SD vill att man ska kunna köpa i mataffären.\nHon gillar inte rampljuset, och när gamla arbetskamrater anmälde henne till ”Bonde söker fru” sade hon tvärnej till producenterna.\nÄndå valde hon att kandidera för SD i Avesta kommun.\nFrustrationen mot både LRF och de etablerade partiernas jordbrukspolitik blev för stor.\n– Inget parti har slagits för oss bönder. Lantbruk och mat tas för givet, till skillnad från vård och omsorg.\nSD hade förvisso inte heller mycket till politik för bönder – men de var i alla fall intresserade av att lyssna, menar Maggan Eriksson.\nNär hon var relativt ny i partiet fick hon chans att prata med partisekreteraren Mattias Bäckström Johansson och andra Sverigedemokrater under en helg i Borlänge.\n– Jag berättade att många har missat hur vi bönder har det. Där någonstans föddes den här.\nHon pekar på Sverigedemokraternas nya landsbygdspolitiska program ”Ett starkt svenskt lantbruk”. Maggan Eriksson har bidragit med fakta.\n– Jag är en simpel bonde men jag är bra på siffror!\nValspurten sammanföll med kalvningssäsongen, så valvakan blev inte sen för Maggan Eriksson. På morgonen tog hon emot en ny kalv. Sedan begrundade hon valresultatet – besviken, men inte förvånad.\nHon tror att åren som stödparti till regeringen tagit bort partiets attraktionskraft för vissa väljare: SD blev för lika de andra.\n– Nu när Sverigedemokraterna blivit legitimerade känner väljarna att de lika gärna kan rösta på KD eller på Moderaterna. För då får du i alla fall SD:s politik. Enkelt bonntolkat av mig.\nKent Ekeroth, regionalt oppositionsråd i Dalarna, pekade ut ”röstboskap från utlandet” som förklaring till att SD backar.\n– Nu tycker jag att boskap är något väldigt fint, för att jag arbetar med boskap varje dag. Men att kalla människor för boskap...\nMaggan Eriksson pekar på sin SD-märkta snusdosa – överbliven merchandise från valkampanjen.\n– Det enda som förenar mig och Kent Ekeroth vad det gäller synen på boskap är de här två bokstäverna.\nDet var snubblande nära att det blev maktskifte i Avesta kommun, där Moderaterna gjorde ett historiskt val.\nSocialdemokraterna som fortfarande är stora, men backar, behåller makten.\nKommunalrådet Blerta Krenzi sitter just nu med samma uppgift som Magdalena Andersson: att förhandla ihop ett styre med V, C och MP.\nHon, en före detta civil utredare hos polisen, är besviken på S valkampanj på riksplanet, som varnade för 12 SD-ministrar.\n– Det funkar inte här. Det finns inte så många Magdamoderater i Avesta.\nGabriel Ehrling Perers är ingen bruksortsromantiker. Den liberala skribenten tror att det är bra ”för Dalarna och Sverige” att Moderaterna rycker fram i den här typen av distrikt.\n– Den här framgången var det bästa som kunde hända Moderaterna, för nu får man en ny mening, och något att leva upp till. De har haft sådan panik av att bli uppätna av SD och ägnat sig åt kortsiktig politik.\nTror du att partiet kommer förvalta framgången?\n– Jag hoppas de inser att de kan bygga något mer långsiktigt genom att fånga upp frågor som engagerar människor utanför storstäderna.\nHan skickar en passning till Dalarnas mest kända riksdagsmoderat Carl-Oskar Bohlin – den mångordiga politikern från Borlänge är populär i hemlänet.\n– Det blir upp till bevis för Bohlin nu när han blir riksdagsman igen. Han har ju profilerat sig som dalfolkets man, och skrivit motioner om superkonkreta landsbydgsfrågor som bekämpning av älgflugor.\nI Avesta växer Moderaterna i såväl kommunvalet, regionvalet som riksdagsvalet. S backar men är fortfarande största parti.\n52,6 procent av Avestaborna röstade på Tidöpartierna och 45,9 på oppositionen i riksdagsvalet. S backade med 3,6 procentenheter, SD tappade 3,5 medan M ökade 3,4 procentenheter.\nI kommunvalet växer M med 5,8 procentenheter. S backar 3,7 och SD backar 4,5 procentenheter.\nSocialdemokraterna gör sitt sämsta val i Avesta sedan 1973, men är fortfarande största parti.\nSD backar i 285 av 290 kommuner i landet, medan Moderaterna ökar i 204 kommuner.\nDalarna har varit ett av SD:s starkaste fästen. Nu ökar Moderaterna i 14 av 15 kommuner i Dalarna, medan Sverigedemokraterna tappar i alla Dalarnas kommuner utom Orsa och Älvdalen.\nFortfarande är SD och S de största partierna i många kommuner .\nLäs mer: Historiskt S-ras i norr – backar i 38 kommuner\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nHistoriskt S-ras i norr – backar i 38 kommuner\nÅkesson backar om L-ultimatum: Vill vänta in fler mätningar\nMax Hjelm: Dags att erkänna att Parisa Liljestrand hade rätt",
+      "summary": "Om V-kandidaten Mohamed Abdukardir Ali har kommit in i riksdagen genom röstfusk kan det få konsekvenser för mandatfördelningen i riksdagen – och i slutändan leda till omval. – Röstfusk är inget bagatellbrott, man tenderar att se ganska allvarligt på sådant, säger professor Joakim Nergelius.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-23 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/expert-det-kan-rostfusk-leda-till/\nOm V-kandidaten Mohamed Abdukardir Ali har kommit in i riksdagen genom röstfusk kan det få konsekvenser för mandatfördelningen i riksdagen – och i slutändan leda till omval.\n– Röstfusk är inget bagatellbrott, man tenderar att se ganska allvarligt på sådant, säger professor Joakim Nergelius.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Moderaterna",
-        "Socialdemokraterna"
+        "mandatfördelning"
       ],
-      "first_seen": "2026-09-23T06:16:12.098824+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-kan-v-affaren-paverka-regeringsbildningen",
-      "title": "Tomas Ramberg: Kan V-affären påverka regeringsbildningen?",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-22",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Den större frågan bakom polisutredningen om påstått valfusk i Dalarna är om den kan påverka vilka partier som sitter i Sveriges regering de närmaste fyra åren. Vänsterpartiets ledning kämpar nu för att minimera effekten på regeringsförhandlingarna. Det är ännu inte klarlagt om valfusk verkligen förekommit, men för Vänsterpartiet är skadan ett faktum.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-23 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-kan-v-affaren-paverka-regeringsbildningen/\nDen större frågan bakom polisutredningen om påstått valfusk i Dalarna är om den kan påverka vilka partier som sitter i Sveriges regering de närmaste fyra åren. Vänsterpartiets ledning kämpar nu för att minimera effekten på regeringsförhandlingarna.\nDet är ännu inte klarlagt om valfusk verkligen förekommit, men för Vänsterpartiet är skadan ett faktum.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "regeringsförhandling",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-23T06:16:12.098824+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/v-vill-inte-svara-pa-om-ali-skrivit-under-kandidatkontrakt",
-      "title": "V: Ali skrivit under kandidatkontrakt",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-22",
-      "author": "Christy Chamy",
-      "commentator": "",
-      "summary": "Vänsterpartiet tog inför årets riksdagsval fram en ny kandidatförsäkran – en skriftlig överenskommelse mellan partiet och dem som kandiderat i valet. På tisdagskvällen bekräftade partiet att Mohamed Abdukardir Ali har skrivit under avtalet.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-23 08:14\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-vill-inte-svara-pa-om-ali-skrivit-under-kandidatkontrakt/\nVänsterpartiet tog inför årets riksdagsval fram en ny kandidatförsäkran – en skriftlig överenskommelse mellan partiet och dem som kandiderat i valet.\nPå tisdagskvällen bekräftade partiet att Mohamed Abdukardir Ali har skrivit under avtalet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDe flesta partier har någon form av en så kallad kandidatförsäkran. Det handlar om krav på exempelvis gott uppförande, betalning av avgifter till partiet eller transparens för att säkerställa att en kandidat inte har en tvivelaktig bakgrund som kan skada partiet.\nInför riksdagsvalet i år fattade Vänsterpartiets partistyrelse beslut om ett nytt kandidatkontrakt för dem som kandiderar till riksdag, region och kommun i valet.\nFörutom att Vänsterpartiets riksdagskandidater har ett krav på att ”vara en god representant för Vänsterpartiet” förbinder de sig även att berätta för partiet om det finns något i deras liv som skulle kunna orsaka en förtroendeskada för V.\n– Oftast handlar det om att man har gjort sig skyldig till något brottsligt, att man är straffad eller för den delen gjort andra saker som kan antas spilla negativt ljus på partiet. Sedan händer det ju ändå, säger Niklas Bolin, professor i statsvetenskap vid Mittuniversitetet, som forskar om politiskt beteende och politiska partier.\nUnder 2022 beviljades Mohamed Abdukardir Ali skuldsanering som ska pågå fram till j uni nästa år. Hans skulder hos Kronofogden ledde till att Migrationsverket initialt bedömde att han inte skulle få svenskt medborgarskap.\nPå frågan huruvida Abdukardir Ali har undertecknat Vänsterpartiets kandidatkontrakt inför valet ville partiet initialt inte svara på, men under tisdagskvällen meddelade man att han har undertecknat avtalet.\n”Mohamed Abdukardir Ali undertecknade sin kandidatförsäkran i samband med att han intervjuades av valberedningen inför sin kandidatur”, skriver Vänsterpartiets presstjänst till DN.\nMartin Karlsson, professor i statsvetenskap vid Mälardalens universitet, säger att Vänsterpartiets kandidatförsäkran inte sticker ut.\n– Den ser ut som hur jag tänker att en kandidatförsäkran ser ut vanligtvis. Det är framför allt tillbakablickande och fokuserar på att kandidaten redogjort för sådant som är relevant i dennes bakgrund snarare än en försäkran om framtida beteende.\nAtt det uppkommit en situation där en kandidat långt ner på partiets lista kunnat kryssa sig till en riksdagsplats beror på att partierna har förlorat medlemmar lokalt, säger Martin Karlsson. Han menar dessutom att partierna i dag har dålig koll på hur det ser ut längre ner på sina listor.\n– De lokala partiorganisationerna är ju ganska försvagade av stora medlemstapp. Det skapar möjligheter för den här typen av kuppartade försök att vinna kandidatur, säger Martin Karlsson och fortsätter:\n– När partierna hade en starkare medlemskultur och mer aktiva och större medlemsorganisationer gav det ett slags skydd mot den här typen av överraskande vinster och mandat.\nUnder tisdagseftermiddagen meddelade Vänsterpartiets partisekreterare Maria Forsberg att Mohamed Abdukardir Ali tar time out och ”inte kommer tjänstgöra som riksdagsledamot från mandatperiodens början på grund av den pågående utredningen om valfusk.”\nLäs mer: Utredningen om valfusk lades ned: ”Poliser var superfrustrerade”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nUtredningen om valfusk lades ned: ”Poliser var superfrustrerade”\nMax Hjelm: Dags att erkänna att Parisa Liljestrand hade rätt\n”Om Moderaterna kan spöa Socialdemokraterna här, då kan de göra det överallt”",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "riksdagsval",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-23T06:16:12.098824+00:00"
+      "first_seen": "2026-09-23T14:16:33.269525+00:00"
     }
   ]
 }
