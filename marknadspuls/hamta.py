@@ -72,7 +72,15 @@ GRAF_DAGAR = 30
 def _download(ticker: str) -> pd.Series:
     import yfinance as yf
 
-    raw = yf.download(ticker, period="6mo", interval="1d", auto_adjust=False, progress=False)
+    idag = pd.Timestamp.now(tz="UTC").normalize().tz_localize(None)
+    raw = yf.download(
+        ticker,
+        start=(idag - pd.Timedelta(days=190)).strftime("%Y-%m-%d"),
+        end=(idag + pd.Timedelta(days=1)).strftime("%Y-%m-%d"),
+        interval="1d",
+        auto_adjust=False,
+        progress=False,
+    )
     if raw is None or raw.empty:
         return pd.Series(dtype=float)
     close = raw["Close"]
@@ -80,7 +88,20 @@ def _download(ticker: str) -> pd.Series:
         close = close.iloc[:, 0]
     close = close.dropna()
     close.index = pd.to_datetime(close.index.date)
-    return close[~close.index.duplicated(keep="last")].astype(float)
+    close = close[~close.index.duplicated(keep="last")].astype(float)
+
+    # Yahoos dagsserie för index saknar ibland gårdagens stängning fast den
+    # finns i Ticker.history — fyll på de sista dagarna därifrån.
+    try:
+        kort = yf.Ticker(ticker).history(period="5d", interval="1d", auto_adjust=False)["Close"].dropna()
+        kort.index = pd.to_datetime(kort.index.date)
+        nya = kort[kort.index > close.index[-1]] if len(close) else kort
+        if len(nya):
+            print(f"  {ticker}: kompletterade med {', '.join(str(d.date()) for d in nya.index)} från Ticker.history")
+            close = pd.concat([close, nya.astype(float)])
+    except Exception as exc:  # noqa: BLE001
+        print(f"  {ticker}: Ticker.history misslyckades ({exc})")
+    return close
 
 
 def _omxs30_fran_market_db() -> pd.Series:
