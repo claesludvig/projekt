@@ -100,13 +100,18 @@ Nya filer:
 
 Twelve Data behövs inte längre. Det ger färre API-gränser och index i stället för ETF-proxyer.
 
-## Öppna frågor (behöver ditt svar)
+## Beslut
 
-1. **Grafer i mejlet.** Gmail blockerar inbäddade base64-bilder. Alternativen är:
-   (a) PNG committas till repot och länkas via `raw.githubusercontent.com`, vilket kräver att repot är publikt;
-   (b) bilagor, om Gmail-verktyget klarar det;
-   (c) diagram-URL:er (t.ex. QuickChart), där datan skickas till en extern tjänst.
-   Lutar åt (a) om repot är publikt.
-2. **Svenska och tyska räntor** (SE 10Y, DE 10Y, 2Y) finns inte pålitligt på Yahoo. Räcker amerikanska räntor, eller ska vi hitta en källa (Riksbankens API för SE-räntor är gratis)?
-3. **Vilka par vill du se i sambandsgraferna?** Förslaget är de fyra ovan.
-4. **Ska rutinen byta namn**, t.ex. till "Marknadspulsen", och ska den gamla stängas av först när v2 har gått bra några dagar parallellt?
+- **Räntor:** amerikanska räcker (3M, 2Y, 10Y, 30Y).
+- **Par i graferna:** OMXS30–Brent, OMXS30–US 10Y, EUR/USD–US 10Y, USD/SEK–OMXS30.
+- **Grafer i mejlet:** repot är publikt, så PNG:erna committas under `data/grafer/<datum>/` och länkas via `raw.githubusercontent.com`. En katalog per dag gör att gamla mejl behåller sina bilder. Kataloger äldre än 30 dagar rensas.
+- **Parallellkörning mot v1:** avgörs senare.
+
+## Status
+
+- [x] `hamta.py`: data, tabell, korrelationer och grafer (testad lokalt på syntetisk data)
+- [x] `mall.py`: HTML + text (kontrollerad på 375 px mobilbredd)
+- [x] `.github/workflows/marknadspuls.yml`: har tillfälligt en push-trigger på utvecklingsbranchen för test
+- [x] `rutin_prompt_utkast.md`
+- [ ] Första körningen mot riktig Yahoo-data: vilka tickers fungerar?
+- [ ] Merga till main (ta bort push-triggern först) och skapa eller byt rutin
