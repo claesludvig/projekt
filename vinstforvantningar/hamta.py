@@ -193,7 +193,7 @@ def rita_vinst_mot_kurs(kurs: pd.Series, eps0: pd.Series, eps1: pd.Series, ar0: 
             ax.plot(serie.index, serie.values, color=farg, linewidth=2.2, marker="o", markersize=4, label=etikett)
     ax.axhline(100, color="#a0aec0", linewidth=0.8)
     ax.set_ylabel("Index, 90 dagar sedan = 100", fontsize=9, color="#4a5568")
-    ax.legend(loc="lower left", bbox_to_anchor=(0, 1.0), ncol=3, fontsize=9, frameon=False, borderaxespad=0.2)
+    ax.legend(loc="lower left", bbox_to_anchor=(0, 1.0), ncol=2, fontsize=9, frameon=False, borderaxespad=0.2)
     ax.tick_params(labelsize=9, colors="#4a5568")
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%d/%m"))
     ax.grid(alpha=0.25)
