@@ -56,8 +56,8 @@ def fmt_andring(x, enhet: str) -> str:
     return ("+" if x > 0 else "") + _tal(x, 0 if enhet == "bp" else 1)
 
 
-def _farg(x) -> str:
-    if x is None or round(x, 1) == 0:
+def _farg(x, enhet: str = "pct") -> str:
+    if x is None or (round(x) if enhet == "bp" else round(x, 1)) == 0:
         return C_DAMPAD
     return C_UPP if x > 0 else C_NER
 
@@ -85,7 +85,7 @@ def _tabell_html(grupp: dict, perioder: list, data_t_o_m: str) -> str:
             x = r["forandring"].get(p)
             celler.append(
                 f'<td style="padding:5px 2px;font-size:12px;text-align:right;white-space:nowrap;'
-                f'color:{_farg(x)};font-variant-numeric:tabular-nums;">{fmt_andring(x, r["enhet"])}</td>'
+                f'color:{_farg(x, r["enhet"])};font-variant-numeric:tabular-nums;">{fmt_andring(x, r["enhet"])}</td>'
             )
         rader.append(f'<tr style="border-bottom:1px solid #f0f4f8;">{"".join(celler)}</tr>')
     huvud = (
@@ -212,8 +212,9 @@ def rendera_text(rapport: dict, data: dict) -> str:
     for grupp in data["tabell"]:
         rader.append(f"{grupp['grupp'].upper():<16}{'Senast':>10}" + "".join(f"{p:>7}" for p in perioder))
         for r in grupp["rader"]:
+            namn = r["namn"] if r["datum"] >= data["data_t_o_m"] else f"{r['namn']} ({int(r['datum'][8:])}/{int(r['datum'][5:7])})"
             rader.append(
-                f"{r['namn']:<16}{fmt_senast(r):>10}"
+                f"{namn:<16}{fmt_senast(r):>10}"
                 + "".join(f"{fmt_andring(r['forandring'].get(p), r['enhet']):>7}" for p in perioder)
             )
         rader.append("")
