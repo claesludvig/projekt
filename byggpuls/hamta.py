@@ -51,6 +51,7 @@ TAXONOMY = "https://taxonomy.api.jobtechdev.se/v1/taxonomy/main/concepts"
 SCB_BASER = ["https://statistikdatabasen.scb.se/api/v2", "https://api.scb.se/ov0104/v2beta/api/v2"]
 SWEA = "https://api.riksbank.se/swea/v1"
 SWEA_PAUS = 13
+MIN_ANNONSER = 5000  # färre annonser totalt en månad = för ofullständig för att räkna andel
 JOBTECH_OMHAMTA_MAN = 3  # senaste månaderna hämtas om varje gång (annonser registreras i efterhand)
 HEADERS = {"accept": "application/json", "User-Agent": "byggpuls (github.com/claesludvig/projekt)"}
 
@@ -115,12 +116,10 @@ def jobtech_historik(falt: str, man: pd.DatetimeIndex, cache: pd.DataFrame) -> t
                 fel.append(f"JobTech {kol} {m:%Y-%m}: {exc}")
     for kol in ut:
         s = pd.Series(ut[kol], dtype=float)
-        # Historik-API:t kan sakna de senaste månaderna; en månad med under
-        # hälften av föregående års snitt räknas som ej publicerad.
-        if len(s) > 12:
-            golv = 0.5 * s.iloc[-13:-1].mean()
-            svag = s[s.index >= s.index[-3]] < golv
-            s[svag[svag].index] = np.nan
+        # Historik-API:t fylls på i efterhand, så de senaste månaderna är
+        # ofullständiga. Andelen bygg av alla annonser håller ändå; bara
+        # månader med för få annonser för en stabil andel stryks.
+        s[pd.Series(ut["annonser_alla"], dtype=float).reindex(s.index) < MIN_ANNONSER] = np.nan
         ut[kol] = s
         if s.notna().any():
             print(f"  {kol}: {s.notna().sum()} månader, senast {s.dropna().index[-1]:%Y-%m} = {s.dropna().iloc[-1]:.0f}")
@@ -193,7 +192,8 @@ def _scb_tid(kod: str) -> pd.Timestamp:
     return pd.Timestamp(f"{kod[:4]}-01-01")
 
 
-NYCKELORD = {"konkurser_bygg": ["bygg"], "paborjade_lgh": ["riket", "samtliga", "totalt", "flerbostadshus och småhus"]}
+NYCKELORD = {"konkurser_bygg": ["bygg", "konkurser"],
+             "paborjade_lgh": ["påbörjade", "riket", "samtliga", "totalt", "flerbostadshus och småhus"]}
 
 
 def _auto_urval(meta: dict, nyckelord: list) -> dict:
@@ -230,9 +230,8 @@ def scb_serier(konfig: dict, logg: list) -> tuple[dict, list]:
                 logg.append(f"## Sök '{k['sok']}' ({nyckel})")
                 for t in traffar:
                     logg.append(f"{t.get('id')}\t{t.get('timeUnit')}\t{t.get('firstPeriod')}–{t.get('lastPeriod')}\t{t.get('label')}")
-                enhet = "Monthly" if nyckel == "konkurser_bygg" else "Quarterly"
-                ord1 = "konkurs" if nyckel == "konkurser_bygg" else "påbörjade"
-                kandidater = [t for t in traffar if t.get("timeUnit") == enhet and ord1 in t.get("label", "").lower()]
+                kandidater = [t for t in traffar if t.get("timeUnit") == k["tidsenhet"]
+                              and k["etikett"] in t.get("label", "").lower()]
                 if not kandidater:
                     raise RuntimeError(f"ingen tabell hittad för '{k['sok']}'")
                 tabell = max(kandidater, key=lambda t: str(t.get("lastPeriod")))["id"]
@@ -299,7 +298,7 @@ def rita_index(index: pd.Series, lika: pd.Series, mal: pd.Series, ledtid: int, p
     ax.axhline(0, color="#718096", linewidth=0.8)
     ax.set_ylabel("Standardavvikelser", fontsize=9, color="#4a5568")
     h, l = ax.get_legend_handles_labels()
-    if len(mal):
+    if len(mal) and isinstance(mal.index, pd.DatetimeIndex):
         ax2 = ax.twinx()
         m = mal.copy()
         m.index = m.index - pd.DateOffset(months=3 * ledtid)
@@ -412,6 +411,11 @@ def main() -> None:
         if len(mal):
             mal.rename("paborjade_lgh").to_csv(MAL_CSV, index_label="kvartal")
 
+    if "annonser_bygg" in ra and "annonser_alla" in ra:
+        # Byggets andel av alla platsannonser: tål att Platsbankens totala
+        # volym svänger av skäl som inte har med konjunkturen att göra.
+        ra["andel_annonser_bygg"] = ra["annonser_bygg"] / ra["annonser_alla"] * 100
+
     komp = [k for k in konfig["komponenter"] if k["id"] in ra and ra[k["id"]].notna().sum() > 24]
     saknas = [k["namn"] for k in konfig["komponenter"] if k not in komp]
     if saknas:
@@ -423,7 +427,7 @@ def main() -> None:
     lika = bpi.bygg_index(ra, komp, "lika")
 
     print("Efterhandstest:")
-    mal_ar = bpi.mal_arsforandring(mal) if len(mal) >= 12 else pd.Series(dtype=float)
+    mal_ar = bpi.mal_arsforandring(mal) if len(mal) >= 12 else pd.Series(dtype=float, index=pd.DatetimeIndex([]))
     test = {}
     if len(mal_ar):
         rt_pca = bpi.realtidsindex(ra, komp, "pca")

@@ -8,13 +8,17 @@
   "scb": {
     "_kommentar": "Tabell-id och urval för SCB:s PxWebApi 2. Saknas 'tabell' söks tabellen fram med 'sok' och alla träffar loggas i data/scb_tabeller.txt.",
     "konkurser_bygg": {
-      "sok": "konkurser näringsgren månad",
+      "sok": "konkurser",
+      "tidsenhet": "Monthly",
+      "etikett": "konkurs",
       "tabell": null,
       "urval": {}
     },
     "paborjade_lgh": {
-      "sok": "påbörjade lägenheter nybyggda hus kvartal",
-      "tabell": null,
+      "sok": "lägenheter nybyggda hus",
+      "tidsenhet": "Quarterly",
+      "etikett": "lägenheter i nybyggda hus",
+      "tabell": "TAB4572",
       "urval": {}
     }
   },
@@ -23,10 +27,38 @@
     "Styrränta": "SECBREPOEFF"
   },
   "komponenter": [
-    {"id": "annonser_bygg", "namn": "Platsannonser, bygg och anläggning", "transform": "yoy_3m", "tecken": 1, "fordrojning_man": 0},
-    {"id": "konkurser_bygg", "namn": "Konkurser i byggindustrin", "transform": "yoy_3m", "tecken": -1, "fordrojning_man": 1},
-    {"id": "stat_5y", "namn": "Statsobligation 5 år", "transform": "diff12", "tecken": -1, "fordrojning_man": 0},
-    {"id": "byggaktier", "namn": "Byggbolagens aktier", "transform": "yoy", "tecken": 1, "fordrojning_man": 0}
+    {
+      "id": "andel_annonser_bygg",
+      "namn": "Platsannonser, byggets andel",
+      "transform": "yoy_3m",
+      "tecken": 1,
+      "fordrojning_man": 0
+    },
+    {
+      "id": "konkurser_bygg",
+      "namn": "Konkurser i byggindustrin",
+      "transform": "yoy_3m",
+      "tecken": -1,
+      "fordrojning_man": 1
+    },
+    {
+      "id": "stat_5y",
+      "namn": "Statsobligation 5 år",
+      "transform": "diff12",
+      "tecken": -1,
+      "fordrojning_man": 0
+    },
+    {
+      "id": "byggaktier",
+      "namn": "Byggbolagens aktier",
+      "transform": "yoy",
+      "tecken": 1,
+      "fordrojning_man": 0
+    }
   ],
-  "mal": {"id": "paborjade_lgh", "namn": "Påbörjade lägenheter (SCB)", "fordrojning_man": 2}
+  "mal": {
+    "id": "paborjade_lgh",
+    "namn": "Påbörjade lägenheter (SCB)",
+    "fordrojning_man": 2
+  }
 }
