@@ -1,0 +1,4 @@
+name: Bygg och fastighet - kurser, räntor, prognoser
+
+on:
+  workflow_dispatch: {}

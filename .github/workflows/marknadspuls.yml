@@ -1,0 +1,4 @@
+name: Marknadspulsen - marknadsdata
+
+on:
+  workflow_dispatch: {}

@@ -1,0 +1,4 @@
+name: Vinstförväntningar OMXS30 - analytikerkonsensus
+
+on:
+  workflow_dispatch: {}
