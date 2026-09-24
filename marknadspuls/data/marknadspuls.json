@@ -1,5 +1,5 @@
 {
-  "genererad": "2026-09-24T07:37:57+00:00",
+  "genererad": "2026-09-24T09:07:41+00:00",
   "data_t_o_m": "2026-09-23",
   "perioder": [
     "1d",
@@ -303,7 +303,7 @@
         }
       },
       "graf": "marknadspuls/data/grafer/2026-09-24/omxs30_mot_brent.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/marknadspuls/data/grafer/2026-09-24/omxs30_mot_brent.png"
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-09-24/omxs30_mot_brent.png"
     },
     {
       "a": "OMXS30",
@@ -319,7 +319,7 @@
         }
       },
       "graf": "marknadspuls/data/grafer/2026-09-24/omxs30_mot_us_10y.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/marknadspuls/data/grafer/2026-09-24/omxs30_mot_us_10y.png"
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-09-24/omxs30_mot_us_10y.png"
     },
     {
       "a": "EUR/USD",
@@ -335,7 +335,7 @@
         }
       },
       "graf": "marknadspuls/data/grafer/2026-09-24/eur_usd_mot_us_10y.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/marknadspuls/data/grafer/2026-09-24/eur_usd_mot_us_10y.png"
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-09-24/eur_usd_mot_us_10y.png"
     },
     {
       "a": "USD/SEK",
@@ -351,7 +351,7 @@
         }
       },
       "graf": "marknadspuls/data/grafer/2026-09-24/usd_sek_mot_omxs30.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/marknadspuls/data/grafer/2026-09-24/usd_sek_mot_omxs30.png"
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-09-24/usd_sek_mot_omxs30.png"
     }
   ],
   "fel": []
