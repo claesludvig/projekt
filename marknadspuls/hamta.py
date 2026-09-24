@@ -91,18 +91,22 @@ def _download(ticker: str) -> pd.Series:
     close.index = pd.to_datetime(close.index.date)
     close = close[~close.index.duplicated(keep="last")].astype(float)
 
-    # Yahoos dagsserie för index saknar ofta gårdagens stängning på morgonen
-    # (svensk tid) fast timdatan har den. Fyll på avslutade dagar med sista
-    # timstapelns stängning — i praktiken samma som dagsstängningen.
+    # Yahoos dagsserie saknar ibland hela handelsdagar mitt i serien (t.ex.
+    # 22/9 2026 för OMXS30, DAX, Stoxx och S&P) och ofta gårdagen på
+    # morgonen. Då blir "1d" i själva verket en tvådagarsförändring. Timdatan
+    # har alla dagar; sista timstapelns stängning per lokal dag stämmer med
+    # Yahoos egen previousClose. Fyll därför varje saknad avslutad dag den
+    # senaste månaden från timdatan.
     try:
-        tim = yf.Ticker(ticker).history(period="5d", interval="1h", auto_adjust=False)["Close"].dropna()
+        tim = yf.Ticker(ticker).history(period="1mo", interval="1h", auto_adjust=False)["Close"].dropna()
         if len(tim):
-            dagar = pd.to_datetime(tim.index.tz_localize(None).date if tim.index.tz is None else tim.index.date)
+            dagar = pd.to_datetime(tim.index.date)  # lokal börsdag (index är tz-medvetet)
             per_dag = pd.Series(tim.values, index=dagar).groupby(level=0).last()
-            nya = per_dag[(per_dag.index > close.index[-1]) & (per_dag.index < idag)] if len(close) else per_dag
-            if len(nya):
-                print(f"  {ticker}: kompletterade {', '.join(str(d.date()) for d in nya.index)} från timdata")
-                close = pd.concat([close, nya.astype(float)])
+            per_dag = per_dag[per_dag.index < idag]
+            saknas = per_dag[~per_dag.index.isin(close.index)]
+            if len(saknas):
+                print(f"  {ticker}: fyllde {', '.join(str(d.date()) for d in saknas.index)} från timdata")
+                close = pd.concat([close, saknas.astype(float)]).sort_index()
     except Exception as exc:  # noqa: BLE001
         print(f"  {ticker}: timdata misslyckades ({exc})")
     return close
