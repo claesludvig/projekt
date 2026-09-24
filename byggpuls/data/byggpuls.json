@@ -1,14 +1,14 @@
 {
-  "genererad": "2026-09-24T18:02:42+00:00",
+  "genererad": "2026-09-24T18:04:35+00:00",
   "datum": "2026-09-24",
   "manad": "2026-08",
   "index": {
-    "senast": -0.17,
-    "for_1_man": -0.09,
-    "for_3_man": -0.03,
-    "for_12_man": 0.27,
-    "likaviktat_senast": -0.16,
-    "komponenter_i_senaste": 3,
+    "senast": -0.28,
+    "for_1_man": -0.19,
+    "for_3_man": -0.13,
+    "for_12_man": 0.39,
+    "likaviktat_senast": -0.26,
+    "komponenter_i_senaste": 4,
     "komponenter_totalt": 4
   },
   "komponenter": [
@@ -28,33 +28,33 @@
     {
       "id": "bygglov_lgh",
       "namn": "Bygglov, nya lägenheter",
-      "vikt": 0.272,
+      "vikt": 0.254,
       "senaste_manad": "2026-06",
-      "senaste_varde": 1464.0,
-      "signal": null,
+      "senaste_varde": 8137.0,
+      "signal": -23.0,
       "signal_enhet": "% mot för ett år sedan",
-      "z": null,
-      "bidrag": -0.13,
+      "z": -0.88,
+      "bidrag": -0.22,
       "tecken": 1,
       "fordrojning_man": 3
     },
     {
       "id": "stat_5y",
       "namn": "Statsobligation 5 år",
-      "vikt": 0.246,
+      "vikt": 0.265,
       "senaste_manad": "2026-08",
       "senaste_varde": 2.73,
       "signal": 0.6,
       "signal_enhet": "procentenheter mot för ett år sedan",
       "z": -0.61,
-      "bidrag": -0.15,
+      "bidrag": -0.16,
       "tecken": -1,
       "fordrojning_man": 0
     },
     {
       "id": "byggaktier",
       "namn": "Byggbolagens aktier",
-      "vikt": 0.244,
+      "vikt": 0.243,
       "senaste_manad": "2026-08",
       "senaste_varde": 223.08,
       "signal": 16.6,
@@ -71,7 +71,7 @@
       {
         "ledtid_kvartal": 0,
         "n": 25,
-        "korrelation": 0.55
+        "korrelation": 0.53
       },
       {
         "ledtid_kvartal": 1,
@@ -86,46 +86,46 @@
       {
         "ledtid_kvartal": 3,
         "n": 22,
-        "korrelation": 0.8
+        "korrelation": 0.77
       },
       {
         "ledtid_kvartal": 4,
         "n": 21,
-        "korrelation": 0.74
+        "korrelation": 0.68
       }
     ],
     "realtid_lika": [
       {
         "ledtid_kvartal": 0,
         "n": 43,
-        "korrelation": 0.33
+        "korrelation": 0.29
       },
       {
         "ledtid_kvartal": 1,
         "n": 42,
-        "korrelation": 0.51
+        "korrelation": 0.49
       },
       {
         "ledtid_kvartal": 2,
         "n": 41,
-        "korrelation": 0.64
+        "korrelation": 0.63
       },
       {
         "ledtid_kvartal": 3,
         "n": 40,
-        "korrelation": 0.73
+        "korrelation": 0.71
       },
       {
         "ledtid_kvartal": 4,
         "n": 39,
-        "korrelation": 0.73
+        "korrelation": 0.72
       }
     ],
     "hela_urvalet_pca": [
       {
         "ledtid_kvartal": 0,
         "n": 43,
-        "korrelation": 0.55
+        "korrelation": 0.51
       },
       {
         "ledtid_kvartal": 1,
@@ -135,212 +135,212 @@
       {
         "ledtid_kvartal": 2,
         "n": 41,
-        "korrelation": 0.8
+        "korrelation": 0.83
       },
       {
         "ledtid_kvartal": 3,
         "n": 40,
-        "korrelation": 0.81
+        "korrelation": 0.85
       },
       {
         "ledtid_kvartal": 4,
         "n": 39,
-        "korrelation": 0.77
+        "korrelation": 0.8
       }
     ],
     "realtid_fran": "2020-06"
   },
   "bast_ledtid": {
-    "ledtid_kvartal": 3,
-    "n": 22,
-    "korrelation": 0.8
+    "ledtid_kvartal": 2,
+    "n": 23,
+    "korrelation": 0.79
   },
   "serie": [
     {
       "manad": "2023-09",
-      "pca": -1.45,
-      "lika": -1.43
+      "pca": -1.3,
+      "lika": -1.31
     },
     {
       "manad": "2023-10",
-      "pca": -1.16,
-      "lika": -1.14
+      "pca": -1.09,
+      "lika": -1.1
     },
     {
       "manad": "2023-11",
-      "pca": -1.17,
-      "lika": -1.15
+      "pca": -1.1,
+      "lika": -1.11
     },
     {
       "manad": "2023-12",
-      "pca": -0.81,
-      "lika": -0.79
+      "pca": -0.73,
+      "lika": -0.74
     },
     {
       "manad": "2024-01",
-      "pca": -0.77,
-      "lika": -0.76
+      "pca": -0.18,
+      "lika": -0.21
     },
     {
       "manad": "2024-02",
-      "pca": -0.7,
-      "lika": -0.67
+      "pca": -0.1,
+      "lika": -0.12
     },
     {
       "manad": "2024-03",
-      "pca": -0.47,
-      "lika": -0.44
+      "pca": 0.12,
+      "lika": 0.11
     },
     {
       "manad": "2024-04",
-      "pca": 0.03,
-      "lika": 0.03
+      "pca": 0.0,
+      "lika": -0.0
     },
     {
       "manad": "2024-05",
-      "pca": 0.32,
-      "lika": 0.34
+      "pca": 0.3,
+      "lika": 0.31
     },
     {
       "manad": "2024-06",
-      "pca": 0.55,
-      "lika": 0.58
+      "pca": 0.54,
+      "lika": 0.54
     },
     {
       "manad": "2024-07",
-      "pca": 1.07,
-      "lika": 1.07
+      "pca": 0.77,
+      "lika": 0.77
     },
     {
       "manad": "2024-08",
-      "pca": 1.22,
-      "lika": 1.23
+      "pca": 0.93,
+      "lika": 0.92
     },
     {
       "manad": "2024-09",
-      "pca": 1.33,
-      "lika": 1.35
+      "pca": 1.05,
+      "lika": 1.04
     },
     {
       "manad": "2024-10",
-      "pca": 1.19,
-      "lika": 1.21
+      "pca": 1.17,
+      "lika": 1.16
     },
     {
       "manad": "2024-11",
-      "pca": 1.07,
-      "lika": 1.08
+      "pca": 1.04,
+      "lika": 1.04
     },
     {
       "manad": "2024-12",
-      "pca": 0.85,
-      "lika": 0.86
+      "pca": 0.8,
+      "lika": 0.82
     },
     {
       "manad": "2025-01",
-      "pca": 0.99,
-      "lika": 0.99
+      "pca": 0.7,
+      "lika": 0.72
     },
     {
       "manad": "2025-02",
-      "pca": 1.16,
-      "lika": 1.17
+      "pca": 0.88,
+      "lika": 0.9
     },
     {
       "manad": "2025-03",
-      "pca": 0.79,
-      "lika": 0.79
+      "pca": 0.5,
+      "lika": 0.52
     },
     {
       "manad": "2025-04",
-      "pca": 0.55,
-      "lika": 0.57
+      "pca": 0.67,
+      "lika": 0.67
     },
     {
       "manad": "2025-05",
-      "pca": 0.51,
-      "lika": 0.53
+      "pca": 0.63,
+      "lika": 0.63
     },
     {
       "manad": "2025-06",
-      "pca": 0.47,
-      "lika": 0.49
+      "pca": 0.58,
+      "lika": 0.59
     },
     {
       "manad": "2025-07",
-      "pca": 0.38,
-      "lika": 0.38
+      "pca": 0.51,
+      "lika": 0.51
     },
     {
       "manad": "2025-08",
-      "pca": 0.27,
-      "lika": 0.27
+      "pca": 0.39,
+      "lika": 0.4
     },
     {
       "manad": "2025-09",
-      "pca": 0.21,
-      "lika": 0.2
+      "pca": 0.33,
+      "lika": 0.34
     },
     {
       "manad": "2025-10",
+      "pca": 0.31,
+      "lika": 0.32
+    },
+    {
+      "manad": "2025-11",
       "pca": 0.16,
       "lika": 0.17
     },
     {
-      "manad": "2025-11",
-      "pca": 0.02,
-      "lika": 0.03
-    },
-    {
       "manad": "2025-12",
-      "pca": -0.04,
-      "lika": -0.03
+      "pca": 0.1,
+      "lika": 0.11
     },
     {
       "manad": "2026-01",
-      "pca": 0.19,
-      "lika": 0.19
-    },
-    {
-      "manad": "2026-02",
-      "pca": 0.22,
-      "lika": 0.22
-    },
-    {
-      "manad": "2026-03",
-      "pca": 0.27,
+      "pca": 0.28,
       "lika": 0.28
     },
     {
+      "manad": "2026-02",
+      "pca": 0.31,
+      "lika": 0.31
+    },
+    {
+      "manad": "2026-03",
+      "pca": 0.36,
+      "lika": 0.37
+    },
+    {
       "manad": "2026-04",
-      "pca": 0.03,
-      "lika": 0.05
+      "pca": -0.07,
+      "lika": -0.05
     },
     {
       "manad": "2026-05",
-      "pca": -0.03,
-      "lika": -0.02
+      "pca": -0.13,
+      "lika": -0.11
     },
     {
       "manad": "2026-06",
-      "pca": -0.05,
-      "lika": -0.04
+      "pca": -0.15,
+      "lika": -0.14
     },
     {
       "manad": "2026-07",
-      "pca": -0.09,
-      "lika": -0.08
+      "pca": -0.19,
+      "lika": -0.17
     },
     {
       "manad": "2026-08",
-      "pca": -0.17,
-      "lika": -0.16
+      "pca": -0.28,
+      "lika": -0.26
     }
   ],
   "annonser_idag": {
     "datum": "2026-09-24",
     "aktiva_bygg": 2255,
-    "aktiva_alla": 44410
+    "aktiva_alla": 44411
   },
   "grafer": {
     "index": "https://raw.githubusercontent.com/claesludvig/projekt/claude/create-synthetic-data-7mk03s/byggpuls/data/grafer/2026-09-24/byggpuls.png",
