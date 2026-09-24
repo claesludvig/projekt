@@ -1,5 +1,5 @@
 {
-  "_kommentar": "Källor till Byggpulsen. Varje komponent blir en månadsserie i data/serier.csv. 'transform' och 'tecken' styr hur serien går in i indexet (se index.py). 'fordrojning_man' = hur många månader efter månadens slut värdet brukar finnas; används i efterhandstestet så att indexet bara ser det som fanns vid varje tidpunkt.",
+  "_kommentar": "Källor till Byggpulsen. Varje komponent blir en månadsserie i data/serier.csv. 'transform' och 'tecken' styr hur serien går in i indexet (se index.py). 'fordrojning_man' = hur många månader efter månadens slut värdet brukar finnas; används i efterhandstestet så att indexet bara ser det som fanns vid varje tidpunkt. 'frekvens': 'kvartal' betyder att fördröjningen räknas från kvartalets sista månad.",
   "start": "2016-01",
   "jobtech": {
     "yrkesomrade_namn": "Bygg och anläggning",
@@ -7,11 +7,11 @@
   },
   "scb": {
     "_kommentar": "Tabell-id och urval för SCB:s PxWebApi 2. Saknas 'tabell' söks tabellen fram med 'sok' och alla träffar loggas i data/scb_tabeller.txt.",
-    "konkurser_bygg": {
-      "sok": "konkurser",
-      "tidsenhet": "Monthly",
-      "etikett": "konkurs",
-      "tabell": null,
+    "bygglov_lgh": {
+      "sok": "bygglov nybyggnad lägenheter",
+      "tidsenhet": "Quarterly",
+      "etikett": "bygglov",
+      "tabell": "TAB2534",
       "urval": {}
     },
     "paborjade_lgh": {
@@ -32,16 +32,7 @@
         ],
         "Tid": "*"
       }
-    },
-    "_utforska": [
-      "konkurs",
-      "konkurser och offentliga ackord",
-      "bygglov",
-      "byggnadsverksamhet",
-      "produktionsindex byggindustrin",
-      "nybyggnadsinvesteringar",
-      "orderingång"
-    ]
+    }
   },
   "swea": {
     "Stat 5Y": "SEGVB5YC",
@@ -56,11 +47,12 @@
       "fordrojning_man": 0
     },
     {
-      "id": "konkurser_bygg",
-      "namn": "Konkurser i byggindustrin",
-      "transform": "yoy_3m",
-      "tecken": -1,
-      "fordrojning_man": 1
+      "id": "bygglov_lgh",
+      "namn": "Bygglov, nya lägenheter",
+      "transform": "yoy",
+      "frekvens": "kvartal",
+      "tecken": 1,
+      "fordrojning_man": 3
     },
     {
       "id": "stat_5y",

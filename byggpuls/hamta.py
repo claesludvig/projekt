@@ -8,7 +8,7 @@ Källor:
   historiska annonser per publiceringsmånad. Varje körning sparar dessutom
   dagens antal aktiva annonser i data/annonser_dag.csv, en egen serie som
   inte finns någon annanstans.
-- Konkurser i byggindustrin och påbörjade lägenheter: SCB (PxWebApi 2).
+- Bygglov och påbörjade lägenheter: SCB (PxWebApi 2), kvartal.
 - Statsobligationsränta 5 år: Riksbanken (SWEA).
 - Byggbolagens aktier: Yahoo Finance, likaviktat (bolagen i
   byggfastighet/bolag.json).
@@ -194,7 +194,7 @@ def _scb_tid(kod: str) -> pd.Timestamp:
     return pd.Timestamp(f"{kod[:4]}-01-01")
 
 
-NYCKELORD = {"konkurser_bygg": ["bygg", "konkurser"],
+NYCKELORD = {"bygglov_lgh": ["riket", "totalt", "samtliga", "lägenheter"],
              "paborjade_lgh": ["påbörjade", "riket", "samtliga", "totalt", "flerbostadshus och småhus"]}
 
 
@@ -391,8 +391,10 @@ def main() -> None:
         print("SCB:")
         scb, f = scb_serier(konfig["scb"], scb_logg)
         fel += f
-        if "konkurser_bygg" in scb:
-            kol["konkurser_bygg"] = scb["konkurser_bygg"]
+        if "bygglov_lgh" in scb:
+            # kvartal → månader: varje månad i kvartalet får kvartalets värde
+            q = scb["bygglov_lgh"]
+            kol["bygglov_lgh"] = q.reindex(pd.date_range(q.index[0], q.index[-1] + pd.DateOffset(months=2), freq="MS")).ffill(limit=2)
         mal = scb.get("paborjade_lgh", mal_cache)
         if scb_logg:
             (DATA_DIR / "scb_tabeller.txt").write_text("\n".join(scb_logg) + "\n", encoding="utf-8")
@@ -512,11 +514,11 @@ def main() -> None:
         "annonser_idag": None if dag.empty else dag.iloc[-1].to_dict(),
         "grafer": grafer,
         "metod": (
-            "Varje komponent görs om till en årsförändring (annonser och konkurser: 3 månaders snitt), vänds så att "
+            "Varje komponent görs om till en årsförändring (annonserna: 3 månaders snitt), vänds så att "
             "högre = starkare byggande och standardiseras. Vikterna är laddningarna på första principalkomponenten, "
             "dvs. den rörelse komponenterna har gemensamt; ingen vikt är satt för hand. Indexet mäts i "
-            "standardavvikelser från snittet sedan starten: 0 = normalt, ±1 = ovanligt starkt/svagt. Saknas en "
-            "komponent den senaste månaden (publiceras senare) fördelas dess vikt på de övriga. Efterhandstestet "
+            "standardavvikelser från snittet sedan starten: 0 = normalt, ±1 = ovanligt starkt/svagt. En komponent "
+            "som publiceras senare (bygglov, kvartal) behåller sitt senaste värde tills nästa normalt kommer. Efterhandstestet "
             "räknar om indexet varje månad med bara den data som då var publicerad (vikter skattade på data fram "
             "till dess) och jämför med årsförändringen i påbörjade lägenheter (rullande fyra kvartal) 0–4 kvartal "
             "senare. Byggaktierna är likaviktade och bara dagens bolag (överlevnadsbias)."

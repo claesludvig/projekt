@@ -8,8 +8,8 @@ kvartalssiffror utan väga ihop det som syns tidigare.
 
 | Komponent | Källa | Signal | Riktning |
 |---|---|---|---|
-| Platsannonser, bygg och anläggning | JobTech (Arbetsförmedlingen), historiska annonser | årsförändring, 3 mån snitt | fler annonser = starkare |
-| Konkurser i byggindustrin | SCB | årsförändring, 3 mån snitt | fler konkurser = svagare |
+| Platsannonser, byggets andel | JobTech (Arbetsförmedlingen), historiska annonser: bygg och anläggning / alla yrken | årsförändring, 3 mån snitt | större andel = starkare |
+| Bygglov för nya lägenheter | SCB (TAB2534), kvartal | årsförändring | fler bygglov = starkare |
 | Statsobligation 5 år | Riksbanken (SWEA) | förändring mot för ett år sedan, procentenheter | högre ränta = svagare |
 | Byggbolagens aktier | Yahoo Finance, bolagen i `byggfastighet/bolag.json`, likaviktade | årsförändring | uppgång = starkare |
 
@@ -34,8 +34,17 @@ serie.
    rörelse serierna har gemensamt. Ingen vikt är satt för hand.
    Som jämförelse räknas också ett likaviktat index.
 4. Indexet mäts i standardavvikelser: 0 = normalt läge, +1 = ovanligt starkt,
-   −1 = ovanligt svagt. Saknas en komponent den senaste månaden (konkurserna
-   publiceras med en månads fördröjning) fördelas dess vikt på de övriga.
+   −1 = ovanligt svagt. En komponent som publiceras senare (bygglov, kvartal)
+   behåller sitt senaste värde tills nästa värde normalt kommer; saknas den
+   längre fördelas dess vikt på de övriga.
+
+Andelen i stället för antalet annonser: Platsbankens totala volym svänger
+kraftigt av skäl som inte är konjunktur (−46 % till +95 % på ett år), och de
+senaste månaderna är ofullständiga i historik-API:t. Andelen bygg påverkas
+inte av någotdera.
+
+Konkurser i byggindustrin var tänkta som komponent men finns inte i SCB:s
+API. Bolagsverkets och Tillväxtanalys data är nästa kandidat.
 
 ### Efterhandstest
 

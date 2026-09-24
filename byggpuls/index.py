@@ -1,7 +1,7 @@
 """Byggpulsen: ett eget ledande index för svenskt byggande.
 
 Indexet väger ihop månadsserier som rör sig före byggstatistiken
-(platsannonser, konkurser, räntor, byggbolagens aktier). Varje serie:
+(platsannonser, bygglov, räntor, byggbolagens aktier). Varje serie:
 
 1. görs om till en årsförändring (``transform``),
 2. vänds så att högre alltid betyder starkare byggande (``tecken``),
@@ -65,11 +65,28 @@ def standardisera(x: pd.DataFrame) -> pd.DataFrame:
     return (x - x.mean()) / x.std()
 
 
+def bar_fram(z: pd.DataFrame, komponenter: list) -> pd.DataFrame:
+    """Komponenter som publiceras senare (SCB:s kvartalsserier) behåller sitt
+    senaste värde i slutet av serien, högst så länge som det normalt dröjer
+    innan nästa värde kommer: fördröjningen + 1 månad, för kvartalsserier
+    fördröjningen + 3. Luckor mitt i serien fylls inte."""
+    z = z.copy()
+    for k in komponenter:
+        kol = k["id"]
+        sist = z[kol].last_valid_index() if kol in z else None
+        if sist is None:
+            continue
+        manader = k.get("fordrojning_man", 0) + (3 if k.get("frekvens") == "kvartal" else 1)
+        efter = z.index[z.index > sist][:manader]
+        z.loc[efter, kol] = z.at[sist, kol]
+    return z
+
+
 def vag_ihop(z: pd.DataFrame, vikter: pd.Series) -> tuple[pd.Series, pd.DataFrame]:
     """Index = viktat snitt av de komponenter som finns just den månaden.
-    Saknas en komponent i slutet (den publiceras senare) fördelas dess vikt
-    på de andra, som i vanliga nowcast-modeller. Returnerar index och varje
-    komponents bidrag (bidragen summerar till indexet)."""
+    Saknas en komponent även efter att senaste värdet burits fram fördelas
+    dess vikt på de andra, som i vanliga nowcast-modeller. Returnerar index
+    och varje komponents bidrag (bidragen summerar till indexet)."""
     w = z.notna().mul(vikter, axis=1)
     summa = w.abs().sum(axis=1).replace(0, np.nan)
     bidrag = z.mul(vikter, axis=1).div(summa, axis=0)
@@ -87,27 +104,30 @@ def bygg_index(ra: pd.DataFrame, komponenter: list, metod: str = "pca") -> dict 
     vikter = pca_vikter(z) if metod == "pca" else lika_vikter(z)
     if vikter is None:
         vikter, metod = lika_vikter(z), "lika"
-    index, bidrag = vag_ihop(z, vikter)
+    index, bidrag = vag_ihop(bar_fram(z, komponenter), vikter)
     return {"index": index.dropna(), "bidrag": bidrag, "z": z, "vikter": vikter, "metod": metod}
 
 
-def _publicerat(ra: pd.DataFrame, t: pd.Timestamp, fordrojning: dict) -> pd.DataFrame:
+def _publicerat(ra: pd.DataFrame, t: pd.Timestamp, komponenter: list) -> pd.DataFrame:
     """Det som fanns publicerat i slutet av månad t: serie med fördröjning
-    k månader har bara värden t.o.m. månad t−k."""
+    k månader har bara värden t.o.m. månad t−k. För kvartalsserier räknas
+    fördröjningen från kvartalets sista månad."""
     ut = ra[ra.index <= t].copy()
-    for kol, k in fordrojning.items():
-        if kol in ut and k:
-            ut.loc[ut.index > t - pd.DateOffset(months=k), kol] = np.nan
+    for k in komponenter:
+        kol, lag = k["id"], k.get("fordrojning_man", 0)
+        if kol not in ut or not lag:
+            continue
+        slut = ut.index.to_period("Q").asfreq("M", "end").to_timestamp() if k.get("frekvens") == "kvartal" else ut.index
+        ut.loc[slut > t - pd.DateOffset(months=lag), kol] = np.nan
     return ut
 
 
 def realtidsindex(ra: pd.DataFrame, komponenter: list, metod: str = "pca") -> pd.Series:
     """Indexets värde för varje månad t, räknat med data publicerad vid t.
     Vikter och standardisering skattas om varje månad på data t.o.m. t."""
-    fordrojning = {k["id"]: k.get("fordrojning_man", 0) for k in komponenter}
     ut = {}
     for t in ra.index:
-        r = bygg_index(_publicerat(ra, t, fordrojning), komponenter, metod)
+        r = bygg_index(_publicerat(ra, t, komponenter), komponenter, metod)
         if r is None or r["metod"] != metod:
             continue
         # senaste månad med ett indexvärde, högst en månad bakåt
