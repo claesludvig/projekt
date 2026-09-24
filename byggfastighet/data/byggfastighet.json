@@ -1,5 +1,5 @@
 {
-  "genererad": "2026-09-24T07:43:56+00:00",
+  "genererad": "2026-09-24T07:46:49+00:00",
   "datum": "2026-09-24",
   "data_t_o_m": "2026-09-23",
   "vecka": 39,
@@ -32,7 +32,7 @@
             "1v": 6.31,
             "2v": 3.04,
             "1m": 5.44,
-            "3m": 11.12
+            "3m": 11.13
           }
         },
         {
@@ -144,7 +144,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 180.5,
-          "borsvarde_mdkr": 17.6,
+          "borsvarde_mdkr": 17.5,
           "forandring": {
             "1d": 0.17,
             "2d": 1.01,
@@ -251,7 +251,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 167.0,
-          "borsvarde_mdkr": 32.0,
+          "borsvarde_mdkr": 32.1,
           "forandring": {
             "1d": -0.24,
             "2d": 0.97,
@@ -285,7 +285,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 127.95,
-          "borsvarde_mdkr": 54.6,
+          "borsvarde_mdkr": 54.5,
           "forandring": {
             "1d": 0.75,
             "2d": 1.91,
@@ -387,7 +387,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 37.9,
-          "borsvarde_mdkr": 23.8,
+          "borsvarde_mdkr": 23.7,
           "forandring": {
             "1d": -0.26,
             "2d": 0.69,
@@ -516,22 +516,6 @@
             "1m": 36.3,
             "3m": 70.4
           }
-        },
-        {
-          "namn": "Bostadsobl. 5Y",
-          "serie": "SEMB5YCACOMB",
-          "enhet": "bp",
-          "datum": "2026-09-23",
-          "senast": 3.493,
-          "forandring": {
-            "1d": -14.7,
-            "2d": -16.4,
-            "3d": -23.9,
-            "1v": 0.2,
-            "2v": -5.3,
-            "1m": -13.9,
-            "3m": 23.9
-          }
         }
       ]
     }
@@ -558,7 +542,7 @@
     {
       "namn": "Peab",
       "ticker": "PEAB-B.ST",
-      "borsvarde": 27751099175.066376,
+      "borsvarde": 27779045474.033188,
       "nasta_rapport": "2026-10-28",
       "0y": {
         "eps": 7.9724,
@@ -591,7 +575,7 @@
     {
       "namn": "Bravida",
       "ticker": "BRAV.ST",
-      "borsvarde": 29470911058.719345,
+      "borsvarde": 29450556977.780655,
       "nasta_rapport": "2026-10-23",
       "0y": {
         "eps": 7.03226,
@@ -624,7 +608,7 @@
     {
       "namn": "Skanska",
       "ticker": "SKA-B.ST",
-      "borsvarde": 115859693943.10748,
+      "borsvarde": 115901104511.55374,
       "nasta_rapport": "2026-11-05",
       "0y": {
         "eps": 17.01593,
@@ -657,7 +641,7 @@
     {
       "namn": "JM",
       "ticker": "JM.ST",
-      "borsvarde": 7669625574.426575,
+      "borsvarde": 7650273925.573425,
       "nasta_rapport": "2026-10-21",
       "0y": {
         "eps": 4.22499,
@@ -690,7 +674,7 @@
     {
       "namn": "Instalco",
       "ticker": "INSTAL.ST",
-      "borsvarde": 10834408398.725342,
+      "borsvarde": 10829039391.681335,
       "nasta_rapport": "2026-10-23",
       "0y": {
         "eps": 2.18461,
@@ -723,7 +707,7 @@
     {
       "namn": "NCC",
       "ticker": "NCC-B.ST",
-      "borsvarde": 17565268210.0,
+      "borsvarde": 17545642511.468964,
       "nasta_rapport": "2026-11-03",
       "0y": {
         "eps": 14.3209,
@@ -794,40 +778,6 @@
     "relativ_3m": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/byggfastighet/data/grafer/2026-09-24/relativ_3m.png"
   },
   "metod": "Kurser: Yahoo Finance. Räntor: Riksbanken (SWEA; Riksbanken publicerar inte swapräntor, bostadsobligationerna är närmaste mått på finansieringskostnaden). Sektorindexen är egna, börsvärdesviktade med dagens börsvärden, och inte Nasdaqs officiella index. Räntor i baspunkter, övrigt i procent. 1d–3d = handelsdagar, 1v–3m = kalenderdagar bakåt. Korrelation på dagliga förändringar. Räntekänslighet = sektorindexets rörelse i % per 10 bp högre Stat 5Y, senaste 3 månaderna. Vinstprognoser (analytikerkonsensus) bara för byggbolagen: fastighetsbolagens vinst per aktie domineras av värdeförändringar.",
-  "anmarkningar": [
-    "Bostadsobl. 5Y 2026-06-26: -22.0 bp mot +2.5 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-06-30: +24.6 bp mot +0.9 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-01: -22.2 bp mot +2.2 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-02: +25.9 bp mot +1.4 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-03: -21.3 bp mot +2.0 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-06: +21.9 bp mot -1.0 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-08: -11.3 bp mot +10.7 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-10: +22.4 bp mot -1.6 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-14: -20.9 bp mot +3.1 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-17: +21.0 bp mot -2.1 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-20: -22.0 bp mot +1.2 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-22: +28.0 bp mot +4.0 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-23: -20.4 bp mot +3.4 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-07-27: +14.9 bp mot -6.0 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-10: -20.1 bp mot +2.9 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-11: +21.1 bp mot -1.6 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-13: -27.4 bp mot -3.7 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-17: +24.4 bp mot +0.7 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-18: -19.0 bp mot +4.6 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-20: +18.5 bp mot -4.8 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-25: -24.5 bp mot -2.4 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-26: +21.7 bp mot -1.3 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-27: -19.4 bp mot +2.7 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-28: +26.5 bp mot +5.8 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-08-31: -16.9 bp mot +6.0 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-01: -23.4 bp mot +1.1 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-02: +51.4 bp mot +2.9 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-03: -27.2 bp mot -4.6 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-04: -25.8 bp mot -2.7 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-09: +30.4 bp mot +6.3 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-15: -23.9 bp mot +0.0 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-18: +25.5 bp mot +4.3 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra.",
-    "Bostadsobl. 5Y 2026-09-23: -14.7 bp mot +10.1 bp för Stat 5Y. Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra."
-  ],
+  "anmarkningar": [],
   "fel": []
 }
