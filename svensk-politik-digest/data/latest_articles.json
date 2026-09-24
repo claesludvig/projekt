@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-09-23T14:16:33.269525+00:00",
-  "new_count": 7,
+  "fetched_at": "2026-09-24T06:16:27.072394+00:00",
+  "new_count": 6,
   "skipped": {
-    "seen": 25,
-    "offtopic": 150,
-    "old": 28
+    "seen": 21,
+    "offtopic": 153,
+    "old": 30
   },
-  "fetch_errors": 3,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 2,
       "ok": true
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,132 +65,113 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/43aVjV/dadgostar-duckar-fragor-om-misstankt-valfusk",
-      "title": "Dadgostar duckar frågor om misstänkt valfusk",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-23",
-      "author": "Etezaz Yousuf, Jenny Nyman",
-      "commentator": "",
-      "summary": "På onsdagseftermiddagen har Vänsterpartiets partiledare Nooshi Dadgostar fortfarande inte…",
-      "fulltext": "På onsdagseftermiddagen har Vänsterpartiets partiledare Nooshi Dadgostar fortfarande inte kommenterat utredningen om valfusk som kopplas till Mohamed Abdukardir Ali – som kryssat sin väg in i riksdagen.\nMohamed Abdukardir Ali från Borlänge blev oväntat invald till riksdagen genom personkryss, efter att ha stått först på plats nio på Vänsterpartiets lista i Dalarna – och fått över 600 röster. Men den nyinvalde riksdagsledamotens kandidatur har nu blivit föremål för en brottsutredning.\nFörundersökningen inleddes efter att en anmälan om ”otillbörligt verkande vid röstning” inkommit till Åklagarmyndighetens riksenhet mot korruption, men lades inledningsvis ner.\nEfter valet har utredningen dock återupptagits.\n– Vid första tillfället lades den ned eftersom jag tyckte att det fanns bevisproblem. Sedan tillkom det nya uppgifter som gjorde att det finns skäl att kika på det igen, säger åklagaren och förundersökningsledaren Oskar Edvardsson till TT under onsdagen.\nEnligt uppgifter i flera medier handlar utredningen om förkryssade valsedlar i riksdagsvalet. Expressen har även rapporterat om en anonym polisanmälan, där det finns uppgifter om att personer ska ha skjutsat väljare från utanförskapsområden och försett dem med förkryssade valsedlar.\nUnder hela måndagen svarade Vänsterpartiets partiledning inte på frågor från media. På tisdagseftermiddagen skickade partisekreterare Maria Forsberg ut ett skriftligt uttalande om att Abdukardir Ali tar en ”time-out”.\nUnder onsdagsmorgonen kom partisekreterare Maria Forsberg ut och uttalade sig till reportrar utanför partiets riksdagskansli.\nHon meddelade att Abdukardir Ali inte kommer att tjänstgöra som riksdagsledamot under mandatperiodens inledning – men att han kommer att sitta kvar i riksdagen.\n– Han kommer inte att lämna sin riksdagsplats, sa hon till reportrarna.\nEn källa med insyn uppger att partiet är medvetet om att ”time-out” inte är ett giltigt skäl för frånvaro från riksdagen. Och utan giltig frånvaro är det inte ett möjligt att få in en tjänstgörande ersättare för Mohamed Abdukardir Ali, som väntas bli Kajsa Fredholm som stod etta på listan i Dalarna.\nDärför kommer partiet, uppger källan, att försöka hitta ett giltigt skäl i riksdagens regler så att partiet kan få in ersättare för Abdukardir Ali.\nSamtidigt uppger man från centralt håll att Vänsterpartiet är emot personvalssystemet.\nPå onsdagseftermiddagen har partiledare Nooshi Dadgostar fortfarande inte velat kommentera utredningen om valfusk. Utanför partikansliet på Kungsholmen i Stockholm, där Vänsterpartiet har möte, hade det under onsdagseftermiddagen samlats en stor grupp journalister.\nEn kanslianställd kommer ut och säger att det inte blir några fler kommentarer under dagen, berättar SvD:s utsända reporter. Kanslipersonen får en fråga om Nooshi Dadgostar eller vice partiledare Ida Gabrielsson kommer att säga något – men den frågan får inget svar.\nSvD har sökt Maria Forsberg, Ida Gabrielsson och Nooshi Dadgostar under dagen.\nSå röstade din granne – se valresultatet i ditt kvarter",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/gk2r0J/s-sjalvklart-kan-inte-norlen-sitter-kvar",
-      "title": "S: Självklart kan inte Norlén sitta kvar",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-23",
-      "author": "Niklas Svahn/TT",
-      "commentator": "",
-      "summary": "Socialdemokraterna vill ha en ny talman när riksdagen röstar på måndag.",
-      "fulltext": "Socialdemokraterna vill ha en ny talman när riksdagen röstar på måndag.\n– För mig är det självklart att Andreas Norlén inte sitter kvar, säger S gruppledare Lena Hallengren.\nTalmansomröstningen sker på måndag i samband med uppropet för nya riksdagsledamöter.\nModeraten Andreas Norlén har då suttit på posten sedan valet 2018.\n– Han är en moderat riksdagsledamot och förslaget från Tidösidan. Vi backade upp honom förra mandatperioden för att vi inte ville ha en sverigedemokrat. Det finns ingen som helst anledning för oss att inte ha någon från den nya majoriteten, säger Hallengren.\nDen nya talmannen måste enligt henne vara en socialdemokrat.\n– Vi är det överlägset största partiet och principen har alltid varit att man går i storleksordning. Det gäller även första, andra och tredje vice talman.\nDet är oklart om de rödgröna partierna S, C, V och MP kommer enas om en gemensam talmanskandidat. Det är också oklart om Norlén faktiskt nomineras och om de fyra Tidöpartierna kan sluta upp bakom honom.\nDe rödgröna har samtidigt enats om att bilda en kartell i riksdagen för att säkra majoriteter i alla riksdagens utskott. Utan en kartell hade de inte fått lika stort inflytande. Det är en förhandling som har skett mellan gruppledarna för respektive parti.\nHallengren ger som exempel att i ett utskott med 17 platser får de rödgröna nio platser och Tidösidan åtta. I riksdagen finns också organ som EU-nämnden, riksdagsstyrelsen, utrikesnämnden och riksbanksfullmäktige. De har också diskuterats.\n– För oss är det helt självklart att agera på det sättet. Det har inte varit några svåra förhandlingar, vi är överens om att Tidö har gjort sitt, säger hon.\nVem som ska få ordförandeposten i respektive utskott är inget som har diskuterats ännu.\n– Det här kommer att pågå i flera veckor framåt.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/efter-misstankta-valfusket-nytt-fall-utreds",
-      "title": "Efter misstänkta valfusket – nytt fall utreds",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "Johan Wikén, Oskar Jönsson",
-      "commentator": "",
-      "summary": "Riksenheten mot korruption utreder den misstänkta valfuskhärvan i Borlänge. Men specialenheten inom Åklagarmyndigheten utreder även ett annat ärende kopplat till riksdagsvalet. – Rubriceringen är otillbörlig förmån vid röstning, säger åklagaren Oskar Edvardsson.",
-      "fulltext": "Riksenheten mot korruption utreder den misstänkta valfuskhärvan i Borlänge. Men specialenheten inom Åklagarmyndigheten utreder även ett annat ärende kopplat till riksdagsvalet.\n– Rubriceringen är otillbörlig förmån vid röstning, säger åklagaren Oskar Edvardsson.\nDe senaste dagarna har rubriker om det misstänkta valfusket i Borlänge avlöst varandra. Brottsrubriceringen är otillbörligt verkande vid röstning och fallet utreds av Riksenheten mot korruption.\nDet finns också ett annat ärende som utreds av specialenheten efter valet – men det har ingen koppling till utredningen i Borlänge. Rubriceringen är otillbörlig förmån vid röstning. Åklagaren Oskar Edvardsson vill inte gå in på detaljer om vad som har hänt – men ger ett exempel på vad rubriceringen innefattar.\n– Exempelvis skulle det kunna vara att någon försöker sälja sin röst.\nDet finns en misstänkt person i ärendet, men brottsplatsen är inte helt klarlagd.\n– Platsen kan vara lite flytande om det har skett elektroniskt. Det är en pågående förundersökning. Vi får se vad det landar i, säger Oskar Edvardsson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "riksdagsval"
-      ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9305777",
-      "title": "Detta har hänt: Tystnaden från Vänsterpartiet",
+      "url": "https://www.sverigesradio.se/artikel/9306141",
+      "title": "Ordval i förslag till ny abortlag splittrar de rödgröna",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-09-23",
+      "published": "2026-09-24",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Vänsterpartiets ledning har lagt locket på rörande brottsmisstankarna. Samtidigt pågår regeringsförhandlingarna för fullt. Socialdemokraternas partiledare Magdalena Andersson har fått i uppdrag att bilda en regering, där Vänsterpartiet vill ingå. ”Jag ser väldigt, väldigt allvarligt på misstankarna som finns”, säger hon. Så här säger Helena Gissén, politisk kommentator: ”Det solkar ju ner deras lag i den mån man kan prata om ett lag. Det är ju inte positivt för Socialdemokraterna att ett parti som trots allt troligen kommer behövas i deras regeringsunderlag dras med såna här historier”.",
+      "summary": "En av de första frågor som den nyvalda riksdagen ska fatta beslut om splittrar de fyra rödgröna partierna, som ju vann valet. Det handlar om en ny abortlag, där Vänsterpartiet och Miljöpartiet vill att det uttryckligen ska stå att rätten till abort inte enbart omfattar kvinnor – utan alla som är gravida, oavsett juridiskt kön, till exempel transpersoner. Socialdemokraterna och Centerpartiet står bakom Tidöpartiernas förslag att behålla dagens formulering i abortlagen, det vill säga ”kvinna som är gravid”.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305777'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9306141'",
       "matched_terms": [
-        "regeringsförhandling",
-        "regeringsunderlag",
-        "partiledar",
+        "Centerpartiet",
+        "Miljöpartiet",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+      "first_seen": "2026-09-24T06:16:27.072394+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9305768",
-      "title": "Detta har hänt: Misstänkts valfusk utreds",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/deadline-narmar-sig-de-pekas-ut-for-den-viktiga-talmansposten",
+      "title": "Deadline närmar sig – de pekas ut för den viktiga talmansposten",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-09-23",
-      "author": "Ekot",
+      "author": "Kristoffer Törnmalm",
       "commentator": "",
-      "summary": "Under måndagen den 21 september rapporterar Dagens industri och Expressen att en åklagare utreder olaglig valpåverkan i samband med riksdagsvalet i Dalarna. Enligt en polisanmälan som Expressen har tagit del av har personer skjutsat väljare från utanförskapsområden och försett dem med förkryssade valsedlar på Mohamed Ali. Det förekommer även medieuppgifter om att det finns bilder på personer som ger pengar och valsedlar till människor.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305768'",
-      "matched_terms": [
-        "riksdagsval"
-      ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9305778",
-      "title": "Andersson (S) tror hon får ihop en regering: ”Bra samtal”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Socialdemokraternas partiledare Magdalena Andersson kommenterar nu för första gången försöken att få ihop en regering, efter att talmannen i fredags gav henne sonderingsuppdraget. ”Jag har haft bra samtal med flera, eller de flesta, av partiledarna i Sveriges riksdag”, säger Andersson, men berättar inte vilka partiledare det handlar om. Däremot säger hon att samtalen gett en bild över vilka partier som det är meningsfullt att fortsätta prata med. Hon säger också att hon tror att hon kommer att få ihop en regering.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9305778'",
-      "matched_terms": [
-        "talman",
-        "sondering",
-        "partiledar",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/expert-det-kan-rostfusk-leda-till",
-      "title": "Expert: Det kan röstfusk leda till",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "Jakob Kerren, Ossi Carp, Amanda Dahl",
-      "commentator": "",
-      "summary": "Om V-kandidaten Mohamed Abdukardir Ali har kommit in i riksdagen genom röstfusk kan det få konsekvenser för mandatfördelningen i riksdagen – och i slutändan leda till omval. – Röstfusk är inget bagatellbrott, man tenderar att se ganska allvarligt på sådant, säger professor Joakim Nergelius.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-23 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/expert-det-kan-rostfusk-leda-till/\nOm V-kandidaten Mohamed Abdukardir Ali har kommit in i riksdagen genom röstfusk kan det få konsekvenser för mandatfördelningen i riksdagen – och i slutändan leda till omval.\n– Röstfusk är inget bagatellbrott, man tenderar att se ganska allvarligt på sådant, säger professor Joakim Nergelius.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "summary": "På söndag är deadline för nomineringar till talmansposten. För Socialdemokraterna ses talmannen som en nyckelperson i förhandlingarna om makten. – För mig är det självklart att Andreas Norlén inte sitter kvar, säger S gruppledare Lena Hallengren till TT.",
+      "fulltext": "På söndag är deadline för nomineringar till talmansposten.\nFör Socialdemokraterna ses talmannen som en nyckelperson i förhandlingarna om makten.\n– För mig är det självklart att Andreas Norlén inte sitter kvar, säger S gruppledare Lena Hallengren till TT.\nTalmansvalet på måndag blir S, V, MP och C:s första test i den nya riksdagen – kan de enas kring en gemensam talman eller blir det partierna till höger som tar posten på nytt?\nTidöpartierna har enligt SVT:s uppgifter ännu inte landat i en gemensam kandidat att gå fram med. Beslutet ligger hos partiledarna och tipset är att de kan sätta ned foten i frågan under fredagen.\nDen kandidat som vore enklast för partierna att enas kring sägs vara sittande talmannen Andreas Norlén. Men det är inte säkert att en sådan nominering skulle få alla Tidö-politikers stöd. Bakom kulisserna har det under mandatperioden vädrats kritik mot Norlén, bland annat till följd av de kritiserade resorna med regeringsplanet, som DN avslöjat.\n– Sedan är frågan om han ens vill ställa sig mot en gemensam kandidat från den rödgröna sidan, säger en M-källa.\nFör Socialdemokraterna beskrivs en talman från det egna partiet bli en viktig spelare i kampen om regeringsmakten. Det handlar om att kontrollera tempot i processen, så att han eller hon kan sätta press på de förhandlande parterna vid rätt tillfälle, förklarar en socialdemokrat.\n– Det gör talmannen till en viktig spelare i det här.\nMöjliga kandidater som hörs från S-håll är bland andra tidigare justitieminister Morgan Johansson. Han kom in i riksdagen första gången 1998 och har varit minister under såväl Magdalena Andersson, Stefan Löfven som Göran Persson. Även Anders Ygeman kommer på tal, också han en politiker med flera statsrådsposter på CV:t och i dag riksdagens ålderspresident. Alltså den som suttit längst och som håller i talmansvalet i kammaren.\nYtterligare en möjlig kandidat som nämns är Jennie Nilsson, också tidigare statsråd som blev riksdagsledamot första gången 2006, idag ordförande i KU. Även Matilda Ernkrans är en riksdagsveteran som det spekuleras om.\nMen vilken kandidat man lägger fram beror enligt SVT:s uppgifter på om man kommer fram till en gemensam linje på den rödgröna sidan – skulle man inte få med sig de övriga partierna är lusten att skicka exempelvis Morgan Johansson till en förmodad förlust inte stor.\nSöndag klockan 14 har riksdagen satt som deadline för partiernas nomineringar till talmansposten, och det för att man ska hinna förtrycka lappar med kandidaternas namn. Men nomineringarna kan komma in fram till omröstningen på måndag.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "mandatfördelning"
+        "talman",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-09-23T14:16:33.269525+00:00"
+      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/tyst-fran-dadgostar-efter-misstankta-valfusket",
+      "title": "Tyst från Dadgostar efter misstänkta valfusket",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-23",
+      "author": "Nora Holand",
+      "commentator": "",
+      "summary": "Polisen utreder misstänkt valfusk efter att V-politikern Mohamed Abdukardir Ali kryssades in i riksdagen. Men sedan nyheten kom har partiledaren Nooshi Dadgostar varit tyst. Och flera i partiledningen duckar SVT:s frågor. – Inte nu, säger V-toppen Jonas Lindberg.",
+      "fulltext": "Polisen utreder misstänkt valfusk efter att V-politikern Mohamed Abdukardir Ali kryssades in i riksdagen.\nMen sedan nyheten kom har partiledaren Nooshi Dadgostar varit tyst. Och flera i partiledningen duckar SVT:s frågor.\n– Inte nu, säger V-toppen Jonas Lindberg.\nV-politikern Mohamed Abdukardir Ali i Borlänge kryssades in i riksdagen med 648 personröster.\nMen under måndagen kom medieuppgifter om att åklagare utreder valfusk . Ingen har i nuläget delgivits misstanke för brott, och Ali nekar till inblandning.\n– Det är helt, helt, fel. Jag har inte gjort det. Jag vet lagen. Jag har fått förtroende i varje distrikt i Dalarna, sa han på måndagen till SVT.\nPå tisdagen kommenterade partisekreteraren Maria Forsberg ärendet skriftligen.\n”Det här handlar om synnerligen allvarliga anklagelser mot alla som berörs. Om vi kan bistå utredningen på något sätt så kommer vi att göra det. Jag kan inte understryka tillräckligt att vi tar detta på stort allvar och vi välkomnar att det här nu utreds”, skrev hon i en kommentar till SVT och meddelade Alis timeout .\nUnder onsdagen sa hon till SVT att timeouten gäller under utredningen, men att han inte kommer att lämna sin riksdagsplats i nuläget.\nNär SVT fångade riksdagsledamöter från V i riksdagen tidigare på onsdagen vägrar de svara på frågor.\n– Inte nu i alla fall, svarade V-toppen Jonas Lindberg på när partiet ska uttala sig.\nUnder onsdagen meddelar en anställd vid Vänsterpartiets kansli att det inte kommer komma fler kommentarer under dagen.\nPartiledare och tidigare V-toppar kommenterat\nMedan V-ledningen är tyst har flera andra partiledare uttalat sig.\n– Jag ser väldigt, väldigt allvarligt på de misstankar som finns. Svenska folket ska naturligtvis vara trygga med att valen går rätt till. Därför är det viktigt att det här utreds grundligt, de här misstankarna som finns, sa S-ledaren Magdalena Andersson på onsdagen enligt TT.\nOch Centerpartiets partisekreterare Hannes Hervieu kallade under tisdagen misstankarna för ”oerhört allvarliga” .\nDen tidigare V-toppen Pernilla Zethraeus har riktat kritik mot partiets hantering av vallistor och sagt att man behöver ha en bakgrundskontroll, medan den tidigare V-ledaren Lars Ohly uppmanat sitt parti att stå upp för Mohamed Abdukardir Ali.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar"
+      ],
+      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9306188",
+      "title": "Tre misstänks efter att Mohamed Ali kryssats in",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Tre personer misstänks nu i utredningen om hur Mohamed Ali kryssades in i riksdagen, enligt uppgifter i handlingar som SVT tagit del av. Utredningen lades tidigare ner men återupptogs i måndags, och ännu har ingen av de tre delgetts misstanke om brott. Socialdemokraternas partiledare Magdalena Andersson säger att saken måste utredas ordentligt. Ekot har sökt åklagaren för en kommentar, men utan framgång.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9306188'",
+      "matched_terms": [
+        "partiledar",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/de-kan-bli-ministrar-i-en-ny-regering",
+      "title": "De kan bli ministrar i en ny regering",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-23",
+      "author": "DN",
+      "commentator": "",
+      "summary": "Ska Stefan Löfven göra comeback? Kommer Birgitta Ohlsson att bli C-märkt minister? Om Magdalena Andersson får ihop sitt regeringsunderlag väntar en hård strid om ministerposterna. DN:s politikredaktion listar 24 tänkbara statsråd i en ny regering.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/de-kan-bli-ministrar-i-en-ny-regering/\nSka Stefan Löfven göra comeback? Kommer Birgitta Ohlsson att bli C-märkt minister? Om Magdalena Andersson får ihop sitt regeringsunderlag väntar en hård strid om ministerposterna. DN:s politikredaktion listar 24 tänkbara statsråd i en ny regering.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsunderlag",
+        "ministerpost"
+      ],
+      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/amanda-sokolnicki-v-ledningen-har-stangt-in-sig-i-bunkern-med-sin-kaffekokare",
+      "title": "Amanda Sokolnicki: V-ledningen har stängt in sig i bunkern med sin kaffekokare",
+      "source": "DN Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-23",
+      "author": "Amanda Sokolnicki",
+      "commentator": "Amanda Sokolnicki",
+      "summary": "Tänk om Vänsterpartiet skulle fokusera lite mindre på sina krav på andra, och i stället börja ställa krav på sin egen partiledare.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 08:15\nArtikelns ursprungsadress: https://www.dn.se/ledare/amanda-sokolnicki-v-ledningen-har-stangt-in-sig-i-bunkern-med-sin-kaffekokare/\nTänk om Vänsterpartiet skulle fokusera lite mindre på sina krav på andra, och i stället börja ställa krav på sin egen partiledare.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-24T06:16:27.072394+00:00"
     }
   ]
 }
