@@ -1,0 +1,32 @@
+{
+  "_kommentar": "Källor till Byggpulsen. Varje komponent blir en månadsserie i data/serier.csv. 'transform' och 'tecken' styr hur serien går in i indexet (se index.py). 'fordrojning_man' = hur många månader efter månadens slut värdet brukar finnas; används i efterhandstestet så att indexet bara ser det som fanns vid varje tidpunkt.",
+  "start": "2016-01",
+  "jobtech": {
+    "yrkesomrade_namn": "Bygg och anläggning",
+    "yrkesomrade_id_reserv": "j7Cq_ZJe_GkT"
+  },
+  "scb": {
+    "_kommentar": "Tabell-id och urval för SCB:s PxWebApi 2. Saknas 'tabell' söks tabellen fram med 'sok' och alla träffar loggas i data/scb_tabeller.txt.",
+    "konkurser_bygg": {
+      "sok": "konkurser näringsgren månad",
+      "tabell": null,
+      "urval": {}
+    },
+    "paborjade_lgh": {
+      "sok": "påbörjade lägenheter nybyggda hus kvartal",
+      "tabell": null,
+      "urval": {}
+    }
+  },
+  "swea": {
+    "Stat 5Y": "SEGVB5YC",
+    "Styrränta": "SECBREPOEFF"
+  },
+  "komponenter": [
+    {"id": "annonser_bygg", "namn": "Platsannonser, bygg och anläggning", "transform": "yoy_3m", "tecken": 1, "fordrojning_man": 0},
+    {"id": "konkurser_bygg", "namn": "Konkurser i byggindustrin", "transform": "yoy_3m", "tecken": -1, "fordrojning_man": 1},
+    {"id": "stat_5y", "namn": "Statsobligation 5 år", "transform": "diff12", "tecken": -1, "fordrojning_man": 0},
+    {"id": "byggaktier", "namn": "Byggbolagens aktier", "transform": "yoy", "tecken": 1, "fordrojning_man": 0}
+  ],
+  "mal": {"id": "paborjade_lgh", "namn": "Påbörjade lägenheter (SCB)", "fordrojning_man": 2}
+}
