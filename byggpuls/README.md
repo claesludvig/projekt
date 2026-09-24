@@ -54,6 +54,20 @@ varje månad med bara den data som då var publicerad, med vikter och
 standardisering skattade på data fram till dess. Korrelationen mot
 påbörjade lägenheter 0–4 kvartal senare visar om indexet faktiskt leder.
 
+### Resultat (körning 24 september 2026)
+
+Korrelation mellan Byggpulsen och årsförändringen i påbörjade lägenheter
+k kvartal senare, realtidsversionen från juni 2020:
+
+| Ledtid | 0 kv | 1 kv | 2 kv | 3 kv | 4 kv |
+|---|---|---|---|---|---|
+| Byggpulsen (PCA-vikter), realtid | 0,53 | 0,72 | **0,79** | 0,77 | 0,68 |
+| Likaviktat, realtid | 0,29 | 0,49 | 0,63 | 0,71 | 0,72 |
+
+Indexet leder alltså byggstarterna med ungefär två kvartal. Indexet fångade
+raset 2022 och vändningen 2024 i förväg. Urvalet är litet (drygt 20 kvartal
+i realtidstestet), så siffrorna är en indikation och inte ett bevis.
+
 ## Filer
 
 - `hamta.py`: hämtar, räknar, ritar, skriver `data/byggpuls.json`.

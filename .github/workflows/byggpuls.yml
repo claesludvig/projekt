@@ -2,14 +2,6 @@ name: Byggpulsen - eget ledande index för byggandet
 
 on:
   workflow_dispatch: {}
-  # TILLFÄLLIGT för test innan merge: kör vid push till utvecklingsbranchen.
-  # Tas bort innan PR:en mergas — på main triggas workflowet av rutinen.
-  push:
-    branches: [claude/create-synthetic-data-7mk03s]
-    paths:
-      - "byggpuls/*.py"
-      - "byggpuls/kallor.json"
-      - ".github/workflows/byggpuls.yml"
 
 jobs:
   fetch:
