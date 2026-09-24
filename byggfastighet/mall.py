@@ -103,10 +103,23 @@ def _grupp(data: dict, namn: str):
     return next((g for g in data["tabell"] if g["grupp"] == namn), None)
 
 
+def _vanligaste_datum(grupp: dict) -> str:
+    datum = [r["datum"] for r in grupp["rader"]]
+    return max(set(datum), key=datum.count)
+
+
+def _datumnot(grupp: dict, data_t_o_m: str) -> str:
+    """Släpar hela tabellen samma dag skrivs datumet en gång i rubriken i
+    stället för på varje rad."""
+    vanligast = _vanligaste_datum(grupp)
+    return f", kurser per {_kort(vanligast)}" if vanligast < data_t_o_m else ""
+
+
 def _kurstabell(grupp: dict, data_t_o_m: str) -> str:
+    vanligast = _vanligaste_datum(grupp)
     rader = []
     for r in grupp["rader"]:
-        under = f"per {_kort(r['datum'])}" if r["datum"] < data_t_o_m else ""
+        under = f"per {_kort(r['datum'])}" if r["datum"] != vanligast and r["datum"] < data_t_o_m else ""
         rader.append(_namn(r["namn"], under) + "".join(_cell(r["forandring"].get(k)) for k in KOLUMNER))
     return _tabell([grupp["grupp"]] + KOLUMNER, rader)
 
@@ -146,8 +159,9 @@ def rendera(rapport: dict, data: dict) -> str:
 
     d.append(_h2("Sektorerna"))
     if _grupp(data, "Index"):
-        d.append(_liten("Förändring i %", "14px 0 2px 0"))
-        d.append(_kurstabell(_grupp(data, "Index"), data["data_t_o_m"]))
+        idx = _grupp(data, "Index")
+        d.append(_liten("Förändring i %" + _datumnot(idx, data["data_t_o_m"]), "14px 0 2px 0"))
+        d.append(_kurstabell(idx, data["data_t_o_m"]))
     if g.get("relativ_3m"):
         d.append(_h3("Fastighet och bygg mot OMXS30, 3 månader"))
         d.append(_img(g["relativ_3m"], "Fastighets- och byggindex mot OMXS30, 3 månader"))
@@ -172,7 +186,7 @@ def rendera(rapport: dict, data: dict) -> str:
         grupp = _grupp(data, sektor)
         if grupp:
             d.append(_h2(BOLAGSRUBRIK[sektor]))
-            d.append(_liten("Förändring i %, sorterat på 1m", "14px 0 2px 0"))
+            d.append(_liten("Förändring i %, sorterat på 1m" + _datumnot(grupp, data["data_t_o_m"]), "14px 0 2px 0"))
             d.append(_kurstabell(grupp, data["data_t_o_m"]))
 
     if data["prognoser_bygg"]:
