@@ -75,7 +75,8 @@ def hamta_kurser(bolag: list, t_o_m: date) -> tuple[dict, list]:
         except Exception as exc:  # noqa: BLE001
             s = pd.Series(dtype=float)
             print(f"  {b['namn']}: fel {exc}")
-        s = s[s.index <= pd.Timestamp(t_o_m)]
+        if len(s):
+            s = s[s.index <= pd.Timestamp(t_o_m)]
         if len(s) < 60:
             fel.append(f"{b['namn']} ({b['ticker']}): bara {len(s)} kursrader")
             continue

@@ -82,7 +82,8 @@ def _download(ticker: str) -> pd.Series:
         progress=False,
     )
     if raw is None or raw.empty:
-        return pd.Series(dtype=float)
+        # Tom serie med datumindex, så att anroparens datumfilter fungerar även för en försvunnen ticker.
+        return pd.Series(dtype=float, index=pd.DatetimeIndex([]))
     close = raw["Close"]
     if isinstance(close, pd.DataFrame):
         close = close.iloc[:, 0]

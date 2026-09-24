@@ -1,29 +1,91 @@
 {
-  "_kommentar": "Svenska bygg- och fastighetsbolag med Yahoo-ticker. Lägg till eller ta bort fritt; sektorindexen viktas med börsvärde.",
+  "_kommentar": "Svenska bygg- och fastighetsbolag med Yahoo-ticker. Lägg till eller ta bort fritt; sektorindexen viktas med börsvärde. Nyfosa (NYF.ST) saknas hos Yahoo sedan september 2026 och är borttagen.",
   "bygg": [
-    {"ticker": "SKA-B.ST", "namn": "Skanska"},
-    {"ticker": "PEAB-B.ST", "namn": "Peab"},
-    {"ticker": "NCC-B.ST", "namn": "NCC"},
-    {"ticker": "JM.ST", "namn": "JM"},
-    {"ticker": "BONAV-B.ST", "namn": "Bonava"},
-    {"ticker": "BRAV.ST", "namn": "Bravida"},
-    {"ticker": "INSTAL.ST", "namn": "Instalco"}
+    {
+      "ticker": "SKA-B.ST",
+      "namn": "Skanska"
+    },
+    {
+      "ticker": "PEAB-B.ST",
+      "namn": "Peab"
+    },
+    {
+      "ticker": "NCC-B.ST",
+      "namn": "NCC"
+    },
+    {
+      "ticker": "JM.ST",
+      "namn": "JM"
+    },
+    {
+      "ticker": "BONAV-B.ST",
+      "namn": "Bonava"
+    },
+    {
+      "ticker": "BRAV.ST",
+      "namn": "Bravida"
+    },
+    {
+      "ticker": "INSTAL.ST",
+      "namn": "Instalco"
+    }
   ],
   "fastighet": [
-    {"ticker": "BALD-B.ST", "namn": "Balder"},
-    {"ticker": "SAGA-B.ST", "namn": "Sagax"},
-    {"ticker": "CAST.ST", "namn": "Castellum"},
-    {"ticker": "FABG.ST", "namn": "Fabege"},
-    {"ticker": "WALL-B.ST", "namn": "Wallenstam"},
-    {"ticker": "WIHL.ST", "namn": "Wihlborgs"},
-    {"ticker": "HUFV-A.ST", "namn": "Hufvudstaden"},
-    {"ticker": "ATRLJ-B.ST", "namn": "Atrium Ljungberg"},
-    {"ticker": "CATE.ST", "namn": "Catena"},
-    {"ticker": "NYF.ST", "namn": "Nyfosa"},
-    {"ticker": "PNDX-B.ST", "namn": "Pandox"},
-    {"ticker": "PLAZ-B.ST", "namn": "Platzer"},
-    {"ticker": "DIOS.ST", "namn": "Dios"},
-    {"ticker": "CORE-B.ST", "namn": "Corem"},
-    {"ticker": "SBB-B.ST", "namn": "SBB"}
+    {
+      "ticker": "BALD-B.ST",
+      "namn": "Balder"
+    },
+    {
+      "ticker": "SAGA-B.ST",
+      "namn": "Sagax"
+    },
+    {
+      "ticker": "CAST.ST",
+      "namn": "Castellum"
+    },
+    {
+      "ticker": "FABG.ST",
+      "namn": "Fabege"
+    },
+    {
+      "ticker": "WALL-B.ST",
+      "namn": "Wallenstam"
+    },
+    {
+      "ticker": "WIHL.ST",
+      "namn": "Wihlborgs"
+    },
+    {
+      "ticker": "HUFV-A.ST",
+      "namn": "Hufvudstaden"
+    },
+    {
+      "ticker": "ATRLJ-B.ST",
+      "namn": "Atrium Ljungberg"
+    },
+    {
+      "ticker": "CATE.ST",
+      "namn": "Catena"
+    },
+    {
+      "ticker": "PNDX-B.ST",
+      "namn": "Pandox"
+    },
+    {
+      "ticker": "PLAZ-B.ST",
+      "namn": "Platzer"
+    },
+    {
+      "ticker": "DIOS.ST",
+      "namn": "Dios"
+    },
+    {
+      "ticker": "CORE-B.ST",
+      "namn": "Corem"
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "namn": "SBB"
+    }
   ]
 }
