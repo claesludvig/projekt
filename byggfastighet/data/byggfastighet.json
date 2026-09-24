@@ -1,5 +1,5 @@
 {
-  "genererad": "2026-09-24T07:46:49+00:00",
+  "genererad": "2026-09-24T07:50:46+00:00",
   "datum": "2026-09-24",
   "data_t_o_m": "2026-09-23",
   "vecka": 39,
@@ -127,7 +127,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 285.5,
-          "borsvarde_mdkr": 115.9,
+          "borsvarde_mdkr": 116.0,
           "forandring": {
             "1d": 4.5,
             "2d": 5.78,
@@ -144,7 +144,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 180.5,
-          "borsvarde_mdkr": 17.5,
+          "borsvarde_mdkr": 17.6,
           "forandring": {
             "1d": 0.17,
             "2d": 1.01,
@@ -161,7 +161,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 123.6,
-          "borsvarde_mdkr": 7.7,
+          "borsvarde_mdkr": 7.6,
           "forandring": {
             "1d": 0.0,
             "2d": 0.0,
@@ -200,7 +200,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 166.6,
-          "borsvarde_mdkr": 80.8,
+          "borsvarde_mdkr": 80.9,
           "forandring": {
             "1d": -0.89,
             "2d": 2.21,
@@ -234,7 +234,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 25.05,
-          "borsvarde_mdkr": 15.5,
+          "borsvarde_mdkr": 15.4,
           "forandring": {
             "1d": -0.4,
             "2d": 0.8,
@@ -370,7 +370,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 49.55,
-          "borsvarde_mdkr": 57.3,
+          "borsvarde_mdkr": 57.5,
           "forandring": {
             "1d": -1.53,
             "2d": 0.53,
@@ -542,7 +542,7 @@
     {
       "namn": "Peab",
       "ticker": "PEAB-B.ST",
-      "borsvarde": 27779045474.033188,
+      "borsvarde": 27765071258.466812,
       "nasta_rapport": "2026-10-28",
       "0y": {
         "eps": 7.9724,
@@ -575,7 +575,7 @@
     {
       "namn": "Bravida",
       "ticker": "BRAV.ST",
-      "borsvarde": 29450556977.780655,
+      "borsvarde": 29491262034.06131,
       "nasta_rapport": "2026-10-23",
       "0y": {
         "eps": 7.03226,
@@ -608,7 +608,7 @@
     {
       "namn": "Skanska",
       "ticker": "SKA-B.ST",
-      "borsvarde": 115901104511.55374,
+      "borsvarde": 115983925648.44626,
       "nasta_rapport": "2026-11-05",
       "0y": {
         "eps": 17.01593,
@@ -641,7 +641,7 @@
     {
       "namn": "JM",
       "ticker": "JM.ST",
-      "borsvarde": 7650273925.573425,
+      "borsvarde": 7630922768.853149,
       "nasta_rapport": "2026-10-21",
       "0y": {
         "eps": 4.22499,
@@ -674,7 +674,7 @@
     {
       "namn": "Instalco",
       "ticker": "INSTAL.ST",
-      "borsvarde": 10829039391.681335,
+      "borsvarde": 10812932370.549316,
       "nasta_rapport": "2026-10-23",
       "0y": {
         "eps": 2.18461,
@@ -707,7 +707,7 @@
     {
       "namn": "NCC",
       "ticker": "NCC-B.ST",
-      "borsvarde": 17545642511.468964,
+      "borsvarde": 17565268210.0,
       "nasta_rapport": "2026-11-03",
       "0y": {
         "eps": 14.3209,
