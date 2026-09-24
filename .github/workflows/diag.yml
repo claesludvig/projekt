@@ -1,0 +1,14 @@
+name: diag (tillfällig)
+on:
+  push:
+    branches: [claude/market-data-asset-correlations-4gmcb2]
+    paths: ["diag/*.py", ".github/workflows/diag.yml"]
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -r marknadspuls/requirements.txt
+      - run: python diag/omx.py
