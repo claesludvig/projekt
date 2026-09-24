@@ -2,3 +2,37 @@ name: Vinstförväntningar OMXS30 - analytikerkonsensus
 
 on:
   workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r vinstforvantningar/requirements.txt
+
+      - name: Hämta prognoser, räkna revideringar, rita grafer
+        working-directory: vinstforvantningar
+        run: python hamta.py --branch "${GITHUB_REF_NAME}"
+
+      - name: Commit data och grafer
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A vinstforvantningar/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterade vinstförväntningar"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push
