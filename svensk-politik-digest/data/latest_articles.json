@@ -1,35 +1,35 @@
 {
-  "fetched_at": "2026-09-24T06:16:27.072394+00:00",
-  "new_count": 6,
+  "fetched_at": "2026-09-24T14:16:13.803447+00:00",
+  "new_count": 3,
   "skipped": {
-    "seen": 21,
-    "offtopic": 153,
-    "old": 30
+    "seen": 24,
+    "offtopic": 155,
+    "old": 28
   },
-  "fetch_errors": 2,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,113 +65,58 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9306141",
-      "title": "Ordval i förslag till ny abortlag splittrar de rödgröna",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/nooshi-dadgostar-v-om-tystnaden-behovt-utreda-fragan",
+      "title": "Nooshi Dadgostar (V) om tystnaden: ”Behövt utreda frågan”",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-09-24",
-      "author": "Ekot",
+      "author": "Julia Lindvall, Jesper Brännmark",
       "commentator": "",
-      "summary": "En av de första frågor som den nyvalda riksdagen ska fatta beslut om splittrar de fyra rödgröna partierna, som ju vann valet. Det handlar om en ny abortlag, där Vänsterpartiet och Miljöpartiet vill att det uttryckligen ska stå att rätten till abort inte enbart omfattar kvinnor – utan alla som är gravida, oavsett juridiskt kön, till exempel transpersoner. Socialdemokraterna och Centerpartiet står bakom Tidöpartiernas förslag att behålla dagens formulering i abortlagen, det vill säga ”kvinna som är gravid”.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9306141'",
-      "matched_terms": [
-        "Centerpartiet",
-        "Miljöpartiet",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-24T06:16:27.072394+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/deadline-narmar-sig-de-pekas-ut-for-den-viktiga-talmansposten",
-      "title": "Deadline närmar sig – de pekas ut för den viktiga talmansposten",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "Kristoffer Törnmalm",
-      "commentator": "",
-      "summary": "På söndag är deadline för nomineringar till talmansposten. För Socialdemokraterna ses talmannen som en nyckelperson i förhandlingarna om makten. – För mig är det självklart att Andreas Norlén inte sitter kvar, säger S gruppledare Lena Hallengren till TT.",
-      "fulltext": "På söndag är deadline för nomineringar till talmansposten.\nFör Socialdemokraterna ses talmannen som en nyckelperson i förhandlingarna om makten.\n– För mig är det självklart att Andreas Norlén inte sitter kvar, säger S gruppledare Lena Hallengren till TT.\nTalmansvalet på måndag blir S, V, MP och C:s första test i den nya riksdagen – kan de enas kring en gemensam talman eller blir det partierna till höger som tar posten på nytt?\nTidöpartierna har enligt SVT:s uppgifter ännu inte landat i en gemensam kandidat att gå fram med. Beslutet ligger hos partiledarna och tipset är att de kan sätta ned foten i frågan under fredagen.\nDen kandidat som vore enklast för partierna att enas kring sägs vara sittande talmannen Andreas Norlén. Men det är inte säkert att en sådan nominering skulle få alla Tidö-politikers stöd. Bakom kulisserna har det under mandatperioden vädrats kritik mot Norlén, bland annat till följd av de kritiserade resorna med regeringsplanet, som DN avslöjat.\n– Sedan är frågan om han ens vill ställa sig mot en gemensam kandidat från den rödgröna sidan, säger en M-källa.\nFör Socialdemokraterna beskrivs en talman från det egna partiet bli en viktig spelare i kampen om regeringsmakten. Det handlar om att kontrollera tempot i processen, så att han eller hon kan sätta press på de förhandlande parterna vid rätt tillfälle, förklarar en socialdemokrat.\n– Det gör talmannen till en viktig spelare i det här.\nMöjliga kandidater som hörs från S-håll är bland andra tidigare justitieminister Morgan Johansson. Han kom in i riksdagen första gången 1998 och har varit minister under såväl Magdalena Andersson, Stefan Löfven som Göran Persson. Även Anders Ygeman kommer på tal, också han en politiker med flera statsrådsposter på CV:t och i dag riksdagens ålderspresident. Alltså den som suttit längst och som håller i talmansvalet i kammaren.\nYtterligare en möjlig kandidat som nämns är Jennie Nilsson, också tidigare statsråd som blev riksdagsledamot första gången 2006, idag ordförande i KU. Även Matilda Ernkrans är en riksdagsveteran som det spekuleras om.\nMen vilken kandidat man lägger fram beror enligt SVT:s uppgifter på om man kommer fram till en gemensam linje på den rödgröna sidan – skulle man inte få med sig de övriga partierna är lusten att skicka exempelvis Morgan Johansson till en förmodad förlust inte stor.\nSöndag klockan 14 har riksdagen satt som deadline för partiernas nomineringar till talmansposten, och det för att man ska hinna förtrycka lappar med kandidaternas namn. Men nomineringarna kan komma in fram till omröstningen på måndag.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Partiledaren Nooshi Dadgostar (V) kommenterar det misstänkta valfusket och hur det kan påverka regeringsförhandlingarna. – Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering, säger Dadgostar.",
+      "fulltext": "Partiledaren Nooshi Dadgostar (V) kommenterar det misstänkta valfusket och hur det kan påverka regeringsförhandlingarna.\n– Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering, säger Dadgostar.\n– Anklagelserna är allvarliga, säger Nooshi Dadgostar (V) i sin första intervju med SVT sedan uppgifterna om misstänkt valfusk kom ut på måndagen.\nPartiledaren kommenterar varför hon inte har gått ut i media tidigare.\n– Det här handlar om ett personärende och vi har tagit reda på sakförhållandena. Vi kan inte gå på medieuppgifter utan vi har behövt utreda och då har vi landat i en överenskommelse om att personen tar timeout, säger hon.\nMohamed Abdukardir Ali kommer inte inte tjänstgöra under perioden för sin timeout, enligt Dadgostar – som inte ger något ytterligare svar på vad en timeout innebär.\nPolisen utreder misstänkt valfusk i Borlänge efter att V-politikern Mohamed Abdukardir Ali kryssats in i riksdagen med 648 personröster.\nHan har tidigare sagt till SVT att han inte har gjort något fel.\n– En polisutredning måste nu ta fram vad som kan ha gått fel eller vad som har hänt. Självklart har han rätt att säga att han inte har gjort de här sakerna, säger Dadgostar.\nPå frågan om detta kan påverka regeringsförhandlingarna svarar hon:\n– Vi har fått över en halv miljon röster och gjort ett av våra bästa val någonsin. Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering naturligtvis, Sverige behöver en ny riktning.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-09-24T06:16:27.072394+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/tyst-fran-dadgostar-efter-misstankta-valfusket",
-      "title": "Tyst från Dadgostar efter misstänkta valfusket",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "Nora Holand",
-      "commentator": "",
-      "summary": "Polisen utreder misstänkt valfusk efter att V-politikern Mohamed Abdukardir Ali kryssades in i riksdagen. Men sedan nyheten kom har partiledaren Nooshi Dadgostar varit tyst. Och flera i partiledningen duckar SVT:s frågor. – Inte nu, säger V-toppen Jonas Lindberg.",
-      "fulltext": "Polisen utreder misstänkt valfusk efter att V-politikern Mohamed Abdukardir Ali kryssades in i riksdagen.\nMen sedan nyheten kom har partiledaren Nooshi Dadgostar varit tyst. Och flera i partiledningen duckar SVT:s frågor.\n– Inte nu, säger V-toppen Jonas Lindberg.\nV-politikern Mohamed Abdukardir Ali i Borlänge kryssades in i riksdagen med 648 personröster.\nMen under måndagen kom medieuppgifter om att åklagare utreder valfusk . Ingen har i nuläget delgivits misstanke för brott, och Ali nekar till inblandning.\n– Det är helt, helt, fel. Jag har inte gjort det. Jag vet lagen. Jag har fått förtroende i varje distrikt i Dalarna, sa han på måndagen till SVT.\nPå tisdagen kommenterade partisekreteraren Maria Forsberg ärendet skriftligen.\n”Det här handlar om synnerligen allvarliga anklagelser mot alla som berörs. Om vi kan bistå utredningen på något sätt så kommer vi att göra det. Jag kan inte understryka tillräckligt att vi tar detta på stort allvar och vi välkomnar att det här nu utreds”, skrev hon i en kommentar till SVT och meddelade Alis timeout .\nUnder onsdagen sa hon till SVT att timeouten gäller under utredningen, men att han inte kommer att lämna sin riksdagsplats i nuläget.\nNär SVT fångade riksdagsledamöter från V i riksdagen tidigare på onsdagen vägrar de svara på frågor.\n– Inte nu i alla fall, svarade V-toppen Jonas Lindberg på när partiet ska uttala sig.\nUnder onsdagen meddelar en anställd vid Vänsterpartiets kansli att det inte kommer komma fler kommentarer under dagen.\nPartiledare och tidigare V-toppar kommenterat\nMedan V-ledningen är tyst har flera andra partiledare uttalat sig.\n– Jag ser väldigt, väldigt allvarligt på de misstankar som finns. Svenska folket ska naturligtvis vara trygga med att valen går rätt till. Därför är det viktigt att det här utreds grundligt, de här misstankarna som finns, sa S-ledaren Magdalena Andersson på onsdagen enligt TT.\nOch Centerpartiets partisekreterare Hannes Hervieu kallade under tisdagen misstankarna för ”oerhört allvarliga” .\nDen tidigare V-toppen Pernilla Zethraeus har riktat kritik mot partiets hantering av vallistor och sagt att man behöver ha en bakgrundskontroll, medan den tidigare V-ledaren Lars Ohly uppmanat sitt parti att stå upp för Mohamed Abdukardir Ali.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
+        "regeringsförhandling",
         "partiledar"
       ],
-      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+      "first_seen": "2026-09-24T14:16:13.803447+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9306188",
-      "title": "Tre misstänks efter att Mohamed Ali kryssats in",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Tre personer misstänks nu i utredningen om hur Mohamed Ali kryssades in i riksdagen, enligt uppgifter i handlingar som SVT tagit del av. Utredningen lades tidigare ner men återupptogs i måndags, och ännu har ingen av de tre delgetts misstanke om brott. Socialdemokraternas partiledare Magdalena Andersson säger att saken måste utredas ordentligt. Ekot har sökt åklagaren för en kommentar, men utan framgång.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9306188'",
-      "matched_terms": [
-        "partiledar",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-09-24T06:16:27.072394+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/de-kan-bli-ministrar-i-en-ny-regering",
-      "title": "De kan bli ministrar i en ny regering",
+      "url": "https://www.dn.se/sverige/annie-reuterskiold-tystnaden-fran-vs-vice-partiledare-motsager-dadgostar",
+      "title": "Annie Reuterskiöld: Tystnaden från V:s vice partiledare motsäger Dadgostar",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-09-23",
-      "author": "DN",
+      "published": "2026-09-24",
+      "author": "Annie Reuterskiöld",
       "commentator": "",
-      "summary": "Ska Stefan Löfven göra comeback? Kommer Birgitta Ohlsson att bli C-märkt minister? Om Magdalena Andersson får ihop sitt regeringsunderlag väntar en hård strid om ministerposterna. DN:s politikredaktion listar 24 tänkbara statsråd i en ny regering.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/de-kan-bli-ministrar-i-en-ny-regering/\nSka Stefan Löfven göra comeback? Kommer Birgitta Ohlsson att bli C-märkt minister? Om Magdalena Andersson får ihop sitt regeringsunderlag väntar en hård strid om ministerposterna. DN:s politikredaktion listar 24 tänkbara statsråd i en ny regering.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "summary": "Sent omsider uttalar sig Nooshi Dadgostar om det misstänkta valfusket. V-ledaren tror inte att krisen påverkar regeringsförhandlingarna. Vice partiledaren Ida Gabrielssons tvära stopp i sin regeringskampanj talar motsatt språk.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/annie-reuterskiold-tystnaden-fran-vs-vice-partiledare-motsager-dadgostar/\nSent omsider uttalar sig Nooshi Dadgostar om det misstänkta valfusket.\nV-ledaren tror inte att krisen påverkar regeringsförhandlingarna.\nVice partiledaren Ida Gabrielssons tvära stopp i sin regeringskampanj talar motsatt språk.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nJu fler minuter, timmar och dygn som gick efter nyheten om misstänkt valfusk i Borlänge utan att Vänsterledaren kommenterade, desto ihärdigare blev rubrikerna. ”Två delfiner och fyra papegojsvar. Men var är Nooshi Dadgostar?” frågade sig Aftonbladet.\nV-ledaren krishanterade genom en regnbågsfärgad bild på delfiner i sociala medier, först 67 timmar senare uttalade hon sig i samma tidning. Dadgostar ser allvarligt på anklagelserna om valfusk, men tror inte att brottsutredningen stör regeringsförhandlingarna, eftersom det rör sig om relativt få röster.\nFramför allt två saker tyder på att både Vänsterpartiet och regeringsförhandlingarna påverkas djupare än så.\nFörst ut en annan tystnad: V:s vice partiledare dyker inte längre upp i var och varannan tv-sändning. Dessutom har hon slutat abrupt med sin intensivt förda kampanj i sociala medier. Under valåret har Gabrielsson gjort flera inlägg om dagen för att hamra in att Vänsterpartiet har en självklar plats i en regering och att partiet aldrig kommer att vika ner sig.\nInte ens under den förra krisen, då Expressens avslöjanden om antisemitism och terrorhyllningar bland V-kandidater avslöjades, tog hon en paus. Sedan den 21 september ekar Ida Gabrielssons närvaro på både X och Facebook tomt.\nFör det andra: Det är Socialdemokraterna som är Vänsterpartiets förhandlingspart. Ett parti som inte skyr många medel i slutna rum. Otaliga är andra partiers vittnesmål genom åren om regelrätta hot och skoningslösa bud från Sveriges största parti när makten ska fördelas.\nRedan under valrörelsen vingklipptes V när man tvingades stryka över 30 kandidater på grund av antisemitiska och terrorhyllande uttalanden. Nooshi Dadgostars parti har en lång resa kvar att göra, konstaterade Magdalena Andersson. Starka krafter i Socialdemokraterna som inte vill se V i regeringen kunde nöjt se på.\nÄndå var styrkeförhållandet mellan S och V inte med säkerhet påverkat. Valresultatet var ännu att vänta, och hårdvaluta i en regeringsförhandling är till sist antalet röster ett parti har med sig till bordet.\nFallet med Mohamed Abdukardir Alis personvalskampanj kan rucka också på det.\nNu riktas återigen ljuset mot Vänsterpartiets dåliga kontroll över sina listor. Men vanskligare för Nooshi Dadgostar är risken för att brottsutredningen visar på förhållanden som kräver ett omval i Dalarna. I dagsläget pekar det mesta emot, det rör sig om relativt få röster. Men risken finns, vilket i sin tur skulle kunna innebära att det nationella valresultatet ändras med ett mandat till Tidöpartiernas fördel.\nAnklagelser om valfusk är synnerligen allvarliga och kan sätta medborgarnas tilltro till det demokratiska systemet i gungning. Det vill inget parti ha orsakat och samtidigt befinna sig i en förhandling där regeringsduglighet premieras.\nSocialdemokraterna lär dessutom inte dra sig från att påpeka hur Vänsterpartiets bristande koll på sitt parti riskerar att minska oppositionens redan knappa övertag. S behöver fortfarande V – men Nooshi Dadgostars starkaste kort har tappat i värde.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nDadgostar till DN om sin tystnad: Människor som är inblandade\nKrisexperten om Dadgostars första ord: Alternativet hade varit värre\nUtredningen om misstänkt valfusk i Dalarna: Detta har hänt",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsunderlag",
-        "ministerpost"
+        "regeringsförhandling",
+        "partiledar"
       ],
-      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+      "first_seen": "2026-09-24T14:16:13.803447+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/amanda-sokolnicki-v-ledningen-har-stangt-in-sig-i-bunkern-med-sin-kaffekokare",
-      "title": "Amanda Sokolnicki: V-ledningen har stängt in sig i bunkern med sin kaffekokare",
-      "source": "DN Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-23",
-      "author": "Amanda Sokolnicki",
-      "commentator": "Amanda Sokolnicki",
-      "summary": "Tänk om Vänsterpartiet skulle fokusera lite mindre på sina krav på andra, och i stället börja ställa krav på sin egen partiledare.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 08:15\nArtikelns ursprungsadress: https://www.dn.se/ledare/amanda-sokolnicki-v-ledningen-har-stangt-in-sig-i-bunkern-med-sin-kaffekokare/\nTänk om Vänsterpartiet skulle fokusera lite mindre på sina krav på andra, och i stället börja ställa krav på sin egen partiledare.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "url": "https://www.dn.se/sverige/krisexperten-om-dadgostars-forsta-ord-alternativet-hade-varit-varre",
+      "title": "Krisexperten om Dadgostars första ord: Alternativet hade varit värre",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-24",
+      "author": "Annika Staf",
+      "commentator": "",
+      "summary": "Efter flera dygns tystnad har Vänsterpartiets partiledare Nooshi Dadgostar nu uttalat sig om den misstänkta valfuskhärvan. – Det hedrar henne att hon visar sig i offentligheten och att hon svarar på frågor. Alternativet hade varit värre, säger Hampus Knutsson, expert på krishantering.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 16:14\nArtikelns ursprungsadress: https://www.dn.se/sverige/krisexperten-om-dadgostars-forsta-ord-alternativet-hade-varit-varre/\nEfter flera dygns tystnad har Vänsterpartiets partiledare Nooshi Dadgostar nu uttalat sig om den misstänkta valfuskhärvan.\n– Det hedrar henne att hon visar sig i offentligheten och att hon svarar på frågor. Alternativet hade varit värre, säger Hampus Knutsson, expert på krishantering.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "partiledar",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-24T06:16:27.072394+00:00"
+      "first_seen": "2026-09-24T14:16:13.803447+00:00"
     }
   ]
 }
