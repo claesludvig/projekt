@@ -1,5 +1,5 @@
 {
-  "genererad": "2026-09-24T07:38:21+00:00",
+  "genererad": "2026-09-24T07:41:17+00:00",
   "datum": "2026-09-24",
   "data_t_o_m": "2026-09-23",
   "vecka": 39,
@@ -24,14 +24,14 @@
           "namn": "Byggindex",
           "enhet": "pct",
           "datum": "2026-09-22",
-          "senast": 112.32,
+          "senast": 112.34,
           "forandring": {
             "1d": 2.88,
             "2d": 4.01,
             "3d": 3.56,
             "1v": 6.31,
             "2v": 3.04,
-            "1m": 5.43,
+            "1m": 5.44,
             "3m": 11.13
           }
         },
@@ -93,7 +93,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 145.2,
-          "borsvarde_mdkr": 29.4,
+          "borsvarde_mdkr": 29.5,
           "forandring": {
             "1d": 1.26,
             "2d": 1.47,
@@ -110,7 +110,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 100.9,
-          "borsvarde_mdkr": 28.0,
+          "borsvarde_mdkr": 27.8,
           "forandring": {
             "1d": 1.0,
             "2d": 2.64,
@@ -127,7 +127,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 285.5,
-          "borsvarde_mdkr": 116.0,
+          "borsvarde_mdkr": 115.9,
           "forandring": {
             "1d": 4.5,
             "2d": 5.78,
@@ -144,7 +144,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 180.5,
-          "borsvarde_mdkr": 17.6,
+          "borsvarde_mdkr": 17.5,
           "forandring": {
             "1d": 0.17,
             "2d": 1.01,
@@ -200,7 +200,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 166.6,
-          "borsvarde_mdkr": 80.9,
+          "borsvarde_mdkr": 80.8,
           "forandring": {
             "1d": -0.89,
             "2d": 2.21,
@@ -387,7 +387,7 @@
           "enhet": "pct",
           "datum": "2026-09-22",
           "senast": 37.9,
-          "borsvarde_mdkr": 23.9,
+          "borsvarde_mdkr": 23.8,
           "forandring": {
             "1d": -0.26,
             "2d": 0.69,
@@ -484,6 +484,54 @@
             "1m": 28.5,
             "3m": 71.8
           }
+        },
+        {
+          "namn": "Stat 10Y",
+          "serie": "SEGVB10YC",
+          "enhet": "bp",
+          "datum": "2026-09-23",
+          "senast": 3.219,
+          "forandring": {
+            "1d": 10.2,
+            "2d": 7.6,
+            "3d": 1.1,
+            "1v": -1.6,
+            "2v": 6.9,
+            "1m": 18.0,
+            "3m": 54.4
+          }
+        },
+        {
+          "namn": "Bostadsobl. 2Y",
+          "serie": "SEMB2YCACOMB",
+          "enhet": "bp",
+          "datum": "2026-09-23",
+          "senast": 3.117,
+          "forandring": {
+            "1d": 8.4,
+            "2d": 5.8,
+            "3d": -1.6,
+            "1v": 1.0,
+            "2v": 21.6,
+            "1m": 36.3,
+            "3m": 70.4
+          }
+        },
+        {
+          "namn": "Bostadsobl. 5Y",
+          "serie": "SEMB5YCACOMB",
+          "enhet": "bp",
+          "datum": "2026-09-23",
+          "senast": 3.493,
+          "forandring": {
+            "1d": -14.7,
+            "2d": -16.4,
+            "3d": -23.9,
+            "1v": 0.2,
+            "2v": -5.3,
+            "1m": -13.9,
+            "3m": 23.9
+          }
         }
       ]
     }
@@ -510,7 +558,7 @@
     {
       "namn": "Peab",
       "ticker": "PEAB-B.ST",
-      "borsvarde": 27980839367.0,
+      "borsvarde": 27751099175.066376,
       "nasta_rapport": "2026-10-28",
       "0y": {
         "eps": 7.9724,
@@ -543,7 +591,7 @@
     {
       "namn": "Bravida",
       "ticker": "BRAV.ST",
-      "borsvarde": 29409851921.5,
+      "borsvarde": 29470911058.719345,
       "nasta_rapport": "2026-10-23",
       "0y": {
         "eps": 7.03226,
@@ -576,7 +624,7 @@
     {
       "namn": "Skanska",
       "ticker": "SKA-B.ST",
-      "borsvarde": 116025336216.89252,
+      "borsvarde": 115859693943.10748,
       "nasta_rapport": "2026-11-05",
       "0y": {
         "eps": 17.01593,
@@ -609,7 +657,7 @@
     {
       "namn": "JM",
       "ticker": "JM.ST",
-      "borsvarde": 7663175188.853149,
+      "borsvarde": 7656724311.146851,
       "nasta_rapport": "2026-10-21",
       "0y": {
         "eps": 4.22499,
@@ -675,7 +723,7 @@
     {
       "namn": "NCC",
       "ticker": "NCC-B.ST",
-      "borsvarde": 17584893908.531036,
+      "borsvarde": 17545642511.468964,
       "nasta_rapport": "2026-11-03",
       "0y": {
         "eps": 14.3209,
@@ -745,10 +793,6 @@
     "bygg_mot_ranta": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/byggfastighet/data/grafer/2026-09-24/bygg_mot_ranta.png",
     "relativ_3m": "https://raw.githubusercontent.com/claesludvig/projekt/claude/market-data-asset-correlations-4gmcb2/byggfastighet/data/grafer/2026-09-24/relativ_3m.png"
   },
-  "metod": "Kurser: Yahoo Finance. Räntor: Riksbanken (SWEA). Sektorindexen är egna, börsvärdesviktade med dagens börsvärden, och inte Nasdaqs officiella index. Räntor i baspunkter, övrigt i procent. 1d–3d = handelsdagar, 1v–3m = kalenderdagar bakåt. Korrelation på dagliga förändringar. Räntekänslighet = sektorindexets rörelse i % per 10 bp högre Stat 5Y, senaste 3 månaderna. Vinstprognoser (analytikerkonsensus) bara för byggbolagen: fastighetsbolagens vinst per aktie domineras av värdeförändringar.",
-  "fel": [
-    "Stibor 3M: ingen data från Riksbanken (SEDP3MSTIBORDELAYC, SEDP3MSTIBORC)",
-    "Stat 10Y: ingen data från Riksbanken (SEGVB10YC)",
-    "Bostadsobl. 5Y: ingen data från Riksbanken (SEMB5YCACOMB, SEMB5YC)"
-  ]
+  "metod": "Kurser: Yahoo Finance. Räntor: Riksbanken (SWEA; Riksbanken publicerar inte swapräntor, bostadsobligationerna är närmaste mått på finansieringskostnaden). Sektorindexen är egna, börsvärdesviktade med dagens börsvärden, och inte Nasdaqs officiella index. Räntor i baspunkter, övrigt i procent. 1d–3d = handelsdagar, 1v–3m = kalenderdagar bakåt. Korrelation på dagliga förändringar. Räntekänslighet = sektorindexets rörelse i % per 10 bp högre Stat 5Y, senaste 3 månaderna. Vinstprognoser (analytikerkonsensus) bara för byggbolagen: fastighetsbolagens vinst per aktie domineras av värdeförändringar.",
+  "fel": []
 }
