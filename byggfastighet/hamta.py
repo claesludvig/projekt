@@ -198,6 +198,7 @@ def rantekanslighet(index: pd.Series, ranta: pd.Series, dagar: int = 91):
 
 # ---------- grafer ----------
 
+INDEXNAMN = {"Bygg": "Byggindex", "Fastighet": "Fastighetsindex"}
 FARG = {"Fastighet": "#1a365d", "Bygg": "#c05621", "OMXS30": "#718096", "ranta": "#2f855a"}
 
 
@@ -213,7 +214,7 @@ def rita_index_mot_ranta(index: pd.Series, namn: str, ranta: pd.Series, rnamn: s
     i = index[index.index >= slut - pd.Timedelta(days=dagar)]
     r = ranta[(ranta.index >= i.index[0]) & (ranta.index <= slut)]
     fig, ax = plt.subplots(figsize=(5.6, 3.0), dpi=110, layout="constrained")
-    ax.plot(i.index, i / i.iloc[0] * 100, color=FARG[namn], linewidth=2, label=f"{namn}sindex (index 100)")
+    ax.plot(i.index, i / i.iloc[0] * 100, color=FARG[namn], linewidth=2, label=f"{INDEXNAMN[namn]} (index 100)")
     ax.axhline(100, color="#a0aec0", linewidth=0.8)
     ax.set_ylabel("Index, start = 100", fontsize=9, color="#4a5568")
     ax2 = ax.twinx()
@@ -316,7 +317,7 @@ def main() -> None:
         s = index.get(namn)
         if s is None or not len(s):
             continue
-        idx_rader.append({"namn": f"{namn}sindex" if namn != "OMXS30" else "OMXS30", "enhet": "pct",
+        idx_rader.append({"namn": INDEXNAMN.get(namn, namn), "enhet": "pct",
                           "datum": s.index[-1].date().isoformat(), "senast": round(float(s.iloc[-1]), 2),
                           "forandring": forandringar(s, False)})
     tabell.append({"grupp": "Index", "rader": idx_rader})

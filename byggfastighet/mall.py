@@ -21,6 +21,8 @@ from html import escape
 MANADER = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti",
            "september", "oktober", "november", "december"]
 KOLUMNER = ["1d", "1v", "2v", "1m", "3m"]
+INDEXNAMN = {"Bygg": "Byggindex", "Fastighet": "Fastighetsindex"}
+BOLAGSRUBRIK = {"Bygg": "Byggbolagen", "Fastighet": "Fastighetsbolagen"}
 
 C_TEXT, C_RUBRIK, C_DAMPAD, C_LINJE = "#2d3748", "#1a365d", "#718096", "#e2e8f0"
 C_UPP, C_NER = "#276749", "#c53030"
@@ -126,7 +128,7 @@ def _sambandsmening(namn: str, s: dict) -> str:
     k = s["korrelation"]
     txt = f"Korrelation mot {s['mot']}: 1m {_korr(k.get('1m'))}, 3m {_korr(k.get('3m'))}."
     if s.get("per_10bp_3m") is not None:
-        txt += (f" Räntekänslighet: {namn.lower()}sindex har i snitt rört sig {fmt(s['per_10bp_3m'])} % "
+        txt += (f" Räntekänslighet: {INDEXNAMN[namn].lower()} har i snitt rört sig {fmt(s['per_10bp_3m'])} % "
                 f"per 10 bp högre ränta senaste 3 månaderna.")
     return txt
 
@@ -158,8 +160,8 @@ def rendera(rapport: dict, data: dict) -> str:
         s = data["samband"].get(sektor)
         nyckel = f"{sektor.lower()}_mot_ranta"
         if g.get(nyckel):
-            d.append(_h3(f"{sektor}sindex mot {s['mot'] if s else 'räntan'}, 3 månader"))
-            d.append(_img(g[nyckel], f"{sektor}sindex mot räntan, 3 månader"))
+            d.append(_h3(f"{INDEXNAMN[sektor]} mot {s['mot'] if s else 'räntan'}, 3 månader"))
+            d.append(_img(g[nyckel], f"{INDEXNAMN[sektor]} mot räntan, 3 månader"))
         if s:
             d.append(_liten(escape(_sambandsmening(sektor, s)), "6px 0 0 0"))
     d.append(_liten("Räntan ritas på en inverterad högeraxel: stigande ränta nedåt. Går linjerna ihop följer aktierna räntan på det väntade sättet."))
@@ -167,7 +169,7 @@ def rendera(rapport: dict, data: dict) -> str:
     for sektor in ("Fastighet", "Bygg"):
         grupp = _grupp(data, sektor)
         if grupp:
-            d.append(_h2(f"{sektor}sbolagen"))
+            d.append(_h2(BOLAGSRUBRIK[sektor]))
             d.append(_liten("Förändring i %, sorterat på 1m", "14px 0 2px 0"))
             d.append(_kurstabell(grupp, data["data_t_o_m"]))
 
