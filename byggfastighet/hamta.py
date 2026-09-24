@@ -16,6 +16,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -54,11 +55,11 @@ PERIODER = [
 # data/swea_serier.txt så att valet går att kontrollera.
 RANTOR = [
     ("Styrränta", ["SECBREPOEFF"]),
-    ("Stibor 3M", ["SEDP3MSTIBORDELAYC", "SEDP3MSTIBORC"]),
     ("Stat 2Y", ["SEGVB2YC"]),
     ("Stat 5Y", ["SEGVB5YC"]),
     ("Stat 10Y", ["SEGVB10YC"]),
-    ("Bostadsobl. 5Y", ["SEMB5YCACOMB", "SEMB5YC"]),
+    ("Bostadsobl. 2Y", ["SEMB2YCACOMB"]),
+    ("Bostadsobl. 5Y", ["SEMB5YCACOMB"]),
 ]
 REFERENSRANTA = "Stat 5Y"   # räntekänslighet och grafer
 KORR_FONSTER = {"1m": 30, "3m": 91}
@@ -85,16 +86,29 @@ def hamta_kurser(bolag: list, t_o_m: date) -> tuple[dict, list]:
     return serier, fel
 
 
+SWEA_PAUS = 13  # sekunder mellan anrop: SWEA utan API-nyckel tillåter bara ett fåtal anrop per minut
+
+
+def _swea_get(url: str):
+    """GET mot SWEA med paus före varje anrop och ett nytt försök efter en
+    minut om kvoten ändå slår till (HTTP 429)."""
+    for forsok in range(2):
+        time.sleep(SWEA_PAUS)
+        r = requests.get(url, timeout=30)
+        if r.status_code == 429 and forsok == 0:
+            print(f"  SWEA: 429, väntar 60 s ({url.rsplit('/', 3)[-3]})")
+            time.sleep(60)
+            continue
+        r.raise_for_status()
+        return r.json()
+
+
 def swea_serielista() -> list:
-    r = requests.get(f"{SWEA}/Series", timeout=30)
-    r.raise_for_status()
-    return r.json()
+    return _swea_get(f"{SWEA}/Series")
 
 
 def swea_serie(serie_id: str, fran: date, till: date) -> pd.Series:
-    r = requests.get(f"{SWEA}/Observations/{serie_id}/{fran.isoformat()}/{till.isoformat()}", timeout=30)
-    r.raise_for_status()
-    obs = r.json()
+    obs = _swea_get(f"{SWEA}/Observations/{serie_id}/{fran.isoformat()}/{till.isoformat()}")
     if not obs:
         return pd.Series(dtype=float)
     s = pd.Series({pd.Timestamp(o["date"]): o["value"] for o in obs if o.get("value") is not None}, dtype=float)
@@ -123,6 +137,7 @@ def hamta_rantor(t_o_m: date) -> tuple[dict, dict, list]:
                 s = swea_serie(sid, fran, t_o_m)
             except Exception as exc:  # noqa: BLE001
                 print(f"  {namn} ({sid}): fel {exc}")
+                fel.append(f"{namn} ({sid}): {exc}")
                 continue
             if len(s) >= 20:
                 serier[namn], anvanda[namn] = s, sid
@@ -401,7 +416,7 @@ def main() -> None:
         "kommande_rapporter": kommande,
         "grafer": grafer,
         "metod": (
-            "Kurser: Yahoo Finance. Räntor: Riksbanken (SWEA). Sektorindexen är egna, börsvärdesviktade med "
+            "Kurser: Yahoo Finance. Räntor: Riksbanken (SWEA; Riksbanken publicerar inte swapräntor, bostadsobligationerna är närmaste mått på finansieringskostnaden). Sektorindexen är egna, börsvärdesviktade med "
             "dagens börsvärden, och inte Nasdaqs officiella index. Räntor i baspunkter, övrigt i procent. "
             "1d–3d = handelsdagar, 1v–3m = kalenderdagar bakåt. Korrelation på dagliga förändringar. "
             f"Räntekänslighet = sektorindexets rörelse i % per 10 bp högre {REFERENSRANTA}, senaste 3 månaderna. "
