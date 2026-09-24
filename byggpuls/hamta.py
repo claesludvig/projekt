@@ -462,10 +462,11 @@ def main() -> None:
     for k in komp:
         s = ra[k["id"]].dropna()
         z = pca["z"][k["id"]]
+        sig = bpi.transformera(ra[k["id"]], k["transform"]).dropna()
         rader.append({
             "id": k["id"], "namn": k["namn"], "vikt": _r(pca["vikter"][k["id"]], 3),
             "senaste_manad": s.index[-1].strftime("%Y-%m"), "senaste_varde": _r(s.iloc[-1], 2),
-            "signal": _r(bpi.transformera(ra[k["id"]], k["transform"]).get(sista), 1),
+            "signal": _r(sig.iloc[-1], 1) if len(sig) else None,
             "signal_enhet": "procentenheter mot för ett år sedan" if k["transform"] == "diff12" else "% mot för ett år sedan",
             "z": _r(z.get(sista)), "bidrag": _r(pca["bidrag"][k["id"]].get(sista)),
             "tecken": k["tecken"], "fordrojning_man": k["fordrojning_man"],
@@ -503,7 +504,7 @@ def main() -> None:
         "index": {
             "senast": _r(idx.iloc[-1]), "for_1_man": fore(1), "for_3_man": fore(3), "for_12_man": fore(12),
             "likaviktat_senast": _r(lika["index"].get(sista)),
-            "komponenter_i_senaste": int(pca["z"].loc[sista].notna().sum()), "komponenter_totalt": len(komp),
+            "komponenter_i_senaste": int(pca["bidrag"].loc[sista].notna().sum()), "komponenter_totalt": len(komp),
         },
         "komponenter": rader,
         "vikter_metod": pca["metod"],

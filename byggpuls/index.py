@@ -104,7 +104,8 @@ def bygg_index(ra: pd.DataFrame, komponenter: list, metod: str = "pca") -> dict 
     vikter = pca_vikter(z) if metod == "pca" else lika_vikter(z)
     if vikter is None:
         vikter, metod = lika_vikter(z), "lika"
-    index, bidrag = vag_ihop(bar_fram(z, komponenter), vikter)
+    z = bar_fram(z, komponenter)
+    index, bidrag = vag_ihop(z, vikter)
     return {"index": index.dropna(), "bidrag": bidrag, "z": z, "vikter": vikter, "metod": metod}
 
 

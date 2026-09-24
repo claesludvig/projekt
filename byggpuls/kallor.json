@@ -12,7 +12,20 @@
       "tidsenhet": "Quarterly",
       "etikett": "bygglov",
       "tabell": "TAB2534",
-      "urval": {}
+      "urval": {
+        "Region": [
+          "00"
+        ],
+        "Hustyp": [
+          "1113",
+          "21",
+          "2224"
+        ],
+        "ContentsCode": [
+          "BO0701A1"
+        ],
+        "Tid": "*"
+      }
     },
     "paborjade_lgh": {
       "sok": "lägenheter nybyggda hus",
