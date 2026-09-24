@@ -1,4 +1,7 @@
-## Sök 'konkurser näringsgren månad' (konkurser_bygg)
-## Sök 'påbörjade lägenheter nybyggda hus kvartal' (paborjade_lgh)
-TAB4572	Quarterly	1975K1–2026K2	Lägenheter i nybyggda hus efter region och hustyp. Kvartal 1975K1-2026K2
-TAB6925	Quarterly	2007K1–2026K2	Lägenheter i nybyggda hus efter region och hustyp (specialbostäder uppdelat). Kvartal 2007K1-2026K2
+## Sök 'konkurser' (konkurser_bygg)
+## Tabell TAB4572 (paborjade_lgh): Lägenheter i nybyggda hus efter region och hustyp. Kvartal 1975K1-2026K2
+  Region (312): 00=Riket; 01=Stockholms län; 0114=Upplands Väsby; 0115=Vallentuna; 0117=Österåker; 0120=Värmdö; 0123=Järfälla; 0125=Ekerö; 0126=Huddinge; 0127=Botkyrka; 0128=Salem; 0136=Haninge; 0138=Tyresö; 0139=Upplands-Bro; 0140=Nykvarn; 0160=Täby; 0162=Danderyd; 0163=Sollentuna; 0180=Stockholm; 0181=Södertälje; 0182=Nacka; 0183=Sundbyberg; 0184=Solna; 0186=Lidingö; 0187=Vaxholm
+  Hustyp (2): FLERBO=flerbostadshus; SMÅHUS=småhus
+  ContentsCode (2): BO0101A4=Påbörjade lägenheter i nybyggda hus; BO0101A3=Färdigställda lägenheter i nybyggda hus
+  Tid (206): 1975K1=1975K1; 1975K2=1975K2; 1975K3=1975K3; 1975K4=1975K4; 1976K1=1976K1; 1976K2=1976K2; 1976K3=1976K3; 1976K4=1976K4; 1977K1=1977K1; 1977K2=1977K2; 1977K3=1977K3; 1977K4=1977K4; 1978K1=1978K1; 1978K2=1978K2; 1978K3=1978K3; 1978K4=1978K4; 1979K1=1979K1; 1979K2=1979K2; 1979K3=1979K3; 1979K4=1979K4; 1980K1=1980K1; 1980K2=1980K2; 1980K3=1980K3; 1980K4=1980K4; 1981K1=1981K1
+  urval: {"Region": ["00"], "Hustyp": ["FLERBO"], "ContentsCode": ["BO0101A4"], "Tid": "*"}
