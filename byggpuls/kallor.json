@@ -19,8 +19,29 @@
       "tidsenhet": "Quarterly",
       "etikett": "lägenheter i nybyggda hus",
       "tabell": "TAB4572",
-      "urval": {}
-    }
+      "urval": {
+        "Region": [
+          "00"
+        ],
+        "Hustyp": [
+          "FLERBO",
+          "SMÅHUS"
+        ],
+        "ContentsCode": [
+          "BO0101A4"
+        ],
+        "Tid": "*"
+      }
+    },
+    "_utforska": [
+      "konkurs",
+      "konkurser och offentliga ackord",
+      "bygglov",
+      "byggnadsverksamhet",
+      "produktionsindex byggindustrin",
+      "nybyggnadsinvesteringar",
+      "orderingång"
+    ]
   },
   "swea": {
     "Stat 5Y": "SEGVB5YC",

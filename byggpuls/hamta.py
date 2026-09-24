@@ -170,18 +170,20 @@ class Scb:
 
 
 def jsonstat_serie(d: dict) -> pd.Series:
-    """json-stat2 med en enda icke-tidsdimension över 1 värde → tidsserie."""
-    dims, storlek = d["id"], d["size"]
-    tid = next(x for x in dims if x in d.get("role", {}).get("time", [])) if d.get("role", {}).get("time") else \
-        next(x for x in dims if x.lower().startswith("tid"))
-    if any(s > 1 for x, s in zip(dims, storlek) if x != tid):
-        raise ValueError(f"urvalet ger fler än en serie: {dict(zip(dims, storlek))}")
+    """json-stat2 → tidsserie. Väljs flera värden i en icke-tidsdimension
+    (t.ex. både flerbostadshus och småhus) summeras de."""
+    dims, storlek = list(d["id"]), list(d["size"])
+    roll = d.get("role", {}).get("time") or [x for x in dims if x.lower().startswith("tid")]
+    tid = roll[0]
     kat = d["dimension"][tid]["category"]["index"]
     koder = sorted(kat, key=kat.get) if isinstance(kat, dict) else kat
     varden = d["value"]
     if isinstance(varden, dict):
-        varden = [varden.get(str(i)) for i in range(len(koder))]
-    return pd.Series([np.nan if v is None else float(v) for v in varden], index=[_scb_tid(k) for k in koder]).sort_index()
+        varden = [varden.get(str(i)) for i in range(int(np.prod(storlek)))]
+    arr = np.array([np.nan if v is None else float(v) for v in varden]).reshape(storlek)
+    arr = np.moveaxis(arr, dims.index(tid), -1).reshape(-1, len(koder))
+    summa = np.where(np.isnan(arr).all(axis=0), np.nan, np.nansum(arr, axis=0))
+    return pd.Series(summa, index=[_scb_tid(k) for k in koder]).sort_index()
 
 
 def _scb_tid(kod: str) -> pd.Timestamp:
@@ -220,6 +222,15 @@ def scb_serier(konfig: dict, logg: list) -> tuple[dict, list]:
         scb = Scb()
     except Exception as exc:  # noqa: BLE001
         return ut, [f"SCB: {exc}"]
+    for fraga in konfig.get("_utforska", []):
+        try:
+            traffar = scb.sok(fraga)
+        except Exception as exc:  # noqa: BLE001
+            logg.append(f"## Utforska '{fraga}': fel {exc}")
+            continue
+        logg.append(f"## Utforska '{fraga}': {len(traffar)} träffar")
+        logg += [f"{t.get('id')}\t{t.get('timeUnit')}\t{t.get('firstPeriod')}–{t.get('lastPeriod')}\t{t.get('label')}"
+                 for t in traffar]
     for nyckel, k in konfig.items():
         if nyckel.startswith("_"):
             continue
