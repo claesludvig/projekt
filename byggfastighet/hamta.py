@@ -355,6 +355,23 @@ def main() -> None:
     if r_rader:
         tabell.append({"grupp": "Räntor", "rader": r_rader})
 
+    # Kontroll: en bostadsobligation som på en enskild dag rör sig mer än
+    # 12 bp annorlunda än statsobligationen med samma löptid har troligen
+    # bytt referensobligation i Riksbankens serie. Sådana hopp flaggas, och
+    # alla räntor sparas i rantor.csv så att det går att granska.
+    anmarkningar = []
+    if rantor:
+        pd.DataFrame(rantor).to_csv(DATA_DIR / "rantor.csv")
+    for mb, stat in (("Bostadsobl. 2Y", "Stat 2Y"), ("Bostadsobl. 5Y", "Stat 5Y")):
+        if mb in rantor and stat in rantor:
+            diff = pd.concat([rantor[mb].diff() * 100, rantor[stat].diff() * 100], axis=1, keys=["mb", "stat"]).dropna()
+            diff = diff[diff.index > diff.index[-1] - pd.Timedelta(days=91)]
+            hopp = diff[(diff["mb"] - diff["stat"]).abs() > 12]
+            for dag, rad in hopp.iterrows():
+                anmarkningar.append(
+                    f"{mb} {dag.date().isoformat()}: {rad['mb']:+.1f} bp mot {rad['stat']:+.1f} bp för {stat}. "
+                    "Troligen byte av referensobligation, inte en marknadsrörelse; förändringar över den dagen är osäkra."
+                )
     samband = {}
     ref = rantor.get(REFERENSRANTA)
     for g in ("Fastighet", "Bygg"):
@@ -423,6 +440,7 @@ def main() -> None:
             "Vinstprognoser (analytikerkonsensus) bara för byggbolagen: fastighetsbolagens vinst per aktie "
             "domineras av värdeförändringar."
         ),
+        "anmarkningar": anmarkningar,
         "fel": fel,
     }
     DATA_DIR.mkdir(parents=True, exist_ok=True)

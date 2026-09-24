@@ -164,6 +164,8 @@ def rendera(rapport: dict, data: dict) -> str:
             d.append(_img(g[nyckel], f"{INDEXNAMN[sektor]} mot räntan, 3 månader"))
         if s:
             d.append(_liten(escape(_sambandsmening(sektor, s)), "6px 0 0 0"))
+    for a in data.get("anmarkningar", []):
+        d.append(_liten(f'<strong style="color:{C_NER};">Obs:</strong> {escape(a)}', "8px 0 0 0"))
     d.append(_liten("Räntan ritas på en inverterad högeraxel: stigande ränta nedåt. Går linjerna ihop följer aktierna räntan på det väntade sättet."))
 
     for sektor in ("Fastighet", "Bygg"):
@@ -234,6 +236,7 @@ def rendera_text(rapport: dict, data: dict) -> str:
             ut.append(f"{namn:<19}" + (f"{_tal(r['senast'], 2) + ' %':>8}" if bp else "")
                       + "".join(f"{fmt(r['forandring'].get(k), 'bp' if bp else 'pct'):>7}" for k in KOLUMNER))
         ut.append("")
+    ut += [f"Obs: {a}" for a in data.get("anmarkningar", [])]
     for sektor, s in data["samband"].items():
         ut.append(f"{sektor}: " + _sambandsmening(sektor, s))
     for nyckel, url in data["grafer"].items():
