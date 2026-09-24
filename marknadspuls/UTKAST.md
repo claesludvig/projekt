@@ -1,6 +1,6 @@
 # Arbetsutkast: Marknadspulsen v2, med data först
 
-Status: **byggt på utvecklingsbranchen och körs inte av någon rutin än** (se Status längst ner). Den gamla rutinen (`trig_01TkoGSFWagxXtcuG6x5EbtH`) kör vidare oförändrad. Den ordagranna kopian ligger i [`original/`](original/rutin_fx_rantor_backup_2026-09-23.md).
+Status: **i drift på main sedan 2026-09-24.** Rutinen `trig_01TkoGSFWagxXtcuG6x5EbtH` kör v2-prompten (se `rutin_prompt_utkast.md`). Den gamla rutinen (`trig_01TkoGSFWagxXtcuG6x5EbtH`) kör vidare oförändrad. Den ordagranna kopian ligger i [`original/`](original/rutin_fx_rantor_backup_2026-09-23.md).
 
 ## Vad som ändras
 
@@ -113,7 +113,7 @@ Twelve Data behövs inte längre. Det ger färre API-gränser och index i ställ
 
 - [x] `hamta.py`: data, tabell, korrelationer och grafer (testad lokalt på syntetisk data)
 - [x] `mall.py`: HTML + text (kontrollerad på 375 px mobilbredd)
-- [x] `.github/workflows/marknadspuls.yml`: har tillfälligt en push-trigger på utvecklingsbranchen för test
+- [x] `.github/workflows/marknadspuls.yml` (bara workflow_dispatch)
 - [x] `rutin_prompt_utkast.md`
-- [ ] Första körningen mot riktig Yahoo-data: vilka tickers fungerar?
-- [ ] Merga till main (ta bort push-triggern först) och skapa eller byt rutin
+- [x] Första körningen mot riktig Yahoo-data: alla 17 instrument fungerar; europeiska index släpar ofta en dag på morgonen
+- [x] Mergat till main och rutinen bytt
