@@ -1,21 +1,21 @@
 {
-  "genererad": "2026-09-24T17:59:54+00:00",
+  "genererad": "2026-09-24T18:02:42+00:00",
   "datum": "2026-09-24",
   "manad": "2026-08",
   "index": {
-    "senast": -0.08,
-    "for_1_man": 0.04,
-    "for_3_man": 0.11,
-    "for_12_man": 0.18,
-    "likaviktat_senast": -0.05,
+    "senast": -0.17,
+    "for_1_man": -0.09,
+    "for_3_man": -0.03,
+    "for_12_man": 0.27,
+    "likaviktat_senast": -0.16,
     "komponenter_i_senaste": 3,
-    "komponenter_totalt": 3
+    "komponenter_totalt": 4
   },
   "komponenter": [
     {
       "id": "andel_annonser_bygg",
       "namn": "Platsannonser, byggets andel",
-      "vikt": 0.311,
+      "vikt": 0.239,
       "senaste_manad": "2026-08",
       "senaste_varde": 3.86,
       "signal": 3.0,
@@ -26,28 +26,41 @@
       "fordrojning_man": 0
     },
     {
+      "id": "bygglov_lgh",
+      "namn": "Bygglov, nya lägenheter",
+      "vikt": 0.272,
+      "senaste_manad": "2026-06",
+      "senaste_varde": 1464.0,
+      "signal": null,
+      "signal_enhet": "% mot för ett år sedan",
+      "z": null,
+      "bidrag": -0.13,
+      "tecken": 1,
+      "fordrojning_man": 3
+    },
+    {
       "id": "stat_5y",
       "namn": "Statsobligation 5 år",
-      "vikt": 0.367,
+      "vikt": 0.246,
       "senaste_manad": "2026-08",
       "senaste_varde": 2.73,
       "signal": 0.6,
       "signal_enhet": "procentenheter mot för ett år sedan",
       "z": -0.61,
-      "bidrag": -0.22,
+      "bidrag": -0.15,
       "tecken": -1,
       "fordrojning_man": 0
     },
     {
       "id": "byggaktier",
       "namn": "Byggbolagens aktier",
-      "vikt": 0.321,
+      "vikt": 0.244,
       "senaste_manad": "2026-08",
       "senaste_varde": 223.08,
       "signal": 16.6,
       "signal_enhet": "% mot för ett år sedan",
       "z": 0.37,
-      "bidrag": 0.12,
+      "bidrag": 0.09,
       "tecken": 1,
       "fordrojning_man": 0
     }
@@ -57,285 +70,282 @@
     "realtid_pca": [
       {
         "ledtid_kvartal": 0,
-        "n": 26,
-        "korrelation": 0.1
-      },
-      {
-        "ledtid_kvartal": 1,
         "n": 25,
-        "korrelation": 0.34
-      },
-      {
-        "ledtid_kvartal": 2,
-        "n": 24,
         "korrelation": 0.55
       },
       {
-        "ledtid_kvartal": 3,
+        "ledtid_kvartal": 1,
+        "n": 24,
+        "korrelation": 0.72
+      },
+      {
+        "ledtid_kvartal": 2,
         "n": 23,
-        "korrelation": 0.69
+        "korrelation": 0.79
+      },
+      {
+        "ledtid_kvartal": 3,
+        "n": 22,
+        "korrelation": 0.8
       },
       {
         "ledtid_kvartal": 4,
-        "n": 22,
-        "korrelation": 0.79
+        "n": 21,
+        "korrelation": 0.74
       }
     ],
     "realtid_lika": [
       {
         "ledtid_kvartal": 0,
         "n": 43,
-        "korrelation": 0.17
+        "korrelation": 0.33
       },
       {
         "ledtid_kvartal": 1,
         "n": 42,
-        "korrelation": 0.36
+        "korrelation": 0.51
       },
       {
         "ledtid_kvartal": 2,
         "n": 41,
-        "korrelation": 0.55
+        "korrelation": 0.64
       },
       {
         "ledtid_kvartal": 3,
         "n": 40,
-        "korrelation": 0.67
+        "korrelation": 0.73
       },
       {
         "ledtid_kvartal": 4,
         "n": 39,
-        "korrelation": 0.74
+        "korrelation": 0.73
       }
     ],
     "hela_urvalet_pca": [
       {
         "ledtid_kvartal": 0,
         "n": 43,
-        "korrelation": 0.38
+        "korrelation": 0.55
       },
       {
         "ledtid_kvartal": 1,
         "n": 42,
-        "korrelation": 0.57
+        "korrelation": 0.71
       },
       {
         "ledtid_kvartal": 2,
         "n": 41,
-        "korrelation": 0.71
+        "korrelation": 0.8
       },
       {
         "ledtid_kvartal": 3,
         "n": 40,
-        "korrelation": 0.79
+        "korrelation": 0.81
       },
       {
         "ledtid_kvartal": 4,
         "n": 39,
-        "korrelation": 0.8
+        "korrelation": 0.77
       }
     ],
-    "realtid_fran": "2020-02"
+    "realtid_fran": "2020-06"
   },
   "bast_ledtid": {
-    "ledtid_kvartal": 4,
+    "ledtid_kvartal": 3,
     "n": 22,
-    "korrelation": 0.79
+    "korrelation": 0.8
   },
   "serie": [
     {
       "manad": "2023-09",
-      "pca": -1.08,
-      "lika": -1.1
+      "pca": -1.45,
+      "lika": -1.43
     },
     {
       "manad": "2023-10",
-      "pca": -0.94,
-      "lika": -0.96
+      "pca": -1.16,
+      "lika": -1.14
     },
     {
       "manad": "2023-11",
-      "pca": -0.95,
-      "lika": -0.98
+      "pca": -1.17,
+      "lika": -1.15
     },
     {
       "manad": "2023-12",
-      "pca": -0.45,
-      "lika": -0.49
+      "pca": -0.81,
+      "lika": -0.79
     },
     {
       "manad": "2024-01",
-      "pca": -0.46,
-      "lika": -0.5
+      "pca": -0.77,
+      "lika": -0.76
     },
     {
       "manad": "2024-02",
-      "pca": -0.36,
-      "lika": -0.39
+      "pca": -0.7,
+      "lika": -0.67
     },
     {
       "manad": "2024-03",
-      "pca": -0.06,
-      "lika": -0.09
+      "pca": -0.47,
+      "lika": -0.44
     },
     {
       "manad": "2024-04",
-      "pca": 0.09,
-      "lika": 0.08
+      "pca": 0.03,
+      "lika": 0.03
     },
     {
       "manad": "2024-05",
-      "pca": 0.48,
-      "lika": 0.49
+      "pca": 0.32,
+      "lika": 0.34
     },
     {
       "manad": "2024-06",
-      "pca": 0.8,
-      "lika": 0.81
+      "pca": 0.55,
+      "lika": 0.58
     },
     {
       "manad": "2024-07",
-      "pca": 1.12,
-      "lika": 1.12
+      "pca": 1.07,
+      "lika": 1.07
     },
     {
       "manad": "2024-08",
-      "pca": 1.35,
-      "lika": 1.32
+      "pca": 1.22,
+      "lika": 1.23
     },
     {
       "manad": "2024-09",
-      "pca": 1.51,
-      "lika": 1.49
+      "pca": 1.33,
+      "lika": 1.35
     },
     {
       "manad": "2024-10",
-      "pca": 1.45,
-      "lika": 1.43
+      "pca": 1.19,
+      "lika": 1.21
     },
     {
       "manad": "2024-11",
-      "pca": 1.27,
-      "lika": 1.26
+      "pca": 1.07,
+      "lika": 1.08
     },
     {
       "manad": "2024-12",
-      "pca": 0.95,
-      "lika": 0.97
+      "pca": 0.85,
+      "lika": 0.86
     },
     {
       "manad": "2025-01",
-      "pca": 0.95,
+      "pca": 0.99,
       "lika": 0.99
     },
     {
       "manad": "2025-02",
-      "pca": 1.19,
-      "lika": 1.22
+      "pca": 1.16,
+      "lika": 1.17
     },
     {
       "manad": "2025-03",
-      "pca": 0.68,
-      "lika": 0.71
+      "pca": 0.79,
+      "lika": 0.79
     },
     {
       "manad": "2025-04",
-      "pca": 0.72,
-      "lika": 0.72
+      "pca": 0.55,
+      "lika": 0.57
     },
     {
       "manad": "2025-05",
-      "pca": 0.67,
-      "lika": 0.67
+      "pca": 0.51,
+      "lika": 0.53
     },
     {
       "manad": "2025-06",
-      "pca": 0.61,
-      "lika": 0.61
+      "pca": 0.47,
+      "lika": 0.49
     },
     {
       "manad": "2025-07",
-      "pca": 0.34,
-      "lika": 0.35
+      "pca": 0.38,
+      "lika": 0.38
     },
     {
       "manad": "2025-08",
-      "pca": 0.18,
-      "lika": 0.2
+      "pca": 0.27,
+      "lika": 0.27
     },
     {
       "manad": "2025-09",
-      "pca": 0.09,
-      "lika": 0.12
+      "pca": 0.21,
+      "lika": 0.2
     },
     {
       "manad": "2025-10",
-      "pca": 0.27,
-      "lika": 0.29
+      "pca": 0.16,
+      "lika": 0.17
     },
     {
       "manad": "2025-11",
-      "pca": 0.07,
-      "lika": 0.09
+      "pca": 0.02,
+      "lika": 0.03
     },
     {
       "manad": "2025-12",
-      "pca": -0.01,
-      "lika": 0.02
+      "pca": -0.04,
+      "lika": -0.03
     },
     {
       "manad": "2026-01",
       "pca": 0.19,
-      "lika": 0.2
+      "lika": 0.19
     },
     {
       "manad": "2026-02",
-      "pca": 0.23,
-      "lika": 0.24
-    },
-    {
-      "manad": "2026-03",
-      "pca": 0.3,
-      "lika": 0.31
-    },
-    {
-      "manad": "2026-04",
-      "pca": 0.19,
+      "pca": 0.22,
       "lika": 0.22
     },
     {
+      "manad": "2026-03",
+      "pca": 0.27,
+      "lika": 0.28
+    },
+    {
+      "manad": "2026-04",
+      "pca": 0.03,
+      "lika": 0.05
+    },
+    {
       "manad": "2026-05",
-      "pca": 0.11,
-      "lika": 0.14
+      "pca": -0.03,
+      "lika": -0.02
     },
     {
       "manad": "2026-06",
-      "pca": 0.09,
-      "lika": 0.11
+      "pca": -0.05,
+      "lika": -0.04
     },
     {
       "manad": "2026-07",
-      "pca": 0.04,
-      "lika": 0.06
+      "pca": -0.09,
+      "lika": -0.08
     },
     {
       "manad": "2026-08",
-      "pca": -0.08,
-      "lika": -0.05
+      "pca": -0.17,
+      "lika": -0.16
     }
   ],
   "annonser_idag": {
     "datum": "2026-09-24",
     "aktiva_bygg": 2255,
-    "aktiva_alla": 44408
+    "aktiva_alla": 44410
   },
   "grafer": {
     "index": "https://raw.githubusercontent.com/claesludvig/projekt/claude/create-synthetic-data-7mk03s/byggpuls/data/grafer/2026-09-24/byggpuls.png",
     "bidrag": "https://raw.githubusercontent.com/claesludvig/projekt/claude/create-synthetic-data-7mk03s/byggpuls/data/grafer/2026-09-24/bidrag.png"
   },
-  "metod": "Varje komponent görs om till en årsförändring (annonser och konkurser: 3 månaders snitt), vänds så att högre = starkare byggande och standardiseras. Vikterna är laddningarna på första principalkomponenten, dvs. den rörelse komponenterna har gemensamt; ingen vikt är satt för hand. Indexet mäts i standardavvikelser från snittet sedan starten: 0 = normalt, ±1 = ovanligt starkt/svagt. Saknas en komponent den senaste månaden (publiceras senare) fördelas dess vikt på de övriga. Efterhandstestet räknar om indexet varje månad med bara den data som då var publicerad (vikter skattade på data fram till dess) och jämför med årsförändringen i påbörjade lägenheter (rullande fyra kvartal) 0–4 kvartal senare. Byggaktierna är likaviktade och bara dagens bolag (överlevnadsbias).",
-  "fel": [
-    "SCB konkurser_bygg: ingen tabell hittad för 'konkurser'",
-    "Komponenter utan data (ingår inte): Konkurser i byggindustrin"
-  ]
+  "metod": "Varje komponent görs om till en årsförändring (annonserna: 3 månaders snitt), vänds så att högre = starkare byggande och standardiseras. Vikterna är laddningarna på första principalkomponenten, dvs. den rörelse komponenterna har gemensamt; ingen vikt är satt för hand. Indexet mäts i standardavvikelser från snittet sedan starten: 0 = normalt, ±1 = ovanligt starkt/svagt. En komponent som publiceras senare (bygglov, kvartal) behåller sitt senaste värde tills nästa normalt kommer. Efterhandstestet räknar om indexet varje månad med bara den data som då var publicerad (vikter skattade på data fram till dess) och jämför med årsförändringen i påbörjade lägenheter (rullande fyra kvartal) 0–4 kvartal senare. Byggaktierna är likaviktade och bara dagens bolag (överlevnadsbias).",
+  "fel": []
 }
