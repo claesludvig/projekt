@@ -119,7 +119,7 @@ def _kurstabell(grupp: dict, data_t_o_m: str) -> str:
     vanligast = _vanligaste_datum(grupp)
     rader = []
     for r in grupp["rader"]:
-        under = f"per {_kort(r['datum'])}" if r["datum"] != vanligast and r["datum"] < data_t_o_m else ""
+        under = f"per {_kort(r['datum'])}" if r["datum"] != vanligast else ""
         rader.append(_namn(r["namn"], under) + "".join(_cell(r["forandring"].get(k)) for k in KOLUMNER))
     return _tabell([grupp["grupp"]] + KOLUMNER, rader)
 
