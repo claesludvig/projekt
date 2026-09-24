@@ -1,5 +1,5 @@
 {
-  "genererad": "2026-09-24T17:58:05+00:00",
+  "genererad": "2026-09-24T17:59:54+00:00",
   "datum": "2026-09-24",
   "manad": "2026-08",
   "index": {
@@ -58,61 +58,61 @@
       {
         "ledtid_kvartal": 0,
         "n": 26,
-        "korrelation": 0.16
+        "korrelation": 0.1
       },
       {
         "ledtid_kvartal": 1,
         "n": 25,
-        "korrelation": 0.37
+        "korrelation": 0.34
       },
       {
         "ledtid_kvartal": 2,
         "n": 24,
-        "korrelation": 0.54
+        "korrelation": 0.55
       },
       {
         "ledtid_kvartal": 3,
         "n": 23,
-        "korrelation": 0.66
+        "korrelation": 0.69
       },
       {
         "ledtid_kvartal": 4,
         "n": 22,
-        "korrelation": 0.75
+        "korrelation": 0.79
       }
     ],
     "realtid_lika": [
       {
         "ledtid_kvartal": 0,
         "n": 43,
-        "korrelation": 0.21
+        "korrelation": 0.17
       },
       {
         "ledtid_kvartal": 1,
         "n": 42,
-        "korrelation": 0.37
+        "korrelation": 0.36
       },
       {
         "ledtid_kvartal": 2,
         "n": 41,
-        "korrelation": 0.52
+        "korrelation": 0.55
       },
       {
         "ledtid_kvartal": 3,
         "n": 40,
-        "korrelation": 0.63
+        "korrelation": 0.67
       },
       {
         "ledtid_kvartal": 4,
         "n": 39,
-        "korrelation": 0.69
+        "korrelation": 0.74
       }
     ],
     "hela_urvalet_pca": [
       {
         "ledtid_kvartal": 0,
         "n": 43,
-        "korrelation": 0.41
+        "korrelation": 0.38
       },
       {
         "ledtid_kvartal": 1,
@@ -122,17 +122,17 @@
       {
         "ledtid_kvartal": 2,
         "n": 41,
-        "korrelation": 0.68
+        "korrelation": 0.71
       },
       {
         "ledtid_kvartal": 3,
         "n": 40,
-        "korrelation": 0.74
+        "korrelation": 0.79
       },
       {
         "ledtid_kvartal": 4,
         "n": 39,
-        "korrelation": 0.75
+        "korrelation": 0.8
       }
     ],
     "realtid_fran": "2020-02"
@@ -140,7 +140,7 @@
   "bast_ledtid": {
     "ledtid_kvartal": 4,
     "n": 22,
-    "korrelation": 0.75
+    "korrelation": 0.79
   },
   "serie": [
     {

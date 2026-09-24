@@ -1,7 +1,36 @@
+## Utforska 'konkurs': 0 träffar
+## Utforska 'konkurser och offentliga ackord': 0 träffar
+## Utforska 'bygglov': 4 träffar
+TAB796	Quarterly	1996K1–2026K2	Bygglov för nybyggnad, antal och bruttoarea efter region och hustyp. Kvartal 1996K1-2026K2
+TAB513	Quarterly	1996K1–2026K2	Bygglov för nybyggnad, bruttoarea efter hustyp. Kvartal 1996K1-2026K2
+TAB2534	Quarterly	1996K1–2026K2	Bygglov för nybyggnad, antal lägenheter i bostadshus och fritidshus efter region och hustyp. Kvartal 1996K1-2026K2
+TAB4927	Annual	2017–2017	SSYK, 4-siffernivå med yrken 2017
+## Utforska 'byggnadsverksamhet': 16 träffar
+TAB1261	Annual	1975–1990	Förvärvsarb bef 16+ år med arbetsplats i reg (dagbef) (FoB90) efter region, kön, ålder, näringsgren SNI69 och arbetsställets sektortillhörighet 1975-1990
+TAB1263	Annual	1990–1990	Förvärvsarb bef 16–64 år med arbetsplats i regionen (dagbef) (FoB90) efter region, kön, ålder, utbildningsnivå och näringsgren (SNI69) 1990
+TAB1257	Annual	1990–1990	Förvärvsarb bef 16+ år med arbetsplats i reg (dagbef) (FoB90) efter region, kön, näringsgren SNI69 och arbetsställets sektortillhörighet 1990
+TAB1258	Annual	1990–1990	Förvärvsarb bef 16+ år med bostad i reg (nattbef) (FoB90) efter region, kön, näringsgren SNI69 och arbetsställets sektortillhörighet 1990
+TAB1254	Annual	1990–1990	Förvärvsarb bef 16+ år med bostad i reg (nattbef) (FoB90) efter region, kön, näringsgren SNI69 och yrke 1990
+TAB1630	Annual	2000–2025	Varuimport och varuexport efter varugrupp KN 2,4,6-nivå, bortfallsjusterat, sekretessrensad. År 2000-2025
+TAB1631	Monthly	2000M01–2026M06	Varuimport och varuexport efter varugrupp KN 2,4,6-nivå, bortfallsjusterat, sekretessrensad. Månad 2000M01-2026M06
+TAB1116	Annual	1995–2025	Total varuexport till länder utanför EU efter varugrupp KN 2,4,6,8-nivå och handelspartner, ej bortfallsjusterat, sekretessrensad. År 1995-2025
+TAB1117	Monthly	1995M01–2026M07	Total varuexport till länder utanför EU efter varugrupp KN 2,4,6,8-nivå och handelspartner, ej bortfallsjusterat, sekretessrensad. Månad 1995M01-2026M07
+TAB1650	Annual	1995–2025	Total varuimport från länder utanför EU efter varugrupp KN 2,4,6,8-nivå och handelspartner, ej bortfallsjusterat, sekretessrensad. År 1995-2025
+TAB1651	Monthly	1995M01–2026M07	Total varuimport från länder utanför EU efter varugrupp KN 2,4,6,8-nivå och handelspartner, ej bortfallsjusterat, sekretessrensad. Månad 1995M01-2026M07
+TAB1127	Annual	1995–2025	Varuexport till samtliga länder efter varugrupp KN 2, 4, 6, 8-nivå och handelspartner, sekretessrensad, ej bortfallsjusterat. År 1995-2025
+TAB1128	Monthly	1995M01–2026M06	Varuexport till samtliga länder efter varugrupp KN 2,4,6,8-nivå och handelspartner, sekretessrensad, ej bortfallsjusterat. Månad 1995M01-2026M06
+TAB1663	Annual	1995–2025	Varuimport från samtliga länder efter varugrupp KN 2,4,6,8-nivå och handelspartner, sekretessrensad, ej bortfallsjusterat. År 1995-2025
+TAB1664	Monthly	1995M01–2026M06	Varuimport från samtliga länder efter varugrupp KN 2,4,6,8-nivå och handelspartner, sekretessrensad, ej bortfallsjusterat. Månad 1995M01-2026M06
+TAB6084	Annual	1996–2025	Industrins produktion efter varugrupp enligt KN. År 1996-2025
+## Utforska 'produktionsindex byggindustrin': 0 träffar
+## Utforska 'nybyggnadsinvesteringar': 0 träffar
+## Utforska 'orderingång': 2 träffar
+TAB1710	Monthly	2000M01–2026M07	Industrins orderingång, 2021=100, efter marknad och näringsgren SNI2007. Månad 2000M01-2026M07
+TAB5161	Monthly	2000M01–2026M08	Konjunkturklockan. Månad 2000M01-2026M08
 ## Sök 'konkurser' (konkurser_bygg)
 ## Tabell TAB4572 (paborjade_lgh): Lägenheter i nybyggda hus efter region och hustyp. Kvartal 1975K1-2026K2
   Region (312): 00=Riket; 01=Stockholms län; 0114=Upplands Väsby; 0115=Vallentuna; 0117=Österåker; 0120=Värmdö; 0123=Järfälla; 0125=Ekerö; 0126=Huddinge; 0127=Botkyrka; 0128=Salem; 0136=Haninge; 0138=Tyresö; 0139=Upplands-Bro; 0140=Nykvarn; 0160=Täby; 0162=Danderyd; 0163=Sollentuna; 0180=Stockholm; 0181=Södertälje; 0182=Nacka; 0183=Sundbyberg; 0184=Solna; 0186=Lidingö; 0187=Vaxholm
   Hustyp (2): FLERBO=flerbostadshus; SMÅHUS=småhus
   ContentsCode (2): BO0101A4=Påbörjade lägenheter i nybyggda hus; BO0101A3=Färdigställda lägenheter i nybyggda hus
   Tid (206): 1975K1=1975K1; 1975K2=1975K2; 1975K3=1975K3; 1975K4=1975K4; 1976K1=1976K1; 1976K2=1976K2; 1976K3=1976K3; 1976K4=1976K4; 1977K1=1977K1; 1977K2=1977K2; 1977K3=1977K3; 1977K4=1977K4; 1978K1=1978K1; 1978K2=1978K2; 1978K3=1978K3; 1978K4=1978K4; 1979K1=1979K1; 1979K2=1979K2; 1979K3=1979K3; 1979K4=1979K4; 1980K1=1980K1; 1980K2=1980K2; 1980K3=1980K3; 1980K4=1980K4; 1981K1=1981K1
-  urval: {"Region": ["00"], "Hustyp": ["FLERBO"], "ContentsCode": ["BO0101A4"], "Tid": "*"}
+  urval: {"Region": ["00"], "Hustyp": ["FLERBO", "SMÅHUS"], "ContentsCode": ["BO0101A4"], "Tid": "*"}
