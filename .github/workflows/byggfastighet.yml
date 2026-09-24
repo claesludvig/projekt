@@ -1,0 +1,45 @@
+name: Bygg och fastighet - kurser, räntor, prognoser
+
+on:
+  workflow_dispatch: {}
+  # TILLFÄLLIGT för test innan merge: kör vid push till utvecklingsbranchen.
+  # Tas bort innan PR:en mergas — på main triggas workflowet av rutinen.
+  push:
+    branches: [claude/market-data-asset-correlations-4gmcb2]
+    paths:
+      - "byggfastighet/*.py"
+      - ".github/workflows/byggfastighet.yml"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r byggfastighet/requirements.txt
+
+      - name: Hämta kurser, räntor och prognoser, räkna, rita grafer
+        working-directory: byggfastighet
+        run: python hamta.py --branch "${GITHUB_REF_NAME}"
+
+      - name: Commit data och grafer
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A byggfastighet/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterad bygg- och fastighetsdata"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push
