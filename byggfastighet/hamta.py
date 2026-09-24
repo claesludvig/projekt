@@ -59,7 +59,6 @@ RANTOR = [
     ("Stat 5Y", ["SEGVB5YC"]),
     ("Stat 10Y", ["SEGVB10YC"]),
     ("Bostadsobl. 2Y", ["SEMB2YCACOMB"]),
-    ("Bostadsobl. 5Y", ["SEMB5YCACOMB"]),
 ]
 REFERENSRANTA = "Stat 5Y"   # räntekänslighet och grafer
 KORR_FONSTER = {"1m": 30, "3m": 91}
@@ -362,7 +361,9 @@ def main() -> None:
     anmarkningar = []
     if rantor:
         pd.DataFrame(rantor).to_csv(DATA_DIR / "rantor.csv")
-    for mb, stat in (("Bostadsobl. 2Y", "Stat 2Y"), ("Bostadsobl. 5Y", "Stat 5Y")):
+    # (Bostadsobl. 5Y, SEMB5YCACOMB, är borttagen: serien hoppar ±20 bp nästan
+    # varannan dag mot statsräntan och går inte att använda på dagsbasis.)
+    for mb, stat in (("Bostadsobl. 2Y", "Stat 2Y"),):
         if mb in rantor and stat in rantor:
             diff = pd.concat([rantor[mb].diff() * 100, rantor[stat].diff() * 100], axis=1, keys=["mb", "stat"]).dropna()
             diff = diff[diff.index > diff.index[-1] - pd.Timedelta(days=91)]
