@@ -1,22 +1,22 @@
-# Svensk politik och regeringsförhandlingarna — 2026-09-24
+# Svensk politik och regeringsförhandlingarna — 2026-09-25
 
 3 nya poster sedan förra utskicket (24 redan utskickade, 155 utanför ämnet).
 
 ## Rapportering
 
-### [Nooshi Dadgostar (V) om tystnaden: ”Behövt utreda frågan”](https://www.svt.se/nyheter/inrikes/nooshi-dadgostar-v-om-tystnaden-behovt-utreda-fragan)
-SVT Nyheter · 2026-09-24 · Julia Lindvall, Jesper Brännmark
+### [Rödgröna SKR-samarbetet fortsätter – trots röda linjer](https://www.sverigesradio.se/artikel/9307136)
+Ekot, Sveriges Radio · 2026-09-25 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Partiledaren Nooshi Dadgostar (V) kommenterar det misstänkta valfusket och hur det kan påverka regeringsförhandlingarna. – Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering, säger Dadgostar.
+Trots de röda linjerna på regeringsnivå vill de rödgröna partierna fortsätta att samarbeta i SKR, Sveriges kommuner och regioner. Enligt källor till Ekot har samarbetet fungerat bra, men frågan är känslig. Få vill uttala sig sig öppet, av hänsyn till kollegorna i Centerpartiet. Det finns en rädsla att förhandlingarna på regeringsnivå skulle störas om uppgifter om partiernas goda samverkan på SKR-nivå kommer ut. "I början var många centerpartister misstänksamma. Sedan när de väl fick känna på oss var det inte så farligt", säger en vänsterpartist, som vill vara anonym.
 
-### [Annie Reuterskiöld: Tystnaden från V:s vice partiledare motsäger Dadgostar](https://www.dn.se/sverige/annie-reuterskiold-tystnaden-fran-vs-vice-partiledare-motsager-dadgostar)
-DN Nyheter · 2026-09-24 · Annie Reuterskiöld
+### [”Misstänkta valfusket kommer inte att få Dadgostar att mjukna”](https://www.svt.se/nyheter/inrikes/misstankta-valfusket-kommer-inte-att-fa-dadgostar-att-mjukna) **[kommentator]**
+SVT Nyheter · 2026-09-24 · Elisabeth Marmorstein
 
-Sent omsider uttalar sig Nooshi Dadgostar om det misstänkta valfusket. V-ledaren tror inte att krisen påverkar regeringsförhandlingarna. Vice partiledaren Ida Gabrielssons tvära stopp i sin regeringskampanj talar motsatt språk.
+De socialdemokrater som hade hoppats att det misstänkta valfusket i Borlänge skulle få Vänsterpartiet att mjukna i sitt krav på ministerposter får nog tänka om. Nooshi Dadgostar (V) ser det som en separat fråga och har inte kommit en millimeter närmare att vika ner sig i regeringsfrågan.
 
-### [Krisexperten om Dadgostars första ord: Alternativet hade varit värre](https://www.dn.se/sverige/krisexperten-om-dadgostars-forsta-ord-alternativet-hade-varit-varre)
-DN Nyheter · 2026-09-24 · Annika Staf
+### [Magdalena Anderssons kamp mot klockan: Budgetrysare kan vänta i höst](https://www.dn.se/sverige/magdalena-anderssons-kamp-mot-klockan-budgetrysare-kan-vanta-i-host)
+DN Nyheter · 2026-09-24 · Hans Olsson
 
-Efter flera dygns tystnad har Vänsterpartiets partiledare Nooshi Dadgostar nu uttalat sig om den misstänkta valfuskhärvan. – Det hedrar henne att hon visar sig i offentligheten och att hon svarar på frågor. Alternativet hade varit värre, säger Hampus Knutsson, expert på krishantering.
+En budgetrysare väntar senare i höst om Magdalena Andersson inte får ihop sitt regeringsunderlag i tid. Senast den 12 november måste hon vara klar, annars riskerar de rödgröna en neslig förlust redan innan de har tillträtt. Hösten innehåller flera datum som avgör hur Sverige ska styras de kommande fyra åren.
 
-_Genererat 2026-09-24T14:16:13.803447+00:00._
+_Genererat 2026-09-25T07:23:36.305096+00:00._

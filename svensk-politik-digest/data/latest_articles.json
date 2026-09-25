@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-09-24T14:16:13.803447+00:00",
+  "fetched_at": "2026-09-25T07:23:36.305096+00:00",
   "new_count": 3,
   "skipped": {
     "seen": 24,
     "offtopic": 155,
     "old": 28
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,58 +65,58 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/nooshi-dadgostar-v-om-tystnaden-behovt-utreda-fragan",
-      "title": "Nooshi Dadgostar (V) om tystnaden: ”Behövt utreda frågan”",
+      "url": "https://www.sverigesradio.se/artikel/9307136",
+      "title": "Rödgröna SKR-samarbetet fortsätter – trots röda linjer",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-25",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Trots de röda linjerna på regeringsnivå vill de rödgröna partierna fortsätta att samarbeta i SKR, Sveriges kommuner och regioner. Enligt källor till Ekot har samarbetet fungerat bra, men frågan är känslig. Få vill uttala sig sig öppet, av hänsyn till kollegorna i Centerpartiet. Det finns en rädsla att förhandlingarna på regeringsnivå skulle störas om uppgifter om partiernas goda samverkan på SKR-nivå kommer ut. \"I början var många centerpartister misstänksamma. Sedan när de väl fick känna på oss var det inte så farligt\", säger en vänsterpartist, som vill vara anonym.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9307136'",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-25T07:23:36.305096+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/misstankta-valfusket-kommer-inte-att-fa-dadgostar-att-mjukna",
+      "title": "”Misstänkta valfusket kommer inte att få Dadgostar att mjukna”",
       "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-09-24",
-      "author": "Julia Lindvall, Jesper Brännmark",
-      "commentator": "",
-      "summary": "Partiledaren Nooshi Dadgostar (V) kommenterar det misstänkta valfusket och hur det kan påverka regeringsförhandlingarna. – Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering, säger Dadgostar.",
-      "fulltext": "Partiledaren Nooshi Dadgostar (V) kommenterar det misstänkta valfusket och hur det kan påverka regeringsförhandlingarna.\n– Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering, säger Dadgostar.\n– Anklagelserna är allvarliga, säger Nooshi Dadgostar (V) i sin första intervju med SVT sedan uppgifterna om misstänkt valfusk kom ut på måndagen.\nPartiledaren kommenterar varför hon inte har gått ut i media tidigare.\n– Det här handlar om ett personärende och vi har tagit reda på sakförhållandena. Vi kan inte gå på medieuppgifter utan vi har behövt utreda och då har vi landat i en överenskommelse om att personen tar timeout, säger hon.\nMohamed Abdukardir Ali kommer inte inte tjänstgöra under perioden för sin timeout, enligt Dadgostar – som inte ger något ytterligare svar på vad en timeout innebär.\nPolisen utreder misstänkt valfusk i Borlänge efter att V-politikern Mohamed Abdukardir Ali kryssats in i riksdagen med 648 personröster.\nHan har tidigare sagt till SVT att han inte har gjort något fel.\n– En polisutredning måste nu ta fram vad som kan ha gått fel eller vad som har hänt. Självklart har han rätt att säga att han inte har gjort de här sakerna, säger Dadgostar.\nPå frågan om detta kan påverka regeringsförhandlingarna svarar hon:\n– Vi har fått över en halv miljon röster och gjort ett av våra bästa val någonsin. Detta är en separat fråga och vi kommer fortsätta arbetet med att bilda en regering naturligtvis, Sverige behöver en ny riktning.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "De socialdemokrater som hade hoppats att det misstänkta valfusket i Borlänge skulle få Vänsterpartiet att mjukna i sitt krav på ministerposter får nog tänka om. Nooshi Dadgostar (V) ser det som en separat fråga och har inte kommit en millimeter närmare att vika ner sig i regeringsfrågan.",
+      "fulltext": "De socialdemokrater som hade hoppats att det misstänkta valfusket i Borlänge skulle få Vänsterpartiet att mjukna i sitt krav på ministerposter får nog tänka om.\nNooshi Dadgostar (V) ser det som en separat fråga och har inte kommit en millimeter närmare att vika ner sig i regeringsfrågan.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsförhandling",
-        "partiledar"
-      ],
-      "first_seen": "2026-09-24T14:16:13.803447+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/annie-reuterskiold-tystnaden-fran-vs-vice-partiledare-motsager-dadgostar",
-      "title": "Annie Reuterskiöld: Tystnaden från V:s vice partiledare motsäger Dadgostar",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-24",
-      "author": "Annie Reuterskiöld",
-      "commentator": "",
-      "summary": "Sent omsider uttalar sig Nooshi Dadgostar om det misstänkta valfusket. V-ledaren tror inte att krisen påverkar regeringsförhandlingarna. Vice partiledaren Ida Gabrielssons tvära stopp i sin regeringskampanj talar motsatt språk.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/annie-reuterskiold-tystnaden-fran-vs-vice-partiledare-motsager-dadgostar/\nSent omsider uttalar sig Nooshi Dadgostar om det misstänkta valfusket.\nV-ledaren tror inte att krisen påverkar regeringsförhandlingarna.\nVice partiledaren Ida Gabrielssons tvära stopp i sin regeringskampanj talar motsatt språk.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nJu fler minuter, timmar och dygn som gick efter nyheten om misstänkt valfusk i Borlänge utan att Vänsterledaren kommenterade, desto ihärdigare blev rubrikerna. ”Två delfiner och fyra papegojsvar. Men var är Nooshi Dadgostar?” frågade sig Aftonbladet.\nV-ledaren krishanterade genom en regnbågsfärgad bild på delfiner i sociala medier, först 67 timmar senare uttalade hon sig i samma tidning. Dadgostar ser allvarligt på anklagelserna om valfusk, men tror inte att brottsutredningen stör regeringsförhandlingarna, eftersom det rör sig om relativt få röster.\nFramför allt två saker tyder på att både Vänsterpartiet och regeringsförhandlingarna påverkas djupare än så.\nFörst ut en annan tystnad: V:s vice partiledare dyker inte längre upp i var och varannan tv-sändning. Dessutom har hon slutat abrupt med sin intensivt förda kampanj i sociala medier. Under valåret har Gabrielsson gjort flera inlägg om dagen för att hamra in att Vänsterpartiet har en självklar plats i en regering och att partiet aldrig kommer att vika ner sig.\nInte ens under den förra krisen, då Expressens avslöjanden om antisemitism och terrorhyllningar bland V-kandidater avslöjades, tog hon en paus. Sedan den 21 september ekar Ida Gabrielssons närvaro på både X och Facebook tomt.\nFör det andra: Det är Socialdemokraterna som är Vänsterpartiets förhandlingspart. Ett parti som inte skyr många medel i slutna rum. Otaliga är andra partiers vittnesmål genom åren om regelrätta hot och skoningslösa bud från Sveriges största parti när makten ska fördelas.\nRedan under valrörelsen vingklipptes V när man tvingades stryka över 30 kandidater på grund av antisemitiska och terrorhyllande uttalanden. Nooshi Dadgostars parti har en lång resa kvar att göra, konstaterade Magdalena Andersson. Starka krafter i Socialdemokraterna som inte vill se V i regeringen kunde nöjt se på.\nÄndå var styrkeförhållandet mellan S och V inte med säkerhet påverkat. Valresultatet var ännu att vänta, och hårdvaluta i en regeringsförhandling är till sist antalet röster ett parti har med sig till bordet.\nFallet med Mohamed Abdukardir Alis personvalskampanj kan rucka också på det.\nNu riktas återigen ljuset mot Vänsterpartiets dåliga kontroll över sina listor. Men vanskligare för Nooshi Dadgostar är risken för att brottsutredningen visar på förhållanden som kräver ett omval i Dalarna. I dagsläget pekar det mesta emot, det rör sig om relativt få röster. Men risken finns, vilket i sin tur skulle kunna innebära att det nationella valresultatet ändras med ett mandat till Tidöpartiernas fördel.\nAnklagelser om valfusk är synnerligen allvarliga och kan sätta medborgarnas tilltro till det demokratiska systemet i gungning. Det vill inget parti ha orsakat och samtidigt befinna sig i en förhandling där regeringsduglighet premieras.\nSocialdemokraterna lär dessutom inte dra sig från att påpeka hur Vänsterpartiets bristande koll på sitt parti riskerar att minska oppositionens redan knappa övertag. S behöver fortfarande V – men Nooshi Dadgostars starkaste kort har tappat i värde.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nDadgostar till DN om sin tystnad: Människor som är inblandade\nKrisexperten om Dadgostars första ord: Alternativet hade varit värre\nUtredningen om misstänkt valfusk i Dalarna: Detta har hänt",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsförhandling",
-        "partiledar"
-      ],
-      "first_seen": "2026-09-24T14:16:13.803447+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/krisexperten-om-dadgostars-forsta-ord-alternativet-hade-varit-varre",
-      "title": "Krisexperten om Dadgostars första ord: Alternativet hade varit värre",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-24",
-      "author": "Annika Staf",
-      "commentator": "",
-      "summary": "Efter flera dygns tystnad har Vänsterpartiets partiledare Nooshi Dadgostar nu uttalat sig om den misstänkta valfuskhärvan. – Det hedrar henne att hon visar sig i offentligheten och att hon svarar på frågor. Alternativet hade varit värre, säger Hampus Knutsson, expert på krishantering.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-24 16:14\nArtikelns ursprungsadress: https://www.dn.se/sverige/krisexperten-om-dadgostars-forsta-ord-alternativet-hade-varit-varre/\nEfter flera dygns tystnad har Vänsterpartiets partiledare Nooshi Dadgostar nu uttalat sig om den misstänkta valfuskhärvan.\n– Det hedrar henne att hon visar sig i offentligheten och att hon svarar på frågor. Alternativet hade varit värre, säger Hampus Knutsson, expert på krishantering.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
+        "regeringsfråg",
+        "ministerpost",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-24T14:16:13.803447+00:00"
+      "first_seen": "2026-09-25T07:23:36.305096+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/magdalena-anderssons-kamp-mot-klockan-budgetrysare-kan-vanta-i-host",
+      "title": "Magdalena Anderssons kamp mot klockan: Budgetrysare kan vänta i höst",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-24",
+      "author": "Hans Olsson",
+      "commentator": "",
+      "summary": "En budgetrysare väntar senare i höst om Magdalena Andersson inte får ihop sitt regeringsunderlag i tid. Senast den 12 november måste hon vara klar, annars riskerar de rödgröna en neslig förlust redan innan de har tillträtt. Hösten innehåller flera datum som avgör hur Sverige ska styras de kommande fyra åren.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-25 09:23\nArtikelns ursprungsadress: https://www.dn.se/sverige/magdalena-anderssons-kamp-mot-klockan-budgetrysare-kan-vanta-i-host/\nEn budgetrysare väntar senare i höst om Magdalena Andersson inte får ihop sitt regeringsunderlag i tid. Senast den 12 november måste hon vara klar, annars riskerar de rödgröna en neslig förlust redan innan de har tillträtt.\nHösten innehåller flera datum som avgör hur Sverige ska styras de kommande fyra åren.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsunderlag"
+      ],
+      "first_seen": "2026-09-25T07:23:36.305096+00:00"
     }
   ]
 }
