@@ -1,22 +1,17 @@
 # Svensk politik och regeringsförhandlingarna — 2026-09-25
 
-3 nya poster sedan förra utskicket (24 redan utskickade, 155 utanför ämnet).
+2 nya poster sedan förra utskicket (27 redan utskickade, 153 utanför ämnet).
 
 ## Rapportering
 
-### [Rödgröna SKR-samarbetet fortsätter – trots röda linjer](https://www.sverigesradio.se/artikel/9307136)
+### [Egna orden från V-ledamoten: ”Skulle kännas bättre”](https://www.svt.se/nyheter/inrikes/egna-orden-fran-v-ledamoten-skulle-kannas-battre)
+SVT Nyheter · 2026-09-25 · Erik Nilsson, Julia Lindvall
+
+Den inkryssade riksdagsledamoten Mohamed Abdukardir Ali (V) ber om två veckors ledighet. Det framgår av ett mejl till talmannen, som SVT har tagit del av. ”Det skulle kännas bättre om jag officiellt kunde vara ledig i väntan på besked från polismyndighet”, skriver han i mejlet.
+
+### [Ekot erfar: Vänsterpartiet överväger att stötta Norlén som talman](https://www.sverigesradio.se/artikel/9307795)
 Ekot, Sveriges Radio · 2026-09-25 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Trots de röda linjerna på regeringsnivå vill de rödgröna partierna fortsätta att samarbeta i SKR, Sveriges kommuner och regioner. Enligt källor till Ekot har samarbetet fungerat bra, men frågan är känslig. Få vill uttala sig sig öppet, av hänsyn till kollegorna i Centerpartiet. Det finns en rädsla att förhandlingarna på regeringsnivå skulle störas om uppgifter om partiernas goda samverkan på SKR-nivå kommer ut. "I början var många centerpartister misstänksamma. Sedan när de väl fick känna på oss var det inte så farligt", säger en vänsterpartist, som vill vara anonym.
+Det kan bli ett dramatiskt talmansval på måndag. Enligt uppgifter till Ekot överväger Vänsterpartiet att inte ställa sig bakom Socialdemokraternas kandidat, utan i stället rösta på Andreas Norlén – om han förs fram som motkandidat från Tidösidan. Det finns ”starka sakliga skäl” att låta den nuvarande talmannen sitta kvar, säger en vänsterpartist, som tycker att Andreas Norlén på ett bra sätt har lyckats hantera komplicerade regeringsbildningar tidigare.
 
-### [”Misstänkta valfusket kommer inte att få Dadgostar att mjukna”](https://www.svt.se/nyheter/inrikes/misstankta-valfusket-kommer-inte-att-fa-dadgostar-att-mjukna) **[kommentator]**
-SVT Nyheter · 2026-09-24 · Elisabeth Marmorstein
-
-De socialdemokrater som hade hoppats att det misstänkta valfusket i Borlänge skulle få Vänsterpartiet att mjukna i sitt krav på ministerposter får nog tänka om. Nooshi Dadgostar (V) ser det som en separat fråga och har inte kommit en millimeter närmare att vika ner sig i regeringsfrågan.
-
-### [Magdalena Anderssons kamp mot klockan: Budgetrysare kan vänta i höst](https://www.dn.se/sverige/magdalena-anderssons-kamp-mot-klockan-budgetrysare-kan-vanta-i-host)
-DN Nyheter · 2026-09-24 · Hans Olsson
-
-En budgetrysare väntar senare i höst om Magdalena Andersson inte får ihop sitt regeringsunderlag i tid. Senast den 12 november måste hon vara klar, annars riskerar de rödgröna en neslig förlust redan innan de har tillträtt. Hösten innehåller flera datum som avgör hur Sverige ska styras de kommande fyra åren.
-
-_Genererat 2026-09-25T07:23:36.305096+00:00._
+_Genererat 2026-09-25T14:16:48.495683+00:00._
