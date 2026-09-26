@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-09-26T06:16:57.973176+00:00",
-  "new_count": 9,
+  "fetched_at": "2026-09-26T14:15:43.976702+00:00",
+  "new_count": 0,
   "skipped": {
-    "seen": 22,
-    "offtopic": 126,
+    "seen": 29,
+    "offtopic": 153,
     "old": 28
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "",
+      "feed": "https://www.dn.se/ledare/rss/",
       "new": 0,
-      "ok": false
+      "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Aftonbladet Ledare",
       "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -63,169 +63,5 @@
       "ok": true
     }
   ],
-  "articles": [
-    {
-      "url": "https://www.svd.se/a/j0qzwo/kristdemokraternas-succe-visar-samebyarnas-misstag",
-      "title": "Valresultatet visar samebyarnas misstag",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-26",
-      "author": "Hanne Kjöller",
-      "commentator": "",
-      "summary": "Gabna sameby startade krig mot Kirunaborna – och förlorade.",
-      "fulltext": "Resultatet av Samebylobbyns ambition att ”provtrycka systemet” ser vi i kommunalvalet i Kiruna – Kristdemokraterna blev dubbelt så stora.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nS VT har i dokumentären ”Renar i vägen” lyckats väl med att fånga konflikten mellan renskötsel och gruvnäring. Inte minst i Kiruna. För där, en bit bort från det stora gruvsåret som blivit en del av stadsbilden, har LKAB hittat Europas största fyndighet av sällsynta jordartsmetaller. Det råkar vara samma plats som en viktig flyttled för renen.\nDe åtråvärda metallerna finns på många platser. Men vanligtvis ligger de utspridda som små sandkorn vilket, enligt experter jag talat med, gör det ekonomiskt omöjligt att utvinna dem.\nSamebyarna vill ha fjällen för sig själva",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/knutson-s-drom-ar-att-slippa-v",
-      "title": "Knutson: ”S dröm är att slippa V”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-26",
-      "author": "Malvina Britts",
-      "commentator": "Mats Knutson",
-      "summary": "Vänsterpartiet kräver ministerposter, men Socialdemokraterna tvekar. Trots att partierna står nära varandra i flera frågor finns en lång historia av misstro. – Socialdemokraternas dröm är att slippa Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Mats Knutson.",
-      "fulltext": "Vänsterpartiet kräver ministerposter, men Socialdemokraterna tvekar. Trots att partierna står nära varandra i flera frågor finns en lång historia av misstro.\n– Socialdemokraternas dröm är att slippa Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Mats Knutson.\nRelationen mellan Socialdemokraterna och Vänsterpartiet går tillbaka till splittringen inom arbetarrörelsen 1917 och Vänsterpartiets kommunistiska historia. Men också senare konflikter har satt spår – inte minst när V tillsammans med högerpartierna fällde Stefan Löfven 2021.\n– Det har satt djupa spår bland dagens socialdemokratiska makthavare.\nI videon: Här är fem faktorer som förklarar varför S fortfarande håller V på avstånd – från partisplittringen till skandalerna i valrörelsen.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.aftonbladet.se/ledare/a/gk2r9A/nooshi-dadgostar-maste-valja-politiken-eller-ministerposterna",
-      "title": "Sabba inte en ny regering, Dadgostar",
-      "source": "Aftonbladet Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-26",
-      "author": "Daniel Suhonen",
-      "commentator": "",
-      "summary": "DANIEL SUHONEN Politiken är viktigare än ministerposter",
-      "fulltext": "Aftonbladets ledarsida är oberoende socialdemokratisk.\nSverige har sedan 2006 haft högermajoritet i riksdagen. I tjugo år har högern kunnat blockera och förhindra all genomgripande vänsterpolitik – även de år som sossar och rödgröna suttit i regeringsställning.\nKan man sin historia finns det några ögonblick där vänsterns splittring fått ödesdigra konsekvenser. De socialdemokratiska partiernas acceptans av första världskrigets nationella yra är ett exempel. Den spanska folkfrontens splittring, där de olika falangerna besköt varandra i stället för fascisterna, är ett annat. Kommunisternas hat mot socialdemokratin i Weimarrepubliken banade väg för nazismen.\nDe följer ett mönster: splittring och oförsonliga krav – följt av nederlag.\nNu finns chans till något annat. Vi måste ta den.\nJag gissar att många, likt mig, drog en lättnadens suck när mandaten landade i 176 för de rödgröna. Vi pallar inte en mandatperiod till med högern och vill inte att rödgrönt självskadebeteende skjuter sönder Magdalena Anderssons regeringsbildning.\nJag är inte rädd för Vänsterpartiet även om jag aldrig har röstat på dem. Göran Persson samarbetade med dem, liksom Stefan Löfven. Sossarna har nästan alltid kunnat lita på sin lite ilsknare, rödare och mer aktivistiske kusin. I klassfrågorna har Vänsterpartiets linje varit att inte svika arbetarklassen. Rent programmatiskt håller nog de flesta sossar med om det mesta i Vänsterpartiets politiska förslag.\nProblemet just nu är helt enkelt att Vänsterpartiets högljudda krav på ministerposter står i vägen för att lösa regeringsfrågan. Centerpartiet är redo att byta lag och stödja eller sitta med i en S-ledd regering, där även Miljöpartiet förmodligen kan sitta. Men C vill inte ha med V. De senaste veckornas utveckling har inte direkt gynnat vänsterns sak.\nRisken är på riktigt att Centerpartiet sticker högerut. Vänsterpartiet har precis levererat C:s högerfalang de allra bästa argumenten.\nDet rimligaste och smidigaste i den givna situationen är att S, C och MP bildar en minoritetsregering som har budgetsamarbete med V. Nooshi Dadgostar kan då få ett enormt starkt politiskt inflytande och se till att den ekonomiska politiken styr vänsterut.\nArbetarklassen i det här landet behöver en rödgrön regering.\nDen genomsnittliga rödgröna väljaren, till och med V-väljaren, vill förmodligen hellre ha vinstförbud i skolan, avskaffat karensavdrag, tandvårdsreform, rejäla satsningar på välfärden, klimatsatsningar, och någon form av beskattning av kapital, än att en handfull vänsterpartister sitter i en regering.\nOm jag hade varit vänsterpartist hade jag valt politiken före posterna. Allt annat kan visa sig vara ett otroligt historiskt misstag.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/16l2kJ/stefan-lofven-motte-new-york-borgmastaren-zohran-mamdani-maste-samarbeta",
-      "title": "Därför mötte Löfven Mamdani: ”Samarbeta”",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-09-25",
-      "author": "Hanna Lindström",
-      "commentator": "",
-      "summary": "En bild på New Yorks borgmästare Zohran Mamdani och den tidigare statsministern Stefan Löfven…",
-      "fulltext": "En bild på New Yorks borgmästare Zohran Mamdani och den tidigare statsministern Stefan Löfven florerar i sociala medier. De möttes i New York tidigare i veckan. ”Vi måste samarbeta över gränserna”, säger Löfven i ett pressmeddelande.\nDen omtalade New York-borgmästaren Zohran Mamdani och Sveriges tidigare statsminister Stefan Löfven (S) träffades i New York på onsdagen.\nPå en bild som lagts upp på sociala medier syns de två politikerna posera bredvid varandra med glada miner.\nDärför bråkar borgmästarna om årsdagen av ”9/11”",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/fortsatt-dodlage-en-vecka-efter-uppdraget-hoppas-de-slutar",
-      "title": "Fortsatt dödläge – en vecka efter uppdraget: ”Hoppas de slutar”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-25",
-      "author": "Julia Lindvall, Daniel Ingmo, Erik Nilsson",
-      "commentator": "",
-      "summary": "För en vecka sedan gav talmannen Magdalena Andersson i uppgift att försöka bilda regering. Men S-ledaren är långt ifrån en lösning – och en vecka efter att ha fått uppdraget har regelrätta regeringsförhandlingar inte påbörjats. Nu är en gemensam budget hotad. – Det är ganska få som tänker att vi kommer hinna, säger en rödgrön källa.",
-      "fulltext": "För en vecka sedan gav talmannen Magdalena Andersson i uppgift att försöka bilda regering.\nMen S-ledaren är långt ifrån en lösning – och en vecka efter att ha fått uppdraget har regelrätta regeringsförhandlingar inte påbörjats.\n– Det är ganska få som tänker att vi kommer hinna, säger en rödgrön källa.\nDet har nu gått en vecka sedan Magdalena Andersson (S) fick sonderingsuppdraget av talmannen och därmed påbörjade sitt försök att bilda en regering.\nMen några gemensamma regeringsförhandlingar mellan de rödgröna partierna har ännu inte påbörjats, enligt SVT:s uppgifter.\nDen stora knäckfrågan för Magdalena Andersson är hur Centerpartiet och Vänsterpartiets röda linjer ska hanteras. Just nu blockerar partierna att samtal mellan alla fyra parter ens kan påbörjas.\nKällor vittnar också om att krisen som briserat i V under veckan, och framför allt partiledningens hantering av den, har stärkt motståndet mot att släppa in partiet i en regering.\nEtt viktigt datum för Magdalena Andersson är 12 november – då måste en ny regering ha lämnat sin höstbudget till riksdagen.\nAnnars läggs en övergångsbudget som tas fram av den sittande regeringen. Något Andersson tidigare i veckan sagt till SVT ”inte ska behövas”.\nFlera som SVT pratat med vittnar dock om att tidsramen är snäv och även här pekas både C och V ut som bromsklossar. – Nu är det upp till de partierna som håller på med röda linjer. Jag hoppas de slutar med det så snart som möjligt, säger en person med insyn.\nEn annan säger att 12 november är en deadline som kan komma att passeras utan att partierna hittat en lösning.\n– Det är stressat över budgeten. Det är ganska få som tänker att vi kommer hinna.\n– Man måste jobba intensivt och tid är såklart en faktor. Men det är ingen stress för att det nu drar ut på tiden i början, säger en källa.\nI brist på regelrätta förhandlingar har Magdalena Andersson haft bilaterala samtal mellan flera av riksdagens partier. I tisdags mötte hon M-ledaren Ulf Kristersson i Sagerska huset.\nEnligt S-ledaren var det ”ett trevligt samtal” som handlade om valresultatet och vägen framåt.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsförhandling",
-        "talman"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9307955",
-      "title": "Statsvetaren: Ett sätt för V att visa musklerna",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-25",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Vänsterpartiet överväger att rösta på Andreas Norlén som talmanskandidat om han nomineras från Tidösidan, enligt uppgifter till Ekot. Enligt statsvetaren Jenny Madestam är det här ett sätt för Vänsterpartiet att visa musklerna i regeringsförhandlingarna. Huruvida den här taktiken kommer att fungera återstår att se, men Madestam säger att det kommer vara svårt för V att motivera sitt val av en moderat talman för sina väljare.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9307955'",
-      "matched_terms": [
-        "regeringsförhandling",
-        "talman",
-        "Moderaterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/kallor-ilskan-vaxer-mot-v-twittrande-stor-forhandlingar",
-      "title": "Källor: Ilskan växer mot V – twittrande stör förhandlingar",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-25",
-      "author": "Hanna Jakobson, Annie Reuterskiöld, Hans Rosén",
-      "commentator": "",
-      "summary": "Magdalena Anderssons försök att bilda regering har bromsat in. Irritationen i S, MP och C växer över att V-toppen Ida Gabrielsson och hennes twittrande försvårar riktiga förhandlingar. – Det kommer att ta lite tid och det kommer att bli jobbigt, säger S partisekreterare Tobias Baudin om försöken att få en socialdemokratisk statsminister.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-26 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/kallor-ilskan-vaxer-mot-v-twittrande-stor-forhandlingar/\nMagdalena Anderssons försök att bilda regering har bromsat in.\nIrritationen i S, MP och C växer över att V-toppen Ida Gabrielsson och hennes twittrande försvårar riktiga förhandlingar.\n– Det kommer att ta lite tid och det kommer att bli jobbigt, säger S partisekreterare Tobias Baudin om försöken att få en socialdemokratisk statsminister.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/annie-reuterskiold-rykten-misstankar-och-ilska-flodar-mellan-de-rodgrona",
-      "title": "Annie Reuterskiöld: Rykten, misstankar och ilska flödar mellan de rödgröna",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-25",
-      "author": "Annie Reuterskiöld",
-      "commentator": "",
-      "summary": "Det har varit en kämpig vecka för Magdalena Anderssons sida av politiken. Ett gemensamt möte mellan gruppledarna i S, C, V och MP var undantaget. När V överväger moderaternas talman tar Nooshi Dadgostar den minimala framgången gisslan.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-26 08:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/annie-reuterskiold-rykten-misstankar-och-ilska-flodar-mellan-de-rodgrona/\nDet har varit en kämpig vecka för Magdalena Anderssons sida av politiken.\nEtt gemensamt möte mellan gruppledarna i S, C, V och MP var undantaget.\nNär V överväger moderaternas talman tar Nooshi Dadgostar den minimala framgången gisslan.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/uppgifter-v-kan-stodja-norlen-som-talman",
-      "title": "Uppgifter: V kan stödja Norlén som talman",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-25",
-      "author": "Melvin Londen, Annie Reuterskiöld, Hanna Jakobson",
-      "commentator": "",
-      "summary": "Riksdagen väljer talman på måndag. Nu erfar DN att Vänsterpartiet överväger att ställa sig bakom Andreas Norlén som kandidat. Enligt uppgifter handlar det om att V betraktar Norlén som opartisk i sin roll som talman och att han har erfarenhet av komplicerade regeringsbildningar.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-26 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/uppgifter-v-kan-stodja-norlen-som-talman/\nRiksdagen väljer talman på måndag. Nu erfar DN att Vänsterpartiet överväger att ställa sig bakom Andreas Norlén som kandidat.\nEnligt uppgifter handlar det om att V betraktar Norlén som opartisk i sin roll som talman och att han har erfarenhet av komplicerade regeringsbildningar.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nVänsterpartiet uppges ännu inte ha bestämt sig för om partiets riksdagsgrupp ska rösta på Socialdemokraternas kandidat eller Tidösidans Andreas Norlén.\n– Han har varit talman länge för riksdagen och skött det på ett bra sätt, säger V-ledaren Nooshi Dadgostar till TV4 Nyheterna .\nAndreas Norlén gav förra veckan S-ledaren Magdalena Andersson i uppdrag att sondera förutsättningarna för att bilda regering och DN erfar att det i V finns en farhåga om att en socialdemokratisk talman som är ny på sin post ska sätta partilinjen först.\nSocialdemokraternas gruppledare Lena Hallengren har varit tydlig med att partiet vill ha en socialdemokratisk talmanskandidat. Vänsterpartiet har ännu inte fattat något slutgiltigt beslut i frågan, det väntas ske någon gång innan måndagens talmansomröstning i riksdagen.\nEkot var först med nyheten och enligt en av deras uppgiftslämnare finns det ”starka sakliga skäl” för att låta Norlén sitta kvar som talman.\n– Vänsterpartiet är oroliga för att de ska snuvas på tredje vice talmansposten och att den i stället ska gå till KD. Man misstänker att KD:s nominering skulle få majoritet i stället för deras, säger en källa med insyn till DN.\nNooshi Dadgostar säger på fredagseftermiddagen att Andreas Norlén har skött sig bra som talman. Hon säger till TV4 Nyheterna att det just nu pågår en process och att partiets riksdagsgrupp för diskussioner om hur de ska rösta på måndag.\nHon berömmer samtidigt Andreas Norlén för hans arbete som talman under den senaste mandatperioden.\n– Det är klart att Andreas Norlén är en erfaren person. Han har varit talman länge för riksdagen och skött det på ett bra sätt, säger hon till tv-kanalen.\nSocialdemokraterna har ännu inte meddelat vem deras kandidat till posten som talman blir.\nDN söker Vänsterpartiet, Socialdemokraterna och Miljöpartiet. Centerpartiet avböjer att kommentera uppgifterna.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nKällor: Ilskan växer mot V – twittrande stör förhandlingar\nAnnie Reuterskiöld: Rykten, misstankar och ilska flödar mellan de rödgröna\nMax Hjelm: Carl-Oskar Bohlin använder sig av en vänsterradikal verktygslåda",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-09-26T06:16:57.973176+00:00"
-    }
-  ]
+  "articles": []
 }
