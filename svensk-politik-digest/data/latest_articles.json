@@ -1,0 +1,67 @@
+{
+  "fetched_at": "2026-09-26T14:15:43.976702+00:00",
+  "new_count": 0,
+  "skipped": {
+    "seen": 29,
+    "offtopic": 153,
+    "old": 28
+  },
+  "fetch_errors": 0,
+  "sources": [
+    {
+      "name": "SVT Nyheter",
+      "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Ekot, Sveriges Radio",
+      "feed": "https://api.sr.se/api/rss/program/83",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "DN Nyheter",
+      "feed": "https://www.dn.se/nyheter/politik/rss/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "DN Ledare",
+      "feed": "https://www.dn.se/ledare/rss/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "SvD Ledare",
+      "feed": "https://www.svd.se/feed/articles.rss",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Expressen Ledare",
+      "feed": "https://feeds.expressen.se/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Aftonbladet Ledare",
+      "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Regeringen.se",
+      "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Riksdagen",
+      "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
+      "new": 0,
+      "ok": true
+    }
+  ],
+  "articles": []
+}
