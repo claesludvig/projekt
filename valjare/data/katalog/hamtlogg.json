@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T12:41:11.194081+00:00",
+ "start": "2026-09-27T12:51:20.751024+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1069,114 +1069,118 @@
    "status": "oförändrad, ej hämtad"
   },
   {
-   "id": "TAB5621",
-   "rubrik": "BNP från användningssidan, försörjningsbalans efter användning, aggregerad. År 1950-2024",
+   "id": "TAB6514",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, typ av data, kön och ålder. År 2001-2025",
    "tema": "verklighet",
-   "celler": 2100,
+   "celler": 40800,
    "variabler": {
-    "Anvandningstyp": {
-     "etikett": "användning",
-     "antal": 7
+    "Arbetskraftstillh": {
+     "etikett": "arbetskraftstillhörighet",
+     "antal": 8
+    },
+    "TypData": {
+     "etikett": "typ av data",
+     "antal": 4
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 17
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
-     "antal": 4
+     "antal": 1
     },
     "Tid": {
      "etikett": "år",
-     "antal": 75
+     "antal": 25
     }
    },
    "status": "ok",
-   "rader": 2100,
-   "uppdaterad": "2026-08-28T06:00:00Z",
+   "rader": 40800,
+   "uppdaterad": "2026-01-23T07:00:00Z",
    "kalla": "SCB"
+  },
+  {
+   "id": "TAB6529",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, inrikes/utrikes född, typ av data, kön och ålder. År 2005-2025",
+   "tema": "verklighet",
+   "celler": 60480,
+   "variabler": {
+    "Arbetskraftstillh": {
+     "etikett": "arbetskraftstillhörighet",
+     "antal": 8
+    },
+    "InrikesUtrikes": {
+     "etikett": "inrikes/utrikes född",
+     "antal": 3
+    },
+    "TypData": {
+     "etikett": "typ av data",
+     "antal": 4
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 10
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 21
+    }
+   },
+   "status": "ok",
+   "rader": 60480,
+   "uppdaterad": "2026-01-23T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB5621",
+   "rubrik": "BNP från användningssidan, försörjningsbalans efter användning, aggregerad. År 1950-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB3088",
    "rubrik": "BNP från användningssidan (ENS95), försörjningsbalans efter användning. År 1950-2013",
    "tema": "verklighet",
-   "celler": 4224,
-   "variabler": {
-    "Anvandningstyp": {
-     "etikett": "användning",
-     "antal": 22
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 3
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 64
-    }
-   },
-   "status": "ok",
-   "rader": 4224,
-   "uppdaterad": "2014-05-30T08:14:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB1148",
    "rubrik": "Fastighetsprisindex för permanenta småhus (1990=100) efter län. År 1990-2025",
    "tema": "verklighet",
-   "celler": 756,
-   "variabler": {
-    "Lan": {
-     "etikett": "län",
-     "antal": 21
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 36
-    }
-   },
-   "status": "ok",
-   "rader": 756,
-   "uppdaterad": "2026-06-05T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB2538",
    "rubrik": "Färdigställda lägenheter och rumsenheter i nybyggda hus efter region och hustyp. År 1938-2025",
    "tema": "verklighet",
-   "celler": 352,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 1
-    },
-    "Hustyp": {
-     "etikett": "hustyp",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 88
-    }
-   },
-   "status": "ok",
-   "rader": 352,
-   "uppdaterad": "2026-05-11T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
-   "id": "TAB3858",
-   "rubrik": "Utsläpp av försurande ämnen och växthusgaser vid torvförbränning efter typ av utsläpp. År 1990-2024",
+   "id": "TAB4698",
+   "rubrik": "Totala utsläpp och upptag av växthusgaser efter växthusgas och sektor. År 1990-2024",
    "tema": "verklighet",
-   "celler": 105,
+   "celler": 5390,
    "variabler": {
-    "Utslapp": {
-     "etikett": "typ av utsläpp",
-     "antal": 3
+    "Vaxthusgaser": {
+     "etikett": "växthusgas",
+     "antal": 11
+    },
+    "Sektor": {
+     "etikett": "sektor",
+     "antal": 14
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
@@ -1188,43 +1192,27 @@
     }
    },
    "status": "ok",
-   "rader": 105,
-   "uppdaterad": "2026-06-18T06:00:00Z",
-   "kalla": "SCB"
+   "rader": 5390,
+   "uppdaterad": "2025-12-16T07:00:00Z",
+   "kalla": "Naturvårdsverket"
   },
   {
    "id": "TAB1618",
    "rubrik": "Invandringar och utvandringar efter medborgarskap och kön. År 2000-2024",
    "tema": "verklighet",
-   "celler": 20300,
-   "variabler": {
-    "Medbland": {
-     "etikett": "medborgarskapsland",
-     "antal": 203
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 25
-    }
-   },
-   "status": "ok",
-   "rader": 20300,
-   "uppdaterad": "2025-02-21T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB5940",
    "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter SNI 2007 och kön.  År 2023-2025",
    "tema": "verklighet",
-   "celler": 1080,
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4274",
+   "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter SNI 2007 och kön .  År 2014-2022",
+   "tema": "verklighet",
+   "celler": 2160,
    "variabler": {
     "SNI2007": {
      "etikett": "näringsgren SNI 2007",
@@ -1236,45 +1224,59 @@
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
-     "antal": 6
+     "antal": 4
     },
     "Tid": {
      "etikett": "år",
-     "antal": 3
+     "antal": 9
     }
    },
    "status": "ok",
-   "rader": 1080,
-   "uppdaterad": "2026-06-16T06:00:00Z",
+   "rader": 2160,
+   "uppdaterad": "2024-03-12T07:00:00Z",
+   "kalla": "Medlingsinstitutet"
+  },
+  {
+   "id": "TAB2570",
+   "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter region, sektor, yrkesgrupp (SSYK) och kön. År 2003-2013",
+   "tema": "verklighet",
+   "celler": 121440,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 1
+    },
+    "Sektor": {
+     "etikett": "sektor",
+     "antal": 8
+    },
+    "Yrkesgrupp": {
+     "etikett": "yrkesgrupp (SSYK)",
+     "antal": 115
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 11
+    }
+   },
+   "status": "ok",
+   "rader": 121440,
+   "uppdaterad": "2014-06-17T07:30:00Z",
    "kalla": "Medlingsinstitutet"
   },
   {
    "id": "TAB78",
    "rubrik": "Elproduktion och elanvändning efter elområde. Månad 2021M01-2026M07",
    "tema": "verklighet",
-   "celler": 3216,
-   "variabler": {
-    "ProdAnv": {
-     "etikett": "produktion och användning",
-     "antal": 12
-    },
-    "Elomrade": {
-     "etikett": "elområde",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "månad",
-     "antal": 67
-    }
-   },
-   "status": "ok",
-   "rader": 3216,
-   "uppdaterad": "2026-09-10T06:00:00Z",
-   "kalla": "Statens energimyndighet"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6571_deso",
@@ -2184,31 +2186,28 @@
    "status": "HTTP 200"
   }
  ],
- "fel": [
-  "kolada sök specialiserad vård inom 90 dagar: HTTP 410",
-  "kolada sök åtgärd inom 90 dagar: HTTP 410",
-  "kolada sök primärvården samma dag: HTTP 410",
-  "kolada sök behöriga till ett yrkesprogram: HTTP 410",
-  "kolada sök genomsnittligt meritvärde: HTTP 410",
-  "kolada sök examen inom 4 år: HTTP 410",
-  "kolada sök väntetid i antal dagar från ansökningsdatum: HTTP 410",
-  "kolada sök särskilt boende äldreomsorg - helhetssyn: HTTP 410",
-  "kolada sök anmälda brott totalt: HTTP 410",
-  "kolada sök anmälda våldsbrott: HTTP 410",
-  "kolada sök arbetslöshet 16-64: HTTP 410",
-  "kolada sök förvärvsarbetande invånare 20-64: HTTP 410",
-  "kolada sök långtidsarbetslöshet: HTTP 410",
-  "kolada sök disponibel inkomst: HTTP 410",
-  "kolada sök erhållit ekonomiskt bistånd: HTTP 410",
-  "kolada sök födda utomlands: HTTP 410",
-  "kolada sök nyanlända: HTTP 410",
-  "kolada sök förvärvsarbetande utrikes födda: HTTP 410",
-  "kolada sök kommunal skattesats: HTTP 410",
-  "kolada sök total skattesats: HTTP 410",
-  "kolada sök växthusgaser: HTTP 410",
-  "kolada sök färdigställda bostäder: HTTP 410",
-  "kolada sök låg ekonomisk standard: HTTP 410",
-  "kolada sök kvinnors: HTTP 410"
+ "fel": [],
+ "kolada": [
+  {
+   "id": "N17461",
+   "namn": "Gymnasieexamen inom 4 år",
+   "rader": 40118
+  },
+  {
+   "id": "N07540",
+   "namn": "Anmälda brott per 100 000 inv",
+   "rader": 64224
+  },
+  {
+   "id": "N07403",
+   "namn": "Anmälda våldsbrott per 100 000 inv",
+   "rader": 58163
+  },
+  {
+   "id": "N31807",
+   "namn": "Ekonomiskt bistånd",
+   "rader": 73036
+  }
  ],
- "slut": "2026-09-27T12:47:14.366136+00:00"
+ "slut": "2026-09-27T13:00:35.531005+00:00"
 }

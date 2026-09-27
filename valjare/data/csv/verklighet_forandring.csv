@@ -1,8 +1,12 @@
 fraga,valu_fraga,indikator,fran,till,varde_fran,varde_till,forandring,forandring_pct,riktning,valu_betydelse_fran,valu_betydelse_till,som_fran,som_till
-bostad,Bostadsfrågan,Fastighetsprisindex småhus,2010,2014,264.0,291.0,27.0,10.227272727272727,,,34.0,1.0,4.0
-bostad,Bostadsfrågan,Fastighetsprisindex småhus,2014,2018,291.0,378.0,87.0,29.896907216494846,,34.0,32.0,4.0,5.0
-bostad,Bostadsfrågan,Fastighetsprisindex småhus,2018,2022,378.0,505.0,127.0,33.597883597883595,,32.0,,5.0,2.0
-bostad,Bostadsfrågan,Fastighetsprisindex småhus,2022,2026,505.0,465.0,-40.0,-7.920792079207921,,,,2.0,1.0
+bostad,Bostadsfrågan,Fastighetsprisindex småhus (1990=100),2010,2014,264.0,291.0,27.0,10.227272727272727,,,34.0,1.0,4.0
+bostad,Bostadsfrågan,Fastighetsprisindex småhus (1990=100),2014,2018,291.0,378.0,87.0,29.896907216494846,,34.0,32.0,4.0,5.0
+bostad,Bostadsfrågan,Fastighetsprisindex småhus (1990=100),2018,2022,378.0,505.0,127.0,33.597883597883595,,32.0,,5.0,2.0
+bostad,Bostadsfrågan,Fastighetsprisindex småhus (1990=100),2022,2026,505.0,465.0,-40.0,-7.920792079207921,,,,2.0,1.0
+bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2010,2014,19500.0,29164.0,9664.0,49.55897435897436,bättre,,34.0,1.0,4.0
+bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2014,2018,29164.0,54876.0,25712.0,88.16348923330133,bättre,34.0,32.0,4.0,5.0
+bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2018,2022,54876.0,54018.0,-858.0,-1.5635250382680954,sämre,32.0,,5.0,2.0
+bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2022,2026,54018.0,31359.0,-22659.0,-41.947128734866155,sämre,,,2.0,1.0
 egen_ekonomi,Din egen ekonomi,"Bensinpris (KPI, 1980=100)",2010,2014,134.53083333333333,148.28583333333336,13.755000000000024,10.224421910714414,sämre,42.0,40.0,14.0,7.0
 egen_ekonomi,Din egen ekonomi,"Bensinpris (KPI, 1980=100)",2014,2018,148.28583333333336,159.57083333333333,11.284999999999968,7.6103021754157005,sämre,40.0,35.0,7.0,4.0
 egen_ekonomi,Din egen ekonomi,"Bensinpris (KPI, 1980=100)",2018,2022,159.57083333333333,217.31750000000002,57.7466666666667,36.18873541008436,sämre,35.0,36.0,4.0,4.0
@@ -19,14 +23,35 @@ egen_ekonomi,Din egen ekonomi,Styrräntan (%),2010,2014,0.5004058441558441,0.466
 egen_ekonomi,Din egen ekonomi,Styrräntan (%),2014,2018,0.4664855072463768,-0.5,-0.9664855072463767,-207.18446601941747,,40.0,35.0,7.0,4.0
 egen_ekonomi,Din egen ekonomi,Styrräntan (%),2018,2022,-0.5,0.7543740981240982,1.254374098124098,250.87481962481962,,35.0,36.0,4.0,4.0
 egen_ekonomi,Din egen ekonomi,Styrräntan (%),2022,2026,0.7543740981240982,1.75,0.9956259018759018,131.98039332894973,,36.0,39.0,4.0,11.0
-ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2010,2014,108.4,114.4,6.0,5.535055350553505,bättre,54.0,54.0,14.0,7.0
+ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2010,2014,5.8,2.3,-3.5,-60.3448275862069,sämre,54.0,54.0,14.0,7.0
+ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2014,2018,2.3,1.8,-0.4999999999999998,-21.739130434782602,sämre,54.0,45.0,7.0,4.0
+ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2018,2022,1.8,1.3,-0.5,-27.77777777777778,sämre,45.0,44.0,4.0,4.0
 energi,Energi och kärnkraft,"Elpris egnahem (KPI, 1980=100)",2010,2014,633.9075000000001,577.8933333333333,-56.014166666666824,-8.83633127335878,bättre,29.0,28.0,23.0,13.0
 energi,Energi och kärnkraft,"Elpris egnahem (KPI, 1980=100)",2014,2018,577.8933333333333,678.2483333333333,100.35500000000002,17.365661483088,sämre,28.0,26.0,13.0,10.0
 energi,Energi och kärnkraft,"Elpris egnahem (KPI, 1980=100)",2018,2022,678.2483333333333,1024.5549999999998,346.3066666666665,51.05897790632239,sämre,26.0,45.0,10.0,26.0
 energi,Energi och kärnkraft,"Elpris egnahem (KPI, 1980=100)",2022,2026,1024.5549999999998,815.1058333333332,-209.44916666666666,-20.442940268376677,bättre,45.0,33.0,26.0,19.0
+energi,Energi och kärnkraft,"Elproduktion, kärnkraft (GWh/mån)",2022,2026,4168.666666666667,3363.4285714285716,-805.2380952380954,-19.316442393365474,,45.0,33.0,26.0,19.0
+invandring,Flyktingar/invandring,Invandringar,2010,2014,98801.0,126966.0,28165.0,28.50679648991407,,26.0,35.0,15.0,22.0
+invandring,Flyktingar/invandring,Invandringar,2014,2018,126966.0,132602.0,5636.0,4.438983664918167,,35.0,41.0,22.0,43.0
+invandring,Flyktingar/invandring,Invandringar,2018,2022,132602.0,102436.0,-30166.0,-22.749279799701362,,41.0,39.0,43.0,31.0
+jamstalldhet,Jämställdheten mellan kvinnor och män,Kvinnors lön i procent av mäns,2010,2014,86.0,87.0,1.0,1.1627906976744187,bättre,36.0,38.0,,
+lag,Lag och ordning,Anmälda brott per 100 000 inv,2010,2014,14612.71686,14890.02367,277.30681000000004,1.8977087741916328,sämre,34.0,35.0,10.0,7.0
+lag,Lag och ordning,Anmälda brott per 100 000 inv,2014,2018,14890.02367,15239.2478,349.2241299999987,2.3453564463003884,sämre,35.0,45.0,7.0,17.0
+lag,Lag och ordning,Anmälda brott per 100 000 inv,2018,2022,15239.2478,13802.59505,-1436.6527499999993,-9.427320618803767,bättre,45.0,50.0,17.0,41.0
+lag,Lag och ordning,Anmälda brott per 100 000 inv,2022,2026,13802.59505,13581.34072,-221.25432999999975,-1.6029908086016025,bättre,50.0,47.0,41.0,36.0
+lag,Lag och ordning,Anmälda våldsbrott per 100 000 inv,2010,2014,1204.17448,1107.66075,-96.5137299999999,-8.014929032543515,bättre,34.0,35.0,10.0,7.0
+lag,Lag och ordning,Anmälda våldsbrott per 100 000 inv,2014,2018,1107.66075,1063.2111,-44.44965000000002,-4.012929951702271,bättre,35.0,45.0,7.0,17.0
+lag,Lag och ordning,Anmälda våldsbrott per 100 000 inv,2018,2022,1063.2111,1022.93891,-40.27219000000002,-3.787788709128415,bättre,45.0,50.0,17.0,41.0
+lag,Lag och ordning,Anmälda våldsbrott per 100 000 inv,2022,2026,1022.93891,1066.80248,43.863570000000095,4.287995067075911,sämre,50.0,47.0,41.0,36.0
 lag,Lag och ordning,Döda i skjutningar per år,2018,2022,43.0,62.0,19.0,44.18604651162791,sämre,45.0,50.0,17.0,41.0
 lag,Lag och ordning,Döda i skjutningar per år,2022,2026,62.0,43.0,-19.0,-30.64516129032258,bättre,50.0,47.0,41.0,36.0
 lag,Lag och ordning,Skjutningar per år,2018,2022,325.0,391.0,66.0,20.307692307692307,sämre,45.0,50.0,17.0,41.0
 lag,Lag och ordning,Skjutningar per år,2022,2026,391.0,158.0,-233.0,-59.59079283887468,bättre,50.0,47.0,41.0,36.0
 lag,Lag och ordning,Sprängningar per år,2018,2022,90.0,90.0,0.0,0.0,,45.0,50.0,17.0,41.0
 lag,Lag och ordning,Sprängningar per år,2022,2026,90.0,194.0,104.0,115.55555555555556,sämre,50.0,47.0,41.0,36.0
+skola,Skola och utbildning,Gymnasieexamen inom 4 år,2018,2022,71.47401,73.669561,2.1955509999999947,3.071817294146494,bättre,54.0,50.0,30.0,24.0
+skola,Skola och utbildning,Gymnasieexamen inom 4 år,2022,2026,73.669561,74.754244,1.0846829999999983,1.4723625134673983,bättre,50.0,51.0,24.0,23.0
+valfard,Sociala välfärden,Ekonomiskt bistånd,2010,2014,4.64025,4.21264,-0.4276099999999996,-9.215236248046972,bättre,46.0,51.0,11.0,14.0
+valfard,Sociala välfärden,Ekonomiskt bistånd,2014,2018,4.21264,3.85342,-0.35922000000000054,-8.527194348437096,bättre,51.0,47.0,14.0,15.0
+valfard,Sociala välfärden,Ekonomiskt bistånd,2018,2022,3.85342,2.850348,-1.003072,-26.030694811362373,bättre,47.0,43.0,15.0,14.0
+valfard,Sociala välfärden,Ekonomiskt bistånd,2022,2026,2.850348,2.325919,-0.524429,-18.398770957090154,bättre,43.0,,14.0,14.0

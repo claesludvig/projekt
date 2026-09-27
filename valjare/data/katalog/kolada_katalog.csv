@@ -1,1 +1,85 @@
-
+fraga,namn,sok,id,titel,matchar,kommun,fran
+sjukvard,Besök i specialiserad vård inom 90 dagar,specialiserad vård inom 90 dagar,N79222,"Genomförd första kontakt inom högst 90 dagar i specialiserad vård, andel (%)",False,L,2027-03-03
+sjukvard,Besök i specialiserad vård inom 90 dagar,specialiserad vård inom 90 dagar,N79224,"Genomförd operation/åtgärd inom högst 90 dagar i specialiserad vård, andel (%)",False,L,2027-03-03
+sjukvard,Operation/åtgärd inom 90 dagar,åtgärd inom 90 dagar,N79224,"Genomförd operation/åtgärd inom högst 90 dagar i specialiserad vård, andel (%)",False,L,2027-03-03
+sjukvard,Kontakt med primärvården samma dag,primärvården samma dag,N79179,"Telefonsamtal till primärvården som besvarats samma dag, andel (%)",False,L,2027-03-03
+skola,Meritvärde åk 9,genomsnittligt meritvärde,U15415,"Meritvärde i åk. 9, modellberäknat genomsnittligt värde (SALSA)",False,K,2027-01-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17301,"Gymnasieelever med examen inom 4 år, kommunalförbund, andel (%)",False,K,2027-05-05
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17302,"Gymnasieelever med examen inom 4 år, högskoleförberedande program, kommunalförbund, andel (%)",False,K,2027-05-05
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17303,"Gymnasieelever med examen inom 4 år, yrkesprogram, kommunalförbund, andel (%)",False,K,2027-05-05
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17315,"Gymnasieelever med examen inom 4 år, introduktionsprogram, kommunalförbund, andel (%)",False,K,2027-05-05
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17457,"Gymnasieelever med examen eller studiebevis inom 4 år, hemkommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17458,"Gymnasieelever med examen eller studiebevis inom 4 år, lägeskommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17459,"Gymnasieelever med examen eller studiebevis inom 4 år, kommunala skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17460,"Gymnasieelever med examen eller studiebevis inom 4 år, fristående skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17461,"Gymnasieelever med examen inom 4 år, hemkommun, andel (%)",True,A,
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17462,"Gymnasieelever med examen inom 4 år, högskoleförberedande program hemkommun, andel (%)",True,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17463,"Gymnasieelever med examen inom 4 år, yrkesprogram hemkommun, andel (%)",True,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17464,"Gymnasieelever med examen inom 4 år, lägeskommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17465,"Gymnasieelever med examen inom 4 år, högskoleförberedande program lägeskommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17466,"Gymnasieelever med examen inom 4 år, yrkesprogram lägeskommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17467,"Gymnasieelever med examen inom 4 år, kommunala skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17468,"Gymnasieelever med examen inom 4 år, högskoleförberedande program kommunala skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17469,"Gymnasieelever med examen inom 4 år, yrkesprogram kommunala skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17470,"Gymnasieelever med examen inom 4 år, fristående skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17471,"Gymnasieelever med examen inom 4 år, högskoleförberedande program fristående skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17472,"Gymnasieelever med examen inom 4 år, yrkesprogram fristående skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17549,"Gymnasieelever med examen inom 4 år, introduktionsprogram hemkommun, andel (%)",True,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17550,"Gymnasieelever med examen eller studiebevis inom 4 år, introduktionsprogram hemkommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17551,"Gymnasieelever med examen inom 4 år, introduktionsprogram lägeskommun, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17553,"Gymnasieelever med examen inom 4 år, introduktionsprogram kommunala skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N17555,"Gymnasieelever med examen inom 4 år, introduktionsprogram fristående skolor, andel (%)",False,K,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N60960,"Gymnasieelever med examen eller studiebevis inom 4 år region, andel (%)",False,L,2026-11-30
+skola,Gymnasieexamen inom 4 år,examen inom 4 år,N60978,"Gymnasieelever med examen inom 4 år region, andel (%)",False,L,2026-11-30
+aldre,Väntetid till särskilt boende (dagar),väntetid i antal dagar från ansökningsdatum,U23401,"Väntetid i antal dagar från ansökningsdatum till första erbjudet inflyttningsdatum till särskilt boende, medelvärde",False,K,
+aldre,Väntetid till särskilt boende (dagar),väntetid i antal dagar från ansökningsdatum,U23402,"Väntetid i antal dagar från ansökningsdatum till första erbjudet inflyttningsdatum till särskilt boende, median (- 2024)",False,K,
+aldre,"Nöjdhet särskilt boende, helhetssyn",särskilt boende äldreomsorg - helhetssyn,U23443,"Brukarbedömning särskilt boende äldreomsorg - Enskild regi - helhetssyn, andel (%)",False,K,2026-10-04
+aldre,"Nöjdhet särskilt boende, helhetssyn",särskilt boende äldreomsorg - helhetssyn,U23458,"Brukarbedömning särskilt boende äldreomsorg - Kommunal regi - helhetssyn, andel (%)",False,K,2026-10-04
+aldre,"Nöjdhet särskilt boende, helhetssyn",särskilt boende äldreomsorg - helhetssyn,U23471,"Brukarbedömning särskilt boende äldreomsorg -  helhetssyn, andel (%)",False,K,2026-10-04
+lag,Anmälda brott per 100 000 inv,anmälda brott totalt,N07540,"Anmälda brott totalt, antal/100 000 inv",True,K,2027-03-31
+lag,Anmälda våldsbrott per 100 000 inv,anmälda våldsbrott,N07403,"Anmälda våldsbrott, antal/100 000 inv",True,A,2027-03-31
+lag,Anmälda våldsbrott per 100 000 inv,anmälda våldsbrott,U00489,"Avvikelse från modellberäknat värde för anmälda våldsbrott, (Färre än=2, lika många=1, fler än=0)",False,K,2026-12-03
+jobb,Långtidsarbetslöshet 25–64 år,långtidsarbetslöshet,N03922,"Långtidsarbetslöshet 16-24 år, årsmedelvärde, andel (%) av bef. (-2024)",False,A,
+jobb,Långtidsarbetslöshet 25–64 år,långtidsarbetslöshet,N03923,"Långtidsarbetslöshet 15-74 år, årsmedelvärde, andel (%) av arbetslösa (-2024)",False,A,
+jobb,Långtidsarbetslöshet 25–64 år,långtidsarbetslöshet,N03925,"Långtidsarbetslöshet 16-24 år, årsmedelvärde, andel (%) av arbetslösa (-2024)",False,A,
+valfard,Ekonomiskt bistånd,erhållit ekonomiskt bistånd,N31807,"Invånare som någon gång under året erhållit ekonomiskt bistånd, andel (%) av bef.",True,A,2027-06-10
+valfard,Ekonomiskt bistånd,erhållit ekonomiskt bistånd,N60801,"Hushåll med ekonomiskt bistånd som erhållit bistånd i 10-12 månader under året, region, andel (%)",False,L,
+invandring,Utrikes födda,födda utomlands,N18902,"Elever i komvux (exkl. anpassad utbildning) som är födda utomlands, i huvudmannens skolenheter, andel (%) (-2024)",False,K,
+invandring,Utrikes födda,födda utomlands,N18903,"Elever i komvux på grundläggande nivå som är födda utomlands, i huvudmannens skolenheter, andel (%)",False,K,2027-06-11
+invandring,Utrikes födda,födda utomlands,N18904,"Elever i komvux på gymnasial nivå som är födda utomlands, i huvudmannens skolenheter, andel (%)",False,K,2027-06-11
+invandring,Nyanlända mottagna,nyanlända,U30461,"Bostadsmarknadsläget i kommunen, självbosatta nyanlända, (Överskott=2, Balans=1, Underskott=0)",False,K,2027-05-19
+invandring,Nyanlända mottagna,nyanlända,U30464,"Kommunen tar emot anvisade nyanlända, (Ja=1, Nej=0)",False,K,2027-05-19
+invandring,Nyanlända mottagna,nyanlända,U30465,"Kommunen har goda möjligheter att erbjuda anvisade nyanlända bostad, (Ja=1, Nej=0)",False,K,2027-05-19
+skatter,Total skattesats,total skattesats,N00900,"Skattesats, totalt (%)",False,K,2026-12-15
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N00401,"Utsläpp till luft av växthusgaser totalt, ton CO2-ekv/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N07702,"Utsläpp till luft av växthusgaser totalt, ton CO2-ekv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85072,"Utsläpp till luft av växthusgaser, egen uppvärmning, ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85073,"Utsläpp till luft av växthusgaser, transporter, ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85075,"Utsläpp till luft av växthusgaser, arbetsmaskiner, ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85076,"Utsläpp till luft av växthusgaser, el och fjärrvärme, ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85077,"Utsläpp till luft av växthusgaser, industri, ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85078,"Utsläpp till luft av växthusgaser, jordbruk, ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85532,"Utsläpp till luft av växthusgaser, egen uppvärmning, ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85533,"Utsläpp till luft av växthusgaser, transporter, ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85535,"Utsläpp till luft av växthusgaser, arbetsmaskiner, ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85536,"Utsläpp till luft av växthusgaser, el och fjärrvärme, ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85537,"Utsläpp till luft av växthusgaser, industri, ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85538,"Utsläpp till luft av växthusgaser, jordbruk, ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85540,"Utsläpp till luft av växthusgaser, produktanvändning (inklusive lösningsmedel), ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85541,"Utsläpp till luft av växthusgaser, produktanvändning (inklusive lösningsmedel), ton CO2e/inv",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85542,"Utsläpp till luft av växthusgaser, avfall (inklusive avlopp), ton CO2e",False,A,2027-06-09
+klimat,Växthusgasutsläpp per invånare,växthusgaser,N85543,"Utsläpp till luft av växthusgaser, avfall (inklusive avlopp), ton CO2e/inv",False,A,2027-06-09
+bostad,Färdigställda bostäder per 1 000 inv,färdigställda bostäder,N07905,"Färdigställda bostäder i småhus, antal/1000 inv",False,K,2027-05-15
+bostad,Färdigställda bostäder per 1 000 inv,färdigställda bostäder,N07906,"Färdigställda bostäder i flerbostadshus, nybyggnad, antal/1000inv",False,K,2027-05-15
+bostad,Färdigställda bostäder per 1 000 inv,färdigställda bostäder,N07916,"Färdigställda bostäder, ny- och ombyggnad, antal/1000 inv",False,A,2026-05-15
+bostad,Färdigställda bostäder per 1 000 inv,färdigställda bostäder,N07917,"Färdigställda bostäder, nybyggnad, antal/1000 inv",False,K,2027-05-15
+pension,Låg ekonomisk standard 65+,låg ekonomisk standard,N01454,"Invånare 25+ med varaktigt låg ekonomisk standard (relativ), åldersstandardiserat, andel (%)",False,A,2026-11-20
+pension,Låg ekonomisk standard 65+,låg ekonomisk standard,N66077,"Invånare, 0-19 år, med låg ekonomisk standard, andel (%)",False,A,2027-01-25
+pension,Låg ekonomisk standard 65+,låg ekonomisk standard,N66078,"Invånare, 20-64 år, med låg ekonomisk standard, andel (%)",False,A,2027-01-25
+pension,Låg ekonomisk standard 65+,låg ekonomisk standard,N66079,"Invånare, 65+ år, med låg ekonomisk standard, andel (%)",False,A,2027-01-25
+pension,Låg ekonomisk standard 65+,låg ekonomisk standard,N66080,"Invånare med låg ekonomisk standard, andel (%)",False,A,2027-01-25
+jamstalldhet,Kvinnors inkomst i procent av mäns,kvinnors,N00892,"Kvinnors mediannettoinkomst som andel av mäns mediannettoinkomst, 65+ år, andel (%)",False,A,2027-01-21
+jamstalldhet,Kvinnors inkomst i procent av mäns,kvinnors,N00952,"Kvinnors mediannettoinkomst som andel av mäns mediannettoinkomst, andel (%)",False,A,2027-01-21
+jamstalldhet,Kvinnors inkomst i procent av mäns,kvinnors,N00953,"Kvinnors medianlön som andel av mäns medianlön, kommunalt anställda, andel (%)",False,K,2027-05-22
+jamstalldhet,Kvinnors inkomst i procent av mäns,kvinnors,N00958,"Kvinnors medianlön som andel av mäns medianlön, anställda av regionen, andel (%)",False,L,2027-05-22
+jamstalldhet,Kvinnors inkomst i procent av mäns,kvinnors,N60987,"Kvinnors andel av männens lönesumma, dagbefolkning, andel (%)",False,A,2027-05-05
