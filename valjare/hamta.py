@@ -430,6 +430,16 @@ def hamta_kolada():
     print("Kolada")
     kat, valda = [], {}
     for fraga, namn, sok, valj, _ in KOLADA:
+        if re.fullmatch(r"[NU]\d{5}", sok):          # känt id
+            try:
+                meta = _kolada_alla(f"kpi/{sok}", {})
+            except Exception:  # noqa: BLE001
+                meta = []
+            titel = meta[0].get("title", namn) if meta else namn
+            valda[sok] = (fraga, namn, titel)
+            kat.append({"fraga": fraga, "namn": namn, "sok": sok, "id": sok, "titel": titel, "matchar": True})
+            print(f"  {namn}: id {sok}")
+            continue
         try:
             traffar = _kolada_alla("kpi", {"title": sok})
         except Exception as exc:  # noqa: BLE001
