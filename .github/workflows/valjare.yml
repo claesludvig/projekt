@@ -45,7 +45,7 @@ jobs:
           for i in 1 2 3 4 5; do
             git push && exit 0
             echo "Push misslyckades (försök $i), hämtar och rebasar..."
-            git pull --rebase
+            git pull --rebase --autostash
             sleep $((i * 3))
           done
           git push

@@ -197,7 +197,9 @@ def scb_hamta_tabell(tab_id: str, region: str, max_celler: int,
         celler *= len(v)
     info = {"celler": celler, "variabler": {
         d: {"etikett": meta["dimension"][d].get("label", d), "antal": len(urval[d])}
-        for d in meta["id"]}}
+        for d in meta["id"] if d in urval}}
+    if utelamna:
+        info["utelamnade"] = list(utelamna)
     if celler > max_celler:
         info["status"] = f"hoppad: {celler} celler > {max_celler}"
         return pd.DataFrame(), info
