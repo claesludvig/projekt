@@ -405,6 +405,85 @@ def hamta_dokument(tvinga: bool = False):
         logg["lanksidor"].append(post)
 
 
+# ---------- Kolada och Riksbanken ----------
+
+KOLADA_API = "https://api.kolada.se/v2"
+
+
+def _kolada_alla(url: str) -> list[dict]:
+    ut = []
+    while url:
+        r = http("GET", url)
+        if r.status_code != 200:
+            raise RuntimeError(f"HTTP {r.status_code}")
+        j = r.json()
+        ut += j.get("values", [])
+        url = j.get("next_page")
+    return ut
+
+
+def hamta_kolada():
+    """Nyckeltal per kommun, region och riket för verklighetsindikatorerna."""
+    from verklighet_katalog import KOLADA
+    print("Kolada")
+    kat, valda = [], {}
+    for fraga, namn, sok, valj, _ in KOLADA:
+        try:
+            traffar = _kolada_alla(f"{KOLADA_API}/kpi?title={requests.utils.quote(sok)}")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"kolada sök {sok}: {exc}")
+            continue
+        vald = None
+        for t in traffar:
+            ok = re.search(valj, t.get("title", "")) is not None
+            kat.append({"fraga": fraga, "namn": namn, "sok": sok, "id": t.get("id"),
+                        "titel": t.get("title"), "matchar": ok,
+                        "kommun": t.get("municipality_type"), "fran": t.get("publication_date")})
+            if ok and vald is None:
+                vald = t
+        if vald:
+            valda[vald["id"]] = (fraga, namn, vald["title"])
+        print(f"  {namn}: {len(traffar)} träffar, vald {vald['id'] if vald else '–'}")
+    KAT_DIR.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(kat).to_csv(KAT_DIR / "kolada_katalog.csv", index=False)
+    ut_dir = DATA_DIR / "kolada"
+    ut_dir.mkdir(parents=True, exist_ok=True)
+    ar = ",".join(str(a) for a in range(2006, datetime.now().year + 1))
+    for kid, (fraga, namn, titel) in valda.items():
+        try:
+            v = _kolada_alla(f"{KOLADA_API}/data/kpi/{kid}/year/{ar}")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"kolada data {kid}: {exc}")
+            continue
+        rader = []
+        for rad in v:
+            for x in rad.get("values", []):
+                if x.get("gender") in ("T", None) and x.get("value") is not None:
+                    rader.append({"kpi": kid, "titel": titel, "fraga": fraga, "namn": namn,
+                                  "region_kod": rad.get("municipality"), "ar": rad.get("period"),
+                                  "varde": x.get("value")})
+        pd.DataFrame(rader).to_csv(ut_dir / f"{kid}.csv.gz", index=False,
+                                   compression={"method": "gzip", "mtime": 0})
+        logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(rader)})
+        print(f"  {kid} {namn}: {len(rader)} rader")
+
+
+def hamta_riksbanken():
+    from verklighet_katalog import RIKSBANKEN
+    ut_dir = DATA_DIR / "riksbanken"
+    ut_dir.mkdir(parents=True, exist_ok=True)
+    for _, namn, serie, _ in RIKSBANKEN:
+        try:
+            r = http("GET", f"https://api.riksbank.se/swea/v1/Observations/{serie}/2000-01-01")
+            if r.status_code != 200:
+                raise RuntimeError(f"HTTP {r.status_code}")
+            df = pd.DataFrame(r.json())
+            df.to_csv(ut_dir / f"{serie}.csv", index=False)
+            print(f"  Riksbanken {serie}: {len(df)} observationer")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"riksbanken {serie}: {exc}")
+
+
 # ---------- geodata ----------
 
 GEO_DIR = DATA_DIR / "geo_ra"      # råfiler, ej i git (stora)
@@ -530,7 +609,7 @@ def hamta_geodata():
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo"], default="alla")
+    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet"], default="alla")
     p.add_argument("--tema", help="bara ett SCB-tema (t.ex. psu)")
     p.add_argument("--tvinga", action="store_true", help="hämta allt, även oförändrat")
     a = p.parse_args()
@@ -538,6 +617,9 @@ def main():
         hamta_scb(a.tema, a.tvinga)
     if a.steg in ("alla", "dokument"):
         hamta_dokument(a.tvinga)
+    if a.steg in ("alla", "verklighet"):
+        hamta_kolada()
+        hamta_riksbanken()
     if a.steg in ("alla", "geo"):
         hamta_geodata()
     logg["slut"] = datetime.now(timezone.utc).isoformat()
