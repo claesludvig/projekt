@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T10:37:11.980401+00:00",
+ "start": "2026-09-27T11:44:02.783635+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1039,6 +1039,62 @@
    "status": "oförändrad, ej hämtad"
   },
   {
+   "id": "TAB6091",
+   "rubrik": "Personbilar, registrerade på folkbokförda personer 31 december, efter status och region (uppdateras ej). År 2015-2023",
+   "tema": "bil",
+   "celler": 8424,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Bestand": {
+     "etikett": "status",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 9
+    }
+   },
+   "status": "ok",
+   "rader": 8424,
+   "uppdaterad": "2024-04-12T06:00:00Z",
+   "kalla": "Trafikanalys"
+  },
+  {
+   "id": "TAB6589",
+   "rubrik": "Personbilar, registrerade på folkbokförda personer 31 december, efter status och region. År 2024-2025",
+   "tema": "bil",
+   "celler": 1872,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Bestand": {
+     "etikett": "status",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 2
+    }
+   },
+   "status": "ok",
+   "rader": 1872,
+   "uppdaterad": "2026-04-02T06:00:00Z",
+   "kalla": "Trafikanalys"
+  },
+  {
    "id": "TAB6571_deso",
    "rubrik": "DeSO: utländsk/svensk bakgrund och kön",
    "tema": "deso",
@@ -1305,6 +1361,22 @@
    "typ": "svenska_valjare",
    "url": "https://www.gu.se/sites/default/files/2023-03/F2023_12.pdf",
    "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "som_trender_1986_2025",
+   "typ": "som",
+   "url": "https://www.gu.se/sites/default/files/2026-03/Svenska%20trender%201986-2025.pdf",
+   "fil": "data/kallor/pdf/som_trender_1986_2025.pdf",
+   "bytes": 3427807,
+   "status": "ok"
+  },
+  {
+   "id": "som_trender_1986_2022",
+   "typ": "som",
+   "url": "https://www.gu.se/sites/default/files/2023-04/1.%20Svenska%20trender%201986-2022.pdf",
+   "fil": "data/kallor/pdf/som_trender_1986_2022.pdf",
+   "bytes": 6645420,
+   "status": "ok"
   },
   {
    "id": "gu_vansterpartiet_2025",
@@ -1714,6 +1786,18 @@
    "status": "HTTP 200"
   },
   {
+   "id": "polisen",
+   "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+   "lankar": [],
+   "status": "fel: list index out of range"
+  },
+  {
+   "id": "bra_sprangningar",
+   "url": "https://bra.se/nyheter/arkiv/2026-03-04-statistik-om-sprangningar",
+   "lankar": [],
+   "status": "HTTP 200"
+  },
+  {
    "id": "val_radata_2026",
    "url": "https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026",
    "lankar": [
@@ -1770,5 +1854,5 @@
   }
  ],
  "fel": [],
- "slut": "2026-09-27T10:42:42.696836+00:00"
+ "slut": "2026-09-27T11:49:31.881691+00:00"
 }
