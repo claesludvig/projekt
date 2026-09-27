@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T12:51:20.751024+00:00",
+ "start": "2026-09-27T13:54:07.077544+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1072,77 +1072,13 @@
    "id": "TAB6514",
    "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, typ av data, kön och ålder. År 2001-2025",
    "tema": "verklighet",
-   "celler": 40800,
-   "variabler": {
-    "Arbetskraftstillh": {
-     "etikett": "arbetskraftstillhörighet",
-     "antal": 8
-    },
-    "TypData": {
-     "etikett": "typ av data",
-     "antal": 4
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 17
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 25
-    }
-   },
-   "status": "ok",
-   "rader": 40800,
-   "uppdaterad": "2026-01-23T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6529",
    "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, inrikes/utrikes född, typ av data, kön och ålder. År 2005-2025",
    "tema": "verklighet",
-   "celler": 60480,
-   "variabler": {
-    "Arbetskraftstillh": {
-     "etikett": "arbetskraftstillhörighet",
-     "antal": 8
-    },
-    "InrikesUtrikes": {
-     "etikett": "inrikes/utrikes född",
-     "antal": 3
-    },
-    "TypData": {
-     "etikett": "typ av data",
-     "antal": 4
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 10
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 21
-    }
-   },
-   "status": "ok",
-   "rader": 60480,
-   "uppdaterad": "2026-01-23T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB5621",
@@ -1172,15 +1108,27 @@
    "id": "TAB4698",
    "rubrik": "Totala utsläpp och upptag av växthusgaser efter växthusgas och sektor. År 1990-2024",
    "tema": "verklighet",
-   "celler": 5390,
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB1618",
+   "rubrik": "Invandringar och utvandringar efter medborgarskap och kön. År 2000-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5241",
+   "rubrik": "Tabell 5.23 - Återstående medellivslängd vid 0, 30 respektive 65 års ålder. År 1960-2024",
+   "tema": "verklighet",
+   "celler": 390,
    "variabler": {
-    "Vaxthusgaser": {
-     "etikett": "växthusgas",
-     "antal": 11
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 3
     },
-    "Sektor": {
-     "etikett": "sektor",
-     "antal": 14
+    "Kon": {
+     "etikett": "kön",
+     "antal": 2
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
@@ -1188,19 +1136,13 @@
     },
     "Tid": {
      "etikett": "år",
-     "antal": 35
+     "antal": 65
     }
    },
    "status": "ok",
-   "rader": 5390,
-   "uppdaterad": "2025-12-16T07:00:00Z",
-   "kalla": "Naturvårdsverket"
-  },
-  {
-   "id": "TAB1618",
-   "rubrik": "Invandringar och utvandringar efter medborgarskap och kön. År 2000-2024",
-   "tema": "verklighet",
-   "status": "oförändrad, ej hämtad"
+   "rader": 390,
+   "uppdaterad": "2025-10-15T06:00:00Z",
+   "kalla": "SCB"
   },
   {
    "id": "TAB5940",
@@ -1212,65 +1154,37 @@
    "id": "TAB4274",
    "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter SNI 2007 och kön .  År 2014-2022",
    "tema": "verklighet",
-   "celler": 2160,
-   "variabler": {
-    "SNI2007": {
-     "etikett": "näringsgren SNI 2007",
-     "antal": 20
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 9
-    }
-   },
-   "status": "ok",
-   "rader": 2160,
-   "uppdaterad": "2024-03-12T07:00:00Z",
-   "kalla": "Medlingsinstitutet"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB2570",
    "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter region, sektor, yrkesgrupp (SSYK) och kön. År 2003-2013",
    "tema": "verklighet",
-   "celler": 121440,
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5124",
+   "rubrik": "Tabell 2.9 - Kvinnors lön som andel av mäns lön efter sektor. År 1992-2024",
+   "tema": "verklighet",
+   "celler": 330,
    "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 1
-    },
     "Sektor": {
      "etikett": "sektor",
-     "antal": 8
-    },
-    "Yrkesgrupp": {
-     "etikett": "yrkesgrupp (SSYK)",
-     "antal": 115
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
+     "antal": 5
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
-     "antal": 4
+     "antal": 2
     },
     "Tid": {
      "etikett": "år",
-     "antal": 11
+     "antal": 33
     }
    },
    "status": "ok",
-   "rader": 121440,
-   "uppdaterad": "2014-06-17T07:30:00Z",
-   "kalla": "Medlingsinstitutet"
+   "rader": 330,
+   "uppdaterad": "2025-12-10T07:00:00Z",
+   "kalla": "SCB"
   },
   {
    "id": "TAB78",
@@ -2189,25 +2103,100 @@
  "fel": [],
  "kolada": [
   {
-   "id": "N17461",
-   "namn": "Gymnasieexamen inom 4 år",
-   "rader": 40118
+   "id": "N79222",
+   "namn": "Första kontakt i specialiserad vård inom 90 dagar",
+   "rader": 99
+  },
+  {
+   "id": "N79224",
+   "namn": "Operation/åtgärd inom 90 dagar",
+   "rader": 99
+  },
+  {
+   "id": "N79179",
+   "namn": "Telefonsamtal till primärvården besvarade samma dag",
+   "rader": 328
+  },
+  {
+   "id": "N17457",
+   "namn": "Examen/studiebevis inom 4 år (gymnasiet)",
+   "rader": 582
+  },
+  {
+   "id": "N15428",
+   "namn": "Behöriga till yrkesprogram, åk 9",
+   "rader": 582
+  },
+  {
+   "id": "U23401",
+   "namn": "Väntetid till särskilt boende (dagar)",
+   "rader": 207
+  },
+  {
+   "id": "U23471",
+   "namn": "Nöjdhet särskilt boende, helhetssyn (%)",
+   "rader": 542
   },
   {
    "id": "N07540",
    "namn": "Anmälda brott per 100 000 inv",
-   "rader": 64224
+   "rader": 582
   },
   {
    "id": "N07403",
    "namn": "Anmälda våldsbrott per 100 000 inv",
-   "rader": 58163
+   "rader": 42
+  },
+  {
+   "id": "N03923",
+   "namn": "Långtidsarbetslösa, andel av arbetslösa (%)",
+   "rader": 624
+  },
+  {
+   "id": "N66080",
+   "namn": "Låg ekonomisk standard (%)",
+   "rader": 624
   },
   {
    "id": "N31807",
-   "namn": "Ekonomiskt bistånd",
-   "rader": 73036
+   "namn": "Ekonomiskt bistånd (% av bef.)",
+   "rader": 624
+  },
+  {
+   "id": "N02900",
+   "namn": "Utrikes födda (% av bef.)",
+   "rader": 580
+  },
+  {
+   "id": "N00900",
+   "namn": "Total skattesats (%)",
+   "rader": 579
+  },
+  {
+   "id": "N00401",
+   "namn": "Växthusgasutsläpp per invånare (ton)",
+   "rader": 0
+  },
+  {
+   "id": "N07702",
+   "namn": "Växthusgasutsläpp totalt (ton)",
+   "rader": 0
+  },
+  {
+   "id": "N07917",
+   "namn": "Färdigställda bostäder, nybyggnad, per 1 000 inv",
+   "rader": 582
+  },
+  {
+   "id": "N66079",
+   "namn": "Låg ekonomisk standard 65+ (%)",
+   "rader": 624
+  },
+  {
+   "id": "N00952",
+   "namn": "Kvinnors mediannettoinkomst i % av mäns",
+   "rader": 622
   }
  ],
- "slut": "2026-09-27T13:00:35.531005+00:00"
+ "slut": "2026-09-27T14:01:09.665303+00:00"
 }
