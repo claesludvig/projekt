@@ -46,6 +46,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Skydd: GitHub tar inte emot filer över 100 MB
+          for f in $(find valjare/data -type f -size +90M); do echo "För stor, committas inte: $f"; git rm -q --cached "$f" 2>/dev/null || true; echo "$f" >> .git/info/exclude; done
           git add -A valjare/data valjare/index.html
           git diff --cached --quiet && exit 0
           git commit -m "Auto: uppdaterad väljardatabas"

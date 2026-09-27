@@ -412,16 +412,16 @@ KOLADA_API = "https://api.kolada.se/v3"
 
 def _kolada_alla(sokvag: str, params: dict) -> list[dict]:
     """v3: frågeparametrar, sidor via page/per_page, nästa sida anges i next_url."""
-    ut, sida = [], 1
-    while True:
-        r = http("GET", f"{KOLADA_API}/{sokvag}", params={**params, "page": sida, "per_page": 5000})
+    ut, url, par, sedda = [], f"{KOLADA_API}/{sokvag}", {**params, "per_page": 5000}, set()
+    while url and url not in sedda and len(sedda) < 200:
+        sedda.add(url)
+        r = http("GET", url, params=par)
         if r.status_code != 200:
             raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
         j = r.json()
         ut += j.get("values", [])
-        if not j.get("next_url") and not j.get("next_page"):
-            return ut
-        sida += 1
+        url, par = j.get("next_url") or j.get("next_page"), None   # nästa sida är en färdig adress
+    return ut
 
 
 def hamta_kolada():
@@ -474,10 +474,13 @@ def hamta_kolada():
                     rader.append({"kpi": kid, "titel": titel, "fraga": fraga, "namn": namn,
                                   "region_kod": rad.get("municipality") or rad.get("municipality_id"),
                                   "ar": rad.get("period") or rad.get("year"), "varde": x.get("value")})
-        pd.DataFrame(rader).to_csv(ut_dir / f"{kid}.csv.gz", index=False,
+        df = pd.DataFrame(rader)
+        if len(df):   # bara riket, regioner och kommuner (inte jämförelsegrupper)
+            df = df[df.region_kod.astype(str).str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
+        df.to_csv(ut_dir / f"{kid}.csv.gz", index=False,
                                    compression={"method": "gzip", "mtime": 0})
-        logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(rader)})
-        print(f"  {kid} {namn}: {len(rader)} rader")
+        logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(df)})
+        print(f"  {kid} {namn}: {len(df)} rader")
 
 
 def hamta_riksbanken():

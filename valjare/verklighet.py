@@ -35,6 +35,7 @@ def kolada(data_dir: Path) -> pd.DataFrame:
         if d.empty:
             continue
         d["region_kod"] = d.region_kod.str.zfill(4)
+        d = d[d.region_kod.str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
         delar.append(pd.DataFrame({
             "fraga": d.fraga, "indikator": d.namn, "kalla": "Kolada " + d.kpi,
             "niva": d.region_kod.map(_niva), "region_kod": d.region_kod,
