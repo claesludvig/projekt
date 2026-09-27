@@ -95,6 +95,14 @@ egen_ekonomi,Låg ekonomisk standard (%),2022,2026,L,-0.1501012351746386,-0.0300
 egen_ekonomi,Låg ekonomisk standard (%),2022,2026,KD,-0.061178785993038574,-0.011870307120350053,290
 egen_ekonomi,Låg ekonomisk standard (%),2022,2026,M,-0.3314428830658809,0.0878056896908083,290
 egen_ekonomi,Låg ekonomisk standard (%),2022,2026,SD,0.10609932965541773,-0.2045156734338035,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,V,0.06827405491872049,0.46442808941948377,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,S,0.15412852055181012,0.07867334785276531,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,MP,-0.034686182082158096,-0.24087032273327136,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,C,0.20597972338569373,-0.12673758618209974,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,L,0.053907063963533876,0.052636224557217746,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,KD,-0.030972290195365,-0.04315032715139813,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,M,-0.20276933774269956,-0.08551589677556665,290
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",2022,2026,SD,0.04984958429490502,-0.2242462241806096,290
 invandring,Utrikes födda (% av bef.),2010,2014,V,-0.284577137017926,-0.09956836028594211,290
 invandring,Utrikes födda (% av bef.),2010,2014,S,-0.4384247634894759,-0.3274714159373748,290
 invandring,Utrikes födda (% av bef.),2010,2014,MP,-0.30576924711482883,-0.0969770265809151,290
@@ -159,6 +167,14 @@ jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,2022,2026,L,0.198314539428
 jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,2022,2026,KD,0.0065381278810178346,-0.030576112789493088,290
 jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,2022,2026,M,0.08422404217006688,0.048758152704924465,290
 jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,2022,2026,SD,-0.14993197078555992,0.19885401841043682,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,V,0.11375960128787668,0.6990966069089691,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,S,0.20872988517123456,0.28483820219293,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,MP,-0.12379358269752351,-0.2768871460548369,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,C,0.22773868168316921,-0.15087396846857462,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,L,0.07711518517854744,-0.041856864948257945,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,KD,-0.012406950189931784,-0.10726213493551323,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,M,-0.2526458652531482,-0.2743809287526576,290
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",2022,2026,SD,-0.047607168090707135,-0.27164724350210784,290
 jobb,"Långtidsarbetslösa, andel av arbetslösa (%)",2014,2018,V,-0.14544869337689414,-0.0673128305213286,290
 jobb,"Långtidsarbetslösa, andel av arbetslösa (%)",2014,2018,S,-0.04268476498821656,-0.005996127482838367,290
 jobb,"Långtidsarbetslösa, andel av arbetslösa (%)",2014,2018,MP,0.2270310744514917,-0.05203945449393953,290
@@ -423,6 +439,22 @@ skola,Examen/studiebevis inom 4 år (gymnasiet),2022,2026,L,0.005545751700891039
 skola,Examen/studiebevis inom 4 år (gymnasiet),2022,2026,KD,-0.1171110968767305,-0.09909146985424115,280
 skola,Examen/studiebevis inom 4 år (gymnasiet),2022,2026,M,0.0754330500086152,-0.07742372460232405,280
 skola,Examen/studiebevis inom 4 år (gymnasiet),2022,2026,SD,-0.11924169989308239,0.09548913104971224,280
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,V,0.08865593112381787,0.24210421998966145,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,S,-0.0689809730015307,0.5952259436287436,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,MP,-0.012089168333646478,0.10684977340414903,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,C,0.04742724956128413,0.3453055218868156,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,L,-0.01671340480786161,-0.27438425897217195,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,KD,0.03350339249706971,-0.452296819191748,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,M,-0.0041737190396620195,-0.47220753156520356,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,SD,-0.03380145057069167,-0.5754962499012448,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,V,-0.008239176730183097,0.04109040456476136,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,S,-0.08149875352820149,0.16290420034998118,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,MP,0.08988400563855264,0.09296537704148446,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,C,0.15975460334274608,0.4316943660797162,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,L,-0.12189455917353775,-0.17161758661154894,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,KD,-0.022373311297295875,-0.10092639254748173,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,M,-0.0378624951149476,-0.3780127292340223,290
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,SD,0.10214296524357148,0.21310507472567028,290
 valfard,Ekonomiskt bistånd (% av bef.),2010,2014,V,-0.023848663184102347,-0.10552980288375288,285
 valfard,Ekonomiskt bistånd (% av bef.),2010,2014,S,0.026228732153782356,-0.26718799644210806,285
 valfard,Ekonomiskt bistånd (% av bef.),2010,2014,MP,-0.14256647522991542,-0.3194548469252128,285

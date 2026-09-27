@@ -102,6 +102,9 @@ miljo,Miljön,"Skyddad natur, andel av landareal (%)",2018,2022,10.84125471,11.4
 miljo,Miljön,"Skyddad natur, andel av landareal (%)",2022,2026,11.48437932,12.05007844,0.5656991199999997,4.925813613756531,bättre,28.0,26.0,26.0,19.0
 pension,Pensionerna,Låg ekonomisk standard 65+ (%),2014,2018,13.0,14.0,1.0,7.6923076923076925,sämre,40.0,41.0,17.0,14.0
 pension,Pensionerna,Låg ekonomisk standard 65+ (%),2018,2022,14.0,13.0,-1.0,-7.142857142857143,bättre,41.0,37.0,14.0,13.0
+sjukvard,Sjukvården,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),2014,2018,98.71069743,97.06264747,-1.6480499599999945,-1.6695758442682442,sämre,55.0,56.0,28.0,37.0
+sjukvard,Sjukvården,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),2018,2022,97.06264747,91.89286572,-5.1697817499999985,-5.326231959207447,sämre,56.0,54.0,37.0,33.0
+sjukvard,Sjukvården,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),2022,2026,91.89286572,89.9874481,-1.9054176200000086,-2.073520729896341,sämre,54.0,53.0,33.0,29.0
 sjukvard,Sjukvården,"Medellivslängd vid födseln, kvinnor (år)",2010,2014,83.49,84.05,0.5600000000000023,0.670739010659962,bättre,50.0,55.0,24.0,28.0
 sjukvard,Sjukvården,"Medellivslängd vid födseln, kvinnor (år)",2014,2018,84.05,84.25,0.20000000000000284,0.237953599048189,bättre,55.0,56.0,28.0,37.0
 sjukvard,Sjukvården,"Medellivslängd vid födseln, kvinnor (år)",2018,2022,84.25,84.73,0.480000000000004,0.5697329376854646,bättre,56.0,54.0,37.0,33.0
@@ -120,6 +123,8 @@ skola,Skola och utbildning,"Behöriga till yrkesprogram, åk 9",2018,2022,84.4,8
 skola,Skola och utbildning,"Behöriga till yrkesprogram, åk 9",2022,2026,85.310222,83.629288,-1.6809339999999935,-1.97037818047173,sämre,50.0,51.0,24.0,23.0
 skola,Skola och utbildning,Examen/studiebevis inom 4 år (gymnasiet),2018,2022,78.582502,79.832632,1.2501299999999986,1.590850339685034,bättre,54.0,50.0,30.0,24.0
 skola,Skola och utbildning,Examen/studiebevis inom 4 år (gymnasiet),2022,2026,79.832632,81.996124,2.163491999999991,2.710034663519538,bättre,50.0,51.0,24.0,23.0
+skola,Skola och utbildning,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2018,2022,230.0,230.0,0.0,0.0,,54.0,50.0,30.0,24.0
+skola,Skola och utbildning,"Meritvärde åk 9 (hemkommun, 17 ämnen)",2022,2026,230.0,230.0,0.0,0.0,,50.0,51.0,24.0,23.0
 valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2010,2014,4.64025,4.21264,-0.4276099999999996,-9.215236248046972,bättre,46.0,51.0,11.0,14.0
 valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2014,2018,4.21264,3.85342,-0.35922000000000054,-8.527194348437096,bättre,51.0,47.0,14.0,15.0
 valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2018,2022,3.85342,2.850348,-1.003072,-26.030694811362373,bättre,47.0,43.0,15.0,14.0

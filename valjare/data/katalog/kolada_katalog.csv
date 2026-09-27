@@ -64,35 +64,9 @@ klimat,Växthusgasutsläpp totalt (ton),N07702,N07702,"Utsläpp till luft av vä
 bostad,"Färdigställda bostäder, nybyggnad, per 1 000 inv",N07917,N07917,"Färdigställda bostäder, nybyggnad, antal/1000 inv",True,,
 pension,Låg ekonomisk standard 65+ (%),N66079,N66079,"Invånare, 65+ år, med låg ekonomisk standard, andel (%)",True,,
 jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,N00952,N00952,"Kvinnors mediannettoinkomst som andel av mäns mediannettoinkomst, andel (%)",True,,
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15504,"Elever i åk. 9, meritvärde lägeskommun, genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15505,"Elever i åk. 9, meritvärde kommunala skolor, genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15506,"Elever i åk 9, meritvärde fristående skolor i kommunen, genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15507,"Elever i åk 9, meritvärde, hemkommun, genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15566,"Elever i åk 9 meritvärde lägeskommun (exkl. nyinvandrade och okänd bakgr.), genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15567,"Elever i åk 9 meritvärde kommunala skolor (exkl. nyinvandrade och okänd bakgrund), genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,N15568,"Elever i åk 9, meritvärde fristående skolor i kommunen (exkl. nyinvandrade och okänd bakgrund), genomsnitt (17 ämnen)",False,K,2026-09-24
-skola,Meritvärde åk 9 (hemkommun),meritvärde,U15415,"Meritvärde i åk. 9, modellberäknat genomsnittligt värde (SALSA)",False,K,2027-01-30
-skola,Meritvärde åk 9 (hemkommun),meritvärde,U15416,"Meritvärde i åk. 9, avvikelse från SALSA på enhetsnivå, poäng",False,K,2027-01-30
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N00708,"Arbetslöshet någon gång under året, bland inrikes födda 20-64 år, andel (%) av bef.",False,K,2026-01-07
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N01704,"Individer med arbetslöshetsersättning räknat i helårsekvivalenter, antal",False,K,2026-10-23
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N02280,"Arbetslöshet, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%) (-2024)",False,A,
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N02281,"Arbetslöshet bland inrikes födda, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%)",False,A,2026-11-28
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N02282,"Arbetslöshet bland utrikes födda, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%)",False,A,2026-11-28
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N02890,"Personer 20-64 som fått arbetslöshetsersättning någon period under året, andel (%)",False,A,2027-03-25
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N03921,"Arbetslöshet 16-24 år, årsmedelvärde, andel (%) av bef. (-2024)",False,A,
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N03922,"Långtidsarbetslöshet 16-24 år, årsmedelvärde, andel (%) av bef. (-2024)",False,A,
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N03923,"Långtidsarbetslöshet 15-74 år, årsmedelvärde, andel (%) av arbetslösa (-2024)",False,A,
-jobb,"Arbetslöshet, Arbetsförmedlingen (% av bef.)",rbetslöshet,N03925,"Långtidsarbetslöshet 16-24 år, årsmedelvärde, andel (%) av arbetslösa (-2024)",False,A,
-sjukvard,Besök i specialiserad vård inom 90 dagar (äldre serie),inom 90 dagar,N79222,"Genomförd första kontakt inom högst 90 dagar i specialiserad vård, andel (%)",False,L,2027-03-03
-sjukvard,Besök i specialiserad vård inom 90 dagar (äldre serie),inom 90 dagar,N79224,"Genomförd operation/åtgärd inom högst 90 dagar i specialiserad vård, andel (%)",False,L,2027-03-03
-sjukvard,Besök i specialiserad vård inom 90 dagar (äldre serie),inom 90 dagar,U72552,"Genomförda första besök inom 90 dagar i barn- och ungdomspsykiatrisk vård, andel (%)",False,L,2027-02-05
-sjukvard,Besök i specialiserad vård inom 90 dagar (äldre serie),inom 90 dagar,U79049,"Genomförda första besök inom 90 dagar i allmänpsykiatrisk vård, andel (%)",False,L,2027-02-05
-miljo,"Skyddad natur, andel av landareal (%)",kyddad natur,N85054,"Skyddad natur totalt, andel (%)",True,A,2026-05-23
-miljo,"Skyddad natur, andel av landareal (%)",kyddad natur,N85055,"Skyddad natur land, andel (%)",True,A,2026-05-23
-miljo,"Skyddad natur, andel av landareal (%)",kyddad natur,N85056,"Skyddad natur hav, andel (%)",True,A,2026-05-23
-miljo,"Skyddad natur, andel av landareal (%)",kyddad natur,N85057,"Skyddad natur inlandsvatten, andel (%)",True,A,2026-05-23
-miljo,"Skyddad natur, andel av landareal (%)",kyddad natur,N85084,"Medelavstånd till skyddad natur, km",False,A,2026-05-23
-miljo,Insamlat hushållsavfall (kg/inv),ushållsavfall,N00632,"Medborgarundersökningen - Hämtningen av hushållsavfall fungerar bra, andel (%)",False,A,2026-12-15
-miljo,Insamlat hushållsavfall (kg/inv),ushållsavfall,U01632,"Osäkerhetstal - Hämtningen av hushållsavfall fungerar bra, andel (%)",False,A,2026-12-15
-miljo,Ekologiska livsmedel i kommunens verksamhet (%),kologiska livsmedel,U07514,"Ekologiska livsmedel i kommunens verksamhet, andel (%)",True,K,2027-05-22
-miljo,Ekologiska livsmedel i kommunens verksamhet (%),kologiska livsmedel,U60494,"Ekologiska livsmedel i regionens verksamhet, andel (%)",False,L,2027-06-11
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",N15507,N15507,"Elever i åk 9, meritvärde, hemkommun, genomsnitt (17 ämnen)",True,,
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",N02280,N02280,"Arbetslöshet, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%) (-2024)",True,,
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",N02282,N02282,"Arbetslöshet bland utrikes födda, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%)",True,,
+sjukvard,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),U72552,U72552,"Genomförda första besök inom 90 dagar i barn- och ungdomspsykiatrisk vård, andel (%)",True,,
+miljo,"Skyddad natur, andel av landareal (%)",N85054,N85054,"Skyddad natur totalt, andel (%)",True,,
+miljo,Ekologiska livsmedel i kommunens verksamhet (%),U07514,U07514,"Ekologiska livsmedel i kommunens verksamhet, andel (%)",True,,
