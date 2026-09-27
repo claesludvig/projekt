@@ -53,12 +53,13 @@ def main():
         return 0
     dk = _kodkolumn(deso, r"\d{4}[A-C]\d{4}")
     # Valdistriktskod: kommunkod (4) + löpnummer, ibland med prefix/nollor
-    vk = _kodkolumn(vd, r"\d{6,10}")
+    vk = "Valdistriktskod" if "Valdistriktskod" in vd.columns else _kodkolumn(vd, r"\d{6,10}")
     print(f"DeSO-kod: {dk}, valdistriktskod: {vk}")
     if dk is None or vk is None:
         print("Hittar inte kodkolumner:", list(deso.columns), list(vd.columns))
         return 1
-    namnkol = next((c for c in vd.columns if re.search(r"(?i)namn|name", c)), None)
+    namnkol = "Valdistriktsnamn" if "Valdistriktsnamn" in vd.columns else \
+        next((c for c in vd.columns if re.search(r"(?i)namn|name", c)), None)
     deso = deso[[dk, "geometry"]].rename(columns={dk: "deso"})
     deso["deso_yta"] = deso.area
     vd = vd[[vk] + ([namnkol] if namnkol else []) + ["geometry"]].rename(

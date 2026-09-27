@@ -71,10 +71,6 @@ SCB_SOK = [
     {"tema": "brott", "sok": "trygghet oro",
      "rubrik": r"(?i)trygghet|oro|otrygg", "region": "alla",
      "max_celler": 600_000},
-    # --- DeSO (ca 6 000 områden): de senaste åren för koppling till valdistrikt
-    {"tema": "deso", "sok": "DeSO", "rubrik": r"(?i)deso", "med_stig": True,
-     "exkludera": r"(?i)regso|1-årsklass|ettårsklass", "region": "alla",
-     "max_celler": 2_500_000, "senaste": 2},
     {"tema": "levnad", "sok": "ekonomisk utsatthet",
      "rubrik": r"(?i)ekonomisk utsatthet", "region": "alla",
      "max_celler": 600_000},
@@ -90,6 +86,17 @@ SCB_EXKLUDERA = (r"(?i)elever|gymnasie|barn och unga|hemmaboende|studiedeltagand
 # Tabeller som hämtas med känt id. "utelamna": variabler som summeras bort
 # (SCB eliminerar dem), för att hålla stora tabeller under cellgränsen.
 SCB_TABELLER = [
+    # DeSO 2025 (ca 6 000 områden) för koppling till valdistrikt. Samma tabeller
+    # som per kommun, men bara DeSO-koder och senaste året. Sparas som <id>_deso.
+    *[{"id": t, "tema": "deso", "region": "deso", "senaste": 1, "suffix": "_deso",
+       "max_celler": 3_000_000, "not": n} for t, n in [
+        ("TAB6571", "DeSO: utländsk/svensk bakgrund och kön"),
+        ("TAB6574", "DeSO: ålder och kön"),
+        ("TAB6534", "DeSO: utbildningsnivå 25–65 år"),
+        ("TAB6685", "DeSO: låg och hög ekonomisk standard"),
+        ("TAB6572", "DeSO: födelseregion"),
+        ("TAB6253", "DeSO: upplåtelseform"),
+        ("TAB6680", "DeSO: arbetsmarknadsstatus")]],
     {"id": "TAB3981", "tema": "utbildning", "region": "kommun",
      "utelamna": ["Alder", "Kon"], "max_celler": 600_000,
      "not": "Befolkning 16–74 år efter region och utbildningsnivå 1985–"},
@@ -108,6 +115,7 @@ GEODATA = [
     {"id": "valdistrikt_2026",
      "sida": "https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026",
      "lank": r"(?i)(valdistrikt|valgeografi|geodata|geografi).*\.(zip|geojson|json|gpkg)",
+     "alla": True,   # en fil per län: hämta alla och slå ihop
      "github": [("lama77se/valvaka-2026", r"valdistrikt.*\.geojson$"),
                 ("pgronberg/valvaka", r"valdistrikt.*\.(geo|topo)?json$"),
                 ("sebdanielsson/election-map-sweden", r"valdistrikt.*2026.*\.(geo)?json$")]},

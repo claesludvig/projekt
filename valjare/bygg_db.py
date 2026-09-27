@@ -28,6 +28,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import region as reg
 import tolka
 from tolka import partikod
 
@@ -324,6 +325,24 @@ def register() -> tuple[pd.DataFrame, pd.DataFrame]:
                     "andel", "metod"]]
 
 
+def register_region() -> pd.DataFrame:
+    """Röstande per grupp i varje län och kommun (TAB5107), kön totalt."""
+    df = scb("TAB5107")
+    if df is None:
+        return pd.DataFrame()
+    df = df[df.Kon == "totalt"]
+    df["mått"] = np.where(df.ContentsCode.str.contains("antal"), "rostberattigade", "andel_rostande")
+    w = df.pivot_table(index=["Region_kod", "Region", "Tid", "BakgrVar"], columns="mått",
+                       values="varde").reset_index()
+    w = w[~w.BakgrVar.str.match(r"^samtliga")]
+    w["dimension"] = w.BakgrVar.map(lambda b: next((d for m, d in REG_DIM if re.search(m, b)), "övrigt"))
+    w["rostande"] = w.rostberattigade * w.andel_rostande / 100
+    return pd.DataFrame({"region_kod": w.Region_kod, "region": w.Region, "ar": w.Tid.astype(int),
+                         "dimension": w.dimension, "grupp": w.BakgrVar,
+                         "rostberattigade": w.rostberattigade, "andel_rostande": w.andel_rostande,
+                         "rostande": w.rostande})
+
+
 def kontroll_vikter(vikter: pd.DataFrame, reg: pd.DataFrame) -> pd.DataFrame:
     """Jämför PSU-vikter (maj valåret) med registrets röstande."""
     if reg.empty:
@@ -429,8 +448,9 @@ def kommunindikatorer() -> pd.DataFrame:
     if not rader:
         return pd.DataFrame()
     ut = pd.concat(rader, ignore_index=True)
-    ut["kommunkod"] = ut.kommunkod.astype(str).str.zfill(4)
-    ut = ut[ut.kommunkod.str.fullmatch(r"\d{4}")].dropna(subset=["varde"])
+    ut["kommunkod"] = ut.kommunkod.astype(str)
+    ut.loc[ut.kommunkod.str.len() == 3, "kommunkod"] = ut.kommunkod.str.zfill(4)
+    ut = ut[ut.kommunkod.str.fullmatch(r"\d{2}|\d{4}")].dropna(subset=["varde"])
     # Samma indikator/år från två tabeller (5956/6534 överlappar ej, men säkra)
     return ut.drop_duplicates(["ar", "kommunkod", "indikator"], keep="last")
 
@@ -652,12 +672,27 @@ def main():
     print(f"  {len(prof_gu)} rader")
     print("Valresultat och kommunindikatorer")
     val = valresultat_kommun()
-    ind = kommunindikatorer()
+    ind_alla = kommunindikatorer()
+    ind = ind_alla[ind_alla.kommunkod.str.len() == 4]
+    ind_lan = ind_alla[ind_alla.kommunkod.str.len() == 2].rename(columns={"kommunkod": "lan"})
     samband = kommunsamband(val, ind) if not ind.empty else pd.DataFrame()
+    print("Län")
+    namn = reg.lansnamn(scb)
+    val_lan = reg.valresultat_lan(val, namn)
+    ind_lan["lansnamn"] = ind_lan.lan.map(namn)
+    ntu_lan = reg.ntu_lan(next((KALL_DIR / "xlsx").glob("bra_ntu__Resultat_f*l*n_NTU*.xlsx"), None))
     print("NTU")
     ntu = pd.concat([utsatthet(), ulf()], ignore_index=True)
 
     vikt_psu = kalibrera(vikt_psu, vikt_reg)
+    print("Skattade profiler per region (IPF)")
+    rr = register_region()
+    namn_alla = {**dict(zip(rr.region_kod, rr.region)), **namn}
+    profil_region = reg.raka(stod_psu, vikt_psu, rr, val, namn_alla)
+    print(f"  {len(profil_region)} rader")
+    print("Dekomposition")
+    dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
+    print(f"  {len(dekomp)} rader")
     partistod = pd.concat([stod_psu, stod_valu], ignore_index=True)
     gruppvikt = pd.concat([vikt_psu, vikt_reg], ignore_index=True)
     profil = pd.concat([profil_ur_stod(stod_psu, vikt_psu), prof_gu], ignore_index=True)
@@ -667,7 +702,10 @@ def main():
         "partistod": partistod, "gruppvikt": gruppvikt, "partiprofil": profil,
         "valresultat_kommun": val, "kommunindikator": ind, "kommunsamband": samband,
         "utsatthet": ntu, "partiexponering": partiexponering(profil[profil.kalla == "scb_psu"], ntu),
-        "valdeltagande_grupp": reg_delt, "kontroll": kontroll,
+        "valdeltagande_grupp": reg_delt, "valdeltagande_region": rr,
+        "valresultat_lan": val_lan, "lansindikator": ind_lan, "utsatthet_lan": ntu_lan,
+        "partiprofil_region": profil_region, "dekomposition": dekomp,
+        "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
     }
     if DB.exists():

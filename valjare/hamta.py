@@ -134,7 +134,9 @@ def scb_urval(meta: dict, region: str, utelamna=(), senaste: int | None = None) 
             if isinstance(meta["dimension"][d]["category"]["index"], dict) \
             else list(meta["dimension"][d]["category"]["index"])
         if d == regdim and region != "alla":
-            if region == "riket":
+            if region == "deso":
+                valda = [k for k in koder if re.match(r"^\d{4}[A-C]\d{4}", k)]
+            elif region == "riket":
                 valda = [k for k in koder if k in ("00", "0", "SE", "Riket")]
             else:  # kommun: riket, län, kommuner
                 valda = [k for k in koder if re.fullmatch(r"\d{2}|\d{4}", k)]
@@ -254,11 +256,13 @@ def hamta_scb(bara: str | None, tvinga: bool = False):
     for post in SCB_TABELLER:
         if bara and post["tema"] != bara:
             continue
-        rad = katalog.setdefault(post["id"], {
-            "id": post["id"], "rubrik": post["not"], "forsta": None, "sista": None,
+        nyckel = post["id"] + post.get("suffix", "")
+        rad = katalog.setdefault(nyckel, {
+            "id": nyckel, "rubrik": post["not"], "forsta": None, "sista": None,
             "uppdaterad": None, "stig": "", "variabler": "", "avvecklad": None})
         rad.update({"vald": True, "tema": post["tema"], "_region": post["region"],
-                    "_max": post["max_celler"], "_utelamna": post.get("utelamna", [])})
+                    "_max": post["max_celler"], "_utelamna": post.get("utelamna", []),
+                    "_senaste": post.get("senaste"), "_tab": post["id"]})
     kat_df = pd.DataFrame([{k: v for k, v in r.items() if not k.startswith("_")}
                            for r in katalog.values()])
     KAT_DIR.mkdir(parents=True, exist_ok=True)
@@ -281,7 +285,7 @@ def hamta_scb(bara: str | None, tvinga: bool = False):
             print("    oförändrad")
             continue
         try:
-            df, info = scb_hamta_tabell(r["id"], r["_region"], r["_max"],
+            df, info = scb_hamta_tabell(r.get("_tab", r["id"]), r["_region"], r["_max"],
                                         r.get("_utelamna", ()), r.get("_senaste"))
             post_logg.update(info)
             if len(df):
@@ -399,6 +403,42 @@ def _github_filer(repo: str, monster: str) -> list[str]:
             for t in r.json().get("tree", []) if re.search(monster, t["path"], re.I)]
 
 
+def _hamta_alla(gid: str, urls: list[str], rapport: list[str]):
+    """Hämta flera filer (t.ex. en per län), packa upp och slå ihop till en gpkg."""
+    import zipfile
+    import geopandas as gpd
+    mapp = GEO_DIR / gid
+    mapp.mkdir(parents=True, exist_ok=True)
+    delar = []
+    for i, u in enumerate(dict.fromkeys(urls)):
+        try:
+            r = http("GET", u)
+            if r.status_code != 200:
+                rapport.append(f"  {u}: HTTP {r.status_code}")
+                continue
+            fil = mapp / f"del{i:02d}{Path(u.split('?')[0]).suffix.lower()}"
+            fil.write_bytes(r.content)
+            if fil.suffix == ".zip":
+                with zipfile.ZipFile(fil) as z:
+                    z.extractall(mapp / f"del{i:02d}")
+                lager = [q for q in (mapp / f"del{i:02d}").rglob("*")
+                         if q.suffix.lower() in (".gpkg", ".geojson", ".json", ".shp")]
+            else:
+                lager = [fil]
+            for q in lager[:1]:
+                g = gpd.read_file(q)
+                delar.append(g.to_crs(3006) if g.crs else g.set_crs(3006))
+        except Exception as exc:  # noqa: BLE001
+            rapport.append(f"  {u}: {exc}")
+    if not delar:
+        return
+    alla = pd.concat(delar, ignore_index=True)
+    ut = GEO_DIR / f"{gid}.gpkg"
+    gpd.GeoDataFrame(alla, geometry="geometry", crs=3006).to_file(ut, driver="GPKG")
+    (GEO_DIR / f"{gid}.las").write_text(str(ut), encoding="utf-8")
+    rapport.append(f"  {len(delar)} filer, {len(alla)} objekt -> {ut.name}")
+
+
 def hamta_geodata():
     """DeSO-gränser (SCB WFS) och valdistrikt 2026 (Valmyndigheten, med
     GitHub-kopior som reserv). Sammanfattning av filerna i katalog/geo.txt."""
@@ -422,6 +462,11 @@ def hamta_geodata():
             except Exception as exc:  # noqa: BLE001
                 rapport.append(f"{g['id']}: github {repo} {exc}")
         rapport.append(f"{g['id']}: kandidater {kandidater}")
+        if g.get("alla") and g.get("sida"):
+            sidfiler = [u for u in kandidater if "val.se" in u]
+            if sidfiler:
+                _hamta_alla(g["id"], sidfiler, rapport)
+                continue
         for u in kandidater:
             try:
                 r = http("GET", u)
