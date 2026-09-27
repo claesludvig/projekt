@@ -2,3 +2,4 @@ node_modules
 # Väljardatabasen: pdf-originalen laddas ned på nytt vid varje körning; texten sparas i kallor/txt
 valjare/data/kallor/pdf/
 __pycache__/
+valjare/data/geo_ra/

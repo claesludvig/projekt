@@ -9,6 +9,8 @@ on:
   push:
     branches: ["claude/voter-database-demographics-r9y5la"]
     paths: ["valjare/*.py", "valjare/sida.html", "valjare/requirements.txt", ".github/workflows/valjare.yml"]
+  schedule:
+    - cron: "17 5 * 6,12 1"   # måndagar i juni och december, efter PSU-publiceringarna
 
 jobs:
   fetch:
@@ -32,6 +34,7 @@ jobs:
       - name: Bygg databas och sida
         working-directory: valjare
         run: |
+          python geo.py || echo "geo.py misslyckades, fortsätter med befintlig nyckel"
           python bygg_db.py
           python bygg_sida.py
 

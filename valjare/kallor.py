@@ -71,6 +71,10 @@ SCB_SOK = [
     {"tema": "brott", "sok": "trygghet oro",
      "rubrik": r"(?i)trygghet|oro|otrygg", "region": "alla",
      "max_celler": 600_000},
+    # --- DeSO (ca 6 000 områden): de senaste åren för koppling till valdistrikt
+    {"tema": "deso", "sok": "DeSO", "rubrik": r"(?i)deso", "med_stig": True,
+     "exkludera": r"(?i)regso|1-årsklass|ettårsklass", "region": "alla",
+     "max_celler": 2_500_000, "senaste": 2},
     {"tema": "levnad", "sok": "ekonomisk utsatthet",
      "rubrik": r"(?i)ekonomisk utsatthet", "region": "alla",
      "max_celler": 600_000},
@@ -93,6 +97,20 @@ SCB_TABELLER = [
      "not": "ULF/SILC: otrygghet efter indikator, redovisningsgrupp och kön 2008–"},
     {"id": "TAB5864", "tema": "brott", "region": "riket", "max_celler": 600_000,
      "not": "Medborgarundersökningen: syn på trygghet efter region och bakgrund"},
+]
+
+# Geodata. "url": direkta kandidater, "sida"+"lank": skrapa länkar,
+# "github": (repo, sökvägsmönster) som reserv. Första som går att hämta används.
+GEODATA = [
+    {"id": "deso_2025",
+     "url": ["https://geodata.scb.se/geoserver/stat/wfs?service=WFS&REQUEST=GetFeature&version=1.1.0"
+             "&TYPENAMES=stat:DeSO_2025&outputFormat=geopackage"]},
+    {"id": "valdistrikt_2026",
+     "sida": "https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026",
+     "lank": r"(?i)(valdistrikt|valgeografi|geodata|geografi).*\.(zip|geojson|json|gpkg)",
+     "github": [("lama77se/valvaka-2026", r"valdistrikt.*\.geojson$"),
+                ("pgronberg/valvaka", r"valdistrikt.*\.(geo|topo)?json$"),
+                ("sebdanielsson/election-map-sweden", r"valdistrikt.*2026.*\.(geo)?json$")]},
 ]
 
 # Dokument (PDF) som laddas ned och textextraheras. Text sparas sida för sida

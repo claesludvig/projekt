@@ -25,7 +25,7 @@ from urllib.parse import urljoin
 import pandas as pd
 import requests
 
-from kallor import DOKUMENT, LANKSIDOR, SCB_API, SCB_EXKLUDERA, SCB_SOK, SCB_TABELLER
+from kallor import DOKUMENT, GEODATA, LANKSIDOR, SCB_API, SCB_EXKLUDERA, SCB_SOK, SCB_TABELLER
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -123,9 +123,10 @@ def _tiddim(meta: dict) -> str | None:
     return "Tid" if "Tid" in meta["id"] else None
 
 
-def scb_urval(meta: dict, region: str, utelamna=()) -> dict[str, list[str]]:
+def scb_urval(meta: dict, region: str, utelamna=(), senaste: int | None = None) -> dict[str, list[str]]:
     urval = {}
     regdim = _regiondim(meta)
+    tiddim = _tiddim(meta)
     for d in meta["id"]:
         if d in utelamna:
             continue
@@ -138,6 +139,8 @@ def scb_urval(meta: dict, region: str, utelamna=()) -> dict[str, list[str]]:
             else:  # kommun: riket, län, kommuner
                 valda = [k for k in koder if re.fullmatch(r"\d{2}|\d{4}", k)]
             koder = valda or koder[:1]
+        if d == tiddim and senaste:
+            koder = koder[-senaste:]
         urval[d] = koder
     return urval
 
@@ -189,9 +192,9 @@ def jsonstat_till_df(j: dict) -> pd.DataFrame:
 
 
 def scb_hamta_tabell(tab_id: str, region: str, max_celler: int,
-                     utelamna=()) -> tuple[pd.DataFrame, dict]:
+                     utelamna=(), senaste: int | None = None) -> tuple[pd.DataFrame, dict]:
     meta = scb_metadata(tab_id)
-    urval = scb_urval(meta, region, utelamna)
+    urval = scb_urval(meta, region, utelamna, senaste)
     celler = 1
     for v in urval.values():
         celler *= len(v)
@@ -220,7 +223,7 @@ def scb_hamta_tabell(tab_id: str, region: str, max_celler: int,
     return df, info
 
 
-def hamta_scb(bara: str | None):
+def hamta_scb(bara: str | None, tvinga: bool = False):
     SCB_DIR.mkdir(parents=True, exist_ok=True)
     katalog: dict[str, dict] = {}
     for post in SCB_SOK:
@@ -240,12 +243,14 @@ def hamta_scb(bara: str | None):
                 "uppdaterad": t.get("updated"), "stig": _stig(t),
                 "variabler": "|".join(t.get("variableNames", []) or []),
                 "avvecklad": t.get("discontinued"), "tema": "", "vald": False})
-            if re.search(post["rubrik"], rad["rubrik"]) and \
-                    not re.search(SCB_EXKLUDERA, rad["rubrik"]):
+            text = rad["rubrik"] + " | " + rad["stig"] if post.get("med_stig") else rad["rubrik"]
+            if re.search(post["rubrik"], text) and not re.search(SCB_EXKLUDERA, rad["rubrik"]) \
+                    and not (post.get("exkludera") and re.search(post["exkludera"], text)):
                 rad["vald"] = True
                 rad["tema"] = post["tema"]
                 rad["_region"] = post["region"]
                 rad["_max"] = post["max_celler"]
+                rad["_senaste"] = post.get("senaste")
     for post in SCB_TABELLER:
         if bara and post["tema"] != bara:
             continue
@@ -257,6 +262,10 @@ def hamta_scb(bara: str | None):
     kat_df = pd.DataFrame([{k: v for k, v in r.items() if not k.startswith("_")}
                            for r in katalog.values()])
     KAT_DIR.mkdir(parents=True, exist_ok=True)
+    forra = {}
+    if (KAT_DIR / "scb_katalog.csv").exists() and not tvinga:
+        f = pd.read_csv(KAT_DIR / "scb_katalog.csv", dtype=str)
+        forra = dict(zip(f["id"], f["uppdaterad"].fillna("")))
     if len(kat_df):
         kat_df.sort_values(["vald", "tema", "id"], ascending=[False, True, True]) \
             .to_csv(KAT_DIR / "scb_katalog.csv", index=False)
@@ -265,9 +274,15 @@ def hamta_scb(bara: str | None):
     for r in valda:
         print(f"  {r['id']} {r['rubrik'][:90]}")
         post_logg = {"id": r["id"], "rubrik": r["rubrik"], "tema": r["tema"]}
+        if r.get("uppdaterad") and forra.get(r["id"]) == str(r["uppdaterad"]) \
+                and (SCB_DIR / f"{r['id']}.csv.gz").exists():
+            post_logg["status"] = "oförändrad, ej hämtad"
+            logg["scb"].append(post_logg)
+            print("    oförändrad")
+            continue
         try:
             df, info = scb_hamta_tabell(r["id"], r["_region"], r["_max"],
-                                        r.get("_utelamna", ()))
+                                        r.get("_utelamna", ()), r.get("_senaste"))
             post_logg.update(info)
             if len(df):
                 df.insert(0, "tabell", r["id"])
@@ -301,8 +316,12 @@ def _xlsx_oversikt(xlsx: Path, txt: Path):
             ut.write("\n")
 
 
-def ladda_ned(doc_id: str, url: str, typ: str) -> dict:
+def ladda_ned(doc_id: str, url: str, typ: str, tvinga: bool = False) -> dict:
     post = {"id": doc_id, "typ": typ, "url": url}
+    if not tvinga and url.lower().split("?")[0].endswith(".pdf") and \
+            (KALL_DIR / "txt" / f"{doc_id}.txt").exists():
+        post["status"] = "text finns, ej hämtad"
+        return post
     try:
         r = http("GET", url)
         if r.status_code != 200:
@@ -335,10 +354,10 @@ def _slug(s: str) -> str:
     return re.sub(r"[^A-Za-z0-9_-]+", "_", s).strip("_")[:80]
 
 
-def hamta_dokument():
+def hamta_dokument(tvinga: bool = False):
     print("Dokument")
     for d in DOKUMENT:
-        logg["dokument"].append(ladda_ned(d["id"], d["url"], d["typ"]))
+        logg["dokument"].append(ladda_ned(d["id"], d["url"], d["typ"], tvinga))
     print("Länksidor")
     sedda = {d["url"] for d in DOKUMENT}
     for s in LANKSIDOR:
@@ -355,22 +374,107 @@ def hamta_dokument():
                     lankar.append(u)
             for u in lankar[: s["max"]]:
                 namn = f"{s['id']}__{_slug(Path(u.split('?')[0]).stem)}"
-                post["lankar"].append(ladda_ned(namn, u, s["typ"]))
+                post["lankar"].append(ladda_ned(namn, u, s["typ"], tvinga))
         except Exception as exc:  # noqa: BLE001
             post["status"] = f"fel: {exc}"
         print(f"  {s['id']}: {post['status']}, {len(post['lankar'])} filer")
         logg["lanksidor"].append(post)
 
 
+# ---------- geodata ----------
+
+GEO_DIR = DATA_DIR / "geo_ra"      # råfiler, ej i git (stora)
+
+
+def _github_filer(repo: str, monster: str) -> list[str]:
+    """Råfil-URL:er i ett publikt GitHub-repo vars sökväg matchar mönstret."""
+    r = http("GET", f"https://api.github.com/repos/{repo}")
+    if r.status_code != 200:
+        return []
+    gren = r.json().get("default_branch", "main")
+    r = http("GET", f"https://api.github.com/repos/{repo}/git/trees/{gren}?recursive=1")
+    if r.status_code != 200:
+        return []
+    return [f"https://raw.githubusercontent.com/{repo}/{gren}/{t['path']}"
+            for t in r.json().get("tree", []) if re.search(monster, t["path"], re.I)]
+
+
+def hamta_geodata():
+    """DeSO-gränser (SCB WFS) och valdistrikt 2026 (Valmyndigheten, med
+    GitHub-kopior som reserv). Sammanfattning av filerna i katalog/geo.txt."""
+    print("Geodata")
+    GEO_DIR.mkdir(parents=True, exist_ok=True)
+    rapport = []
+    for g in GEODATA:
+        kandidater = list(g.get("url", []))
+        if g.get("sida"):
+            try:
+                r = http("GET", g["sida"])
+                for h in re.findall(r'href="([^"]+)"', r.text):
+                    u = urljoin(g["sida"], h.replace("&amp;", "&"))
+                    if re.search(g["lank"], u):
+                        kandidater.insert(0, u)
+            except Exception as exc:  # noqa: BLE001
+                rapport.append(f"{g['id']}: sidfel {exc}")
+        for repo, monster in g.get("github", []):
+            try:
+                kandidater += _github_filer(repo, monster)
+            except Exception as exc:  # noqa: BLE001
+                rapport.append(f"{g['id']}: github {repo} {exc}")
+        rapport.append(f"{g['id']}: kandidater {kandidater}")
+        for u in kandidater:
+            try:
+                r = http("GET", u)
+            except Exception as exc:  # noqa: BLE001
+                rapport.append(f"  {u}: {exc}")
+                continue
+            if r.status_code != 200 or len(r.content) < 10_000:
+                rapport.append(f"  {u}: HTTP {r.status_code}, {len(r.content)} byte")
+                continue
+            ext = Path(u.split("?")[0]).suffix.lower()
+            if "geopackage" in u.lower():
+                ext = ".gpkg"
+            fil = GEO_DIR / f"{g['id']}{ext or '.bin'}"
+            fil.write_bytes(r.content)
+            rapport.append(f"  hämtad {u} -> {fil.name} ({len(r.content)} byte)")
+            try:
+                import geopandas as gpd
+                if ext == ".zip":
+                    import zipfile
+                    with zipfile.ZipFile(fil) as z:
+                        rapport.append(f"    zip: {z.namelist()[:20]}")
+                        z.extractall(GEO_DIR / g["id"])
+                    lager = [q for q in (GEO_DIR / g["id"]).rglob("*")
+                             if q.suffix.lower() in (".gpkg", ".geojson", ".json", ".shp")]
+                    las = lager[0] if lager else None
+                else:
+                    las = fil
+                if las is not None:
+                    gdf = gpd.read_file(las)
+                    rapport.append(f"    {las.name}: {len(gdf)} objekt, crs {gdf.crs}, "
+                                   f"kolumner {list(gdf.columns)}")
+                    rapport.append("    " + gdf.drop(columns="geometry").head(3).to_string().replace("\n", "\n    "))
+                    (GEO_DIR / f"{g['id']}.las").write_text(str(las), encoding="utf-8")
+            except Exception as exc:  # noqa: BLE001
+                rapport.append(f"    kunde inte läsa: {exc}")
+            break
+    KAT_DIR.mkdir(parents=True, exist_ok=True)
+    (KAT_DIR / "geo.txt").write_text("\n".join(rapport), encoding="utf-8")
+    print("\n".join(rapport)[:3000])
+
+
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--steg", choices=["alla", "scb", "dokument"], default="alla")
+    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo"], default="alla")
     p.add_argument("--tema", help="bara ett SCB-tema (t.ex. psu)")
+    p.add_argument("--tvinga", action="store_true", help="hämta allt, även oförändrat")
     a = p.parse_args()
     if a.steg in ("alla", "scb"):
-        hamta_scb(a.tema)
+        hamta_scb(a.tema, a.tvinga)
     if a.steg in ("alla", "dokument"):
-        hamta_dokument()
+        hamta_dokument(a.tvinga)
+    if a.steg in ("alla", "geo"):
+        hamta_geodata()
     logg["slut"] = datetime.now(timezone.utc).isoformat()
     KAT_DIR.mkdir(parents=True, exist_ok=True)
     (KAT_DIR / "hamtlogg.json").write_text(
