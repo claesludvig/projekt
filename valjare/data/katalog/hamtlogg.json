@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T10:16:57.982686+00:00",
+ "start": "2026-09-27T10:25:54.694231+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1037,6 +1037,218 @@
    "rubrik": "Medborgarnas syn på trygghet i samhället efter region och bakgrund. År 2021-2025",
    "tema": "brott",
    "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6571_deso",
+   "rubrik": "DeSO: utländsk/svensk bakgrund och kön",
+   "tema": "deso",
+   "celler": 109296,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "UtlBakgrund": {
+     "etikett": "utländsk/svensk bakgrund",
+     "antal": 3
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 109296,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6574_deso",
+   "rubrik": "DeSO: ålder och kön",
+   "tema": "deso",
+   "celler": 655776,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 18
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 655776,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6534_deso",
+   "rubrik": "DeSO: utbildningsnivå 25–65 år",
+   "tema": "deso",
+   "celler": 30800,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 6160
+    },
+    "UtbildningsNiva": {
+     "etikett": "utbildningsnivå",
+     "antal": 5
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 30800,
+   "uppdaterad": "2026-04-27T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6685_deso",
+   "rubrik": "DeSO: låg och hög ekonomisk standard",
+   "tema": "deso",
+   "celler": 218592,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 6
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 3
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 218592,
+   "uppdaterad": "2026-01-20T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6572_deso",
+   "rubrik": "DeSO: födelseregion",
+   "tema": "deso",
+   "celler": 145728,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Fodelseregion": {
+     "etikett": "födelseregion",
+     "antal": 4
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 145728,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6253_deso",
+   "rubrik": "DeSO: upplåtelseform",
+   "tema": "deso",
+   "celler": 60720,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Upplatelseform": {
+     "etikett": "upplåtelseform",
+     "antal": 5
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 60720,
+   "uppdaterad": "2026-04-17T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6680_deso",
+   "rubrik": "DeSO: arbetsmarknadsstatus",
+   "tema": "deso",
+   "celler": 1275120,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 7
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 5
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 1275120,
+   "uppdaterad": "2025-11-28T07:00:00Z",
+   "kalla": "SCB"
   }
  ],
  "dokument": [
@@ -1558,5 +1770,5 @@
   }
  ],
  "fel": [],
- "slut": "2026-09-27T10:18:33.066132+00:00"
+ "slut": "2026-09-27T10:31:01.115949+00:00"
 }
