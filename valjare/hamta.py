@@ -182,15 +182,14 @@ def jsonstat_till_df(j: dict) -> pd.DataFrame:
         for i, v in varden.items():
             full[int(i)] = v
         varden = full
-    rader = []
-    for kombination, v in zip(itertools.product(*kategorier), varden):
-        rad = {}
-        for d, (kod, etikett) in zip(dims, kombination):
-            rad[d + "_kod"] = kod
-            rad[d] = etikett
-        rad["varde"] = v
-        rader.append(rad)
-    return pd.DataFrame(rader)
+    mi = pd.MultiIndex.from_product([[k for k, _ in kat] for kat in kategorier], names=dims)
+    ut = {}
+    for niva, (d, kat) in enumerate(zip(dims, kategorier)):
+        koder = mi.get_level_values(niva)
+        ut[d + "_kod"] = koder
+        ut[d] = koder.map(dict(kat))
+    ut["varde"] = pd.to_numeric(pd.Series(varden, dtype="object"), errors="coerce").values
+    return pd.DataFrame(ut)
 
 
 def scb_hamta_tabell(tab_id: str, region: str, max_celler: int,
@@ -245,6 +244,9 @@ def hamta_scb(bara: str | None, tvinga: bool = False):
                 "uppdaterad": t.get("updated"), "stig": _stig(t),
                 "variabler": "|".join(t.get("variableNames", []) or []),
                 "avvecklad": t.get("discontinued"), "tema": "", "vald": False})
+            if post.get("max_tabeller") and sum(
+                    1 for x in katalog.values() if x.get("_post") == post["sok"]) >= post["max_tabeller"]:
+                continue
             text = rad["rubrik"] + " | " + rad["stig"] if post.get("med_stig") else rad["rubrik"]
             if re.search(post["rubrik"], text) and not re.search(SCB_EXKLUDERA, rad["rubrik"]) \
                     and not (post.get("exkludera") and re.search(post["exkludera"], text)):
@@ -253,6 +255,7 @@ def hamta_scb(bara: str | None, tvinga: bool = False):
                 rad["_region"] = post["region"]
                 rad["_max"] = post["max_celler"]
                 rad["_senaste"] = post.get("senaste")
+                rad["_post"] = post["sok"]
     for post in SCB_TABELLER:
         if bara and post["tema"] != bara:
             continue

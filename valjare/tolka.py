@@ -278,3 +278,71 @@ def val2026_kommun(xlsx: Path) -> pd.DataFrame:
     ut["parti"] = ut["kategori"].map(partikod)
     ut["status"] = "preliminärt"
     return ut
+
+
+# ---------- Valu: viktiga frågor och bäst politik ----------
+
+def _fraga_namn(s: str) -> str:
+    s = re.sub(r"^\d+\.\s*", "", s).strip()
+    s = s.replace("Åldreomsorgen", "Äldreomsorgen").replace("Sysselsättningen", "Sysselsättning")
+    s = s.replace("Svensk ekonomi", "Svenska ekonomin").replace("Vinster i välfärden",
+                                                                 "Frågan om vinster i välfärden")
+    return s
+
+
+def valu_fragor(txt: Path, kalla_id: str) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """(betydelse per fråga och år, rang per parti, bäst politik per område och parti).
+
+    Betydelse: andel som anger att frågan har mycket stor betydelse för partivalet.
+    Rang: frågans rangordning bland partiets väljare (1 = viktigast).
+    Bäst politik: andel som anger att partiet har bäst politik på området."""
+    betydelse, rang, bast = [], [], []
+    for sidnr, text in _sidor(txt):
+        if not text:
+            continue
+        rub = text[0]
+        if rub.startswith("Viktiga frågor för valet av parti"):
+            hdr = next((r for r in text if r.startswith("Fråga ")), "")
+            tok = hdr.split()[1:]
+            ar = []
+            for t in tok:                      # årskolumner; sluta vid förändringskolumnen
+                if re.fullmatch(r"(19|20)\d\d", t):
+                    if ar and int(t) <= ar[-1]:
+                        break
+                    ar.append(int(t))
+            partier = [partikod(t) for t in tok if partikod(t)]
+            for r in text:
+                m = re.match(r"^(\d+\.\s*.+?)\s+((?:[-\d+]+\s*)+)$", r)
+                if not m:
+                    continue
+                namn = _fraga_namn(m.group(1))
+                v = m.group(2).split()
+                if ar and len(ar) <= len(v):
+                    for a, x in zip(ar, v[:len(ar)]):
+                        if re.fullmatch(r"\d+", x):
+                            betydelse.append({"kalla": kalla_id, "ar": a, "fraga": namn, "andel": float(x)})
+                elif partier and len(v) == len(partier):
+                    valar = int(re.search(r"(20\d\d)", kalla_id.replace("2014_", "")).group(1)) \
+                        if re.search(r"20\d\d", kalla_id) else None
+                    for p, x in zip(partier, v):
+                        rang.append({"kalla": kalla_id, "fraga": namn, "parti": p, "rang": int(x),
+                                     "sida": sidnr, "valar": valar})
+        elif rub.startswith("Bäst politik"):
+            hdr = next((r for r in text if re.search(r"\bV S MP\b", r)), "")
+            partier = [partikod(t) for t in hdr.split() if partikod(t)] + ["INGEN"]
+            prefix = []
+            for r in text[text.index(hdr) + 1:] if hdr in text else []:
+                tok = r.split()
+                if "~100" not in tok:
+                    if not re.fullmatch(r"[\d\s]+", r) and not r.startswith(("Vägda", "Kommentar")):
+                        prefix.append(r)
+                    continue
+                i = tok.index("~100")
+                v = tok[i - len(partier):i]
+                namn = " ".join(prefix + tok[:i - len(partier)]).strip()
+                prefix = []
+                if all(re.fullmatch(r"\d+", x) for x in v):
+                    for p, x in zip(partier, v):
+                        bast.append({"kalla": kalla_id, "omrade": _fraga_namn(namn), "parti": p,
+                                     "andel": float(x)})
+    return pd.DataFrame(betydelse), pd.DataFrame(rang), pd.DataFrame(bast)
