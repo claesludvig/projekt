@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T13:54:07.077544+00:00",
+ "start": "2026-09-27T14:03:50.938187+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1120,29 +1120,7 @@
    "id": "TAB5241",
    "rubrik": "Tabell 5.23 - Återstående medellivslängd vid 0, 30 respektive 65 års ålder. År 1960-2024",
    "tema": "verklighet",
-   "celler": 390,
-   "variabler": {
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 65
-    }
-   },
-   "status": "ok",
-   "rader": 390,
-   "uppdaterad": "2025-10-15T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB5940",
@@ -1166,25 +1144,7 @@
    "id": "TAB5124",
    "rubrik": "Tabell 2.9 - Kvinnors lön som andel av mäns lön efter sektor. År 1992-2024",
    "tema": "verklighet",
-   "celler": 330,
-   "variabler": {
-    "Sektor": {
-     "etikett": "sektor",
-     "antal": 5
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 33
-    }
-   },
-   "status": "ok",
-   "rader": 330,
-   "uppdaterad": "2025-12-10T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB78",
@@ -2120,83 +2080,83 @@
   {
    "id": "N17457",
    "namn": "Examen/studiebevis inom 4 år (gymnasiet)",
-   "rader": 582
+   "rader": 3191
   },
   {
    "id": "N15428",
    "namn": "Behöriga till yrkesprogram, åk 9",
-   "rader": 582
+   "rader": 6425
   },
   {
    "id": "U23401",
    "namn": "Väntetid till särskilt boende (dagar)",
-   "rader": 207
+   "rader": 3649
   },
   {
    "id": "U23471",
    "namn": "Nöjdhet särskilt boende, helhetssyn (%)",
-   "rader": 542
+   "rader": 3706
   },
   {
    "id": "N07540",
    "namn": "Anmälda brott per 100 000 inv",
-   "rader": 582
+   "rader": 5238
   },
   {
    "id": "N07403",
    "namn": "Anmälda våldsbrott per 100 000 inv",
-   "rader": 42
+   "rader": 4055
   },
   {
    "id": "N03923",
    "namn": "Långtidsarbetslösa, andel av arbetslösa (%)",
-   "rader": 624
+   "rader": 4680
   },
   {
    "id": "N66080",
    "namn": "Låg ekonomisk standard (%)",
-   "rader": 624
+   "rader": 4368
   },
   {
    "id": "N31807",
    "namn": "Ekonomiskt bistånd (% av bef.)",
-   "rader": 624
+   "rader": 6176
   },
   {
    "id": "N02900",
    "namn": "Utrikes födda (% av bef.)",
-   "rader": 580
+   "rader": 5752
   },
   {
    "id": "N00900",
    "namn": "Total skattesats (%)",
-   "rader": 579
+   "rader": 6100
   },
   {
    "id": "N00401",
    "namn": "Växthusgasutsläpp per invånare (ton)",
-   "rader": 0
+   "rader": 3432
   },
   {
    "id": "N07702",
    "namn": "Växthusgasutsläpp totalt (ton)",
-   "rader": 0
+   "rader": 3432
   },
   {
    "id": "N07917",
    "namn": "Färdigställda bostäder, nybyggnad, per 1 000 inv",
-   "rader": 582
+   "rader": 5946
   },
   {
    "id": "N66079",
    "namn": "Låg ekonomisk standard 65+ (%)",
-   "rader": 624
+   "rader": 4368
   },
   {
    "id": "N00952",
    "namn": "Kvinnors mediannettoinkomst i % av mäns",
-   "rader": 622
+   "rader": 5923
   }
  ],
- "slut": "2026-09-27T14:01:09.665303+00:00"
+ "slut": "2026-09-27T14:15:46.359260+00:00"
 }
