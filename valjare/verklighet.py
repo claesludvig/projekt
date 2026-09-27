@@ -14,7 +14,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from verklighet_katalog import FRAGOR, KOLADA, RIKSBANKEN, SCB_SERIER
+from verklighet_katalog import FRAGOR, KOLADA, RIKSBANKEN, SCB_SERIER, VARLDSBANKEN
 
 VALAR = [2010, 2014, 2018, 2022, 2026]
 PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
@@ -173,6 +173,24 @@ def riksbanken(data_dir: Path) -> pd.DataFrame:
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
+def varldsbanken(data_dir: Path) -> pd.DataFrame:
+    delar = []
+    for fraga, namn, kod, battre in VARLDSBANKEN:
+        f = data_dir / "varldsbanken" / f"{kod}.csv"
+        if not f.exists():
+            continue
+        try:
+            d = pd.read_csv(f)
+        except pd.errors.EmptyDataError:
+            continue
+        if d.empty:
+            continue
+        delar.append(pd.DataFrame({"fraga": fraga, "indikator": namn, "kalla": f"Världsbanken {kod}",
+                                   "niva": "riket", "region_kod": "0000", "period": d.ar.astype(str),
+                                   "ar_dec": d.ar + 0.5, "varde": d.varde, "battre": battre}))
+    return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
+
+
 def _arsvarde(d: pd.DataFrame, ar: int) -> float | None:
     """Värdet för året (medel av månader/kvartal); faller tillbaka på året innan."""
     for a in (ar, ar - 1):
@@ -277,7 +295,8 @@ def fran_fragor(pol: pd.DataFrame, kpi: pd.DataFrame) -> pd.DataFrame:
 
 def bygg(scb, katalog, data_dir, betydelse, som, val, varningar, pol=None, kpi=None):
     extra = fran_fragor(pol if pol is not None else pd.DataFrame(), kpi if kpi is not None else pd.DataFrame())
-    delar = [d for d in (kolada(data_dir), scb_serier(scb, katalog, varningar), riksbanken(data_dir), extra)
+    delar = [d for d in (kolada(data_dir), scb_serier(scb, katalog, varningar), riksbanken(data_dir),
+                         varldsbanken(data_dir), extra)
              if not d.empty]
     v = pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
     if v.empty:

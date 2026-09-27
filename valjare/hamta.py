@@ -486,6 +486,23 @@ def hamta_kolada():
         print(f"  {kid} {namn}: {len(df)} rader")
 
 
+def hamta_varldsbanken():
+    from verklighet_katalog import VARLDSBANKEN
+    ut_dir = DATA_DIR / "varldsbanken"
+    ut_dir.mkdir(parents=True, exist_ok=True)
+    for _, namn, kod, _ in VARLDSBANKEN:
+        try:
+            r = http("GET", f"https://api.worldbank.org/v2/country/SWE/indicator/{kod}",
+                     params={"format": "json", "per_page": 200})
+            j = r.json()
+            rader = [{"ar": int(x["date"]), "varde": x["value"]} for x in (j[1] if len(j) > 1 and j[1] else [])
+                     if x.get("value") is not None]
+            pd.DataFrame(rader).to_csv(ut_dir / f"{kod}.csv", index=False)
+            print(f"  Världsbanken {kod}: {len(rader)} år")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"världsbanken {kod}: {exc}")
+
+
 def hamta_riksbanken():
     from verklighet_katalog import RIKSBANKEN
     ut_dir = DATA_DIR / "riksbanken"
@@ -638,6 +655,7 @@ def main():
     if a.steg in ("alla", "verklighet"):
         hamta_kolada()
         hamta_riksbanken()
+        hamta_varldsbanken()
     if a.steg in ("alla", "geo"):
         hamta_geodata()
     logg["slut"] = datetime.now(timezone.utc).isoformat()

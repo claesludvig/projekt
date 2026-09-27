@@ -64,6 +64,19 @@ KOLADA = [
     ("bostad", "Färdigställda bostäder, nybyggnad, per 1 000 inv", "N07917", None, "hogre"),
     ("pension", "Låg ekonomisk standard 65+ (%)", "N66079", None, "lagre"),
     ("jamstalldhet", "Kvinnors mediannettoinkomst i % av mäns", "N00952", None, "hogre"),
+    # --- luckor
+    ("skola", "Meritvärde åk 9 (hemkommun)", "meritvärde",
+     r"(?i)åk\.? ?9.*genomsnittligt meritvärde.*hemkommun|genomsnittligt meritvärde.*åk\.? ?9.*hemkommun", "hogre"),
+    ("jobb", "Arbetslöshet, Arbetsförmedlingen (% av bef.)", "rbetslöshet",
+     r"(?i)^arbetslöshet 1[68]-6[4-6] år, (årsmedelvärde, )?andel \(%\) av (befolkningen|bef)", "lagre"),
+    ("sjukvard", "Besök i specialiserad vård inom 90 dagar (äldre serie)", "inom 90 dagar",
+     r"(?i)^(väntande|besök|patienter).*(specialiserad vård|förstagångsbesök).*inom 90 dagar, andel", "hogre"),
+    ("miljo", "Skyddad natur, andel av landareal (%)", "kyddad natur",
+     r"(?i)skyddad natur.*andel", "hogre"),
+    ("miljo", "Insamlat hushållsavfall (kg/inv)", "ushållsavfall",
+     r"(?i)insamlat hushållsavfall totalt, kg/person|hushållsavfall.*kg/inv", "lagre"),
+    ("miljo", "Ekologiska livsmedel i kommunens verksamhet (%)", "kologiska livsmedel",
+     r"(?i)ekologiska livsmedel i kommunens verksamhet, andel", "hogre"),
 ]
 
 # SCB-serier i riket. "tabell" är ett tabell-id eller ett regex mot rubriken
@@ -98,9 +111,20 @@ SCB_SERIER = [
      "val": {"Alder": "0 år", "Kon": "män"}, "innehall": r".", "battre": "hogre"},
     {"fraga": "jamstalldhet", "namn": "Kvinnors lön i procent av mäns", "tabell": "TAB5124",
      "val": {}, "innehall": r".", "battre": "hogre"},
+    {"fraga": "forsvar", "namn": "Offentliga utgifter för försvar, % av BNP (COFOG)",
+     "tabell": r"(?i)offentliga sektorns utgifter.*funktion", "val": {"~(?i)funktion|cofog": "~(?i)^(02|försvar)"},
+     "innehall": r"(?i)procent av BNP|andel av BNP|% av BNP", "battre": "hogre"},
     {"fraga": "energi", "namn": "Elproduktion, kärnkraft (GWh/mån)", "tabell": "TAB78",
      "val": {"ProdAnv": "kärnkraft (kondens), netto ", "Elomrade": ["SE1", "SE2", "SE3", "SE4"]},
      "innehall": r".", "battre": None},
+]
+
+# Världsbanken (öppet API). Militärutgifterna är SIPRI:s serie.
+VARLDSBANKEN = [
+    ("forsvar", "Försvarsutgifter, % av BNP (SIPRI)", "MS.MIL.XPND.GD.ZS", "hogre"),
+    ("forsvar", "Försvarsutgifter, % av statens utgifter (SIPRI)", "MS.MIL.XPND.ZS", None),
+    ("miljo", "Förnybar energi, % av slutlig energianvändning", "EG.FEC.RNEW.ZS", "hogre"),
+    ("miljo", "Luftföroreningar PM2,5, medelexponering (µg/m³)", "EN.ATM.PM25.MC.M3", "lagre"),
 ]
 
 RIKSBANKEN = [
