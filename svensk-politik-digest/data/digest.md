@@ -1,27 +1,29 @@
 # Svensk politik och regeringsförhandlingarna — 2026-09-27
 
-4 nya poster sedan förra utskicket (23 redan utskickade, 154 utanför ämnet).
+4 nya poster sedan förra utskicket (26 redan utskickade, 151 utanför ämnet).
+
+## Analys och kommentar
+
+### [Åtta goda år för talmansämbetet](https://www.svd.se/a/ExVlKo/andreas-norlens-tid-som-talman-var-bra-for-sverige)
+SvD Ledare · 2026-09-27 · Paulina Neuding
+
+Norléns kärlek till kulturen har påmint om allt som förenar Sverige.
 
 ## Rapportering
 
-### [Uppgifter: Stefan Löfven dödshotad](https://www.svt.se/nyheter/inrikes/uppgifter-stefan-lofven-dodshotad)
-SVT Nyheter · 2026-09-26 · TT
+### [Pontus Mattsson: Förhandlingarna verkar vara otroligt låsa](https://www.sverigesradio.se/artikel/9308279)
+Ekot, Sveriges Radio · 2026-09-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sveriges tidigare statsminister Stefan Löfven (S) ska ha blivit dödshotad i Varberg, enligt uppgifter till Aftonbladet.
+Enligt uppgifter till flera medier ska S och V mötas på söndagen. På måndagen ska en ny talman väljas i riksdagen och på söndagseftermiddagen väntas partier lämna in sina nomineringar till talman. ”Förhandlingarna verkar vara otroligt låsta”, säger Ekots politikreporter Pontus Mattsson. Hör honom berätta mer om regeringsbildningen och utredningar om misstänkt valfusk.
 
-### [C nobbar SD-toppens invit: ”Röda linjen ligger fast”](https://www.svt.se/nyheter/inrikes/c-nobbar-sd-toppens-invit-roda-linjen-ligger-fast)
-SVT Nyheter · 2026-09-26 · Mimmi Nilsson
+### [Mattsson om V och talmansvalet: ”En otrolig krigsförklaring”](https://www.sverigesradio.se/artikel/9308258)
+Ekot, Sveriges Radio · 2026-09-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sverigedemokraterna lever på hoppet om att man på något sätt ska kunna locka över Centerpartiet till tidösidan av politiken. Men den nygamla riksdagsledamoten Birgitta Ohlsson (C) stänger dörren. – Den röda linjen ligger väldigt fast, säger hon.
+Läget kring regeringsbildningen präglas fortfarande av låsningar och ovisshet. Enligt Ekots inrikespolitiske reporter Pontus Mattsson kommer Socialdemokraterna och Vänsterpartiet med olika uppgifter om hur samtalen hittills sett ut. Även kring måndagens talmansval i riksdagen råder det oklarheter, där det ryktas om att Vänsterpartiet kommer rösta ner Socialdemokraternas kandidat.
 
-### [Vučić vill behålla makten – men utmanas av proteströrelse](https://www.sverigesradio.se/artikel/9307847)
-Ekot, Sveriges Radio · 2026-09-26 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Liberalernas lokala bakslag i valet blir ekonomisk smäll](https://www.dn.se/sverige/liberalernas-lokala-bakslag-i-valet-blir-ekonomisk-small)
+DN Nyheter · 2026-09-27 · Pia Gripenberg, Moa Källström
 
-Serbiens president Aleksandar Vučić siktar på att bli ny premiärminister för att på så sätt hålla sig kvar vid makten. Inför parlamentsvalet i Serbien om fyra veckor toppar han en samlingslista för en koalition av partier. Men för första gången på länge finns en allvarlig utmanare, nämligen Studentlistan. Studentlistan samlar flera oppositionspartier och den proteströrelse som startade efter ett dödligt takras på tågtationen i Novi Sad för snart två år sedan.
+UPPSALA. Jubel och lättnad över riksdagsvalet. Sorg och besvikelse över vad som händer i regioner och på kommunnivå. För Liberalerna är det en ekonomisk smäll att röstas bort från regionpolitiken. Hur ska partiet komma tillbaka?
 
-### [Birgitta Ohlsson (C): Då blir jag vilde](https://www.sverigesradio.se/artikel/9308138)
-Ekot, Sveriges Radio · 2026-09-26 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Om Centerpartiet sviker sitt vallöfte om röda linjer mot SD, då kommer riksdagsledamoten Birgitta Ohlsson att bli politisk vilde, rapporterar Expressen . Ohlsson som tidigare varit ett av Liberalernas främsta namn, gick tidigare i år över till Centerpartiet, efter att hennes tidigare parti börjat samarbeta med Sverigedemokraterna. Hon säger till Expressen att hon engagerat sig i Centern för att hon tycker att det är viktigt att hålla ytterkanterna borta från svensk politik.
-
-_Genererat 2026-09-27T06:16:59.100076+00:00._
+_Genererat 2026-09-27T14:16:45.607974+00:00._

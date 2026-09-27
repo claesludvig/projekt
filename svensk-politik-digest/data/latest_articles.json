@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-27T06:16:59.100076+00:00",
+  "fetched_at": "2026-09-27T14:16:45.607974+00:00",
   "new_count": 4,
   "skipped": {
-    "seen": 23,
-    "offtopic": 154,
+    "seen": 26,
+    "offtopic": 151,
     "old": 29
   },
   "fetch_errors": 2,
@@ -11,7 +11,7 @@
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,75 +65,77 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/uppgifter-stefan-lofven-dodshotad",
-      "title": "Uppgifter: Stefan Löfven dödshotad",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-26",
-      "author": "TT",
+      "url": "https://www.svd.se/a/ExVlKo/andreas-norlens-tid-som-talman-var-bra-for-sverige",
+      "title": "Åtta goda år för talmansämbetet",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-27",
+      "author": "Paulina Neuding",
       "commentator": "",
-      "summary": "Sveriges tidigare statsminister Stefan Löfven (S) ska ha blivit dödshotad i Varberg, enligt uppgifter till Aftonbladet.",
-      "fulltext": "Sveriges tidigare statsminister Stefan Löfven (S) ska ha blivit dödshotad i Varberg, enligt uppgifter till Aftonbladet .\nEn bil med flera okända personer ska ha stannat i närheten av Stefan Löfven och därefter uttalat dödshot mot honom, enligt tidningen.\nHändelsen ska enligt Aftonbladet ha lett till en polisinsats med patruller inblandade i jakt på bilen.\n– Vi har tagit upp en anmälan om olaga hot och även försökt lokalisera det här fordonet då, säger polisens presstalesperson Emelie Lundqvist.\nStefan Löfven hälsar via Socialdemokraternas presstjänst att han inte vill kommentera.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Norléns kärlek till kulturen har påmint om allt som förenar Sverige.",
+      "fulltext": "Andreas Norlén har varit riksdagens talman i en turbulent tid. Han har gjort ett av Sveriges viktigaste ämbeten till sitt på ett alldeles eget sätt.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nE n pandemi, en våg av väpnat gängvåld, ett krig i Europa.\nFör att inte nämna att det hela avslutas med att det för första gången sedan demokratins införande i Sverige kommer uppgifter om omfattande fusk i ett riksdagsval.\nOch så stöket i en allt mer konfliktfylld offentlighet.\nAndreas Norlén har varit riksdagens talman i en minst sagt turbulent tid. När han tillträdde 2018 kom han visserligen från posten som ordförande i KU, men var ännu en förhållandevis okänd moderat riksdagsledamot från Östergötland, korrekt och lågmäld i framtoningen, och disputerad på en avhandling i juridik om oskälighetsbegreppet i avtalslagens paragraf 36.\nDet är inte sådant som omedelbart brukar göra människor folkkära.\nMen Norlén har under de åtta år som gått gjort sitt ämbete, rikets högsta efter statschefens, till sitt på ett alldeles eget sätt.\nFramför allt har han visat en smittsam kärlek till kultur som kan tala till alla oavsett politisk hemvist.\nNär den politiska offentligheten, inte bara i Sverige, har rört sig mot tilltagande populism och gapande i sociala medier, har Norlén stått för motsatsen. Framför allt har han visat en smittsam kärlek till kultur som kan tala till alla oavsett politisk hemvist. Några rader av en ukrainsk poet under ett tal på årsdagen av Rysslands invasion, eller en dikt av Bodil Malmsten under en minnesceremoni för pandemins offer – sådant har påmint om att det är mer som förenar än som skiljer oss åt, även i turbulenta tider.\nHans egna böcker under ämbetstiden, ”Tomatdagboken” (skriven tillsammans med hustrun Helena Norlén, Max Ström förlag 2025) och ”Talmannens guide till svensk poesi” (2024), har kretsat just kring ynnesten att få odla sin egen trädgård, både yttre och inre. Ett slags motljud som har reducerat bruset från dagspolitikens tjafs och konflikter.\nNya majoritetsförhållanden i riksdagen innebär att det är dags för en ny talman, och det spekuleras i namn som Anders Ygeman och Morgan Johansson. Med andra ord – talmansämbetet kommer sannolikt att återgå till vad det var före 2018.\nMen cometh the hour, cometh the man , som britterna säger. Det behöver inte betyda något mer pompöst än att vi i alla fall med avseende på rikets näst högsta ämbete just har haft åtta riktigt goda år.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister"
+        "talman"
       ],
-      "first_seen": "2026-09-27T06:16:59.100076+00:00"
+      "first_seen": "2026-09-27T14:16:45.607974+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/c-nobbar-sd-toppens-invit-roda-linjen-ligger-fast",
-      "title": "C nobbar SD-toppens invit: ”Röda linjen ligger fast”",
-      "source": "SVT Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9308279",
+      "title": "Pontus Mattsson: Förhandlingarna verkar vara otroligt låsa",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-09-26",
-      "author": "Mimmi Nilsson",
+      "published": "2026-09-27",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Sverigedemokraterna lever på hoppet om att man på något sätt ska kunna locka över Centerpartiet till tidösidan av politiken. Men den nygamla riksdagsledamoten Birgitta Ohlsson (C) stänger dörren. – Den röda linjen ligger väldigt fast, säger hon.",
-      "fulltext": "Sverigedemokraterna lever på hoppet om att man på något sätt ska kunna locka över Centerpartiet till tidösidan av politiken.\nMen den nygamla riksdagsledamoten Birgitta Ohlsson (C) stänger dörren.\n– Den röda linjen ligger väldigt fast, säger hon.\nPå tisdag öppnar riksdagen och drygt en tredjedel av ledamöterna är nya för mandatperioden.\nEn av dem är 25-årige Emil Eneblad, som tidigare varit ordförande i Sverigedemokraternas ungdomsförbund Ungsvenskarna.\nEn annan är Birgitta Ohlsson, som har en lång politisk bakgrund inom Liberalerna, men nu bytt parti och gör riksdagscomeback för Centerpartiet.\nSamtidigt som de nya ledamöterna flyttar in är det låst läge i regeringsfrågan. Sverigedemokraterna och Centerpartiet står långt ifrån varandra politiskt – men båda partierna kan komma att spela avgörande roller när pusslet för att få ihop en majoritet i riksdagen ska läggas.\nSocialdemokraternas partiledare Magdalena Andersson har just nu sonderingsuppdraget.\nSom enda Tidöparti backade Sverigedemokraterna i valet och landade på 17,48 procent, vilket är mindre än Moderaterna. Partiet har inte gett upp hoppet om regeringsmakten – men för att få till en majoritet krävs att man lyckas locka över Centerpartiet.\n– På många områden, inte minst landsbygdspolitik, jaktpolitik och ekonomisk politik har vi gemensamma nämnare, säger Emil Eneblad.\nMen från Centerpartiet ligger den röda linjen mot Sverigedemokraterna fast. Partiet fick 7,03 procent i valet vilket är en liten ökning mot valet 2022. Birgitta Ohlsson betonar att partiet vill se en mittenregering.\n– Ger man politiska plattformar till auktoritära eller nationalistiska partier så får man auktoritär och nationalistisk politik, säger Birgitta Ohlsson.\nPå frågan om hur vägen framåt ser ut för Centerpartiet ger hon inga tydliga svar.\n– När det gäller förhandlingar så har jag ingenting att säga. Många politiker måste ha ett bra sittfläsk de närmaste veckorna, säger Birgitta Ohlsson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Enligt uppgifter till flera medier ska S och V mötas på söndagen. På måndagen ska en ny talman väljas i riksdagen och på söndagseftermiddagen väntas partier lämna in sina nomineringar till talman. ”Förhandlingarna verkar vara otroligt låsta”, säger Ekots politikreporter Pontus Mattsson. Hör honom berätta mer om regeringsbildningen och utredningar om misstänkt valfusk.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308279'",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman"
+      ],
+      "first_seen": "2026-09-27T14:16:45.607974+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308258",
+      "title": "Mattsson om V och talmansvalet: ”En otrolig krigsförklaring”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Läget kring regeringsbildningen präglas fortfarande av låsningar och ovisshet. Enligt Ekots inrikespolitiske reporter Pontus Mattsson kommer Socialdemokraterna och Vänsterpartiet med olika uppgifter om hur samtalen hittills sett ut. Även kring måndagens talmansval i riksdagen råder det oklarheter, där det ryktas om att Vänsterpartiet kommer rösta ner Socialdemokraternas kandidat.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308258'",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-27T14:16:45.607974+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/liberalernas-lokala-bakslag-i-valet-blir-ekonomisk-small",
+      "title": "Liberalernas lokala bakslag i valet blir ekonomisk smäll",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Pia Gripenberg, Moa Källström",
+      "commentator": "",
+      "summary": "UPPSALA. Jubel och lättnad över riksdagsvalet. Sorg och besvikelse över vad som händer i regioner och på kommunnivå. För Liberalerna är det en ekonomisk smäll att röstas bort från regionpolitiken. Hur ska partiet komma tillbaka?",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-27 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/liberalernas-lokala-bakslag-i-valet-blir-ekonomisk-small/\nUPPSALA. Jubel och lättnad över riksdagsvalet. Sorg och besvikelse över vad som händer i regioner och på kommunnivå.\nFör Liberalerna är det en ekonomisk smäll att röstas bort från regionpolitiken.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nLyckan var stor på Liberalernas valvaka i Uppsala när de första valprognoserna rullade in. Det som verkade omöjligt några veckor tidigare hade gått vägen: partiet räddar sig kvar i riksdagen.\nSedan kom de lokala siffrorna. ”Skit” tänkte Thea Andersson (L), regionråd i Uppsala.\n– Jag gick hem. Jag tänkte inte sabba valvakan, berättar hon.\nHon blev regionråd i juni sedan hennes företrädare hoppade av efter att partiet gjorde upp med Sverigedemokraterna om att sitta tillsammans i en regering.\nI valet tappade L alla sina fem mandat i region Uppsala. Thea Andersson är kvar på sin post till årsskiftet, då en ny regionstyrelse träder in.\nI ytterligare tre regioner åkte partiet ut. Sammantaget finns L nu bara representerat i 12 av Sveriges 20 regioner.\nFör Liberalerna i Uppsala innebär det att man blir av med sitt regionala partistöd på över två miljoner kronor över en mandatperiod. Två anställda har varslats om uppsägning. Man säger upp sina möteslokaler hos Vuxenskolan.\nVarför gick det dåligt lokalt, när det gick bra nationellt?\n– Helt avgörande var att Simona gjorde ett jättebra jobb. Det fanns taktikröster, men det är också meningsfulla röster som väljarna kan stå för. Frågan är varför de inte valde L i alla val, säger Thea Andersson.\nHon var med och gjorde utvärderingen av valet 2022 och hoppas att en kommande analys kan förklara årets valresultat.\nMen hon har egna funderingar. En är att partiet ”inte hann med” de lokala valen när man var så fokuserad på riksdagen. Frågetecknen som fanns centralt om vägvalet rätades ut i uppgörelsen med SD, men hann inte förankras och föras ut lokalt.\n– Vissa lokala val har gått jättebra. Där har det funnits starka företrädare med väldigt tydliga frågor.\nThea Andersson talar också om identitet, att partiet varit splittrat och att man i regeringen riktat in sig på vissa frågor i stället för på helheten.\n– Vi pratar inte så mycket om försvarspolitik som vi har gjort historiskt. Utrikespolitiken är också ganska begränsad. Nu har vi chans att bredda väljarerbjudandet.\nHon ser fram mot att partiet kan enas efter de senaste årens splittring.\n– Det gör vi genom ett genomtänkt politiskt arbete tillsammans där vi hittar tillbaka till vad det är som är våra kärnvärden. Eller väljer nya.\n2026 är det andra valet i rad som Liberalerna tappar rejält med inflytande i regioner och kommuner. L var dessutom nära att bli utröstade i de stora regionerna Stockholm och Skåne.\n– Vi kan inte trilla ur flera. Det är helt avgörande.\n– I huvudsak är det faktiskt finansieringsfrågan. Men det är också ett demokratiskt kärnuppdrag.\nThea Andersson anser att Liberalerna måste vara ett ”fullserviceparti”.\n– Vår politiska identitet ska gå att känna igen på kommunal nivå, på regional nivå och på nationell nivå. Väljarna ska vara trygga med att välja oss tre gånger. Inte bara en gång.\nEn av få större städer där Liberalerna gick framåt är Västerås. Där är Anton Holmlund, ordförande för Liberala ungdomsförbundet, Luf, ledamot i kommunfullmäktige.\n– Vi hade mycket ideellt engagemang i Västerås, ett bra förstanamn och en sakpolitisk konflikt om äldrevården, sammanfattar han.\nHan pekar på att det varit färre namn på de lokala partilistorna i det här valet och tycker det är oroande.\n– Det finns definitivt fler liberalt sinnade människor i Sverige än vad de lokala valen visar. De kampanjerna har inte lyckats nå ut till tillräckligt många och inte lyckats få folk engagerade nog.\nLuf tillhörde dem som kritiserade vägvalet i mars med SD. Anton Holmlund tror att L kunnat klara sig kvar i riksdagen även utan den uppgörelsen.\nHan efterlyser en renovering av partiet. Och då talar han främst om de interna processerna.\n– Vill man att det ska funka som det har gjort de senaste fyra åren med ganska litet medlemsinflytande? Då kanske man behöver skriva ner det i stadgar och strukturer. Annars får man faktiskt följa de former som vi har.\nPolitiskt anser han att Liberalerna saknar en egen berättelse om vilket parti man är.\n– Det går inte att bygga ett parti på bara skolpolitiken. Det måste finnas någon djupare sammanhållen idé. Kanske ska man ha en ideologikongress eller något sådant under mandatperioden och komma fram till vad vår roll är i svensk politik?\nRiksdagen: 5,3 procent, en ökning med 0,7 procent\nRegionerna: 3,3 procent, en minskning med 1,3 procent.\nLiberalerna backar i alla regioner och åker ut i fyra regioner. Partiet saknar sedan tidigare mandat i flera regioner. L är därför bara är representerat i 12 av Sveriges 20 regioner.\nGotland är både kommun och region samtidigt. I Valmyndighetens statistik räknas Gotland enbart som en kommun. I den finns L representerat.\nKommunerna: 4,0 procent, en minskning med 1,2 procent.\nLiberalerna backar i 215 kommuner, går framåt i 61 och ligger still i 14 kommuner. I 39 kommuner åker partiet ut, enligt en sammanställning a v Dagens Samhälle .\nFör att väljas in i riksdagen måste ett parti få fyra procent av rösterna.\nI kommunen är spärren två eller tre procent, beroende på hur många valkretsar som finns.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nUppgifter: S och V planerar att träffas på söndag\nPeter Wolodarski: Putin kör fast i Ukraina, då försöker han skrämma resten av Europa\nLedare: Magdalena Andersson kan inte vänta på Vänsterpartiet",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Centerpartiet",
-        "Sverigedemokraterna"
+        "riksdagsval",
+        "Liberalerna"
       ],
-      "first_seen": "2026-09-27T06:16:59.100076+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9307847",
-      "title": "Vučić vill behålla makten – men utmanas av proteströrelse",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-26",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Serbiens president Aleksandar Vučić siktar på att bli ny premiärminister för att på så sätt hålla sig kvar vid makten. Inför parlamentsvalet i Serbien om fyra veckor toppar han en samlingslista för en koalition av partier. Men för första gången på länge finns en allvarlig utmanare, nämligen Studentlistan. Studentlistan samlar flera oppositionspartier och den proteströrelse som startade efter ett dödligt takras på tågtationen i Novi Sad för snart två år sedan.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9307847'",
-      "matched_terms": [
-        "koalition"
-      ],
-      "first_seen": "2026-09-27T06:16:59.100076+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9308138",
-      "title": "Birgitta Ohlsson (C): Då blir jag vilde",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-09-26",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Om Centerpartiet sviker sitt vallöfte om röda linjer mot SD, då kommer riksdagsledamoten Birgitta Ohlsson att bli politisk vilde, rapporterar Expressen . Ohlsson som tidigare varit ett av Liberalernas främsta namn, gick tidigare i år över till Centerpartiet, efter att hennes tidigare parti börjat samarbeta med Sverigedemokraterna. Hon säger till Expressen att hon engagerat sig i Centern för att hon tycker att det är viktigt att hålla ytterkanterna borta från svensk politik.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308138'",
-      "matched_terms": [
-        "Centerpartiet",
-        "Liberalerna",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-09-27T06:16:59.100076+00:00"
+      "first_seen": "2026-09-27T14:16:45.607974+00:00"
     }
   ]
 }
