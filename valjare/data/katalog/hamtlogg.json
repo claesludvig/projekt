@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T07:48:59.811457+00:00",
+ "start": "2026-09-27T08:57:09.404342+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1114,34 +1114,6 @@
    "kalla": "SCB"
   },
   {
-   "id": "TAB2715",
-   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare boende utomlands efter kön och ålder (urvalsundersökning). Valår 2002-2014",
-   "tema": "valdeltagande",
-   "celler": 300,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 5
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 5
-    },
-    "Tid": {
-     "etikett": "valår",
-     "antal": 4
-    }
-   },
-   "status": "ok",
-   "rader": 300,
-   "uppdaterad": "2015-03-30T07:30:00Z",
-   "kalla": "SCB"
-  },
-  {
    "id": "TAB2718",
    "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter födelseregion och kön (urvalsundersökning). Valår 2002-2014",
    "tema": "valdeltagande",
@@ -1686,114 +1658,6 @@
    "kalla": "SCB"
   },
   {
-   "id": "TAB1424",
-   "rubrik": "Elever som fullföljt/ej fullföljt gymnasiestudier påbörjade år 2000 i årskurs ett efter studieresultat, kön, utländsk/svensk bakgrund och program. År 2007",
-   "tema": "befolkning",
-   "celler": 216,
-   "variabler": {
-    "Studresultat": {
-     "etikett": "fullföljt/ej fullföljt gymnasiestudierna",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "Program": {
-     "etikett": "gymnasieprogram",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 1
-    }
-   },
-   "status": "ok",
-   "rader": 216,
-   "uppdaterad": "2007-12-07T08:31:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB3729",
-   "rubrik": "Deltagande i eftergymnasiala studier bland nybörjare i gymnasieskolan år 2000 efter typ av studiedeltagande, fullföljt/ej fullföljt gymnasiestudierna, kön och utländsk/svensk bakgrund. År 2001-2005",
-   "tema": "befolkning",
-   "celler": 810,
-   "variabler": {
-    "Studiedeltagande": {
-     "etikett": "typ av studiedeltagande",
-     "antal": 3
-    },
-    "Studresultat": {
-     "etikett": "fullföljt/ej fullföljt gymnasiestudierna",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 5
-    }
-   },
-   "status": "ok",
-   "rader": 810,
-   "uppdaterad": "2007-12-07T08:31:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1033",
-   "rubrik": "Etablering (arbete, studier mm) bland nybörjare i gymnasieskolan år 2000 efter huvudsaklig verksamhet, fullföljt/ej fullföljt gymnasiestudierna, kön och utländsk/svensk bakgrund. År 2005",
-   "tema": "befolkning",
-   "celler": 378,
-   "variabler": {
-    "HuvVerks": {
-     "etikett": "huvudsaklig verksamhet",
-     "antal": 7
-    },
-    "Studresultat": {
-     "etikett": "fullföljt/ej fullföljt gymnasiestudierna",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 1
-    }
-   },
-   "status": "ok",
-   "rader": 378,
-   "uppdaterad": "2007-12-07T08:32:00Z",
-   "kalla": "SCB"
-  },
-  {
    "id": "TAB1125",
    "rubrik": "Ekonomisk standard för personer efter region, sysselsättning, utländsk/svensk bakgrund och ålder. Fasta priser. År 2011-2024",
    "tema": "befolkning",
@@ -1895,290 +1759,6 @@
    "kalla": "SCB"
   },
   {
-   "id": "TAB1096",
-   "rubrik": "EU-sympati efter kön och utländsk/svensk bakgrund (urvalsundersökning). Mätmånad 2006M05-2026M05",
-   "tema": "befolkning",
-   "celler": 2052,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "EUsymp": {
-     "etikett": "EU-sympati",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "mätmånad",
-     "antal": 38
-    }
-   },
-   "status": "ok",
-   "rader": 2052,
-   "uppdaterad": "2026-06-10T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5312",
-   "rubrik": "Tabell 3.10 - Elever som började gymnasieskolan och som inte har slutfört studierna inom fyra år efter svensk och utländsk bakgrund. År 2014-2021",
-   "tema": "befolkning",
-   "celler": 96,
-   "variabler": {
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 8
-    }
-   },
-   "status": "ok",
-   "rader": 96,
-   "uppdaterad": "2026-06-18T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1064",
-   "rubrik": "Eurosympati efter kön och utländsk/svensk bakgrund (urvalsundersökning). Mätmånad 2006M05-2026M05",
-   "tema": "befolkning",
-   "celler": 2052,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "Eurosymp": {
-     "etikett": "Euro-sympati",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "mätmånad",
-     "antal": 38
-    }
-   },
-   "status": "ok",
-   "rader": 2052,
-   "uppdaterad": "2026-06-10T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB3769",
-   "rubrik": "Nato-sympati efter kön och utländsk/svensk bakgrund (urvalsundersökning). Mätmånad 2022M05-2026M05",
-   "tema": "befolkning",
-   "celler": 324,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "NATOsympati": {
-     "etikett": "Nato-sympati",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "mätmånad",
-     "antal": 6
-    }
-   },
-   "status": "ok",
-   "rader": 324,
-   "uppdaterad": "2026-06-10T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5322",
-   "rubrik": "Tabell 3.12 - Elever med grundläggande behörighet till studier på högskolenivå efter svensk och utländsk bakgrund. Läsår 2013/14-2024/25",
-   "tema": "befolkning",
-   "celler": 288,
-   "variabler": {
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 12
-    }
-   },
-   "status": "ok",
-   "rader": 288,
-   "uppdaterad": "2026-06-18T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5274",
-   "rubrik": "Tabell 3.4 - Elever som är behöriga till gymnasieskolan efter svensk och utländsk bakgrund. Läsår 2010/11-2024/25",
-   "tema": "befolkning",
-   "celler": 900,
-   "variabler": {
-    "Program": {
-     "etikett": "gymnasieprogram",
-     "antal": 5
-    },
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 15
-    }
-   },
-   "status": "ok",
-   "rader": 900,
-   "uppdaterad": "2025-12-10T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1097",
-   "rubrik": "EU-sympati (PSU) efter utländsk/svensk bakgrund och kön. (Urvalsundersökning, se fotnoter.)  Mätmånad 2004M05-2010M11",
-   "tema": "befolkning",
-   "celler": 504,
-   "variabler": {
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 2
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "EUsymp": {
-     "etikett": "EU-sympati",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "mätmånad",
-     "antal": 14
-    }
-   },
-   "status": "ok",
-   "rader": 504,
-   "uppdaterad": "2010-12-14T08:34:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1065",
-   "rubrik": "Euro-sympati (PSU) efter utländsk/svensk bakgrund och kön. (Urvalsundersökning, se fotnoter.)  Mätmånad 2004M05-2010M11",
-   "tema": "befolkning",
-   "celler": 504,
-   "variabler": {
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 2
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Eurosymp": {
-     "etikett": "Euro-sympati",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "mätmånad",
-     "antal": 14
-    }
-   },
-   "status": "ok",
-   "rader": 504,
-   "uppdaterad": "2010-12-14T08:33:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5310",
-   "rubrik": "Tabell 3.8 - Elever på gymnasiet efter programtyp och efter föräldrarnas utbildningsnivå samt svensk och utländsk bakgrund. År 2013/14-2025/26",
-   "tema": "befolkning",
-   "celler": 936,
-   "variabler": {
-    "ElevernasInriktning": {
-     "etikett": "programtyp",
-     "antal": 3
-    },
-    "ForUtb": {
-     "etikett": "föräldrars utbildningsnivå",
-     "antal": 3
-    },
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 2
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 13
-    }
-   },
-   "status": "ok",
-   "rader": 936,
-   "uppdaterad": "2026-06-18T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
    "id": "TAB2454",
    "rubrik": "SILC Boende efter indikator, utländsk/svensk bakgrund och kön. Samtliga åldrar. Andelar i procent och skattat antal i tusental. År 2008-2020",
    "tema": "befolkning",
@@ -2208,102 +1788,6 @@
    "status": "ok",
    "rader": 3276,
    "uppdaterad": "2021-10-14T07:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5311",
-   "rubrik": "Tabell 3.9 - Betygspoäng för elever på gymnasieskolan med slutbetyg efter svensk och utländsk bakgrund samt föräldrarnas utbildningsnivå. Läsår 2013/14-2024/25",
-   "tema": "befolkning",
-   "celler": 288,
-   "variabler": {
-    "ForUtb": {
-     "etikett": "föräldrars utbildningsnivå",
-     "antal": 4
-    },
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 3
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 12
-    }
-   },
-   "status": "ok",
-   "rader": 288,
-   "uppdaterad": "2026-06-18T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5275",
-   "rubrik": "Tabell 3.5 - Elever på gymnasieskolan efter program och svensk och utländsk bakgrund. Läsår 2013/14-2025/26",
-   "tema": "befolkning",
-   "celler": 3224,
-   "variabler": {
-    "Program": {
-     "etikett": "gymnasieprogram",
-     "antal": 31
-    },
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 2
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 13
-    }
-   },
-   "status": "ok",
-   "rader": 3224,
-   "uppdaterad": "2026-06-18T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB5272",
-   "rubrik": "Tabell 3.2 - Meritvärde för elever som avslutat årskurs 9 efter svensk och utländsk bakgrund samt föräldrarnas utbildningsnivå. Läsår 2014/15-2024/25",
-   "tema": "befolkning",
-   "celler": 264,
-   "variabler": {
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 3
-    },
-    "ForUtb": {
-     "etikett": "föräldrars utbildningsnivå",
-     "antal": 4
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 11
-    }
-   },
-   "status": "ok",
-   "rader": 264,
-   "uppdaterad": "2025-12-10T07:00:00Z",
    "kalla": "SCB"
   },
   {
@@ -2343,38 +1827,6 @@
    "kalla": "SCB"
   },
   {
-   "id": "TAB4498",
-   "rubrik": "Barn och unga 0–21 år med svensk och utländsk bakgrund efter kön och ålder. År 2002-2025",
-   "tema": "befolkning",
-   "celler": 6912,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 24
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 24
-    }
-   },
-   "status": "ok",
-   "rader": 6912,
-   "uppdaterad": "2026-06-25T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
    "id": "TAB6571",
    "rubrik": "Folkmängden per region efter utländsk/svensk bakgrund och kön. År 2010-2025",
    "tema": "befolkning",
@@ -2404,118 +1856,6 @@
    "status": "ok",
    "rader": 44928,
    "uppdaterad": "2026-03-24T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4512",
-   "rubrik": "Hemmaboende barn och unga 0–21 år vars föräldrar separerat under året efter kön, ålder, familjetyp, utländsk/svensk bakgrund och föräldrarnas inkomstnivå. År 2015-2025",
-   "tema": "befolkning",
-   "celler": 11880,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 2
-    },
-    "Familjetyp": {
-     "etikett": "familjetyp",
-     "antal": 4
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "Foraldrarinkniv": {
-     "etikett": "föräldrarnas inkomstnivå",
-     "antal": 5
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 3
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 11
-    }
-   },
-   "status": "ok",
-   "rader": 11880,
-   "uppdaterad": "2026-06-25T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB6797",
-   "rubrik": "Elever behöriga till gymnasieskolan som avslutat årskurs 9 efter boenderegion, utländsk/svensk bakgrund och bakgrundsvariabel. År 2023/24-2024/25",
-   "tema": "befolkning",
-   "celler": 112320,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 312
-    },
-    "SvUtlBakgr": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "BakgrVar": {
-     "etikett": "bakgrundsvariabel",
-     "antal": 30
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 112320,
-   "uppdaterad": "2026-04-14T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4500",
-   "rubrik": "Familjetyp för hemmaboende barn och unga 0–21 år efter kön, ålder, familjetyp, utländsk/svensk bakgrund och föräldrarnas utbildningsnivå. År 2014-2025",
-   "tema": "befolkning",
-   "celler": 62208,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 24
-    },
-    "Familjetyp": {
-     "etikett": "familjetyp",
-     "antal": 6
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "UtbNivaForalder": {
-     "etikett": "föräldrarnas utbildningsnivå",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 12
-    }
-   },
-   "status": "ok",
-   "rader": 62208,
-   "uppdaterad": "2026-06-25T06:00:00Z",
    "kalla": "SCB"
   },
   {
@@ -2603,66 +1943,6 @@
    "kalla": "SCB"
   },
   {
-   "id": "TAB5356",
-   "rubrik": "Tabell 3.31 - Ungdomars etablering på arbetsmarknaden ett år efter avslutade gymnasiestudier efter svensk och utländsk bakgrund. År 2012-2023",
-   "tema": "befolkning",
-   "celler": 768,
-   "variabler": {
-    "SvUtlBakgrund": {
-     "etikett": "svensk och utländsk bakgrund",
-     "antal": 4
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 8
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 12
-    }
-   },
-   "status": "ok",
-   "rader": 768,
-   "uppdaterad": "2025-12-10T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB6798",
-   "rubrik": "Elever behöriga till gymnasieskolan som avslutat årskurs 9 för hela riket efter tid i Sverige, utländsk/svensk bakgrund och bakgrundsvariabel. År 2023/24-2024/25",
-   "tema": "befolkning",
-   "celler": 1728,
-   "variabler": {
-    "VistelseSverige2": {
-     "etikett": "tid i Sverige",
-     "antal": 6
-    },
-    "SvUtlBakgr": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "BakgrVar": {
-     "etikett": "bakgrundsvariabel",
-     "antal": 24
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "läsår",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 1728,
-   "uppdaterad": "2026-06-30T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
    "id": "TAB6649",
    "rubrik": "Antal personer med utländsk eller svensk bakgrund (grov indelning) efter region, ålder och kön.  År 2025",
    "tema": "befolkning",
@@ -2730,158 +2010,6 @@
     }
    },
    "status": "hoppad: 2899104 celler > 600000"
-  },
-  {
-   "id": "TAB2673",
-   "rubrik": "Barn och unga 0–21 år med svensk och utländsk bakgrund efter region, kön och ålder. År 2023-2025",
-   "tema": "befolkning",
-   "celler": 22464,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 312
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 2
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 22464,
-   "uppdaterad": "2026-06-25T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4506",
-   "rubrik": "Antal hemmaboende syskon bland hemmaboende barn och unga 0–21 år efter kön, ålder, familjetyp och utländsk/svensk bakgrund. År 2014-2025",
-   "tema": "befolkning",
-   "celler": 51840,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 24
-    },
-    "Antalsyskon": {
-     "etikett": "antal hemmaboende syskon",
-     "antal": 4
-    },
-    "Familjetyp": {
-     "etikett": "familjetyp",
-     "antal": 5
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 12
-    }
-   },
-   "status": "ok",
-   "rader": 51840,
-   "uppdaterad": "2026-06-25T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4727",
-   "rubrik": "Barns trygghet i bostadsområdet efter indikator, redovisningsgrupp och kön. År 2023",
-   "tema": "brott",
-   "celler": 3840,
-   "variabler": {
-    "Trygghet": {
-     "etikett": "indikator",
-     "antal": 8
-    },
-    "Redovisningsgrupp": {
-     "etikett": "redovisningsgrupp",
-     "antal": 40
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 1
-    }
-   },
-   "status": "ok",
-   "rader": 3840,
-   "uppdaterad": "2024-03-27T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4518",
-   "rubrik": "Boendeform och genomsnittlig bostadsarea per person för hemmaboende barn och unga 0–21 år efter kön, ålder, boendeform, familjetyp, utländsk/svensk bakgrund och föräldrarnas inkomstnivå. År 2014-2025",
-   "tema": "befolkning",
-   "celler": 194400,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 6
-    },
-    "Boendeform": {
-     "etikett": "boendeform",
-     "antal": 6
-    },
-    "Familjetyp": {
-     "etikett": "familjetyp",
-     "antal": 5
-    },
-    "UtlBakgrund": {
-     "etikett": "utländsk/svensk bakgrund",
-     "antal": 3
-    },
-    "Foraldrarinkniv": {
-     "etikett": "föräldrarnas inkomstnivå",
-     "antal": 5
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 12
-    }
-   },
-   "status": "ok",
-   "rader": 194400,
-   "uppdaterad": "2026-06-25T06:00:00Z",
-   "kalla": "SCB"
   },
   {
    "id": "TAB6648",
@@ -3058,18 +2186,18 @@
    "kalla": "SCB"
   },
   {
-   "id": "TAB4533",
-   "rubrik": "Barns trygghet i bostadsområdet och i skolan efter indikator, redovisningsgrupp och kön. År (2014-2015)-(2018-2019)",
+   "id": "TAB6089",
+   "rubrik": "Otrygghet efter indikator, redovisningsgrupp och kön. Andelar i procent och skattat antal i tusental.  År (2008-2009)-(2025-2025)",
    "tema": "brott",
-   "celler": 12600,
+   "celler": 97920,
    "variabler": {
-    "Trygghet": {
+    "Indikator": {
      "etikett": "indikator",
-     "antal": 20
+     "antal": 8
     },
     "Redovisningsgrupp": {
      "etikett": "redovisningsgrupp",
-     "antal": 14
+     "antal": 85
     },
     "Kon": {
      "etikett": "kön",
@@ -3077,16 +2205,16 @@
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
-     "antal": 3
+     "antal": 4
     },
     "Tid": {
      "etikett": "årsintervall",
-     "antal": 5
+     "antal": 12
     }
    },
    "status": "ok",
-   "rader": 12600,
-   "uppdaterad": "2020-05-20T07:30:00Z",
+   "rader": 97920,
+   "uppdaterad": "2026-02-06T07:00:00Z",
    "kalla": "SCB"
   },
   {
@@ -3250,130 +2378,6 @@
     }
    },
    "status": "hoppad: 30888000 celler > 900000"
-  },
-  {
-   "id": "TAB3733",
-   "rubrik": "Befolkning 16–64 år efter kön, ålder, typ av studiedeltagande, utbildningsnivå och studiemedelsutnyttjande under höstterminen. År 1993-2024",
-   "tema": "utbildning",
-   "celler": 614400,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 20
-    },
-    "Studiedeltagande": {
-     "etikett": "typ av studiedeltagande",
-     "antal": 15
-    },
-    "UtbildningsNiva": {
-     "etikett": "utbildningsnivå",
-     "antal": 8
-    },
-    "STMkat": {
-     "etikett": "studiemedelsutnyttjande",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 32
-    }
-   },
-   "status": "ok",
-   "rader": 614400,
-   "uppdaterad": "2025-12-10T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB3730",
-   "rubrik": "Befolkning 16–74 år efter kön, ålder, typ av studiedeltagande under höstterminen, förälders utbildningsnivå och nationell bakgrund. År 1999-2024",
-   "tema": "utbildning",
-   "celler": 249600,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 20
-    },
-    "Studiedeltagande": {
-     "etikett": "typ av studiedeltagande",
-     "antal": 5
-    },
-    "UtbNivaForalder": {
-     "etikett": "föräldrarnas utbildningsnivå",
-     "antal": 8
-    },
-    "NationellBakgrund": {
-     "etikett": "nationell bakgrund",
-     "antal": 6
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 26
-    }
-   },
-   "status": "ok",
-   "rader": 249600,
-   "uppdaterad": "2025-12-10T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB3731",
-   "rubrik": "Befolkning 16–74 år efter kön, ålder, typ av studiedeltagande under höstterminen, utbildningsnivå, sysselsättning och yngsta barnets ålder. År 1999-2024",
-   "tema": "utbildning",
-   "celler": 499200,
-   "variabler": {
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 20
-    },
-    "Studiedeltagande": {
-     "etikett": "typ av studiedeltagande",
-     "antal": 5
-    },
-    "UtbildningsNiva": {
-     "etikett": "utbildningsnivå",
-     "antal": 8
-    },
-    "Sysselsattning": {
-     "etikett": "sysselsättning",
-     "antal": 3
-    },
-    "BarnAlder": {
-     "etikett": "yngsta barnets ålder",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 26
-    }
-   },
-   "status": "ok",
-   "rader": 499200,
-   "uppdaterad": "2025-12-10T07:00:00Z",
-   "kalla": "SCB"
   },
   {
    "id": "TAB2927",
@@ -3719,23 +2723,15 @@
    "id": "TAB3981",
    "rubrik": "Befolkning 16–74 år efter region, utbildningsnivå, ålder och kön. År 1985-2025",
    "tema": "utbildning",
-   "celler": 12280320,
+   "celler": 102336,
    "variabler": {
     "Region": {
      "etikett": "region",
      "antal": 312
     },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 60
-    },
     "UtbildningsNiva": {
      "etikett": "utbildningsnivå",
      "antal": 8
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 2
     },
     "ContentsCode": {
      "etikett": "tabellinnehåll",
@@ -3746,7 +2742,14 @@
      "antal": 41
     }
    },
-   "status": "hoppad: 12280320 celler > 900000"
+   "utelamnade": [
+    "Alder",
+    "Kon"
+   ],
+   "status": "ok",
+   "rader": 102336,
+   "uppdaterad": "2026-04-27T06:00:00Z",
+   "kalla": "SCB"
   },
   {
    "id": "TAB4320",
@@ -3946,446 +2949,6 @@
    "status": "hoppad: 72176832 celler > 900000"
   },
   {
-   "id": "TAB1564",
-   "rubrik": "Utgifter för hushåll (0–79 år) (HUT) efter disponibel inkomst och utgiftsslag. (Urvalsundersökning.)  År 2006-2009",
-   "tema": "inkomst",
-   "celler": 42812,
-   "variabler": {
-    "DispInk": {
-     "etikett": "disponibel inkomst",
-     "antal": 11
-    },
-    "Utgiftsslag": {
-     "etikett": "utgiftsslag",
-     "antal": 139
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 7
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 4
-    }
-   },
-   "status": "ok",
-   "rader": 42812,
-   "uppdaterad": "2010-12-08T08:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1471",
-   "rubrik": "Utgifter för hushåll (HBS) efter disponibel inkomst och utgiftsslag. (Urvalsundersökning, se fotnoter.)  År 1999-2001",
-   "tema": "inkomst",
-   "celler": 5940,
-   "variabler": {
-    "DispInk": {
-     "etikett": "disponibel inkomst",
-     "antal": 11
-    },
-    "Utgiftsslag": {
-     "etikett": "utgiftsslag",
-     "antal": 36
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 5
-    },
-    "Tid": {
-     "etikett": "år, oregelb",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 5940,
-   "uppdaterad": "2002-12-04T09:24:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1472",
-   "rubrik": "Utgifter för hushåll (HBS) efter hushållstyp, disponibel inkomst och utgiftsslag. (Urvalsundersökning, se fotnoter.)  År 1999-2001",
-   "tema": "inkomst",
-   "celler": 8100,
-   "variabler": {
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 3
-    },
-    "DispInk": {
-     "etikett": "disponibel inkomst",
-     "antal": 5
-    },
-    "Utgiftsslag": {
-     "etikett": "utgiftsslag",
-     "antal": 36
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 5
-    },
-    "Tid": {
-     "etikett": "år, oregelb",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 8100,
-   "uppdaterad": "2002-12-04T09:24:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1482",
-   "rubrik": "Utgifter för hushåll (HBS) efter disponibel inkomst och utgiftsslag (COICOP). (Urvalsundersökning, se fotnoter.)   År 1999-2001",
-   "tema": "inkomst",
-   "celler": 6600,
-   "variabler": {
-    "DispInk": {
-     "etikett": "disponibel inkomst",
-     "antal": 11
-    },
-    "UtgiftsslagCOICOP": {
-     "etikett": "utgiftsslag COICOP-HBS",
-     "antal": 40
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 5
-    },
-    "Tid": {
-     "etikett": "år, oregelb",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 6600,
-   "uppdaterad": "2002-12-12T09:05:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1483",
-   "rubrik": "Utgifter för hushåll (HBS) efter hushållstyp, disponibel inkomst och utgiftsslag (COICOP). (Urvalsundersökning, se fotnoter.)   År 1999-2001",
-   "tema": "inkomst",
-   "celler": 9000,
-   "variabler": {
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 3
-    },
-    "DispInk": {
-     "etikett": "disponibel inkomst",
-     "antal": 5
-    },
-    "UtgiftsslagCOICOP": {
-     "etikett": "utgiftsslag COICOP-HBS",
-     "antal": 40
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 5
-    },
-    "Tid": {
-     "etikett": "år, oregelb",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 9000,
-   "uppdaterad": "2002-12-12T09:05:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1182",
-   "rubrik": "Boendeutgift och antal hushåll efter disponibel inkomst per konsumtionsenhet (k.e.) och upplåtelseform. År 2020-2024",
-   "tema": "inkomst",
-   "celler": 240,
-   "variabler": {
-    "Kvartil": {
-     "etikett": "disponibel inkomst per k.e., kvartil",
-     "antal": 5
-    },
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 240,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4501",
-   "rubrik": "Boendeutgift och antal hushåll efter disponibel inkomst per konsumtionsenhet (k.e.), upplåtelseform, och hushållstyp. År 2015-2017",
-   "tema": "inkomst",
-   "celler": 960,
-   "variabler": {
-    "Kvartil": {
-     "etikett": "disponibel inkomst per k.e., kvartil",
-     "antal": 5
-    },
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 6
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 960,
-   "uppdaterad": "2022-10-25T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1178",
-   "rubrik": "Boendeutgiftsprocent, disponibel inkomst och konsumtionsutrymme per hushåll efter region och upplåtelseform. År 2020-2024",
-   "tema": "inkomst",
-   "celler": 360,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 5
-    },
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 360,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4555",
-   "rubrik": "Boendeutgiftsprocent, disponibel inkomst och konsumtionsutrymme per hushåll efter region, upplåtelseform och hushållstyp. År 2015-2017",
-   "tema": "inkomst",
-   "celler": 1440,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 5
-    },
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 6
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 1440,
-   "uppdaterad": "2018-12-14T08:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1179",
-   "rubrik": "Boendeutgiftsprocent, disponibel inkomst och konsumtionsutrymme per hushåll efter upplåtelseform och lägenhetstyp. År 2020-2024",
-   "tema": "inkomst",
-   "celler": 504,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Lagenhetstyp": {
-     "etikett": "lägenhetstyp",
-     "antal": 7
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 504,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4556",
-   "rubrik": "Boendeutgiftsprocent, disponibel inkomst och konsumtionsutrymme per hushåll efter upplåtelseform, hushållstyp och lägenhetstyp. År 2015-2017",
-   "tema": "inkomst",
-   "celler": 2016,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 6
-    },
-    "Lagenhetstyp": {
-     "etikett": "lägenhetstyp",
-     "antal": 7
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 2016,
-   "uppdaterad": "2018-12-14T08:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4557",
-   "rubrik": "Boendeutgiftsprocent, disponibel inkomst och konsumtionsutrymme per hushåll efter upplåtelseform och hushållsföreståndarens ålder. År 2015-2024",
-   "tema": "inkomst",
-   "celler": 1080,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "AlderHushfores": {
-     "etikett": "ålder hushållsföreståndare",
-     "antal": 9
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 5
-    }
-   },
-   "status": "ok",
-   "rader": 1080,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1180",
-   "rubrik": "Disponibel inkomst och konsumtionsutrymme per konsumtionsenhet (k.e.) samt antal individer efter region och upplåtelseform. År 2020-2024",
-   "tema": "inkomst",
-   "celler": 360,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 5
-    },
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 360,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4559",
-   "rubrik": "Disponibel inkomst och konsumtionsutrymme per konsumtionsenhet (k.e.) samt antal individer efter upplåtelseform och hushållsföreståndarens ålder. År 2015-2024",
-   "tema": "inkomst",
-   "celler": 1080,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "AlderHushfores": {
-     "etikett": "ålder hushållsföreståndare",
-     "antal": 9
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 5
-    }
-   },
-   "status": "ok",
-   "rader": 1080,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB1181",
-   "rubrik": "Disponibel inkomst och konsumtionsutrymme per konsumtionsenhet (k.e.) samt antal individer efter upplåtelseform och lägenhetstyp. År 2020-2024",
-   "tema": "inkomst",
-   "celler": 504,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Lagenhetstyp": {
-     "etikett": "lägenhetstyp",
-     "antal": 7
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 3
-    }
-   },
-   "status": "ok",
-   "rader": 504,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
    "id": "TAB942",
    "rubrik": "Disponibel inkomst per konsumtionsenhet i deciler, efter kapitalvinst, 2014 års priser. År 1991-2013",
    "tema": "inkomst",
@@ -4411,98 +2974,6 @@
    "status": "ok",
    "rader": 640,
    "uppdaterad": "2017-01-31T08:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4377",
-   "rubrik": "Boendeutgiftsprocent, disponibel inkomst och konsumtionsutrymme per hushåll efter upplåtelseform och hushållstyp. År 2015-2024",
-   "tema": "inkomst",
-   "celler": 1800,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 15
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 5
-    }
-   },
-   "status": "ok",
-   "rader": 1800,
-   "uppdaterad": "2025-11-19T07:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4558",
-   "rubrik": "Disponibel inkomst och konsumtionsutrymme per konsumtionsenhet (k.e.) samt antal individer efter region, upplåtelseform och hushållstyp. År 2015-2017",
-   "tema": "inkomst",
-   "celler": 1440,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 5
-    },
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 6
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 1440,
-   "uppdaterad": "2018-12-14T08:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4609",
-   "rubrik": "Disponibel inkomst och konsumtionsutrymme per konsumtionsenhet (k.e.) samt antal individer efter upplåtelseform, hushållstyp och lägenhetstyp. År 2015-2017",
-   "tema": "inkomst",
-   "celler": 2016,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 6
-    },
-    "Lagenhetstyp": {
-     "etikett": "lägenhetstyp",
-     "antal": 7
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 2
-    }
-   },
-   "status": "ok",
-   "rader": 2016,
-   "uppdaterad": "2018-12-14T08:30:00Z",
    "kalla": "SCB"
   },
   {
@@ -4563,34 +3034,6 @@
    "status": "ok",
    "rader": 26325,
    "uppdaterad": "2026-06-16T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4479",
-   "rubrik": "Disponibel inkomst och konsumtionsutrymme per konsumtionsenhet (k.e.) samt antal individer efter upplåtelseform och hushållstyp. År 2015-2024",
-   "tema": "inkomst",
-   "celler": 1800,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 15
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 6
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 5
-    }
-   },
-   "status": "ok",
-   "rader": 1800,
-   "uppdaterad": "2025-11-19T07:00:00Z",
    "kalla": "SCB"
   },
   {
@@ -4656,79 +3099,6 @@
    "status": "ok",
    "rader": 680,
    "uppdaterad": "2017-01-31T08:30:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB4764",
-   "rubrik": "Förändring av inkomstgrupp efter hushållstyp och ålder, disponibel inkomst per k.e. Startår/slutår 2011/2012-2023/2024",
-   "tema": "inkomst",
-   "celler": 1761760,
-   "variabler": {
-    "Inkomstslag": {
-     "etikett": "inkomstslag",
-     "antal": 2
-    },
-    "Inkomststartar": {
-     "etikett": "inkomstgrupp startår",
-     "antal": 11
-    },
-    "Inkomstslutar": {
-     "etikett": "inkomstgrupp slutår",
-     "antal": 11
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 10
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "startår/slutår",
-     "antal": 91
-    }
-   },
-   "status": "hoppad: 1761760 celler > 900000"
-  },
-  {
-   "id": "TAB4524",
-   "rubrik": "Förändring av inkomstgrupp efter födelseregion, disponibel inkomst per k.e. Startår/slutår 2011/2012-2023/2024",
-   "tema": "inkomst",
-   "celler": 616616,
-   "variabler": {
-    "Inkomstslag": {
-     "etikett": "inkomstslag",
-     "antal": 2
-    },
-    "Inkomststartar": {
-     "etikett": "inkomstgrupp startår",
-     "antal": 11
-    },
-    "Inkomstslutar": {
-     "etikett": "inkomstgrupp slutår",
-     "antal": 11
-    },
-    "Fodelseregion": {
-     "etikett": "födelseregion",
-     "antal": 14
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 2
-    },
-    "Tid": {
-     "etikett": "startår/slutår",
-     "antal": 91
-    }
-   },
-   "status": "ok",
-   "rader": 616616,
-   "uppdaterad": "2026-03-26T07:00:00Z",
    "kalla": "SCB"
   },
   {
@@ -4861,38 +3231,6 @@
    "status": "ok",
    "rader": 20520,
    "uppdaterad": "2026-06-16T06:00:00Z",
-   "kalla": "SCB"
-  },
-  {
-   "id": "TAB765",
-   "rubrik": "Boendeutgift och disponibel inkomst per hushåll m m (BHU) efter upplåtelseform (äganderätt,  bostadsrätt, hyresrätt), hushållstyp och färdigställandeår. (Urvalsundersökning, se fotnoter.) År 2002",
-   "tema": "inkomst",
-   "celler": 1040,
-   "variabler": {
-    "Upplatelseform": {
-     "etikett": "upplåtelseform",
-     "antal": 4
-    },
-    "Hushallstyp": {
-     "etikett": "hushållstyp",
-     "antal": 13
-    },
-    "Fardigstallandear": {
-     "etikett": "färdigställandeår",
-     "antal": 5
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 1
-    }
-   },
-   "status": "ok",
-   "rader": 1040,
-   "uppdaterad": "2003-12-19T09:00:00Z",
    "kalla": "SCB"
   },
   {
@@ -5160,11 +3498,11 @@
    "id": "TAB5864",
    "rubrik": "Medborgarnas syn på trygghet i samhället efter region och bakgrund. År 2021-2025",
    "tema": "brott",
-   "celler": 3123120,
+   "celler": 10010,
    "variabler": {
     "Region": {
      "etikett": "region",
-     "antal": 312
+     "antal": 1
     },
     "MedbVariabel10": {
      "etikett": "Hur orolig är du för att…",
@@ -5183,7 +3521,10 @@
      "antal": 5
     }
    },
-   "status": "hoppad: 3123120 celler > 600000"
+   "status": "ok",
+   "rader": 10010,
+   "uppdaterad": "2025-12-15T07:00:00Z",
+   "kalla": "SCB"
   }
  ],
  "dokument": [
@@ -5837,5 +4178,5 @@
   }
  ],
  "fel": [],
- "slut": "2026-09-27T08:10:13.910711+00:00"
+ "slut": "2026-09-27T09:20:28.751125+00:00"
 }
