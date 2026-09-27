@@ -20,7 +20,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import pandas as pd
 import requests
@@ -379,7 +379,7 @@ def hamta_dokument(tvinga: bool = False):
             if s.get("folj"):
                 for h in dict.fromkeys(re.findall(r'href="([^"#]+)"', r.text)):
                     u = urljoin(s["url"], h.replace("&amp;", "&"))
-                    if re.search(s["folj"], u) and u.split("/")[2] == s["url"].split("/")[2] \
+                    if re.search(s["folj"], u) and urlparse(u).netloc == urlparse(s["url"]).netloc \
                             and not re.search(r"\.(pdf|xlsx?|zip)", u, re.I) and u != s["url"]:
                         try:
                             sidor.append((u, http("GET", u).text))

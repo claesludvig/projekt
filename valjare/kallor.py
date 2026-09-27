@@ -73,13 +73,11 @@ SCB_SOK = [
      "max_celler": 600_000},
     # --- Priser: KPI per produktgrupp (el, drivmedel m.m.) och elpriser
     {"tema": "priser", "sok": "konsumentprisindex produktgrupp",
-     "rubrik": r"(?i)^KPI.*(produktgrupp|varugrupp|COICOP).*månad", "region": "alla",
-     "exkludera": r"(?i)fastställda|kvartal|årsmedel|delindex|basår", "max_celler": 400_000,
-     "max_tabeller": 3},
-    {"tema": "priser", "sok": "KPIF inflationstakt",
-     "rubrik": r"(?i)^KPIF.*(månad|12-månaders|inflationstakt)", "region": "alla",
-     "max_celler": 100_000, "max_tabeller": 2},
-    {"tema": "priser", "sok": "elpriser elavtal",
+     "rubrik": r"(?i)konsumentprisindex.*(produktgrupp|COICOP).*månad", "region": "alla",
+     "exkludera": r"(?i)fastställda|kvartal|vikter", "max_celler": 600_000, "max_tabeller": 3},
+    {"tema": "priser", "sok": "KPIF",
+     "rubrik": r"(?i)KPIF.*månad", "region": "alla", "max_celler": 100_000, "max_tabeller": 2},
+    {"tema": "priser", "sok": "elpriser",
      "rubrik": r"(?i)elpris", "region": "alla", "max_celler": 200_000, "max_tabeller": 4},
     # --- Bilinnehav per kommun (drivmedelsexponering)
     {"tema": "bil", "sok": "personbilar folkbokförda personer",
