@@ -31,7 +31,10 @@ def _niva(kod: str) -> str:
 def kolada(data_dir: Path) -> pd.DataFrame:
     delar = []
     for f in sorted((data_dir / "kolada").glob("*.csv.gz")):
-        d = pd.read_csv(f, dtype={"region_kod": str})
+        try:
+            d = pd.read_csv(f, dtype={"region_kod": str})
+        except pd.errors.EmptyDataError:
+            continue
         if d.empty:
             continue
         d["region_kod"] = d.region_kod.str.zfill(4)

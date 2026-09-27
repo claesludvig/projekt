@@ -470,13 +470,15 @@ def hamta_kolada():
         rader = []
         for rad in v:
             for x in rad.get("values", []):
-                if x.get("gender") in ("T", None) and x.get("value") is not None:
+                if str(x.get("gender", "T")).upper() in ("T", "TOTAL", "NONE", "") and x.get("value") is not None:
                     rader.append({"kpi": kid, "titel": titel, "fraga": fraga, "namn": namn,
                                   "region_kod": rad.get("municipality") or rad.get("municipality_id"),
                                   "ar": rad.get("period") or rad.get("year"), "varde": x.get("value")})
         df = pd.DataFrame(rader)
         if len(df):   # bara riket, regioner och kommuner (inte jämförelsegrupper)
-            df = df[df.region_kod.astype(str).str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
+            df["region_kod"] = df.region_kod.astype(str).str.replace(r"\.0$", "", regex=True)
+            df.loc[df.region_kod.str.fullmatch(r"\d{1,3}"), "region_kod"] = df.region_kod.str.zfill(4)
+            df = df[df.region_kod.str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
         df.to_csv(ut_dir / f"{kid}.csv.gz", index=False,
                                    compression={"method": "gzip", "mtime": 0})
         logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(df)})
