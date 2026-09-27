@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T12:03:01.213906+00:00",
+ "start": "2026-09-27T12:20:55.668153+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1042,25 +1042,7 @@
    "id": "TAB5160",
    "rubrik": "Konsumentprisindex (KPI) efter produktgrupp, 1980=100 (uppdateras ej efter 2025M12). Månad 1980M01-2025M12",
    "tema": "priser",
-   "celler": 1589760,
-   "variabler": {
-    "Produktgrupp": {
-     "etikett": "produktgrupp",
-     "antal": 360
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 8
-    },
-    "Tid": {
-     "etikett": "månad",
-     "antal": 552
-    }
-   },
-   "status": "ok",
-   "rader": 1589760,
-   "uppdaterad": "2026-01-15T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6445",
@@ -1995,5 +1977,5 @@
   }
  ],
  "fel": [],
- "slut": "2026-09-27T12:09:04.527516+00:00"
+ "slut": "2026-09-27T12:27:08.675695+00:00"
 }
