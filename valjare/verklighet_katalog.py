@@ -65,18 +65,12 @@ KOLADA = [
     ("pension", "Låg ekonomisk standard 65+ (%)", "N66079", None, "lagre"),
     ("jamstalldhet", "Kvinnors mediannettoinkomst i % av mäns", "N00952", None, "hogre"),
     # --- luckor
-    ("skola", "Meritvärde åk 9 (hemkommun)", "meritvärde",
-     r"(?i)åk\.? ?9.*genomsnittligt meritvärde.*hemkommun|genomsnittligt meritvärde.*åk\.? ?9.*hemkommun", "hogre"),
-    ("jobb", "Arbetslöshet, Arbetsförmedlingen (% av bef.)", "rbetslöshet",
-     r"(?i)^arbetslöshet 1[68]-6[4-6] år, (årsmedelvärde, )?andel \(%\) av (befolkningen|bef)", "lagre"),
-    ("sjukvard", "Besök i specialiserad vård inom 90 dagar (äldre serie)", "inom 90 dagar",
-     r"(?i)^(väntande|besök|patienter).*(specialiserad vård|förstagångsbesök).*inom 90 dagar, andel", "hogre"),
-    ("miljo", "Skyddad natur, andel av landareal (%)", "kyddad natur",
-     r"(?i)skyddad natur.*andel", "hogre"),
-    ("miljo", "Insamlat hushållsavfall (kg/inv)", "ushållsavfall",
-     r"(?i)insamlat hushållsavfall totalt, kg/person|hushållsavfall.*kg/inv", "lagre"),
-    ("miljo", "Ekologiska livsmedel i kommunens verksamhet (%)", "kologiska livsmedel",
-     r"(?i)ekologiska livsmedel i kommunens verksamhet, andel", "hogre"),
+    ("skola", "Meritvärde åk 9 (hemkommun, 17 ämnen)", "N15507", None, "hogre"),
+    ("jobb", "Arbetslöshet 20–64 år, registerbaserad (BAS, %)", "N02280", None, "lagre"),
+    ("invandring", "Arbetslöshet bland utrikes födda 20–64 år (BAS, %)", "N02282", None, "lagre"),
+    ("sjukvard", "Barn- och ungdomspsykiatri: första besök inom 90 dagar (%)", "U72552", None, "hogre"),
+    ("miljo", "Skyddad natur, andel av landareal (%)", "N85054", None, "hogre"),
+    ("miljo", "Ekologiska livsmedel i kommunens verksamhet (%)", "U07514", None, "hogre"),
 ]
 
 # SCB-serier i riket. "tabell" är ett tabell-id eller ett regex mot rubriken
