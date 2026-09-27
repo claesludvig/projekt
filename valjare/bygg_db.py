@@ -31,6 +31,8 @@ import pandas as pd
 import region as reg
 import valdistrikt as vdm
 import fragor
+import verklighet
+from verklighet_katalog import FRAGOR
 import tolka
 from tolka import partikod
 
@@ -108,6 +110,9 @@ KALLOR = [
      "https://www.gu.se/som-institutet", "Öppen fråga om vilka frågor eller samhällsproblem som är viktigast i Sverige, högst tre svar, 1987–2025."),
     ("scb_kpi", "Konsumentprisindex efter produktgrupp", "SCB", "https://www.scb.se/pr0101",
      "Månadsindex 1980–2025 för el, drivmedel, livsmedel m.fl."),
+    ("kolada", "Kolada: nyckeltal för kommuner och regioner", "RKA (Rådet för främjande av kommunala analyser)",
+     "https://www.kolada.se/", "Väntetider i vården, skolresultat, äldreomsorg, anmälda brott, arbetslöshet, ekonomiskt bistånd, skattesatser, utsläpp, bostadsbyggande m.m. per kommun och region."),
+    ("riksbanken", "Styrräntan", "Sveriges riksbank", "https://www.riksbank.se/", "Styrräntan (SWEA-API), månadsmedel."),
     ("bra_ntu", "Nationella trygghetsundersökningen (NTU), tabellsamling 2007–2025", "Brå",
      "https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen",
      "Utsatthet för brott, otrygghet, oro och förtroende för rättsväsendet per grupp."),
@@ -761,6 +766,22 @@ def webb_region(t: dict[str, pd.DataFrame]) -> dict:
         ar = sorted(sp.ar.unique())
         ut["som"] = {"t": [int(a) for a in ar], "v": {
             o: [_r(x) for x in d.set_index("ar").andel.reindex(ar)] for o, d in sp.groupby("omrade")}}
+    vk = t.get("verklighet", pd.DataFrame())
+    if not vk.empty:
+        r = vk[(vk.niva == "riket") & (vk.ar_dec >= 2006)]
+        ut["fragor_katalog"] = [{"id": a, "valu": b, "som": c} for a, b, c in FRAGOR]
+        ut["verk"] = {}
+        for (fr, ind), d in r.groupby(["fraga", "indikator"]):
+            d = d.sort_values("ar_dec")
+            ut["verk"].setdefault(fr, {})[ind] = {
+                "t": [round(float(x), 3) for x in d.ar_dec], "v": [_r(x, 2) for x in d.varde],
+                "p": list(d.period.astype(str)), "battre": d.battre.iloc[0], "kalla": d.kalla.iloc[0]}
+    vf = t.get("verklighet_forandring", pd.DataFrame())
+    if not vf.empty:
+        ut["verk_forandring"] = vf.round(2).replace({np.nan: None}).to_dict("records")
+    vkk = t.get("verklighet_kommun", pd.DataFrame())
+    if not vkk.empty:
+        ut["verk_kommun"] = vkk.round(3).to_dict("records")
     tb = t.get("test_bilar", pd.DataFrame())
     if not tb.empty:
         ut["test_bilar"] = tb.round(3).to_dict("records")
@@ -832,6 +853,9 @@ def main():
     t_skj = fragor.test_skjutningar(pol, val, scb)
     print(f"  polisen {len(pol)}, kpi {len(kpi)}, valu-frågor {len(f_bet)}/{len(f_rang)}/{len(f_bast)}, "
           f"som {len(som_p)}, test bilar {len(t_bil)}, test skjutningar {len(t_skj)}")
+    print("Verklighetsindikatorer")
+    verk, verk_f, verk_k = verklighet.bygg(scb, katalog(), DATA_DIR, f_bet, som_p, val, varningar, pol, kpi)
+    print(f"  {len(verk)} rader, {verk.indikator.nunique() if len(verk) else 0} indikatorer")
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -850,6 +874,7 @@ def main():
         "polisen_manad": pol, "kpi_manad": kpi, "fraga_betydelse": f_bet,
         "fraga_rang_parti": f_rang, "bast_politik": f_bast, "som_samhallsproblem": som_p,
         "test_bilar": t_bil, "test_skjutningar": t_skj,
+        "verklighet": verk, "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
