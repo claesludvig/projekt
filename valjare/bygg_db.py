@@ -29,6 +29,7 @@ import numpy as np
 import pandas as pd
 
 import region as reg
+import valdistrikt as vdm
 import tolka
 from tolka import partikod
 
@@ -93,6 +94,12 @@ KALLOR = [
     ("scb_ulf", "Undersökningarna av levnadsförhållanden (ULF/SILC), otrygghet", "SCB",
      "https://www.scb.se/ulf", "Utsatthet för hot och våld, oro och otrygghet per grupp, 2008–2025 "
      "(tvåårsperioder till 2019). Samma utbildnings-, inkomst- och födelselandsgrupper som PSU."),
+    ("val_distrikt_2026", "Valdistrikt 2026: gränser och preliminära röster", "Valmyndigheten",
+     "https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026",
+     "Valdistriktens geografi (per län, SWEREF 99 TM) och preliminär rösträkning per distrikt."),
+    ("scb_deso", "Statistik per DeSO 2025 och DeSO-gränser", "SCB",
+     "https://www.scb.se/vara-tjanster/oppna-data/oppna-geodata/oppna-geodata-for-deso---demografiska-statistikomraden/",
+     "Befolkning efter bakgrund, födelseregion, ålder, utbildning, ekonomisk standard, upplåtelseform och sysselsättning i ca 6 000 områden."),
     ("bra_ntu", "Nationella trygghetsundersökningen (NTU), tabellsamling 2007–2025", "Brå",
      "https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen",
      "Utsatthet för brott, otrygghet, oro och förtroende för rättsväsendet per grupp."),
@@ -651,9 +658,84 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
     if not nt.empty:
         n = nt[(nt.kon == "Samtliga") & (nt.indikator.isin(EXPONERING) | (nt.kalla == "scb_ulf"))]
         ut["ntu"] = {ind: _kub(d.assign(parti="alla"), "ar") for ind, d in n.groupby("indikator")}
+    ut.update(webb_region(tabeller))
     kv = tabeller["kontroll"]
     ut["kontroll"] = kv[kv.kontroll == "psu_vikt_mot_register"].dropna(axis=1, how="all") \
         .round(1).to_dict("records") if not kv.empty else []
+    return ut
+
+
+def _r(x, d=1):
+    return None if x is None or pd.isna(x) else round(float(x), d)
+
+
+def webb_region(t: dict[str, pd.DataFrame]) -> dict:
+    ut = {}
+    vl = t["valresultat_lan"]
+    if not vl.empty:
+        lan = vl[["lan", "lansnamn"]].drop_duplicates().sort_values("lan")
+        ut["lan"] = dict(zip(lan.lan, lan.lansnamn))
+        ar = sorted(vl.ar.unique())
+        ut["lan_val"] = {"t": [int(a) for a in ar], "v": {
+            k: {p: [_r(x) for x in d[d.parti == p].set_index("ar").andel.reindex(ar)]
+                for p in PARTIER + ["ÖVR"]}
+            for k, d in vl.groupby("lan")}}
+    pr = t["partiprofil_region"]
+    if not pr.empty:
+        prl = pr[pr.niva.isin(["län", "riket"])]
+        ut["lan_profil"] = {}
+        for (ar, dim), d in prl.groupby(["ar", "dimension"]):
+            grupper = _grupp_ordning(list(dict.fromkeys(d.grupp)))
+            reg = sorted(d.region_kod.unique())
+            piv = d.pivot_table(index=["region_kod", "grupp"], columns="parti", values="andel_av_parti")
+            alla = d[d.parti == "S"].set_index(["region_kod", "grupp"]).gruppandel
+            ut["lan_profil"][f"{ar}|{dim}"] = {
+                "g": grupper, "r": reg,
+                "v": {p: [[_r(piv[p].get((r, g))) for g in grupper] for r in reg] for p in piv.columns},
+                "alla": [[_r(alla.get((r, g))) for g in grupper] for r in reg],
+                "metod": d.metod.iloc[0]}
+    dk = t["dekomposition"]
+    if not dk.empty:
+        def paket(d, index):
+            per = sorted({(int(a), int(b)) for a, b in zip(d.fran, d.till)})
+            nycklar = sorted(d[index].unique())
+            ut2 = {"per": [f"{a}–{b}" for a, b in per], "k": nycklar, "v": {}}
+            for p, dp in d.groupby("parti"):
+                ix = dp.set_index([index, "fran"])
+                ut2["v"][p] = {m: [[_r(ix[m].get((k, a)), 2) for a, _ in per] for k in nycklar]
+                               for m in ("forandring", "sammansattning", "beteende")}
+            return ut2
+        ut["dekomp_riket"] = paket(dk[(dk.kalla == "psu") & dk.dimension.isin(
+            ["ålder (4 klasser)", "utbildning", "född i Sverige/utrikes", "inkomst (kvintil)",
+             "bakgrund", "boende", "sysselsättning", "civilstånd"])], "dimension")
+        ut["dekomp_register"] = {
+            niva: paket(dk[(dk.kalla == "register_ipf") & (dk.niva == niva)].assign(
+                nyckel=lambda x: x.region_kod + "|" + x.dimension), "nyckel")
+            for niva in ("riket", "län")}
+        ut["dekomp_utb_lan"] = paket(dk[(dk.kalla == "befolkning") & (dk.niva == "län")], "region_kod")
+    nl = t["utsatthet_lan"]
+    if not nl.empty:
+        n = nl[nl.grupp.astype(str).str.startswith("Samtliga")]
+        ut["ntu_lan"] = {}
+        for ind, d in n.groupby("indikator"):
+            ar = sorted(d.ar.unique())
+            ut["ntu_lan"][ind] = {"t": [int(a) for a in ar], "v": {
+                l: [_r(x) for x in dl.set_index("ar").andel.reindex(ar)] for l, dl in d.groupby("lansnamn")}}
+    vt = t.get("valdistrikt_tiondel", pd.DataFrame())
+    if not vt.empty:
+        dist = t["valdistrikt_2026"]
+        ok = dist[(dist.giltiga >= 100) & (dist.tackning_yta >= 0.9)]
+        ut["distrikt"] = {"n": int(len(ok)), "tackning": float(len(ok) / max(len(dist), 1)), "dec": {
+            ind: {"dec": [_r(x, 2) for x in d[d.parti == "S"].sort_values("tiondel").indikator_medel],
+                  "v": {p: [_r(x) for x in dp.sort_values("tiondel").andel] for p, dp in d.groupby("parti")}}
+            for ind, d in vt.groupby("indikator")}}
+    li = t["lansindikator"]
+    if not li.empty:
+        ut["lan_ind"] = {}
+        for ind, d in li.groupby("indikator"):
+            ar = sorted(d.ar.unique())
+            ut["lan_ind"][ind] = {"t": [int(a) for a in ar], "v": {
+                l: [_r(x) for x in dl.set_index("ar").varde.reindex(ar)] for l, dl in d.groupby("lan")}}
     return ut
 
 
@@ -690,6 +772,11 @@ def main():
     namn_alla = {**dict(zip(rr.region_kod, rr.region)), **namn}
     profil_region = reg.raka(stod_psu, vikt_psu, rr, val, namn_alla)
     print(f"  {len(profil_region)} rader")
+    print("Valdistrikt 2026")
+    dist, dist_tio, dist_samb = vdm.distrikt(
+        DATA_DIR / "geo" / "valdistrikt_deso.csv", SCB_DIR,
+        next((KALL_DIR / "xlsx").glob("val_radata_2026__*rostfil*distrikt*.xlsx"), None))
+    print(f"  {len(dist)} distrikt, {len(dist_tio)} tiondelsrader")
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -705,6 +792,7 @@ def main():
         "valdeltagande_grupp": reg_delt, "valdeltagande_region": rr,
         "valresultat_lan": val_lan, "lansindikator": ind_lan, "utsatthet_lan": ntu_lan,
         "partiprofil_region": profil_region, "dekomposition": dekomp,
+        "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
     }

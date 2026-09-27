@@ -158,8 +158,60 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <p class="note">2026 bygger på Valmyndighetens preliminära rösträkning.</p>
   </section>
 
+  <section id="s-lan">
+    <span class="label">5 · Länen</span>
+    <h2 id="h-lan">Partiets stöd i länen, 1973–2026</h2>
+    <p class="desc">Andel av giltiga röster i riksdagsvalet per län. Den streckade linjen är riket.</p>
+    <div class="small" id="c-lan-sm" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px 18px"></div>
+    <h3 style="margin-top:18px" id="h-lanprof">Vilka röstar på partiet i länet?</h3>
+    <p class="desc">Skattad andel av partiets väljare som tillhör gruppen (punkt), jämfört med gruppens andel av alla som röstade i länet (streck). Skattningen utgår från SCB:s partisympatiundersökning och anpassas så att den stämmer med registrets röstande per grupp och med länets valresultat.</p>
+    <div class="controls">
+      <label class="ctl">Val <select id="sel-lpar"></select></label>
+      <label class="ctl">Indelning <select id="sel-lpdim"></select></label>
+      <label class="ctl">Grupp <select id="sel-lpgrp"></select></label>
+    </div>
+    <div class="chart" id="c-lanprof"></div>
+    <p class="note" id="not-lanprof"></p>
+    <h3 style="margin-top:18px">Jämför länen</h3>
+    <p class="desc">Varje punkt är ett län. Välj vad som ska stå på den vågräta axeln.</p>
+    <div class="controls">
+      <label class="ctl">Vågrätt <select id="sel-lx"></select></label>
+      <label class="ctl">Val <select id="sel-ly"></select></label>
+    </div>
+    <div class="chart" id="c-lanscatter"></div>
+    <p class="note" id="not-lanscatter"></p>
+  </section>
+
+  <section id="s-dekomp">
+    <span class="label">6 · Demografi eller beteende</span>
+    <h2>Beror förändringen på vilka som röstar, eller på hur de röstar?</h2>
+    <p class="desc">Förändringen i partiets stöd delas upp i två delar. <b>Sammansättning</b> är vad som hade hänt om varje grupp röstat som förut men gruppernas storlek ändrats. <b>Beteende</b> är att grupperna ändrat hur de röstar. De två delarna summerar exakt till förändringen.</p>
+    <h3>Riket, per indelning och mandatperiod</h3>
+    <div class="controls"><label class="ctl">Indelning <select id="sel-ddim"></select></label></div>
+    <div class="legend" id="leg-dekomp"></div>
+    <div class="chart" id="c-dekomp"></div>
+    <p class="note">Källa: SCB:s partisympatiundersökning i maj valåren, med gruppvikter som kalibrerats mot registret. Förändringen avser sympati i maj, inte valresultatet.</p>
+    <h3 style="margin-top:16px">Sammansättningens samlade bidrag</h3>
+    <div class="chart" id="c-dekomp-sum"></div>
+    <h3 style="margin-top:16px" id="h-dlan">Länen: utbildningsnivåns bidrag</h3>
+    <div class="controls">
+      <label class="ctl">Period <select id="sel-dper"></select></label>
+    </div>
+    <div class="chart" id="c-dekomp-lan"></div>
+    <p class="note">Valresultat per län. Sammansättningseffekten bygger på befolkningens utbildning (16–74 år) i länet och partiets nationella stöd per utbildningsnivå. Beteende är resten, så där ingår allt annat som ändrats, även flyttningar mellan län och ändrat valdeltagande.</p>
+  </section>
+
+  <section id="s-distrikt" hidden>
+    <span class="label">7 · Valdistrikten</span>
+    <h2>Riksdagsvalet 2026 i valdistriktens grannskap</h2>
+    <p class="desc" id="desc-distrikt"></p>
+    <div class="controls"><label class="ctl">Strukturvariabel <select id="sel-vdind"></select></label></div>
+    <div class="chart" id="c-distrikt"></div>
+    <p class="note" id="not-distrikt"></p>
+  </section>
+
   <section id="s-brott">
-    <span class="label">5 · Trygghet</span>
+    <span class="label">8 · Trygghet</span>
     <h2>Utsatthet och otrygghet i väljargrupperna</h2>
     <p class="desc">Brå:s Nationella trygghetsundersökning (NTU) och SCB:s undersökning av levnadsförhållanden (ULF, måtten som börjar med "ULF:"). Till vänster: andel i gruppen. Till höger: vad partiets väljare kan förväntas ligga på enbart utifrån deras sammansättning på den valda indelningen, jämfört med hela väljarkåren.</p>
     <div class="controls">
@@ -384,7 +436,164 @@ function renderKommun(){
     tipTitle: x => `Valet ${x} · ${ind} ${k.indikator_ar[x]}`, focus: q => q.hl});
 }
 
-/* ---------- 5. NTU ---------- */
+/* ---------- 5. län ---------- */
+const LAN = D.lan || {};
+const lanKort = n => (n||"").replace(/s? län$/,"").replace(/ län$/,"");
+function renderLan(){
+  if (!D.lan_val) { $("s-lan").hidden = true; return; }
+  $("h-lan").textContent = `${PNAMN[parti]} i länen, 1973–2026`;
+  const t = D.lan_val.t, riket = (D.lan_val.v["00"]||{})[parti] || [];
+  const box = $("c-lan-sm");
+  const koder = Object.keys(LAN).filter(k => k !== "00");
+  const hi = Math.max(10, ...koder.flatMap(k => (D.lan_val.v[k][parti]||[]).filter(v=>v!=null)));
+  box.innerHTML = koder.map(k => `<div><h3 style="font-size:13px">${esc(lanKort(LAN[k]))}</h3><div class="chart" id="ls${k}"></div></div>`).join("");
+  koder.forEach(k => {
+    const v = D.lan_val.v[k][parti] || [];
+    const last = v.filter(x=>x!=null).slice(-1)[0];
+    lineChart($("ls"+k), {xs: t, height: 120, yMin: 0, yMax: Math.ceil(hi/10)*10,
+      series: [{name:"Riket", lbl:"", c: css("--bar-alla"), hl:false, w:1.2, dash:"3 3", v: riket},
+               {name: LAN[k], lbl: fmt(last), c: pc(parti), hl:true, w:2, v}],
+      tipTitle: x => `Riksdagsvalet ${x}`, focus: q => true});
+  });
+  renderLanProf(); renderLanScatter();
+}
+function fillLanProf(){
+  const nycklar = Object.keys(D.lan_profil||{});
+  const ar = [...new Set(nycklar.map(k=>k.split("|")[0]))].sort().reverse();
+  const dims = [...new Set(nycklar.map(k=>k.split("|")[1]))];
+  $("sel-lpar").innerHTML = ar.map(a=>`<option>${a}</option>`).join("");
+  $("sel-lpdim").innerHTML = dims.map(d=>`<option value="${esc(d)}">${esc(DIMNAMN[d]||d)}</option>`).join("");
+  $("sel-lpdim").value = dims.includes("utbildning") ? "utbildning" : dims[0];
+  fillLanGrp();
+}
+function fillLanGrp(){
+  const k = D.lan_profil[`${$("sel-lpar").value}|${$("sel-lpdim").value}`]; if (!k) return;
+  const cur = $("sel-lpgrp").value;
+  $("sel-lpgrp").innerHTML = k.g.map(g=>`<option>${esc(g)}</option>`).join("");
+  if (k.g.includes(cur)) $("sel-lpgrp").value = cur;
+  else { const p = k.g.find(g=>/^eftergymnasial|utrikes|65\+|81–100/.test(g)); if (p) $("sel-lpgrp").value = p; }
+}
+function renderLanProf(){
+  const k = D.lan_profil && D.lan_profil[`${$("sel-lpar").value}|${$("sel-lpdim").value}`], el = $("c-lanprof");
+  if (!k || !k.v[parti]) { el.innerHTML = `<p class="note">Ingen skattning.</p>`; return; }
+  const gi = k.g.indexOf($("sel-lpgrp").value);
+  let rows = k.r.map((r,i) => ({r, namn: r==="00" ? "Riket" : lanKort(LAN[r]||r), p: k.v[parti][i][gi], a: k.alla[i][gi]})).filter(x=>x.p!=null);
+  const riket = rows.find(x=>x.r==="00"); rows = rows.filter(x=>x.r!=="00").sort((a,b)=>b.p-a.p);
+  if (riket) rows = [riket, ...rows];
+  const W = Math.max(el.clientWidth, 280), rh = 24, lw = W < 500 ? 96 : 140, H = rows.length*rh + 30;
+  const hi = Math.max(...rows.flatMap(x=>[x.p,x.a]))*1.08;
+  const X = v => lw + v/hi*(W-lw-44);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Skattad sammansättning per län">`;
+  const step = hi > 60 ? 20 : hi > 25 ? 10 : 5;
+  for (let v=0; v<=hi; v+=step) s += `<line x1="${X(v)}" x2="${X(v)}" y1="0" y2="${H-22}" stroke="var(--grid)"/><text x="${X(v)}" y="${H-6}" text-anchor="middle">${v}</text>`;
+  rows.forEach((x,i) => { const y = i*rh + rh/2 + (x.r!=="00" && riket ? 6 : 0);
+    s += `<text x="${lw-8}" y="${y+4}" text-anchor="end" style="fill:${x.r==="00"?"var(--ink)":"var(--ink2)"};font-weight:${x.r==="00"?600:400}">${esc(x.namn)}</text>`;
+    s += `<line x1="${X(Math.min(x.p,x.a))}" x2="${X(Math.max(x.p,x.a))}" y1="${y}" y2="${y}" stroke="${css("--bar")}" stroke-width="2"/>`;
+    s += `<line x1="${X(x.a)}" x2="${X(x.a)}" y1="${y-7}" y2="${y+7}" stroke="var(--bar-alla)" stroke-width="2.5"/>`;
+    s += `<circle cx="${X(x.p)}" cy="${y}" r="6" fill="${pc(parti)}" stroke="var(--paper)" stroke-width="2" data-t="${esc(x.namn)}|${x.p}|${x.a}"/>`;
+    s += `<text x="${X(Math.max(x.p,x.a))+10}" y="${y+4}" style="fill:var(--muted)">${fmt(x.p)}</text>`; });
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("circle[data-t]").forEach(c => { c.onmousemove = e => { const [n,p,a] = c.dataset.t.split("|"); showTip(e, `<b>${n}</b><br>${PNAMN[parti]}s väljare: ${fmt(+p,1)} %<br>Alla röstande: ${fmt(+a,1)} %`); }; c.onmouseleave = hideTip; });
+  $("h-lanprof").textContent = `Vilka röstar på ${PNAMN[parti]} i länet?`;
+  $("not-lanprof").textContent = `${$("sel-lpgrp").value}, ${$("sel-lpar").value}. ${k.metod}. Skattningarna ärver PSU:s mönster för hur grupperna röstar i riket; länsskillnaderna kommer från länets valresultat och sammansättning.`;
+}
+function lanX(){
+  const opt = [];
+  Object.keys(D.lan_ind||{}).forEach(i => opt.push(["ind|"+i, "SCB: "+i]));
+  Object.keys(D.ntu_lan||{}).forEach(i => opt.push(["ntu|"+i, "Brå NTU: "+i]));
+  return opt;
+}
+function renderLanScatter(){
+  const el = $("c-lanscatter"), [typ, ind] = $("sel-lx").value.split(/\|(.+)/);
+  const valar = +$("sel-ly").value, ti = D.lan_val.t.indexOf(valar);
+  let pts = [], xAr = null;
+  Object.keys(LAN).filter(k=>k!=="00").forEach(k => {
+    const y = (D.lan_val.v[k][parti]||[])[ti];
+    let x = null;
+    if (typ === "ind") { const d = D.lan_ind[ind]; const j = d.t.reduce((b,a,i)=>Math.abs(a-valar)<Math.abs(d.t[b]-valar)?i:b,0); xAr = d.t[j]; x = (d.v[k]||[])[j]; }
+    else { const d = D.ntu_lan[ind]; const namn = LAN[k]; const key = Object.keys(d.v).find(n => n.startsWith(namn.replace(/ län$/,""))); const j = d.t.reduce((b,a,i)=>Math.abs(a-valar)<Math.abs(d.t[b]-valar)?i:b,0); xAr = d.t[j]; x = key ? d.v[key][j] : null; }
+    if (x != null && y != null) pts.push({k, x, y, n: lanKort(LAN[k])});
+  });
+  if (pts.length < 5) { el.innerHTML = `<p class="note">För lite data.</p>`; return; }
+  const W = Math.max(el.clientWidth, 280), H = Math.min(420, W*0.7), m = {l:44, r:16, t:12, b:34};
+  const xs = pts.map(p=>p.x), ys = pts.map(p=>p.y);
+  const pad = (a,b) => [a-(b-a)*0.08, b+(b-a)*0.08];
+  const [x0,x1] = pad(Math.min(...xs), Math.max(...xs)), [y0,y1] = pad(Math.min(...ys), Math.max(...ys));
+  const X = v => m.l + (v-x0)/(x1-x0)*(W-m.l-m.r), Y = v => m.t + (1-(v-y0)/(y1-y0))*(H-m.t-m.b);
+  const n = pts.length, mx = xs.reduce((a,b)=>a+b)/n, my = ys.reduce((a,b)=>a+b)/n;
+  const sxy = pts.reduce((a,p)=>a+(p.x-mx)*(p.y-my),0), sxx = pts.reduce((a,p)=>a+(p.x-mx)**2,0), syy = pts.reduce((a,p)=>a+(p.y-my)**2,0);
+  const r = sxy/Math.sqrt(sxx*syy), b = sxy/sxx;
+  const ticks = (a,c) => { const st = Math.pow(10, Math.floor(Math.log10((c-a)/4))); const s2 = [1,2,5,10].map(f=>f*st).find(f=>(c-a)/f<=6); const out=[]; for(let v=Math.ceil(a/s2)*s2; v<=c; v+=s2) out.push(+v.toFixed(6)); return out; };
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Länen i punktdiagram">`;
+  ticks(y0,y1).forEach(v => s += `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/><text x="${m.l-6}" y="${Y(v)+4}" text-anchor="end">${fmt(v)}</text>`);
+  ticks(x0,x1).forEach(v => s += `<text x="${X(v)}" y="${H-16}" text-anchor="middle">${fmt(v, v%1?1:0)}</text>`);
+  s += `<line x1="${X(x0)}" x2="${X(x1)}" y1="${Y(my+b*(x0-mx))}" y2="${Y(my+b*(x1-mx))}" stroke="var(--bar-alla)" stroke-dasharray="4 3"/>`;
+  pts.forEach(p => { s += `<circle cx="${X(p.x)}" cy="${Y(p.y)}" r="5.5" fill="${pc(parti)}" stroke="var(--paper)" stroke-width="1.5" data-t="${esc(p.n)}|${p.x}|${p.y}"/>`;
+    if (W > 520) s += `<text x="${X(p.x)+7}" y="${Y(p.y)+4}" style="font-size:11px">${esc(p.n)}</text>`; });
+  s += `<text x="${W-m.r}" y="${H-2}" text-anchor="end">${esc($("sel-lx").selectedOptions[0].textContent.replace(/^[^:]+: /,""))} (${xAr})</text>`;
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("circle[data-t]").forEach(c => { c.onmousemove = e => { const [nn,x,y] = c.dataset.t.split("|"); showTip(e, `<b>${nn}</b><br>${fmt(+x,1)} · ${PNAMN[parti]} ${fmt(+y,1)} %`); }; c.onmouseleave = hideTip; });
+  $("not-lanscatter").textContent = `Lodrätt: ${PNAMN[parti]}s andel i riksdagsvalet ${valar}. Korrelation över länen r = ${fmt(r,2)}. Samband mellan län säger inget säkert om enskilda väljare.`;
+}
+
+/* ---------- 6. dekomposition ---------- */
+function divRows(el, rows, {labelW=120}={}){
+  const W = Math.max(el.clientWidth, 280), rh = 30, H = rows.length*rh + 28, lw = W < 500 ? Math.min(labelW, 92) : labelW;
+  const vals = rows.flatMap(r => [r.s, r.b, r.f, 0, r.s + (r.b>0===r.s>0 ? r.b : 0)]).filter(v=>v!=null);
+  let lo = Math.min(...vals), hi = Math.max(...vals); const span = Math.max(hi-lo, 1); lo -= span*0.06; hi += span*0.06;
+  const X = v => lw + (v-lo)/(hi-lo)*(W-lw-12);
+  const st = [0.1,0.2,0.5,1,2,5,10].find(f => (hi-lo)/f <= 7) || 10;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Uppdelning av förändring">`;
+  for (let v=Math.ceil(lo/st)*st; v<=hi; v+=st) s += `<line x1="${X(v)}" x2="${X(v)}" y1="0" y2="${H-22}" stroke="${Math.abs(v)<1e-9?"var(--muted)":"var(--grid)"}"/><text x="${X(v)}" y="${H-6}" text-anchor="middle">${fmt(v, st<1?1:0)}</text>`;
+  const gr = css("--bar-alla"), pcol = pc(parti);
+  rows.forEach((r,i) => { const y = i*rh + 4;
+    s += `<text x="${lw-8}" y="${y+rh/2+1}" text-anchor="end" style="fill:var(--ink2)">${esc(r.label)}</text>`;
+    if (r.s == null) return;
+    // sammansättning från 0, beteende staplat efter
+    const s0 = X(0), s1 = X(r.s), b0 = X(r.s), b1 = X(r.s + r.b);
+    s += `<rect x="${Math.min(s0,s1)}" y="${y+3}" width="${Math.max(Math.abs(s1-s0),1)}" height="${rh-12}" fill="${gr}" rx="2" data-t="${esc(r.label)}|${r.s}|${r.b}|${r.f}"/>`;
+    s += `<rect x="${Math.min(b0,b1)}" y="${y+3}" width="${Math.max(Math.abs(b1-b0),1)}" height="${rh-12}" fill="${pcol}" rx="2" data-t="${esc(r.label)}|${r.s}|${r.b}|${r.f}"/>`;
+    s += `<line x1="${X(r.f)}" x2="${X(r.f)}" y1="${y}" y2="${y+rh-6}" stroke="var(--ink)" stroke-width="2"/>`;
+    const tx = X(Math.max(r.f, r.s, r.s+r.b, 0)) + 6;
+    if (tx < W - 30) s += `<text x="${tx}" y="${y+rh/2+1}" style="fill:var(--ink)">${(r.f>0?"+":"")+fmt(r.f,1)}</text>`; });
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("rect[data-t]").forEach(c => { c.onmousemove = e => { const [l,a,b,f] = c.dataset.t.split("|"); showTip(e, `<b>${l}</b><br>Förändring: ${(+f>0?"+":"")+fmt(+f,2)}<br>Sammansättning: ${(+a>0?"+":"")+fmt(+a,2)}<br>Beteende: ${(+b>0?"+":"")+fmt(+b,2)}`); }; c.onmouseleave = hideTip; });
+}
+function legendDekomp(){
+  $("leg-dekomp").innerHTML = `<span><i style="background:${css("--bar-alla")}"></i>Sammansättning</span><span><i style="background:${pc(parti)}"></i>Beteende</span><span><i style="background:var(--ink);width:3px"></i>Total förändring, procentenheter</span>`;
+}
+function renderDekomp(){
+  if (!D.dekomp_riket) { $("s-dekomp").hidden = true; return; }
+  legendDekomp();
+  const k = D.dekomp_riket, dim = $("sel-ddim").value, di = k.k.indexOf(dim), v = k.v[parti];
+  if (!v) { $("c-dekomp").innerHTML = `<p class="note">Ingen data för partiet.</p>`; return; }
+  divRows($("c-dekomp"), k.per.map((p,j) => ({label: p, s: v.sammansattning[di][j], b: v.beteende[di][j], f: v.forandring[di][j]})).filter(r=>r.s!=null), {labelW: 90});
+  // summerat per indelning
+  const DK = {"ålder (4 klasser)":"Ålder","utbildning":"Utbildning","född i Sverige/utrikes":"Född utrikes/inrikes","inkomst (kvintil)":"Inkomst","bakgrund":"Utländsk bakgrund","boende":"Boende","sysselsättning":"Sysselsättning","civilstånd":"Civilstånd"};
+  const sumRows = k.k.map((d,i) => { const idx = v.sammansattning[i].map((x,j)=>x==null?null:j).filter(j=>j!=null); const ss = idx.map(j=>v.sammansattning[i][j]);
+    const span = idx.length ? `${k.per[idx[0]].split("–")[0]}–${k.per[idx[idx.length-1]].split("–")[1]}` : "";
+    return {label: `${DK[d]||d} ${span}`, s: ss.reduce((a,b)=>a+b,0), b: 0, f: ss.reduce((a,b)=>a+b,0), n: ss.length}; }).filter(r=>r.n);
+  divRows($("c-dekomp-sum"), sumRows, {labelW: 210});
+  const u = D.dekomp_utb_lan; if (!u) return;
+  const j = Math.max(0, u.per.indexOf($("sel-dper").value)), vu = u.v[parti]; if (!vu) return;
+  let rows = u.k.map((r,i) => ({label: lanKort(LAN[r]||r), s: vu.sammansattning[i][j], b: vu.beteende[i][j], f: vu.forandring[i][j]})).filter(r=>r.s!=null).sort((a,b)=>b.f-a.f);
+  divRows($("c-dekomp-lan"), rows, {labelW: 140});
+  $("h-dlan").textContent = `Länen ${$("sel-dper").value}: utbildningsnivåns bidrag till ${PNAMN[parti]}s förändring`;
+}
+
+/* ---------- 7. valdistrikt ---------- */
+function renderDistrikt(){
+  const k = D.distrikt; if (!k) return;
+  $("s-distrikt").hidden = false;
+  const ind = $("sel-vdind").value, d = k.dec[ind]; if (!d) return;
+  const xs = d.dec.map((_,i)=>i+1);
+  const ser = [...P].map(p => ({name: PNAMN[p], lbl: p, c: p===parti ? pc(p) : "var(--bar)", hl: p===parti, v: d.v[p]||[]}));
+  lineChart($("c-distrikt"), {xs, series: ser, yMin: 0, tipTitle: x => `Tiondel ${x}: ${ind} ${fmt(d.dec[x-1],1)}`, focus: q=>q.hl});
+  $("desc-distrikt").textContent = `Sveriges ${fmt(k.n)} valdistrikt sorterade i tio lika stora grupper efter en strukturvariabel för området (från SCB:s DeSO-statistik, fördelad på distrikten efter yta). Linjen visar partiets andel av rösterna i varje tiondel, från lägst (1) till högst (10).`;
+  $("not-distrikt").textContent = `Valmyndighetens preliminära rösträkning per distrikt 2026. Distrikt utan överlappande DeSO-data eller med färre än 100 röster är borttagna. Täckning: ${fmt(k.tackning*100)} % av distrikten.`;
+}
+
+/* ---------- 8. NTU ---------- */
 function renderNTU(){
   const ind = $("sel-ntu").value, dim = $("sel-ntudim").value;
   const k = D.ntu[ind] && D.ntu[ind][dim], el = $("c-ntu");
@@ -439,8 +648,16 @@ function renderMetod(){
   <tr><td><code>utsatthet</code></td><td>Brå NTU 2006–2025 och SCB ULF 2008–2025: utsatthet, otrygghet, oro, förtroende per grupp</td></tr>
   <tr><td><code>partiexponering</code></td><td>Partiväljarnas förväntade utsatthet givet sammansättning</td></tr>
   <tr><td><code>valdeltagande_grupp</code></td><td>Röstberättigade och valdeltagande per grupp 2018 och 2022 (register)</td></tr>
+  <tr><td><code>valresultat_lan</code>, <code>lansindikator</code>, <code>utsatthet_lan</code></td><td>Valresultat, strukturvariabler och Brå NTU per län</td></tr>
+  <tr><td><code>partiprofil_region</code></td><td>Skattad sammansättning av partiernas väljare per län och kommun 2018, 2022 och 2026 (IPF)</td></tr>
+  <tr><td><code>valdeltagande_region</code></td><td>Röstberättigade och röstande per grupp i varje län och kommun 2018 och 2022 (register)</td></tr>
+  <tr><td><code>dekomposition</code></td><td>Förändring uppdelad i sammansättning och beteende: riket (PSU), län och kommun</td></tr>
+  <tr><td><code>valdistrikt_2026</code>, <code>valdistrikt_tiondel</code></td><td>Valdistrikt 2026 med strukturvariabler från DeSO, och partiernas stöd per tiondel</td></tr>
   <tr><td><code>kontroll</code>, <code>varningar</code></td><td>Kvalitetskontroller och tolkningsvarningar</td></tr></table></div>
   <p><b>Gruppstorlekar i PSU.</b> SCB publicerar partistöd inom varje grupp men inte gruppernas storlek. De skattas ur felmarginalerna: m = 1,96·√(p(1−p)/n) ger n per grupp. Eftersom felmarginalerna bygger på antalet svarande speglar de urvalets sammansättning, så vikterna kalibreras mot SCB:s register över röstande 2018 och 2022 (linjärt däremellan, konstant utanför). Med vikterna återskapas PSU:s totala partisiffror med i snitt 0,1–0,3 procentenheters fel.</p>
+  <p><b>Skattning per län och kommun.</b> Urvalsundersökningarna är för små för län. Därför skattas partiernas sammansättning med iterativ proportionell anpassning (IPF): startvärdet är PSU:s nationella stöd per grupp gånger antalet röstande i gruppen i länet (SCB:s register), och tabellen justeras tills raderna stämmer med registrets röstande per grupp och kolumnerna med länets valresultat. På riksnivå återskapar metoden PSU:s profiler med under en procentenhets avvikelse. För 2026 finns ännu inga registeruppgifter om vilka som röstade; där används 2022 års sammansättning.</p>
+  <p><b>Sammansättning och beteende.</b> Förändringen i stöd Σ w·s delas upp symmetriskt: Σ Δw·s̄ (sammansättning) + Σ w̄·Δs (beteende), där w är gruppens andel och s partiets stöd i gruppen. Uppdelningen är exakt, utan restterm.</p>
+  <p><b>Valdistrikt.</b> Valdistriktens gränser 2026 (Valmyndigheten) läggs över SCB:s DeSO-områden 2025. Varje distrikt får DeSO-statistik i proportion till hur stor del av varje DeSO-områdes yta det täcker. Metoden antar jämnt fördelad befolkning inom varje DeSO-område.</p>
   <p><b>Jämförbarhet.</b> Valu och Valforskningsprogrammet mäter röster på valdagen, PSU mäter sympati vid mättillfället. Gruppindelningarna skiljer sig mellan källorna och redovisas därför var för sig. Valu-tidsserierna för 1991–2022 tas från den senaste rapporten.</p>
   <div class="tw"><table><tr><th>Källa</th><th>Beskrivning</th></tr>${k}</table></div>
   ${kt}
@@ -449,7 +666,7 @@ function renderMetod(){
 
 /* ---------- init ---------- */
 function renderAll(){
-  renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderNTU();
+  renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderNTU();
 }
 (function init(){
   $("meta").textContent = `Uppdaterad ${D.skapad}. Källor: SCB, SVT/Valu, Valforskningsprogrammet (GU), Valmyndigheten, Brå.`;
@@ -477,8 +694,22 @@ function renderAll(){
   $("sel-ntu").innerHTML = `<optgroup label="Brå NTU">${ntuOpt(nts.filter(i => !i.startsWith("ULF")))}</optgroup><optgroup label="SCB ULF">${ntuOpt(nts.filter(i => i.startsWith("ULF")))}</optgroup>`;
   $("sel-ntu").value = nts.find(i => /enskild person/.test(i)) || nts[0];
   $("sel-ntu").onchange = renderNTU; $("sel-ntudim").onchange = renderNTU;
+  if (D.lan_profil) { fillLanProf(); $("sel-lpar").onchange = () => { fillLanGrp(); renderLanProf(); }; $("sel-lpdim").onchange = () => { fillLanGrp(); renderLanProf(); }; $("sel-lpgrp").onchange = renderLanProf; }
+  if (D.lan_val) {
+    const lx = lanX(); $("sel-lx").innerHTML = lx.map(([v,t]) => `<option value="${esc(v)}">${esc(t)}</option>`).join("");
+    const pref = lx.find(([v]) => /eftergymnasial ≥3 år \(25/.test(v)) || lx[0]; if (pref) $("sel-lx").value = pref[0];
+    $("sel-ly").innerHTML = D.lan_val.t.slice().reverse().filter(y=>y>=2010).map(y=>`<option>${y}</option>`).join("");
+    $("sel-lx").onchange = renderLanScatter; $("sel-ly").onchange = renderLanScatter;
+  }
+  if (D.dekomp_riket) {
+    $("sel-ddim").innerHTML = D.dekomp_riket.k.map(d=>`<option value="${esc(d)}">${esc(DIMNAMN[d]||d)}</option>`).join("");
+    $("sel-ddim").value = D.dekomp_riket.k.includes("utbildning") ? "utbildning" : D.dekomp_riket.k[0];
+    $("sel-ddim").onchange = renderDekomp;
+    if (D.dekomp_utb_lan) { $("sel-dper").innerHTML = D.dekomp_utb_lan.per.slice().reverse().map(p=>`<option>${p}</option>`).join(""); $("sel-dper").onchange = renderDekomp; }
+  }
+  if (D.distrikt) { $("sel-vdind").innerHTML = Object.keys(D.distrikt.dec).map(i=>`<option>${esc(i)}</option>`).join(""); $("sel-vdind").onchange = renderDistrikt; }
   renderMetod(); renderAll();
-  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderSkifte(); renderValu(); renderKommun(); renderNTU(); }, 150); });
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderNTU(); }, 150); });
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", renderAll);
   new MutationObserver(renderAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
 })();
