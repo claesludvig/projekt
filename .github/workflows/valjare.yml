@@ -1,0 +1,51 @@
+name: Väljardatabasen - hämta SCB, Valu, Valforskning, Brå
+
+on:
+  workflow_dispatch:
+    inputs:
+      steg:
+        description: "alla | scb | dokument"
+        default: "alla"
+  push:
+    branches: ["claude/voter-database-demographics-r9y5la"]
+    paths: ["valjare/*.py", "valjare/sida.html", "valjare/requirements.txt", ".github/workflows/valjare.yml"]
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r valjare/requirements.txt
+
+      - name: Hämta rådata
+        working-directory: valjare
+        run: python hamta.py --steg "${{ inputs.steg || 'alla' }}"
+
+      - name: Bygg databas och sida
+        working-directory: valjare
+        run: |
+          python bygg_db.py
+          python bygg_sida.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A valjare/data valjare/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterad väljardatabas"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push

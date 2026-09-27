@@ -1,0 +1,9 @@
+kalla,namn,utgivare,url,beskrivning
+scb_psu,Partisympatiundersökningen (PSU),SCB,https://www.scb.se/ME0201,"Urvalsundersökning två gånger per år (maj, nov). Partisympati per grupp med felmarginal. Åldersserien går tillbaka till 1972, övriga grupper till 2006."
+svt_valu,SVT:s vallokalsundersökning (Valu),SVT / Göteborgs universitet / KTH,https://omoss.svt.se/,"Enkät till väljare vid vallokaler på valdagen och vid förtidsröstning. Tvärsnitt per väljargrupp för 2018, 2022 och 2026 samt tidsserier 1991–2026 för några grupper."
+gu_partiernas_valjare,Partiernas väljare 2018–2022 (rapport 2026:7),"Valforskningsprogrammet, Göteborgs universitet",https://www.gu.se/valforskningsprogrammet,"Sammansättningen av varje partis väljare 2018 och 2022, från sammanslagna SOM- och valundersökningar (ca 20 000 svarande per år)."
+scb_register_val,Valdeltagande i riksdagsval efter bakgrundsvariabler (ME0105),SCB,https://www.statistikdatabasen.scb.se/,Registerbaserat: röstberättigade och andel röstande per grupp 2018 och 2022.
+scb_valresultat,"Riksdagsval, valresultat per kommun 1973–2022 (ME0104)",SCB,https://www.statistikdatabasen.scb.se/,Slutligt valresultat per kommun och parti.
+val_2026,Preliminärt valresultat riksdagsvalet 2026,Valmyndigheten,https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026,Vallokalernas preliminära rösträkning per kommun. Ersätts av slutligt resultat när det publiceras.
+scb_struktur,"Befolkning, utbildning, inkomst och ekonomisk standard per kommun",SCB,https://www.statistikdatabasen.scb.se/,"BE0101, UF0506, HE0110 m.fl."
+bra_ntu,"Nationella trygghetsundersökningen (NTU), tabellsamling 2007–2025",Brå,https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen,"Utsatthet för brott, otrygghet, oro och förtroende för rättsväsendet per grupp."

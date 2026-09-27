@@ -1,0 +1,51 @@
+
+===== flik: Fasta mandat, historik (51x12) =====
+                                         0       1       2       3       4       5       6       7       8       9       10      11
+0                 Valmyndigheten 2026-05-05     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+2   Fördelning av fasta mandat till riks...     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+4                                  Valkrets  1988.0  1991.0  1994.0  1998.0  2002.0  2006.0  2010.0  2014.0  2018.0  2022.0  2026.0
+5                         Stockholms kommun    25.0    25.0    25.0    26.0    27.0    27.0    28.0    29.0    29.0    29.0    29.0
+6                            Stockholms län    32.0    32.0    33.0    34.0    35.0    36.0    37.0    38.0    39.0    40.0    41.0
+7                            Uppsala län 1)     9.0     9.0    10.0    10.0    10.0    11.0    11.0    11.0    11.0    12.0    12.0
+8                         Södermanlands län     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0
+9                         Östergötlands län    15.0    15.0    15.0    15.0    15.0    14.0    14.0    14.0    14.0    14.0    14.0
+10                           Jönköpings län    11.0    11.0    11.0    12.0    11.0    11.0    11.0    11.0    11.0    11.0    11.0
+11                           Kronobergs län     6.0     6.0     6.0     6.0     6.0     6.0     6.0     6.0     6.0     6.0     6.0
+12                               Kalmar län     9.0     9.0     9.0     9.0     8.0     8.0     8.0     8.0     8.0     8.0     7.0
+13                             Gotlands län     2.0     2.0     2.0     2.0     2.0     2.0     2.0     2.0     2.0     2.0     2.0
+14                             Blekinge län     6.0     6.0     6.0     6.0     5.0     5.0     5.0     5.0     5.0     5.0     5.0
+15                     Kristianstads län 2)    11.0    11.0    11.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+16                       Fyrstadskretsen 3)    17.0    17.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+17                          Malmöhus län 3)    11.0    11.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+18                      Malmöhus läns norra     NaN     NaN     9.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+19                      Malmöhus läns södra     NaN     NaN    11.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+20                             Malmö kommun     NaN     NaN     8.0     9.0     9.0     9.0     9.0    10.0    10.0    10.0    10.0
+21                        Skåne läns västra     NaN     NaN     NaN     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0
+22                         Skåne läns södra     NaN     NaN     NaN    11.0    11.0    11.0    12.0    12.0    12.0    12.0    12.0
+23            Skåne läns norra och östra 2)     NaN     NaN     NaN    10.0    10.0    10.0    10.0    10.0    10.0    10.0    10.0
+24                             Hallands län     9.0     9.0     9.0    10.0    10.0    10.0    10.0    10.0    10.0    10.0    10.0
+25                         Göteborgs kommun    16.0    16.0    15.0    16.0    17.0    17.0    17.0    17.0    17.0    17.0    18.0
+26                              Bohuslän 4)    11.0    11.0    11.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+27                  Älvsborgs läns norra 4)     9.0     9.0     9.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+28                  Älvsborgs läns södra 4)     6.0     7.0     6.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+29                        Skaraborgs län 4)    10.0    10.0    10.0     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+30       Västra Götalands läns västra 4) 6)     NaN     NaN     NaN    11.0    11.0    11.0    12.0    12.0    11.0    11.0    11.0
+31        Västra Götalands läns norra 4) 6)     NaN     NaN     NaN     9.0     9.0     9.0     9.0     9.0     8.0     8.0     8.0
+32        Västra Götalands läns södra 4) 6)     NaN     NaN     NaN     6.0     6.0     6.0     6.0     6.0     7.0     7.0     7.0
+33           Västra Götalands läns östra 4)     NaN     NaN     NaN     9.0     9.0     9.0     9.0     9.0     9.0     8.0     8.0
+34                            Värmlands län    11.0    10.0    10.0    10.0    10.0    10.0     9.0     9.0     9.0     9.0     9.0
+35                               Örebro län    10.0    10.0    10.0    10.0    10.0    10.0     9.0     9.0     9.0     9.0     9.0
+36                      Västmanlands län 1)     9.0     9.0     9.0     9.0     9.0     8.0     8.0     8.0     8.0     8.0     8.0
+37          Kopparbergs län/Dalarnas län 5)    11.0    11.0    11.0    10.0    10.0    10.0    10.0     9.0     9.0     9.0     9.0
+38                           Gävleborgs län    11.0    11.0    11.0    10.0    10.0    10.0    10.0     9.0     9.0     9.0     9.0
+39                      Västernorrlands län    10.0    10.0    10.0     9.0     9.0     9.0     8.0     8.0     8.0     8.0     7.0
+40                            Jämtlands län     5.0     5.0     5.0     5.0     5.0     5.0     4.0     4.0     4.0     4.0     4.0
+41                        Västerbottens län     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0     9.0     8.0     8.0
+42                          Norrbottens län    10.0    10.0    10.0     9.0     9.0     9.0     9.0     8.0     8.0     8.0     8.0
+43                                      NaN   310.0   310.0   310.0   310.0   310.0   310.0   310.0   310.0   310.0   310.0   310.0
+45  1) Inför valet 2006 flyttades Heby f...     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+46  2) Kristianstads län upplöstes inför...     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+47  3) Fyrstadskretsen och Malmöhus län ...     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+48  4) Västa Götalands län bildades infö...     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+49             5) Namnbyte inför valet 1998     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+50  6) Gränsändringar mellan kretsarna i...     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
