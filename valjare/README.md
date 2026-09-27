@@ -25,6 +25,8 @@ väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, 
 | SCB, KPI per produktgrupp | El, bensin, diesel, räntekostnader | 1980–2025 |
 | SCB, personbilar | Bilar i trafik per kommun | 2015– |
 | Valmyndigheten + SCB DeSO | Valdistrikt 2026 med strukturvariabler | 2026 |
+| Kolada (RKA) | Verklighetsindikatorer per kommun/region: väntetider i vården, skolresultat, äldreomsorg, anmälda brott, långtidsarbetslöshet, ekonomiskt bistånd, låg ekonomisk standard, skattesats, utsläpp, bostadsbyggande, inkomstskillnader | 2006– |
+| SCB (AKU, BNP, bostäder, invandring, medellivslängd, lön) och Riksbanken (styrränta) | Verklighetsindikatorer i riket | varierar |
 | Brå, Nationella trygghetsundersökningen | Utsatthet för brott, otrygghet, oro, förtroende per grupp | 2006–2025 |
 
 ## Tabeller i `data/valjare.sqlite` (och `data/csv/`)
@@ -40,6 +42,7 @@ väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, 
 - `valdistrikt_2026`, `valdistrikt_tiondel`, `valdistrikt_samband`
 - `polisen_manad`, `kpi_manad`, `fraga_betydelse`, `fraga_rang_parti`, `bast_politik`, `som_samhallsproblem`
 - `test_bilar`, `test_skjutningar`
+- `verklighet`, `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogen i `verklighet_katalog.py`)
 - `kalla`, `kontroll`, `varningar`
 
 Exempel:
@@ -72,5 +75,7 @@ python bygg_db.py        # data/valjare.sqlite, data/csv, data/webb.json
 python bygg_sida.py      # index.html
 ```
 
-Nya SCB-tabeller läggs till i `kallor.py`. Pdf-originalen sparas inte i git, bara
+Nya SCB-tabeller läggs till i `kallor.py`. Nya verklighetsindikatorer läggs till i
+`verklighet_katalog.py` (Kolada-id eller sökord, SCB-tabell och variabelval, fråga och
+om högre värde är bättre eller sämre). Pdf-originalen sparas inte i git, bara
 den extraherade texten i `data/kallor/txt`.
