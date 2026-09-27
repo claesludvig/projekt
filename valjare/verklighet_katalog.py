@@ -88,28 +88,42 @@ KOLADA = [
      r"(?i)kvinnors (medianinkomst|nettoinkomst|sammanräknade förvärvsinkomst).*(i förhållande|i procent|/).*män", "hogre"),
 ]
 
-# SCB-serier i riket, hittade via kallor.SCB_SOK (tema "verklighet").
-# rubrik: regex mot tabellrubriken; filter: {variabeletikett-regex: värde-regex}
-# som väljer en enda serie; innehall: regex mot ContentsCode.
+# SCB-serier i riket. "tabell" är ett tabell-id eller ett regex mot rubriken
+# (bland tabeller som hämtats med tema "verklighet"; den med längst tidsserie
+# väljs). "val": variabel -> värde (eller lista som summeras). "kvot": variabel,
+# täljare, lista för nämnare (andel i procent). "innehall": ContentsCode-regex.
 SCB_SERIER = [
-    ("jobb", "Arbetslöshet 15–74 år, säsongrensad (AKU)", r"(?i)arbetslösa|arbetslöshet",
-     {"(?i)kön": r"(?i)totalt|män och kvinnor", "(?i)ålder": r"(?i)15-74|totalt 15"}, r"(?i)relativ|arbetslöshet|procent", "lagre"),
-    ("ekonomi", "BNP, volymförändring (%)", r"(?i)BNP|bruttonationalprodukt",
-     {"(?i)(användning|försörjning|typ)": r"(?i)BNP|bruttonationalprodukt"}, r"(?i)volym|förändring", "hogre"),
-    ("bostad", "Fastighetsprisindex småhus", r"(?i)fastighetsprisindex",
-     {"(?i)region": r"(?i)riket|hela"}, r"(?i)index", None),
-    ("bostad", "Färdigställda lägenheter", r"(?i)färdigställda",
-     {"(?i)region": r"(?i)riket|hela"}, r"(?i)antal|lägenheter", "hogre"),
-    ("klimat", "Växthusgasutsläpp totalt (tusen ton)", r"(?i)växthusgas",
-     {}, r"(?i).", "lagre"),
-    ("invandring", "Invandringar", r"(?i)invandringar",
-     {"(?i)region": r"(?i)riket", "(?i)kön": r"(?i)totalt|män och kvinnor"}, r"(?i)invandring", None),
-    ("sjukvard", "Medellivslängd", r"(?i)medellivslängd|återstående medellivslängd",
-     {"(?i)kön": r"(?i)totalt|män och kvinnor", "(?i)ålder": r"^0|^0 år"}, r"(?i).", "hogre"),
-    ("jamstalldhet", "Kvinnors lön i procent av mäns", r"(?i)kvinnors lön",
-     {}, r"(?i).", "hogre"),
-    ("energi", "Elproduktion, kärnkraft (GWh)", r"(?i)elproduktion|elenergi",
-     {"(?i)(produktionsslag|typ|kraftslag)": r"(?i)kärnkraft"}, r"(?i).", None),
+    {"fraga": "jobb", "namn": "Arbetslöshet 15–74 år (AKU, %)", "tabell": "TAB6514",
+     "val": {"~(?i)typ": "~(?i)^original|^icke|ej säsong", "~(?i)alder|ålder": "~15-74|15–74"},
+     "innehall": r"(?i)1000|tusental|antal",
+     "kvot": ("~(?i)arbetskraft", r"(?i)^arbetslösa", [r"(?i)^arbetslösa", r"(?i)^sysselsatta"]), "battre": "lagre"},
+    {"fraga": "jobb", "namn": "Sysselsättningsgrad 15–74 år (AKU, %)", "tabell": "TAB6514",
+     "val": {"~(?i)typ": "~(?i)^original|^icke|ej säsong", "~(?i)alder|ålder": "~15-74|15–74"},
+     "innehall": r"(?i)1000|tusental|antal",
+     "kvot": ("~(?i)arbetskraft", r"(?i)^sysselsatta", [r"(?i)^(totalt|befolkning)"]), "battre": "hogre"},
+    {"fraga": "invandring", "namn": "Sysselsättningsgrad utrikes födda 15–74 (AKU, %)", "tabell": "TAB6529",
+     "val": {"~(?i)typ": "~(?i)^original|^icke|ej säsong", "~(?i)alder|ålder": "~15-74|15–74",
+     "~(?i)fodd|född|inrikes": "~(?i)^utrikes"},
+     "innehall": r"(?i)1000|tusental|antal",
+     "kvot": ("~(?i)arbetskraft", r"(?i)^sysselsatta", [r"(?i)^(totalt|befolkning)"]), "battre": "hogre"},
+    {"fraga": "ekonomi", "namn": "BNP, volymförändring (%)", "tabell": "TAB5621",
+     "val": {"Anvandningstyp": "BNP till marknadspris"}, "innehall": r"Volymförändring", "battre": "hogre"},
+    {"fraga": "bostad", "namn": "Färdigställda lägenheter i nybyggda hus", "tabell": "TAB2538",
+     "val": {"Region": "Riket", "Hustyp": ["flerbostadshus", "småhus"]},
+     "innehall": r"^Färdigställda lägenheter", "battre": "hogre"},
+    {"fraga": "bostad", "namn": "Fastighetsprisindex småhus (1990=100)", "tabell": "TAB1148",
+     "val": {"Lan": "Riket"}, "innehall": r".", "battre": None},
+    {"fraga": "invandring", "namn": "Invandringar", "tabell": "TAB1618",
+     "val": {"Medbland": "Totalt", "Kon": ["män", "kvinnor"]}, "innehall": r"^Invandringar$", "battre": None},
+    {"fraga": "klimat", "namn": "Växthusgasutsläpp (tusen ton CO2-ekv)",
+     "tabell": r"(?i)växthusgas.*(sektor|totalt|nationella)", "val": {}, "innehall": r".", "battre": "lagre"},
+    {"fraga": "sjukvard", "namn": "Medellivslängd vid födseln", "tabell": r"(?i)medellivslängd",
+     "val": {}, "innehall": r".", "battre": "hogre"},
+    {"fraga": "jamstalldhet", "namn": "Kvinnors lön i procent av mäns", "tabell": r"(?i)kvinnors lön i procent av mäns",
+     "val": {}, "innehall": r"(?i)kvinnors lön i procent", "battre": "hogre"},
+    {"fraga": "energi", "namn": "Elproduktion, kärnkraft (GWh/mån)", "tabell": "TAB78",
+     "val": {"ProdAnv": "kärnkraft (kondens), netto ", "Elomrade": ["SE1", "SE2", "SE3", "SE4"]},
+     "innehall": r".", "battre": None},
 ]
 
 RIKSBANKEN = [

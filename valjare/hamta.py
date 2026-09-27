@@ -407,19 +407,21 @@ def hamta_dokument(tvinga: bool = False):
 
 # ---------- Kolada och Riksbanken ----------
 
-KOLADA_API = "https://api.kolada.se/v2"
+KOLADA_API = "https://api.kolada.se/v3"
 
 
-def _kolada_alla(url: str) -> list[dict]:
-    ut = []
-    while url:
-        r = http("GET", url)
+def _kolada_alla(sokvag: str, params: dict) -> list[dict]:
+    """v3: frågeparametrar, sidor via page/per_page, nästa sida anges i next_url."""
+    ut, sida = [], 1
+    while True:
+        r = http("GET", f"{KOLADA_API}/{sokvag}", params={**params, "page": sida, "per_page": 5000})
         if r.status_code != 200:
-            raise RuntimeError(f"HTTP {r.status_code}")
+            raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
         j = r.json()
         ut += j.get("values", [])
-        url = j.get("next_page")
-    return ut
+        if not j.get("next_url") and not j.get("next_page"):
+            return ut
+        sida += 1
 
 
 def hamta_kolada():
@@ -429,7 +431,7 @@ def hamta_kolada():
     kat, valda = [], {}
     for fraga, namn, sok, valj, _ in KOLADA:
         try:
-            traffar = _kolada_alla(f"{KOLADA_API}/kpi?title={requests.utils.quote(sok)}")
+            traffar = _kolada_alla("kpi", {"title": sok})
         except Exception as exc:  # noqa: BLE001
             logg["fel"].append(f"kolada sök {sok}: {exc}")
             continue
@@ -448,10 +450,10 @@ def hamta_kolada():
     pd.DataFrame(kat).to_csv(KAT_DIR / "kolada_katalog.csv", index=False)
     ut_dir = DATA_DIR / "kolada"
     ut_dir.mkdir(parents=True, exist_ok=True)
-    ar = ",".join(str(a) for a in range(2006, datetime.now().year + 1))
+    ar = [str(a) for a in range(2006, datetime.now().year + 1)]
     for kid, (fraga, namn, titel) in valda.items():
         try:
-            v = _kolada_alla(f"{KOLADA_API}/data/kpi/{kid}/year/{ar}")
+            v = _kolada_alla("data", {"kpi_id": kid, "year": ar})
         except Exception as exc:  # noqa: BLE001
             logg["fel"].append(f"kolada data {kid}: {exc}")
             continue
@@ -460,8 +462,8 @@ def hamta_kolada():
             for x in rad.get("values", []):
                 if x.get("gender") in ("T", None) and x.get("value") is not None:
                     rader.append({"kpi": kid, "titel": titel, "fraga": fraga, "namn": namn,
-                                  "region_kod": rad.get("municipality"), "ar": rad.get("period"),
-                                  "varde": x.get("value")})
+                                  "region_kod": rad.get("municipality") or rad.get("municipality_id"),
+                                  "ar": rad.get("period") or rad.get("year"), "varde": x.get("value")})
         pd.DataFrame(rader).to_csv(ut_dir / f"{kid}.csv.gz", index=False,
                                    compression={"method": "gzip", "mtime": 0})
         logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(rader)})

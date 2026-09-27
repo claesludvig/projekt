@@ -57,32 +57,65 @@ def _tid(t: str) -> tuple[str, float] | None:
     return None
 
 
-def scb_serier(scb, katalog: pd.DataFrame, varningar: list) -> pd.DataFrame:
-    """Plocka en enda tidsserie ur varje SCB-tabell som matchar SCB_SERIER.
+def _valj_varde(varden: list[str], onskat: str) -> str | None:
+    if onskat in varden:
+        return onskat
+    return next((v for v in varden if v.strip().lower() == onskat.strip().lower()), None)
 
-    För varje variabel (utom tid och innehåll) väljs ett värde: det som matchar
-    ett filter, annars ett "totalt"-värde, annars det enda värdet."""
-    kand = katalog[(katalog.tema == "verklighet") & katalog.vald.astype(str).str.lower().eq("true")]
+
+def scb_serier(scb, katalog: pd.DataFrame, varningar: list) -> pd.DataFrame:
+    """En tidsserie per post i SCB_SERIER.
+
+    Variabler som inte anges i "val" väljs automatiskt: ett "totalt"-värde,
+    ett nollårsvärde för ålder, annars det enda värdet. Går det inte att välja
+    entydigt hoppas serien över och en varning skrivs."""
+    kand = katalog[(katalog.tema == "verklighet")]
     delar = []
-    for fraga, namn, rubrik, filt, innehall, battre in SCB_SERIER:
-        traff = kand[kand.rubrik.str.contains(rubrik, regex=True, na=False)]
-        klar = False
-        for tab in traff.id:
-            df = scb(tab)
+    for post in SCB_SERIER:
+        tab = post["tabell"]
+        if not re.fullmatch(r"TAB\d+", tab):
+            traff = kand[kand.rubrik.str.contains(tab.replace("(", "(?:").replace("(?:?", "(?"), regex=True, na=False)]
+            tabeller = list(traff.id)
+        else:
+            tabeller = [tab]
+        bast = None
+        for t in tabeller:
+            df = scb(t)
             if df is None or df.empty:
                 continue
+            df = df[df.ContentsCode.str.contains(post["innehall"], regex=True, na=False)]
+            if df.empty:
+                continue
+            cc = list(dict.fromkeys(df.ContentsCode))
+            df = df[df.ContentsCode == cc[0]]
             dims = [c for c in df.columns if not c.endswith("_kod")
                     and c not in ("tabell", "Tid", "ContentsCode", "varde")]
+            kvot = post.get("kvot")
+            if kvot and kvot[0].startswith("~"):
+                kvot = (next((d for d in dims if re.search(kvot[0][1:], d)), kvot[0]), *kvot[1:])
             ok = True
+            summera = []
             for d in dims:
                 varden = list(dict.fromkeys(df[d].astype(str)))
-                val = None
-                for rx in filt.values():
-                    val = next((v for v in varden if re.search(rx, v)), None)
-                    if val:
-                        break
+                if kvot and d == kvot[0]:
+                    continue
+                onskat = post["val"].get(d)
+                if onskat is None:   # nycklar som börjar med ~ är regex mot variabelnamnet
+                    onskat = next((v for k, v in post["val"].items()
+                                   if k.startswith("~") and re.search(k[1:], d)), None)
+                if isinstance(onskat, list):
+                    df = df[df[d].isin(onskat)]
+                    summera.append(d)
+                    continue
+                if isinstance(onskat, str) and onskat.startswith("~"):
+                    val = next((v for v in varden if re.search(onskat[1:], v)), None)
+                else:
+                    val = _valj_varde(varden, onskat) if onskat else None
                 if val is None:
-                    val = next((v for v in varden if re.search(r"(?i)^(totalt|samtliga|hela|riket|män och kvinnor|båda)", v)), None)
+                    val = next((v for v in varden if re.search(
+                        r"(?i)^(totalt|samtliga|hela|riket|män och kvinnor|båda|totala|summa)", v.strip())), None)
+                if val is None and re.search(r"(?i)ålder|alder", d):
+                    val = next((v for v in varden if re.match(r"^0( år)?$", v.strip())), None)
                 if val is None and len(varden) == 1:
                     val = varden[0]
                 if val is None:
@@ -91,22 +124,28 @@ def scb_serier(scb, katalog: pd.DataFrame, varningar: list) -> pd.DataFrame:
                 df = df[df[d].astype(str) == val]
             if not ok or df.empty:
                 continue
-            cc = [c for c in dict.fromkeys(df.ContentsCode) if re.search(innehall, c)]
-            if not cc:
-                continue
-            df = df[df.ContentsCode == cc[0]]
-            tider = df.Tid.map(_tid)
-            df = df[tider.notna()]
-            if df.empty:
-                continue
-            delar.append(pd.DataFrame({
-                "fraga": fraga, "indikator": namn, "kalla": f"SCB {tab}: {cc[0]}",
-                "niva": "riket", "region_kod": "0000", "period": df.Tid.values,
-                "ar_dec": [x[1] for x in df.Tid.map(_tid)], "varde": df.varde.values, "battre": battre}))
-            klar = True
-            break
-        if not klar:
-            varningar.append(f"verklighet: hittade ingen entydig SCB-serie för '{namn}'")
+            if kvot:
+                col, tal, nam = kvot
+                p = df.groupby(["Tid", col]).varde.sum().unstack()
+                hitta = lambda x: next((c for c in p.columns if re.search(x, c)), None)  # noqa: E731
+                tal, nam = hitta(tal), [hitta(n) for n in nam]
+                if tal is None or None in nam:
+                    continue
+                s_ = 100 * p[tal] / p[nam].sum(axis=1)
+            else:
+                s_ = df.groupby("Tid").varde.sum()
+            s_ = s_.dropna()
+            s_ = s_[[(_tid(t) is not None) for t in s_.index]]
+            if bast is None or len(s_) > len(bast[1]):
+                bast = (t, s_, cc[0])
+        if bast is None:
+            varningar.append(f"verklighet: hittade ingen entydig SCB-serie för '{post['namn']}'")
+            continue
+        t, s_, cc = bast
+        delar.append(pd.DataFrame({
+            "fraga": post["fraga"], "indikator": post["namn"], "kalla": f"SCB {t}: {cc}",
+            "niva": "riket", "region_kod": "0000", "period": list(s_.index),
+            "ar_dec": [_tid(x)[1] for x in s_.index], "varde": s_.values, "battre": post["battre"]}))
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
