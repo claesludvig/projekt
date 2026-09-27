@@ -1,5 +1,5 @@
 {
- "start": "2026-09-27T14:23:42.556542+00:00",
+ "start": "2026-09-27T18:50:24.181140+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -2156,7 +2156,17 @@
    "id": "N00952",
    "namn": "Kvinnors mediannettoinkomst i % av mäns",
    "rader": 5923
+  },
+  {
+   "id": "N85054",
+   "namn": "Skyddad natur, andel av landareal (%)",
+   "rader": 3744
+  },
+  {
+   "id": "U07514",
+   "namn": "Ekologiska livsmedel i kommunens verksamhet (%)",
+   "rader": 4257
   }
  ],
- "slut": "2026-09-27T14:35:29.739843+00:00"
+ "slut": "2026-09-27T19:05:28.734779+00:00"
 }
