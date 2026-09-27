@@ -588,8 +588,8 @@ function renderDistrikt(){
   const ind = $("sel-vdind").value, d = k.dec[ind]; if (!d) return;
   const xs = d.dec.map((_,i)=>i+1);
   const ser = [...P].map(p => ({name: PNAMN[p], lbl: p, c: p===parti ? pc(p) : "var(--bar)", hl: p===parti, v: d.v[p]||[]}));
-  lineChart($("c-distrikt"), {xs, series: ser, yMin: 0, tipTitle: x => `Tiondel ${x}: ${ind} ${fmt(d.dec[x-1],1)}`, focus: q=>q.hl});
-  $("desc-distrikt").textContent = `Sveriges ${fmt(k.n)} valdistrikt sorterade i tio lika stora grupper efter en strukturvariabel för området (från SCB:s DeSO-statistik, fördelad på distrikten efter yta). Linjen visar partiets andel av rösterna i varje tiondel, från lägst (1) till högst (10).`;
+  lineChart($("c-distrikt"), {xs, series: ser, yMin: 0, tipTitle: x => `Tiondel ${x} (medel ${fmt(d.dec[x-1],1)} %)`, focus: q=>q.hl});
+  $("desc-distrikt").textContent = `Sveriges ${fmt(k.n)} valdistrikt sorterade i tio lika stora grupper efter en strukturvariabel för området (från SCB:s DeSO-statistik, fördelad på distrikten efter yta). Linjen visar partiets andel av rösterna i varje tiondel, från lägst (1) till högst (10). Tiondel 1 har i snitt ${fmt(d.dec[0],1)} % och tiondel 10 ${fmt(d.dec[9],1)} %.`;
   $("not-distrikt").textContent = `Valmyndighetens preliminära rösträkning per distrikt 2026. Distrikt utan överlappande DeSO-data eller med färre än 100 röster är borttagna. Täckning: ${fmt(k.tackning*100)} % av distrikten.`;
 }
 
@@ -707,7 +707,7 @@ function renderAll(){
     $("sel-ddim").onchange = renderDekomp;
     if (D.dekomp_utb_lan) { $("sel-dper").innerHTML = D.dekomp_utb_lan.per.slice().reverse().map(p=>`<option>${p}</option>`).join(""); $("sel-dper").onchange = renderDekomp; }
   }
-  if (D.distrikt) { $("sel-vdind").innerHTML = Object.keys(D.distrikt.dec).map(i=>`<option>${esc(i)}</option>`).join(""); $("sel-vdind").onchange = renderDistrikt; }
+  if (D.distrikt) { const di = Object.keys(D.distrikt.dec); $("sel-vdind").innerHTML = di.map(i=>`<option>${esc(i)}</option>`).join(""); if (di.includes("låg ekonomisk standard")) $("sel-vdind").value = "låg ekonomisk standard"; $("sel-vdind").onchange = renderDistrikt; }
   renderMetod(); renderAll();
   let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderNTU(); }, 150); });
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", renderAll);
