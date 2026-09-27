@@ -346,3 +346,35 @@ def valu_fragor(txt: Path, kalla_id: str) -> tuple[pd.DataFrame, pd.DataFrame, p
                         bast.append({"kalla": kalla_id, "omrade": _fraga_namn(namn), "parti": p,
                                      "andel": float(x)})
     return pd.DataFrame(betydelse), pd.DataFrame(rang), pd.DataFrame(bast)
+
+
+# ---------- SOM-institutet: viktigaste samhällsproblem ----------
+
+def som_samhallsproblem(txt: Path, kalla_id: str) -> pd.DataFrame:
+    """Andel som nämner området bland de (högst tre) viktigaste samhällsproblemen, 1987–.
+
+    Årtalen i tabellhuvudet är roterade i pdf:en och läses baklänges ("7891" = 1987)."""
+    rader = []
+    for sidnr, text in _sidor(txt):
+        if not any("VIKTIGASTE SAMHÄLLSPROBLEM" in r for r in text):
+            continue
+        ar = []
+        for r in text:
+            tok = r.split()
+            if len(tok) > 10 and all(re.fullmatch(r"\d{4}", t) for t in tok):
+                kand = [int(t[::-1]) for t in tok]
+                if all(1980 <= a <= 2035 for a in kand) and kand == sorted(kand):
+                    ar = kand
+                    break
+        if not ar:
+            continue
+        for r in text:
+            m = re.match(r"^([A-ZÅÄÖ][^\d]+?)\s+([\d\s]+)$", r)
+            if not m or m.group(1).startswith(("Antal", "År")):
+                continue
+            v = m.group(2).split()
+            if len(v) != len(ar):
+                continue
+            for a, x in zip(ar, v):
+                rader.append({"kalla": kalla_id, "ar": a, "omrade": m.group(1).strip(), "andel": float(x)})
+    return pd.DataFrame(rader)

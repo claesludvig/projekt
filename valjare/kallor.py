@@ -109,6 +109,8 @@ SCB_TABELLER = [
         ("TAB6572", "DeSO: födelseregion"),
         ("TAB6253", "DeSO: upplåtelseform"),
         ("TAB6680", "DeSO: arbetsmarknadsstatus")]],
+    {"id": "TAB5160", "tema": "priser", "region": "alla", "max_celler": 2_000_000,
+     "not": "KPI efter produktgrupp, 1980=100, månad 1980–2025 (el, drivmedel, livsmedel m.m.)"},
     {"id": "TAB3981", "tema": "utbildning", "region": "kommun",
      "utelamna": ["Alder", "Kon"], "max_celler": 600_000,
      "not": "Befolkning 16–74 år efter region och utbildningsnivå 1985–"},
