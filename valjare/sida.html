@@ -10,6 +10,7 @@
   --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --p-V:#B0121E; --p-S:#E0142E; --p-MP:#4E9A2C; --p-C:#00804A; --p-L:#2C77BF;
   --p-KD:#23408E; --p-M:#2F93CF; --p-SD:#C9A300; --p-ALLA:#3B332D;
+  --f1:#B4441E; --f2:#2E7D5B; --f3:#2F5FA7; --f4:#8A5A9E;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -18,6 +19,7 @@
     --rule:#3A332E; --grid:#302A26; --bar:#51483F; --bar-alla:#A89A8C; --focus:#7FB2F0;
     --p-V:#EC5A5F; --p-S:#FF6B78; --p-MP:#7CC65A; --p-C:#34B37A; --p-L:#6AB2E7;
     --p-KD:#8EA4E6; --p-M:#6CC3F0; --p-SD:#E6C63A; --p-ALLA:#EDE3D8;
+    --f1:#F08A62; --f2:#5FC49A; --f3:#7FA8EE; --f4:#C39AD6;
   }
 }
 :root[data-theme="dark"]{
@@ -26,6 +28,7 @@
   --rule:#3A332E; --grid:#302A26; --bar:#51483F; --bar-alla:#A89A8C; --focus:#7FB2F0;
   --p-V:#EC5A5F; --p-S:#FF6B78; --p-MP:#7CC65A; --p-C:#34B37A; --p-L:#6AB2E7;
   --p-KD:#8EA4E6; --p-M:#6CC3F0; --p-SD:#E6C63A; --p-ALLA:#EDE3D8;
+  --f1:#F08A62; --f2:#5FC49A; --f3:#7FA8EE; --f4:#C39AD6;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -210,8 +213,35 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <p class="note" id="not-distrikt"></p>
   </section>
 
+  <section id="s-fragor">
+    <span class="label">8 · Sakfrågorna</span>
+    <h2>Brott, energipriser och vad väljarna sa var viktigt</h2>
+    <p class="desc">Valet 2022 beskrivs ofta som avgjort av skjutningar och sprängningar och av höga el- och drivmedelspriser. Här står utvecklingen i verkligheten bredvid vad väljarna själva angav som viktigt och vilket parti de tyckte hade bäst politik. De lodräta linjerna är valdagarna.</p>
+    <h3>Verkligheten</h3>
+    <div class="small" id="c-verklighet" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))"></div>
+    <p class="note" id="not-verklighet"></p>
+    <h3 style="margin-top:18px">Vad väljarna säger är viktigt</h3>
+    <div class="small" style="grid-template-columns:repeat(auto-fill,minmax(320px,1fr))">
+      <div><h3 style="font-size:14px">Samhällets viktigaste problem (SOM, öppen fråga)</h3><div class="chart" id="c-som"></div>
+        <p class="note">Andel som nämner området bland högst tre viktigaste samhällsproblem. Mätningen görs på hösten.</p></div>
+      <div><h3 style="font-size:14px">Mycket stor betydelse för partivalet (Valu, valdagen)</h3><div class="chart" id="c-betydelse"></div>
+        <p class="note">Andel som anger att frågan har mycket stor betydelse för valet av parti.</p></div>
+    </div>
+    <h3 style="margin-top:18px" id="h-bast">Vilket parti har bäst politik?</h3>
+    <div class="controls"><label class="ctl">Område <select id="sel-bast"></select></label></div>
+    <div class="chart" id="c-bast"></div>
+    <p class="note" id="not-bast"></p>
+    <h3 style="margin-top:18px">Syns det i geografin?</h3>
+    <p class="desc">Om drivmedelspriserna flyttade röster borde partiernas förändring 2018→2022 hänga ihop med hur bilberoende kommunen är, och starkare än vid andra val. Punkterna visar korrelationen över kommunerna mellan bilar i trafik per 1 000 invånare och partiets förändring, val för val.</p>
+    <div class="chart" id="c-bilar"></div>
+    <p class="note">Bilar i trafik per 1 000 invånare året före valet (SCB). Bilinnehav följer också hur landsbygd eller storstad kommunen är, så sambandet fångar mer än bensinpriset.</p>
+    <p class="desc" id="desc-skj" style="margin-top:8px"></p>
+    <div class="chart" id="c-skj"></div>
+    <p class="note">Bekräftade skjutningar per 100 000 invånare och år i polisregionen under mandatperioden (Polisen), mot partiets förändring i regionen. Bara sju polisregioner: en indikation, inget statistiskt test.</p>
+  </section>
+
   <section id="s-brott">
-    <span class="label">8 · Trygghet</span>
+    <span class="label">9 · Trygghet</span>
     <h2>Utsatthet och otrygghet i väljargrupperna</h2>
     <p class="desc">Brå:s Nationella trygghetsundersökning (NTU) och SCB:s undersökning av levnadsförhållanden (ULF, måtten som börjar med "ULF:"). Till vänster: andel i gruppen. Till höger: vad partiets väljare kan förväntas ligga på enbart utifrån deras sammansättning på den valda indelningen, jämfört med hela väljarkåren.</p>
     <div class="controls">
@@ -319,8 +349,8 @@ function renderSamm(){
 }
 
 /* ---------- linjediagram ---------- */
-function lineChart(el, {xs, series, yMin=null, yMax=null, xLabel=v=>v, yFmt=v=>fmt(v)+" %", height=300, zero=false, tipTitle=null, focus=null}){
-  const W = Math.max(el.clientWidth, 280), H = height, m = {l:40, r:56, t:12, b:26};
+function lineChart(el, {xs, series, yMin=null, yMax=null, xLabel=v=>v, yFmt=v=>fmt(v)+" %", height=300, zero=false, tipTitle=null, focus=null, hoger=56}){
+  const W = Math.max(el.clientWidth, 280), H = height, m = {l:40, r:hoger, t:12, b:26};
   const xv = xs.map(Number);
   const all = series.flatMap(s => s.v.filter(v => v != null));
   if (!all.length){ el.innerHTML = `<p class="note">Ingen data.</p>`; return; }
@@ -332,11 +362,12 @@ function lineChart(el, {xs, series, yMin=null, yMax=null, xLabel=v=>v, yFmt=v=>f
   const ticks = []; const span = hi - lo; const st = span > 1.5 ? (span > 40 ? 10 : span > 15 ? 5 : span > 6 ? 2 : 1) : 0.5;
   for (let v = Math.ceil(lo/st)*st; v <= hi + 1e-9; v += st) ticks.push(+v.toFixed(2));
   const years = [...new Set(xv.map(Math.floor))]; const ystep = years.length > 12 ? (W < 500 ? 8 : 4) : (W < 500 ? 4 : 2);
-  const xt = years.filter(y => y % ystep === 0 || years.length <= 6);
+  const glesa = xv.every(v => v % 1 === 0) && xv.length <= 12;
+  const xt = glesa ? years.filter((y,i) => W >= 420 || i % 2 === 0 || i === years.length-1) : years.filter(y => y % ystep === 0 || years.length <= 6);
   let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Linjediagram">`;
   ticks.forEach(t => s += `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--grid)" stroke-width="1"/><text x="${m.l-6}" y="${Y(t)+4}" text-anchor="end">${yFmt(t).replace(" %","")}</text>`);
   if (zero && lo < 0) s += `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(0)}" y2="${Y(0)}" stroke="var(--muted)" stroke-width="1"/>`;
-  xt.forEach(y => { const xx = X(y + (xv.some(v=>v%1) ? 0.33 : 0)); if (xx >= m.l-1 && xx <= W-m.r+1) s += `<text x="${xx}" y="${H-6}" text-anchor="middle">${y}</text>`; });
+  xt.forEach(y => { const xx = X(y + (!glesa && xv.some(v=>v%1) ? 0.33 : 0)); if (xx >= m.l-1 && xx <= W-m.r+1) s += `<text x="${xx}" y="${H-6}" text-anchor="middle">${y}</text>`; });
   const path = v => { let d = "", pen = false; v.forEach((y,i) => { if (y == null) { pen = false; return; } d += (pen ? "L" : "M") + X(xv[i]).toFixed(1) + "," + Y(y).toFixed(1); pen = true; }); return d; };
   const bg = series.filter(q => !q.hl), fg = series.filter(q => q.hl);
   bg.forEach(q => s += `<path d="${path(q.v)}" fill="none" stroke="${q.c||"var(--bar)"}" stroke-width="${q.w||1.5}" ${q.dash?`stroke-dasharray="${q.dash}"`:""} stroke-linejoin="round" stroke-linecap="round"/>`);
@@ -593,7 +624,112 @@ function renderDistrikt(){
   $("not-distrikt").textContent = `Valmyndighetens preliminära rösträkning per distrikt 2026. Distrikt utan överlappande DeSO-data eller med färre än 100 röster är borttagna. Täckning: ${fmt(k.tackning*100)} % av distrikten.`;
 }
 
-/* ---------- 8. NTU ---------- */
+/* ---------- 8. sakfrågorna ---------- */
+const VALDAGAR = [2014.7, 2018.7, 2022.7, 2026.7];
+function barYear(el, data, {height=170, color, partial={}, unit=""}={}){
+  const ar = Object.keys(data).map(Number).sort(), W = Math.max(el.clientWidth, 260), H = height, m = {l:34, r:8, t:10, b:22};
+  const hi = Math.max(...ar.map(a=>data[a])) * 1.12, bw = (W-m.l-m.r)/ar.length;
+  const Y = v => m.t + (1 - v/hi)*(H-m.t-m.b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img">`;
+  const st = [10,20,50,100,200].find(x => hi/x <= 5) || 200;
+  for (let v=0; v<=hi; v+=st) s += `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/><text x="${m.l-5}" y="${Y(v)+4}" text-anchor="end">${v}</text>`;
+  ar.forEach((a,i) => { const x = m.l + i*bw + 2, v = data[a], del = partial[a] && partial[a] < 12;
+    s += `<rect x="${x}" y="${Y(v)}" width="${bw-4}" height="${Y(0)-Y(v)}" rx="2" fill="${color}" opacity="${del?0.45:1}" data-t="${a}|${v}|${partial[a]||12}"/>`;
+    if (VALDAGAR.some(d => Math.floor(d) === a)) s += `<text x="${x+(bw-4)/2}" y="${Y(v)-4}" text-anchor="middle" style="fill:var(--ink);font-size:10px">val</text>`;
+    if (ar.length <= 12 || i % 2 === 0) s += `<text x="${x+(bw-4)/2}" y="${H-6}" text-anchor="middle" style="font-size:10.5px">${String(a).slice(2)}</text>`; });
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("rect[data-t]").forEach(r => { r.onmousemove = e => { const [a,v,mn] = r.dataset.t.split("|"); showTip(e, `<b>${a}</b>${+mn<12?` (jan–${["","jan","feb","mar","apr","maj","jun","jul","aug","sep","okt","nov","dec"][+mn]})`:""}<br>${fmt(+v)}${unit}`); }; r.onmouseleave = hideTip; });
+}
+function renderFragor(){
+  const box = $("c-verklighet");
+  if (!D.polisen_ar && !D.kpi) { $("s-fragor").hidden = true; return; }
+  const paneler = [];
+  if (D.polisen_ar) {
+    paneler.push(["Skjutningar per år", "skjutningar|skjutningar"], ["Döda i skjutningar per år", "skjutningar|avlidna"], ["Sprängningar (detonationer) per år", "sprängningar|detonationer"]);
+  }
+  const kp = D.kpi ? ["El", "Bensin", "Diesel"].filter(k => D.kpi[k]) : [];
+  box.innerHTML = paneler.map((p,i)=>`<div><h3 style="font-size:14px">${p[0]}</h3><div class="chart" id="vk${i}"></div></div>`).join("") +
+    kp.map((k,i)=>`<div><h3 style="font-size:14px">Pris på ${k==="El"?"el (egnahem)":k.toLowerCase()}, förändring på 12 månader (%)</h3><div class="chart" id="kp${i}"></div></div>`).join("");
+  paneler.forEach((p,i) => { const d = D.polisen_ar[p[1]]; if (d) barYear($("vk"+i), Object.fromEntries(Object.entries(d).filter(([a])=>+a>=2014)), {color: css("--f1"), partial: D.polisen_manader[p[1]]}); });
+  kp.forEach((k,i) => { const d = D.kpi[k]; const xs = d.t.map(t => +t.slice(0,4) + (+t.slice(5)-1)/12);
+    const el = $("kp"+i);
+    lineChart(el, {xs, height: 170, series: [{name: k, lbl: "", c: css("--f3"), hl: true, w: 1.8, v: d.v}], zero: true, yFmt: v => fmt(v)+" %", tipTitle: x => d.t[xs.indexOf(x)], focus: q=>true});
+    markVal(el, xs); });
+  const sk = D.polisen_manader && D.polisen_manader["skjutningar|skjutningar"]; const sista = sk ? Math.max(...Object.keys(sk).map(Number)) : null;
+  $("not-verklighet").textContent = `Källor: Polismyndigheten (bekräftade skjutningar sedan 2017, sprängningar sedan 2018) och SCB:s KPI per produktgrupp (elström egnahem, bensin 95, dieselolja; serien slutar december 2025). ${sista?`${sista} är ofullständigt (${sk[sista]} månader) och visas ljusare.`:""}`;
+  renderIssueLines(); renderBast(); renderBilar(); renderSkj();
+}
+function markVal(el, xs, opts={}){
+  const svg = el.querySelector("svg"); if (!svg) return;
+  const vb = svg.viewBox.baseVal, x0 = Math.min(...xs), x1 = Math.max(...xs), m = {l:40, r:(opts.hoger||56), t:12, b:26};
+  VALDAGAR.forEach(d => { if (d < x0 || d > x1) return; const x = m.l + (d-x0)/(x1-x0)*(vb.width-m.l-m.r);
+    const l = document.createElementNS("http://www.w3.org/2000/svg","line"); Object.entries({x1:x,x2:x,y1:m.t,y2:vb.height-m.b,stroke:"var(--muted)","stroke-dasharray":"2 3"}).forEach(([k,v])=>l.setAttribute(k,v)); svg.insertBefore(l, svg.firstChild.nextSibling); });
+}
+const FRAGFARG = [["Lag och ordning","--f1","Lag och ordning"],["Miljö/energi","--f2","Miljö/energi"],["Energi och kärnkraft","--f2","Energi"],["Ekonomi","--f3","Ekonomi"],["Din egen ekonomi","--f3","Egen ekonomi"],["Integration/immigration","--f4","Integration"],["Flyktingar/invandring","--f4","Invandring"]];
+function issueChart(el, k, fokus, opts={}){
+  const ser = Object.entries(k.v).map(([f,v]) => { const c = FRAGFARG.find(x => x[0] === f); return {name: f, lbl: c ? c[2] : "", c: c ? css(c[1]) : "var(--bar)", hl: !!c && fokus.includes(f), w: c ? 2.2 : 1.1, v}; });
+  lineChart(el, {xs: k.t, series: ser, yMin: 0, height: 260, tipTitle: x => String(x), focus: q => q.hl, hoger: 120, ...opts});
+  markVal(el, k.t, {hoger: 120});
+}
+function renderIssueLines(){
+  if (D.som) issueChart($("c-som"), {t: D.som.t.filter(a=>a>=1998), v: Object.fromEntries(Object.entries(D.som.v).map(([f,v])=>[f, v.slice(D.som.t.indexOf(1998))]))}, ["Lag och ordning","Miljö/energi","Ekonomi","Integration/immigration"]);
+  if (D.fraga_betydelse) issueChart($("c-betydelse"), D.fraga_betydelse, ["Lag och ordning","Energi och kärnkraft","Din egen ekonomi","Flyktingar/invandring"], {yMin: 10});
+}
+function renderBast(){
+  const B = D.bast_politik; if (!B) return;
+  const ar = Object.keys(B).sort(), omr = $("sel-bast").value, el = $("c-bast");
+  const rader = [...P, "INGEN"].map(p => ({p, v: ar.map(a => (B[a][omr]||{})[p] ?? null)})).filter(r => r.v.some(x=>x!=null));
+  const W = Math.max(el.clientWidth, 280), rh = 28, lw = W < 500 ? 120 : 175, H = rader.length*rh + 34;
+  const hi = Math.max(10, ...rader.flatMap(r=>r.v.filter(x=>x!=null))) * 1.1;
+  const X = v => lw + v/hi*(W-lw-20), cols = ["var(--bar)", css("--bar-alla"), "var(--ink)"].slice(3-ar.length);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Bäst politik">`;
+  for (let v=0; v<=hi; v+=10) s += `<line x1="${X(v)}" x2="${X(v)}" y1="18" y2="${H-20}" stroke="var(--grid)"/><text x="${X(v)}" y="${H-5}" text-anchor="middle">${v}</text>`;
+  ar.forEach((a,j) => s += `<circle cx="${lw + j*62 + 6}" cy="8" r="5" fill="${cols[j]}"/><text x="${lw + j*62 + 15}" y="12" style="fill:var(--ink2)">${a}</text>`);
+  rader.forEach((r,i) => { const y = 26 + i*rh + rh/2, on = r.p === parti;
+    s += `<text x="${lw-10}" y="${y+4}" text-anchor="end" style="fill:${on?"var(--ink)":"var(--ink2)"};font-weight:${on?600:400}">${r.p==="INGEN"?"Ingen uppfattning":PNAMN[r.p]}</text>`;
+    const def = r.v.filter(x=>x!=null); if (def.length>1) s += `<line x1="${X(Math.min(...def))}" x2="${X(Math.max(...def))}" y1="${y}" y2="${y}" stroke="${on?pc(parti):css("--bar")}" stroke-width="${on?3:2}"/>`;
+    r.v.forEach((v,j) => { if (v==null) return; const c = on && j===r.v.length-1 ? pc(parti) : cols[j]; s += `<circle cx="${X(v)}" cy="${y}" r="${on?6.5:5.5}" fill="${c}" stroke="var(--paper)" stroke-width="2" data-t="${r.p}|${ar[j]}|${v}"/>`; });
+    const sist = r.v.filter(x=>x!=null).slice(-1)[0]; s += `<text x="${X(Math.max(...def))+10}" y="${y+4}" style="fill:${on?"var(--ink)":"var(--muted)"}">${fmt(sist)}</text>`; });
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("circle[data-t]").forEach(c => { c.onmousemove = e => { const [p,a,v] = c.dataset.t.split("|"); showTip(e, `<b>${p==="INGEN"?"Ingen uppfattning":PNAMN[p]}, ${a}</b><br>${fmt(+v)} % anser bäst politik: ${esc(omr)}`); }; c.onmouseleave = hideTip; });
+  const R = D.fraga_rang, rang = ar.map(a => R && R[a] && R[a][omr] ? R[a][omr][parti] : null);
+  $("h-bast").textContent = `Vilket parti har bäst politik? ${omr}`;
+  $("not-bast").textContent = `Valu: andel av väljarna som anger partiet. ${rang.some(x=>x)?`Bland ${PNAMN[parti]}s egna väljare rankades frågan som nummer ${ar.map((a,j)=>`${rang[j]??"–"} (${a})`).join(", ")} av de frågor som ställdes.`:""}`;
+}
+function renderBilar(){
+  const T = D.test_bilar; if (!T) return;
+  const el = $("c-bilar"), per = [...new Set(T.map(r=>`${r.fran}–${r.till}`))];
+  const W = Math.max(el.clientWidth, 280), rh = 26, lw = W < 500 ? 120 : 175, H = P.length*rh + 40;
+  const X = v => lw + (v+1)/2*(W-lw-20);
+  const cols = per.map((_,j) => j === per.indexOf("2018–2022") ? null : ["var(--bar)", css("--bar-alla"), "var(--ink2)", "var(--ink)"][j] || "var(--bar)");
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Bilinnehav och partiernas förändring">`;
+  [-1,-0.5,0,0.5,1].forEach(v => s += `<line x1="${X(v)}" x2="${X(v)}" y1="22" y2="${H-20}" stroke="${v===0?"var(--muted)":"var(--grid)"}"/><text x="${X(v)}" y="${H-5}" text-anchor="middle">${v>0?"+":""}${fmt(v,1)}</text>`);
+  per.forEach((p,j) => { const c = cols[j] || css("--f1"); s += `<circle cx="${lw + j*92 + 6}" cy="9" r="5" fill="${c}"/><text x="${lw + j*92 + 15}" y="13" style="fill:var(--ink2)">${p}</text>`; });
+  P.forEach((p,i) => { const y = 30 + i*rh + rh/2, on = p === parti;
+    s += `<text x="${lw-10}" y="${y+4}" text-anchor="end" style="fill:${on?"var(--ink)":"var(--ink2)"};font-weight:${on?600:400}">${PNAMN[p]}</text>`;
+    per.forEach((pp,j) => { const r = T.find(x => `${x.fran}–${x.till}` === pp && x.parti === p); if (!r) return;
+      s += `<circle cx="${X(r.r)}" cy="${y}" r="${pp==="2018–2022"?6.5:5}" fill="${cols[j] || css("--f1")}" stroke="var(--paper)" stroke-width="1.5" data-t="${p}|${pp}|${r.r}|${r.lutning_per_100_bilar}|${r.bilar_ar}"/>`; }); });
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("circle[data-t]").forEach(c => { c.onmousemove = e => { const [p,pp,r,l,ba] = c.dataset.t.split("|"); showTip(e, `<b>${PNAMN[p]}, ${pp}</b><br>r = ${fmt(+r,2)}<br>${(+l>0?"+":"")+fmt(+l,2)} procentenheter per 100 fler bilar/1 000 inv.<br>Bilar: ${ba}`); }; c.onmouseleave = hideTip; });
+}
+function renderSkj(){
+  const T = D.test_skjutningar; if (!T) return;
+  const rad = T.filter(r => r.parti === parti && r.fran === 2018), el = $("c-skj");
+  if (!rad.length) { el.innerHTML = ""; return; }
+  const W = Math.max(el.clientWidth, 280), H = 280, m = {l:44, r:20, t:14, b:34};
+  const xs = rad.map(r=>r.skjutningar_per_100k_ar), ys = rad.map(r=>r.forandring);
+  const x0 = 0, x1 = Math.max(...xs)*1.15, y0 = Math.min(0, ...ys) - 0.5, y1 = Math.max(0, ...ys) + 0.5;
+  const X = v => m.l + (v-x0)/(x1-x0)*(W-m.l-m.r), Y = v => m.t + (1-(v-y0)/(y1-y0))*(H-m.t-m.b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Skjutningar och förändring per polisregion">`;
+  for (let v=Math.ceil(y0); v<=y1; v++) s += `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="${v===0?"var(--muted)":"var(--grid)"}"/><text x="${m.l-6}" y="${Y(v)+4}" text-anchor="end">${v>0?"+":""}${v}</text>`;
+  for (let v=0; v<=x1; v+=1) s += `<text x="${X(v)}" y="${H-16}" text-anchor="middle">${v}</text>`;
+  rad.forEach(r => s += `<circle cx="${X(r.skjutningar_per_100k_ar)}" cy="${Y(r.forandring)}" r="6.5" fill="${pc(parti)}" stroke="var(--paper)" stroke-width="2"/><text x="${X(r.skjutningar_per_100k_ar)+9}" y="${Y(r.forandring)+4}" style="fill:var(--ink2)">${r.polisregion}</text>`);
+  s += `<text x="${W-m.r}" y="${H-2}" text-anchor="end">Skjutningar per 100 000 inv. och år, okt 2018–aug 2022</text>`;
+  el.innerHTML = s + `</svg>`;
+  $("desc-skj").textContent = `Skjutningarna var koncentrerade till storstadsregionerna. Ökade ${PNAMN[parti]} mer där det sköts mer? Förändring 2018→2022 i procentenheter per polisregion (r = ${fmt(rad[0].r_over_regioner,2)} över sju regioner).`;
+}
+
+/* ---------- 9. NTU ---------- */
 function renderNTU(){
   const ind = $("sel-ntu").value, dim = $("sel-ntudim").value;
   const k = D.ntu[ind] && D.ntu[ind][dim], el = $("c-ntu");
@@ -653,6 +789,11 @@ function renderMetod(){
   <tr><td><code>valdeltagande_region</code></td><td>Röstberättigade och röstande per grupp i varje län och kommun 2018 och 2022 (register)</td></tr>
   <tr><td><code>dekomposition</code></td><td>Förändring uppdelad i sammansättning och beteende: riket (PSU), län och kommun</td></tr>
   <tr><td><code>valdistrikt_2026</code>, <code>valdistrikt_tiondel</code></td><td>Valdistrikt 2026 med strukturvariabler från DeSO, och partiernas stöd per tiondel</td></tr>
+  <tr><td><code>polisen_manad</code></td><td>Skjutningar (avlidna, skadade) och sprängningar per polisregion och månad, 2017–2026</td></tr>
+  <tr><td><code>kpi_manad</code></td><td>KPI per produktgrupp (el, drivmedel, livsmedel) med 12-månadersförändring</td></tr>
+  <tr><td><code>fraga_betydelse</code>, <code>fraga_rang_parti</code>, <code>bast_politik</code></td><td>Valu: frågornas betydelse 1998–2026, rangordning per parti, vilket parti som har bäst politik</td></tr>
+  <tr><td><code>som_samhallsproblem</code></td><td>SOM: viktigaste samhällsproblem 1987–2025</td></tr>
+  <tr><td><code>test_bilar</code>, <code>test_skjutningar</code></td><td>Regionala samband: bilinnehav per kommun respektive skjutningar per polisregion mot partiernas förändring</td></tr>
   <tr><td><code>kontroll</code>, <code>varningar</code></td><td>Kvalitetskontroller och tolkningsvarningar</td></tr></table></div>
   <p><b>Gruppstorlekar i PSU.</b> SCB publicerar partistöd inom varje grupp men inte gruppernas storlek. De skattas ur felmarginalerna: m = 1,96·√(p(1−p)/n) ger n per grupp. Eftersom felmarginalerna bygger på antalet svarande speglar de urvalets sammansättning, så vikterna kalibreras mot SCB:s register över röstande 2018 och 2022 (linjärt däremellan, konstant utanför). Med vikterna återskapas PSU:s totala partisiffror med i snitt 0,1–0,3 procentenheters fel.</p>
   <p><b>Skattning per län och kommun.</b> Urvalsundersökningarna är för små för län. Därför skattas partiernas sammansättning med iterativ proportionell anpassning (IPF): startvärdet är PSU:s nationella stöd per grupp gånger antalet röstande i gruppen i länet (SCB:s register), och tabellen justeras tills raderna stämmer med registrets röstande per grupp och kolumnerna med länets valresultat. På riksnivå återskapar metoden PSU:s profiler med under en procentenhets avvikelse. För 2026 finns ännu inga registeruppgifter om vilka som röstade; där används 2022 års sammansättning.</p>
@@ -666,7 +807,7 @@ function renderMetod(){
 
 /* ---------- init ---------- */
 function renderAll(){
-  renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderNTU();
+  renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderNTU();
 }
 (function init(){
   $("meta").textContent = `Uppdaterad ${D.skapad}. Källor: SCB, SVT/Valu, Valforskningsprogrammet (GU), Valmyndigheten, Brå.`;
@@ -708,8 +849,10 @@ function renderAll(){
     if (D.dekomp_utb_lan) { $("sel-dper").innerHTML = D.dekomp_utb_lan.per.slice().reverse().map(p=>`<option>${p}</option>`).join(""); $("sel-dper").onchange = renderDekomp; }
   }
   if (D.distrikt) { const di = Object.keys(D.distrikt.dec); $("sel-vdind").innerHTML = di.map(i=>`<option>${esc(i)}</option>`).join(""); if (di.includes("låg ekonomisk standard")) $("sel-vdind").value = "låg ekonomisk standard"; $("sel-vdind").onchange = renderDistrikt; }
+  if (D.bast_politik) { const sist = Object.keys(D.bast_politik).sort().slice(-1)[0]; const om = Object.keys(D.bast_politik[sist]);
+    $("sel-bast").innerHTML = om.map(o=>`<option>${esc(o)}</option>`).join(""); $("sel-bast").value = om.includes("Lag och ordning") ? "Lag och ordning" : om[0]; $("sel-bast").onchange = renderBast; }
   renderMetod(); renderAll();
-  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderNTU(); }, 150); });
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderNTU(); }, 150); });
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", renderAll);
   new MutationObserver(renderAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
 })();

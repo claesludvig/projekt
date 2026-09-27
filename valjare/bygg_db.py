@@ -30,6 +30,7 @@ import pandas as pd
 
 import region as reg
 import valdistrikt as vdm
+import fragor
 import tolka
 from tolka import partikod
 
@@ -100,6 +101,13 @@ KALLOR = [
     ("scb_deso", "Statistik per DeSO 2025 och DeSO-gränser", "SCB",
      "https://www.scb.se/vara-tjanster/oppna-data/oppna-geodata/oppna-geodata-for-deso---demografiska-statistikomraden/",
      "Befolkning efter bakgrund, födelseregion, ålder, utbildning, ekonomisk standard, upplåtelseform och sysselsättning i ca 6 000 områden."),
+    ("polisen", "Skjutningar och sprängningar per polisregion och månad", "Polismyndigheten",
+     "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+     "Bekräftade skjutningar (med avlidna och skadade) sedan 2017 och sprängningar (detonationer, försök, förberedelser) sedan 2018."),
+    ("som", "Svenska trender 1986–2025: viktigaste samhällsproblem", "SOM-institutet, Göteborgs universitet",
+     "https://www.gu.se/som-institutet", "Öppen fråga om vilka frågor eller samhällsproblem som är viktigast i Sverige, högst tre svar, 1987–2025."),
+    ("scb_kpi", "Konsumentprisindex efter produktgrupp", "SCB", "https://www.scb.se/pr0101",
+     "Månadsindex 1980–2025 för el, drivmedel, livsmedel m.fl."),
     ("bra_ntu", "Nationella trygghetsundersökningen (NTU), tabellsamling 2007–2025", "Brå",
      "https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen",
      "Utsatthet för brott, otrygghet, oro och förtroende för rättsväsendet per grupp."),
@@ -721,6 +729,44 @@ def webb_region(t: dict[str, pd.DataFrame]) -> dict:
             ar = sorted(d.ar.unique())
             ut["ntu_lan"][ind] = {"t": [int(a) for a in ar], "v": {
                 l: [_r(x) for x in dl.set_index("ar").andel.reindex(ar)] for l, dl in d.groupby("lansnamn")}}
+    # --- sakfrågor och verklighet
+    pol = t.get("polisen_manad", pd.DataFrame())
+    if not pol.empty:
+        tot = pol[pol.polisregion == "Totalt"]
+        ut["polisen_ar"] = {f"{typ}|{m}": {int(a): int(v) for a, v in d.groupby("ar").antal.sum().items()}
+                            for (typ, m), d in tot.groupby(["typ", "matt"])}
+        ut["polisen_manader"] = {f"{typ}|{m}": {int(a): int(d[d.ar == a].manad.nunique()) for a in d.ar.unique()}
+                                 for (typ, m), d in tot.groupby(["typ", "matt"])}
+    kpi = t.get("kpi_manad", pd.DataFrame())
+    if not kpi.empty:
+        k = kpi[kpi.ar >= 2010]
+        ut["kpi"] = {s: {"t": [f"{a}-{m:02d}" for a, m in zip(d.ar, d.manad)],
+                         "v": [_r(x) for x in d.forandring_12m], "grupp": d.produktgrupp.iloc[0]}
+                     for s, d in k.groupby("serie")}
+    fb = t.get("fraga_betydelse", pd.DataFrame())
+    if not fb.empty:
+        ar = sorted(fb.ar.unique())
+        ut["fraga_betydelse"] = {"t": [int(a) for a in ar], "v": {
+            f: [_r(x) for x in d.set_index("ar").andel.reindex(ar)] for f, d in fb.groupby("fraga")}}
+    fr = t.get("fraga_rang_parti", pd.DataFrame())
+    if not fr.empty:
+        ut["fraga_rang"] = {int(y): {f: {p: int(x) for p, x in zip(d.parti, d.rang)}
+                                     for f, d in dy.groupby("fraga")} for y, dy in fr.groupby("valar")}
+    bp = t.get("bast_politik", pd.DataFrame())
+    if not bp.empty:
+        ut["bast_politik"] = {int(y): {o: {p: _r(x) for p, x in zip(d.parti, d.andel)}
+                                       for o, d in dy.groupby("omrade")} for y, dy in bp.groupby("ar")}
+    sp = t.get("som_samhallsproblem", pd.DataFrame())
+    if not sp.empty:
+        ar = sorted(sp.ar.unique())
+        ut["som"] = {"t": [int(a) for a in ar], "v": {
+            o: [_r(x) for x in d.set_index("ar").andel.reindex(ar)] for o, d in sp.groupby("omrade")}}
+    tb = t.get("test_bilar", pd.DataFrame())
+    if not tb.empty:
+        ut["test_bilar"] = tb.round(3).to_dict("records")
+    ts = t.get("test_skjutningar", pd.DataFrame())
+    if not ts.empty:
+        ut["test_skjutningar"] = ts.round(3).to_dict("records")
     vt = t.get("valdistrikt_tiondel", pd.DataFrame())
     if not vt.empty:
         dist = t["valdistrikt_2026"]
@@ -777,6 +823,15 @@ def main():
         DATA_DIR / "geo" / "valdistrikt_deso.csv", SCB_DIR,
         next((KALL_DIR / "xlsx").glob("val_radata_2026__*rostfil*distrikt*.xlsx"), None))
     print(f"  {len(dist)} distrikt, {len(dist_tio)} tiondelsrader")
+    print("Sakfrågor och verklighet")
+    pol = fragor.polisen_manad(KALL_DIR)
+    kpi = fragor.kpi_manad(scb)
+    f_bet, f_rang, f_bast = fragor.valu_fragor(KALL_DIR)
+    som_p = fragor.som(KALL_DIR)
+    t_bil = fragor.test_bilar(scb, val)
+    t_skj = fragor.test_skjutningar(pol, val, scb)
+    print(f"  polisen {len(pol)}, kpi {len(kpi)}, valu-frågor {len(f_bet)}/{len(f_rang)}/{len(f_bast)}, "
+          f"som {len(som_p)}, test bilar {len(t_bil)}, test skjutningar {len(t_skj)}")
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -792,6 +847,9 @@ def main():
         "valdeltagande_grupp": reg_delt, "valdeltagande_region": rr,
         "valresultat_lan": val_lan, "lansindikator": ind_lan, "utsatthet_lan": ntu_lan,
         "partiprofil_region": profil_region, "dekomposition": dekomp,
+        "polisen_manad": pol, "kpi_manad": kpi, "fraga_betydelse": f_bet,
+        "fraga_rang_parti": f_rang, "bast_politik": f_bast, "som_samhallsproblem": som_p,
+        "test_bilar": t_bil, "test_skjutningar": t_skj,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
@@ -800,6 +858,9 @@ def main():
         DB.unlink()
     with sqlite3.connect(DB) as con:
         for namn, df in tabeller.items():
+            if df.shape[1] == 0:
+                print(f"  {namn}: tom, hoppas över")
+                continue
             df.to_sql(namn, con, index=False)
             df.to_csv(CSV_DIR / f"{namn}.csv", index=False)
             print(f"  {namn}: {len(df)} rader")

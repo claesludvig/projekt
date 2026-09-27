@@ -378,3 +378,53 @@ def som_samhallsproblem(txt: Path, kalla_id: str) -> pd.DataFrame:
             for a, x in zip(ar, v):
                 rader.append({"kalla": kalla_id, "ar": a, "omrade": m.group(1).strip(), "andel": float(x)})
     return pd.DataFrame(rader)
+
+
+# ---------- Polisen: skjutningar och sprängningar ----------
+
+MANAD = {m: i + 1 for i, m in enumerate(
+    ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti",
+     "september", "oktober", "november", "december"])}
+POLISREGIONER = ["Bergslagen", "Mitt", "Nord", "Stockholm", "Syd", "Väst", "Öst"]
+
+
+def polisen(txt: Path, kalla_id: str) -> pd.DataFrame:
+    """Antal per polisregion och månad. Mått: skjutningar, avlidna, skadade
+    respektive detonationer, försök, förberedelser (det som står i filen)."""
+    rader = []
+    for _, text in _sidor(txt):
+        titel = next((r for r in text if re.search(r"\d{1,2} \w+ \d{4} till", r)), None)
+        if not titel:
+            continue
+        m = re.search(r"\d{1,2} (\w+) (\d{4}) till", titel)
+        typ = "skjutningar" if titel.lower().startswith("skjut") else "sprängningar"
+        start_man, start_ar = MANAD.get(m.group(1).lower()), int(m.group(2))
+        matt = None
+        perioder = []
+        for r in text:
+            tok = r.split()
+            if not tok:
+                continue
+            if tok[0].lower() in MANAD and len(tok) >= 12:
+                ar, forra, perioder = start_ar, None, []
+                for t in tok:
+                    n = MANAD.get(t.lower())
+                    if n is None:
+                        continue
+                    if forra is not None and n < forra and start_man != 1:
+                        ar += 1   # rullande tolv månader; kalenderårsfiler har allt i samma år
+                    perioder.append((ar, n))
+                    forra = n
+                continue
+            if not re.search(r"\d", r) and len(tok) <= 3 and not r.startswith(("Kommentar", "Sedan")):
+                matt = r.strip().lower()
+                continue
+            if tok[0] in POLISREGIONER + ["Totalt"] and perioder and matt:
+                v = tok[1:]
+                if len(v) >= len(perioder):
+                    for (a, mn), x in zip(perioder, v):
+                        if re.fullmatch(r"\d+", x):
+                            rader.append({"kalla": kalla_id, "typ": typ, "matt": matt,
+                                          "polisregion": tok[0], "ar": a, "manad": mn,
+                                          "antal": int(x)})
+    return pd.DataFrame(rader)

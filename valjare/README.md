@@ -19,6 +19,12 @@ väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, 
 | SCB, valresultat | Riksdagsval per kommun | 1973–2022 |
 | Valmyndigheten | Preliminärt riksdagsval 2026 per kommun | 2026 |
 | SCB, befolkning/utbildning/inkomst | Utländsk bakgrund, utbildningsnivå, ekonomisk standard, valdeltagande per kommun | 1973– (varierar) |
+| Polismyndigheten | Skjutningar (avlidna, skadade) och sprängningar per polisregion och månad | 2017– / 2018– |
+| SOM-institutet, Svenska trender | Viktigaste samhällsproblem (öppen fråga) | 1987–2025 |
+| Valu | Frågornas betydelse för partivalet, rangordning per parti, bäst politik per område | 1998–2026 |
+| SCB, KPI per produktgrupp | El, bensin, diesel, räntekostnader | 1980–2025 |
+| SCB, personbilar | Bilar i trafik per kommun | 2015– |
+| Valmyndigheten + SCB DeSO | Valdistrikt 2026 med strukturvariabler | 2026 |
 | Brå, Nationella trygghetsundersökningen | Utsatthet för brott, otrygghet, oro, förtroende per grupp | 2006–2025 |
 
 ## Tabeller i `data/valjare.sqlite` (och `data/csv/`)
@@ -28,7 +34,12 @@ väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, 
 - `partiprofil` – andel av partiets väljare i varje grupp (`parti = 'ALLA'` = hela väljarkåren)
 - `valresultat_kommun`, `kommunindikator`, `kommunsamband`
 - `utsatthet`, `partiexponering`
-- `valdeltagande_grupp`
+- `valdeltagande_grupp`, `valdeltagande_region`
+- `valresultat_lan`, `lansindikator`, `utsatthet_lan`, `partiprofil_region` (IPF-skattning per län/kommun)
+- `dekomposition` (sammansättning mot beteende)
+- `valdistrikt_2026`, `valdistrikt_tiondel`, `valdistrikt_samband`
+- `polisen_manad`, `kpi_manad`, `fraga_betydelse`, `fraga_rang_parti`, `bast_politik`, `som_samhallsproblem`
+- `test_bilar`, `test_skjutningar`
 - `kalla`, `kontroll`, `varningar`
 
 Exempel:
