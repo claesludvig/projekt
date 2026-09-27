@@ -460,13 +460,14 @@ def hamta_kolada():
     pd.DataFrame(kat).to_csv(KAT_DIR / "kolada_katalog.csv", index=False)
     ut_dir = DATA_DIR / "kolada"
     ut_dir.mkdir(parents=True, exist_ok=True)
-    ar = [str(a) for a in range(2006, datetime.now().year + 1)]
     for kid, (fraga, namn, titel) in valda.items():
-        try:
-            v = _kolada_alla("data", {"kpi_id": kid, "year": ar})
-        except Exception as exc:  # noqa: BLE001
-            logg["fel"].append(f"kolada data {kid}: {exc}")
-            continue
+        # Ett år i taget: varje år ryms på en sida (ca 312 områden), så sidindelningen spelar ingen roll
+        v = []
+        for a in range(2006, datetime.now().year + 1):
+            try:
+                v += _kolada_alla("data", {"kpi_id": kid, "year": a})
+            except Exception as exc:  # noqa: BLE001
+                logg["fel"].append(f"kolada data {kid} {a}: {exc}")
         rader = []
         for rad in v:
             for x in rad.get("values", []):
