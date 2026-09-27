@@ -161,16 +161,16 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   <section id="s-brott">
     <span class="label">5 · Trygghet</span>
     <h2>Utsatthet och otrygghet i väljargrupperna</h2>
-    <p class="desc">Brå:s Nationella trygghetsundersökning (NTU). Till vänster: andel i gruppen. Till höger: vad partiets väljare kan förväntas ligga på enbart utifrån deras sammansättning på den valda indelningen, jämfört med hela väljarkåren.</p>
+    <p class="desc">Brå:s Nationella trygghetsundersökning (NTU) och SCB:s undersökning av levnadsförhållanden (ULF, måtten som börjar med "ULF:"). Till vänster: andel i gruppen. Till höger: vad partiets väljare kan förväntas ligga på enbart utifrån deras sammansättning på den valda indelningen, jämfört med hela väljarkåren.</p>
     <div class="controls">
       <label class="ctl">Mått <select id="sel-ntu"></select></label>
-      <label class="ctl">Indelning <select id="sel-ntudim"><option value="utbildning">Utbildning</option><option value="födelseland">Födelseland</option></select></label>
+      <label class="ctl">Indelning <select id="sel-ntudim"><option value="utbildning">Utbildning</option><option value="födelseland">Födelseland</option><option value="inkomst">Inkomst (kvintil, bara ULF)</option></select></label>
     </div>
     <div class="small" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))">
       <div><h3 id="h-ntu1">Andel i gruppen</h3><div class="chart" id="c-ntu"></div></div>
       <div><h3>Förväntad nivå bland partiets väljare</h3><div class="chart" id="c-expo"></div></div>
     </div>
-    <p class="note">Den högra bilden fångar bara skillnader som följer av sammansättningen, inte skillnader inom grupperna. Den är en indikation, inte en mätning av partiväljarna. Födelseland: inrikes födda jämförs med NTU:s grupp svenskfödda med minst en svenskfödd förälder.</p>
+    <p class="note">Den högra bilden fångar bara skillnader som följer av sammansättningen, inte skillnader inom grupperna. Den är en indikation, inte en mätning av partiväljarna. ULF har samma utbildnings-, inkomst- och födelselandsgrupper som PSU. För NTU jämförs inrikes födda med gruppen svenskfödda med minst en svenskfödd förälder, och de två eftergymnasiala nivåerna slås ihop.</p>
   </section>
 
   <section id="s-metod">
@@ -394,7 +394,7 @@ function renderNTU(){
     $("h-ntu1").textContent = `Andel i gruppen, ${ar}`;
     const tot = D.ntu[ind].samtliga ? D.ntu[ind].samtliga.v.alla[D.ntu[ind].samtliga.t.indexOf(ar)] : null;
     const rows = k.g.map((g,i) => [g, k.v.alla[ti][i]]).filter(r => r[1] != null);
-    if (tot && tot[0] != null) rows.push(["Samtliga 16–84 år", tot[0]]);
+    if (tot && tot[0] != null) rows.push([ind.startsWith("ULF") ? "Samtliga" : "Samtliga 16–84 år", tot[0]]);
     const W = Math.max(el.clientWidth, 260), lw = Math.min(170, W*0.46), rh = 30, H = rows.length*rh + 8;
     const hi = Math.max(...rows.map(r=>r[1]))*1.18;
     let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(ind)}">`;
@@ -402,7 +402,8 @@ function renderNTU(){
       s += `<text x="${lw-8}" y="${y+rh/2+2}" text-anchor="end" style="fill:var(--ink2)">${esc(g.length>24?g.slice(0,23)+"…":g)}</text><rect x="${lw}" y="${y+4}" width="${Math.max(w,1)}" height="${rh-12}" rx="3" fill="${last?css("--bar-alla"):css("--bar")}"/><text x="${lw+w+5}" y="${y+rh/2+2}" style="fill:var(--ink)">${fmt(v,1)}</text>`; });
     el.innerHTML = s + `</svg>`;
   }
-  const ek = D.exponering && D.exponering[`${ind}|${dim === "födelseland" ? "född i Sverige/utrikes" : "utbildning"}`];
+  const psuDim = {utbildning: "utbildning", födelseland: "född i Sverige/utrikes", inkomst: "inkomst (kvintil)"}[dim];
+  const ek = D.exponering && D.exponering[`${ind}|${psuDim}`];
   const ex = $("c-expo");
   if (!ek) { ex.innerHTML = `<p class="note">Ingen skattning för den här kombinationen.</p>`; return; }
   const ti = ek.t.length - 1, rows = [...P, "ALLA"].filter(p => ek.v[p] && ek.v[p][ti] != null).map(p => [p, ek.v[p][ti]]);
@@ -435,7 +436,7 @@ function renderMetod(){
   <tr><td><code>valresultat_kommun</code></td><td>Riksdagsval per kommun 1973–2026</td></tr>
   <tr><td><code>kommunindikator</code></td><td>Utbildning, utländsk bakgrund, ekonomisk standard, valdeltagande per kommun och år</td></tr>
   <tr><td><code>kommunsamband</code></td><td>Korrelation och lutning parti ↔ strukturvariabel över kommuner, per val</td></tr>
-  <tr><td><code>utsatthet</code></td><td>Brå NTU 2006–2025: utsatthet, otrygghet, oro, förtroende per grupp</td></tr>
+  <tr><td><code>utsatthet</code></td><td>Brå NTU 2006–2025 och SCB ULF 2008–2025: utsatthet, otrygghet, oro, förtroende per grupp</td></tr>
   <tr><td><code>partiexponering</code></td><td>Partiväljarnas förväntade utsatthet givet sammansättning</td></tr>
   <tr><td><code>valdeltagande_grupp</code></td><td>Röstberättigade och valdeltagande per grupp 2018 och 2022 (register)</td></tr>
   <tr><td><code>kontroll</code>, <code>varningar</code></td><td>Kvalitetskontroller och tolkningsvarningar</td></tr></table></div>
@@ -472,7 +473,8 @@ function renderAll(){
   $("sel-ind").value = inds.find(i => /≥3 år/.test(i)) || inds[0];
   $("sel-ind").onchange = renderKommun;
   const nts = Object.keys(D.ntu || {});
-  $("sel-ntu").innerHTML = nts.map(i => `<option>${esc(i)}</option>`).join("");
+  const ntuOpt = xs => xs.map(i => `<option>${esc(i)}</option>`).join("");
+  $("sel-ntu").innerHTML = `<optgroup label="Brå NTU">${ntuOpt(nts.filter(i => !i.startsWith("ULF")))}</optgroup><optgroup label="SCB ULF">${ntuOpt(nts.filter(i => i.startsWith("ULF")))}</optgroup>`;
   $("sel-ntu").value = nts.find(i => /enskild person/.test(i)) || nts[0];
   $("sel-ntu").onchange = renderNTU; $("sel-ntudim").onchange = renderNTU;
   renderMetod(); renderAll();

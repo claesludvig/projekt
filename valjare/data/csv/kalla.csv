@@ -6,4 +6,5 @@ scb_register_val,Valdeltagande i riksdagsval efter bakgrundsvariabler (ME0105),S
 scb_valresultat,"Riksdagsval, valresultat per kommun 1973–2022 (ME0104)",SCB,https://www.statistikdatabasen.scb.se/,Slutligt valresultat per kommun och parti.
 val_2026,Preliminärt valresultat riksdagsvalet 2026,Valmyndigheten,https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026,Vallokalernas preliminära rösträkning per kommun. Ersätts av slutligt resultat när det publiceras.
 scb_struktur,"Befolkning, utbildning, inkomst och ekonomisk standard per kommun",SCB,https://www.statistikdatabasen.scb.se/,"BE0101, UF0506, HE0110 m.fl."
+scb_ulf,"Undersökningarna av levnadsförhållanden (ULF/SILC), otrygghet",SCB,https://www.scb.se/ulf,"Utsatthet för hot och våld, oro och otrygghet per grupp, 2008–2025 (tvåårsperioder till 2019). Samma utbildnings-, inkomst- och födelselandsgrupper som PSU."
 bra_ntu,"Nationella trygghetsundersökningen (NTU), tabellsamling 2007–2025",Brå,https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen,"Utsatthet för brott, otrygghet, oro och förtroende för rättsväsendet per grupp."

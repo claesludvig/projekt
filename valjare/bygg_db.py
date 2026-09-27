@@ -89,6 +89,9 @@ KALLOR = [
      "Vallokalernas preliminära rösträkning per kommun. Ersätts av slutligt resultat när det publiceras."),
     ("scb_struktur", "Befolkning, utbildning, inkomst och ekonomisk standard per kommun", "SCB",
      "https://www.statistikdatabasen.scb.se/", "BE0101, UF0506, HE0110 m.fl."),
+    ("scb_ulf", "Undersökningarna av levnadsförhållanden (ULF/SILC), otrygghet", "SCB",
+     "https://www.scb.se/ulf", "Utsatthet för hot och våld, oro och otrygghet per grupp, 2008–2025 "
+     "(tvåårsperioder till 2019). Samma utbildnings-, inkomst- och födelselandsgrupper som PSU."),
     ("bra_ntu", "Nationella trygghetsundersökningen (NTU), tabellsamling 2007–2025", "Brå",
      "https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen",
      "Utsatthet för brott, otrygghet, oro och förtroende för rättsväsendet per grupp."),
@@ -393,7 +396,7 @@ def kommunindikatorer() -> pd.DataFrame:
         if df is not None:
             ucol = next(c for c in df.columns if c.startswith("Utbildn") and not c.endswith("_kod"))
             d = df.groupby(["Region_kod", "Tid", ucol]).varde.sum().unstack()
-            hog = [c for c in d.columns if "3 år eller mer" in c]
+            hog = [c for c in d.columns if "3 år eller mer" in c or c == "forskarutbildning"]
             d = (100 * d[hog].sum(axis=1) / d.sum(axis=1)).reset_index(name="v")
             lagg(d, d.Tid.astype(int), d.Region_kod, "eftergymnasial ≥3 år (16–74)", d.v, tab)
     for tab in ("TAB5956", "TAB6534"):   # utbildning 25–64/65
@@ -468,6 +471,45 @@ def utsatthet() -> pd.DataFrame:
     return df
 
 
+ULF_DIM = [(r"(?i)utbildning", "utbildning"), (r"kvintil", "inkomst"),
+           (r"^(Inrikes|Utrikes) född$", "födelseland"), (r"bakgrund", "bakgrund"),
+           (r"^\d.*år$", "ålder"), (r"^SE\d\d", "region"),
+           (r"storstad|mindre stad|glesbefolk", "boendeort"),
+           (r"^-? ?Arbete|Studier|Arbetslös|Pensionär", "sysselsättning"),
+           (r"arbetaryrke|tjänstemannayrke", "klass")]
+
+
+def ulf() -> pd.DataFrame:
+    """SCB:s ULF/SILC: utsatthet för hot och våld m.m. per grupp, 2008–."""
+    df = scb("TAB6089")
+    if df is None:
+        return pd.DataFrame()
+    df = df[df.Kon == "kvinnor och män"]
+    df["mått"] = df.ContentsCode.map({"Andel personer, procent": "andel",
+                                      "Felmarginal för andelen, procent": "felmarginal"})
+    w = df.dropna(subset=["mått"]).pivot_table(index=["Indikator", "Redovisningsgrupp", "Tid"],
+                                               columns="mått", values="varde").reset_index()
+    w["grupp"] = w.Redovisningsgrupp.str.replace(r"^- ", "", regex=True)
+    w["dimension"] = w.grupp.map(lambda g: "samtliga" if re.match(r"(?i)^(samtliga|totalt 16\+)", g)
+                                 else next((d for m, d in ULF_DIM if re.search(m, g)), "övrigt"))
+    return pd.DataFrame({"kalla": "scb_ulf", "tabell": "TAB6089",
+                         "indikator": "ULF: " + w.Indikator.str.strip(), "kon": "Samtliga",
+                         "dimension": w.dimension, "grupp": w.grupp,
+                         "ar": w.Tid.str[-4:].astype(int), "andel": w.andel,
+                         "felmarginal": w.felmarginal, "ej_jamforbar_bakat": False})
+
+
+ULF_KARTA = {
+    "utbildning": {"förgymnasial utbildning": "Förgymnasial utbildning",
+                   "gymnasial utbildning": "Gymnasial utbildning",
+                   "eftergymnasial utbildning mindre än 3 år": "Eftergymnasial utbildning, kortare än 3 år",
+                   "eftergymnasial utbildning 3 år eller mer": "Eftergymnasial utbildning, 3 år eller längre"},
+    "född i Sverige/utrikes": {"utrikes födda": "Utrikes född", "inrikes födda": "Inrikes född"},
+    "inkomst (kvintil)": {"0–20 %": "kvintil 1 (lägsta inkomsterna)", "21–40 %": "kvintil 2 (näst lägsta inkomsterna)",
+                          "41–60 %": "kvintil 3 (mellersta inkomsterna)", "61–80 %": "kvintil 4 (näst högsta inkomsterna)",
+                          "81–100 %": "kvintil 5 (högsta inkomsterna)"},
+}
+
 NTU_KARTA = {
     "utbildning": {"förgymnasial utbildning": "Förgymnasial", "gymnasial utbildning": "Gymnasial",
                    "eftergymnasial utbildning mindre än 3 år": "Eftergymnasial",
@@ -484,6 +526,13 @@ EXPONERING = [
 
 
 def partiexponering(profil: pd.DataFrame, ntu: pd.DataFrame) -> pd.DataFrame:
+    ntu_del = ntu[ntu.kalla == "bra_ntu"] if "kalla" in ntu else ntu
+    ulf_del = ntu[ntu.kalla == "scb_ulf"] if "kalla" in ntu else ntu.iloc[0:0]
+    return pd.concat([_exponering(profil, ntu_del, NTU_KARTA, EXPONERING),
+                      _exponering(profil, ulf_del, ULF_KARTA, None)], ignore_index=True)
+
+
+def _exponering(profil, ntu, kartor, indikatorer) -> pd.DataFrame:
     """Σ_g andel av partiets väljare i g × andel utsatta i g (NTU, samma år).
 
     Fångar bara den del av skillnaden som följer av partiväljarnas
@@ -491,8 +540,10 @@ def partiexponering(profil: pd.DataFrame, ntu: pd.DataFrame) -> pd.DataFrame:
     if ntu.empty or profil.empty:
         return pd.DataFrame()
     rader = []
-    n = ntu[(ntu.kon == "Samtliga") & ntu.indikator.isin(EXPONERING)]
-    for dim, karta in NTU_KARTA.items():
+    n = ntu[ntu.kon == "Samtliga"]
+    if indikatorer:
+        n = n[n.indikator.isin(indikatorer)]
+    for dim, karta in kartor.items():
         p = profil[(profil.dimension == dim) & profil.period.str.endswith("M05")].copy()
         p["ntu_grupp"] = p.grupp.map(karta)
         p = p.dropna(subset=["ntu_grupp"])
@@ -516,12 +567,25 @@ def partiexponering(profil: pd.DataFrame, ntu: pd.DataFrame) -> pd.DataFrame:
 
 # ---------- webbunderlag ----------
 
+ORDNING = [r"(?i)^förgymnasial", r"(?i)^gymnasial", r"(?i)^eftergymnasial.*(mindre|kortare) än 3",
+           r"(?i)^eftergymnasial.*3 år", r"(?i)^okänd|uppgift saknas|^övriga"]
+
+
+def _grupp_ordning(grupper: list[str]) -> list[str]:
+    """Utbildningsnivåer från låg till hög; övriga grupper i källans ordning."""
+    def nyckel(ig):
+        i, g = ig
+        rang = next((r for r, m in enumerate(ORDNING) if re.search(m, g)), None)
+        return (0, rang, i) if rang is not None and rang < 4 else (1 if rang is None else 2, 0, i)
+    return [g for _, g in sorted(enumerate(grupper), key=nyckel)]
+
+
 def _kub(df: pd.DataFrame, tid: str, varde: str = "andel") -> dict:
     """Kompakt form för webben: {dimension: {g: grupper, t: perioder,
     v: {parti: [[värde per grupp] per period]}}}."""
     ut = {}
     for dim, d in df.groupby("dimension", sort=False):
-        grupper = list(dict.fromkeys(d.grupp))
+        grupper = _grupp_ordning(list(dict.fromkeys(d.grupp)))
         tider = sorted(d[tid].unique())
         v = {}
         for parti, dp in d.groupby("parti"):
@@ -565,7 +629,7 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
             for (ind, dim), d in pe.groupby(["indikator", "dimension"])}
     nt = tabeller["utsatthet"]
     if not nt.empty:
-        n = nt[(nt.kon == "Samtliga") & nt.indikator.isin(EXPONERING)]
+        n = nt[(nt.kon == "Samtliga") & (nt.indikator.isin(EXPONERING) | (nt.kalla == "scb_ulf"))]
         ut["ntu"] = {ind: _kub(d.assign(parti="alla"), "ar") for ind, d in n.groupby("indikator")}
     kv = tabeller["kontroll"]
     ut["kontroll"] = kv[kv.kontroll == "psu_vikt_mot_register"].dropna(axis=1, how="all") \
@@ -591,7 +655,7 @@ def main():
     ind = kommunindikatorer()
     samband = kommunsamband(val, ind) if not ind.empty else pd.DataFrame()
     print("NTU")
-    ntu = utsatthet()
+    ntu = pd.concat([utsatthet(), ulf()], ignore_index=True)
 
     vikt_psu = kalibrera(vikt_psu, vikt_reg)
     partistod = pd.concat([stod_psu, stod_valu], ignore_index=True)
