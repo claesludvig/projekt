@@ -331,7 +331,9 @@ def ladda_ned(doc_id: str, url: str, typ: str, tvinga: bool = False) -> dict:
         if r.status_code != 200:
             post["status"] = f"HTTP {r.status_code}"
             return post
-        ext = Path(url.split("?")[0]).suffix.lower() or ".bin"
+        seg = next((x for x in reversed(url.split("?")[0].split("/"))
+                    if re.search(r"\.(pdf|xlsx?|zip|csv)$", x, re.I)), url.split("?")[0])
+        ext = Path(seg).suffix.lower() or ".bin"
         if "pdf" in r.headers.get("Content-Type", ""):
             ext = ".pdf"
         katalog = KALL_DIR / ext.lstrip(".")
@@ -369,16 +371,31 @@ def hamta_dokument(tvinga: bool = False):
         try:
             r = http("GET", s["url"])
             post["status"] = f"HTTP {r.status_code}"
-            hrefs = re.findall(r'href="([^"]+)"', r.text)
+            sidor = [(s["url"], r.text)]
+            # Följ undersidor (samma webbplats) vars adress matchar "folj"
+            if s.get("folj"):
+                for h in dict.fromkeys(re.findall(r'href="([^"#]+)"', r.text)):
+                    u = urljoin(s["url"], h.replace("&amp;", "&"))
+                    if re.search(s["folj"], u) and u.split("/")[2] == s["url"].split("/")[2] \
+                            and not re.search(r"\.(pdf|xlsx?|zip)", u, re.I) and u != s["url"]:
+                        try:
+                            sidor.append((u, http("GET", u).text))
+                        except Exception:  # noqa: BLE001
+                            pass
+                    if len(sidor) > 25:
+                        break
             lankar = []
-            for h in hrefs:
-                u = urljoin(s["url"], h.replace("&amp;", "&"))
-                if re.search(s["lank"], u) and u not in sedda:
-                    sedda.add(u)
-                    lankar.append(u)
+            for bas, html in sidor:
+                for h in re.findall(r'href="([^"]+)"', html):
+                    u = urljoin(bas, h.replace("&amp;", "&"))
+                    if re.search(s["lank"], u) and u not in sedda:
+                        sedda.add(u)
+                        lankar.append(u)
             for u in lankar[: s["max"]]:
-                namn = f"{s['id']}__{_slug(Path(u.split('?')[0]).stem)}"
-                post["lankar"].append(ladda_ned(namn, u, s["typ"], tvinga))
+                seg = next((x for x in reversed(u.split("?")[0].split("/"))
+                            if re.search(r"\.(pdf|xlsx?|zip|csv)$", x, re.I)), u.split("?")[0].split("/")[-1])
+                namn = f"{s['id']}__{_slug(Path(seg).stem)}"
+                post["lankar"].append(ladda_ned(namn, u, s["typ"], tvinga or s.get("alltid", False)))
         except Exception as exc:  # noqa: BLE001
             post["status"] = f"fel: {exc}"
         print(f"  {s['id']}: {post['status']}, {len(post['lankar'])} filer")
