@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T08:42:24.715193+00:00",
+ "start": "2026-09-28T08:59:45.290211+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -2137,7 +2137,20 @@
    "status": "HTTP 200"
   }
  ],
- "fel": [],
+ "fel": [
+  "riksdagen aggregera 2014/15: 'rost' (['2014/15', 'SfU2', '019135E3-6F23-4136-9252-3877406FB389', '6', 'Billström Tobias', '0956595590924', 'M', 'Malmö kommun', 'Ja', 'sakfrågan', '1', 'man', '1973', '2014-12-12'])",
+  "riksdagen aggregera 2015/16: 'rost' (['2015/16', 'JuU8', '0036EB69-7D72-4396-B47F-0FC83E09389F', '9', 'Magnus Manhammar', '025967059622', 'S', 'Blekinge län', 'Ja', 'sakfrågan', '14', 'man', '1980', '2015-11-18'])",
+  "riksdagen aggregera 2016/17: 'rost' (['2016/17', 'SoU10', '00ACAD6A-0CE9-4D33-9F5D-E7423A27AADB', '23', 'Solveig Zander', '0196077326617', 'C', 'Uppsala län', 'Avstår', 'sakfrågan', '29', 'kvinna', '1955', '2017-05-10'])",
+  "riksdagen aggregera 2017/18: 'rost' (['2017/18', 'MJU22', '002FB91D-64E8-4FE1-8F84-24F63B059387', '18', 'Agneta Gille', '0376867803913', 'S', 'Uppsala län', 'Ja', 'sakfrågan', '27', 'kvinna', '1956', '2018-06-20'])",
+  "riksdagen aggregera 2018/19: 'rost' (['2018/19', 'SfU11', '0069C0F4-729A-4970-96B0-56C306EC698C', '2', 'Adnan Dibrani', '0442629549320', 'S', 'Hallands län', 'Ja', 'sakfrågan', '40', 'man', '1985', '2018-11-21'])",
+  "riksdagen aggregera 2019/20: 'rost' (['2019/20', 'CU5', '0027A0A4-925A-4E95-9ECC-0D6EDFC4A5DD', '1', 'Solveig Zander', '0196077326617', 'C', 'Uppsala län', 'Ja', 'sakfrågan', '30', 'kvinna', '1955', '2019-11-28'])",
+  "riksdagen aggregera 2020/21: 'rost' (['2020/21', 'SoU34', '005072CF-DDB2-40B1-9243-A7E9B185F552', '2', 'Lotta Johnsson Fornarve', '0122987223112', 'V', 'Södermanlands län', 'Frånvarande', 'sakfrågan', '2.1', 'kvinna', '1956', '2021-05-05'])",
+  "riksdagen aggregera 2021/22: 'rost' (['2021/22', 'SfU20', '001DA5C6-DBC6-4895-9DC7-FF3D7941166C', '17', 'Barbro Westerholm', '0363228965800', 'L', 'Stockholms län', 'Ja', 'sakfrågan', '6', 'kvinna', '1933', '2022-04-28'])",
+  "riksdagen aggregera 2022/23: 'rost' (['2022/23', 'UU15', '008484EA-7970-4559-BEA7-E2F6454E7571', '5', 'Julia Kronlid', '0638497389621', 'SD', 'Stockholms län', 'Frånvarande', 'sakfrågan', '2', 'kvinna', '1980', '2023-05-10'])",
+  "riksdagen aggregera 2023/24: 'rost' (['2023/24', 'FöU7', '0005C5A0-9CD4-42BA-9C62-8FFF47BB688F', '4', 'Julia Kronlid', '0638497389621', 'SD', 'Stockholms län', 'Ja', 'sakfrågan', '2', 'kvinna', '1980', '2024-04-11'])",
+  "riksdagen aggregera 2024/25: 'rost' (['2024/25', 'SoU5', '00419725-4314-4903-BCB7-A9B056752B1B', '1', 'Mikael Damberg', '014744660015', 'S', 'Stockholms län', 'Ja', 'sakfrågan', '7', 'man', '1971', '2024-12-04'])",
+  "riksdagen aggregera 2025/26: 'rost' (['2025/26', 'JuU22', '00178723-112D-4742-8BE9-B606161A44DF', '2', 'Mikael Damberg', '014744660015', 'S', 'Stockholms län', 'Ja', 'sakfrågan', '7', 'man', '1971', '2026-01-28'])"
+ ],
  "kolada": [
   {
    "id": "N79222",
@@ -2265,5 +2278,5 @@
    "rader": 4257
   }
  ],
- "slut": "2026-09-28T08:57:36.141876+00:00"
+ "slut": "2026-09-28T10:35:13.840964+00:00"
 }
