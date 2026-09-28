@@ -85,3 +85,74 @@ CITAT = {
  'eunucker1945': "Vi nationalekonomer ha väl också politisk medborgarrätt och skola väl icke hänvisas till någon ställning att uteslutande vara experter, någon sorts politiska eunucker.",
  'politiker1970': "Inte mindre märkligt är att socialdemokraterna inte vill inse att politiker, som är utsedda på grundval av helt andra egenskaper än dem som krävs inom affärslivet, sannolikt löper stor risk att göra svåra misstag, när de skall bedöma förutsättningarna för en näringsgrens utveckling.",
 }
+
+# Citat ur källor utanför riksdagens protokoll (ohlin/ovriga). 'fil' är relativ till ohlin/ovriga.
+# typ: program = partidokument (kollektiva texter), nef = Nationalekonomiska föreningens förhandlingar,
+# motion = riksdagsmotion. OCR-texten i dessa källor är brusigare; se verifiera.py.
+NEF34 = ('nef/1934-11-20_planhushallning.txt', 'Nationalekonomiska föreningen, debatten om planhushållning', '1934-11-20',
+         'https://www.nationalekonomi.se/wp-content/uploads/2020/09/nf-1934.pdf')
+NEF46 = ('nef/1946-04-24_den-ekonomiska-utvecklingen-och-statsutgifterna.txt',
+         'Nationalekonomiska föreningen, debatt med finansminister Wigforss', '1946-04-24',
+         'https://www.nationalekonomi.se/wp-content/uploads/2020/09/nf-1946.pdf')
+P44 = ('partiprogram/fp_p_1944.txt', 'Folkpartiets program, antaget 11 juni 1944', '1944-06-11',
+       'https://snd.se/sv/vivill/party/fp/p/1944')
+P62 = ('partiprogram/fp_p_1962.txt', 'Folkpartiets program, antaget vid landsmötet i Göteborg 1962', '1962',
+       'https://snd.se/sv/vivill/party/fp/p/1962')
+V48 = ('partiprogram/fp_v_1948.txt', 'Folkpartiets valmanifest 1948', '1948', 'https://snd.se/sv/vivill/party/fp/v/1948')
+V56 = ('partiprogram/fp_v_1956.txt', 'Folkpartiets valmanifest 1956', '1956', 'https://snd.se/sv/vivill/party/fp/v/1956')
+
+
+def mot(dok, år, nr, rubrik, först=True):
+    vem = 'Motion av herr Ohlin m. fl.' if först else 'Motion som Ohlin skrev under'
+    return (f'motioner/{dok}.txt', f'{vem}, AK {år}:{nr}, {rubrik}', str(år),
+            f'https://data.riksdagen.se/dokument/{dok}.html')
+
+
+ÖVRIGA = {
+ # Nationalekonomiska föreningen
+ 'planhush1934': (NEF34, 'ordet planhushållning är olyckligt och mycket olyckligare än ordet rationalisering, ty all hushållning måste vara planhushållning.'),
+ 'organisation1934': (NEF34, 'Om man skall diskutera frågan om en dirigerad hushållning eller en hushållning, som är mera oberoende av central dirigering och i stället reglerad genom beslut av många olika små enheter, så torde det vara självklart, att det här gäller ett organisationsproblem, vars lösning i olika fall måste bero på de speciella förutsättningarna.'),
+ 'anpassning1934': (NEF34, 'Är det icke a priori sannolikt, om man anlägger en smula biologiska synpunkter på saken, att det kräves en fortskridande anpassning?'),
+ 'ramhush1934': (NEF34, 'Det offentliga försöker framför allt genom lagstiftning men också på andra vägar draga upp en ram, inom vilken sedan privata affärsmän och företag få lov att i stort sett sköta sig själva.'),
+ 'målsättning1934': (NEF34, 'Man måste ha politiska förutsättningar. Man måste ha en målsättning. Det finns ingen vetenskap i ett tomt rum på det sätt, som generaldirektör Örne föreställer sig.'),
+ 'kritstreck1946': (NEF46, 'Om man lägger budgeten på det sättet, att man med skatteinkomster skall finansiera allt det, som inte kan kallas indirekt produktivt, och sedan skall få låna till allt, som kan kallas indirekt produktivt, har man ju i praktiken en tämligen obegränsad rörelsefrihet. Jag tror därför, att det vore ganska viktigt att få några klara och enkla kritstreck uppdragna'),
+ 'binder1946': (NEF46, 'att man inte binder sig för flera utgifter i förväg än att det till nöds kan klaras inom ramen för en något mindre gynnsam inkomstutveckling.'),
+ # Partidokument
+ 'centralisering1944': (P44, 'Riksdagens ställning bör stärkas och den kommunala självstyrelsen bevaras. En långtgående centralisering i förvaltningen måste undvikas.'),
+ 'org1944': (P44, 'Självständigt verkande intresseorganisationer äro en värdefull del av det demokratiska samhället. De få dock icke tillåtas utöva obehörigt tvång mot enskilda medborgare. Tendenser att politiskt splittra folket i intressegrupper böra motarbetas.'),
+ 'behärskat1944': (P44, 'Ett av staten behärskat näringsliv skulle i längden bli en fara för den enskildes medborgerliga frihet.'),
+ 'fattigdom1944': (P44, 'Att avskaffa fattigdomen är ett av de stora målen för samhällsarbetet. Förutsättningen för framgång däri är att den enskildes ansträngningar fogas till samhällets åtgärder.'),
+ 'kommission1948': (V48, 'Regleringar och kommissionsvälde inskränka allvarligt den medborgerliga friheten och trivseln.'),
+ 'förmyndar1956': (V56, 'För var dag står det alltmera klart att vårt land behöver en ny politisk kurs som kännetecknas av mindre tvång och förmyndarskap och i stället ger större utrymme för frihet och självständighet samt uppmuntrar de skapande och produktiva krafterna i vårt samhälle.'),
+ 'kommando1962': (P62, 'Motsatsen är en samhällsordning, som undergräver dessa moraliska krafter och i växande utsträckning leder till att personligt ansvar och självdisciplin ersättes av kommandodisciplin, fruktan för straff och ytterst av våld och terror från de styrandes sida.'),
+ 'makt1962': (P62, 'Liberalismen vänder sig mot en koncentration av makten, statlig eller enskild, över kapitaltillgångarna och deras användning.'),
+ 'korporativt1962': (P62, 'Korporativt samhällsskick avvisas.'),
+ 'tjänstemannakår1962': (P62, 'Riksdagens ställning i förhållande till regeringen stärkes. Dess möjligheter till självständigt arbete förbättras genom att den ges en egen fristående tjänstemannakår.'),
+ 'minoritet1962': (P62, 'En minoritets rätt att vädja till folkviljan skyddas: Beslutande folkomröstning i särskilda frågor skall äga rum när i grundlag angivet antal av riksdagens ledamöter begär detta sedan riksdagen beslutat i sakfrågan.'),
+ 'råd1962': (P62, 'Statsmakterna tar initiativ till ett ekonomiskt-socialt råd avsett för ömsesidig information och rådplägning mellan representanter för regering och riksdag, kommunförbund, näringsorganisationer och löntagare samt experter.'),
+ 'affär1962': (P62, 'Samhället bör icke driva affärsverksamhet på områden som lika väl kan skötas av enskilda. I särskilda monopolsituationer eller då sociala skäl talar härför kan offentlig företagsamhet vara motiverad. När skälen för sådan offentlig verksamhet bortfaller bör den upphöra.'),
+ 'tillväxt1962': (P62, 'Den snabbare ekonomiska utveckling som genom en liberal politik uppnås ökar skatteunderlagets tillväxttakt. Härigenom skapas resurser för fortsatt reformarbete samtidigt som förutsättningar beredes för en sänkning av skattenivån.'),
+ # Motioner
+ 'folkomr1948': (mot('E92O245', 1948, 245, 'om fakultativ avgörande folkomröstning'), 'vilken är den bästa metoden att låta folkets önskemål och mening komma till uttryck och — alldeles särskilt — vilka åtgärder kunna vidtas för att trygga eller åtminstone främja överensstämmelse mellan folkviljan och representationens beslut?'),
+ 'folkomr1953': (mot('EE2O128', 1953, 128, 'om utbyggande av folkomröstningsinstitutet'), 'Det skulle göra folket mera aktivt än hittills i statsstyrelsen och därigenom öka medborgarnas intresse för allmänna angelägenheter samt skärpa deras direkta ansvar för det politiska skeendet. Det skulle föranleda regering och riksdag att mer än hittills fästa avseende vid skilda samhällsgruppers legitima synpunkter och därigenom verka i riktning mot utjämning och vidgad samverkan mellan olika intressen och partier.'),
+ 'enkammar1953': (mot('EE2O125', 1953, 125, 'om införande av enkammarsystem (första namn: von Friesen)', först=False), 'detta innebär att första kammarens medlemmar vid mandatperiodens slut representerar en 9—12 år gammal opinion'),
+ 'kommun1953': (mot('EE2O432', 1953, 432, 'om att minska den statliga kontrollen över kommunala organ'), 'Enligt vår uppfattning bör statens uppsikt utformas efter den principen, att kontrollen över kommunernas organ äger rum i efterhand och att den i första hand omfattar kontroll över att kommunernas organ icke missbrukar den makt, som tillagts dem.'),
+ 'rättsstat1954': (mot('EF2O175', 1954, 175, 'om skydd för medborgarna mot övergrepp och misstag från förvaltningens sida'), 'I ett land, som gör anspråk på benämningen rättsstat, ankommer det regelmässigt på domstol att klargöra innebörden av gällande rätt i detta som i andra avseenden.'),
+ 'åklagare1954': (mot('EF2O309', 1954, 309, 'om stärkande av förvaltningsmyndigheternas opartiska ställning'), 'Myndigheten är — för att bruka ett från straffprocessen hämtat ofta använt uttryckssätt på en gång domare och åklagare.'),
+ 'grundlag1958': (mot('EJ2W218', 1958, 218, 'om grundlagsskydd för grundläggande rättsprinciper'), 'Det vore väl knappast hedrande och i varje fall otillfredsställande, om svenska medborgare skulle nödgas vädja till ett internationellt forum därför att vår egen rättsordning alltför lätt kan ändras i strid med våra internationella åtaganden.'),
+}
+
+
+# Exakt OCR-råtext (med blanktecken sammanslagna) bakom citaten ur de brusigaste källorna.
+# Råtexten måste finnas ordagrant i källfilen, och citatet får bara skilja sig från den genom små
+# rättelser inom ord (se verifiera.py). Råtexten visas också på sidan.
+RÅTEXT = {
+ 'planhush1934': "·ordet plan!hushållning är olyckligt och m·ycket olyckligare än oI'!det rationaliserin.g, ty a.ll hushållninig ·måste v.ara plan·hushållning.",
+ 'organisation1934': "O;m man skall diskutera fr;ågan· om en dirtger;ad hushållnin·g eller en hush.ållning, !som är meraoheroende -av central dirigering och i stället reglerad genom beslut av mån.ga olika. sID·å enheter, så torde det vara självklart, .altt det här gäller ett organ1sa- tionsp,roblem, var,S' lösning i olika fiall måste hero på d:e speciella fÖ'rut- sättningarna.",
+ 'anpassning1934': "Är det icke a priori s-annolikt, 'O'ID man' anlä,gger -en' smula biolo- giska Isynpunkter p'å 'saken', att det kräves en fortskridande anp,as,snin,g~",
+ 'ramhush1934': "Det oii'enilig,a för- söker f:r.amfö·r allt ;genoID lagstiftning men också på -andra vägar draga upp en ram, inom vilken seda.n priva,ta a.ffäIismän oO'h fö,retag få l'ov att i Istort sett sköta sig lsjälva.",
+ 'målsättning1934': "Man måste ha politi- ska förutsättningar. Man måste ha en målsätt.ning. Det finns in'gen .vetenskap i ett tomt tum på det sätt, som generaldirektör Örne före- ställer ~sig.",
+ 'kritstreck1946': "Om man lagger budgeten pa det sattet, att man med skatteinkomster skall finansiera alIt det, som inte kan kallas indirekt produktivt, oeh sedan skall fa lana till alIt, som kan ka.llas indirekt produktivt, har man ju i praktiken en tamligen obegransad rorelsefrihet. Jag tror darfor, att det yore ganska viktigt att fa nagra klara och enkla kritstreck uppdragna",
+ 'binder1946': "att man inte binder sig for flera utgifter i forvag an att det till nads kan klaras inom ramen for en nagot mindre gynnsam inkomstutveckling.",
+ 'kommission1948': "Regleringar och kommissionsvälde inskränka allvarligt den medborgerlig n friheten och trivseln.",
+}

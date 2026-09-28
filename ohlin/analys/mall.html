@@ -41,6 +41,10 @@ figure.q::before{content:"»";position:absolute;left:0;top:-4px;font:600 30px/1 
 blockquote{margin:0;font:400 18.5px/1.55 var(--serif)}
 figcaption{display:flex;flex-wrap:wrap;gap:4px 14px;font:13px/1.4 var(--sans);color:var(--muted);font-variant-numeric:tabular-nums}
 figcaption a{color:var(--accent)}
+figure.q.ovr::before{color:var(--muted)}
+details{flex-basis:100%;font:13px/1.5 var(--sans);color:var(--muted)}
+details summary{cursor:pointer;color:var(--accent);width:max-content}
+details p{margin:6px 0 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;overflow-wrap:anywhere}
 ol.faser{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
 ol.faser li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
 @media (max-width:520px){ol.faser li{grid-template-columns:minmax(0,1fr);gap:4px}}
@@ -60,8 +64,8 @@ footer{font:14px/1.6 var(--sans);color:var(--muted);border-top:1px solid var(--r
   <header>
     <span class="eyebrow">Riksdagens protokoll 1938–1970</span>
     <h1>Ohlin om staten och politiken</h1>
-    <p class="lede">Vad Bertil Ohlin sade i riksdagen om statens roll, om folkpartiet och om hur politik ska organiseras och styras. Här framgår också vad han ansåg krävs för att en politisk förändring ska gå igenom.</p>
-    <p class="meta">Underlaget är Ohlins egna inlägg i första och andra kammaren. Ett fyrtiotal principiella anföranden har lästs i sin helhet, bland dem remissdebatter, allmänpolitiska debatter och författningsdebatter. Övriga inlägg har gåtts igenom med riktade sökningar. Alla {{ANTAL}} citat är kontrollerade mot protokolltexten. Hela materialet går att söka i <a href="{{REGISTER}}" target="_blank" rel="noopener">registret Ohlin i kammaren</a>.</p>
+    <p class="lede">Vad Bertil Ohlin sade och skrev om statens roll, om folkpartiet och om hur politik ska organiseras och styras. Här framgår också vad han ansåg krävs för att en politisk förändring ska gå igenom.</p>
+    <p class="meta">Huvudkällan är Ohlins egna inlägg i första och andra kammaren 1938–1970. Ett fyrtiotal principiella anföranden har lästs i sin helhet, och övriga inlägg har gåtts igenom med riktade sökningar. Till det kommer Nationalekonomiska föreningens förhandlingar 1934 och 1946, folkpartiets program 1944 och 1962 och valmanifest, samt motioner som Ohlin skrev under. Alla {{ANTAL}} citat är kontrollerade mot källtexten, {{ANTAL_PROT}} ur protokollen och {{ANTAL_OVR}} ur övriga källor. Protokollen går att söka i <a href="{{REGISTER}}" target="_blank" rel="noopener">registret Ohlin i kammaren</a>.</p>
   </header>
 
   <section class="summary" id="sammanfattning">
@@ -79,7 +83,8 @@ footer{font:14px/1.6 var(--sans);color:var(--muted);border-top:1px solid var(--r
 
   <footer>
     <span>Citaten återges ordagrant ur riksdagens OCR-tolkade protokoll. Uppenbara läsfel är rättade, till exempel ”örn” till ”om” och ”eu” till ”en”. Äldre stavning som ”äro” och ”skola” är kvar. Citera från det tryckta protokollet, som länkas vid varje citat.</span>
-    <span>Tolkningen bygger bara på riksdagsinläggen, som är debattinlägg i en partipolitisk strid. Ohlins böcker, tidningsartiklar och memoarer ger en fylligare bild och är inte med här.</span>
+    <span>Källorna är av olika slag. Riksdagsinläggen och föreningsdebatterna är Ohlins egna ord. Motionerna skrev han under, oftast som första namn, men texterna kan ha formulerats av andra i partiet. Partiprogrammen och valmanifesten är kollektiva texter som antogs under hans ledning. Föreningens förhandlingar är OCR-tolkade med många läsfel. För de citaten visas OCR-texten, och citatet skiljer sig från den bara genom rättelser inom enskilda ord.</span>
+    <span>Ohlins böcker, tidningsartiklar och memoarer är upphovsrättsligt skyddade och inte med här. Radiointervjuerna från 1975 om partiledartiden (Sveriges Radio) går inte att hämta härifrån.</span>
   </footer>
 </main>
 <nav class="toc" aria-label="Innehåll">

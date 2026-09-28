@@ -25,7 +25,7 @@ python3 -m http.server  # öppna sedan http://localhost:8000/index.html
 författningen och villkoren för politisk förändring (`analys/staten.html`).
 
 ```
-python3 analys/verifiera.py    # kontrollerar att varje citat i analys/citat.py finns i inläggen
+python3 analys/verifiera.py    # kontrollerar varje citat i analys/citat.py mot inläggen och ovriga/-källorna
 python3 analys/bygg_analys.py  # bygger analys/staten.html (avbryter om något citat saknas)
 ```
 
