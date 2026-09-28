@@ -18,7 +18,7 @@ PARTI_WIKI = {
     "SD": ["sv:Sverigedemokraterna", "en:Sweden Democrats"],
     "C": ["sv:Centerpartiet", "en:Centre Party (Sweden)"],
     "V": ["sv:Vänsterpartiet", "en:Left Party (Sweden)"],
-    "KD": ["sv:Kristdemokraterna", "sv:Kristdemokraterna (Sverige)", "en:Christian Democrats (Sweden)"],
+    "KD": ["sv:Kristdemokraterna (Sverige)", "sv:Kristdemokraterna", "en:Christian Democrats (Sweden)"],
     "L": ["sv:Liberalerna", "en:Liberals (Sweden)"],
     "MP": ["sv:Miljöpartiet de gröna", "en:Green Party (Sweden)"],
 }
@@ -39,7 +39,6 @@ FLODEN = [
     ("SvD", "https://www.svd.se/feed/articles.rss"),
     ("Aftonbladet", "https://rss.aftonbladet.se/rss2/small/pages/sections/senastenytt/"),
     ("Expressen", "https://feeds.expressen.se/nyheter/"),
-    ("Omni", "https://omni.se/rss"),
 ]
 GOOGLE_NYHETER = "https://news.google.com/rss/search?q=%22{q}%22&hl=sv&gl=SE&ceid=SE:sv"
 GOOGLE_SOK = {"S": "Socialdemokraterna", "M": "Moderaterna", "SD": "Sverigedemokraterna",

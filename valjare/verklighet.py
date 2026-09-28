@@ -138,7 +138,7 @@ def scb_serier(scb, katalog: pd.DataFrame, varningar: list) -> pd.DataFrame:
                 s_ = 100 * p[tal] / p[nam].sum(axis=1)
             else:
                 s_ = df.groupby("Tid").varde.sum()
-            s_ = s_.dropna()
+            s_ = s_.dropna() * post.get("skala", 1)
             s_ = s_[[(_tid(t) is not None) for t in s_.index]]
             if bast is None or len(s_) > len(bast[1]):
                 bast = (t, s_, cc[0])

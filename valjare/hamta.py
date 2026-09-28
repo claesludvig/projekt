@@ -507,6 +507,8 @@ def _kolada_data(kid: str, fraga: str, namn: str, titel: str, ut_dir: Path, fran
     if len(gammal) and "ar" in gammal:
         gammal = gammal[pd.to_numeric(gammal.ar, errors="coerce") < fran]
         df = pd.concat([gammal, df], ignore_index=True)
+    if len(df):   # namn och fråga kan ha ändrats i katalogen sedan förra hämtningen
+        df = df.assign(titel=titel, fraga=fraga, namn=namn)
     df.to_csv(fil, index=False, compression={"method": "gzip", "mtime": 0})
     logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(df)})
     print(f"  {kid} {namn}: {len(df)} rader")
@@ -534,7 +536,10 @@ def hamta_kolada_bred():
     val, ut_dir = [], DATA_DIR / "kolada"
     ut_dir.mkdir(parents=True, exist_ok=True)
     for fraga, namn, monster, utesluta in KOLADA_BRED:
-        k = kat[kat.titel.fillna("").str.contains(monster, regex=True)]
+        if monster.startswith("id:"):
+            k = kat[kat.id == monster[3:]]
+        else:
+            k = kat[kat.titel.fillna("").str.contains(monster, regex=True)]
         if utesluta:
             k = k[~k.titel.str.contains(utesluta, regex=True)]
         if k.empty:
@@ -595,10 +600,18 @@ def hamta_eurostat():
     ut_dir = DATA_DIR / "eurostat"
     ut_dir.mkdir(parents=True, exist_ok=True)
     for sid, ds, filt, namn, _ in EUROSTAT:
-        par = [("format", "JSON"), ("lang", "en"), ("sinceTimePeriod", "2000")]
-        par += [("geo", g) for g in LANDER] + list(filt.items())
+        filt = dict(filt)
         try:
-            r = http("GET", f"{EUROSTAT_API}/{ds}", params=par)
+            for _ in range(len(filt) + 1):
+                par = [("format", "JSON"), ("lang", "en"), ("sinceTimePeriod", "2000")]
+                par += [("geo", g) for g in LANDER] + list(filt.items())
+                r = http("GET", f"{EUROSTAT_API}/{ds}", params=par)
+                # Dimension som inte finns (Eurostat byter ibland struktur): släpp filtret och försök igen
+                m = re.search(r'Dimension \\?"(\w+)\\?" is not defined', r.text) if r.status_code == 400 else None
+                if not m or m[1].lower() not in filt:
+                    break
+                logg["fel"].append(f"eurostat {sid}: dimensionen {m[1].lower()} finns inte, släpptes")
+                filt.pop(m[1].lower())
             if r.status_code != 200:
                 raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
             df = jsonstat_till_df(r.json()).dropna(subset=["varde"])
@@ -683,15 +696,21 @@ def hamta_wikidata():
     rader, objekt = [], []
     for parti, sidor in PARTI_WIKI.items():
         try:
-            qid = next((q for q in (_wd_hitta(x) for x in sidor) if q), None)
+            # Första artikeln som leder till ett svenskt objekt (sv:Kristdemokraterna är en förgreningssida)
+            qid, ent, sedda = None, None, []
+            for sida in sidor:
+                q = _wd_hitta(sida)
+                if not q or q in sedda:
+                    continue
+                sedda.append(q)
+                e = _wd_entitet(q)
+                land = [c["mainsnak"].get("datavalue", {}).get("value", {}).get("id")
+                        for c in e.get("claims", {}).get("P17", [])]
+                if "Q34" in land:   # Sverige
+                    qid, ent = q, e
+                    break
             if not qid:
-                logg["fel"].append(f"wikidata {parti}: hittade inget objekt")
-                continue
-            ent = _wd_entitet(qid)
-            land = [c["mainsnak"].get("datavalue", {}).get("value", {}).get("id")
-                    for c in ent.get("claims", {}).get("P17", [])]
-            if "Q34" not in land:   # Sverige
-                logg["fel"].append(f"wikidata {parti}: {qid} är inte ett svenskt objekt ({land})")
+                logg["fel"].append(f"wikidata {parti}: inget svenskt objekt bland {sedda or sidor}")
                 continue
             objekt.append({"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent)})
             rader += [{"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent), **f}

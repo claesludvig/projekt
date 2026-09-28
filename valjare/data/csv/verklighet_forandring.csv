@@ -23,13 +23,13 @@ bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2010,2014,19500
 bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2014,2018,29164.0,54876.0,25712.0,88.16348923330133,,,,,,,,,34.0,32.0,4.0,5.0
 bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2018,2022,54876.0,54018.0,-858.0,-1.5635250382680954,,,,,,,,,32.0,,5.0,2.0
 bostad,Bostadsfrågan,Färdigställda lägenheter i nybyggda hus,2022,2026,54018.0,31359.0,-22659.0,-41.947128734866155,,,,,,,,,,,2.0,1.0
-bostad,Bostadsfrågan,Trångbodda (%),2014,2018,17.289482,18.455299,1.1658170000000005,6.742926132778302,,,,,,,,,34.0,32.0,4.0,5.0
-bostad,Bostadsfrågan,Trångbodda (%),2018,2022,18.455299,16.591841,-1.8634580000000014,-10.097143373293498,,,,,,,,,32.0,,5.0,2.0
-bostad,Bostadsfrågan,Trångbodda (%),2022,2026,16.591841,15.091361,-1.5004799999999996,-9.043481070003018,,,,,,,,,,,2.0,1.0
-demokrati,,Valdeltagande i kommunval (%),2010,2014,83.1,84.0,0.9000000000000057,1.0830324909747362,,,,,,,,,,,,
-demokrati,,Valdeltagande i kommunval (%),2014,2018,84.0,84.2,0.20000000000000284,0.23809523809524147,,,,,,,,,,,,
-demokrati,,Valdeltagande i kommunval (%),2018,2022,84.2,80.8,-3.4000000000000057,-4.038004750593831,,,,,,,,,,,,
-demokrati,,Valdeltagande i kommunval (%),2022,2026,80.8,80.8,0.0,0.0,,,,,,,,,,,,
+bostad,Bostadsfrågan,"Trångbodda i flerbostadshus, norm 2 (%)",2014,2018,17.289482,18.455299,1.1658170000000005,6.742926132778302,,,,,,,,,34.0,32.0,4.0,5.0
+bostad,Bostadsfrågan,"Trångbodda i flerbostadshus, norm 2 (%)",2018,2022,18.455299,16.591841,-1.8634580000000014,-10.097143373293498,,,,,,,,,32.0,,5.0,2.0
+bostad,Bostadsfrågan,"Trångbodda i flerbostadshus, norm 2 (%)",2022,2026,16.591841,15.091361,-1.5004799999999996,-9.043481070003018,,,,,,,,,,,2.0,1.0
+demokrati,,Valdeltagande i minst ett av de allmänna valen (%),2010,2014,83.1,84.0,0.9000000000000057,1.0830324909747362,,,,,,,,,,,,
+demokrati,,Valdeltagande i minst ett av de allmänna valen (%),2014,2018,84.0,84.2,0.20000000000000284,0.23809523809524147,,,,,,,,,,,,
+demokrati,,Valdeltagande i minst ett av de allmänna valen (%),2018,2022,84.2,80.8,-3.4000000000000057,-4.038004750593831,,,,,,,,,,,,
+demokrati,,Valdeltagande i minst ett av de allmänna valen (%),2022,2026,80.8,80.8,0.0,0.0,,,,,,,,,,,,
 egen_ekonomi,Din egen ekonomi,"Bensinpris (KPI, 1980=100)",2010,2014,134.53083333333333,148.28583333333336,13.755000000000024,10.224421910714414,,,,,,,,,42.0,40.0,14.0,7.0
 egen_ekonomi,Din egen ekonomi,"Bensinpris (KPI, 1980=100)",2014,2018,148.28583333333336,159.57083333333333,11.284999999999968,7.6103021754157005,,,,,,,,,40.0,35.0,7.0,4.0
 egen_ekonomi,Din egen ekonomi,"Bensinpris (KPI, 1980=100)",2018,2022,159.57083333333333,217.31750000000002,57.7466666666667,36.18873541008436,,,,,,,,,35.0,36.0,4.0,4.0
@@ -51,10 +51,10 @@ egen_ekonomi,Din egen ekonomi,Styrräntan (%),2022,2026,0.7543740981240982,1.75,
 ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2010,2014,5.8,2.3,-3.5,-60.3448275862069,,,,,,,,,54.0,54.0,14.0,7.0
 ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2014,2018,2.3,1.8,-0.4999999999999998,-21.739130434782602,,,,,,,,,54.0,45.0,7.0,4.0
 ekonomi,Svenska ekonomin,"BNP, volymförändring (%)",2018,2022,1.8,1.3,-0.5,-27.77777777777778,,,,,,,,,45.0,44.0,4.0,4.0
-ekonomi,Svenska ekonomin,Kommunens resultat (% av skatt och bidrag),2010,2014,1442.049499,1073.55975,-368.4897490000001,-25.55319697801858,,,,,,,,,54.0,54.0,14.0,7.0
-ekonomi,Svenska ekonomin,Kommunens resultat (% av skatt och bidrag),2014,2018,1073.55975,1376.724468,303.164718,28.239203081151285,,,,,,,,,54.0,45.0,7.0,4.0
-ekonomi,Svenska ekonomin,Kommunens resultat (% av skatt och bidrag),2018,2022,1376.724468,3231.32396,1854.5994920000003,134.71101408506385,,,,,,,,,45.0,44.0,4.0,4.0
-ekonomi,Svenska ekonomin,Kommunens resultat (% av skatt och bidrag),2022,2026,3231.32396,3326.641887,95.31792700000005,2.949810300048035,,,,,,,,,44.0,48.0,4.0,11.0
+ekonomi,Svenska ekonomin,Kommunens resultat före extraordinära poster (kr/inv),2010,2014,1442.049499,1073.55975,-368.4897490000001,-25.55319697801858,,,,,,,,,54.0,54.0,14.0,7.0
+ekonomi,Svenska ekonomin,Kommunens resultat före extraordinära poster (kr/inv),2014,2018,1073.55975,1376.724468,303.164718,28.239203081151285,,,,,,,,,54.0,45.0,7.0,4.0
+ekonomi,Svenska ekonomin,Kommunens resultat före extraordinära poster (kr/inv),2018,2022,1376.724468,3231.32396,1854.5994920000003,134.71101408506385,,,,,,,,,45.0,44.0,4.0,4.0
+ekonomi,Svenska ekonomin,Kommunens resultat före extraordinära poster (kr/inv),2022,2026,3231.32396,3326.641887,95.31792700000005,2.949810300048035,,,,,,,,,44.0,48.0,4.0,11.0
 ekonomi,Svenska ekonomin,Soliditet inkl. pensionsförpliktelser (%),2010,2014,21.162113,20.594923,-0.5671900000000001,-2.6802144001404775,,,,,,,,,54.0,54.0,14.0,7.0
 ekonomi,Svenska ekonomin,Soliditet inkl. pensionsförpliktelser (%),2014,2018,20.594923,25.981564,5.386640999999997,26.155188829790706,,,,,,,,,54.0,45.0,7.0,4.0
 ekonomi,Svenska ekonomin,Soliditet inkl. pensionsförpliktelser (%),2018,2022,25.981564,31.892533,5.9109690000000015,22.75062809921682,,,,,,,,,45.0,44.0,4.0,4.0
@@ -104,15 +104,18 @@ jobb,Sysselsättning,"Sysselsättningsgrad 15–74 år (AKU, %)",2010,2014,64.2,
 jobb,Sysselsättning,"Sysselsättningsgrad 15–74 år (AKU, %)",2014,2018,66.0,68.1,2.0999999999999943,3.181818181818173,mot målet,,,hogre,,,Den ekonomiska politikens mål om hög och varaktig sysselsättning (budgetpropositionen),,51.0,37.0,33.0,9.0
 jobb,Sysselsättning,"Sysselsättningsgrad 15–74 år (AKU, %)",2018,2022,68.1,68.8,0.7000000000000028,1.0279001468428823,mot målet,,,hogre,,,Den ekonomiska politikens mål om hög och varaktig sysselsättning (budgetpropositionen),,37.0,31.0,9.0,6.0
 jobb,Sysselsättning,"Sysselsättningsgrad 15–74 år (AKU, %)",2022,2026,68.8,69.0,0.20000000000000284,0.2906976744186088,mot målet,,,hogre,,,Den ekonomiska politikens mål om hög och varaktig sysselsättning (budgetpropositionen),,31.0,35.0,6.0,7.0
-jobb,Sysselsättning,Unga 20–24 år som varken arbetar eller studerar (%),2010,2014,7.645266,7.463128,-0.18213800000000013,-2.382363151262495,,,,,,,,,54.0,51.0,38.0,33.0
-jobb,Sysselsättning,Unga 20–24 år som varken arbetar eller studerar (%),2014,2018,7.463128,6.53046,-0.9326680000000005,-12.497011976747558,,,,,,,,,51.0,37.0,33.0,9.0
-jobb,Sysselsättning,Unga 20–24 år som varken arbetar eller studerar (%),2018,2022,6.53046,5.495595,-1.034865,-15.84673973962018,,,,,,,,,37.0,31.0,9.0,6.0
-jobb,Sysselsättning,Öppet arbetslösa och i program 18–24 år (%),2010,2014,4.802971,3.765788,-1.0371830000000002,-21.594613000994595,,,,,,,,,54.0,51.0,38.0,33.0
-jobb,Sysselsättning,Öppet arbetslösa och i program 18–24 år (%),2014,2018,3.765788,2.621164,-1.1446240000000003,-30.39533823996466,,,,,,,,,51.0,37.0,33.0,9.0
-jobb,Sysselsättning,Öppet arbetslösa och i program 18–24 år (%),2018,2022,2.621164,2.165743,-0.45542099999999985,-17.374761747071144,,,,,,,,,37.0,31.0,9.0,6.0
-jobb,Sysselsättning,Öppet arbetslösa och i program 18–24 år (%),2022,2026,2.165743,2.780352,0.6146090000000002,28.37866727492598,,,,,,,,,31.0,35.0,6.0,7.0
+jobb,Sysselsättning,Unga 16–24 år som varken arbetar eller studerar (%),2010,2014,7.645266,7.463128,-0.18213800000000013,-2.382363151262495,,,,,,,,,54.0,51.0,38.0,33.0
+jobb,Sysselsättning,Unga 16–24 år som varken arbetar eller studerar (%),2014,2018,7.463128,6.53046,-0.9326680000000005,-12.497011976747558,,,,,,,,,51.0,37.0,33.0,9.0
+jobb,Sysselsättning,Unga 16–24 år som varken arbetar eller studerar (%),2018,2022,6.53046,5.495595,-1.034865,-15.84673973962018,,,,,,,,,37.0,31.0,9.0,6.0
+jobb,Sysselsättning,"Öppet arbetslösa 18–24 år, av befolkningen (%)",2010,2014,4.802971,3.765788,-1.0371830000000002,-21.594613000994595,,,,,,,,,54.0,51.0,38.0,33.0
+jobb,Sysselsättning,"Öppet arbetslösa 18–24 år, av befolkningen (%)",2014,2018,3.765788,2.621164,-1.1446240000000003,-30.39533823996466,,,,,,,,,51.0,37.0,33.0,9.0
+jobb,Sysselsättning,"Öppet arbetslösa 18–24 år, av befolkningen (%)",2018,2022,2.621164,2.165743,-0.45542099999999985,-17.374761747071144,,,,,,,,,37.0,31.0,9.0,6.0
+jobb,Sysselsättning,"Öppet arbetslösa 18–24 år, av befolkningen (%)",2022,2026,2.165743,2.780352,0.6146090000000002,28.37866727492598,,,,,,,,,31.0,35.0,6.0,7.0
 klimat,Klimatfrågan,Växthusgasutsläpp per invånare (ton),2018,2022,5.02035592,4.26594155,-0.7544143700000001,-15.027109273160857,mot målet,,,lagre,,,Klimatlagen (2017:720) och klimatmålet: nettonollutsläpp senast 2045,,,37.0,10.0,26.0
 klimat,Klimatfrågan,Växthusgasutsläpp totalt (ton),2018,2022,51359169.79975,44884342.86982,-6474826.9299300015,-12.606954036008423,mot målet,,,lagre,,,Klimatlagen (2017:720) och klimatmålet: nettonollutsläpp senast 2045,,,37.0,10.0,26.0
+klimat,Klimatfrågan,"Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)",2010,2014,64.1139,53.458,-10.655900000000003,-16.620264872359975,mot målet,-53.458,False,lagre,0.0,nettonoll 2045,Klimatlagen (2017:720) och klimatmålet: nettonollutsläpp senast 2045,"Nettonollmålet räknar in upptag i skog och mark och kompletterande åtgärder; utsläppen här är brutto, utan LULUCF.",,,23.0,13.0
+klimat,Klimatfrågan,"Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)",2014,2018,53.458,51.4303,-2.027699999999996,-3.793071196079157,mot målet,-51.4303,False,lagre,0.0,nettonoll 2045,Klimatlagen (2017:720) och klimatmålet: nettonollutsläpp senast 2045,"Nettonollmålet räknar in upptag i skog och mark och kompletterande åtgärder; utsläppen här är brutto, utan LULUCF.",,,13.0,10.0
+klimat,Klimatfrågan,"Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)",2018,2022,51.4303,45.168,-6.262300000000003,-12.176285185970144,mot målet,-45.168,False,lagre,0.0,nettonoll 2045,Klimatlagen (2017:720) och klimatmålet: nettonollutsläpp senast 2045,"Nettonollmålet räknar in upptag i skog och mark och kompletterande åtgärder; utsläppen här är brutto, utan LULUCF.",,37.0,10.0,26.0
 lag,Lag och ordning,Anmälda bostadsinbrott (per 100 000 inv),2010,2014,432.51711,436.63904,4.12193000000002,0.9530096971192701,,,,,,,,,34.0,35.0,10.0,7.0
 lag,Lag och ordning,Anmälda bostadsinbrott (per 100 000 inv),2014,2018,436.63904,361.85972,-74.77932000000004,-17.126118635658425,,,,,,,,,35.0,45.0,7.0,17.0
 lag,Lag och ordning,Anmälda bostadsinbrott (per 100 000 inv),2018,2022,361.85972,327.68373,-34.175989999999956,-9.444541105597484,,,,,,,,,45.0,50.0,17.0,41.0
@@ -148,6 +151,14 @@ miljo,Miljön,"Luftföroreningar PM2,5, medelexponering (µg/m³)",2018,2022,6.6
 miljo,Miljön,"Skyddad natur, andel av landareal (%)",2014,2018,10.29959098,10.84125471,0.5416637299999998,5.259080006689739,mot målet,19.15874529,False,hogre,30.0,30 % skyddat 2030,"Kunming–Montreal-ramverket för biologisk mångfald, mål 3",Målet gäller globalt och avser även andra effektiva bevarandeåtgärder.,33.0,33.0,13.0,10.0
 miljo,Miljön,"Skyddad natur, andel av landareal (%)",2018,2022,10.84125471,11.48437932,0.643124610000001,5.932197215205924,mot målet,18.515620679999998,False,hogre,30.0,30 % skyddat 2030,"Kunming–Montreal-ramverket för biologisk mångfald, mål 3",Målet gäller globalt och avser även andra effektiva bevarandeåtgärder.,33.0,28.0,10.0,26.0
 miljo,Miljön,"Skyddad natur, andel av landareal (%)",2022,2026,11.48437932,12.05007844,0.5656991199999997,4.925813613756531,mot målet,17.94992156,False,hogre,30.0,30 % skyddat 2030,"Kunming–Montreal-ramverket för biologisk mångfald, mål 3",Målet gäller globalt och avser även andra effektiva bevarandeåtgärder.,28.0,26.0,26.0,19.0
+pension,Pensionerna,"Demografisk försörjningskvot, från äldre 65+",2010,2014,31.6,34.0,2.3999999999999986,7.594936708860755,,,,,,,,,33.0,40.0,13.0,17.0
+pension,Pensionerna,"Demografisk försörjningskvot, från äldre 65+",2014,2018,34.0,35.0,1.0,2.9411764705882355,,,,,,,,,40.0,41.0,17.0,14.0
+pension,Pensionerna,"Demografisk försörjningskvot, från äldre 65+",2018,2022,35.0,36.1,1.1000000000000014,3.142857142857147,,,,,,,,,41.0,37.0,14.0,13.0
+pension,Pensionerna,"Demografisk försörjningskvot, från äldre 65+",2022,2026,36.1,37.3,1.1999999999999957,3.324099722991678,,,,,,,,,37.0,,13.0,8.0
+pension,Pensionerna,"Demografisk försörjningskvot, totalt",2010,2014,71.4,73.3,1.8999999999999915,2.661064425770296,,,,,,,,Antal yngre (0–19) och äldre (65+) per 100 personer i åldern 20–64. Säger inget om hur många som faktiskt arbetar.,33.0,40.0,13.0,17.0
+pension,Pensionerna,"Demografisk försörjningskvot, totalt",2014,2018,73.3,75.9,2.6000000000000085,3.5470668485675425,,,,,,,,Antal yngre (0–19) och äldre (65+) per 100 personer i åldern 20–64. Säger inget om hur många som faktiskt arbetar.,40.0,41.0,17.0,14.0
+pension,Pensionerna,"Demografisk försörjningskvot, totalt",2018,2022,75.9,77.1,1.1999999999999886,1.5810276679841746,,,,,,,,Antal yngre (0–19) och äldre (65+) per 100 personer i åldern 20–64. Säger inget om hur många som faktiskt arbetar.,41.0,37.0,14.0,13.0
+pension,Pensionerna,"Demografisk försörjningskvot, totalt",2022,2026,77.1,77.0,-0.09999999999999432,-0.1297016861219122,,,,,,,,Antal yngre (0–19) och äldre (65+) per 100 personer i åldern 20–64. Säger inget om hur många som faktiskt arbetar.,37.0,,13.0,8.0
 pension,Pensionerna,Låg ekonomisk standard 65+ (%),2014,2018,13.0,14.0,1.0,7.6923076923076925,,,,,,,,,40.0,41.0,17.0,14.0
 pension,Pensionerna,Låg ekonomisk standard 65+ (%),2018,2022,14.0,13.0,-1.0,-7.142857142857143,,,,,,,,,41.0,37.0,14.0,13.0
 sjukvard,Sjukvården,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),2014,2018,98.71069743,97.06264747,-1.6480499599999945,-1.6695758442682442,från målet,2.9373525299999983,False,hogre,100.0,alla inom 90 dagar,"Vårdgarantin, hälso- och sjukvårdslagen (2017:30) 9 kap.","Flera regioner har en egen, kortare gräns (30 dagar) för BUP.",55.0,56.0,28.0,37.0
@@ -155,7 +166,6 @@ sjukvard,Sjukvården,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%
 sjukvard,Sjukvården,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),2022,2026,91.89286572,89.9874481,-1.9054176200000086,-2.073520729896341,från målet,10.012551900000005,False,hogre,100.0,alla inom 90 dagar,"Vårdgarantin, hälso- och sjukvårdslagen (2017:30) 9 kap.","Flera regioner har en egen, kortare gräns (30 dagar) för BUP.",54.0,53.0,33.0,29.0
 sjukvard,Sjukvården,Förtroende för hälso- och sjukvården (%),2018,2022,60.7,62.1477,1.4476999999999975,2.385008237232286,,,,,,,,,56.0,54.0,37.0,33.0
 sjukvard,Sjukvården,Förtroende för hälso- och sjukvården (%),2022,2026,62.1477,63.3584,1.2107000000000028,1.9481010560326493,,,,,,,,,54.0,53.0,33.0,29.0
-sjukvard,Sjukvården,Invånare med bra självskattad hälsa (%),2018,2022,75.0,73.9,-1.0999999999999943,-1.466666666666659,,,,,,,,,56.0,54.0,37.0,33.0
 sjukvard,Sjukvården,"Medellivslängd vid födseln, kvinnor (år)",2010,2014,83.49,84.05,0.5600000000000023,0.670739010659962,,,,,,,,,50.0,55.0,24.0,28.0
 sjukvard,Sjukvården,"Medellivslängd vid födseln, kvinnor (år)",2014,2018,84.05,84.25,0.20000000000000284,0.237953599048189,,,,,,,,,55.0,56.0,28.0,37.0
 sjukvard,Sjukvården,"Medellivslängd vid födseln, kvinnor (år)",2018,2022,84.25,84.73,0.480000000000004,0.5697329376854646,,,,,,,,,56.0,54.0,37.0,33.0
@@ -166,9 +176,9 @@ sjukvard,Sjukvården,Nettokostnad hälso- och sjukvård (kr/inv),2010,2014,20772
 sjukvard,Sjukvården,Nettokostnad hälso- och sjukvård (kr/inv),2014,2018,22817.2,26077.8,3260.5999999999985,14.290096944410351,,,,,,,,,55.0,56.0,28.0,37.0
 sjukvard,Sjukvården,Nettokostnad hälso- och sjukvård (kr/inv),2018,2022,26077.8,29283.3,3205.5,12.292064514644641,,,,,,,,,56.0,54.0,37.0,33.0
 sjukvard,Sjukvården,Nettokostnad hälso- och sjukvård (kr/inv),2022,2026,29283.3,34755.8,5472.500000000004,18.688125996728523,,,,,,,,,54.0,53.0,33.0,29.0
-sjukvard,Sjukvården,Självmord (per 100 000 inv),2010,2014,16.0,15.3,-0.6999999999999993,-4.374999999999996,,,,,,,,,50.0,55.0,24.0,28.0
-sjukvard,Sjukvården,Självmord (per 100 000 inv),2014,2018,15.3,15.1,-0.20000000000000107,-1.307189542483667,,,,,,,,,55.0,56.0,28.0,37.0
-sjukvard,Sjukvården,Självmord (per 100 000 inv),2018,2022,15.1,15.0,-0.09999999999999964,-0.6622516556291367,,,,,,,,,56.0,54.0,37.0,33.0
+sjukvard,Sjukvården,"Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",2010,2014,16.0,15.3,-0.6999999999999993,-4.374999999999996,,,,,,,,,50.0,55.0,24.0,28.0
+sjukvard,Sjukvården,"Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",2014,2018,15.3,15.1,-0.20000000000000107,-1.307189542483667,,,,,,,,,55.0,56.0,28.0,37.0
+sjukvard,Sjukvården,"Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",2018,2022,15.1,15.0,-0.09999999999999964,-0.6622516556291367,,,,,,,,,56.0,54.0,37.0,33.0
 sjukvard,Sjukvården,Telefonsamtal till primärvården besvarade samma dag,2010,2014,88.63896983,89.53888382,0.8999139900000017,1.0152577266251401,mot målet,10.461116180000005,False,hogre,100.0,kontakt samma dag,"Vårdgarantin, hälso- och sjukvårdslagen (2017:30) 9 kap.",,50.0,55.0,24.0,28.0
 sjukvard,Sjukvården,Telefonsamtal till primärvården besvarade samma dag,2014,2018,89.53888382,86.67583131,-2.8630525099999886,-3.1975521559500146,från målet,13.324168689999993,False,hogre,100.0,kontakt samma dag,"Vårdgarantin, hälso- och sjukvårdslagen (2017:30) 9 kap.",,55.0,56.0,28.0,37.0
 sjukvard,Sjukvården,Telefonsamtal till primärvården besvarade samma dag,2018,2022,86.67583131,86.27496381,-0.40086750000000393,-0.4624905166081226,från målet,13.725036189999997,False,hogre,100.0,kontakt samma dag,"Vårdgarantin, hälso- och sjukvårdslagen (2017:30) 9 kap.",,56.0,54.0,37.0,33.0
@@ -180,9 +190,9 @@ skola,Skola och utbildning,"Behöriga till yrkesprogram, åk 9",2010,2014,88.2,8
 skola,Skola och utbildning,"Behöriga till yrkesprogram, åk 9",2014,2018,86.9,84.4,-2.5,-2.8768699654775602,,,,,,,,,59.0,54.0,30.0,30.0
 skola,Skola och utbildning,"Behöriga till yrkesprogram, åk 9",2018,2022,84.4,85.310222,0.9102219999999903,1.0784620853080453,,,,,,,,,54.0,50.0,30.0,24.0
 skola,Skola och utbildning,"Behöriga till yrkesprogram, åk 9",2022,2026,85.310222,83.629288,-1.6809339999999935,-1.97037818047173,,,,,,,,,50.0,51.0,24.0,23.0
-skola,Skola och utbildning,Elever i åk 6 med godkänt nationellt prov i matematik (%),2014,2018,13.0,12.7,-0.3000000000000007,-2.3076923076923133,,,,,,,,,59.0,54.0,30.0,30.0
-skola,Skola och utbildning,Elever i åk 6 med godkänt nationellt prov i matematik (%),2018,2022,12.7,12.5,-0.1999999999999993,-1.5748031496062938,,,,,,,,,54.0,50.0,30.0,24.0
-skola,Skola och utbildning,Elever i åk 6 med godkänt nationellt prov i matematik (%),2022,2026,12.5,11.9,-0.5999999999999996,-4.799999999999997,,,,,,,,,50.0,51.0,24.0,23.0
+skola,Skola och utbildning,"Elever i åk 6, betygspoäng i matematik (genomsnitt)",2014,2018,13.0,12.7,-0.3000000000000007,-2.3076923076923133,,,,,,,,,59.0,54.0,30.0,30.0
+skola,Skola och utbildning,"Elever i åk 6, betygspoäng i matematik (genomsnitt)",2018,2022,12.7,12.5,-0.1999999999999993,-1.5748031496062938,,,,,,,,,54.0,50.0,30.0,24.0
+skola,Skola och utbildning,"Elever i åk 6, betygspoäng i matematik (genomsnitt)",2022,2026,12.5,11.9,-0.5999999999999996,-4.799999999999997,,,,,,,,,50.0,51.0,24.0,23.0
 skola,Skola och utbildning,Examen/studiebevis inom 4 år (gymnasiet),2018,2022,78.582502,79.832632,1.2501299999999986,1.590850339685034,,,,,,,,,54.0,50.0,30.0,24.0
 skola,Skola och utbildning,Examen/studiebevis inom 4 år (gymnasiet),2022,2026,79.832632,81.996124,2.163491999999991,2.710034663519538,,,,,,,,,50.0,51.0,24.0,23.0
 skola,Skola och utbildning,"Lärare med pedagogisk högskoleexamen, grundskola (%)",2010,2014,87.9,87.8,-0.10000000000000853,-0.11376564277589138,,,,,,,,,54.0,59.0,21.0,30.0
@@ -195,11 +205,10 @@ valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2010,2014,4.64025,4.
 valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2014,2018,4.21264,3.85342,-0.35922000000000054,-8.527194348437096,,,,,,,,,51.0,47.0,14.0,15.0
 valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2018,2022,3.85342,2.850348,-1.003072,-26.030694811362373,,,,,,,,,47.0,43.0,15.0,14.0
 valfard,Sociala välfärden,Ekonomiskt bistånd (% av bef.),2022,2026,2.850348,2.325919,-0.524429,-18.398770957090154,,,,,,,,,43.0,,14.0,14.0
-valfard,Sociala välfärden,Långvarigt ekonomiskt bistånd (% av befolkningen),2018,2022,2.15211323,1.97951052,-0.17260270999999983,-8.020150036436505,,,,,,,,,47.0,43.0,15.0,14.0
+valfard,Sociala välfärden,Invånare 0–22 år med insatser enligt LSS (per 10 000),2018,2022,77.12910263,77.14036514,0.011262509999994563,0.014602153552884611,,,,,,,,,47.0,43.0,15.0,14.0
+valfard,Sociala välfärden,Invånare 0–22 år med insatser enligt LSS (per 10 000),2022,2026,77.14036514,81.81696933,4.676604190000006,6.06246053089399,,,,,,,,,43.0,,14.0,14.0
 valfard,Sociala välfärden,Ohälsotal (dagar per försäkrad),2010,2014,29.5,27.3,-2.1999999999999993,-7.457627118644066,,,,,,,,,46.0,51.0,11.0,14.0
 valfard,Sociala välfärden,Ohälsotal (dagar per försäkrad),2014,2018,27.3,24.7,-2.6000000000000014,-9.523809523809527,,,,,,,,,51.0,47.0,14.0,15.0
 valfard,Sociala välfärden,Ohälsotal (dagar per försäkrad),2018,2022,24.7,22.0,-2.6999999999999993,-10.931174089068824,,,,,,,,,47.0,43.0,15.0,14.0
 valfard,Sociala välfärden,Ohälsotal (dagar per försäkrad),2022,2026,22.0,22.0,0.0,0.0,,,,,,,,,43.0,,14.0,14.0
-valfard,Sociala välfärden,Personer med insatser enligt LSS (per 1 000 inv),2018,2022,77.12910263,77.14036514,0.011262509999994563,0.014602153552884611,,,,,,,,,47.0,43.0,15.0,14.0
-valfard,Sociala välfärden,Personer med insatser enligt LSS (per 1 000 inv),2022,2026,77.14036514,81.81696933,4.676604190000006,6.06246053089399,,,,,,,,,43.0,,14.0,14.0
 valfard,Sociala välfärden,Sjukpenningtal (dagar per försäkrad),2022,2026,11.67,11.64,-0.02999999999999936,-0.25706940874035444,,,,,,,,,43.0,,14.0,14.0

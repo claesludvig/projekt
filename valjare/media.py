@@ -37,6 +37,9 @@ def foljare(mapp: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
     d["datum"] = pd.to_datetime(d.datum, errors="coerce")
     d = d.dropna(subset=["datum"]).sort_values("datum")
     nu = d.groupby(["parti", "roll", "namn", "plattform"]).tail(1).reset_index(drop=True)
+    # Wikidata uppdateras ojämnt: värden mer än tre år äldre än det senaste jämförs inte (t.ex. ett
+    # konto från 2018 mot ett från 2025)
+    nu = nu[nu.datum >= nu.datum.max() - pd.DateOffset(years=3)].reset_index(drop=True)
     return d, nu
 
 
