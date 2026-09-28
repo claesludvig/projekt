@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T16:22:50.987447+00:00",
+ "start": "2026-09-28T17:12:16.536535+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1030,57 +1030,13 @@
    "id": "TAB4592",
    "rubrik": "Nyckeltal för inkomstutveckling, sparkvot, skuldkvot, räntekvot efter sektor och indikator. År 1950-2025",
    "tema": "verklighet",
-   "celler": 1216,
-   "variabler": {
-    "Sektor": {
-     "etikett": "sektor",
-     "antal": 2
-    },
-    "NRindikator": {
-     "etikett": "indikator",
-     "antal": 8
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 76
-    }
-   },
-   "status": "ok",
-   "rader": 1216,
-   "uppdaterad": "2026-08-28T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB1121",
    "rubrik": "Indikatorer inkomstfördelning efter region. Fasta priser. År 2011-2024",
    "tema": "verklighet",
-   "celler": 896,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 1
-    },
-    "InkomstTyp": {
-     "etikett": "inkomstslag",
-     "antal": 4
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 16
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 14
-    }
-   },
-   "status": "ok",
-   "rader": 896,
-   "uppdaterad": "2026-01-20T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6685",
@@ -2251,7 +2207,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fd0bf279fd0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f3539391f50>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2310,7 +2266,9 @@
   }
  ],
  "fel": [
-  "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']"
+  "eurostat fangar: 0 rader med {'unit': 'P_HTHAB'}; koder för SE: {'unit': []}",
+  "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']",
+  "eurostat vantan: 0 rader med {'reason': 'WAITING', 'quant_inc': 'TOTAL', 'sex': 'T', 'age': 'Y_GE16', 'unit': 'PC'}; koder för SE: {'reason': ['TXP', 'TXP_TFAR_WLIST', 'TFAR', 'NTIME', 'WLIST', 'GDOC_UNK', 'FEAR_DR_HSP', 'HOPE', 'NUMT_ND', 'OTH'], 'quant_inc': ['TOTAL', 'QU1', 'QU2', 'QU3', 'QU4', 'QU5'], 'sex': ['T', 'M', 'F'], 'age': ['Y16-19', 'Y16-24', 'Y16-29', 'Y16-44', 'Y16-64', 'Y_GE16', 'Y18-44', 'Y20-24', 'Y20-29', 'Y25-29', 'Y25-34', 'Y35-44', 'Y45-49', 'Y45-54', 'Y45-64'], 'unit': ['PC']}"
  ],
  "kolada": [
   {
@@ -2751,5 +2709,5 @@
    "rader": 106
   }
  ],
- "slut": "2026-09-28T16:56:27.351227+00:00"
+ "slut": "2026-09-28T17:37:31.537496+00:00"
 }

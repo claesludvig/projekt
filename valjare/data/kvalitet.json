@@ -1019,8 +1019,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "493 artiklar i 7 flöden",
-   "varde": 493.0
+   "detalj": "501 artiklar i 7 flöden",
+   "varde": 501.0
   },
   {
    "grupp": "aktualitet",
@@ -1539,7 +1539,7 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "15 rader (förra 12)",
+   "detalj": "15 rader (förra 15)",
    "varde": 15.0
   },
   {

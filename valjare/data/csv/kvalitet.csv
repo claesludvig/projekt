@@ -125,7 +125,7 @@ aktualitet,norden_syss_inrikes,"Eurostat: Sysselsättningsgrad 20–64, inrikes 
 aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes födda (%)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,493 artiklar i 7 flöden,493.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,501 artiklar i 7 flöden,501.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,14 konton med följarantal,14.0
 aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 4 dagar sedan",4.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
@@ -190,7 +190,7 @@ volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 14),14.0
 volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2741 rader (förra 2741),2741.0
 volym,rader_evidensniva,Tabell evidensniva,ok,14 rader (förra 14),14.0
 volym,rader_kontroll,Tabell kontroll,ok,1571 rader (förra 1571),1571.0
-volym,rader_licens,Tabell licens,ok,15 rader (förra 12),15.0
+volym,rader_licens,Tabell licens,ok,15 rader (förra 15),15.0
 rimlighet,valkretsar_29,29 valkretsar,ok,29 valkretsar,29.0
 rimlighet,mandat_2022,Mandaten 2022 summerar till 349,ok,summa 349,349.0
 rimlighet,mandat_2026,Mandaten 2026 summerar till 349,ok,summa 349,349.0
