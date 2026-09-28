@@ -1,0 +1,922 @@
+{
+ "skapad": "2026-09-28",
+ "status": "varning",
+ "antal": {
+  "ok": 111,
+  "varning": 3
+ },
+ "kontroller": [
+  {
+   "grupp": "aktualitet",
+   "id": "lage_pris_bensin",
+   "beskrivning": "Månadsserie: Bensin, prisförändring 12 mån (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_skjutningar",
+   "beskrivning": "Månadsserie: Skjutningar",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_skjutningar_doda",
+   "beskrivning": "Månadsserie: Döda i skjutningar",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_sprangningar",
+   "beskrivning": "Månadsserie: Sprängningar (detonationer)",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_pris_diesel",
+   "beskrivning": "Månadsserie: Diesel, prisförändring 12 mån (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_styrranta",
+   "beskrivning": "Månadsserie: Styrräntan (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-09, 0 månader sedan",
+   "varde": 0.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_kpif",
+   "beskrivning": "Månadsserie: KPIF, 12-månadersförändring (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_pris_el",
+   "beskrivning": "Månadsserie: El, prisförändring 12 mån (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_aku",
+   "beskrivning": "Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",
+   "status": "ok",
+   "detalj": "senaste 2026-08, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Anmälda bostadsinbrott (per 100 000 inv)",
+   "beskrivning": "Årsserie: Anmälda bostadsinbrott (per 100 000 inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Anmälda brott per 100 000 inv",
+   "beskrivning": "Årsserie: Anmälda brott per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Anmälda narkotikabrott (per 100 000 inv)",
+   "beskrivning": "Årsserie: Anmälda narkotikabrott (per 100 000 inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Anmälda skadegörelsebrott (per 100 000 inv)",
+   "beskrivning": "Årsserie: Anmälda skadegörelsebrott (per 100 000 inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Anmälda våldsbrott per 100 000 inv",
+   "beskrivning": "Årsserie: Anmälda våldsbrott per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Arbetslöshet 15–74 år (AKU, %)",
+   "beskrivning": "Årsserie: Arbetslöshet 15–74 år (AKU, %)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Arbetslöshet 20–64 år, registerbaserad (BAS, %)",
+   "beskrivning": "Årsserie: Arbetslöshet 20–64 år, registerbaserad (BAS, %)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",
+   "beskrivning": "Årsserie: Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_BNP, volymförändring (%)",
+   "beskrivning": "Årsserie: BNP, volymförändring (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Barn i familjer med ekonomiskt bistånd (%)",
+   "beskrivning": "Årsserie: Barn i familjer med ekonomiskt bistånd (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Barn- och ungdomspsykiatri: första besök inom 90 dagar (%)",
+   "beskrivning": "Årsserie: Barn- och ungdomspsykiatri: första besök inom 90 dagar (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Behöriga till yrkesprogram, åk 9",
+   "beskrivning": "Årsserie: Behöriga till yrkesprogram, åk 9",
+   "status": "ok",
+   "detalj": "senaste år 2026",
+   "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Bensinpris (KPI, 1980=100)",
+   "beskrivning": "Årsserie: Bensinpris (KPI, 1980=100)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Dieselpris (KPI, 1980=100)",
+   "beskrivning": "Årsserie: Dieselpris (KPI, 1980=100)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Döda i skjutningar per år",
+   "beskrivning": "Årsserie: Döda i skjutningar per år",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Ekonomiskt bistånd (% av bef.)",
+   "beskrivning": "Årsserie: Ekonomiskt bistånd (% av bef.)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Elever i åk 6 med godkänt nationellt prov i matematik (%)",
+   "beskrivning": "Årsserie: Elever i åk 6 med godkänt nationellt prov i matematik (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Elpris egnahem (KPI, 1980=100)",
+   "beskrivning": "Årsserie: Elpris egnahem (KPI, 1980=100)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Elproduktion, kärnkraft (GWh/mån)",
+   "beskrivning": "Årsserie: Elproduktion, kärnkraft (GWh/mån)",
+   "status": "ok",
+   "detalj": "senaste år 2026",
+   "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Examen/studiebevis inom 4 år (gymnasiet)",
+   "beskrivning": "Årsserie: Examen/studiebevis inom 4 år (gymnasiet)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Fastighetsprisindex småhus (1990=100)",
+   "beskrivning": "Årsserie: Fastighetsprisindex småhus (1990=100)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Färdigställda bostäder, nybyggnad, per 1 000 inv",
+   "beskrivning": "Årsserie: Färdigställda bostäder, nybyggnad, per 1 000 inv",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Färdigställda lägenheter i nybyggda hus",
+   "beskrivning": "Årsserie: Färdigställda lägenheter i nybyggda hus",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Förnybar energi, % av slutlig energianvändning",
+   "beskrivning": "Årsserie: Förnybar energi, % av slutlig energianvändning",
+   "status": "varning",
+   "detalj": "senaste år 2021",
+   "varde": 2021.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Första kontakt i specialiserad vård inom 90 dagar",
+   "beskrivning": "Årsserie: Första kontakt i specialiserad vård inom 90 dagar",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Försvarsutgifter, % av BNP (SIPRI)",
+   "beskrivning": "Årsserie: Försvarsutgifter, % av BNP (SIPRI)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Försvarsutgifter, % av statens utgifter (SIPRI)",
+   "beskrivning": "Årsserie: Försvarsutgifter, % av statens utgifter (SIPRI)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Förtroende för hälso- och sjukvården (%)",
+   "beskrivning": "Årsserie: Förtroende för hälso- och sjukvården (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Invandringar",
+   "beskrivning": "Årsserie: Invandringar",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Invånare 80+ i särskilt boende (%)",
+   "beskrivning": "Årsserie: Invånare 80+ i särskilt boende (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Invånare med bra självskattad hälsa (%)",
+   "beskrivning": "Årsserie: Invånare med bra självskattad hälsa (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kommunens resultat (% av skatt och bidrag)",
+   "beskrivning": "Årsserie: Kommunens resultat (% av skatt och bidrag)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kostnad äldreomsorg per invånare 80+ (kr)",
+   "beskrivning": "Årsserie: Kostnad äldreomsorg per invånare 80+ (kr)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kvinnor i kommunfullmäktige (%)",
+   "beskrivning": "Årsserie: Kvinnor i kommunfullmäktige (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kvinnors lön i procent av mäns",
+   "beskrivning": "Årsserie: Kvinnors lön i procent av mäns",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kvinnors mediannettoinkomst i % av mäns",
+   "beskrivning": "Årsserie: Kvinnors mediannettoinkomst i % av mäns",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Luftföroreningar PM2,5, medelexponering (µg/m³)",
+   "beskrivning": "Årsserie: Luftföroreningar PM2,5, medelexponering (µg/m³)",
+   "status": "ok",
+   "detalj": "senaste år 2023",
+   "varde": 2023.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Lärare med pedagogisk högskoleexamen, grundskola (%)",
+   "beskrivning": "Årsserie: Lärare med pedagogisk högskoleexamen, grundskola (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Låg ekonomisk standard (%)",
+   "beskrivning": "Årsserie: Låg ekonomisk standard (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Låg ekonomisk standard 65+ (%)",
+   "beskrivning": "Årsserie: Låg ekonomisk standard 65+ (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Långtidsarbetslösa, andel av arbetslösa (%)",
+   "beskrivning": "Årsserie: Långtidsarbetslösa, andel av arbetslösa (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Långvarigt ekonomiskt bistånd (% av befolkningen)",
+   "beskrivning": "Årsserie: Långvarigt ekonomiskt bistånd (% av befolkningen)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Medellivslängd vid födseln, kvinnor (år)",
+   "beskrivning": "Årsserie: Medellivslängd vid födseln, kvinnor (år)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Medellivslängd vid födseln, män (år)",
+   "beskrivning": "Årsserie: Medellivslängd vid födseln, män (år)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Meritvärde åk 9 (hemkommun, 17 ämnen)",
+   "beskrivning": "Årsserie: Meritvärde åk 9 (hemkommun, 17 ämnen)",
+   "status": "ok",
+   "detalj": "senaste år 2026",
+   "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Nettokostnad hälso- och sjukvård (kr/inv)",
+   "beskrivning": "Årsserie: Nettokostnad hälso- och sjukvård (kr/inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Nöjdhet med hemtjänsten, helhetssyn (%)",
+   "beskrivning": "Årsserie: Nöjdhet med hemtjänsten, helhetssyn (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Nöjdhet särskilt boende, helhetssyn (%)",
+   "beskrivning": "Årsserie: Nöjdhet särskilt boende, helhetssyn (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Offentliga utgifter för försvar, % av BNP (COFOG)",
+   "beskrivning": "Årsserie: Offentliga utgifter för försvar, % av BNP (COFOG)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Ohälsotal (dagar per försäkrad)",
+   "beskrivning": "Årsserie: Ohälsotal (dagar per försäkrad)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Operation/åtgärd inom 90 dagar",
+   "beskrivning": "Årsserie: Operation/åtgärd inom 90 dagar",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Personer med insatser enligt LSS (per 1 000 inv)",
+   "beskrivning": "Årsserie: Personer med insatser enligt LSS (per 1 000 inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Räntekostnader egnahem (KPI)",
+   "beskrivning": "Årsserie: Räntekostnader egnahem (KPI)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sjukpenningtal (dagar per försäkrad)",
+   "beskrivning": "Årsserie: Sjukpenningtal (dagar per försäkrad)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Självmord (per 100 000 inv)",
+   "beskrivning": "Årsserie: Självmord (per 100 000 inv)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Skjutningar per år",
+   "beskrivning": "Årsserie: Skjutningar per år",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Skyddad natur, andel av landareal (%)",
+   "beskrivning": "Årsserie: Skyddad natur, andel av landareal (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Soliditet inkl. pensionsförpliktelser (%)",
+   "beskrivning": "Årsserie: Soliditet inkl. pensionsförpliktelser (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sprängningar per år",
+   "beskrivning": "Årsserie: Sprängningar per år",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Styrräntan (%)",
+   "beskrivning": "Årsserie: Styrräntan (%)",
+   "status": "ok",
+   "detalj": "senaste år 2026",
+   "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sysselsättningsgrad 15–74 år (AKU, %)",
+   "beskrivning": "Årsserie: Sysselsättningsgrad 15–74 år (AKU, %)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sysselsättningsgrad inrikes födda 20–64 (AKU, %)",
+   "beskrivning": "Årsserie: Sysselsättningsgrad inrikes födda 20–64 (AKU, %)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sysselsättningsgrad utrikes födda 20–64 (AKU, %)",
+   "beskrivning": "Årsserie: Sysselsättningsgrad utrikes födda 20–64 (AKU, %)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Telefonsamtal till primärvården besvarade samma dag",
+   "beskrivning": "Årsserie: Telefonsamtal till primärvården besvarade samma dag",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Total skattesats (%)",
+   "beskrivning": "Årsserie: Total skattesats (%)",
+   "status": "ok",
+   "detalj": "senaste år 2026",
+   "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Trångbodda (%)",
+   "beskrivning": "Årsserie: Trångbodda (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Unga 20–24 år som varken arbetar eller studerar (%)",
+   "beskrivning": "Årsserie: Unga 20–24 år som varken arbetar eller studerar (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Utrikes födda (% av bef.)",
+   "beskrivning": "Årsserie: Utrikes födda (% av bef.)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Valdeltagande i kommunval (%)",
+   "beskrivning": "Årsserie: Valdeltagande i kommunval (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Växthusgasutsläpp per invånare (ton)",
+   "beskrivning": "Årsserie: Växthusgasutsläpp per invånare (ton)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Växthusgasutsläpp totalt (ton)",
+   "beskrivning": "Årsserie: Växthusgasutsläpp totalt (ton)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Återinskrivning inom 30 dagar, 65+ (%)",
+   "beskrivning": "Årsserie: Återinskrivning inom 30 dagar, 65+ (%)",
+   "status": "varning",
+   "detalj": "senaste år 2022",
+   "varde": 2022.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Öppet arbetslösa och i program 18–24 år (%)",
+   "beskrivning": "Årsserie: Öppet arbetslösa och i program 18–24 år (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_arbetsloshet",
+   "beskrivning": "Eurostat: Arbetslöshet 15–74 (%)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_asyl",
+   "beskrivning": "Eurostat: Förstagångsansökningar om asyl",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_asyl_per_100k",
+   "beskrivning": "Eurostat: Förstagångsansökningar om asyl per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_befolkning",
+   "beskrivning": "Eurostat: Folkmängd 1 januari",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2026",
+   "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_fornybart",
+   "beskrivning": "Eurostat: Förnybar energi, % av slutlig användning",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_forsvar_bnp",
+   "beskrivning": "Eurostat: Offentliga utgifter för försvar, % av BNP (COFOG)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_halsa_bnp",
+   "beskrivning": "Eurostat: Offentliga utgifter för hälso- och sjukvård, % av BNP",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_importberoende",
+   "beskrivning": "Eurostat: Energiimportberoende (%)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_livslangd",
+   "beskrivning": "Eurostat: Medellivslängd vid födseln (år)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_mord",
+   "beskrivning": "Eurostat: Dödligt våld per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_ordning_bnp",
+   "beskrivning": "Eurostat: Offentliga utgifter för ordning och säkerhet, % av BNP",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_polis",
+   "beskrivning": "Eurostat: Poliser per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_syss_gap",
+   "beskrivning": "Eurostat: Sysselsättningsgap inrikes minus utrikes födda (e.)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_syss_inrikes",
+   "beskrivning": "Eurostat: Sysselsättningsgrad 20–64, inrikes födda (%)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_syss_utrikes",
+   "beskrivning": "Eurostat: Sysselsättningsgrad 20–64, utrikes födda (%)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_vardplatser",
+   "beskrivning": "Eurostat: Vårdplatser på sjukhus per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "nyhetsfloden",
+   "beskrivning": "Nyhetsflödena (Google Nyheter)",
+   "status": "ok",
+   "detalj": "senaste artikel för 0 dagar sedan",
+   "varde": 0.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "redaktionsfloden",
+   "beskrivning": "Redaktionernas nyhetsflöden",
+   "status": "ok",
+   "detalj": "423 artiklar i 7 flöden",
+   "varde": 423.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "wikidata_foljare",
+   "beskrivning": "Följarantal från Wikidata",
+   "status": "ok",
+   "detalj": "14 konton med följarantal",
+   "varde": 14.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "riksdag_dokument",
+   "beskrivning": "Riksdagens dokument",
+   "status": "ok",
+   "detalj": "senaste dokument 2026-09-24, 4 dagar sedan",
+   "varde": 4.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "valkretsar_29",
+   "beskrivning": "29 valkretsar",
+   "status": "ok",
+   "detalj": "29 valkretsar",
+   "varde": 29.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "mandat_2022",
+   "beskrivning": "Mandaten 2022 summerar till 349",
+   "status": "ok",
+   "detalj": "summa 349",
+   "varde": 349.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "mandat_2026",
+   "beskrivning": "Mandaten 2026 summerar till 349",
+   "status": "ok",
+   "detalj": "summa 349",
+   "varde": 349.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "kommuner_290",
+   "beskrivning": "290 kommuner i valkretsindelningen",
+   "status": "ok",
+   "detalj": "290 kommuner",
+   "varde": 290.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "valkrets_andelar_100",
+   "beskrivning": "Partiernas andelar per valkrets summerar till 100",
+   "status": "ok",
+   "detalj": "största avvikelse 0.00 procentenheter",
+   "varde": 1.4210854715202004e-14
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "profil_100",
+   "beskrivning": "Partiprofilerna summerar till 100 inom varje indelning",
+   "status": "ok",
+   "detalj": "98 % av profilerna inom ±2 procentenheter",
+   "varde": 98.42577338458722
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "voteringar_349",
+   "beskrivning": "Varje votering räknar alla 349 ledamöter",
+   "status": "ok",
+   "detalj": "100.0 % av 8289 voteringar har 340–349 röster inklusive frånvaro",
+   "varde": 100.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "samstammighet_diagonal",
+   "beskrivning": "Ett parti röstar alltid som sig självt",
+   "status": "ok",
+   "detalj": "diagonalen 100–100 %",
+   "varde": null
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "som_forslag",
+   "beskrivning": "SOM-förslagen hittas i rapporterna",
+   "status": "ok",
+   "detalj": "2022: 10, 2025: 14",
+   "varde": 14.0
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "norden_sverige",
+   "beskrivning": "Sverige finns i alla nordiska serier",
+   "status": "ok",
+   "detalj": "16 serier",
+   "varde": null
+  },
+  {
+   "grupp": "rimlighet",
+   "id": "lagesbild_serier",
+   "beskrivning": "Lägesbilden har minst sex månadsserier",
+   "status": "ok",
+   "detalj": "9 serier",
+   "varde": 9.0
+  },
+  {
+   "grupp": "tolkning",
+   "id": "varning_0",
+   "beskrivning": "Varning vid tolkning",
+   "status": "varning",
+   "detalj": "valu_rd_2014_2018 s.18: kunde inte tolka 'obligatorisk skola 5 37 2 6 3 6 14 27 0 ~100'",
+   "varde": null
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+grupp,id,beskrivning,status,detalj,varde
+aktualitet,lage_pris_bensin,"Månadsserie: Bensin, prisförändring 12 mån (%)",ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_skjutningar,Månadsserie: Skjutningar,ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_skjutningar_doda,Månadsserie: Döda i skjutningar,ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_sprangningar,Månadsserie: Sprängningar (detonationer),ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_pris_diesel,"Månadsserie: Diesel, prisförändring 12 mån (%)",ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_styrranta,Månadsserie: Styrräntan (%),ok,"senaste 2026-09, 0 månader sedan",0.0
+aktualitet,lage_kpif,"Månadsserie: KPIF, 12-månadersförändring (%)",ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_pris_el,"Månadsserie: El, prisförändring 12 mån (%)",ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,lage_aku,"Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",ok,"senaste 2026-08, 1 månader sedan",1.0
+aktualitet,verk_Anmälda bostadsinbrott (per 100 000 inv),Årsserie: Anmälda bostadsinbrott (per 100 000 inv),ok,senaste år 2025,2025.0
+aktualitet,verk_Anmälda brott per 100 000 inv,Årsserie: Anmälda brott per 100 000 inv,ok,senaste år 2025,2025.0
+aktualitet,verk_Anmälda narkotikabrott (per 100 000 inv),Årsserie: Anmälda narkotikabrott (per 100 000 inv),ok,senaste år 2025,2025.0
+aktualitet,verk_Anmälda skadegörelsebrott (per 100 000 inv),Årsserie: Anmälda skadegörelsebrott (per 100 000 inv),ok,senaste år 2025,2025.0
+aktualitet,verk_Anmälda våldsbrott per 100 000 inv,Årsserie: Anmälda våldsbrott per 100 000 inv,ok,senaste år 2025,2025.0
+aktualitet,"verk_Arbetslöshet 15–74 år (AKU, %)","Årsserie: Arbetslöshet 15–74 år (AKU, %)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Arbetslöshet 20–64 år, registerbaserad (BAS, %)","Årsserie: Arbetslöshet 20–64 år, registerbaserad (BAS, %)",ok,senaste år 2024,2024.0
+aktualitet,"verk_Arbetslöshet bland utrikes födda 20–64 år (BAS, %)","Årsserie: Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",ok,senaste år 2024,2024.0
+aktualitet,"verk_BNP, volymförändring (%)","Årsserie: BNP, volymförändring (%)",ok,senaste år 2024,2024.0
+aktualitet,verk_Barn i familjer med ekonomiskt bistånd (%),Årsserie: Barn i familjer med ekonomiskt bistånd (%),ok,senaste år 2024,2024.0
+aktualitet,verk_Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),Årsserie: Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),ok,senaste år 2025,2025.0
+aktualitet,"verk_Behöriga till yrkesprogram, åk 9","Årsserie: Behöriga till yrkesprogram, åk 9",ok,senaste år 2026,2026.0
+aktualitet,"verk_Bensinpris (KPI, 1980=100)","Årsserie: Bensinpris (KPI, 1980=100)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Dieselpris (KPI, 1980=100)","Årsserie: Dieselpris (KPI, 1980=100)",ok,senaste år 2025,2025.0
+aktualitet,verk_Döda i skjutningar per år,Årsserie: Döda i skjutningar per år,ok,senaste år 2025,2025.0
+aktualitet,verk_Ekonomiskt bistånd (% av bef.),Årsserie: Ekonomiskt bistånd (% av bef.),ok,senaste år 2025,2025.0
+aktualitet,verk_Elever i åk 6 med godkänt nationellt prov i matematik (%),Årsserie: Elever i åk 6 med godkänt nationellt prov i matematik (%),ok,senaste år 2025,2025.0
+aktualitet,"verk_Elpris egnahem (KPI, 1980=100)","Årsserie: Elpris egnahem (KPI, 1980=100)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Elproduktion, kärnkraft (GWh/mån)","Årsserie: Elproduktion, kärnkraft (GWh/mån)",ok,senaste år 2026,2026.0
+aktualitet,verk_Examen/studiebevis inom 4 år (gymnasiet),Årsserie: Examen/studiebevis inom 4 år (gymnasiet),ok,senaste år 2025,2025.0
+aktualitet,verk_Fastighetsprisindex småhus (1990=100),Årsserie: Fastighetsprisindex småhus (1990=100),ok,senaste år 2025,2025.0
+aktualitet,"verk_Färdigställda bostäder, nybyggnad, per 1 000 inv","Årsserie: Färdigställda bostäder, nybyggnad, per 1 000 inv",ok,senaste år 2025,2025.0
+aktualitet,verk_Färdigställda lägenheter i nybyggda hus,Årsserie: Färdigställda lägenheter i nybyggda hus,ok,senaste år 2025,2025.0
+aktualitet,"verk_Förnybar energi, % av slutlig energianvändning","Årsserie: Förnybar energi, % av slutlig energianvändning",varning,senaste år 2021,2021.0
+aktualitet,verk_Första kontakt i specialiserad vård inom 90 dagar,Årsserie: Första kontakt i specialiserad vård inom 90 dagar,ok,senaste år 2024,2024.0
+aktualitet,"verk_Försvarsutgifter, % av BNP (SIPRI)","Årsserie: Försvarsutgifter, % av BNP (SIPRI)",ok,senaste år 2024,2024.0
+aktualitet,"verk_Försvarsutgifter, % av statens utgifter (SIPRI)","Årsserie: Försvarsutgifter, % av statens utgifter (SIPRI)",ok,senaste år 2024,2024.0
+aktualitet,verk_Förtroende för hälso- och sjukvården (%),Årsserie: Förtroende för hälso- och sjukvården (%),ok,senaste år 2025,2025.0
+aktualitet,verk_Invandringar,Årsserie: Invandringar,ok,senaste år 2024,2024.0
+aktualitet,verk_Invånare 80+ i särskilt boende (%),Årsserie: Invånare 80+ i särskilt boende (%),ok,senaste år 2025,2025.0
+aktualitet,verk_Invånare med bra självskattad hälsa (%),Årsserie: Invånare med bra självskattad hälsa (%),ok,senaste år 2024,2024.0
+aktualitet,verk_Kommunens resultat (% av skatt och bidrag),Årsserie: Kommunens resultat (% av skatt och bidrag),ok,senaste år 2025,2025.0
+aktualitet,verk_Kostnad äldreomsorg per invånare 80+ (kr),Årsserie: Kostnad äldreomsorg per invånare 80+ (kr),ok,senaste år 2025,2025.0
+aktualitet,verk_Kvinnor i kommunfullmäktige (%),Årsserie: Kvinnor i kommunfullmäktige (%),ok,senaste år 2025,2025.0
+aktualitet,verk_Kvinnors lön i procent av mäns,Årsserie: Kvinnors lön i procent av mäns,ok,senaste år 2024,2024.0
+aktualitet,verk_Kvinnors mediannettoinkomst i % av mäns,Årsserie: Kvinnors mediannettoinkomst i % av mäns,ok,senaste år 2024,2024.0
+aktualitet,"verk_Luftföroreningar PM2,5, medelexponering (µg/m³)","Årsserie: Luftföroreningar PM2,5, medelexponering (µg/m³)",ok,senaste år 2023,2023.0
+aktualitet,"verk_Lärare med pedagogisk högskoleexamen, grundskola (%)","Årsserie: Lärare med pedagogisk högskoleexamen, grundskola (%)",ok,senaste år 2024,2024.0
+aktualitet,verk_Låg ekonomisk standard (%),Årsserie: Låg ekonomisk standard (%),ok,senaste år 2024,2024.0
+aktualitet,verk_Låg ekonomisk standard 65+ (%),Årsserie: Låg ekonomisk standard 65+ (%),ok,senaste år 2024,2024.0
+aktualitet,"verk_Långtidsarbetslösa, andel av arbetslösa (%)","Årsserie: Långtidsarbetslösa, andel av arbetslösa (%)",ok,senaste år 2024,2024.0
+aktualitet,verk_Långvarigt ekonomiskt bistånd (% av befolkningen),Årsserie: Långvarigt ekonomiskt bistånd (% av befolkningen),ok,senaste år 2024,2024.0
+aktualitet,"verk_Medellivslängd vid födseln, kvinnor (år)","Årsserie: Medellivslängd vid födseln, kvinnor (år)",ok,senaste år 2024,2024.0
+aktualitet,"verk_Medellivslängd vid födseln, män (år)","Årsserie: Medellivslängd vid födseln, män (år)",ok,senaste år 2024,2024.0
+aktualitet,"verk_Meritvärde åk 9 (hemkommun, 17 ämnen)","Årsserie: Meritvärde åk 9 (hemkommun, 17 ämnen)",ok,senaste år 2026,2026.0
+aktualitet,verk_Nettokostnad hälso- och sjukvård (kr/inv),Årsserie: Nettokostnad hälso- och sjukvård (kr/inv),ok,senaste år 2025,2025.0
+aktualitet,"verk_Nöjdhet med hemtjänsten, helhetssyn (%)","Årsserie: Nöjdhet med hemtjänsten, helhetssyn (%)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Nöjdhet särskilt boende, helhetssyn (%)","Årsserie: Nöjdhet särskilt boende, helhetssyn (%)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Offentliga utgifter för försvar, % av BNP (COFOG)","Årsserie: Offentliga utgifter för försvar, % av BNP (COFOG)",ok,senaste år 2024,2024.0
+aktualitet,verk_Ohälsotal (dagar per försäkrad),Årsserie: Ohälsotal (dagar per försäkrad),ok,senaste år 2025,2025.0
+aktualitet,verk_Operation/åtgärd inom 90 dagar,Årsserie: Operation/åtgärd inom 90 dagar,ok,senaste år 2024,2024.0
+aktualitet,verk_Personer med insatser enligt LSS (per 1 000 inv),Årsserie: Personer med insatser enligt LSS (per 1 000 inv),ok,senaste år 2025,2025.0
+aktualitet,verk_Räntekostnader egnahem (KPI),Årsserie: Räntekostnader egnahem (KPI),ok,senaste år 2025,2025.0
+aktualitet,verk_Sjukpenningtal (dagar per försäkrad),Årsserie: Sjukpenningtal (dagar per försäkrad),ok,senaste år 2025,2025.0
+aktualitet,verk_Självmord (per 100 000 inv),Årsserie: Självmord (per 100 000 inv),ok,senaste år 2024,2024.0
+aktualitet,verk_Skjutningar per år,Årsserie: Skjutningar per år,ok,senaste år 2025,2025.0
+aktualitet,"verk_Skyddad natur, andel av landareal (%)","Årsserie: Skyddad natur, andel av landareal (%)",ok,senaste år 2025,2025.0
+aktualitet,verk_Soliditet inkl. pensionsförpliktelser (%),Årsserie: Soliditet inkl. pensionsförpliktelser (%),ok,senaste år 2025,2025.0
+aktualitet,verk_Sprängningar per år,Årsserie: Sprängningar per år,ok,senaste år 2025,2025.0
+aktualitet,verk_Styrräntan (%),Årsserie: Styrräntan (%),ok,senaste år 2026,2026.0
+aktualitet,"verk_Sysselsättningsgrad 15–74 år (AKU, %)","Årsserie: Sysselsättningsgrad 15–74 år (AKU, %)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Sysselsättningsgrad inrikes födda 20–64 (AKU, %)","Årsserie: Sysselsättningsgrad inrikes födda 20–64 (AKU, %)",ok,senaste år 2025,2025.0
+aktualitet,"verk_Sysselsättningsgrad utrikes födda 20–64 (AKU, %)","Årsserie: Sysselsättningsgrad utrikes födda 20–64 (AKU, %)",ok,senaste år 2025,2025.0
+aktualitet,verk_Telefonsamtal till primärvården besvarade samma dag,Årsserie: Telefonsamtal till primärvården besvarade samma dag,ok,senaste år 2025,2025.0
+aktualitet,verk_Total skattesats (%),Årsserie: Total skattesats (%),ok,senaste år 2026,2026.0
+aktualitet,verk_Trångbodda (%),Årsserie: Trångbodda (%),ok,senaste år 2025,2025.0
+aktualitet,verk_Unga 20–24 år som varken arbetar eller studerar (%),Årsserie: Unga 20–24 år som varken arbetar eller studerar (%),ok,senaste år 2024,2024.0
+aktualitet,verk_Utrikes födda (% av bef.),Årsserie: Utrikes födda (% av bef.),ok,senaste år 2025,2025.0
+aktualitet,verk_Valdeltagande i kommunval (%),Årsserie: Valdeltagande i kommunval (%),ok,senaste år 2025,2025.0
+aktualitet,verk_Växthusgasutsläpp per invånare (ton),Årsserie: Växthusgasutsläpp per invånare (ton),ok,senaste år 2024,2024.0
+aktualitet,verk_Växthusgasutsläpp totalt (ton),Årsserie: Växthusgasutsläpp totalt (ton),ok,senaste år 2024,2024.0
+aktualitet,"verk_Återinskrivning inom 30 dagar, 65+ (%)","Årsserie: Återinskrivning inom 30 dagar, 65+ (%)",varning,senaste år 2022,2022.0
+aktualitet,verk_Öppet arbetslösa och i program 18–24 år (%),Årsserie: Öppet arbetslösa och i program 18–24 år (%),ok,senaste år 2025,2025.0
+aktualitet,norden_arbetsloshet,Eurostat: Arbetslöshet 15–74 (%),ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_asyl,Eurostat: Förstagångsansökningar om asyl,ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_asyl_per_100k,Eurostat: Förstagångsansökningar om asyl per 100 000 inv,ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_befolkning,Eurostat: Folkmängd 1 januari,ok,senaste år för Sverige 2026,2026.0
+aktualitet,norden_fornybart,"Eurostat: Förnybar energi, % av slutlig användning",ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_forsvar_bnp,"Eurostat: Offentliga utgifter för försvar, % av BNP (COFOG)",ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_halsa_bnp,"Eurostat: Offentliga utgifter för hälso- och sjukvård, % av BNP",ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_importberoende,Eurostat: Energiimportberoende (%),ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_livslangd,Eurostat: Medellivslängd vid födseln (år),ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_mord,Eurostat: Dödligt våld per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_ordning_bnp,"Eurostat: Offentliga utgifter för ordning och säkerhet, % av BNP",ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_polis,Eurostat: Poliser per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
+aktualitet,norden_syss_gap,Eurostat: Sysselsättningsgap inrikes minus utrikes födda (e.),ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_syss_inrikes,"Eurostat: Sysselsättningsgrad 20–64, inrikes födda (%)",ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes födda (%)",ok,senaste år för Sverige 2025,2025.0
+aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
+aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,423 artiklar i 7 flöden,423.0
+aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,14 konton med följarantal,14.0
+aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 4 dagar sedan",4.0
+rimlighet,valkretsar_29,29 valkretsar,ok,29 valkretsar,29.0
+rimlighet,mandat_2022,Mandaten 2022 summerar till 349,ok,summa 349,349.0
+rimlighet,mandat_2026,Mandaten 2026 summerar till 349,ok,summa 349,349.0
+rimlighet,kommuner_290,290 kommuner i valkretsindelningen,ok,290 kommuner,290.0
+rimlighet,valkrets_andelar_100,Partiernas andelar per valkrets summerar till 100,ok,största avvikelse 0.00 procentenheter,1.4210854715202004e-14
+rimlighet,profil_100,Partiprofilerna summerar till 100 inom varje indelning,ok,98 % av profilerna inom ±2 procentenheter,98.42577338458722
+rimlighet,voteringar_349,Varje votering räknar alla 349 ledamöter,ok,100.0 % av 8289 voteringar har 340–349 röster inklusive frånvaro,100.0
+rimlighet,samstammighet_diagonal,Ett parti röstar alltid som sig självt,ok,diagonalen 100–100 %,
+rimlighet,som_forslag,SOM-förslagen hittas i rapporterna,ok,"2022: 10, 2025: 14",14.0
+rimlighet,norden_sverige,Sverige finns i alla nordiska serier,ok,16 serier,
+rimlighet,lagesbild_serier,Lägesbilden har minst sex månadsserier,ok,9 serier,9.0
+tolkning,varning_0,Varning vid tolkning,varning,valu_rd_2014_2018 s.18: kunde inte tolka 'obligatorisk skola 5 37 2 6 3 6 14 27 0 ~100',

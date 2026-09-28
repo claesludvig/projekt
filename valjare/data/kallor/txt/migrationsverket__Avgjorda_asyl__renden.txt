@@ -1,0 +1,298 @@
+
+===== flik: Information (0x0) =====
+Empty DataFrame
+Columns: []
+Index: []
+
+===== flik: Totalt, förstagångsärenden (36x10) =====
+                                          0       1       2                              3                     4      5       6       7                          8                    9
+0   Avgjorda ärenden om skydd beslutade ...     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+2                                      Asyl     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+3                                  År-Månad  Bifall  Avslag  Av- eller utvisning \nEU-land    Dublinöverföringar  OH/OT  Övriga  Totalt  Handläggningstid, \ndagar  Bifallsandel, total
+4                                   2026-01     115     188                             15                    45     15     144     522                        190             0.220307
+5                                   2026-02     113     250                              7                    36      4     153     563                        200              0.20071
+6                                   2026-03     144     225                              9                    34      5     135     552                        193              0.26087
+7                                   2026-04     145     166                             12                    45      8     102     478                        180             0.303347
+8                                   2026-05     101     131                             10                    29      6      74     351                        181             0.287749
+9                                   2026-06       -       -                              -                     -      -       -       -                          -                    -
+10                                   Totalt       -       -                              -                     -      -       -       -                          -                    -
+11  - Statistiken är tillfälligt pausad,...     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+13               Asyl, ukrainska medborgare     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+14                                 År-Månad  Bifall  Avslag  Av- eller utvisning \nEU-land    Dublinöverföringar  OH/OT  Övriga  Totalt  Handläggningstid, \ndagar  Bifallsandel, total
+15                                  2026-01       1      11                              0                     0      0      13      25                        106                 0.04
+16                                  2026-02       0      11                              1                     0      0      12      24                        139                    0
+17                                  2026-03       0      10                              0                     0      0       7      17                        115                    0
+18                                  2026-04       0      10                              0                     0      0       6      16                        150                    0
+19                                  2026-05       0       6                              0                     0      0       6      12                        179                    0
+20                                  2026-06       -       -                              -                     -      -       -       -                          -                    -
+21                                   Totalt       -       -                              -                     -      -       -       -                          -                    -
+22  - Statistiken är tillfälligt pausad,...     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+24                    Massflyktsdirektivet*     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+25                                 År-Månad  Bifall  Avslag  Av- eller utvisning \nEU-land  Dublinöverföringar    OH/OT  Övriga  Totalt  Handläggningstid, \ndagar  Bifallsandel, total
+26                                  2026-01     688       6                              0                     0      0     148     842                         33             0.817102
+27                                  2026-02     654      12                              0                     0      0     969    1635                         13                  0.4
+28                                  2026-03     700       7                              0                     0      0      43     750                         22             0.933333
+29                                  2026-04     787       8                              0                     0      0      40     835                         27             0.942515
+30                                  2026-05     722       8                              0                     0      0      44     774                         26             0.932817
+31                                  2026-06     939       1                              0                     0      0      47     987                         25             0.951368
+32                                  2026-07     714       3                              0                     0      0      59     776                         24             0.920103
+33                                  2026-08     798       4                              0                     0      0      68     870                         35             0.917241
+34                                   Totalt    6183      49                              0                     0      0    1425    7657                         24             0.807496
+35                  *Se fliken information.     NaN     NaN                            NaN                   NaN    NaN     NaN     NaN                        NaN                  NaN
+
+===== flik: Totalt, förlängningsärenden (24x7) =====
+                                          0       1       2       3       4                        5                    6
+0   Avgjorda asylärenden beslutade av Mi...     NaN     NaN     NaN     NaN                      NaN                  NaN
+2                                      Asyl     NaN     NaN     NaN     NaN                      NaN                  NaN
+3                                  År-Månad  Bifall  Avslag  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+4                                   2026-01    1343      51      45    1439                      191             0.933287
+5                                   2026-02    1930      36      65    2031                      176             0.950271
+6                                   2026-03    2157      57      72    2286                      195              0.94357
+7                                   2026-04    1873      44      60    1977                      183             0.947395
+8                                   2026-05    1297      45      46    1388                      216             0.934438
+9                                   2026-06       -       -       -       -                        -                    -
+10                                   Totalt       -       -       -       -                        -                    -
+11  - Statistiken är tillfälligt pausad,...     NaN     NaN     NaN     NaN                      NaN                  NaN
+13                    Massflyktsdirektivet      NaN     NaN     NaN     NaN                      NaN                  NaN
+14                                 År-Månad  Bifall  Avslag  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+15                                  2026-01      16       3       8      27                      373             0.592593
+16                                  2026-02   19819       5     275   20099                       22             0.986069
+17                                  2026-03   16577       1     250   16828                       36             0.985084
+18                                  2026-04    2337       1     114    2452                       69               0.9531
+19                                  2026-05     582       1      68     651                      112             0.894009
+20                                  2026-06    1040       0      65    1105                      132             0.941176
+21                                  2026-07     205       0      40     245                      176             0.836735
+22                                  2026-08     244       1     102     347                      201              0.70317
+23                                   Totalt   40821      12     922   41755                       37             0.977631
+
+===== flik: Medborgarskap, första ansökan (60x16) =====
+                                         0       1       2                              3                      4      5       6       7                      8                        10      11      12      13      14                    15
+0   Avgjorda ärenden om skydd beslutade ...     NaN     NaN                            NaN                    NaN    NaN     NaN     NaN                    NaN                      NaN     NaN     NaN     NaN     NaN                   NaN
+2                                      Asyl     NaN     NaN                            NaN                    NaN    NaN     NaN     NaN                    NaN    Massflyktsdirektivet*     NaN     NaN     NaN     NaN                   NaN
+3                             Medborgarskap  Bifall  Avslag  Av- eller \nutvisning EU-land  Dublin-\növerföringar  OH/OT  Övriga  Totalt  Bifallsandel, \ntotal            Medborgarskap  Bifall  Avslag  Övriga  Totalt  Bifallsandel,\ntotal
+4                               AFGHANISTAN       -       -                              -                      -      -       -       -                      -              AFGHANISTAN       0       1       0       1                     0
+5                                  ALBANIEN       -       -                              -                      -      -       -       -                      -                 ALGERIET       0       0       1       1                     0
+6                                  ALGERIET       -       -                              -                      -      -       -       -                      -                 ARMENIEN       0       0       4       4                     0
+7                                 ARGENTINA       -       -                              -                      -      -       -       -                      -             AZERBAJDZJAN       5       0       2       7              0.714286
+8                                  ARMENIEN       -       -                              -                      -      -       -       -                      -                  BELARUS       0       0       3       3                     0
+9                              AZERBAJDZJAN       -       -                              -                      -      -       -       -                      -                  ECUADOR       0       0       1       1                     0
+10                               BANGLADESH       -       -                              -                      -      -       -       -                      -                  EGYPTEN       0       0       1       1                     0
+11                                  BELARUS       -       -                              -                      -      -       -       -                      -                 GEORGIEN       1       0       0       1                     1
+12                                    BENIN       -       -                              -                      -      -       -       -                      -                     IRAN       0       1       0       1                     0
+13                                  BOLIVIA       -       -                              -                      -      -       -       -                      -                JORDANIEN       1       0       1       2                   0.5
+14                  BOSNIEN OCH HERCEGOVINA       -       -                              -                      -      -       -       -                      -                   KANADA       1       0       0       1                     1
+15                                BRASILIEN       -       -                              -                      -      -       -       -                      -                  LIBANON       0       1       0       1                     0
+16                             BURKINA FASO       -       -                              -                      -      -       -       -                      -                  MAROCKO       0       0       1       1                     0
+17                                  BURUNDI       -       -                              -                      -      -       -       -                      -                MOLDAVIEN       3       0       0       3                     1
+18                                    CHILE       -       -                              -                      -      -       -       -                      -                  NIGERIA       0       0       1       1                     0
+19                                 COLOMBIA       -       -                              -                      -      -       -       -                      -                PALESTINA       0       0       2       2                     0
+20                                  DANMARK       -       -                              -                      -      -       -       -                      -                    POLEN       0       1       0       1                     0
+21                     DEM REPUBLIKEN KONGO       -       -                              -                      -      -       -       -                      -                 RYSSLAND       1       0       4       5                   0.2
+22                                  EGYPTEN       -       -                              -                      -      -       -       -                      -                   SYRIEN       3       0       1       4                  0.75
+23                              EL SALVADOR       -       -                              -                      -      -       -       -                      -             TADZJIKISTAN       1       0       0       1                     1
+24                                  ERITREA       -       -                              -                      -      -       -       -                      -                  UKRAINA    6161      45    1403    7609              0.809699
+25                                 ETIOPIEN       -       -                              -                      -      -       -       -                      -          UNDER UTREDNING       5       0       0       5                     1
+26                             FILIPPINERNA       -       -                              -                      -      -       -       -                      -                      USA       1       0       0       1                     1
+27                    FÖRENADE ARABEMIRATEN       -       -                              -                      -      -       -       -                      -                   Totalt    6183      49    1425    7657              0.807496
+28                                   GAMBIA       -       -                              -                      -      -       -       -                      -  *Se fliken information.     NaN     NaN     NaN     NaN                   NaN
+29                                 GEORGIEN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+30                                    GHANA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+31                                GUATEMALA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+32                                   GUINEA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+33                                 HONDURAS       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+34                                   INDIEN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+35                                     IRAK       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+36                                     IRAN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+37                                   ISRAEL       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+38                                    JEMEN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+39                                JORDANIEN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+40                                 KAMBODJA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+41                                  KAMERUN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+42                                KAZAKSTAN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+43                                    KENYA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+44                                     KINA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+45                              KIRGIZISTAN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+46                                    KONGO       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+47                                   KOSOVO       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+48                                     KUBA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+49                                  LIBANON       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+50                                  LIBERIA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+51                                   LIBYEN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+52                                  LITAUEN       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+53                                 MALAYSIA       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+54                                     MALI       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+55                                  MAROCKO       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+56                                   MEXIKO       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+57                                MONGOLIET       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+58                                  MYANMAR       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+59                                    NEPAL       -       -                              -                      -      -       -       -                      -                      NaN     NaN     NaN     NaN     NaN                   NaN
+
+===== flik: Medborgarskap, förlängningar (60x6) =====
+                                          0       1       2       3       4                    5
+0   Avgjorda asylärenden beslutade av Mi...     NaN     NaN     NaN     NaN                  NaN
+2                             Medborgarskap  Bifall  Avslag  Övriga  Totalt  Bifallsandel, total
+3                               AFGHANISTAN       -       -       -       -                    -
+4                                  ALBANIEN       -       -       -       -                    -
+5                                  ALGERIET       -       -       -       -                    -
+6                                    ANGOLA       -       -       -       -                    -
+7                                  ARMENIEN       -       -       -       -                    -
+8                              AZERBAJDZJAN       -       -       -       -                    -
+9                                BANGLADESH       -       -       -       -                    -
+10                                  BELARUS       -       -       -       -                    -
+11                                  BOLIVIA       -       -       -       -                    -
+12                  BOSNIEN OCH HERCEGOVINA       -       -       -       -                    -
+13                                  BURUNDI       -       -       -       -                    -
+14             CENTRALAFRIKANSKA REPUBLIKEN       -       -       -       -                    -
+15                                 COLOMBIA       -       -       -       -                    -
+16                     DEM REPUBLIKEN KONGO       -       -       -       -                    -
+17                                 DJIBOUTI       -       -       -       -                    -
+18                                  EGYPTEN       -       -       -       -                    -
+19                              EL SALVADOR       -       -       -       -                    -
+20                                  ERITREA       -       -       -       -                    -
+21                                 ETIOPIEN       -       -       -       -                    -
+22                                   GAMBIA       -       -       -       -                    -
+23                                 GEORGIEN       -       -       -       -                    -
+24                                    GHANA       -       -       -       -                    -
+25                                   GUINEA       -       -       -       -                    -
+26                            GUINEA BISSAU       -       -       -       -                    -
+27                                 HONDURAS       -       -       -       -                    -
+28                                     IRAK       -       -       -       -                    -
+29                                     IRAN       -       -       -       -                    -
+30                                    JEMEN       -       -       -       -                    -
+31                                JORDANIEN       -       -       -       -                    -
+32                                  KAMERUN       -       -       -       -                    -
+33                                KAZAKSTAN       -       -       -       -                    -
+34                                    KENYA       -       -       -       -                    -
+35                                     KINA       -       -       -       -                    -
+36                              KIRGIZISTAN       -       -       -       -                    -
+37                                    KONGO       -       -       -       -                    -
+38                                   KOSOVO       -       -       -       -                    -
+39                                  LIBANON       -       -       -       -                    -
+40                                  LIBERIA       -       -       -       -                    -
+41                                   LIBYEN       -       -       -       -                    -
+42                                 MALAYSIA       -       -       -       -                    -
+43                                  MAROCKO       -       -       -       -                    -
+44                                MONGOLIET       -       -       -       -                    -
+45                               MONTENEGRO       -       -       -       -                    -
+46                                  MYANMAR       -       -       -       -                    -
+47                                NICARAGUA       -       -       -       -                    -
+48                                  NIGERIA       -       -       -       -                    -
+49                                    OKÄNT       -       -       -       -                    -
+50                                 PAKISTAN       -       -       -       -                    -
+51                                PALESTINA       -       -       -       -                    -
+52                                     PERU       -       -       -       -                    -
+53                                   RWANDA       -       -       -       -                    -
+54                                 RYSSLAND       -       -       -       -                    -
+55                             SAUDIARABIEN       -       -       -       -                    -
+56                                  SENEGAL       -       -       -       -                    -
+57                                  SERBIEN       -       -       -       -                    -
+58                             SIERRA LEONE       -       -       -       -                    -
+59                                  SOMALIA       -       -       -       -                    -
+
+===== flik: Totalt, första ansökan EKB (35x10) =====
+                                          0       1       2                            3                   4      5       6       7                        8                    9
+0   Avgjorda ärenden om skydd rörande en...     NaN     NaN                          NaN                 NaN    NaN     NaN     NaN                      NaN                  NaN
+2                                      Asyl     NaN     NaN                          NaN                 NaN    NaN     NaN     NaN                      NaN                  NaN
+3                                  År-Månad  Bifall  Avslag  Av- eller utvisning EU-land  Dublinöverföringar  OH/OT  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+4                                   2026-01       4       8                            0                   0      0       2      14                      264             0.285714
+5                                   2026-02       2       4                            0                   0      0       5      11                      117             0.181818
+6                                   2026-03       3       5                            0                   0      0       6      14                      158             0.214286
+7                                   2026-04       1       6                            0                   0      0       6      13                      110             0.076923
+8                                   2026-05       1       1                            0                   0      0       7       9                       88             0.111111
+9                                   2026-06       -       -                            -                   -      -       -       -                        -                    -
+10                                   Totalt       -       -                            -                   -      -       -       -                        -                    -
+11  - Statistiken är tillfälligt pausad,...     NaN     NaN                          NaN                 NaN    NaN     NaN     NaN                      NaN                  NaN
+13               Asyl, ukrainska medborgare     NaN     NaN                          NaN                 NaN    NaN     NaN     NaN                      NaN                  NaN
+14                                 År-Månad  Bifall  Avslag  Av- eller utvisning EU-land  Dublinöverföringar  OH/OT  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+15                                  2026-01       0       0                            0                   0      0       0       0                        0                    0
+16                                  2026-02       0       0                            0                   0      0       1       1                      162                    0
+17                                  2026-03       0       0                            0                   0      0       1       1                        4                    0
+18                                  2026-04       0       0                            0                   0      0       0       0                        0                    0
+19                                  2026-05       0       0                            0                   0      0       0       0                        0                    0
+20                                  2026-06       -       -                            -                   -      -       -       -                        -                    -
+21                                   Totalt       -       -                            -                   -      -       -       -                        -                    -
+22  - Statistiken är tillfälligt pausad,...     NaN     NaN                          NaN                 NaN    NaN     NaN     NaN                      NaN                  NaN
+24                    Massflyktsdirektivet      NaN     NaN                          NaN                 NaN    NaN     NaN     NaN                      NaN                  NaN
+25                                 År-Månad  Bifall  Avslag  Av- eller utvisning EU-land  Dublinöverföringar  OH/OT  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+26                                  2026-01      10       0                            0                   0      0       0      10                        8                    1
+27                                  2026-02       9       0                            0                   0      0       1      10                       31                  0.9
+28                                  2026-03       7       0                            0                   0      0       0       7                        9                    1
+29                                  2026-04      10       0                            0                   0      0       0      10                       15                    1
+30                                  2026-05       5       0                            0                   0      0       0       5                        6                    1
+31                                  2026-06      11       0                            0                   0      0       0      11                       10                    1
+32                                  2026-07      26       0                            0                   0      0       0      26                       11                    1
+33                                  2026-08      14       0                            0                   0      0       1      14                       10                    1
+34                                   Totalt      96       0                            0                   0      0       0      97                       13             0.989691
+
+===== flik: Totalt, förlängningar,EKB (24x7) =====
+                                          0       1       2       3       4                        5                    6
+0   Avgjorda asylärenden rörande ensamko...     NaN     NaN     NaN     NaN                      NaN                  NaN
+2                                      Asyl     NaN     NaN     NaN     NaN                      NaN                  NaN
+3                                  År-Månad  Bifall  Avslag  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+4                                   2026-01      12       2       0      14                      115             0.857143
+5                                   2026-02      10       0       0      10                      121                    1
+6                                   2026-03      10       0       0      10                      788                    1
+7                                   2026-04      12       0       0      12                      113                    1
+8                                   2026-05       9       0       0       9                      180                    1
+9                                   2026-06       -       -       -       -                        -                    -
+10                                   Totalt       -       -       -       -                        -                    -
+11  - Statistiken är tillfälligt pausad,...     NaN     NaN     NaN     NaN                      NaN                  NaN
+13                     Massflyktsdirektivet     NaN     NaN     NaN     NaN                      NaN                  NaN
+14                                 År-Månad  Bifall  Avslag  Övriga  Totalt  Handläggningstid, dagar  Bifallsandel, total
+15                                  2026-01       0       0       0       0                        0                    0
+16                                  2026-02      65       0       2      67                       22             0.970149
+17                                  2026-03     102       0       1     103                       30             0.990291
+18                                  2026-04       9       0       1      10                       67                  0.9
+19                                  2026-05       2       0       1       3                       99             0.666667
+20                                  2026-06       2       0       0       2                      125                    1
+21                                  2026-07       2       0       1       3                      184             0.666667
+22                                  2026-08       0     NaN       1       1                      178                    0
+23                                   Totalt     182       0       7     189                       34             0.962963
+
+===== flik: Medborgarskap, förstagångs, EKB (31x9) =====
+                                          0       1       2                            3       4                      5       6       7                      8
+0   Avgjorda ärenden om skydd rörande en...     NaN     NaN                          NaN     NaN                    NaN     NaN     NaN                    NaN
+2                                      Asyl     NaN     NaN                          NaN     NaN                    NaN     NaN     NaN                    NaN
+3                             Medborgarskap  Bifall  Avslag  Av- eller utvisning EU-land   OH/OT                 Dublin  Övriga  Totalt  Bifallsandel, \ntotal
+4                               AFGHANISTAN       -       -                            -       -                      -       -       -                      -
+5                                  ALGERIET       -       -                            -       -                      -       -       -                      -
+6                      DEM REPUBLIKEN KONGO       -       -                            -       -                      -       -       -                      -
+7                                   EGYPTEN       -       -                            -       -                      -       -       -                      -
+8                                   ERITREA       -       -                            -       -                      -       -       -                      -
+9                                  ETIOPIEN       -       -                            -       -                      -       -       -                      -
+10                                   GUINEA       -       -                            -       -                      -       -       -                      -
+11                                     IRAK       -       -                            -       -                      -       -       -                      -
+12                                     IRAN       -       -                            -       -                      -       -       -                      -
+13                                  MAROCKO       -       -                            -       -                      -       -       -                      -
+14                                    OKÄNT       -       -                            -       -                      -       -       -                      -
+15                                     PERU       -       -                            -       -                      -       -       -                      -
+16                                 RYSSLAND       -       -                            -       -                      -       -       -                      -
+17                                  SERBIEN       -       -                            -       -                      -       -       -                      -
+18                                  SOMALIA       -       -                            -       -                      -       -       -                      -
+19                                   SYRIEN       -       -                            -       -                      -       -       -                      -
+20                                 TANZANIA       -       -                            -       -                      -       -       -                      -
+21                                  TURKIET       -       -                            -       -                      -       -       -                      -
+22                                   UGANDA       -       -                            -       -                      -       -       -                      -
+23                                  UKRAINA       -       -                            -       -                      -       -       -                      -
+24                                   Totalt       -       -                            -       -                      -       -       -                      -
+25  - Statistiken är tillfälligt pausad,...     NaN     NaN                          NaN     NaN                    NaN     NaN     NaN                    NaN
+27                     Massflyktsdirektivet     NaN     NaN                          NaN     NaN                    NaN     NaN     NaN                    NaN
+28                            Medborgarskap  Bifall  Avslag                       Övriga  Totalt  Bifallsandel, \ntotal     NaN     NaN                    NaN
+29                                  UKRAINA      96       0                            1      97               0.989691     NaN     NaN                    NaN
+30                                   Totalt      96       0                            1      97               0.989691     NaN     NaN                    NaN
+
+===== flik: Medborgarskap, förlängning, EKB (14x6) =====
+                                          0       1       2       3       4                    5
+0   Avgjorda asylärenden rörande ensamko...     NaN     NaN     NaN     NaN                  NaN
+2                             Medborgarskap  Bifall  Avslag  Övriga  Totalt  Bifallsandel, total
+3                               AFGHANISTAN       -       -       -       -                    -
+4                                   ERITREA       -       -       -       -                    -
+5                                      IRAK       -       -       -       -                    -
+6                                     OKÄNT       -       -       -       -                    -
+7                                 PALESTINA       -       -       -       -                    -
+8                                   SOMALIA       -       -       -       -                    -
+9                                  STATSLÖS       -       -       -       -                    -
+10                                   SYRIEN       -       -       -       -                    -
+11                               UZBEKISTAN       -       -       -       -                    -
+12                                   Totalt       -       -       -       -                    -
+13  - Statistiken är tillfälligt pausad,...     NaN     NaN     NaN     NaN                  NaN

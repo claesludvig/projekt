@@ -1,0 +1,126 @@
+
+===== flik: Variabelbeskrivning (11x2) =====
+                             0                                        1
+0                     variabel                      variabelbeskrivning
+1                  yrkesomrade  Beskriver vilket yrkesområde som YB-...
+2                      yb_yrke  YB-yrken är de yrken för vilka Arbet...
+3                     lan_namn  Visar vilket län som bedömningen avs...
+4              jobbmojligheter  Visar nulägesbedömningen för möjligh...
+5        rekryteringssituation  Visar nulägesbedömningen för rekryte...
+6                      paradox  För yrken som fått bedömningen ”para...
+7                      prognos  Visar bedömningen för hur efterfråga...
+8         text_jobbmojligheter  Beskriver bedömningen för YB-yrket i...
+9   text_rekryteringssituation  Beskriver bedömningen för YB-yrket i...
+10                      omgang  Anger vilken omgång bedömningarna av...
+
+===== flik: Yrkesbarometer (60x13) =====
+                                  0                                    1                     2                3                      4        5                6                                        7                                        8       9     10                                       11                    12
+0                        yrkesomrade                              yb_yrke              lan_namn  jobbmojligheter  rekryteringssituation  paradox          prognos                     text_jobbmojligheter               text_rekryteringssituation  omgang  ssyk                                ssyk_text             lan_namn2
+1   Administration, ekonomi, juridik           Administrativa assistenter            Nationellt              små              överskott      NaN  vara oförändrad  Nationellt bedöms möjligheterna till...  Nationellt bedöms rekryteringssituat...  2025-1  4119  Övriga kontorsassistenter och sekret...            Nationellt
+2   Administration, ekonomi, juridik           Administrativa assistenter        Stockholms län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...        Stockholms län
+3   Administration, ekonomi, juridik           Administrativa assistenter           Uppsala län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...           Uppsala län
+4   Administration, ekonomi, juridik           Administrativa assistenter     Södermanlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...     Södermanlands län
+5   Administration, ekonomi, juridik           Administrativa assistenter     Östergötlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...     Östergötlands län
+6   Administration, ekonomi, juridik           Administrativa assistenter        Jönköpings län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...        Jönköpings län
+7   Administration, ekonomi, juridik           Administrativa assistenter        Kronobergs län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...        Kronobergs län
+8   Administration, ekonomi, juridik           Administrativa assistenter            Kalmar län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...            Kalmar län
+9   Administration, ekonomi, juridik           Administrativa assistenter          Gotlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...          Gotlands län
+10  Administration, ekonomi, juridik           Administrativa assistenter          Blekinge län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...          Blekinge län
+11  Administration, ekonomi, juridik           Administrativa assistenter             Skåne län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...             Skåne län
+12  Administration, ekonomi, juridik           Administrativa assistenter          Hallands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...          Hallands län
+13  Administration, ekonomi, juridik           Administrativa assistenter  Västra Götalands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...  Västra Götalands län
+14  Administration, ekonomi, juridik           Administrativa assistenter         Värmlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...         Värmlands län
+15  Administration, ekonomi, juridik           Administrativa assistenter            Örebro län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...            Örebro län
+16  Administration, ekonomi, juridik           Administrativa assistenter      Västmanlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...      Västmanlands län
+17  Administration, ekonomi, juridik           Administrativa assistenter          Dalarnas län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...          Dalarnas län
+18  Administration, ekonomi, juridik           Administrativa assistenter        Gävleborgs län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...        Gävleborgs län
+19  Administration, ekonomi, juridik           Administrativa assistenter   Västernorrlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...   Västernorrlands län
+20  Administration, ekonomi, juridik           Administrativa assistenter         Jämtlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...         Jämtlands län
+21  Administration, ekonomi, juridik           Administrativa assistenter     Västerbottens län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...     Västerbottens län
+22  Administration, ekonomi, juridik           Administrativa assistenter       Norrbottens län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som admini...  Rekryteringssituationen för administ...  2025-1  4119  Övriga kontorsassistenter och sekret...       Norrbottens län
+23  Administration, ekonomi, juridik                     Arbetsförmedlare            Nationellt       medelstora                 balans      NaN  vara oförändrad  Nationellt bedöms möjligheterna till...  Nationellt bedöms rekryteringssituat...  2025-1  3333                         Arbetsförmedlare            Nationellt
+24  Administration, ekonomi, juridik                     Arbetsförmedlare        Stockholms län       medelstora                 balans      NaN           minska  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare        Stockholms län
+25  Administration, ekonomi, juridik                     Arbetsförmedlare           Uppsala län              små              överskott      NaN           minska  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare           Uppsala län
+26  Administration, ekonomi, juridik                     Arbetsförmedlare     Södermanlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare     Södermanlands län
+27  Administration, ekonomi, juridik                     Arbetsförmedlare     Östergötlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare     Östergötlands län
+28  Administration, ekonomi, juridik                     Arbetsförmedlare        Jönköpings län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare        Jönköpings län
+29  Administration, ekonomi, juridik                     Arbetsförmedlare        Kronobergs län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare        Kronobergs län
+30  Administration, ekonomi, juridik                     Arbetsförmedlare            Kalmar län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare            Kalmar län
+31  Administration, ekonomi, juridik                     Arbetsförmedlare          Gotlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare          Gotlands län
+32  Administration, ekonomi, juridik                     Arbetsförmedlare          Blekinge län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare          Blekinge län
+33  Administration, ekonomi, juridik                     Arbetsförmedlare             Skåne län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare             Skåne län
+34  Administration, ekonomi, juridik                     Arbetsförmedlare          Hallands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare          Hallands län
+35  Administration, ekonomi, juridik                     Arbetsförmedlare  Västra Götalands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare  Västra Götalands län
+36  Administration, ekonomi, juridik                     Arbetsförmedlare         Värmlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare         Värmlands län
+37  Administration, ekonomi, juridik                     Arbetsförmedlare            Örebro län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare            Örebro län
+38  Administration, ekonomi, juridik                     Arbetsförmedlare      Västmanlands län              små              överskott      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare      Västmanlands län
+39  Administration, ekonomi, juridik                     Arbetsförmedlare          Dalarnas län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare          Dalarnas län
+40  Administration, ekonomi, juridik                     Arbetsförmedlare        Gävleborgs län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare        Gävleborgs län
+41  Administration, ekonomi, juridik                     Arbetsförmedlare   Västernorrlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare   Västernorrlands län
+42  Administration, ekonomi, juridik                     Arbetsförmedlare         Jämtlands län       medelstora                 balans      NaN           minska  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare         Jämtlands län
+43  Administration, ekonomi, juridik                     Arbetsförmedlare     Västerbottens län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare     Västerbottens län
+44  Administration, ekonomi, juridik                     Arbetsförmedlare       Norrbottens län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som arbets...  Rekryteringssituationen för arbetsfö...  2025-1  3333                         Arbetsförmedlare       Norrbottens län
+45  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter            Nationellt       medelstora                 balans      NaN  vara oförändrad  Nationellt bedöms möjligheterna till...  Nationellt bedöms rekryteringssituat...  2025-1  3343  Chefssekreterare och VD-assistenter ...            Nationellt
+46  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter        Stockholms län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...        Stockholms län
+47  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter           Uppsala län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...           Uppsala län
+48  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter     Södermanlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...     Södermanlands län
+49  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter     Östergötlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...     Östergötlands län
+50  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter        Jönköpings län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...        Jönköpings län
+51  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter        Kronobergs län       medelstora                 balans      NaN              öka  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...        Kronobergs län
+52  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter            Kalmar län       medelstora                 balans      NaN              öka  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...            Kalmar län
+53  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter          Gotlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...          Gotlands län
+54  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter          Blekinge län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...          Blekinge län
+55  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter             Skåne län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...             Skåne län
+56  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter          Hallands län       medelstora                 balans      NaN              öka  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...          Hallands län
+57  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter  Västra Götalands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...  Västra Götalands län
+58  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter         Värmlands län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...         Värmlands län
+59  Administration, ekonomi, juridik  Chefssekreterare och VD-assistenter            Örebro län       medelstora                 balans      NaN  vara oförändrad  Möjligheterna till arbete som chefss...  Rekryteringssituationen för chefssek...  2025-1  3343  Chefssekreterare och VD-assistenter ...            Örebro län
+
+===== flik: Sök yrke (60x3) =====
+                                          0       1                                        2
+0                                  SSYK-kod  (Alla)                   <-- Sök efter SSYK-kod
+1                                 SSYK-text  (Alla)                  <-- Sök efter SSYK-text
+2                            Län/nationellt  (Alla)  <-- Sök efter specifikt län eller na...
+4                Administrativa assistenter     NaN  I denna flik är det möjligt att ta f...
+5                                Nationellt     NaN                                      NaN
+6   Nationellt bedöms möjligheterna till...     NaN                                      NaN
+7   Nationellt bedöms rekryteringssituat...     NaN                                      NaN
+9                              Blekinge län     NaN                                      NaN
+10  Möjligheterna till arbete som admini...     NaN                                      NaN
+11  Rekryteringssituationen för administ...     NaN                                      NaN
+13                             Dalarnas län     NaN                                      NaN
+14  Möjligheterna till arbete som admini...     NaN                                      NaN
+15  Rekryteringssituationen för administ...     NaN                                      NaN
+17                             Gotlands län     NaN                                      NaN
+18  Möjligheterna till arbete som admini...     NaN                                      NaN
+19  Rekryteringssituationen för administ...     NaN                                      NaN
+21                           Gävleborgs län     NaN                                      NaN
+22  Möjligheterna till arbete som admini...     NaN                                      NaN
+23  Rekryteringssituationen för administ...     NaN                                      NaN
+25                             Hallands län     NaN                                      NaN
+26  Möjligheterna till arbete som admini...     NaN                                      NaN
+27  Rekryteringssituationen för administ...     NaN                                      NaN
+29                            Jämtlands län     NaN                                      NaN
+30  Möjligheterna till arbete som admini...     NaN                                      NaN
+31  Rekryteringssituationen för administ...     NaN                                      NaN
+33                           Jönköpings län     NaN                                      NaN
+34  Möjligheterna till arbete som admini...     NaN                                      NaN
+35  Rekryteringssituationen för administ...     NaN                                      NaN
+37                               Kalmar län     NaN                                      NaN
+38  Möjligheterna till arbete som admini...     NaN                                      NaN
+39  Rekryteringssituationen för administ...     NaN                                      NaN
+41                           Kronobergs län     NaN                                      NaN
+42  Möjligheterna till arbete som admini...     NaN                                      NaN
+43  Rekryteringssituationen för administ...     NaN                                      NaN
+45                          Norrbottens län     NaN                                      NaN
+46  Möjligheterna till arbete som admini...     NaN                                      NaN
+47  Rekryteringssituationen för administ...     NaN                                      NaN
+49                                Skåne län     NaN                                      NaN
+50  Möjligheterna till arbete som admini...     NaN                                      NaN
+51  Rekryteringssituationen för administ...     NaN                                      NaN
+53                           Stockholms län     NaN                                      NaN
+54  Möjligheterna till arbete som admini...     NaN                                      NaN
+55  Rekryteringssituationen för administ...     NaN                                      NaN
+57                        Södermanlands län     NaN                                      NaN
+58  Möjligheterna till arbete som admini...     NaN                                      NaN
+59  Rekryteringssituationen för administ...     NaN                                      NaN

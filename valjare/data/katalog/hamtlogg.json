@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T08:59:45.290211+00:00",
+ "start": "2026-09-28T11:43:04.880984+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -879,7 +879,7 @@
   {
    "id": "TAB937",
    "rubrik": "Disponibel inkomst och faktorinkomst per konsumtionsenhet, gini-koefficienten samt andelen av inkomstsumman som innehas av personer i hushåll med de högsta 10 procent respektive 1 procent av inkomsterna efter hushållsdefinition, 2014 års priser. År 1975-2013",
-   "tema": "inkomst",
+   "tema": "verklighet",
    "status": "oförändrad, ej hämtad"
   },
   {
@@ -1060,45 +1060,13 @@
    "id": "TAB6590",
    "rubrik": "Konsumentprisindex med fast ränta (KPIF), 2020=100. Månad 1987M01-2026M08",
    "tema": "manad",
-   "celler": 1428,
-   "variabler": {
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 3
-    },
-    "Tid": {
-     "etikett": "månad",
-     "antal": 476
-    }
-   },
-   "status": "ok",
-   "rader": 1428,
-   "uppdaterad": "2026-09-14T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6602",
    "rubrik": "Konsumentprisindex med fast ränta (KPIF) enligt COICOP (alla nivåer), 2020=100. Månad 1987M01-2026M08",
    "tema": "manad",
-   "celler": 757792,
-   "variabler": {
-    "VaruTjanstegrupp": {
-     "etikett": "varu-/tjänstegrupp",
-     "antal": 398
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 4
-    },
-    "Tid": {
-     "etikett": "månad",
-     "antal": 476
-    }
-   },
-   "status": "ok",
-   "rader": 757792,
-   "uppdaterad": "2026-09-14T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6091",
@@ -1143,7 +1111,10 @@
      "antal": 308
     }
    },
-   "status": "hoppad: 879648 celler > 300000"
+   "status": "ok",
+   "rader": 879648,
+   "uppdaterad": "2026-09-16T06:00:00Z",
+   "kalla": "SCB"
   },
   {
    "id": "TAB6514",
@@ -1228,6 +1199,74 @@
    "rubrik": "Elproduktion och elanvändning efter elområde. Månad 2021M01-2026M07",
    "tema": "verklighet",
    "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4642",
+   "rubrik": "Demografisk försörjningskvot efter region. År 2000-2025",
+   "tema": "verklighet",
+   "celler": 78,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 1
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 3
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 26
+    }
+   },
+   "status": "ok",
+   "rader": 78,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB1246",
+   "rubrik": "Bostadshushåll (FoB75-90) efter region, hustyp, hushållsstorlek, lägenhetstyp, byggnadsperiod och trångboddhet 1975-1990",
+   "tema": "verklighet",
+   "celler": 13824,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 1
+    },
+    "Hustyp": {
+     "etikett": "hustyp",
+     "antal": 2
+    },
+    "Hushallsstorlek": {
+     "etikett": "hushållsstorlek",
+     "antal": 6
+    },
+    "Lagenhetstyp": {
+     "etikett": "lägenhetstyp",
+     "antal": 8
+    },
+    "Byggnadsperiod": {
+     "etikett": "byggnadsperiod",
+     "antal": 12
+    },
+    "Trangboddhet": {
+     "etikett": "trångboddhet",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "vart 5:e år",
+     "antal": 4
+    }
+   },
+   "status": "ok",
+   "rader": 13824,
+   "uppdaterad": "1996-12-31T23:00:00Z",
+   "kalla": "SCB"
   },
   {
    "id": "TAB6571_deso",
@@ -2082,6 +2121,175 @@
    "status": "HTTP 200"
   },
   {
+   "id": "fk_statistik",
+   "url": "https://www.forsakringskassan.se/statistik-och-analys",
+   "lankar": [
+    {
+     "id": "fk_statistik__statistik-sjukpenning-ansokningar-vecka",
+     "typ": "myndighet",
+     "url": "https://www.forsakringskassan.se/download/18.2bf3af9018425d7d4ad5c6/1668442272208/statistik-sjukpenning-ansokningar-vecka.xlsx",
+     "fil": "data/kallor/xlsx/fk_statistik__statistik-sjukpenning-ansokningar-vecka.xlsx",
+     "bytes": 27014,
+     "status": "ok"
+    },
+    {
+     "id": "fk_statistik__statistik-smittbararpenning-utbetalningar-ansokningar",
+     "typ": "myndighet",
+     "url": "https://www.forsakringskassan.se/download/18.2bf3af9018425d7d4ad5c7/1668442396613/statistik-smittbararpenning-utbetalningar-ansokningar.xlsx",
+     "fil": "data/kallor/xlsx/fk_statistik__statistik-smittbararpenning-utbetalningar-ansokningar.xlsx",
+     "bytes": 47192,
+     "status": "ok"
+    },
+    {
+     "id": "fk_statistik__statistik-graviditetspenning-ansokningar",
+     "typ": "myndighet",
+     "url": "https://www.forsakringskassan.se/download/18.2bf3af9018425d7d4ad5c1/1668442150519/statistik-graviditetspenning-ansokningar.xlsx",
+     "fil": "data/kallor/xlsx/fk_statistik__statistik-graviditetspenning-ansokningar.xlsx",
+     "bytes": 27738,
+     "status": "ok"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "migrationsverket",
+   "url": "https://www.migrationsverket.se/Om-Migrationsverket/Statistik.html",
+   "lankar": [
+    {
+     "id": "migrationsverket__Inkomna_ans__kningar_om_asyl",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.f09188f19bb7cf3a2aa58/1789467665519/Inkomna%20ans%C3%B6kningar%20om%20asyl.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Inkomna_ans__kningar_om_asyl.xlsx",
+     "bytes": 107526,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Avgjorda_asyl__renden",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.f09188f19bb7cf3a2aa52/1789467570901/Avgjorda%20asyl%C3%A4renden.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Avgjorda_asyl__renden.xlsx",
+     "bytes": 64359,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Beviljade_uppeh__llstillst__nd___versikt",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.f09188f19bb7cf3a2aa57/1789467665512/Beviljade%20uppeh%C3%A5llstillst%C3%A5nd%20%C3%B6versikt.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Beviljade_uppeh__llstillst__nd___versikt.xlsx",
+     "bytes": 68416,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Beviljade_uppeh__llstillst__nd_2025",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.2cd2e409193b84c506a2306a/1789468403224/Beviljade%20uppeh%C3%A5llstillst%C3%A5nd%202025.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Beviljade_uppeh__llstillst__nd_2025.xlsx",
+     "bytes": 68292,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Beviljade_uppeh__llstillst__nd_2024",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.2cd2e409193b84c506a33216/1789468346847/Beviljade%20uppeh%C3%A5llstillst%C3%A5nd%202024.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Beviljade_uppeh__llstillst__nd_2024.xlsx",
+     "bytes": 68380,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Beviljade_uppeh__llstillst__nd_2023",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.2cd2e409193b84c506a35393/1789468289374/Beviljade%20uppeh%C3%A5llstillst%C3%A5nd%202023.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Beviljade_uppeh__llstillst__nd_2023.xlsx",
+     "bytes": 68402,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Beviljade_uppeh__llstillst__nd_2022",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.2cd2e409193b84c506a3538d/1789468224346/Beviljade%20uppeh%C3%A5llstillst%C3%A5nd%202022.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Beviljade_uppeh__llstillst__nd_2022.xlsx",
+     "bytes": 68509,
+     "status": "ok"
+    },
+    {
+     "id": "migrationsverket__Beviljade_uppeh__llstillst__nd_2021",
+     "typ": "myndighet",
+     "url": "https://www.migrationsverket.se/download/18.2cd2e409193b84c506a3539a/1789468163913/Beviljade_uppeh%C3%A5llstillst%C3%A5nd_2021.xlsx",
+     "fil": "data/kallor/xlsx/migrationsverket__Beviljade_uppeh__llstillst__nd_2021.xlsx",
+     "bytes": 68295,
+     "status": "ok"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "arbetsformedlingen",
+   "url": "https://arbetsformedlingen.se/statistik",
+   "lankar": [
+    {
+     "id": "arbetsformedlingen__sokande-per-akassa-2026-08",
+     "typ": "myndighet",
+     "url": "https://arbetsformedlingen.se/download/18.2e617ee31a012d6c4f9353b/1789543517288/sokande-per-akassa-2026-08.xlsx",
+     "fil": "data/kallor/xlsx/arbetsformedlingen__sokande-per-akassa-2026-08.xlsx",
+     "bytes": 1798967,
+     "status": "ok"
+    },
+    {
+     "id": "arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2026-juni",
+     "typ": "myndighet",
+     "url": "https://arbetsformedlingen.se/download/18.28feed2519e47aff4a527f2/1781072408824/arbetsformedlingens-yrkesbarometer-2026-juni.xlsx",
+     "fil": "data/kallor/xlsx/arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2026-juni.xlsx",
+     "bytes": 1236602,
+     "status": "ok"
+    },
+    {
+     "id": "arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2025-september",
+     "typ": "myndighet",
+     "url": "https://arbetsformedlingen.se/download/18.162c5b27199507daaa7205c/1759213543692/arbetsformedlingens-yrkesbarometer-2025-september.xlsx",
+     "fil": "data/kallor/xlsx/arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2025-september.xlsx",
+     "bytes": 1027119,
+     "status": "ok"
+    },
+    {
+     "id": "arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2025-mars",
+     "typ": "myndighet",
+     "url": "https://arbetsformedlingen.se/download/18.4fc45bbd195b1bfebede7f/1742888605984/arbetsformedlingens-yrkesbarometer-2025-mars.xlsx",
+     "fil": "data/kallor/xlsx/arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2025-mars.xlsx",
+     "bytes": 762275,
+     "status": "ok"
+    },
+    {
+     "id": "arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2024-september",
+     "typ": "myndighet",
+     "url": "https://arbetsformedlingen.se/download/18.2a41ff5018dcf02917129cb/1727351528651/arbetsformedlingens-yrkesbarometer-2024-september.xlsx",
+     "fil": "data/kallor/xlsx/arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2024-september.xlsx",
+     "bytes": 777381,
+     "status": "ok"
+    },
+    {
+     "id": "arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2024-april",
+     "typ": "myndighet",
+     "url": "https://arbetsformedlingen.se/download/18.536b8c941922a9f4286adc/1727351639274/arbetsformedlingens-yrkesbarometer-2024-april.xlsx",
+     "fil": "data/kallor/xlsx/arbetsformedlingen__arbetsformedlingens-yrkesbarometer-2024-april.xlsx",
+     "bytes": 1033217,
+     "status": "ok"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "bra_kriminalstatistik",
+   "url": "https://bra.se/statistik/kriminalstatistik",
+   "lankar": [],
+   "status": "HTTP 404"
+  },
+  {
+   "id": "kriminalvarden",
+   "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
+   "lankar": [],
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7ff36864e0d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+  },
+  {
    "id": "val_radata_2026",
    "url": "https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026",
    "lankar": [
@@ -2138,18 +2346,11 @@
   }
  ],
  "fel": [
-  "riksdagen aggregera 2014/15: 'rost' (['2014/15', 'SfU2', '019135E3-6F23-4136-9252-3877406FB389', '6', 'Billström Tobias', '0956595590924', 'M', 'Malmö kommun', 'Ja', 'sakfrågan', '1', 'man', '1973', '2014-12-12'])",
-  "riksdagen aggregera 2015/16: 'rost' (['2015/16', 'JuU8', '0036EB69-7D72-4396-B47F-0FC83E09389F', '9', 'Magnus Manhammar', '025967059622', 'S', 'Blekinge län', 'Ja', 'sakfrågan', '14', 'man', '1980', '2015-11-18'])",
-  "riksdagen aggregera 2016/17: 'rost' (['2016/17', 'SoU10', '00ACAD6A-0CE9-4D33-9F5D-E7423A27AADB', '23', 'Solveig Zander', '0196077326617', 'C', 'Uppsala län', 'Avstår', 'sakfrågan', '29', 'kvinna', '1955', '2017-05-10'])",
-  "riksdagen aggregera 2017/18: 'rost' (['2017/18', 'MJU22', '002FB91D-64E8-4FE1-8F84-24F63B059387', '18', 'Agneta Gille', '0376867803913', 'S', 'Uppsala län', 'Ja', 'sakfrågan', '27', 'kvinna', '1956', '2018-06-20'])",
-  "riksdagen aggregera 2018/19: 'rost' (['2018/19', 'SfU11', '0069C0F4-729A-4970-96B0-56C306EC698C', '2', 'Adnan Dibrani', '0442629549320', 'S', 'Hallands län', 'Ja', 'sakfrågan', '40', 'man', '1985', '2018-11-21'])",
-  "riksdagen aggregera 2019/20: 'rost' (['2019/20', 'CU5', '0027A0A4-925A-4E95-9ECC-0D6EDFC4A5DD', '1', 'Solveig Zander', '0196077326617', 'C', 'Uppsala län', 'Ja', 'sakfrågan', '30', 'kvinna', '1955', '2019-11-28'])",
-  "riksdagen aggregera 2020/21: 'rost' (['2020/21', 'SoU34', '005072CF-DDB2-40B1-9243-A7E9B185F552', '2', 'Lotta Johnsson Fornarve', '0122987223112', 'V', 'Södermanlands län', 'Frånvarande', 'sakfrågan', '2.1', 'kvinna', '1956', '2021-05-05'])",
-  "riksdagen aggregera 2021/22: 'rost' (['2021/22', 'SfU20', '001DA5C6-DBC6-4895-9DC7-FF3D7941166C', '17', 'Barbro Westerholm', '0363228965800', 'L', 'Stockholms län', 'Ja', 'sakfrågan', '6', 'kvinna', '1933', '2022-04-28'])",
-  "riksdagen aggregera 2022/23: 'rost' (['2022/23', 'UU15', '008484EA-7970-4559-BEA7-E2F6454E7571', '5', 'Julia Kronlid', '0638497389621', 'SD', 'Stockholms län', 'Frånvarande', 'sakfrågan', '2', 'kvinna', '1980', '2023-05-10'])",
-  "riksdagen aggregera 2023/24: 'rost' (['2023/24', 'FöU7', '0005C5A0-9CD4-42BA-9C62-8FFF47BB688F', '4', 'Julia Kronlid', '0638497389621', 'SD', 'Stockholms län', 'Ja', 'sakfrågan', '2', 'kvinna', '1980', '2024-04-11'])",
-  "riksdagen aggregera 2024/25: 'rost' (['2024/25', 'SoU5', '00419725-4314-4903-BCB7-A9B056752B1B', '1', 'Mikael Damberg', '014744660015', 'S', 'Stockholms län', 'Ja', 'sakfrågan', '7', 'man', '1971', '2024-12-04'])",
-  "riksdagen aggregera 2025/26: 'rost' (['2025/26', 'JuU22', '00178723-112D-4742-8BE9-B606161A44DF', '2', 'Mikael Damberg', '014744660015', 'S', 'Stockholms län', 'Ja', 'sakfrågan', '7', 'man', '1971', '2026-01-28'])"
+  "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']",
+  "eurostat vantan hlth_silc_08: HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"QUANTILE\\\" is not defined\"}]}",
+  "eurostat elpris_hush nrg_pc_204: HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"PRODUCT\\\" is not defined\"}]}",
+  "wikidata KD: Q10549150 är inte ett svenskt objekt ([])",
+  "rss Omni : HTTP 404"
  ],
  "kolada": [
   {
@@ -2276,7 +2477,229 @@
    "id": "U07514",
    "namn": "Ekologiska livsmedel i kommunens verksamhet (%)",
    "rader": 4257
+  },
+  {
+   "id": "N00967",
+   "namn": "Sjukpenningtal (dagar per försäkrad)",
+   "rader": 1497
+  },
+  {
+   "id": "N00957",
+   "namn": "Ohälsotal (dagar per försäkrad)",
+   "rader": 4992
+  },
+  {
+   "id": "U31809",
+   "namn": "Långvarigt ekonomiskt bistånd (% av befolkningen)",
+   "rader": 3700
+  },
+  {
+   "id": "U31803",
+   "namn": "Barn i familjer med ekonomiskt bistånd (%)",
+   "rader": 4284
+  },
+  {
+   "id": "N28891",
+   "namn": "Personer med insatser enligt LSS (per 1 000 inv)",
+   "rader": 4028
+  },
+  {
+   "id": "N02797",
+   "namn": "Unga 20–24 år som varken arbetar eller studerar (%)",
+   "rader": 4680
+  },
+  {
+   "id": "N03939",
+   "namn": "Öppet arbetslösa och i program 18–24 år (%)",
+   "rader": 4992
+  },
+  {
+   "id": "N15031",
+   "namn": "Lärare med pedagogisk högskoleexamen, grundskola (%)",
+   "rader": 4364
+  },
+  {
+   "id": "N15509",
+   "namn": "Elever i åk 6 med godkänt nationellt prov i matematik (%)",
+   "rader": 3782
+  },
+  {
+   "id": "N20506",
+   "namn": "Återinskrivning inom 30 dagar, 65+ (%)",
+   "rader": 1742
+  },
+  {
+   "id": "U70447",
+   "namn": "Förtroende för hälso- och sjukvården (%)",
+   "rader": 220
+  },
+  {
+   "id": "N61603",
+   "namn": "Självmord (per 100 000 inv)",
+   "rader": 330
+  },
+  {
+   "id": "U01414",
+   "namn": "Invånare med bra självskattad hälsa (%)",
+   "rader": 2245
+  },
+  {
+   "id": "N70060",
+   "namn": "Nettokostnad hälso- och sjukvård (kr/inv)",
+   "rader": 350
+  },
+  {
+   "id": "U21402",
+   "namn": "Personalkontinuitet i hemtjänsten (antal personal på 14 dagar)",
+   "rader": 3127
+  },
+  {
+   "id": "U21468",
+   "namn": "Nöjdhet med hemtjänsten, helhetssyn (%)",
+   "rader": 3752
+  },
+  {
+   "id": "N20048",
+   "namn": "Kostnad äldreomsorg per invånare 80+ (kr)",
+   "rader": 4653
+  },
+  {
+   "id": "N23801",
+   "namn": "Invånare 80+ i särskilt boende (%)",
+   "rader": 4418
+  },
+  {
+   "id": "N07544",
+   "namn": "Anmälda narkotikabrott (per 100 000 inv)",
+   "rader": 4653
+  },
+  {
+   "id": "U07452",
+   "namn": "Anmälda skadegörelsebrott (per 100 000 inv)",
+   "rader": 4414
+  },
+  {
+   "id": "N07546",
+   "namn": "Anmälda bostadsinbrott (per 100 000 inv)",
+   "rader": 4436
+  },
+  {
+   "id": "U33779",
+   "namn": "Invånare som känner sig trygga (%)",
+   "rader": 93
+  },
+  {
+   "id": "N07907",
+   "namn": "Trångbodda (%)",
+   "rader": 4368
+  },
+  {
+   "id": "N03107",
+   "namn": "Kommunens resultat (% av skatt och bidrag)",
+   "rader": 4655
+  },
+  {
+   "id": "N03002",
+   "namn": "Soliditet inkl. pensionsförpliktelser (%)",
+   "rader": 4645
+  },
+  {
+   "id": "U07488",
+   "namn": "Andel förnybara drivmedel i kommunens fordon (%)",
+   "rader": 2226
+  },
+  {
+   "id": "U07480",
+   "namn": "Insamlat matavfall (%)",
+   "rader": 2911
+  },
+  {
+   "id": "N05400",
+   "namn": "Valdeltagande i kommunval (%)",
+   "rader": 4444
+  },
+  {
+   "id": "N05815",
+   "namn": "Kvinnor i kommunfullmäktige (%)",
+   "rader": 4648
   }
  ],
- "slut": "2026-09-28T10:35:13.840964+00:00"
+ "eurostat": [
+  {
+   "id": "mord",
+   "dataset": "crim_off_cat",
+   "rader": 85
+  },
+  {
+   "id": "polis",
+   "dataset": "crim_just_job",
+   "rader": 75
+  },
+  {
+   "id": "fangar",
+   "dataset": "crim_pris_pop",
+   "rader": 0
+  },
+  {
+   "id": "ordning_bnp",
+   "dataset": "gov_10a_exp",
+   "rader": 140
+  },
+  {
+   "id": "vardplatser",
+   "dataset": "hlth_rs_bds1",
+   "rader": 129
+  },
+  {
+   "id": "halsa_bnp",
+   "dataset": "gov_10a_exp",
+   "rader": 140
+  },
+  {
+   "id": "livslangd",
+   "dataset": "demo_mlexpec",
+   "rader": 148
+  },
+  {
+   "id": "fornybart",
+   "dataset": "nrg_ind_ren",
+   "rader": 131
+  },
+  {
+   "id": "importberoende",
+   "dataset": "nrg_ind_id",
+   "rader": 150
+  },
+  {
+   "id": "forsvar_bnp",
+   "dataset": "gov_10a_exp",
+   "rader": 140
+  },
+  {
+   "id": "syss_utrikes",
+   "dataset": "lfsa_ergacob",
+   "rader": 154
+  },
+  {
+   "id": "syss_inrikes",
+   "dataset": "lfsa_ergacob",
+   "rader": 154
+  },
+  {
+   "id": "asyl",
+   "dataset": "migr_asyappctza",
+   "rader": 91
+  },
+  {
+   "id": "befolkning",
+   "dataset": "demo_gind",
+   "rader": 162
+  },
+  {
+   "id": "arbetsloshet",
+   "dataset": "une_rt_a",
+   "rader": 106
+  }
+ ],
+ "slut": "2026-09-28T12:40:32.909227+00:00"
 }
