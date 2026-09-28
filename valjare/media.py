@@ -27,24 +27,39 @@ from media_katalog import OMNAMNANDE
 PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
 
 
-def foljare(mapp: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
+AKTUELL_DAGAR = 365   # äldre följarvärden visas inte som aktuella
+
+
+def foljare(mapp: Path, idag: pd.Timestamp | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Alla daterade följarvärden (egna mätningar och Wikidata) och det senaste per konto och plattform.
+    Egna mätningar (foljare_matt.csv) går före Wikidata samma dag. Värden äldre än AKTUELL_DAGAR räknas
+    inte som aktuella och hamnar inte i "nu"."""
+    delar = []
+    f = mapp / "foljare_matt.csv"
+    if f.exists():
+        m = pd.read_csv(f)
+        if len(m):
+            delar.append(m.assign(kalla="mätt"))
     f = mapp / "foljare.csv"
-    if not f.exists():
+    if f.exists():
+        try:
+            w = pd.read_csv(f)
+        except pd.errors.EmptyDataError:
+            w = pd.DataFrame()
+        if len(w):
+            w = w[w.rang.fillna("normal") != "deprecated"]
+            delar.append(w.assign(kalla="Wikidata"))
+    if not delar:
         return pd.DataFrame(), pd.DataFrame()
-    try:
-        d = pd.read_csv(f)
-    except pd.errors.EmptyDataError:
-        return pd.DataFrame(), pd.DataFrame()
-    if d.empty:
-        return d, d
-    d = d[d.rang.fillna("normal") != "deprecated"].dropna(subset=["datum", "foljare"])
-    d["datum"] = pd.to_datetime(d.datum, errors="coerce")
-    d = d.dropna(subset=["datum"]).sort_values("datum")
-    nu = d.groupby(["parti", "roll", "namn", "plattform"]).tail(1).reset_index(drop=True)
-    # Wikidata uppdateras ojämnt: värden mer än tre år äldre än det senaste jämförs inte (t.ex. ett
-    # konto från 2018 mot ett från 2025)
-    nu = nu[nu.datum >= nu.datum.max() - pd.DateOffset(years=3)].reset_index(drop=True)
-    return d, nu
+    d = pd.concat(delar, ignore_index=True).dropna(subset=["datum", "foljare"])
+    d["datum"] = pd.to_datetime(d.datum, errors="coerce", utc=True).dt.tz_localize(None).dt.normalize()
+    d = d.dropna(subset=["datum"])
+    d["prio"] = (d.kalla == "mätt").astype(int)
+    d = d.sort_values(["datum", "prio"])
+    nu = d.groupby(["parti", "roll", "plattform"]).tail(1)
+    idag = pd.Timestamp.now().normalize() if idag is None else pd.Timestamp(idag)
+    nu = nu[nu.datum >= idag - pd.Timedelta(days=AKTUELL_DAGAR)].reset_index(drop=True)
+    return d.drop(columns="prio").reset_index(drop=True), nu.drop(columns="prio")
 
 
 def _veckor(d: pd.Series) -> pd.Series:

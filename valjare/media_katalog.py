@@ -96,3 +96,78 @@ SAKORD = {
     "jamstalldhet": r"\b(?:jämställd\w*|mäns våld|kvinnofrid\w*|feminis\w*)",
     "forsvar": r"\b(?:försvar\w*|nato|militär\w*|värnplikt\w*|totalförsvar\w*)",
 }
+
+# Konton som inte finns i Wikidata (kontrollerade 2026-09-28: partiets eller ledarens namn, verifierat konto
+# där TikTok visar det). Wikidata är förstahandskällan; de här läggs till.
+KONTON_EXTRA = [
+    ("S", "parti", "TikTok", "socialdemokraternas"),
+    ("SD", "parti", "TikTok", "sverigedemokraterna"),
+    ("M", "parti", "TikTok", "moderaterna"),
+    ("V", "parti", "TikTok", "vansterpartiet"),
+    ("KD", "parti", "TikTok", "kristdemokraterna"),
+    ("MP", "parti", "TikTok", "miljopartietdegrona"),
+    ("SD", "partiledare", "TikTok", "jimmieakesson"),
+    ("M", "partiledare", "TikTok", "ulfkristersson"),
+    ("KD", "partiledare", "TikTok", "buschebba"),
+    ("V", "partiledare", "TikTok", "nooshidadgostar"),
+    ("L", "partiledare", "TikTok", "smohamsson"),
+]
+
+# Wikidata-egenskaper med kontonamn per plattform
+KONTO_EGENSKAP = {"P2002": "X", "P2003": "Instagram", "P7085": "TikTok", "P2397": "YouTube",
+                  "P12361": "Bluesky", "P2013": "Facebook", "P11892": "Threads", "P4033": "Mastodon"}
+# Plattformar där följarantalet går att läsa utan inloggning eller betald API-nyckel
+MATBARA = ("YouTube", "TikTok", "Bluesky", "Mastodon")
+
+# Medieanvändning i befolkningen (Nordicom, Mediebarometern 2025). Siffrorna är avskrivna ur Nordicoms
+# seminariebilder 5 maj 2026 (samma undersökning som rapporten) och kontrollerade mot dem.
+MEDIEBAROMETERN = {
+    "ar": 2025, "n": 6004, "alder": "9–85 år",
+    "kalla": "Nordicom, Mediebarometern 2025 (Falk, 2026), seminariet 5 maj 2026",
+    "url": "https://www.nordicom.gu.se/sv/publikationer/mediebarometern-2025",
+    # (medium, daglig räckvidd %, förändring mot 2024 i procentenheter)
+    "rackvidd": [("Rörlig bild (tv, strömmat, YouTube)", 95, -1), ("Sociala medier", 84, 0),
+                 ("Radio och podcast", 76, -2), ("Inspelad musik", 64, 1), ("Dagstidning", 60, -6),
+                 ("Bok", 49, -2)],
+    # "Mediedieter" en vanlig dag, befolkningen 9–79 år (procent)
+    "dieter": {"kategorier": ["Nyheter + underhållning + sociala medier", "Underhållning + sociala medier, inga nyheter",
+                              "Nyheter + underhållning", "Enbart nyheter", "Enbart underhållning", "Inga medier"],
+               "1997": [0, 0, 33, 55, 6, 7], "2025": [74, 18, 6, 1, 1, 0]},
+    "nyheter_dag": {"Hela befolkningen": (88, 81), "Unga vuxna": (76, 63)},   # 1997, 2025
+}
+
+# Nyhetsvanor om politik efter ålder (SOM-institutet, Andersson 2025, s. 30): andel som minst tre dagar i veckan
+# tar del av nyheter om politik, 2024
+POLITIKNYHETER_ALDER = {"kalla": "Andersson, U. (2025). Svenska nyhetsvanor 2005–2024. Mediemyndigheten/SOM-institutet",
+                        "url": "https://mediemyndigheten.se/rapporter-och-analyser/svenska-nyhetsvanor/",
+                        "v": [("16–29 år", 40), ("30–49 år", 59), ("50–64 år", 69), ("65 år–", 72)]}
+
+# Forskning om partiernas egen nyhetsproduktion och den hybrida politiska kommunikationen
+FORSKNING = [
+    {"titel": "Den politiska kommunikationens hybridisering: Politiserade nyhetsformat och journalistikens gränser",
+     "vem": "Andreas Widholm (projektledare) och Mattias Ekman, Stockholms universitet",
+     "typ": "Forskningsprojekt, Riksbankens Jubileumsfond P21-0158 (2 906 000 kr)",
+     "url": "https://www.rj.se/bidrag/2021/den-politiska-kommunikationens-hybridisering-politiserade-nyhetsformat-och-journalistikens-granser/",
+     "fynd": ["Partierna producerade egna nyhetsformat i valrörelsen 2022: Socialdemokraternas Morgon-Tidningen "
+              "(AiP Media), Sverigedemokraternas Youtubekanal Riks, Miljöpartiets nyhetstalkshow Tjugotjugotvå och "
+              "Moderaternas lokala initiativ.",
+              "Formaten spreds främst via Facebook, Instagram, TikTok och YouTube, inte via egna nyhetssajter.",
+              "Partierna var olika öppna med vem som stod bakom innehållet; Riks beskrevs som konservativ "
+              "nyhetsproduktion utan partibeteckning.",
+              "Sverigedemokraterna var betydligt mer effektiva än andra partier i att skapa engagemang i sociala "
+              "medier, med både organisk spridning och riktade kampanjer."]},
+    {"titel": "Parasitic news: Adoption and adaption of journalistic conventions in hybrid political communication",
+     "vem": "Ekman, M. & Widholm, A. (2024)", "typ": "Journalism: Theory, Practice & Criticism",
+     "url": "https://doi.org/10.1177/14648849221136940",
+     "fynd": ["Begreppet parasitiska nyheter: partier och politiker lånar journalistikens former för att nå väljare "
+              "när nyhetsinstitutionerna inte längre är självklara mellanhänder.",
+              "Analysramen har fem dimensioner: ideologisk öppenhet, alternativitet, nyhetsgenrer, individuell "
+              "eller kollektiv medieproduktion och sociala mediers möjligheter. Formen används från höger till vänster."]},
+    {"titel": "Political communication as television news: Party-produced news of the Sweden Democrats during the "
+              "2022 election campaign",
+     "vem": "Ekman, M. & Widholm, A. (2024)", "typ": "Nordicom Review 45(s1), 66–91",
+     "url": "https://doi.org/10.2478/nor-2024-0008",
+     "fynd": ["Alla videor som Riks publicerade de fyra sista veckorna före valet 2022 blandar beskrivande, tolkande "
+              "och upprörda genrer och ramar in valrörelsens viktigaste frågor till partiets fördel.",
+              "Riks döljer kopplingen till partiet och är det mest utvecklade exemplet på parasitiska nyheter i Sverige."]},
+]

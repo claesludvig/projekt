@@ -659,12 +659,24 @@ def _wd_entitet(qid: str) -> dict:
 
 
 def _wd_etikett(ent: dict) -> str:
-    lab = ent.get("labels", {})
-    return (lab.get("sv") or lab.get("en") or {}).get("value", ent.get("id", ""))
+    lab = ent.get("labels", {})   # "mul" är Wikidatas flerspråkiga standardetikett
+    return (lab.get("sv") or lab.get("mul") or lab.get("en") or next(iter(lab.values()), {})).get("value", ent.get("id", ""))
 
 
 def _wd_svwiki(ent: dict) -> str | None:
     return ent.get("sitelinks", {}).get("svwiki", {}).get("title")
+
+
+def wd_konton(ent: dict) -> list[dict]:
+    """Kontonamn per plattform (ej föråldrade påståenden)."""
+    from media_katalog import KONTO_EGENSKAP
+    ut = []
+    for pid, plattform in KONTO_EGENSKAP.items():
+        for c in ent.get("claims", {}).get(pid, []):
+            v = c.get("mainsnak", {}).get("datavalue", {}).get("value")
+            if c.get("rank") != "deprecated" and isinstance(v, str):
+                ut.append({"plattform": plattform, "konto": v, "rang": c.get("rank")})
+    return ut
 
 
 def wd_foljare(ent: dict) -> list[dict]:
@@ -705,7 +717,7 @@ def wd_ordforande(ent: dict) -> list[str]:
 def hamta_wikidata():
     from media_katalog import PARTI_WIKI
     MEDIA_DIR.mkdir(parents=True, exist_ok=True)
-    rader, objekt = [], []
+    rader, objekt, konton = [], [], []
     for parti, sidor in PARTI_WIKI.items():
         try:
             # Första artikeln som leder till ett svenskt objekt (sv:Kristdemokraterna är en förgreningssida)
@@ -727,17 +739,101 @@ def hamta_wikidata():
             objekt.append({"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent), "svwiki": _wd_svwiki(ent)})
             rader += [{"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent), **f}
                       for f in wd_foljare(ent)]
+            konton += [{"parti": parti, "roll": "parti", "namn": _wd_etikett(ent), **k} for k in wd_konton(ent)]
             for lq in wd_ordforande(ent)[:1]:
                 le = _wd_entitet(lq)
                 objekt.append({"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le),
                                "svwiki": _wd_svwiki(le)})
                 rader += [{"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le), **f}
                           for f in wd_foljare(le)]
+                konton += [{"parti": parti, "roll": "partiledare", "namn": _wd_etikett(le), **k} for k in wd_konton(le)]
             print(f"  Wikidata {parti}: {qid}, {sum(1 for r in rader if r['parti'] == parti)} följarvärden")
         except Exception as exc:  # noqa: BLE001
             logg["fel"].append(f"wikidata {parti}: {exc}")
     pd.DataFrame(rader).to_csv(MEDIA_DIR / "foljare.csv", index=False)
     pd.DataFrame(objekt).to_csv(MEDIA_DIR / "wikidata_objekt.csv", index=False)
+    if konton:
+        pd.DataFrame(konton).to_csv(MEDIA_DIR / "konton.csv", index=False)
+
+
+WEBBLASARE = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/124 Safari/537.36", "Accept-Language": "sv-SE,sv;q=0.9"}
+
+
+def _tal_sv(t: str) -> int | None:
+    """'107 000', '1,2 mn', '95,2 tn' -> heltal."""
+    m = re.search(r"([\d\s\u00a0\u202f.,]+)\s*(mn|milj|tn|k|K|M)?", t)
+    if not m:
+        return None
+    x = float(re.sub(r"[\s\u00a0\u202f]", "", m[1]).replace(",", "."))
+    return int(round(x * {"mn": 1e6, "milj": 1e6, "M": 1e6, "tn": 1e3, "k": 1e3, "K": 1e3}.get(m[2] or "", 1)))
+
+
+def _foljare_youtube(kanal: str) -> tuple[int | None, bool | None]:
+    r = http("GET", f"https://www.youtube.com/channel/{kanal}", headers=WEBBLASARE,
+             cookies={"SOCS": "CAI", "CONSENT": "YES+1"})
+    m = re.search(r'"content":"([^"]*?)\s*prenumeranter"', r.text) or re.search(r'"content":"([^"]*?)\s*subscribers"', r.text)
+    return (_tal_sv(m[1]) if m else None), None
+
+
+def _foljare_tiktok(konto: str) -> tuple[int | None, bool | None]:
+    r = http("GET", f"https://www.tiktok.com/@{konto}", headers=WEBBLASARE)
+    m = re.search(r'<script id="__UNIVERSAL_DATA_FOR_REHYDRATION__"[^>]*>(.*?)</script>', r.text, re.S)
+    if not m:
+        return None, None
+    u = json.loads(m[1]).get("__DEFAULT_SCOPE__", {}).get("webapp.user-detail", {}).get("userInfo", {})
+    if (u.get("user", {}).get("uniqueId") or "").lower() != konto.lower():
+        return None, None
+    return u.get("stats", {}).get("followerCount"), bool(u.get("user", {}).get("verified"))
+
+
+def _foljare_bluesky(konto: str) -> tuple[int | None, bool | None]:
+    r = http("GET", "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile", params={"actor": konto})
+    return (r.json().get("followersCount") if r.status_code == 200 else None), None
+
+
+def _foljare_mastodon(konto: str) -> tuple[int | None, bool | None]:
+    namn, _, server = konto.lstrip("@").partition("@")
+    r = http("GET", f"https://{server}/api/v1/accounts/lookup", params={"acct": namn})
+    return (r.json().get("followers_count") if r.status_code == 200 else None), None
+
+
+def hamta_foljare_matt():
+    """Mäter följarantalet i dag för partiernas och partiledarnas konton på de plattformar som går att läsa
+    utan inloggning (media_katalog.MATBARA). Kontona kommer från Wikidata (konton.csv) och KONTON_EXTRA.
+    Varje körning lägger till en rad per konto i foljare_matt.csv, så att en egen tidsserie byggs upp.
+    Instagram, Facebook, Threads och X kräver inloggning eller betald åtkomst och mäts inte."""
+    from media_katalog import KONTON_EXTRA, MATBARA
+    f = MEDIA_DIR / "konton.csv"
+    k = pd.read_csv(f) if f.exists() else pd.DataFrame(columns=["parti", "roll", "namn", "plattform", "konto"])
+    namn = k.drop_duplicates(["parti", "roll"]).set_index(["parti", "roll"]).namn.to_dict()
+    extra = pd.DataFrame([{"parti": p, "roll": r, "plattform": pl, "konto": ko, "namn": namn.get((p, r))}
+                          for p, r, pl, ko in KONTON_EXTRA])
+    k = pd.concat([k, extra], ignore_index=True)
+    k = k[k.plattform.isin(MATBARA)].copy()
+    k["nyckel"] = k.konto.astype(str).str.lower()
+    k = k.drop_duplicates(["parti", "roll", "plattform", "nyckel"])
+    las = {"YouTube": _foljare_youtube, "TikTok": _foljare_tiktok, "Bluesky": _foljare_bluesky,
+           "Mastodon": _foljare_mastodon}
+    idag, rader = datetime.now(timezone.utc).strftime("%Y-%m-%d"), []
+    for r in k.itertuples():
+        try:
+            n, verifierad = las[r.plattform](str(r.konto))
+            if n is None:
+                raise RuntimeError("inget följarantal i svaret")
+            rader.append({"datum": idag, "parti": r.parti, "roll": r.roll, "namn": r.namn, "plattform": r.plattform,
+                          "konto": r.konto, "foljare": int(n), "verifierad": verifierad})
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"följare {r.parti} {r.roll} {r.plattform} {r.konto}: {exc}")
+        time.sleep(1)
+    ut = MEDIA_DIR / "foljare_matt.csv"
+    gammal = pd.read_csv(ut) if ut.exists() else pd.DataFrame()
+    ny = pd.DataFrame(rader)
+    if len(ny):
+        d = pd.concat([gammal[gammal.datum != idag] if len(gammal) else gammal, ny], ignore_index=True)
+        d.to_csv(ut, index=False)
+    logg["foljare_matt"] = {"konton": len(k), "matta": len(rader)}
+    print(f"  Följare mätta: {len(rader)} av {len(k)} konton")
 
 
 WIKIMEDIA = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/sv.wikipedia/all-access/user"
@@ -1284,6 +1380,7 @@ def main():
         hamta_riksdag_aktivitet(a.tvinga)
     if a.steg in ("alla", "vecka", "media"):
         hamta_wikidata()
+        hamta_foljare_matt()
         hamta_rss()
     if a.steg in ("alla", "vecka"):
         hamta_wikipedia_visningar()

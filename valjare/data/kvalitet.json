@@ -2,7 +2,7 @@
  "skapad": "2026-09-28",
  "status": "varning",
  "antal": {
-  "ok": 201,
+  "ok": 203,
   "varning": 3
  },
  "kontroller": [
@@ -912,6 +912,14 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "norden_fangar",
+   "beskrivning": "Eurostat: Intagna i fängelse per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "norden_fornybart",
    "beskrivning": "Eurostat: Förnybar energi, % av slutlig användning",
    "status": "ok",
@@ -1000,6 +1008,14 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "norden_vantan",
+   "beskrivning": "Eurostat: Avstått från vård på grund av väntetid (%, 16+)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "norden_vardplatser",
    "beskrivning": "Eurostat: Vårdplatser på sjukhus per 100 000 inv",
    "status": "ok",
@@ -1019,16 +1035,16 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "512 artiklar i 7 flöden",
-   "varde": 512.0
+   "detalj": "518 artiklar i 7 flöden",
+   "varde": 518.0
   },
   {
    "grupp": "aktualitet",
    "id": "wikidata_foljare",
    "beskrivning": "Följarantal från Wikidata",
    "status": "ok",
-   "detalj": "14 konton med följarantal",
-   "varde": 14.0
+   "detalj": "26 konton med följarantal",
+   "varde": 26.0
   },
   {
    "grupp": "aktualitet",
@@ -1411,16 +1427,16 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "63 rader (förra 63)",
-   "varde": 63.0
+   "detalj": "89 rader (förra 89)",
+   "varde": 89.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "14 rader (förra 14)",
-   "varde": 14.0
+   "detalj": "26 rader (förra 26)",
+   "varde": 26.0
   },
   {
    "grupp": "volym",
@@ -1435,7 +1451,7 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "208 rader (förra 207)",
+   "detalj": "208 rader (förra 208)",
    "varde": 208.0
   },
   {
@@ -1459,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "0 rader (förra 0)",
-   "varde": 0.0
+   "detalj": "2059 rader (förra 0)",
+   "varde": 2059.0
   },
   {
    "grupp": "volym",
@@ -1483,8 +1499,8 @@
    "id": "rader_media_rd_aktivitet",
    "beskrivning": "Tabell media_rd_aktivitet",
    "status": "ok",
-   "detalj": "0 rader (förra 0)",
-   "varde": 0.0
+   "detalj": "104 rader (förra 0)",
+   "varde": 104.0
   },
   {
    "grupp": "volym",
@@ -1499,8 +1515,8 @@
    "id": "rader_norden",
    "beskrivning": "Tabell norden",
    "status": "ok",
-   "detalj": "2264 rader (förra 2264)",
-   "varde": 2264.0
+   "detalj": "2448 rader (förra 2264)",
+   "varde": 2448.0
   },
   {
    "grupp": "volym",
@@ -1539,8 +1555,8 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "15 rader (förra 15)",
-   "varde": 15.0
+   "detalj": "17 rader (förra 17)",
+   "varde": 17.0
   },
   {
    "grupp": "rimlighet",
@@ -1619,7 +1635,7 @@
    "id": "norden_sverige",
    "beskrivning": "Sverige finns i alla nordiska serier",
    "status": "ok",
-   "detalj": "17 serier",
+   "detalj": "19 serier",
    "varde": null
   },
   {

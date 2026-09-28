@@ -40,6 +40,11 @@ LICENSER = [
     ("GDELT DOC 2.0 (nyhetsomnämnanden och ton)", "The GDELT Project", "oppen",
      "Fri användning med källhänvisning till GDELT. Artiklarna själva återpubliceras inte, bara antal och ton.",
      "https://www.gdeltproject.org/about.html#termsofuse"),
+    ("Mediebarometern", "Nordicom, Göteborgs universitet", "citat",
+     "Enstaka värden citeras med källhänvisning (daglig räckvidd per medium, mediedieter).",
+     "https://www.nordicom.gu.se/sv/fakta-analys/mediebarometern"),
+    ("Svenska nyhetsvanor (SOM-institutet)", "Mediemyndigheten", "citat",
+     "Enstaka värden citeras med källhänvisning.", "https://mediemyndigheten.se/rapporter-och-analyser/svenska-nyhetsvanor/"),
     ("SVT:s vallokalsundersökning (Valu)", "SVT", "avstamning",
      "Rapporterna är upphovsrättsskyddade. Databasen återpublicerar tabeller per väljargrupp 1991–2026; "
      "begär tillstånd innan sidan sprids.", "https://omoss.svt.se/"),
