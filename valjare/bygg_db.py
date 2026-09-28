@@ -33,6 +33,7 @@ import valdistrikt as vdm
 import fragor
 import metod
 import lagesbild
+import riksdag
 import valkrets
 import verklighet
 from verklighet_katalog import FRAGOR, mal
@@ -677,6 +678,7 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
     ut.update(webb_region(tabeller))
     ut.update(webb_valkrets(tabeller))
     ut.update(webb_lage(tabeller))
+    ut.update(webb_riksdag(tabeller))
     ut["evidens"] = {e[0]: {"avsnitt": e[1], "niva": e[2], "niva_text": metod.NIVAER[e[2]],
                             "sager": e[3], "sager_inte": e[4]} for e in metod.EVIDENS}
     kv = tabeller["kontroll"]
@@ -856,6 +858,60 @@ def webb_valkrets(t: dict[str, pd.DataFrame]) -> dict:
     return {"valkrets": ut}
 
 
+def webb_riksdag(t: dict[str, pd.DataFrame]) -> dict:
+    ut = {}
+    op = t.get("opinion", pd.DataFrame())
+    ft = riksdag.fortroende(op)
+    if len(ft):
+        ut["fortroende"] = {s: {int(a): _r(x) for a, x in zip(d.ar, d.andel)} for s, d in ft.groupby("serie")}
+    of, ob = t.get("opinion_forslag", pd.DataFrame()), t.get("opinion_beslut", pd.DataFrame())
+    if len(of):
+        lista = []
+        for oid, d in of.groupby("id", sort=False):
+            b = ob[ob.id == oid].sort_values("datum", ascending=False) if len(ob) else pd.DataFrame()
+            lista.append({"id": oid, "forslag": d.forslag.iloc[0], "fraga": d.fraga.iloc[0],
+                          "v": {int(a): _r(x) for a, x in zip(d.ar, d.andel)},
+                          "n": int(len(b)),
+                          "beslut": [{"titel": r.titel, "datum": r.datum, "url": r.url, "bet": r.betankande,
+                                      "ja": None if pd.isna(getattr(r, "ja", np.nan)) else int(r.ja),
+                                      "nej": None if pd.isna(getattr(r, "nej", np.nan)) else int(r.nej),
+                                      "utfall": getattr(r, "utfall", None) if isinstance(getattr(r, "utfall", None), str) else None,
+                                      "pos": {p: getattr(r, f"p_{p}", None) for p in PARTIER
+                                              if isinstance(getattr(r, f"p_{p}", None), str)}}
+                                     for r in b.head(8).itertuples()]})
+        ut["opinion"] = lista
+    ak = t.get("riksdag_aktivitet", pd.DataFrame())
+    if len(ak):
+        rm = sorted(ak.rm.unique())
+        ut["rd_aktivitet"] = {"rm": rm, "v": {f: [int(x) for x in d.set_index("rm").get("propositioner", pd.Series(dtype=float)).reindex(rm).fillna(0)]
+                                               for f, d in ak.groupby("fraga")}}
+    ss = t.get("riksdag_samstammighet", pd.DataFrame())
+    if len(ss):
+        ut["rd_samst"] = {per: {"n": int(d.n.max()), "m": [[_r(d[(d.parti_a == a) & (d.parti_b == b)].andel_lika.mean())
+                                                           for b in PARTIER] for a in PARTIER]}
+                          for per, d in ss.groupby("period")}
+    pf = t.get("riksdag_parti_fraga", pd.DataFrame())
+    if len(pf):
+        ut["rd_parti_fraga"] = {per: {f: {r.parti: _r(r.andel_vinnande) for r in dd.itertuples()}
+                                      for f, dd in d.groupby("fraga")} for per, d in pf.groupby("period")}
+    dok = t.get("riksdag_dokument", pd.DataFrame())
+    if len(dok):
+        pr = dok[dok.doktyp == "prop"].assign(fraga=lambda x: x.fragor.fillna("").str.split(",")).explode("fraga")
+        pr = pr[pr.fraga != ""].sort_values("datum", ascending=False)
+        ut["rd_prop"] = {f: [{"titel": r.titel, "datum": r.datum, "url": r.url, "rm": r.rm, "bet": r.beteckning}
+                             for r in d.head(15).itertuples()] for f, d in pr.groupby("fraga")}
+    led = t.get("riksdag_ledamot", pd.DataFrame())
+    if len(led) and "valkrets" in led:
+        per_rm = led.groupby("rm").voteringar.max()
+        rm = max((r for r, n in per_rm.items() if n >= 50), default=None)
+        if rm:
+            l = led[(led.rm == rm) & led.parti.isin(PARTIER)].sort_values(["valkrets", "parti", "namn"])
+            ut["rd_ledamot"] = {"rm": rm, "v": {k: [{"namn": r.namn, "parti": r.parti, "narvaro": _r(r.narvaro),
+                                                     "n": int(r.voteringar)} for r in d.itertuples()]
+                                                for k, d in l.groupby("valkrets")}}
+    return ut
+
+
 def webb_lage(t: dict[str, pd.DataFrame]) -> dict:
     lb = t.get("lagesbild", pd.DataFrame())
     if lb.empty:
@@ -924,6 +980,9 @@ def main():
     print("Lägesbild")
     lb, lb_serie, _ = lagesbild.bygg(scb, katalog(), pol, kpi, DATA_DIR)
     print(f"  {len(lb)} serier: " + ", ".join(f"{r.id} ({r.status})" for r in lb.itertuples()))
+    print("Riksdagen och opinionen")
+    rd = riksdag.bygg(DATA_DIR, KALL_DIR)
+    print("  " + ", ".join(f"{k} {len(v)}" for k, v in rd.items()))
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -944,7 +1003,7 @@ def main():
         "test_bilar": t_bil, "test_skjutningar": t_skj,
         "verklighet": verk, "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
-        **vk, "lagesbild": lb, "lagesbild_serie": lb_serie,
+        **vk, **rd, "lagesbild": lb, "lagesbild_serie": lb_serie,
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),

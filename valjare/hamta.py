@@ -643,7 +643,8 @@ def hamta_riksdagen(tvinga: bool = False):
                        if x.stat().st_size > 50], ignore_index=True)
     nya = []
     for pid, rm in zip(props.dok_id, props.rm):
-        if pid in klara or not isinstance(pid, str):
+        # Bara mandatperioderna från 2018 används i kopplingen till opinionen
+        if pid in klara or not isinstance(pid, str) or str(rm)[:4] < "2018":
             continue
         try:
             j = http("GET", f"{RD_API}/dokumentstatus/{pid}.json").json().get("dokumentstatus", {})

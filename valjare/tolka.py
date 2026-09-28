@@ -380,6 +380,42 @@ def som_samhallsproblem(txt: Path, kalla_id: str) -> pd.DataFrame:
     return pd.DataFrame(rader)
 
 
+def som_asikter(txt: Path, kalla_id: str) -> pd.DataFrame:
+    """Senaste värdet för varje linje i Svenska trenders diagram (åsikter om förslag,
+    förtroende, oro m.m.). Rapporten har bara diagram; värdet för det sista året står
+    utskrivet vid linjens slut, i högermarginalen. Etiketter som bryts fortsätter
+    på raderna under."""
+    rader = []
+    sidor = re.split(r"===== sida (\d+) =====", txt.read_text(encoding="utf-8"))
+    for sidnr, sida in zip(sidor[1::2], sidor[2::2]):   # kolumnerna behövs: inga hopslagna mellanrum
+        text = sida.splitlines()
+        kal = re.search(r"SOM-undersökningen (\d{4})[–-](\d{4})", sida)
+        if not kal:
+            continue
+        rubrik = next((re.sub(r"\s+", " ", r).strip() for r in text
+                       if re.fullmatch(r"\s*([A-ZÅÄÖ\-/,()]{2,}\s+)+[A-ZÅÄÖ\-/,()]{2,}\s*", r)
+                       and not re.search(r"SOM|GU", r)), "")
+        fraga = re.search(r'förslag\? ?-"?([^"]+)"', " ".join(t.strip() for t in text))
+        etiketter, sist = [], None
+        for r in text:
+            hoger = r[75:] if len(r) > 75 else ""
+            if re.search(r"\bÅr\b|Frågeformulering|Källa|info@|\d{4} \d{4}", hoger):
+                if etiketter:
+                    break
+                continue
+            m = re.match(r"^\s*(\d{1,3}) ([A-ZÅÄÖa-zåäö].*?)\s*$", hoger)
+            if m and "ormulering" not in m[2]:
+                etiketter.append([int(m[1]), m[2]])
+                sist = len(etiketter) - 1
+            elif sist is not None and hoger.strip() and not re.match(r"^\s*\d", hoger):
+                etiketter[sist][1] += " " + hoger.strip()
+        for v, namn in etiketter:
+            rader.append({"kalla": kalla_id, "sida": int(sidnr), "ar": int(kal[2]), "forsta_ar": int(kal[1]),
+                          "rubrik": rubrik.capitalize(), "fraga": fraga[1].strip() if fraga else None,
+                          "serie": re.sub(r"\s+", " ", namn), "andel": float(v)})
+    return pd.DataFrame(rader)
+
+
 # ---------- Polisen: skjutningar och sprängningar ----------
 
 MANAD = {m: i + 1 for i, m in enumerate(

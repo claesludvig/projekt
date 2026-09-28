@@ -46,6 +46,11 @@ EVIDENS = [
      "Valkretsens nivå och utveckling jämfört med riket, i officiell statistik.",
      "Orsaker. Värden som bara finns per län eller polisregion anges som sådana; "
      "för delade län är de inte valkretsens egna."),
+    ("riksdag", "Politikens svar", "beskrivande",
+     "Vad riksdagen har beslutat i varje sakfråga, hur partierna röstade och vad opinionen tycker om förslag i samma sak.",
+     "Om besluten orsakade utvecklingen eller om de gick i opinionens riktning; kopplingen mellan förslag, "
+     "beslut och sakfråga bygger på ord i rubriken och på utskottet och kan både missa och felklassa ärenden. "
+     "SOM-värdena är andelen som tycker att förslaget är bra, inte en majoritetsomröstning."),
     ("sammansattning", "Vilka röstar på partierna", "beskrivande",
      "Hur partiernas väljare fördelar sig på grupper enligt Valforskningsprogrammet och PSU.",
      "PSU mäter sympati i maj/november, inte röster. Gruppernas storlek i PSU är skattad "

@@ -15,6 +15,12 @@ Sidan `index.html` börjar med två avsnitt för den som ska fatta beslut:
    valdeltagandeklyftan mellan distrikten och ett 40-tal indikatorer mot riket och de andra
    valkretsarna.
 
+3. **Politikens svar**: riksdagens propositioner, betänkanden och voteringar sedan 2014
+   (data.riksdagen.se) kopplade till sakfrågorna; hur ofta partierna röstar lika; SOM-institutets
+   förslag (andel som tycker att förslaget är bra, 2022 och 2025) bredvid riksdagens beslut i
+   samma sak och partiernas röster; förtroende för riksdag, regering och partier. Kopplingen
+   görs med ord i rubriken och utskott (`riksdag_katalog.py`).
+
 Därefter följer väljaranalysen (sammansättning per parti, skiftet sedan 2006, Valu,
 kommunsamband, län, valdistrikt, sakfrågor och verklighet, NTU).
 
@@ -46,6 +52,8 @@ Riktning och målnivå anges bara där riksdagen, lagen, Riksbanken eller ett in
 | Kolada (RKA) | Verklighetsindikatorer per kommun/region: väntetider i vården, skolresultat, äldreomsorg, anmälda brott, långtidsarbetslöshet, ekonomiskt bistånd, låg ekonomisk standard, skattesats, utsläpp, bostadsbyggande, inkomstskillnader | 2006– |
 | SCB (AKU, BNP, bostäder, invandring, medellivslängd, lön) och Riksbanken (styrränta) | Verklighetsindikatorer i riket | varierar |
 | Brå, Nationella trygghetsundersökningen | Utsatthet för brott, otrygghet, oro, förtroende per grupp | 2006–2025 |
+| Riksdagen (data.riksdagen.se) | Propositioner, betänkanden, voteringar per parti och ledamot | 2014– |
+| SOM-institutet, Svenska trender | Åsikter om förslag och förtroende för institutioner (senaste värdet per utgåva) | 2022, 2025 |
 | Valmyndigheten | Valkretsindelning, mandat och preliminärt resultat per valkrets 2026 | 2022, 2026 |
 | SCB (KPIF, AKU per månad, konkurser, påbörjade bostäder, befolkningsförändringar) | Månadsserier till lägesbilden | varierar |
 
@@ -65,6 +73,8 @@ Riktning och målnivå anges bara där riksdagen, lagen, Riksbanken eller ett in
 - `verklighet`, `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogen i `verklighet_katalog.py`)
 - `valkrets`, `valkrets_kommun`, `valresultat_valkrets`, `valkrets_indikator`, `valkrets_oversikt`
 - `lagesbild`, `lagesbild_serie`
+- `riksdag_dokument`, `riksdag_beslut`, `riksdag_aktivitet`, `riksdag_samstammighet`,
+  `riksdag_parti_fraga`, `riksdag_ledamot`, `opinion`, `opinion_forslag`, `opinion_beslut`
 - `evidensniva`
 - `kalla`, `kontroll`, `varningar`
 

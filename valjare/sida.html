@@ -118,6 +118,8 @@ table.score .irad .pil{text-align:right}
 table.vk td{vertical-align:middle} table.vk tr.grp td{font-weight:600;background:var(--panel);border-bottom:0}
 table.vk .niv{font-size:11px;color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:0 4px;margin-left:4px;white-space:nowrap}
 table.vk svg{display:block}
+details.op{border-top:1px solid var(--rule);padding:8px 0} details.op summary{line-height:1.7}
+details.op table td{vertical-align:middle}
 a{color:inherit;text-decoration-color:var(--muted);text-underline-offset:2px}
 details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
 code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
@@ -150,6 +152,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <div class="controls"><label class="ctl">Valkrets <select id="sel-vk"></select></label>
       <label class="ctl">Område <select id="sel-vkfr"><option value="">Alla områden</option></select></label></div>
     <div class="tiles" id="vk-head"></div>
+    <details id="vk-led"><summary id="vk-led-sum">Valkretsens riksdagsledamöter</summary><div class="tw"><table id="t-vk-led"></table></div></details>
     <h3>Valresultatet 2022 och 2026</h3>
     <div class="chart" id="c-vk-val"></div>
     <h3 style="margin-top:6px">Utvecklingen i valkretsen</h3>
@@ -157,12 +160,29 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <p class="note" id="not-vk"></p>
   </section>
 
+  <section id="s-riksdag">
+    <span class="label">3 · Politikens svar</span>
+    <h2>Vad riksdagen beslutat, och vad väljarna tycker</h2>
+    <p class="desc">Riksdagens propositioner, betänkanden och voteringar sedan 2014 (data.riksdagen.se), kopplade till samma sakfrågor som resten av sidan. Bredvid står SOM-institutets frågor om konkreta förslag: andelen som tycker att förslaget är bra, hösten 2022 och hösten 2025.</p>
+    <div class="tiles" id="rd-fort"></div>
+    <h3>Opinion och beslut</h3>
+    <p class="note">Klicka på ett förslag för att se riksdagens beslut i samma sak och hur partierna röstade. Fylld ruta: ja till utskottets förslag. Tom ruta: nej. Streckad: avstod. Vid flera voteringar visas den med flest nej-röster.</p>
+    <div id="rd-opinion"></div>
+    <h3 style="margin-top:14px">Hur ofta röstar partierna lika?</h3>
+    <div class="controls"><label class="ctl">Mandatperiod <select id="sel-rdper"></select></label></div>
+    <div class="chart" id="c-rd-samst"></div>
+    <p class="note" id="not-rd-samst"></p>
+    <h3 style="margin-top:14px">Propositioner per sakfråga och riksmöte</h3>
+    <div class="tw"><table class="heat" id="t-rd-akt"></table></div>
+    <p class="note">Antal propositioner från regeringen vars rubrik rör frågan. Ett ärende kan höra till flera frågor. Klassningen bygger på ord i rubriken och är en översikt, inte en fullständig förteckning.</p>
+  </section>
+
   <div class="sticky" role="group" aria-label="Välj parti att markera">
     <div class="chips" id="partichips"></div>
   </div>
 
   <section id="s-sammansattning">
-    <span class="label">3 · Sammansättning</span>
+    <span class="label">4 · Sammansättning</span>
     <h2 id="h-samm">Vem röstar på partiet?</h2>
     <p class="desc">Varje stapel visar hur partiets väljare fördelar sig på grupperna. Den nedersta stapeln är hela väljarkåren; där partiets fördelning avviker därifrån är det över- eller underrepresenterat.</p>
     <div class="controls">
@@ -179,7 +199,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-skifte">
-    <span class="label">4 · Skiftet</span>
+    <span class="label">5 · Skiftet</span>
     <h2>Hur har väljarbasen förändrats sedan 2006?</h2>
     <p class="desc">SCB:s partisympatiundersökning, maj och november varje år. Välj grupp och mått. Den streckade linjen är hela väljarkåren.</p>
     <div class="controls">
@@ -195,7 +215,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-valu">
-    <span class="label">5 · Valdagen</span>
+    <span class="label">6 · Valdagen</span>
     <h2>Hur röstade grupperna, 1991–2026?</h2>
     <p class="desc">SVT:s vallokalsundersökning (Valu). Procent av gruppen som röstade på partiet i riksdagsvalet. Det valda partiet är markerat, övriga i grått.</p>
     <div class="small" id="c-valu"></div>
@@ -205,7 +225,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-kommun">
-    <span class="label">6 · Geografin</span>
+    <span class="label">7 · Geografin</span>
     <h2>Var partierna är starka, 1973–2026</h2>
     <p class="desc">Korrelation över Sveriges 290 kommuner mellan partiets valresultat och en strukturvariabel, val för val. Över noll: partiet är starkare i kommuner med högre värde. Strukturvariabeln tas från närmaste år med data (högst två år ifrån valet).</p>
     <div class="controls"><label class="ctl">Strukturvariabel <select id="sel-ind"></select></label></div>
@@ -214,7 +234,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-lan">
-    <span class="label">7 · Länen</span>
+    <span class="label">8 · Länen</span>
     <h2 id="h-lan">Partiets stöd i länen, 1973–2026</h2>
     <p class="desc">Andel av giltiga röster i riksdagsvalet per län. Den streckade linjen är riket.</p>
     <div class="small" id="c-lan-sm" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px 18px"></div>
@@ -238,7 +258,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-dekomp">
-    <span class="label">8 · Demografi eller beteende</span>
+    <span class="label">9 · Demografi eller beteende</span>
     <h2>Beror förändringen på vilka som röstar, eller på hur de röstar?</h2>
     <p class="desc">Förändringen i partiets stöd delas upp i två delar. <b>Sammansättning</b> är vad som hade hänt om varje grupp röstat som förut men gruppernas storlek ändrats. <b>Beteende</b> är att grupperna ändrat hur de röstar. De två delarna summerar exakt till förändringen.</p>
     <h3>Riket, per indelning och mandatperiod</h3>
@@ -257,7 +277,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-distrikt" hidden>
-    <span class="label">9 · Valdistrikten</span>
+    <span class="label">10 · Valdistrikten</span>
     <h2>Riksdagsvalet 2026 i valdistriktens grannskap</h2>
     <p class="desc" id="desc-distrikt"></p>
     <div class="controls"><label class="ctl">Strukturvariabel <select id="sel-vdind"></select></label></div>
@@ -266,7 +286,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-fragor">
-    <span class="label">10 · Sakfrågorna</span>
+    <span class="label">11 · Sakfrågorna</span>
     <h2>Brott, energipriser och vad väljarna sa var viktigt</h2>
     <p class="desc">Valet 2022 beskrivs ofta som avgjort av skjutningar och sprängningar och av höga el- och drivmedelspriser. Här står utvecklingen i verkligheten bredvid vad väljarna själva angav som viktigt och vilket parti de tyckte hade bäst politik. De lodräta linjerna är valdagarna.</p>
     <h3>Verkligheten</h3>
@@ -293,7 +313,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-verk">
-    <span class="label">11 · Verkligheten, fråga för fråga</span>
+    <span class="label">12 · Verkligheten, fråga för fråga</span>
     <h2>Hur utvecklades det väljarna tyckte var viktigt?</h2>
     <p class="desc">Varje sakfråga som Valu frågar om har kopplats till mått på hur det faktiskt gått, från SCB, Kolada (kommuner och regioner), Polisen och Riksbanken. Tabellen visar förändringen i riket under mandatperioden bredvid hur viktig frågan blev för väljarna.</p>
     <div class="controls"><label class="ctl">Mandatperiod <select id="sel-vper"></select></label></div>
@@ -309,7 +329,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-brott">
-    <span class="label">12 · Trygghet</span>
+    <span class="label">13 · Trygghet</span>
     <h2>Utsatthet och otrygghet i väljargrupperna</h2>
     <p class="desc">Brå:s Nationella trygghetsundersökning (NTU) och SCB:s undersökning av levnadsförhållanden (ULF, måtten som börjar med "ULF:"). Till vänster: andel i gruppen. Till höger: vad partiets väljare kan förväntas ligga på enbart utifrån deras sammansättning på den valda indelningen, jämfört med hela väljarkåren.</p>
     <div class="controls">
@@ -839,6 +859,8 @@ function renderVerkDetalj(){
   if (D.som && fk.som && D.som.v[fk.som]) { const i0 = D.som.t.indexOf(2006); extra.push(["SOM: viktigt samhällsproblem (%)", D.som.t.slice(i0), D.som.v[fk.som].slice(i0)]); }
   box.innerHTML = [...extra.map((e,i)=>`<div><h3 style="font-size:13.5px">${e[0]}</h3><div class="chart" id="vdx${i}"></div></div>`),
                    ...namn.map((n,i)=>`<div><h3 style="font-size:13.5px">${esc(n)}</h3><div class="chart" id="vd${i}"></div><p class="note">${esc(V[n].kalla)}${V[n].mal&&V[n].mal.mal_kalla?`. Streckad linje: ${esc(malText(V[n].mal))}`:""}${V[n].mal&&V[n].mal.not?` ${esc(V[n].mal.not)}`:""}</p></div>`)].join("") || `<p class="note">Inga indikatorer ännu för frågan.</p>`;
+  const PR = (D.rd_prop||{})[f];
+  if (PR && PR.length) box.insertAdjacentHTML("beforeend", `<div style="grid-column:1/-1"><h3 style="font-size:13.5px">Regeringens propositioner i frågan (senaste ${PR.length})</h3><ul style="margin:6px 0 0;padding-left:18px;font-size:13px">${PR.map(r=>`<li><span class="note">${r.datum}</span> ${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.titel)}</a>`:esc(r.titel)}</li>`).join("")}</ul><p class="note">Urval efter ord i rubriken; se avsnitt 3 för hur partierna röstade.</p></div>`);
   extra.forEach((e,i) => { lineChart($("vdx"+i), {xs: e[1], height: 160, yMin: 0, series: [{name: e[0], lbl: "", c: css("--f1"), hl: true, w: 2, v: e[2]}], tipTitle: x=>String(x), focus: q=>true}); markVal($("vdx"+i), e[1]); });
   namn.forEach((n,i) => { const s = V[n], mv = s.mal && s.mal.mal_varde;
     const vals = s.v.filter(x=>x!=null).concat(mv != null ? [mv] : []);
@@ -903,7 +925,7 @@ function renderNTU(){
 }
 
 /* ---------- evidensnivå ---------- */
-const EVID_SEK = {"s-lage":"lage","s-valkrets":"valkrets","s-sammansattning":"sammansattning","s-skifte":"sammansattning","s-valu":"valu","s-kommun":"kommunsamband","s-lan":"lan","s-dekomp":"dekomposition","s-distrikt":"valdistrikt","s-fragor":"sakfragor","s-verk":"verklighet","s-brott":"trygghet"};
+const EVID_SEK = {"s-lage":"lage","s-valkrets":"valkrets","s-riksdag":"riksdag","s-sammansattning":"sammansattning","s-skifte":"sammansattning","s-valu":"valu","s-kommun":"kommunsamband","s-lan":"lan","s-dekomp":"dekomposition","s-distrikt":"valdistrikt","s-fragor":"sakfragor","s-verk":"verklighet","s-brott":"trygghet"};
 function renderEvid(){
   if (!D.evidens) return;
   for (const [sid, eid] of Object.entries(EVID_SEK)) {
@@ -1029,7 +1051,51 @@ function renderValkrets(){
     });
   });
   $("t-vk").innerHTML = h;
+  renderLedamoter(k);
   $("not-vk").innerHTML = `Valkretsens värde är de ingående kommunernas värden viktade med antalet röstberättigade 2026. <span class="niv">länsvärde</span>: finns bara per län eller region, så delade län (Stockholm, Skåne, Västra Götaland) får samma värde i alla sina valkretsar. <span class="niv">polisregion</span>: polisregionens värde. Punkterna visar alla valkretsar, den svarta är den valda och strecket riket. Trend: valkretsen (blå) och riket (grå) sedan 2010. Ingen färg betyder bra eller dåligt; mål anges där det finns ett beslutat mål. Valresultatet 2026 är Valmyndighetens preliminära rösträkning; 1998–2018 är kommunresultat summerade i dagens valkretsindelning.`;
+}
+
+/* ---------- 3. politikens svar ---------- */
+function posRuta(pos, p){
+  const c = pc(p), st = pos === "ja" ? `background:${c};border:1.5px solid ${c}` : pos === "nej" ? `border:1.5px solid ${c}` : pos === "avstår" ? `border:1.5px dashed ${c}` : `border:1px dotted var(--rule)`;
+  return `<span title="${PNAMN[p]}: ${pos||"–"}" style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:18px;border-radius:3px;font-size:10.5px;font-weight:600;${st};color:${pos==="ja"?textOn(c):"var(--ink2)"}">${p}</span>`;
+}
+function renderRiksdag(){
+  const O = D.opinion, F = D.fortroende;
+  if (!O && !D.rd_aktivitet) { $("s-riksdag").hidden = true; return; }
+  if (F) $("rd-fort").innerHTML = ["Riksdagen","Regeringen","De politiska partierna"].filter(k=>F[k]).map(k => { const a = Object.keys(F[k]).sort(), v = F[k][a[a.length-1]], v0 = a.length > 1 ? F[k][a[0]] : null;
+    return `<div class="tile"><div class="t">Förtroende för ${k.toLowerCase()} (SOM)</div><div class="v">${fmt(v)} %</div><div class="s">${a[a.length-1]}${v0!=null?`; ${a[0]}: ${fmt(v0)} %`:""}. Andel med mycket eller ganska stort förtroende</div></div>`; }).join("");
+  if (O) {
+    const nm = {...FRNAMN(), ...FR_EXTRA};
+    $("rd-opinion").innerHTML = O.map(o => { const ar = Object.keys(o.v).sort(), sist = o.v[ar[ar.length-1]];
+      const bar = `<span style="display:inline-block;width:120px;height:10px;background:var(--grid);border-radius:2px;vertical-align:middle;position:relative"><span style="position:absolute;left:0;top:0;bottom:0;width:${sist}%;background:var(--f3);border-radius:2px"></span>${ar.length>1?`<span style="position:absolute;left:${o.v[ar[0]]}%;top:-3px;bottom:-3px;width:2px;background:var(--ink)"></span>`:""}</span>`;
+      const bes = o.beslut.map(b => `<tr><td class="note" style="white-space:nowrap">${b.datum||""}</td><td>${b.url?`<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.titel)}</a>`:esc(b.titel)}<br><span class="note">${b.bet?`Betänkande ${esc(b.bet)}`:"Inget betänkande kopplat"}${b.ja!=null?` · ${b.utfall==="bifall"?"bifall":"avslag"} ${b.ja}–${b.nej}`:" · beslutades utan votering eller ännu inte behandlad"}</span></td><td style="white-space:nowrap">${Object.keys(b.pos).length?P.map(p=>posRuta(b.pos[p],p)).join(" "):""}</td></tr>`).join("");
+      return `<details class="op"><summary><b>${esc(o.forslag)}</b> <span class="note">(${esc(nm[o.fraga]||o.fraga)})</span><br>${bar} <span>${fmt(sist)} % bra förslag ${ar[ar.length-1]}</span>${ar.length>1?` <span class="note">(${ar[0]}: ${fmt(o.v[ar[0]])} %)</span>`:""} · <span class="note">${o.n ? `${o.n} ${o.n === 1 ? "proposition" : "propositioner"} i samma sak sedan 2018` : "inga propositioner i samma sak sedan 2018"}</span></summary>${bes?`<div class="tw"><table>${bes}</table></div>`:""}</details>`; }).join("");
+  }
+  renderSamst();
+  const A = D.rd_aktivitet;
+  if (A) { const nm = {...FRNAMN(), ...FR_EXTRA}, hi = Math.max(1, ...Object.values(A.v).flat()), bg = css("--paper"), c0 = css("--f3");
+    $("t-rd-akt").innerHTML = `<tr><th>Fråga</th>${A.rm.map(r=>`<th class="n">${r.slice(2)}</th>`).join("")}</tr>` + FR_ORDNING.filter(f=>A.v[f]).map(f => `<tr><td>${esc(nm[f]||f)}</td>${A.v[f].map((x,i)=>{ const a = Math.sqrt(x/hi), c = mix(c0, bg, 0.08 + 0.8*a); return `<td class="c" style="background:${c};color:${a>0.6?textOn(c):"var(--ink)"}" title="${A.rm[i]}: ${x} propositioner">${x||""}</td>`; }).join("")}</tr>`).join(""); }
+}
+function renderSamst(){
+  const S = D.rd_samst, el = $("c-rd-samst"); if (!S) { el.innerHTML = ""; return; }
+  const per = $("sel-rdper").value, M = S[per]; if (!M) return;
+  const W = Math.min(Math.max(el.clientWidth, 280), 420), lw = 36, cw = (W - lw) / P.length, H = lw + cw * P.length;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Hur ofta partierna röstar lika">`;
+  P.forEach((p,i) => { s += `<text x="${lw + i*cw + cw/2}" y="${lw-10}" text-anchor="middle" style="fill:var(--ink2);font-weight:600">${p}</text><text x="${lw-6}" y="${lw + i*cw + cw/2 + 4}" text-anchor="end" style="fill:var(--ink2);font-weight:600">${p}</text>`; });
+  const bg = css("--paper"), c0 = css("--f3");
+  P.forEach((a,i) => P.forEach((b,j) => { const v = M.m[i][j]; if (v == null) return; const t = Math.max(0, (v - 40) / 60), c = mix(c0, bg, 0.06 + 0.9*t);
+    s += `<rect x="${lw + j*cw + 1}" y="${lw + i*cw + 1}" width="${cw-2}" height="${cw-2}" rx="3" fill="${i===j?"var(--panel)":c}" data-t="${a}|${b}|${v}"/>` + (i===j ? "" : `<text x="${lw + j*cw + cw/2}" y="${lw + i*cw + cw/2 + 4}" text-anchor="middle" style="fill:${t>0.55?textOn(c):"var(--ink)"};font-size:11px">${fmt(v)}</text>`); }));
+  el.innerHTML = s + `</svg>`;
+  el.querySelectorAll("rect[data-t]").forEach(r => { r.onmousemove = e => { const [a,b,v] = r.dataset.t.split("|"); showTip(e, `<b>${PNAMN[a]} och ${PNAMN[b]}</b><br>röstade lika i ${fmt(+v)} % av voteringarna`); }; r.onmouseleave = hideTip; });
+  $("not-rd-samst").textContent = `Andel av voteringarna i sakfrågan ${per} där båda partiernas majoritet röstade ja eller båda nej (upp till ${M.n} voteringar per par). Avstår och frånvaro räknas inte. Många voteringar gäller oenighet om detaljer, så nivån är inte ett mått på hur nära partierna står varandra i stort.`;
+}
+function renderLedamoter(k){
+  const L = D.rd_ledamot, box = $("vk-led"); if (!L) { box.hidden = true; return; }
+  const namn = D.valkrets.lista.find(x => x.kod === k).namn, rader = L.v[namn] || [];
+  box.hidden = !rader.length;
+  $("vk-led-sum").textContent = `Valkretsens riksdagsledamöter, riksmötet ${L.rm} (${rader.length})`;
+  $("t-vk-led").innerHTML = `<tr><th>Ledamot</th><th>Parti</th><th class="n">Närvaro vid voteringar</th></tr>` + rader.map(r => `<tr><td>${esc(r.namn)}</td><td><span class="dot" style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${pc(r.parti)};margin-right:5px"></span>${r.parti}</td><td class="n">${fmt(r.narvaro,1)} % <span class="note">av ${r.n}</span></td></tr>`).join("");
 }
 
 /* ---------- metod ---------- */
@@ -1065,6 +1131,9 @@ function renderMetod(){
   <tr><td><code>valkrets</code>, <code>valkrets_kommun</code>, <code>valresultat_valkrets</code></td><td>Riksdagens 29 valkretsar: kommuner, mandat 2022 och 2026, partiernas andel 1998–2026 och valdeltagande</td></tr>
   <tr><td><code>valkrets_indikator</code>, <code>valkrets_oversikt</code></td><td>Indikatorer per valkrets och år med rikets värde och plats bland de 29; senaste värdet och förändringen på fyra år</td></tr>
   <tr><td><code>lagesbild</code>, <code>lagesbild_serie</code></td><td>Veckans lägesbild: månads- och kvartalsserier med status (ovanlig utveckling, värd att bevaka, inom det vanliga, inaktuell). Texten sparas i <code>data/lagesbild/</code></td></tr>
+  <tr><td><code>riksdag_dokument</code>, <code>riksdag_beslut</code>, <code>riksdag_aktivitet</code></td><td>Propositioner och betänkanden sedan 2014 klassade till sakfrågor; varje votering i sakfrågan med utfall och partiernas röster; antal ärenden per fråga och riksmöte</td></tr>
+  <tr><td><code>riksdag_samstammighet</code>, <code>riksdag_parti_fraga</code>, <code>riksdag_ledamot</code></td><td>Hur ofta partierna röstar lika; hur ofta partiet är på den vinnande sidan per fråga; ledamöter med valkrets och närvaro</td></tr>
+  <tr><td><code>opinion</code>, <code>opinion_forslag</code>, <code>opinion_beslut</code></td><td>SOM: senaste värdet för förslag och förtroende (2022, 2025); förslagen ställda mot riksdagens beslut i samma sak</td></tr>
   <tr><td><code>evidensniva</code></td><td>Vad varje avsnitt kan och inte kan säga (beskrivande, modellskattning, samband)</td></tr>
   <tr><td><code>kontroll</code>, <code>varningar</code></td><td>Kvalitetskontroller och tolkningsvarningar</td></tr></table></div>
   <p><b>Mål i stället för värderingar.</b> Databasen anger inte om en utveckling är bra eller dålig. Riktning och målnivå finns bara där det finns ett beslutat mål (vårdgarantin, klimatlagen, Natoåtagandet, miljömålen, jämställdhetspolitikens delmål, kriminalpolitikens och sysselsättningspolitikens mål, Riksbankens inflationsmål). Målen och deras källor står i <code>verklighet_katalog.py</code> (<code>MAL</code>).</p>
@@ -1081,7 +1150,7 @@ function renderMetod(){
 
 /* ---------- init ---------- */
 function renderAll(){
-  renderLage(); renderValkrets(); renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderVerk(); renderNTU();
+  renderLage(); renderValkrets(); renderRiksdag(); renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderVerk(); renderNTU();
 }
 (function init(){
   $("meta").textContent = `Uppdaterad ${D.skapad}. Källor: SCB, Kolada, Polisen, Riksbanken, Brå, Valmyndigheten, SVT/Valu, Valforskningsprogrammet och SOM-institutet (GU).`;
@@ -1094,6 +1163,7 @@ function renderAll(){
     $("sel-vkfr").innerHTML += FR_ORDNING.filter(f => fr.includes(f)).map(f => `<option value="${f}">${esc(nm[f] || f)}</option>`).join("");
     $("sel-vkfr").onchange = renderValkrets;
   }
+  if (D.rd_samst) { const per = Object.keys(D.rd_samst).sort().reverse(); $("sel-rdper").innerHTML = per.map(p=>`<option>${p}</option>`).join(""); $("sel-rdper").onchange = renderSamst; }
   renderEvid();
   const guAr = D.profil_gu["kön"] ? D.profil_gu["kön"].t : [];
   $("sel-ar-gu").innerHTML = guAr.slice().reverse().map(a => `<option>${a}</option>`).join("");
@@ -1144,7 +1214,7 @@ function renderAll(){
     $("sel-vfraga").onchange = renderVerkDetalj;
   }
   renderMetod(); renderAll();
-  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderLage(); renderValkrets(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderVerk(); renderNTU(); }, 150); });
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderLage(); renderValkrets(); renderSamst(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderVerk(); renderNTU(); }, 150); });
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", renderAll);
   new MutationObserver(renderAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
 })();

@@ -98,6 +98,14 @@ SCB_SOK = [
         ("offentliga sektorns utgifter funktion COFOG", r"(?i)offentliga sektorns utgifter.*funktion", 2, r"(?i)kvartal|kommun|region"),
     ]],
     # --- Månads- och kvartalsserier för lägesbilden (lagesbild.py)
+    *[{"tema": "manad", "sok": q, "rubrik": r"(?i)konkurs.*månad", "region": "riket", "max_celler": 200_000,
+       "max_tabeller": 1, "exkludera": r"(?i)län|kommun|anställda"} for q in ("konkurs", "konkurser företag månad")],
+    *[{"tema": "manad", "sok": q, "rubrik": r"(?i)påbörjade.*(lägenheter|bostäder).*kvartal", "region": "riket",
+       "max_celler": 200_000, "max_tabeller": 1, "exkludera": r"(?i)kommun"}
+      for q in ("påbörjade lägenheter", "påbörjade bostäder kvartal", "nybyggnation påbörjade")],
+    *[{"tema": "manad", "sok": q, "rubrik": r"(?i)(befolkningsförändringar|invandring).*månad", "region": "riket",
+       "max_celler": 200_000, "max_tabeller": 1, "exkludera": r"(?i)kommun|län"}
+      for q in ("befolkningsförändringar", "invandringar månad", "preliminär befolkningsstatistik")],
     {"tema": "manad", "sok": "konkurser", "rubrik": r"(?i)konkurs.*månad",
      "region": "riket", "max_celler": 200_000, "max_tabeller": 1, "exkludera": r"(?i)län|kommun|anställda"},
     {"tema": "manad", "sok": "påbörjade lägenheter nybyggda hus", "rubrik": r"(?i)påbörjade.*lägenheter.*kvartal",
@@ -143,7 +151,7 @@ SCB_TABELLER = [
     # Månadsserier för lägesbilden
     {"id": "TAB6590", "tema": "manad", "region": "riket", "max_celler": 100_000,
      "not": "KPIF, 2020=100, månad 1987–"},
-    {"id": "TAB6387", "tema": "manad", "region": "riket", "max_celler": 300_000,
+    {"id": "TAB6387", "tema": "manad", "region": "riket", "max_celler": 1_000_000,
      "not": "AKU 15–74 år efter arbetskraftstillhörighet, typ av data, kön och ålder, månad 2001–"},
     {"id": "TAB6602", "tema": "manad", "region": "riket", "max_celler": 2_000_000,
      "not": "KPIF enligt COICOP (alla nivåer), 2020=100, månad 1987– (el, drivmedel efter 2025)"},
