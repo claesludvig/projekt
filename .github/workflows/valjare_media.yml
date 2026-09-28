@@ -1,0 +1,47 @@
+name: Väljardatabasen - nyhetsflöden och följare (dagligen)
+
+# RSS-flödena visar bara de senaste artiklarna, så de samlas in varje dag för att bygga en
+# historik. Körs bara från standardgrenen (GitHub kör inte schemalagda flöden från andra grenar).
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "23 6 * * *"
+
+concurrency:
+  group: valjare
+  cancel-in-progress: false
+
+jobs:
+  media:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r valjare/requirements.txt
+      - name: Hämta nyhetsflöden och följare
+        working-directory: valjare
+        run: python hamta.py --steg media
+      - name: Bygg databas och sida
+        working-directory: valjare
+        run: |
+          python bygg_db.py
+          python bygg_sida.py
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for f in $(find valjare/data -type f -size +90M); do git rm -q --cached "$f" 2>/dev/null || true; echo "$f" >> .git/info/exclude; done
+          git add -A valjare/data valjare/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: nyhetsflöden och följare"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase --autostash -X theirs
+            sleep $((i * 3))
+          done
+          git push

@@ -1,0 +1,2282 @@
+{
+ "start": "2026-09-28T08:59:45.290211+00:00",
+ "scb": [
+  {
+   "id": "TAB3230",
+   "rubrik": "Partisympati efter kön och civilstånd (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3232",
+   "rubrik": "Partisympati efter kön och utan/med barn (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3251",
+   "rubrik": "Partisympati efter kön och bostadstyp (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3249",
+   "rubrik": "Partisympati efter kön och fackförbund bland anställda (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3247",
+   "rubrik": "Partisympati efter kön och sektor bland sysselsatta (urvalsundersökning).  Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3253",
+   "rubrik": "Partisympati efter kön och utbildningsnivå (urvalsundersökning). Mätmånad 2005M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3257",
+   "rubrik": "Partisympati efter kön och utrikes/inrikes född (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3255",
+   "rubrik": "Partisympati efter kön och utländsk/svensk bakgrund (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3234",
+   "rubrik": "Partisympati efter kön och inkomstintervall efter percentiler (urvalsundersökning). Mätmånad 2007M11-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3238",
+   "rubrik": "Partisympati efter kön och region (Sverige, 8 grupper) (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3239",
+   "rubrik": "Partisympati efter region (Sverige, 10 grupper) (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5909",
+   "rubrik": "Partisympati efter standard för svensk yrkesklassificering (SSYK 2012) bland sysselsatta. Mätmånad 2021M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5905",
+   "rubrik": "Partisympati efter kön och standard för svensk yrkesklassificering (SSYK 2012) i väljarkåren. Mätmånad 2021M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3758",
+   "rubrik": "Med/utan partisympati (PSU) efter utländsk/svensk bakgrund, och kön. (Urvalsundersökning, se fotnoter.)  Mätmånad 2004M05-2010M11",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3243",
+   "rubrik": "Partisympati efter kön och sysselsatt (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3226",
+   "rubrik": "Partisympati efter kön och ålder, 7 åldersklasser (urvalsundersökning). Mätmånad 2006M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3227",
+   "rubrik": "Partisympati efter kön och ålder, 4 åldersklasser (urvalsundersökning). Mätmånad 1972M11-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3224",
+   "rubrik": "Med partisympati i hela väljarkåren efter parti. (Urvalsundersökning, se fotnoter.)  Mätmånad 1972M11-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3228",
+   "rubrik": "Med partisympati efter kön, ålder och parti. (Urvalsundersökning, se fotnoter.)  Mätmånad 1994M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3229",
+   "rubrik": "Med partisympati efter  civilstånd, ålder och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 1994M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3237",
+   "rubrik": "Med partisympati efter region och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 1994M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3244",
+   "rubrik": "Med partisympati efter yrkesaktivitet och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 1998M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3245",
+   "rubrik": "Med partisympati efter sektor, kön, och parti. (Urvalsundersökning, se fotnoter.)  Mätmånad 1998M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3250",
+   "rubrik": "Med partisympati efter bostadstyp och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 1998M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3225",
+   "rubrik": "Med partisympati efter ålder samt förstagångsväljare och parti. (Urvalsundersökning, se fotnoter.)  Mätmånad 1994M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3231",
+   "rubrik": "Med partisympati efter antal barn, urvalspersonens ålder och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 1994M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3233",
+   "rubrik": "Med partisympati efter sammanräknad inkomst (olika inkomstår, se not) och parti.  (Urvalsundersökning, se fotnoter.)  Mätmånad 1998M05-2007M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3235",
+   "rubrik": "Med partisympati efter inkomstintervall (olika inkomstår, se not) och parti.  (Urvalsundersökning, se fotnoter.)   Mätmånad 2007M11-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3236",
+   "rubrik": "Med partisympati efter sammanlagd sammanräknad inkomst (olika inkomstår, se not) och parti. (Urvalsundersökning, se fotnoter.)  Mätmånad 1998M05-2007M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3240",
+   "rubrik": "Med partisympati efter socioekonomisk indelning (SEI,  sekundärkodat) och parti.  (Urvalsundersökning, se fotnoter.)  Mätmånad 1998M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3248",
+   "rubrik": "Med partisympati efter fackförbund, kön och parti (yrkesverksamma).  (Urvalsundersökning, se fotnoter.) Mätmånad 1998M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3252",
+   "rubrik": "Med partisympati efter andel tätortsbefolkning i hemkommunen och parti. (Urvalsundersökning, se fotnoter.)  Mätmånad 1998M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3254",
+   "rubrik": "Med partisympati (PSU) efter utbildningsnivå, kön och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 2003M05-2010M11",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3256",
+   "rubrik": "Med partisympati (PSU) efter utländsk/svensk bakgrund, kön, och parti. (Urvalsundersökning, se fotnoter.)   Mätmånad 2004M05-2010M11",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4068",
+   "rubrik": "Valresultat om det varit val idag (PSU). (Urvalsundersökning, se fotnoter.) Mätmånad 1972M11-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4901",
+   "rubrik": "Valresultat om det varit val idag (PSU) efter kön. (Urvalsundersökning, se fotnoter.) Mätmånad 2014M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4902",
+   "rubrik": "Valresultat om det varit val idag (PSU) efter region (Sverige, 8 grupper). (Urvalsundersökning, se fotnoter.) Mätmånad 2014M05-2026M05",
+   "tema": "psu",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2718",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter födelseregion och kön (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2720",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter civilstånd, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5007",
+   "rubrik": "Tabell 1.1 - Valdeltagande i allmänna val efter ålder. År 2014-2022",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2717",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter inrikes/utrikes född, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2719",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter utländsk/svensk bakgrund och kön (urvalsundersökning). Valår 2002-2014",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2721",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter inkomstintervall efter percentiler, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2713",
+   "rubrik": "Valdeltagande i riksdagsval bland samtliga röstberättigade efter kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2714",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2716",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige efter län, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2723",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige, 18-64 år efter sammanboendeform, arbetskraftstillhörighet och kön (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2725",
+   "rubrik": "Valdeltagande i riksdagsval bland sysselsatta svenska medborgare folkbokförda i Sverige, 18-64 år efter socioekonomisk grupp, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2722",
+   "rubrik": "Valdeltagande i riksdagsval bland svenska medborgare folkbokförda i Sverige, 18-74 år efter utbildningsnivå, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2724",
+   "rubrik": "Valdeltagande i riksdagsval bland sysselsatta svenska medborgare folkbokförda i Sverige, 18-64 år efter yrke och kön (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2726",
+   "rubrik": "Valdeltagande i riksdagsval bland anställda svenska medborgare folkbokförda i Sverige, 18-64 år efter anställningssektor, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2727",
+   "rubrik": "Valdeltagande i riksdagsval bland anställda och arbetslösa svenska medborgare folkbokförda i Sverige, 18-64 år efter facklig organisation, kön och ålder (urvalsundersökning). Valår 2002-2014",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5107",
+   "rubrik": "Valdeltagande i riksdagsval efter region, kön och bakgrundsvariabler. Antal röstberättigade och andel röstande. Valår 2018-2022",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2707",
+   "rubrik": "Valdeltagande i riksdags-, region- och kommunfullmäktigval efter region. Valår 1973-2022",
+   "tema": "valdeltagande",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2706",
+   "rubrik": "Riksdagsval - valresultat efter region och parti mm. Antal och andelar. Valår 1973-2022",
+   "tema": "valresultat",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB1125",
+   "rubrik": "Ekonomisk standard för personer efter region, sysselsättning, utländsk/svensk bakgrund och ålder. Fasta priser. År 2011-2024",
+   "tema": "befolkning",
+   "celler": 62899200,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 10
+    },
+    "Sysselsattning": {
+     "etikett": "sysselsättning",
+     "antal": 9
+    },
+    "UtlBakgrund": {
+     "etikett": "utländsk/svensk bakgrund",
+     "antal": 8
+    },
+    "InkomstTyp": {
+     "etikett": "inkomstslag",
+     "antal": 2
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 10
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 14
+    }
+   },
+   "status": "hoppad: 62899200 celler > 600000"
+  },
+  {
+   "id": "TAB2695",
+   "rubrik": "Regionfullmäktigval - röstberättigade efter svenskt/utländskt medborgarskap, kön och utländsk/svensk bakgrund. Antal och andelar. Valår 2002-2022",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2687",
+   "rubrik": "Kommunfullmäktigval - röstberättigade efter svenskt/utländskt medborgarskap, kön och utländsk/svensk bakgrund. Antal och andelar. Valår 2002-2022",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2454",
+   "rubrik": "SILC Boende efter indikator, utländsk/svensk bakgrund och kön. Samtliga åldrar. Andelar i procent och skattat antal i tusental. År 2008-2020",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4197",
+   "rubrik": "Antal personer efter utländsk eller svensk bakgrund, boendeform, ålder och kön. År 2012-2025",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6571",
+   "rubrik": "Folkmängden per region efter utländsk/svensk bakgrund och kön. År 2010-2025",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2702",
+   "rubrik": "Riksdagsval  - röstberättigade folkbokförda i Sverige efter kön och utländsk/svensk bakgrund. Antal och andelar. Valår 2002-2022",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2808",
+   "rubrik": "Valdeltagande i Europaparlamentsval bland svenska medborgare folkbokförda i Sverige efter utländsk/svensk bakgrund och kön (urvalsundersökning). Valår 2004-2014",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2789",
+   "rubrik": "Europaparlamentsval - röstberättigade svenska medborgare folkbokförda i Sverige efter kön och utländsk/svensk bakgrund. Valår 2004-2024",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6649",
+   "rubrik": "Antal personer med utländsk eller svensk bakgrund (grov indelning) efter region, ålder och kön.  År 2025",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4825",
+   "rubrik": "Antal personer med utländsk eller svensk bakgrund (grov indelning) efter region, ålder och kön. År 2002-2024",
+   "tema": "befolkning",
+   "celler": 2899104,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "UtlBakgrund": {
+     "etikett": "utländsk/svensk bakgrund",
+     "antal": 2
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 101
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 2
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 23
+    }
+   },
+   "status": "hoppad: 2899104 celler > 600000"
+  },
+  {
+   "id": "TAB6648",
+   "rubrik": "Antal personer med utländsk eller svensk bakgrund (fin indelning) efter region, ålder och kön.  År 2025",
+   "tema": "befolkning",
+   "celler": 641160,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "UtlBakgrund": {
+     "etikett": "utländsk/svensk bakgrund",
+     "antal": 5
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 137
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "hoppad: 641160 celler > 600000"
+  },
+  {
+   "id": "TAB4824",
+   "rubrik": "Antal personer med utländsk eller svensk bakgrund (fin indelning) efter region, ålder och kön. År 2002-2024",
+   "tema": "befolkning",
+   "celler": 5798208,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "UtlBakgrund": {
+     "etikett": "utländsk/svensk bakgrund",
+     "antal": 4
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 101
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 2
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 23
+    }
+   },
+   "status": "hoppad: 5798208 celler > 600000"
+  },
+  {
+   "id": "TAB6834",
+   "rubrik": "Befolkning 20–74 år för hela riket efter utbildningsnivå, kön, ålder, tid i Sverige och bakgrundsvariabel. År 2024-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6833",
+   "rubrik": "Befolkning 20–74 år efter boenderegion, utbildningsnivå, kön, och bakgrundsvariabel. År 2024-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6775",
+   "rubrik": "Ekonomisk utsatthet (personer 0+ år) efter indikator, redovisningsgrupp och kön. Andelar i procent och skattat antal i tusental.  År 2021-2025",
+   "tema": "levnad",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6089",
+   "rubrik": "Otrygghet efter indikator, redovisningsgrupp och kön. Andelar i procent och skattat antal i tusental.  År (2008-2009)-(2025-2025)",
+   "tema": "brott",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6658",
+   "rubrik": "Utrikes födda efter födelseland och antal år sedan senaste invandring.  År 2025",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5189",
+   "rubrik": "Utrikes födda efter födelseland och antal år sedan senaste invandring. År 2000-2024",
+   "tema": "befolkning",
+   "celler": 825000,
+   "variabler": {
+    "Fodelseland": {
+     "etikett": "födelseland",
+     "antal": 165
+    },
+    "ArSedanSenastInvandr": {
+     "etikett": "år sedan senaste invandring",
+     "antal": 20
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 5
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 2
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 25
+    }
+   },
+   "status": "hoppad: 825000 celler > 600000"
+  },
+  {
+   "id": "TAB6772",
+   "rubrik": "Utrikes födda samt personer med minst en utrikes född förälder efter kön och födelseland respektive föräldrarnas födelseland. År 2018-2025",
+   "tema": "befolkning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB948",
+   "rubrik": "Disponibel inkomst per konsumtionsenhet för personer och antal år i Sverige efter födelseland, 2014 års priser. År 1991-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5278",
+   "rubrik": "Sammanräknad förvärvsinkomst för boende i Sverige hela året efter region, kön, födelseland, vistelsetid i Sverige och ålder. År 2000-2024",
+   "tema": "inkomst",
+   "celler": 30888000,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Fodelseregion": {
+     "etikett": "födelseregion",
+     "antal": 11
+    },
+    "VistelsetidUF": {
+     "etikett": "vistelsetid år",
+     "antal": 6
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 5
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 25
+    }
+   },
+   "status": "hoppad: 30888000 celler > 900000"
+  },
+  {
+   "id": "TAB2927",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, utbildningsnivå och kön. År 2005-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6189",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, utbildningsnivå och kön, tidigare definitioner. År 2005-2020",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB141",
+   "rubrik": "Befolkningen 16-64 år (AKU) efter arbetskraftstillhörighet, utbildningsnivå och kön.  År 2005-2007",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6534",
+   "rubrik": "Befolkning 25–65 år efter region och utbildningsnivå. År 2024-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5956",
+   "rubrik": "Befolkning 25–64 år (fr.o.m. 2023, 25–65 år) efter region och utbildningsnivå (uppdateras ej). År 2015-2023",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB655",
+   "rubrik": "Befolkning 16–74 år efter kön, ålder, nationell bakgrund, utbildningsnivå och utbildningsinriktning SUN 2020. År 2019-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4002",
+   "rubrik": "Befolkning 16–74 år efter kön, ålder, nationell bakgrund, utbildningsnivå och utbildningsinriktning SUN 2000. År 2000-2018",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2926",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, inrikes -/utrikes född, utbildningsnivå och kön. År 2005-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6217",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, inrikes -/utrikes född, utbildningsnivå och kön, tidigare definitioner. År 2005-2020",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB142",
+   "rubrik": "Befolkningen 16-64 år (AKU) efter arbetskraftstillhörighet, inrikes -/utrikes född, utbildningsnivå och kön.  År 2005-2007",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3981",
+   "rubrik": "Befolkning 16–74 år efter region, utbildningsnivå, ålder och kön. År 1985-2025",
+   "tema": "utbildning",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4320",
+   "rubrik": "Befolkning 16–95+ år efter region, utbildningsnivå, ålder och kön.  År 2008-2025",
+   "tema": "utbildning",
+   "celler": 7188480,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "UtbildningsNiva": {
+     "etikett": "utbildningsnivå",
+     "antal": 8
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 80
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 2
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 18
+    }
+   },
+   "status": "hoppad: 7188480 celler > 900000"
+  },
+  {
+   "id": "TAB3554",
+   "rubrik": "Sammanräknad förvärvsinkomst för boende i Sverige hela året efter region, kön, ålder och inkomstklass. År 1999-2024",
+   "tema": "inkomst",
+   "celler": 55194048,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 21
+    },
+    "Inkomstklass": {
+     "etikett": "inkomstklass",
+     "antal": 27
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 26
+    }
+   },
+   "status": "hoppad: 55194048 celler > 900000"
+  },
+  {
+   "id": "TAB3557",
+   "rubrik": "Sammanräknad förvärvsinkomst för boende i Sverige hela året efter region, utbildningsnivå, kön och ålder. År 2000-2024",
+   "tema": "inkomst",
+   "celler": 101088000,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "UtbildningsNiva": {
+     "etikett": "utbildningsnivå",
+     "antal": 5
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 8
+    },
+    "Inkomstklass": {
+     "etikett": "inkomstklass",
+     "antal": 27
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 25
+    }
+   },
+   "status": "hoppad: 101088000 celler > 900000"
+  },
+  {
+   "id": "TAB3556",
+   "rubrik": "Sammanräknad förvärvsinkomst för boende i Sverige hela året efter region, kön och ålder i 1-årsklasser. År 1999-2024",
+   "tema": "inkomst",
+   "celler": 8274240,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 85
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 26
+    }
+   },
+   "status": "hoppad: 8274240 celler > 900000"
+  },
+  {
+   "id": "TAB3555",
+   "rubrik": "Sammanräknad förvärvsinkomst för boende i Sverige hela året efter kön, inkomstklass och ålder i 1-årsklasser. År 1999-2024",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3558",
+   "rubrik": "Sammanräknad förvärvsinkomst för boende i Sverige den 31/12 resp år efter region, kön, ålder och inkomstklass. År 1991-2024",
+   "tema": "inkomst",
+   "celler": 72176832,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 21
+    },
+    "Inkomstklass": {
+     "etikett": "inkomstklass",
+     "antal": 27
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 34
+    }
+   },
+   "status": "hoppad: 72176832 celler > 900000"
+  },
+  {
+   "id": "TAB942",
+   "rubrik": "Disponibel inkomst per konsumtionsenhet i deciler, efter kapitalvinst, 2014 års priser. År 1991-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB937",
+   "rubrik": "Disponibel inkomst och faktorinkomst per konsumtionsenhet, gini-koefficienten samt andelen av inkomstsumman som innehas av personer i hushåll med de högsta 10 procent respektive 1 procent av inkomsterna efter hushållsdefinition, 2014 års priser. År 1975-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6810",
+   "rubrik": "Inkomststruktur individuell disponibel inkomst exkl. kapitalinkomst efter kön och ålder. Löpande priser. Månad 2025M01-2026M03",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4765",
+   "rubrik": "Långsiktiga inkomster efter region, födelseregion, hushållstyp och ålder, disponibel inkomst per k.e. Period (2011-2012)-(2023-2024)",
+   "tema": "inkomst",
+   "celler": 45995040,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Inkomstslag": {
+     "etikett": "inkomstslag",
+     "antal": 2
+    },
+    "Fodelseregion": {
+     "etikett": "födelseregion",
+     "antal": 3
+    },
+    "Hushallstyp": {
+     "etikett": "hushållstyp",
+     "antal": 10
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 9
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 3
+    },
+    "Tid": {
+     "etikett": "period",
+     "antal": 91
+    }
+   },
+   "status": "hoppad: 45995040 celler > 900000"
+  },
+  {
+   "id": "TAB945",
+   "rubrik": "Disponibel inkomst per konsumtionsenhet, percentilgränser i tkr samt relativa avstånd till median efter kapitalvinst och gränsvärden/kvoter, 2014 års priser. År 1991-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB1735",
+   "rubrik": "Genomsnittlig disponibel inkomst per hushåll (HEK) efter upplåtelseform, hushållstyp och lägenhetstyp. Urvalsundersökning, se fotnoter. År 2006-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6812",
+   "rubrik": "Individuell disponibel inkomst exkl. kapitalinkomst efter kön, ålder och födelseregion. Löpande priser. Månad 2025M01-2026M03",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB943",
+   "rubrik": "Justerad disponibel inkomst per konsumtionsenhet för vuxna 18+ år (HEK) fördelad efter hushållstyp, kön, ålder och boendeform. Urvalsundersökning, se fotnoter. År 2004-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6808",
+   "rubrik": "Individuell disponibel inkomst exkl. kapitalinkomst, fraktiler, efter kön och ålder. Löpande priser. Månad 2025M01-2026M03",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6809",
+   "rubrik": "Individuell disponibel inkomst exkl. kapitalinkomst efter region, kön och ålder. Löpande priser. Månad 2025M01-2026M03",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6811",
+   "rubrik": "Individuell disponibel inkomst exkl. kapitalinkomst efter region, kön och ålder. Fasta priser. Månad 2025M01-2026M03",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB935",
+   "rubrik": "Disponibel inkomst per konsumtionsenhet för personer efter region, hushållstyp och ålder, 2014 års priser. År 1991-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB949",
+   "rubrik": "Disponibel inkomst per konsumtionsenhet för personer 20–64 år efter sysselsättning, 2014 års priser. År 1991-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB936",
+   "rubrik": "Disponibel inkomst för hushåll efter hushållstyp och ålder, 2014 års priser. År 1991-2013",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB940",
+   "rubrik": "Disponibel inkomst för samtliga hushåll 18– år (HEK) efter hushållstyp och ålder. Urvalsundersökning, se fotnoter.  År 1991-2009",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB944",
+   "rubrik": "Disponibel inkomst per konsumtionsenhet för individer 20– år (HEK) efter hushållstyp och ålder. Urvalsundersökning, se fotnoter. År 1991-2009",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB1492",
+   "rubrik": "Disponibel inkomst för hushåll efter region, hushållstyp och ålder. Fasta priser. År 2011-2024",
+   "tema": "inkomst",
+   "celler": 2096640,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 312
+    },
+    "Hushallstyp": {
+     "etikett": "hushållstyp",
+     "antal": 15
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 8
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 14
+    }
+   },
+   "status": "hoppad: 2096640 celler > 900000"
+  },
+  {
+   "id": "TAB6685",
+   "rubrik": "Låg respektive hög ekonomisk standard efter region och ålder. År 2011-2024",
+   "tema": "inkomst",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5864",
+   "rubrik": "Medborgarnas syn på trygghet i samhället efter region och bakgrund. År 2021-2025",
+   "tema": "brott",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5160",
+   "rubrik": "Konsumentprisindex (KPI) efter produktgrupp, 1980=100 (uppdateras ej efter 2025M12). Månad 1980M01-2025M12",
+   "tema": "priser",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6445",
+   "rubrik": "Snabb-KPI: preliminära förändringstal för KPI, KPIF och KPIF-XE (en decimal). Månad 2024M09-2026M08",
+   "tema": "priser",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6394",
+   "rubrik": "Snabb-KPI: preliminära förändringstal för KPI, KPIF och KPIF-XE (två decimaler). Månad 2024M08-2026M08",
+   "tema": "priser",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6590",
+   "rubrik": "Konsumentprisindex med fast ränta (KPIF), 2020=100. Månad 1987M01-2026M08",
+   "tema": "manad",
+   "celler": 1428,
+   "variabler": {
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 3
+    },
+    "Tid": {
+     "etikett": "månad",
+     "antal": 476
+    }
+   },
+   "status": "ok",
+   "rader": 1428,
+   "uppdaterad": "2026-09-14T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6602",
+   "rubrik": "Konsumentprisindex med fast ränta (KPIF) enligt COICOP (alla nivåer), 2020=100. Månad 1987M01-2026M08",
+   "tema": "manad",
+   "celler": 757792,
+   "variabler": {
+    "VaruTjanstegrupp": {
+     "etikett": "varu-/tjänstegrupp",
+     "antal": 398
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 4
+    },
+    "Tid": {
+     "etikett": "månad",
+     "antal": 476
+    }
+   },
+   "status": "ok",
+   "rader": 757792,
+   "uppdaterad": "2026-09-14T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6091",
+   "rubrik": "Personbilar, registrerade på folkbokförda personer 31 december, efter status och region (uppdateras ej). År 2015-2023",
+   "tema": "bil",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6589",
+   "rubrik": "Personbilar, registrerade på folkbokförda personer 31 december, efter status och region. År 2024-2025",
+   "tema": "bil",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6387",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, typ av data, kön och ålder. Månad 2001M01-2026M08",
+   "tema": "manad",
+   "celler": 879648,
+   "variabler": {
+    "Arbetskraftstillh": {
+     "etikett": "arbetskraftstillhörighet",
+     "antal": 8
+    },
+    "TypData": {
+     "etikett": "typ av data",
+     "antal": 7
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 17
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "månad",
+     "antal": 308
+    }
+   },
+   "status": "hoppad: 879648 celler > 300000"
+  },
+  {
+   "id": "TAB6514",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, typ av data, kön och ålder. År 2001-2025",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6529",
+   "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, inrikes/utrikes född, typ av data, kön och ålder. År 2005-2025",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5621",
+   "rubrik": "BNP från användningssidan, försörjningsbalans efter användning, aggregerad. År 1950-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB3088",
+   "rubrik": "BNP från användningssidan (ENS95), försörjningsbalans efter användning. År 1950-2013",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB1148",
+   "rubrik": "Fastighetsprisindex för permanenta småhus (1990=100) efter län. År 1990-2025",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2538",
+   "rubrik": "Färdigställda lägenheter och rumsenheter i nybyggda hus efter region och hustyp. År 1938-2025",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4698",
+   "rubrik": "Totala utsläpp och upptag av växthusgaser efter växthusgas och sektor. År 1990-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB1618",
+   "rubrik": "Invandringar och utvandringar efter medborgarskap och kön. År 2000-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5241",
+   "rubrik": "Tabell 5.23 - Återstående medellivslängd vid 0, 30 respektive 65 års ålder. År 1960-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5940",
+   "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter SNI 2007 och kön.  År 2023-2025",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB4274",
+   "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter SNI 2007 och kön .  År 2014-2022",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB2570",
+   "rubrik": "Genomsnittlig grund- och månadslön samt kvinnors lön i procent av mäns lön efter region, sektor, yrkesgrupp (SSYK) och kön. År 2003-2013",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB5124",
+   "rubrik": "Tabell 2.9 - Kvinnors lön som andel av mäns lön efter sektor. År 1992-2024",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB78",
+   "rubrik": "Elproduktion och elanvändning efter elområde. Månad 2021M01-2026M07",
+   "tema": "verklighet",
+   "status": "oförändrad, ej hämtad"
+  },
+  {
+   "id": "TAB6571_deso",
+   "rubrik": "DeSO: utländsk/svensk bakgrund och kön",
+   "tema": "deso",
+   "celler": 109296,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "UtlBakgrund": {
+     "etikett": "utländsk/svensk bakgrund",
+     "antal": 3
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 109296,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6574_deso",
+   "rubrik": "DeSO: ålder och kön",
+   "tema": "deso",
+   "celler": 655776,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 18
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 655776,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6534_deso",
+   "rubrik": "DeSO: utbildningsnivå 25–65 år",
+   "tema": "deso",
+   "celler": 30800,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 6160
+    },
+    "UtbildningsNiva": {
+     "etikett": "utbildningsnivå",
+     "antal": 5
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 30800,
+   "uppdaterad": "2026-04-27T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6685_deso",
+   "rubrik": "DeSO: låg och hög ekonomisk standard",
+   "tema": "deso",
+   "celler": 218592,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 6
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 3
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 218592,
+   "uppdaterad": "2026-01-20T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6572_deso",
+   "rubrik": "DeSO: födelseregion",
+   "tema": "deso",
+   "celler": 145728,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Fodelseregion": {
+     "etikett": "födelseregion",
+     "antal": 4
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 145728,
+   "uppdaterad": "2026-03-24T07:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6253_deso",
+   "rubrik": "DeSO: upplåtelseform",
+   "tema": "deso",
+   "celler": 60720,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Upplatelseform": {
+     "etikett": "upplåtelseform",
+     "antal": 5
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 60720,
+   "uppdaterad": "2026-04-17T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB6680_deso",
+   "rubrik": "DeSO: arbetsmarknadsstatus",
+   "tema": "deso",
+   "celler": 1275120,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 12144
+    },
+    "Kon": {
+     "etikett": "kön",
+     "antal": 3
+    },
+    "Alder": {
+     "etikett": "ålder",
+     "antal": 7
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 5
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 1
+    }
+   },
+   "status": "ok",
+   "rader": 1275120,
+   "uppdaterad": "2025-11-28T07:00:00Z",
+   "kalla": "SCB"
+  }
+ ],
+ "dokument": [
+  {
+   "id": "valu_rd_2014_2018",
+   "typ": "valu",
+   "url": "https://omoss.svt.se/download/18.2b162e85172e510106a44061/1595419616898/valuresultat_riksdagsval_pk_2018_vagda_0912.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "valu_rd_2014_2022",
+   "typ": "valu",
+   "url": "https://omoss.svt.se/download/18.69f812fb18327382298d3e8a/1663746207468/valu_riksdagsval_2022_viktat_0921_V3.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "valu_rd_2026_seminarium",
+   "typ": "valu",
+   "url": "https://omoss.svt.se/download/18.c7d6c981a0a583535d1535/1789484134179/Valu%202026%20seminarium%20260915.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "valu_ep_2024",
+   "typ": "valu",
+   "url": "https://omoss.svt.se/download/18.273015e218fe7d3833535561/1718110247331/ValuResultat_EUval_2024.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "gu_valu_1991_2022",
+   "typ": "svenska_valjare",
+   "url": "https://www.gu.se/sites/default/files/2023-01/R23_2.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "gu_konsskillnader_1921_2022",
+   "typ": "svenska_valjare",
+   "url": "https://www.gu.se/sites/default/files/2023-11/2023_9.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "gu_hur_rostar_folk_2022",
+   "typ": "svenska_valjare",
+   "url": "https://www.gu.se/sites/default/files/2022-06/2022_7_Hur_rostar_folk_1.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "gu_lyssna_pa_valjarna_2018",
+   "typ": "svenska_valjare",
+   "url": "https://www.gu.se/sites/default/files/2020-03/Holmberg,%20Na%CC%88sman,%20Oscarsson%20&%20Gudmundson%20-%20Lyssna%20pa%CC%8A%20va%CC%88ljarna%20-%20SVT%20VALU-%20Val%202018,%20EU%20Val%202019%20(2020).pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "gu_faktablad_F2023_12",
+   "typ": "svenska_valjare",
+   "url": "https://www.gu.se/sites/default/files/2023-03/F2023_12.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "som_trender_1986_2025",
+   "typ": "som",
+   "url": "https://www.gu.se/sites/default/files/2026-03/Svenska%20trender%201986-2025.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "som_trender_1986_2022",
+   "typ": "som",
+   "url": "https://www.gu.se/sites/default/files/2023-04/1.%20Svenska%20trender%201986-2022.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "gu_vansterpartiet_2025",
+   "typ": "svenska_valjare",
+   "url": "https://www.gu.se/sites/default/files/2025-09/R2025_8_V%C3%A4nsterpartiet.pdf",
+   "status": "text finns, ej hämtad"
+  }
+ ],
+ "lanksidor": [
+  {
+   "id": "gu_faktablad_2023",
+   "url": "https://www.gu.se/valforskningsprogrammet/resultat-och-publikationer/faktablad/faktablad-2023",
+   "lankar": [
+    {
+     "id": "gu_faktablad_2023__F2023_18",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-06/F2023_18.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_17",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-05/F2023_17.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_16",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-05/F2023_16.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_15",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-04/F2023_15.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_14_0",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-04/F2023_14_0.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_13",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_13.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_11",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_11.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_10",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_10.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_9",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_9.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_8",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_8.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_7",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_7.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_6",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/F2023_6.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__2023_5",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-02/2023_5.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__2023_4",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-02/2023_4.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_3",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-02/F2023_3.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_2",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-02/F2023_2.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_faktablad_2023__F2023_1",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-02/F2023_1.pdf",
+     "status": "text finns, ej hämtad"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "gu_rapporter",
+   "url": "https://www.gu.se/valforskningsprogrammet/resultat-och-publikationer/rapporter",
+   "lankar": [
+    {
+     "id": "gu_rapporter__2026_7_Partiernas_v__ljare_1",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-09/2026%207%20Partiernas%20v%C3%A4ljare_1.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2026_6",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-06/R2026_6.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2026_5",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-06/R2026_5.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2026_4_SVB",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-04/R2026_4_SVB.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2026_3",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-03/R2026_3.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R_2026_2",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-02/R_2026_2.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2026_1_rev15juni",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2026-06/R2026_1_rev15juni.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_14_partisanship",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-12/R2025_14_partisanship.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_13",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-10/R2025_13.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_12",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_12.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_11_Socialdemokraterna",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_11_Socialdemokraterna.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_10_Sverigedemokraterna",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_10_Sverigedemokraterna.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_9_Moderaterna",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_9_Moderaterna.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_7_Centerpartiet",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_7_Centerpartiet.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_6_Kristdemokraterna",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_6_Kristdemokraterna.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_5_Milj__partiet",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_5_Milj%C3%B6partiet.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_4_Liberalerna",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-09/R2025_4_Liberalerna.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_3",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-07/R2025_3.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2025_2",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-03/R2025_2.pdf ",
+     "status": "HTTP 404"
+    },
+    {
+     "id": "gu_rapporter__R2025_1",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2025-02/R2025_1.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2024_6",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-12/R2024_6.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2024_7",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-12/R2024_7.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R_2024_5",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-03/R_2024_5.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2024_4",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-02/R2024_4.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2024_3",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-02/R2024_3.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2024_2",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-01/R2024_2.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2024_1",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-01/R2024_1.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R_2023_11",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-12/R_2023_11.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2023_10",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2024-01/R2023_10.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2023_8",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-09/R2023_8.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__2023_7_Ba__ckstedt_Viktiga_ska__l_fo__r_partival_1988-2022",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-09/2023%207%20Ba%CC%88ckstedt%20Viktiga%20ska%CC%88l%20fo%CC%88r%20partival%201988-2022.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2023_6",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-07/R2023_6.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2023_5",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-05/R2023_5.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2023_4",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-05/R2023_4.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R2023_3",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-03/R2023_3.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__R23_1",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2023-01/R23_1.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__2022_10_Valjarnas_bedomningar_av_brottsbekampning_2018-2022",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2022-12/2022_10_Valjarnas_bedomningar_av_brottsbekampning_2018-2022.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__2022_9_Energivalet_2022",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2022-10/2022_9_Energivalet_2022.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__2022_8_Opinionsundersokningarnas_traffsakerhet_2002-2022",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2022-12/2022_8_Opinionsundersokningarnas_traffsakerhet_2002-2022.pdf",
+     "status": "text finns, ej hämtad"
+    },
+    {
+     "id": "gu_rapporter__2022_7",
+     "typ": "svenska_valjare",
+     "url": "https://www.gu.se/sites/default/files/2022-08/2022_7_.pdf",
+     "status": "text finns, ej hämtad"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "svt_valu_2026",
+   "url": "https://omoss.svt.se/arkiv/nyhetsarkiv/2026-09-15-svts-vallokalsundersokning---valu-2026.html",
+   "lankar": [],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "bra_ntu_utsatthet",
+   "url": "https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen/utsatthet-for-brott",
+   "lankar": [],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "bra_ntu",
+   "url": "https://bra.se/statistik/statistik-fran-enkatundersokningar/nationella-trygghetsundersokningen",
+   "lankar": [
+    {
+     "id": "bra_ntu__Tabellsamling_NTU_2007-2025",
+     "typ": "bra_ntu",
+     "url": "https://bra.se/download/18.73837f1119e639446eb674d/1779977985828/Tabellsamling%20NTU%202007-2025.xlsx",
+     "fil": "data/kallor/xlsx/bra_ntu__Tabellsamling_NTU_2007-2025.xlsx",
+     "bytes": 1572043,
+     "status": "ok"
+    },
+    {
+     "id": "bra_ntu__Resultat_f__r_l__n_NTU_2017-2025",
+     "typ": "bra_ntu",
+     "url": "https://bra.se/download/18.246b718b199a386c9cc110f0/1759753453946/Resultat%20f%C3%B6r%20l%C3%A4n%20NTU%202017-2025.xlsx",
+     "fil": "data/kallor/xlsx/bra_ntu__Resultat_f__r_l__n_NTU_2017-2025.xlsx",
+     "bytes": 552658,
+     "status": "ok"
+    },
+    {
+     "id": "bra_ntu__Resultat_f__r_socioekonomiska_omr__destyper_f__r_polisregioner_NTU_2021-2025",
+     "typ": "bra_ntu",
+     "url": "https://bra.se/download/18.246b718b199a386c9cc110f1/1759753454024/Resultat%20f%C3%B6r%20socioekonomiska%20omr%C3%A5destyper%20f%C3%B6r%20polisregioner%20NTU%202021-2025.xlsx",
+     "fil": "data/kallor/xlsx/bra_ntu__Resultat_f__r_socioekonomiska_omr__destyper_f__r_polisregioner_NTU_2021-2025.xlsx",
+     "bytes": 470715,
+     "status": "ok"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "polisen",
+   "url": "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/",
+   "lankar": [
+    {
+     "id": "polisen__skjutningar-per-polisregion-tolv-manader",
+     "typ": "polisen",
+     "url": "https://polisen.se/b5146c36e1c81bdd15f19c621cc20fd1/contentassets/cc779aaced5c4fb5bf7368677fad6f56/skjutningar-per-polisregion-tolv-manader.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-tolv-manader.pdf",
+     "bytes": 44003,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-tolv-manader",
+     "typ": "polisen",
+     "url": "https://polisen.se/ee6172fc411e90bfc11cfaee83df8ca2/contentassets/cc779aaced5c4fb5bf7368677fad6f56/sprangningar-per-polisregion-tolv-manader.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-tolv-manader.pdf",
+     "bytes": 148932,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2025",
+     "typ": "polisen",
+     "url": "https://polisen.se/0d1a7c7e948c5fab1d5b783f2750bb82/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2025.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2025.pdf",
+     "bytes": 214974,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2024",
+     "typ": "polisen",
+     "url": "https://polisen.se/d0ed5dc12358dd04fbba3409f0fe8c65/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2024.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2024.pdf",
+     "bytes": 215049,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2023",
+     "typ": "polisen",
+     "url": "https://polisen.se/a666154837bb5e75618a41fbb0b0e4af/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2023.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2023.pdf",
+     "bytes": 215161,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2022",
+     "typ": "polisen",
+     "url": "https://polisen.se/b1c395330762ccc2b7e7884e6531dc40/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2022.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2022.pdf",
+     "bytes": 215199,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2021",
+     "typ": "polisen",
+     "url": "https://polisen.se/9f7e0fcabcd7277e657976dbe10bb010/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2021.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2021.pdf",
+     "bytes": 215170,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2020",
+     "typ": "polisen",
+     "url": "https://polisen.se/aa77c886c802659201044204de4c4542/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2020.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2020.pdf",
+     "bytes": 215144,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2019",
+     "typ": "polisen",
+     "url": "https://polisen.se/eb1d659e125ed9e31ec26965edc8e28b/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2019.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2019.pdf",
+     "bytes": 215201,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2018",
+     "typ": "polisen",
+     "url": "https://polisen.se/0e0f73ef70caf0b2a47ca55252fc36e2/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2018.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2018.pdf",
+     "bytes": 215214,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__skjutningar-per-polisregion-2017",
+     "typ": "polisen",
+     "url": "https://polisen.se/46cb5257d765487b24a8ea5134501036/contentassets/5fe3039dff9745e39999f5ff4e67e27f/skjutningar-per-polisregion-2017.pdf",
+     "fil": "data/kallor/pdf/polisen__skjutningar-per-polisregion-2017.pdf",
+     "bytes": 215081,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2025",
+     "typ": "polisen",
+     "url": "https://polisen.se/96edf5437e1017b04b2c3818f8896dc8/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2025.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2025.pdf",
+     "bytes": 43776,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2024",
+     "typ": "polisen",
+     "url": "https://polisen.se/1a8edbf4255e01a052b1cc011400ab34/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2024.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2024.pdf",
+     "bytes": 228034,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2023",
+     "typ": "polisen",
+     "url": "https://polisen.se/6909b75867d41d1c0824c5018b3789a8/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2023.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2023.pdf",
+     "bytes": 215297,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2022",
+     "typ": "polisen",
+     "url": "https://polisen.se/ed70967e5f944a5d0cc28595453732d6/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2022.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2022.pdf",
+     "bytes": 216641,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2021",
+     "typ": "polisen",
+     "url": "https://polisen.se/f0257c56e5a979b06ac6795028c53b5c/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2021.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2021.pdf",
+     "bytes": 215027,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2020",
+     "typ": "polisen",
+     "url": "https://polisen.se/cc4bf5575f27b40b283be9d7c93ea855/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2020.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2020.pdf",
+     "bytes": 215184,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2019",
+     "typ": "polisen",
+     "url": "https://polisen.se/5bb5a1b07bbc4db7e757cc809bbcbfd5/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2019.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2019.pdf",
+     "bytes": 215125,
+     "status": "ok"
+    },
+    {
+     "id": "polisen__sprangningar-per-polisregion-2018",
+     "typ": "polisen",
+     "url": "https://polisen.se/8a4cbf672bc2bbb7a5569928a83c0879/contentassets/5fe3039dff9745e39999f5ff4e67e27f/sprangningar-per-polisregion-2018.pdf",
+     "fil": "data/kallor/pdf/polisen__sprangningar-per-polisregion-2018.pdf",
+     "bytes": 215075,
+     "status": "ok"
+    }
+   ],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "bra_sprangningar",
+   "url": "https://bra.se/nyheter/arkiv/2026-03-04-statistik-om-sprangningar",
+   "lankar": [],
+   "status": "HTTP 200"
+  },
+  {
+   "id": "val_radata_2026",
+   "url": "https://www.val.se/valresultat-och-statistik/statistik-och-data/radata-val-2026",
+   "lankar": [
+    {
+     "id": "val_radata_2026__antal-rostberattigade-per-valdistrikt-uppdelat-pa-kon-och-alder-valdagen-13-sept",
+     "typ": "valmyndigheten",
+     "url": "https://www.val.se/download/18.7faaad3f1a0b0c300e417c/1789746914378/antal-rostberattigade-per-valdistrikt-uppdelat-pa-kon-och-alder-valdagen-13-september-2026-val-till-riksdagen.xlsx",
+     "fil": "data/kallor/xlsx/val_radata_2026__antal-rostberattigade-per-valdistrikt-uppdelat-pa-kon-och-alder-valdagen-13-sept.xlsx",
+     "bytes": 662500,
+     "status": "ok"
+    },
+    {
+     "id": "val_radata_2026__antal-rostberattigade-per-valdistrikt-uppdelat-pa-kon-och-alder-kvalifikationsda",
+     "typ": "valmyndigheten",
+     "url": "https://www.val.se/download/18.1a2972da19f159e73fd3b4a/1787064446298/antal-rostberattigade-per-valdistrikt-uppdelat-pa-kon-och-alder-kvalifikationsdagen-14-augusti-2026-val-till-riksdagen.xlsx",
+     "fil": "data/kallor/xlsx/val_radata_2026__antal-rostberattigade-per-valdistrikt-uppdelat-pa-kon-och-alder-kvalifikationsda.xlsx",
+     "bytes": 651253,
+     "status": "ok"
+    },
+    {
+     "id": "val_radata_2026__valkretsmandat-riksdag-1988-2026",
+     "typ": "valmyndigheten",
+     "url": "https://www.val.se/download/18.4005a7d19dee20a8ea544/1778074856144/valkretsmandat-riksdag-1988-2026.xlsx",
+     "fil": "data/kallor/xlsx/val_radata_2026__valkretsmandat-riksdag-1988-2026.xlsx",
+     "bytes": 21065,
+     "status": "ok"
+    },
+    {
+     "id": "val_radata_2026__preliminar-riksdagsval-utan-uppsamlingsdistrikt",
+     "typ": "valmyndigheten",
+     "url": "https://www.val.se/download/18.4128eb071a087b13108cfb/1789542214730/preliminar-riksdagsval-utan-uppsamlingsdistrikt.xlsx",
+     "fil": "data/kallor/xlsx/val_radata_2026__preliminar-riksdagsval-utan-uppsamlingsdistrikt.xlsx",
+     "bytes": 3788807,
+     "status": "ok"
+    },
+    {
+     "id": "val_radata_2026__preliminar-riksdagsval-med-uppsamlingsdistrikt",
+     "typ": "valmyndigheten",
+     "url": "https://www.val.se/download/18.7faaad3f1a0b0c300e4184/1789765696083/preliminar-riksdagsval-med-uppsamlingsdistrikt.xlsx",
+     "fil": "data/kallor/xlsx/val_radata_2026__preliminar-riksdagsval-med-uppsamlingsdistrikt.xlsx",
+     "bytes": 5118630,
+     "status": "ok"
+    },
+    {
+     "id": "val_radata_2026__preliminar-rostfil-riksdagsval-per-distrikt",
+     "typ": "valmyndigheten",
+     "url": "https://www.val.se/download/18.7faaad3f1a0b0c300e416a/1789744184576/preliminar-rostfil-riksdagsval-per-distrikt.xlsx",
+     "fil": "data/kallor/xlsx/val_radata_2026__preliminar-rostfil-riksdagsval-per-distrikt.xlsx",
+     "bytes": 4582980,
+     "status": "ok"
+    }
+   ],
+   "status": "HTTP 200"
+  }
+ ],
+ "fel": [
+  "riksdagen aggregera 2014/15: 'rost' (['2014/15', 'SfU2', '019135E3-6F23-4136-9252-3877406FB389', '6', 'Billström Tobias', '0956595590924', 'M', 'Malmö kommun', 'Ja', 'sakfrågan', '1', 'man', '1973', '2014-12-12'])",
+  "riksdagen aggregera 2015/16: 'rost' (['2015/16', 'JuU8', '0036EB69-7D72-4396-B47F-0FC83E09389F', '9', 'Magnus Manhammar', '025967059622', 'S', 'Blekinge län', 'Ja', 'sakfrågan', '14', 'man', '1980', '2015-11-18'])",
+  "riksdagen aggregera 2016/17: 'rost' (['2016/17', 'SoU10', '00ACAD6A-0CE9-4D33-9F5D-E7423A27AADB', '23', 'Solveig Zander', '0196077326617', 'C', 'Uppsala län', 'Avstår', 'sakfrågan', '29', 'kvinna', '1955', '2017-05-10'])",
+  "riksdagen aggregera 2017/18: 'rost' (['2017/18', 'MJU22', '002FB91D-64E8-4FE1-8F84-24F63B059387', '18', 'Agneta Gille', '0376867803913', 'S', 'Uppsala län', 'Ja', 'sakfrågan', '27', 'kvinna', '1956', '2018-06-20'])",
+  "riksdagen aggregera 2018/19: 'rost' (['2018/19', 'SfU11', '0069C0F4-729A-4970-96B0-56C306EC698C', '2', 'Adnan Dibrani', '0442629549320', 'S', 'Hallands län', 'Ja', 'sakfrågan', '40', 'man', '1985', '2018-11-21'])",
+  "riksdagen aggregera 2019/20: 'rost' (['2019/20', 'CU5', '0027A0A4-925A-4E95-9ECC-0D6EDFC4A5DD', '1', 'Solveig Zander', '0196077326617', 'C', 'Uppsala län', 'Ja', 'sakfrågan', '30', 'kvinna', '1955', '2019-11-28'])",
+  "riksdagen aggregera 2020/21: 'rost' (['2020/21', 'SoU34', '005072CF-DDB2-40B1-9243-A7E9B185F552', '2', 'Lotta Johnsson Fornarve', '0122987223112', 'V', 'Södermanlands län', 'Frånvarande', 'sakfrågan', '2.1', 'kvinna', '1956', '2021-05-05'])",
+  "riksdagen aggregera 2021/22: 'rost' (['2021/22', 'SfU20', '001DA5C6-DBC6-4895-9DC7-FF3D7941166C', '17', 'Barbro Westerholm', '0363228965800', 'L', 'Stockholms län', 'Ja', 'sakfrågan', '6', 'kvinna', '1933', '2022-04-28'])",
+  "riksdagen aggregera 2022/23: 'rost' (['2022/23', 'UU15', '008484EA-7970-4559-BEA7-E2F6454E7571', '5', 'Julia Kronlid', '0638497389621', 'SD', 'Stockholms län', 'Frånvarande', 'sakfrågan', '2', 'kvinna', '1980', '2023-05-10'])",
+  "riksdagen aggregera 2023/24: 'rost' (['2023/24', 'FöU7', '0005C5A0-9CD4-42BA-9C62-8FFF47BB688F', '4', 'Julia Kronlid', '0638497389621', 'SD', 'Stockholms län', 'Ja', 'sakfrågan', '2', 'kvinna', '1980', '2024-04-11'])",
+  "riksdagen aggregera 2024/25: 'rost' (['2024/25', 'SoU5', '00419725-4314-4903-BCB7-A9B056752B1B', '1', 'Mikael Damberg', '014744660015', 'S', 'Stockholms län', 'Ja', 'sakfrågan', '7', 'man', '1971', '2024-12-04'])",
+  "riksdagen aggregera 2025/26: 'rost' (['2025/26', 'JuU22', '00178723-112D-4742-8BE9-B606161A44DF', '2', 'Mikael Damberg', '014744660015', 'S', 'Stockholms län', 'Ja', 'sakfrågan', '7', 'man', '1971', '2026-01-28'])"
+ ],
+ "kolada": [
+  {
+   "id": "N79222",
+   "namn": "Första kontakt i specialiserad vård inom 90 dagar",
+   "rader": 99
+  },
+  {
+   "id": "N79224",
+   "namn": "Operation/åtgärd inom 90 dagar",
+   "rader": 99
+  },
+  {
+   "id": "N79179",
+   "namn": "Telefonsamtal till primärvården besvarade samma dag",
+   "rader": 328
+  },
+  {
+   "id": "N17457",
+   "namn": "Examen/studiebevis inom 4 år (gymnasiet)",
+   "rader": 3191
+  },
+  {
+   "id": "N15428",
+   "namn": "Behöriga till yrkesprogram, åk 9",
+   "rader": 6425
+  },
+  {
+   "id": "U23401",
+   "namn": "Väntetid till särskilt boende (dagar)",
+   "rader": 3649
+  },
+  {
+   "id": "U23471",
+   "namn": "Nöjdhet särskilt boende, helhetssyn (%)",
+   "rader": 3706
+  },
+  {
+   "id": "N07540",
+   "namn": "Anmälda brott per 100 000 inv",
+   "rader": 5238
+  },
+  {
+   "id": "N07403",
+   "namn": "Anmälda våldsbrott per 100 000 inv",
+   "rader": 4055
+  },
+  {
+   "id": "N03923",
+   "namn": "Långtidsarbetslösa, andel av arbetslösa (%)",
+   "rader": 4680
+  },
+  {
+   "id": "N66080",
+   "namn": "Låg ekonomisk standard (%)",
+   "rader": 4368
+  },
+  {
+   "id": "N31807",
+   "namn": "Ekonomiskt bistånd (% av bef.)",
+   "rader": 6176
+  },
+  {
+   "id": "N02900",
+   "namn": "Utrikes födda (% av bef.)",
+   "rader": 5752
+  },
+  {
+   "id": "N00900",
+   "namn": "Total skattesats (%)",
+   "rader": 6100
+  },
+  {
+   "id": "N00401",
+   "namn": "Växthusgasutsläpp per invånare (ton)",
+   "rader": 3432
+  },
+  {
+   "id": "N07702",
+   "namn": "Växthusgasutsläpp totalt (ton)",
+   "rader": 3432
+  },
+  {
+   "id": "N07917",
+   "namn": "Färdigställda bostäder, nybyggnad, per 1 000 inv",
+   "rader": 5946
+  },
+  {
+   "id": "N66079",
+   "namn": "Låg ekonomisk standard 65+ (%)",
+   "rader": 4368
+  },
+  {
+   "id": "N00952",
+   "namn": "Kvinnors mediannettoinkomst i % av mäns",
+   "rader": 5923
+  },
+  {
+   "id": "N15507",
+   "namn": "Meritvärde åk 9 (hemkommun, 17 ämnen)",
+   "rader": 3491
+  },
+  {
+   "id": "N02280",
+   "namn": "Arbetslöshet 20–64 år, registerbaserad (BAS, %)",
+   "rader": 1560
+  },
+  {
+   "id": "N02282",
+   "namn": "Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",
+   "rader": 1560
+  },
+  {
+   "id": "U72552",
+   "namn": "Barn- och ungdomspsykiatri: första besök inom 90 dagar (%)",
+   "rader": 308
+  },
+  {
+   "id": "N85054",
+   "namn": "Skyddad natur, andel av landareal (%)",
+   "rader": 3744
+  },
+  {
+   "id": "U07514",
+   "namn": "Ekologiska livsmedel i kommunens verksamhet (%)",
+   "rader": 4257
+  }
+ ],
+ "slut": "2026-09-28T10:35:13.840964+00:00"
+}

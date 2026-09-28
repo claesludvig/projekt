@@ -1,0 +1,72 @@
+fraga,namn,sok,id,titel,matchar,kommun,fran
+sjukvard,Första kontakt i specialiserad vård inom 90 dagar,N79222,N79222,"Genomförd första kontakt inom högst 90 dagar i specialiserad vård, andel (%)",True,,
+sjukvard,Operation/åtgärd inom 90 dagar,N79224,N79224,"Genomförd operation/åtgärd inom högst 90 dagar i specialiserad vård, andel (%)",True,,
+sjukvard,Telefonsamtal till primärvården besvarade samma dag,N79179,N79179,"Telefonsamtal till primärvården som besvarats samma dag, andel (%)",True,,
+skola,Examen/studiebevis inom 4 år (gymnasiet),N17457,N17457,"Gymnasieelever med examen eller studiebevis inom 4 år, hemkommun, andel (%)",True,,
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15424,"Elever i åk 9 som är behöriga till yrkesprogram, lägeskommun, andel (%)",False,K,2026-09-24
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15428,"Elever i åk 9 som är behöriga till yrkesprogram, hemkommun, andel (%)",True,A,2026-09-24
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15432,"Elever i åk 9 som är behöriga till yrkesprogram, fristående skolor,  andel (%)",False,K,2026-09-24
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15436,"Elever i åk 9 som är behöriga till yrkesprogram, kommunala skolor,  andel (%)",False,K,2026-09-24
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15563,"Elever i åk 9 som är behöriga till yrkesprogram (exkl. nyinvandrade och okänd bakgr.), lägeskommun, andel (%)",False,K,2026-09-24
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15564,"Elever i åk 9 som är behöriga till yrkesprogram (exkl. nyinvandrade och okänd bakgrund), kommunala skolor, andel (%)",False,K,2026-09-24
+skola,"Behöriga till yrkesprogram, åk 9",ehöriga till yrkesprogram,N15565,"Elever i åk 9 som är behöriga till yrkesprogram (exkl. nyinvandrade och okänd bakgr.), fristående skolor, andel (%)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15504,"Elever i åk. 9, meritvärde lägeskommun, genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15505,"Elever i åk. 9, meritvärde kommunala skolor, genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15506,"Elever i åk 9, meritvärde fristående skolor i kommunen, genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15507,"Elever i åk 9, meritvärde, hemkommun, genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15566,"Elever i åk 9 meritvärde lägeskommun (exkl. nyinvandrade och okänd bakgr.), genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15567,"Elever i åk 9 meritvärde kommunala skolor (exkl. nyinvandrade och okänd bakgrund), genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,N15568,"Elever i åk 9, meritvärde fristående skolor i kommunen (exkl. nyinvandrade och okänd bakgrund), genomsnitt (17 ämnen)",False,K,2026-09-24
+skola,Meritvärde åk 9,eritvärde,U15415,"Meritvärde i åk. 9, modellberäknat genomsnittligt värde (SALSA)",False,K,2027-01-30
+skola,Meritvärde åk 9,eritvärde,U15416,"Meritvärde i åk. 9, avvikelse från SALSA på enhetsnivå, poäng",False,K,2027-01-30
+aldre,Väntetid till särskilt boende (dagar),U23401,U23401,"Väntetid i antal dagar från ansökningsdatum till första erbjudet inflyttningsdatum till särskilt boende, medelvärde",True,,
+aldre,"Nöjdhet särskilt boende, helhetssyn (%)",U23471,U23471,"Brukarbedömning särskilt boende äldreomsorg -  helhetssyn, andel (%)",True,,
+lag,Anmälda brott per 100 000 inv,N07540,N07540,"Anmälda brott totalt, antal/100 000 inv",True,,
+lag,Anmälda våldsbrott per 100 000 inv,N07403,N07403,"Anmälda våldsbrott, antal/100 000 inv",True,,
+jobb,"Långtidsarbetslösa, andel av arbetslösa (%)",N03923,N03923,"Långtidsarbetslöshet 15-74 år, årsmedelvärde, andel (%) av arbetslösa (-2024)",True,,
+egen_ekonomi,Låg ekonomisk standard (%),N66080,N66080,"Invånare med låg ekonomisk standard, andel (%)",True,,
+valfard,Ekonomiskt bistånd (% av bef.),N31807,N31807,"Invånare som någon gång under året erhållit ekonomiskt bistånd, andel (%) av bef.",True,,
+invandring,Utrikes födda (% av bef.),trikes födda,N00217,"Anställda utrikes födda, kommun, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N00220,"Utrikes födda 18-64 år bland anställda, kommun, andel (%)",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N00221,"Utrikes födda 18-64 år, andel (%)",False,K,2027-02-24
+invandring,Utrikes födda (% av bef.),trikes födda,N01950,"Utrikes födda vuxna invånare, 20-64 år, andel (%)",False,A,2027-02-24
+invandring,Utrikes födda (% av bef.),trikes födda,N02268,"Sysselsättningsgrad, utrikes födda 20-64 år, andel (%)",False,A,2026-11-28
+invandring,Utrikes födda (% av bef.),trikes födda,N02282,"Arbetslöshet bland utrikes födda, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%)",False,A,2026-11-28
+invandring,Utrikes födda (% av bef.),trikes födda,N02284,"Arbetskraftsdeltagande bland utrikes födda 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%)",False,A,2026-11-28
+invandring,Utrikes födda (% av bef.),trikes födda,N02900,"Utrikes födda invånare 0-19 år, andel (%)",True,K,2027-02-24
+invandring,Utrikes födda (% av bef.),trikes födda,N02925,"Utrikes födda exklusive EU/EFTA, andel (%)",False,A,2027-03-09
+invandring,Utrikes födda (% av bef.),trikes födda,N02926,"Utrikes födda, andel (%)",False,K,2027-02-24
+invandring,Utrikes födda (% av bef.),trikes födda,N05825,"Utrikes födda bland förtroendevalda kommunpolitiker, andel (%)",False,K,2028-04-22
+invandring,Utrikes födda (% av bef.),trikes födda,N05826,"Utrikes födda i kommunfullmäktige, andel (%)",False,K,2027-03-28
+invandring,Utrikes födda (% av bef.),trikes födda,N05832,"Utrikes födda i kommunfullmäktige, balanstal",False,K,2027-03-28
+invandring,Utrikes födda (% av bef.),trikes födda,N09217,"Utrikes födda, anställda inom kultur och fritid, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N11217,"Utrikes födda, anställda inom förskola och skolbarnomsorg, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N15217,"Utrikes födda, anställda inom grundskola inkl. förskoleklass, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N17217,"Utrikes födda, anställda inom gymnasieskola och komvux, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N20217,"Utrikes födda, anställda inom omsorg om äldre och personer med funktionsnedsättning, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N30217,"Utrikes födda, anställda inom individ- och familjeomsorg, balanstal",False,K,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N60085,"Anställda utrikes födda, region, balanstal",False,L,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N61984,"Inrikes födda med två utrikes födda föräldrar, andel (%)",False,A,2027-03-24
+invandring,Utrikes födda (% av bef.),trikes födda,N61985,"Inrikes födda med en inrikes och en utrikes född förälder, andel (%)",False,A,2027-03-24
+invandring,Utrikes födda (% av bef.),trikes födda,N65825,"Utrikes födda bland förtroendevalda regionpolitiker, andel (%)",False,L,2028-04-22
+invandring,Utrikes födda (% av bef.),trikes födda,N65826,"Utrikes födda i regionfullmäktige, andel (%)",False,L,2027-03-28
+invandring,Utrikes födda (% av bef.),trikes födda,N71217,"Utrikes födda, anställda inom primärvård, balanstal",False,L,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N72033,"Utrikes födda, anställda inom specialiserad somatisk vård, balanstal",False,L,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N74030,"Utrikes födda, anställda inom specialiserad psykiatrisk vård, balanstal",False,L,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,N80032,"Utrikes födda, anställda inom tandvård, balanstal",False,L,2027-06-26
+invandring,Utrikes födda (% av bef.),trikes födda,U01805,"Utrikes födda invånare 18-64 år med vistelsetid 0-5 år efter uppehållstillstånd, andel (%)",True,K,2026-10-28
+invandring,Utrikes födda (% av bef.),trikes födda,U01806,"Utrikes födda invånare 18-64 år med vistelsetid 6-10 år efter uppehållstillstånd, andel (%)",True,K,2026-10-28
+invandring,Utrikes födda (% av bef.),trikes födda,U20488,"Utrikes födda exklusive EU/EFTA, andel (%) (-2024)",False,L,
+invandring,Utrikes födda (% av bef.),trikes födda,U65861,"Utrikes födda som röstade i senaste kommunfullmäktigevalet, andel (%)",False,K,2026-11-15
+skatter,Total skattesats (%),N00900,N00900,"Skattesats, totalt (%)",True,,
+klimat,Växthusgasutsläpp per invånare (ton),N00401,N00401,"Utsläpp till luft av växthusgaser totalt, ton CO2-ekv/inv",True,,
+klimat,Växthusgasutsläpp totalt (ton),N07702,N07702,"Utsläpp till luft av växthusgaser totalt, ton CO2-ekv",True,,
+bostad,"Färdigställda bostäder, nybyggnad, per 1 000 inv",N07917,N07917,"Färdigställda bostäder, nybyggnad, antal/1000 inv",True,,
+pension,Låg ekonomisk standard 65+ (%),N66079,N66079,"Invånare, 65+ år, med låg ekonomisk standard, andel (%)",True,,
+jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,N00952,N00952,"Kvinnors mediannettoinkomst som andel av mäns mediannettoinkomst, andel (%)",True,,
+skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",N15507,N15507,"Elever i åk 9, meritvärde, hemkommun, genomsnitt (17 ämnen)",True,,
+jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",N02280,N02280,"Arbetslöshet, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%) (-2024)",True,,
+invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",N02282,N02282,"Arbetslöshet bland utrikes födda, 20-64 år, befolkningens arbetsmarknadsstatus (BAS), andel (%)",True,,
+sjukvard,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),U72552,U72552,"Genomförda första besök inom 90 dagar i barn- och ungdomspsykiatrisk vård, andel (%)",True,,
+miljo,"Skyddad natur, andel av landareal (%)",N85054,N85054,"Skyddad natur totalt, andel (%)",True,,
+miljo,Ekologiska livsmedel i kommunens verksamhet (%),U07514,U07514,"Ekologiska livsmedel i kommunens verksamhet, andel (%)",True,,

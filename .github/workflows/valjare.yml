@@ -1,0 +1,96 @@
+name: Väljardatabasen - hämta SCB, Valu, Valforskning, Brå
+
+on:
+  workflow_dispatch:
+    inputs:
+      steg:
+        description: "alla | scb | dokument | verklighet | geo | vecka"
+        default: "alla"
+  push:
+    branches: ["claude/voter-database-demographics-r9y5la"]
+    paths: ["valjare/*.py", "valjare/sida.html", "valjare/requirements.txt", ".github/workflows/valjare.yml"]
+  schedule:
+    - cron: "17 5 * 6,12 1"   # måndagar i juni och december: allt, efter PSU-publiceringarna
+    - cron: "43 5 * * 1"      # varje måndag: lägesbilden (månadsserierna)
+
+concurrency:
+  group: valjare
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r valjare/requirements.txt
+
+      - name: Hämta rådata
+        working-directory: valjare
+        # Veckokörningen hämtar bara månadsserierna; övriga schemalagda körningar allt
+        run: |
+          STEG="${{ inputs.steg }}"
+          if [ -z "$STEG" ]; then
+            if [ "${{ github.event.schedule }}" = "43 5 * * 1" ]; then STEG=vecka; else STEG=alla; fi
+          fi
+          python hamta.py --steg "$STEG"
+
+      - name: Testa tolkarna
+        working-directory: valjare
+        run: python -m pytest -q tests
+
+      - name: Bygg databas och sida
+        working-directory: valjare
+        run: |
+          python geo.py || echo "geo.py misslyckades, fortsätter med befintlig nyckel"
+          python bygg_db.py
+          python bygg_sida.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Skydd: GitHub tar inte emot filer över 100 MB
+          for f in $(find valjare/data -type f -size +90M); do echo "För stor, committas inte: $f"; git rm -q --cached "$f" 2>/dev/null || true; echo "$f" >> .git/info/exclude; done
+          git add -A valjare/data valjare/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto: uppdaterad väljardatabas"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase --autostash -X theirs
+            sleep $((i * 3))
+          done
+          git push
+
+      # Larm: ett ärende öppnas vid fel i kvalitetskontrollen eller om körningen kraschar,
+      # och stängs när kontrollerna är gröna igen.
+      - name: Larma vid fel i kvalitetskontrollen
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=valjare/data/kvalitet.json
+          TITEL="Väljardatabasen: kvalitetskontroll"
+          nr=$(gh issue list --state open --search "\"$TITEL\" in:title" --json number -q '.[0].number' 2>/dev/null || true)
+          if [ "${{ job.status }}" != "success" ]; then
+            body="Körningen misslyckades: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            if [ -n "$nr" ]; then gh issue comment "$nr" --body "$body"; else gh issue create --title "$TITEL" --body "$body"; fi
+            exit 0
+          fi
+          [ -f "$f" ] || exit 0
+          status=$(python -c "import json;print(json.load(open('$f'))['status'])")
+          if [ "$status" = "fel" ]; then
+            if [ -n "$nr" ]; then gh issue comment "$nr" --body-file valjare/data/kvalitet.md
+            else gh issue create --title "$TITEL" --body-file valjare/data/kvalitet.md; fi
+          elif [ -n "$nr" ]; then
+            gh issue close "$nr" --comment "Kontrollerna är utan fel igen (status: $status)."
+          fi

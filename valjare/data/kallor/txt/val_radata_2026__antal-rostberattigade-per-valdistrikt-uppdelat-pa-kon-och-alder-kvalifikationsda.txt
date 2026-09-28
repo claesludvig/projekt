@@ -1,0 +1,143 @@
+
+===== flik: Information (15x1) =====
+                                          0
+0                 Valmyndigheten 2026-08-17
+1   Statistik över röstberättigade per v...
+2   Filen inkluderar en flik med röstber...
+3                     Källa: Valmyndigheten
+5   Totalt antal röstberättigade för val...
+6                    Ålder 18-29: 1 351 662
+7                    Ålder 30-49: 2 552 488
+8                    Ålder 50-64: 1 907 192
+9                      Ålder 65-: 2 235 383
+10                           Män: 3 997 503
+11                       Kvinnor: 4 049 222
+12              Förstagångsväljare: 483 182
+13                 Utlandssvenskar: 226 906
+14                        Totalt: 8 046 725
+
+===== flik: rostber_per_distrikt (60x15) =====
+                     0                 1          2               3                4                       5            6            7            8          9     10       11                  12               13      14
+0   Riksdagsvalkretskod  Riksdagsvalkrets  Kommunkod          Kommun  Valdistriktskod             Valdistrikt  Ålder 18-29  Ålder 30-49  Ålder 50-64  Ålder 65-   Män  Kvinnor  Förstagångsväljare  Utlandssvenskar  Totalt
+1                    02    Stockholms län       0114  Upplands Väsby         01140101              Övra Runby          189          547          346        250   678      654                  69               31    1332
+2                    02    Stockholms län       0114  Upplands Väsby         01140102                 Mälaren          137          342          272        378   555      574                  43               24    1129
+3                    02    Stockholms län       0114  Upplands Väsby         01140120                 Edssjön          235          910          292        237   831      843                  92               81    1674
+4                    02    Stockholms län       0114  Upplands Väsby         01140121             Nedra Runby          205          372          295        279   564      587                  69               44    1151
+5                    02    Stockholms län       0114  Upplands Väsby         01140126        Prästgårdsmarken          207          522          302        242   632      641                  66               37    1273
+6                    02    Stockholms län       0114  Upplands Väsby         01140203              Folkparken          272          432          271        381   694      662                  68               46    1356
+7                    02    Stockholms län       0114  Upplands Väsby         01140204                Fysingen          157          453          344        242   625      571                  68               27    1196
+8                    02    Stockholms län       0114  Upplands Väsby         01140206                   Sigma          248          426          234        174   544      538                  91               47    1082
+9                    02    Stockholms län       0114  Upplands Väsby         01140207        Odenslunda Södra          192          330          367        351   612      628                  97               37    1240
+10                   02    Stockholms län       0114  Upplands Väsby         01140209            Smedby Norra          155          400          247        146   500      448                  61               55     948
+11                   02    Stockholms län       0114  Upplands Väsby         01140210      Väsbyskogen Västra          337          419          359        535   792      858                 110               50    1650
+12                   02    Stockholms län       0114  Upplands Väsby         01140211                  Skälby          189          439          350        339   659      658                  83               39    1317
+13                   02    Stockholms län       0114  Upplands Väsby         01140212            Smedby Södra          185          438          331        248   589      613                  79               42    1202
+14                   02    Stockholms län       0114  Upplands Väsby         01140218               Korpkulla          223          462          321        429   699      736                  51               80    1435
+15                   02    Stockholms län       0114  Upplands Väsby         01140219                   Ekebo          149          388          219        292   531      517                  41               50    1048
+16                   02    Stockholms län       0114  Upplands Väsby         01140223                 Brunnby          234          507          401        185   640      687                  93               46    1327
+17                   02    Stockholms län       0114  Upplands Väsby         01140224           Apoteksskogen          173          394          262        273   527      575                  74               39    1102
+18                   02    Stockholms län       0114  Upplands Väsby         01140225       Väsbyskogen Östra          229          552          257        183   630      591                  70               47    1221
+19                   02    Stockholms län       0114  Upplands Väsby         01140231                 Vilunda          158          374          218        387   547      590                  56               39    1137
+20                   02    Stockholms län       0114  Upplands Väsby         01140232        Fyrklövern Norra          175          262          104        471   456      556                  22               14    1012
+21                   02    Stockholms län       0114  Upplands Väsby         01140233        Fyrklövern Södra          146          349          189        216   460      440                  54               30     900
+22                   02    Stockholms län       0114  Upplands Väsby         01140313        Odenslunda Norra          205          426          361        207   591      608                 113               24    1199
+23                   02    Stockholms län       0114  Upplands Väsby         01140314        Norra Bollstanäs          277          511          456        222   741      725                 156               36    1466
+24                   02    Stockholms län       0114  Upplands Väsby         01140315          Sjukyrkoberget          196          321          337        315   594      575                 113               34    1169
+25                   02    Stockholms län       0114  Upplands Väsby         01140316               Grimstaby          237          509          470        485   841      860                 109               42    1701
+26                   02    Stockholms län       0114  Upplands Väsby         01140317        Gamla Bollstanäs          235          356          413        230   625      609                 101               54    1234
+27                   02    Stockholms län       0114  Upplands Väsby         01140318                Frestaby          163          331          298        288   544      536                  85               24    1080
+28                   02    Stockholms län       0114  Upplands Väsby         01140327    Östra Frestaby-Ekeby          263          592          407        230   763      729                 122               32    1492
+29                   02    Stockholms län       0115      Vallentuna         01150101     1 Vallentuna västra          130          300          301        218   504      445                  63               23     949
+30                   02    Stockholms län       0115      Vallentuna         01150102        2 Markim-Orkesta          177          483          365        320   667      678                  88               26    1345
+31                   02    Stockholms län       0115      Vallentuna         01150103        3 Hammarbacken N          196          476          447        389   735      773                 118               25    1508
+32                   02    Stockholms län       0115      Vallentuna         01150104        4 Hammarbacken S          206          491          394        344   695      740                  96               34    1435
+33                   02    Stockholms län       0115      Vallentuna         01150105              5 Ormsta N          224          580          403        312   783      736                 126               38    1519
+34                   02    Stockholms län       0115      Vallentuna         01150106  6 Vallentuna nordöstra          324          761          589        340  1016      998                 163               36    2014
+35                   02    Stockholms län       0115      Vallentuna         01150107  7 Norrgården-Sörgården          162          321          218        304   461      544                  52               24    1005
+36                   02    Stockholms län       0115      Vallentuna         01150108          8 Vallentuna C          279          392          340        617   727      901                  75               28    1628
+37                   02    Stockholms län       0115      Vallentuna         01150109              9 Ormsta S          364          640          334        453   898      893                  97               31    1791
+38                   02    Stockholms län       0115      Vallentuna         01150110            10 Lovisedal          210          578          508        420   854      862                 119               56    1716
+39                   02    Stockholms län       0115      Vallentuna         01150111             11 Karlberg          354          634          445        354   886      901                 153               48    1787
+40                   02    Stockholms län       0115      Vallentuna         01150112   12 Vada-Angarn-Össeby          204          487          488        365   780      764                  87               46    1544
+41                   02    Stockholms län       0115      Vallentuna         01150113            13 Bällsta S          214          434          487        199   687      647                 140               36    1334
+42                   02    Stockholms län       0115      Vallentuna         01150114            14 Bällsta V          377          641          540        367   931      994                 176               55    1925
+43                   02    Stockholms län       0115      Vallentuna         01150115  15 Vallentuna sydöstra          251          573          470        305   789      810                 129               30    1599
+44                   02    Stockholms län       0115      Vallentuna         01150116                 16 Garn          135          374          356        301   617      549                  53               28    1166
+45                   02    Stockholms län       0115      Vallentuna         01150117      17 Kårsta-Frösunda          239          615          493        417   918      846                  96               48    1764
+46                   02    Stockholms län       0117       Österåker         01170001                Berga NV          219          475          412        389   769      726                  79               39    1495
+47                   02    Stockholms län       0117       Österåker         01170002                Berga SÖ          205          419          319        498   677      764                  47               24    1441
+48                   02    Stockholms län       0117       Österåker         01170003   Björksättra-Högsättra          177          432          345        293   597      650                  98               34    1247
+49                   02    Stockholms län       0117       Österåker         01170004                  Brevik          246          336          522        362   745      721                 139               23    1466
+50                   02    Stockholms län       0117       Österåker         01170005   Flaxenvik-Grindmossen          141          352          382        270   625      520                  76               33    1145
+51                   02    Stockholms län       0117       Österåker         01170006               Fredsborg          256          917          464        264   965      936                 123               34    1901
+52                   02    Stockholms län       0117       Österåker         01170007               Hacksta V          241          404          268        412   624      701                  71               33    1325
+53                   02    Stockholms län       0117       Österåker         01170008               Hacksta Ö          178          361          310        456   641      664                  71               68    1305
+54                   02    Stockholms län       0117       Österåker         01170009                Ljusterö          153          307          493        927  1010      870                  55               40    1880
+55                   02    Stockholms län       0117       Österåker         01170010            Margretelund          259          447          428        329   721      742                 130               39    1463
+56                   02    Stockholms län       0117       Österåker         01170011    Roslagskulla-Åsättra          219          546          589        531   989      896                  89               45    1885
+57                   02    Stockholms län       0117       Österåker         01170012                    Runö          240          455          356        475   741      785                  87               36    1526
+58                   02    Stockholms län       0117       Österåker         01170013                   Rydbo          148          453          334        236   606      565                  75               40    1171
+59                   02    Stockholms län       0117       Österåker         01170014                 Skånsta          186          533          338        288   674      671                 109               31    1345
+
+===== flik: rostber_per_kommun (60x13) =====
+         0                  1          2               3            4            5            6          7       8        9                   10               11      12
+0   Länskod                Län  Kommunkod          Kommun  Ålder 18-29  Ålder 30-49  Ålder 50-64  Ålder 65-     Män  Kvinnor  Förstagångsväljare  Utlandssvenskar  Totalt
+1        01     Stockholms län       0114  Upplands Väsby         5771        12364         8723       8215   17464    17609                2256             1151   35073
+2        01     Stockholms län       0115      Vallentuna         4046         8780         7178       6025   12948    13081                1831              612   26029
+3        01     Stockholms län       0117       Österåker         5305        11730        10055       9496   18330    18256                2452              944   36586
+4        01     Stockholms län       0120          Värmdö         4909        11033         9902       9163   17431    17576                2327              834   35007
+5        01     Stockholms län       0123        Järfälla        12121        22733        14440      14158   31863    31589                4098             1966   63452
+6        01     Stockholms län       0125           Ekerö         2848         6653         6101       5582   10445    10739                1580              577   21184
+7        01     Stockholms län       0126        Huddinge        14397        28492        20320      16696   39713    40192                5858             2552   79905
+8        01     Stockholms län       0127        Botkyrka        12428        22072        16331      14069   32500    32400                4709             2410   64900
+9        01     Stockholms län       0128           Salem         2031         4055         3243       3019    6058     6290                 954              277   12348
+10       01     Stockholms län       0136         Haninge        12969        25208        16535      14885   34915    34682                4541             1816   69597
+11       01     Stockholms län       0138          Tyresö         5889        11963        10117       8851   18060    18760                2607              914   36820
+12       01     Stockholms län       0139    Upplands-Bro         4091         7999         5260       4980   11346    10984                1549              744   22330
+13       01     Stockholms län       0140         Nykvarn         1408         3138         2399       2059    4557     4447                 624              138    9004
+14       01     Stockholms län       0160            Täby         9920        18140        15552      15228   28923    29917                4238             2118   58840
+15       01     Stockholms län       0162        Danderyd         4496         6664         6952       7174   12219    13067                2048             1622   25286
+16       01     Stockholms län       0163      Sollentuna         9519        18431        14769      12958   27624    28053                4086             2074   55677
+17       01     Stockholms län       0180       Stockholm       137095       279421       177973     170400  371167   393722               41027            36440  764889
+18       01     Stockholms län       0181      Södertälje        12408        22871        17515      16818   35288    34324                4513             2157   69612
+19       01     Stockholms län       0182           Nacka        13360        28483        21975      19897   40798    42917                5808             2902   83715
+20       01     Stockholms län       0183      Sundbyberg         7652        17364         8622       7794   20638    20794                1906             1521   41432
+21       01     Stockholms län       0184           Solna        11240        24779        13200      13775   31369    31625                2691             2949   62994
+22       01     Stockholms län       0186         Lidingö         5558        11171         9516      10807   17746    19306                2550             1883   37052
+23       01     Stockholms län       0187         Vaxholm         1243         2241         2795       3032    4511     4800                 680              272    9311
+24       01     Stockholms län       0188       Norrtälje         6501        14607        12635      19504   26669    26578                2400              986   53247
+25       01     Stockholms län       0191         Sigtuna         6115        12288         9104       7852   17841    17518                2427             1561   35359
+26       01     Stockholms län       0192       Nynäshamn         2989         6750         5669       7004   11236    11176                1170              453   22412
+27       03        Uppsala län       0305            Håbo         2731         5577         4645       4154    8673     8434                1183              387   17107
+28       03        Uppsala län       0319      Älvkarleby          946         2206         1876       2407    3755     3680                 382              128    7435
+29       03        Uppsala län       0330         Knivsta         2843         5775         3666       3029    7710     7603                1147              354   15313
+30       03        Uppsala län       0331            Heby         1406         3286         2583       3765    5619     5421                 550              172   11040
+31       03        Uppsala län       0360           Tierp         2181         4787         3965       5377    8253     8057                 834              276   16310
+32       03        Uppsala län       0380         Uppsala        45044        60041        38704      43902   90513    97178               13550             5810  187691
+33       03        Uppsala län       0381        Enköping         5901        11588         8929      10398   18568    18248                2215              662   36816
+34       03        Uppsala län       0382       Östhammar         2200         4766         4173       6482    9044     8577                 860              227   17621
+35       04  Södermanlands län       0428        Vingåker          912         1762         1707       2473    3520     3334                 356              112    6854
+36       04  Södermanlands län       0461          Gnesta         1001         2606         2147       2850    4243     4361                 446              182    8604
+37       04  Södermanlands län       0480        Nyköping         6805        13424        10387      14459   22110    22965                2744              959   45075
+38       04  Södermanlands län       0481       Oxelösund         1153         2682         2121       3372    4789     4539                 479              202    9328
+39       04  Södermanlands län       0482            Flen         1485         2722         2967       4626    5965     5835                 619              321   11800
+40       04  Södermanlands län       0483     Katrineholm         4125         7574         6213       8457   13078    13291                1589              645   26369
+41       04  Södermanlands län       0484      Eskilstuna        13823        24949        19361      22187   39808    40512                5204             2176   80320
+42       04  Södermanlands län       0486       Strängnäs         4103         8922         7443       9346   14791    15023                1695              665   29814
+43       04  Södermanlands län       0488           Trosa         1322         3287         2934       3861    5613     5791                 568              232   11404
+44       05  Östergötlands län       0509         Ödeshög          509         1112         1000       1496    2117     2000                 200               54    4117
+45       05  Östergötlands län       0512            Ydre          312          688          686       1193    1490     1389                 133               55    2879
+46       05  Östergötlands län       0513           Kinda          922         2139         1904       2803    3944     3824                 383               91    7768
+47       05  Östergötlands län       0560         Boxholm          521         1174         1109       1483    2230     2057                 195               56    4287
+48       05  Östergötlands län       0561      Åtvidaberg         1088         2600         2251       3145    4604     4480                 435              124    9084
+49       05  Östergötlands län       0562        Finspång         2194         4718         4126       5545    8538     8045                 841              321   16583
+50       05  Östergötlands län       0563    Valdemarsvik          676         1479         1498       2486    3149     2990                 280               97    6139
+51       05  Östergötlands län       0580       Linköping        30682        40664        28297      31231   66232    64642                9801             3188  130874
+52       05  Östergötlands län       0581      Norrköping        20234        36427        25995      29306   55272    56690                7177             2558  111962
+53       05  Östergötlands län       0582     Söderköping         1263         3431         2799       3974    5713     5754                 563              158   11467
+54       05  Östergötlands län       0583          Motala         4553         9759         8328      11056   17022    16674                1881              478   33696
+55       05  Östergötlands län       0584        Vadstena          620         1471         1484       2597    2976     3196                 240              105    6172
+56       05  Östergötlands län       0586          Mjölby         3340         7088         5250       6354   11237    10795                1277              303   22032
+57       06     Jönköpings län       0604           Aneby          681         1583         1227       1707    2670     2528                 264               59    5198
+58       06     Jönköpings län       0617          Gnosjö          975         1927         1782       2058    3494     3248                 432              124    6742
+59       06     Jönköpings län       0642         Mullsjö          781         1747         1343       1869    2863     2877                 341               66    5740

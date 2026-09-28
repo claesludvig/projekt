@@ -1,0 +1,95 @@
+"""Osäkerhet och evidensnivå.
+
+- r_ki: 95-procentigt konfidensintervall för en korrelation (Fishers z).
+  Intervallet gäller slumpvariation; det säger inget om orsak.
+- EVIDENS: vad varje analys på sidan och i databasen kan och inte kan säga.
+  Nivåerna:
+    beskrivande      mätt utfall, med kända mätfel
+    modellskattning  beräknad ur antaganden (vikter, IPF, ytviktning)
+    samband          korrelation mellan områden (ekologisk), inte orsak
+"""
+
+import numpy as np
+
+NIVAER = {
+    "beskrivande": "Beskrivande: mätt utfall",
+    "modellskattning": "Modellskattning: beräknad ur antaganden",
+    "samband": "Samband: korrelation mellan områden, inte orsak",
+}
+
+
+def r_ki(r: float, n: int) -> tuple[float | None, float | None]:
+    if r is None or n is None or n < 4 or not np.isfinite(r) or abs(r) >= 1:
+        return None, None
+    z, se = np.arctanh(r), 1 / np.sqrt(n - 3)
+    return float(np.tanh(z - 1.96 * se)), float(np.tanh(z + 1.96 * se))
+
+
+def med_ki(df, r="r", n="n"):
+    """Lägger till r_lag och r_hog (95 %) efter kolumnerna r och n."""
+    if df.empty:
+        return df
+    ki = [r_ki(a, b) for a, b in zip(df[r], df[n])]
+    df = df.copy()
+    df[f"{r}_lag"] = [a for a, _ in ki]
+    df[f"{r}_hog"] = [b for _, b in ki]
+    return df
+
+
+# (id, avsnitt/tabell, nivå, vad det säger, vad det inte säger)
+EVIDENS = [
+    ("lage", "Läget: senaste månaderna", "beskrivande",
+     "Hur månadsserierna har rört sig mot föregående år och mot sin egen historik.",
+     "Varför. En avvikelse är en signal att undersöka, inte en slutsats. Polisens och SCB:s "
+     "senaste siffror kan revideras."),
+    ("valkrets", "Min valkrets", "beskrivande",
+     "Valkretsens nivå och utveckling jämfört med riket, i officiell statistik.",
+     "Orsaker. Värden som bara finns per län eller polisregion anges som sådana; "
+     "för delade län är de inte valkretsens egna."),
+    ("riksdag", "Politikens svar", "beskrivande",
+     "Vad riksdagen har beslutat i varje sakfråga, hur partierna röstade och vad opinionen tycker om förslag i samma sak.",
+     "Om besluten orsakade utvecklingen eller om de gick i opinionens riktning; kopplingen mellan förslag, "
+     "beslut och sakfråga bygger på ord i rubriken och på utskottet och kan både missa och felklassa ärenden. "
+     "SOM-värdena är andelen som tycker att förslaget är bra, inte en majoritetsomröstning."),
+    ("omraden", "Områdena", "beskrivande",
+     "Utveckling, kapacitet och mål per område i Sverige, jämfört med de nordiska grannländerna och EU-snittet.",
+     "Varför länderna skiljer sig. Definitioner och registrering skiljer sig mellan länder (särskilt för brott), "
+     "och en högre eller lägre nivå är inte i sig bättre eller sämre. Kunskapsluckorna står uttryckligen per område."),
+    ("genomslag", "Genomslag", "beskrivande",
+     "Hur många som följer partierna och partiledarna, hur ofta partierna nämns i nyhetsflödena, "
+     "hur mycket de talar i riksdagen och hur mycket de annonserade hos Google.",
+     "Räckvidd eller påverkan. Följare är inte räckvidd, och Wikidata uppdateras ojämnt. Nyhetsflödena "
+     "täcker ett urval redaktioner och bara rubrik och ingress; ett omnämnande kan vara positivt eller "
+     "negativt. Historiken i flödena börjar när insamlingen startade."),
+    ("sammansattning", "Vilka röstar på partierna", "beskrivande",
+     "Hur partiernas väljare fördelar sig på grupper enligt Valforskningsprogrammet och PSU.",
+     "PSU mäter sympati i maj/november, inte röster. Gruppernas storlek i PSU är skattad "
+     "ur felmarginalerna och kalibrerad mot registret (modellskattning)."),
+    ("valu", "Valu 1991–2026", "beskrivande",
+     "Partival per grupp på valdagen enligt vallokalsundersökningen.",
+     "Förtidsröstare och bortfall hanteras med vikter; små grupper har stora felmarginaler."),
+    ("kommunsamband", "Geografin", "samband",
+     "Om partiet är starkare i kommuner med viss sammansättning.",
+     "Något om enskilda väljare (ekologiskt felslut). Land och stad, ålder och inkomst "
+     "samvarierar, så sambandet kan bero på annat än den visade variabeln."),
+    ("lan", "Länen (IPF)", "modellskattning",
+     "Hur partiernas väljare kan tänkas se ut per län, givet länets befolkning och valresultat.",
+     "Metoden antar att grupperna röstar likadant i hela landet, justerat för länets resultat. "
+     "Regionala skillnader i gruppernas röstande fångas bara delvis."),
+    ("dekomposition", "Demografi eller beteende", "modellskattning",
+     "Hur mycket av partiets förändring som följer av att grupperna har vuxit eller krympt.",
+     "Bygger på PSU:s sympatier. Uppdelningen beror på vilka grupper som ingår."),
+    ("valdistrikt", "Valdistrikten", "samband",
+     "Hur partiernas andel varierar med områdets sammansättning, i 6 000 distrikt.",
+     "Något om enskilda väljare. Distrikten är ytviktade mot DeSO, vilket ger mätfel där gränserna skär."),
+    ("sakfragor", "Sakfrågorna", "beskrivande",
+     "Vilka frågor väljarna säger är viktiga (Valu, SOM) och hur utfallen har utvecklats.",
+     "Att en fråga avgjorde valet. Sambanden mellan kommunernas bilinnehav eller polisregionernas "
+     "skjutningar och partiernas förändring är samband (bilar: ~290 kommuner, skjutningar: 7 regioner)."),
+    ("verklighet", "Verkligheten fråga för fråga", "beskrivande",
+     "Utveckling per mandatperiod och avståndet till officiella mål, där sådana finns.",
+     "Om utvecklingen är bra eller dålig där det saknas beslutade mål; det är en politisk bedömning."),
+    ("trygghet", "Trygghet (NTU)", "beskrivande",
+     "Utsatthet och otrygghet per grupp enligt Brås enkät.",
+     "Partiexponeringen (hur utsatta partiernas väljare är) är en modellskattning ur gruppernas utsatthet."),
+]

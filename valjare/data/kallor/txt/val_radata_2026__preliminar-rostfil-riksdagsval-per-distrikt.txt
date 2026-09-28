@@ -1,0 +1,70 @@
+
+===== flik: Information (4x1) =====
+                                         0
+0  Preliminärt antal röster per valdist...
+1  Filen innehåller det preliminära val...
+2                                   Flikar
+3  Prel röster per distrikt\n- Valtyp\n...
+
+===== flik: Prel. röster per distrikt (60x11) =====
+        0                1                       2            3               4                                     5       6          7               8        9          10
+0   Valtyp  Valdistriktskod        Valdistriktsnamn  Valkretskod        Valkrets                        Parti/kategori  Röster  Kommunkod          Kommun  Länskod   Länsnamn
+1       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                           Moderaterna     316       0114  Upplands Väsby       01  Stockholm
+2       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                         Centerpartiet      86       0114  Upplands Väsby       01  Stockholm
+3       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län    Liberalerna (tidigare Folkpartiet)      56       0114  Upplands Väsby       01  Stockholm
+4       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                     Kristdemokraterna      78       0114  Upplands Väsby       01  Stockholm
+5       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län    Arbetarepartiet-Socialdemokraterna     702       0114  Upplands Väsby       01  Stockholm
+6       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                        Vänsterpartiet     337       0114  Upplands Väsby       01  Stockholm
+7       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                 Miljöpartiet de gröna      79       0114  Upplands Väsby       01  Stockholm
+8       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                   Sverigedemokraterna     273       0114  Upplands Väsby       01  Stockholm
+9       RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                Övriga anmälda partier      37       0114  Upplands Väsby       01  Stockholm
+10      RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                  Summa giltiga röster    1964       0114  Upplands Väsby       01  Stockholm
+11      RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län  Ogiltiga röster - ej anmälda partier       0       0114  Upplands Väsby       01  Stockholm
+12      RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län              Ogiltiga röster - blanka      18       0114  Upplands Väsby       01  Stockholm
+13      RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län              Ogiltiga röster - övriga      24       0114  Upplands Väsby       01  Stockholm
+14      RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                         Valdeltagande    2006       0114  Upplands Väsby       01  Stockholm
+15      RD           011400  Uppsamlingsdistrikt 00           02  Stockholms län                       Röstberättigade       0       0114  Upplands Väsby       01  Stockholm
+16      RD         01140101              Övra Runby           02  Stockholms län                           Moderaterna     189       0114  Upplands Väsby       01  Stockholm
+17      RD         01140101              Övra Runby           02  Stockholms län                         Centerpartiet      70       0114  Upplands Väsby       01  Stockholm
+18      RD         01140101              Övra Runby           02  Stockholms län    Liberalerna (tidigare Folkpartiet)      63       0114  Upplands Väsby       01  Stockholm
+19      RD         01140101              Övra Runby           02  Stockholms län                     Kristdemokraterna      48       0114  Upplands Väsby       01  Stockholm
+20      RD         01140101              Övra Runby           02  Stockholms län    Arbetarepartiet-Socialdemokraterna     313       0114  Upplands Väsby       01  Stockholm
+21      RD         01140101              Övra Runby           02  Stockholms län                        Vänsterpartiet      94       0114  Upplands Väsby       01  Stockholm
+22      RD         01140101              Övra Runby           02  Stockholms län                 Miljöpartiet de gröna      69       0114  Upplands Väsby       01  Stockholm
+23      RD         01140101              Övra Runby           02  Stockholms län                   Sverigedemokraterna     181       0114  Upplands Väsby       01  Stockholm
+24      RD         01140101              Övra Runby           02  Stockholms län                Övriga anmälda partier      22       0114  Upplands Väsby       01  Stockholm
+25      RD         01140101              Övra Runby           02  Stockholms län                  Summa giltiga röster    1049       0114  Upplands Väsby       01  Stockholm
+26      RD         01140101              Övra Runby           02  Stockholms län  Ogiltiga röster - ej anmälda partier       0       0114  Upplands Väsby       01  Stockholm
+27      RD         01140101              Övra Runby           02  Stockholms län              Ogiltiga röster - blanka       8       0114  Upplands Väsby       01  Stockholm
+28      RD         01140101              Övra Runby           02  Stockholms län              Ogiltiga röster - övriga       5       0114  Upplands Väsby       01  Stockholm
+29      RD         01140101              Övra Runby           02  Stockholms län                         Valdeltagande    1062       0114  Upplands Väsby       01  Stockholm
+30      RD         01140101              Övra Runby           02  Stockholms län                       Röstberättigade    1334       0114  Upplands Väsby       01  Stockholm
+31      RD         01140102                 Mälaren           02  Stockholms län                           Moderaterna     209       0114  Upplands Väsby       01  Stockholm
+32      RD         01140102                 Mälaren           02  Stockholms län                         Centerpartiet      64       0114  Upplands Väsby       01  Stockholm
+33      RD         01140102                 Mälaren           02  Stockholms län    Liberalerna (tidigare Folkpartiet)      44       0114  Upplands Väsby       01  Stockholm
+34      RD         01140102                 Mälaren           02  Stockholms län                     Kristdemokraterna      56       0114  Upplands Väsby       01  Stockholm
+35      RD         01140102                 Mälaren           02  Stockholms län    Arbetarepartiet-Socialdemokraterna     275       0114  Upplands Väsby       01  Stockholm
+36      RD         01140102                 Mälaren           02  Stockholms län                        Vänsterpartiet      51       0114  Upplands Väsby       01  Stockholm
+37      RD         01140102                 Mälaren           02  Stockholms län                 Miljöpartiet de gröna      70       0114  Upplands Väsby       01  Stockholm
+38      RD         01140102                 Mälaren           02  Stockholms län                   Sverigedemokraterna     169       0114  Upplands Väsby       01  Stockholm
+39      RD         01140102                 Mälaren           02  Stockholms län                Övriga anmälda partier       8       0114  Upplands Väsby       01  Stockholm
+40      RD         01140102                 Mälaren           02  Stockholms län                  Summa giltiga röster     946       0114  Upplands Väsby       01  Stockholm
+41      RD         01140102                 Mälaren           02  Stockholms län  Ogiltiga röster - ej anmälda partier       0       0114  Upplands Väsby       01  Stockholm
+42      RD         01140102                 Mälaren           02  Stockholms län              Ogiltiga röster - blanka       1       0114  Upplands Väsby       01  Stockholm
+43      RD         01140102                 Mälaren           02  Stockholms län              Ogiltiga röster - övriga       3       0114  Upplands Väsby       01  Stockholm
+44      RD         01140102                 Mälaren           02  Stockholms län                         Valdeltagande     950       0114  Upplands Väsby       01  Stockholm
+45      RD         01140102                 Mälaren           02  Stockholms län                       Röstberättigade    1129       0114  Upplands Väsby       01  Stockholm
+46      RD         01140120                 Edssjön           02  Stockholms län                           Moderaterna     285       0114  Upplands Väsby       01  Stockholm
+47      RD         01140120                 Edssjön           02  Stockholms län                         Centerpartiet      83       0114  Upplands Väsby       01  Stockholm
+48      RD         01140120                 Edssjön           02  Stockholms län    Liberalerna (tidigare Folkpartiet)      56       0114  Upplands Väsby       01  Stockholm
+49      RD         01140120                 Edssjön           02  Stockholms län                     Kristdemokraterna      82       0114  Upplands Väsby       01  Stockholm
+50      RD         01140120                 Edssjön           02  Stockholms län    Arbetarepartiet-Socialdemokraterna     426       0114  Upplands Väsby       01  Stockholm
+51      RD         01140120                 Edssjön           02  Stockholms län                        Vänsterpartiet     106       0114  Upplands Väsby       01  Stockholm
+52      RD         01140120                 Edssjön           02  Stockholms län                 Miljöpartiet de gröna      60       0114  Upplands Väsby       01  Stockholm
+53      RD         01140120                 Edssjön           02  Stockholms län                   Sverigedemokraterna     179       0114  Upplands Väsby       01  Stockholm
+54      RD         01140120                 Edssjön           02  Stockholms län                Övriga anmälda partier      25       0114  Upplands Väsby       01  Stockholm
+55      RD         01140120                 Edssjön           02  Stockholms län                  Summa giltiga röster    1302       0114  Upplands Väsby       01  Stockholm
+56      RD         01140120                 Edssjön           02  Stockholms län  Ogiltiga röster - ej anmälda partier       1       0114  Upplands Väsby       01  Stockholm
+57      RD         01140120                 Edssjön           02  Stockholms län              Ogiltiga röster - blanka       6       0114  Upplands Väsby       01  Stockholm
+58      RD         01140120                 Edssjön           02  Stockholms län              Ogiltiga röster - övriga       7       0114  Upplands Väsby       01  Stockholm
+59      RD         01140120                 Edssjön           02  Stockholms län                         Valdeltagande    1316       0114  Upplands Väsby       01  Stockholm
