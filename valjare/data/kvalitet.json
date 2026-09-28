@@ -1035,16 +1035,16 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "537 artiklar i 7 flöden",
-   "varde": 537.0
+   "detalj": "555 artiklar i 7 flöden",
+   "varde": 555.0
   },
   {
    "grupp": "aktualitet",
    "id": "wikidata_foljare",
    "beskrivning": "Följarantal från Wikidata",
    "status": "ok",
-   "detalj": "41 konton med följarantal",
-   "varde": 41.0
+   "detalj": "54 konton med följarantal",
+   "varde": 54.0
   },
   {
    "grupp": "aktualitet",
@@ -1427,16 +1427,16 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "104 rader (förra 104)",
-   "varde": 104.0
+   "detalj": "117 rader (förra 104)",
+   "varde": 117.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "41 rader (förra 41)",
-   "varde": 41.0
+   "detalj": "54 rader (förra 41)",
+   "varde": 54.0
   },
   {
    "grupp": "volym",
@@ -1555,7 +1555,7 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "17 rader (förra 18)",
+   "detalj": "17 rader (förra 17)",
    "varde": 17.0
   },
   {
