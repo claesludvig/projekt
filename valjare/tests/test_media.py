@@ -62,3 +62,42 @@ def test_omnamnanden(tmp_path):
     tot = om.groupby("parti").artiklar.sum()
     assert tot["SD"] == 1 and tot["M"] == 1 and tot["V"] == 1   # "Moderat ökning" räknas inte
     assert gn.set_index("parti").artiklar["SD"] == 1
+
+
+def test_gdelt_andel_och_vagd_ton(tmp_path):
+    rader = []
+    for dag, s, m in (("20240101", 30, 10), ("20240102", 10, 30)):
+        rader += [{"parti": "S", "matt": "artiklar", "dag": dag, "varde": s, "totalt": 1000},
+                  {"parti": "M", "matt": "artiklar", "dag": dag, "varde": m, "totalt": 1000},
+                  {"parti": "S", "matt": "ton", "dag": dag, "varde": -2.0 if dag.endswith("1") else -4.0, "totalt": None},
+                  {"parti": "M", "matt": "ton", "dag": dag, "varde": -1.0, "totalt": None}]
+    pd.DataFrame(rader).to_csv(tmp_path / "gdelt.csv.gz", index=False)
+    g = media.gdelt(tmp_path).set_index("parti")
+    assert g.loc["S", "artiklar"] == 40 and g.loc["S", "andel"] == 50
+    assert abs(g.loc["S", "ton"] - (30 * -2 + 10 * -4) / 40) < 1e-9
+
+
+def test_sakfragor_i_samma_artikel(tmp_path):
+    pd.DataFrame([
+        {"titel": "Moderaterna vill skärpa straffen för gängbrott", "beskrivning": "", "lank": "a", "hamtad": "2026-09-28T10:00"},
+        {"titel": "Moderaterna om skolan", "beskrivning": "Nya betyg", "lank": "b", "hamtad": "2026-09-28T11:00"},
+        {"titel": "Vädret", "beskrivning": "Regn", "lank": "c", "hamtad": "2026-09-28T12:00"},
+    ]).to_csv(tmp_path / "artiklar.csv.gz", index=False)
+    s = media.sakfragor(tmp_path).set_index(["parti", "fraga"])
+    assert s.loc[("M", "lag"), "andel"] == 50 and s.loc[("M", "skola"), "artiklar"] == 1
+    assert set(s.index.get_level_values("parti")) == {"M"}
+
+
+def test_riksdagsaktivitet_per_ledamot(tmp_path):
+    pd.DataFrame([{"rm": "2024/25", "typ": t, "parti": "V", "antal": n} for t, n in (("mot", 200), ("ip", 50), ("fr", 250))]) \
+        .to_csv(tmp_path / "aktivitet.csv", index=False)
+    led = pd.DataFrame({"rm": ["2024/25"] * 25, "parti": ["V"] * 25, "voteringar": [100] * 25})
+    d = media.rd_aktivitet(tmp_path, led)
+    assert d.per_ledamot.item() == 20
+
+
+def test_partinamn_raknas_inte_som_sakfraga(tmp_path):
+    pd.DataFrame([{"titel": "Miljöpartiet byter talesperson", "beskrivning": "", "lank": "a", "hamtad": "2026-09-28"}]) \
+        .to_csv(tmp_path / "artiklar.csv.gz", index=False)
+    s = media.sakfragor(tmp_path)
+    assert s.artiklar.sum() == 0

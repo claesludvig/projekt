@@ -663,6 +663,10 @@ def _wd_etikett(ent: dict) -> str:
     return (lab.get("sv") or lab.get("en") or {}).get("value", ent.get("id", ""))
 
 
+def _wd_svwiki(ent: dict) -> str | None:
+    return ent.get("sitelinks", {}).get("svwiki", {}).get("title")
+
+
 def wd_foljare(ent: dict) -> list[dict]:
     """Alla daterade följarantal (P8687) med plattform och konto."""
     from media_katalog import PLATTFORM
@@ -720,12 +724,13 @@ def hamta_wikidata():
             if not qid:
                 logg["fel"].append(f"wikidata {parti}: inget svenskt objekt bland {sedda or sidor}")
                 continue
-            objekt.append({"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent)})
+            objekt.append({"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent), "svwiki": _wd_svwiki(ent)})
             rader += [{"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent), **f}
                       for f in wd_foljare(ent)]
             for lq in wd_ordforande(ent)[:1]:
                 le = _wd_entitet(lq)
-                objekt.append({"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le)})
+                objekt.append({"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le),
+                               "svwiki": _wd_svwiki(le)})
                 rader += [{"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le), **f}
                           for f in wd_foljare(le)]
             print(f"  Wikidata {parti}: {qid}, {sum(1 for r in rader if r['parti'] == parti)} följarvärden")
@@ -733,6 +738,67 @@ def hamta_wikidata():
             logg["fel"].append(f"wikidata {parti}: {exc}")
     pd.DataFrame(rader).to_csv(MEDIA_DIR / "foljare.csv", index=False)
     pd.DataFrame(objekt).to_csv(MEDIA_DIR / "wikidata_objekt.csv", index=False)
+
+
+WIKIMEDIA = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/sv.wikipedia/all-access/user"
+GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
+
+
+def hamta_wikipedia_visningar():
+    """Sidvisningar per månad på svenska Wikipedia (sedan juli 2015) för partiernas och partiledarnas artiklar.
+    Bara användare, inte robotar. Titlarna kommer från Wikidata (hamta_wikidata)."""
+    from urllib.parse import quote
+    obj = MEDIA_DIR / "wikidata_objekt.csv"
+    o = pd.read_csv(obj) if obj.exists() else pd.DataFrame()
+    if "svwiki" not in o:
+        logg["fel"].append("wikipedia: inga artikeltitlar från Wikidata")
+        return
+    slut = datetime.now(timezone.utc).strftime("%Y%m%d00")
+    rader = []
+    for r in o.dropna(subset=["svwiki"]).itertuples():
+        try:
+            u = f"{WIKIMEDIA}/{quote(r.svwiki.replace(' ', '_'), safe='')}/monthly/2015070100/{slut}"
+            svar = http("GET", u)
+            if svar.status_code != 200:
+                raise RuntimeError(f"HTTP {svar.status_code}")
+            for it in svar.json().get("items", []):
+                t = it["timestamp"]
+                rader.append({"parti": r.parti, "roll": r.roll, "namn": r.namn, "artikel": r.svwiki,
+                              "manad": f"{t[:4]}-{t[4:6]}", "visningar": it["views"]})
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"wikipedia {r.parti} {r.roll} ({r.svwiki}): {exc}")
+    if rader:
+        pd.DataFrame(rader).to_csv(MEDIA_DIR / "wikipedia_visningar.csv", index=False)
+    print(f"  Wikipedia: {len(rader)} månadsvärden")
+
+
+def hamta_gdelt():
+    """GDELT: svenskspråkiga nyhetsartiklar som nämner partinamnet, per dag sedan 2017, och deras
+    genomsnittliga ton. GDELT ber om högst en fråga var femte sekund."""
+    from media_katalog import GOOGLE_SOK
+    rader = []
+    slut = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
+    for parti, namn in GOOGLE_SOK.items():
+        for mode, matt in (("timelinevolraw", "artiklar"), ("timelinetone", "ton")):
+            time.sleep(6)
+            try:
+                svar = http("GET", GDELT, params={"query": f'"{namn}" sourcelang:swedish', "mode": mode,
+                                                  "format": "json", "startdatetime": "20170101000000",
+                                                  "enddatetime": slut, "timelinesmooth": 0})
+                try:
+                    j = svar.json()
+                except ValueError:
+                    raise RuntimeError(svar.text[:200].replace("\n", " ")) from None
+                for serie in j.get("timeline", []):
+                    for d in serie.get("data", []):
+                        rader.append({"parti": parti, "matt": matt, "dag": str(d.get("date", ""))[:8],
+                                      "varde": d.get("value"), "totalt": d.get("norm")})
+            except Exception as exc:  # noqa: BLE001
+                logg["fel"].append(f"gdelt {parti} {matt}: {exc}")
+    if rader:
+        pd.DataFrame(rader).to_csv(MEDIA_DIR / "gdelt.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
+    logg["gdelt"] = {"rader": len(rader)}
+    print(f"  GDELT: {len(rader)} rader")
 
 
 def las_flode(xml: str) -> list[dict]:
@@ -876,6 +942,41 @@ def _riksmoten() -> list[str]:
     nu = datetime.now(timezone.utc)
     sista = nu.year if nu.month >= 9 else nu.year - 1
     return [f"{a}/{str(a + 1)[2:]}" for a in range(RD_FORSTA, sista + 1)]
+
+
+RD_AKTIVITET = {"mot": "motioner", "ip": "interpellationer", "fr": "skriftliga frågor"}
+
+
+def hamta_riksdag_aktivitet(tvinga: bool = False):
+    """Antal motioner, interpellationer och skriftliga frågor per parti och riksmöte (dokumentlistans
+    träffantal med partifilter). Äldre riksmöten hämtas bara en gång; de två senaste varje gång."""
+    f = DATA_DIR / "riksdagen" / "aktivitet.csv"
+    gammal = pd.read_csv(f, dtype={"rm": str}) if f.exists() else pd.DataFrame(columns=["rm"])
+    rmlista = _riksmoten()
+    hamta = [rm for rm in rmlista if tvinga or rm in rmlista[-2:] or rm not in set(gammal.rm)]
+    rader = []
+    for rm in hamta:
+        for typ in RD_AKTIVITET:
+            for parti, koder in (("V", ["V"]), ("S", ["S"]), ("MP", ["MP"]), ("C", ["C"]), ("L", ["L", "FP"]),
+                                 ("KD", ["KD"]), ("M", ["M"]), ("SD", ["SD"])):
+                try:
+                    n = 0
+                    for kod in koder:
+                        j = http("GET", f"{RD_API}/dokumentlista/", params={
+                            "doktyp": typ, "rm": rm, "parti": kod, "utformat": "json", "sz": 1}).json()
+                        n += int(j.get("dokumentlista", {}).get("@traffar") or 0)
+                    rader.append({"rm": rm, "typ": typ, "parti": parti, "antal": n})
+                except Exception as exc:  # noqa: BLE001
+                    logg["fel"].append(f"riksdagen aktivitet {rm} {typ} {parti}: {exc}")
+    ny = pd.DataFrame(rader)
+    if len(ny):
+        # Partifiltret ska ge olika antal per parti; lika för alla tyder på att filtret ignorerades
+        for (rm, typ), d in ny.groupby(["rm", "typ"]):
+            if d.antal.nunique() == 1 and d.antal.iloc[0] > 0:
+                logg["fel"].append(f"riksdagen aktivitet {rm} {typ}: samma antal för alla partier ({d.antal.iloc[0]})")
+        ut = pd.concat([gammal[~gammal.rm.isin(ny.rm)], ny], ignore_index=True).sort_values(["rm", "typ", "parti"])
+        ut.to_csv(f, index=False)
+    print(f"  Riksdagens aktivitet: {len(rader)} värden för {len(hamta)} riksmöten")
 
 
 def _rd_dokument(doktyp: str, rm: str) -> pd.DataFrame:
@@ -1180,9 +1281,13 @@ def main():
     if a.steg in ("alla", "riksdagen", "vecka"):
         hamta_riksdagen(a.tvinga)
         hamta_anforanden(a.tvinga)
+        hamta_riksdag_aktivitet(a.tvinga)
     if a.steg in ("alla", "vecka", "media"):
         hamta_wikidata()
         hamta_rss()
+    if a.steg in ("alla", "vecka"):
+        hamta_wikipedia_visningar()
+        hamta_gdelt()
     if a.steg == "alla":
         hamta_google_annonser()
     if a.steg == "vecka":

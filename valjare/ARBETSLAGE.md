@@ -44,10 +44,30 @@ Lyckad, inga fel i kvalitetskontrollen. Gini (TAB1121) fungerar, 2011–2024. Sk
 Eurostat `vantan` och `fangar` ger 0 rader utan felmeddelande; hämtningen loggar nu vilka koder som
 finns för SE (se `fel` i `data/katalog/hamtlogg.json` efter nästa körning).
 
+## Genomslag, utbyggt (kväll 28/9)
+
+Nya källor i `hamta.py` (körs i `alla` och `vecka`, inte i den dagliga mediekörningen):
+- `hamta_wikipedia_visningar`: sidvisningar per månad på svenska Wikipedia sedan 2015 för partiernas och
+  partiledarnas artiklar (titlarna sparas nu i `wikidata_objekt.csv`, kolumn `svwiki`).
+  → `data/media/wikipedia_visningar.csv`, tabell `media_wikipedia`.
+- `hamta_gdelt`: GDELT DOC 2.0, svenskspråkiga artiklar som nämner partinamnet per dag sedan 2017 och deras
+  ton (6 s mellan frågorna). → `data/media/gdelt.csv.gz`, tabell `media_gdelt` (andel per månad, vägd ton).
+- `hamta_riksdag_aktivitet`: motioner, interpellationer och skriftliga frågor per parti och riksmöte
+  (dokumentlistans `@traffar` med partifilter; L summerar L och FP). Loggar fel om partifiltret verkar
+  ignoreras. → `data/riksdagen/aktivitet.csv`, tabell `media_rd_aktivitet`.
+- `media.sakfragor`: sakfrågor i samma artikel som partiet, med egen ordlista `media_katalog.SAKORD`
+  (partinamnen tas bort först). Tabell `media_sakfragor`. Underlaget är litet tills RSS-insamlingen pågått.
+
+Sidan (avsnitt 5): Wikipedia-intresse (parti/partiledare, antal/andel), nyhetsandel och ton från GDELT,
+sakfrågetabell och aktivitetstabell. Webbnyckeln heter `rd_partiaktivitet` (`rd_aktivitet` är upptagen av
+propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fungerar i 390 px.
+
 ## Nästa steg
 
-1. Läs kodlistan för `vantan` och `fangar` i hamtloggen och rätta filtren i `omraden.EUROSTAT`.
-2. Brå (uppklaring, lagföring) och Kriminalvården (beläggning) saknas fortfarande i `data/kallor`.
+1. Granska första körningen: fick GDELT och Wikimedia svar (se `fel` i hamtloggen)? Rimliga nivåer?
+   Om GDELT inte godtar `sourcelang:swedish`, prova `sourcelang:swe` eller `sourcecountry:SW`.
+2. Läs kodlistan för Eurostat `vantan` och `fangar` i hamtloggen och rätta filtren i `omraden.EUROSTAT`.
+3. Brå (uppklaring, lagföring) och Kriminalvården (beläggning) saknas fortfarande i `data/kallor`.
 
 ## Att tänka på
 

@@ -962,6 +962,33 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
         ar = sorted(an.ar.unique())
         ut["annonser"] = {"ar": [int(a) for a in ar], "valuta": an.valuta.iloc[0],
                           "v": {p: [_r(x, 0) for x in d.set_index("ar").utgift.reindex(ar)] for p, d in an.groupby("parti")}}
+    wp = t.get("media_wikipedia", pd.DataFrame())
+    if len(wp):
+        man = sorted(wp.manad.unique())
+        ut["wikipedia"] = {"manader": man, "namn": {f"{p}|{r}": d.namn.iloc[-1] for (p, r), d in wp.groupby(["parti", "roll"])},
+                           "v": {f"{p}|{r}": [None if pd.isna(x) else int(x) for x in d.set_index("manad").visningar.reindex(man)]
+                                 for (p, r), d in wp.groupby(["parti", "roll"])}}
+    gd = t.get("media_gdelt", pd.DataFrame())
+    if len(gd):
+        man = sorted(gd.manad.unique())
+        ut["gdelt"] = {"manader": man, **{k: {p: [_r(x) for x in d.set_index("manad")[k].reindex(man)] for p, d in gd.groupby("parti")}
+                                          for k in ("andel", "ton")},
+                       "artiklar": {p: [None if pd.isna(x) else int(x) for x in d.set_index("manad").artiklar.reindex(man)]
+                                    for p, d in gd.groupby("parti")}}
+    sf = t.get("media_sakfragor", pd.DataFrame())
+    if len(sf):
+        from verklighet_katalog import FRAGOR
+        namn = {f: n for f, n, _ in FRAGOR}
+        fr = [f for f in namn if f in set(sf.fraga)] + sorted(set(sf.fraga) - set(namn))
+        ut["sakfragor"] = {"fragor": fr, "namn": {f: namn.get(f, f) for f in fr}, "fran": sf.fran.iloc[0], "till": sf.till.iloc[0],
+                           "n": {p: int(d.partiets_artiklar.iloc[0]) for p, d in sf.groupby("parti")},
+                           "v": {p: {r.fraga: _r(r.andel) for r in d.itertuples()} for p, d in sf.groupby("parti")}}
+    ak = t.get("media_rd_aktivitet", pd.DataFrame())
+    if len(ak):
+        rm = sorted(ak.rm.unique())
+        kol = [c for c in ("mot", "ip", "fr", "ledamoter", "per_ledamot") if c in ak]
+        ut["rd_partiaktivitet"] = {"rm": rm, "v": {p: {c: [_r(x) for x in d.set_index("rm")[c].reindex(rm)] for c in kol}
+                                              for p, d in ak.groupby("parti")}}
     return ut
 
 
