@@ -127,7 +127,7 @@ aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes 
 aktualitet,norden_vantan,"Eurostat: Avstått från vård på grund av väntetid (%, 16+)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,555 artiklar i 7 flöden,555.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,563 artiklar i 7 flöden,563.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,54 konton med följarantal,54.0
 aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 4 dagar sedan",4.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
@@ -176,16 +176,17 @@ volym,rader_riksdag_parti_fraga,Tabell riksdag_parti_fraga,ok,382 rader (förra 
 volym,rader_riksdag_ledamot,Tabell riksdag_ledamot,ok,4594 rader (förra 4594),4594.0
 volym,rader_opinion_forslag,Tabell opinion_forslag,ok,24 rader (förra 24),24.0
 volym,rader_opinion_beslut,Tabell opinion_beslut,ok,100 rader (förra 100),100.0
-volym,rader_media_foljare,Tabell media_foljare,ok,117 rader (förra 104),117.0
-volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,54 rader (förra 41),54.0
+volym,rader_media_foljare,Tabell media_foljare,ok,117 rader (förra 117),117.0
+volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,54 rader (förra 54),54.0
 volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,104 rader (förra 104),104.0
-volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,208 rader (förra 208),208.0
+volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,210 rader (förra 208),210.0
 volym,rader_media_talartid,Tabell media_talartid,ok,96 rader (förra 96),96.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
-volym,rader_media_wikipedia,Tabell media_wikipedia,ok,1924 rader (förra 1924),1924.0
+volym,rader_media_wikipedia,Tabell media_wikipedia,ok,2059 rader (förra 1924),2059.0
 volym,rader_media_sakfragor,Tabell media_sakfragor,ok,136 rader (förra 136),136.0
 volym,rader_media_rd_aktivitet,Tabell media_rd_aktivitet,ok,104 rader (förra 104),104.0
 volym,rader_som_fortroende,Tabell som_fortroende,ok,7944 rader (förra 7944),7944.0
+volym,rader_mediebarometern,Tabell mediebarometern,ok,91 rader (förra 91),91.0
 volym,rader_media_ledare,Tabell media_ledare,ok,8 rader (förra 8),8.0
 volym,rader_norden,Tabell norden,ok,2448 rader (förra 2448),2448.0
 volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 14),14.0

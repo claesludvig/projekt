@@ -2,7 +2,7 @@
  "skapad": "2026-09-28",
  "status": "varning",
  "antal": {
-  "ok": 203,
+  "ok": 204,
   "varning": 3
  },
  "kontroller": [
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "555 artiklar i 7 flöden",
-   "varde": 555.0
+   "detalj": "563 artiklar i 7 flöden",
+   "varde": 563.0
   },
   {
    "grupp": "aktualitet",
@@ -1427,7 +1427,7 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "117 rader (förra 104)",
+   "detalj": "117 rader (förra 117)",
    "varde": 117.0
   },
   {
@@ -1435,7 +1435,7 @@
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "54 rader (förra 41)",
+   "detalj": "54 rader (förra 54)",
    "varde": 54.0
   },
   {
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "208 rader (förra 208)",
-   "varde": 208.0
+   "detalj": "210 rader (förra 208)",
+   "varde": 210.0
   },
   {
    "grupp": "volym",
@@ -1475,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "1924 rader (förra 1924)",
-   "varde": 1924.0
+   "detalj": "2059 rader (förra 1924)",
+   "varde": 2059.0
   },
   {
    "grupp": "volym",
@@ -1501,6 +1501,14 @@
    "status": "ok",
    "detalj": "7944 rader (förra 7944)",
    "varde": 7944.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_mediebarometern",
+   "beskrivning": "Tabell mediebarometern",
+   "status": "ok",
+   "detalj": "91 rader (förra 91)",
+   "varde": 91.0
   },
   {
    "grupp": "volym",

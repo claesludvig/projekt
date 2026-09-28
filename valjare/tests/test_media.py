@@ -103,3 +103,21 @@ def test_som_fortroende_ur_layouttext(tmp_path):
     d = media.som_fortroende(tmp_path).set_index(["grupp", "ar"])
     assert d.loc[("ALLA", 2024), "andel"] == 56 and d.loc[("SD", 2023), "andel"] == 33
     assert bool(d.loc[("KD", 2023), "fa_svar"]) and not bool(d.loc[("KD", 2024), "fa_svar"])
+
+
+def test_mediebarometern_plattformar(tmp_path):
+    (tmp_path / "txt").mkdir()
+    (tmp_path / "txt" / "mediebarometern_2025.txt").write_text(
+        "         sociala medier Daglig räckvidd, 9–85 år, 2025 (procent samt förändring jämfört med 2024\n"
+        "               Tiktok 20       +2   \n"
+        "                    X 7    -1      \n"
+        "         Mediebarometern 2024 och 2025 (Nordicom, Göteborgs universitet).\n"
+        "         sociala medier Daglig räckvidd, 9–85 år, 2025 (procent)                  \n"
+        "                   Totalt* Instagram Facebook Snapchat Tiktok Linkedin Reddit     \n"
+        "         Totalt     84      59      58      32       20      14      8            \n"
+        "         15–24 år   97      79      32      85       70      4       16           \n"
+        "         Mediebarometern 2025 (Nordicom, Göteborgs universitet).\n", encoding="utf-8")
+    d = media.mediebarometern(tmp_path).set_index(["plattform", "grupp"])
+    assert d.loc[("TikTok", "15–24 år"), "andel"] == 70
+    assert d.loc[("TikTok", "Totalt"), "forandring"] == 2
+    assert d.loc[("X", "Totalt"), "andel"] == 7 and d.loc[("X", "Totalt"), "forandring"] == -1
