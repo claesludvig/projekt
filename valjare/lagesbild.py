@@ -1,7 +1,7 @@
 """Lägesbild: vad har hänt de senaste månaderna?
 
 Varje vecka läses de månads- och kvartalsserier som finns (Polisen, SCB,
-Riksbanken) och jämförs med samma period förra året och med seriens egen
+Riksbanken, Migrationsverket) och jämförs med samma period förra året och med seriens egen
 historik. Resultatet är en signal att titta närmare på, inte en förklaring.
 
 Status per serie:
@@ -28,6 +28,7 @@ import numpy as np
 import pandas as pd
 
 from fragor import KPI_GRUPPER
+from myndigheter import beviljade_uppehallstillstand
 from verklighet_katalog import mal
 
 TOTALT = r"(?i)^(totalt|samtliga|hela|riket|män och kvinnor|båda|totala|summa)"
@@ -154,6 +155,18 @@ def serier(scb, katalog: pd.DataFrame, pol: pd.DataFrame, kpi: pd.DataFrame, dat
             if s is not None and len(s) >= 24:
                 lagg(id_, namn, fraga, f"SCB {tab}", "antal", s, lag, "st")
                 break
+
+    # Beviljade uppehållstillstånd (första) per grund, Migrationsverket
+    ut_ = beviljade_uppehallstillstand(data_dir / "kallor")
+    for grund, id_, namn in (("Totalt", "ut_totalt", "Beviljade uppehållstillstånd, första"),
+                             ("Skydd", "ut_skydd", "Beviljade uppehållstillstånd, skydd"),
+                             ("Anknytning", "ut_anknytning", "Beviljade uppehållstillstånd, anknytning"),
+                             ("Arbetsmarknad", "ut_arbete", "Beviljade uppehållstillstånd, arbete"),
+                             ("Studier", "ut_studier", "Beviljade uppehållstillstånd, studier")):
+        d = ut_[ut_.grund == grund]
+        if len(d):
+            s = pd.Series(d.antal.values.astype(float), index=pd.PeriodIndex(d.period, freq="M")).sort_index()
+            lagg(id_, namn, "invandring", "Migrationsverket", "antal", s, 2, "st")
     return ut
 
 

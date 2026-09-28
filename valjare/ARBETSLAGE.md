@@ -1,6 +1,6 @@
 # Arbetsläge (överlämning mellan sessioner)
 
-Uppdaterad 2026-09-28 ca 15:00 svensk tid. Läs detta först i en ny session.
+Uppdaterad 2026-09-28 ca 19:00 svensk tid. Läs detta först i en ny session.
 
 ## Var projektet står
 
@@ -16,36 +16,35 @@ Uppdaterad 2026-09-28 ca 15:00 svensk tid. Läs detta först i en ny session.
 - Sidans avsnitt: 1 Läget, 2 Min valkrets, 3 Politikens svar, 4 Områdena, 5 Genomslag, 6–15
   väljaranalys, Om databasen (kvalitetskontroll, källornas villkor). Innehållsförteckning + sidospalt.
 
-## Senaste CI-körning (36417262971, klar 14:43 svensk tid)
+## Session 2026-09-28 kväll (gren `ccr-5a0ec028-8z8hi6`, utgår från main 033bd26)
 
-Lyckad: hämtning, tester, bygge, commit, sammanslagning med main. Kvalitet: 111 av 114 ok, inga fel
-(varningar: förnybart slutar 2021, återinskrivning slutar 2022, en Valu-rad). Datan är committad på
-grenen men INTE granskad eller publicerad än. En ny körning (för 3caaa94, Kolada-cache) kan ha
-startat efter den.
+Granskat: riksdagsdatan ser rimlig ut (8 289 beslut 2014–2026, alla med votering; M, KD, L röstar
+lika i 99,9–100 % 2022–2026, SD med dem i 87 %). Opinion_beslut: 28 av 100 förslag saknar votering.
+Google-annonser: 0 rader (troligen korrekt, politiska annonser stoppade i EU hösten 2025).
 
-## Nästa steg (i ordning)
+Gjort:
+- Hämtfel: Wikidata provar alla artiklar tills ett svenskt objekt hittas (KD), Omni-flödet borttaget
+  (404), Eurostat släpper filter för dimensioner som inte finns och försöker igen (vantan: `quant_inc`,
+  elpris_hush utan `product`). `fangar` (crim_pris_pop) ger fortfarande 0 rader – ej åtgärdat.
+- Följare: värden mer än tre år äldre än det senaste jämförs inte (M 2018, S- och MP-ledare 2021).
+- Kolada: katalogen stöder `"id:<nyckeltal>"`; 26 poster har exakta id, felvalen (U33779, U01414,
+  U31809, U07488) är borttagna, namnen beskriver vad nyckeltalen mäter. Namn uppdateras vid omhämtning.
+- SCB: nya serier försörjningskvot (TAB4642) och växthusgaser totalt (TAB4698); Gini (TAB1121) och
+  hushållens skuldkvot (TAB4592) är inlagda men hämtas först vid nästa körning (två varningar tills dess).
+  Sökmönstren i `kallor.py` för Gini, skuldkvot, trångboddhet och hyror är skärpta.
+- `myndigheter.py`: Migrationsverkets beviljade uppehållstillstånd per månad och grund 2021–2026, i
+  lägesbilden (ut_totalt, ut_skydd, ut_anknytning, ut_arbete, ut_studier). Asylansökningar per månad
+  finns bara för 2026 (statistiken pausad), FK-filen slutar 2022 – ingen av dem används.
+- `omraden.py`: nya indikatorer i rättsväsende, vård, energi och integration; luckor uppdaterade.
 
-1. `git pull` och granska riktig data:
-   - `data/riksdagen`: votering_*, ledamot_*, anforande_*, prop_bet.csv; tabellerna riksdag_beslut,
-     riksdag_samstammighet (M, KD, L, SD bör rösta lika ofta 2022–2026), opinion_beslut.
-   - `data/eurostat` och tabellen `norden`; `data/media` (foljare.csv, artiklar.csv.gz,
-     google_annonser_*.csv); fel i `data/katalog/hamtlogg.json`.
-2. Rätta Kolada-urvalet i `indikatorer_katalog.py` mot `data/katalog/kolada_alla_kpi.csv`
-   (se `data/katalog/kolada_bred_val.csv`). Felval: "känner sig trygga" → U33779 (HVB, fel),
-   "självskattad hälsa" → U01414 (tandhälsa, fel), "långvarigt bistånd" → U31809 (barn; välj N31816
-   för vuxna). 19 poster utan träff: sjuk- och aktivitetsersättning, barn i ekonomiskt utsatta hushåll,
-   placerade barn, förvärvsarbetande 20–64, nyanlända/etablering, utrikes födda förvärvsarbetande,
-   kunskapskrav alla ämnen, behöriga gymnasiet, kostnad grundskola, förskola, undvikbar slutenvård,
-   psykiatri väntetid, bostadsbrist, påbörjade bostäder, utjämning, elbilar, hushållsavfall,
-   elanvändning, garantipension. Byt till exakta id (mönstret stöder bara regex i dag – lägg till
-   stöd för id eller skriv `^exakt titel$`).
-3. Lägg in de nya SCB-tabellerna (Gini, försörjningskvot, vistelsetid, trångboddhet, elpriser,
-   skulder, hyror; se `data/katalog/scb_katalog.csv`) som serier i `verklighet_katalog.SCB_SERIER`.
-4. Läs txt-översikterna för myndighetsfilerna i `data/kallor/txt` (fk_statistik, migrationsverket,
-   arbetsformedlingen, bra_kriminalstatistik, kriminalvarden) och bygg tolkare för asyl per månad,
-   uppklaringsandel/lagföring, beläggning, sjukfrånvaro.
-5. Uppdatera `omraden.py` så att områdena använder de nya indikatorerna och stryk luckor som fyllts.
-6. Bygg lokalt, `python -m pytest -q tests`, pusha, publicera artefakten och skicka länken.
+## Nästa steg
+
+1. Kör CI (push till `claude/voter-database-demographics-r9y5la` eller manuellt) så att Kolada-
+   nyckeltalen med nya id och SCB-tabellerna TAB1121/TAB4592 hämtas. Kontrollera att varningarna
+   för Gini och skuldkvot försvinner.
+2. Eurostat `fangar`: hitta rätt dataset/filter (0 rader).
+3. Brå (uppklaring, lagföring) och Kriminalvården (beläggning) saknas fortfarande i `data/kallor`.
+4. Publicera artefakten efter CI-körningen.
 
 ## Att tänka på
 

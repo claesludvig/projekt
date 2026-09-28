@@ -110,6 +110,19 @@ SCB_SERIER = [
     {"fraga": "energi", "namn": "Elproduktion, kärnkraft (GWh/mån)", "tabell": "TAB78",
      "val": {"ProdAnv": "kärnkraft (kondens), netto ", "Elomrade": ["SE1", "SE2", "SE3", "SE4"]},
      "innehall": r"."},
+    {"fraga": "klimat", "namn": "Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)", "tabell": "TAB4698",
+     "val": {"Vaxthusgaser": "Totala Växthusgaser (kt CO2-ekv.)",
+             "Sektor": "NATIONELL TOTAL (exklusive LULUCF, exklusive internationella transporter)"},
+     "innehall": r".", "skala": 0.001},
+    {"fraga": "pension", "namn": "Demografisk försörjningskvot, totalt", "tabell": "TAB4642",
+     "val": {"Region": "Riket"}, "innehall": r"^Försörjningskvot totalt"},
+    {"fraga": "pension", "namn": "Demografisk försörjningskvot, från äldre 65+", "tabell": "TAB4642",
+     "val": {"Region": "Riket"}, "innehall": r"från äldre"},
+    # Hämtas från och med nästa körning (kallor.SCB_SOK, steg 3)
+    {"fraga": "egen_ekonomi", "namn": "Gini-koefficient, disponibel inkomst", "tabell": "TAB1121",
+     "val": {"~^Region": "Riket", "~(?i)inkomst": "~(?i)^disponibel inkomst"}, "innehall": r"(?i)gini"},
+    {"fraga": "egen_ekonomi", "namn": "Hushållens skuldkvot (% av disponibel inkomst)", "tabell": "TAB4592",
+     "val": {"~(?i)sektor": "~(?i)hushåll", "~(?i)indikator": "~(?i)skuldkvot"}, "innehall": r"."},
 ]
 
 # Världsbanken (öppet API). Militärutgifterna är SIPRI:s serie.
@@ -167,6 +180,10 @@ MAL = {
          "not": "Målet gäller globalt och avser även andra effektiva bevarandeåtgärder."},
     "Växthusgasutsläpp per invånare (ton)": {"riktning": "lagre", "kalla": _KLIMAT},
     "Växthusgasutsläpp totalt (ton)": {"riktning": "lagre", "kalla": _KLIMAT},
+    "Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)":
+        {"riktning": "lagre", "niva": [(0, 2045, "nettonoll 2045")], "kalla": _KLIMAT,
+         "not": "Nettonollmålet räknar in upptag i skog och mark och kompletterande åtgärder; "
+                "utsläppen här är brutto, utan LULUCF."},
     "Kvinnors mediannettoinkomst i % av mäns":
         {"riktning": "hogre", "niva": [(100, None, "lika inkomster")], "kalla": _JAMST},
     "Kvinnors lön i procent av mäns":
@@ -192,6 +209,9 @@ NOTER = {
     "Meritvärde åk 9": "Stigande meritvärden kan spegla betygsinflation.",
     "Meritvärde åk 9 (hemkommun, 17 ämnen)": "Stigande meritvärden kan spegla betygsinflation.",
     "Färdigställda bostäder, nybyggnad, per 1 000 inv": "Boverket beräknar byggbehovet; det finns inget beslutat mål.",
+    "Demografisk försörjningskvot, totalt": "Antal yngre (0–19) och äldre (65+) per 100 personer i åldern "
+                                             "20–64. Säger inget om hur många som faktiskt arbetar.",
+    "Gini-koefficient, disponibel inkomst": "0 = alla har lika inkomst, 1 = en person har allt.",
     "Total skattesats (%)": "Skattenivån är en politisk avvägning mot välfärdens omfattning.",
     "Kommunal skattesats (%)": "Skattenivån är en politisk avvägning mot välfärdens omfattning.",
 }
