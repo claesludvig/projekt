@@ -475,7 +475,17 @@ def hamta_kolada():
 
 
 def _kolada_data(kid: str, fraga: str, namn: str, titel: str, ut_dir: Path, fran: int = 2006):
-    # Ett år i taget: varje år ryms på en sida (ca 312 områden), så sidindelningen spelar ingen roll
+    # Ett år i taget: varje år ryms på en sida (ca 312 områden), så sidindelningen spelar ingen roll.
+    # Finns nyckeltalet redan hämtas bara de tre senaste åren om (äldre år revideras sällan).
+    fil = ut_dir / f"{kid}.csv.gz"
+    gammal = pd.DataFrame()
+    if fil.exists():
+        try:
+            gammal = pd.read_csv(fil, dtype={"region_kod": str})
+        except (pd.errors.EmptyDataError, ValueError):
+            gammal = pd.DataFrame()
+    if len(gammal) and "ar" in gammal:
+        fran = max(fran, int(pd.to_numeric(gammal.ar, errors="coerce").max()) - 2)
     v = []
     for a in range(fran, datetime.now().year + 1):
         try:
@@ -494,7 +504,10 @@ def _kolada_data(kid: str, fraga: str, namn: str, titel: str, ut_dir: Path, fran
         df["region_kod"] = df.region_kod.astype(str).str.replace(r"\.0$", "", regex=True)
         df.loc[df.region_kod.str.fullmatch(r"\d{1,3}"), "region_kod"] = df.region_kod.str.zfill(4)
         df = df[df.region_kod.str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
-    df.to_csv(ut_dir / f"{kid}.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
+    if len(gammal) and "ar" in gammal:
+        gammal = gammal[pd.to_numeric(gammal.ar, errors="coerce") < fran]
+        df = pd.concat([gammal, df], ignore_index=True)
+    df.to_csv(fil, index=False, compression={"method": "gzip", "mtime": 0})
     logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(df)})
     print(f"  {kid} {namn}: {len(df)} rader")
 
