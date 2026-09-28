@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T13:26:47.611946+00:00",
+ "start": "2026-09-28T16:22:50.987447+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -879,7 +879,7 @@
   {
    "id": "TAB937",
    "rubrik": "Disponibel inkomst och faktorinkomst per konsumtionsenhet, gini-koefficienten samt andelen av inkomstsumman som innehas av personer i hushåll med de högsta 10 procent respektive 1 procent av inkomsterna efter hushållsdefinition, 2014 års priser. År 1975-2013",
-   "tema": "verklighet",
+   "tema": "inkomst",
    "status": "oförändrad, ej hämtad"
   },
   {
@@ -1025,6 +1025,62 @@
     }
    },
    "status": "hoppad: 2096640 celler > 900000"
+  },
+  {
+   "id": "TAB4592",
+   "rubrik": "Nyckeltal för inkomstutveckling, sparkvot, skuldkvot, räntekvot efter sektor och indikator. År 1950-2025",
+   "tema": "verklighet",
+   "celler": 1216,
+   "variabler": {
+    "Sektor": {
+     "etikett": "sektor",
+     "antal": 2
+    },
+    "NRindikator": {
+     "etikett": "indikator",
+     "antal": 8
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 1
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 76
+    }
+   },
+   "status": "ok",
+   "rader": 1216,
+   "uppdaterad": "2026-08-28T06:00:00Z",
+   "kalla": "SCB"
+  },
+  {
+   "id": "TAB1121",
+   "rubrik": "Indikatorer inkomstfördelning efter region. Fasta priser. År 2011-2024",
+   "tema": "verklighet",
+   "celler": 896,
+   "variabler": {
+    "Region": {
+     "etikett": "region",
+     "antal": 1
+    },
+    "InkomstTyp": {
+     "etikett": "inkomstslag",
+     "antal": 4
+    },
+    "ContentsCode": {
+     "etikett": "tabellinnehåll",
+     "antal": 16
+    },
+    "Tid": {
+     "etikett": "år",
+     "antal": 14
+    }
+   },
+   "status": "ok",
+   "rader": 896,
+   "uppdaterad": "2026-01-20T07:00:00Z",
+   "kalla": "SCB"
   },
   {
    "id": "TAB6685",
@@ -1173,12 +1229,6 @@
   {
    "id": "TAB4642",
    "rubrik": "Demografisk försörjningskvot efter region. År 2000-2025",
-   "tema": "verklighet",
-   "status": "oförändrad, ej hämtad"
-  },
-  {
-   "id": "TAB1246",
-   "rubrik": "Bostadshushåll (FoB75-90) efter region, hustyp, hushållsstorlek, lägenhetstyp, byggnadsperiod och trångboddhet 1975-1990",
    "tema": "verklighet",
    "status": "oförändrad, ej hämtad"
   },
@@ -2201,7 +2251,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7eff8b48b210>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fd0bf279fd0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2260,11 +2310,7 @@
   }
  ],
  "fel": [
-  "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']",
-  "eurostat vantan hlth_silc_08: HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"QUANTILE\\\" is not defined\"}]}",
-  "eurostat elpris_hush nrg_pc_204: HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"PRODUCT\\\" is not defined\"}]}",
-  "wikidata KD: Q10549150 är inte ett svenskt objekt ([])",
-  "rss Omni : HTTP 404"
+  "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']"
  ],
  "kolada": [
   {
@@ -2403,9 +2449,19 @@
    "rader": 4992
   },
   {
-   "id": "U31809",
-   "namn": "Långvarigt ekonomiskt bistånd (% av befolkningen)",
-   "rader": 3700
+   "id": "N02903",
+   "namn": "Barn 0–19 år med förälder med sjuk- eller aktivitetsersättning (%)",
+   "rader": 4364
+  },
+  {
+   "id": "N31816",
+   "namn": "Vuxna med långvarigt ekonomiskt bistånd (% av befolkningen)",
+   "rader": 4544
+  },
+  {
+   "id": "N66077",
+   "namn": "Barn och unga 0–19 år med låg ekonomisk standard (%)",
+   "rader": 4368
   },
   {
    "id": "U31803",
@@ -2413,19 +2469,54 @@
    "rader": 4284
   },
   {
+   "id": "N33818",
+   "namn": "Barn och unga 0–20 år placerade i HVB eller familjehem (per 1 000)",
+   "rader": 2809
+  },
+  {
    "id": "N28891",
-   "namn": "Personer med insatser enligt LSS (per 1 000 inv)",
+   "namn": "Invånare 0–22 år med insatser enligt LSS (per 10 000)",
    "rader": 4028
   },
   {
    "id": "N02797",
-   "namn": "Unga 20–24 år som varken arbetar eller studerar (%)",
+   "namn": "Unga 16–24 år som varken arbetar eller studerar (%)",
    "rader": 4680
   },
   {
+   "id": "N02267",
+   "namn": "Sysselsättningsgrad 20–64 år (%)",
+   "rader": 1560
+  },
+  {
    "id": "N03939",
-   "namn": "Öppet arbetslösa och i program 18–24 år (%)",
+   "namn": "Öppet arbetslösa 18–24 år, av befolkningen (%)",
    "rader": 4992
+  },
+  {
+   "id": "N00973",
+   "namn": "Nyanlända i arbete eller studier 90 dagar efter etableringsuppdraget (%)",
+   "rader": 3091
+  },
+  {
+   "id": "N00700",
+   "namn": "Förvärvsarbetande flyktingar och anhöriga 20–64 år (%)",
+   "rader": 4328
+  },
+  {
+   "id": "N02268",
+   "namn": "Sysselsättningsgrad 20–64 år, utrikes födda (%)",
+   "rader": 1560
+  },
+  {
+   "id": "N02269",
+   "namn": "Sysselsättningsgrad 20–64 år, inrikes födda (%)",
+   "rader": 1560
+  },
+  {
+   "id": "N15508",
+   "namn": "Elever i åk 9 som uppnått betygskriterierna i alla ämnen (%)",
+   "rader": 4890
   },
   {
    "id": "N15031",
@@ -2434,8 +2525,23 @@
   },
   {
    "id": "N15509",
-   "namn": "Elever i åk 6 med godkänt nationellt prov i matematik (%)",
+   "namn": "Elever i åk 6, betygspoäng i matematik (genomsnitt)",
    "rader": 3782
+  },
+  {
+   "id": "N15027",
+   "namn": "Kostnad grundskola F–9 per elev (kr)",
+   "rader": 4634
+  },
+  {
+   "id": "N11800",
+   "namn": "Barn 1–5 år inskrivna i förskola (%)",
+   "rader": 4935
+  },
+  {
+   "id": "U70448",
+   "namn": "Rimlig väntetid till sjukhusvård, enligt invånarna (%)",
+   "rader": 220
   },
   {
    "id": "N20506",
@@ -2449,13 +2555,13 @@
   },
   {
    "id": "N61603",
-   "namn": "Självmord (per 100 000 inv)",
+   "namn": "Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",
    "rader": 330
   },
   {
-   "id": "U01414",
-   "namn": "Invånare med bra självskattad hälsa (%)",
-   "rader": 2245
+   "id": "U01405",
+   "namn": "Invånare med bra självskattat hälsotillstånd (%)",
+   "rader": 2870
   },
   {
    "id": "N70060",
@@ -2498,18 +2604,23 @@
    "rader": 4436
   },
   {
-   "id": "U33779",
-   "namn": "Invånare som känner sig trygga (%)",
-   "rader": 93
+   "id": "N07609",
+   "namn": "Otrygga vid utevistelse sen kväll i eget område, NTU (%)",
+   "rader": 2140
+  },
+  {
+   "id": "U30446",
+   "namn": "Bostadsmarknadsläget enligt kommunen (0=underskott, 1=balans, 2=överskott)",
+   "rader": 4028
   },
   {
    "id": "N07907",
-   "namn": "Trångbodda (%)",
+   "namn": "Trångbodda i flerbostadshus, norm 2 (%)",
    "rader": 4368
   },
   {
    "id": "N03107",
-   "namn": "Kommunens resultat (% av skatt och bidrag)",
+   "namn": "Kommunens resultat före extraordinära poster (kr/inv)",
    "rader": 4655
   },
   {
@@ -2518,9 +2629,19 @@
    "rader": 4645
   },
   {
-   "id": "U07488",
-   "namn": "Andel förnybara drivmedel i kommunens fordon (%)",
-   "rader": 2226
+   "id": "N00005",
+   "namn": "Kommunalekonomisk utjämning (kr/inv)",
+   "rader": 4654
+  },
+  {
+   "id": "N07945",
+   "namn": "Elbilar, andel av personbilarna i trafik (%)",
+   "rader": 4056
+  },
+  {
+   "id": "U07482",
+   "namn": "Insamlat mat- och restavfall (kg/inv)",
+   "rader": 3768
   },
   {
    "id": "U07480",
@@ -2528,8 +2649,13 @@
    "rader": 2911
   },
   {
+   "id": "N45906",
+   "namn": "Slutanvändning av el (MWh/inv)",
+   "rader": 3704
+  },
+  {
    "id": "N05400",
-   "namn": "Valdeltagande i kommunval (%)",
+   "namn": "Valdeltagande i minst ett av de allmänna valen (%)",
    "rader": 4444
   },
   {
@@ -2565,6 +2691,11 @@
    "rader": 129
   },
   {
+   "id": "vantan",
+   "dataset": "hlth_silc_08",
+   "rader": 0
+  },
+  {
    "id": "halsa_bnp",
    "dataset": "gov_10a_exp",
    "rader": 140
@@ -2573,6 +2704,11 @@
    "id": "livslangd",
    "dataset": "demo_mlexpec",
    "rader": 148
+  },
+  {
+   "id": "elpris_hush",
+   "dataset": "nrg_pc_204",
+   "rader": 214
   },
   {
    "id": "fornybart",
@@ -2615,5 +2751,5 @@
    "rader": 106
   }
  ],
- "slut": "2026-09-28T13:48:36.093798+00:00"
+ "slut": "2026-09-28T16:56:27.351227+00:00"
 }

@@ -1,10 +1,9 @@
 {
  "skapad": "2026-09-28",
- "status": "fel",
+ "status": "varning",
  "antal": {
-  "ok": 176,
-  "varning": 7,
-  "fel": 1
+  "ok": 197,
+  "varning": 4
  },
  "kontroller": [
   {
@@ -193,11 +192,43 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "verk_Barn 0–19 år med förälder med sjuk- eller aktivitetsersättning (%)",
+   "beskrivning": "Årsserie: Barn 0–19 år med förälder med sjuk- eller aktivitetsersättning (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Barn 1–5 år inskrivna i förskola (%)",
+   "beskrivning": "Årsserie: Barn 1–5 år inskrivna i förskola (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "verk_Barn i familjer med ekonomiskt bistånd (%)",
    "beskrivning": "Årsserie: Barn i familjer med ekonomiskt bistånd (%)",
    "status": "ok",
    "detalj": "senaste år 2024",
    "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Barn och unga 0–19 år med låg ekonomisk standard (%)",
+   "beskrivning": "Årsserie: Barn och unga 0–19 år med låg ekonomisk standard (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Barn och unga 0–20 år placerade i HVB eller familjehem (per 1 000)",
+   "beskrivning": "Årsserie: Barn och unga 0–20 år placerade i HVB eller familjehem (per 1 000)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
   },
   {
    "grupp": "aktualitet",
@@ -265,11 +296,27 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "verk_Elbilar, andel av personbilarna i trafik (%)",
+   "beskrivning": "Årsserie: Elbilar, andel av personbilarna i trafik (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "verk_Elever i åk 6, betygspoäng i matematik (genomsnitt)",
    "beskrivning": "Årsserie: Elever i åk 6, betygspoäng i matematik (genomsnitt)",
    "status": "ok",
    "detalj": "senaste år 2025",
    "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Elever i åk 9 som uppnått betygskriterierna i alla ämnen (%)",
+   "beskrivning": "Årsserie: Elever i åk 9 som uppnått betygskriterierna i alla ämnen (%)",
+   "status": "ok",
+   "detalj": "senaste år 2026",
+   "varde": 2026.0
   },
   {
    "grupp": "aktualitet",
@@ -361,6 +408,22 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "verk_Förvärvsarbetande flyktingar och anhöriga 20–64 år (%)",
+   "beskrivning": "Årsserie: Förvärvsarbetande flyktingar och anhöriga 20–64 år (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Gini-koefficient, disponibel inkomst",
+   "beskrivning": "Årsserie: Gini-koefficient, disponibel inkomst",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "verk_Invandringar",
    "beskrivning": "Årsserie: Invandringar",
    "status": "ok",
@@ -385,8 +448,32 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "verk_Invånare med bra självskattat hälsotillstånd (%)",
+   "beskrivning": "Årsserie: Invånare med bra självskattat hälsotillstånd (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kommunalekonomisk utjämning (kr/inv)",
+   "beskrivning": "Årsserie: Kommunalekonomisk utjämning (kr/inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "verk_Kommunens resultat före extraordinära poster (kr/inv)",
    "beskrivning": "Årsserie: Kommunens resultat före extraordinära poster (kr/inv)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Kostnad grundskola F–9 per elev (kr)",
+   "beskrivning": "Årsserie: Kostnad grundskola F–9 per elev (kr)",
    "status": "ok",
    "detalj": "senaste år 2025",
    "varde": 2025.0
@@ -497,6 +584,14 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "verk_Nyanlända i arbete eller studier 90 dagar efter etableringsuppdraget (%)",
+   "beskrivning": "Årsserie: Nyanlända i arbete eller studier 90 dagar efter etableringsuppdraget (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "verk_Nöjdhet med hemtjänsten, helhetssyn (%)",
    "beskrivning": "Årsserie: Nöjdhet med hemtjänsten, helhetssyn (%)",
    "status": "ok",
@@ -534,6 +629,22 @@
    "status": "ok",
    "detalj": "senaste år 2024",
    "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Otrygga vid utevistelse sen kväll i eget område, NTU (%)",
+   "beskrivning": "Årsserie: Otrygga vid utevistelse sen kväll i eget område, NTU (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Rimlig väntetid till sjukhusvård, enligt invånarna (%)",
+   "beskrivning": "Årsserie: Rimlig väntetid till sjukhusvård, enligt invånarna (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
   },
   {
    "grupp": "aktualitet",
@@ -577,6 +688,14 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "verk_Slutanvändning av el (MWh/inv)",
+   "beskrivning": "Årsserie: Slutanvändning av el (MWh/inv)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "verk_Soliditet inkl. pensionsförpliktelser (%)",
    "beskrivning": "Årsserie: Soliditet inkl. pensionsförpliktelser (%)",
    "status": "ok",
@@ -606,6 +725,30 @@
    "status": "ok",
    "detalj": "senaste år 2025",
    "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sysselsättningsgrad 20–64 år (%)",
+   "beskrivning": "Årsserie: Sysselsättningsgrad 20–64 år (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sysselsättningsgrad 20–64 år, inrikes födda (%)",
+   "beskrivning": "Årsserie: Sysselsättningsgrad 20–64 år, inrikes födda (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Sysselsättningsgrad 20–64 år, utrikes födda (%)",
+   "beskrivning": "Årsserie: Sysselsättningsgrad 20–64 år, utrikes födda (%)",
+   "status": "ok",
+   "detalj": "senaste år 2024",
+   "varde": 2024.0
   },
   {
    "grupp": "aktualitet",
@@ -667,6 +810,14 @@
    "grupp": "aktualitet",
    "id": "verk_Valdeltagande i minst ett av de allmänna valen (%)",
    "beskrivning": "Årsserie: Valdeltagande i minst ett av de allmänna valen (%)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Vuxna med långvarigt ekonomiskt bistånd (% av befolkningen)",
+   "beskrivning": "Årsserie: Vuxna med långvarigt ekonomiskt bistånd (% av befolkningen)",
    "status": "ok",
    "detalj": "senaste år 2025",
    "varde": 2025.0
@@ -742,6 +893,14 @@
    "status": "ok",
    "detalj": "senaste år för Sverige 2026",
    "varde": 2026.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "norden_elpris_hush",
+   "beskrivning": "Eurostat: Elpris för hushåll, inkl. skatter (euro/kWh)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
   },
   {
    "grupp": "aktualitet",
@@ -852,16 +1011,16 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "439 artiklar i 7 flöden",
-   "varde": 439.0
+   "detalj": "493 artiklar i 7 flöden",
+   "varde": 493.0
   },
   {
    "grupp": "aktualitet",
    "id": "wikidata_foljare",
    "beskrivning": "Följarantal från Wikidata",
    "status": "ok",
-   "detalj": "11 konton med följarantal",
-   "varde": 11.0
+   "detalj": "14 konton med följarantal",
+   "varde": 14.0
   },
   {
    "grupp": "aktualitet",
@@ -1068,40 +1227,40 @@
    "id": "rader_verklighet",
    "beskrivning": "Tabell verklighet",
    "status": "ok",
-   "detalj": "10897 rader (förra 11059)",
-   "varde": 10897.0
+   "detalj": "13445 rader (förra 11059)",
+   "varde": 13445.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_indikator",
    "beskrivning": "Tabell verklighet_indikator",
    "status": "ok",
-   "detalj": "78 rader (förra 79)",
-   "varde": 78.0
+   "detalj": "99 rader (förra 79)",
+   "varde": 99.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_kommunvarden",
    "beskrivning": "Tabell verklighet_kommunvarden",
    "status": "ok",
-   "detalj": "174626 rader (förra 182641)",
-   "varde": 174626.0
+   "detalj": "240175 rader (förra 182641)",
+   "varde": 240175.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_forandring",
    "beskrivning": "Tabell verklighet_forandring",
    "status": "ok",
-   "detalj": "213 rader (förra 204)",
-   "varde": 213.0
+   "detalj": "255 rader (förra 204)",
+   "varde": 255.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_kommun",
    "beskrivning": "Tabell verklighet_kommun",
    "status": "ok",
-   "detalj": "960 rader (förra 1008)",
-   "varde": 960.0
+   "detalj": "1312 rader (förra 1008)",
+   "varde": 1312.0
   },
   {
    "grupp": "volym",
@@ -1156,16 +1315,16 @@
    "id": "rader_valkrets_indikator",
    "beskrivning": "Tabell valkrets_indikator",
    "status": "ok",
-   "detalj": "22930 rader (förra 23734)",
-   "varde": 22930.0
+   "detalj": "29815 rader (förra 23734)",
+   "varde": 29815.0
   },
   {
    "grupp": "volym",
    "id": "rader_valkrets_oversikt",
    "beskrivning": "Tabell valkrets_oversikt",
    "status": "ok",
-   "detalj": "1788 rader (förra 1879)",
-   "varde": 1788.0
+   "detalj": "2368 rader (förra 1879)",
+   "varde": 2368.0
   },
   {
    "grupp": "volym",
@@ -1244,16 +1403,16 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "51 rader (förra 51)",
-   "varde": 51.0
+   "detalj": "63 rader (förra 51)",
+   "varde": 63.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
-   "status": "fel",
-   "detalj": "11 rader mot 14 förra körningen (-21 %)",
-   "varde": 11.0
+   "status": "ok",
+   "detalj": "14 rader (förra 14)",
+   "varde": 14.0
   },
   {
    "grupp": "volym",
@@ -1268,8 +1427,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "206 rader (förra 206)",
-   "varde": 206.0
+   "detalj": "207 rader (förra 206)",
+   "varde": 207.0
   },
   {
    "grupp": "volym",
@@ -1292,16 +1451,16 @@
    "id": "rader_media_ledare",
    "beskrivning": "Tabell media_ledare",
    "status": "ok",
-   "detalj": "7 rader (förra 7)",
-   "varde": 7.0
+   "detalj": "8 rader (förra 7)",
+   "varde": 8.0
   },
   {
    "grupp": "volym",
    "id": "rader_norden",
    "beskrivning": "Tabell norden",
    "status": "ok",
-   "detalj": "2050 rader (förra 2050)",
-   "varde": 2050.0
+   "detalj": "2264 rader (förra 2050)",
+   "varde": 2264.0
   },
   {
    "grupp": "volym",
@@ -1340,8 +1499,8 @@
    "id": "rader_varningar",
    "beskrivning": "Tabell varningar",
    "status": "ok",
-   "detalj": "5 rader (förra 1)",
-   "varde": 5.0
+   "detalj": "2 rader (förra 1)",
+   "varde": 2.0
   },
   {
    "grupp": "volym",
@@ -1428,7 +1587,7 @@
    "id": "norden_sverige",
    "beskrivning": "Sverige finns i alla nordiska serier",
    "status": "ok",
-   "detalj": "16 serier",
+   "detalj": "17 serier",
    "varde": null
   },
   {
@@ -1450,30 +1609,6 @@
   {
    "grupp": "tolkning",
    "id": "varning_1",
-   "beskrivning": "Varning vid tolkning",
-   "status": "varning",
-   "detalj": "SCB-tabell TAB1121 saknas",
-   "varde": null
-  },
-  {
-   "grupp": "tolkning",
-   "id": "varning_2",
-   "beskrivning": "Varning vid tolkning",
-   "status": "varning",
-   "detalj": "verklighet: hittade ingen entydig SCB-serie för 'Gini-koefficient, disponibel inkomst'",
-   "varde": null
-  },
-  {
-   "grupp": "tolkning",
-   "id": "varning_3",
-   "beskrivning": "Varning vid tolkning",
-   "status": "varning",
-   "detalj": "SCB-tabell TAB4592 saknas",
-   "varde": null
-  },
-  {
-   "grupp": "tolkning",
-   "id": "varning_4",
    "beskrivning": "Varning vid tolkning",
    "status": "varning",
    "detalj": "verklighet: hittade ingen entydig SCB-serie för 'Hushållens skuldkvot (% av disponibel inkomst)'",

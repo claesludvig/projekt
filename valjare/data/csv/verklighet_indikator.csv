@@ -1,79 +1,100 @@
 indikator_id,fraga,indikator,kalla
-0,klimat,Växthusgasutsläpp per invånare (ton),Kolada N00401
-1,skatter,Total skattesats (%),Kolada N00900
-2,jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,Kolada N00952
-3,valfard,Ohälsotal (dagar per försäkrad),Kolada N00957
-4,valfard,Sjukpenningtal (dagar per försäkrad),Kolada N00967
-5,jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",Kolada N02280
-6,invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",Kolada N02282
-7,jobb,Unga 16–24 år som varken arbetar eller studerar (%),Kolada N02797
-8,invandring,Utrikes födda (% av bef.),Kolada N02900
-9,ekonomi,Soliditet inkl. pensionsförpliktelser (%),Kolada N03002
-10,ekonomi,Kommunens resultat före extraordinära poster (kr/inv),Kolada N03107
-11,jobb,"Långtidsarbetslösa, andel av arbetslösa (%)",Kolada N03923
-12,jobb,"Öppet arbetslösa 18–24 år, av befolkningen (%)",Kolada N03939
-13,demokrati,Valdeltagande i minst ett av de allmänna valen (%),Kolada N05400
-14,jamstalldhet,Kvinnor i kommunfullmäktige (%),Kolada N05815
-15,lag,Anmälda våldsbrott per 100 000 inv,Kolada N07403
-16,lag,Anmälda brott per 100 000 inv,Kolada N07540
-17,lag,Anmälda narkotikabrott (per 100 000 inv),Kolada N07544
-18,lag,Anmälda bostadsinbrott (per 100 000 inv),Kolada N07546
-19,klimat,Växthusgasutsläpp totalt (ton),Kolada N07702
-20,bostad,"Trångbodda i flerbostadshus, norm 2 (%)",Kolada N07907
-21,bostad,"Färdigställda bostäder, nybyggnad, per 1 000 inv",Kolada N07917
-22,skola,"Lärare med pedagogisk högskoleexamen, grundskola (%)",Kolada N15031
-23,skola,"Behöriga till yrkesprogram, åk 9",Kolada N15428
-24,skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",Kolada N15507
-25,skola,"Elever i åk 6, betygspoäng i matematik (genomsnitt)",Kolada N15509
-26,skola,Examen/studiebevis inom 4 år (gymnasiet),Kolada N17457
-27,aldre,Kostnad äldreomsorg per invånare 80+ (kr),Kolada N20048
-28,sjukvard,"Återinskrivning inom 30 dagar, 65+ (%)",Kolada N20506
-29,aldre,Invånare 80+ i särskilt boende (%),Kolada N23801
-30,valfard,Invånare 0–22 år med insatser enligt LSS (per 10 000),Kolada N28891
-31,valfard,Ekonomiskt bistånd (% av bef.),Kolada N31807
-32,sjukvard,"Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",Kolada N61603
-33,pension,Låg ekonomisk standard 65+ (%),Kolada N66079
-34,egen_ekonomi,Låg ekonomisk standard (%),Kolada N66080
-35,sjukvard,Nettokostnad hälso- och sjukvård (kr/inv),Kolada N70060
-36,sjukvard,Telefonsamtal till primärvården besvarade samma dag,Kolada N79179
-37,sjukvard,Första kontakt i specialiserad vård inom 90 dagar,Kolada N79222
-38,sjukvard,Operation/åtgärd inom 90 dagar,Kolada N79224
-39,miljo,"Skyddad natur, andel av landareal (%)",Kolada N85054
-40,lag,Anmälda skadegörelsebrott (per 100 000 inv),Kolada U07452
-41,miljo,Insamlat matavfall (%),Kolada U07480
-42,miljo,Ekologiska livsmedel i kommunens verksamhet (%),Kolada U07514
-43,aldre,Personalkontinuitet i hemtjänsten (antal personal på 14 dagar),Kolada U21402
-44,aldre,"Nöjdhet med hemtjänsten, helhetssyn (%)",Kolada U21468
-45,aldre,Väntetid till särskilt boende (dagar),Kolada U23401
-46,aldre,"Nöjdhet särskilt boende, helhetssyn (%)",Kolada U23471
-47,valfard,Barn i familjer med ekonomiskt bistånd (%),Kolada U31803
-48,sjukvard,Förtroende för hälso- och sjukvården (%),Kolada U70447
-49,sjukvard,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),Kolada U72552
-50,jobb,"Arbetslöshet 15–74 år (AKU, %)",SCB TAB6514: Befolkningen 15-74 år
-51,jobb,"Sysselsättningsgrad 15–74 år (AKU, %)",SCB TAB6514: Befolkningen 15-74 år
-52,invandring,"Sysselsättningsgrad utrikes födda 20–64 (AKU, %)",SCB TAB6529: Befolkningen 15-74 år
-53,invandring,"Sysselsättningsgrad inrikes födda 20–64 (AKU, %)",SCB TAB6529: Befolkningen 15-74 år
-54,ekonomi,"BNP, volymförändring (%)","SCB TAB5621: Volymförändring, procent"
-55,bostad,Färdigställda lägenheter i nybyggda hus,SCB TAB2538: Färdigställda lägenheter i nybyggda hus
-56,bostad,Fastighetsprisindex småhus (1990=100),"SCB TAB1148: Fastighetsprisindex för permanenta småhus, 1990=100, index"
-57,invandring,Invandringar,SCB TAB1618: Invandringar
-58,sjukvard,"Medellivslängd vid födseln, kvinnor (år)",SCB TAB5241: Återstående medellivslängd i antal år
-59,sjukvard,"Medellivslängd vid födseln, män (år)",SCB TAB5241: Återstående medellivslängd i antal år
-60,jamstalldhet,Kvinnors lön i procent av mäns,SCB TAB5124: Ej standardvägda andelar (procent)
-61,energi,"Elproduktion, kärnkraft (GWh/mån)","SCB TAB78: Elproduktion netto och elanvändning, GWh"
-62,klimat,"Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)",SCB TAB4698: Ämne
-63,pension,"Demografisk försörjningskvot, totalt",SCB TAB4642: Försörjningskvot totalt
-64,pension,"Demografisk försörjningskvot, från äldre 65+","SCB TAB4642: Försörjningskvot, från äldre 65+"
-65,egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF
-66,forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS
-67,forsvar,"Försvarsutgifter, % av statens utgifter (SIPRI)",Världsbanken MS.MIL.XPND.ZS
-68,miljo,"Förnybar energi, % av slutlig energianvändning",Världsbanken EG.FEC.RNEW.ZS
-69,miljo,"Luftföroreningar PM2,5, medelexponering (µg/m³)",Världsbanken EN.ATM.PM25.MC.M3
-70,lag,Skjutningar per år,Polismyndigheten
-71,lag,Döda i skjutningar per år,Polismyndigheten
-72,lag,Sprängningar per år,Polismyndigheten
-73,energi,"Elpris egnahem (KPI, 1980=100)",SCB KPI (TAB5160)
-74,egen_ekonomi,"Bensinpris (KPI, 1980=100)",SCB KPI (TAB5160)
-75,egen_ekonomi,"Dieselpris (KPI, 1980=100)",SCB KPI (TAB5160)
-76,egen_ekonomi,Räntekostnader egnahem (KPI),SCB KPI (TAB5160)
-77,forsvar,"Offentliga utgifter för försvar, % av BNP (COFOG)",Eurostat gov_10a_exp
+0,ekonomi,Kommunalekonomisk utjämning (kr/inv),Kolada N00005
+1,klimat,Växthusgasutsläpp per invånare (ton),Kolada N00401
+2,invandring,Förvärvsarbetande flyktingar och anhöriga 20–64 år (%),Kolada N00700
+3,skatter,Total skattesats (%),Kolada N00900
+4,jamstalldhet,Kvinnors mediannettoinkomst i % av mäns,Kolada N00952
+5,valfard,Ohälsotal (dagar per försäkrad),Kolada N00957
+6,valfard,Sjukpenningtal (dagar per försäkrad),Kolada N00967
+7,invandring,Nyanlända i arbete eller studier 90 dagar efter etableringsuppdraget (%),Kolada N00973
+8,jobb,Sysselsättningsgrad 20–64 år (%),Kolada N02267
+9,invandring,"Sysselsättningsgrad 20–64 år, utrikes födda (%)",Kolada N02268
+10,invandring,"Sysselsättningsgrad 20–64 år, inrikes födda (%)",Kolada N02269
+11,jobb,"Arbetslöshet 20–64 år, registerbaserad (BAS, %)",Kolada N02280
+12,invandring,"Arbetslöshet bland utrikes födda 20–64 år (BAS, %)",Kolada N02282
+13,jobb,Unga 16–24 år som varken arbetar eller studerar (%),Kolada N02797
+14,invandring,Utrikes födda (% av bef.),Kolada N02900
+15,valfard,Barn 0–19 år med förälder med sjuk- eller aktivitetsersättning (%),Kolada N02903
+16,ekonomi,Soliditet inkl. pensionsförpliktelser (%),Kolada N03002
+17,ekonomi,Kommunens resultat före extraordinära poster (kr/inv),Kolada N03107
+18,jobb,"Långtidsarbetslösa, andel av arbetslösa (%)",Kolada N03923
+19,jobb,"Öppet arbetslösa 18–24 år, av befolkningen (%)",Kolada N03939
+20,demokrati,Valdeltagande i minst ett av de allmänna valen (%),Kolada N05400
+21,jamstalldhet,Kvinnor i kommunfullmäktige (%),Kolada N05815
+22,lag,Anmälda våldsbrott per 100 000 inv,Kolada N07403
+23,lag,Anmälda brott per 100 000 inv,Kolada N07540
+24,lag,Anmälda narkotikabrott (per 100 000 inv),Kolada N07544
+25,lag,Anmälda bostadsinbrott (per 100 000 inv),Kolada N07546
+26,lag,"Otrygga vid utevistelse sen kväll i eget område, NTU (%)",Kolada N07609
+27,klimat,Växthusgasutsläpp totalt (ton),Kolada N07702
+28,bostad,"Trångbodda i flerbostadshus, norm 2 (%)",Kolada N07907
+29,bostad,"Färdigställda bostäder, nybyggnad, per 1 000 inv",Kolada N07917
+30,klimat,"Elbilar, andel av personbilarna i trafik (%)",Kolada N07945
+31,skola,Barn 1–5 år inskrivna i förskola (%),Kolada N11800
+32,skola,Kostnad grundskola F–9 per elev (kr),Kolada N15027
+33,skola,"Lärare med pedagogisk högskoleexamen, grundskola (%)",Kolada N15031
+34,skola,"Behöriga till yrkesprogram, åk 9",Kolada N15428
+35,skola,"Meritvärde åk 9 (hemkommun, 17 ämnen)",Kolada N15507
+36,skola,Elever i åk 9 som uppnått betygskriterierna i alla ämnen (%),Kolada N15508
+37,skola,"Elever i åk 6, betygspoäng i matematik (genomsnitt)",Kolada N15509
+38,skola,Examen/studiebevis inom 4 år (gymnasiet),Kolada N17457
+39,aldre,Kostnad äldreomsorg per invånare 80+ (kr),Kolada N20048
+40,sjukvard,"Återinskrivning inom 30 dagar, 65+ (%)",Kolada N20506
+41,aldre,Invånare 80+ i särskilt boende (%),Kolada N23801
+42,valfard,Invånare 0–22 år med insatser enligt LSS (per 10 000),Kolada N28891
+43,valfard,Ekonomiskt bistånd (% av bef.),Kolada N31807
+44,valfard,Vuxna med långvarigt ekonomiskt bistånd (% av befolkningen),Kolada N31816
+45,valfard,Barn och unga 0–20 år placerade i HVB eller familjehem (per 1 000),Kolada N33818
+46,energi,Slutanvändning av el (MWh/inv),Kolada N45906
+47,sjukvard,"Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",Kolada N61603
+48,valfard,Barn och unga 0–19 år med låg ekonomisk standard (%),Kolada N66077
+49,pension,Låg ekonomisk standard 65+ (%),Kolada N66079
+50,egen_ekonomi,Låg ekonomisk standard (%),Kolada N66080
+51,sjukvard,Nettokostnad hälso- och sjukvård (kr/inv),Kolada N70060
+52,sjukvard,Telefonsamtal till primärvården besvarade samma dag,Kolada N79179
+53,sjukvard,Första kontakt i specialiserad vård inom 90 dagar,Kolada N79222
+54,sjukvard,Operation/åtgärd inom 90 dagar,Kolada N79224
+55,miljo,"Skyddad natur, andel av landareal (%)",Kolada N85054
+56,sjukvard,Invånare med bra självskattat hälsotillstånd (%),Kolada U01405
+57,lag,Anmälda skadegörelsebrott (per 100 000 inv),Kolada U07452
+58,miljo,Insamlat matavfall (%),Kolada U07480
+59,miljo,Insamlat mat- och restavfall (kg/inv),Kolada U07482
+60,miljo,Ekologiska livsmedel i kommunens verksamhet (%),Kolada U07514
+61,aldre,Personalkontinuitet i hemtjänsten (antal personal på 14 dagar),Kolada U21402
+62,aldre,"Nöjdhet med hemtjänsten, helhetssyn (%)",Kolada U21468
+63,aldre,Väntetid till särskilt boende (dagar),Kolada U23401
+64,aldre,"Nöjdhet särskilt boende, helhetssyn (%)",Kolada U23471
+65,bostad,"Bostadsmarknadsläget enligt kommunen (0=underskott, 1=balans, 2=överskott)",Kolada U30446
+66,valfard,Barn i familjer med ekonomiskt bistånd (%),Kolada U31803
+67,sjukvard,Förtroende för hälso- och sjukvården (%),Kolada U70447
+68,sjukvard,"Rimlig väntetid till sjukhusvård, enligt invånarna (%)",Kolada U70448
+69,sjukvard,Barn- och ungdomspsykiatri: första besök inom 90 dagar (%),Kolada U72552
+70,jobb,"Arbetslöshet 15–74 år (AKU, %)",SCB TAB6514: Befolkningen 15-74 år
+71,jobb,"Sysselsättningsgrad 15–74 år (AKU, %)",SCB TAB6514: Befolkningen 15-74 år
+72,invandring,"Sysselsättningsgrad utrikes födda 20–64 (AKU, %)",SCB TAB6529: Befolkningen 15-74 år
+73,invandring,"Sysselsättningsgrad inrikes födda 20–64 (AKU, %)",SCB TAB6529: Befolkningen 15-74 år
+74,ekonomi,"BNP, volymförändring (%)","SCB TAB5621: Volymförändring, procent"
+75,bostad,Färdigställda lägenheter i nybyggda hus,SCB TAB2538: Färdigställda lägenheter i nybyggda hus
+76,bostad,Fastighetsprisindex småhus (1990=100),"SCB TAB1148: Fastighetsprisindex för permanenta småhus, 1990=100, index"
+77,invandring,Invandringar,SCB TAB1618: Invandringar
+78,sjukvard,"Medellivslängd vid födseln, kvinnor (år)",SCB TAB5241: Återstående medellivslängd i antal år
+79,sjukvard,"Medellivslängd vid födseln, män (år)",SCB TAB5241: Återstående medellivslängd i antal år
+80,jamstalldhet,Kvinnors lön i procent av mäns,SCB TAB5124: Ej standardvägda andelar (procent)
+81,energi,"Elproduktion, kärnkraft (GWh/mån)","SCB TAB78: Elproduktion netto och elanvändning, GWh"
+82,klimat,"Växthusgasutsläpp, Sverige (miljoner ton CO2-ekv., exkl. LULUCF)",SCB TAB4698: Ämne
+83,pension,"Demografisk försörjningskvot, totalt",SCB TAB4642: Försörjningskvot totalt
+84,pension,"Demografisk försörjningskvot, från äldre 65+","SCB TAB4642: Försörjningskvot, från äldre 65+"
+85,egen_ekonomi,"Gini-koefficient, disponibel inkomst",SCB TAB1121: Gini-koefficient
+86,egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF
+87,forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS
+88,forsvar,"Försvarsutgifter, % av statens utgifter (SIPRI)",Världsbanken MS.MIL.XPND.ZS
+89,miljo,"Förnybar energi, % av slutlig energianvändning",Världsbanken EG.FEC.RNEW.ZS
+90,miljo,"Luftföroreningar PM2,5, medelexponering (µg/m³)",Världsbanken EN.ATM.PM25.MC.M3
+91,lag,Skjutningar per år,Polismyndigheten
+92,lag,Döda i skjutningar per år,Polismyndigheten
+93,lag,Sprängningar per år,Polismyndigheten
+94,energi,"Elpris egnahem (KPI, 1980=100)",SCB KPI (TAB5160)
+95,egen_ekonomi,"Bensinpris (KPI, 1980=100)",SCB KPI (TAB5160)
+96,egen_ekonomi,"Dieselpris (KPI, 1980=100)",SCB KPI (TAB5160)
+97,egen_ekonomi,Räntekostnader egnahem (KPI),SCB KPI (TAB5160)
+98,forsvar,"Offentliga utgifter för försvar, % av BNP (COFOG)",Eurostat gov_10a_exp

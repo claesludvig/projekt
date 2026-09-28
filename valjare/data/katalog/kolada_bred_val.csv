@@ -1,31 +1,30 @@
 fraga,namn,id,titel,alternativ,ovriga
 valfard,Sjukpenningtal (dagar per försäkrad),N00967,"Sjukpenningtalet, 15–69 år, dagar/arbetskraften",2,"N00938: Sjukpenningtalet, 16–64 år, dagar/registrerad försäkrad"
 valfard,Ohälsotal (dagar per försäkrad),N00957,"Ohälsotal, dagar",7,"N00974: Ohälsotal, 16-19 år, dagar | N00975: Ohälsotal, 20-29 år, dagar | N00976: Ohälsotal, 30-39 år, dagar | N00977: Ohälsotal, 40-49 år, dagar | N00978: Ohälsotal, 50-59 år, dagar"
-valfard,Sjuk- och aktivitetsersättning (% av befolkningen),,,0,
-valfard,Långvarigt ekonomiskt bistånd (% av befolkningen),U31809,"Barn i befolkningen som ingår i familjer med långvarigt ekonomiskt bistånd, andel (%)",5,"N31816: Vuxna biståndsmottagare (18+ år) med långvarigt ekonomiskt bistånd, andel (%) av befolkningen | N31814: Vuxna biståndsmottagare (18+ år) med långvarigt ekonomiskt bistånd, andel (%) av biståndsmottagare 18+ år | U31801: Vuxna biståndsmottagare (18+ år) med mycket långvarigt ekonomiskt bistånd, andel (%) av biståndsmottagare 18+ år | N61700: Vuxna biståndsmottagare med långvarigt ekonomiskt bistånd region, andel (%)"
-valfard,Barn i ekonomiskt utsatta hushåll (%),,,0,
+valfard,Barn 0–19 år med förälder med sjuk- eller aktivitetsersättning (%),N02903,"Invånare 0-19 år med minst en förälder med sjuk- eller aktivitetsersättning, andel (%)",1,
+valfard,Vuxna med långvarigt ekonomiskt bistånd (% av befolkningen),N31816,"Vuxna biståndsmottagare (18+ år) med långvarigt ekonomiskt bistånd, andel (%) av befolkningen",1,
+valfard,Barn och unga 0–19 år med låg ekonomisk standard (%),N66077,"Invånare, 0-19 år, med låg ekonomisk standard, andel (%)",1,
 valfard,Barn i familjer med ekonomiskt bistånd (%),U31803,"Barn i befolkningen som ingår i familjer med ekonomiskt bistånd, andel (%)",2,"U31809: Barn i befolkningen som ingår i familjer med långvarigt ekonomiskt bistånd, andel (%)"
-valfard,Placerade barn och unga 0–20 år (per 10 000),,,0,
-valfard,Personer med insatser enligt LSS (per 1 000 inv),N28891,"Invånare 0-22 år med insatser enligt LSS, antal/10 000 inv 0-22 år",1,
-jobb,Unga 20–24 år som varken arbetar eller studerar (%),N02797,"Invånare 16-24 år som varken arbetar eller studerar, andel (%)",1,
-jobb,Förvärvsarbetande 20–64 år (%),,,0,
-jobb,Öppet arbetslösa och i program 18–24 år (%),N03939,"Öppet arbetslösa av befolkningen, 18-24 år, andel (%)",1,
-invandring,Nyanlända i arbete eller studier efter etableringsprogrammet (%),,,0,
-invandring,Förvärvsarbetande utrikes födda 20–64 år (%),,,0,
-invandring,Elever i åk 9 med utländsk bakgrund behöriga till gymnasiet (%),,,0,
-skola,Elever i åk 9 som uppnått kunskapskraven i alla ämnen (%),,,0,
+valfard,Barn och unga 0–20 år placerade i HVB eller familjehem (per 1 000),N33818,"Barn och unga 0-20 år som har varit placerade på HVB eller familjehem någon gång under året, antal/1000 inv",1,
+valfard,Invånare 0–22 år med insatser enligt LSS (per 10 000),N28891,"Invånare 0-22 år med insatser enligt LSS, antal/10 000 inv 0-22 år",1,
+jobb,Unga 16–24 år som varken arbetar eller studerar (%),N02797,"Invånare 16-24 år som varken arbetar eller studerar, andel (%)",1,
+jobb,Sysselsättningsgrad 20–64 år (%),N02267,"Sysselsättningsgrad 20-64 år, andel (%)",1,
+jobb,"Öppet arbetslösa 18–24 år, av befolkningen (%)",N03939,"Öppet arbetslösa av befolkningen, 18-24 år, andel (%)",1,
+invandring,Nyanlända i arbete eller studier 90 dagar efter etableringsuppdraget (%),N00973,"Lämnat etableringsuppdraget och börjat arbeta eller studera (status efter 90 dagar), andel (%)",1,
+invandring,Förvärvsarbetande flyktingar och anhöriga 20–64 år (%),N00700,"Förvärvsarbetande skyddsbehövande och anhöriga (flyktingar) 20-64 år, andel (%)",1,
+invandring,"Sysselsättningsgrad 20–64 år, utrikes födda (%)",N02268,"Sysselsättningsgrad, utrikes födda 20-64 år, andel (%)",1,
+invandring,"Sysselsättningsgrad 20–64 år, inrikes födda (%)",N02269,"Sysselsättningsgrad, inrikes födda 20-64 år, andel (%)",1,
+skola,Elever i åk 9 som uppnått betygskriterierna i alla ämnen (%),N15508,"Elever i åk 9 som uppnått betygskriterierna i alla ämnen, hemkommun, andel (%)",1,
 skola,"Lärare med pedagogisk högskoleexamen, grundskola (%)",N15031,"Lärare med pedagogisk högskoleexamen i kommunal grundskola åk 1-9, andel (%) (-2024)",5,"N18733: Lärare med pedagogisk högskoleexamen i anpassad grundskola, kommunal regi, andel (%) | N15032: Lärare med pedagogisk högskoleexamen, fristående grundskola åk 1-9, andel (%) (-2024) | N15030: Lärare med pedagogisk högskoleexamen i grundskola åk 1-9, lägeskommun, andel (%) (-2024) | N18734: Lärare med specialpedagogisk högskoleexamen i anpassad grundskola, kommunal regi, andel (%)"
-skola,Elever i åk 6 med godkänt nationellt prov i matematik (%),N15509,"Elever i åk 6, betygspoäng i matematik, lägeskommun, genomsnitt",7,"N15545: Elever i åk 6 med lägst betyget E i matematik, hemkommun, andel (%) | N15513: Elever i åk 6, betygspoäng i matematik, kommunala skolor, genomsnitt | N15483: Elever i åk 6 med lägst betyget E i matematik, lägeskommun, andel (%) | N15517: Elever i åk 6, betygspoäng i matematik, fristående grundskola, genomsnitt | N15485: Elever i åk 6 med lägst betyget E i matematik, kommunala skolor, andel (%)"
-skola,"Behöriga till gymnasiet, elever i åk 9 (%)",,,0,
-skola,Kostnad grundskola per elev (kr),,,0,
-skola,Barn 1–5 år inskrivna i förskola (%),,,0,
-sjukvard,Undvikbar slutenvård (per 100 000 inv),,,0,
+skola,"Elever i åk 6, betygspoäng i matematik (genomsnitt)",N15509,"Elever i åk 6, betygspoäng i matematik, lägeskommun, genomsnitt",1,
+skola,Kostnad grundskola F–9 per elev (kr),N15027,"Kostnad grundskola F-9, hemkommun, kr/elev",1,
+skola,Barn 1–5 år inskrivna i förskola (%),N11800,"Barn 1-5 år inskrivna i förskola, andel (%)",1,
+sjukvard,"Rimlig väntetid till sjukhusvård, enligt invånarna (%)",U70448,"Rimlig väntetid till sjukhusvård, andel (%)",1,
 sjukvard,"Återinskrivning inom 30 dagar, 65+ (%)",N20506,"Oplanerade återinskrivningar bland äldre, andel (%)",2,"U79092: Patienter med oplanerad återinskrivning inom 30 dagar, andel (%)"
 sjukvard,Förtroende för hälso- och sjukvården (%),U70447,"Förtroende för sjukvården i sin helhet, andel (%)",1,
-sjukvard,Självmord (per 100 000 inv),N61603,"Självmord, 5-årsmedelvärde, antal/100 000 inv, 25 år+",1,
-sjukvard,Invånare med bra självskattad hälsa (%),U01414,"Invånare med bra självskattad tandhälsa, andel (%)",2,"U01526: Osäkerhetstal - Invånare 16-84 år med bra självskattad tandhälsa, andel (%)"
+sjukvard,"Självmord 25 år+, femårsmedelvärde (per 100 000 inv)",N61603,"Självmord, 5-årsmedelvärde, antal/100 000 inv, 25 år+",1,
+sjukvard,Invånare med bra självskattat hälsotillstånd (%),U01405,"Invånare med bra självskattat hälsotillstånd, andel (%)",1,
 sjukvard,Nettokostnad hälso- och sjukvård (kr/inv),N70060,"Nettokostnad hälso- och sjukvård (exkl. tandvård), kr/inv",3,"N70017: Nettokostnad hälso- och sjukvård (exkl. läkemedel), kr/inv | N70061: Nettokostnad hälso- och sjukvård totalt (inkl. läkemedel), kr/inv"
-sjukvard,Väntetid till besök i specialiserad psykiatri (%),,,0,
 aldre,Personalkontinuitet i hemtjänsten (antal personal på 14 dagar),U21402,"Personalkontinuitet, antal personal som en hemtjänsttagare med minst 2 besök dagligen möter under 14 dagar, median (- 2024)",2,"U21401: Personalkontinuitet, antal personal som en hemtjänsttagare med minst 2 besök dagligen möter under 14 dagar, medelvärde (- 2024)"
 aldre,"Nöjdhet med hemtjänsten, helhetssyn (%)",U21468,"Brukarbedömning hemtjänst äldreomsorg -  helhetssyn, andel (%)",3,"U21438: Brukarbedömning hemtjänst äldreomsorg - Enskild regi - helhetssyn, andel (%) | U21443: Brukarbedömning hemtjänst äldreomsorg - Kommunal regi - helhetssyn, andel (%)"
 aldre,Kostnad äldreomsorg per invånare 80+ (kr),N20048,"Kostnad äldreomsorg, kr/inv 80+",10,"N21024: Kostnad hemtjänst äldreomsorg, kr/inv 80+ | N21023: Kostnad korttidsvård äldreomsorg, kr/inv 80+ | N23002: Kostnad annat boende äldreomsorg, kr/inv 80+ | N21025: Kostnad dagverksamhet äldreomsorg, kr/inv 80+ | N21022: Kostnad ordinärt boende äldreomsorg, kr/inv 80+"
@@ -33,19 +32,15 @@ aldre,Invånare 80+ i särskilt boende (%),N23801,"Invånare 80+ i särskilt boe
 lag,Anmälda narkotikabrott (per 100 000 inv),N07544,"Anmälda narkotikabrott, antal/100 000 inv",1,
 lag,Anmälda skadegörelsebrott (per 100 000 inv),U07452,"Anmälda brott om skadegörelse, antal/100 000 inv",1,
 lag,Anmälda bostadsinbrott (per 100 000 inv),N07546,"Anmälda bostadsinbrott, antal/100 000 inv",1,
-lag,Invånare som känner sig trygga (%),U33779,"Brukarbedömning HVB - Brukaren känner sig trygg i boendet, andel (%)",32,"U33755: Brukarbedömning familjehem - Brukaren känner sig trygg i boendet, andel (%) | U33767: Brukarbedömning stödboende - Brukaren känner sig trygg i boendet, andel (%) | U26424: Brukarbedömning boendestöd SoL - Brukaren känner sig trygg med alla i personalen, lägeskommun, andel (%) | N28712: Brukarbedömning boendestöd SoL - Brukaren känner sig trygg med alla i personalen, kommunal regi, andel (%) | U28522: Brukarbedömning gruppbostad LSS  - Brukaren känner sig trygg med alla i personalen, lägeskommun, andel (%)"
-bostad,Kommunen bedömer att det råder bostadsbrist (ja=1),,,0,
-bostad,Trångbodda (%),N07907,"Trångboddhet i flerbostadshus, enligt norm 2, andel (%)",2,"N07914: Trångboddhet i flerbostadshus, enligt norm 3, andel (%)"
-bostad,Påbörjade bostäder (per 1 000 inv),,,0,
-ekonomi,Kommunens resultat (% av skatt och bidrag),N03107,"Resultat före extraordinära poster kommunen, kr/inv",7,"N03111: Resultat före extraordinära poster kommunkoncern, kr/inv | N03033: Resultat före extraordinära poster (kommunkoncern), andel (%) av skatt & generella statsbidrag | N63005: Resultat före extraordinära poster, regionen, kr/inv | N63003: Resultat före extraordinära poster, regionkoncern, kr/inv | N63004: Resultat före extraordinära poster som andel av nettokostnader, regionen (%)"
+lag,"Otrygga vid utevistelse sen kväll i eget område, NTU (%)",N07609,"NTU - Otrygghet vid utomhusvistelse sen kväll i det egna bostadsområdet, andel (%)",1,
+bostad,"Bostadsmarknadsläget enligt kommunen (0=underskott, 1=balans, 2=överskott)",U30446,"Bostadsmarknadsläge i kommunen totalt, (Överskott=2, Balans=1, Underskott=0)",1,
+bostad,"Trångbodda i flerbostadshus, norm 2 (%)",N07907,"Trångboddhet i flerbostadshus, enligt norm 2, andel (%)",1,
+ekonomi,Kommunens resultat före extraordinära poster (kr/inv),N03107,"Resultat före extraordinära poster kommunen, kr/inv",1,
 ekonomi,Soliditet inkl. pensionsförpliktelser (%),N03002,"Soliditet inkl pensionsåtag. kommun, (%)",4,"N03034: Soliditet inkl pensionsåtag. kommunkoncern, (%) | N63124: Soliditet inkl pensionsåtag. region, (%) | N63126: Soliditet inkl pensionsåtag. regionkoncern, (%)"
-ekonomi,Kommunalekonomisk utjämning (kr/inv),,,0,
-klimat,"Elbilar och laddhybrider, andel av nyregistrerade (%)",,,0,
-klimat,Andel förnybara drivmedel i kommunens fordon (%),U07488,"Förnybara drivmedel för insamling av mat- och restavfall, andel (%)",2,"U60496: Förnybara drivmedel i kollektivtrafiken, andel (%)"
-miljo,Hushållsavfall (kg/inv),,,0,
+ekonomi,Kommunalekonomisk utjämning (kr/inv),N00005,"Utjämningssystemet enl resultaträkning, kr/inv",1,
+klimat,"Elbilar, andel av personbilarna i trafik (%)",N07945,"Elbilar, andel (%)",1,
+miljo,Insamlat mat- och restavfall (kg/inv),U07482,"Insamlat mat- och restavfall, kg/invånare (justerat)",1,
 miljo,Insamlat matavfall (%),U07480,"Insamlat matavfall som går till biologisk återvinning inkl. hemkompostering, andel (%)",2,"U07481: Insamlat matavfall som behandlas biologiskt så att både växtnäring och energi tas tillvara (endast rötning), andel (%)"
-energi,Elanvändning per invånare (MWh),,,0,
-demokrati,Valdeltagande i kommunval (%),N05400,"Valdeltagande i minst ett av valen till riksdag, regionfullmäktige eller kommunfullmäktige,  andel (%)",3,"N05831: Valdeltagande i det valdistrikt som hade lägst andel röstande i senaste kommunvalet, andel (%) | N05833: Valdeltagande i det valdistrikt som hade högst andel röstande i senaste kommunvalet, andel (%)"
+energi,Slutanvändning av el (MWh/inv),N45906,"Slutanvändning av el inom det geografiska området, MWh/inv",1,
+demokrati,Valdeltagande i minst ett av de allmänna valen (%),N05400,"Valdeltagande i minst ett av valen till riksdag, regionfullmäktige eller kommunfullmäktige,  andel (%)",1,
 jamstalldhet,Kvinnor i kommunfullmäktige (%),N05815,"Kvinnor i kommunfullmäktige, andel (%)",1,
-jamstalldhet,"Sjukpenningtal, skillnad kvinnor och män",,,0,
-pension,Invånare 65+ med garantipension/bostadstillägg (%),,,0,
