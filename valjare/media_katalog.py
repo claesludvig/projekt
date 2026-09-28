@@ -111,6 +111,7 @@ KONTON_EXTRA = [
     ("KD", "partiledare", "TikTok", "buschebba"),
     ("V", "partiledare", "TikTok", "nooshidadgostar"),
     ("L", "partiledare", "TikTok", "smohamsson"),
+    ("KD", "parti", "Facebook", "kristdemokraterna"),
 ]
 
 # Wikidata-egenskaper med kontonamn per plattform

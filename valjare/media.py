@@ -250,6 +250,56 @@ def som_fortroende(kall_dir: Path) -> pd.DataFrame:
     return d.drop_duplicates(["institution", "grupp", "ar"]) if len(d) else d
 
 
+MB_TABELLER = {   # tabellrubrikens början -> kolumner (Nordicoms egna namn)
+    "sociala medier": ["Sociala medier totalt", "Instagram", "Facebook", "Snapchat", "TikTok", "LinkedIn", "Reddit"],
+    "rörlig bild": ["Rörlig bild totalt", "Strömmad tv", "Tablålagd tv", "YouTube"],
+}
+MB_NAMN = {"Tiktok": "TikTok", "Linkedin": "LinkedIn", "Youtube": "YouTube"}
+
+
+def mediebarometern(kall_dir: Path) -> pd.DataFrame:
+    """Nordicom, Mediebarometern 2025: daglig räckvidd per plattform efter kön och ålder (tabellerna
+    "<kategori> Daglig räckvidd, 9–85 år, 2025 (procent)") och förändringen mot året före för alla plattformar
+    (stapeldiagrammet med procentenheter, där även X och Threads finns). Kolumner: plattform, grupp, andel,
+    forandring (bara för grupp "Totalt")."""
+    f = kall_dir / "txt" / "mediebarometern_2025.txt"
+    if not f.exists():
+        return pd.DataFrame()
+    rader = f.read_text(encoding="utf-8").splitlines()
+    ut = []
+    for i, rad in enumerate(rader):
+        for kat, kol in MB_TABELLER.items():
+            if re.match(rf"\s*{kat}\s+Daglig räckvidd, 9–85 år, 2025 \(procent\)\s*$", rad, re.I):
+                for r in rader[i + 1:i + 30]:
+                    if r.strip().startswith("Mediebarometern"):
+                        break
+                    m = re.match(r"\s*(Totalt|Kvinna|Man|\d+–\d+ år)\s+([\d\s]+)$", r)
+                    if m and len(m[2].split()) == len(kol):
+                        ut += [{"plattform": k, "grupp": m[1], "andel": int(v)} for k, v in zip(kol, m[2].split())]
+            if re.match(rf"\s*{kat}\s+Daglig räckvidd, 9–85 år, 2025 \(procent samt förändring", rad, re.I):
+                for r in rader[i + 1:i + 40]:
+                    if r.strip().startswith("Mediebarometern"):
+                        break
+                    m = re.match(r"\s*([A-Za-zÅÄÖåäö ]+?)\s+(\d+)\s+([+-−±]\d+)\s*$", r)
+                    if m:
+                        ut.append({"plattform": MB_NAMN.get(m[1], m[1]), "grupp": "förändring",
+                                   "andel": int(m[3].replace("±", "").replace("−", "-"))})
+                        ut.append({"plattform": MB_NAMN.get(m[1], m[1]), "grupp": "Totalt_diagram", "andel": int(m[2])})
+    d = pd.DataFrame(ut)
+    if d.empty:
+        return d
+    d = d.drop_duplicates(["plattform", "grupp"])
+    ch = d[d.grupp == "förändring"].set_index("plattform").andel
+    tot = d[d.grupp == "Totalt_diagram"].set_index("plattform").andel
+    # Plattformar som bara finns i diagrammet (X, Threads, Annat) får sin totalsiffra därifrån
+    extra = [{"plattform": p, "grupp": "Totalt", "andel": int(v)} for p, v in tot.items()
+             if not ((d.plattform == p) & (d.grupp == "Totalt")).any()]
+    d = pd.concat([d[~d.grupp.isin(["förändring", "Totalt_diagram"])], pd.DataFrame(extra)], ignore_index=True)
+    d["forandring"] = [ch.get(p) if g == "Totalt" else None for p, g in zip(d.plattform, d.grupp)]
+    d["plattform"] = d.plattform.replace({"Sociala medier totalt": "Sociala medier (totalt)"})
+    return d
+
+
 def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.DataFrame]:
     mapp = data_dir / "media"
     fl, nu = foljare(mapp)
@@ -268,4 +318,5 @@ def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.
             "media_sakfragor": sakfragor(mapp, ledare),
             "media_rd_aktivitet": rd_aktivitet(data_dir / "riksdagen", ledamoter),
             "som_fortroende": som_fortroende(data_dir / "kallor"),
+            "mediebarometern": mediebarometern(data_dir / "kallor"),
             "media_ledare": pd.DataFrame([{"parti": p, "namn": n} for p, n in ledare.items()])}

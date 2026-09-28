@@ -969,6 +969,17 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
     ut["mediebarometern"] = MEDIEBAROMETERN
     ut["politiknyheter_alder"] = POLITIKNYHETER_ALDER
     ut["forskning_media"] = FORSKNING
+    mb = t.get("mediebarometern", pd.DataFrame())
+    if len(mb):
+        grupper = ["Totalt", "9–14 år", "15–24 år", "25–44 år", "45–64 år", "65–85 år", "Kvinna", "Man"]
+        ordning = ["Sociala medier (totalt)", "YouTube", "Instagram", "Facebook", "Snapchat", "TikTok", "LinkedIn",
+                   "Reddit", "X", "Threads"]
+        ut["mb_plattformar"] = {"grupper": grupper, "ar": 2025,
+                                "v": {p: [None if pd.isna(x) else int(x) for x in d.set_index("grupp").andel.reindex(grupper)]
+                                      for p, d in mb.groupby("plattform") if p in ordning},
+                                "forandring": {r.plattform: int(r.forandring) for r in mb.itertuples()
+                                               if r.grupp == "Totalt" and pd.notna(r.forandring) and r.plattform in ordning},
+                                "ordning": [p for p in ordning if p in set(mb.plattform)]}
     sf = t.get("som_fortroende", pd.DataFrame())
     if len(sf):
         m = sf[sf.institution.isin(["radio och tv", "dagspressen"])]

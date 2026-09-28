@@ -89,10 +89,16 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
   från Claude-miljön; CI hämtar den. Tolka sedan räckvidd per plattform och ålder ur
   `data/kallor/txt/mediebarometern_2025.txt`.
 
+## Mediebarometern per plattform (natt 28–29/9)
+
+- CI hämtade hela rapporten (DiVA). `media.mediebarometern` tolkar `data/kallor/txt/mediebarometern_2025.txt`:
+  daglig räckvidd per plattform efter kön och ålder (sociala medier, s. 87–90; YouTube ur tabellen för rörlig
+  bild) och förändringen mot 2024 (X och Threads bara som totaler). Tabell `mediebarometern`, webbnyckel
+  `mb_plattformar`. Sidan: tabell i "Var finns publiken?" och en mening per plattform i följarnoten.
+- Facebook fungerade från GitHub (13 konton mätta 28/9); från Claude-miljön blockeras det.
+
 ## Nästa steg
 
-1. Mediebarometerns fullständiga rapport (DiVA diva2:2056759, FULLTEXT05.pdf) har räckvidd per plattform och
-   ålder; lägg in den i `kallor.DOKUMENT` och tolka den i CI, där DiVA går att nå.
 2. SOM: förtroende för medier efter partisympati skulle koppla medieanvändningen till partierna.
 3. GDELT är struken (28/9): tomma svar för svenskspråkiga artiklar och hård begränsning av antalet frågor.
 
