@@ -1,0 +1,52 @@
+parti,roll,qid,namn,plattform,konto,datum,foljare,rang
+S,parti,Q105112,Socialdemokraterna,X,3801501,2021-01-05,98847.0,normal
+S,parti,Q105112,Socialdemokraterna,X,3801501,2020-04-24,92521.0,normal
+S,parti,Q105112,Socialdemokraterna,X,3801501,2022-02-20,109041.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2022-06-29,9260.0,normal
+S,parti,Q105112,Socialdemokraterna,X,3801501,2023-02-04,114541.0,preferred
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2023-02-17,12000.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2023-05-31,13400.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2024-01-14,16400.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2024-06-02,18100.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-05-11,21500.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-08-24,35100.0,normal
+S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-10-04,39100.0,preferred
+S,partiledare,Q4935873,Magdalena Andersson,X,499854916,2021-01-01,2810.0,preferred
+S,partiledare,Q4935873,Magdalena Andersson,X,499854916,2020-06-16,2733.0,normal
+M,parti,Q110843,Moderaterna,X,1113732522842710016,2018-05-10,96655.0,normal
+SD,parti,Q504069,Sverigedemokraterna,X,97878686,2021-01-10,92933.0,normal
+SD,parti,Q504069,Sverigedemokraterna,X,97878686,2018-05-10,61805.0,normal
+SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2021-11-17,57800.0,normal
+SD,parti,Q504069,Sverigedemokraterna,X,97878686,2022-02-25,103926.0,normal
+SD,parti,Q504069,Sverigedemokraterna,X,97878686,2023-02-03,134851.0,preferred
+SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2023-02-17,77400.0,normal
+SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2024-01-15,87100.0,normal
+SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2025-02-01,95200.0,preferred
+SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2021-01-07,103722.0,normal
+SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2020-04-21,93618.0,normal
+SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2022-03-01,119271.0,normal
+SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2023-02-10,155960.0,preferred
+C,parti,Q110832,Centerpartiet,X,3796501,2021-01-10,62750.0,normal
+C,parti,Q110832,Centerpartiet,X,3796501,2022-02-27,67171.0,normal
+C,parti,Q110832,Centerpartiet,X,3796501,2023-02-03,72487.0,preferred
+V,parti,Q110837,Vänsterpartiet,X,17233550,2021-01-08,80673.0,normal
+V,parti,Q110837,Vänsterpartiet,X,17233550,2020-04-24,75154.0,normal
+V,parti,Q110837,Vänsterpartiet,X,17233550,2022-02-21,88768.0,normal
+V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2022-11-02,5030.0,normal
+V,parti,Q110837,Vänsterpartiet,X,17233550,2023-02-03,98800.0,preferred
+V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2024-01-13,5620.0,normal
+V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2025-02-01,5900.0,preferred
+V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2021-01-03,24515.0,normal
+V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2020-04-22,9988.0,normal
+V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2022-02-24,49261.0,normal
+V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2023-02-04,72257.0,preferred
+L,parti,Q110857,Liberalerna,X,18687011,2021-01-04,76639.0,normal
+L,parti,Q110857,Liberalerna,X,18687011,2020-04-22,74302.0,normal
+L,parti,Q110857,Liberalerna,X,18687011,2022-02-21,81141.0,normal
+L,parti,Q110857,Liberalerna,X,18687011,2023-02-05,89021.0,preferred
+MP,parti,Q213451,Miljöpartiet,X,18124359,2021-01-04,92191.0,normal
+MP,parti,Q213451,Miljöpartiet,X,18124359,2018-05-10,81902.0,normal
+MP,parti,Q213451,Miljöpartiet,X,18124359,2022-03-01,96533.0,normal
+MP,parti,Q213451,Miljöpartiet,X,18124359,2023-02-10,102427.0,preferred
+MP,partiledare,Q24018140,Amanda Lind,X,370900852,2021-01-07,6148.0,preferred
+MP,partiledare,Q24018140,Amanda Lind,X,370900852,2018-05-10,1372.0,normal

@@ -120,3 +120,11 @@ def test_valkrets_viktning():
     d = pd.DataFrame({"kommunkod": ["0001", "0002", "0003"], "ar": 2024, "varde": [10.0, 20.0, 5.0]})
     ut = valkrets._vagt(d, kar, w, summa=False).set_index("valkrets_kod").varde
     assert ut["01"] == pytest.approx(17.5) and ut["02"] == 5.0
+
+
+def test_klassning_mot_handkodat_facit():
+    """Regressionsskydd: klassningen får inte bli sämre än mätningen i granskning/KLASSNING.md."""
+    for fil, grans in (("klassning_facit.csv", 0.9), ("klassning_facit_test.csv", 0.8)):
+        f = pd.read_csv(BAS / "granskning" / fil, dtype=str).fillna("")
+        tot = riksdag.utvardera(f).iloc[-1]
+        assert tot.f1 >= grans, (fil, tot.f1)

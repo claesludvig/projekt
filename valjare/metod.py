@@ -49,7 +49,8 @@ EVIDENS = [
     ("riksdag", "Politikens svar", "beskrivande",
      "Vad riksdagen har beslutat i varje sakfråga, hur partierna röstade och vad opinionen tycker om förslag i samma sak.",
      "Om besluten orsakade utvecklingen eller om de gick i opinionens riktning; kopplingen mellan förslag, "
-     "beslut och sakfråga bygger på ord i rubriken och på utskottet och kan både missa och felklassa ärenden. "
+     "beslut och sakfråga bygger på ord i rubriken och på utskottet; prövad mot 100 handkodade propositioner "
+     "får 77 % exakt rätt sakfrågor, så enskilda ärenden kan saknas eller vara felklassade. "
      "SOM-värdena är andelen som tycker att förslaget är bra, inte en majoritetsomröstning."),
     ("omraden", "Områdena", "beskrivande",
      "Utveckling, kapacitet och mål per område i Sverige, jämfört med de nordiska grannländerna och EU-snittet.",

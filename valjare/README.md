@@ -81,7 +81,7 @@ Riktning och målnivå anges bara där riksdagen, lagen, Riksbanken eller ett in
 - `valdistrikt_2026`, `valdistrikt_tiondel`, `valdistrikt_samband`
 - `polisen_manad`, `kpi_manad`, `fraga_betydelse`, `fraga_rang_parti`, `bast_politik`, `som_samhallsproblem`
 - `test_bilar`, `test_skjutningar`
-- `verklighet`, `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogen i `verklighet_katalog.py`)
+- `verklighet` (riket, regioner, polisregioner), `verklighet_kommunvarden` + `verklighet_indikator` (kommunvärden, kompakt), `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogerna i `verklighet_katalog.py` och `indikatorer_katalog.py`)
 - `valkrets`, `valkrets_kommun`, `valresultat_valkrets`, `valkrets_indikator`, `valkrets_oversikt`
 - `lagesbild`, `lagesbild_serie`
 - `riksdag_dokument`, `riksdag_beslut`, `riksdag_aktivitet`, `riksdag_samstammighet`,
@@ -123,6 +123,13 @@ gruppindelningar redovisas var för sig.
 - `licenser.py` och `granskning/LICENSER.md` anger villkoren per källa. Tabellerna från Valu och
   Valforskningsprogrammet bör stämmas av innan sidan sprids; utkast till förfrågningar finns i
   `granskning/`.
+
+## Grenar och schema
+
+Utvecklingen sker på `claude/voter-database-demographics-r9y5la`. Efter varje lyckad körning där
+slås grenen automatiskt ihop med `main` (`.github/scripts/valjare_sla_ihop.sh`), eftersom GitHub
+bara kör schemalagda arbetsflöden från standardgrenen. Nyhetsartiklarna samlas på båda grenarna
+och slås ihop i stället för att skrivas över.
 
 ## Köra
 

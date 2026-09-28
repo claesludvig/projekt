@@ -1,0 +1,404 @@
+
+===== flik: Information om statistiken (37x1) =====
+                                          0
+0   \nInformation om tabeller över bevil...
+1                  Det här visar tabellerna
+2   Här redovisas statistik för samtliga...
+3                                      Mått
+4                                 Antal. \n
+5                                   Period 
+6                         Innevarande år.\n
+7                                 Variabler
+8   Kön, månad, persontyp, permanenta ti...
+9                                Omfattning
+10  Statistiken omfattar permanenta och ...
+11                     Uppdateringsfrekvens
+12  Statistiken publiceras månadsvis den...
+13                              Röjanderisk
+14  Statistiken består av aggregerade da...
+15                                  Kontakt
+16  Har du frågor om statistiken kan du ...
+17      Migrationsverkets kontaktformuler\n
+18                 Beskrivning av variabler
+19                                      Kön
+20       Redovisas som kvinna eller man.\n 
+21                                    Månad
+22  Vilken månad under innevarande år so...
+23                                Persontyp
+24        Redovisas som vuxen eller barn.\n
+25                           Uppehållsgrund
+26  Anger på vilken grund uppehållstills...
+27                        Uppehållsgrund 1 
+28  Grund för uppehållstillstånd utifrån...
+29                         Uppehållsgrund 2
+30  Mer detaljer indelning av grund för ...
+31                     Uppehållsgrundomgång
+32  Anger om uppehållstillståndet är ett...
+33             Permanent uppehållstillstånd
+34  Ett permanent uppehållstillstånd gäl...
+35         Tidsbegränsat uppehållstillstånd
+36  Ett tidsbegränsat uppehållstillstånd...
+
+===== flik: Månad, första (46x15) =====
+                                         0                                        1        2        3        4        5        6        7        8        9        10       11       12       13      14
+0   Antal beviljade förstagångs uppehåll...                                      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN     NaN
+4   Antal beviljade förstagångs uppehåll...                                      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  2021-01  2021-02  2021-03  2021-04  2021-05  2021-06  2021-07  2021-08  2021-09  2021-10  2021-11  2021-12  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund      248      245      330      312      310      292       ..       ..       ..      253      218      224    3091
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...        0        0        0        0        0        0       ..        0       ..       12       26       10      59
+8                                       NaN     Övriga uppehållsgrunder för anhöriga     1862     2221     2326     1807     1834     2157     1426       ..       ..     1417     1688     1437   19897
+9                                       NaN                                   Totalt     2110     2466     2656     2119     2144     2449     1605      794     1419     1682     1932     1671   23047
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad      938      863     1097     1047     1120     1239     1075     1157     1446     1349     1442     1391   14164
+11                                      NaN                             Arbetstagare     1067     1586     1612     1325     1365     5706     2138     1251     1423     1377     1548     1410   21808
+12                                      NaN                          Egen företagare       14       19       ..       ..       15       11       ..       ..        9       ..       17       ..     138
+13                                      NaN                          Forskare (alla)       45       71       73      103      124       98       99      119      153       89      100       99    1173
+14                                      NaN  Internationellt utbyte (Artist,Aupai...      116      108      100      115      178      142      124       ..      121      161       ..      118    1417
+15                                      NaN     Professionell idrottsutövare/tränare       59       47       38       22       13       29       ..      122       65       26       ..       34     558
+16                                      NaN      Söka arbete eller starta verksamhet        0        0        0        0        0        0        0        0        0        0        0        0       0
+17                                      NaN                                 Volontär        0        0       ..       ..        0        0        0        0        0       ..       ..       ..      11
+18                                      NaN                                   Totalt     2239     2694     2933     2624     2815     7225     3530     2722     3217     3021     3185     3064   39269
+19                                   EU/EES  Anhörig till varaktigt bosatt i anna...      150      188      221      197      209      184       81       87      190      195      320      238    2260
+20                                      NaN  Anhörig tredjelandsmedborgare till E...      150      175      161      146      180      159       83       96      141      169      127      118    1705
+21                                      NaN                                  Schweiz       14       35       42       24       23       46       44       31       47       60       36       26     428
+22                                      NaN  Uppehållsrätt/Uppehållstillstånd för...       59       73      107       93      121      108       56       69       74      146      135       87    1128
+23                                      NaN         Varaktigt bosatt i annat EU-land       93      100      109       91      106       82       72       72      145      145      116      122    1253
+24                                      NaN                                   Totalt      466      571      640      551      639      579      336      355      597      715      734      591    6774
+25                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...       48       83      100       46       55       43       28       ..       38       73       62       ..     676
+26                                      NaN       Konventionsflykting (4 KAP 1 UTLL)      346      371      474      320      248      280      162      117      191      238      284      366    3397
+27                                      NaN          Massflyktsdirektivet 2001/55/EG        0        0        0        0        0        0        0        0        0        0        0        0       0
+28                                      NaN  Särskilt och synnerligen ömmande oms...       24       ..       17       27       31       34       ..       ..       66       59       48       88     451
+29                                      NaN                  Vidarebosättning (Kvot)      125       80      277      508      571      920      404      945      869      961      511      532    6703
+30                                      NaN        Övriga uppehållsgrunder för skydd        6       ..       20       24       17       48       ..        0        0        0        0       ..     152
+31                                      NaN                                   Totalt      549      583      888      925      922     1325      615     1102     1164     1331      905     1070   11379
+32                                  Studier                  Anhörig till studerande      101       95      141       55       98      345      650      709      300      127      151      222    2994
+33                                      NaN                    Arbetssökande student       80       99       92       37       ..       56       ..       36       44      128      183      141     989
+34                                      NaN                                Doktorand       ..       43       65       53       46       ..      110      104      108       74       65       51     814
+35                                      NaN                         Högre utbildning      118       62       ..       ..      363     1188     2384     1795      307       74      312     1092    7718
+36                                      NaN                Studerande övriga studier       ..       24       15       13       27       53       89      104       58       ..       42       ..     483
+37                                      NaN                        Studier mobilitet       ..       ..        0       ..       ..       83      164      124       15       ..       15       86     527
+38                                      NaN  Uppdrags- eller specialiseringsutbil...        0       ..       ..       ..        0       ..       ..        0        0        0        0       ..       7
+39                                      NaN                                   Totalt      363      332      324      177      553     1779     3474     2872      832      443      768     1615   13532
+40                    Verkställighetshinder                Humanitär/Medicinsk grund       ..        0        0       ..       ..        0        0        0        0        0        0       ..       7
+41                                      NaN               Mottagarlandet tar ej emot       ..       ..       11       ..       ..        0        0        0        0       ..       ..        0      24
+42                                      NaN        Tillsvidare verkställighetshinder       ..       ..        8        9        9       18       ..       ..        7       ..       ..       ..     103
+43                                      NaN  Verkställighetshinder annan särskild...       42       49       59       55       67       63       ..       ..       50       48       45       33     548
+44                                      NaN                                   Totalt       51       60       78       67       78       81       28       17       57       64       56       45     682
+45                                   Totalt                                   Totalt     5778     6706     7519     6463     7151    13438     9588     7862     7286     7256     7580     8056   94683
+
+===== flik: Månad, förlängning (45x15) =====
+                                         0                                        1        2        3        4        5        6        7        8        9        10       11       12       13      14
+0   Antal beviljade förlängningar av upp...                                      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN     NaN
+4   Antal beviljade förlängningar av upp...                                      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN      NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  2021-01  2021-02  2021-03  2021-04  2021-05  2021-06  2021-07  2021-08  2021-09  2021-10  2021-11  2021-12  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund      132      230      239      190      242      261      130       54      129      250      277      353    2487
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...        0        0        0        0        0        0        0        0        0        0        0        0       0
+8                                       NaN     Övriga uppehållsgrunder för anhöriga      745      887      982      584      589      617      560      296      447      523      659      402    7291
+9                                       NaN                                   Totalt      877     1117     1221      774      831      878      690      350      576      773      936      755    9778
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad      843      985     1139      888     1022     1224      665      601      749      825      875      600   10416
+11                                      NaN                             Arbetstagare     1065     1241     1435     1130     1318     1534      884      771     1098     1209     1322      987   13994
+12                                      NaN                          Egen företagare        8       10       12        7       ..        7       ..        0       ..       ..       ..        0      58
+13                                      NaN                          Forskare (alla)       70       76       82       95      122       88       87       79       89       66      101       91    1046
+14                                      NaN  Internationellt utbyte (Artist,Aupai...       22       ..       18       11       22       19       14       11        9       31       ..        8     176
+15                                      NaN     Professionell idrottsutövare/tränare       17       ..       33       19       ..       10       ..       13       ..       ..       15       19     149
+16                                      NaN                                 Volontär        0        0        0        0        0        0        0        0        0        0        0        0       0
+17                                      NaN                                   Totalt     2025     2327     2719     2150     2493     2882     1658     1475     1949     2136     2320     1705   25839
+18                                   EU/EES  Anhörig till varaktigt bosatt i anna...       35       ..       30       ..       ..       25       52       ..       27       ..       84       44     406
+19                                      NaN  Anhörig tredjelandsmedborgare till E...       36       54       50       52       35       84       ..       39       56       73       ..       ..     606
+20                                      NaN                                  Schweiz        7       ..       ..       ..       ..       20       ..       ..        9       ..       ..       ..      60
+21                                      NaN  Uppehållsrätt/Uppehållstillstånd för...        0        0        0        0        0        0        0        0        0        0        0        0       0
+22                                      NaN         Varaktigt bosatt i annat EU-land       28       32       ..       23       24       34       55       ..       36       42       73       53     440
+23                                      NaN                                   Totalt      106      115      115       92       82      163      145       57      128      157      215      137    1512
+24                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...      293      523      548      548      778      565      326      264      850     1097     1338     1191    8321
+25                                      NaN       Konventionsflykting (4 KAP 1 UTLL)      423      768      870      982     1329     1012      568      468     1261     1311     1448     1071   11511
+26                                      NaN          Massflyktsdirektivet 2001/55/EG        0        0        0        0        0        0        0        0        0        0        0        0       0
+27                                      NaN  Särskilt och synnerligen ömmande oms...        9       ..       ..       20       ..       29       11       ..       39       91       68       76     370
+28                                      NaN                  Vidarebosättning (Kvot)        0        0       ..        0       ..        0        0        0        0        0        0        0      11
+29                                      NaN        Övriga uppehållsgrunder för skydd      235       ..      276      315      310      283      226       ..      301      372      319      313    3423
+30                                      NaN                                   Totalt      960     1620     1705     1865     2430     1889     1131      890     2451     2871     3173     2651   23636
+31                                  Studier                  Anhörig till studerande       79       62       65       39       34       42       18       22       14       95      109       89     668
+32                                      NaN                    Arbetssökande student       ..        0        0        0       ..        0        0        0        0       ..       ..        0      ..
+33                                      NaN                                Doktorand       97      131      176      121       73       77       75       ..       ..       77      163      114    1146
+34                                      NaN                         Högre utbildning       89       94       63      165      163       86       61       23       69      319      537      198    1867
+35                                      NaN                Studerande övriga studier       ..       ..       ..       ..        0        7       ..        0       14       ..       ..       ..      45
+36                                      NaN                        Studier mobilitet        0       ..        0       ..        6        6       ..       ..       ..        8        0       ..      ..
+37                                      NaN  Uppdrags- eller specialiseringsutbil...        0       ..       ..        6       ..        9       ..        0       ..       ..        6       10      52
+38                                      NaN                                   Totalt      269      296      316      335      281      227      161       53      135      505      821      414    3813
+39                    Verkställighetshinder                Humanitär/Medicinsk grund        0        0        0        0        0        0       ..        0       ..       ..        0        0      ..
+40                                      NaN               Mottagarlandet tar ej emot        0        0        0        0        0        0        0        0        0        0        0        0       0
+41                                      NaN        Tillsvidare verkställighetshinder       ..       ..       ..       21       ..       18        9       ..       31       ..       37       16     263
+42                                      NaN  Verkställighetshinder annan särskild...       ..       ..       ..        0       ..        0       ..        0       ..        0        0        0      ..
+43                                      NaN                                   Totalt       ..       21       41       21       24       18       12       ..       33       41       37       16     275
+44                                   Totalt                                   Totalt     4244     5496     6117     5237     6141     6057     3797     2829     5272     6483     7502     5678   64853
+
+===== flik: Kön, första (46x5) =====
+                                          0                                        1       2      3       4
+0   Antal beviljade förstagångs uppehåll...                                      NaN     NaN    NaN     NaN
+4   Antal beviljade förstagångs uppehåll...                                      NaN     NaN    NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  Kvinna    Man  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund    1910   1181    3091
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...      30     29      59
+8                                       NaN     Övriga uppehållsgrunder för anhöriga   12217   7680   19897
+9                                       NaN                                   Totalt   14157   8890   23047
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad    9200   4964   14164
+11                                      NaN                             Arbetstagare    4447  17361   21808
+12                                      NaN                          Egen företagare      ..     ..     138
+13                                      NaN                          Forskare (alla)     419    754    1173
+14                                      NaN  Internationellt utbyte (Artist,Aupai...     801    616    1417
+15                                      NaN     Professionell idrottsutövare/tränare     167    391     558
+16                                      NaN      Söka arbete eller starta verksamhet       0      0       0
+17                                      NaN                                 Volontär      ..     ..      11
+18                                      NaN                                   Totalt   15079  24190   39269
+19                                   EU/EES  Anhörig till varaktigt bosatt i anna...    1376    884    2260
+20                                      NaN  Anhörig tredjelandsmedborgare till E...    1002    703    1705
+21                                      NaN                                  Schweiz     232    196     428
+22                                      NaN  Uppehållsrätt/Uppehållstillstånd för...     533    595    1128
+23                                      NaN         Varaktigt bosatt i annat EU-land     123   1130    1253
+24                                      NaN                                   Totalt    3266   3508    6774
+25                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...     327    349     676
+26                                      NaN       Konventionsflykting (4 KAP 1 UTLL)    1491   1906    3397
+27                                      NaN          Massflyktsdirektivet 2001/55/EG       0      0       0
+28                                      NaN  Särskilt och synnerligen ömmande oms...     229    222     451
+29                                      NaN                  Vidarebosättning (Kvot)    3243   3460    6703
+30                                      NaN        Övriga uppehållsgrunder för skydd      83     69     152
+31                                      NaN                                   Totalt    5373   6006   11379
+32                                  Studier                  Anhörig till studerande    1380   1614    2994
+33                                      NaN                    Arbetssökande student     394    595     989
+34                                      NaN                                Doktorand     347    467     814
+35                                      NaN                         Högre utbildning    3678   4040    7718
+36                                      NaN                Studerande övriga studier      ..     ..     483
+37                                      NaN                        Studier mobilitet      ..     ..     527
+38                                      NaN  Uppdrags- eller specialiseringsutbil...      ..     ..       7
+39                                      NaN                                   Totalt    6330   7202   13532
+40                    Verkställighetshinder                Humanitär/Medicinsk grund      ..     ..       7
+41                                      NaN               Mottagarlandet tar ej emot      ..     ..      24
+42                                      NaN        Tillsvidare verkställighetshinder      19     84     103
+43                                      NaN  Verkställighetshinder annan särskild...     259    289     548
+44                                      NaN                                   Totalt     291    391     682
+45                                   Totalt                                   Totalt   44496  50187   94683
+
+===== flik: Kön, förlängning (45x5) =====
+                                          0                                        1       2      3       4
+0   Antal beviljade förlängningar av upp...                                      NaN     NaN    NaN     NaN
+4   Antal beviljade förlängningar av upp...                                      NaN     NaN    NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  Kvinna    Man  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund    1563    924    2487
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...       0      0       0
+8                                       NaN     Övriga uppehållsgrunder för anhöriga    4976   2315    7291
+9                                       NaN                                   Totalt    6539   3239    9778
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad    6752   3664   10416
+11                                      NaN                             Arbetstagare    3317  10677   13994
+12                                      NaN                          Egen företagare      15     43      58
+13                                      NaN                          Forskare (alla)     379    667    1046
+14                                      NaN  Internationellt utbyte (Artist,Aupai...      69    107     176
+15                                      NaN     Professionell idrottsutövare/tränare      14    135     149
+16                                      NaN                                 Volontär       0      0       0
+17                                      NaN                                   Totalt   10546  15293   25839
+18                                   EU/EES  Anhörig till varaktigt bosatt i anna...     271    135     406
+19                                      NaN  Anhörig tredjelandsmedborgare till E...     338    268     606
+20                                      NaN                                  Schweiz      28     32      60
+21                                      NaN  Uppehållsrätt/Uppehållstillstånd för...       0      0       0
+22                                      NaN         Varaktigt bosatt i annat EU-land      67    373     440
+23                                      NaN                                   Totalt     704    808    1512
+24                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...    4138   4183    8321
+25                                      NaN       Konventionsflykting (4 KAP 1 UTLL)    3588   7923   11511
+26                                      NaN          Massflyktsdirektivet 2001/55/EG       0      0       0
+27                                      NaN  Särskilt och synnerligen ömmande oms...      ..     ..     370
+28                                      NaN                  Vidarebosättning (Kvot)      ..     ..      11
+29                                      NaN        Övriga uppehållsgrunder för skydd     152   3271    3423
+30                                      NaN                                   Totalt    8071  15565   23636
+31                                  Studier                  Anhörig till studerande     359    309     668
+32                                      NaN                    Arbetssökande student      ..     ..      ..
+33                                      NaN                                Doktorand     484    662    1146
+34                                      NaN                         Högre utbildning     751   1116    1867
+35                                      NaN                Studerande övriga studier      26     19      45
+36                                      NaN                        Studier mobilitet      ..     ..      ..
+37                                      NaN  Uppdrags- eller specialiseringsutbil...      18     34      52
+38                                      NaN                                   Totalt    1655   2158    3813
+39                    Verkställighetshinder                Humanitär/Medicinsk grund      ..     ..      ..
+40                                      NaN               Mottagarlandet tar ej emot       0      0       0
+41                                      NaN        Tillsvidare verkställighetshinder      33    230     263
+42                                      NaN  Verkställighetshinder annan särskild...      ..     ..      ..
+43                                      NaN                                   Totalt      42    233     275
+44                                   Totalt                                   Totalt   27557  37296   64853
+
+===== flik: Persontyp, första (46x5) =====
+                                          0                                        1      2      3       4
+0   Antal beviljade förstagångs uppehåll...                                      NaN    NaN    NaN     NaN
+4   Antal beviljade förstagångs uppehåll...                                      NaN    NaN    NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  Vuxen   Barn  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund   1356   1735    3091
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...     13     46      59
+8                                       NaN     Övriga uppehållsgrunder för anhöriga  11042   8855   19897
+9                                       NaN                                   Totalt  12411  10636   23047
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad   6774   7390   14164
+11                                      NaN                             Arbetstagare     ..     ..   21808
+12                                      NaN                          Egen företagare    138      0     138
+13                                      NaN                          Forskare (alla)     ..     ..    1173
+14                                      NaN  Internationellt utbyte (Artist,Aupai...   1406     11    1417
+15                                      NaN     Professionell idrottsutövare/tränare    558      0     558
+16                                      NaN      Söka arbete eller starta verksamhet      0      0       0
+17                                      NaN                                 Volontär     11      0      11
+18                                      NaN                                   Totalt  31858   7411   39269
+19                                   EU/EES  Anhörig till varaktigt bosatt i anna...    859   1401    2260
+20                                      NaN  Anhörig tredjelandsmedborgare till E...   1433    272    1705
+21                                      NaN                                  Schweiz     ..     ..     428
+22                                      NaN  Uppehållsrätt/Uppehållstillstånd för...    995    133    1128
+23                                      NaN         Varaktigt bosatt i annat EU-land     ..     ..    1253
+24                                      NaN                                   Totalt   4915   1859    6774
+25                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...    369    307     676
+26                                      NaN       Konventionsflykting (4 KAP 1 UTLL)   2437    960    3397
+27                                      NaN          Massflyktsdirektivet 2001/55/EG      0      0       0
+28                                      NaN  Särskilt och synnerligen ömmande oms...    227    224     451
+29                                      NaN                  Vidarebosättning (Kvot)   3379   3324    6703
+30                                      NaN        Övriga uppehållsgrunder för skydd     82     70     152
+31                                      NaN                                   Totalt   6494   4885   11379
+32                                  Studier                  Anhörig till studerande   1634   1360    2994
+33                                      NaN                    Arbetssökande student    989      0     989
+34                                      NaN                                Doktorand    814      0     814
+35                                      NaN                         Högre utbildning   7705     13    7718
+36                                      NaN                Studerande övriga studier    430     53     483
+37                                      NaN                        Studier mobilitet    527      0     527
+38                                      NaN  Uppdrags- eller specialiseringsutbil...      7      0       7
+39                                      NaN                                   Totalt  12106   1426   13532
+40                    Verkställighetshinder                Humanitär/Medicinsk grund     ..     ..       7
+41                                      NaN               Mottagarlandet tar ej emot     ..     ..      24
+42                                      NaN        Tillsvidare verkställighetshinder     93     10     103
+43                                      NaN  Verkställighetshinder annan särskild...    410    138     548
+44                                      NaN                                   Totalt    526    156     682
+45                                   Totalt                                   Totalt  68310  26373   94683
+
+===== flik: Persontyp, förlängning (45x5) =====
+                                          0                                        1      2      3       4
+0   Antal beviljade förlängningar av upp...                                      NaN    NaN    NaN     NaN
+4   Antal beviljade förlängningar av upp...                                      NaN    NaN    NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  Vuxen   Barn  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund   1339   1148    2487
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...      0      0       0
+8                                       NaN     Övriga uppehållsgrunder för anhöriga   6767    524    7291
+9                                       NaN                                   Totalt   8106   1672    9778
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad   5221   5195   10416
+11                                      NaN                             Arbetstagare  13986      8   13994
+12                                      NaN                          Egen företagare     58      0      58
+13                                      NaN                          Forskare (alla)   1046      0    1046
+14                                      NaN  Internationellt utbyte (Artist,Aupai...    176      0     176
+15                                      NaN     Professionell idrottsutövare/tränare    149      0     149
+16                                      NaN                                 Volontär      0      0       0
+17                                      NaN                                   Totalt  20636   5203   25839
+18                                   EU/EES  Anhörig till varaktigt bosatt i anna...    219    187     406
+19                                      NaN  Anhörig tredjelandsmedborgare till E...    532     74     606
+20                                      NaN                                  Schweiz     53      7      60
+21                                      NaN  Uppehållsrätt/Uppehållstillstånd för...      0      0       0
+22                                      NaN         Varaktigt bosatt i annat EU-land    440      0     440
+23                                      NaN                                   Totalt   1244    268    1512
+24                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...   5599   2722    8321
+25                                      NaN       Konventionsflykting (4 KAP 1 UTLL)   9747   1764   11511
+26                                      NaN          Massflyktsdirektivet 2001/55/EG      0      0       0
+27                                      NaN  Särskilt och synnerligen ömmande oms...    231    139     370
+28                                      NaN                  Vidarebosättning (Kvot)     ..     ..      11
+29                                      NaN        Övriga uppehållsgrunder för skydd     ..     ..    3423
+30                                      NaN                                   Totalt  18941   4695   23636
+31                                  Studier                  Anhörig till studerande    391    277     668
+32                                      NaN                    Arbetssökande student     ..      0      ..
+33                                      NaN                                Doktorand   1146      0    1146
+34                                      NaN                         Högre utbildning   1867      0    1867
+35                                      NaN                Studerande övriga studier     37      8      45
+36                                      NaN                        Studier mobilitet     ..      0      ..
+37                                      NaN  Uppdrags- eller specialiseringsutbil...     52      0      52
+38                                      NaN                                   Totalt   3528    285    3813
+39                    Verkställighetshinder                Humanitär/Medicinsk grund     ..      0      ..
+40                                      NaN               Mottagarlandet tar ej emot      0      0       0
+41                                      NaN        Tillsvidare verkställighetshinder    228     35     263
+42                                      NaN  Verkställighetshinder annan särskild...     ..      0      ..
+43                                      NaN                                   Totalt    240     35     275
+44                                   Totalt                                   Totalt  52695  12158   64853
+
+===== flik: Beslutsgrupp, första (46x5) =====
+                                          0                                        1                             2                                 3       4
+0   Antal beviljade förstagångs uppehåll...                                      NaN                           NaN                               NaN     NaN
+4   Antal beviljade förstagångs uppehåll...                                      NaN                           NaN                               NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  Permanent tillstånd beviljat  Tidsbegränsat tillstånd beviljat  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund                            ..                                ..    3091
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...                            ..                                ..      59
+8                                       NaN     Övriga uppehållsgrunder för anhöriga                          9184                             10713   19897
+9                                       NaN                                   Totalt                          9648                             13399   23047
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad                            24                             14140   14164
+11                                      NaN                             Arbetstagare                            29                             21779   21808
+12                                      NaN                          Egen företagare                             0                               138     138
+13                                      NaN                          Forskare (alla)                             0                              1173    1173
+14                                      NaN  Internationellt utbyte (Artist,Aupai...                             0                              1417    1417
+15                                      NaN     Professionell idrottsutövare/tränare                             0                               558     558
+16                                      NaN      Söka arbete eller starta verksamhet                             0                                 0       0
+17                                      NaN                                 Volontär                             0                                11      11
+18                                      NaN                                   Totalt                            53                             39216   39269
+19                                   EU/EES  Anhörig till varaktigt bosatt i anna...                             0                              2260    2260
+20                                      NaN  Anhörig tredjelandsmedborgare till E...                            ..                                ..    1705
+21                                      NaN                                  Schweiz                             0                               428     428
+22                                      NaN  Uppehållsrätt/Uppehållstillstånd för...                          1122                                 6    1128
+23                                      NaN         Varaktigt bosatt i annat EU-land                            ..                                ..    1253
+24                                      NaN                                   Totalt                          1158                              5616    6774
+25                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...                            ..                                ..     676
+26                                      NaN       Konventionsflykting (4 KAP 1 UTLL)                            57                              3340    3397
+27                                      NaN          Massflyktsdirektivet 2001/55/EG                             0                                 0       0
+28                                      NaN  Särskilt och synnerligen ömmande oms...                            16                               435     451
+29                                      NaN                  Vidarebosättning (Kvot)                          6659                                44    6703
+30                                      NaN        Övriga uppehållsgrunder för skydd                            ..                                ..     152
+31                                      NaN                                   Totalt                          6741                              4638   11379
+32                                  Studier                  Anhörig till studerande                             6                              2988    2994
+33                                      NaN                    Arbetssökande student                             0                               989     989
+34                                      NaN                                Doktorand                             8                               806     814
+35                                      NaN                         Högre utbildning                             0                              7718    7718
+36                                      NaN                Studerande övriga studier                             0                               483     483
+37                                      NaN                        Studier mobilitet                             0                               527     527
+38                                      NaN  Uppdrags- eller specialiseringsutbil...                             0                                 7       7
+39                                      NaN                                   Totalt                            14                             13518   13532
+40                    Verkställighetshinder                Humanitär/Medicinsk grund                            ..                                ..       7
+41                                      NaN               Mottagarlandet tar ej emot                             0                                24      24
+42                                      NaN        Tillsvidare verkställighetshinder                             0                               103     103
+43                                      NaN  Verkställighetshinder annan särskild...                            ..                                ..     548
+44                                      NaN                                   Totalt                            ..                                ..     682
+45                                   Totalt                                   Totalt                         17618                             77065   94683
+
+===== flik: Beslutsgrupp, förlängning (45x5) =====
+                                          0                                        1                             2                                 3       4
+0   Antal beviljade förlängningar av upp...                                      NaN                           NaN                               NaN     NaN
+4   Antal beviljade förlängningar av upp...                                      NaN                           NaN                               NaN     NaN
+5                            Uppehållsgrund                         Uppehållsgrund 2  Permanent tillstånd beviljat  Tidsbegränsat tillstånd beviljat  Totalt
+6                                Anknytning         Anhörig till flykting-/asylgrund                           647                              1840    2487
+7                                       NaN  Synnerliga skäl anknytning (5 KAP 3a...                             0                                 0       0
+8                                       NaN     Övriga uppehållsgrunder för anhöriga                          4356                              2935    7291
+9                                       NaN                                   Totalt                          5003                              4775    9778
+10                            Arbetsmarknad                   Anhörig, arbetsmarknad                           377                             10039   10416
+11                                      NaN                             Arbetstagare                          3641                             10353   13994
+12                                      NaN                          Egen företagare                            49                                 9      58
+13                                      NaN                          Forskare (alla)                           144                               902    1046
+14                                      NaN  Internationellt utbyte (Artist,Aupai...                            24                               152     176
+15                                      NaN     Professionell idrottsutövare/tränare                            10                               139     149
+16                                      NaN                                 Volontär                             0                                 0       0
+17                                      NaN                                   Totalt                          4245                             21594   25839
+18                                   EU/EES  Anhörig till varaktigt bosatt i anna...                           282                               124     406
+19                                      NaN  Anhörig tredjelandsmedborgare till E...                            ..                                ..     606
+20                                      NaN                                  Schweiz                            ..                                ..      60
+21                                      NaN  Uppehållsrätt/Uppehållstillstånd för...                             0                                 0       0
+22                                      NaN         Varaktigt bosatt i annat EU-land                           372                                68     440
+23                                      NaN                                   Totalt                          1307                               205    1512
+24                                    Skydd  Alternativt skyddsbehövande (4 KAP 2...                          1570                              6751    8321
+25                                      NaN       Konventionsflykting (4 KAP 1 UTLL)                          1952                              9559   11511
+26                                      NaN          Massflyktsdirektivet 2001/55/EG                             0                                 0       0
+27                                      NaN  Särskilt och synnerligen ömmande oms...                            53                               317     370
+28                                      NaN                  Vidarebosättning (Kvot)                             0                                11      11
+29                                      NaN        Övriga uppehållsgrunder för skydd                          2086                              1337    3423
+30                                      NaN                                   Totalt                          5661                             17975   23636
+31                                  Studier                  Anhörig till studerande                            ..                                ..     668
+32                                      NaN                    Arbetssökande student                            ..                                ..      ..
+33                                      NaN                                Doktorand                           318                               828    1146
+34                                      NaN                         Högre utbildning                             6                              1861    1867
+35                                      NaN                Studerande övriga studier                             0                                45      45
+36                                      NaN                        Studier mobilitet                             0                                ..      ..
+37                                      NaN  Uppdrags- eller specialiseringsutbil...                             0                                52      52
+38                                      NaN                                   Totalt                           328                              3485    3813
+39                    Verkställighetshinder                Humanitär/Medicinsk grund                            ..                                ..      ..
+40                                      NaN               Mottagarlandet tar ej emot                             0                                 0       0
+41                                      NaN        Tillsvidare verkställighetshinder                            ..                                ..     263
+42                                      NaN  Verkställighetshinder annan särskild...                             8                                ..      ..
+43                                      NaN                                   Totalt                            10                               265     275
+44                                   Totalt                                   Totalt                         16554                             48299   64853

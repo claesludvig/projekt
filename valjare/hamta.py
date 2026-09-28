@@ -471,29 +471,85 @@ def hamta_kolada():
     ut_dir = DATA_DIR / "kolada"
     ut_dir.mkdir(parents=True, exist_ok=True)
     for kid, (fraga, namn, titel) in valda.items():
-        # Ett år i taget: varje år ryms på en sida (ca 312 områden), så sidindelningen spelar ingen roll
-        v = []
-        for a in range(2006, datetime.now().year + 1):
-            try:
-                v += _kolada_alla("data", {"kpi_id": kid, "year": a})
-            except Exception as exc:  # noqa: BLE001
-                logg["fel"].append(f"kolada data {kid} {a}: {exc}")
-        rader = []
-        for rad in v:
-            for x in rad.get("values", []):
-                if str(x.get("gender", "T")).upper() in ("T", "TOTAL", "NONE", "") and x.get("value") is not None:
-                    rader.append({"kpi": kid, "titel": titel, "fraga": fraga, "namn": namn,
-                                  "region_kod": rad.get("municipality") or rad.get("municipality_id"),
-                                  "ar": rad.get("period") or rad.get("year"), "varde": x.get("value")})
-        df = pd.DataFrame(rader)
-        if len(df):   # bara riket, regioner och kommuner (inte jämförelsegrupper)
-            df["region_kod"] = df.region_kod.astype(str).str.replace(r"\.0$", "", regex=True)
-            df.loc[df.region_kod.str.fullmatch(r"\d{1,3}"), "region_kod"] = df.region_kod.str.zfill(4)
-            df = df[df.region_kod.str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
-        df.to_csv(ut_dir / f"{kid}.csv.gz", index=False,
-                                   compression={"method": "gzip", "mtime": 0})
-        logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(df)})
-        print(f"  {kid} {namn}: {len(df)} rader")
+        _kolada_data(kid, fraga, namn, titel, ut_dir)
+
+
+def _kolada_data(kid: str, fraga: str, namn: str, titel: str, ut_dir: Path, fran: int = 2006):
+    # Ett år i taget: varje år ryms på en sida (ca 312 områden), så sidindelningen spelar ingen roll.
+    # Finns nyckeltalet redan hämtas bara de tre senaste åren om (äldre år revideras sällan).
+    fil = ut_dir / f"{kid}.csv.gz"
+    gammal = pd.DataFrame()
+    if fil.exists():
+        try:
+            gammal = pd.read_csv(fil, dtype={"region_kod": str})
+        except (pd.errors.EmptyDataError, ValueError):
+            gammal = pd.DataFrame()
+    if len(gammal) and "ar" in gammal:
+        fran = max(fran, int(pd.to_numeric(gammal.ar, errors="coerce").max()) - 2)
+    v = []
+    for a in range(fran, datetime.now().year + 1):
+        try:
+            v += _kolada_alla("data", {"kpi_id": kid, "year": a})
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"kolada data {kid} {a}: {exc}")
+    rader = []
+    for rad in v:
+        for x in rad.get("values", []):
+            if str(x.get("gender", "T")).upper() in ("T", "TOTAL", "NONE", "") and x.get("value") is not None:
+                rader.append({"kpi": kid, "titel": titel, "fraga": fraga, "namn": namn,
+                              "region_kod": rad.get("municipality") or rad.get("municipality_id"),
+                              "ar": rad.get("period") or rad.get("year"), "varde": x.get("value")})
+    df = pd.DataFrame(rader)
+    if len(df):   # bara riket, regioner och kommuner (inte jämförelsegrupper)
+        df["region_kod"] = df.region_kod.astype(str).str.replace(r"\.0$", "", regex=True)
+        df.loc[df.region_kod.str.fullmatch(r"\d{1,3}"), "region_kod"] = df.region_kod.str.zfill(4)
+        df = df[df.region_kod.str.fullmatch(r"\d{4}")].drop_duplicates(["region_kod", "ar"])
+    if len(gammal) and "ar" in gammal:
+        gammal = gammal[pd.to_numeric(gammal.ar, errors="coerce") < fran]
+        df = pd.concat([gammal, df], ignore_index=True)
+    df.to_csv(fil, index=False, compression={"method": "gzip", "mtime": 0})
+    logg.setdefault("kolada", []).append({"id": kid, "namn": namn, "rader": len(df)})
+    print(f"  {kid} {namn}: {len(df)} rader")
+
+
+def hamta_kolada_bred():
+    """Hela Koladas nyckeltalskatalog, och de nyckeltal i indikatorer_katalog.KOLADA_BRED som matchar."""
+    from indikatorer_katalog import KOLADA_BRED
+    from verklighet_katalog import KOLADA
+    print("Kolada, hela katalogen")
+    try:
+        alla = _kolada_alla("kpi", {})
+    except Exception as exc:  # noqa: BLE001
+        logg["fel"].append(f"kolada katalog: {exc}")
+        return
+    kat = pd.DataFrame([{"id": k.get("id"), "titel": k.get("title"), "kommuntyp": k.get("municipality_type"),
+                         "omrade": k.get("operating_area"), "publicerad": k.get("publication_date"),
+                         "enhetsdata": k.get("has_ou_data"), "beskrivning": (k.get("description") or "")[:300]}
+                        for k in alla])
+    KAT_DIR.mkdir(parents=True, exist_ok=True)
+    kat.to_csv(KAT_DIR / "kolada_alla_kpi.csv", index=False)
+    print(f"  {len(kat)} nyckeltal i katalogen")
+    redan = {k[2] for k in KOLADA}
+    rang = {"A": 0, "K": 1, "L": 2}
+    val, ut_dir = [], DATA_DIR / "kolada"
+    ut_dir.mkdir(parents=True, exist_ok=True)
+    for fraga, namn, monster, utesluta in KOLADA_BRED:
+        k = kat[kat.titel.fillna("").str.contains(monster, regex=True)]
+        if utesluta:
+            k = k[~k.titel.str.contains(utesluta, regex=True)]
+        if k.empty:
+            val.append({"fraga": fraga, "namn": namn, "id": None, "titel": None, "alternativ": 0})
+            continue
+        k = k.assign(r=k.kommuntyp.map(rang).fillna(3), n=k.titel.str.len()).sort_values(["r", "n"])
+        vald = k.iloc[0]
+        val.append({"fraga": fraga, "namn": namn, "id": vald.id, "titel": vald.titel, "alternativ": len(k),
+                    "ovriga": " | ".join(f"{a}: {b}" for a, b in zip(k.id[1:6], k.titel[1:6]))})
+        if vald.id in redan:
+            continue
+        redan.add(vald.id)
+        _kolada_data(vald.id, fraga, namn, vald.titel, ut_dir, fran=2010)
+    pd.DataFrame(val).to_csv(KAT_DIR / "kolada_bred_val.csv", index=False)
+    print(f"  {sum(1 for v in val if v['id'])} av {len(val)} poster hittade")
 
 
 def hamta_varldsbanken():
@@ -1088,6 +1144,7 @@ def main():
         hamta_dokument(a.tvinga)
     if a.steg in ("alla", "verklighet"):
         hamta_kolada()
+        hamta_kolada_bred()
         hamta_riksbanken()
         hamta_varldsbanken()
         hamta_eurostat()

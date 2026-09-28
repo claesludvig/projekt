@@ -7,8 +7,9 @@ on:
   schedule:
     - cron: "23 6 * * *"
 
+# Egen kö per gren, så att insamlingen på main inte avbryts av körningar på arbetsgrenen
 concurrency:
-  group: valjare
+  group: valjare-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

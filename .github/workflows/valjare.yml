@@ -8,13 +8,14 @@ on:
         default: "alla"
   push:
     branches: ["claude/voter-database-demographics-r9y5la"]
-    paths: ["valjare/*.py", "valjare/sida.html", "valjare/requirements.txt", ".github/workflows/valjare.yml"]
+    paths: ["valjare/**", ".github/workflows/valjare.yml", ".github/scripts/valjare_sla_ihop.sh"]
   schedule:
     - cron: "17 5 * 6,12 1"   # måndagar i juni och december: allt, efter PSU-publiceringarna
     - cron: "43 5 * * 1"      # varje måndag: lägesbilden (månadsserierna)
 
+# En kö per gren: en ny push ersätter bara en väntande körning på samma gren
 concurrency:
-  group: valjare
+  group: valjare-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -25,6 +26,8 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full historik behövs för att slå ihop grenen med main
 
       - uses: actions/setup-python@v5
         with:
@@ -70,6 +73,12 @@ jobs:
             sleep $((i * 3))
           done
           git push
+
+      # Arbetsgrenen slås ihop med main efter varje lyckad körning, så att schemat på main
+      # alltid kör den senaste koden.
+      - name: Slå ihop grenen med main
+        if: success() && github.ref == 'refs/heads/claude/voter-database-demographics-r9y5la'
+        run: bash .github/scripts/valjare_sla_ihop.sh
 
       # Larm: ett ärende öppnas vid fel i kvalitetskontrollen eller om körningen kraschar,
       # och stängs när kontrollerna är gröna igen.
