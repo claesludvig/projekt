@@ -3,7 +3,7 @@
  "status": "varning",
  "antal": {
   "ok": 197,
-  "varning": 4
+  "varning": 3
  },
  "kontroller": [
   {
@@ -421,6 +421,14 @@
    "status": "ok",
    "detalj": "senaste år 2024",
    "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "verk_Hushållens låneskulder (% av disponibel inkomst)",
+   "beskrivning": "Årsserie: Hushållens låneskulder (% av disponibel inkomst)",
+   "status": "ok",
+   "detalj": "senaste år 2025",
+   "varde": 2025.0
   },
   {
    "grupp": "aktualitet",
@@ -1011,8 +1019,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "493 artiklar i 7 flöden",
-   "varde": 493.0
+   "detalj": "501 artiklar i 7 flöden",
+   "varde": 501.0
   },
   {
    "grupp": "aktualitet",
@@ -1227,23 +1235,23 @@
    "id": "rader_verklighet",
    "beskrivning": "Tabell verklighet",
    "status": "ok",
-   "detalj": "13445 rader (förra 11059)",
-   "varde": 13445.0
+   "detalj": "13521 rader (förra 13445)",
+   "varde": 13521.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_indikator",
    "beskrivning": "Tabell verklighet_indikator",
    "status": "ok",
-   "detalj": "99 rader (förra 79)",
-   "varde": 99.0
+   "detalj": "100 rader (förra 99)",
+   "varde": 100.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_kommunvarden",
    "beskrivning": "Tabell verklighet_kommunvarden",
    "status": "ok",
-   "detalj": "240175 rader (förra 182641)",
+   "detalj": "240175 rader (förra 240175)",
    "varde": 240175.0
   },
   {
@@ -1251,15 +1259,15 @@
    "id": "rader_verklighet_forandring",
    "beskrivning": "Tabell verklighet_forandring",
    "status": "ok",
-   "detalj": "255 rader (förra 204)",
-   "varde": 255.0
+   "detalj": "259 rader (förra 255)",
+   "varde": 259.0
   },
   {
    "grupp": "volym",
    "id": "rader_verklighet_kommun",
    "beskrivning": "Tabell verklighet_kommun",
    "status": "ok",
-   "detalj": "1312 rader (förra 1008)",
+   "detalj": "1312 rader (förra 1312)",
    "varde": 1312.0
   },
   {
@@ -1315,7 +1323,7 @@
    "id": "rader_valkrets_indikator",
    "beskrivning": "Tabell valkrets_indikator",
    "status": "ok",
-   "detalj": "29815 rader (förra 23734)",
+   "detalj": "29815 rader (förra 29815)",
    "varde": 29815.0
   },
   {
@@ -1323,7 +1331,7 @@
    "id": "rader_valkrets_oversikt",
    "beskrivning": "Tabell valkrets_oversikt",
    "status": "ok",
-   "detalj": "2368 rader (förra 1879)",
+   "detalj": "2368 rader (förra 2368)",
    "varde": 2368.0
   },
   {
@@ -1403,7 +1411,7 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "63 rader (förra 51)",
+   "detalj": "63 rader (förra 63)",
    "varde": 63.0
   },
   {
@@ -1427,7 +1435,7 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "207 rader (förra 206)",
+   "detalj": "207 rader (förra 207)",
    "varde": 207.0
   },
   {
@@ -1451,7 +1459,7 @@
    "id": "rader_media_ledare",
    "beskrivning": "Tabell media_ledare",
    "status": "ok",
-   "detalj": "8 rader (förra 7)",
+   "detalj": "8 rader (förra 8)",
    "varde": 8.0
   },
   {
@@ -1459,7 +1467,7 @@
    "id": "rader_norden",
    "beskrivning": "Tabell norden",
    "status": "ok",
-   "detalj": "2264 rader (förra 2050)",
+   "detalj": "2264 rader (förra 2264)",
    "varde": 2264.0
   },
   {
@@ -1467,7 +1475,7 @@
    "id": "rader_lagesbild",
    "beskrivning": "Tabell lagesbild",
    "status": "ok",
-   "detalj": "14 rader (förra 9)",
+   "detalj": "14 rader (förra 14)",
    "varde": 14.0
   },
   {
@@ -1475,7 +1483,7 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2741 rader (förra 2401)",
+   "detalj": "2741 rader (förra 2741)",
    "varde": 2741.0
   },
   {
@@ -1493,14 +1501,6 @@
    "status": "ok",
    "detalj": "1571 rader (förra 1571)",
    "varde": 1571.0
-  },
-  {
-   "grupp": "volym",
-   "id": "rader_varningar",
-   "beskrivning": "Tabell varningar",
-   "status": "ok",
-   "detalj": "2 rader (förra 1)",
-   "varde": 2.0
   },
   {
    "grupp": "volym",
@@ -1604,14 +1604,6 @@
    "beskrivning": "Varning vid tolkning",
    "status": "varning",
    "detalj": "valu_rd_2014_2018 s.18: kunde inte tolka 'obligatorisk skola 5 37 2 6 3 6 14 27 0 ~100'",
-   "varde": null
-  },
-  {
-   "grupp": "tolkning",
-   "id": "varning_1",
-   "beskrivning": "Varning vid tolkning",
-   "status": "varning",
-   "detalj": "verklighet: hittade ingen entydig SCB-serie för 'Hushållens skuldkvot (% av disponibel inkomst)'",
    "varde": null
   }
  ]

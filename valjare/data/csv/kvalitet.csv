@@ -51,6 +51,7 @@ aktualitet,"verk_Försvarsutgifter, % av statens utgifter (SIPRI)","Årsserie: F
 aktualitet,verk_Förtroende för hälso- och sjukvården (%),Årsserie: Förtroende för hälso- och sjukvården (%),ok,senaste år 2025,2025.0
 aktualitet,verk_Förvärvsarbetande flyktingar och anhöriga 20–64 år (%),Årsserie: Förvärvsarbetande flyktingar och anhöriga 20–64 år (%),ok,senaste år 2024,2024.0
 aktualitet,"verk_Gini-koefficient, disponibel inkomst","Årsserie: Gini-koefficient, disponibel inkomst",ok,senaste år 2024,2024.0
+aktualitet,verk_Hushållens låneskulder (% av disponibel inkomst),Årsserie: Hushållens låneskulder (% av disponibel inkomst),ok,senaste år 2025,2025.0
 aktualitet,verk_Invandringar,Årsserie: Invandringar,ok,senaste år 2024,2024.0
 aktualitet,verk_Invånare 0–22 år med insatser enligt LSS (per 10 000),Årsserie: Invånare 0–22 år med insatser enligt LSS (per 10 000),ok,senaste år 2025,2025.0
 aktualitet,verk_Invånare 80+ i särskilt boende (%),Årsserie: Invånare 80+ i särskilt boende (%),ok,senaste år 2025,2025.0
@@ -124,7 +125,7 @@ aktualitet,norden_syss_inrikes,"Eurostat: Sysselsättningsgrad 20–64, inrikes 
 aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes födda (%)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,493 artiklar i 7 flöden,493.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,501 artiklar i 7 flöden,501.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,14 konton med följarantal,14.0
 aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 4 dagar sedan",4.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
@@ -151,19 +152,19 @@ volym,rader_bast_politik,Tabell bast_politik,ok,409 rader (förra 409),409.0
 volym,rader_som_samhallsproblem,Tabell som_samhallsproblem,ok,663 rader (förra 663),663.0
 volym,rader_test_bilar,Tabell test_bilar,ok,24 rader (förra 24),24.0
 volym,rader_test_skjutningar,Tabell test_skjutningar,ok,112 rader (förra 112),112.0
-volym,rader_verklighet,Tabell verklighet,ok,13445 rader (förra 11059),13445.0
-volym,rader_verklighet_indikator,Tabell verklighet_indikator,ok,99 rader (förra 79),99.0
-volym,rader_verklighet_kommunvarden,Tabell verklighet_kommunvarden,ok,240175 rader (förra 182641),240175.0
-volym,rader_verklighet_forandring,Tabell verklighet_forandring,ok,255 rader (förra 204),255.0
-volym,rader_verklighet_kommun,Tabell verklighet_kommun,ok,1312 rader (förra 1008),1312.0
+volym,rader_verklighet,Tabell verklighet,ok,13521 rader (förra 13445),13521.0
+volym,rader_verklighet_indikator,Tabell verklighet_indikator,ok,100 rader (förra 99),100.0
+volym,rader_verklighet_kommunvarden,Tabell verklighet_kommunvarden,ok,240175 rader (förra 240175),240175.0
+volym,rader_verklighet_forandring,Tabell verklighet_forandring,ok,259 rader (förra 255),259.0
+volym,rader_verklighet_kommun,Tabell verklighet_kommun,ok,1312 rader (förra 1312),1312.0
 volym,rader_valdistrikt_2026,Tabell valdistrikt_2026,ok,6312 rader (förra 6312),6312.0
 volym,rader_valdistrikt_tiondel,Tabell valdistrikt_tiondel,ok,1080 rader (förra 1080),1080.0
 volym,rader_valdistrikt_samband,Tabell valdistrikt_samband,ok,108 rader (förra 108),108.0
 volym,rader_valkrets,Tabell valkrets,ok,29 rader (förra 29),29.0
 volym,rader_valkrets_kommun,Tabell valkrets_kommun,ok,290 rader (förra 290),290.0
 volym,rader_valresultat_valkrets,Tabell valresultat_valkrets,ok,2146 rader (förra 2146),2146.0
-volym,rader_valkrets_indikator,Tabell valkrets_indikator,ok,29815 rader (förra 23734),29815.0
-volym,rader_valkrets_oversikt,Tabell valkrets_oversikt,ok,2368 rader (förra 1879),2368.0
+volym,rader_valkrets_indikator,Tabell valkrets_indikator,ok,29815 rader (förra 29815),29815.0
+volym,rader_valkrets_oversikt,Tabell valkrets_oversikt,ok,2368 rader (förra 2368),2368.0
 volym,rader_opinion,Tabell opinion,ok,359 rader (förra 359),359.0
 volym,rader_riksdag_dokument,Tabell riksdag_dokument,ok,7305 rader (förra 7305),7305.0
 volym,rader_riksdag_beslut,Tabell riksdag_beslut,ok,8289 rader (förra 8289),8289.0
@@ -173,19 +174,18 @@ volym,rader_riksdag_parti_fraga,Tabell riksdag_parti_fraga,ok,382 rader (förra 
 volym,rader_riksdag_ledamot,Tabell riksdag_ledamot,ok,4594 rader (förra 4594),4594.0
 volym,rader_opinion_forslag,Tabell opinion_forslag,ok,24 rader (förra 24),24.0
 volym,rader_opinion_beslut,Tabell opinion_beslut,ok,100 rader (förra 100),100.0
-volym,rader_media_foljare,Tabell media_foljare,ok,63 rader (förra 51),63.0
+volym,rader_media_foljare,Tabell media_foljare,ok,63 rader (förra 63),63.0
 volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,14 rader (förra 14),14.0
 volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,104 rader (förra 104),104.0
-volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,207 rader (förra 206),207.0
+volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,207 rader (förra 207),207.0
 volym,rader_media_talartid,Tabell media_talartid,ok,96 rader (förra 96),96.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
-volym,rader_media_ledare,Tabell media_ledare,ok,8 rader (förra 7),8.0
-volym,rader_norden,Tabell norden,ok,2264 rader (förra 2050),2264.0
-volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 9),14.0
-volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2741 rader (förra 2401),2741.0
+volym,rader_media_ledare,Tabell media_ledare,ok,8 rader (förra 8),8.0
+volym,rader_norden,Tabell norden,ok,2264 rader (förra 2264),2264.0
+volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 14),14.0
+volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2741 rader (förra 2741),2741.0
 volym,rader_evidensniva,Tabell evidensniva,ok,14 rader (förra 14),14.0
 volym,rader_kontroll,Tabell kontroll,ok,1571 rader (förra 1571),1571.0
-volym,rader_varningar,Tabell varningar,ok,2 rader (förra 1),2.0
 volym,rader_licens,Tabell licens,ok,12 rader (förra 12),12.0
 rimlighet,valkretsar_29,29 valkretsar,ok,29 valkretsar,29.0
 rimlighet,mandat_2022,Mandaten 2022 summerar till 349,ok,summa 349,349.0
@@ -199,4 +199,3 @@ rimlighet,som_forslag,SOM-förslagen hittas i rapporterna,ok,"2022: 10, 2025: 14
 rimlighet,norden_sverige,Sverige finns i alla nordiska serier,ok,17 serier,
 rimlighet,lagesbild_serier,Lägesbilden har minst sex månadsserier,ok,14 serier,14.0
 tolkning,varning_0,Varning vid tolkning,varning,valu_rd_2014_2018 s.18: kunde inte tolka 'obligatorisk skola 5 37 2 6 3 6 14 27 0 ~100',
-tolkning,varning_1,Varning vid tolkning,varning,verklighet: hittade ingen entydig SCB-serie för 'Hushållens skuldkvot (% av disponibel inkomst)',

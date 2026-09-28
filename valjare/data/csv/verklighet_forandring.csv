@@ -40,6 +40,10 @@ egen_ekonomi,Din egen ekonomi,"Dieselpris (KPI, 1980=100)",2018,2022,666.6150000
 egen_ekonomi,Din egen ekonomi,"Dieselpris (KPI, 1980=100)",2022,2026,1050.5108333333333,726.1458333333334,-324.3649999999999,-30.8768829133128,,,,,,,,,36.0,39.0,4.0,11.0
 egen_ekonomi,Din egen ekonomi,"Gini-koefficient, disponibel inkomst",2014,2018,0.302,0.309,0.007000000000000006,2.317880794701989,,,,,,,,"0 = alla har lika inkomst, 1 = en person har allt.",40.0,35.0,7.0,4.0
 egen_ekonomi,Din egen ekonomi,"Gini-koefficient, disponibel inkomst",2018,2022,0.309,0.324,0.015000000000000013,4.854368932038839,,,,,,,,"0 = alla har lika inkomst, 1 = en person har allt.",35.0,36.0,4.0,4.0
+egen_ekonomi,Din egen ekonomi,Hushållens låneskulder (% av disponibel inkomst),2010,2014,162.0,168.2,6.199999999999989,3.8271604938271535,,,,,,,,,42.0,40.0,14.0,7.0
+egen_ekonomi,Din egen ekonomi,Hushållens låneskulder (% av disponibel inkomst),2014,2018,168.2,186.6,18.400000000000006,10.939357907253273,,,,,,,,,40.0,35.0,7.0,4.0
+egen_ekonomi,Din egen ekonomi,Hushållens låneskulder (% av disponibel inkomst),2018,2022,186.6,189.1,2.5,1.339764201500536,,,,,,,,,35.0,36.0,4.0,4.0
+egen_ekonomi,Din egen ekonomi,Hushållens låneskulder (% av disponibel inkomst),2022,2026,189.1,173.9,-15.199999999999989,-8.038075092543622,,,,,,,,,36.0,39.0,4.0,11.0
 egen_ekonomi,Din egen ekonomi,Låg ekonomisk standard (%),2014,2018,14.0,14.0,0.0,0.0,,,,,,,,,40.0,35.0,7.0,4.0
 egen_ekonomi,Din egen ekonomi,Låg ekonomisk standard (%),2018,2022,14.0,14.0,0.0,0.0,,,,,,,,,35.0,36.0,4.0,4.0
 egen_ekonomi,Din egen ekonomi,Räntekostnader egnahem (KPI),2010,2014,93.22333333333334,119.26333333333334,26.039999999999992,27.932920942539408,,,,,,,,,42.0,40.0,14.0,7.0

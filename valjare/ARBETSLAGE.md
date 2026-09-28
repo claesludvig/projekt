@@ -37,14 +37,17 @@ Gjort:
   finns bara för 2026 (statistiken pausad), FK-filen slutar 2022 – ingen av dem används.
 - `omraden.py`: nya indikatorer i rättsväsende, vård, energi och integration; luckor uppdaterade.
 
+## CI-körning 36450527136 (klar 18:59 svensk tid)
+
+Lyckad, inga fel i kvalitetskontrollen. Gini (TAB1121) fungerar, 2011–2024. Skuldkvoten valde fel rad
+(SCB kallar den "Låneskulder i procent av disponibel inkomst") – rättat i efterföljande commit.
+Eurostat `vantan` och `fangar` ger 0 rader utan felmeddelande; hämtningen loggar nu vilka koder som
+finns för SE (se `fel` i `data/katalog/hamtlogg.json` efter nästa körning).
+
 ## Nästa steg
 
-1. Kör CI (push till `claude/voter-database-demographics-r9y5la` eller manuellt) så att Kolada-
-   nyckeltalen med nya id och SCB-tabellerna TAB1121/TAB4592 hämtas. Kontrollera att varningarna
-   för Gini och skuldkvot försvinner.
-2. Eurostat `fangar`: hitta rätt dataset/filter (0 rader).
-3. Brå (uppklaring, lagföring) och Kriminalvården (beläggning) saknas fortfarande i `data/kallor`.
-4. Publicera artefakten efter CI-körningen.
+1. Läs kodlistan för `vantan` och `fangar` i hamtloggen och rätta filtren i `omraden.EUROSTAT`.
+2. Brå (uppklaring, lagföring) och Kriminalvården (beläggning) saknas fortfarande i `data/kallor`.
 
 ## Att tänka på
 
