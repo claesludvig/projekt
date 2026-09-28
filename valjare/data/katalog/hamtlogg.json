@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T12:44:20.117926+00:00",
+ "start": "2026-09-28T13:26:47.611946+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1084,37 +1084,7 @@
    "id": "TAB6387",
    "rubrik": "Befolkningen 15-74 år (AKU) efter arbetskraftstillhörighet, typ av data, kön och ålder. Månad 2001M01-2026M08",
    "tema": "manad",
-   "celler": 879648,
-   "variabler": {
-    "Arbetskraftstillh": {
-     "etikett": "arbetskraftstillhörighet",
-     "antal": 8
-    },
-    "TypData": {
-     "etikett": "typ av data",
-     "antal": 7
-    },
-    "Kon": {
-     "etikett": "kön",
-     "antal": 3
-    },
-    "Alder": {
-     "etikett": "ålder",
-     "antal": 17
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "månad",
-     "antal": 308
-    }
-   },
-   "status": "ok",
-   "rader": 879648,
-   "uppdaterad": "2026-09-16T06:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6514",
@@ -1204,69 +1174,13 @@
    "id": "TAB4642",
    "rubrik": "Demografisk försörjningskvot efter region. År 2000-2025",
    "tema": "verklighet",
-   "celler": 78,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 1
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 3
-    },
-    "Tid": {
-     "etikett": "år",
-     "antal": 26
-    }
-   },
-   "status": "ok",
-   "rader": 78,
-   "uppdaterad": "2026-03-24T07:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB1246",
    "rubrik": "Bostadshushåll (FoB75-90) efter region, hustyp, hushållsstorlek, lägenhetstyp, byggnadsperiod och trångboddhet 1975-1990",
    "tema": "verklighet",
-   "celler": 13824,
-   "variabler": {
-    "Region": {
-     "etikett": "region",
-     "antal": 1
-    },
-    "Hustyp": {
-     "etikett": "hustyp",
-     "antal": 2
-    },
-    "Hushallsstorlek": {
-     "etikett": "hushållsstorlek",
-     "antal": 6
-    },
-    "Lagenhetstyp": {
-     "etikett": "lägenhetstyp",
-     "antal": 8
-    },
-    "Byggnadsperiod": {
-     "etikett": "byggnadsperiod",
-     "antal": 12
-    },
-    "Trangboddhet": {
-     "etikett": "trångboddhet",
-     "antal": 3
-    },
-    "ContentsCode": {
-     "etikett": "tabellinnehåll",
-     "antal": 1
-    },
-    "Tid": {
-     "etikett": "vart 5:e år",
-     "antal": 4
-    }
-   },
-   "status": "ok",
-   "rader": 13824,
-   "uppdaterad": "1996-12-31T23:00:00Z",
-   "kalla": "SCB"
+   "status": "oförändrad, ej hämtad"
   },
   {
    "id": "TAB6571_deso",
@@ -2287,7 +2201,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f0df7e86ad0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7eff8b48b210>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2701,5 +2615,5 @@
    "rader": 106
   }
  ],
- "slut": "2026-09-28T13:24:08.224546+00:00"
+ "slut": "2026-09-28T13:48:36.093798+00:00"
 }

@@ -2,7 +2,7 @@
  "skapad": "2026-09-28",
  "status": "varning",
  "antal": {
-  "ok": 111,
+  "ok": 171,
   "varning": 3
  },
  "kontroller": [
@@ -803,8 +803,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "422 artiklar i 7 flöden",
-   "varde": 422.0
+   "detalj": "439 artiklar i 7 flöden",
+   "varde": 439.0
   },
   {
    "grupp": "aktualitet",
@@ -821,6 +821,486 @@
    "status": "ok",
    "detalj": "senaste dokument 2026-09-24, 4 dagar sedan",
    "varde": 4.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_kalla",
+   "beskrivning": "Tabell kalla",
+   "status": "ok",
+   "detalj": "16 rader (förra 16)",
+   "varde": 16.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partistod",
+   "beskrivning": "Tabell partistod",
+   "status": "ok",
+   "detalj": "65350 rader (förra 65350)",
+   "varde": 65350.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_gruppvikt",
+   "beskrivning": "Tabell gruppvikt",
+   "status": "ok",
+   "detalj": "5809 rader (förra 5809)",
+   "varde": 5809.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partiprofil",
+   "beskrivning": "Tabell partiprofil",
+   "status": "ok",
+   "detalj": "23071 rader (förra 23071)",
+   "varde": 23071.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valresultat_kommun",
+   "beskrivning": "Tabell valresultat_kommun",
+   "status": "ok",
+   "detalj": "48136 rader (förra 48136)",
+   "varde": 48136.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_kommunindikator",
+   "beskrivning": "Tabell kommunindikator",
+   "status": "ok",
+   "detalj": "38449 rader (förra 38449)",
+   "varde": 38449.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_kommunsamband",
+   "beskrivning": "Tabell kommunsamband",
+   "status": "ok",
+   "detalj": "415 rader (förra 415)",
+   "varde": 415.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_utsatthet",
+   "beskrivning": "Tabell utsatthet",
+   "status": "ok",
+   "detalj": "39255 rader (förra 39255)",
+   "varde": 39255.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partiexponering",
+   "beskrivning": "Tabell partiexponering",
+   "status": "ok",
+   "detalj": "3842 rader (förra 3842)",
+   "varde": 3842.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valdeltagande_grupp",
+   "beskrivning": "Tabell valdeltagande_grupp",
+   "status": "ok",
+   "detalj": "96 rader (förra 96)",
+   "varde": 96.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valdeltagande_region",
+   "beskrivning": "Tabell valdeltagande_region",
+   "status": "ok",
+   "detalj": "9936 rader (förra 9936)",
+   "varde": 9936.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valresultat_lan",
+   "beskrivning": "Tabell valresultat_lan",
+   "status": "ok",
+   "detalj": "2904 rader (förra 2904)",
+   "varde": 2904.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_lansindikator",
+   "beskrivning": "Tabell lansindikator",
+   "status": "ok",
+   "detalj": "2611 rader (förra 2611)",
+   "varde": 2611.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_utsatthet_lan",
+   "beskrivning": "Tabell utsatthet_lan",
+   "status": "ok",
+   "detalj": "20830 rader (förra 20830)",
+   "varde": 20830.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partiprofil_region",
+   "beskrivning": "Tabell partiprofil_region",
+   "status": "ok",
+   "detalj": "117180 rader (förra 117180)",
+   "varde": 117180.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_dekomposition",
+   "beskrivning": "Tabell dekomposition",
+   "status": "ok",
+   "detalj": "22229 rader (förra 22229)",
+   "varde": 22229.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_polisen_manad",
+   "beskrivning": "Tabell polisen_manad",
+   "status": "ok",
+   "detalj": "5280 rader (förra 5280)",
+   "varde": 5280.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_kpi_manad",
+   "beskrivning": "Tabell kpi_manad",
+   "status": "ok",
+   "detalj": "2760 rader (förra 2760)",
+   "varde": 2760.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_fraga_betydelse",
+   "beskrivning": "Tabell fraga_betydelse",
+   "status": "ok",
+   "detalj": "132 rader (förra 132)",
+   "varde": 132.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_fraga_rang_parti",
+   "beskrivning": "Tabell fraga_rang_parti",
+   "status": "ok",
+   "detalj": "415 rader (förra 415)",
+   "varde": 415.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_bast_politik",
+   "beskrivning": "Tabell bast_politik",
+   "status": "ok",
+   "detalj": "409 rader (förra 409)",
+   "varde": 409.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_som_samhallsproblem",
+   "beskrivning": "Tabell som_samhallsproblem",
+   "status": "ok",
+   "detalj": "663 rader (förra 663)",
+   "varde": 663.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_test_bilar",
+   "beskrivning": "Tabell test_bilar",
+   "status": "ok",
+   "detalj": "24 rader (förra 24)",
+   "varde": 24.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_test_skjutningar",
+   "beskrivning": "Tabell test_skjutningar",
+   "status": "ok",
+   "detalj": "112 rader (förra 112)",
+   "varde": 112.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_verklighet",
+   "beskrivning": "Tabell verklighet",
+   "status": "ok",
+   "detalj": "11059 rader (förra 11059)",
+   "varde": 11059.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_verklighet_indikator",
+   "beskrivning": "Tabell verklighet_indikator",
+   "status": "ok",
+   "detalj": "79 rader (förra 79)",
+   "varde": 79.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_verklighet_kommunvarden",
+   "beskrivning": "Tabell verklighet_kommunvarden",
+   "status": "ok",
+   "detalj": "182641 rader (förra 182641)",
+   "varde": 182641.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_verklighet_forandring",
+   "beskrivning": "Tabell verklighet_forandring",
+   "status": "ok",
+   "detalj": "204 rader (förra 204)",
+   "varde": 204.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_verklighet_kommun",
+   "beskrivning": "Tabell verklighet_kommun",
+   "status": "ok",
+   "detalj": "1008 rader (förra 1008)",
+   "varde": 1008.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valdistrikt_2026",
+   "beskrivning": "Tabell valdistrikt_2026",
+   "status": "ok",
+   "detalj": "6312 rader (förra 6312)",
+   "varde": 6312.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valdistrikt_tiondel",
+   "beskrivning": "Tabell valdistrikt_tiondel",
+   "status": "ok",
+   "detalj": "1080 rader (förra 1080)",
+   "varde": 1080.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valdistrikt_samband",
+   "beskrivning": "Tabell valdistrikt_samband",
+   "status": "ok",
+   "detalj": "108 rader (förra 108)",
+   "varde": 108.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valkrets",
+   "beskrivning": "Tabell valkrets",
+   "status": "ok",
+   "detalj": "29 rader (förra 29)",
+   "varde": 29.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valkrets_kommun",
+   "beskrivning": "Tabell valkrets_kommun",
+   "status": "ok",
+   "detalj": "290 rader (förra 290)",
+   "varde": 290.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valresultat_valkrets",
+   "beskrivning": "Tabell valresultat_valkrets",
+   "status": "ok",
+   "detalj": "2146 rader (förra 2146)",
+   "varde": 2146.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valkrets_indikator",
+   "beskrivning": "Tabell valkrets_indikator",
+   "status": "ok",
+   "detalj": "23734 rader (förra 23734)",
+   "varde": 23734.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_valkrets_oversikt",
+   "beskrivning": "Tabell valkrets_oversikt",
+   "status": "ok",
+   "detalj": "1879 rader (förra 1879)",
+   "varde": 1879.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_opinion",
+   "beskrivning": "Tabell opinion",
+   "status": "ok",
+   "detalj": "359 rader (förra 359)",
+   "varde": 359.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_riksdag_dokument",
+   "beskrivning": "Tabell riksdag_dokument",
+   "status": "ok",
+   "detalj": "7305 rader (förra 7305)",
+   "varde": 7305.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_riksdag_beslut",
+   "beskrivning": "Tabell riksdag_beslut",
+   "status": "ok",
+   "detalj": "8289 rader (förra 8289)",
+   "varde": 8289.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_riksdag_aktivitet",
+   "beskrivning": "Tabell riksdag_aktivitet",
+   "status": "ok",
+   "detalj": "201 rader (förra 201)",
+   "varde": 201.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_riksdag_samstammighet",
+   "beskrivning": "Tabell riksdag_samstammighet",
+   "status": "ok",
+   "detalj": "192 rader (förra 192)",
+   "varde": 192.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_riksdag_parti_fraga",
+   "beskrivning": "Tabell riksdag_parti_fraga",
+   "status": "ok",
+   "detalj": "382 rader (förra 382)",
+   "varde": 382.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_riksdag_ledamot",
+   "beskrivning": "Tabell riksdag_ledamot",
+   "status": "ok",
+   "detalj": "4594 rader (förra 4594)",
+   "varde": 4594.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_opinion_forslag",
+   "beskrivning": "Tabell opinion_forslag",
+   "status": "ok",
+   "detalj": "24 rader (förra 24)",
+   "varde": 24.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_opinion_beslut",
+   "beskrivning": "Tabell opinion_beslut",
+   "status": "ok",
+   "detalj": "100 rader (förra 100)",
+   "varde": 100.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_foljare",
+   "beskrivning": "Tabell media_foljare",
+   "status": "ok",
+   "detalj": "51 rader (förra 51)",
+   "varde": 51.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_foljare_nu",
+   "beskrivning": "Tabell media_foljare_nu",
+   "status": "ok",
+   "detalj": "14 rader (förra 14)",
+   "varde": 14.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_omnamnanden",
+   "beskrivning": "Tabell media_omnamnanden",
+   "status": "ok",
+   "detalj": "104 rader (förra 104)",
+   "varde": 104.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_google_nyheter",
+   "beskrivning": "Tabell media_google_nyheter",
+   "status": "ok",
+   "detalj": "206 rader (förra 205)",
+   "varde": 206.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_talartid",
+   "beskrivning": "Tabell media_talartid",
+   "status": "ok",
+   "detalj": "96 rader (förra 96)",
+   "varde": 96.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_annonser",
+   "beskrivning": "Tabell media_annonser",
+   "status": "ok",
+   "detalj": "0 rader (förra 0)",
+   "varde": 0.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_ledare",
+   "beskrivning": "Tabell media_ledare",
+   "status": "ok",
+   "detalj": "7 rader (förra 7)",
+   "varde": 7.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_norden",
+   "beskrivning": "Tabell norden",
+   "status": "ok",
+   "detalj": "2050 rader (förra 2050)",
+   "varde": 2050.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_lagesbild",
+   "beskrivning": "Tabell lagesbild",
+   "status": "ok",
+   "detalj": "9 rader (förra 9)",
+   "varde": 9.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_lagesbild_serie",
+   "beskrivning": "Tabell lagesbild_serie",
+   "status": "ok",
+   "detalj": "2401 rader (förra 2401)",
+   "varde": 2401.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_evidensniva",
+   "beskrivning": "Tabell evidensniva",
+   "status": "ok",
+   "detalj": "14 rader (förra 14)",
+   "varde": 14.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_kontroll",
+   "beskrivning": "Tabell kontroll",
+   "status": "ok",
+   "detalj": "1571 rader (förra 1571)",
+   "varde": 1571.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_varningar",
+   "beskrivning": "Tabell varningar",
+   "status": "ok",
+   "detalj": "1 rader (förra 1)",
+   "varde": 1.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_licens",
+   "beskrivning": "Tabell licens",
+   "status": "ok",
+   "detalj": "12 rader (förra 12)",
+   "varde": 12.0
   },
   {
    "grupp": "rimlighet",
