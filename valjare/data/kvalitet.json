@@ -2,7 +2,7 @@
  "skapad": "2026-09-28",
  "status": "varning",
  "antal": {
-  "ok": 201,
+  "ok": 203,
   "varning": 3
  },
  "kontroller": [
@@ -912,6 +912,14 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "norden_fangar",
+   "beskrivning": "Eurostat: Intagna i fängelse per 100 000 inv",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2024",
+   "varde": 2024.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "norden_fornybart",
    "beskrivning": "Eurostat: Förnybar energi, % av slutlig användning",
    "status": "ok",
@@ -1000,6 +1008,14 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "norden_vantan",
+   "beskrivning": "Eurostat: Avstått från vård på grund av väntetid (%, 16+)",
+   "status": "ok",
+   "detalj": "senaste år för Sverige 2025",
+   "varde": 2025.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "norden_vardplatser",
    "beskrivning": "Eurostat: Vårdplatser på sjukhus per 100 000 inv",
    "status": "ok",
@@ -1019,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "512 artiklar i 7 flöden",
-   "varde": 512.0
+   "detalj": "518 artiklar i 7 flöden",
+   "varde": 518.0
   },
   {
    "grupp": "aktualitet",
@@ -1459,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "0 rader (förra 0)",
-   "varde": 0.0
+   "detalj": "2059 rader (förra 0)",
+   "varde": 2059.0
   },
   {
    "grupp": "volym",
@@ -1483,7 +1499,7 @@
    "id": "rader_media_rd_aktivitet",
    "beskrivning": "Tabell media_rd_aktivitet",
    "status": "ok",
-   "detalj": "104 rader (förra 104)",
+   "detalj": "104 rader (förra 0)",
    "varde": 104.0
   },
   {
@@ -1499,8 +1515,8 @@
    "id": "rader_norden",
    "beskrivning": "Tabell norden",
    "status": "ok",
-   "detalj": "2264 rader (förra 2264)",
-   "varde": 2264.0
+   "detalj": "2448 rader (förra 2264)",
+   "varde": 2448.0
   },
   {
    "grupp": "volym",
@@ -1619,7 +1635,7 @@
    "id": "norden_sverige",
    "beskrivning": "Sverige finns i alla nordiska serier",
    "status": "ok",
-   "detalj": "17 serier",
+   "detalj": "19 serier",
    "varde": null
   },
   {
