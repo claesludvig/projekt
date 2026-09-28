@@ -224,10 +224,14 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   <section id="s-genomslag">
     <span class="label">5 · Genomslag</span>
     <h2>Hur syns partierna?</h2>
-    <p class="desc">Följare i sociala medier, intresse på Wikipedia, omnämnanden och ton i nyheterna, vilka frågor partierna förknippas med, aktivitet i riksdagen och politiska annonser. Allt hämtas ur öppna filer och flöden: Wikidata, Wikimedias sidvisningar, GDELT, redaktionernas RSS-flöden, Google Nyheter, riksdagens öppna data och Googles annonsdata.</p>
+    <p class="desc">Följare i sociala medier, intresse på Wikipedia, omnämnanden i nyheterna, vilka frågor partierna förknippas med, aktivitet i riksdagen och politiska annonser. Allt hämtas ur öppna filer och flöden: Wikidata, plattformarnas publika profiler, Wikimedias sidvisningar, redaktionernas RSS-flöden, Google Nyheter, riksdagens öppna data och Googles annonsdata.</p>
     <h3 id="h-gs-publik">Var finns publiken?</h3>
     <div class="small" id="gs-publik" style="grid-template-columns:repeat(auto-fill,minmax(270px,1fr))"></div>
     <p class="note" id="not-gs-publik"></p>
+    <h3 style="margin-top:10px" id="h-gs-fort">Vilka litar på de etablerade medierna?</h3>
+    <div class="controls" id="ctl-gs-fort"><div class="seg" id="gs-fort" role="group" aria-label="Medium"><button type="button" data-i="radio och tv" aria-pressed="true">Radio och tv</button><button type="button" data-i="dagspressen" aria-pressed="false">Dagspressen</button></div></div>
+    <div class="chart" id="c-gs-fort"></div>
+    <p class="note" id="not-gs-fort"></p>
     <h3 style="margin-top:10px">Följare</h3>
     <div class="controls"><div class="seg" id="gs-roll" role="group" aria-label="Konto"><button type="button" data-r="parti" aria-pressed="true">Partiets konto</button><button type="button" data-r="partiledare" aria-pressed="false">Partiledaren</button></div>
       <div class="seg" id="gs-plattform" role="group" aria-label="Plattform" style="flex-wrap:wrap"></div></div>
@@ -239,12 +243,6 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <div class="chart" id="c-gs-wiki"></div>
     <p class="note" id="not-gs-wiki"></p>
     <h3 style="margin-top:10px">Nämns i nyheterna</h3>
-    <div class="chart" id="c-gs-gdelt"></div>
-    <p class="note" id="not-gs-gdelt"></p>
-    <h3 style="margin-top:10px;font-size:14px" id="h-gs-ton">Tonen när partiet nämns</h3>
-    <div class="chart" id="c-gs-ton"></div>
-    <p class="note" id="not-gs-ton"></p>
-    <h3 style="margin-top:10px;font-size:14px">De senaste veckorna, i redaktionernas egna flöden</h3>
     <div class="chart" id="c-gs-andel"></div>
     <p class="note" id="not-gs-andel"></p>
     <div class="chart" id="c-gs-google"></div>
@@ -1277,8 +1275,8 @@ function hbar(el, rader, {enhet="", fmtV=v=>fmt(v), ref=null}={}){
 }
 function renderGenomslag(){
   const F = D.foljare, O = D.omnamnanden, G = D.google_nyheter, T = D.talartid, A = D.annonser;
-  if (!F && !O && !G && !T && !A && !D.wikipedia && !D.gdelt) { $("s-genomslag").hidden = true; return; }
-  renderPublik(); renderWiki(); renderGdelt(); renderSak(); renderAkt(); renderForsk();
+  if (!F && !O && !G && !T && !A && !D.wikipedia) { $("s-genomslag").hidden = true; return; }
+  renderPublik(); renderFort(); renderWiki(); renderSak(); renderAkt(); renderForsk();
   // Följare
   if (F) {
     const plattformar = [...new Set(F.nu.map(r => r.plattform))].filter(p => p !== "okänd").sort((a,b) => F.nu.filter(r=>r.plattform===b).length - F.nu.filter(r=>r.plattform===a).length);
@@ -1287,12 +1285,12 @@ function renderGenomslag(){
     $("gs-plattform").querySelectorAll("button").forEach(b => b.onclick = () => { gsPlattform = b.dataset.p; renderGenomslag(); });
     $("gs-roll").querySelectorAll("button").forEach(b => { b.setAttribute("aria-pressed", b.dataset.r === gsRoll); b.onclick = () => { gsRoll = b.dataset.r; renderGenomslag(); }; });
     const rad = P.map(p => { const r = F.nu.find(x => x.parti === p && x.roll === gsRoll && x.plattform === gsPlattform);
-      return r ? {p, v: r.foljare, not: `${gsRoll === "partiledare" ? r.namn + ", " : ""}@${r.konto.length > 24 ? r.konto.slice(0, 22) + "…" : r.konto}${r.verifierad === false ? ", ej verifierat konto" : ""}${r.kalla !== "mätt" ? ` (${datumTxt(r.datum)})` : ""}`}
+      return r ? {p, v: r.foljare, not: `${gsRoll === "partiledare" ? r.namn + ", " : ""}@${r.konto.length > 24 ? r.konto.slice(0, 22) + "…" : r.konto}${r.verifierad === false && r.plattform === "TikTok" ? ", ej verifierat konto" : ""}${r.kalla !== "mätt" ? ` (${datumTxt(r.datum)})` : ""}`}
         : {p, v: null, saknas: "inget konto hittat eller inget aktuellt värde"}; })
       .sort((a,b) => (b.v ?? -1) - (a.v ?? -1));
     hbar($("c-gs-foljare"), rad, {fmtV: stort});
     const valda = F.nu.filter(r => r.plattform === gsPlattform && r.roll === gsRoll), matt = valda.filter(r => r.kalla === "mätt").map(r => r.datum).sort();
-    $("not-gs-foljare").textContent = `${matt.length ? `Uppmätt ${dagTxt(matt[matt.length-1])} direkt på plattformen; mätningen upprepas varje dag.` : ""}${valda.some(r => r.kalla !== "mätt") ? " Värden med datum inom parentes kommer från Wikidata." : ""} Bara värden från det senaste året visas. ${gsPlattform === "YouTube" ? "YouTube avrundar till tre värdesiffror. " : ""}${(F.ej_matbara || []).join(", ")} kräver inloggning eller betald åtkomst och går inte att mäta med öppna data. Kontona kommer från Wikidata, kompletterade med partiernas egna TikTok-konton. Följare är inte räckvidd: de säger hur många som valt att följa kontot, inte hur många som ser inläggen.`;
+    $("not-gs-foljare").textContent = `${matt.length ? `Uppmätt ${dagTxt(matt[matt.length-1])} direkt på plattformen; mätningen upprepas varje dag.` : ""}${valda.some(r => r.kalla !== "mätt") ? " Värden med datum inom parentes kommer från Wikidata." : ""} Bara värden från det senaste året visas. ${gsPlattform === "YouTube" ? "YouTube avrundar till tre värdesiffror. " : ""}${gsPlattform === "X" ? "X mäts via fxtwitter, en öppen tjänst som läser X:s publika profiler. " : ""}${gsPlattform === "Facebook" ? "Facebook läses ur sidans förhandsvisning; Facebook blockerar ofta, så värden kan saknas enskilda dagar. " : ""}${(F.ej_matbara || []).join(" och ")} kräver inloggning och går inte att mäta med öppna data. Kontona kommer från Wikidata, kompletterade med partiernas egna TikTok-konton. Följare är inte räckvidd: de säger hur många som valt att följa kontot, inte hur många som ser inläggen.`;
   } else { $("c-gs-foljare").innerHTML = `<p class="note">Inga aktuella följarantal (från det senaste året) finns ännu.</p>`; $("not-gs-foljare").textContent = ""; }
   // Omnämnanden
   if (O && O.veckor.length) {
@@ -1340,6 +1338,19 @@ function renderPublik(){
   $("gs-publik").innerHTML = k1 + k2 + k3;
   $("not-gs-publik").innerHTML = `Källa: <a href="${M.url}" target="_blank" rel="noopener">${esc(M.kalla)}</a>, ${fmt(M.n)} svarande. Sociala medier når 84 procent varje dag, men 18 procent av befolkningen har en mediedag med underhållning och sociala medier utan några nyhetsmedier alls, och de unga läser minst om politik. Den publiken når partierna bara genom egna kanaler, vilket är skälet till att partierna bygger egna nyhetsformat (se forskningen nedan). Mediebarometern redovisar inte medieanvändning efter partisympati.`;
 }
+let gsFort = "radio och tv";
+function renderFort(){
+  const F = D.medieforttroende;
+  ["h-gs-fort", "ctl-gs-fort", "c-gs-fort", "not-gs-fort"].forEach(id => $(id).hidden = !F);
+  if (!F) return;
+  $("gs-fort").querySelectorAll("button").forEach(b => { b.setAttribute("aria-pressed", b.dataset.i === gsFort); b.onclick = () => { gsFort = b.dataset.i; renderFort(); }; });
+  const V = F.v[gsFort] || {}, xs = F.ar;
+  const ser = P.filter(p => V[p]).map(p => ({name: PNAMN[p], lbl: p, c: pc(p), hl: true, w: 1.8, v: V[p]}));
+  if (V.ALLA) ser.push({name: "Alla", lbl: "Alla", c: css("--p-ALLA"), hl: true, w: 1.8, dash: "5 4", v: V.ALLA});
+  lineChart($("c-gs-fort"), {xs, height: 280, yMin: 0, yMax: 100, series: ser, tipTitle: x => String(x), focus: () => true, hoger: 40});
+  const sist = xs.length - 1, rang = P.filter(p => V[p]?.[sist] != null).sort((a, b) => V[b][sist] - V[a][sist]);
+  $("not-gs-fort").innerHTML = `Andel med mycket eller ganska stort förtroende för ${gsFort === "radio och tv" ? "radio och tv" : "dagspressen"} bland partiernas sympatisörer, ${xs[0]}–${xs[sist]}. ${xs[sist]}: högst bland ${PNAMN[rang[0]]} (${V[rang[0]][sist]} %), lägst bland ${PNAMN[rang[rang.length-1]]} (${V[rang[rang.length-1]][sist]} %)${V.ALLA ? `, alla ${V.ALLA[sist]} %` : ""}. Partier med få svarande ett år (inom parentes i källan) har större osäkerhet. Källa: <a href="https://www.gu.se/som-institutet" target="_blank" rel="noopener">SOM-institutet, Svenska förtroendetrender 1986–2024</a>. Väljare som litar mindre på de etablerade medierna är en publik som partierna når bäst i egna kanaler; sambandet är beskrivande, inte ett orsaksförhållande.`;
+}
 function renderForsk(){
   const F = D.forskning_media;
   ["h-gs-forsk", "gs-forsk"].forEach(id => $(id).hidden = !F);
@@ -1360,19 +1371,6 @@ function renderWiki(){
   lineChart(el, {xs, height: 260, yMin: 0, series: rader.map(q => ({name: PNAMN[q.p] + (gsWRoll === "partiledare" ? ` (${W.namn[`${q.p}|partiledare`]})` : ""), lbl: q.p, c: pc(q.p), hl: true, w: 1.6, v: glid(q.v, 3)})),
     yFmt: gsWSkala === "andel" ? (v => fmt(v) + " %") : stort, tipTitle: x => manTxt(man[xs.indexOf(x)]), focus: () => true, hoger: 40});
   $("not-gs-wiki").textContent = `Visningar per månad av ${gsWRoll === "parti" ? "partiets" : "den nuvarande partiledarens"} artikel på svenska Wikipedia, ${manTxt(man[0])}–${manTxt(man[n-1])}, glidande medel över tre månader. Bara användare, inte robotar (Wikimedia). Topparna följer valrörelser, partiledarbyten och kriser. Intresse är inte stöd: en skandal ger också många visningar.${gsWRoll === "partiledare" ? " Serien gäller dagens partiledare även före tiden som ledare." : ""}`;
-}
-function renderGdelt(){
-  const G = D.gdelt;
-  ["h-gs-ton", "c-gs-ton", "not-gs-ton"].forEach(id => $(id).hidden = !G);
-  if (!G) { $("c-gs-gdelt").innerHTML = `<p class="note">Den långa serien över omnämnanden i svenska nyheter (GDELT) har inte gått att hämta: tjänsten begränsar antalet frågor hårt. Till dess visas bara redaktionernas egna flöden nedan.</p>`; $("not-gs-gdelt").textContent = ""; return; }
-  const n = G.manader.length - 1, man = G.manader.slice(0, n), xs = man.map(manDec), tt = x => manTxt(man[xs.indexOf(x)]);
-  lineChart($("c-gs-gdelt"), {xs, height: 260, yMin: 0, series: P.filter(p => G.andel[p]).map(p => ({name: PNAMN[p], lbl: p, c: pc(p), hl: true, w: 1.6, v: glid(G.andel[p].slice(0, n), 3)})),
-    tipTitle: tt, focus: () => true, hoger: 40});
-  const sum = P.reduce((a, p) => a + (G.artiklar[p] || []).slice(0, n).reduce((x, y) => x + (y || 0), 0), 0);
-  $("not-gs-gdelt").textContent = `Partiets andel av alla partiomnämnanden i svenskspråkiga nyhetsartiklar på nätet, per månad (${manTxt(man[0])}–${manTxt(man[n-1])}), glidande medel över tre månader. GDELT läser av nyhetssajter världen över och söker här på partinamnet; ${stort(sum)} träffar totalt. Andelen jämförs mellan partierna, eftersom GDELT:s urval av sajter ändras över tid. Partiledarens namn ingår inte, och en artikel som nämner flera partier räknas för alla.`;
-  lineChart($("c-gs-ton"), {xs, height: 220, zero: true, series: P.filter(p => G.ton[p]).map(p => ({name: PNAMN[p], lbl: p, c: pc(p), hl: true, w: 1.6, v: glid(G.ton[p].slice(0, n), 6)})),
-    yFmt: v => fmt(v, 1), tipTitle: tt, focus: () => true, hoger: 40});
-  $("not-gs-ton").textContent = `Genomsnittlig ton i artiklarna som nämner partiet, enligt GDELT:s ordlistor (under noll: fler negativa än positiva ord), glidande medel över sex månader. Tonen gäller hela artikeln, inte just det som sägs om partiet, och nyheter om brott eller kriser drar ner den. Jämför partierna med varandra och över tid, inte mot noll.`;
 }
 function renderSak(){
   const S = D.sakfragor;

@@ -64,19 +64,6 @@ def test_omnamnanden(tmp_path):
     assert gn.set_index("parti").artiklar["SD"] == 1
 
 
-def test_gdelt_andel_och_vagd_ton(tmp_path):
-    rader = []
-    for dag, s, m in (("20240101", 30, 10), ("20240102", 10, 30)):
-        rader += [{"parti": "S", "matt": "artiklar", "dag": dag, "varde": s, "totalt": 1000},
-                  {"parti": "M", "matt": "artiklar", "dag": dag, "varde": m, "totalt": 1000},
-                  {"parti": "S", "matt": "ton", "dag": dag, "varde": -2.0 if dag.endswith("1") else -4.0, "totalt": None},
-                  {"parti": "M", "matt": "ton", "dag": dag, "varde": -1.0, "totalt": None}]
-    pd.DataFrame(rader).to_csv(tmp_path / "gdelt.csv.gz", index=False)
-    g = media.gdelt(tmp_path).set_index("parti")
-    assert g.loc["S", "artiklar"] == 40 and g.loc["S", "andel"] == 50
-    assert abs(g.loc["S", "ton"] - (30 * -2 + 10 * -4) / 40) < 1e-9
-
-
 def test_sakfragor_i_samma_artikel(tmp_path):
     pd.DataFrame([
         {"titel": "Moderaterna vill skärpa straffen för gängbrott", "beskrivning": "", "lank": "a", "hamtad": "2026-09-28T10:00"},
@@ -101,3 +88,18 @@ def test_partinamn_raknas_inte_som_sakfraga(tmp_path):
         .to_csv(tmp_path / "artiklar.csv.gz", index=False)
     s = media.sakfragor(tmp_path)
     assert s.artiklar.sum() == 0
+
+
+def test_som_fortroende_ur_layouttext(tmp_path):
+    (tmp_path / "txt").mkdir()
+    (tmp_path / "txt" / "som_fortroendetrender.txt").write_text(
+        "     Tabell 32d Andel mycket/ganska stort förtroende för radio och tv, efter bakgrundsfaktorer 1986–2024 (procent, eta)\n"
+        "                            2023   2024\n"
+        "          S amtliga          5 8    5 6\n"
+        "          Socialdemokraterna 71     67\n"
+        "          Kristdemokraterna  (47)   39\n"
+        "          Sverigedemokraterna 33    32\n"
+        "          eta               0.31   0.31\n", encoding="utf-8")
+    d = media.som_fortroende(tmp_path).set_index(["grupp", "ar"])
+    assert d.loc[("ALLA", 2024), "andel"] == 56 and d.loc[("SD", 2023), "andel"] == 33
+    assert bool(d.loc[("KD", 2023), "fa_svar"]) and not bool(d.loc[("KD", 2024), "fa_svar"])

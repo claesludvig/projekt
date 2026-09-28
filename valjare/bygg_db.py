@@ -937,7 +937,7 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
                                  "datum": str(r.datum)[:10], "foljare": int(r.foljare), "kalla": r.kalla,
                                  "konto": str(r.konto), "verifierad": None if pd.isna(getattr(r, "verifierad", None))
                                  else bool(r.verifierad)} for r in nu.itertuples()],
-                         "ej_matbara": ["Instagram", "Facebook", "X", "Threads"],
+                         "ej_matbara": ["Instagram", "Threads"],
                          "serie": {f"{p}|{roll}|{pl}": {"d": [str(x)[:10] for x in d.datum], "v": [int(x) for x in d.foljare]}
                                    for (p, roll, pl), d in fl.groupby(["parti", "roll", "plattform"]) if len(d) > 1}}
     om = t.get("media_omnamnanden", pd.DataFrame())
@@ -969,19 +969,20 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
     ut["mediebarometern"] = MEDIEBAROMETERN
     ut["politiknyheter_alder"] = POLITIKNYHETER_ALDER
     ut["forskning_media"] = FORSKNING
+    sf = t.get("som_fortroende", pd.DataFrame())
+    if len(sf):
+        m = sf[sf.institution.isin(["radio och tv", "dagspressen"])]
+        ar = sorted(m.ar.unique())
+        ut["medieforttroende"] = {"ar": [int(a) for a in ar], "v": {
+            i: {g: [None if pd.isna(x) else int(x) for x in d.set_index("ar").andel.reindex(ar)] for g, d in di.groupby("grupp")}
+            for i, di in m.groupby("institution")},
+            "fa": {i: {g: [int(a) for a in d[d.fa_svar].ar] for g, d in di.groupby("grupp")} for i, di in m.groupby("institution")}}
     wp = t.get("media_wikipedia", pd.DataFrame())
     if len(wp):
         man = sorted(wp.manad.unique())
         ut["wikipedia"] = {"manader": man, "namn": {f"{p}|{r}": d.namn.iloc[-1] for (p, r), d in wp.groupby(["parti", "roll"])},
                            "v": {f"{p}|{r}": [None if pd.isna(x) else int(x) for x in d.set_index("manad").visningar.reindex(man)]
                                  for (p, r), d in wp.groupby(["parti", "roll"])}}
-    gd = t.get("media_gdelt", pd.DataFrame())
-    if len(gd):
-        man = sorted(gd.manad.unique())
-        ut["gdelt"] = {"manader": man, **{k: {p: [_r(x) for x in d.set_index("manad")[k].reindex(man)] for p, d in gd.groupby("parti")}
-                                          for k in ("andel", "ton")},
-                       "artiklar": {p: [None if pd.isna(x) else int(x) for x in d.set_index("manad").artiklar.reindex(man)]
-                                    for p, d in gd.groupby("parti")}}
     sf = t.get("media_sakfragor", pd.DataFrame())
     if len(sf):
         from verklighet_katalog import FRAGOR
