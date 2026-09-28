@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "208 rader (förra 208)",
-   "varde": 208.0
+   "detalj": "207 rader (förra 208)",
+   "varde": 207.0
   },
   {
    "grupp": "volym",
@@ -1475,7 +1475,7 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "2059 rader (förra 0)",
+   "detalj": "2059 rader (förra 2059)",
    "varde": 2059.0
   },
   {
@@ -1499,7 +1499,7 @@
    "id": "rader_media_rd_aktivitet",
    "beskrivning": "Tabell media_rd_aktivitet",
    "status": "ok",
-   "detalj": "104 rader (förra 0)",
+   "detalj": "104 rader (förra 104)",
    "varde": 104.0
   },
   {
@@ -1515,7 +1515,7 @@
    "id": "rader_norden",
    "beskrivning": "Tabell norden",
    "status": "ok",
-   "detalj": "2448 rader (förra 2264)",
+   "detalj": "2448 rader (förra 2448)",
    "varde": 2448.0
   },
   {

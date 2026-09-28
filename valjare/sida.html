@@ -1364,7 +1364,7 @@ function renderWiki(){
 function renderGdelt(){
   const G = D.gdelt;
   ["h-gs-ton", "c-gs-ton", "not-gs-ton"].forEach(id => $(id).hidden = !G);
-  if (!G) { $("c-gs-gdelt").innerHTML = `<p class="note">Nyhetsdatan från GDELT är inte hämtad ännu.</p>`; $("not-gs-gdelt").textContent = ""; return; }
+  if (!G) { $("c-gs-gdelt").innerHTML = `<p class="note">Den långa serien över omnämnanden i svenska nyheter (GDELT) har inte gått att hämta: tjänsten begränsar antalet frågor hårt. Till dess visas bara redaktionernas egna flöden nedan.</p>`; $("not-gs-gdelt").textContent = ""; return; }
   const n = G.manader.length - 1, man = G.manader.slice(0, n), xs = man.map(manDec), tt = x => manTxt(man[xs.indexOf(x)]);
   lineChart($("c-gs-gdelt"), {xs, height: 260, yMin: 0, series: P.filter(p => G.andel[p]).map(p => ({name: PNAMN[p], lbl: p, c: pc(p), hl: true, w: 1.6, v: glid(G.andel[p].slice(0, n), 3)})),
     tipTitle: tt, focus: () => true, hoger: 40});
