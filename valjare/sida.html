@@ -191,8 +191,8 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <h3>Opinion och beslut</h3>
     <p class="note">Klicka på ett förslag för att se riksdagens beslut i samma sak och hur partierna röstade. Fylld ruta: ja till utskottets förslag. Tom ruta: nej. Streckad: avstod. Vid flera voteringar visas den med flest nej-röster.</p>
     <div id="rd-opinion"></div>
-    <h3 style="margin-top:14px">Hur ofta röstar partierna lika?</h3>
-    <div class="controls"><label class="ctl">Mandatperiod <select id="sel-rdper"></select></label></div>
+    <h3 style="margin-top:14px" id="h-rd-samst">Hur ofta röstar partierna lika?</h3>
+    <div class="controls" id="ctl-rd-samst"><label class="ctl">Mandatperiod <select id="sel-rdper"></select></label></div>
     <div class="chart" id="c-rd-samst"></div>
     <p class="note" id="not-rd-samst"></p>
     <h3 style="margin-top:14px">Propositioner per sakfråga och riksmöte</h3>
@@ -1151,7 +1151,9 @@ function renderRiksdag(){
     $("t-rd-akt").innerHTML = `<tr><th>Fråga</th>${A.rm.map(r=>`<th class="n">${r.slice(2)}</th>`).join("")}</tr>` + FR_ORDNING.filter(f=>A.v[f]).map(f => `<tr><td>${esc(nm[f]||f)}</td>${A.v[f].map((x,i)=>{ const a = Math.sqrt(x/hi), c = mix(c0, bg, 0.08 + 0.8*a); return `<td class="c" style="background:${c};color:${a>0.6?textOn(c):"var(--ink)"}" title="${A.rm[i]}: ${x} propositioner">${x||""}</td>`; }).join("")}</tr>`).join(""); }
 }
 function renderSamst(){
-  const S = D.rd_samst, el = $("c-rd-samst"); if (!S) { el.innerHTML = ""; return; }
+  const S = D.rd_samst, el = $("c-rd-samst");
+  ["h-rd-samst", "ctl-rd-samst", "c-rd-samst", "not-rd-samst"].forEach(id => $(id).hidden = !S);
+  if (!S) return;
   const per = $("sel-rdper").value, M = S[per]; if (!M) return;
   const W = Math.min(Math.max(el.clientWidth, 280), 420), lw = 36, cw = (W - lw) / P.length, H = lw + cw * P.length;
   let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Hur ofta partierna röstar lika">`;
