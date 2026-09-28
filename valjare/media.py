@@ -7,6 +7,10 @@ Tabeller:
   media_google_nyheter  artiklar per parti och dag i Google Nyheters sökflöde
   media_talartid      anföranden och ord per parti och riksmöte, även per ledamot
   media_annonser      Googles politiska annonser: utgifter per parti och år
+  media_wikipedia     sidvisningar per månad på svenska Wikipedia, parti och partiledare
+  media_gdelt         svenskspråkiga nyhetsartiklar som nämner partiet per månad (GDELT), andel och ton
+  media_sakfragor     sakfrågor som nämns i samma artikel som partiet (nyhetsflödena)
+  media_rd_aktivitet  motioner, interpellationer och skriftliga frågor per parti och riksmöte
 
 Följare är inte räckvidd: de säger hur många som valt att följa ett konto, inte hur många som
 ser inläggen. Omnämnanden räknas i rubrik och ingress och kan vara både positiva och negativa.
@@ -133,6 +137,77 @@ def annonser(mapp: Path) -> pd.DataFrame:
     return ut
 
 
+def wikipedia(mapp: Path) -> pd.DataFrame:
+    f = mapp / "wikipedia_visningar.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    d = pd.read_csv(f)
+    return d[d.parti.isin(PARTIER)].sort_values(["parti", "roll", "manad"]).reset_index(drop=True)
+
+
+def gdelt(mapp: Path) -> pd.DataFrame:
+    """Per parti och månad: artiklar som nämner partiet, andel av alla partiomnämnanden och genomsnittlig ton
+    (vägd med antalet artiklar per dag). GDELT:s ton går från -100 till +100; nyheter ligger oftast under noll."""
+    f = mapp / "gdelt.csv.gz"
+    if not f.exists():
+        return pd.DataFrame()
+    d = pd.read_csv(f, dtype={"dag": str})
+    d["manad"] = d.dag.str[:4] + "-" + d.dag.str[4:6]
+    art = d[d.matt == "artiklar"][["parti", "dag", "manad", "varde"]].rename(columns={"varde": "artiklar"})
+    ton = d[d.matt == "ton"][["parti", "dag", "varde"]].rename(columns={"varde": "ton"})
+    m = art.merge(ton, on=["parti", "dag"], how="left")
+    m["tonvikt"] = m.ton * m.artiklar
+    g = m.groupby(["manad", "parti"]).agg(artiklar=("artiklar", "sum"), tonvikt=("tonvikt", "sum")).reset_index()
+    g["ton"] = g.tonvikt / g.artiklar.replace(0, np.nan)
+    g["andel"] = 100 * g.artiklar / g.groupby("manad").artiklar.transform("sum").replace(0, np.nan)
+    # Pågående månad är ofullständig men andelen är jämförbar; totalen jämförs inte
+    return g.drop(columns="tonvikt")
+
+
+def sakfragor(mapp: Path, ledare: dict[str, str] | None = None) -> pd.DataFrame:
+    """Hur ofta partiet nämns i samma artikel som en sakfråga (media_katalog.SAKORD), i nyhetsflödena
+    och Google Nyheter. Andel av partiets artiklar; en artikel kan höra till flera frågor."""
+    from media_katalog import SAKORD as ORD
+    f = mapp / "artiklar.csv.gz"
+    if not f.exists():
+        return pd.DataFrame()
+    a = pd.read_csv(f, dtype=str).drop_duplicates("lank")
+    text = a.titel.fillna("") + " " + a.beskrivning.fillna("")
+    # Partinamnen tas bort innan frågorna söks, annars träffar "Miljöpartiet" frågan miljö
+    lag = text.str.replace("|".join(f"(?:{rx})" for rx in OMNAMNANDE.values()), " ", regex=True).str.lower()
+    rader = []
+    for p, rx in OMNAMNANDE.items():
+        m = text.str.contains(rx, regex=True)
+        if ledare and ledare.get(p):
+            m = m | text.str.contains(re.escape(ledare[p]), regex=True)
+        n = int(m.sum())
+        if not n:
+            continue
+        for fr, orx in ORD.items():
+            k = int((m & lag.str.contains(orx, regex=True)).sum())
+            rader.append({"parti": p, "fraga": fr, "artiklar": k, "partiets_artiklar": n, "andel": 100 * k / n})
+    ut = pd.DataFrame(rader)
+    if len(ut):
+        tid = pd.to_datetime(a.hamtad, errors="coerce")
+        ut["fran"], ut["till"] = str(tid.min())[:10], str(tid.max())[:10]
+    return ut
+
+
+def rd_aktivitet(rd_mapp: Path, ledamoter: pd.DataFrame | None) -> pd.DataFrame:
+    f = rd_mapp / "aktivitet.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    d = pd.read_csv(f, dtype={"rm": str}).pivot_table(index=["rm", "parti"], columns="typ", values="antal",
+                                                      aggfunc="sum").reset_index()
+    d.columns.name = None
+    if ledamoter is not None and len(ledamoter):
+        n = ledamoter[ledamoter.voteringar > 0].groupby(["rm", "parti"]).size().rename("ledamoter")
+        d = d.merge(n, on=["rm", "parti"], how="left")
+        typer = [c for c in ("mot", "ip", "fr") if c in d]
+        d["per_ledamot"] = d[typer].sum(axis=1) / d.ledamoter
+    return d
+
+
 def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.DataFrame]:
     mapp = data_dir / "media"
     fl, nu = foljare(mapp)
@@ -147,4 +222,7 @@ def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.
     return {"media_foljare": fl, "media_foljare_nu": nu, "media_omnamnanden": om, "media_google_nyheter": gn,
             "media_talartid": talartid(data_dir / "riksdagen", ledamoter if ledamoter is not None else pd.DataFrame()),
             "media_annonser": annonser(mapp),
+            "media_wikipedia": wikipedia(mapp), "media_gdelt": gdelt(mapp),
+            "media_sakfragor": sakfragor(mapp, ledare),
+            "media_rd_aktivitet": rd_aktivitet(data_dir / "riksdagen", ledamoter),
             "media_ledare": pd.DataFrame([{"parti": p, "namn": n} for p, n in ledare.items()])}

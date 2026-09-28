@@ -69,3 +69,30 @@ ANNONSOR = {
     "L": r"(?i)liberalerna|folkpartiet liberalerna",
     "MP": r"(?i)miljöpartiet",
 }
+
+# Sakfrågor i nyhetstext (gemener, efter att partinamnen tagits bort). Hela ord från ordets början, så att
+# "skolval" inte blir skola och "relevant" inte blir elev. Grövre än klassningen av riksdagens ärenden.
+SAKORD = {
+    "lag": r"\b(?:brott\w*|gäng\w*|skjutning\w*|sprängning\w*|polis\w*|straff\w*|fängelse\w*|kriminal\w*|"
+           r"åklagar\w*|mord\w*|trygghet\w*|otrygg\w*)",
+    "sjukvard": r"\b(?:sjukvård\w*|vården|vårdkö\w*|väntetid\w*|sjukhus\w*|akuten|vårdcentral\w*|primärvård\w*|"
+                r"psykiatri\w*|patient\w*)",
+    "aldre": r"\b(?:äldreomsorg\w*|äldreboende\w*|hemtjänst\w*|de äldre)",
+    "skola": r"\b(?:skolan|skolor\w*|skolans|grundskol\w*|gymnasi\w*|friskol\w*|lärare\w*|elever\w*|eleven|"
+             r"betyg\w*|förskol\w*|läroplan\w*)",
+    "jobb": r"\b(?:arbetslös\w*|jobben|jobbskatteavdrag\w*|sysselsättning\w*|a-kassa\w*|arbetsförmedling\w*|varsel\w*)",
+    "ekonomi": r"\b(?:ekonomin|budget\w*|inflation\w*|riksbank\w*|styrränt\w*|konjunktur\w*|lågkonjunktur\w*|bnp)\b",
+    "egen_ekonomi": r"\b(?:matpris\w*|hushållens|bensinpris\w*|dieselpris\w*|drivmedel\w*|levnadskostnad\w*|"
+                    r"hyreshöjning\w*)",
+    "invandring": r"\b(?:invandr\w*|migration\w*|asyl\w*|flykting\w*|utvisning\w*|medborgarskap\w*|integration\w*|"
+                  r"återvandring\w*)",
+    "valfard": r"\b(?:välfärd\w*|försörjningsstöd\w*|bidragstak\w*|fattigdom\w*|socialtjänst\w*)",
+    "skatter": r"\b(?:skatt\w*)",
+    "klimat": r"\b(?:klimat\w*|utsläpp\w*)",
+    "miljo": r"\b(?:miljön|miljöfråg\w*|miljöpolitik\w*|naturskydd\w*|biologisk mångfald)",
+    "energi": r"\b(?:kärnkraft\w*|elpris\w*|energi\w*|vindkraft\w*|elnät\w*|elproduktion\w*|reaktor\w*)",
+    "bostad": r"\b(?:bostad\w*|bostäder\w*|hyresrätt\w*|bolån\w*|amorter\w*)",
+    "pension": r"\b(?:pension\w*)",
+    "jamstalldhet": r"\b(?:jämställd\w*|mäns våld|kvinnofrid\w*|feminis\w*)",
+    "forsvar": r"\b(?:försvar\w*|nato|militär\w*|värnplikt\w*|totalförsvar\w*)",
+}

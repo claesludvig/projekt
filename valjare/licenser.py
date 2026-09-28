@@ -33,6 +33,13 @@ LICENSER = [
      "https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/"),
     ("Nationella trygghetsundersökningen", "Brå", "oppen", "Officiell statistik; ange Brå som källa.",
      "https://bra.se/statistik"),
+    ("Wikidata (följare, partiledare)", "Wikimedia Foundation", "oppen", "CC0; ingen källhänvisning krävs.",
+     "https://www.wikidata.org/wiki/Wikidata:Licensing"),
+    ("Wikimedias sidvisningar", "Wikimedia Foundation", "oppen", "Statistiken är fri att återanvända (CC0).",
+     "https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews"),
+    ("GDELT DOC 2.0 (nyhetsomnämnanden och ton)", "The GDELT Project", "oppen",
+     "Fri användning med källhänvisning till GDELT. Artiklarna själva återpubliceras inte, bara antal och ton.",
+     "https://www.gdeltproject.org/about.html#termsofuse"),
     ("SVT:s vallokalsundersökning (Valu)", "SVT", "avstamning",
      "Rapporterna är upphovsrättsskyddade. Databasen återpublicerar tabeller per väljargrupp 1991–2026; "
      "begär tillstånd innan sidan sprids.", "https://omoss.svt.se/"),

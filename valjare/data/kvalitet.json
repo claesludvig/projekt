@@ -2,7 +2,7 @@
  "skapad": "2026-09-28",
  "status": "varning",
  "antal": {
-  "ok": 197,
+  "ok": 201,
   "varning": 3
  },
  "kontroller": [
@@ -1019,8 +1019,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "501 artiklar i 7 flöden",
-   "varde": 501.0
+   "detalj": "512 artiklar i 7 flöden",
+   "varde": 512.0
   },
   {
    "grupp": "aktualitet",
@@ -1235,7 +1235,7 @@
    "id": "rader_verklighet",
    "beskrivning": "Tabell verklighet",
    "status": "ok",
-   "detalj": "13521 rader (förra 13445)",
+   "detalj": "13521 rader (förra 13521)",
    "varde": 13521.0
   },
   {
@@ -1243,7 +1243,7 @@
    "id": "rader_verklighet_indikator",
    "beskrivning": "Tabell verklighet_indikator",
    "status": "ok",
-   "detalj": "100 rader (förra 99)",
+   "detalj": "100 rader (förra 100)",
    "varde": 100.0
   },
   {
@@ -1259,7 +1259,7 @@
    "id": "rader_verklighet_forandring",
    "beskrivning": "Tabell verklighet_forandring",
    "status": "ok",
-   "detalj": "259 rader (förra 255)",
+   "detalj": "259 rader (förra 259)",
    "varde": 259.0
   },
   {
@@ -1435,8 +1435,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "207 rader (förra 207)",
-   "varde": 207.0
+   "detalj": "208 rader (förra 207)",
+   "varde": 208.0
   },
   {
    "grupp": "volym",
@@ -1450,6 +1450,38 @@
    "grupp": "volym",
    "id": "rader_media_annonser",
    "beskrivning": "Tabell media_annonser",
+   "status": "ok",
+   "detalj": "0 rader (förra 0)",
+   "varde": 0.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_wikipedia",
+   "beskrivning": "Tabell media_wikipedia",
+   "status": "ok",
+   "detalj": "0 rader (förra 0)",
+   "varde": 0.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_gdelt",
+   "beskrivning": "Tabell media_gdelt",
+   "status": "ok",
+   "detalj": "0 rader (förra 0)",
+   "varde": 0.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_sakfragor",
+   "beskrivning": "Tabell media_sakfragor",
+   "status": "ok",
+   "detalj": "136 rader (förra 136)",
+   "varde": 136.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_media_rd_aktivitet",
+   "beskrivning": "Tabell media_rd_aktivitet",
    "status": "ok",
    "detalj": "0 rader (förra 0)",
    "varde": 0.0
@@ -1507,8 +1539,8 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "12 rader (förra 12)",
-   "varde": 12.0
+   "detalj": "15 rader (förra 15)",
+   "varde": 15.0
   },
   {
    "grupp": "rimlighet",
