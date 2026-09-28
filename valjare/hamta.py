@@ -8,6 +8,8 @@
   data/kallor/pdf och textextraheras sida för sida till data/kallor/txt.
 - Länksidor (Brå NTU, Valmyndigheten, GU): skrapas efter pdf/xlsx-länkar.
   Excelfiler sparas i data/kallor/xlsx med en översikt per flik i txt.
+- Riksdagen (data.riksdagen.se): propositioner, betänkanden och voteringar
+  (aggregerade per parti och per ledamot) till data/riksdagen.
 
 Allt loggas i data/katalog/hamtlogg.json. Tolkning och harmonisering görs i
 bygg_db.py, som bara läser det som ligger på disk här."""
@@ -527,6 +529,138 @@ def hamta_riksbanken():
             logg["fel"].append(f"riksbanken {serie}: {exc}")
 
 
+# ---------- Riksdagen (data.riksdagen.se) ----------
+
+RD_API = "https://data.riksdagen.se"
+RD_FORSTA = 2014   # riksmöte 2014/15, början av mandatperioden 2014–2018
+
+
+def _riksmoten() -> list[str]:
+    nu = datetime.now(timezone.utc)
+    sista = nu.year if nu.month >= 9 else nu.year - 1
+    return [f"{a}/{str(a + 1)[2:]}" for a in range(RD_FORSTA, sista + 1)]
+
+
+def _rd_dokument(doktyp: str, rm: str) -> pd.DataFrame:
+    """Alla dokument av en typ under ett riksmöte (dokumentlistan, sida för sida)."""
+    url, par, rader, sidor = f"{RD_API}/dokumentlista/", {
+        "doktyp": doktyp, "rm": rm, "utformat": "json", "sz": 500, "sort": "datum", "sortorder": "asc"}, [], 0
+    while url and sidor < 40:
+        j = http("GET", url, params=par).json().get("dokumentlista", {})
+        dok = j.get("dokument") or []
+        rader += dok if isinstance(dok, list) else [dok]
+        url, par, sidor = j.get("@nasta_sida"), None, sidor + 1
+    falt = ["dok_id", "rm", "beteckning", "doktyp", "typ", "subtyp", "organ", "titel", "undertitel",
+            "datum", "dokument_url_html"]
+    return pd.DataFrame([{f: r.get(f) for f in falt} for r in rader]).drop_duplicates("dok_id") \
+        if rader else pd.DataFrame(columns=falt)
+
+
+def _rd_voteringar(rm: str) -> pd.DataFrame | None:
+    """Voteringarna per ledamot för ett riksmöte: bulkfilen, annars API:t (csv)."""
+    import io
+    import zipfile
+    kort = rm.replace("/", "")
+    kandidater = [f"{RD_API}/dataset/votering/votering-{kort}.csv.zip"]
+    try:
+        sida = http("GET", f"{RD_API}/data/voteringar/").text
+        kandidater += [urljoin(f"{RD_API}/data/voteringar/", h) for h in re.findall(r'href="([^"]+)"', sida)
+                       if re.search(rf"votering-{kort}\.csv\.zip", h)]
+    except Exception:  # noqa: BLE001
+        pass
+    for u in dict.fromkeys(kandidater):
+        try:
+            r = http("GET", u)
+            if r.status_code != 200 or not r.content[:2] == b"PK":
+                continue
+            with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                namn = next(n for n in z.namelist() if n.lower().endswith(".csv"))
+                with z.open(namn) as f:
+                    return pd.read_csv(f, dtype=str, encoding="utf-8-sig")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"riksdagen votering {rm} {u}: {exc}")
+    try:
+        r = http("GET", f"{RD_API}/voteringlista/", params={"rm": rm, "sz": 1_000_000, "utformat": "csv"})
+        if r.status_code == 200 and len(r.content) > 1000:
+            return pd.read_csv(io.StringIO(r.content.decode("utf-8-sig")), dtype=str)
+    except Exception as exc:  # noqa: BLE001
+        logg["fel"].append(f"riksdagen voteringlista {rm}: {exc}")
+    return None
+
+
+def _rd_aggregera(v: pd.DataFrame, rm: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Per votering och parti respektive per ledamot: antal ja, nej, avstår, frånvarande."""
+    v = v.rename(columns=str.lower)
+    rost = v["rost"].str.lower().str.strip().map(
+        {"ja": "ja", "nej": "nej", "avstår": "avstar", "frånvarande": "franvarande"})
+    v = v.assign(r=rost).dropna(subset=["r"])
+    nycklar = [c for c in ("rm", "beteckning", "punkt", "votering_id", "avser", "votering", "datum")
+               if c in v.columns]
+    per_parti = v.groupby(nycklar + ["parti", "r"], dropna=False).size().unstack(fill_value=0).reset_index()
+    led = [c for c in ("intressent_id", "namn", "fornamn", "efternamn", "parti", "valkrets", "kon", "fodd")
+           if c in v.columns]
+    per_led = v.groupby(led + ["r"], dropna=False).size().unstack(fill_value=0).reset_index().assign(rm=rm)
+    return per_parti, per_led
+
+
+def hamta_riksdagen(tvinga: bool = False):
+    """Propositioner, betänkanden, voteringar (aggregerade) och propositionernas betänkanden."""
+    ut = DATA_DIR / "riksdagen"
+    ut.mkdir(parents=True, exist_ok=True)
+    rmlista = _riksmoten()
+    for i, rm in enumerate(rmlista):
+        kort = rm.replace("/", "")
+        farsk = tvinga or i >= len(rmlista) - 2   # de två senaste riksmötena hämtas alltid
+        for doktyp in ("prop", "bet"):
+            f = ut / f"{doktyp}_{kort}.csv"
+            if f.exists() and not farsk:
+                continue
+            try:
+                d = _rd_dokument(doktyp, rm)
+                d.to_csv(f, index=False)
+                print(f"  riksdagen {doktyp} {rm}: {len(d)}")
+            except Exception as exc:  # noqa: BLE001
+                logg["fel"].append(f"riksdagen {doktyp} {rm}: {exc}")
+        f = ut / f"votering_{kort}.csv.gz"
+        if f.exists() and not farsk:
+            continue
+        v = _rd_voteringar(rm)
+        if v is None or v.empty:
+            print(f"  riksdagen voteringar {rm}: inga")
+            continue
+        try:
+            pp, pl = _rd_aggregera(v, rm)
+            pp.to_csv(f, index=False, compression={"method": "gzip", "mtime": 0})
+            pl.to_csv(ut / f"ledamot_{kort}.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
+            print(f"  riksdagen voteringar {rm}: {len(v)} röster, {pp.votering_id.nunique()} voteringar")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"riksdagen aggregera {rm}: {exc} ({list(v.columns)[:25]})")
+    # Propositionernas betänkanden (dokumentstatus), bara de som saknas
+    f = ut / "prop_bet.csv"
+    gamla = pd.read_csv(f, dtype=str) if f.exists() else pd.DataFrame(columns=["prop_id", "bet_rm", "bet"])
+    klara = set(gamla.prop_id)
+    props = pd.concat([pd.read_csv(x, dtype=str) for x in sorted(ut.glob("prop_*.csv"))
+                       if x.stat().st_size > 50], ignore_index=True)
+    nya = []
+    for pid, rm in zip(props.dok_id, props.rm):
+        if pid in klara or not isinstance(pid, str):
+            continue
+        try:
+            j = http("GET", f"{RD_API}/dokumentstatus/{pid}.json").json().get("dokumentstatus", {})
+            ref = (j.get("dokreferens") or {}).get("referens") or []
+            ref = ref if isinstance(ref, list) else [ref]
+            bet = [(r.get("ref_dok_rm") or rm, r.get("ref_dok_bet")) for r in ref
+                   if (r.get("ref_dok_typ") or "").lower() == "bet" and r.get("ref_dok_bet")]
+            nya += [{"prop_id": pid, "bet_rm": a, "bet": b} for a, b in dict.fromkeys(bet)] or \
+                   [{"prop_id": pid, "bet_rm": None, "bet": None}]
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"riksdagen dokumentstatus {pid}: {exc}")
+        if len(nya) and len(nya) % 200 == 0:
+            pd.concat([gamla, pd.DataFrame(nya)]).to_csv(f, index=False)
+    pd.concat([gamla, pd.DataFrame(nya, columns=["prop_id", "bet_rm", "bet"])]).to_csv(f, index=False)
+    print(f"  riksdagen: {len(nya)} nya kopplingar proposition → betänkande")
+
+
 # ---------- geodata ----------
 
 GEO_DIR = DATA_DIR / "geo_ra"      # råfiler, ej i git (stora)
@@ -652,7 +786,8 @@ def hamta_geodata():
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka"], default="alla",
+    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka", "riksdagen"],
+                   default="alla",
                    help="vecka = bara månadsserierna till lägesbilden (SCB, Polisen, Riksbanken)")
     p.add_argument("--tema", help="bara ett SCB-tema (t.ex. psu)")
     p.add_argument("--tvinga", action="store_true", help="hämta allt, även oförändrat")
@@ -667,6 +802,8 @@ def main():
         hamta_varldsbanken()
     if a.steg in ("alla", "geo"):
         hamta_geodata()
+    if a.steg in ("alla", "riksdagen", "vecka"):
+        hamta_riksdagen(a.tvinga)
     if a.steg == "vecka":
         hamta_scb("manad,priser", a.tvinga)
         hamta_dokument(a.tvinga, bara_sidor={"polisen"})
