@@ -48,6 +48,19 @@ def aktualitet(t: dict, idag: date) -> list[dict]:
             ar = int(np.floor(d.ar_dec.max()))
             ut.append(_k("aktualitet", f"norden_{sid}", f"Eurostat: {d.namn.iloc[0]}",
                          "varning" if ar < idag.year - ARSSERIE_LAG else "ok", f"senaste år för Sverige {ar}", ar))
+    om = t.get("media_omnamnanden", pd.DataFrame())
+    gn = t.get("media_google_nyheter", pd.DataFrame())
+    if len(gn):
+        dagar = (pd.Timestamp(idag) - pd.to_datetime(gn.dag).max()).days
+        ut.append(_k("aktualitet", "nyhetsfloden", "Nyhetsflödena (Google Nyheter)",
+                     "varning" if dagar > 7 else "ok", f"senaste artikel för {dagar} dagar sedan", dagar))
+    if len(om):
+        n = int(om.drop_duplicates(["vecka", "flode"]).totalt.sum())
+        ut.append(_k("aktualitet", "redaktionsfloden", "Redaktionernas nyhetsflöden", "ok" if n > 0 else "varning",
+                     f"{n} artiklar i {om.flode.nunique()} flöden", n))
+    fl = t.get("media_foljare_nu", pd.DataFrame())
+    ut.append(_k("aktualitet", "wikidata_foljare", "Följarantal från Wikidata", "ok" if len(fl) else "varning",
+                 f"{len(fl)} konton med följarantal" if len(fl) else "inga följarantal hämtade", len(fl)))
     dok = t.get("riksdag_dokument", pd.DataFrame())
     if len(dok):
         sista = pd.to_datetime(dok.datum, errors="coerce").max()

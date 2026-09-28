@@ -55,6 +55,12 @@ EVIDENS = [
      "Utveckling, kapacitet och mål per område i Sverige, jämfört med de nordiska grannländerna och EU-snittet.",
      "Varför länderna skiljer sig. Definitioner och registrering skiljer sig mellan länder (särskilt för brott), "
      "och en högre eller lägre nivå är inte i sig bättre eller sämre. Kunskapsluckorna står uttryckligen per område."),
+    ("genomslag", "Genomslag", "beskrivande",
+     "Hur många som följer partierna och partiledarna, hur ofta partierna nämns i nyhetsflödena, "
+     "hur mycket de talar i riksdagen och hur mycket de annonserade hos Google.",
+     "Räckvidd eller påverkan. Följare är inte räckvidd, och Wikidata uppdateras ojämnt. Nyhetsflödena "
+     "täcker ett urval redaktioner och bara rubrik och ingress; ett omnämnande kan vara positivt eller "
+     "negativt. Historiken i flödena börjar när insamlingen startade."),
     ("sammansattning", "Vilka röstar på partierna", "beskrivande",
      "Hur partiernas väljare fördelar sig på grupper enligt Valforskningsprogrammet och PSU.",
      "PSU mäter sympati i maj/november, inte röster. Gruppernas storlek i PSU är skattad "

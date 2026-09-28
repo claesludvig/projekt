@@ -26,6 +26,11 @@ Sidan `index.html` börjar med två avsnitt för den som ska fatta beslut:
    riksdagens senaste beslut, SOM-förslag, myndigheter som utvärderar området och öppet
    redovisade kunskapsluckor (`omraden.py`, `norden.py`).
 
+5. **Genomslag**: följare per parti, partiledare och plattform (Wikidata), omnämnanden i
+   redaktionernas nyhetsflöden och i Google Nyheter (samlas in dagligen av
+   `.github/workflows/valjare_media.yml`), talartid i riksdagen (anföranden) och Googles
+   politiska annonser. Utan API-nycklar; källor och sökmönster i `media_katalog.py`.
+
 Därefter följer väljaranalysen (sammansättning per parti, skiftet sedan 2006, Valu,
 kommunsamband, län, valdistrikt, sakfrågor och verklighet, NTU).
 
@@ -82,6 +87,8 @@ Riktning och målnivå anges bara där riksdagen, lagen, Riksbanken eller ett in
 - `riksdag_dokument`, `riksdag_beslut`, `riksdag_aktivitet`, `riksdag_samstammighet`,
   `riksdag_parti_fraga`, `riksdag_ledamot`, `opinion`, `opinion_forslag`, `opinion_beslut`
 - `norden`
+- `media_foljare`, `media_foljare_nu`, `media_omnamnanden`, `media_google_nyheter`,
+  `media_talartid`, `media_annonser`
 - `evidensniva`
 - `kalla`, `kontroll`, `varningar`
 

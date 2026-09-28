@@ -34,6 +34,7 @@ import fragor
 import metod
 import kontroller
 import lagesbild
+import media
 from licenser import LICENSER, STATUS_TEXT
 import norden as nordm
 from omraden import OMRADEN
@@ -684,6 +685,7 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
     ut.update(webb_lage(tabeller))
     ut.update(webb_riksdag(tabeller))
     ut.update(webb_omraden(tabeller))
+    ut.update(webb_media(tabeller))
     kv = tabeller.get("kvalitet", pd.DataFrame())
     if len(kv):
         ut["kvalitet"] = {"status": max(kv.status, key=kontroller.ORDNING.get),
@@ -924,6 +926,43 @@ def webb_riksdag(t: dict[str, pd.DataFrame]) -> dict:
     return ut
 
 
+def webb_media(t: dict[str, pd.DataFrame]) -> dict:
+    ut = {}
+    nu = t.get("media_foljare_nu", pd.DataFrame())
+    fl = t.get("media_foljare", pd.DataFrame())
+    if len(nu):
+        ut["foljare"] = {"nu": [{"parti": r.parti, "roll": r.roll, "namn": r.namn, "plattform": r.plattform,
+                                 "datum": str(r.datum)[:10], "foljare": int(r.foljare)} for r in nu.itertuples()],
+                         "serie": {f"{p}|{roll}|{pl}": {"d": [str(x)[:10] for x in d.datum], "v": [int(x) for x in d.foljare]}
+                                   for (p, roll, pl), d in fl.groupby(["parti", "roll", "plattform"]) if len(d) > 1}}
+    om = t.get("media_omnamnanden", pd.DataFrame())
+    if len(om):
+        tot = om.groupby(["vecka", "parti"]).artiklar.sum().unstack().fillna(0)
+        andel = 100 * tot.div(tot.sum(axis=1).replace(0, np.nan), axis=0)
+        per_flode = om.groupby(["flode", "parti"]).artiklar.sum().unstack().fillna(0)
+        ut["omnamnanden"] = {"veckor": list(tot.index), "antal": {p: [int(x) for x in tot.get(p, pd.Series(0, index=tot.index))] for p in PARTIER},
+                             "andel": {p: [_r(x) for x in andel.get(p, pd.Series(np.nan, index=andel.index))] for p in PARTIER},
+                             "flode": {f: {p: int(r.get(p, 0)) for p in PARTIER} for f, r in per_flode.iterrows()},
+                             "artiklar": int(om.drop_duplicates(["vecka", "flode"]).totalt.sum())}
+    gn = t.get("media_google_nyheter", pd.DataFrame())
+    if len(gn):
+        sista = sorted(gn.dag.unique())[-30:]
+        g = gn[gn.dag.isin(sista)].groupby("parti").artiklar.sum()
+        ut["google_nyheter"] = {"fran": sista[0], "till": sista[-1], "v": {p: int(g.get(p, 0)) for p in PARTIER}}
+    ta = t.get("media_talartid", pd.DataFrame())
+    if len(ta):
+        rm = sorted(ta.rm.unique())
+        kol = [c for c in ("anforanden", "ord", "repliker", "andel_av_orden", "andel_av_ledamoterna", "ord_per_ledamot") if c in ta]
+        ut["talartid"] = {"rm": rm, "v": {p: {c: [_r(x) for x in d.set_index("rm")[c].reindex(rm)] for c in kol}
+                                          for p, d in ta.groupby("parti")}}
+    an = t.get("media_annonser", pd.DataFrame())
+    if len(an):
+        ar = sorted(an.ar.unique())
+        ut["annonser"] = {"ar": [int(a) for a in ar], "valuta": an.valuta.iloc[0],
+                          "v": {p: [_r(x, 0) for x in d.set_index("ar").utgift.reindex(ar)] for p, d in an.groupby("parti")}}
+    return ut
+
+
 def webb_omraden(t: dict[str, pd.DataFrame]) -> dict:
     n = t.get("norden", pd.DataFrame())
     vk = t.get("verklighet", pd.DataFrame())
@@ -1022,6 +1061,9 @@ def main():
     print("Riksdagen och opinionen")
     rd = riksdag.bygg(DATA_DIR, KALL_DIR)
     print("  " + ", ".join(f"{k} {len(v)}" for k, v in rd.items()))
+    print("Genomslag")
+    med = media.bygg(DATA_DIR, rd.get("riksdag_ledamot"))
+    print("  " + ", ".join(f"{k} {len(v)}" for k, v in med.items()))
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -1042,7 +1084,7 @@ def main():
         "test_bilar": t_bil, "test_skjutningar": t_skj,
         "verklighet": verk, "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
-        **vk, **rd, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
+        **vk, **rd, **med, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),

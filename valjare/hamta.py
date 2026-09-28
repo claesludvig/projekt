@@ -562,6 +562,227 @@ def hamta_eurostat():
             print(f"  Eurostat {sid}: fel {exc}")
 
 
+# ---------- Genomslag: Wikidata, nyhetsflöden, annonser ----------
+
+MEDIA_DIR = DATA_DIR / "media"
+
+
+def _wd_hitta(sida: str) -> str | None:
+    """Wikipedia-artikel (språk:titel) -> Wikidata-objekt, via Special:ItemByTitle (ingen API)."""
+    sprak, titel = sida.split(":", 1)
+    r = http("GET", f"https://www.wikidata.org/wiki/Special:ItemByTitle/{sprak}wiki/{titel.replace(' ', '_')}",
+             allow_redirects=True)
+    m = re.search(r"/wiki/(Q\d+)", r.url) or re.search(r'"wgPageName":"(Q\d+)"', r.text)
+    return m[1] if m else None
+
+
+def _wd_entitet(qid: str) -> dict:
+    r = http("GET", f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
+    return r.json()["entities"][qid]
+
+
+def _wd_etikett(ent: dict) -> str:
+    lab = ent.get("labels", {})
+    return (lab.get("sv") or lab.get("en") or {}).get("value", ent.get("id", ""))
+
+
+def wd_foljare(ent: dict) -> list[dict]:
+    """Alla daterade följarantal (P8687) med plattform och konto."""
+    from media_katalog import PLATTFORM
+    ut = []
+    for st in ent.get("claims", {}).get("P8687", []):
+        v = st.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        if not isinstance(v, dict) or "amount" not in v:
+            continue
+        q = st.get("qualifiers", {})
+        tid = next((x["datavalue"]["value"]["time"] for x in q.get("P585", []) if "datavalue" in x), None)
+        plattform, konto = "okänd", None
+        for prop, namn in PLATTFORM.items():
+            if prop in q:
+                plattform = namn
+                konto = next((str(x["datavalue"]["value"]) for x in q[prop] if "datavalue" in x), None)
+                break
+        ut.append({"plattform": plattform, "konto": konto, "datum": tid[1:11] if tid else None,
+                   "foljare": float(v["amount"]), "rang": st.get("rank")})
+    return ut
+
+
+def wd_ordforande(ent: dict) -> list[str]:
+    """Nuvarande ordförande/partiledare (P488 utan slutdatum), senast tillträdd först."""
+    kand = []
+    for st in ent.get("claims", {}).get("P488", []):
+        q = st.get("qualifiers", {})
+        if "P582" in q:
+            continue
+        v = st.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        start = next((x["datavalue"]["value"]["time"] for x in q.get("P580", []) if "datavalue" in x), "")
+        if isinstance(v, dict) and v.get("id"):
+            kand.append((start, v["id"]))
+    return [q for _, q in sorted(kand, reverse=True)]
+
+
+def hamta_wikidata():
+    from media_katalog import PARTI_WIKI
+    MEDIA_DIR.mkdir(parents=True, exist_ok=True)
+    rader, objekt = [], []
+    for parti, sidor in PARTI_WIKI.items():
+        try:
+            qid = next((q for q in (_wd_hitta(x) for x in sidor) if q), None)
+            if not qid:
+                logg["fel"].append(f"wikidata {parti}: hittade inget objekt")
+                continue
+            ent = _wd_entitet(qid)
+            land = [c["mainsnak"].get("datavalue", {}).get("value", {}).get("id")
+                    for c in ent.get("claims", {}).get("P17", [])]
+            if "Q34" not in land:   # Sverige
+                logg["fel"].append(f"wikidata {parti}: {qid} är inte ett svenskt objekt ({land})")
+                continue
+            objekt.append({"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent)})
+            rader += [{"parti": parti, "roll": "parti", "qid": qid, "namn": _wd_etikett(ent), **f}
+                      for f in wd_foljare(ent)]
+            for lq in wd_ordforande(ent)[:1]:
+                le = _wd_entitet(lq)
+                objekt.append({"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le)})
+                rader += [{"parti": parti, "roll": "partiledare", "qid": lq, "namn": _wd_etikett(le), **f}
+                          for f in wd_foljare(le)]
+            print(f"  Wikidata {parti}: {qid}, {sum(1 for r in rader if r['parti'] == parti)} följarvärden")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"wikidata {parti}: {exc}")
+    pd.DataFrame(rader).to_csv(MEDIA_DIR / "foljare.csv", index=False)
+    pd.DataFrame(objekt).to_csv(MEDIA_DIR / "wikidata_objekt.csv", index=False)
+
+
+def las_flode(xml: str) -> list[dict]:
+    """RSS 2.0 eller Atom -> titel, beskrivning, länk, publicerad, källa."""
+    import xml.etree.ElementTree as ET
+    rot = ET.fromstring(xml.encode("utf-8") if isinstance(xml, str) else xml)
+    ut = []
+    for it in rot.iter():
+        tag = it.tag.split("}")[-1]
+        if tag not in ("item", "entry"):
+            continue
+        barn = {c.tag.split("}")[-1]: c for c in it}
+        text = lambda k: (barn[k].text or "").strip() if k in barn and barn[k].text else ""  # noqa: E731
+        lank = text("link") or (barn["link"].get("href", "") if "link" in barn else "")
+        ut.append({"titel": text("title"),
+                   "beskrivning": re.sub(r"<[^>]+>", " ", text("description") or text("summary"))[:400],
+                   "lank": lank, "publicerad": text("pubDate") or text("published") or text("updated"),
+                   "kalla_namn": text("source")})
+    return ut
+
+
+def hamta_rss():
+    from urllib.parse import quote
+
+    from media_katalog import FLODEN, GOOGLE_NYHETER, GOOGLE_SOK
+    MEDIA_DIR.mkdir(parents=True, exist_ok=True)
+    f = MEDIA_DIR / "artiklar.csv.gz"
+    gamla = pd.read_csv(f, dtype=str) if f.exists() else pd.DataFrame()
+    nu = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M")
+    nya = []
+    kallor = [(namn, url, None) for namn, url in FLODEN] + \
+             [("Google Nyheter", GOOGLE_NYHETER.format(q=quote(q)), p) for p, q in GOOGLE_SOK.items()]
+    for namn, url, parti in kallor:
+        try:
+            r = http("GET", url)
+            if r.status_code != 200:
+                raise RuntimeError(f"HTTP {r.status_code}")
+            art = las_flode(r.content)
+            nya += [{**a, "flode": namn, "sokt_parti": parti, "hamtad": nu} for a in art]
+            print(f"  RSS {namn}{' ' + parti if parti else ''}: {len(art)} artiklar")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"rss {namn} {parti or ''}: {exc}")
+    d = pd.concat([gamla, pd.DataFrame(nya, dtype=str)], ignore_index=True)
+    if len(d):
+        # Samma artikel kan komma i flera flöden och vid flera hämtningar: behåll första
+        d = d.drop_duplicates(["flode", "sokt_parti", "lank"], keep="first")
+        d.to_csv(f, index=False, compression={"method": "gzip", "mtime": 0})
+    print(f"  RSS: {len(nya)} hämtade, {len(d)} artiklar totalt")
+
+
+def hamta_google_annonser():
+    """Googles öppna paket med politiska annonser: bara svenska partiers annonsörer sparas."""
+    import tempfile
+    import zipfile
+
+    from media_katalog import ANNONSOR, GOOGLE_ANNONSER
+    MEDIA_DIR.mkdir(parents=True, exist_ok=True)
+    monster = "|".join(f"(?:{x[4:]})" for x in ANNONSOR.values())
+    try:
+        with tempfile.TemporaryFile() as tmp:
+            with session.get(GOOGLE_ANNONSER, stream=True, timeout=600) as r:
+                r.raise_for_status()
+                for bit in r.iter_content(1 << 20):
+                    tmp.write(bit)
+            tmp.seek(0)
+            with zipfile.ZipFile(tmp) as z:
+                for namn in z.namelist():
+                    if not re.search(r"advertiser-(weekly-spend|stats)\.csv$", namn):
+                        continue
+                    delar = []
+                    with z.open(namn) as fil:
+                        for bit in pd.read_csv(fil, dtype=str, chunksize=200_000):
+                            kol = next((c for c in bit.columns if re.search(r"(?i)advertiser_name", c)), None)
+                            if kol:
+                                delar.append(bit[bit[kol].str.contains(monster, case=False, regex=True, na=False)])
+                    ut = pd.concat(delar) if delar else pd.DataFrame()
+                    mal = MEDIA_DIR / ("google_annonser_vecka.csv" if "weekly" in namn else "google_annonsorer.csv")
+                    ut.to_csv(mal, index=False)
+                    print(f"  Google-annonser {namn}: {len(ut)} rader")
+    except Exception as exc:  # noqa: BLE001
+        logg["fel"].append(f"google annonser: {exc}")
+
+
+def hamta_anforanden(tvinga: bool = False):
+    """Riksdagens anföranden (bulkfiler): antal och ord per parti, riksmöte och typ av debatt."""
+    import io
+    import json as js
+    import zipfile
+    ut = DATA_DIR / "riksdagen"
+    ut.mkdir(parents=True, exist_ok=True)
+    rmlista = _riksmoten()
+    for i, rm in enumerate(rmlista):
+        kort = rm.replace("/", "")
+        f = ut / f"anforande_{kort}.csv.gz"
+        if f.exists() and not tvinga and i < len(rmlista) - 2:
+            continue
+        kandidater = [f"{RD_API}/dataset/anforande/anforande-{kort}.json.zip"]
+        try:
+            sida = http("GET", f"{RD_API}/data/anforanden/").text
+            kandidater += [urljoin(f"{RD_API}/data/anforanden/", h) for h in re.findall(r'href="([^"]+)"', sida)
+                           if re.search(rf"anforande-{kort}\.json\.zip", h)]
+        except Exception:  # noqa: BLE001
+            pass
+        rader = None
+        for u in dict.fromkeys(kandidater):
+            try:
+                r = http("GET", u)
+                if r.status_code != 200 or r.content[:2] != b"PK":
+                    continue
+                rader = []
+                with zipfile.ZipFile(io.BytesIO(r.content)) as z:
+                    for namn in z.namelist():
+                        if not namn.lower().endswith(".json"):
+                            continue
+                        a = js.loads(z.read(namn).decode("utf-8-sig")).get("anforande", {})
+                        text = re.sub(r"<[^>]+>", " ", a.get("anforandetext") or "")
+                        rader.append({"parti": (a.get("parti") or "").upper(), "datum": (a.get("dok_datum") or "")[:10],
+                                      "typ": a.get("kammaraktivitet") or "", "replik": a.get("replik") or "",
+                                      "ord": len(text.split()), "intressent_id": a.get("intressent_id")})
+                break
+            except Exception as exc:  # noqa: BLE001
+                logg["fel"].append(f"riksdagen anföranden {rm} {u}: {exc}")
+        if not rader:
+            continue
+        d = pd.DataFrame(rader)
+        d["manad"] = d.datum.str[:7]
+        agg = d.groupby(["manad", "parti", "typ", "replik"]).agg(
+            anforanden=("ord", "size"), ord=("ord", "sum"), talare=("intressent_id", "nunique")).reset_index()
+        agg.insert(0, "rm", rm)
+        agg.to_csv(f, index=False, compression={"method": "gzip", "mtime": 0})
+        print(f"  riksdagen anföranden {rm}: {len(d)}")
+
+
 # ---------- Riksdagen (data.riksdagen.se) ----------
 
 RD_API = "https://data.riksdagen.se"
@@ -855,7 +1076,7 @@ def hamta_geodata():
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka", "riksdagen"],
+    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka", "riksdagen", "media"],
                    default="alla",
                    help="vecka = bara månadsserierna till lägesbilden (SCB, Polisen, Riksbanken)")
     p.add_argument("--tema", help="bara ett SCB-tema (t.ex. psu)")
@@ -874,6 +1095,12 @@ def main():
         hamta_geodata()
     if a.steg in ("alla", "riksdagen", "vecka"):
         hamta_riksdagen(a.tvinga)
+        hamta_anforanden(a.tvinga)
+    if a.steg in ("alla", "vecka", "media"):
+        hamta_wikidata()
+        hamta_rss()
+    if a.steg == "alla":
+        hamta_google_annonser()
     if a.steg == "vecka":
         hamta_scb("manad,priser", a.tvinga)
         hamta_dokument(a.tvinga, bara_sidor={"polisen"})
