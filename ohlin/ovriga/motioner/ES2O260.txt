@@ -1,0 +1,289 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 260 år 1967
+11
+Nr 260
+Av herrar Hedlund och Ohlin, i anledning av Kungl. Maj ds
+framställning om anslag till Bidrag till driften av familjedaghem,
+ m. in.
+(Lika lydande med motion nr 204 i Första kammaren)
+Omfattningen av barntillsynen
+Frågan om barntillsynen har först på senare år blivit en förgrundsfråga 
+i den allmänna debatten. Samhällets utveckling har ändrat förutsättningarna 
+för tillsynen av barnen. Från att helt ha varit en familjens 
+ensak har samhället fått del i ansvaret för barntillsynen. Genom
+att tregenerationsfamiljen blivit allt ovanligare och genom att kvinnorna
+i allt större utsträckning ägnar sig åt förvärvsarbete utanför hemmet och
+det egna företaget har behovet av organiserad barntillsyn ökat kraftigt.
+Medan förvärvsintensiteten från 1950 till 1960 minskade från 92,9 %
+till 85,1 % för män och från 63,0 % till 61,8 % för befolkningen i stort
+så ökade den bland de gifta kvinnorna från 15,6 % till 26,3 %. Förvärvsintensiteten 
+fortsätter att öka bland kvinnorna. 1965 hade förvärvsintensiteten 
+minskat till 83,4 % för män medan den för de gifta kvinnorna
+hade stigit till 35,1 %. Ur samhällsekonomisk synpunkt är den ökade förvärvsintensiteten 
+bland kvinnorna att hälsa med tillfredsställelse.
+Antalet barn under 7 år med båda föräldrarna förvärvsarbetande uppgår 
+till närmare 200 000. Antalet väntas vara 250 000 år 1970.
+Utbyggnaden av den av samhället organiserade barntillsynen har hittills 
+inte varit tillfredsställande. Den årliga ökningen av antalet daghemsplatser 
+har varit mycket ringa. Samma förhållande gäller för
+fritidshemmen. Fram till 1963 var ökningen av antalet daghemsplatser
+så obetydlig att, med hänsyn till den ökade förvärvsintensiteten bland
+de gifta kvinnorna, möjligheterna att få ökad barntillsyn har minskat.
+Tillgången på daghemsplatser och familj edaghemsplatser är så begränsad 
+att endast vart tionde barn kan erhålla plats. Provisoriska lösningar
+som släkt- och grannhjälp har inte kunnat hindra att barnen i många
+fall helt lämnats utan tillsyn. I andra fall blir resultatet att den ena av
+föräldrarna måste avstå ett planerat förvärvsarbete. I det helt övervägande 
+antalet fall blir det kvinnan som avstår från ett heltids- eller
+deltidsarbete.
+De under våren 1966 fastställda bestämmelserna om statsbidrag för
+12
+Motioner i Andra kammaren, nr 260 år 1967
+barnstugeverksamheten syftade till en kraftig utbyggnad av barntillsynen.
+ Enligt socialstyrelsen har de nya bestämmelserna bidragit till
+ett ökat intresse hos kommunerna att ordna barnstugor med förlängd
+daglig tillsyn av barnen. Styrelsen anser att de statliga åtgärderna för
+utbyggnad av daghem, fritidshem och gemensamma barnstugeavdelningar 
+torde komma att ge effekt. För anordnandet av daghemsplatser
+kommer stora insatser att krävas under de närmaste åren. Vad beträffar
+driften av barnstugorna så understryker kommunerna att kostnaderna
+fortfarande utgör en hämmande faktor för utbyggnader. Socialstyrelsen
+anser därför att man för att säkerställa den kontinuerliga utbyggnad av
+verksamheten, som svarar mot samhällsutvecklingen och därmed växande 
+behov av barntillsyn, bör ytterligare uppräkna driftbidraget. En
+verkningsfull uppräkning är emellertid svårgenomförbar i dagens ekonomiska 
+läge, och departementschefen har inte ansett sig kunna föreslå
+någon sådan. Det är emellertid angeläget att när det samhällsekonomiska
+läget tillåter insatser görs för att ytterligare öka antalet daghemsplatser.
+Familjedaghem
+Utöver utbyggnader av antalet daghemsplatser är det nödvändigt att
+man tar till vara alla andra möjligheter att öka antalet platser för barntillsyn.
+ Genom statliga insatser kan man avsevärt öka antalet platser inom 
+familjedaghemmen. Av cirka 25 000 barn till förvärvsarbetande, som
+under år 1965 bereddes organiserad barntillsyn, utnyttjade drygt en
+tredjedel eller 8 474 platser i av kommunerna organiserad familjedaghemsverksamhet.
+ Vid sidan av denna kommunalt organiserade verksamhet 
+finns ett betydande antal familjedaghem utanför kommunernas
+tillsyn. Trots att betydande enighet föreligger om att familjedaghemmen
+är en väsentlig och nödvändig komponent i den organiserade barntillsynen 
+har statsmakterna ännu inte beslutat om statligt stöd till familjedaghemmen.
+ Kommunerna och enskilda svarar helt för finansieringen
+av denna viktiga tillsynsform. De familjer som lyckas få tillsyn för sina
+barn på ett daghem erhåller ett relativt betydande stöd av staten medan
+de som av någon anledning inte kan anlita denna tillsynsform helt utesluts 
+från statligt stöd. Enligt vår mening är det angeläget att familj edaghemsverksamheten 
+snarast samordnas med övrig barn tillsynsverksamhet 
+och göres statsbidragsberättigad.
+Även om de förändrade statsbidragsbestämmelserna för daghemsplatser 
+ger den av socialstyrelsen beräknade ökningen av antalet platser —
+till omkring 30 000 år 4972 — kommer en kraftig ökning av antalet
+familj edaghemsplatser att krävas. I familj eberedningens promemoria
+angående utbyggnad av samhällets barntillsyn, avgiven i december 1965,
+framhölls att familjedaghemmen är en ofrånkomlig del av det system
+Motioner i Andra kammaren, nr 260 år 1967
+13
+för cn organiserad barntillsyn, som erbjuds av samhället. Undersökningar 
+visar att många familjer anser att familjedaghem är ett lika gott
+alternativ som daghem eller bättre än daghem för en del barn. I vissa
+situationer är familjedaghemmen överlägsna övriga tillsynsformer. Som
+familjeberedningen framhållit kan ett familjedaghem vara ett bra alternativ 
+särskilt för infektionskänsliga barn. På grund av smittrisken tar
+inte daghemmen emot barnen vid relativt lindriga förkylningar. Då
+måste tillsynen ordnas på annat sätt, och en vanlig lösning är att modern
+uteblir från förvärvsarbetet. Särskilt bra är familjedaghemmen för vissa
+hämmade barn, för barn till föräldrar vilkas arbetstiden inte överensstämmer 
+med daghemmets öppethållande och för barn som bor långt från
+daghemmet. Familjedaghemmen kan vara den enda lösningen av barntillsynsproblemen 
+i orter som saknar underlag för daghem.
+Frågan om statsbidrag till familj edaghemsverksamhet har vid flera
+tillfälle varit föremål för statsmakternas uppmärksamhet. I sina anslagsäskanden 
+för budgetåret 1966/67 begärde socialstyrelsen 2,8 miljoner
+kronor för ändamålet. Styrelsen ansåg att bidraget borde utgå med
+2 kronor per barn och dag för heldagsvård. Viss kritik riktades mot
+socialstyrelsens utformning av bidraget, och ett beslut har skjutits på
+framtiden. En lösning av frågan är emellertid så angelägen att ett beslut
+redan nu hör fattas om statsbidrag till kommunerna för den aktuella
+verksamheten. Avsikten för den av barnavårdsnämnderna kontrollerade
+familj edaghemstillsynen varierar mycket från kommun till kommun.
+Fn lämplig lösning, i varje fall i avvaktan på den pågående utredningen
+angående verksamheten, skulle utgöras av ett statsbidrag, vars storlek
+bestämdes till en viss procent av den av kommunen fastställda ersättningen.
+ Vi föreslår en 25-procentig ersättning, vilket i stort sett torde
+motsvara statsbidragsandelen av daghemstillsynens kostnader. Den genomsnittliga 
+ersättningen var enligt familj eberedningen 10 kronor i de
+största städerna. För närvarande torde ersättningen ha höjts så att det
+ovan föreslagna statsbidraget skulle ge en genomsnittlig statlig andel
+om 3 kronor per barn och dag. Inga färska uppgifter angående antalet
+barn i familj edaghemsvård föreligger. Den av familj eberedningen redovisade 
+siffran 8 474 torde nu ha stigit avsevärt även om socialstyrelsen
+fruktar att frågan om beskattningen av ersättningen kan leda till att
+antalet minskar. Om man använder den av socialstyrelsen tillämpade
+metoden för att beräkna antalet vårddagar och uppskattar antalet barn
+till 11 000—12 000 kan kostnaden beräknas till omkring 6 miljoner kronor.
+ Det är angeläget att förslag till mera definitiv lösning så snart som
+möjligt förelägges riksdagen.
+Bättre familjedaghem
+Det är angeläget att samhället genom sina åtgärder skapar förutsätt
+-
+14
+Motioner i Andra kammaren, nr 260 år 1967
+ningar för kommunerna att erhålla ett gott urval av hem för barntillsyn.
+Enligt socialstyrelsen har många kommuner, med anledning av den
+uppmärksamhet som frågan om beskattning av ersättningen till familjedaghem 
+väckt, uttryckt oro över möjligheten att i samma utsträckning
+som hittills erhålla tillgång till enskilda hem för dagtillsyn av barn.
+Styrelsen anser det därför vara realistiskt att räkna med en minskning
+av antalet familjedaghem. En sådan utveckling skulle vara mycket
+olycklig. Att göra inkomsterna för dagbarnsvårdarna skattefria är inte
+möjligt, men det är angeläget att enhetliga och generösa regler för avdrag 
+för denna inkomst skapas. Detta är i hög grad motiverat av förhållandet 
+att i betalningen ingår ersättning för mat, leksaker, slitage och
+liknande förmåner. Vi föreslår en skyndsam utredning och att förslag
+förelägges 1968 års riksdag.
+Då familjedaghemmen hittills inte givits tillräckliga resurser och
+ingen samordning skett har standard och former varit varierande. Att
+familj edaghemsverksamheten inordnas under barnavårdsnämnderna
+och samordnas med övrig tillsynsverksamhet bör utgöra en trygghet för
+de familjer som är i behov av denna barntillsyn. Fambiljeberedningen
+diskuterade i sin promemoria olika åtgärder för att ge ökad stabilitet och
+högre standard åt familjedaghemmen. Vi vill betona angelägenheten av
+att någon form av utbildning för dagbarnvårdare kommer till stånd.
+Organisatoriskt och innehållsmässigt kan det vara lämpligt att knyta an
+till den utbildning som ges för barnsamariter och hemsamariter. Frågan
+om hälsokontroll av dagbarnen och dagbarnsvårdarna bör komma till
+en snar lösning. Till de svagheter som fortfarande vidlåder familjedaghemmen 
+kan främst hänföras frågan om kontinuiteten. Genom den ovan
+nämnda utbildningen kan de största nackdelarna elimineras. Kvar står
+dock risken för att familjedaghemmet och dagbarnsvårdaren drabbas
+av sjukdom eller att andra omständigheter gör att tillsynsmöjligheten
+uteblir. Det är angeläget att kommunerna alltid har ett antal familj edaghemsplatser 
+i reserv.
+Åtgärder för att förbättra barntillsynen
+Med förändringarna i riktning mot spridning av arbetstider i synnerhet 
+inom serviceyrkena ökas kraven på flexibilitet vad gäller tiderna
+för öppethållande av olika barntillsynsinstitutioner. Möjligheterna att
+erhålla barntillsyn måste i framtiden kunna erhållas på de mest skiftande 
+tider. De statliga driftbidragen måste anpassas till detta förhållande 
+så att familjerna så snart som möjligt erbjuds en sådan service.
+Även om familjedaghemmen utgör en lämplig lösning av tillsynsproblemet 
+för speciellt infektionskänsliga barn, uppstår situationer då
+en av föräldrarna i en familj måste avstå från sin ordinarie sysselsätt
+-
+Motioner i Andra kammaren, nr 260 år 1967
+15
+ning under en kortare period för att vårda ett sjukt barn som inte kan
+besöka någon barntillsynsinstitution. Vi anser att man bör pröva möjligheterna 
+att skapa möjligheter att därvid erhålla sjukpenning.
+Övervakning bör ske av barnens såväl fysiska som psykiska hälsa.
+Det är därför angeläget att vid den omfattande ökning av daghemsverksamheten 
+som planeras också ett betryggande antal barnpsykologer
+står till förfogande, förslagsvis knutna till barnavårdscentralerna.
+På vissa håll planeras experimentverksamhet med s. k. smådaghem
+som inte kan hänföras vare sig till kategorierna daghem eller familjedaghem.
+ Även andra varianter torde förekomma. Det är angeläget att
+myndighterna följer dessa experiment och tar del av erfarenheterna
+beträffande kostnadsbesparingar, kapacitet o. s. v. Goda erfarenheter
+kan då ligga till grund för liknande anordningar på andra håll.
+Den kraftiga expansionen av barntillsynsverksamheten skapar ett
+stort behov av personal. Personalutbildningen kommer att kräva ökade
+samhällsinsatser. Bristen på daghemsföreståndarinnor är stor, och det är
+angeläget att noga följa utvecklingen. Den plan för successivt ökad utbildningskapacitet 
+som ingick i beslutet om den integrerade barnstugan
+bör förverkligas. Riksdagen bör därför i skrivelse till Kungl. Maj :t påtala 
+vikten av att balans mellan tillgång och efterfrågan på barntillsynspersonal 
+skapas.
+Med hänvisning till det anförda hemställes,
+att riksdagen måtte
+a. besluta om statsbidrag till av kommunerna bedriven
+familj edaghemsverksamhet i enlighet med vad i motionen 
+anförts och till Bidrag till driften av familjedaghem
+för budgetåret 1967/68 under femte huvudtiteln anvisa
+ett förslagsanslag av 6 000 000 kronor;
+b. i skrivelse till Kungl. Maj :t anhålla om förslag till
+definitiv utformning av det statliga stödet till familj edaghemsverksamheten; 
+samt
+c. i skrivelse till Kungl. Maj :t uttala sig för åtgärder
+för att förbättra familj edaghemsverksamheten samt för
+de allmänna åtgärder för förbättrad barntillsyn som i
+motionen anförts.
+Stockholm den 24 januari 1967
+Gunnar Hedlund (ep)
+Bertil Ohlin (fp)
+kammare
+kammare
+Andra kammaren
+ES2O260
+2018-03-01 17:02:37
+riksdag
+riksdag
+tvåkammaren
+ES2O260
+2018-03-01 17:02:37
+session
+session
+lagtima
+ES2O260
+2018-03-01 17:02:37
+sidantal
+Antal sidor
+5
+ES2O260
+2018-03-01 17:02:37
+ES2O260
+Andra kammaren
+mot_1967__ak__260.pdf
+324587
+pdf
+Motioner i Andra kammaren, nr 260 år 1967
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1967/web_mot_1967__ak__260/mot_1967__ak__260.pdf

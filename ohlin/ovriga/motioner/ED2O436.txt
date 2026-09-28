@@ -1,0 +1,179 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+2
+Motioner i Andra kammaren, nr 436.
+Nr 436.
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts förslag
+rörande avskrivning å anslag till lånefonden för bostadsbyggande 
+m. m.
+I statsverkspropositionen yrkas nya anslag på kapitalbudgeten till lånefonden 
+för bostadsbyggande med 450 milj. kronor och till tilläggslån för
+viss bostadsbyggnadsverksamhet med 180 milj. kronor. Båda dessa belopp
+äro preliminärt beräknade i avvaktan på slutlig proposition i dessa frågor.
+Samtidigt föreslås, att driftbudgeten skall belastas med avskrivningar beträffande 
+lånefonden för bostadsbyggande med 112 500 000 kronor och beträffande 
+tilläggslånen till viss bostadsbyggnadsverksamhet med 180 milj.
+kronor.
+Det i statsverkspropositionen föreslagna avskrivningsförfarandet innebär 
+att anslaget till lånefonden för bostadsbyggande omedelbart avskrives
+med 1h av dess totala belopp. Motiveringen härför torde vara, att de lån,
+som utlämnas från denna fond, beräknas löpa med en ränta på 3 %, medan
+man tidigare satt förräntningskravet till 4 %. Den föreslagna avskrivningen
+är avsedd att på en gång utjämna den förlust, som det nedsatta förräntningskravet 
+anses medföra för statsverket.
+Emellertid torde det, så länge nuvarande ränteläge består, starkt kunna
+ifrågasättas, om det är berättigat att belasta driftbudgeten med en så stor
+avskrivningspost beträffande lånefonden för bostadsbyggande. Den faktiska 
+subvention, som det här rör sig om, synes icke vara så stor som det
+kapitaliserade värdet av skillnaden mellan 3 och 4 % ränta på utlämnade
+lån, emedan den ränta, till vilken staten själv för närvarande kan upplårta
+pengar, är 3V2 %. Det synes oss därför mera berättigat att bestämma avskrivningsanslaget 
+i detta fall till ett belopp, som motsvarar skillnaden mellan
+3 och 3V2 % ränta eller med utgångspunkt från det i staten preliminärt
+angivna beloppet till 56 250 000 kronor.
+Vad därefter angår den totala avskrivning, som föreslås av hela anslaget
+till tilläggslån för viss bostadsbyggnadsverksamhet, vilja vi anföra följande 
+synpunkter. Den praxis, som under senare år tillämpats, när det
+gäller tilläggslånen av äldre typ, har varit, att dessa avskrivits med 100 %.
+Dessa tilläggslån av den äldre typen ha enligt bestämmelserna utlämnats
+ränte- och amorteringsfritt under tio år. Efter denna period skulle ståndpunkt 
+tagas till om dessa äldre tilläggslån skulle helt efterskänkas till
+Motioner i Andra kammaren, nr 436. 3
+låntagarna eller helt eller till någon del göras ränte- och amorteringsbärande.
+De nya tilläggslån, som nu provisoriskt skola kunna utgå till bostadsbyggande,
+ äro emellertid i två avseenden av en annan karaktär än de äldre.
+För det första är deras storleksordning mycket mera omfattande. För det
+andra gäller för dessa nya tilläggslån i motsats till bestämmelserna för de
+äldre, att de när som helst kunna göras ränte- och amorteringsbärande, om
+det fastighetsekonomiska läget för de bostadshus, vartill de utlämnats,
+förändras genom av statsmakterna beslutade hyrespolitiska åtgärder. Beträffande 
+målsättningen för den framtida bostads- och hyrespolitiken kommer 
+1951 års bostadsutredning enligt lämnade uppgifter att avgiva sina
+definitiva förslag under loppet av år 1952. Bostadsutredningen har i sitt
+redan avlämnade betänkande med förslag till provisoriska stödåtgärder
+till bostadsbyggandet icke ansett sig ha någon anledning att taga ställning
+till vilken metod som i avskrivningshänseende bör tillämpas för de nya
+tilläggslånen. Bostadsutredningen har emellertid uttalat, att den i fråga om
+beräkningen av de nya subventionskostnaderna i detta fall ansett det mest
+motiverat att räkna med dessa som motsvarande den årliga räntan på de
+som tilläggslån utlämnade beloppen. Med det osäkerhetstillstånd, som råder 
+beträffande byggnadskostnadernas framtida utveckling, vilja vi för
+vår del icke förorda att som kostnad i driftbudgeten för dessa lån endast
+skulle upptagas ett belopp, som motsvarar den ränta, vilken årligen kan
+beräknas böra utgå för dem. Å andra sidan anse vi det knappast motiverat
+att belasta driftbudgeten med en total engångsavskrivning av hela anslaget 
+till de nya tilläggslånen. Åtminstone intill dess att någon närmare klarhet 
+vunnits om byggnadskostnadernas framtida utveckling bör det vara
+skäligt att nu avskriva anslagen till tilläggslån med 50 % av deras totala
+belopp och därefter avvakta utvecklingen.
+För det av oss förordade avskrivningsförfarandet beträffande tilläggslånen 
+tala även följande två omständigheter. Om en fullständig avskrivning 
+i statsbudgeten av nu beviljade tilläggslån genast göres, kan det intrycket 
+lätt uppstå, att statsmakterna för all framtid avstått från varje
+krav på amortering eller förräntning av dessa lån, även om några formella
+eller juridiska skäl naturligtvis icke kunna åberopas för en sådan föreställning.
+ För det andra måste ett delvis felaktigt intryck av driftbudgetens
+verkliga utfall och det statsfinansiella läget i dess helhet skapas därigenom
+att budgetöverskottet genom enligt vår mening något konstlade och överdrivna 
+avskrivningsmetoder framträder med en lägre siffra än vad en mera
+normal avskrivningsberäkning hade resulterat i.
+Med hänvisning till ovanstående få vi därför föreslå riksdagen att besluta,
+att avskrivningar på nya kapitalinvesteringar under D 2,
+Lånefonden för bostadsbyggande, skola vid nuvarande ränte
+-
+4
+Motioner i Andra kammaren, nr 486—437.
+läge företagas med ett belopp, som motsvarar det kapitaliserade 
+värdet av, skillnaden mellan 3‘A och 3 % ränta, samt under 
+E 1, Tilläggslån för viss bostadsbyggnadsverksamhet, med
+50 % av de till tilläggslån anslagna beloppen.
+Stockholm den 26 januari 1952.
+Bertil Ohlin. Manne Ståhl. Per A. Johnsson
+i Kastanjegården.
+Bertil von Friesen. Bagnhild^Sandström. Sven Wedén.
+Nr 437.
+Av herr Gustafson i Göteborg, angående dels anslag å tillläggsstat 
+för budgetåret 1951/52 till Skyddsvärnet i
+Stockholm och Skyddsvärnet i Göteborg, dels ock anslag 
+för budgetåret 1952/53 för Svenska sky dds förbundet.
+(Lika lydande med motion i Första kammaren, nr 330.)
+Stockholm i januari 1952.
+Sven Gustafson
+i Göteborg.
+kammare
+kammare
+Andra kammaren
+ED2O436
+2018-03-02 12:58:26
+riksdag
+riksdag
+tvåkammaren
+ED2O436
+2018-03-02 12:58:26
+session
+session
+lagtima
+ED2O436
+2018-03-02 12:58:27
+sidantal
+Antal sidor
+3
+ED2O436
+2018-03-02 12:58:26
+ED2O436
+Andra kammaren
+mot_1952__ak__436.pdf
+233911
+pdf
+Motioner i Andra kammaren, nr 436
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1952/web_mot_1952__ak__436/mot_1952__ak__436.pdf

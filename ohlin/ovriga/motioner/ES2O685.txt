@@ -1,0 +1,107 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 685 år 1967
+9
+Nr 685
+Av herrar Hedlund och Ohlin, om viss minskning av anslag under
+tionde huvudtiteln.
+(Lika lydande med motion nr 546 i Första kammaren)
+För regleringsföretag vid olika anläggningar för vattenkraft föreslås på
+handelshuvudtitelns kapitalbudget ett investeringsanslag av 31 400 000 kr.
+nästa budgetår. Av detta anslag hänför sig 7 600 000 kr. till Suorvas fjärde
+reglering.
+Riksdagen behandlade vid förra årets riksdag denna fråga varvid man
+beslutade medge regleringen trots intrång i Stora Sjöfallets nationalpark.
+I avvaktan på tillstånd för hela anläggningen har tillstånd sökts och erhållits 
+för ombyggnad av dammens östra gren. Därigenom har arbetena kunnat 
+bedrivas i viss samordning med arbetena vid Vietas kraftstation. Med
+hänsyn till behovet av återhållsamhet även med statens byggande anser vi
+en beskärning med 5 milj. kr. motiverad i detta fall. Därigenom kvarstår
+möjligheten att i viss omfattning samordna arbetena vid Vietas kraftstation
+och Suorvadammen i avvaktan på arbetenas igångsättande avseende hela
+anläggningen.
+Med stöd av det anförda hemställes,
+att riksdagen måtte till Kraftstationer m. m. för budgetåret
+1967/68 under kapitalbudgeten, tionde huvudtiteln anvisa
+ett i förhållande till Kungl. Maj :ts förslag med 5 milj. kronor 
+minskat investeringsanslag av 355 000 000 kronor.
+Stockholm den 26 januari 1967
+Gunnar Hedlund (ep)
+Bertil Ohlin (fp)
+kammare
+kammare
+Andra kammaren
+ES2O685
+2018-03-01 17:08:56
+riksdag
+riksdag
+tvåkammaren
+ES2O685
+2018-03-01 17:08:56
+session
+session
+lagtima
+ES2O685
+2018-03-01 17:08:56
+sidantal
+Antal sidor
+1
+ES2O685
+2018-03-01 17:08:56
+ES2O685
+Andra kammaren
+mot_1967__ak__685.pdf
+118715
+pdf
+Motioner i Andra kammaren, nr 685 år 1967
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1967/web_mot_1967__ak__685/mot_1967__ak__685.pdf

@@ -29,6 +29,19 @@ python3 analys/verifiera.py    # kontrollerar att varje citat i analys/citat.py 
 python3 analys/bygg_analys.py  # bygger analys/staten.html (avbryter om något citat saknas)
 ```
 
+## Källmaterial utanför protokollen
+
+`ovriga/` innehåller material som inte är riksdagens protokoll. Förteckningen finns i `ovriga/KALLOR.md`.
+
+- Folkpartiets program 1934, 1944 och 1962 och valmanifesten 1936–1970 (SND), i `ovriga/partiprogram/`.
+- Nationalekonomiska föreningens förhandlingar: 33 sammanträden 1930–1969 där Ohlin talade, i `ovriga/nef/`.
+- 821 riksdagsmotioner som Ohlin skrivit under, i `ovriga/motioner/` och `ovriga/motioner.csv`.
+- SOU 1934:12 och Ohlins rapport till Nationernas förbund 1931, i `ovriga/texter/`.
+
+```
+cd ovriga && python3 hamta.py && python3 hamta_motioner.py && python3 nef_katalog.py && python3 bygg_katalog.py
+```
+
 ## Metod och begränsningar
 
 - Riksdagens API ger alla protokoll där ordet "Ohlin" förekommer. Ett inlägg räknas från talarraden

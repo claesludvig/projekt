@@ -1,0 +1,97 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+2
+Motioner i Andra kammaren, nr 436—437.
+Nr 436.
+Av herrar Ljungqvist och Birke, i anledning av Kungl. Maj:ts proposition,
+ nr 212, med förslag till lag om ändring i kommunalskattelagen 
+den 28 september 1928 (nr 370), m. m.
+(Lika lydande med motion i Första kammaren nr 296.)
+Stockholm den 8 maj 1947.
+Gunnar Ljungqvist. E. Birke.
+Nr 437.
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition, nr
+212, med förslag till lag om ändring i kommunalskattelagen 
+den 28 september 1928 (nr 370), m. m.
+(Lika lydande med motion i Första kammaren nr 293.)
+Stockholm den 10 maj 1947.
+Bertil Ohlin. Oscar Carlström. O. E. Sandberg.
+Wald. Svensson.
+Gust. Mosesson.
+kammare
+kammare
+Andra kammaren
+E82O437
+2018-03-02 20:41:17
+riksdag
+riksdag
+tvåkammaren
+E82O437
+2018-03-02 20:41:17
+session
+session
+lagtima
+E82O437
+2018-03-02 20:41:17
+sidantal
+Antal sidor
+1
+E82O437
+2018-03-02 20:41:17
+E82O437
+Andra kammaren
+mot_1947__ak__437.pdf
+126915
+pdf
+Motioner i Andra kammaren, nr 436—437
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1947/web_mot_1947__ak__437/mot_1947__ak__437.pdf

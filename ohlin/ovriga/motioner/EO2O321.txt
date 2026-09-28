@@ -1,0 +1,324 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 321 år 1963
+11
+Nr 321
+Av herr Ohlin m. fl., om en utredning rörande JO-ämbetets organisation 
+och personalbehov.
+(Lika lydande med motion nr 269 i Första kammaren)
+1. JO:s inspektionsverksamhet och arbetsförhållanden
+Ett huvudsyfte med den reform av JO:s arbetsförhållanden och arbetsuppgifter,
+ som genomfördes vid 1956 års riksdag, var att förbättra JO:s tillsynsmöjligheter 
+över förvaltningen genom direkta inspektioner. Särskilt för
+enhetlighet i förfaringssätt och rättstillämpning på förvaltningsområdet
+måste aktiva åtgärder från JO:s sida tillmätas stort värde ur medborgerlig
+synpunkt. Det påtagliga behovet av ökad tillsynsverksamhet inom förvaltningsområdet 
+har f. ö. även påtalats av JO.
+Trots den allmänna anslutningen till tanken på en aktiv tillsynsverksamhet 
+från JO:s sida genom inspektioner, måste det likväl konstateras, att
+man i praktiken redan nödgats jämka på den ursprungliga målsättningen.
+Orsaken härtill har varit en alltmer ökande arbetsbelastning på ämbetet, som
+måst bemästras med en i huvudsak oförändrad personalstyrka. Sålunda
+bär antalet genom klagomål anhängiggjorda ärenden på senare år i stort
+sett fördubblats jämfört med läget före 1956 års reform. Antalet genom
+JO:s eget initiativ väckta ärenden visar däremot ingen stigande tendens. Det
+anförda åskådliggör hur utvecklingen kringskurit de praktiska möjligheterna
+att med ämbetets tillgängliga resurser kunna i tilltänkt omfattning intensifiera 
+inspektionsverksamheten.
+För att uppnå en förbättring av JO:s arbetsförhållanden erfordras därför 
+uppenbarligen en kraftig förstärkning av ämbetets arbetsresurser. Då
+man tidigare hade att bedöma JO:s verksamhet kunde detta ske under förutsättning 
+av att de erforderliga personalbehoven knappast var av sådan
+storleksordning, att det fanns anledning att överväga någon uppdelning av
+ämbetets arbetsuppgifter. Den senaste tidens erfarenheter synes däremot
+ge anledning till en omprövning av denna inställning. Strävan har ju hittills
+varit att giva ämbetet en enhetlig och lättadministrerad struktur, vilket låtit
+sig göra så länge befattningshavarnas antal varit förhållandevis begränsat.
+Den ytterligare ökning av ämbetets arbetsstyrka som nu är nödvändig medför 
+emellertid en förändring härvidlag. För att bevara överskådliga och begränsade 
+arbetsenheter inom ämbetsverket nödgas man därför i dagens
+läge tänka sig en uppdelning eller specialisering av något slag.
+12
+Motioner i Andra kammaren, nr 321 år 1963
+2. Inriktningen av nya resurser för inspektion och tillsyn
+Det är därmed också tydligt, att frågan om den allmänna inriktningen av
+ämbetets aktiva insatser behöver beröras, eftersom det väl är bedömningen
+i detta hänseende som bör tillmätas avgörande betydelse i fråga om grunderna 
+för en eventuell uppdelning av JO-ämbetct. Det kan härvidlag konstateras,
+ att ämbetet f. n. indelat sin personal för tjänstgöring så, att vissa
+befattningshavare avdelats för tillsyn över domstolsväsendet, medan övriga
+ägnar sin insats åt förvaltningskontrollen. Huruvida denna interna indelning 
+inom ämbetet bör vara vägledande för en allmän organisatorisk reform 
+av verksamheten är emellertid en öppen fråga.
+Domstolsväsendet är ju till sin uppbyggnad konstruerat för att i särskild
+grad tillgodose rättssäkerhetsintresset och behovet av enhetlighet och konsekvens 
+i rättstillämpningen. Härför svarar både befattningshavarnas särskilda 
+utbildning, instansordningen och den jämfört med förvaltningsområdet 
+enhetliga uppbyggnaden av handläggningsordning och procedur. Härtill 
+kommer ju, att parterna inför en domstol i särskild grad har sin uppmärksamhet 
+riktad just på att tillvarata sin rätt och beakta rättsreglernas
+innehåll, och att de för detta syfte ofta anlitar särskilt rättsbildade ombud,
+vilket allt ytterligare torde vara ägnat att minska riskerna för misstag och
+rättsförluster. Dessa olika omständigheter synes därför i och för sig tyda
+på att den huvudsakliga inriktningen av en förbättrad samhällelig kontroll
+över rättstillämpning och myndighetsutövning knappast främst borde ha
+domstolsväsendet i sikte. Då JO-ämbetet introducerades i Danmark, inriktades 
+detta på förvaltningsområdet och lämnade domstolsväsendet med dess
+särskilt inbyggda rättssäkerhetsgarantier utanför tillsynen, enär man ansåg
+sig ha fog för förmodan, att allmänhetens intresse av rättsskydd och rättssäkerhet 
+skulle vara i huvudsak tillgodosett vad domstolsväsendet beträffar.
+ JO-tillsynen över svenskt domstolsväsende anses dock allmänt vara av
+stort värde för rättslivet och lämpligt avvägd. JO:s insatser svarar emellertid 
+väl mot behovet, och någon expansion finns ej skäl att ifrågasätta på detta 
+område.
+Mycket talar alltså för att det är på förvaltningsområdet man har att finna
+de väsentligaste tillsynsbehoven, och att det är dit, man bör inrikta en ökning 
+av ombudsmannainstitutionens kapacitet. För denna slutsats talar
+också rent praktiska erfarenheter beträffande den allmänna samhällsutvecklingen,
+ i det att samhällets ökade engagemang på olika håll ju också
+motsvarats av en uppbyggnad av förvaltningsorgan, vilket medfört en ökning
+av tillsynsbehovet just över det administrativa området.
+3. Tillsyn över kommunalförvaltningen
+Utmärkande för den senare tidens utveckling på det administrativa området 
+har särskilt varit de kommunala förvaltningsuppgifternas expansion.
+Det kan här räcka med att hänvisa till kommunernas vidsträckta insatser
+Motioner i Andra kammaren, nr 321 år 1963
+13
+och skyldigheter på det sociala vårdområdet, de delvis nya och växande insatserna 
+på sjukvårdsområdet, skolväsendets expansion och ansvaret i fråga
+om tätbebyggelseplanering och bostadsförsörjning. Man har sålunda anledning 
+förmoda, att tillsynsbehovet på det kommunala förvaltningsområdet
+ökat och alltjämt befinner sig i tilltagande.
+Det finns mot denna bakgrund skäl ifrågasätta, om icke ökade tillsynsresurser 
+borde avdelas för det kommunala området. Det måste under alla
+förhållanden vara rimligt att ägna inspektionsverksamheten över kommunalförvaltningen 
+ökat utrymme.
+I JO:s årsstatistik ingår kommunala förvaltningsorgan under flera rubriker.
+ Sammanlagt torde antalet kommunala ärenden f. n. uppgå till ca 10 %
+av arbetsuppgifterna inom ämbetet. Det är härvid dock att märka, att detta
+resultat uppnåtts, trots att man enligt uttalanden i 1955 och 1957 års utredningar 
+kring JO-ämbetet rekommenderat betydande återhållsamhet beträffande 
+granskningen av det kommunala fältet. Vid en förutsättningslös
+granskning av JO-ämbetets funktioner torde emellertid dessa premisser
+böra på nytt övervägas liksom över huvud taget verkningarna av kommunernas 
+kvantitativt och kvalitativt ökade betydelse på förvaltningsområdet.
+Det kommunala förvaltningsområdet utgör dessutom en tillsynsuppgift,
+vars gränser låter sig ganska klart bestämmas. Kommunalförvaltningens i
+vissa hänseenden gemensamma reglering och likartade förvaltningsproblem
+utgör ytterligare omständigheter, som kan åberopas för att en inriktning av
+ombudsmannafunktionerna till detta område ligger nära till hands att överväga,
+ om en uppdelning av JO-ämbetets funktioner aktualiseras.
+4. Tillsynen över den kommunala självförvaltningen
+De sakkunniga i 1957 års JO-utredning uppskattar antalet kommunala
+organ med förvaltningsbefogenheter inom den s. k. reglerade förvaltningen,
+d. v. s. med förvaltningsuppgifter av i övervägande grad statlig karaktär,
+som överlämnats till kommunalt lokala organ för självförvaltning, till ca
+10 000. Att väsentliga samhällsbefogenheter överantvardas till kommunala
+organ för handläggning bör inte medföra någon minskning av insatserna
+för tillsyn och uppsikt över medborgerliga rättsskyddsintressen. Utgångspunkten 
+bör alltså vara att tillförsäkra den enskilde medborgaren ett i förhållande 
+till annan förvaltningsverksamhet likvärdigt rättsskydd på det
+snabbt expanderande kommunala området, där rätts- och förvaltningstraditioner 
+i många fall ännu inte hunnit utbildas. Som under tidigare utredningar 
+upprepade gånger framhållits, utgör en effektiviserad tillsyn över
+rättsenlighet och enhetlighet i handläggningen på det kommunala området
+ingalunda något angrepp på den kommunala självstyrelsen som sådan.
+Detta har också fullt ut erkänts vad gäller sådana kommunala instanser,
+som har att handlägga frågor angående administrativa frihetsberövanden.
+14
+Motioner i Andra kammaren, nr 321 år 1963
+Men det finns knappast några vägande skäl för att något annat skulle gälla
+i fråga om den reglerade kommunala förvaltningen i övrigt. Tillsynen och
+inspektionsverksamheten bör inom detta område på det hela taget ej avvika
+från vad som iakttas i fråga om statlig förvaltning. Det sagda innebär givetvis 
+ej, att hänsyn ej bör tagas till den kommunala förvaltningens särart,
+som den nuvarande JO-instruktionen anger. Det är givet, att hänsynen till
+de uppoffrande insatser som fullgörs av lekmän och förtroendemän inom
+kommunalförvaltningen kräver, att ombudsmannens verksamhet på detta
+område bör inriktas på tjänstefels- eller ansvarstalan i händelse av begångna 
+fel endast i den mån ett tydligt uppsåt föreligger. Främst bör insatserna 
+få karaktären av vägledande påpekanden och uttalanden för den
+fortsatta tillämpningen. Uppenbart är också, att ombudsmannens verksamhet,
+ såsom även anges i nuvarande instruktion, i första hand bör ske genom 
+hänvändelser till vederbörande om rättelse alltjämt står att vinna på
+detta sätt, vilket ibland kan vara fallet, såsom om handlingar ej utlämnas,
+formella beslut ej meddelas, möjligheter till fullföljd av talan inte klarlagts
+etc. Även om sålunda formerna för ombudsmannens verksamhet på detta
+område kan lämnas orubbade, behöver däremot inriktningen av verksamheten 
+uppenbarligen förändras så, att regelbunden och effektiv inspektionsverksamhet 
+kommer till stånd. Dessa aktiva insatser fyller väsentliga funktioner,
+ som svårligen kan tillgodoses på annat sätt. Även om de kommunala
+intresseorganisationerna, Stadsförbundet och Landskommunernas förbund,
+säkerligen betyder mycket för ökad enhetlighet och konsekvens på kommunalförvaltningens 
+område, uppdagas dock ej därmed fel eller missgrepp i
+den praktiska tillämpningen och verksamheten på fältet, vilket däremot en
+regelbunden inspektionsverksamhet kan medverka till. Inte heller torde —
+beroende på ibland förekommande lojaliteter och ömsesidiga hänsyn över
+partigränserna, bristande information etc. -— det politiska ansvaret inför
+de kommunala församlingarna eller menigheterna kunna fylla denna
+uppgift.
+5. Tillsyn över den kommunala egenförvaltningen
+Utöver den kommunala självförvaltningen av till sin karaktär närmast
+statliga arbetsuppgifter finns ju en rikt förgrenad kommunal förvaltningsverksamhet 
+med inriktning på kommunens egna intressen och behov. En
+uppskattning av antalet verksamma fakultativa kommunala organ är troligen 
+vansklig att göra, men tvivelsutan rör det sig om ett mycket stort
+antal. Vid föregående JO-utredningar uttalades, att intresset för tillsynen
+över kommunernas s. k. egenförvaltning kunde antas vara av mindre omfattning.
+ Tanken var väl bl. a. att beröringen med allmänheten på detta
+område hade mindre karaktär av myndighetsutövning, såsom de tjänster
+som utföres t. ex. av kommunala elverk, vatten- och avloppsverk etc. Frågan
+15
+Motioner i Andra kammaren, nr 321 år 1963
+är emellertid om denna uppfattning verkligen är hållbar. På serviceområdena 
+intar ju kommunerna ofta en monopolställning, där t. ex. avstängningsåtgärder,
+ avvikande eller missgynnande debiteringsnormer, bristfälliga 
+anstalter i olika avseenden etc. kan vara av mycket ingripande betydelse 
+för den enskilde. Som jämförelse må nämnas, att statliga organ på
+serviceområdet ingalunda undantagits från tillsyn och kontroll. En likartad
+behandling torde därför vara motiverad för flertalet betydelsefulla fakultativa 
+kommunala organ. Det är därför ingalunda givet att inspektionsverksamheten 
+bör göra halt inför dessa.
+För den interna kommunala verksamheten och rutinen är särskilt instruktioner,
+ direktiv etc., som antas av kommunala beslutande organ av den
+största betydelse. Det är ju t. ex. i huvudsak på så sätt, som de fakultativa
+organens verksamhet och funktioner gestaltas. För den kommunala självstyrelsen 
+och lekmannainflytandet torde det vara ett väsentligt intresse att
+dylika föreskrifter respekteras. Även här kan en inspektionsverksamhet
+medverka till stadga och säkerhet i förfarandet, uttalanden vara värdefulla
+för en ändamålsenlig praxis etc.
+6. Tillsyn över kommunala stiftelser, bolag och föreningar
+Ett speciellt problem inom den fakultativa kommunala verksamheten
+utgör den vidsträckta delegering av kommunala uppgifter, som sker till av
+kommuner ägda bolag och stiftelser. Väsentliga delar av de kommunala insatserna 
+på bostadsförsörjningens område sker ju t. ex. i denna form. Här
+föreligger f. n. ingen som helst tillsynsrätt från ombudsmannainstitutionens 
+sida, beroende på att befattningshavarna ej är underkastade ämbetsmannaansvar,
+ utan betraktas som bolagstjänstemän etc. En ändring härvidlag 
+synes i hög grad motiverad. Det gäller ju här investeringar av allmänna 
+medel - särskilt genom den statliga bostadslånegivningen — av
+utomordentlig omfattning. Att miljardbelopp nedläggs och förvaltas av genom 
+offentlig försorg tillskapade organ utan sedvanlig tillsyn och förvaltningskontroll 
+synes knappast rimligt. Detta gäller i desto högre grad som
+dessa organ ju har till särskild uppgift att tillhandagå allmänheten med
+tjänster av t. o. m. varaktigare och regelbundnare slag än kommunikationsverken.
+ Samhällsorganen ställs i detta fall i sällsport omedelbar kontakt 
+med de samhällsmedlemmar, man skall betjäna.
+Eu förändring av tillsynsmöjligheterna över kommunalägda bolag och
+stiftelser beror emellertid som nämnts i första hand på utsträckningen av
+ämbetsansvaret, cltersom ombudsmannaämbetets tillsynsbefogenhctcr avgransas 
+just med ledning av gränserna för detta. Frågan om en utsträckning 
+av ämbetsmannaansvaret till alt gälla även befattningshavare inom
+kommunalägda bolag, stiftelser och föreningar har därför likaledes tagits
+l,PP till behandling av oss i eu särskild till denna riksdag väckt motion.
+16 Motioner i Andra kammaren, nr 321 år 1963
+7. Det totala tillsyns- och inspektionsbehovet över det kommunala verksam
+-
+hetsfältet
+Mot bakgrund av vad här anförts om tillsynsuppgifter på kommunområdet 
+vill det sålunda synas vara väl värt att överväga alternativet att till en
+del avdela ombudsmannafunktionerna så, att de inriktas på det kommunala 
+förvaltningsområdet. För detta talar såväl de ökade kommunala förvaltningsuppgifterna 
+som de hittills delvis obeaktade tillsynsuppgifterna
+på detta område. Det förefaller därför möjligt, att kommunalförvaltningen
+efter en översyn av tillsynsbehoven skall befinnas väl ägnad att utgöra föremål 
+för ett särskilt tillsynsuppdrag för en på kommunområdets förvaltning
+inriktad ombudsman. Med tanke på de vidsträckta ekonomiska engagemang,
+ som sker i bolags-, stiftelse- och föreningsform, bör det måhända
+även övervägas att förse denna ombudsmannainstitution med särskild revisionstelmiskt 
+utbildad personal för biträde vid inspektioner av sådana inrättningar,
+ vilkas förvaltning icke regelbundet är underkastad granskning
+av auktoriserade revisorer.
+Under hänvisning till det anförda får vi sålunda yrka,
+att riksdagen i skrivelse till Kungl. Maj :t måtte hemställa
+om en utredning angående JO-ämbetets organisation och
+personalbehov, varvid särskilt JO:s uppgifter beträffande
+den kommunala förvaltningen måtte uppmärksammas, häri
+inbegripet alternativet att inrätta en särskild ombudsmannaorganisation 
+för det kommunala förvaltningsområdet.
+Stockholm den 24 januari 1963
+Bertil Ohlin
+O. Malmborg
+Gunnar Helén
+S. Gustafson Henning Gustafsson
+i Göteborg
+Gustaf Kollberg Brita Elmén
+IDUNS TRYCKERI. ESSELTE. STHLM 63
+312137
+kammare
+kammare
+Andra kammaren
+EO2O321
+2018-03-01 21:03:12
+riksdag
+riksdag
+tvåkammaren
+EO2O321
+2018-03-01 21:03:12
+session
+session
+lagtima
+EO2O321
+2018-03-01 21:03:12
+sidantal
+Antal sidor
+6
+EO2O321
+2018-03-01 21:03:12
+EO2O321
+Andra kammaren
+mot_1963__ak__321.pdf
+377616
+pdf
+Motioner i Andra kammaren, nr 321 år 1963
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1963/web_mot_1963__ak__321/mot_1963__ak__321.pdf

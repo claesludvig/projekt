@@ -1,0 +1,99 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+4
+Motioner i Andra kammaren, nr 706—707 dr 1955
+Med stöd av vad ovan anförts hemställer vi,
+att riksdagen måtte avslå de i Kungl. Maj :ts proposition
+nr 205 framställda förslagen om investeringsavgift för år
+1956 och avgift vid investering i motorfordon (»bilaccis»)
+för år 1956.
+Stockholm den 15 november 1955
+Bertil Ohlin Wald. Svensson Filip Kristensson
+i Osby
+Ragnhild Sandström Bertil von Friesen
+Nr 707
+Av herrar Cassel och Nilsson i Svalöv, i anledning av Kungl. Maj:ts
+proposition, nr 205, med förslag till förordning om investeringsavgift 
+för år 1956, m. m.
+(Lika lydande med motion nr 579 i Första kammaren)
+Stockholm den 15 november 1955
+Leif Cassel
+Eric Nilsson
+i Svalöv
+kammare
+kammare
+Andra kammaren 
+eg2p707
+2018-03-02 09:47:35
+riksdag
+riksdag
+tvåkammaren
+eg2p707
+2018-03-02 09:47:35
+session
+session
+ höst
+eg2p707
+2018-03-02 09:47:35
+sidantal
+Antal sidor
+1
+eg2p707
+2018-03-02 09:47:35
+eg2p707
+Andra kammaren - höst
+mot_1955_höst_ak__707.pdf
+115315
+pdf
+Motioner i Andra kammaren, nr 706—707 dr 1955
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1955/web_mot_1955_höst_ak__707/mot_1955_höst_ak__707.pdf

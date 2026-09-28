@@ -1,0 +1,97 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+10
+Motioner i Andra kammaren, nr 250—251.
+Nr 250.
+Av herr Gezelius, örn beredande av möjlighet att fördela inkomst 
+av stoimfäTld skog å flera beskattningsår.
+(Lika lydande med motion i Första kammaren nr 149.)
+Stockholm den 23 januari 1946.
+Birger Gezelius.
+Nr 251.
+Av herr Ohlin m. fl., angående sambandet mellan socialpolitik
+och beskattning.
+(Lika lydande med motion i Första kammaren nr 145.)
+Stockholm den 23 januari 1946.
+Bertil Ohlin. Filip Kristensson. Nils Persson.
+Edvin Jacobsson A. Danielsson. Rudolf Boman
+i Igelsbo. i Kieryd.
+Gottfr. Fröderberg.
+And. Stjärne.
+kammare
+kammare
+Andra kammaren
+E72O251
+2018-03-02 20:02:20
+riksdag
+riksdag
+tvåkammaren
+E72O251
+2018-03-02 20:02:20
+session
+session
+lagtima
+E72O251
+2018-03-02 20:02:21
+sidantal
+Antal sidor
+1
+E72O251
+2018-03-02 20:02:20
+E72O251
+Andra kammaren
+mot_1946__ak__251.pdf
+120519
+pdf
+Motioner i Andra kammaren, nr 250—251
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1946/web_mot_1946__ak__251/mot_1946__ak__251.pdf

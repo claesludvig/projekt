@@ -1,0 +1,105 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 706—707.
+5
+1) att förordningen den 14 december 1951 (nr 795) med
+tillfälliga bestämmelser om värdering av varulager vid taxering 
+till statlig och kommunal inkomstskatt upphäves;
+2) att förordningen den 14 december 1951 (nr 794) med
+bestämmelser om investeringsavgift upphör att gälla från
+och med den 1 januari 1953.
+Stockholm den 3 december 1952.
+Bertil Ohlin. Sven Wedén. Per A. Johnsson
+i Kastanjeg&rden.
+Ragnhild Sandström. O. Malmborg,
+Skövde.
+Nr 707.
+Av herrar Nilsson i Svalöv och Hagård, i anledning av Kungl.
+Maj.ts proposition, nr 252, med förslag till förordning
+angående upphävande av förordningen den 14 december 
+1951 (nr 795) med tillfälliga bestämmelser om värdering 
+av varulager vid taxering till statlig och kommunal 
+inkomstskatt, m. m.
+(Lika lydande med motion i Första kammaren, nr 538.)
+Stockholm den 3 december 1952.
+Eric Nilsson Alarik Hagård.
+i Svalöv.
+STATENS REPP.ODUKTIONSANSTALT
+400052
+kammare
+kammare
+Andra kammaren 
+ed2p707
+2018-03-02 13:09:46
+riksdag
+riksdag
+tvåkammaren
+ed2p707
+2018-03-02 13:09:46
+session
+session
+ höst
+ed2p707
+2018-03-02 13:09:46
+sidantal
+Antal sidor
+1
+ed2p707
+2018-03-02 13:09:46
+ed2p707
+Andra kammaren - höst
+mot_1952_höst_ak__707.pdf
+139542
+pdf
+Motioner i Andra kammaren, nr 706—707
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1952/web_mot_1952_höst_ak__707/mot_1952_höst_ak__707.pdf

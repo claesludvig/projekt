@@ -1,0 +1,598 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Nr 785—787 Motioner i Andra kammaren, nr 785 år 1962
+1
+Nr 785
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition
+nr 90, med förslag till lag om allmän försäkring, m. m.
+(Lika lydande med motion nr 657 i Första kammaren)
+Det sociala reformarbetet har av naturliga skäl skett stegvis. Den samlade
+sociala lagstiftningen har härigenom kommit att brista i enhetlighet, och
+i och med att den byggts ut har behovet av teknisk samordning mellan
+skilda socialförsäkringar blivit allt större. Den i proposition nr 90 nu
+framlagda lagen om allmän försäkring avser att skapa ett mera enhetligt
+system. Inte minst ur administrativ synvinkel är en sådan teknisk samordning 
+önskvärd. Å andra sidan får en strävan till teknisk samordning inte
+lägga hinder i vägen för en sakligt berättigad anpassning för varje beståndsdel 
+i den samlade lagstiftningen till varierande sociala behov. En »helig»
+princip får inte åberopas som skäl för att avvisa lösningar som står i samklang 
+med motiverade sociala krav. Denna tanke bör vara en av de vägledande 
+vid granskningen av den framlagda propositionen.
+1. Valfrihet för företagare beträffande försäkringarna om tilläggs sjukpenning 
+och tilläggspension
+Behovet av försäkringsskydd är mera skiftande för företagare än för
+anställda. Ett obligatoriskt skydd, som tillfredsställer de anställda, betraktas 
+i många fall av företagarna som mindre fördelaktigt i jämförelse med
+de andra utvägar som finns för dem att ordna försäkringsskyddet. Så t. ex.
+föredrar många att själva sörja för sitt åldersskydd genom att spara i det
+egna företaget. Behovet av sjukpenning är också skiftande. Ehuru det här
+som regel torde gälla att sjukförmåner behövs, finns det dock undantag,
+som betingas av att sjukdom för företagaren ej medför påtagligt inkomstbortfall.
+Särskilt för yngre företagare kan ett obligatoriskt försäkringsskydd te
+sig alltför kostsamt. Det är mycket vanligt att företagarna är bundna vid
+ett betydande amorteringssparande i rörelsen, vilket medför att de ej anser
+sig ha råd med avgifter till försäkringarna om tilläggspension och tilläggssjukpenning.
+ Ofta anser de sig endast kunna orka med avgifterna till endera 
+av dessa försäkringar. Särskilt kostsamma anses avgifterna för tilläggspensionen 
+bli, vilka efter hand beräknas uppgå till 10—12 % av den pensionsgrundande 
+inkomsten.
+1 — Dihang till riksdagens protokoll 1962. 4 samt. Nr 785—787
+2 Motioner i Andra kammaren, nr 785 år 1962
+Eftersom företagarnas förhållanden på ett avgörande sätt skiljer sig
+från de anställdas, är det orimligt att inordna dem i ett obligatoriskt försäkringsskydd,
+ som i princip konstruerats för löntagare, på samma villkor
+som de senare. Chefen för socialdepartementet har insett detta då han medgivit 
+rätt till utträden och återinträden för företagare ur försäkringarna
+om tilläggssjukpenning och tilläggspension. Socialministern har emellertid
+av samordningstekniska skäl icke velat tillmötesgå företagarnas önskemål
+om att tillhöra endast endera av dessa försäkringar.
+Om företagarna finge möjlighet att deltaga i blott endera av försäkringarna,
+ skulle, enligt departementschefens uppfattning, pensionsdelegationerna 
+ställas inför svåra avgöranden, när fråga uppkommer huruvida
+företagaren skall förtidspensioneras. Detta skulle, säges det, särskilt bli
+fallet när företagarna väljer att kvarstå i tilläggssjukpenningförsäkringen.
+Det kan vara svårt att konstatera hur långvarig arbetsoförmågan blir, och
+under sådana förhållanden kunde pensionsdelegationerna tänkas ta hänsyn
+till de förluster vederbörande skulle kunna åsamkas vid utbyte av sjukpenning 
+mot förtidspension och därför låta honom stå kvar i sjukförsäkringen 
+i det längsta. Det är dock att märka, att det ej skall ankomma
+på den försäkrade att själv avgöra när övergång från sjukförsäkring till
+ålderspension skall ske.
+Den slutliga lösningen av företagarnas försäkringsfråga bör dock, anser
+vi, medföra att de skisserade svårigheterna elimineras. Tills vidare bör
+dock företagarna medges rätt att deltaga i endera av tilläggssjukpenningförsäkringen 
+och tilläggspensionsförsäkringen eller — om vederbörande
+själv så önskar — båda försäkringarna.
+Starka skäl talar för genomförandet av det förslag som framförts från
+jordbrukarhåll, nämligen att låta koppla samman försäkringen om tillläggssjukpenning 
+med förtids- och efterlevandeskyddet i tilläggspensionsförsäkringen.
+ På så sätt skulle företagarna beredas riskskydd, medan
+däremot det kostsamma och ofta ej oundgängliga åldersskyddet skulle
+undvikas. Socialministern befarar att en lösning efter angivna linjer skulle
+ge upphov till problem rörande samordningen mellan förtids- och ålderspension.
+ Oaktat vissa samordningsproblem även här finnes, synes det
+framförda förslaget ge den bästa lösningen av problemet om företagarnas
+ställning inom den obligatoriska försäkringen. Vi föreslår därför att en
+utredning tillsättes med uppgift att undersöka de tekniska problemen vid
+en sammankoppling av tilläggssjukpenningförsäkringen med förtids- och
+efterlevandeskyddet inom tilläggspensionsförsäkringen. Särskild vikt bör i
+utredningen läggas vid beräkningen av avgifterna för detta riskskydd.
+2. Barntilläggen
+Det torde vara en odiskutabel princip att barntillägg skall utgå till huvudförsörjarens 
+sjukpenning. Syftet med barntilläggen är att bereda barn
+-
+Motioner i Andra kammaren, nr 785 år 1962
+3
+familjerna kompensation för inkomstbortfall, vilket som regel är störst
+när huvudförsörjaren är sjukskriven. Vi finner det naturligt, att den gällande 
+regeln om att barntillägg utgår till mannens sjukpenning, när han är
+huvudförsörjare, och till kvinnans sjukpenning i motsvarande fall intagits
+i det framlagda lagförslaget. En nyhet i lagförslaget är, att sjukpenningplacerade 
+kvinnor under sjukdom skall få uppbära barntillägg för barn under
+10 år, även om kvinnorna inte skulle vara huvudförsörjare. Denna kompletteringsbestämmelse 
+synes ha sitt berättigande såsom innebärande en extra
+förmån för hemmafruar och ensamstående kvinnor med barn.
+Däremot är den föreslagna regeln, att barntillägg inte skall utgå samtidigt 
+med tilläggssjukpenning vid barnsbörd, ej helt tillfredsställande.
+Socialpolitiska kommittén har motiverat detta förslag med hänvisning till
+att hemmafruar och ensamstående kvinnor nu föreslås få rätt till barntilllägg 
+under sjukdom. Kommittén anför därvid:
+Detta förslag om utvidgad rätt till barntillägg inom sjukförsäkringen
+har emellertid tillkommit med tanke på de fall, då modern på grund av
+sjukdom måste ha hjälp med tillsyn av hemmavarande barn, en situation
+som normalt inte föreligger under mera avsevärd tid efter förlossningen.
+Kommittén synes vid utformningen av förslaget, att tilläggssjukpenning
+vid barnsbörd skall utesluta barntillägg, icke ha räknat med de fall, där
+kvinnan är huvudsaklig försörj are. Här gäller att barntillägg aldrig utgår
+till mannens sjukpenning. Eftersom den barnfamilj, där kvinnan är huvudförsörjare,
+ drabbas av inkomstbortfall huvudsakligen när kvinnan är arbetsoförmögen,
+ synes det icke rättvist att i fråga om denna kvinnas rätt att
+uppbära barntillägg skillnad göres mellan de fall där inkomstbortfallet
+föranledes av sjukdom respektive havandeskap. Därigenom skulle nämligen 
+huvudprincipen för utgivande av barntillägg — att skydda för inkomstbortfall 
+— sättas ur spel. Det förda resonemanget leder till att barntillägg 
+till tilläggssjukpenning vid barnsbörd bör utgå i de fall kvinnan
+är huvudsaklig försörjare.
+3. Sjukförsäkringsavgiftens skattemässiga behandling
+Sjukförsäkringsavgiften är enligt nu gällande regler avdragsgill inom
+ramen för det allmänna sjukförsäkringsavdraget, som är maximerat till
+800 kronor för gift skattskyldig och 400 kronor för ensamstående. Förbättringen 
+av sjukförsäkringens förmåner kommer att medföra en icke
+oväsentlig höjning av sjukförsäkringsavgiften. Härigenom kommer utrymmet 
+för avdrag för andra försäkringar att minska. Ändringarna av den
+allmänna sjukförsäkringens förmåner och avgifter aktualiserar därför den
+skattemässiga behandlingen av sjukförsäkringsavgiften.
+Socialförsäkringskommittén uppmärksammade detta förhållande och
+föreslog att avgiften till den allmänna sjukförsäkringen skulle brytas ut
+4 Motioner i Andra kammaren, nr 785 år 1962
+från det allmänna försäkringsavdraget och avdragas för sig. Kommittén
+anförde:
+Avgifterna är nu avdragsgilla endast i den mån de rymmes inom det
+fastställda försäkringsavdraget. De höjda avgifterna får till följd att försäkringsavdraget 
+i större utsträckning än tidigare konsumeras av vederbörandes 
+sjukförsäkringsavgifter, varför utrymmet krymper för övriga
+avdragsgilla försäkringsavgifter. Kommitténs förslag aktualiserar därför
+frågan om avdragsrätten för sjukförsäkringsavgiften. Begränsas denna avdragsrätt,
+ liksom hittills till vad som rymmes inom ramen för försäkringsavdraget,
+ torde en höjning av maximibeloppet för detta avdrag böra ske.
+En höjning av försäkringsavdragets maximum utgör emellertid enligt kommitténs 
+mening inte någon tillfredsställande lösning av frågan, ty dels
+varierar avgifterna med hänsyn till omfattningen av sjukförsäkringen och
+till avgiftsnivån i de olika sjukkassorna och dels har företagarna att själva
+bestrida hela kostnaden för sin tilläggssjukpenningförsäkring. För de anställda 
+hestrides omkring 60 procent av denna kostnad genom arbetsgivarbidraget.
+ Företagarna kommer alltså i fråga om rätten till avdrag för försäkringsavgifter 
+i ett ogynnsammare läge än de anställda i alla de fall försäkringsavdraget 
+är otillräckligt för avdragsgilla avgifter.
+Kommittén anser sålunda att avdragsrätten för avgiften till den obligatoriska 
+sjukförsäkringen bör brytas ut från försäkringsavdraget och att
+avdrag medgives vid sidan av detta. Om sådant särskilt avdrag medgives,
+skulle nämligen full likställighet ernås i fråga om rätten till avdrag för
+sjukförsäkringsavgiften.
+I motioner till 1961 års höstriksdag (I: 671 och II: 810) hade vi tagit upp
+frågan. Vi anförde därvid:
+Enligt vår mening talar flera skäl för ett utbrytande av den obligatoriska
+sjukförsäkringsavgiften till en fristående avdragspost i likhet med vad
+som gäller för folkpensionsavgiften. Huvudmotivet bakom det nuvarande
+försäkringsavdraget är att stimulera det frivilliga försäkringssparandet.
+Att avdraget för sjukförsäkringsavgiften nu får ske inom ramen för försäkringsavdraget,
+ beror givetvis huvudsakligen på att sjukförsäkringen tidigare 
+varit frivillig. Den allmänna sjukförsäkringens obligatoiiska karaktär 
+borde i och för sig leda till att avgiften utbröts till en särskild avdragspost.
+ Så länge den ligger inom ramen för det allmänna försäkringsavdraget
+måste den inkräkta på utrymmet för de frivilliga försäkringarna. För att
+reducera denna verkan har statsmakterna hittills valt vägen att höja försäkringsavdragets 
+maximum. En långsiktig och från principiella synpunkter 
+mer tilltalande lösning kan knappast nås denna väg.
+En annan omständighet som bör beaktas är den för närvarande olikartade 
+ställning i avdragshänseende som på denna punkt råder mellan löntagare 
+och företagare. För samma totala försäkringsskydd avseende sjukoch 
+olycksfallsförsäkringarna är egenavgiften, vilken får avdragas inom
+ramen för försäkringsavdraget, betydligt större för företagaren än för löntagaren.
+ Härigenom blir det avdragsmässiga utrymmet för övriga, frivilliga
+försäkringar mindre för företagaren än för den anställde. Den tekniskt sett
+enklaste vägen att komma till rätta med detta problem synes vara att avgiften 
+till den allmänna sjukförsäkringen finge avdragas för sig utanför
+försäkringsavdraget. Avdraget för sjukförsäkringsavgiften borde då ske
+Motioner i Andra kammaren, nr 785 år 1962
+5
+med det belopp som faktiskt erlagts. Någon bärande anledning att schablonisera 
+detta avdrag föreligger enligt vår mening inte.
+Trots att socialförsäkringskommittén har varit enhällig om sitt förslag
+på denna punkt, har regeringen inte tagit upp saken. Vi finner detta beklagligt.
+ Starka skäl talar nämligen — som bl. a. socialförsäkringskommittén 
+framhållit — för att sjukförsäkringsavgiften i likhet med vad som
+är fallet med folkpensionsavgiften skall avdragas för sig vid sidan om det
+allmänna försäkringsavdraget.
+Från vår sida kommer i annat sammanhang yrkande att framföras om
+sådan ändring av den skattemässiga behandlingen av sjukförsäkringsavgiften 
+som här angivits.
+4. Standardtillägg inom folkpensioneringen
+Enligt lagen den 1 juli 1956 om höjning av folkpensioner m. m. utgår
+särskilda förmåner, s. k. standardtillägg, utöver de ordinarie förmåner som
+folkpensioneringen ger. Standardtilläggen — som för närvarande utgår för
+år räknat med 455 kronor till pensionsberättigad, vars make uppbär folkpensionsförmån,
+ samt med 600 kronor till annan pensionsberättigad —
+föreslås i propositionen nr 90 bli höjda med 350 kronor från den 1 juli 1962
+och skall därefter utgå med 705 resp. 950 kronor.
+De föreslagna övergångsbestämmelserna till lagen om allmän försäkring
+innebär bl. a. att standardtillägg till folkpensionsförmåner från den 1 januari 
+1963 skall upphöra att utgå som särskilda förmåner och i stället
+inräknas bland de ordinarie folkpensionsförmånerna. Lagen den 1 juli 1956
+om höjning av folkpensioner m. m. skall enligt propositionen från nämnda
+datum upphöra att gälla. Standardtilläggen blir således formellt avskaffade
+den 1 januari 1963, ehuru viss delaktighet i den allmänna standardhöjningen 
+tillförsäkras folkpensionärerna genom höjningen av de allmänna
+förmånerna, men begränsad till tiden fram till utgången av juli 1968. Från
+sistnämnda datum, då reglerna om folkpensionens anknytning till basbeloppet 
+träder i kraft, är det departementschefens mening att standardtillägg 
+för folkpensionärer icke heller reellt skall utgå.
+Det är tydligt att en omsvängning ägt rum beträffande regeringens
+attityd till folkpensionärernas rätt till standardtillägg. När en standardhöjning 
+för folkpensionärerna genomfördes år 1953, framhöll dåvarande
+socialministern i propositionen härom (nr 15), att
+den fortgående allmänna produktionsstegringen medfört, alt de i arbetslivet 
+verksamma över lag inte blott fått täckning för de sedan år 1946 stegrade 
+levnadskostnaderna utan även erhållit en avsevärd standardförbättring.
+Denna standardförbättring har inte någon motsvarighet för folkpensionärernas 
+vidkommande. Det vore emellertid riktigt, alt även folkpensionärerna 
+bereddes eu rättvis andel i den allmänna standardhöjningen.
+6
+Motioner i Andra kammaren, nr 785 år 1962
+Det finns enligt vår mening ingen anledning att nu inta ståndpunkten att
+folkpensionärerna i framtiden inte skall beredas delaktighet i den allmänna 
+stadardförbättring, som är att vänta även efter 1968. Det kommer
+även då att finnas stora grupper av pensionärer som endast har folkpension 
+att leva på. Att fixera deras standard till den år 1968 gällande, vilket
+skulle bli den faktiska innebörden av departementschefens förslag synes
+helt omotiverat. Folkpensionärerna bör därför kunna beredas sin del i
+en kommande standardförbättring. Riksdagen bör enligt vår mening göra
+ett uttalande av denna innebörd. Den tekniska utformningen av efter 1968
+tillkommande standardtillägg till folkpensionärerna bör efter erforderlig
+utredning lämpligen fastställas då.
+5. Oreducerad pension före 67 års ålder
+I propositionen nr 90 framlägges förslag om individuellt rörlig pensionsålder 
+inom folkpensioneringen. Detta förslag tillgodoser vissa av de krav
+vi riktat om ett pensionssystem, som tar större hänsyn till de faktiska
+behoven av pension. Då systemet med individuellt rörlig pensionsålder är
+avsett att bli generellt, finner vi det naturligt att pensionsförmånerna får
+variera med pensionsåldern.
+För de grupper av arbetstagare, som på grund av särskilt pressande arbete
+är i behov av full pension före 67 års ålder, är emellertid pensionsfrågan
+ännu icke tillfredsställande löst. Detta gäller för närvarande inte bara
+gruvarbetare, skogsarbetare och byggnadsarbetare som traditionellt bedömts
+ha ett tungt arbete utan även andra arbetstagare, exempelvis servitriser.
+Möjligheterna att bereda de berörda yrkeskategorierna full pension inom
+det obligatoriska systemets ram försvåras av att något fast samband inte
+råder mellan avgifter och förmåner. Det är därför förenat med betydande
+tekniska svårigheter att inom ramen för ATP:s enhetliga regelsystem nå
+den anpassning av framför allt bestämmelserna för pensionsåldern till
+skilda yrkesgruppers behov, varav det utan tvivel föreligger starka önskemål.
+ I de fall där yrkesgrupper i fråga låter sig utan svårighet avgränsas,
+bör de tekniska problemen inte vara olösliga. Landsorganisationen har i
+sitt remissyttrande över socialförsäkringsutredningens betänkande anfört
+liknande synpunkter och ansett att möjligheterna att nå en teknisk lösning
+borde övervägas vidare. Från vår sida har redan tidigare förslag framförts
+om teknisk utredning av dessa problem, och vi anser oss fortfarande ha
+anledning att hävda detta krav. Med hänsyn till de tekniska svårigheterna
+är det naturligt att en efter vederbörande yrkesgrupps önskemål anpassad,
+lägre pensionsålder i första hand eftersträvas avtalsvägen. Men det bör
+då vara rimligt att samhället underlättar sådana avtal, t. ex. genom åtgärder 
+varigenom värdesäkerhet vinnes åt avtalsmässigt uppnådda tilläggspensioner 
+för tid före 67 års ålder. Dessa möjligheter bör också tas upp till
+prövning vid den utredning som enligt vår mening bör komma till stånd.
+Motioner i Andra kammaren, nr 785 år 1962
+7
+Rimligt synes också vara, att staten som arbetsgivare verkar för avtal av
+nämnda innebörd.
+6. lnvaliditetsgraderingen
+Den i propositionen föreslagna graderingen av förtidspensionerna motsvarar 
+socialförsäkringskommitténs indelning i tre grupper med lägst Va,
+*/» och 5/e invaliditet; reglerna innebär en jämn ökning vid stigande invaliditet 
+(Va, 2/3 och 3/3 pension). Tregruppindelningen utgör en kompromiss
+mellan å ena sidan önskemålet om individuell rättvisa, å andra sidan de
+starka praktiska skälen mot en fingradering. I regel torde denna indelning
+kunna medge tillfredsställande resultat. Men det kan förekomma fall, där
+fixeringen vid tre invaliditetsgrader får inte önskvärda resultat. En person,
+som läkaren vill slussa in i fullt arbete efter en svår, inte helt utläkt sjukdom 
+och som länge arbetat 1/s tid, kan inte känna sig rättvist behandlad,
+om han på läkarens förslag utökar sin arbetstid något litet och därmed
+får sin pension sänkt till hälften. Om han mot reglerna får behålla Va pension,
+ blir han å andra sidan bättre ställd än den, som omedelbart efter
+sjukskrivningen börjat arbeta något mer än 1/3 tid. Dessa schematiska exempel 
+illustrerar, att en helt strikt tregruppsindelning enligt förslaget inte
+alltid är lämplig. Det är därför välbetänkt att genom en ändring i de föreslagna 
+bestämmelserna öppna en möjlighet för pensionsorganen att i speciella 
+fall avvika från schablonen, så att pensionen i mellangruppen kan,
+när särskilda skäl motiverar detta, graderas på annat sätt än till Va av
+hel pension.
+7. De särskilda invaliditetsförmånerna
+Departementschefen föreslår i propositionen nr 90 att särskilda invaliditetsförmåner 
+skall utgå vid sidan av förtidspension och ålderspension. Förmånerna 
+utgöres av invaliditetstillägg, motsvarande socialförsäkringskommitténs 
+förslag om blindtillägg, vårdtillägg, hjälptillägg och vanföretilllägg,
+ samt invaliditetsersättning, som motsvarar kommitténs förslag om
+blindhetsersättning och vanföreersättning. Den principiella skillnaden mellan 
+invaliditetstillägg och invaliditetsersättning enligt förslaget är, att tillläggen 
+skall utgå vid sidan av förtidspension och ålderspension, medan
+ersättningarna skall utgå till invalidiserade, som icke är berättigade till
+förtidspension. Departementschefens förslag om sammanföring av tillägg
+och ersättningar till en enhetlig form synes väl motiverat med hänsyn till
+den administrativa förenkling som härigenom uppnås.
+Vi finner det emellertid otillfredsställande, att invaliditetsförmånerna
+enligt departementschefens förslag tills vidare ej skall indexregleras. Detta
+innebär att invaliderna ej får kompensation för de prisstegringar som kan
+befaras inträffa under 1960-talet. Departementschefen motiverar sitt förslag 
+med att den maskinella utrustning, som behövs för uträkningarna
+8
+Motioner i Andra kammaren, nr 785 år 1962
+av indexreglerade belopp för närvarande saknas. Vi anser emellertid icke
+detta skäl vara tillräckligt starkt för att motivera ett uppskov med indexreglering 
+av de särskilda invaliditetsförmånerna i förhållande till basbeloppet.
+ Indexreglerade invaliditetstillägg och invaliditetsersättningar bör, föreslår 
+vi, utgå redan från den 1 januari 1963.
+8. Pension åt hemmadöttrar och andra kvinnor med reducerad
+försör jningsförmåga
+Vid upprepade tillfällen har från vårt håll krav riktats på åtgärder som
+syftar till att bereda rätt till pension åt äldre kvinnor med nedsatta försörjningsmöjligheter,
+ däribland främst de s. k. hemmadöttrarna. Då detta krav
+ej realiserats i föreliggande förslag om allmän försäkring finner vi angeläget 
+att på nytt föra fram kravet.
+Utmärkande för nämnda kvinnogrupp är att deras arbetsförmåga i allmänhet 
+ej kan sägas vara nedsatt av medicinska skäl utan av andra omständigheter.
+ Det kan gälla kvinnor som ägnat en stor del av sitt liv åt att
+passa sina gamla föräldrar, sina invalidiserade eller mentalsjuka vuxna
+barn eller syskon. Dessa kvinnor kan sägas ha utfört samhällsvård för samhällets 
+räkning. Inte minst med hänsyn härtill förefaller det vara motiverat
+att samhället i sin tur kommer dem till hjälp, när de på äldre dagar står
+ensamma och utan yrkesutbildning och med starkt reducerad försörjningsförmåga.
+ Det kan också gälla frånskilda kvinnor som exempelvis på grund
+av mannens alkoholism eller andra liknande förhållanden blivit psykiskt
+oförmögna att på äldre dagar anpassa sig inom arbetslivet.
+Det är självfallet ett primärt mål att bereda ifrågavarande kvinnor möjlighet 
+till yrkesverksamhet. Här anmäler sig en naturlig uppgift för arbetsmarknadsorganen.
+ Sådana åtgärder torde i de allra flesta fall vara att
+föredraga framför pensionering, icke minst därför att vederbörande oftast
+finner större glädje och tillfredsställelse med yrkesarbete. Det är därför
+naturligt att arbetsmarknadsorganen tar sig an denna uppgift och försöker
+att bl. a. genom lämpliga kurser bereda dessa kvinnor plats i förvärvslivet.
+Emellertid kan det uppenbarligen förekomma fall där en skälig utkomst
+genom förvärvsarbete på grund av åldersskäl inte visar sig möjlig. Att i
+dessa sistnämnda fall hänvisa vederbörande till socialhjälpen är, enligt vår
+mening, uppenbart obilligt. Vi vidhåller därför vårt krav på en reform i
+syfte att bereda hemmadöttrar och andra i liknande situation pension.
+I Danmark har frågan om pension åt äldre kvinnor med nedsatt försörjningsförmåga 
+blivit löst genom änkepensionslagstiftningen åren 1959 och
+1961. Enligt denna lagstiftning kan änkor och andra ensamstående kvinnor,
+som fyllt 50 år, efter särskilt prövningsförfarande tillerkännas pension,
+för så vitt sviktande hälsa eller andra särskilda omständigheter är vid handen 
+utan att därför rätt till pension enligt invalidpensioneringslagen föreligger.
+Motioner i Andra kammaren, nr 785 år 1962 9
+När denna reform genomfördes befarade man på visst håll att reformen
+skulle bli svåradministrerad och kostsam, då antalet ansökningar om pension 
+förväntades bli av betydande storlek. Så blev emellertid icke fallet.
+Under tiden 1/4 1959—28/2 1961 fattades 5 044 beslut i anledning av
+ansökningar, varvid endast 1 921 beslut belöpte på kategorien »andra ensamstående 
+kvinnor». Den årliga kostnaden för reformen beräknades till
+5 milj. d. kr. Då denna på sociala indikationer konstruerade pensionsreform 
+visade sig såväl vara lättadministrerad som fylla ett socialt behov,
+beslöt danska folketinget om en utvidgning av lagens tillämplighetsområde 
+år 1961.
+År 1960 framfördes från vårt håll krav på att frågan om pension åt
+hemmadöttrar och andra med bristande reella försörjningsmöjligheter
+skulle handhas av socialförsäkringskommittén, varigenom möjligheter skulle 
+föreligga att beslut fattades redan år 1962. Detta yrkande avslogs. Vederbörande 
+utskott anförde att ifrågavarande problem tillhörde det slag av
+frågor som utredes av socialpolitiska kommittén. Denna kommitté har
+emellertid omfattande utredningsuppdrag varför det är risk för att en
+enligt vår mening angelägen reform kommer att försenas. Vi föreslår därför
+att riksdagen i skrivelse till Kungl. Maj :t uttalar att denna fråga bör utredas 
+tillräckligt snabbt för att förslag skall kunna framläggas till nästa
+års riksdag. Vad vi avser är en lagstiftning som ger möjlighet för pensionsorganen 
+att efter noggrann prövning besluta om förtidspension för äldre kvinnor 
+som saknar förmåga att försörja sig på arbetsmarknaden och förutsättningar 
+för omskolning utan att detta förhållande direkt kan härledas ur
+medicinska faktorer.
+9. Frånskild kvinnas rätt till änkepension
+Departementschefens förslag till bestämmelser om änkepension till frånskild 
+kvinna har bl. a. av familjerättskommittén bemötts med vägande kritik.
+ Om rätten till pension ävensom pensionens storlek göres beroende av
+avtalet eller utdömt underhåll, öppnas möjlighet till spekulation, bl. a. i
+form av skenavtal om underhåll. Uppgörelser om underhåll i samband
+med skilsmässa kan komma att försvåras, och det kan också bli svårare
+att få till stånd jämkning av tidigare beslut om underhåll, när exempelvis
+i samband med pensionering mannens inkomster väsentligt minskas. Det
+kan inte anses lyckligt, att en social reform får dylika verkningar på det
+civilrättsliga området.
+En annan väsentlig invändning mot departementschefens förslag är att
+det avviker — t. ex. beträffande anknytning till underhållet — från motsvarande 
+regler inom den statliga och kommunala pensioneringen. Målet
+bör dock vara att enhetliga regler gäller inom de olika pensionssystemen.
+Som lagrådet framhåller bör det föreliggande förslaget inte ses som en
+slutlig lösning på frågan om frånskildas rätt till änkepension. Vi finner,
+10
+Motioner i Andra kammaren, nr 785 år 1962
+att denna fråga bör tas upp till förnyad prövning, varvid det bör övervägas
+att de regler som nu gäller för pension i statlig tjänst också skall tillämpas
+i lagen om allmän försäkring. Tills vidare torde dock de av departementschefen 
+föreslagna bestämmelserna få gälla.
+10. Gratispoång inom tilläggspensioneringen
+Socialförsäkringskommittén har föreslagit att gratispoäng för tilläggspension 
+skall kunna tilldelas personer, som på grund av studier eller annan
+utbildning eller värnpliktstjänstgöring under vissa år ej haft förvärvsinkomst 
+eller haft låg sådan. Kommittén föreslår att dessa gratispoäng skall
+bekostas med allmänna medel. Förslaget syftar främst till att grundlägga
+rätt till en god förtidspension för ifrågavarande personer, om de skulle
+invalidiseras i unga år.
+Departementschefen säger sig ha allvarliga betänkligheter mot att tillläggspensioneringen 
+på detta sätt förändras från en avgiftsfinansierad försäkring 
+mot bortfall av förvärvsinkomster till ett system med blandad finansiering,
+ där även andra omständigheter än inkomstbortfall skall kunna ge
+ge upphov till pensionsrätt. Detta argument, som förts fram också på andra
+ställen i propositionen, att reformer bör undvikas om de bryter mot systemets 
+grundläggande konstruktion, kan vi ej oförbehållsamt instämma i. Det
+torde bli nödvändigt att i större utsträckning än hittills göra försäkringssystemet 
+smidigt, och därvid måste supplerande finansieringsformer införas.
+ Detta torde vara den enda utvägen att lösa flera av de försäkringsproblem,
+ som kommer att kvarstå även efter den föreslagna reformens
+genomförande.
+Vi ser för vår del positivt på förslaget om gratispoäng till värnpliktiga
+och studerande. Förslaget torde dock böra ytterligare överses. Vi vill med
+instämmande i lagrådets hemställan föreslå att den fortsatta utredning,
+som ställts i utsikt av departementschefen, snarast företages.
+It. Allmänt ombud vid försäkringsdomstolen
+Lagrådet har i sitt till propositionen nr 90 fogade utlåtande hemställt, att
+det i 20 kap. 12 § i förslaget till lag om allmän försäkring behandlade
+underställningsinstitutet skall utgå och att i stället en tjänst som allmänt
+ombud vid försäkringsdomstolen skall inrättas. Departementschefen har
+avslagit lagrådets hemställan.
+Denna fråga behandlades i fjol i samband med propositionen nr 45 med
+förslag till lag om ändring i lagen om allmän sjukförsäkring. Från vårt
+håll föreslogs därvid i de likalydande motionerna I: 623 och II: 741 att det
+allmänna skulle företrädas i försäkringsdomstolen av en särskild representant.
+ Som motivering anförde vi bl. a. att
+hela förfarandet inför domstolen (har) byggts upp med rättegångsbalkens 
+domstolsförfarande som mönster. Hänvisning göres ... på en råd
+Motioner i Andra kammaren, nr 785 år 1962
+11
+väsentliga punkter vad angår själva förfarandet till rättegångsbalkens regler.
+ Rättegången är emellertid som bekant byggd på en ordning med två
+motstående parter. Det synes därför angeläget att förfarandet för socialförsäkringsdomstolen 
+konstrueras på i princip samma sätt som enligt
+rättegångsbalken.
+Än viktigare är måhända, att förtroendet på längre sikt för socialförsäkringsdomstolen 
+kan äventyras, om denna på grund av avsaknad av ett
+allmänt ombud måste själv företräda och tillgodose det allmännas synpunkter.
+ Domstolens ställning blir starkare och fullt opartisk, om den får
+till uppgift att döma mellan de båda motstående intressen som gör sig gällande.
+ Särskilt blir detta förhållandet i alla de mål om ATP, vilka efter
+hand torde komma att utgöra huvuddelen av domstolens arbetsbörda.
+Vi anser att dessa skäl alltjämt har utslagsgivande styrka. Departementschefens 
+invändning att erfarenheter ännu ej nåtts av det nya besvärssystemet 
+för socialförsäkringen kan icke skäligen åberopas i detta sammanhang.
+ Goda erfarenheter av tvåpartsförhållanden finnes ju redan nu från
+andra former av administrativ domstolsverksamhet, t. ex. skatteprocessen.
+Det som alternativ föreslagna underställningssystemet synes otidsenligt
+och har också kommit ur bruk inom modernt administrativt förfarande.
+Vi föreslår i överensstämmelse med lagrådets hemställan, att sådana
+ändringar i förslaget till lag om allmän försäkring införes, att en tjänst
+som allmänt ombud vid försäkringsdomstolen inrättas och att samtidigt
+underställningssystemet avskaffas. Det förutsättes ankomma på utskottet
+att företaga de ändringar i den föreslagna lagtexten som betingas av vårt
+förslag.
+Under hänvisning till vad vi ovan anfört hemställes,
+A. dels att riksdagen måtte
+1. hemställa om en utredning i syfte att undersöka förutsättningarna 
+för att företagare skall äga rätt att ansluta sig
+till tilläggspensioneringen endast beträffande förtids- och
+efterlevandeskydd samt att beräkna avgifterna för ett sådant 
+skydd,
+2. besluta att till dess resultatet av den under 1) föreslagna 
+utredningen föreligger och beslut på grundval av utredningen 
+fattats företagare skall äga rätt att deltaga i
+endera av sjukförsäkringen och tilläggspensionsförsäkringen,
+3. besluta att barntillägg till tilläggssjukpenning vid
+barnsbörd skall utgå i de fall kvinnan är huvudsaklig försörj 
+are,
+4. uttala att standardtillägg till folkpensionsförmånerna
+skall utgå även efter 1968 och i skrivelse till Kungl. Maj:t
+begära utredning rörande de tekniska problem som sammanhänger 
+härmed,
+12
+Motioner i Andra kammaren, nr 785 år 1962
+5. i skrivelse till Kungl. Maj :t hemställa om en utredning
+i syfte att undersöka förutsättningarna för att bereda arbetstagare 
+i särskilt slitsamma yrken rätt till oreducerad pension 
+före 67 års ålder samt att föreslå statliga åtgärder för
+att trygga värdesäkerhet åt avtalsmässigt uppnådda till—
+läggspensioner för tid före nämnda ålder,
+6. besluta att ge pensionsorganen rätt att avvika från den
+föreslagna invaliditetsgraderingen, så att pensionen i mellangruppen 
+kan, när särskilda skäl motiverar detta, graderas 
+på annat sätt än till 2/3 av hel pension,
+7. besluta att övergångsbestämmelserna om invaliditetstillägg 
+och invaliditetsersättning skall slopas samt att dessa
+förmåner skall indexregleras enligt förslaget till lag om
+allmän försäkring redan från den 1 januari 1963,
+8. i skrivelse till Kungl. Maj :t hemställa om en skyndsam
+utredning i syfte att till 1963 års riksdag framlägga förslag 
+till förtidspension till äldre kvinnor, som saknar förmåga 
+att försörja sig på arbetsmarknaden och förutsättningar 
+för omskolning, utan att detta förhållande direkt kan
+härledas ur medicinska faktorer,
+9. med antagande av Kungl. Maj :ts förslag vad gäller
+änkepension till frånskild kvinna som ett provisorium i
+skrivelse till Kungl. Maj:t hemställa om att denna fråga
+upptages till förnyad teknisk utredning,
+10. i skrivelse till Kungl. Maj :t hemställa om att den fortsatta 
+utredning om gratispoäng inom tilläggspensioneringen
+till värnpliktiga och studerande, som departementschefen
+ställt i utsikt, snarast företages,
+11. besluta att en tjänst som allmänt ombud vid försäkringsdomstolen 
+inrättas samt att det nuvarande underställningssystemet 
+för riksförsäkringsverket avskaffas.
+B. dels att utskottet måtte utforma de ändringar i de till
+proposition nr 90 hörande lagförslagen, som föranledes av
+ovannämnda förslag.
+Stockholm den 3 april 1962
+Bertil Ohlin Sven Wedén Henning Gustafsson
+i Skellefteå
+Sven Gustafson Gunnar Helén
+i Göteborg
+kammare
+kammare
+Andra kammaren
+EN2O785
+2018-03-01 20:27:16
+riksdag
+riksdag
+tvåkammaren
+EN2O785
+2018-03-01 20:27:16
+session
+session
+lagtima
+EN2O785
+2018-03-01 20:27:16
+sidantal
+Antal sidor
+12
+EN2O785
+2018-03-01 20:27:16
+EN2O785
+Andra kammaren
+mot_1962__ak__785.pdf
+667069
+pdf
+Nr 785—787 Motioner i Andra kammaren, nr 785 år 1962
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1962/web_mot_1962__ak__785/mot_1962__ak__785.pdf

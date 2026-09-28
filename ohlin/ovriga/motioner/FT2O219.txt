@@ -1,0 +1,200 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+4
+Motion i Andra kammaren, nr 219 år 1970
+Nr 219
+Av herr Källstad m. fl., om program för en utbyggnad av åldringsforskningen.
+(Lika lydande med motion nr 284 i Första kammaren)
+Eftersom en avsevärd del av samhällets totala sociala utgifter gäller de
+äldre är det mer än anmärkningsvärt att någon långsiktig forskning inom 
+gerontologin (läran om åldrandet) inte förekommer i vårt land. Geriatriken 
+(läran om åldrandets sjukdomar) har blivit ett universitetsämne 
+efter riksdagsframstötar under flera år av bl. a. folkpartiet. Bristerna 
+upplevs av många som störst inom det sociala och psykologiska området 
+för åldersforskning.
+Behoven
+Vi vet inte om dagens satsningar i olika former för de äldre lyckas eller
+misslyckas. Vi har föga kunskap om hur de äldres behov bäst skall tillfredsställas.
+I stort sett bygger vi vår socialpolitik på en automatik som baserar sig
+på förutsättningar om vilka vi inte vet om de är rimliga, riktiga eller ens
+önskvärda.
+Eftersom social och psykologisk åldersforskning i stort sett saknas
+måste en första åtgärd vara att bedöma vilka områden som ter sig angelägna 
+att satsa forskning på och i andra hand hur denna forskning skall
+bedrivas.
+Det har sagts att regeringen i längden inte kan vidhålla sin hittills kallsinniga 
+syn på detta angelägna behov. Man behöver därvid inte bara åberopa 
+folkpartiets ständiga krav på en utbyggd socialpolitisk forskning. En
+enig expertgrupp har efter uppdrag av forskningsberedningen levererat
+en utomordentligt stark kritik av nuläget inom den socialpolitiska forskningen.
+Åldersforskningen i Sverige
+1. Åldersforskningens grenar
+Ser man frågan ur ett historiskt perspektiv, har geriatriken dominerat
+åldersforskningen. Geriatriken beskriver äldre personer som patienter, de
+omständigheter, villkor och möjligheter som är typiska för den situationen.
+ Av långt färskare datum är gerontologin, som inte sysslar med sjukliga 
+förändringar utan med den normala människans villkor under åldrandet.
+ Gerontologins upppgift är att beskriva äldre personer såsom sam
+-
+Motion i Andra kammaren, nr 219 år 1970
+5
+hällsmedlemmar, deras omständigheter, villkor och möjligheter. Gerontologen 
+är ofta samhällsvetenskapligt skolad och har till uppgift att studera 
+individen i samhället och föreslå sådana åtgärder som underlättar
+för individen att komma till sin rätt.
+2. Den gerontologiska forskningen i Sverige
+Aktiviteten är påfallande låg jämfört med andra länder. I Holland finns,
+för att nämna ett exempel, en permanent organisation med ca 160 anställda 
+som ägnar sig åt hithörande problem. Befolkningsstrukturen där har
+likheter med Sveriges. I vårt land kännetecknas verksamheten av tillfälliga 
+improvisationer, baserade på slumpmässiga grupperingar av forskare
+med intresse för gerontologi. Emellertid finns strävanden att skapa fastare 
+former. Ett exempel på detta är den planering av ett institut för gerontologi 
+i Göteborg—Jönköping som sedan flera år har pågått. Institutets 
+struktur skulle göra det möjligt att kontinuerligt jämföra levnadsvillkor 
+i storstad och glesbygd med tillhjälp av en hel uppsättning olika vetenskapsgrenar.
+ Fortfarande saknas dock ekonomiska möjligheter för institutet 
+att träda i verksamhet.
+3. Den geriatriska forskningen i Sverige
+Gränsen mellan okomplicerad åldersskröplighet och de i snävare mening 
+sjukliga förändringarna är ofta svår att fixera. Gerontologi och geriatrik 
+är därför inom många avsnitt intimt förenade, t. ex. i de utomordentligt 
+viktiga frågorna om de fysiska och psykiska aktiviteternas sjukdomsförebyggande 
+möjligheter.
+Även inom geriatriken är forskningsresurserna, särskilt med tanke på
+åldringsvårdens oerhört stora sjukvårdsekonomiska betydelse, anmärkningsvärt 
+små. Visserligen har landet genom riksdagens beslutsamhet och
+trots regeringens motstånd nyligen fått sin första lärostol i geriatrik (en
+professur i Uppsala). Men övriga medicinska utbildningsorter saknar
+fortfarande geriatriska forskningsinstitutioner. En snar utbyggnad av
+den geriatriska forskningen är synnerligen angelägen.
+Man kan inte täcka hela det geriatriska forskningsfältet med endast en
+professur. Det utredningsmaterial som låg till grund för inrättandet av
+den första professuren i geriatrik möjliggör ställningstaganden rörande
+utbyggnaden av forskningsorganisationen. Förutsättningar finns att inrätta 
+forskningsprofessurer i varje fall i Stockholm och Göteborg och sannolikt 
+också vid övriga medicinska lärosäten.
+I mittenmotioner vid 1969 års riksdag (1:177 och 11:191) med herr Källstad 
+som första namn föreslogs, att Kungl. Maj :t skulle framlägga ett
+program för en stegvis utbyggnad av åldringsforskningen, så att detta
+ämne successivt blir representerat vid vart och ett av de nu existerande
+6
+Motion i Andra kammaren, nr 219 år 1970
+lärosätena. Det borde uppdrag åt universitetskanslersämbetet att utreda
+frågan om en lämplig avvägning av professurernas ämnesinriktning.
+Vidare borde UKÄ, enligt motionärerna, få i uppdrag att utreda frågan
+om en samordning av de geriatriska forskningsinsatserna på riksplanet.
+Riksdagen biföll i stor utsträckning motionen och gav i en skrivelse
+Kungl. Maj :t till känna, att man räknade med, att regeringen skulle lägga
+fram förslag till ökade resurser för åldersforskning ”i den mån personella
+och ekonomiska resurser för en utbyggnad anses föreligga”.
+Det är därför med förvåning vi noterat, att regeringen i årets statsverksproposition 
+inte velat tillstyrka ens universitetskanslersämbetets
+förslag om ytterligare en professur i geriatrik utöver den som sedan en
+tid finns i Uppsala och att man långt mindre ställer i utsikt någon mera
+omfattande utbyggnad av åldersforskningen, som föreslogs i fjolårets mittenmotioner.
+ Ja inget i statsverkspropositionen tyder på, att regeringen
+tagit hänsyn eller ens uppmärksammat riksdagens f jolårsbeslut. Arbetet
+från vår sida för att få till stånd en utbyggd åldersforskning trots regeringens 
+motstånd har hittills huvudsakligen inriktat sig på krav på ökad
+geriatrisk forskning. Men det behöver, som vi tidigare framhållit, skapas
+resurser också för en grundläggande gerontologisk forskning i vårt land.
+Åldringsvård och åldringsforskning är nära beroende av varandra.
+Forskningens uppgift är därvid dels att ständigt fungera som återkoppling 
+och uttala sig om effekten av samhällets olika åtgärder, dels att producera 
+kunskap om åldrandets villkor i övrigt och eventuellt påkalla samhällets 
+uppmärksamhet i frågor som ännu är försummade.
+Vårdkostnader och övriga sociala utgifter för den äldre befolkningen
+är högst betydande. Forskningen kan i bästa fall minska människans behov 
+av vård som ofta inte beror på åldrandet självt utan på felaktigheter
+i miljön. Åldrandeforskning, rätt dimensionerad, är alltså i likhet med
+många andra forskningsgrenar ett sätt för samhället att spara pengar och
+en ökad chans för individen att uppleva ett rikare liv.
+Med hänvisning till vad som ovan anförts hemställer vi,
+att riksdagen, med erinran om riksdagens skrivelse nr
+137 år 1969 och statsutskottets utlåtande nr 46 år 1969 i
+vad avser åldersforskning, i skrivelse till Kungl. Maj:t
+måtte hemställa om program för en stegvis utbyggnad av
+åldersforskningen på både det geriatriska och det gerontologiska 
+området.
+Stockholm den 22 januari 1970
+Thorvald Källstad (fp) Bertil Ohlin (fp) Karl-Erik Strömberg (fp)
+Olle Westberg (fp) Ingegärd Frcenkel (fp)
+i Ljusdal
+kammare
+kammare
+Andra kammaren
+FT2O219
+2018-02-20 19:51:51
+riksdag
+riksdag
+tvåkammaren
+FT2O219
+2018-02-20 19:51:51
+session
+session
+lagtima
+FT2O219
+2018-02-20 19:51:51
+sidantal
+Antal sidor
+3
+FT2O219
+2018-02-20 19:51:51
+FT2O219
+Andra kammaren
+mot_1970__ak__219.pdf
+241252
+pdf
+Motion i Andra kammaren, nr 219 år 1970
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1970/web_mot_1970__ak__219/mot_1970__ak__219.pdf

@@ -1,0 +1,100 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motion*,r i Andra kammaren, nr 608—609.
+1
+Nr 608.
+Av herr Falla m. fl., i anledning av Kungl. Maj:ts proposition,
+nr 275, angående åtgärder i prisreglerande syfte på jordbrukets 
+område.
+(Lika lydande med motion i Första kammaren nr 435.)
+Stockholm den 15 juni 1948.
+Gunnar Falla .
+Martin Skoglund. Gösta Liedberg.
+Karl Magnusson.
+Nr 609.
+Av herr Svensson i Ljungskile m. fl., i anledning av Kungl. Maj:ts
+proposition, nr 275, angående åtgärder i prisreglerande syfte
+på jordbrukets område.
+(Lika lydande med motion i Första kammaren nr 433.)
+Stockholm i juni 1948.
+Wald. Svensson.
+Edvin Jacobsson, O. Malmborg Bertil Ohlin.
+Igelsbo. i Skövde.
+1 Bihtmg Ull riksdagens protokoll 1948. 4 samt. Nr 608—610.
+kammare
+kammare
+Andra kammaren
+E92O608
+2018-03-02 21:17:57
+riksdag
+riksdag
+tvåkammaren
+E92O608
+2018-03-02 21:17:57
+session
+session
+lagtima
+E92O608
+2018-03-02 21:17:57
+sidantal
+Antal sidor
+1
+E92O608
+2018-03-02 21:17:57
+E92O608
+Andra kammaren
+mot_1948__ak__608.pdf
+133653
+pdf
+Motion*,r i Andra kammaren, nr 608—609
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1948/web_mot_1948__ak__608/mot_1948__ak__608.pdf

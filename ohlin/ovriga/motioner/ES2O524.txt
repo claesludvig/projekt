@@ -1,0 +1,97 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 52b år 1967
+13
+Nr 524
+Av herr Ohlin in. fl., om höjt anslag till Teknisk forskning.
+(Lika lydande med motion nr 412 i Första kammaren)
+Under hänvisning till den i motionerna I: 393 och II: 498 anförda motiveringen 
+hemställes,
+att riksdagen måtte besluta att anslaget till Teknisk forskning 
+uppräknas med 1 000 000 kronor utöver Kungl. Maj :ts
+förslag och därför under tionde huvudtiteln till Teknisk
+forskning för budgetåret 1967/68 anvisa ett reservationsanslag 
+av 23 428 000 kronor.
+Stockholm den 26 januari 1967
+Bertil Ohlin (fp)
+Sven Wedén (fp) Elias Jönsson (fp) Sven Anthg (fp)
+i Ingemarsgården
+Henning Gustafsson (fp) Ingemar Mundebo (fp) Daniel Wiklund (fp)
+i Skellefteå
+kammare
+kammare
+Andra kammaren
+ES2O524
+2018-03-01 17:06:37
+riksdag
+riksdag
+tvåkammaren
+ES2O524
+2018-03-01 17:06:37
+session
+session
+lagtima
+ES2O524
+2018-03-01 17:06:37
+sidantal
+Antal sidor
+1
+ES2O524
+2018-03-01 17:06:37
+ES2O524
+Andra kammaren
+mot_1967__ak__524.pdf
+112124
+pdf
+Motioner i Andra kammaren, nr 52b år 1967
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1967/web_mot_1967__ak__524/mot_1967__ak__524.pdf

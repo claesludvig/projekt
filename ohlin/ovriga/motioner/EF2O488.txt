@@ -1,0 +1,459 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 488.
+9*
+Nr 488.
+Av herr Håstad m. fl., om en rådgivande folkomröstning angående
+beslutande folkomröstning.
+I den debatt om folkomröstning, som pågått i vårt land under nästan hela
+tiden efter det andra världskrigets slut, synes en ganska stor samstämmighet,
+ha uppstått om önskvärdheten av er. utvidgning av det rådgivande referendum,,
+som alltsedan 1922 finnes inskrivet i vår författning. Så länge anordnande av
+en sådan rådgivande omröstning är beroende på regeringen och en majoritet
+i bägge kamrarna, kan detta institut tänkas komma till användning blott i
+alldeles exceptionella fall, och då i första hand när majoriteten ej själv önskar
+ta ansvaret i en omstridd fråga. Folkomröstningen i denna form saknar dessutom 
+helt den uppgift, som den allmänt tillerkänts i stater med större eller
+mindre inslag av direkt demokrati, nämligen att vara ett konstitutionellt kontrollmedel 
+i det fullmyndiga folkets händer. Endast genom att ge en viss minoritet 
+— antingen i riksdagen eller av folket eller möjligen i bäggedera — en
+rätt att under närmare preciserade villkor påkalla en konsultativ omröstning
+kan det svenska konsultativa folkomröstningsinstitutet aktiveras. Såsom framgår 
+av både folkomröstningskommitténs betänkande och riksdagens ställningstagande 
+i fjol råder numera bland de politiska partierna i princip tämligen
+stor enighet om det behövliga i att förändra vårt rådfrägande referendum
+från en majoritetsrättighet till en minoritetsrättighct. Meningsbrytningarna
+ha speciella ehuru i och för sig viktiga aspekter, framför allt spörsmålet om
+hur stor minoriteten bör vara för att tillerkännas rätt att påkalla en folkomröstning.
+ Med anledning av fjolårets riksdagsskrivelse ämnar regeringen förelägga 
+riksdagen en proposition i ärendet. Till följd av denna principiella enighet
+mellan partierna i fråga om utvidgning eller underlättande av konsultativt
+referendum, och då utanför riksdagen någon opinion häremot veterligen inteframträtt,
+ måste det vara överflödigt att anordna någon konsultativ folkomröstning 
+härom.
+Annorlunda ställer sig saken beträffande frågan om införande av ett beslutande 
+referendum. Av partiernas ställningstagande både i utredningen och
+efteråt i riksdagen har det framgått att meningarna om ett decisivt referendums 
+lämplighet äro mycket delade. Samma splittring går igen i pressdebatten,,
+varvid uppfattningarna ej helt men i hög grad följa samma linjer som skönjts;
+i partiernas hittillsvarande ställningstaganden i riksdagen. Den enda auktoritet,
+ som inte givits något tillfälle hittills att uttala sig men vars meningar i
+denna fråga kanske ej alls sammanfalla med den i varje läger partiofficiella,
+är folket självt. Eftersom just i denna fråga folkets egna uppfattningar måste
+tillmätas den allra största betydelse, finna vi det högeligen motiverat att folket
+10
+Motioner i Andra kammaren, nr 488.
+i författningsenlig ordning genom en konsultativ folkomröstning beredes tillfälle 
+till ett preliminärt ställningstagande.
+Många skäl tala för en sådan procedur, utöver det naturliga för att inte säga
+självklara i att vårt nuvarande rådgivande folkomröstningssystem utnyttjas
+för att inhämta folkets mening i en fråga som så direkt angår folket självt och
+dess egen direkta roll i den demokratiska statens styrelse.
+Redan den omständigheten att meningarna inom partierna så starkt brutit
+sig hänvisar nästan automatiskt till en folkrådfrågning. Åtminstone innan den
+nuvarande koalitionsregeringen hösten 1951 bildades uttalade sig ju representanterna 
+för den ena, den borgerliga, halvan av nationen för och representanterna 
+för den andra halvan, den socialdemokratiska, mot ett decisivt referendum,
+ och även om bondeförbundet vid 1952 och 1953 års riksdagar ändrat sig
+samt ställt sig mer eller mindre avvisande till denna utvidgning av folkrättigheterna,
+ har detta knappast minskat ovissheten om hur folkmajoriteten reagerar
+inför tanken på att en utbyggnad av folkomröstningsinstitutet i den riktningen
+att folket självt i särskilda omstridda frågor göres till högsta beslutande instans.
+Vi tro vidare att en rådgivande folkomröstning rörande beslutande folkomröstning 
+skulle i hög grad inte blott stimulera det allmänna politiska intresset
+utan även och framför allt bidraga till att klarlägga problemställningarna i fråga
+om detta slag av referendum. Vi finna det inte på något sätt förvånande att
+en rad spörsmål resas när det gäller en reform, som skulle innebära att vår
+hittillsvarande representativa demokrati finge ett inslag, låt vara i en begränsad 
+utsträckning, av direkt demokrati. Vår bestämda tro är att anhängare och
+motståndare under kampanjen för den av oss föreslagna folkomröstningen
+skulle tvingas till en djuplodning och precisering av problemen. Hela vårt demokratiska 
+styrelsesätts funktion med alla dess förtjänster och brister skulle
+inventeras. Ur en sådan debatt skulle förvisso mycket värdefullt framkomma
+oavsett om folkomröstningens utslag blir positivt eller negativt. Denna debatt
+skulle i förra fallet därjämte bli av betydelse för den slutliga utformningen av
+grundlagsstadgandena rörande ett decisivt referendum. Men debatten skulle
+under alla förhållanden vara ägnad att väcka medborgarnas samhällsintresse
+■och inskärpa deras samhällsansvar; och omröstningen jämte den föregående
+kampanjen skulle ge alla parter en ökad erfarenhet om det svenska folkets politiska 
+intresse.
+För egen del vidhålla vi uppfattningen att den nuvarande svenska repiesentativa 
+demokratien har ett starkt behov av en komplettering genom införande
+i begränsad omfattning av regler som gör det möjligt för en folkminoritet att
+vädja till folket såsom högsta beslutande organ. Vi upprepa, att parti- och
+•organisationsväsendet aldrig får växa sig så starkt, att den individuella medborgaren 
+så att säga försvinner i kollektivismen; demokrati betyder dock människornas 
+självstyrelse, och det måste finnas plats för individen vid sidan om
+de i och för sig nödvändiga organisationerna av politisk, ekonomisk eller facklig
+Motioner i Andra kammaren, nr 488.
+11
+art. Vi finna det vidare obestridligt att uppfattningarna hos dem, som röstat
+med ett visst parti, i vissa frågor icke sammanfalla med partiets och att partierna 
+sålunda inte äro representativa; i ett sådant fall bildar ett hänskjutande
+av frågan till folkets eget avgörande den enda möjligheten att få en samklang
+mellan folkmening och beslut till stånd. Vi tro att det tack vare radion skall
+vara möjligt att anordna sådan objektiv upplysning för en folkomröstning att
+folket erhåller tillräcklig saklig vägledning; i regel måste det nämligen vara
+lättare att åstadkomma en öppen, saklig debatt i en fråga, som isoleras, än vid
+ett val, då allehanda andra synpunkter och intressen fälla utslaget och varje
+särfråga underordnas medborgarnas plikt att välja parti. Vi finna det uppenbart,
+ att referendum och framför allt den beslutande formen, som tvingar
+folket till större ansvar än om riksdagen fortfarande har det sista ordet, inte
+minst har sin betydelse däri, att det höjer den politiska kunnigheten och bildningen.
+ Detta värde får i längden betraktas som så betydelsefullt, att det uppväger 
+ett eller annat eventuellt mindre gynnsamt utslag.
+Dessa principiella synpunkter ha av oss hävdats vid alla de tillfällen, då
+referendumfrågan debatterats. Vi kunna inte se att de rubbats av invändningarna 
+från det decisiva referendums motståndare. När det sålunda sagts att
+denna referendumform skulle vara oförenlig med det parlamentariska systemet
+eller kunna rubba dess funktion, skulle denna anmärkning möjligen kunna ha
+avseende på en direkt demokrati, som vore så fullständigt utbyggd som den
+schweiziska; vårt förslag till utbyggnad av folkomröstningssystemet är emellertid 
+alls inte så långtgående utan närmast jämförligt med det nya danska,
+och därvid förtjänar det att observeras att man i Danmark vid 1953 års totalrevision 
+av författningen inte ansåg detta inslag av decisivt referendum utgöra
+hinder för att samtidigt inskriva det parlamentariska systemet i författningen
+och där närmare reglera dess funktion. Och när man ibland pekar på referendum 
+såsom äventyrligt för statens möjligheter att ta upp erforderliga skatter 
+eller få in andra inkomster och därvid åberopar schweiziska folkomröstningserfarenheter,
+ vilja vi understryka att vårt förslag undantar skattebeslut
+från kretsen av frågor som skola kunna göras till föremål för decisivt referendum.
+ De invändningar slutligen, som bottnat i farhågor för pressens makt
+och utmynnat i låt vara mycket oklara krav på vissa åtgärder i syfte att subventionera 
+propagandan, innebära enligt vår uppfattning ett underkännande
+av principen om opinionens frihet och förtjäna därför intet avseende. Det fundamentala 
+för eu demokrati är just åsiktsbildningens frihet och åsikternas fria
+tävlan. En annan sak är att det ligger i alla parters intresse att objektiv upplysning 
+garanteras, men det ges många utvägar härtill genom statsmakternas
+försorg utan att grundsatsen om opinionernas och argumentens fria kraftmätning 
+trädes för när.
+Vi vilja även hänvisa till att decisivt referendum i begränsad form införts
+i tre av de fyra västerländska stater, som reviderat sin författning efter det
+andra världskriget, nämligen i Danmark, Frankrike och Italien; i det fjärde
+12
+Motioner i Andra kammaren, nr 488.
+landet, Västtyskland, är den nu tillämpade författningen, 1049 års Grundgesetz,
+ blott provisorisk i avvaktan på att ockupationen skall upphöra. När
+Österrike 1945 efter Hitlertiden reorganiserade författningslivet genom att
+återinföra 1929 års författning, betydde detta att även det deeisiva referendum
+restaurerades.
+Med hänvisning till vad vi ovan anfört föreslå vi, att en konsultativ folkomröstning 
+rörande decisivt referendum anordnas vid sådan tidpunkt, att riksdagen 
+med ledning av dess utslag kan såsom vilande antaga vederbörliga grundlagstillägg 
+senast vid 1956 års vårsession. Folkomröstningen bör enligt vår mening 
+äga rum hösten 1954 eller våren—försommaren 1955. Att anordna den
+under vintermånaderna torde skapa svårigheter för väljarna på sina håll, främst
+i Norrland, att infinna sig till röstuman och bör därför undvikas. Ett förläggande 
+av folkomröstningen till det ordinarie valet i höst skulle ur vissa
+synpunkter ha stora fördelar. Mot ett sådant sammanläggande kan det dock
+invändas att de flesta väljare då ha att rösta på både landstingsman och stadseller 
+kommunalfullmäktige, varför en tredje röstning skulle skapa en teknisk
+komplikation. Allra tyngst väger dock invändningen att risk uppstode för att
+referendumfrågan bleve undanträngd under valstriden och väljarnas vota dessutom 
+komme att påverkas av deras politiska anslutning vid valet. Vi föreslå
+därför att omröstningen anordnas på en dag och vid eu tidpunkt då sammanblandning 
+med val ej inträffar.
+Enligt § 49 regeringsformen skall ett beslut rörande hållandet av en konsultativ 
+folkomröstning tillkomma varje gång i form av en av konung och riksdag 
+samfällt stiftad lag. En sådan lex in casu stiftades också vid förbudsomröstningen 
+1922. 1950 års folkomröstningsutredning har med utgångspunkt
+från 1922 års lag angående förbudsomröstningen framlagt förslag till en moderniserad 
+sådan lag. (Stat. off. utredn. 1932:7, sid. 14.) Det lagförslag, som vi
+här nedan framlägga, bygger på nämnda utkast till lag. Paragraferna 1 och 18 ha
+dock utformats i anslutning till 1922 års lag, varjämte sådana bestämmelser uteslutits 
+ur förslaget, vilka ej äga tillämpning på det föreliggande fallet. Det är
+tänkbart att under remissbehandlingen en eller annan vägande anmärkning riktats 
+mot något visst uttryck i utkastet; skulle så vara fallet förutsätta vi att konstitutionsutskottet 
+vid behandlingen av denna motion efter att ha tagit del av
+remissvaren föreslår de jämkningar av utkastet, som kunna visa sig behövliga.
+Det förtjänar att erinras om att även 1922 års folkomröstning tillkom på
+initiativ av riksdagen i anslutning till motioner. Varken initiativet till själva
+beslutet om omröstningen eller till utarbetandet av lagen angående denna togs
+sålunda av Kungl. Maj: t. Den då sittande socialdemokratiska regeringen respekterade 
+riksdagens beslut samt godkände för sin del efteråt det av riksdagens 
+bägge kamrar bifallna lagförslaget.
+Vad det viktiga spörsmålet om frågeställningen beträffar synes allt tala för
+att denna förenklas så långt som möjligt. Även om det vore tänkbart att låta
+väljarna svara på flera alternativa eller kompletterande frågor, kan detta dock
+Motioner i Andra kammaren, nr 488.
+13
+verka förvirrande, med följd att den verkliga innebörden av svaren kan bli
+oklar eller diskutabel.
+Vi föreslå därför först och främst att frågan endast skall ha avseende på
+statligt decisivt referendum. I och för sig kunde två frågor ställas, den ena
+gällande statligt och den andra kommunalt decisivt referendum, men huvudintresset 
+knyter sig nu till den decisiva folkomröstningen såsom ett inslag i
+statens styrelse, och en lösning av detta problem torde, åtminstone enligt de
+flestas mening, böra föregå en liknande lösning på det kommunala området.
+Det andra spörsmålet är, om frågan skall gälla beslutande referendum i
+största allmänhet eller en viss, kortare skisserad utformning av detta. Hittills
+har på den referendumvänliga sidan blott ett förslagskomplex varit under debatt,
+ nämligen det som innefattas i den av hrr Bergvall, Håstad och Wablund
+i betänkandet framlagda reservationen med den modifikation rörande det konstitutionella 
+referendum, som skisserats i reservationer från folkpartiets och
+högerns representanter i konstitutionsutskottet vid 1952 och 1953 års riksdagar,
+innebärande att för sådant referendum skulle krävas två tredjedelars majoritet
+i bägge kamrarna. Vi föreslå att detta referendumsystem måtte läggas till
+grund för frågeställningen. Vi utesluta dock det föreslagna konstitutionella
+referendum, som aldrig tillmätts någon större betydelse eller skjutits i förgrunden.
+ Det synes oss nödvändigt att folket får ta ställning till ett visst konkret
+förslag. Utslaget kan bli helt olika, om medborgarna ställas inför en fullständig
+direkt demokrati av schweizisk modell eller inför det relativt begränsade förslag,
+som hittills varit under debatt och enligt vilket decisivt referendum ej gärna kan
+tänkas förekomma annat än i enstaka och särskilda fall. Ytterligare ett skäl
+för denna konkretisering av frågeställningen är, att någon samlad opinion till
+förmån för ett längre gående referendumsystem hittills ej framträtt under de
+år då folkomröstningssystemet debatterats. Konkretiseringen av frågeställningen 
+på angivet sätt innebär givetvis dock icke att riksdagen, därest folkomröstningen 
+skulle resultera i en majoritet för ja, är bunden att till punkt och pricka
+grundlagsfästa ifrågavarande utformning av det decisiva systemet. I hela den
+konsultativa folkomröstningens natur ligger ju att omröstningen blott skall vara
+rådgivande. Då många olika möjligheter ju erbjuda sig, böra även anhängarna
+av en referendumreform ha ett starkt sakligt intresse av att kunna vidta de
+jämkningar av förslaget, som vid den fortsatta debatten kunna visa sig ändamålsenliga 
+eller till äventyrs ägnade att bilda en brygga till en slutlig samförståndslösning.
+Såsom vi tidigare framhållit finna vi det av behovet påkallat, att folket före
+det av oss begärda referendum erhåller en saklig, koncis och klar redogörelse
+för dels det decisiva referendums innebörd och dels huvudargumenten för och
+emot detta referendumsystem. Fördenskull bör riksdagen enligt vår mening
+i händelse av ett bifall till motionen samtidigt bevilja ett anslag avseende
+s. k. objektiv upplysning. Som den lämpligaste formen härför föreslå vi att
+varje viiljarc, subsidiärt varje hushåll, viss tid före omröstningen tillställes ett
+14 Motioner i Andra kammaren, nr 488.
+blad eller en liten skrift, där anhängare och motståndare fått lika stor plats
+för att utveckla sina synpunkter. Alternativt kan det tänkas, att en liknande
+annons på statens bekostnad publiceras i varje nyhetstidning. Det synes oss
+lämpligt att riksdagen föreskriver, att ansvaret för utformningen av dessa texter
+skall åvila de medlemmar av konstitutionsutskottet, som vid avgivandet av utlåtandet 
+över denna motion äro antecknade som anhängare av resp. motståndare
+till förslaget om denna konsultativa folkomröstning. Därefter skall det ankomma 
+på Kungl. Maj:t att handha tryckningen och distribueringen (eventuellt
+annonseringen) av de bägge texterna. Till kostnaderna för denna objektiva
+upplysning skall därjämte läggas de kostnader för själva omröstningen, som
+ankommer på statsverket, däribland för tryckningen av röstsedlarna. Då någon
+erfarenhet om alla dessa kostnaders storlek nu icke finnes, ha vi approximerat
+anslagsposterna till 400 000 kronor för objektiv upplysning och 750 000 kronor
+för själva omröstningskostnaderna. Den senare siffran är lika med storleken
+av det anslag, som 1952 beviljades för de allmänna valen samma höst. Anslagen
+böra ges karaktär av förslagsanslag.
+Med hänvisning till vad vi ovan anfört hemställa vi,
+1) att riksdagen måtte för sin del anta nedanstående
+Förslag
+till
+Lag om rådgivande folkomröstning angående beslutande folkomröstning.
+1 §•
+Före den 1 juli 1955 skall genom sådan allmän folkomröstning, som i § 49
+mom. 2 regeringsformen omförmäles, folkets mening inhämtas angående införandet 
+av beslutande (decisiv) folkomröstning.
+Den som önskar, att i grundlag och allmän lag skola införas bestämmelser
+om beslutande folkomröstning efter vad nedan i denna paragraf angives, röstar 
+ja; den, som icke önskar detta, röstar nej.
+Sådana bestämmelser om beslutande folkomröstning som här avses skola huvudsakligen 
+bereda möjlighet att underställa riksdagens beslut, avseende lagar
+samt nva eller förhöjda statsanslag, omröstning bland de röstberättigade. Rätt
+att pakalla sådan omröstning skall, därest tvångsläge ej föreligger, tillkomma
+en viss, i grundlag bestämd minoritet i riksdagens båda kamrar.
+2§.
+För omröstningen indelas riket i omröstningsdistrikt. Kommun eller del av
+kommun, som vid val till riksdagens andra kammare bildar ett valdistrikt, skall
+utgöra ett omröstningsdistrikt.
+Motioner i Andra kammaren, nr 488.
+15
+Omröstningsförrättare är inom varje omröstningsdistrikt den som vid val till
+andra kammaren är valförrättare; och skall vad i lagen om val till riksdagen
+finnes stadgat om sådan valförrättare äga motsvarande tillämpning beträffande
+omröstningsförrättare.
+3 §.
+Vid omröstningen skall då gällande röstlängd för val till andra kammaren
+lända till efterrättelse.
+4 §•
+Sedan dag för omröstningen utsatts, skall länsstyrelsen omedelbart utfärda
+kungörelse angående omröstningen. Om kungörelsen skall anslag äga rum efter
+vad därom stadgas i lagen den 13 mars 1942 med vissa bestämmelser om kungörande 
+i kyrka. Kungörelsen skall tillika i erforderlig omfattning införas i tidningar 
+inom orten.
+I kungörelsen skall angivas:
+a) ändamålet med omröstningen samt den eller de frågor, som därvid skola
+besvaras;
+b) dag och tid för omröstningen;
+c) omröstningsstället för varje omröstningsdistrikt; samt
+d) erinran om rätt för röstande att i vissa fall utöva rösträtt inom riket å
+postanstalt samt utom riket å svensk beskickning eller svenskt konsulat.
+Skola för ja- och nej-röstning gemensamma röstsedlar begagnas, intages
+i kungörelsen jämväl anvisning om det förfarande, varigenom sådan röstning
+skall utmärkas på röstsedel.
+5 §.
+Omröstningen förrättas å den tid på dagen, som i lagen om val till riksdagen
+är stadgad för val till andra kammaren.
+Jämväl i övrigt skola beträffande ordningen för omröstningens förrättande
+i tillämpliga delar gälla de bestämmelser, som i nämnda lag givits med avseende
+å dylika val, såvida ej annat följer av vad nedan stadgas.
+I omröstningslokal skola finnas anslagna exemplar av vallagen och av denna
+lag ävensom av länsstyrelsens kungörelse angående omröstningen.
+6 §•
+Vid röstningen skola begagnas ja- och nej-sedlar av vitt papper utan kännetecken.
+Vid omröstningstillfället skola röstsedlar, lika till storlek och beskaffenhet,
+finnas för de röstande tillgängliga.
+16
+Motioner i Andra kammaren, nr 488.
+7 §.
+Vid förrättningen skola användas särskilda röstkuvert. Om beskaffenheten
+av dessa och deras tillhandahållande skall gälla vad om valkuvert är stadgat.
+8 §.
+Röstning skall vid omröstningsförrättningen ske i den ordning, som för rösträtts 
+utövande vid andrakammarval är föreskriven; och äger äkta make, under 
+villkor och på sätt som för valsedelsförsändelse stadgas, avlämna röstsedel
+genom andra maken med begagnande av röstsedelsförsändelse.
+9 §.
+När alla, som vid det för röstningens slut fastställda klockslaget äga tillträde
+till densamma, avlämnat sina röstsedlar, förklarar ordföranden röstningen avslutad.
+Omedelbart därefter företages preliminär röstsammanräkning, varvid bestämmelserna 
+i 68 § vallagen skola äga motsvarande tillämpning, med iakttagande av
+att vad där stadgas om valsedlars ordnande i grupper efter väljarbeteckning
+skall gälla ordnande av röstsedlar efter ja- och nej-röster.
+Protokoll skall vid förrättningen föras enligt formulär, som av Konungen
+fastställes.
+10 §.
+Sedan det vid omröstningsförrättningen förda protokollet upplästs och dess
+riktighet bekräftats av ordföranden och två av de närvarande, förklaras omröstningsförrättningen 
+avslutad.
+Omröstningsförrättaren insänder därefter ofördröjligen till länsstyrelsen de
+förseglade röstomslagen samt omröstningsprotokollet och röstlängden. Sker insändandet 
+med posten, skall försändelsen anordnas som värdepost.
+11 §.
+Yad i vallagen stadgas angående rätt för väljare att vid val till andra kammaren 
+i vissa fall avlämna valsedel å postanstalt, beskickning eller konsulat
+skall äga motsvarande tillämpning å den som vid omröstningen önskar avlämna
+röstsedel; och skola i fråga om förfarandet i nämnda avseende gälla de i vallagen 
+därom meddelade bestämmelserna.
+12 §.
+Länsstyrelsen skall, sedan röstomslag, omröstningsprotokoll och röstlängder
+inkommit från alla omröstningsdistrikt i länet, vid offentlig förrättning verkställa 
+sammanräkning av de inom länet avgivna rösterna.
+Motioner i Andra kammaren, nr 488.
+17
+Angående sådan förrättnings förberedande och verkställande skall, med iakttagande 
+jämväl av bestämmelserna i 14—16 §§ denna lag, vad i 76—78 ävensom 
+83 och 84 §§ vallagen är stadgat om röstsammanräkning vid val till andra
+kammaren äga motsvarande tillämpning.
+13 §.
+Ogill är röstsedel, till vilken använts annat än vitt papper eller å vilken
+finnes något kännetecken, som uppenbarligen blivit med avsikt där anbragt.
+Pinnas i ett röstkuvert två likalydande röstsedlar, skall allenast en sedel
+räknas. Pinnas i annat fall än nu sagts i ett röstkuvert två röstsedlar eller
+finnas i ett röstkuvert flera än två röstsedlar, äro de alla ogilla. Där i röstkuvert 
+finnes jämte röstsedel annat än sådan sedel, är röstsedel ogill.
+14 §.
+Har å röstsedel fråga besvarats annorlunda än med ja eller nej, eller framgår
+ej otvetydigt innebörden av svaret, anses frågan hava lämnats obesvarad.
+15 §.
+Omröstningens utgång kungöres omedelbart genom uppläsning av protokollet
+över sammanräkningen. Med protokollets uppläsning är omröstningsförrättningen 
+avslutad.
+Sedan tid för besvär mot förrättningen utgått, insändes till inrikesdepartementet 
+avskrift av sammanräkningsprotokollet jämte uppgift, huruvida besvär
+anförts.
+16 §.
+Sedan till inrikesdepartementet från länsstyrelserna inkommit protokoll över
+de av dem förrättade sammanräkningarna och omröstningsförrättningarna vunnit 
+laga kraft, verkställes inför chefen för nämnda departement sammanräkning
+av de inom hela riket avgivna rösterna.
+17 §.
+Förmenar någon, att omröstningen icke försiggått i laga ordning, äger han
+att däröver hos Konungen anföra besvär. För sådant ändamål äger klaganden
+att hos länsstyrelsen äska behörigt protokollsutdrag. Protokoll skall inom tre
+dagar därefter till klaganden utlämnas och skall han vid förlust av talan sist
+inom tio dagar efter omröstningsförrättningens slut med sina till Konungen
+ställda besvär inkomma till länsstyrelsen, som genom tillkännagivande i läns2 
+Bihang till riksdagens protokoll 1954. 4 sand. Nr 486—488.
+18
+Motioner i Andra kammaren, nr 488.
+kungörelserna och i tidning inom orten utsätter viss kort tid, inom vilken förklaring 
+över besvär må av vederbörande till länsstyrelsen avgivas. Sedan denna
+tilländagått, har länsstyrelsen att besvären jämte förklaringar, som må hava
+inkommit, ofördröjligen till Konungen insända för att i Dess regeringsrätt föredragas 
+och avgöras.
+18 §.
+Kostnaderna för folkomröstningens anordnande fördelas mellan statsverket
+och kommunerna i enlighet med vad som gäller vid val till riksdagens andra
+kammare. Kuvert och röstsedlar bekostas av statsverket.
+Stockholm den 27 januari 1954.
+Elis Håstad. Bertil Ohlin. Jarl Hjalmarson.
+Tryckeriaktiebolaget Tiden, Stockholm 1954
+kammare
+kammare
+Andra kammaren
+EF2O488
+2018-03-02 14:08:23
+riksdag
+riksdag
+tvåkammaren
+EF2O488
+2018-03-02 14:08:23
+session
+session
+lagtima
+EF2O488
+2018-03-02 14:08:23
+sidantal
+Antal sidor
+10
+EF2O488
+2018-03-02 14:08:23
+EF2O488
+Andra kammaren
+mot_1954__ak__488.pdf
+574209
+pdf
+Motioner i Andra kammaren, nr 488
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1954/web_mot_1954__ak__488/mot_1954__ak__488.pdf

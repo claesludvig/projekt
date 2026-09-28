@@ -1,0 +1,237 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+4
+Motioner i Andra kammaren, nr 361 år 1959
+Nr 361
+Av herr Ohlin m. fl., om ändrade schablonavdrag vid beskattningen.
+I statsverkspropositionen aviserar finansministern förslag från regeringens 
+sida senare under riksdagen om en skattehöjning av storleksordningen
+500—1 000 milj. kr. Enligt finansministerns mening är detta ofrånkomligt
+med hänsyn till de särskilda kostnaderna för arbetslöshetsbekämpande åtgärder 
+och till budgetläget i övrigt. Vad angår de särskilda kostnaderna för
+arbetslöshetsbekämpande åtgärder, vilka måste anses vara av övergående
+art, anser vi det icke motiverat att finansiera dessa med en ökad beskattning.
+ Men även bortsett härifrån är budgetläget såväl för det nu närmast
+framförliggande finansåret och — än mer — för det därefter följande synnerligen 
+prekärt.
+Bakom det läge som sålunda uppstått ligger en i många år illa planerad
+och felaktigt utformad ekonomisk politik från regeringens sida. Vi skall
+icke ingå på detta här, men vi kan inte underlåta att framhålla att det ytterst
+är regeringens bristande förståelse för produktionslivets ekonomiska villkor 
+såsom den bärande grundvalen för hela samhällets ekonomiska förmåga 
+som utgjort det grundläggande felet i den förda politiken. Vidare
+måste framhållas — det i och för sig självklara — att det är regeringens
+skyldighet att planera den fortlöpande utformningen av den ekonomiska politiken 
+liksom av finans- och budgetpolitiken. I sistnämnda hänseende har
+den förda politiken från regeringens sida visat de allra allvarligaste bristerna.
+De svenska statsfinanserna har nu bringats i det läget att statsmakterna
+ställes inför nödvändigheten att ompröva förut fattade beslut. Det gäller
+beslut som inneburit att statsverket åtagit sig vissa utgifter. Men det saknas 
+tillräcklig anledning att vid en sådan mera allmän omprövning, som
+framtvingats av det inträdda krisläget, undantaga beslut rörande åtgärder
+på det skattepolitiska området. I valet mellan att genomföra en ny skatt
+av mycket betydande omfattning — varav följderna på kort sikt måste bli
+ytterst allvarliga för både den enskildes ekonomi och landets ekonomi i
+dess helhet samt på längre sikt att statsutgifterna stiger än mer i höjden
+— och att revidera en tidigare genomförd skattereform för att därigenom
+och med hjälp av olika besparingsåtgärder förbättra budgetläget, anser vi
+det senare alternativet vara att föredraga. Den för oss avgörande omständigheten 
+är följande. Genomföres nu, såsom regeringen har för avsikt att före
+-
+Motioner i Andra kammaren, nr 361 år 1959
+5
+slå, en allmän omsättningsskatt i syfte att inbringa till statsverket mellan
+en halv och en miljard nya skattekronor, så kommer denna miljard snabbt
+nog att förbrukas för nya statsutgifter. Om det råder enighet om att sträng
+sparsamhet måste iakttagas med det allmännas medel, då bör också denna
+enighet utsträckas till att omfatta återhållsamhet med att ställa en ny
+skattekälla och nya miljardbelopp till förfogande. Härtill kommer att den
+nya, allmänna varubeskattning, som regeringen vill genomföra, måste verka
+direkt och allmänt fördyrande. Ytterligare kostnadshöjningar måste i dagens 
+ekonomiska läge undvikas. Här står våra exportmöjligheter, vår konkurrensförmåga 
+med utlandet och sysselsättningen i landet verkligen på
+spel.
+Mot bakgrunden av dessa allvarliga perspektiv anser vi att — jämte
+minskningar i statsutgifterna — även omprövning av vissa förut genomförda 
+politiska åtgärder av begränsad räckvidd kan komma i fråga. Vi syftar
+på vissa av de schabloniseringsregler, som genomfördes som ett led i den
+år 1955 beslutade taxeringsformen.
+Reformen omfattade följande åtgärder:
+1. 100 kronor schablonavdrag vid inkomst av tjänst
+2. Avrundning av omkostnadsavdraget till närmaste högre 100-tal kr.
+3. Schablonavdrag vid inkomst av annan fastighet
+4. Schablonavdrag vid inkomst av kapital
+5. Schablonisering av försäkringsavdragen
+6. Avrundning av beskattningsbara beloppet till närmast lägre 100-tal kr.
+Totalt beräknades dessa åtgärder medföra ett inkomstbortfall för statsverket 
+av 114 milj. kr. och för kommunerna med 98 milj. kr. Att döma av
+den kraftiga stegringen av det samlade beloppet för allmänna avdrag från
+taxeringen 1956 till taxeringen 1957, då de nya avdragen första gången tilllämpades,
+ har skattebortfallet blivit icke obetydligt större än beräknat.
+Huvudmotiveringen för reformen var att åstadkomma en förenkling av
+taxeringsarbetet. Men dessutom kunde för vissa av åtgärderna anföras
+andra motiv. lOO-kr.-avdraget vid inkomst av tjänst har sålunda motiverats
+med önskemålet att söka nå en ökad rättvisa och likformighet i skattebördans 
+verkliga fördelning till förmån för de mindre inkomsttagarna. Schablonavdraget 
+vid inkomst av kapital har motiverats — förutom med förenklingssträvandena 
+— med dess verkan att gynna sparandet. Inkomst av
+annan fastighet slutligen bör av naturliga skäl likabehandlas med inkomst
+av kapital. De skäl som då anfördes och som här i korthet refererats anser
+vi fortfarande vara så bärande, att vi icke vill föreslå att några ändringar
+vidtages här.
+Schabloniscringen av försäkringsanslagen innebar, att dessa — även om
+inga kostnader för försäkringspremier redovisades — i vart fall skulle uppföras 
+med lägst 150 kr. för ensamstående och lägst 300 kr. för äkta makar.
+Avdragen är samtidigt maximerade till högst 300 kr. för ensamstående och
+6
+Motioner i Andra kammaren, nr 361 år 1959
+högst 600 kr. för äkta makar. Schabloniseringen har enligt taxeringsmyndigheternas 
+erfarenhet försvårat deklarations- och taxeringsarbetet. Det
+uppgivna syftet har således inte nåtts. Konstruktionen måste vidare ha den
+nackdelen att den snarast motverkar den enskildes intresse för försäkringssparande.
+Avrundningen av beskattningsbara beloppet — till närmast lägre 100-tal
+kronor — har medfört en viss nedbantning av tabellmaterialet för skattedebiteringen.
+ Fråga är dock om denna förenkling är värd det inkomstbortfall 
+för det allmänna som åtgärden medfört (drygt 50 milj. kr.). Vi anser
+att avrundningen med hänsyn till kostnaderna och budgetläget bör slopas
+och en återgång ske till förut gällande regel om avrundning till närmast
+lägre 10-tal kronor.
+Vad slutligen beträffar avrundningen av omkostnadsavdraget till närmast 
+högre 100-tal kronor, så uttalades redan då förslaget framlades år 1955
+viss tveksamhet.
+Regeln kunde nämligen befaras leda till oberättigade uppräkningar av
+omkostnaderna. Dess taxeringsförenklande effekt torde vidare vara ringa.
+Vi anser att denna avrundningsregel må kunna utgå. Reglerna för omkostnadsavdraget 
+bör därför utformas så, att avdrag för omkostnader skulle
+medgivas för redovisat belopp, dock alltid lägst 100 kr.
+Totalt kan de justeringar vi här angivit beräknas medföra ett inkomsttillskott 
+för statskassan av ca 70 milj kr. för helt år. Vidare uppkommer
+en ökning av skatteunderlaget för kommunerna, som representerar för dem
+ett inkomsttillskott av ca 60 milj. kr. för helt år. Med hänsyn till det för
+statskassan beträngda läget anser vi det motiverat att utnyttja den sålunda
+uppkommande ökningen av det kommunala skatteunderlaget till en nedsättning 
+av det statliga bidraget till kommunerna i anledning av ortsavdragsreformen 
+med ett motsvarande belopp. Åtgärden innebär, att för den
+till denna del företagna minskningen i statsbidraget kompenseras kommunerna 
+genom ökningen i skatteunderlaget.
+Ändringen bör träda i kraft fr. o. m. den 1 januari 1960 att tillämpas
+fr. o. m. 1961 års taxering. Den förutsätter ändringar i 31 §, 2 mom., 46 §,
+50 § 2 mom. och 51 § kommunalskattelagen jämte i anvisningarna till 62 §
+samma lag, vidare i 9 § 2, 3 och 4 mom. förordningen om statlig inkomstskatt 
+samt i 8 § förmögenhetsskatteförordningen. Ändring får även ske i
+uppbördsförordningen (4 §).
+Med hänsyn till att ändringarna skall gälla fr. o. m. den 1 januari 1960,
+kan de sammanlagt beräknas medföra en förbättring av det statliga budgetläget 
+med 55 milj. kr. för finansåret 1959/60 och med 130 milj. kr. för
+finansåret 1960/61.
+Vi vill slutligen framhålla, att vi är väl medvetna om att goda motiv anfördes 
+och accepterades av riksdagen år 1955 då de taxeringsregler, som
+vi nu föreslår ändrade, antogs. Men vi anser det såsom förut närmare ut
+-
+Motioner i Andra kammaren, nr 361 år 1959
+7
+vecklats vara att föredraga att nu göra dessa justeringar hellre än att -—
+utan allvarlig prövning av andra alternativ att förbättra budgetläget — genomföra 
+en allmän varubeskattning av den hårda omfattning regeringen avser 
+föreslå.
+Med hänvisning till det anförda får vi således hemställa,
+att riksdagen måtte besluta ändringar i ovan i motiveringen 
+angivna skatteförfattningar av innebörd att det s. k.
+omkostnadsavdraget skall uppföras med i deklarationen
+redovisat belopp, dock lägst 100 kronor, att med bibehållande 
+av nuvarande maximisummor försäkringsavdraget
+endast får utnyttjas till det belopp som motsvaras av erlagda 
+premier, samt att avrundning av den beskattningsbara 
+inkomsten skall ske nedåt till jämna tiotal kronor,
+samt
+att vederbörande utskott måtte utarbeta förslag till erforderlig 
+författningstext.
+Stockholm den 27 januari 1959
+Bertil Ohlin
+Wald. Svensson
+Sven Wedén
+O. Malmborg
+Manne Ståhl
+Bertil von Friesen
+Ragnhild Sandström
+Sven Gustafson
+i Göteborg
+Henning Gustafsson
+i Skellefteå
+kammare
+kammare
+Andra kammaren
+EK2O361
+2018-03-01 22:59:05
+riksdag
+riksdag
+tvåkammaren
+EK2O361
+2018-03-01 22:59:05
+session
+session
+lagtima
+EK2O361
+2018-03-01 22:59:05
+sidantal
+Antal sidor
+4
+EK2O361
+2018-03-01 22:59:05
+EK2O361
+Andra kammaren
+mot_1959__ak__361.pdf
+258284
+pdf
+Motioner i Andra kammaren, nr 361 år 1959
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1959/web_mot_1959__ak__361/mot_1959__ak__361.pdf

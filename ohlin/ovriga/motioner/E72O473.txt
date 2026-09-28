@@ -1,0 +1,99 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+2
+Motioner i Andra kammaren, nr 472—473.
+Nr!472.
+Av herrar Ohlin och Kristensson, i anledning av Kungl. Majda
+proposition, nr 210, med förslag till förordning om krigskonjunkturskatt 
+för dr 194-6.
+(Lika lydande med motion i Första kammaren nr 308.)
+Stockholm den 25 april 1946.
+Bertil Ohlin. Filip Kristensson.
+Nr 473.
+Av herr Hagberg i Malmö m. fl., i anledning av Kungl. Majds proposition,
+ nr 210, med förslag till förordning örn krigskonjunkturskatt 
+för år 1946.
+(Lika lydande med motion i Första kammaren nr 307.)
+.Stockholm den 25 april 1946.
+Erik Hagberg,
+Malmö.
+Ernst V. Staxäng.
+Nils Holmström.
+Georg Fahlman.
+kammare
+kammare
+Andra kammaren
+E72O473
+2018-03-02 20:05:58
+riksdag
+riksdag
+tvåkammaren
+E72O473
+2018-03-02 20:05:58
+session
+session
+lagtima
+E72O473
+2018-03-02 20:05:58
+sidantal
+Antal sidor
+1
+E72O473
+2018-03-02 20:05:58
+E72O473
+Andra kammaren
+mot_1946__ak__473.pdf
+135232
+pdf
+Motioner i Andra kammaren, nr 472—473
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1946/web_mot_1946__ak__473/mot_1946__ak__473.pdf

@@ -1,0 +1,93 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Nr 389—3.9.9 Motioner i Andra kammaren, nr 389 dr 1963
+1
+Nr 389
+Av herr Ohlin m. fl., i anledning av Kungl. Maj.ts framställning
+om anslag till Främjande av nordiskt-knlturellt samarbete.
+(Lika lydande med motion nr 325 i Första kammaren)
+Stockholm den 24 januari 1963
+Bertil Ohlin Hans Gustafsson Lars Eliasson
+i Sundborn
+Gust. Nilsson Ragnar Lassinantti Gunnar Helén
+i Göingegården
+Harald Larsson Leif Cassel
+i Hedenäset
+ti i haag till riksdagens protokoll 1963. 4 samt. Nr 389—399
+kammare
+kammare
+Andra kammaren
+EO2O389
+2018-03-01 21:04:16
+riksdag
+riksdag
+tvåkammaren
+EO2O389
+2018-03-01 21:04:16
+session
+session
+lagtima
+EO2O389
+2018-03-01 21:04:16
+sidantal
+Antal sidor
+1
+EO2O389
+2018-03-01 21:04:16
+EO2O389
+Andra kammaren
+mot_1963__ak__389.pdf
+113248
+pdf
+Nr 389—3.9.9 Motioner i Andra kammaren, nr 389 dr 1963
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1963/web_mot_1963__ak__389/mot_1963__ak__389.pdf

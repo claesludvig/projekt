@@ -1,0 +1,93 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 52.
+1
+Kr 52.
+Av herr förste vice talmannen Carlström m. fl., angående en rättvisare 
+mandatfördelning mellan partierna vid val till
+riksdagen och vid kommunalval.
+(Lika lydande med motion i Första kammaren nr 51.)
+Stockholm den 20 januari 1949.
+Oscar Carlström.
+Bertil Ohlin. Wald. Svensson.
+0. E. Sandberg.
+Per A. Johnsson 0. Malmborg
+i Kastanjegården. i Skövde.
+1 Bihang till riksdagens protokoll 1959. 5 samt. Nr 52—55.
+kammare
+kammare
+Andra kammaren
+EA2O52
+2018-03-02 18:55:41
+riksdag
+riksdag
+tvåkammaren
+EA2O52
+2018-03-02 18:55:41
+session
+session
+lagtima
+EA2O52
+2018-03-02 18:55:41
+sidantal
+Antal sidor
+1
+EA2O52
+2018-03-02 18:55:41
+EA2O52
+Andra kammaren
+mot_1949__ak__52.pdf
+102875
+pdf
+Motioner i Andra kammaren, nr 52
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1949/web_mot_1949__ak__52/mot_1949__ak__52.pdf

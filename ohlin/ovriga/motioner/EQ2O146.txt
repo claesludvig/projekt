@@ -1,0 +1,206 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr HG år 1965
+15
+Nr 146
+Av herr Ohlin m. fl., angående åldringssjukvården.
+(Lika lydande med motion nr 116 i Första kammaren)
+Allmänt
+Den starka ökningen av befolkningen i åldern 70 år och därutöver har
+träffat sjukvården i vårt land på ett ogynnsamt sätt. Sjukvårdsbehovet inom 
+olika åldersgrupper är olika. Läkarprognosutredningen har beräknat,
+att sjukvårdsbehovet hos en 70-åring är fyra gånger så stort som i åldrarna
+under 30 år. De med åldern följande sjukdomarna är till sin natur mer långdragna 
+och svårartade, varför behovet av sjukhusvårdplatser för människor
+i åldern 70—80 år är ungefär 10 gånger så stort som för människor i åldern 
+30—40 år. Fram till år 1980 kan vi räkna med, att antalet människor
+över 70 år kommer att öka med ca 180 000. Mer än var tionde människa i
+Sverige kommer vid detta årtal att vara över 70 år.
+Ä Idersförskjutningens följder
+Den ändrade åldersstrukturen i vårt land har orsakat kraftigt stegrad
+efterfrågan på sjukvård och vård över huvud taget. Om sjukvårdsbehovet
+per individ under olika åldrar får representeras av konsumentenheter, erhålles 
+följande tabell:
+Åldersgrupper 0—9 10—29 30—39 40—49 50—59 60—69 70—79 80—
+Motsvarande antal
+konsumentenheter .. 0,4 0,5 0,6 0,8 1,2 1,6 2,0 ’ 2,4
+Behovet av långvårdssjukplatser, som närmare behandlas nedan, översteg 
+1960 vida de 19 000 tillgängliga vårdplatserna. Detta har lett till dels
+att köer har uppstått bland de kategorier som är i behov av åldringssjukvård,
+ dels att långtidspatienter i hög grad har fått belägga akutplatser på
+landets sjukhus. Trots en ofta utpräglad restriktivitet mot intagning aväldre 
+å sjukhusen torde minst 20 % av akutplatserna vara belagda av typiska 
+långtidsfall hos mest äldre. Vid ett stickprov den 12 april 1962 var
+31 procent av de inneliggande på de invärtes medicinska klinikerna i Stockholm 
+patienter i åldern 67 år och äldre. Vid årsskiftet 1963—1964 var
+samma siffra vid Södersjukhusets hjärtklinik 48 procent.
+Enligt sjukvårdsstyrelsen i Stockholm är byggnadskostnaderna för eu
+vårdplats på ett akutsjukhus ca 130 000 kr. mot 56 000 kr. för en vårdplats
+16
+Motioner i Andra kammaren, nr 146 år 1965
+på ett långtidssjukhus, och driftkostnaderna differerar lika mycket. Ur ekonomisk 
+synpunkt är det misshushållning med resurserna att vårda långtidspatienter 
+på akutsjukhus. Genom ökat byggande av platser inom långtidssjukvården 
+kan akutsängar frigöras och patientköerna vid landets akutsjukhus 
+elimineras, eller i varje fall minskas, samtidigt som vården för
+åldringar och övriga långstidssjuka — trots minskad kostnad — förbättras.
+Det synes uppenbart, att det främsta målet för sjukhusbyggande inom
+närmaste framtid måste bli uppförandet av ett tillräckligt antal sjukhus för
+långtidsvård. Dessa bör i viss utsträckning läggas i anslutning till akutsjukhus 
+för sådana patienter som har behov av akutsjukhusens resurser.
+Vårdbehovet inom åldringsvård och somatisk långtidssjukvård
+På grund av en undersökning för Uppsala län har både läkarprognosutredningen 
+och kommittén för översyn av hälso- och sjukvården i riket
+(SOU 1963: 21) beräknat, att behovet av platser för somatisk långtidssjukvård 
+skulle motsvara 55 per 1 000 invånare i åldern 70 år och därutöver.
+Med utgångspunkt från samma undersökning har vidare räknats med ett
+behov av 50 platser på pensionärshem per 1 000 invånare i samma ålder.
+Det sammanlagda platsbehovet inom dels långtidssjukvården och dels på
+pensionärshemmen skulle sålunda motsvara 105 per 1 000 personer, som
+är minst 70 år gamla. Dessa behovssiffror förutsätter dels en utvecklad
+hemsjukvård och dels god tillgång till pensionärslägenheter, däribland
+även sådana med viss service.
+Det faktiska antalet sådana platser i Uppsala län låg dock redan år 1960
+så högt som 103 per 1 000 sådana äldre personer. Siffran ger dock felaktig
+information om vårdsituationen, endast 34 av de 103 platserna var avsedda
+för långtidssjuka. Det är ytterligt otillfredsställande, att ålderdomshemmen
+till avsevärd del utnyttjas av personer som i stället borde ha legat på långtidssjukhem.
+Antalet platser inom långtidssjukvården uppgick år 1960 till 19 000, medan 
+ett behov av 32 000 platser förelåg. Behovet år 1970 torde komma att
+uppgå till över 40 000 platser och 1980 till över 53 000 platser. För att jämvikt 
+skall uppnås måste en kraftig ökning av utbyggnadstakten på långtidssjukvårdens 
+område ske.
+Lösning av problem
+En förutsättning för att åldringssjukvården och den svenska sjukvården
+över huvud taget skall kunna komma ur nuvarande kris är att byggandet av
+långtids- och kroniker sjukhus ökas betydligt. För att jämvikt skall nås inom 
+rimlig tid bör omkring 2 000 nya platser per år inrättas. Staten bör
+stimulera till detta genom ökning av såväl byggnads- som driftbidrag.
+För en rationellare åldringsvård bör också en bättre samordning av långtidssjukvård 
+och åldringsvård upptas till förnyad prövning.
+17
+Motioner i Andra kammaren, nr Hd år 1965
+Personalkrisen gör att åtgärder för att förbättra hemsjukvården i nuläget
+ter sig mycket angelägna. Denna verksamhet måste få helt andra proportioner 
+än hittills, vilket förutsätter kraftigare stöd från samhällets sida. Hemsjukvården 
+bör utbyggas i raskare takt. Bättre ersättning från sjukförsäkringen 
+för inom hemsjukvården utnyttjade tjänster och material, såsom
+s. k. merprestationer, läkemedel in. m., bör givas.
+Den geriatriska forskningen intar en nyckelroll. Kunskaperna om åldrandets 
+biologiska innebörd och de preventiva åtgärder, som står till buds
+för att förebygga och lindra åldringssjukdomar, blir av praktisk betydelse
+vid bedömande av vilka åtgärder som bör vidtagas för att komma till rätta
+med problemen. Den geriatriska vetenskapen fordrar sina egna företrädare.
+Forskningen och undervisningen på det geriatriska området bör intensifieras 
+genom inrättandet av minst ytterligare en professur i geriatrik, så småningom 
+en vid varje undervisningssjukhus.
+Med anledning av det ovan anförda föreslår vi,
+att riksdagen måtte i skrivelse till Kungi. Maj :t hemställa 
+om förslag till ökade byggnads- och driftbidrag till
+sjukvårdsanstalter för vård av långtidssjuka,
+att i skrivelse till Kungl. Maj :t hemställes om att förslag
+måtte infordras från 1961 års sjukförsäkringsutredning beträffande 
+ökad ersättning för inom hemsjukvården utnyttjade 
+prestationer och material så att förslag i ärendet därefter 
+må kunna föreläggas riksdagen,
+att riksdagen måtte besluta att den professur i geriatrik,
+varom riksdagen fattade principbeslut under år 1964,
+fr. o. m. den 1 juli 1965 måtte inrättas vid karolinska institutet,
+ samt
+att riksdagen måtte fatta principbeslut om att fr. o. in.
+budgetåret 1966/67 inrätta ytterligare en professur i geriatrik 
+vid någon av landets medicinska fakulteter eller högskolor 
+samt hemställa till Kungl. Maj :t att i nästkommande
+års statsverksproposition fastställa vid vilken fakultet eller
+högskola professuren må bli inrättad.
+Stockholm den 25 januari
+1965
+Bertil Ohlin
+Sven
+W edén
+Henning Gustafsson
+Bertil von Friesen
+Cecilia
+Nettelbrandt
+Sven Ant hg
+Brita Elmén
+Daniel
+Wiklund
+MARCUS BOKTR. STHLM 196 5 650024
+kammare
+kammare
+Andra kammaren
+EQ2O146
+2018-03-01 19:55:11
+riksdag
+riksdag
+tvåkammaren
+EQ2O146
+2018-03-01 19:55:11
+session
+session
+lagtima
+EQ2O146
+2018-03-01 19:55:11
+sidantal
+Antal sidor
+3
+EQ2O146
+2018-03-01 19:55:11
+EQ2O146
+Andra kammaren
+mot_1965__ak__146.pdf
+239271
+pdf
+Motioner i Andra kammaren, nr HG år 1965
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1965/web_mot_1965__ak__146/mot_1965__ak__146.pdf

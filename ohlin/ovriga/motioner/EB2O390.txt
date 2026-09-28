@@ -1,0 +1,110 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 390—392. 15
+Nr 390.
+Av herr Ohlin m. fl., om beredande av semester för de i lantbruket 
+sysselsatta, vilka nu icke falla under allmänna
+semesterlagens tillämpning.
+(Lika lydande med motion i Första kammaren nr 353.)
+Stockholm den 26 januari 1950.
+Ö. E. Sandberg. Per A: Johnsson,
+Kastanjegården.
+Wald. Svensson. Gust. Mosesson.
+Nr 391.
+Av herr Nilsson i Bästekille, i anledning av Kungl. Maj.ts framställning 
+om anslag till säkerhetsanordningar till ledning 
+för fiskefartyg.
+(Lika lydande med motion i Första kammaren nr 270.)
+Stockholm i januari 1950.
+Jöns Nilsson
+i Bästekille.
+Bertil Ohlin.
+O. Malmborg,
+Skövde.
+Bertil v. Friesen.
+Nr 392.
+Av herrar Jönsson i Rossbol och Svensson i Stenkyrka, om ändring 
+av villkoren för statsbidrag från statens avdikningsanslag 
+m. in.
+(Lika lydande med motion i Första kammaren nr 336.)
+Stockholm den 26 januari 1950.
+Nils Jönsson.
+Per Svensson
+i Stenkyrka.
+kammare
+kammare
+Andra kammaren
+EB2O390
+2018-03-02 16:21:55
+riksdag
+riksdag
+tvåkammaren
+EB2O390
+2018-03-02 16:21:55
+session
+session
+lagtima
+EB2O390
+2018-03-02 16:21:55
+sidantal
+Antal sidor
+1
+EB2O390
+2018-03-02 16:21:55
+EB2O390
+Andra kammaren
+mot_1950__ak__390.pdf
+116250
+pdf
+Motioner i Andra kammaren, nr 390—392. 15
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1950/web_mot_1950__ak__390/mot_1950__ak__390.pdf

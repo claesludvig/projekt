@@ -1,0 +1,104 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 645—646 år 1966
+9
+4. fastställa sänkta skalor för den statliga inkomstskatten
+i enlighet med i motionen angivna förslag att gälla fr. o. m.
+den 1 januari 1967.
+B. att vederbörande utskott måtte utarbeta förslag till erforderliga 
+författningsändringar i anslutning till yrkandena
+under A. 3 och A. 4.
+Stockholm den 26 januari 1966
+Bertil Ohlin
+Bertil von Friesen
+Manne Ståhl
+Cecilia Nettelbrandt
+Sven Gustafson
+i Göteborg
+Elias Jönsson
+i Ingemarsgården
+Sven Antby
+Daniel Wiklund
+Ingemar Mundebo
+Nr 646
+Av herr Oskarson, angående beskattningen av reservbefälspremier.
+(Lika lydande med motion nr 506 i Första kammaren)
+Stockholm den 26 januari 1966
+Gunnar Oskarson
+kammare
+kammare
+Andra kammaren
+ER2O646
+2018-03-01 18:16:50
+riksdag
+riksdag
+tvåkammaren
+ER2O646
+2018-03-01 18:16:50
+session
+session
+lagtima
+ER2O646
+2018-03-01 18:16:50
+sidantal
+Antal sidor
+1
+ER2O646
+2018-03-01 18:16:50
+ER2O646
+Andra kammaren
+mot_1966__ak__646.pdf
+108862
+pdf
+Motioner i Andra kammaren, nr 645—646 år 1966
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1966/web_mot_1966__ak__646/mot_1966__ak__646.pdf

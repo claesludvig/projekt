@@ -1,0 +1,698 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 231.
+1
+Nr 231.
+Av herrar Hjalmarson, Hedlund i Rådom och Ohlin, om vissa
+åtgärder för försvarets stärkande.
+Den sedan länge rådande världspolitiska spänningen har under de senaste
+månaderna avsevärt skärpts. Koreakriget utgör det hittills allvarligaste symptomet 
+på denna spänning. Hur utvecklingen för framtiden kommer att te sig
+är omöjligt att förutse, men vi måste vid bedömandet av framtidsutsikterna
+räkna med att spänningen i världen kan komma att ytterligare skärpas.
+Detta kan komma att medföra allvarliga återverkningar även på vårt lands
+utrikespolitik och ställa oss inför synnerligen svårbemästrade problem. Härav 
+följer, att det är nödvändigt att så snabbt som möjligt förstärka vårt försvar 
+och råda bot för de brister, som nu vidlåda vår militära beredskap. Sverige 
+har valt att föra en alliansfri utrikespolitik och måste således i första
+hand helt lita till sina egna stridskrafter. För att med utsikt till framgång
+kunna fullfölja denna utrikespolitiska linje krävs stöd av ett starkt försvar.
+1949 års försvarsutredning har i skrivelse till hans excellens statsministern 
+den 16 januari 1951 med skärpa framhållit, att det åt utredningen
+givna uppdraget icke borde utgöra hinder för någon åtgärd till utökande av
+landets försvar, som av statsmakterna i nuvarande läge kunde finnas påkallad.
+Därmed förfalla de motiv för uppskov som statsrådet och chefen för försvarsdepartementet 
+i statsverkspropositionen åberopat för att icke vidtaga
+vissa åtgärder för försvarets förstärkande.
+I. Armén.
+/. Beredskap och utbildning.
+Armén utgör kärnan i vårt försvar. Dess personella beredskap är helt beroende 
+av truppens utbildningsståndpunkt. De under en lång följd av år
+helt eller delvis inställda repetitionsövningarna ha härvidlag inneburit en
+allvarlig försvagning. Chefen för försvarsdepartementet har nu följt de militära 
+myndigheternas förslag genom att för nästa budgetår förorda repetitionsövningar 
+krigsförbandsvis enligt gällande värnpliktslag.
+När inneliggande åldersklass rycker ut i mitten av mars efter fullföljd
+nio månaders första tjänstgöring, komma kasernerna att normalt stå tomma 
+till början av juni, då nästa åldersklass påbörjar sin första tjänstgöring.
+Denna åldersklass är icke användbar för några som helst strids- eller bevakningsuppgifter 
+förrän tidigast i höst. Vi förutsätta, att Kungl. Maj:t låter
+1 Biftang till riksdagens protokoll 1951. i samt. Nr 231.
+2
+Motioner i Andra kammaren, nr 231.
+vidtaga erforderliga åtgärder för beredskapens upprätthållande under den
+ur beredskapssynpunkt svaga delen av året.
+Erfarenheterna i fråga om utbildningsresultatet vid de två åldersklasser,
+1947 och 1948, som hittills genomgått nio månaders första utbildning enligt
+1948 års riksdagsbeslut, äro enligt arméchefens utbildningsrapporter till
+Kungl. Maj :t mindre gynnsamma. Även resultatet beträffande åldersklass
+1949, vars huvuddel f. n. fullgör första tjänstgöring, synes dock böra avvaktas 
+innan statsmakterna taga definitiv ställning till frågan om första utbildningstidens 
+längd. Därest de militära myndigheternas erfarenheter fortfarande 
+skulle visa, att det enligt deras uppfattning icke är möjligt att trots
+fortsatt effektivisering av utbildningen ge de värnpliktiga tillfredsställande
+soldatutbildning med en första utbildningstid av nio månader, förutsätta vi,
+att Kungl. Maj :t upptager detta spörsmål till förnyad prövning.
+Det är emellertid nödvändigt — icke minst med en första utbildning av
+nio månader -—- att det värnpliktiga befälets utbildning ordnas mera tillfredsställande 
+än för närvarande. Härvidlag ha vi två bestämda önskemål, dels
+beträffande gruppchefsutbildningen, dels i vad rör det effektiva utnyttjandet 
+av det frivilliga försvarsarbetet.
+Sedan försvarsministern i proposition nr 251 till 1950 års riksdags höstsession 
+förklarat, att gruppchefsutbildningen för åldersklasserna 1947 och
+1948 varit otillräcklig, synes den nödvändiga förlängningen av densamma
+icke mera behöva diskuteras. Tidsläget medger icke några »ytterligare överväganden»,
+ såsom departementschefen anfört i statsverkspropositionen, och
+sådana synas icke heller behövliga av nedan angivna skäl.
+1948 års värnpliktskommittés majoritet föreslog redan hösten 1948, att
+gruppchefsutbildningen provisoriskt skulle förlängas 2 månader för åldersklass 
+1948. Av värnpliktstekniska skäl måste förlängningen anslutas efter
+övriga värnpliktigas utryckning efter fullgjord nio månaders tjänstgöring.
+Av psykologiska skäl var detta måhända mindre lämpligt. Kungl. Maj :t och
+riksdagen upptogo ej förslaget.
+I sitt slutbetänkande förordade kommittén, att såväl gruppchefs- som underofficerselever 
+skulle uttagas redan vid inskrivningen, vilket bifölls av
+1950 års riksdag. Därigenom kunde gruppchef selevernas utbildning påbörjas 
+två månader före övriga värnpliktigas. Kvarsittarstämpeln var därmed
+eliminerad. Kommitténs majoritet vidhöll två månaders förlängd utbildning
+för gruppchefseleverna, vilket utförligt motiverades.
+Emellertid hänsköt chefen för försvarsdepartementet gruppchefsfrågan till
+förnyad utredning av en sakkunnig, riksdagsman Lindholm. Resultatet av
+denna utredning föreligger icke ännu men har av utredningsmannen förklarats 
+skola framläggas i så god tid, att frågan kan föreläggas 1951 års höstriksdag.
+ En eventuell förlängning av utbildningstiden för gruppcheferna,
+vilket antytts av herr Lindholm, skulle under sådant förhållande kunna börja
+tillämpas först fr. o. m. 1952. Detta innebär i sin tur, att icke endast åldersklasserna 
+1947, 1948 och 1949 utan även 1950 undandragas erforderlig utbildning.
+ Konsekvenserna ge sig själva.
+Motioner i Andra kammaren, nr 23t.
+3
+Beslut bör sålunda redan nu fattas om erforderlig förlängning av gruppchefsutbildningen,
+ så att den kan tillämpas även på åldersklass 1950, som
+påbörjar sin första tjänstgöring i vår. Förlängningen kan emellertid uttagas
+på olika sätt. 1948 års värnpliktskommitté förordade två månader i omedelbar 
+anslutning till första tjänstgöringen. En annan metod är att endast en
+månad uttages på detta sätt, medan den andra uppdelas på tio dagar före
+och i omedelbar anslutning till de tre repetitionsövningarna. Den sistnämnda
+förlängningen bör gälla jämväl övrigt värnpliktigt befäl. Härigenom kan
+detta beredas tillfälle att förbereda sig för sina uppgifter och blir därigenom
+bättre skickat att ta hand om, undervisa och leda övriga värnpliktiga, då
+dessa rycka in till repetitionsövning. Truppens stridsduglighet bör härigenom 
+avsevärt stegras.
+Genom ovanstående åtgärder komma gruppcheferna av åldersklass 1950
+och senare att erhålla en förbättrad utbildning. De tre åldersklasser av
+gruppchefer (1947, 1948 och 1949), vilka endast haft nio månaders första
+tjänstgöring, erhålla dock härigenom icke den erforderliga grundligare utbildningen.
+ Det måste ur alla synpunkter anses betydelsefullt, att dessa
+gruppchefers kvalitet snarast höjes genom en månads extra befälsutbildning
+utöver befälsövningarna före varje repetitionsövning.
+På tidpunkten för denna utbildning inverkar bl. a. gruppchefernas krigsplacering.
+ För den enskilde torde det nämligen vara förmånligare att göra
+extra gruppchefsutbildning, befälsövning och repetitionsövning i en följd än
+att dela upp utbildningen på två omgångar. I varje fall böra gruppcheferna
+av åldersklasserna 1947 och 1948 (eventuellt 1949), krigsplacerade vid den
+repetitionsövningsomgång som skall tjänstgöra under år 1951, de s. k. b-förbanden,
+ inkallas till extra gruppchefsutbildning omedelbart före dessa förbands 
+repetitionsövningar på våren och hösten 1951.
+Vi anse således att första tjänstgöringen för värnpliktiga, uttagna till
+gruppchefer (motsvarande), bör förlängas med 30 dagar med verkan fr. o. m.
+den (de) åldersklasser, som inrycka till första tjänstgöring våren 1951,
+att värnpliktiga officerare, underofficerare och underbefäl böra fullgöra
+tio dagars befälsövning före och i omedelbar anslutning till varje repetitionsövning 
+och slutligen att värnpliktiga gruppchefer av åldersklasserna 1947,
+1948 och 1949 böra fullgöra 30 dagars kompletterande utbildning, företrädesvis 
+i anslutning till den befäls- och repetitionsövning, som närmast åligger
+dem.
+De sammanlagda kostnaderna för ovanstående utbildning kunna under
+budgetåret 1951/52 beräknas till 15 miljoner kronor. Härvid har räknats
+med eventuell premie om 125 kronor för de gruppchefer, som fullgöra en
+månads utbildning utöver nio månaders första tjänstgöring för värnpliktiga
+i allmänhet.
+2. Det frivilliga försvarsarbetet.
+De frivilliga försvarsorganisationernas verksamhet utgör ett avsevärt tillskott 
+i vårt lands försvarskraft. Detta är en följd av den utbildning som
+4
+Motioner i Andra kammaren, nr 231.
+bedrives dels som ett komplement till statligt reglerad, obligatorisk sådan,
+dels av frivilliga, såväl män som kvinnor, för olika tjänster i krigsorganisationen.
+ Det frivilliga försvarsarbetet är även betydelsefullt för försvarsviljans
+upprätthållande och utökande. Intresset hos dein som ägna sig åt frivillig
+utbildning borgar på ett helt annat sätt än obligatorisk dylik för goda utbildningsresultat.
+ Av här nämnda anledningar synes det frivilliga arbetet
+från statsmakternas sida böra stödjas på bästa möjliga sätt. Särskilt gör sig
+detta gällande i tider som de nuvarande, då allt måste göras för höjandet
+av den personella beredskapen.
+Kommittén för frivilligt försvar sarbete har i sitt hösten 1950 avlämnade
+betänkande uttalat sig synnerligen positivt om allt frivilligt försvarsarbete.
+I vad mån kommitténs förslag i dess helhet är lämpligt eller icke att genomföras 
+kan i detta sammanhang lämnas därhän. Betänkandet är för närvarande 
+utsänt på remiss, och remisstiden utgår den 1 maj 1951. Detta har
+medfört att någon proposition till 1951 års vårriksdag icke är att förvänta.
+De frivilliga organisationerna ha emellertid varit föremål för utredningar
+alltsedan 1945, varigenom lösningen av ett flertal för dessa organisationers
+verksamhet betydelsefulla frågor år från år fördröjts. För att ge det frivilliga 
+försvarsarbetet det stöd det så väl förtjänar och icke minst av psykologiska 
+skäl synes det angeläget att remissyttrandena över frivilligkommitténs 
+betänkande bearbetades i så snabb takt att förslag kan föreläggas
+1951 års höstriksdag.
+I anslagshänseende ha hemvärnet, lottarörelsen och centralförbundet inklusive 
+de kvinnliga bilkårerna hösten 1950 erhållit rätt avsevärda belopp
+på tilläggsstat. Årets statsverksproposition upptar anslag motsvarande de
+ordinarie anslagen och tilläggsanslagen för 1950/51. Dessa organisationer
+torde åtminstone enligt vad som för närvarande kan bedömas t. o. m. 1951/
+52 vara relativt väl tillgodosedda med medel. Oaktat detta kan tillströmningen 
+av deltagare i utbildningen och i övningar bli så kraftig att tilläggsanslag 
+erfordras för att det föreliggande intresset skall kunna tillvaratas.
+Särskilt gäller detta övningsanslag och ammunition. Vi förutsätta att Kungl.
+Maj :t, därest behov skulle uppstå av ytterligare anslag för dessa ändamål,
+förelägger riksdagen förslag om tilläggsanslag.
+Beträffande skytterörelsen torde önskemål om ökade anslag till skjutbanor 
+i första hand föreligga. Enligt uppgift uppgå inneliggande anslagsframställningar 
+jämte tidigare gjorda utfästelser till ca 350 000 kronor.
+Denna siffra kan väntas stiga betydligt under det närmaste året, och behovet 
+av medel torde komma att framträda allt starkare på grund av de rådande 
+förhållandena, varigenom ökad anslutning till de frivilliga organisationerna 
+kan förväntas och därmed även en större användning av skjutbanorna.
+ Till det här anförda tillkommer liksom beträffande befälsutbildningsrörelsen 
+och hemvärnet behovet av ammunition, särskilt därest skjutning 
+med automatvapen enligt frivilligkommittén skall väsentligt utökas.
+I förhoppning att frivilligkommitténs betänkande efter bearbetning kommer 
+att föreläggas årets höstriksdag framställes ej något direkt anslags
+-
+Motioner i Andra kammaren, nr 231.
+5
+yrkande för annat ändamål än för skjutbanor. Kungl. Maj :t har visserligen 
+i statsverkspropositionen föreslagit höjning av anslaget för skjutbanor
+med 60 000 kronor, men behovet är så stort och slitaget under forcerad
+övning så starkt att det synes oss nödvändigt att utöver Kungl. Maj :ts
+förslag hemställa om ytterligare 100 000 kronor, vilken summa i förening
+med de medel som föreslås av Kungl. Maj :t ej fullt kommer att täcka nu
+inkomna ansökningar om bidrag.
+3. Bemyndiganden för anskaffning av tygmateriel.
+Arméförvaltningen begärde i de ordinarie anslagsäskandena för budgetåret 
+1951/52, uppgjorda före Koreakrisen, beställningsbemyndiganden för
+anskaffning av tygmateriel inom en ram av 152 miljoner kronor.
+I anledning av de försvarsberedskapsåtgärder, som vidtogos hösten 1950,
+beslöt emellertid riksdagen bevilja extra bemyndiganden å 34 miljoner kronor 
+för budgetåret 1950/51.
+Dessa 34 miljoner kronor har departementschefen räknat armén till godo
+jämväl för budgetåret 1951/52 och drar dessutom utan närmare motivering 
+av ytterligare 8 miljoner kronor på arméförvaltningens äskanden. Av
+de begärda 152 miljoner kronor för budgetåret 1951/52 återstå sålunda
+endast (152 —34 — 8 =) 110 miljoner kronor trots att äskandena, som
+ovan påpekats, uppgjordes innan den världspolitiska krisen erhöll sin nuvarande 
+skärpning. I realiteten förutsätter departementschefen sålunda inga
+extra åtgärder med anledning av det skärpta utrikespolitiska läget utan
+tvärtom en minskning av vad de militära myndigheterna ansett nödvändigt.
+Följden blir att synnerligen angelägna anskaffningsobjekt, t. ex. artillerioch 
+luftvärnspjäser samt pansarvärnsvapen med ammunition, icke kunna
+tillgodoses i nu önskvärd grad. För att industrien över huvud taget skall
+vilja eller kunna leverera materiel snabbt och i jämn takt krävas långsiktiga
+beställningar, som nu delvis omöjliggöras. Nya beställningsbemyndiganden
+i höst eller nästa år kunna alltså icke kompensera den tidsförlust, som
+skulle bliva följden av statsrådets nedprutning med (34 8 =) 42 miljo
+ner 
+kronor.
+Artilleriets ngbeväpning tilldrar isig i detta sammanhang särskild uppmärksamhet.
+Det lätta pjästyperna inom artilleriets fältförband äro för närvarande
+7,5 cm kanon m/02, m/02—33 och m/40
+10,5 cm haubits m/10
+10.5 cm haubits m/39 och m/40.
+7.5 cm-kanonerna äro med hänsyn till det enskilda skottets verkan omoderna 
+såsom artilleripjäser. 7,5 cm kanon m/02 är dessutom helt föråldrad
+med hänsyn till lavettkonstruktionen.
+10.5 cm-haubitsen m/10 har en skottvidd om ca 6 km, medan pjäser av modern 
+konstruktion ha ca 12 km. Pjäsen är föråldrad — sidriktfält inom
+lavetten 4 ° mot 60° vid moderna pjäser, ofjädrad och med glidlager, som
+endast medgiva en marschhastighet av 8 km/tim — samt dessutom i många
+6
+Motioner i Andra kammaren, nr 231.
+avseenden starkt försliten. Det är endast bristen på nya pjäser som gör
+att den måste kvarstå i fältförbanden.
+Nära hälften av vårt lätta fältartilleri består av föråldrade pjäser, konstruerade 
+under 1900-talets första decennium och därför avsevärt underlägsna 
+motsvarande pjäser i utländska arméer. Kommer därtill att vår relativa 
+artilleristyrka — artilleripjäser per infanteribataljon — är låg i förhållande 
+till utländska arméorganisationer framträder än mer svagheten
+hos vårt fältartilleri.
+På tilläggsstaten för budgetåret 1950/51 beviljades medel för anskaffning
+av bl. a. ett antal 10,5 cm haubitser m/40, vilka beställts. Leveranstiden
+för dessa pjäser är emellertid avsevärd. Fortsatt leverans av ytterligare pjäser 
+kommer i hög grad att fördröjas om icke beställning kan utläggas redan 
+på sensommaren innevarande år.
+Den kvalitativa förbättring av det lätta fältartilleriet som åstadkommes
+genom de nu beställda pjäserna blir obetydlig. Fortsatt ersättning av de
+föråldrade pjäserna genom anskaffning av ytterligare 10,5 cm haubitser
+m/40 är därför i hög grad angelägen.
+Som ovan framhållits måste beställning för en dylik anskaffning utläggas 
+snarast möjligt om icke onödig fördröjning av leveranserna skall uppstå.
+ Departementschefens minskning av arméförvaltningens äskande med
+42 miljoner kronor, i vilken summa även kostnaderna för anskaffande av
+10,5 cm-haubitser ingå, synes därför icke kunna godtagas.
+Vi anse således, att beställningsbemyndigandet för anskaffning av tygmateriel 
+till armén bör höjas med 42 miljoner kronor till 152 miljoner kronor.
+II. Marinen.
+1. Nybyggnads programmet.
+Marinförvaltningen har enligt statsverkspropositionen föreslagit att beslut 
+nu skall fattas om utökning av marinens utbyggnadsprogram med nya
+objekt för en total kostnad av 113 370 000 kronor enligt följande program.
+Flottan:
+Två modifierade landskaps jagare (prisläge 1/7 1949)........ 83 000 000
+Två utbåtsjaktfartyg (prisläge 1/7 1949) .................. 22 000 000
+Två mindre minsvepare av ny typ (prisläge 1/7 1950) ...... 4 400 000
+Kustartilleriet (prisläge 1/7 1949):
+Två minutläggare ....................................... 3 050 000
+Sex minarbetsbåtar ........................................ 120 000
+Gemensamt:
+Trängfartyg m. in. (prisläge 1/7 1950) .................... 800 000
+Summa kronor 113 370 000.
+Departementschefen uttalar, att han i likhet med vad som var fallet föregående 
+år icke kan tillstyrka, att beslut nu fattas om nybyggnad av vare sig
+jagare eller ubåts jaktfartyg. I den mån statsrådets avvisande inställning mo
+-
+Motioner i Andra kammaren, nr 231.
+7
+tiverats av hänsyn till att beslut om större organisationsändringar icke borde
+fattas så länge försvarsutredningens arbete pågår, har detta motiv — som
+inledningsvis framhållits — numera helt förlorat sitt värde. Det kan emellertid 
+även enligt vår åsikt starkt ifrågasättas, om fortsatt byggande av en
+jagartyp, som enligt stormaktsuppfattning är en »förbrukningsvara» till en
+kostnad av icke mindre än 41 500 000 kronor per styck är riktigt. En mindre
+och billigare jagare bör kunna konstrueras, ingående i en i ordets egentliga
+bemärkelse lätt flotta. Även nybyggnad av ett så extremt specialfartyg, som
+ubåtsjagaren tydligtvis är, kan enligt vår uppfattning starkt ifrågasättas.
+Hotet mot kustsjöfarten, i den män denna kan fortgå under krig, torde i lika
+hög grad föreligga från flyg som från ubåtar. Luftvärnsbeväpning av handelsfartygen 
+och lätta eskortfartyg, som kunna bekämpa såväl flyg som
+utbåtar, synes vara ett relativt effektivt motmedel. Enär ersättningsbyggnad 
+av såväl stads- som kustjagare, som falla för åldersstrecket, med lätta
+fartyg snarast bör komma i gång, synes en snabbutredning om lämpliga fartygstyper 
+vara påkallad.
+2. Underhållsanslaget.
+Marinförvaltningen har vidare begärt 32,94 miljoner kronor för underhåll
+av fartyg in. in., d. v. s. en ökning med 6,64 miljoner kronor. Anslagets fördelning 
+framgår av statsverkspropositionen. Däremot framgår icke att 3,9
+miljoner kronor av ökningen eller nära 60 % förorsakats av arbeten som på
+grund av förra årets nedskärning av anslaget måst uppskjutas. Marinförvaltningen 
+har framhållit att nödvändiga underhållsarbeten ej kunna uppskjutas 
+någon längre tid utan de allvarligaste konsekvenser för flottans och
+kustartilleriets materielberedskap och materiella standard.
+Departementschefen har nu föreslagit en ökning av anslaget med en miljon 
+kronor, en ökning som inte ens kompenserar de beräknade prisstegringarna.
+ Nedskärningen motiveras med rådande statsfinansiella läge. Det kan
+dock knappast vara förenligt med en god ekonomi att inte på tillfredsställande 
+sätt underhålla dyrbar materiel.
+Den omedelbara verkan av minskat underhållsanslag måste bli en successivt 
+försämrad beredskap vid såväl flottan som kustartilleriet, vilket i
+nuvarande världspolitiska läge icke kan godtagas. Vi föreslå härför ett ökat
+underhållsanslag med fyra miljoner kronor.
+III. Flygvapnet.
+Den nutida krigföringen arbetar genom luftstridsmedlens rörlighet och
+räckvidd i så snabbt tempo, att riskerna för överraskningar i hög grad ökats
+och hemorten i helt annan grad än tidigare blivit krigsskådeplats. Utrustad
+med endast clt svagt luftförsvar kan den försvarande parten inte minst
+genom terrorbombning mot hemorten, som i initialskedet av ett krig försvagar 
+civilbefolkningens motståndskraft, bringas till underkastelse eller eftergifter 
+enbart genom luftangrepp. Ett starkt luftförsvar är därför en bety
+-
+8
+Motioner i Andra kammaren, nr 231.
+delsefull faktor för såväl fredens bevarande som tillförsiktens upprätthållande.
+ Flygvapnet spelar även en viktig roll för att i ett kritiskt läge öka
+möjligheterna att snabbt mobilisera övriga försvarsgrenar.
+Med hänsyn till dessa synpunkter anse vi, att åtgärder snarast böra vidtagas 
+för att förstärka flygvapnet. Dessa böra i första hand omfatta
+fullföljande av 1948 års riksdags principbeslut om förstärkning med 50 %
+av dagjaktflyget,
+anskaffning snarast av ytterligare nattjaktplan som ersättning för våra
+nuvarande plan av detta slag samt
+snabb modernisering av luftbevakningen inom större delen av landet.
+1. Dag jaktflygets förstärkning.
+1948 års riksdag beslutade i princip att våra tio dagjaktflottiljer så snart
+ske kunde skulle förstärkas med 50 % inom flottilj organisationens ram.
+Samtidigt fattades definitivt beslut att tre flottiljer skulle förstärkas på detta
+sätt.
+Riksdagen uttalade, att erfarenheterna från de senaste krigsåren och utvecklingstendenserna 
+efter kriget ytterligare framhävt flygstridskrafternas
+betydelse för vårt försvar och att det totala försvarets motståndskraft vore
+i hög grad beroende av luftförsvarets styrka. Riksdagen förklarade sig även
+vilja taga närmare ställning till den fortsatta utbyggnaden av dagjakten, sedan 
+departementschefen förelagt 1949 års riksdag den plan härför som
+förebådats.
+I propositionen 1949: 197 föreslog Kungl. Maj :t — på grundval av en av
+chefen för flygvapnet verkställd utredning, innebärande förstärkning av samtliga 
+tio dagj aktflygflottilj er samt omvandling av en attackflottilj till nattjaktflottilj 
+och i samband därmed förstärkning med 50 % av två av de återstående 
+tre attackflottiljerna — att flygvapnets förstärkning skulle fortsättas.
+ I anslutning härtill framhöll statsministern, att man vid den pågående
+moderniseringen och förnyelsen av försvaret borde inrikta ansträngningarna
+på ett sådant utnyttjande av teknikens medel, att största möjliga försvarsverkan 
+kunde uppnås inom ramen för våra begränsade ekonomiska resurser.
+ I enlighet med denna tankegång borde en sådan organisation av vårt
+försvar eftersträvas, att ett visst mått av beredskap —• så långt detta över
+huvud taget vore möjligt i fredstid — beständigt vore för handen samt att
+största möjliga stridsverkan snabbt kunde åstadkommas även mot plötsliga
+anfall från angripare med överlägsna stridskrafter. Flygvapnet med sin
+höga beredskapsgrad och stora rörlighet kunde betraktas som vår första
+försvarslinje, i all synnerhet vid ett överraskande anfall mot vårt land. Starka
+skäl kunde därför åberopas för fortsatt förstärkning av flygvapnet. Ett väl
+utbyggt flygvapen vore även i stånd att ge ökat skydd åt hemorten samt
+förbättra arméns och marinens stridsduglighet.
+I samma proposition framhöll därefter försvarsministern svårigheterna
+att taga ställning till frågan om förstärkning av flygvapnet, innan — genom
+den av statsministern förebådade försvarsutredningen — klarhet vunnits
+Motioner i Andi-a kammaren, nr 231.
+9
+om möjligheterna att uppväga de uppkommande merkostnaderna genom
+utgiftsminskningar på andra punkter. Departementschefen fann det likväl
+ofrånkomligt att föreslå förstärkning av ytterligare tre dagjaktflottiljer.
+Skälen härtill vore dels att ge flygindustrien erforderlig respittid för att utöka 
+tillverkningsprogrammet, dels att ett fullföljande av 1948 års principbeslut 
+beträffande dagjaktflyget syntes vara av största betydelse för vårt
+försvars effektivitet och hållfasthet i ett nutida krig. Beträffande antalet
+flottiljer som skulle förstärkas ville departementschefen då endast förorda
+ytterligare tre.
+I avvaktan på den förebådade försvarsutredningen begränsade 1949 års
+riksdag sitt beslut till att endast avse förstärkning av ytterligare tre dagjaktflottiljer.
+I sina medelsäskanden för budgetåret 1950/51 föreslog flygförvaltningen
+förstärkning av de fyra återstående icke förstärkta dagjaktflottiljerna. I
+1950 års statsverksproposition anförde föredragande departementschefen
+bl. a. att han i avbidan på resultatet av den pågående försvarsutredningen
+icke ansåg sig kunna förorda att förslag om fortsatt förstärkning av dagjaktflyget 
+då förelädes riksdagen.
+1950 års riksdag anförde i denna fråga (statsutskottets utlåtande nr 4):
+»Utskottet delar departementschefens uppfattning, att med frågan om fortsatt 
+förstärkning av dagjaktflyget bör anstå i avbidan på resultatet av den
+pågående försvarsutredningen. Därest utredningen kommer alt föreslå, att
+1948 års förberedande principbeslut skall fullföljas och detta vinner statsmakternas 
+stöd är det givetvis önskvärt, att, då den fortsatta förstärkningen
+i första hand bör grundas på den inhemska industrien, industriella åtgärder
+vidtagas i syfte att denna förstärkning kan säkerställas utan fördröjning.
+Utskottet förutsätter givetvis att Kungl. Maj :t har sin uppmärksamhet riktad 
+på detta spörsmål och tillser att medel stå till förfogande för angivna
+behov.»
+Vid 1950 års höstriksdag behandlades — med anledning av en framställning 
+från flygledningen om anvisande av medel och beställningsbemyndigande 
+för inköp av verktygssats m. in. •—- frågan om att höja flygindustriens 
+produktionstakt. Produktionshöjningen skulle bl. a. skapa förutsättningar 
+för att vid beslut om förstärkning av de fyra oförstärkta dagjaktflottiljerna 
+kunna anskaffa härför erforderlig materiel inom landet.
+I propositionen nr 251 framhöll departementschefen att han icke i förevarande 
+sammanhang vore beredd förorda de av flygledningen föreslagna 
+åtgärderna.
+I sitt av riksdagen godkända utlåtande nr 227 avstyrkte statsutskottet
+de föreslagna åtgärderna med hänvisning främst till svårigheterna att
+anskaffa erforderlig arbetskraft och till att förslaget skulle innebära en utökning 
+av den av riksdagen bestämda kostnadsramen för flygvapnet.
+I årets statsverksproposition (s. 18) har chefen för försvarsdepartementet,
+ i avvaktan på försvarsutredningens slutliga förslag och med beaktande
+jämväl av de höga kostnaderna för den nuvarande försvarsorganisationen,
+10
+Motioner i Andra kammaren, nr 231.
+avstyrkt ett av chefen för flygvapnet i utlåtande över försvarsutredningens
+delbetänkande framlagt förslag om fortsatt förstärkning av dagjaktflyget.
+Såsom framgår av det föregående har frågan om genomförandet i full
+utsträckning av 1948 års riksdags principbeslut om förstärkning av dagjaktflyget 
+vid upprepade tillfällen ställts på framtiden under hänvisning
+till att resultatet av 1949 års försvarsutrednings arbete icke borde föregripas.
+ Av vad vi inledningsvis anfört framgår att detta motiv numera förlorat 
+sin aktualitet.
+Det är visserligen riktigt att frågan om förstärkningen borde ha lösts i
+samband med spörsmålet om avvägningen i stort mellan de olika försvarsgrenarna.
+ I dagens läge torde detta emellertid icke låta sig göra. Det är vidare 
+obestridligt att -— såsom departementschefen anfört —- kostnaderna
+för den nuvarande försvarsorganisationen äro höga.
+Vårt nuvarande jaktflyg är emellertid alltför svagt för att kunna lösa de
+många uppgifter som böra åvila detsamma. Vi vilja i detta sammanhang
+erinra om att endast delar av vårt land ansetts kunna försvaras med ett
+dagjaktflyg av nuvarande styrka. I många fall torde vidare armé- och marinstridskrafterna 
+icke kunna tilldelas det jaktskydd som är en förutsättning 
+för att de med rimliga utsikter till framgång skola kunna genomföra
+sina operationer.
+Med utgångspunkt i propositionen 1949: 197 kunna engångskostnaderna
+för jaktflygets nu ifrågavarande förstärkning beräknas till ca 80 miljoner
+kronor och årskostnaderna vid fullt genomförd organisation till ca 15 miljoner 
+kronor. I jämförelse med den ökning av krigsmaktens samlade effekt,
+som torde kunna vinnas genom ytterligare förstärkning av dagjakten, finna
+vi dessa kostnader rimliga.
+Vi vilja även erinra om att man vid ett beslut om fortsatt förstärkning
+icke binder sig för framtida årskostnader av denna storlek. Den föreslagna
+organisationen har nämligen enligt propositionen 1949: 197 så stor elasticitet,
+ att de årliga merkostnaderna för förstärkningen •— om det framdeles 
+skulle visa sig önskvärt att återgå till förutvarande storlek å flottiljerna 
+— mycket kort tid efter beslut härom torde kunna reduceras med
+omkring 87 %. Även under uppsättningsperioden finnas möjligheter till
+modifikationer i materielplanen.
+Vad beträffar möjligheterna att genomföra förstärkningen beräknas -—
+enligt vad vi inhämtat -— anskaffningen av de erforderliga flygplanen
+kunna genomföras under år 1954 genom inhemsk tillverkning, under förutsättning 
+dels att beställning utlägges senast omkring 7, 1951, dels att
+åtgärder för anskaffande av arbetskraft vidtagas. De erforderliga åtgärderna 
+ha angivits vara dels import av viss utländsk arbetskraft, därest inhemsk 
+arbetskraft ej kan anskaffas, dels tilldelning av byggnadskvot för
+uppförande av ett antal bostäder. Någon tvångsdirigering av arbetskraft
+har således icke ifrågasatts. Den omständigheten att vissa begränsade svårigheter 
+föreligga för anskaffning av arbetskraft bör enligt vår mening
+icke tagas till intäkt för att ånyo skjuta frågan om förstärkningen åt si
+-
+Motioner i Andra kammaren, nr 231. 11
+dan, då det synes möjligt att genom lämpliga åtgärder undanröja svårigheterna.
+Behovet av beställningsbemyndigande för förstärkningens genomförande
+uppgår, enligt vad vi inhämtat, till 60 miljoner kronor för budgetåret
+1951/52 och behovet av betalningsmedel till 12 miljoner kronor.
+2. Ersättningsanskaffning av nattjaktflygplan.
+I statsverkspropositionen (s. 159—160) anför departementschefen:
+»I skrivelse den 28 september 1950 i anledning av överbefälhavarens principförslag 
+om åtgärder till förstärkning av försvarsberedskapen hemställde
+chefen för flygvapnet och flygförvaltningen bl. a. om nytt beställningsbemyndigande 
+för budgetåret 1950/51 om 24,7 miljoner kronor för anskaffning 
+av nattjaktplan. Myndigheternas förslag härutinnan innebar dels en
+tidigare läggning inom gällande kostnadsram för budgetåret 1950/51 av anskaffning 
+av flygplan, dels ock att flygvapnets kostnadsram under nämnda
+period skulle utökas med 24,7 miljoner kronor för inköp av ytterligare
+flygplan.
+Vid anmälan av propositionen 1950: 251 tillstyrkte jag förslaget om anskaffning 
+inom kostnadsramen av moderna nattjaktplan. Däremot var
+jag icke beredd förorda anskaffning av flygplan utöver kostnadsramen.
+Statsutskottet biträdde i sitt av riksdagen godkända utlåtande nr 227
+förslaget om nyanskaffning av nattjaktplan inom kostnadsramen. I anledning 
+av ett motionsvis framfört förslag om nattjaktplananskaffning jämväl 
+utöver kostnadsramen i enlighet med myndigheternas förslag anförde
+utskottet, att utskottet icke ansåg sig utan vidare berett att nu medverka
+därtill. Utskottet framhöll emellertid, att utskottet ansåge självfallet, att
+Kungl. Maj :t, icke minst med tanke på den flygande personalens säkerhetskrav 
+— antalet haverier och därvid inträffade dödsfall hade varit oroande 
+många vid vår första natt jaktflottilj -— hade sin uppmärksamhet riktad 
+på frågan rörande möjligheterna att ytterligare komplettera beståndet
+av moderna och möjligast driftsäkra nattjaktplan.
+Därest en undersökning skulle visa, att möjligheter föreligga att utöka
+anskaffningen av nattjaktplan utöver vad som i nyssnämnda proposition
+förutsatts, avser jag att ånyo anmäla frågan om anskaffning av här avsedda 
+flygplan.»
+Med anledning av departementschefens här återgivna uttalande få vi
+erinra att departementschefens förslag i propositionen 1950: 251 innebar,
+att endast något mer än hälften av de erforderliga nya nattjaktflygplanen
+nu kunde anskaffas. Detta är icke tillräckligt ens för att kunna utrusta
+vår enda nattjaktflottiljs stridande förband. En del av de omoderna och
+från flygsäkerhetssynpunkt mindre tillfredsställande nattjaktflygplan, med
+vilka flottiljen nu är utrustad, måste därför hållas kvar i tjänst, om detta
+över huvud taget blir möjligt.
+Den anskaffning av ytterligare flygplan, som föreslagits av flygmyndigheterna 
+och som skulle medge utbyte av samtliga äldre nattjaktflygplan,
+12
+Motioner i Andra kammaren, nr 231.
+anse vi vara av vital betydelse för vårt luftförsvar. Vi vilja här understryka,
+att i vårt vidsträckta och för flyganfall nattetid och i dåligt väder sårbara
+land ha vi endast en nattjaktflottilj. Desto viktigare är det att denna enda
+flottilj i sin helhet är utrustad med moderna och fullgoda flygplan.
+Med hänsyn till frågans betydelse förutsätta vi, att förslag i ärendet kommer 
+att föreläggas årets vårriksdag så snart ske kan. I det föregående anförda 
+synpunkter böra därvid beaktas.
+3. Modernisering av luftb ev åkning en.
+Luftbevakningen överfördes till flygvapnet enligt beslut av 1948 års riksdag.
+ Med hänsyn till betydelsen såväl för riksförsvaret i dess helhet som
+för samhällslivet att luftbevakningen fungerar effektivt underströko statsmakterna 
+härvid vikten av att den påbörjade moderniseringen av luftbevakningen 
+— om detta visade sig möjligt från utbildnings- och materielanskaffningssynpunkt 
+— genomfördes i snabbare takt än 1945 års försvarskommitté 
+räknat med, nämligen t. o. m. budgetåret 1953/54.
+För modernisering av den optiska luftbevakningen — dock endast inom
+vissa mycket begränsade delar av landet — beräknades enligt 1948 års
+riksdagsbeslut en engångskostnad för materielanskaffning av 10,5 milj. kr.
+Härutöver ha vissa tidigare anvisade medel ställts till flygförvaltningens
+förfogande, varigenom sammanlagt 12,75 milj. kr. disponerats för detta
+ändamål.
+I sina medelsäskanden för budgetåret 1950/51 framlade flygförvaltningen 
+ett förslag om fortsatt modernisering av luftbevakningen till en engångskostnad 
+av 30,8 milj. kr. utöver vad som tidigare anvisats och en årskostnad 
+vid fullt utbyggd organisation av 5,4 milj. kr. Inom den angivnakostnadsramen 
+skulle luftbevakningen likväl ej kunna moderniseras inom
+landets samtliga delar. Flygförvaltningens förslag avslogs under hänvisning 
+bl. a. till den då pågående försvarsutredningen.
+Vid 1950 års höslriksdag lämnades ett beställningsbemyndigande om 8
+milj. kr. för fullföljande av luftbevakningens modernisering enligt det program 
+som år 1948 fattades av riksdagen, d. v. s. inom vissa begränsade
+delar av landet.
+I utlåtande över försvarsutredningens delbetänkande har chefen för
+flygvapnet föreslagit, att luftbevakningens modernisering skulle påskyndas
+och utvidgas i huvudsak enligt det förslag som framlades i flygförvaltningens 
+medelsäskanden för budgetåret 1950/51.
+I årets statsverksproposition (s. 18 och 160) meddelar chefen för försvarsdepartementet,
+ att han avser återkomma till frågan om luftbevakningens 
+modernisering i samband med behandlingen av frågan om viss ytterligare 
+anskaffning av nattjaktflygplan.
+Luftbevakningens betydelse för det totala försvaret och samhällslivet i dess
+helhet torde vara tillräckligt känd för att ej här behöva ytterligare behandlas.
+ Särskilt i nuvarande läge är dess bristande modernitet en allvarlig brist
+i vår försvarsberedskap. Med hänsyn härtill är det icke tillfredsställande att
+Motioner i Andra kammaren, nr 231.
+13
+departementschefen nu skjuter denna fråga ytterligare på framtiden. Enligt
+vår uppfattning är det av flygvapnets myndigheter framlagda förslaget ett
+minimiprogram, som bör genomföras så snabbt som våra personella och materiella 
+resurser över huvud taget medge.
+Vi förutsätta emellertid, att förslag enligt detta program så snart ske
+kan kommer att föreläggas riksdagen vid dess vårsession. De synpunkter vi
+här anfört böra därvid beaktas.
+IV. Rationalisering och besparingsmöjligheter.
+Förvaltningsutredningen har efter mycket grundliga undersökningar framlagt 
+förslag till väsentliga förändringar av tyg-, intendentur- och civilförvaltningarna 
+vid försvaret. Förverkligandet av detta förslag skulle innebära
+icke endast en utomordentlig effektivisering av förvaltningen med därmed
+åtföljande stora ekonomiska vinster utan även betydligt minskad personalorganisation 
+och väsentliga kostnadsbesparingar. Personalminskningen är
+beräknad till 644 befattningar och kostnadsminskningen enbart för avlöningar 
+till 3 277 000 kronor, men därtill komma även andra väsentliga direkta
+besparingar. Då det nuvarande systemet för förvaltningen utsatts för synnerligen 
+hård kritik, icke minst från riksdagens revisorer, hade man kunnat
+förvänta att försvarsministern fastställt sådan tid för remissyttrandena att
+proposition kunnat framläggas vid denna vårriksdag. Vi uttala nu det bestämda 
+önskemålet att riksdagen får pröva förslaget vid nästkommande
+höstriksdag.
+Även marinens underofficerssakkunniga ha framlagt ett rationaliseringsförslag.
+ Deras förslag skulle innebära en lönekostnadsminskning med i runt
+tal 650 000 kr. per år, när den nya organisationen fullt genomförts. Vi förutsätta 
+att även detta förslag får prövas av årets höstriksdag.
+Med anledning av vad som sålunda anförts få vi hemställa,
+att riksdagen måtte besluta
+A. att första tjänstgöringen för värnpliktiga, uttagna till
+gruppchefer eller motsvarande, skall förlängas med 30 dagar 
+med verkan från och med den (de) åldersklasser, som
+inrycka till första tjänstgöring våren 1951,
+att värnpliktiga officerare, underofficerare och underbefäl
+skola fullgöra tio dagars befälsövning före och i omedelbar
+anslutning till varje repetitionsövning,
+att värnpliktiga gruppchefer av åldersklasserna 1947, 1948
+och 1949 skola fullgöra 30 dagars kompletterande utbildning,
+företrädesvis i anslutning till den befäls- och repetitionsövning,
+ som närmast åligger dem,
+att till Armén: Frivilliga skytteväsendets befrämjande
+för budgetåret 1951/52 anvisa ett reservationsanslag av
+1 600 000 kr.,
+14
+Motioner i Andra kammaren, nr 231.
+iatt bemyndiga Kungl. Maj :t att medgiva utläggande av beställningar 
+å tygmateriel in. in. för armén inom en kostnadsram 
+av 152 000 000 kr.
+B. att i skrivelse till Kungl. Maj :t begära en skyndsam utredning 
+om ersättningsbyggnader för föråldrade jagare och
+kust jagare med beaktande av vad i motionen härom anförts,
+att till Marinen: Underhåll av fartyg m. m. för budgetåret
+1951/52 anvisa ett reservationsanslag av 31,3 milj. kr.
+C. att inom ramen för det av 1948 års riksdag fattade principbeslutet 
+de fyra ännu återstående oförstärkta dagj aktflottiljerna 
+inom flottiljorganisationens ram skola förstärkas
+med 50 procent så snart ske kan,
+att bemyndiga Kungl. Maj:t att utlägga beställningar å
+flygmateriel inom en kostnadsram av 211 000 000 kronor,
+att till Flygvapnet: Anskaffning av flygmateriel för budgetåret 
+1951/52 anvisa ett reservationsanslag av 197 000 000
+kronor,
+att beträffande nattjaktflottiljen och luftbevakningen förslag 
+snarast framlägges i enlighet med motionens syfte,
+D. att hos Kungl. Maj :t begära att till årets höstriksdag
+måtte framläggas förslag rörande det frivilliga försvarsarbetet,
+ försvarets intendentur-, tyg- och civilförvaltning samt
+marinunderofficerskåren på grundval av de utredningar som
+verkställts rörande dessa frågor.
+E. samt att i övrigt beakta vad som i motionen anförts.
+Stockholm den 26 januari 1951.
+Jarl Hjalmarson. Gunnar Hedlund. Bertil Ohlin.
+517116. Stockholm. Isaac Marcus Boktryckeri Aktiebolag. 1951.
+kammare
+kammare
+Andra kammaren
+EC2O231
+2018-03-02 15:17:07
+riksdag
+riksdag
+tvåkammaren
+EC2O231
+2018-03-02 15:17:07
+session
+session
+lagtima
+EC2O231
+2018-03-02 15:17:07
+sidantal
+Antal sidor
+14
+EC2O231
+2018-03-02 15:17:07
+EC2O231
+Andra kammaren
+mot_1951__ak__231.pdf
+804260
+pdf
+Motioner i Andra kammaren, nr 231
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1951/web_mot_1951__ak__231/mot_1951__ak__231.pdf

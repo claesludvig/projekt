@@ -1,0 +1,186 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 724 år 1968
+5
+Nr 724
+Av fru Ncttclbrandt m. fl., angående den statliga belåningen för
+servicehus.
+(Lika lydande med motion nr 574 i Första kammaren)
+Sedan 1930-talets fåtaliga kollektivhus byggdes har kravet på boendeservice 
+blivit i mycket ringa utsträckning tillgodosett. Under flera decennier 
+har praktiskt taget inga hus med fullständig service byggts, och gjorda
+utredningar, som slutat i positiva omdömen och rekommendationer, har
+knappast följts av några praktiska resultat.
+Från och med 1962 har från folkpartihåll frågan om servicehus varje
+år aktualiserats motionsvägen i riksdagen. Utredning har begärts av frågan
+huruvida och på vilka vägar man från statens sida kan stimulera till byggande 
+av servicehus. Först under föregående år har servicehusfrågan
+kommit att omfattas av ett mera allmänt intresse från de flesta håll. Genom
+den pågående debatten har också klargjorts — vad bl. a. erfarenheter från
+Danmark och tidigare gjorda statliga utredningar visat — att hyror i
+servicehus icke nämnvärt avviker från hyrorna i servicelösa hus och att
+boendeformen därför visat sig väl passa alla socialgrupper. Det finns således 
+klara belägg för att det vanliga talet om att servicehus endast passar
+för en exklusiv socialgrupp är en felföreställning.
+Hus med samlad service skulle kunna tillgodose ett starkt behov hos
+mycket stora befolkningsgrupper. Det ökande antalet åldringar kräver
+särskilda åtgärder. Genom en utvecklad service kan åldringarna beredas
+möjlighet att längre stanna i sina egna hem. Därmed ökas deras egen
+trivsel och samhället sparar på dyrbara institutionsplatser. Från de handikappade 
+har starka önskemål framkommit om bostäder med tonvikten
+lagd på service. Vidare ökar ständigt gruppen förvärvsarbetande kvinnor,
+vilket starkt accentuerar särskilda åtgärder för hemmets skötsel. Med
+tanke på det minskande antalet individuellt anställd hemarbetskraft torde
+en fullständig boendeservice vara enda framkomliga vägen att minska det
+dubbelarbete som nu ökar jäkten och stressen hos många människor.
+Någon fylligare motivering för angelägenheten av att bygga servicehus
+torde knappast längre behövas. Stor enighet synes i varje fall i debatten
+ha uppnåtts om värdet av sådana hus. Från ett flertal organisationer har
+6
+Motioner i Andra kammaren, nr 724 dr 1968
+också bestämda uttalanden i den riktningen gjorts. Detta gäller inte minst
+de stora arbetsmarknadsorganisationerna. Vad som däremot icke råder
+klarhet om är hur servicehus skall byggas, var de skall byggas, i vilken
+omfattning de skall byggas och i vilken utsträckning samhället bör finansiellt 
+stödja tillkomsten av sådana hus. Med hänsyn till att servicehus f. n.
+praktiskt taget saknas hör emellertid nytillskottet innehålla särskilt stor
+andel servicehus, om någon valfrihet skall kunna erbjudas bostadskonsumenterna.
+Det är därför viktigt att kommuner och byggproducenter stimuleras att
+snabbt planera för byggande av servicehus.
+Under år 1967 tillsattes glädjande nog en sådan statlig utredning som
+sedan länge begärts. Utredningens arbete fortgår. En realistisk tidsbedömning
+leder till att de! ännu måste dröja minst ett år innan eventuella utrednings
+förslag blivit såväl remissbehandlade som riksdagsbehandlade. Då redan
+mycken tid försuttits i denna fråga finns det all anledning att genom
+någon provisorisk anordning söka skapa stimulans till ett omedelbart
+byggande. I en låst bostadsmarknad finns icke något särskilt intresse att
+ägna tid och fantasi åt administrativt och tekniskt svåra lösningar. Medvetandet 
+om att även den servicelösa bostaden blir efterfrågad har hämmat
+initiativlusten när det gäller väsentliga bostadskomplement. 1 partimotion
+från folkpartiet förra året krävdes sådan ändring av bestämmelserna för
+den statliga bostadslångivningen att de till servicehusen hörande bostadskomplementen 
+får ingå i låneunderlaget. Vi konstaterar med tillfredsställelse 
+att detta krav nu synes ha tillgodosetts i lånebestämmelserna.
+F. n. torde icke blott enskilda byggföretag med 85-procentig övre statlig
+belåningsgräns utan även allmännyttiga företag med 100-proeentig övre
+gräns få tillskjuta eget kapital vid bostadsbyggandet, eftersom produktionskostnaden 
+för serviceutrymmen regelmässigt överstiger det pantvärde
+som statsbelåningen grundar sig på. För sådana ytor som behövs för särskilda 
+bostadskomplement — inklusive täckta promenadgångar mellan
+bostadshus och servicelokaler i angränsande hus — borde för alla företagarkategorier 
+kunna ges 100-proeentig statlig belåning baserad på en dokumenterad,
+ rimlig produktionskostnad. Detta bör gälla alla företagarkategorier.
+ Dessutom bör enskilda bostadsföretag i likhet med vad som gäller
+för kooperativa bostadsföretag kunna för bostadskomplexet i övrigt erhålla
+belåning upp till 95 %. Genom en sådan anordning skulle betydande stimulans 
+kunna erhållas för byggande av servicehus redan i avvaktan på
+de åtgärder som kan komma att följa på serviceutredningens förslag.
+Under hänvisning till vad som ovan i motionen anförts hemställer vi,
+att riksdagen i skrivelse till Kungl. Maj:t uttalar att den
+övre gränsen för statlig belåning för s. k. servicehus
+dels för bostadskomplementen sätts till 100 %> för samtliga 
+kategorier av bostadsföretag,
+Motioner i Andra kammaren, nr 724—725 år 1968
+7
+dels för servicehusets övriga delar sätts till 95 °/o för enskilda 
+bostadsföretag.
+Stockholm den 26 januari 1968
+Cecilia Nettelbrandt (fp)
+Ingemar Mundebo (fp)
+Bertil Ohlin (fp)
+Daniel Wiklund (fp)
+Elias Jönsson (fp)
+Folke Nihlfors (fp)
+i Stockholm
+i Ingemarsgården
+Ola Ullsten (fp)
+Bengt Sjönell (ep)
+Anders Dahlgren (ep)
+John Eriksson (ep)
+Johannes Antonsson (ep)
+i Bäckmora
+Nr 725
+Av herr Nilsson i Bästekille, om åstadkommande av bättre överensstämmelse 
+mellan länsindelning och domkretsindelning,
+ m. m.
+(Lika lydande med motion nr 570 i Första kammaren)
+Stockholm den 26 januari 1968
+Jöns Nilsson (h)
+i Bästekille
+kammare
+kammare
+Andra kammaren
+ET2O724
+2018-02-20 21:07:40
+riksdag
+riksdag
+tvåkammaren
+ET2O724
+2018-02-20 21:07:40
+session
+session
+lagtima
+ET2O724
+2018-02-20 21:07:40
+sidantal
+Antal sidor
+3
+ET2O724
+2018-02-20 21:07:40
+ET2O724
+Andra kammaren
+mot_1968__ak__724.pdf
+224149
+pdf
+Motioner i Andra kammaren, nr 724 år 1968
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1968/web_mot_1968__ak__724/mot_1968__ak__724.pdf

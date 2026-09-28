@@ -1,0 +1,107 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 65—67 år 1970
+7
+Nr 65
+Av herr Ericsson i Åtvidaberg, om rätt till skattefri avsättning till
+omskolnings- och utbildningsf onder.
+(Lika lydande med motion nr 57 i Första kammaren)
+Stockholm den 15 januari 1970
+Gunnar Ericsson (fp)
+i Åtvidaberg
+Nr 66
+Av herr Gustafson i Göteborg m. fl., om statligt stöd åt Norrland.
+(Lika lydande med motion nr 56 i Första kammaren)
+Stockholm den 14 januari 1970
+Sven Gustafson (fp) Elias Jönsson (fp) Cecilia Nettelbrandt (fp)
+i Göteborg i Ingemarsgården
+Sven Wedén(fp) Bertil Ohlin (fp) Daniel Wiklund (fp)
+i Stockholm
+Ingemar Mundebo (fp) Sven Antby (fp)
+Nr 67
+Av herr Petersson i Gäddvik m. fl., angående statens vattenfallsverks 
+redovisning för kommunal beskattning av inkomst
+från kraftverk.
+(Lika lydande med motion nr 20 i Första kammaren)
+Stockholm den 14 januari 1970
+Per Petersson (in)
+i Gäddvik
+Tore Nilsson (in) Carl-Wtlh. Lothigius (in)
+i Agnäs
+kammare
+kammare
+Andra kammaren
+FT2O65
+2018-02-20 19:56:38
+riksdag
+riksdag
+tvåkammaren
+FT2O65
+2018-02-20 19:56:38
+session
+session
+lagtima
+FT2O65
+2018-02-20 19:56:38
+sidantal
+Antal sidor
+1
+FT2O65
+2018-02-20 19:56:38
+FT2O65
+Andra kammaren
+mot_1970__ak__65.pdf
+125966
+pdf
+Motioner i Andra kammaren, nr 65—67 år 1970
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1970/web_mot_1970__ak__65/mot_1970__ak__65.pdf

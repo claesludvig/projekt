@@ -1,0 +1,97 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+12
+Motioner i Andra kammaren, nr 323 år 1958
+Nr 323
+Av herr Ohlin m. fl., angående viss reformering av avskrivningsreglerna 
+i fråga om byggnad, som ingår i rörelse.
+I de likalydande motionerna I: 254 och II: 322 som väckts denna dag har
+vi i ett sammanhang behandlat olika skattepolitiska frågor. Till de där behandlade 
+spörsmålen hör vissa problem rörande företagsbeskattningen. Med
+hänvisning till den i dessa motioner anförda motiveringen hemställer vi,
+att riksdagen måtte besluta att i skrivelse till Kungl. Maj :t
+hemställa om utredning i syfte att anpassa beskattningsreglerna 
+vad gäller värdeminskningsavdrag för byggnad, som
+ingår i rörelse, så att större värdeminskningsavdrag kan
+göras under en byggnads första år.
+Stockholm den 26 januari 1958
+Bertil Ohlin
+Sven Wedén Henning Gustafsson Ragnhild Sandström
+i Skellefteå
+kammare
+kammare
+Andra kammaren 
+EJ2V323
+2018-03-02 08:49:32
+riksdag
+riksdag
+tvåkammaren
+EJ2V323
+2018-03-02 08:49:32
+session
+session
+ a
+EJ2V323
+2018-03-02 08:49:32
+sidantal
+Antal sidor
+1
+EJ2V323
+2018-03-02 08:49:32
+EJ2V323
+Andra kammaren - a
+mot_1958_a_ak__323.pdf
+109160
+pdf
+Motioner i Andra kammaren, nr 323 år 1958
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1958/web_mot_1958_a_ak__323/mot_1958_a_ak__323.pdf

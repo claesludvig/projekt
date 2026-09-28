@@ -1,0 +1,100 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 677 år 1967
+7
+Nr 677
+Av herrar Ohlin och Hedlund, om viss minskning av anslag under
+sjätte huvudtiteln.
+(Lika lydande med motion nr 528 i Första kammaren)
+Under investeringsanslaget till teleanläggningar har televerket för nästa
+budgetår äskat 79,8 milj. kr. för inköp och byggande av fastigheter. Departementschefen 
+tillstyrker för sin del ett anslag på 70,5 milj. kr. Med hänsyn
+till bl. a. angelägenheten av återhållsamhet med offentligt byggande i nuvarande 
+läge anser vi att dessa fastighetsinvesteringar bör hållas tillbaka ytterligare.
+ En beskärning med 7 milj. kr. av Kungl. Maj :ts förslag bör genomföras 
+nästa budgetår.
+Med stöd av det anförda hemställes,
+att riksdagen måtte till Teleanläggningar m. in. för budgetåret 
+1967/68 under kapitalbudgeten, sjätte huvudtiteln,
+anvisa ett i förhållande till Kungl. Maj :ts förslag med 7 milj.
+kr. minskat investeringsanslag av 592 000 000 kr.
+Stockholm den 26 januari 1967
+Bertil Ohlin (fp)
+Gunnar Hedlund (ep)
+kammare
+kammare
+Andra kammaren
+ES2O677
+2018-03-01 17:08:50
+riksdag
+riksdag
+tvåkammaren
+ES2O677
+2018-03-01 17:08:50
+session
+session
+lagtima
+ES2O677
+2018-03-01 17:08:50
+sidantal
+Antal sidor
+1
+ES2O677
+2018-03-01 17:08:50
+ES2O677
+Andra kammaren
+mot_1967__ak__677.pdf
+114423
+pdf
+Motioner i Andra kammaren, nr 677 år 1967
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1967/web_mot_1967__ak__677/mot_1967__ak__677.pdf

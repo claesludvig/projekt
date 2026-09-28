@@ -1,0 +1,813 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 571 år 1955
+1
+Nr 571
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition, nr 100,
+med förslag till lag om ändring i kommunalskattelagen den 28
+september 1928 (nr 370), m. m.
+I Kungl. Maj:ts proposition, nr 100, föreslås ändrade regler för företagsbeskattningen.
+ De viktigaste av de i propositionen föreslagna ändringarna
+innebär, att den hittills i princip gällande rätten till fri avskrivning å maskiner 
+och inventarier avskaffas samt att restriktiva regler införes för lagervärderingen.
+ I stället föreslås i fråga om avskrivning å maskiner och
+inventarier rätt till årlig avskrivning med högst 30 procent å summan
+av ingående bokfört värde och årets anskaffningskostnad (30-regeln). Beträffande 
+lagervärderingen föreslås som huvudregel rätt till avskrivning med
+högst 60 procent. I båda fallen tillkommer vissa supplementärregler. Härjämte 
+innefattar propositionen förslag till ändrade beskattningsregler i
+fråga om avsättningar till investeringsfond samt till pensions- och personalstiftelser.
+Syftet med de framlagda förslagen angives vara att ”anpassa företagsbeskattningen 
+till en konjunktur stabiliserande ekonomisk politik”. Syftet är
+sålunda konjunkturpolitiskt och inte i och för sig att tillföra staten ökade
+skatteinkomster. En bedömning av propositionen bör alltså närmast ske
+utifrån synpunkten, huruvida de föreslagna ändringarna kan anses vara
+i konjunkturpolitiskt och samhällsekonomiskt avseende motiverade och
+lämpligt avvägda. Förslagen bör självfallet även bedömas med hänsyn till
+deras företagsekonomiska verkningar.
+Konjunkturer och företagsbeskattning
+Som motivering för de framlagda förslagen anföres i propositionen huvudsakligen,
+ att de regler för företagsbeskattningen, som föreskrives i den nu
+gällande permanenta lagstiftningen, haft en inflationsdrivande effekt och
+alt de i varje fall inte stått i samklang med den i övrigt kreditåtstrainande
+politik, som åsyftats. Genom de liberala avskrivningsreglerna har enligt departementschefens 
+mening företagen i betydande omfattning kunnat göra sig
+oberoende av den åtstramning på den allmänna kreditmarknaden, som statsmakterna 
+sökt åstadkomma. Med hänsyn till att just de privata investeringarna 
+utgjorde de för konjunkturutvecklingen ”strategiskt mest betydelsefulla 
+faktorerna” skulle det vara angeläget att komplettera en allmän kredit
+1 
+Bihang till riksdagens protokoll 1955. i samt. Nr 571
+2
+Motioner i Andra kammaren, nr 571 år 1955
+åtstramning med åtgärder riktade mot de mer eller mindre självfinansierande 
+företagen. Till grund för uppfattningen att reglerna för företagsbeskattningen 
+i väsentlig grad bidragit till efterkrigstidens inflationistiska
+utveckling i vårt land åberopas vissa i företagsbeskattningskommitténs betänkande 
+redovisade undersökningar rörande sambandet mellan investeringsverksamheten 
+och nyssnämnda regler.
+Vad först gäller det mera allmänna spörsmålet om sambandet mellan å ena
+sidan investeringsverksamheten och å den andra skattereglernas utformning,
+ är det uppenbart att de i skattelagstiftningen medgivna möjligheterna
+till s. k. vinstreglerande dispositioner är av betydelse för ett företags möjligheter 
+att finansiera sina investeringar. Det ligger i sakens natur och torde
+också ha insetts vid den fria avskrivningsrättens införande. Det ur konjunkturpolitisk 
+synpunkt relevanta är emellertid, om det kan visas att de gällande 
+avskrivningsreglerna för beskattningen haft eller kan väntas få någon
+väsentlig betydelse som inflationsdrivande faktor. Därjämte måste frågan
+ställas om inte andra konjunkturpolitiska åtgärder kan och bör vidtagas,
+som bättre tjänar ett konjunkturstabiliserande syfte än en omläggning av
+en skattelagstiftning, vilken i övrigt visat sig ha stora förtjänster.
+För att belysa förstnämnda frågeställning refereras i propositionen visst
+siffermaterial, som bl. a. belyser i vilken utsträckning de totala investeringarna 
+i samhället beröres av reglerna om fri avskrivningsrätt. Enligt detta
+material kan den andel av de privata bruttoinvesteringarna, som kan påverkas 
+av utformningen av företagsbeskattningen, uppskattas till ca 20 procent
+av totalinvesteringarna i samhället eller ca 7 procent av nationalprodukten.
+Dessa siffror visar enligt vår mening att utformningen av reglerna för företagsbeskattningen 
+inte kan tillmätas någon avgörande betydelse i det avseende 
+varom här är fråga. Denna uppfattning finner även stöd i det siffermaterial,
+ som professor Västhagen redovisat i sin undersökning om tillämpningen 
+av den fria avskrivningsrätten. Denne har sökt beräkna den s. k.
+skattekreditens andel av totalfinansieringen av samtliga investeringar. Med
+skattekredit menas då skatten på det belopp, varmed de faktiskt gjorda
+avskrivningarna överstiger en hypotetiskt beräknad normalavskrivning.
+Med antagande av en normalavskrivning om 10 procent på tillgångarnas
+återanskaffningsvärde vid varje bokslutstillfälle uppskattar Västhagen skattekreditens 
+andel av totalfinansieringen av samtliga investeringar till mellan
+2 och 8 procent för perioden 1938—1951 och mellan 7 och 18 procent för
+åren 1948—1951. Särskilt med tanke på att normalavskrivningen baserats på
+en så lång avskrivningstid som tio år kan dessa siffror knappast betecknas
+som höga.
+När det gäller att bedöma den s. k. självfinansieringen måste framför allt
+följande två omständigheter beaktas: den under den aktuella perioden kraftiga 
+kostnadsstegringen, som föranlett att den på historisk anskaffnings
+-
+Motioner i Andra kammaren, nr 571 år 1955
+3
+kostnad beräknade avskrivningsprocenten har måst bli jämförelsevis hög,
+samt industriinvesteringarnas konstaterade starka beroende av bank- eller
+annan främmande kredit just de år expansionen i investeringarna varit som
+störst. Dessa två omständigheter förtar i all väsentlig grad bärkraften i
+finansministerns argumentering. De jämförelsevis stora avskrivningarna får
+snarare ses som en verkan av än som en orsak till inflationen. Att orsakssambandet 
+i grund är det här antydda belyses av vissa av kommittén presenterade 
+siffror rörande utvecklingen av industrikrediterna under efterkrigsåren.
+ (Siffrorna finnes redovisade i propositionen, sid. 50.) Dessa siffror
+visar, att ökningen av industrikrediterna varit mycket markerad just under
+de kraftigaste överkonjunkturåren, 1947—1948 samt 1951. Under nämnda år
+utgjorde ökningen av totalbeloppet lämnade industrilån 559, 527 resp. 582
+milj. kronor, medan medeltalet för ökningen för de övriga fem åren utgjorde
+78 milj. kronor. Siffrorna visar klart hur starkt expansionen i företagens
+investeringar varit beroende av möjligheterna att erhålla kredit på kreditmarknaden,
+ dvs. på annat sätt än genom s. k. självfinansiering.
+Det framgår av det senast här anförda, att det finns starkt fog för uppfattningen,
+ att departementschefen — liksom utredningens majoritet —
+överdrivit de hittills i den permanenta lagstiftningen gällande skattereglernas 
+betydelse som inflationsskapande och inflationsdrivande faktor. De sist
+redovisade siffrorna visar tvärtom, vilken nyckelposition som den allmänna
+penning- och kreditpolitiken intar. Härmed är vi inne på den andra av de
+två ovan angivna frågeställningarna, nämligen huruvida inte tyngdpunkten
+i konjunkturpolitiken bör läggas på andra åtgärder än skattepolitiska.
+Det bör härvid hållas i minnet att den utformning av företagsbeskattningen,
+ som riksdagen nu föreslås att fastställa, är avsedd att gälla för skiftande 
+konjunkturlägen och alltså inte endast för en högkonjunktur med
+inflationistiska drag utan även i ett mera normalt konjunkturläge och för
+lågkonjunkturlägen. Det bör härvid uppmärksammas, att kommittén ur
+konjunkturpolitisk synpunkt inte har något att invända mot fri avskrivning
+under lågkonjunkturer, och inte heller, därest en åtstramning i avskrivningsrätten 
+kan få tillräcklig effekt i en högkonjunktur, under normala
+konjunkturer. Emellertid har förhållandena under extrema högkonjunkturlägen 
+i så hög grad dominerat förslagsställarnas tankegångar, att tillbörlig
+hänsyn inte tagits till andra konjunkturtyper.
+S;stnämnda omständighet belyser att förslaget lider av en viss skevhet.
+Det har utformats under alltför stort hänsynstagande till erfarenheterna
+under efterkrigstiden, vilka dessutom inte kan anses tillräckligt vägledande.
+Det torde vara onödigt att närmare ingå på detta förhållande, vilket berörts
+i flera remissyttranden. Vi kan som exempel hänvisa till det av länsstyrelsen
+i Kopparbergs län avgivna utlåtandet, där det heter att länsstyrelsen
+vid ställningstagandet inte kunnat bortse från det förhållandet, att den
+4
+Motioner i Andra kammaren, nr 571 år 1955
+tidsperiod, under vilken den fria avskrivningen gällt och som avsågs i den
+av kommittén verkställda undersökningen, inkluderade till sin förra del en
+krigsperiod med därav hämmad investeringsverksamhet och till sin senare
+del en på grund av eftersatta behov och en extrem högkonjunktur intensifierad 
+sådan verksamhet. Det synes därför ovisst, framhåller länsstyrelsen
+vidare, om vad som legat till grund för den framlagda utredningen gav en
+tillräckligt klar bild för bedömande av den fria avskrivningsrättens verkningar 
+under normala förhållanden. Med hänsyn till det anförda och då
+obestridligt var, att möjligheten till fri avskrivning verksamt bidragit till
+näringslivets konsolidering och därmed även varit till gagn för samhället
+självt, fann länsstyrelsen tillräcklig anledning inte föreligga att för närvarande 
+tillstyrka den fria avskrivningsrättens definitiva upphörande.
+Enligt vår mening bör de särskilda påfrestningar, som samhällsekonomien
+utsättes för under mera markerade högkonjunkturer, i första hand mötas
+med de kreditåtstramande åtgärder, som penning- och kreditpolitiken erbjuder.
+ Att de sistnämnda åtgärderna har en grundläggande betydelse framgår 
+av de förut refererade siffrorna rörande industrikrediternas utveckling
+under efterkrigstiden. Detta erkännes även av kommittén, enligt vars uppfattning 
+de anförda siffrorna tyder på att spelrummet för en restriktiv kreditpolitik 
+och därmed möjligheterna att förhindra en överdriven ansvällning
+av de privata investeringarna under efterkrigstiden varit betydande. Enligt
+kommitténs mening talar sannolikheten vidare för att så kommer att bli
+fallet även i fortsättningen. Vi vill i detta sammanhang understryka den
+uppfattning som reservanterna i företagsbeskattningskommittén givit uttryck 
+för, när de framhåller att det är uppenbart, att den betydande ökningen
+i industriens upplåning från såväl affärsbankerna som från kapitalmarknaden 
+under de nämnda inflationsperioderna under efterkrigsåren var en
+mycket väsentlig förutsättning för den ökning i efterfrågan för investeringsändamål,
+ som då ägde rum. Om en effektiv penningpolitisk åtstramning
+hade satts in på ett tillräckligt tidigt stadium genom en begränsning av
+kredittillgången, hade detta med all sannolikhet kunnat få en tillräckligt
+dämpande effekt på investeringsutvecklingen. Med en efter lägets krav avpassad 
+kreditpolitik hör det med andra ord, såvida inte yttre omständigheter
+av exceptionell art inträffar, vara möjligt att hålla konjunkturutvecklingen
+inom kontroll. En sådan politik gör också den begränsning avföretagens konsolideringsmöjligheter 
+onödig, som nu föreslås i propositionen men som ur
+andra — här nedan närmare angivna — synpunkter bör undvikas. Riktigheten 
+i denna uppfattning kan inte bestridas genom en hänvisning till utvecklingen 
+under efterkrigsåren helt enkelt därför, att en effektiv kreditåtstramande 
+politik icke i lid insatts.
+De sagda innebär, att vi — i likhet med reservanterna i företagsbeskattningskommittén 
+— inte kan ansluta oss till tanken att av konjunkturpoli
+-
+Motioner i Andra kammaren, nr 571 år 1955
+5
+tiska skäl åtstrama möjligheterna i den permanenta lagstiftningen till vinstreglerande 
+dispositioner. Vi kan inte heller finna, att bärande skäl framlagts
+för den i propositionen framförda uppfattningen, att det i högkonjunkturlägen 
+är nödvändigt att göra en sådan inskränkning. Genom en smidigt förd
+allmän penning- och finanspolitik bör det vara möjligt att hindra högkonjunkturen 
+från att övergå i inflation. Skulle emellertid exceptionella förhållanden 
+inträffa, förorsakade av kraftiga inflationsvågor från utlandet som
+inte kan bemästras med dessa medel, kan man som ett komplement till dessa
+överväga åtgärder på företagsbeskattningens område. I detta sammanhang
+bör man emellertid beakta näringslivets berättigade krav på såvitt möjligt
+fasta skatteregler, och därför bör det redan på förhand göras klart, att de
+speciella åtgärderna i en sådan nödsituation skall begränsas till två områden,
+nämligen någon form av investeringsavgift eller lagstiftning, i syfte att motverka 
+icke önskvärda lagerökningar.
+Avskrivning å maskiner och övriga inventarier
+Av det ovan anförda framgår, att vi tar avstånd från den meningen, att en
+åtstramning av konsolideringsinöjligheterna i de permanenta skattereglerna
+är ett tjänligt medel för konjunkturpolitiken. Vår uppfattning till denna
+grundläggande fråga leder sålunda till att vi av utav kommittémajoriteten och
+departementschefen framförda argument icke kan draga den slutsatsen, att
+den fria avskrivningsrätten bör upphävas. I stället talar en mängd tungt
+vägande skäl för ett bibehållande av densamma. Dessa skäl har utförligt angivits 
+av reservanterna i företagsbeskattningskommittén och vidare utvecklats 
+i ett stort antal remissyttranden. Sammanfattningsvis innebär dessa
+skäl följande.
+Ett ur samhällsekonomisk synpunkt sunt näringsliv kännetecknas av
+förmåga att dels tåla påfrestningar i såväl konjunktur- som konkurrenshänseende 
+och dels skapa högre produktivitet och ökad produktion och sysselsättning.
+ Vad först angår nödvändigheten att tillse att näringslivet upprätthåller 
+eu god beredskap mot de olika påfrestningar, som följer av konjunkturväxlingar,
+ bidrager den fria avskrivningsrätten till en bättre kapitalförsörjning,
+ vilken grundar en förmåga att i samhällets och de anställdas
+intresse hålla en stabil sysselsättning. I detta sammanhang må särskilt
+framhållas, att tillgången på riskvilligt kapital på aktiemarknaden minskat
+under senare år. Angivna förhållanden har ej heller av någon bestritts;
+tvärtom har departementschefen vitsordat desamma. Konkurrenskraften
+grundas till stor del på möjligheter att successivt kunna öka investeringarna
+samt att kunna vidtaga riskbetonade investeringar utan att företagens stabilitet 
+och sysselsättningsförmåga minskas. Eftersom vårt land är ett utpräglat 
+exportland, måste näringslivet ha eu höggradig förmåga till anpassning
+6
+Motioner i Andra kammaren, nr 571 år 1955
+efter ändrade konkurrensförhållanden. En begränsning av avskrivningsrätten 
+skulle också innebära ett allvarligt återhållande moment i strävandena 
+mot en högre produktivitet, vilken är underlaget för en fortlöpande
+reallönehöjning. Att en restriktiv investeringspolitik under normala tider
+reser hinder för en snabb ökning av produktionen ligger i öppen dag. Särskilt 
+vill vi understryka, att det måste vara en styrka för hela samhället, att
+flertalet företag är väl konsoliderade och alltså har reserver att falla tillhaka
+på i en vikande konjunktur. En begränsning av avskrivningsrätten innebär
+ju ingenting annat än en indragning av en del av dessa reserver till samhället
+och ett hinder för uppläggande av dylika för framtiden i erforderlig utsträckning.
+ Vi kan här med instämmande citera vad Kooperativa förbundet framhållit 
+i sitt remissutlåtande:
+En överflyttning av dessa reserver till det allmänna får till resultat, antingen 
+att de begagnas för täckning av löpande utgifter eller för att stärka
+beredskapen för allmänna investeringar i ett lågkonjunkturläge, respektive
+för att förebygga konjunkturförsämring. Enligt styrelsens mening är emellertid 
+ett stärkande av det allmännas investeringsberedskap, som sker därigenom 
+att företagssektorns beredskap försämras, i hög grad oförmånligt för
+de intressen, som här i främsta rummet beröres, nämligen upprätthållandet
+av full sysselsättning och högsta möjliga produktivitet inom det ekonomiska
+livet, som helhet betrakat. De reserver, som redan finnes, och de som ytterligare 
+kan uppsamlas genom konsolideringsåtgärder, vilka företagen vant
+sig att betrakta som i högsta grad normala, förvaltas och användes säkerligen 
+med större samlad nytta ur produktivitetssynpunkt i det givna läget
+av de tusentals små och stora företagen i vårt land än om de flyttas över i
+det allmännas händer.
+Utöver dessa skäl av allmän natur må särskilt framhållas följande.
+I syfte att behålla i anläggningstillgångar nedlagt kapital har vid åtskilliga 
+tillfällen tanken framförts om avskrivning å dessa tillgångars återanskaffningsvärde.
+ Jämväl kommittén har dryftat frågan och därvid funnit att
+detta problem efter den penningvärdeförsämring, som inträtt under efterkrigsåren,
+ vunnit ökad aktualitet samt konstaterat, att den fria avskrivningsrätten 
+i viss utsträckning medgivit en avskrivning beräknad å återanskaffningsvärdet.
+ På grund av att någon i lagstiftningen praktiskt användbar 
+metod hittills icke utfunnits för avskrivning å nuvärdet, måste ett sådant
+avskrivningssystem väljas, som lämnar garanti för att i anläggningstillgångar 
+investerade medel icke förtäres genom beskattning. Den fria avskrivningsrätten 
+uppfyller det kravet i viss utsträckning. Med hänsyn till de
+snäva avskrivningsreglerna beträffande byggnader framstår det som än angelägnare 
+att den fria avskrivningsrätten beträffande maskiner och övriga
+inventarier bibehålies.
+Den enkelhet i tillämpningen såväl bokföringsmässigt som taxeringstekniskt,
+ som den fria avskrivningsrätten erbjuder, kan inget annat system upp
+-
+Motioner i Andra kammaren, nr 571 år 1955 7
+visa. I detta sammanhang skall blott pekas på att varje begränsning i denna
+rätt medför svårbedömbara gränsdragningar mellan vad som är att hänföra
+till reparation respektive nyinvestering.
+Till undanröjande av varje missförstånd rörande olika avskrivningsmetoders 
+innebörd må följande tilläggas. Varje avskrivningsmetod — fri, planenlig 
+eller räkenskapsenlig — leder fram till att avdrag erhålles för tillgångens 
+hela anskaffningsvärde. Med andra ord, tillgången avskrives till noll.
+De olika avskrivningssystemen skiljer sig sålunda från varandra allenast
+med avseende å den takt med vilken avskrivningen sker. Under förutsättning 
+av kontinuerlig ersättningsanskaffning kommer — med bortseende
+från en övergångsperiod och från verkan av investeringens stigande tendens
+_vart och ett av de nämnda systemen att medföra lika stora årliga avskrivningar.
+Mot bakgrunden av detta konstaterande bör det myckna talet om missbruk 
+av den fria avskrivningsrätten bedömas. Följande sakliga inlägg av
+kommerskollegium i detta meningsutbyte ma här refereras. Kollegium uttalar 
+att, om kommitténs förslag inte skulle få avsedd konjunkturpolitisk
+effekt, som motiv till borttagande av den fria avskrivningsrätten endast
+kvarstod det av kommittén framförda skälet, att gällande bestämmelser utnyttjas 
+på ett sätt, som inte varit avsett vid reglernas tillkomst. Även om så
+skulle vara fallet, torde detta vara att hänföra till förhållanden av sällsynt
+art. I och för sig kunde det inte anses anmärkningsvärt, om företagen begagnat 
+sin lagenliga rätt till att verkställa djupgående avskrivningar på maskiner 
+och andra inventarier. Den osedvanligt langa perioden av högkonjunktur,
+ som åtföljts av fallande penningvärde, hade lett till starkt stigande
+återanskaffningskostnader å företagens anläggningstillgångar, något som
+till stor del motiverat även långtgående avskrivningar. Enligt kollegii uppfattning 
+utgjorde det sätt, varpå den fria avskrivningsrätten utnyttjats, inte
+tillräckligt motiv för att slopa detta från näringspolitiska synpunkter så
+värdefulla institut.
+Av anförda skäl avstyrker vi propositionen i vad den avser upphävande
+av den fria avskrivningsrätten å maskiner och övriga inventarier för aktiebolag 
+och ekonomiska föreningar.
+I propositionen föreslås, att 30-regeln skall i princip få utnyttjas jämväl
+av företag som drivs i andra former än aktiebolag och ekonomiska föreningar.
+ Med vår uppfattning att den fria avskrivningsrätten är den ur
+skilda synpunkter lämpligaste avskrivningsmetoden framstår det som en
+naturlig konsekvens, att frågan om den fria avskrivningens utsträckande
+också till dessa företagsformer göres till föremål för utredning. I detta sammanhang 
+bör beaktas de skattetekniska problem, som är förenade med en
+sådan utvidgning av den fria avskrivningsrätten. I avvaktan på utredningens
+8 Motioner i Andra kammaren, nr 571 år 1955
+resultat bör den i propositionen föreslagna 30-regeln gälla för ifrågavarande
+företag.
+Värdering av varulager
+Vid en diskussion av de lämpligaste reglerna för värdering av varulager
+har man att utgå ifrån att en rörelse är en kontinuerlig verksamhet. Detta
+innebär såväl vid den företagsekonomiska som vid den skattemässiga bedömningen 
+att man måste frigöra sig från det onaturliga och schablonmässiga
+sönderdelandet av ett näringsföretags verksamhet i ettåriga räkenskapsperioder.
+ Denna tankegång, som vunnit allmän anslutning, ligger till grund
+för normallagermetoden. Emellertid har försök att finna en väg för denna
+metods införande i skattelagarna strandat på de betydande praktiska svårigheter,
+ som är förenade med att fastställa ett företags normallager. Av
+detta skäl avvisades också metoden av företagsbeskattningskommittén. Även
+om normallagermetoden sålunda för dagen icke kan fixeras i lagregler, kan
+metodens riktighet icke ifrågasättas. Vid det praktiska valet av värderingsregler 
+i det permanenta skattesystemet bör därför sådana regler anses ha
+företräde, vilka möjliggör för det enskilda företaget att använda någon form
+av normallagermetod.
+Under senare år har de i mellankommunala prövningsnämndens praxis utformade 
+nedre gränserna för nedskrivning i allt större utsträckning kommit 
+att tillämpas av näringslivet. Ett lagfästande av 30 procent av lägsta
+värdet såsom gräns för värdering framstår därför som en naturlig följd av
+en alltmer accepterad praxis.
+Sättes den lägsta gränsen till 30 procent, beaktas också det berättigade
+kravet att företagen skall tillförsäkras erforderligt skydd mot prisfallsrisker.
+Skulle vårt förslag till förlustutjämning icke genomföras, måste än större
+försiktighet iakttagas vid fixerandet av den gräns, till vilken nedskrivning
+skall medgivas.
+Kommitténs förslag till övergångsbestämmelser har av remissinstanserna
+mötts med starka invändningar. Vissa länsstyrelser framhåller bl. a. att förslaget 
+innebär, att i strid mot regeringsrättens uttalande om den ingående
+dolda lagerreservens oantastlighet denna tvångsvis blir föremål för beskattning.
+ Kommerskollegium uttalar, att de reserver, som bildats i hägnet av
+gällande lagstiftning och praxis, principiellt borde få bibehållas åtminstone
+så länge lagret kvantitativt icke minskade. I åtskilliga remissyttranden har
+också förordats en längre anpassningsperiod, och möjligheter till dispens
+från de generella övergångsbestämmelserna har förordats från flera håll,
+bl. a. av riksskattenämnden.
+Propositionens förslag innebär en viss uppmjukning i förhållande till
+kommitténs men medför dock enligt den i propositionen redovisade under
+-
+Motioner i Andra kammaren, nr 571 år 1955
+9
+sökningen att de skattebelopp, som företaget skulle ha att erlägga under
+övergångstiden, är av mycket betydande storlek. En till 40 procent bestämd
+huvudregel skulle enligt propositionen få till effekt att ökningen av skattebeloppet 
+i jämförelse med nuvarande regler skulle uppgå till mellan 650 och
+760 miljoner kronor. Sättes den lägsta gränsen till 30 procent, skulle det
+extra skattebeloppet enligt beräkningen i propositionen sjunka till mellan
+250 och 300 miljoner kronor. Trots detta material, som framkommit efter
+det att kommittén framlade sitt förslag, har departementschefen i princip
+bibehållit kommitténs förslag till övergångsbestämmelser. Han avvisar det
+berättigade kravet att orealiserade vinster icke skall få göras till föremål för
+beskattning och har utan närmare undersökning förklarat, att föreskrifter
+innebärande ett medgivande att behålla nu befintlig dold reserv knappast
+skulle kunna efterkommas, än mindre av myndigheterna kontrolleras.
+Övergångsbestämmelserna sådana de nu föreslagits i propositionen innebär 
+i stor utsträckning beskattning av icke realiserade vinster. Detta strider
+helt mot de inkomstbegrepp, som ligger till grund för nu gällande inkomstskattesystem.
+ Med hänsyn till det ovan anförda ställer vi oss avvisande till
+propositionens förslag.
+Såsom ovan nämnts, skulle ett system konstruerat efter någon form av
+normallagermetod innebära den mest tillfredsställande lösningen på värderingsregler 
+i skattesystemet. Även om en sådan metod för närvarande icke
+kan införas såsom permanent, bör man dock söka att genom någon generalisering 
+och förenkling beakta dess grundläggande princip i samband med
+övergångsbestämmelsernas utformning.
+Ett intressant försök till lösning har framlagts av företagsbeskattningskommitténs 
+expert professor N. Västhagen i en artikel i tidskriften Balans.
+Västhagen utgår ifrån den varianten av normallagermetoden, som består
+i tillämpning av regeln ”sist in — först ut”. För att få en teoretisk säker
+grund utgår Västhagen ifrån lagerförhållandena vid sista förkrigsårets utgång,
+ och i den praktiska utformningen av förslaget uppställes lagret vid
+angivna tidpunkt såsom företagets normallager. Reserven i förkrigslagret
+skulle enligt denna författare bibehållas, under det att därefter inträdd lagerökning 
+skulle värderas enligt huvudregeln jämte supplementärregler. Västhagen 
+bygger därvid på antagandet, att fiktiva prisstegringsvinster icke i
+större utsträckning kommer att framtagas i lagerökningen, dvs. att supplementärregeln 
+här lämnar tillräckligt utrymme för att hindra en sådan beskattningseffekt.
+ Av praktiska skäl torde Västhagens förslag emellertid ej
+kunna tillämpas som huvudregel. Det är nämligen i vissa fall svårt att bestämma 
+förkrigslagret. Det gäller framför allt företag bedrivna i andra former 
+än aktiebolag och ekonomiska föreningar. Emellertid bör ovan anförda
+grundläggande synpunkter, vilka uppbär jämväl Västhagens förslag, beaktas
+så långt detta är praktiskt möjligt.
+10
+Motioner i Andra kammaren, nr 571 år 1955
+En varulagerreserv kan bestå dels av belopp som uppkommit på grund av
+att företaget underlåtit att uppskriva lagret i takt med prisstegringarna
+(orealiserad värdestegringsvinst) och dels av belopp som uppkommit genom
+en aktiv nedskrivning av varulagret. Om nu en sådan varulagerreserv framtages 
+till beskattning, innebär detta i båda fallen en retroaktiv beskattning,
+mot vilken vägande invändningar kan göras. Vad som emellertid framstår
+som särskilt stötande är att belopp som inte motsvarar någon i verkligheten
+uppkommen vinst beskattas. Om det inte anses möjligt att skydda hela
+reserven för beskattning, bör därför i varje fall den fiktiva värdestegringsvinsten 
+fritagas. I många fall torde det vara mycket svårt att avgöra hur stor
+andel av varulagerreserven som utgöres av dylika skenvinster. Man torde
+därför få nöja sig med att som regel tillämpa någon schablonmetod, varigenom 
+förslagsvis minst hälften av den reserv, som eljest skulle framtagits
+till beskattning, skyddas. Möjligheter bör dock öppnas att tillämpa den av
+professor Västhagen föreslagna metoden, där detta av taxeringstekniska skäl
+är möjligt, för att därigenom i något större utsträckning kunna respektera
+principen att icke realiserad värdestegringsvinst inte bör beskattas.
+Schablonregeln kan utformas på följande sätt. Reserven i 1953 års utgående
+lager (bestämt till skillnaden mellan dåvarande lägsta värde och bokfört
+värde) bildar utgångspunkt för en jämförelse med reserven i sagda lager
+sådan denna skulle bestämts enligt de av oss förordade värderingsreglerna.
+I den mån förstnämnda reserv överstiger den, som skulle framkommit
+genom de nya bestämmelserna, får företaget vid varje bokslutstillfälle behålla 
+halva skillnaden i kronor räknat obeskattad, såvida lagerminskning
+icke inträtt. Vid minskning av lagret under 1953 års värde skall den extra
+reserven framtagas i takt med lagerminskningen. Anknytningen till 1953
+års lager onödiggör omräkning till skilda priser. Denna metod har vidare
+den väsentliga fördelen, att omräkning ej behöver ske i andra fall än vid
+lagerminskning. Metoden kan nämligen praktiskt så utformas, att halva
+skillnaden mellan förenämnda reserver uppföres synligt i balansräkningen
+på ett särskilt övergångskonto.
+Förlustutjämning och resultatutjämning
+Såsom ovan antytts måste en rörelse bedömas såsom en kontinuerlig verksamhet.
+ Ett annat betraktelsesätt är orealistiskt. Företagsbeskattningskommittén 
+har insett det berättigade i denna uppfattning och därför föreslagit
+möjligheter till s. k. förlustutjämning. Med detta förslag har åsyftats att
+råda bot på det mest iögonfallande missförhållandet, nämligen att ett företag
+som omväxlande har vinster och förluster beskattas hårdare än ett företag
+som har samma totalresultat men utan dylika variationer. Emellertid innebär 
+förlustutjämning endast en del av en öppen och fullständig resultat
+-
+Motioner i Andra kammaren, nr 571 år 1955
+11
+utjämning, vilken framstår som ett naturligt uttryck för en verklighetsbetonad 
+uppfattning av vad som är resultatet av en på längre sikt bedriven
+ekonomisk verksamhet.
+Av intresse är att i detta sammanhang se i vad mån nu gällande skattelagstiftning 
+kan sägas beakta kravet på öppen resultatutjämning. För skogsbruket,
+ som uppvisar betydande inkomstvariationer mellan olika år, har
+genom den föregående år tillkomna lagstiftningen om skogskonto skapats ett
+instrument för utjämning. Den skattepliktiga intäkten av skogsbruk kan
+sålunda spridas över åren mellan skogsuttagen, och kostnaderna för rationell
+skogsskötsel behöver inte föranleda outnyttjade avdrag vid taxering. Anmärkningsvärt 
+är att denna lagstiftning begränsats till fysiska personer. Det
+bör även understrykas, att den motiverats av en önskan att bereda lindi ing
+i den progressiva beskattningens verkningar. Att samma utjämningsmöjlighet 
+är påkallad även för de juridiska personerna är uppenbart med hänsyn
+till skogsbrukets speciella inkomstförhållanden. Lagstiftningen om skogskonto 
+ger sålunda uttryck för att statsmakterna insett det principiellt riktiga
+i kravet på resultatutjämning ävensom funnit att detta krav alldeles särskilt
+bör tillgodoses i ett system med progressiv beskattning.
+Förordningen om ackumulerad inkomst kan också sägas möjliggöra en
+utjämning i vissa speciella lägen. Dessa situationer är beträffande inkomst
+av jordbruksfastighet och rörelse begränsade till förhållandena vid näringsverksamhetens 
+upphörande. Lagstiftningen tager sålunda framför allt sikte
+på engångsersättningar uppkomna i samband med avveckling. Lagstiftningen 
+har tillkommit för att mildra verkningarna av den progressiva statsskatten 
+och medför genom sin konstruktion i regel en lägre grad av utjämning 
+än lagstiftningen om skogskonto.
+Vissa av de mest iögonenfallande arterna av inkomsttoppar har statsmakterna 
+alltså funnit böra givas en särbehandling i skattehänseende. Emellertid 
+kan dessa inkomsttoppar endast i kvantitativt hänseende skilja sig från
+de ojämnheter, vilka utmärker varje fortskridande ekonomisk verksamhet.
+Av samma kvantitativa betydelse som inkomsttopparna är deras motsats:
+underskotten. Trots detta har först nu i företagsbeskattningskommittén försök 
+gjorts alt lösa frågan om förlustutjämning. De synpunkter som kan
+läggas på utjämning av skogsinkomster kan med än större skäl anföras i
+fråga om utjämning av förluster vid den progressiva beskattningen. Men
+även i fråga om företag, vilka beskattas med en proportionell skatt, medför
+avsaknaden av regler för förskjutning av förluster en högre beskattning än
+som av något verkligt skäl kan motiveras.
+Skattesystemets uppgift är ostridigt icke att bereda särskilda svårigheter
+för nystartade företag, men det kan inte förnekas att de nuvarande skattereglerna 
+trots alu har den effekten. Vid bedömningen av huruvida ett företag 
+skall startas måste företagaren räkna med att de första åren kan bli
+12
+Motioner i Andra kammaren, nr 571 år 1955
+förlustbringande. Bristen på förlustutjämning vid inkomstbeskattningen
+innebär i dessa situationer en avgift på nyföretagande, eftersom skatten på
+sedermera framkomna vinster uttages oavkortad. Emellertid kan avsaknaden 
+av möjlighet till förlustutjämning många gånger bli lika allvarlig för
+redan existerande företag. Om ett företag t. ex. på grund av konkurrens går
+med förlust under ett eller flera år, får företaget genom den fulla beskattningen 
+av efterföljande vinster betala en högre sammanlagd skatt än som
+svarar mot nettoresultatet.
+Ovan har de mest uppenbara konsekvenserna av en brist på förlustutjämningsmöjligheter 
+i korthet belysts. De synpunkter som framförts därvid
+gäller också avsaknaden av möjlighet till öppen resuZfafutjämning. Här
+anförda synpunkter har av remissmyndigheterna tillmätts avgörande betydelse,
+ och yttrandena över kommitténs förslag innebär i stort sett inte blott
+ett tillstyrkande utan även ett uttalat önskemål om införande i skattesystemet 
+av möjligheter till en utjämning av resultaten även i de fall förlust inte
+uppstått.
+Departementschefens motivering för att avvisa kommitténs förslag — ett
+förslag som för en grupp företag innebär tillgodoseende av ett mycket
+elementärt krav på rättvisa vid beskattningen — är anmärkningsvärd. Först
+medgiver han det principiellt riktiga i en öppen resultatutjämning, och
+därefter radar han upp en serie argument av den art, som endast kan förklaras 
+av en brist på intresse för saken. Uppgifterna om utländsk rätt är
+ofullständiga, påstående att bokföringen ofta är av sämre beskaffenhet då
+förlust uppstått är icke motiverat, inget försök har gjorts för att utfinna
+spärregler mot missbruk etc. Slutligen hävdar departementschefen att man
+icke bör gå ett steg på vägen, eftersom man nu icke kan gå ända fram till
+målet. De av departementschefen framförda argumenten är i stort sett desamma 
+som utredningens majoritet anfört. Dessa har utförligt bemötts av
+reservanterna i kommittén, vilka även har framlagt ett utkast till författning
+i ämnet.
+En lagstiftning om förlust utjämning för rörelseidkare, oavsett företagsform,
+ och jordbrukare, som redovisar sin inkomst enligt bokföringsmässiga
+grunder, bör enligt vår mening nu genomföras. Förslag härtill framlägges
+nedan. Detta har försetts med sådana spärregler, att ett genomförande av
+detsamma icke kan befaras medföra den av departementschefen befarade
+risken för obehörig skattelättnad. I enlighet med vår principiella uppfattning
+föreslår vi därjämte utredning rörande det sätt på vilket en öppen resultatutjämning 
+skall utformas och infogas i skattesystemet.
+Sammanfattningsvis innebär vår motion följande:
+1. Den fria avskrivningsrätten beträffande maskiner och inventarier bibehålies 
+för aktiebolag m. fl. juridiska personer.
+Motioner i Andra kammaren, nr 571 år 1955
+13
+2. Den i propositionen föreslagna avskrivningsrätten i fråga om maskiner
+och inventarier för andra rörelseidkare än aktiebolag m. fl. juridiska
+personer samt för jordbrukare med taxering enligt bokföringsmässiga
+grunder införes, samtidigt som utredning igångsättes om möjligheterna
+att införa fri avskrivningsrätt även för nyssnämnda rörelseidkare och
+jordbrukare.
+3. Den nedre gränsen för värdering av varulager sättes till 30 procent i
+stället för föreslagna 40 procent med bibehållande av de i propositionen
+föreslagna supplementärreglerna.
+4. För att i möjlig mån undvika att orealiserade och därför fiktiva värdestegringsvinster 
+upptages till beskattning i samband med övergången till
+de nya varulagervärderingsreglerna utformas ikraftträdandebestämmelserna 
+så, att den del av varulagerreserven som motsvarar skenvinsten i
+princip fritages från beskattning så länge inte lagerminskning äger rum.
+5. Rätt till /ör/us/utjämning införes för alla rörelseidkare, oavsett företagsform,
+ och för jordbrukare som redovisar sin inkomst enligt bokföringsmässiga 
+grunder.
+6. Utredning påbörjas om permanenta regler för s. k. öppen resultatutjämning 
+för alla rörelseidkare och för jordbrukare, vilkas inkomst beräknas
+enligt bokföringsmässiga grunder.
+Under åberopande av vad som ovan anförts hemställer vi,
+att riksdagen måtte
+A. med ändring av vad Kungl. Maj :t föreslagit i proposition
+nr 100 besluta
+1. att den i punkt 4 av anvisningarna till 29 § kommunalskattelagen 
+stadgade rätten för aktiebolag m. fl. juridiska 
+personer till s. k. fri avskrivning å maskiner och
+inventarier måtte bibehållas oförändrad;
+2. att beträffande varulagervärderingen det i propositionen
+föreslagna procenttalet för nedre gränsen för värdering
+av varulager — femte stycket, punkt 1 av anvisningarna
+till 41 § kommunalskattelagen — bestämmes till 30 i
+stället för 40;
+3. att i fråga om ikraftträdandebestämmelserna till ändringarna 
+i punkt 1 av anvisningarna till 41 § kommunalskattelagen 
+(varulagervärderingsreglerna) fastställa en
+sådan utformning av desamma, att vid 1953 års utgång
+befintlig lagerreserv behålles i den utsträckning som angivits 
+ovan i motiveringen;
+4. antaga följande
+14
+Motioner i Andra kammaren, nr 571 år 1955
+”Förslag
+till
+förordning om rätt till förlustutjämning i vissa fall vid
+taxering till statlig inkomstskatt.
+Härigenom förordnas som följer:
+1 §•
+Aktiebolag, ekonomisk förening, ömsesidigt försäkringsbolag och sparbank 
+må, i enlighet med vad i denna förordning sägs, vid taxering till statlig
+inkomstskatt åtnjuta avdrag för underskott, som vid tidigare års taxering
+till sådan skatt icke kunnat utnyttjas.
+Sådan rätt tillkommer ock under i 4 § angivna förutsättningar fysisk person,
+ som i nämnda författningsrum avses.
+2 §•
+Avdrag för underskott som i 1 § sägs må åtnjutas med belopp, varmed
+summan av de enligt förordningen om statlig inkomstskatt för visst beskattningsår 
+fastställda avdragen för underskott å skattskyldigs olika förvärvskällor 
+överstiger sammanlagda beloppet av de enligt nämnda förordning för
+samma beskattningsår beräknade inkomsterna av olika förvärvskällor.
+Det åligger beskattningsnämnd som har att pröva den skattskyldiges taxering 
+till statlig inkomstskatt att på av honom framställt yrkande fastställa
+det belopp, som enligt ovan må utnyttjas för förlustutjämning (förlustavdrag).
+3 §•
+Skattskyldig, för vilken förlustavdrag fastställts, äger utnyttja detta avdrag 
+sist vid taxering avseende tionde beskattningsåret efter det beskattningsår 
+för vilket avdraget fastställdes. Hinder möter ej för skattskyldig,
+som avses i 1 § första stycket, att fördela förlustavdraget på två eller flera
+beskattningsår inom nyss angiven tidsperiod.
+Förlustavdrag skall för sådan skattskyldig göras från sammanlagda beloppet 
+av den skattskyldiges inkomster från olika förvärvskällor, sedan i
+förekommande fall avdrag gjorts för under beskattningsåret uppkommet
+underskott å förvärvskälla.
+Ägas eller innehavas på därmed jämförligt sätt — direkt eller genom förmedling 
+av juridisk person — aktierna i aktiebolag eller andelarna i ekonomisk 
+förening till huvudsaklig del av en fysisk person eller ett fåtal fysiska
+personer, må förlustavdrag, som för bolaget eller föreningen blivit fastställt,
+icke medgivas i vad det belöper å tid, varunder aktierna eller andelarna till
+Motioner i Andra kammaren, nr 571 år 1955 15
+huvudsaklig del innehafts av andra delägare än under det beskattningsår,
+för vilket förlustutjämning yrkats, därest förändringarna i innehavet icke
+väsentligen skett på grund av arv eller testamente. Om skattskyldig, som
+genom eget eller anhörigs innehav av aktier eller andelar i bolag eller föiening 
+har ett avgörande inflytande i bolaget eller föreningen, tillgodofört
+sig lön eller annan förmån av bolaget eller föreningen till sådant belopp, att
+förlust uppkommit, må ock avdrag enligt denna förordning för sådan förlust
+vägras eller jämkas enligt vad som skäligt finnes.
+4 §•
+Fysisk person, vilken såväl under det beskattningsår, då förlusten uppstått,
+ och det beskattningsår, för vilket avdrag för denna förlust må av honom 
+enligt denna förordning utnyttjas, och som under samtliga mellanliggande 
+beskattningsår jämlikt bokföringslagen den 31 maj 1929 varit skyldig föra
+däri föreskrivna handel sböcker, avseende den rörelse, vari förlusten uppstått,
+ samt på nöjaktigt sätt fullgjort denna skyldighet, må för förlustutjämning 
+utnyttja förlust å sådan av honom bedriven rörelse, som omförmäles 
+i 27 § kommunalskattelagen. Jämväl må fysisk person, vilken under
+tid som ovan nämnts tillförlitligen redovisat inkomst av jordbruksfastighet
+enligt bokföringsmässiga grunder, för sådant ändamål utnyttja honom
+åsamkad förlust å jordbruksfastigheten.
+Oavsett huruvida sådan bokföringsskyldighet som ovan sagts ålegat skattskyldig,
+ vilken i egenskap av delägare i handelsbolag eller kommanditbolag
+på grund av underskott å bolagets verksamhet åsamkats förlust, må sådan
+förlust av honom utnyttjas för förlustutjämning under förutsättning, att
+han under tid, som i första stycket i fråga om bokföringsskyldighet föreskrives,
+ oavbrutet varit delägare i bolaget samt att detta under samma tid
+nöjaktigt fullgjort sin bokföringsskyldighet.
+5 §•
+Fysisk person äger utnyttja förlustavdrag vid taxering för det beskattningsår,
+ som infaller närmast efter det, varunder förlusten uppstått och
+varunder han enligt avlämnad allmän självdeklaration åtnjutit inkomst till
+sådant belopp, att förlustavdraget i enlighet med vad nedan sägs till någon
+del kan utnyttjas. I den mån så ej enligt de i deklarationen lämnade uppgifterna 
+vid nämnda taxering kunnat ske, må avdraget utnyttjas vid närmast 
+därpå följande taxeringar, intill dess förlusten blivit i sin helhet utnyttjad 
+till avdrag från belopp, som uppgivits i till ledning för dessa taxeringar 
+avlämnade allmänna självdeklarationer. Har förlust uppstått under
+mer än ett beskattningsår, skall tidigare uppkommen förlust utnyttjas före
+senare förlust. Förlustavdraget må dock i intet fall göras senare än vid den
+16 Motioner i Andra kammaren, nr 571 år 1955
+taxering, som avser tionde beskattningsåret efter det, för vilket avdraget
+fastställdes.
+Förlustavdrag skall, såvitt angår fysisk person, anses utnyttjat i den män
+avdrag kunnat ske från den enligt självdeklarationen beräknade till statlig
+inkomstskatt taxerade inkomsten.
+För fysisk person skall förlustavdraget göras från sammanlagda beloppet
+av den skattskyldiges vid taxeringen fastställda inkomster från olika förvärvskällor,
+ minskat med avdrag som må hava medgivits jämlikt 4 § förordningen 
+om statlig inkomstskatt. Återstoden utgör för sådan skattskyldig
+taxerad inkomst och skall på sätt i 5 § samma förordning sägs utföras 
+i fulla tiotal kronor.
+Avlider skattskyldig, för vilken förlustavdrag fastställts, må för det beskattningsår,
+ då dödsfallet inträffade, samt för de två närmast därefter infallande 
+beskattningsåren förlustavdrag eller del därav, som den avlidne
+icke kunnat utnyttja, under iakttagande av bestämmelserna i denna förordning,
+ i stället utnyttjas av dödsboet.
+6 §•
+Yrkande som i 2 § andra stycket sägs skall framställas i den skattskyldiges 
+till ledning för taxering för det beskattningsår, till vilket underskottet
+hänför sig, avgivna deklaration eller vid denna fogad handling, dock att
+sådant yrkande även må väckas hos prövningsnämnden senast den 31 juli
+under taxeringsåret.
+Innefattar beslut av prövningsnämnden eller utslag av Kungl. Maj:t eller
+kammarrätten sådan ändring av inkomstberäkningen för skattskyldig, att
+förlustavdrag må beräknas eller att redan fastställt sådant bör till beloppet
+ändras, äger den skattskyldige att inom sex månader från det han av beslutet 
+eller utslaget erhöll del hos prövningsnämnden framställa härav föranlett
+yrkande. Rätt som nu sagts tillkommer jämväl taxeringsintendenten, dock
+att den tid, inom vilken yrkande skall framställas, i sist angivet fall skall
+räknas från det beslutet eller utslaget i fråga meddelades.
+7 §•
+Skattskyldig, som vid taxering för visst beskattningsår önskar helt eller
+delvis utnyttja fastställt förlustavdrag, har att i självdeklarationen för beskattningsåret 
+härom framställa yrkande, dock att sådant yrkande även må
+väckas hos prövningsnämnden senast den 31 juli under taxeringsåret.
+8 §•
+Har skattskyldig i uppgift eller upplysning, som avgivits till ledning för
+fastställande av förlustavdrag, lämnat oriktigt meddelande och har därav
+föranletts att förlustavdraget fastställts till för högt belopp, må sist vid
+Motioner i Andra kammaren, nr 571 år 1955 17
+taxeringen för det femte beskattningsåret efter det för vilket avdraget fastställdes 
+detta bestämmas till sitt rätta belopp. Har det till för högt belopp
+fastställda förlustavdraget utnyttjats vid taxering, må rättelse i denna taxering 
+ske genom eftertaxering som skall hava verkställts sist vid taxeringen
+för det femte beskattningsåret efter det för vilket förlustavdraget fastställdes.
+9 §•
+Det åligger taxeringsnämnd, som prövat framställt yrkande om fastställande 
+av förlustavdrag, att härom göra anteckning i nämndens protokoll och
+om sitt beslut lämna den skattskyldige underrättelse på sätt och inom tid
+som i 90 § 2 mom. taxeringsförordningen sägs. Har taxeringsnämnd medgivit 
+skattskyldig rätt att utnyttja förlustavdrag, skall anteckning härom
+verkställas i protokollet.
+10 §.
+Beträffande klagan över beslut av beskattningsnämnd eller utslag av kammarrätten 
+i fråga rörande fastställande av förlustavdrag eller utnyttjande
+av sådant avdrag skall vad i taxeringsförordningen sägs angående fullföljd
+av talan äga motsvarande tillämpning.
+Även vad i övrigt i nämnda förordning stadgas skall i tillämpliga delar äga
+motsvarande giltighet.
+11 §•
+Med ledning av taxeringsnämndens protokoll samt beslut av prövningsnäinnden 
+och utslag av Kungl. Maj :t och kammarrätten skall hos länsstyrelsen 
+föras anteckningar över skattskyldiga, för vilka förlustavdrag fastställts,
+därvid tillika skall antecknas när sådant avdrag utnyttjats vid taxeringen.
+12 §.
+För tillämpningen av denna förordning erforderliga föreskrifter meddelas
+av Kungl. Maj :t.”
+B. i skrivelse till Kungl. Maj :t hemställa om utredning rörande 
+möjligheterna att införa rätt till s. k. fri avskrivning
+å maskiner och inventarier även för andra rörelseidkare än
+aktiebolag m. fl. juridiska personer, ävensom för jordbrukare,
+ vilkas inkomst beräknas enligt bokföringsmässiga
+grunder; samt
+C. i skrivelse till Kungl. Maj :t hemställa om utredning rörande
+permanenta regler för s. k. öppen resultatutjämning vid
+beräkning av inkomst av rörelse och av inkomst av jord
+2 
+Bihang till riksdagens protokoll 1955. i sand. Nr 571
+18
+Motioner i Andra kammaren, nr 571 år 1955
+bruksfastighet, som beräknas enligt bokföringsmässiga
+grunder.
+Tillika hemställer vi, att vederbörande utskott måtte utarbeta 
+de förslag till författningsändringar, vilka föranledes
+av de under A. 1—3 ovan anförda yrkandena.
+Stockholm den 25 mars 1955
+Bertil Ohlin
+Wald. Svensson
+O. Malmborg
+Skövde
+Per Johnsson
+i Kastanjegården''
+Filip Kristensson
+i Osby
+Ragnhild Sandström
+Victor Pettersons Bokindustri Aktiebolag, Stockholm 1955
+kammare
+kammare
+Andra kammaren
+EG2O571
+2018-03-02 09:37:08
+riksdag
+riksdag
+tvåkammaren
+EG2O571
+2018-03-02 09:37:08
+session
+session
+lagtima
+EG2O571
+2018-03-02 09:37:08
+sidantal
+Antal sidor
+18
+EG2O571
+2018-03-02 09:37:08
+EG2O571
+Andra kammaren
+mot_1955__ak__571.pdf
+921300
+pdf
+Motioner i Andra kammaren, nr 571 år 1955
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1955/web_mot_1955__ak__571/mot_1955__ak__571.pdf

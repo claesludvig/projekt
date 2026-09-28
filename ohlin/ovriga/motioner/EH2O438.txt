@@ -1,0 +1,112 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 438 dr 1956
+13
+Nr 438
+Av herr Ohlin m. fl., om inrättande av provisoriska vårdplatser
+för alkoholmissbrukare.
+I ett hänseende har de vid 1954 års riksdagsbeslut rörande en ny nykterhetspolitik 
+förutsatta beredskapsåtgärderna uppenbarligen brustit: de vid
+övergången erforderliga vårdplatserna (på alkoholistanstalter eller inackorderingshem) 
+har icke kommit till stånd.
+Vissa åtgärder, som med anledning härav redan vidtagits eller föreslås
+bli vidtagna redovisas av socialministern. För de behov som just nu föreligger 
+synes dessa åtgärder otillräckliga. De provisoriska åtgärderna påkallar
+därför en utvidgning utöver vad socialministern föreslagit. Det synes ingalunda 
+uteslutet att nya vårdplatser tidigare använda för annat ändamål
+snabbt skulle kunna komma till stånd på initiativ av kommuner, landsting
+och enskilda om statsbidrag av rimlig storlek kan beräknas för de därvid
+erforderliga förändringarna. Vid ett sådant provisorium synes man icke böra
+vara bunden av stela regler av det slag som hittills gällt beträffande statsbidrag 
+till inrättande av varaktiga vårdplatser, utan Kungl. Maj :t synes böra
+beredas full handlingsfrihet att ge det från fall till fall erforderliga bidraget
+för att anordningen skall komma till stånd.
+För att bereda Kungl. Maj:t sådan möjlighet får vi föreslå,
+att å tilläggsstat för budgetåret 1955/56 anslås ett belopp
+av 500 000 kronor att efter Kungl. Maj :ts prövning användas 
+som bidrag till inrättande av provisoriska vårdplatser
+för alkoholmissbrukare.
+Stockholm den 26 januari 1956
+Bertil Ohlin Wald. Svensson O. Malmborg
+Skövde
+Bertil v. Friesen Filip Kristensson Per A. Johnsson
+Osby i Kastanjegården
+Sven Gustafson Henning Gustafsson
+i Göteborg i Skellefteå
+kammare
+kammare
+Andra kammaren
+EH2O438
+2018-03-02 10:08:56
+riksdag
+riksdag
+tvåkammaren
+EH2O438
+2018-03-02 10:08:56
+session
+session
+lagtima
+EH2O438
+2018-03-02 10:08:56
+sidantal
+Antal sidor
+1
+EH2O438
+2018-03-02 10:08:56
+EH2O438
+Andra kammaren
+mot_1956__ak__438.pdf
+126814
+pdf
+Motioner i Andra kammaren, nr 438 dr 1956
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__438/mot_1956__ak__438.pdf

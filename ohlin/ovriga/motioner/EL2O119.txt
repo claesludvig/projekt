@@ -1,0 +1,96 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr US—119 år 1960
+13
+Nr 119
+Av herr Ohlin m. fl., om visst anslag till handelshögskolan i
+Göteborg.
+Under hänvisning till den motivering som vi anfört i de av oss denna dag
+väckta motionerna 1:106 och 11:118 hemställer vi,
+att riksdagen måtte besluta, att till handelshögskolan i
+Göteborg anvisa ett särskilt förstärkningsanslag för budgetåret 
+1960/61 å 317 000 kronor för att möjliggöra intagning 
+av ytterligare 60 studerande.
+Stockholm den 25 januari 1960
+Bertil Ohlin Sven Wedén Manne Ståhl
+Sven Gustafson O. Malmborg Bertil von Friesen
+i Göteborg
+Wahl. Svensson
+Ragnhild Sandström
+kammare
+kammare
+Andra kammaren
+EL2O119
+2018-03-01 21:08:23
+riksdag
+riksdag
+tvåkammaren
+EL2O119
+2018-03-01 21:08:23
+session
+session
+lagtima
+EL2O119
+2018-03-01 21:08:23
+sidantal
+Antal sidor
+1
+EL2O119
+2018-03-01 21:08:23
+EL2O119
+Andra kammaren
+mot_1960__ak__119.pdf
+112972
+pdf
+Motioner i Andra kammaren, nr US—119 år 1960
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1960/web_mot_1960__ak__119/mot_1960__ak__119.pdf

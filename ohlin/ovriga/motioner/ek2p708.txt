@@ -1,0 +1,101 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+8
+Motioner i Andra kammaren, nr 708 år 1959
+Nr 708
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition nr
+16It, med förslag till förordning angående ändrad lydelse
+av 10 § 1 mom. förordningen den 26 juli 191fi (nr 576)
+om statlig inkomstskatt.
+I de likalydande motionerna 1:540 och II: 651 har vi yrkat avslag på
+Kungl. Maj :ts förslag om införande av en allmän varuskatt. De särskilda
+följdförslag, som Kungl. Maj :t samtidigt framlagt för att söka mildra de
+prisstegrande verkningarna av en omsättningsskatt för vissa grupper, blir
+då icke motiverade.
+Under hänvisning till innehållet i nyssnämnda motioner hemställer vi
+därför,
+att riksdagen måtte avslå Kungl. Maj:ts proposition nr
+164 med förslag till förordning angående ändrad lydelse av
+10 § 1 mom. förordningen den 26 juli 1947 (nr 576) om statlig 
+inkomstskatt.
+Stockholm den 10 november 1959
+Bertil Ohlin
+Bertil von Friesen Sven Wedén Henning Gustafsson
+i Skellefteå
+kammare
+kammare
+Andra kammaren 
+ek2p708
+2018-03-01 23:12:24
+riksdag
+riksdag
+tvåkammaren
+ek2p708
+2018-03-01 23:12:24
+session
+session
+ höst
+ek2p708
+2018-03-01 23:12:24
+sidantal
+Antal sidor
+1
+ek2p708
+2018-03-01 23:12:24
+ek2p708
+Andra kammaren - höst
+mot_1959_höst_ak__708.pdf
+106216
+pdf
+Motioner i Andra kammaren, nr 708 år 1959
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1959/web_mot_1959_höst_ak__708/mot_1959_höst_ak__708.pdf

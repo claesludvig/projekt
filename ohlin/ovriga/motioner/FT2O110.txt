@@ -1,0 +1,104 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 110—111 år 1970
+3
+Nr 110
+Av herr Gustafson i Göteborg in. fl., om beaktande vid beskattningen 
+av fastställt underhållsbidrag för barn.
+(Lika lydande med motion nr 98 i Första kammaren)
+Stockholm den 20 januari 1970
+Sven Gustafson (fp)
+i Göteborg
+Elias Jönsson (fp) Sven Antby (fp) Ingemar Mundebo (fp)
+i Ingemarsgården
+Cecilia Nettelbrandt (fp) Bertil Ohlin (fp) Sven Wedén (fp)
+Daniel Wiklund (fp) T horvald Källstad (fp) Per Ählmark (fp)
+i Stockholm
+Nr 111
+Av herr Gustafson i Göteborg m. fl., angående den alkoholpolitiska 
+utredningen.
+(Lika lydande med motion nr 99 i Första kammaren)
+Stockholm den 20 januari 1970
+Sven Gustafson (fp) Bertil Ohlin (fp) Elias Jönsson (fp)
+i Göteborg i Ingemarsgården
+Daniel Wiklund (fp) Ingemar Mundebo (fp) Cecilia hl ettelbrandt (fp)
+i Stockholm
+Tliorvald Källstad (fp)
+Sven Antby (fp)
+kammare
+kammare
+Andra kammaren
+FT2O110
+2018-02-20 19:50:16
+riksdag
+riksdag
+tvåkammaren
+FT2O110
+2018-02-20 19:50:16
+session
+session
+lagtima
+FT2O110
+2018-02-20 19:50:16
+sidantal
+Antal sidor
+1
+FT2O110
+2018-02-20 19:50:16
+FT2O110
+Andra kammaren
+mot_1970__ak__110.pdf
+116299
+pdf
+Motioner i Andra kammaren, nr 110—111 år 1970
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1970/web_mot_1970__ak__110/mot_1970__ak__110.pdf

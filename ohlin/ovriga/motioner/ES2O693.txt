@@ -1,0 +1,109 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 693 år 1967
+5
+Nr 693
+Av herrar Ohlin och Hedlund, om viss minskning av anslag under
+tionde huvudtiteln.
+(Lika lydande med motion nr 542 i Första kammaren)
+För beredskapslagring av olja föreslås på handelshuvudtitelns kapitalbudget 
+ett investeringsanslag av 63 350 000 kr. nästa budgetår. Beredskapslagringen 
+ingår som ett led i den ekonomiska försvarsberedskapen. Staten bidrar
+med visst belopp till årskostnaden för oljelagringen. Resten finansieras genom 
+prissättningen på olja.
+Även den ekonomiska försvarsberedskapen måste utformas med hänsyn
+till den ansträngda samhällsekonomien. Vi föreslår därför att anslaget till
+lån till utbyggnad av oljelagringen minskas med ett sammanlagt belopp av
+10 milj. kr. under nästa budgetår. Detta innebär att en lägre inlagring än den
+kontraktsenliga måste ske. Kungl. Maj :t bör bemyndigas medge uppskov i
+erforderlig utsträckning med fullgörandet av den kontraktsenligt fixerade
+lagringen.
+Med stöd av det anförda hemställes,
+att riksdagen måtte
+1) till Lån till utbyggnad av oljelagringen för budgetåret
+1967/68 under kapitalbudgeten, tionde huvudtiteln anvisa ett
+i förhållande till Kungl. Maj :ts förslag med 10 milj. kr. minskat 
+investeringsanslag av 53 350 000 kr.,
+2) bemyndiga Kungl. Maj :t att medge uppskov i erforderlig 
+utsträckning med fullgörandet av kontraktsenligt fixerad
+lagring.
+Stockholm den 26 januari 1967
+Bertil Ohlin (fp)
+Gunnar Hedlund (ep)
+kammare
+kammare
+Andra kammaren
+ES2O693
+2018-03-01 17:09:05
+riksdag
+riksdag
+tvåkammaren
+ES2O693
+2018-03-01 17:09:05
+session
+session
+lagtima
+ES2O693
+2018-03-01 17:09:05
+sidantal
+Antal sidor
+1
+ES2O693
+2018-03-01 17:09:05
+ES2O693
+Andra kammaren
+mot_1967__ak__693.pdf
+122027
+pdf
+Motioner i Andra kammaren, nr 693 år 1967
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1967/web_mot_1967__ak__693/mot_1967__ak__693.pdf

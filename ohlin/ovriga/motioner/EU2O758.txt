@@ -1,0 +1,104 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 757—758 år 1969
+5
+Nr 757
+Av herr Ohlin m. fl., om löpande statistiska undersökningar av konsumenternas 
+inköpsplaner m. m.
+(Lika lydande med motion nr 663 i Första kammaren)
+Stockholm den 27 januari 1969
+Bertil Ohlin (fp)
+Elias Jönsson (fp)
+i Ingemarsgården
+Ingrid Sundberg (in)
+Gunnel Jonäng (ep)
+Sigfrid Löfgren (fp)
+Erik Hovhammar (m)
+Johannes Antonsson (ep)
+Filip W. Fridolfsson (m)
+i Stockholm
+Gunnar Ericsson (fp)
+i Åtvidaberg
+Nr 758
+Av herr Romanus, om upp flyttning av vissa kommunblock i högre
+dyrortsgrupp.
+(Lika lydande med motion nr 677 i Första kammaren)
+Stockholm den 27 januari 1969
+Gabriel Romanus (fp)
+kammare
+kammare
+Andra kammaren
+EU2O758
+2018-02-20 21:55:34
+riksdag
+riksdag
+tvåkammaren
+EU2O758
+2018-02-20 21:55:34
+session
+session
+lagtima
+EU2O758
+2018-02-20 21:55:34
+sidantal
+Antal sidor
+1
+EU2O758
+2018-02-20 21:55:34
+EU2O758
+Andra kammaren
+mot_1969__ak__758.pdf
+114903
+pdf
+Motioner i Andra kammaren, nr 757—758 år 1969
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1969/web_mot_1969__ak__758/mot_1969__ak__758.pdf

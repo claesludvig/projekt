@@ -1,0 +1,110 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 518 år 1D58
+3
+Nr 518
+Av herr Ohlin m. fl., om tillgodoseende av aktuella medicinska
+forskningsbehov genom inrättande av nya docenturer
+och särskilda forskningsläkartjänster.
+Med hänvisning till vad vi i motionerna 1:421 och 11:513 anfört om aktuella 
+forskningsbehov hemställer vi,
+att riksdagen måtte besluta,
+dels att vid vardera av medicinska fakulteterna vid Uppsala 
+och Lunds universitet två, vid Göteborgs universitets
+medicinska fakultet tre och vid karolinska medikokirurgiska 
+institut två nya docentbefattningar inrättas, varvid erforderliga 
+anslagsuppräkningar sker under åttonde huvudtiteln,
+ punkterna 77, 83, 90 och 97, samt
+dels att inrätta fem nya särskilda forskningsläkartjänster
+för klinisk forskning samt under punkten 130, Gemensamma 
+universitetsändamål: Klinisk forskning, anvisa ett förslagsanslag 
+av 240 000 kronor.
+Stockholm den 26 januari 1956
+Bertil Ohlin
+Wald. Svensson
+Bertil von Friesen
+Manne Ståhl
+Gunnar Helén
+O. Malmborg
+Skövde
+Henning Gustafsson
+i Skellefteå
+Sven Gustafson
+i Göteborg
+kammare
+kammare
+Andra kammaren
+EH2O518
+2018-03-02 10:09:46
+riksdag
+riksdag
+tvåkammaren
+EH2O518
+2018-03-02 10:09:46
+session
+session
+lagtima
+EH2O518
+2018-03-02 10:09:46
+sidantal
+Antal sidor
+1
+EH2O518
+2018-03-02 10:09:46
+EH2O518
+Andra kammaren
+mot_1956__ak__518.pdf
+112507
+pdf
+Motioner i Andra kammaren, nr 518 år 1D58
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__518/mot_1956__ak__518.pdf

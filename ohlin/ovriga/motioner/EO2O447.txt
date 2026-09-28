@@ -1,0 +1,111 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 447 år 1963
+3
+Nr 447
+Av herr Ohlin m. fl., om höjning av de allmänna barnbidragen.
+(Lika lydande med motion nr 375 i Första kammaren)
+Under hänvisning till de av oss denna dag väckta motionerna I: 350 och
+II: 408 får vi yrka,
+att riksdagen måtte besluta om höjning av de allmänna
+barnbidragen med ett hundra kronor per barn och år, att
+gälla från och med den 1 januari 1964, samt
+att riksdagen i anledning härav måtte för sin del besluta
+följande ändring av lagen om allmänna barnbidrag:
+För barn, som är svensk medborgare och bosatt i riket,
+skall av allmänna medel utgå allmänt barnbidrag med 650
+kronor om året i enlighet med vad nedan närmare stadgas.
+Allmänt barnbidrag skall---sex månader vistas i
+riket.
+Denna lag träder i kraft den 1 januari 1964.
+1 §•
+Stockholm den 25 januari 1964
+Bertil Ohlin
+Gustaf Kollberg
+Manne Ståhl
+Henning Gustafsson
+i Skellefteå
+Bertil von Friesen
+Gunnar Helén
+O. Malmborg
+Wald. Svensson
+S. Gustafson
+i Göteborg
+Brita Elmén
+kammare
+kammare
+Andra kammaren
+EO2O447
+2018-03-01 21:05:09
+riksdag
+riksdag
+tvåkammaren
+EO2O447
+2018-03-01 21:05:09
+session
+session
+lagtima
+EO2O447
+2018-03-01 21:05:09
+sidantal
+Antal sidor
+1
+EO2O447
+2018-03-01 21:05:09
+EO2O447
+Andra kammaren
+mot_1963__ak__447.pdf
+125441
+pdf
+Motioner i Andra kammaren, nr 447 år 1963
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1963/web_mot_1963__ak__447/mot_1963__ak__447.pdf

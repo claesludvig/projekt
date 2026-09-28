@@ -1,0 +1,183 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 507.
+11
+Nr 507.
+Av herr Ohlin m. fl., i anledning av Kungl. Maj.ts proposition,
+ nr 109, med förslag till lag angående ändring
+i lagen den 29 juni 1946 (nr 431) om folkpensionering,
+ m. m.
+I proposition nr 109 föreslår Kungl. Maj:t, att riksdagen ville antaga ett
+förslag till en automatisk indexreglering av folkpensionerna och till dem
+anknutna förmåner. Vi hälsa med stor tillfredsställelse att ett förslag av
+denna art framlägges. Det innebär realiserandet av en tanke, som alltsedan
+socialvårdskommitténs förslag till folkpensionslag framlades förordats av
+den politiska riktning vi tillhöra. I ett par avseenden vilja vi föreslå en annan 
+metod än den av Kungl. Maj:t föreslagna.
+Oberoende av vilket index man än grundar folkpensionsregleringen på,
+kan man länka sig att välja tätare eller glesare »avläsningsperioder». Propositionen 
+föreslår, att indexläget skall avläsas endast en gång årligen, de
+sakkunniga att det skall avläsas varje kvartal. Med den tröghetsregel, varom
+alla instanser varit ense, måste de olika metoderna vara likvärdiga i fråga
+om administrativt arbete av betydelse. Däremot är det inte likgiltigt för pensionärerna,
+ om de skola behöva riskera att en fortskridande prisfördyring
+inte kompenseras förrän tre kvartal (+ dödtiden för omräkningsoperationer) 
+hunnit löpa. Dröjsmålet är så mycket viktigare, som pensionärerna alltid 
+komma att vara underkompenserade under hela den tid, som förflyter
+medan index rör sig från ett utlösande 5-procentsteg till nästa. Därför anse
+vi principiellt önskvärt att välja en konstruktion, som tillåter att utlösa kompensationen 
+kort tid efter det att ett skalsteg passerats. Om man, sasom
+propositionen gör, räknar med att kompensationen skall utbetalas endast en
+gång om året, då är man uppenbarligen också bunden vid endast en avläsning 
+per år. Enligt vår uppfattning är emellertid denna »julklappsmetod»
+ingalunda i och för sig den bästa.
+Vi medge gärna, att en kompensation på högst 50 kronor med viss fördel
+kan utbetalas såsom engångsbelopp. Redan vid den fördubbling, som ligger 
+inom relativt nära räckhåll, blir emellertid läget ett annat. På den knappa 
+standard, som är flertalet folkpensionärers, måste det bli mycket påfrestande 
+att under elva av årets månader »tvångsspara» hela 10 procent
+av pensionen för att få ut det insparade den tolfte manaden. Komina vi upp
+till 15 procents tillägg — vilket lagstiftaren givetvis måste förutse — blir
+konstruktionen fullständigt orimlig. Enligt vår mening är alltså de sakkun
+-
+12
+Motioner i Andra kammaren, nr 507.
+nigas förslag om månadsvisa tillägg avgjort överlägset propositionens förslag
+om årstillägg. Vi anse också, att den schablonisering av månadstilläggen
+som de sakkunniga föreslagit, är lyckligt funnen. Beloppen 3 resp 5 kronor 
+per månad anknyta väl inte bara till lagens förmånsbelopp, utan också
+till det kompensationsbehov, som verkligen föreligger. Vi få i detta hänseende 
+hänvisa dels till de hushållsbudgeter för folkpensionärer, som meddelas 
+i bilaga till propositionen, dels till det faktum att folkpensionärerna
+maste vanta till dess levnadskostnaderna stigit med hela fem procent, innan 
+någon kompensation för kostnadsökningen sedan föregående 5-procentssteg 
+utgår.
+Uppenbarligen innebär de sakkunnigas månadsbelopp en viss kostnadsökning 
+i jämförelse med propositionens årsbelopp; skillnaden utgör 20 procent 
+eller ca 7 miljoner kronor. Trots den återhållsamhet, som läget påkallar,
+ kunna statsmakterna, enligt vår mening, icke undandraga sig denna
+merutgift, som är betingad såväl av bjudande rättviseskäl som av önskemålet 
+att ge indexregleringen en på längre sikt hållbar konstruktion.
+I detta sammanhang vilja vi anmärka att den av de sakkunniga föreslagna 
+avrundningen av alla pensionsförmåner till ett med tolv delbart krontal 
+visserligen ar önskvärd, men ingalunda i sammanhanget nödvändig;
+denna justering bör alltså anstå till ett finansiellt gynnsammare tillfälle.
+De sakkunniga ha omsorgsfullt bemödat sig att i sitt förslag undvika de
+principiellt olyckliga biverkningar, som präglat krigsårens dyrtidstillägg på
+folkpensionerna. Propositionen återger med gillande hithörande synpunkter,
+ men underlåter i ett hänseende att taga hänsyn till dem. Det gäller frågan 
+huruvida kompensationen lagtekniskt skall infogas i förmånerna eller
+placeras utanför dem. 1 förra fallet kommer övre inkomstgränsen för helt
+inkomstprövade förmåner (tillägget på invalidpension och sjukbidrag, änkepensionen 
+jämte änke- och änklings-bidraget samt slutligen hustrutillägget)
+att variera i takt med penningvärdet; i senare fallet står samma gräns fast
+vid det 1946 bestämda nominella krontalet, d. v. s. den pressas vid sjunkande 
+penningvärde ned till ett lägre realbelopp. Propositionen intar den senare 
+ståndpunkten. Det medför exempelvis, att rätten till änkepension i lägsta 
+bostadskostnadsgrupp alltid kommer att upphöra, när änkans egeninkomst 
+passerar 1 490 kronor. Men dessa 1 490 kronor äro i dag inte värda
+mera än 1 390 kronor voro värda år 1946. Följaktligen utestängs ett avsevart 
+antal människor, som enligt folkpensionsbeslutet 1946 voro avsedda
+att kunna erhålla inkomstprövade förmåner. En sådan ändring av de reella
+gränserna är enligt vår mening icke motiverad.
+Snarare vore det enligt vår syn skäl att låta också det avdragsfria beloppet 
+växa vid fallande penningvärde. Då vi emellertid i motioner detta år
+(II: 389 och I: 327) påyrkat .särskild utredning rörande bl. a. avdragsbelop
+-
+Motioner i Andra kammaren, nr 507.
+13
+pen vilja vi icke nu framställa förslag om indexreglering i det nyss angivna
+hänseendet.
+Vi hemställa, att vederbörande utskott kommer att företaga de justeringar
+i lagtexten, som kunna föranledas av vad vi ovan anfört, och föreslå,
+att riksdagen — med förklaring att Kungl. Maj:ts proposition 
+nr 109 icke kunnat oförändrad bifallas -— ville i följande
+hänseenden fatta andra beslut än Kungl. Maj:t i nämnda proposition 
+föreslagit:
+a) pensionspristalet fastställes kvartalsvis av Kungl. Maj:t;
+b) indexförhöjningen utgår med 3 resp. 4 resp. 5 kronor per
+månad i stället för propositionens 30 resp. 40 resp. 50 kronor 
+per år;
+c) indexhöjningen utgör lagiekniskt en del av ifrågavarande
+pensionsförmån, icke ett tillägg å denna.
+Stockholm den 29 mars 1950,
+Bertil Ohlin.
+O. E. Sandberg.
+Wald. Svensson.
+kammare
+kammare
+Andra kammaren
+EB2O507
+2018-03-02 16:23:54
+riksdag
+riksdag
+tvåkammaren
+EB2O507
+2018-03-02 16:23:54
+session
+session
+lagtima
+EB2O507
+2018-03-02 16:23:54
+sidantal
+Antal sidor
+3
+EB2O507
+2018-03-02 16:23:54
+EB2O507
+Andra kammaren
+mot_1950__ak__507.pdf
+227262
+pdf
+Motioner i Andra kammaren, nr 507
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1950/web_mot_1950__ak__507/mot_1950__ak__507.pdf

@@ -1,0 +1,99 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+8
+Motioner i Andra kammaren, nr 154—155 år 1962
+Nr 154
+Av fru Nettelbrandt m.fl., om inordnande av förskolorna i del allmänna 
+skolväsendet, m.m.
+( Lika lydande med motion nr 99 i Första kammaren)
+Stockholm den 24 januari 1962
+Cecilia Nettelbrandt
+Bertil Ohlin Elias Jönsson Mac P. Hamrin
+i Ingeraarsgårdcn i Kalmar
+Olle Westberg Matteus Berglund Henning Carlsson
+Nr 155
+Av herr Nordgren m.fl., i anledning av Kungl. Maj:ts framställning
+om anslag till Resestipendier för yrkesutbildning.
+(Lika lydande med motion nr 119 i Första kammaren)
+Stockholm den 22 januari 1962
+Gösta Darlin
+Harry Carlsson
+Hans Nordgren
+Olle Westberg
+kammare
+kammare
+Andra kammaren
+EN2O154
+2018-03-01 20:16:52
+riksdag
+riksdag
+tvåkammaren
+EN2O154
+2018-03-01 20:16:52
+session
+session
+lagtima
+EN2O154
+2018-03-01 20:16:52
+sidantal
+Antal sidor
+1
+EN2O154
+2018-03-01 20:16:52
+EN2O154
+Andra kammaren
+mot_1962__ak__154.pdf
+112533
+pdf
+Motioner i Andra kammaren, nr 154—155 år 1962
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1962/web_mot_1962__ak__154/mot_1962__ak__154.pdf

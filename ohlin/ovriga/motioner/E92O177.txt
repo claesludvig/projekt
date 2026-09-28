@@ -1,0 +1,96 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+16
+Motioner i Andra kammaren, nr 177.
+Nr 177.
+Av herr Ohlin m. fl., om revision av gällande grunder för de
+statliga och kommunala tjänstemännens förhandlings- 
+och avtalsrätt.
+Med hänvisning till vad i samtidigt väckt motion angående de offentliga
+tjänstemännens rättsställning anförts hemställa vi,
+att riksdagen måtte i skrivelse till Kungl. Maj:t anhålla
+om utredning och förslag beträffande revision av gällande
+grunder för de statliga och kommunala tjänstemännens
+förhandlings- och avtalsrätt, med beaktande av vad i den
+nyss åberopade motionen anförts.
+Stockholm den 23 januari 1948.
+Bertil Ohlin. Gust. Mosesson. Wald. Svensson.
+Stockholm 1948 Ivar Haeggströms Boktryckeri A. B.
+480225
+kammare
+kammare
+Andra kammaren
+E92O177
+2018-03-02 21:11:15
+riksdag
+riksdag
+tvåkammaren
+E92O177
+2018-03-02 21:11:15
+session
+session
+lagtima
+E92O177
+2018-03-02 21:11:15
+sidantal
+Antal sidor
+1
+E92O177
+2018-03-02 21:11:15
+E92O177
+Andra kammaren
+mot_1948__ak__177.pdf
+113834
+pdf
+Motioner i Andra kammaren, nr 177
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1948/web_mot_1948__ak__177/mot_1948__ak__177.pdf

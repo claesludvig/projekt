@@ -1,0 +1,96 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Första kammaren, Nr 17i.
+1
+Nr 174.
+Av hen* Ekman m. fl., örn rätt för konstsalonger att hälla öppet
+å sön- och helgdagar m. m.
+(Lika lydande med motion i Andra kammaren nr 207.)
+Stockholm den 22 januari 1938.
+Fritjof Ekman.
+Harald Åkerberg.
+Gunnar Myrdal.
+Axel Strand.
+Ivar Englund.
+Bertil Ohlin.
+Olof Carlsson.
+Bihang lill riksdagens protokoll 1938.
+3 sami. Nr 174—181.
+1
+kammare
+kammare
+Första kammaren
+DZ2C174
+2018-03-05 13:04:42
+riksdag
+riksdag
+tvåkammaren
+DZ2C174
+2018-03-05 13:04:42
+session
+session
+lagtima
+DZ2C174
+2018-03-05 13:04:42
+sidantal
+Antal sidor
+2
+DZ2C174
+2018-03-05 13:04:42
+DZ2C174
+Första kammaren
+mot_1938__fk__174.pdf
+154460
+pdf
+Motioner i Första kammaren, Nr 17i
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1938/web_mot_1938__fk__174/mot_1938__fk__174.pdf

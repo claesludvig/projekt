@@ -1,0 +1,90 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Första kammaren, nr 1AA.
+1
+Nr 144.
+Av herr Ohlin m. fl., angående en förstärkning av akademisk forskning 
+och undervisning rörande samtida svenska samhällsförhållanden,
+ i synnerhet de svenska folkrörelserna.
+(Lika lydande med motion i Andra kammaren nr 224.)
+Stockholm den 23 januari 1943.
+Bertil Ohlin. Ruben Wagnsson. Axel Strand.
+Bihang till riksdagens protokoll IDAS. 3 sami. Nr 1AA—147.
+1
+kammare
+kammare
+Första kammaren
+E42C144
+2018-03-02 22:39:32
+riksdag
+riksdag
+tvåkammaren
+E42C144
+2018-03-02 22:39:32
+session
+session
+lagtima
+E42C144
+2018-03-02 22:39:32
+sidantal
+Antal sidor
+1
+E42C144
+2018-03-02 22:39:32
+E42C144
+Första kammaren
+mot_1943__fk__144.pdf
+122671
+pdf
+Motioner i Första kammaren, nr 1AA
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1943/web_mot_1943__fk__144/mot_1943__fk__144.pdf

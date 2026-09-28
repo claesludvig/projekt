@@ -1,0 +1,158 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Första kammaren, Nr 13A.
+7
+Nr 134.
+Av herr Ohlin, angående ändrade bestämmelser i visst fall örn
+nåd som är skattepliktiga intäkter.
+1 Kungl. Maj :ts kungörelse den 22 november 1940 (SFS nr 940/1940) formulär 
+3 c »Särskilda upplysningar för värnpliktiga samt fast anställd personal 
+till ledning vid avgivande av självdeklaration» återfinnas följande bestämmelser 
+rörande »II. Fast anställd militär personal.
+a) Under tid, då krigsavlöningsreglementet ej varit tillämpligt.
+Skattepliktiga intäkter (upptagas under E. Inkomst av tjänst i allmänna
+självdeklarationen):
+1) kontant avlöning (arvode, tjänstepension);
+2) anställningspenning, avskedspremie, ansvarsarvode, felräkningspenningar,
+ uppbördsersättning, ekiperingshjälp, årligt ekiperingsbidrag, belöning,
+ gratifikation, ersättning för dykeriarbete, flygtillägg (även flygtraktamente,
+ mekanikertillägg och elevtillägg), kallortstillägg, sjötilägg, så ock
+naturaförmåner eller kontant ersättning därför.
+Icke skattepliktiga intäkter:
+begravningshjälp;
+ersättning för flyttningskostnad;
+mässpenningar, servisbidrag;
+representationspenningar (bidrag till representationskostnader);
+reseersättningar;
+t jänstgöringstraktamente;
+kommenderingstillägg.
+b) Under tid, då krigsavlöningsreglementet varit tillämpligt.
+Skattepliktiga intäkter (upptagas under E. Inkomst av tjänst i allmänna 
+självdeklarationen):
+1) månadslön;
+2) terminslön för tid, varunder befattningshavaren kunnat fullgöra
+tjänstgöringen utan att lämna den vanliga bostads- och verksamhetsorten;
+3) vid sjötjänstgöring eller tjänstgöring i sjöreserv den del av terminslönen,
+ som motsvarar sjötillägg eller uppbördsersättning;
+4) förut under a) 2) angivna intäkter i den mån de utgå under krigstjänstgöring 
+(särskilt bör observeras, att för samtlig här avsedd personal
+naturaförmåner eller kontant ersättning därför skola beskattas).
+Icke skattepliktiga intäkter:
+de under fredstid ej skattepliktiga intäkterna (se ovan);
+krigsutrustningsbidrag;
+statsbidrag;
+terminslön i den mån den ej är skattepliktig enligt b) 2) och 3).»
+8
+Motioner i Första kammaren, Nr 13b.
+Under b) 4) ovan förekommande anvisningar rörande beskattning av
+naturaförmåner lia för den militära personalens del visat sig i tillämpningen 
+leda till konsekvenser, som knappast torde lia varit avsedda vid författningens 
+tillkomst. Skattemyndigheterna lia nämligen föranstaltat om taxering 
+jämväl av den förläggning, som befattningshavarna ifråga tillhandahållas 
+av kronan under tjänstgöring utom den ordinarie bostadsorten. Ett
+visst belopp per dygn skall upptagas i självdeklarationen. I samband med
+förevarande beskattningsfråga beaktas ej, att befattningshavaren under sina
+kommenderingar har samma förpliktelser beträffande hyra för sin ordinarie 
+bostad, som då han kan använda denna. Den tilldelade förläggningen
+är alltså att betrakta såsom jämställd med den ersättning för merutgifter,
+som det i fredstid utgående tjänstgöringstraktamentet utgör. Sistnämnda ersättning 
+tillhör, som framgår ovan, icke skattepliktiga intäkter. I stället för
+nämnda traktamente utgår under tid, då krigsavlöningsreglementet är tilllämpligt,
+ dels terminslön och dels här ifrågavarande inkvartering in natura.
+Terminslön för tid, varunder befattningshavaren icke kunnat använda den
+vanliga bostaden, är icke skattepliktig. Däremot är den andra delen av
+tjänstgöringstraktamentets motsvarighet under nu rådande förhållanden,
+alltså den fria inkvarteringen, underkastad beskattning, därtill i många fall
+taxerad till högre belopp än som skäligen kan anses vara den tilldelade förläggningens 
+verkliga värde. Då förläggningen icke kan anses vara inkomst i
+bemärkelsen skattepliktig intäkt utan fastmer utgör en ersättning för merutgifter 
+i samband med tjänsteförrättning, varunder den vanliga bostaden
+icke kan användas, bör den skäligen, i likhet med terminslön under samma
+förhållanden och tjänstgöringstraktamente under tid, då krigsavlöningsreglementet 
+ej är tillämpligt, räknas bland icke skattepliktiga intäkter.
+Under hänvisning till det sålunda anförda hemställes,
+att riksdagen måtte besluta skrivelse till Kungl. Maj:t
+angående införande i här ifrågavarande kungörelse av en
+föreskrift, att förläggning, som tillhandahålles fast anställd
+militär personal vid tjänstgöring utom bostadsorten under
+tid, då krigsavlöningsreglementet är tillämpligt, icke skall
+betraktas såsom skattepliktig intäkt.
+Stockholm den 24 januari 1942.
+Bertil Ohlin.
+kammare
+kammare
+Första kammaren
+E32C134
+2018-03-02 22:06:55
+riksdag
+riksdag
+tvåkammaren
+E32C134
+2018-03-02 22:06:55
+session
+session
+lagtima
+E32C134
+2018-03-02 22:06:55
+sidantal
+Antal sidor
+2
+E32C134
+2018-03-02 22:06:55
+E32C134
+Första kammaren
+mot_1942__fk__134.pdf
+188335
+pdf
+Motioner i Första kammaren, Nr 13A
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1942/web_mot_1942__fk__134/mot_1942__fk__134.pdf

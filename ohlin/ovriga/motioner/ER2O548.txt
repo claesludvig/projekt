@@ -1,0 +1,115 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 5i8 år 1966
+11
+Nr 548
+Av herr Ohlin m. fl., om vissa utgiftsminskningar på sjätte huvudtiteln.
+(Lika lydande med motion nr 447 i Första kammaren)
+De i denna motion föreslagna utgiftsminskningarna uppgår till ett belopp
+av 11,7 milj. kr.
+Kommunikationsdepartementets stat upptar förslag om ett investeringsanslag 
+av 12 600 000 kr. till Posthus m. m. Av detta belopp avses 200 000
+kr. användas till förvärv av billinjer. Då det enligt poststyrelsen inte kan
+bedömas, huruvida något sådant förvärv kan bli aktuellt under det kommande 
+budgetåret, bör medel för detta ändamål inte heller anslås.
+Under ett investeringsanslag av 365 000 000 kr. till Järnvägar m. m. upptas 
+6 milj. kr. avsedda för nyteckning av aktier i SJ:s dotterbolag inom de
+närmaste åren. På grund av dels den obestämda tidsperiod, som anges inom
+vilken behovet skulle uppstå, dels det faktum, att anslagsbehov för nyteckning 
+av aktier i varje särskilt fall bör anmälas för riksdagen, bör denna
+anslagspost strykas.
+Under hänvisning till ovan anförd motivering hemställes,
+att riksdagen i samband med behandlingen av anslagen
+på kapitalbudgeten, sjätte huvudtiteln, måtte
+1. till Posthus m. m. för budgetåret 1966/67 anvisa ett i
+förhållande till Kungl. Maj :ts förslag med 200 000 kr. minskat 
+investeringsanslag av 12 400 000 kr., samt
+2. till Järnvägar m. m. för budgetåret 1966/67 anvisa ett
+i jämförelse med Kungl. Maj :ts förslag med 6 000 000 kr.
+minskat investeringsanslag av 359 000 000 kr.
+Stockholm den 26 januari 1966
+Bertil Ohlin
+Bertil von Friesen
+Sven Antbg
+Brita Elmén
+Elias Jönsson
+Sven Gustafson
+i Göteborg
+Daniel Wiklund
+kammare
+kammare
+Andra kammaren
+ER2O548
+2018-03-01 18:15:03
+riksdag
+riksdag
+tvåkammaren
+ER2O548
+2018-03-01 18:15:03
+session
+session
+lagtima
+ER2O548
+2018-03-01 18:15:03
+sidantal
+Antal sidor
+1
+ER2O548
+2018-03-01 18:15:03
+ER2O548
+Andra kammaren
+mot_1966__ak__548.pdf
+123180
+pdf
+Motioner i Andra kammaren, nr 5i8 år 1966
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1966/web_mot_1966__ak__548/mot_1966__ak__548.pdf

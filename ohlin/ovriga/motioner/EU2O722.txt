@@ -1,0 +1,245 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+6
+Motion i Andra kammaren, nr 722 år 1969
+Nr 722
+Av herr Wedén m. fl., om radio- och TV-verksamhetens fortsatta
+organisation.
+(Lika lydande med motion nr 604 i Första kammaren)
+Den socialdemokratiska regeringens radio-TV-politik har under hela
+1960-talet präglats av ovilja att söka nya vägar. Redan tidigt band man sig
+för ett bibehållande av radio-TV-monopolet och avvisade t. o. in. förslag om
+en förutsättningslös utredning av hela frågekomplexet. Detta innebar bl. a.
+att starten av TV-2 försenades; finansieringsfrågor är fortfarande delvis
+olösta och förutsättningarna för en allsidig och stimulerande radio-TVverksamhet 
+försämrade. TV-2 är nu avsett att starta från och med årsskiftet 
+1969/70. Att detta beslut skulle rivas upp, så att starten försenades,
+kan inte komma i fråga. Däremot är det enligt vår mening fullt möjligt
+och likaså nödvändigt att man nu tillsätter en utredning med uppgift att
+framlägga ett förslag om hur ett friare radio-TV-system kan utformas i
+framtiden. Det är därvid nödvändigt att man noggrant beaktar de nya
+möjligheter t. ex. till ökad internationell samverkan, som den tekniska utvecklingen 
+kan erbjuda. Inte minst det nordiska samarbetet är här mycket
+betydelsefullt. Ett utbyggt samarbete med målsättning att göra de nordiska
+TV-programmen ömsesidigt gemensamma för de nordiska länderna torde
+vara tekniskt och ekonomiskt genomförbart i icke alltför avlägsen framtid.
+Genom ett sådant system skulle programutbudet i respektive land väsentligt 
+öka och TV-publiken skulle ges större valfrihet till ett förhållandevis
+lågt pris.
+Principiella synpunkter
+Förekomsten av flera av varandra oberoende radio-TV-företag skapar
+bättre förutsättningar för en fri och allsidig opinionsbildning och samhällsdebatt.
+ Ett enda statligt företag med monopolställning innebär i dessa avseenden 
+påtagliga risker för ensidighet och godtycke, även om en viss konkurrens 
+mellan olika programledningar ordnas. Ett litet fåtal människor
+bestämmer om vilka nyheter som skall bevakas, hur de skall kommenteras
+och vilka personer som skall släppas fram. Det är alldeles ofrånkomligt att
+personliga värderingar, medvetet eller omedvetet, präglar en sådan verksamhet.
+ Fullständig opartiskhet är visserligen omöjlig att uppnå. Men redan
+7
+Motion i Andra kammaren, nr 722 år 1969
+förekomsten av två självständiga konkurrerande företag med målsättning
+att var för sig ge en så allsidig bild av verkligheten som möjligt innebär en
+klar förbättring i detta avseende. Urvalet av åsikter, nyheter och information 
+blir rikare, mera allsidigt. Olika grupper inom samhället får lättare
+att komma till tals. Vid vägran av det ena företaget kan man vända sig till
+det andra.
+Risken för ensidighet hos monopolet gäller givetvis inte bara nyheter och
+samhällsreportage. Det gäller lika väl litteratur, musik, teater och underhållning.
+ På en del av dessa områden är radions och televisionens ställning
+ganska dominerande. Och i än högre grad blir det några få människors
+smak och beslut som blir avgörande för vad som sänds och inte sänds.
+Någon »objektivitet» på dessa områden kan givetvis aldrig skapas. Men
+konkurrens mellan fristående företag skulle väsentligt öka möjligheterna
+för ett brett och mer allsidigt utbud.
+Genom konkurrens skapas som vi ser det förutsättningar för en bättre
+programproduktion. För radion och televisionen liksom för andra massmedia 
+krävs beredskap att bryta det invanda, vilja och förmåga att satsa
+på nya initiativ. Detta är knappast egenskaper som tillräckligt uppmuntras
+i ett stort monopolföretag.
+Den organisation som genomförts vad gäller TV söker visserligen till
+någon del tillvarata de fördelar som konkurrens medför, men den är trots
+detta behäftad med allvarliga brister. Inte minst olyckligt är att programutbudets 
+omfattning och karaktär i stor utsträckning blir låst. Centraliseringen 
+blir påfallande också vad gäller ett så viktigt område som nyhetsförmedlingen.
+ Ett nytt självständigt företag som arbetar under konkurrens
+skulle med all säkerhet ge stimulans för nya grepp inom den svenska televisionen,
+ ge uppslag för nya och mer rationella metoder och kanske också
+göra satsningar på väsentligt mer programtid än vad den nuvarande organisationen 
+medger.
+TV-radio-verlcsamhetens framtida organisation
+Även bortsett från de principiella synpunkter som ovan anförts och de
+fördelar som vi anser vara förenade med konkurrens i etern lider den utbyggnadsplan 
+för radio-TV som riksdagen på regeringens förslag antog
+1966 av väsentliga brister. Detta gäller speciellt TV-sidan. Sändningstiden
+är låg, och först med införandet av TV-2 1969/70 sker en ökning. Andelen
+egenproducerade program är förhållandevis liten jämfört med andra länder.
+ Och framför allt är finansieringsfrågorna fortfarande till stor del olösta.
+Riksdagens beslut 1966 innebar en licenshöjning från år 1969/1970 till
+sammanlagt 160 kr./år för radio-TV gemensamt. Det stod redan i detta
+sammanhang emellertid fullt klart att denna licenshöjning är helt otillräcklig 
+om en fortsatt utbyggnad av TV-2 skall ske.
+Regeringen har temporärt sökt lösa detta dilemma genom införande av
+8
+Motion i Andra kammaren, nr 722 år 1969
+den extra avgiften för färg-TV, en avgift som är omotiverat hög i förhållande 
+till de relativt blygsamma merkostnader färg-TV medför för Sveriges
+Radio. Uppenbart är att den allmänna licensavgiften trots denna extra
+höjning måste höjas för att finansiell balans skall uppnås. En avgift på ca
+350—400 kronor i genomsnitt för alla TV-hushåll framstår inte som något
+orealistiskt alternativ om den nuvarande finansieringspolitiken fortsätter.
+För vår del anser vi en licensavgift av denna storlek som helt oacceptabel.
+Finansieringsfrågorna måste ges en mer definitiv lösning, och detta bör
+ske i samband med en omprövning av den gällande ordningen i dess helhet.
+Enligt vår mening bör man skapa ett välfungerande konkurrenssystem där
+flera institutioner än Sveriges Radio kan ägna sig åt rundradiosändningar.
+Som vi många gånger tidigare framhållit betyder inte detta att etableringsrätten 
+på etermediaområdet blir helt fri. Sändningsmöjligheterna är begränsade,
+ och hur de skall disponeras måste bli föremål för lagstiftning.
+Förhållandena är givetvis olika vad gäller TV respektive ljudradion; för
+den senare kan man tänka sig ett friare system än för televisionen. Men för
+båda medierna gäller att sändningsmöjligheterna inte får koncentreras
+till någon enstaka politisk eller ekonomisk maktgruppering — detta skulle
+innebära påtagliga risker för en snedvriden opinionsbildning.
+Planeringen måste i första hand inriktas på att skapa ramarna för ett
+självständigt företag för TV-2. En rad förslag till hur man kan ordna ett
+sådant system har framförts i den allmänna debatten. I detta sammanhang
+vill vi endast kortfattat ange de principer som vi anser bör vara vägledande
+vid uppbyggande av det nya systemet.
+Statsmonopolet upphör. Koncession för TV-2 ges till ett fristående gentemot 
+statsmakterna och Sveriges Radio oberoende företag. För att förhindra
+att detta blir dominerat av eu politisk eller några ekonomiska maktgrupperingar 
+måste särskilda bestämmelser gälla vid starten av och för aktieteckningen 
+i bolaget. En naturlig möjlighet är t. ex. att press och folkrörelser
+får förvärva huvudmannaskapet för ett sådant fristående radio-TV-företag.
+TV-2-företaget skall arbeta under samma regler för opartiskhet och ansvar
+som gäller för Sveriges Radio.
+TV-2-företaget tillätes finansiera sin verksamhet genom försäljning av
+reklamtid. I vad män och från vilken tidpunkt lokala eller regionala TVföretag 
+eller radioföretag skall ges rätt att likaledes försälja reklam bör bli
+föremål för särskild utredning. Därvid bör bl. a. hänsyn tas till verkningarna 
+på dagspressens ekonomiska villkor och önskvärdheten att inte alltför 
+plötsliga och genomgripande förändringar inträder därvidlag. Tidningsföretagens 
+möjligheter att bli intressenter i TV-företag och därigenom uppnå
+vissa ekonomiska fördelar bör därvid beaktas. Reklamfinansiering är också
+den enda metoden om man vill ha ett finansieringssystem som möjliggör
+en utveckling till ett ännu friare system i framtiden då det finns ökade
+möjligheter till flera företag. Vissa regler bör gälla för annonseringen. Re
+-
+Motion i Andra kammaren, nr 722 år 1969
+9
+klam bör endast få förekomma mellan olika program eller i sammanhängande 
+programblock. Reklamen skall således klart åtskiljas från den övriga
+programverksamheten. Den skall presenteras på ett sådant sätt att allmänheten 
+inte svävar i tvivelsmål om att det rör sig om annonsering. Det får
+inte förekomma att ett visst program bekostas eller understöds av viss
+annonsör eller annan person.
+Genom dessa och andra preciserade regler för reklamverksamheten och
+de befogenheter som bör ges en statlig myndighet för kontroll att reglerna
+efterlevs undvikes de risker som eventuellt kan vara förenade med reklamfinansierad 
+radio-TV. Annonsörerna får inget inflytande över programproduktionen 
+och man slipper reklaminslag mitt inne i olika program.
+Med den här förordade organisationen får inte heller företagets styrelse
+och finansiärer något inflytande över själva programverksamheten. Denna
+bör med samma oberoende och självständighet ledas av företagets chef söm
+f. n. är fallet med radiochefen i Sveriges Radio. Han bör alltså vara bunden
+av de regler för opartiskhet och ansvar som är en betingelse för TV-koncessionen.
+ De bör vara desamma som de vilka gäller för det statliga företaget.
+ En utredning bör tillsättas med uppgift att skyndsamt utarbeta förslag 
+till hur ett sådant friare system närmare bör organiseras. Det torde
+klart framgå av det ovanstående att ett system som utformats ungefärligen
+i enlighet med dessa riktlinjer icke är jämförbart med de förhållanden som
+råder t. ex. i USA. Den kritik mot det amerikanska systemet som brukar
+förekomma i dessa sammanhang från monopolanhängarnas håll är fullständigt 
+irrelevant. Vi har aldrig förespråkat inrättande av ett amerikanskt
+system eller något med detta jämförbart system där annonsörerna skulle
+ha inflytande över programproduktionen.
+Med åberopande av vad som ovan anförts hemställer vi,
+att riksdagen måtte besluta att i skrivelse till Kungi.
+Maj :t anhålla om utredning rörande radio-TV-verksamhetens 
+organisation i framtiden, varvid utredningen bl. a. bör
+utarbeta förslag om hur ett från Sveriges Radio fristående
+reklamfinansierat företag för program 2 i TV bör organiniseras,
+ och därvid beakta vad som i motionen anförts.
+Stockholm den 28 januari 1969
+Sven Wedén (fp)
+Cecilia Nettelbrandt (fp) Elias Jönsson (fp) Bertil Ohlin (fp)
+i Ingermarsgården
+Ingemar Mundebo (fp) Thorvald Källstad (fp) Per Ahlmark (fp)
+kammare
+kammare
+Andra kammaren
+EU2O722
+2018-02-20 21:55:03
+riksdag
+riksdag
+tvåkammaren
+EU2O722
+2018-02-20 21:55:03
+session
+session
+lagtima
+EU2O722
+2018-02-20 21:55:03
+sidantal
+Antal sidor
+4
+EU2O722
+2018-02-20 21:55:03
+EU2O722
+Andra kammaren
+mot_1969__ak__722.pdf
+294844
+pdf
+Motion i Andra kammaren, nr 722 år 1969
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1969/web_mot_1969__ak__722/mot_1969__ak__722.pdf

@@ -1,0 +1,91 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+20
+Motioner i Första kammaren, nr 181.
+Nr 181.
+Av herr Ohlin m. fl., örn utredning rörande ersättning till i
+utlandet bosatta svenska medborgare för förluster genom
+krigsskada.
+(Lika lydande med motion i Andra kammaren nr 293.)
+Stockholm den 22 januari 1944.
+Bertil Ohlin.
+Rickard Sandler. S. G. W. Wahlund. Ivar Anderson.
+Svenska Tryckeriaktiebolaget, Stockholm 1044
+44676
+kammare
+kammare
+Första kammaren
+E52C181
+2018-03-02 23:17:38
+riksdag
+riksdag
+tvåkammaren
+E52C181
+2018-03-02 23:17:38
+session
+session
+lagtima
+E52C181
+2018-03-02 23:17:38
+sidantal
+Antal sidor
+1
+E52C181
+2018-03-02 23:17:38
+E52C181
+Första kammaren
+mot_1944__fk__181.pdf
+120388
+pdf
+Motioner i Första kammaren, nr 181
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1944/web_mot_1944__fk__181/mot_1944__fk__181.pdf

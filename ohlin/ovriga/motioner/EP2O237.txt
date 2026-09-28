@@ -1,0 +1,415 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+12
+Motioner i Andra kammaren, nr 237 år 1964
+Nr 237
+Av herr Ohlin m. fl., om avskaffande av bilradiolicensen, m. m.
+(Lika lydande med motion nr 195 i Första kammaren)
+I bilaga 8 till statsverkspropositionen för budgetåret 1964/65 redovisar chefen
+för kommunikationsdepartementet radioutredningens förslag och däröver inkomna 
+yttranden bl. a. över finansieringen av ljudradioverksamheten under de
+närmaste åren. Därvid har frågan om upptagande av särskild licens för radioapparat 
+varaktigt medförd i bil blivit föremål för utredningens, remissorganens
+och kommunikationsministerns ställningstagande.
+Som bekant gäller den s. k. hushållslicensen för innehav av obegränsat antal
+apparater för varje abonnent med vissa undantag. Det mest uppmärksammade
+undantaget gäller att i bil varaktigt medförd radioapparat — oavsett om denna
+är fast anbringad i bilen eller ej — är licenspliktig i särskild ordning. Av allmänheten 
+har detta förhållande uppfattats som stötande. Kontrollen av om bilradiolicens 
+finnes eller ej blir vid s. k. flygande kontroller på vägarna ofta anledning
+till tvist mellan polismän och bilägare, då objektiva kriterier på vad som är en
+varaktigt medförd apparat eller ej knappast kan förebringas.
+Kungl. telestyrelsen har redan i skrivelse av den 24 oktober 1959 föreslagit att
+licens för ljudradiomottagare i bostad skulle gälla även för radiomottagare i bil,
+som inte användes i yrkesmässig trafik. Enligt styrelsens mening innebär den
+särskilda licensen för radiomottagare i privata personbilar en omotiverad, extra
+avgift i sådana fall, där licens finns för radiomottagare i hushållet. Ur styrelsens
+argumentering må följande avsnitt citeras:
+Vidare anses bilen vara en bruksartikel inom alla befolkningsskikt. Den har allt mera
+kommit att betraktas såsom något som tämligen normalt ingår i familjens utrustning. Man
+har därför bland bilägare svårt att förstå varför en radiomottagare i bil i licenshänseende
+icke är jämställd med hushållets övriga radiomottagningsapparater. Ofta framhålles det
+egendomliga i att man på en och samma licens får inneha radiomottagningsapparat i både
+vinter- och sommarbostaden men måste lösa särskild licens för rätt att avlyssna radioprogrammen 
+under den många gånger kortvariga bilfärden mellan dessa platser. Bilen utgör
+för många familjer en ersättning för sommarstugan. Det ligger därför nära till hands att
+jämföra en radiomottagare i bil med apparat i sommarbostaden, vilken får innehavas på
+den för vinterbostaden gällande licensen.
+Rad io u tred ningen har i skrivelse till statsrådet och chefen för kommunikationsdepartementet 
+den 26 juni 1963 med förslag beträffande ljudradions programkanaler,
+ sändarnät och ekonomiska behov föreslagit en särställning för
+samtliga bilradiolicenser i samband med en aktuell höjning av radiolicensen. Utredningen 
+som erinrar om »den redan grannlaga kontrollen av bilradiolicenserna»
+Motioner i Andra kammaren, nr 237 år 1964.
+13
+syftar uppenbarligen till ett avskaffande så snart som möjligt av bilradiolicensen.
+Som ett första steg i riktning mot ett slopande av den särskilda bilradiolicensen
+föreslår utredningen att denna från den 1 juli 1964 utgår endast med halva det
+belopp som då föreslås gälla för hushållslicensen.
+Över detta och övriga förslag till finansiering av ljudradio verksamheten anför
+kungl. telestyrelsen i sitt remissyttrande av den 25 september 1963:
+Telestyrelsen vill som sin mening framhålla att man bör söka finna en utväg, som gör
+det möjligt att så snart ske kan slopa bilradiolicenserna, dock med undantag för radiomottagare 
+i bilar, som användes i yrkesmässig trafik, för vilka samma licensavgift bör gälla som
+för övriga ljudradiomottagare. (Om licens inte skulle erfordras för dylika mottagare skulle
+i konsekvens härmed licens inte heller behöva lösas för radiomottagare, som användes i
+t. ex. affärslokaler, om ägaren har licens för ljudradiomottagare i bostaden.)
+När det gäller att ta ställning till lämpliga tidpunkter för det föreslagna slopandet av
+licenserna för radiomottagare i privata personbilar och höjningen av avgiften för övriga
+bilradiolicenser är det nödvändigt att ta hänsyn till det förhållandet att bilradiolicensstocken 
+f. n. inte är uppspaltad på dessa båda kategorier. En dylik uppdelning måste ske
+under avvecklingstiden. Med föreslaget slopande av vissa bilradiolicenser bör därför anstå
+till den 1.4.1965. En eventuell höjning av avgiften för bilradiolicensen fr. o. m. den 1.7.1964
+— dvs. samtidigt med att avgiften för övriga licenser höjes — måste av ovannämnda skäl
+avse samtliga bilradiolicenser, alltså även dem som enligt ovan avses att slopas fr. o. m.
+den 1.4.1965. Då en dylik åtgärd ur allmänhetens synvinkel måste te sig egendomlig och
+svårförståelig och av gemene man kan tolkas som utslag av byråkrati, vill telestyrelsen i
+stället föreslå, att nuvarande avgift bibehålies för bilradiolicensema fram till den 1.4.1965,
+då licensavgiften för radiomottagare i bilar, som används i yrkesmässig trafik, bör höjas
+till samma belopp som kommer att fastställas för övriga licenser.
+Antalet bilradiolicenser utgjorde enligt telestyrelsens och radioutredningens
+uppgifter sommaren 1963 ca 375 000. I statsverkspropositionen anges antalet till
+ca 400 000. Om man accepterar den högre siffran sker genom avskaffandet av
+samtliga bilradiolicenser ett inkomstbortfall på ljudradiobudgeten med ca 12
+miljoner i nuläget. Vid höjning av licensen till av Kungl. Maj:t föreslagna 35 kr.
+motsvarar bortfallet ca 14 miljoner per budgetår. Om man följer den av telestyrelsen 
+föreslagna uppdelningen, varvid radioapparat i bil framförd i yrkesmässig
+trafik förblir licenspliktig, blir inkomstbortfallet något lägre. Antalet lastbilar i
+yrkesmässig trafik utgjorde 1962 (senast tillgängliga siffra enligt Statistisk Årsbok) 
+23 357 och torde numera ligga omkring 25 000. Enligt samma källa fanns
+vid motsvarande tidpunkt 10 407 personbilar i yrkesmässig trafik och 9 156 bussar.
+ De senare siffrorna torde inte ha undergått någon väsentlig förändring.
+Uppskattningsvis utgör antalet bilar i yrkesmässig trafik ca 45 000. Om man utgår
+ifrån att var tredje av dem saknar varaktigt medförd radioapparat skulle ca
+30 000 bilar med telestyrelsens uppläggning förbli licenspliktiga. Ca 1 miljon kr.
+per år skulle härigenom tillföras ljudradions budget. Då denna summa ej på
+uågot avgörande sätt påverkar ljudradioverksamhetens finansiering har man vid
+ett eventuellt avskaffande av bilradiolicensen att väga den prejudikatsverkan
+som ligger i ett avskaffande av licensen för en radioapparat, varaktigt medförd i
+sådana bilar, som går i yrkesmässig trafik, mot de svårigheter som kan upp
+-
+14
+Motioner i Andra kammaren, nr 237 år 196/
+komma vid kontrollen. Radioutredningen har bedömt som mest ändamålsenligt
+att vid ett avskaffande av bilradiolicensen ej göra någon skillnad mellan privatbilar 
+och bilar i yrkesmässig trafik. Vi delar denna uppfattning och föreslår i likhet 
+med bl. a. Motorbranschens samarbetsdelegation att bilradiolicensen helt
+slopas den 1 juli 1964.
+Vad beträffar den prejudikatsverkan exempelvis beträffande radioapparat utnyttjad 
+i vederbörandes affär som telestyrelsen antyder skulle kunna uppkomma,
+om bilradiolicensen avskaffas även för apparater medförda i bil i yrkesmässig
+trafik, förutsätter vi att radioutredningen upptar alla frågor om licenser för
+radioapparater utnyttjade i näringslivet till samlad prövning i sitt slutbetänkande.
+ Den irritation, som råder t. ex. mot att man inom industrierna vid utnyttjande 
+av musik under arbetet tvingas skaffa licens för varje mottagare —
+vilket strider mot hushållslicensprincipen — gör det angeläget att dessa frågor
+blir föremål för en samlad prövning och att ställningstagandet till bilradiolicensen
+ej göres beroende härav. Den senare bör avskaffas så snabbt som möjligt, främst
+av rättviseskäl och hänsyn till den allmänna laglydnaden.
+Genom vårt förslag uppkommer emellertid ett inkomstbortfall på ljudradiobudgeten 
+på ca 14 miljoner kr. per budgetår. Med hänsyn till att det tidigare
+ackumulerade överskottet även med den av kommunikationsministern föreslagna
+licenshöjningen under budgetåret 1965/66 förbytes i ett underskott är det nödvändigt 
+att anvisa vägar för finansieringen av ljudradioverksamheten för de närmaste 
+åren. I likhet med departementschefen finner vi det rimligt att i avvaktan
+på ljudradioutredningens slutbetänkande, som är att vänta i början av år 1965,
+ej utsträcka dessa bedömanden utöver treårsperioden 1964—1967. Redan under
+det första av dessa tre budgetår skulle ett avskaffande av alla bilradiolicenser
+vid av oss föreslagen tidpunkt innebära att det av kommunikationsministern till
+7 miljoner kr. beräknade överskottet förvandlas i ett underskott av samma storlek.
+ Det är därför nödvändigt att riksdagen i samband med beslut om bilradiolicensens 
+avskaffande anvisar ersättningsmedel eller föreslår nedskärning i ljudradioverksamheten.
+ Då vi delar uppfattningen att den av radioutredningen föreslagna 
+utbyggnaden till tre programkanaler är värdefull, vill vi inte föreslå någon
+inskränkning i utbyggnadsprogrammet. Ljudradions specialbudget låter sig emellertid 
+utan svårighet förstärkas, om man följer telestyrelsens förslag om en återgång 
+till rimligare avskrivningsregler än de just nu gällande beträffande ljudradions 
+investeringar.
+Det bör uppmärksammas, att radioutredningen med hänsyn till sina direktiv
+ansett sig förhindrad att själv framlägga förslag om en ändring av de nuvarande
+avskrivningsreglerna. Icke desto mindre har utredningen kort antytt vilka förstärkningar 
+som står att vinna för ljudradiobudgeten denna väg. Telestyrelsen
+har vidareutvecklat denna tanke och anför:
+Styrelsen vill erinra om att beslutet om införande av den nu gällande finansieringsmetoden,
+ som innebär omedelbar avskrivning av ljudradions samtliga investeringar, fattades 
+av 1955 års riksdag för att då föreliggande planer på uppförande av radiohus i Stock
+-
+Motioner i Andra kammaren, nr 237 år 1964
+15
+holm och Göteborg samt utbyggnad av trådradio- och FM-näten skulle kunna genomföras
+utan alltför stor tidsutdräkt. Vid utgången av budgetåret 1963/64 beräknas radiobuset i
+Stockholm ha kostat inalles ca 55 mkr, vilket belopp helt bestritts av licensmedel. Televerkets 
+ljudradioanläggningar, omfattande radioutrustningar och byggnader, beräknas vid
+samma tidpunkt representera ett investerat kapital om 129 mkr, varav 119 mkr eller
+92 % belastat licensmedlen. De ytterligare investeringar, som därefter kan komma ifråga,
+har för ljudradions del beräknats till ca 49 mkr för radiohus i Stockholm och Göteborg
+och till ca 35 mkr för televerkets investeringar t. o. m. 1968/69, då P3-nätet beräknas vara
+utbyggt. De beräknade totalkostnaderna för radiohuset i Stockholm (ca 92 mkr) skulle
+den 1.7.1964 vara avskrivna till ca 60 %. Avskrivningarna av televerkets investeringar
+skulle den 1.7.1964 uppgå till ca 73 % av den beräknade totalkostnaden per den 1.7.1969.
+Med hänsyn till att ljudradion genom sin betydelsefulla funktion i vårt samhälle utan
+tvivel kommit för att stanna och till att särskilt radiohusen utgör anläggningar med en
+beräknad livslängd om minst 50 år, finns det enligt telestyrelsens mening inte någon anledning 
+att för ljudradioanläggningama tillämpa en annan finansieringsmetod än den som
+gäller för exempelvis televerkets telefonanläggningar, vilka finansieras över kapitalbudgeten.
+Av dessa skäl och under hänvisning till det här redovisade gynnsamma avskrivningsläget 
+för ljudradioanläggningarna vill styrelsen föreslå, att en återgång
+till i ett tidigare skede tillämpad 10% årlig avskrivning nu sker.
+Radioutredningen har å sid. 64 redovisat den minskning av avskrivningskostnaderna,
+ som skulle uppstå under prognostiden, om man från den 1.7.1964 övergick 
+till 10 % årlig avskrivning av investeringarna.
+I nedanstående sammanställning har avskrivningskostnaderna vid 100% resp.
+10 % avskrivning fördelats på byggnadsstyrelsens investeringar för radiohus och
+televerkets investeringar i ljudradions distributionsanläggningar och hänsyn tagits
+till senaste uppgifter om beräknad anslagsförbrukning. Vidare har å nettokapitalet 
+belöpande räntekostnader och nettominskningen i kapitalkostnaderna beräknats 
+under tiden 1964/65—1970/71.
+Budgetår
+100%
+avskrivn.
+10%
+avskrivn.
+Minskn. av
+avskr.-kostn.
+Ökn. av ränte-
+kostn. vid
+5 % ränta
+Nettominskn.
+av kapital-
+kostn.
+Bst
+Telev.
+Bst
+Telev.
+Bst
+Telev.
+Bst
+Telev.
+Bst
+Telev.
+1964/G5 ..........
+12,2
+6,7
+_
+_
+12,2
+6,7
+0,3
+0,2
+11,9
+6,5
+1965/66 ..........
+16,6
+7,0
+1,2
+0,7
+15,4
+0,3
+1,0
+0,5
+14,4
+5,8
+1966/67 ..........
+11,8
+7,1
+2,9
+1,4
+8,9
+5,7
+1,6
+0,8
+7,3
+4,9
+1967/68 ..........
+3,2
+7,4
+4,1
+2,1
+—0,9
+5,3
+1,8
+1,1
+—2,7
+4,2
+43,8
+28,2
+8,2
+4,2
+35,0
+21,0
+4,7
+2,6
+30,9
+21,4
+1968/69 ..........
+2,8
+7,0
+4,4
+2,8
+—1,6
+4,2
+2,0
+1,3
+—3,6
+2,9
+1969/70 ..........
+2.0
+4.2
+■1,7
+3,5
+—2,7
+0,7
+1,6
+1,4
+—4,3
+—0,7
+1970/71 ..........
+—
+4,3
+4,9
+3,9
+—4,9
+0,4
+1,6
+1.5
+—6,4
+—1,1
+Summa
+48,0
+43,7
+22,2
+14,4
+20,4
+29,3
+9,fl
+6,8
+16,0
+22,5
+16
+Motioner i Andra kammaren, nr 237 år 1964
+Av tabellen framgår, att kapitalkostnaderna under prognostiden beräknas
+minska med inalles 52,3 mkr, varav 30,9 mkr, för byggnadsstyrelsens och 21,4
+mkr för televerkets investeringar. För tiden 1964/65—1970/71 skulle enligt beräkningarna 
+motsvarande belopp uppgå till 39,1, 16,6 resp. 22,5 mkr.
+Om man begränsar verkningarna av en sålunda till 10 % ändrad årlig avskrivning 
+till de tre närmast följande budgetår, som kommunikationsministerns och
+våra resonemang avser och som riksdagen nu har att planera för, finner man att
+man på detta sätt undviker en eljest uppkommande försvagning med drygt 50
+milj. kr. av ljudradions specialfond under budgetåren 1/7 1964—30/6 1967. Den
+försvagning som uppkommer genom borttagandet av bilradiolicensen från den 1
+juli 1964 motsvarar under samma tidsperiod ett avgjort mindre belopp, bedömningsvis 
+42 mkrs, varav ca 14 mkr på budgetåret 1964/65.
+Om riksdagen skulle vara av den uppfattningen att den säkerhetsmarginal
+beträffande ljudradioverksamhetens finansiering som efter beslut enligt vårt förslag 
+skulle föreligga intill dess statsmakterna tagit ställning till radioutredningens
+slutliga förslag är för liten, återstår givetvis möjligheten att redan nu meddela
+direktiv huru myndigheterna skall förfara i ett oförutsett underskottsläge. Därvid 
+synes den utvägen närmast ligga till hands att — på sätt som svarar mot vad
+som skedde under televisionsverksamhetens uppbyggnadsår — ett tillfälligt lån
+upptages ur den speciella televisionsfonden. Liksom ljudradion med ett sådant
+lån stödde televisionen under de år, då denna ej kunde finansiella sin verksamhet
+genom influtna licensmedel förefaller det högst rimligt att ett omvänt lån i en
+oförutsedd situation skulle kunna upptagas utan att man bryter mot principen
+om de specialdestinerade fondema. Detta så mycket mera som kommunikationsministern 
+nu ej önskar riksdagens ställningstagande till radioutredningens förslag
+om en framtida sammanslagning av radio- och TV-licenserna.
+Med hänvisning till vad som i motionen anförts hemställer vi,
+att riksdagen måtte i skrivelse till Kungl. Maj :t
+a) begära sådan ändring i gällande kungörelse om rätt att in
+-
+neha radiomottagningsapparat, att ingen särskild licens efter
+den 1 juli 1964 skall erfordras för radioapparat, medförd i
+bil,
+b) som sin mening uttala att avskrivning på byggnadsstyrelsens 
+investeringar för radiohus och televerkets investeringar
+i ljudradions distributionsanläggningar från den 1 juli 1964
+sker med 10 % årligen.
+Stockholm den 23 januari 1964
+Bertil Ohlin
+Sven Wedén
+Gustaf Kollberg
+Bertil von Friesen
+Manne Ståhl
+Sven Gustafson
+i Göteborg
+Henning Gustafsson
+i Skellefteå
+Gunnar Helén
+Brita Elmén
+kammare
+kammare
+Andra kammaren
+EP2O237
+2018-03-01 21:44:49
+riksdag
+riksdag
+tvåkammaren
+EP2O237
+2018-03-01 21:44:49
+session
+session
+lagtima
+EP2O237
+2018-03-01 21:44:49
+sidantal
+Antal sidor
+5
+EP2O237
+2018-03-01 21:44:49
+EP2O237
+Andra kammaren
+mot_1964__ak__237.pdf
+413701
+pdf
+Motioner i Andra kammaren, nr 237 år 1964
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1964/web_mot_1964__ak__237/mot_1964__ak__237.pdf

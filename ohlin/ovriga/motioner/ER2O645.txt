@@ -1,0 +1,312 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 645 år 1966
+5
+Nr 645
+Av herr Ohlin m. fl., om en allmän skattereform.
+(Lika lydande med motion nr 519 i Första kammaren)
+Allmän skattereform
+Vårt nuvarande skattesystem är en produkt av ständiga justeringar och
+provisorier och regleras av en synnerligen svåröverskådlig författningstext.
+När skatteberedningen tillsattes år 1960 framgick det av utredningsdirektiven 
+att finansministern då var på det klara med att skattesystemet är
+föråldrat och att det behövdes en genomgripande skattereform. Skatteberedningens 
+förslag lade han emellertid åt sidan, och i årets finansplan säges
+ingenting om en skattereform.
+Det nuvarande läget med starkt negativ bytesbalans, försämrade konkurrensförhållanden 
+gentemot utlandet och stegrade krav på investeringar
+inom näringslivet gör det ändå mera nödvändigt att få till stånd ett dynamiskt 
+och produktionsstimulerande skattesystem, som gör att det lönar sig
+att arbeta och spara.
+I detta sammanhang vill vi särskilt framhålla att argumenten mot den
+nuvarande omsättningsskattens konstruktion ökat i styrka genom den
+starkt försämrade bytesbalansen. Finansministern erkänner i finansplanen
+att vårt kostnadsläge — särskilt om man på många håll i utlandet lyckas
+mera än hittills begränsa inflationen — kan ge anledning till oro. Det synes 
+då föga rationellt att försvaga vår konkurrenskraft genom att omsättningsskatt 
+även uttages på investeringar. Denna investeringsbeskattning
+ökar -— liksom energiskatten — kostnaderna såväl för våra exportvaror
+som för de hemmamarknadsvaror som konkurrerar med importerade varor.
+I länder med vilka vi konkurrerar finns system med avlyftning av indirekt 
+beskattning vid export, vilket innebär att de utländska varorna inte
+drabbas av motsvarande belastning. Vid en mervärdeskatt skulle denna
+kostnadsuppdrivande extrabeskattning försvinna.
+Vid en fortsatt omsättningsskatt av nuvarande konstruktion skulle det
+bli nödvändigt att överväga ett system med avlyftning av omsättningsskattebelastningen 
+vid export och en extra avgift på importen, motsvarande den
+dubbelbeskattning i fråga om omsättningsskatten som drabbar de svenska
+varorna. Ett sådant system bleve emellertid synnerligen komplicerat och
+dessutom svårt att i nuvarande läge införa utan att vi i det internationella
+6
+Motioner i Andra kammaren, nr 645 dr 1966
+samarbetet skulle misstänkas för att införa förtäckta exportsubventioner,
+resp. importavgifter.
+De skäl för en övergång till mervärdeskatt som vi med skärpa framhållit
+i tidigare motioner från vårt håll har alltså genom utvecklingen blivit än
+Starkare. I samband med en sådan övergång bör flertalet punktskatter borttagas 
+(undantag får göras för skatter med speciell motivering) och en reformering 
+av den direkta beskattningen komma till stånd.
+Den direkta beskattningen har nu nått ett sådant läge att en ytterligare
+höjning är omöjlig. Marginalskattesatserna, som automatiskt skärps genom
+inflationen, blir alltmer kännbara, i den mån inflationen höjer inkomsterna.
+Om ingen ändring av ortsavdrag och skatteskalor sker, torde under de närmaste 
+åren mer än två tredjedelar av alla gifta inkomsttagare drabbas av
+den progressiva beskattningen.
+Vi anser att beslut bör fattas vid nästa års riksdag om en allmän skattereform.
+ Stor vikt bör då fästas vid en sänkning av marginalskatterna med
+därav följande positiva verkningar på arbetsvilja och sparande. Samtidigt
+bör grundavdragen höjas och en breddning ske av skatteskalornas proportionella 
+skikt. Vid en förskjutning från direkt till indirekt beskattning som
+i detta sammanhang torde bli nödvändig, är det ett oeftergivligt krav att
+grupper med låga inkomster och låg skattekraft, t. ex. pensionärer och
+barnfamiljer, får kompensation.
+En särskild uppmärksamhet måste också ägnas åt inflationens skattehöjande 
+effekt. Ett system bör utarbetas för att undvika den automatiska
+skatteskärpning som med nuvarande regler blir ett resultat av inflationen.
+Företagsbeskattningen
+I fråga om företagsbeskattningen vill vi starkt betona vikten av att den
+resursskapande aspekten beaktas. Företagen måste få tillgång till riskvilligt 
+kapital genom möjligheter till en högre grad av självfinansiering. Detta
+är en förutsättning för snabb tillväxt i det svenska näringslivet. En tillräckligt 
+hög självfinansieringsgrad ger möjligheter till snabba investeringsbeslut 
+finansierade med i företaget redan befintliga tillgångar, vilkas användning 
+inte kräver samma strikta och ofta tidskrävande säkerhetsbedömning 
+som upplånat kapital. Det är de riksfyllda projekten som är svåra
+att finansiera, samtidigt som det ofta är dessa som leder till nya rön, vilka
+kan påskynda utvecklingen inom olika områden. Ett ökat företagssparande
+blir mot denna bakgrund nödvändigt dels för att möjliggöra investeringar
+i nya projekt, som kan leda utvecklingen framåt, och dels för att ge företagen 
+möjligheter till konsolidering, vilket i hög grad är i de anställdas intresse.
+En ytterligare ökning av tillgången på riskvilligt kapital bör ske genom
+att möjligheterna till nyemissioner underlättas. Dubbelbeskattningen av
+Motioner i Andra kammaren, nr 645 dr 1966
+7
+den vinstandel som företaget utdelar gör det kostsamt att anskaffa erforderligt 
+kapital genom nyemission. Den s. k. Annellagen med provisorisk karaktär 
+och begränsad räckvidd ger vissa lättnader, dock ej tillräckliga.
+Omedelbara justeringar av ortsavdrag och skatteskalor
+Det samhällsekonomiska läget tillåter inte någon reell sänkning av de
+direkta inkomstskatterna för närvarande, men inflationens skattehöjande
+effekt bör i görlig mån undvikas. En verklig lättnad i det direkta skattetrycket 
+bör ske i samband med den genomgripande reformering av skattesystemet,
+ som vi berört ovan. De förslag till provisoriska ändringar i den
+direkta beskattningen, som vi framlägger i denna motion, har till syfte att
+motverka den skärpning av inkomstskatternas reella tyngd, som inflationen
+medför. Det bör ske genom en höjning av ortsavdragen och sänkningar i
+skatteskalan för den statliga inkomstskatten. Vi vill i sammanhanget erinra
+om att fjolårets riksdagsbeslut rörande skattereglerna innebar en viss skärpning 
+av progressivitet och marginalskatt i mellaninkomstlägena.
+Vi föreslår att ortsavdragen för såväl den statliga som den kommunala
+inkomstskatten höjes med 200 kr. för gift skattskyldig samt ensamstående
+skattskyldig med barn och med 100 kr. för ensamstående i övrigt. De sålunda 
+förhöjda ortsavdragen enligt vårt förslag skulle då bli 4 700 kr. för
+gifta och 2 350 kr. för ensamstående. Det innebär en höjning av ortsavdragen 
+med ca 4,5 %.
+I fråga om skatteskalan föreslår vi en sänkning av marginalskatterna i
+den statliga inkomstbeskattningen i inkomstskikten 16 000 kr.—40 000 kr.
+för gift skattskyldig och 8 000 kr.—30 000 kr. för ogift skattskyldig, allt i
+beskattningsbar inkomst. Skattesänkningen föreslås bli två procentenheter i
+inkomstskiktet 8 000—15 000 kr. för ogift skattskyldig och en procentenhet
+i övrigt. Förslaget överensstämmer med vad vi förordat vid 1965 års riksdag.
+ Förslaget innebär bl. a. en särskilt lättnad i inkomstskatten för ensamstående.
+Den av oss förordade skatteskalan har följande utseende:
+Förslag till ändring i skalan för statlig inkomstskatt
+Gift skattskyldig
+Beskatt-
+ningsbar
+ink.
+1 000-tal kr.
+Nuv. skala
+Vårt förslag
+Ändr. jfr m.
+nuv. skala
+0—12
+10
+10
+—
+12—16
+15
+15
+—
+16—20
+22
+21
+— 1
+20—24
+27
+26
+— 1
+8
+Motioner i Andra kammaren, nr 645 år 1966
+24—30
+34
+33
+— 1
+30—40
+42
+41
+— 1
+40—60
+48
+48
+— 1
+samstående
+0—6
+10
+10
+—
+6—8
+15
+15
+—-
+8—10
+22
+20
+— 2
+10—15
+27
+25
+— 2
+15—20
+31
+30
+— 1
+20—25
+36
+35
+— 1
+25—30
+40
+39
+— 1
+Ändringarna kan träda i kraft den 1 januari 1967 och således gälla fr. o. in.
+1967 års inkomster. Skattebortfallet för staten vid ett genomförande av föreslagna 
+lättnader beträffande ortsavdrag och skatteskalor kan beräknas till
+90 milj. kr. för nästa budgetår. Vi vill här erinra om att vi i särskilda motioner 
+föreslagit sådana besparingar och inkomstförstärkningar, att statsfinansiellt 
+utrymme skapas för de lättnader i inkomstskatterna som här
+angivits. Totalt innebär de ändringar i regeringens budgetförslag, som vi
+föreslagit och vilka också innefattar en förstärkning av de statliga insatserna 
+bl. a. för biståndet till u-länderna, för de handikappade, för sjukvården,
+för idrotten och för den vetenskapliga forskningen och för kulturlivet, att
+budgetbalansen skulle förstärkas med mer än 100 milj. kr. i jämförelse med
+finansministerns förslag. En sådan avvägning anser vi vara naturlig i nuvarande 
+samhällsekonomiska läge.
+Med hänvisning till det anförda hemställes,
+A. att riksdagen måtte
+1. i skrivelse till Kungl. Maj :t anhålla att förslag framlägges 
+för nästa års riksdag om en allmän skattereform innefattande 
+bl. a. en omläggning av den nuvarande omsättningsskatten 
+till en generell indirekt skatt av mervärdeskattens
+typ, lättnader i den direkta inkomstskatten samt reformer
+inom företagsbeskattningen som stärker konkurrensförmåga 
+och kapitalförsörjning,
+2. i skrivelse till Kungl. Maj :t anhålla att undersökningar
+kommer till stånd rörande metoder att undvika inflationens
+skattehöjande verkningar samt att förslag i anledning härav 
+förelägges riksdagen,
+3. besluta höja ortsavdragen i den statliga och kommunala 
+inkomstbeskattningen med 100 kr för ogift och 200 kr
+för gift skattskyldig fr. o. m. den 1 januari 1967, samt
+Motioner i Andra kammaren, nr 645—646 år 1966
+9
+4. fastställa sänkta skalor för den statliga inkomstskatten
+i enlighet med i motionen angivna förslag att gälla fr. o. m.
+den 1 januari 1967.
+B. att vederbörande utskott måtte utarbeta förslag till erforderliga 
+författningsändringar i anslutning till yrkandena
+under A. 3 och A. 4.
+Stockholm den 26 januari 1966
+Bertil Ohlin
+Bertil von Friesen
+Manne Ståhl
+Cecilia Nettelbrandt
+Sven Gustafson
+i Göteborg
+Elias Jönsson
+i Ingemarsgården
+Sven Antby
+Daniel Wiklund
+Ingemar Mundebo
+Nr 646
+Av herr Oskarson, angående beskattningen av reservbefälspremier.
+(Lika lydande med motion nr 506 i Första kammaren)
+Stockholm den 26 januari 1966
+Gunnar Oskarson
+kammare
+kammare
+Andra kammaren
+ER2O645
+2018-03-01 18:16:49
+riksdag
+riksdag
+tvåkammaren
+ER2O645
+2018-03-01 18:16:49
+session
+session
+lagtima
+ER2O645
+2018-03-01 18:16:49
+sidantal
+Antal sidor
+5
+ER2O645
+2018-03-01 18:16:49
+ER2O645
+Andra kammaren
+mot_1966__ak__645.pdf
+328975
+pdf
+Motioner i Andra kammaren, nr 645 år 1966
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1966/web_mot_1966__ak__645/mot_1966__ak__645.pdf

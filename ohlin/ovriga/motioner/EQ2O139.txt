@@ -1,0 +1,294 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 139 år 1965
+5
+Nr 139
+Av herr Ohlin m. fl., angående företagshälsovård, yrkeshggien
+och yrkesmedicin.
+(Lika lydande med motion nr 109 i Första kammaren)
+Företagshälsovård
+Målsättning
+Målet för den moderna företagshälsovården är att bevara de anställdas
+hälsa och arbetsförmåga och att vid sjukdom eller skada medverka till att
+den sjuke återställs så snabbt och effektivt som möjligt.
+Modern företagshälsovård kan indelas i fyra huvudavdelningar:
+1. Rent förebyggande av olycksfall och yrkessjukdomar: arbetarskydd
+och teknisk yrkeshygien. Under senare år har emellertid till denna grupp
+kommit att räknas tekniska åtgärder resulterande i ur fysiologisk synpunkt
+»optimala arbetsbetingelser», d. v. s. försök att anpassa arbetet och arbetsmiljön 
+efter människan (bioteknologi).
+2. Hälsovård omfattande anpassningen av människan till arbetet. Genom
+nyanställnings- och regelbundna hälsoundersökningar samt lämplig placering 
+försöker man här kontrollera att balans finns och bibehålies mellan arbetskrav 
+och arbetsförmåga.
+3. Sjukvård, varvid en begränsning till den »lätta sjukvården» förekommer.
+4. Rehabilitering, som främst inriktar sig på personer där man kan vänta
+sig fullt återställande av hälsa och arbetsförmåga.
+I vårt land bedrives företagshälsovården på enskilt initiativ. I Frankrike
+infördes 1946 lagstiftningsvägen en obligatorisk företagshälsovård, medan
+det i Norge sedan 1945 skapats en frivillig industriläkarorganisation.
+Utbildning och samordning
+De inom företagshälsovården verksamma yrkesgrupperna utgöres väsentligen 
+av industriläkare, industrisköterskor och skyddsingenjörer. För läkarna 
+har utbildningen formats genom särskilda 3 veckors industriläkarkurser 
+och plan för tjänstgöring efter medicine licenciatexamen. Årliga tredagars 
+efterutbildningskonferenser för industriläkare har också anordnats
+i SAF:s regi sedan 1951, och under sextiotalet har tredagars yrkesmedicinskt-kliniska 
+seminarier hållits.
+6
+Motioner i Andra kammaren, nr 139 år 1965
+Vid de större företagen, där läkaren som regel har heltidstjänst, kommer 
+denna att nå en hög grad av specialisering. Vid mindre företag med
+tillgång till läkare och sjuksköterska kan man räkna med att dessa dels på
+grund av att de saknar utbildning för insatser på det yrkeshygieniska området,
+ dels på grund av bristande tid väsentligen kommer att sysselsätta sig
+med sjukvård. Det råder för närvarande en utbredd uppfattning att utbildningen 
+av företagsläkare liksom av övriga inom företagshälsovården verksamma 
+yrkesgrupper måste breddas och förbättras.
+Samordningen av företagshälsovården med annan form av sjukvård är
+utomordentligt betydelsefull. Speciellt viktigt är detta vid rehabilitering,
+då företagslälcaren kan medverka till en tidig återplacering och återanpassning 
+av den sjuke. I dagens läge är det också synnerligen betydelsefullt att
+vi får en avlastning av sjukhus och sjukhuspolikliniker, något som företagsläkaren 
+i hög grad bör kunna bidra till. Det synes även väsentligt att
+den allmänna hälsovården i större utsträckning än för närvarande bör kunna 
+samordna sina förebyggande åtgärder med företagens. Detta bör kunna
+tillämpas vid t. ex. hälsoundersökningar, tuberkulosbekämpning eller poliovaccinering.
+Företagshälsovårdens omfattning
+Under senare år har företagshälsovården expanderat avsevärt i Sverige.
+Den har utvecklats mot att nu omfatta även icke industriella företag, och
+från att i huvudsak ha varit begränsad till storindustrien finns i dagens läge 
+även i viss utsträckning företagshälsovård vid medelstora företag. Vid
+årsskiftet 1962/63 omfattade företagshälsovården ungefär 250 000 personer.
+Företagshälsovården är i dag tillfredsställande organiserad vid flera stora
+företag, såväl privata som offentliga. Även en del medelstora dylika företag
+har sökt lösa frågan. För de små företagen, vilkas problem delvis är av annan 
+art, är hälsofrågorna dock ännu ej tillfredsställande lösta. Det gäller
+här att uppmuntra försök till penetrering av problemen samt att studera vilka 
+hälsoproblem som föreligger. Samhället bör uppmuntra tillskapandet av
+hälsovårdsmöjligheter även för de små företagen. Rationaliseringen inom
+skogsbruk och jordbruk har medfört att arbetsformer och yrkesrisker även
+inom dessa näringsgrenar alltmera liknar industriens. Nya hälsorisker har
+uppkommit, bl. a. genom användning av bekämpningsmedel samt genomförandet 
+av en intensifierad mekanisering. Det är betydelsefullt att genom
+försöksverksamhet kunna komma fram till någon typ av företagshälsovård
+även för skogsbruk och jordbruk.
+Åtgärder ägnade att lösa problemen
+Det är uppenbart att en förbättring av utbildningen för personal inom företagshälsovården 
+är önskvärd och nödvändig. Industriläkarkurserna vid
+statens institut för folkhälsan bör därför göras mer omfattande än för när
+-
+Motioner i Andra kammaren, nr 139 år 1965
+7
+varande, och flera yrkesmedicinska avdelningar måste inrättas, enligt de
+förslag som framföres nedan, för en förbättrad utbildning och fortbildning
+i yrkesmedicin. Yrkesmedicinska centralen vid karolinska sjukhuset bör vidare 
+ges de personella resurser som erfordras för genomförandet av ytterligare 
+seminarie- och efterutbildningsverksamhet för personal inom företagshälsovården.
+Företagshälsovård och av samhället tillhandahållen sjuk- och hälsovård
+har många beröringspunkter. Genom en bättre samordning än för närvarande,
+ när det gäller vissa liknande uppgifter inom samhällets och företagens 
+hälsovård, bör det gemensamma resultatet kunna bli än bättre. Enligt
+vår mening är tiden nu också inne för en lösning av de smärre företagens
+samt skogs- och jordbrukets hälsovård. Samhället bör härvidlag kunna
+stimulera berörda parter till en lösning av problemen.
+Yrkeshygien och yrkesmedicin
+Allmänt
+Verksamheten inom yrkesmedicinen, yrkeshygienen och angränsande områden 
+handhas till en dominerande del av företagshälsovårdande instanser.
+Det finns dessutom institutioner och organisationer vilkas arbetsområde
+åtminstone perifert kan beröra det yrkesmedicinska och yrkeshygieniska
+fältet. I statens offentliga utredningar angående yrkesmedicinska sjukhusenheter 
+(SOU 1964: 46) upptas följande institutioner och organ verksamma
+med yrkesmedicinsk och yrkeshygienisk verksamhet i Sverige:
+Arbetsmarknadsparterna
+SAF — LO
+Arbetarskyddsnämnden
+Kontroll-, konsult- och
+samordningsorgan
+Arbetarskyddsstyrelsen och
+yrkesinspektionen
+Länsläkarväsendet
+Medicinalstyrelsens
+strålskyddsnämnd
+Giftnämnden
+Giftinformationscentralen
+vid karolinska sjukhuset
+Expertinstitutioner
+Folkhälsan
+Yrkesmedicinska centralen vid
+karolinska sjukhuset
+Yrkesdermatologiska kliniken vid
+karolinska sjukhuset
+Yrkesmedicinska avdelningen vid
+Södersjukhuset
+Yrkesmedicinska kliniken vid
+lasarettet i Lund
+Yrkesmedicinska mottagningarna
+vid lasaretten i Eskilstuna och
+Örebro
+8
+Motioner i Andra kammaren, nr 139 år 1965
+Statens farmaceutiska laboratorium
+Statens rättskemiska laboratorium
+Försvarets forskningsanstalt
+Institutioner för hygien och socialmedicin 
+vid universiteten i Uppsala,
+ Lund och Göteborg samt vid
+karolinska institutet och medicinska 
+högskolan i Umeå
+Som synes av ovanstående förteckning är samhällets insatser inom de
+yrkesmedicinska, yrkeshygieniska och toxikologiska områdena fördelade
+på ett flertal institutioner och ämbetsverk. Någon formell samordning av
+dessa institutioner förekommer dock inte mer än undantagsvis. Det är därför 
+av stor vikt att ett organiserat samarbete mellan berörda myndigheter
+och styrelser kommer till stånd med det snaraste, så att ett optimalt utnyttjande 
+av befintliga resurser erhålles.
+Vård och diagnosbehov
+Företrädare för sjukhus utan egen yrkesmedicinsk expertis har vid förtrågan 
+hävdat, att det för diagnostiskt arbete skulle vara av stort värde om
+yrkesmedicinska specialiteter kunde erhållas åtminstone inom sjukvårdsregionen.
+ Industriläkarföreningen liksom statens institut för folkhälsan
+anser det synnerligen önskvärt med välutrustade yrkesmedicinska centraler 
+över hela landet. Yrkesmedicinska avdelningar bör därför inrättas i ökad
+grad vid regionsjukhus samt vid centrallasarett inom högt industrialiserade 
+områden. Även efterutbildning av inom industrien sysselsatta sköterskor
+synes önskvärd.
+Undervisning och forskning
+Läkarprognosutredningen bär i sitt betänkande räknat med ett behov av
+yrkesmedicinare och yrkeshygieniker av ca 100 läkare år 1970. Undervisning 
+i yrkesmedicin finns för närvarande inte upptagen i studiehandboken
+för de medicinska fakulteterna. Trots detta bedrives viss undervisning i ämnet 
+genom tillmötesgående av lärarna i invärtes medicin, hygien och socialmedicin.
+ Det är dock angeläget att blivande läkare bibringas kunskaper om
+de speciella medicinska problem som finns inom arbetslivet. Behovet av utbildning 
+för blivande industriläkare är också stort. Efterutbildningen bland
+denna läkargrupp borde också vara mer omfattande. Ett inrättande av fler
+yrkesmedicinska enheter är en förutsättning dels för en ökad kader av specialister 
+inom alla regioner av landet, dels en nödvändighet för en förbättrad
+ut- och fortbildning i yrkesmedicin för industriläkare.
+Näringslivets utveckling har i många avseenden medfört förändrade krav
+på den mänskliga arbetskraften. Tunga arbeten och grovt ohygieniska förhållanden 
+har i stor utsträckning försvunnit, men rationaliseringen och
+Motioner i Andra kammaren, nr 139 år 1965
+9
+automationen har medfört en rad nya medicinska, psykologiska och sociologiska 
+problem. En intensifierad forskning inom dessa områden är nödvändig 
+för att vi i dagens samhälle med ett högt differentierat näringsliv
+och med en snabb industriell expansion skall förstå sådana frågor som yrkessjukdomarnas 
+art och uppkomstsätt, den mänskliga anpassningsförmågan 
+till olika former av arbete, sambandet mellan ålder och arbetsförmåga,
+arbetsförmågan hos olika grupper av partiellt arbetsföra etc. Till området
+hör även undersökningar rörande de sätt på vilka man genom skilda åtgärder,
+ bl. a. hälsoundersökningar, skall kunna förebygga skadeverkningar,
+orsakade av arbete, och anpassa individen till skilda arbetsmoment. Utredning 
+och forskning pågår inom många områden av näringslivet med enskilda 
+initiativ som grund. Trots dessa lovvärda insatser kommer på långt när
+inte alla forskningsobjekt att kunna penetreras av de enskilda företagen.
+Med hänsyn till forskningsbehovet har statens medicinska forskningsråd
+låtit utreda behovet av arbetsforskning. I denna utredning (Arbetsforskning) 
+har införts en projektkatalog över de angelägnaste forskningsuppgifterna 
+på området: arbetshygieniska och arbetsmedicinska undersökningar
+(gaser, lösningsmedel, metaller, gifter, damm, allergener etc.), arbetsfysiologiska 
+projekt (energetisk belastning, ryggbesvär, smärtor i extremiteterna,
+ vibrationsskador, kontorsrationalisering) samt arbetspsykologiska och
+psykiatriska projekt (stress-, trötthetsfaktorer, äldre arbetskraft o. s. v.).
+Dessa forskningsprojekt måste genomföras med ekonomiskt stöd från statsmakterna.
+ Det är av stor vikt att ekonomiska förutsättningar ges snabbt, då
+lösningarna av ovan nämnda forskningsuppslag förutom minskat mänskligt
+lidande torde ge avsevärd ekonomisk vinning för samhället som helhet.
+I anslutning till vad ovan anförts föreslår vi,
+att riksdagen i skrivelse till Kungl. Maj :t hemställer om
+förslag för genomförande av i utredningen »Arbetsforskning»
+inom statens medicinska forskningsråd framlagda mest angelägna 
+projekt jämte erforderliga anslagsäskanden därför, samt
+att riksdagen i skrivelse till Kungl. Maj:t hemställer om
+utredning beträffande organiserat samarbete mellan statliga,
+landstingskommunala och övriga institutioner för yrkesmedicin,
+ yrkeshygien och företagshälsovård inom landet.
+Stockholm den 22 januari 1965
+Bertil Ohlin Sven Gustafson Sven Wedén
+Henning Gustafsson
+i Skellefteå
+i Göteborg
+Sven Antby
+Daniel Wiklund
+Cecilia Nettelbrandt
+Brita Elmén
+kammare
+kammare
+Andra kammaren
+EQ2O139
+2018-03-01 19:55:04
+riksdag
+riksdag
+tvåkammaren
+EQ2O139
+2018-03-01 19:55:04
+session
+session
+lagtima
+EQ2O139
+2018-03-01 19:55:04
+sidantal
+Antal sidor
+5
+EQ2O139
+2018-03-01 19:55:04
+EQ2O139
+Andra kammaren
+mot_1965__ak__139.pdf
+325842
+pdf
+Motioner i Andra kammaren, nr 139 år 1965
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1965/web_mot_1965__ak__139/mot_1965__ak__139.pdf

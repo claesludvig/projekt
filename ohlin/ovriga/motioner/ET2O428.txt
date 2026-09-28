@@ -1,0 +1,778 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+12
+Motioner i Andra kammaren, nr 428 år 1968
+Nr 428
+Av herr Wedén m. fl., angående bostadspolitiken.
+(Lika lydande med motion nr 324 i Första kammaren)
+Bostadsbristen är ett dominerande socialt problem i vårt land. I början
+av år 1967 uppgick antalet registrerade bostadssökande i hela landet till
+närmare 500 000, därav drygt 180 000 utan egen bostad. 225 000 önskade
+annan lägenhet, och 91 000 av de bostadssökande var bosatta i annan kommun.
+ Efterfrågan på bostäder är givetvis störst i Storstockholmsområdet.
+187 000 står där i bostadskön, därav 75 000 utan egen bostad. Ungefär 20 000
+familjer i Storstockholm är helt utan bostad.
+I socialdemokratins efterkrigsprogram fanns en framträdande bostadspolitisk 
+målsättning — att avskaffa bostadsbristen. Sedan mitten på 1940-talet
+har emellertid bostadsköerna ökat med det tiodubbla från ca 50 000 bostadssökande 
+till ca 500 000. Och köerna växer. Bostadsstyrelsen konstaterar i
+samband med sina anslagsäskanden för budgetåret 1968/69 att förbättringar
+1 bostadsmarknadsläget inte kunnat konstateras. Antalet anmälda bostadssökande 
+vid kommunala bostadsförmedlingar var vid årsskiftet 1966/67
+2 % högre än vid närmast föregående årsskifte.
+Tabellen på nästa sida, som visar bostadsköns siffermässiga storlek i dag,
+vittnar om den socialdemokratiska regeringens misslyckande att uppnå det
+uppsatta målet.
+Bostadsbristen drabbar i första hand ungdom och nybildade hushåll. Möjligheterna 
+att få en bättre och mera passande bostad med hänsyn till storlek,
+ utrustning, läge och hustyp är likaså starkt begränsade. Trångboddheten 
+är fortfarande stor. År 1965 fanns 700 000 trångbodda hushåll enligt
+normen fler än två boende per rum, kök och vardagsrum oräknade.
+Bostadsbristen för med sig stora skadeverkningar. Bristsituationen leder
+bl. a. till minskad naturlig rörlighet på såväl bostadsmarknaden som arbetsmarknaden,
+ förlorad tid, trångboddhet, osunda affärer, konstlat fördröjd
+familjebildning, ökad skilsmässofrekvens och ökad ungdomsbrottslighet.
+Dessutom föreligger ofta det problemet att många barnfamiljer inte har råd
+att hyra en lägenhet som medger godtagbar standard.
+När det gäller betalningsvilja och köpkraft finns det tydliga tecken som
+tyder på att den långvariga bostadsbristen vridit konsumtionsinriktningen
+till andra konsumtionsområden. Bil, båt o. d. kan man köpa och få omedel
+-
+Motioner i Andra kammaren, nr 428 år 1968
+13
+Hela antalet
+bostadssö-
+kande 1/1
+1967
+Därav inom kommunen bosatta
+Sökande bo-
+Kommungrupp
+med egen
+lägenhet
+utan egen
+lägenhet
+därav
+familjer
+satta i annan
+kommun
+Stor-Stockholm......
+186 910
+75 129
+85 107
+19 599
+26 674
+Därav Stockholm...
+122 020
+51 160
+52 380
+12 200
+18 480
+Stor-Göteborg........
+102 288
+45 752
+35 508
+5 299
+21 028
+Därav Göteborg....
+85 996
+40 997
+31 483
+4 530
+13 516
+Malmö-Lund-området.
+41 923
+23 762
+9 574
+1 842
+8 587
+Därav Malmö......
+32 873
+20 671
+7 688
+1 581
+4 614
+Kommuner med
+18 321
+50 000— inv.......
+94 435
+44 800
+31 314
+6 063
+30 50 000 » ......
+31 198
+14 763
+9 933
+1 800
+6 502
+20 30 000 » ......
+11 318
+6 017
+2 601
+773
+2 700
+Mindre än
+20 000 » ......
+26 070
+11 844
+7 003
+2 208
+7 223
+Samtl. kommuner....
+494 142
+222 067
+181 040
+37 584
+91 035
+bart. För att få en bostad får man vänta länge, i många fall hopplöst länge.
+Som exempel kan nämnas att väntetiden är ca nio år för en en- eller tvåbarnsfamilj 
+som vill ha en två- eller trerumslägenhet i Stockholm. En ensamstående 
+får vänta 12 år på en lägenhet om ett rum och kök. I vissa andra
+storstockholmskommuner varierar väntetiderna mellan fem och tio år.
+Regeringens tidigare misslyckanden
+Regeringen har inte kunnat bemästra det växande behov av bostäder
+som inflyttningen till tätorterna, den ökade rörligheten på arbetsmarknaden,
+den stegrade giftermålsfrelcvensen, hushållssprängningen, invandringen
+in. in. har skapat. En allvarlig planeringsmiss är t. ex. den grova underskattningen 
+av efterfrågeökningen (trots folkpartiets upprepade varningar), vilket 
+medförde en alldeles för låg bostadsproduktion under större delen av
+1950-talet.
+Konsekvenserna av denna svaghetsperiod för bostadsbyggandet fram till
+slutet av 1950-talet blev mycket långtgående och är fortfarande kännbara. Det
+är verkligen inte bara missförhållandena under 1965 och 1966 — de utpräglat 
+ryckiga bostadsåren — som har orsakat den rådande bostadsbristen.
+ Den eftersläpning i byggandet som uppkom före 1960 förstärkte
+kraftigt den av andra orsaker snabbt växande efterfrågan.
+Otillräckligt nettotillskott 1961—1965
+Statsråd och andra socialdemokrater brukar ibland försöka uppmuntra
+de många i bostadsköerna med att säga att Sverige är »världsbäst» i bostadsbyggande.
+ Det är ett klent försvar för regeringens misslyckande att lösa bostadsproblemen.
+ Sverige har nämligen den största bristen bland de västeuropeiska 
+länderna. Vi är dessutom fortfarande trångbodda. 1965 fanns, som vi
+14
+Motioner i Andra kammaren, nr 428 år 1968
+ovan nämnt, ca 700 000 trångbodda hushåll. I fråga om småhusens andel av
+produktionen ligger vi i underläge bland jämförbara länder.
+Vissa nyligen publicerade uppgifter ur 1965 års folk- och bostadsräkninginnebär 
+ett underkännande av socialdemokraternas »världsbäst»-argument.
+Under perioden 1961—1965 färdigställdes 414 000 lägenheter i hela riket eller
+i genomsnitt 83 000 per år. Nettotillskottet blev emellertid endast 200 000
+lägenheter eller 40 000 per år. Ungefär hälften av den färdigställda produktionen 
+har alltså utgjort ersättning för lägenheter som genom rivning (V4
+av avgången), sammanslagning, kontorisering, övergivande in. in. avgått ur
+1960 års bostadsbestånd! För dem som står och väntar på bostad måste
+det ringa nettotillskottet ha inneburit en stor besvikelse. Inte heller torde de
+finna någon tröst i upplysningen att Sverige med en bostadskö på närmare
+aOO 000 sedan något år bygger mer per 1 000 invånare än som sker i länder
+vilka i motsats till Sverige i stort sett avhjälpt bostadsbristen.
+Det låga nettotillskottet under 1961—1965 föranleder ytterligare en kommentar.
+ Regeringens program om en miljon färdigställda lägenheter under perioden 
+1965—1974 hänvisade till bostadsbyggnadsutredningens beräkningar.
+Utan att här ingå på dessa kan vi konstatera att enligt dem nettotillskottet
+under tioårsperioden 1965—1974 borde bli minst 700 000 lägenheter eller
+70 000 lägenheter per år i genomsnitt. För att uppnå denna siffra beträffande
+nettotillskottet erfordras en årlig produktion på minst 110 000 lägenheter,
+såvida avgången kan begränsas till 40 000 per år. Ett bättre grepp om utvecklingen 
+vad gäller nettotillskottet lägenheter kan erhållas genom årligt
+återkommande analyser och undersökningar med sikte på att utröna ersättningsproduktionens 
+andel av den totala produktionen.
+Bostadspolitikens ryckighet
+Den socialdemokratiska regeringens hittills förda bostadspolitik har i alltför 
+hög grad visat prov på dålig planering, otillräckligt och ryckigt bostadsbyggande 
+samt regleringstänkande. Ryckigheten har utövat ett negativt inflytande 
+på förmågan att bygga rationellt och billigt.
+Ökningen av bostadsbyggandet efter kriget har skett i avsevärt långsammare 
+takt än den totala nationalproduktens tillväxt. Utvecklingen i stora
+drag framgår av nedanstående siffror.
+1946/62 på 16 år
+Bostadsinvesteringar
+inkl. underhåll
++ ca 40 %
+Ökning av bostadsin-
+vesteringarna
+Nationalprodukten
++ ca 80 %
+Ökning av national-
+produkten
+1963.............
+7 %
+5 %
+1964.............
+Q 0/
+7 %
+1965.............
+2,5 %
+0 0/
+1966.............
+— 1,0%
+3,9 %
+1967.............
+13 %
+3 %
+1968 (beräkn.) ....
+2,5 %
+3,5 %
+15
+Motioner i Andra kammaren, nr 428 år 1968
+1963 och 1964 ökade bostadsinvesteringarna något mer än nationalprodukten.
+ Denna lovande utveckling bröts under 1965, då en stark nedgång i
+bostadsbyggandets ökningstakt inträffade. För 1966 följde sedan en direkt
+minskning. 1967 innebar en stark uppgång i bostadsinvesteringarna. Men
+för 1968 beräknas återigen en tillväxt som är mindre än nationalproduktens.
+ Detta understryker ryckigheten i regeringens politik. Av siffrorna
+framgår också den stora eftersläpning som under efterkrigsperioden fram
+till 1960-talets början karakteriserar bostadsbyggandet i jämförelse med utvecklingen 
+av hela nationalprodukten. Häri ligger naturligtvis en av huvudorsakerna 
+till bostadsbristen. Härtill kommer att den plötsliga ökningen avtillstånden 
+för åren 1962 1964 starkt bidrog till ett övertryck på byggnads
+arbetsmarknaden 
+och till en allvarlig fördyring av bostäderna.
+Ryckigheten belyses även av dessa siffror över påbörjade och färdigställda
+lägenheter från år 1960.
+År
+Antalet påbörjade
+lägenheter
+Antalet färdigställda
+lägenheter
+Ökning el. minskning
+av under arbete va-
+rande lägenheter vid
+slutet av året
+1960.................
+72 300
+68 300
++ 4 000
+1961.............
+76 500
+73 800
++ 2 700
+1962...............
+92 700
+75 100
++ 17 600
+1963.................
+86 900
+81 400
+1964...............
+96 700
+87 200
++ 9 500
+1965.................
+93 200
+96 800
+— 3 600
+1966.................
+93 400
+89 400
++ 4 000
+1967 ca............
+98 000
+ca 100 000
+— ca 2 000
+Den starka snedvridning i igångsättning under kalenderåret som rått
+under senare år är ett annat exempel på ryckighet och otillfredsställande
+planering i regeringens politik. Inrikesministern har själv angivit att en
+lämplig fördelning av bostadsbyggandets igångsättning — för att sysselsättningen 
+skall bli så god och jämn som möjligt — bör vara att 15 % kommer 
+i gång under 1 :a kvartalet, 65 % under 2:a och 3:e kvartalen tillsammans 
+och 20 % under 4:e kvartalet. Igångsättningen hade ungefär denna fördelning 
+under 1964. Under 1965 inträffade eu avsevärd försämring i förhållande 
+till denna av inrikesministern som ideal betecknade fördelning av
+igångsättningen under aret. En stark förskjutning av igångsättningen till
+det sista kvartalet inträffade, och denna kom att omfatta ej mindre än 36 %
+av den totala igångsättningen detta år. Regeringen annonserade genom inrikesministern 
+sin föresats att åstadkomma en förbättring under år 1966.
+Detta misslyckades. I stället inträffade en ytterligare förskjutning av igångsättningen 
+till sista kvartalet så att den kom att uppgå till 42 %. Om man
+räknar i byggnadskostnader i stället för i lägenheter så är fördelningen under 
+1966 ännu sämre. Hela 50 % av bostadsbyggnadsvolymen igångsattes
+det sista kvartalet enligt siffror från arbetsmarknadsstyrelsen.
+16
+Motioner i Andra kammaren, nr 428 år 1968
+1967 års byggande
+Bostadsbyggandet under år 1967 blev under inflytande av den svagare
+allmänna konjunkturen i många avseenden gynnsammare jämfört med
+tidigare år. Antalet påbörjade och färdigställda lägenheter nådde en avsevärt 
+hög nivå. Den främsta förklaringen härtill vad gäller färdigställandet
+torde vara de förkortade byggtiderna.
+Det måste emellertid konstateras att dessa förbättringar till stor del är
+betingade av en tillfällig regleringsåtgärd — införandet av investeringsavgift
+(25 %) på s. k. oprioriterade byggen. Kreditutrymmet för bostadsbyggandet 
+har därigenom på ett tillfälligt och konstlat sätt blivit större. Den tidsbestämda 
+avgiften, som skall upphöra den 30 september 1968, har lett till
+stort uppdämt byggnadsbehov för angelägna projekt inom den oprioriterade 
+sektorn.
+Under kritik från oppositionen har regeringen tvingats till en bättre samordning 
+mellan den allmänna finans- och kreditpolitiken och bostadskreditgivningen 
+från hypotelcsinstituten. Den bättre säsongfördelning av bostadsbyggandet 
+som blivit fallet under 1967 är till stor del en följd av ett
+jämnare utsläpp av bostadsobligationer och därmed bättre möjligheter för
+kreditinstituten att ge en god tillförsel av nya byggnadskreditiv.
+Även i fortsättningen måste garantier skapas för en jämn och tilli äcklig
+kreditgivning till bostadsbyggandet. Regeringens misslyckanden från åren
+1965 och 1966 får inte upprepas. Det är naturligtvis nödvändigt att bostadsbyggandet 
+även efter upphörandet av den 25-procentiga investeringsavgiften
+tillförsäkras sådan tillräcklig andel av produktionsresurserna att det av oss
+nedan föreslagna bostadsbyggnadsprogrammet för hela riket under åren
+1968—1972 kan förverkligas.
+Ökat bostadsbyggande
+Det är folkpartiets bestämda mening att bostadsfrågan måste behandlas
+med hög prioritet. Bristen på bostäder, bristerna i det nuvarande bostadsbeståndet 
+och den växande efterfrågan ger fullgoda motiv för detta.
+övergång till friare hyressättning är en åtgärd för att så småningom
+uppnå en mera balanserad bostadsmarknad. Efter regeringens överraskande 
+och från bostadspolitisk synpunkt olyckliga tillbakadragande av sin
+proposition om ny hyreslag har denna fråga kommit i ett nytt läge. Vi återkommer 
+härtill i särskild gemensam motion från folkpartiet och centerpartiet.
+Den andra centrala faktorn för att uppnå en mera balanserad bostadsmarknad 
+är givetvis bostadsbyggandets omfattning. Genom jämnare igångsättning 
+och kreditgivning, förbättrad konkurrens och effektivare utnyttjande 
+av byggresurserna kan bostadsbyggandet snabbt lyftas upp till en ni\å
+på 110 000 lägenheter. Enligt länsbostadsnämndernas bedömningar, i samråd 
+med bl. a. länsarbetsnämnderna, finns tillgängliga kommunala resurser
+Motioner i Andra kammaren, nr 428 år 1968 17
+och tillgång pa arbetskraft för ett bostadsbyggande av minst denna nivå.
+Det bor naturligtvis även under 1970-talet ha en stigande tendens.
+Till vårriksdagen 1967 framlade folkpartiet liksom tidigare år förslag
+till flerårsprogram för bostadsbyggandet. Regeringen föreslog i proposition
+nr 100 nämnda år minimiramar för åren 1967—1969. Riksdagen beslöt i enlighet 
+med regeringens förslag.
+Fp:s förslag våren 1967
+Regeringens förslag våren 1967
+(mininnram)
+1967.............
+93 500 + 10 000 konj.res.
+98 000 + 10 000 »
+103 000 + 10 000 »
+108 000 + 10 000 »
+112 000 + 10 000 »
+90 000
+1968.............
+1969..............
+90 000
+1970.............
+90 000
+1971..........
+—
+Uppenbarligen motiverade konjunkturförsvagningen under större delen
+av 1967 i varje fall under 1968 ett utnyttjande av konjunkturreserven. Detta
+kan man också räkna med under 1968 såvitt nu kan överblickas.
+I föreliggande regeringsproposition föreslås minimiramar för bostadsbyggandet 
+under åren 1968, 1969 och 1970 om 95 000 lägenheter per år. I
+bostadsstyrelsens äskande för budgetåret 1968/69, som avlämnades hösten
+1967, foreslogs följande program i påbörjade lägenheter som ett minimum
+med hänsyn till föreliggande och väntat bostadsbyggnadsbehov.
+Bostadsstyrelsens förslag hösten 1967:
+1968
+1969
+1970.
+1971.
+1972
+ca
+98 000
+101 000
+104 000
+108 000
+110 000
+Den av regeringen tillämpade treårsplaneringen anses på många håll inom
+kommunala organ och inom byggnadsindustrin som otillräcklig beträffande
+tidsramen. En mera långsiktig statlig lånemedelstilldelning bör genomföras.
+En femårsram skulle ge större förutsättningar till en effektiv produktion.
+Dessutom bortfaller behovet av den nuvarande särskilda femårsramen
+(förhandsbesked) för industriellt byggande. Vi förordar därför liksom
+tidigare att riksdagen skall ge underlag för en sådan.
+Enligt vår mening är målsättningen i styrelsens förslag inte tillräcklig.
+Redan 1968 bör — frånsett det utnyttjande av konjunkturreserven som
+det ekonomiska läget kan göra naturligt — en igångsättning av 100 000
+lägenheter uppnås och därefter en övergång ske till ett program av den
+omfattning som vi redan vid vårriksdagen 1967 förordade.
+18
+Motioner i Andra kammaren, nr 428 år 1968
+Folkpartiet föreslår sålunda följande program för bostadsbyggandet under 
+åren 1968—1972:
+1968 100 000 + konjunkturreserven 10 000
+Den ökning av bostadsbyggandet som folkpartiet här förordar kräver i
+vanliga konjunkturlägen inte någon ökning av detta byggandes andel av
+nationalprodukten. Eftersom bostadsbristen och den kvarstående trångboddheten 
+måste betraktas som en social angelägenhet av utomordentlig betydelse,
+ bör när ytterligare erfarenheter vunnits en utvidgning av bostadsbyggandets 
+procentuella andel övervägas. Genom en mera sparvänlig ekonomisk 
+politik bör förutsättningarna härför kunna förbättras.
+Den bättre planering som folkpartiförslaget förutsätter ger ju möjligheter
+till en mera effektiv användning av de tillgängliga resurserna. En på sikt
+planerad bostadsproduktion med bostadsobjekt i tillräckligt stora serier
+och som spänner över flera år verkar kostnadsnedpressande och därmed resursbesparande.
+ Upphandlingen av de stora entreprenader som förekommit
+under senare tid och där industriella byggmetoder används visar också att
+bostadsproduktionen kan genomföras till kostnader som är lägre än det
+statliga fastställda s. k. lånetaket. En målmedveten satsning på industriell
+bostadsproduktion och kostnadspressande rationaliseringar i alla led inom
+byggprocessen kan leda till ett ännu större byggande än som angivits här
+ovan.
+Standardfrågor
+En betydande ökning av rumsytorna har skett under perioden 1960—-
+1966. För tvårumslägenheterna har genomsnittsytan stigit från 58 till 65 m-,
+för trerumslägenheterna från 72 till 82 m2 och för fyrarumslägenheterna
+från 89 till 99 in2. Inrikesministern understryker mot bakgrund av denna
+utveckling att återhållsamhet i fråga om rumsytorna är starkt befogad för
+att den önskvärda begränsningen av byggnadskostnaderna per lägenhet skall
+kunna erhållas.
+Mot denna tankegång kan anföras att ytstandarden i bostäderna i vårt
+land fortfarande är låg trots den ökning som inrikesministern åberopar.
+Det är därför ovisst om statsmakterna bör verka för en allmän sänkning av
+ytstandarden. Däremot bör det vara önskvärt att de som efterfrågar bostäder 
+medges viss valmöjlighet även i detta avseende. De bostadskonsumenter 
+som önskar förbilliga boendet genom att välja en bostad med mindre yta
+i förhållande till rumsantalet än vad som i allmänhet är fallet i nyproduktionen 
+bör ges tillfälle till en sådan besparing.
+1969 103 000 +
+1970 108 000 +
+1971 112 000 +
+1972 115 000 +
+10 000
+10 000
+10 000
+10 000
+Motioner i Andra kammaren, nr 428 år 1968
+19
+Det är emellertid anledning ställa frågan: Kan någon nämnvärd besparing
+uppnås genom att ytorna minskas? Det är en vanlig uppfattning att de sista
+kvadratmeter na i en lägenhet är mycket billigare än genomsnittet. Följande
+exempel ger en föreställning om storleksordningen av de besparingar som
+kan uppnås:
+En modern trerumslägenhet på 85 m2 beräknas kosta i hyra (statsbelånat
+hus) 80 kronor per m2. Minskas ytan till 75 m2 men all utrustning i kök,
+badrum osv. behålles stiger hyran per in2 till 83: 64 kr. En lägenhet på 85 m2
+med en hyra på 80 kronor per m2 kostar per år 6 800 kr. En lägenhet på
+75 in2 som kostar 83: 64 per m2 får en årshyra på 6 273 kr. Genom att ytan
+minskats sjunker alltså år shyran med 527 kr. eller 44 kr. per månad.
+I motsats till ytstandarden är lägenhetsutrustningen hög i vårt land. Vissa 
+besparingsmöjligheter bör alltså kunna göras på detta område. Detta
+gäller särskilt om utrustning som lätt kan installeras senare. Även i fråga
+om utrustningsstandarden vore det önskvärt att det försöksvis erbjöds
+bostadskonsumenterna möjlighet att välja något lägre standard för att
+reducera hyran. Det är i första hand en uppgift för kommunerna att söka
+åstadkomma de valmöjligheter vi här har antytt.
+Fler småhus
+I Sverige har småhusens andel av nyproduktionen under senare år uppgått 
+till 30 % eller strax därunder. Denna andel är förhållandevis låg i
+jämförelse med vissa andra länder. I Danmark är andelen småhus ca 59 %,
+Norge ca 70 %, England ca 75 %, Holland ca 55 %, Västtyskland ca 49 %
+och USA ca 80 %. Med småhus menas här en- eller tvåfamilj shus.
+Vid avvägningen mellan småhus och flerfamiljshus bör bostadskonsumenternas 
+önskemål vara utslagsgivande. Vid ett fritt bostadsval skulle
+säkerligen konsumenternas efterfrågan på småhus vara större än vad som
+motsvaras av småhusens nuvarande andel i nyproduktionen.
+Småhusbebyggelse ger särskilt barnfamiljerna god boendemiljö. Bl. a.
+är de i dag så aktuella bullerproblemen mindre i småhusområden än i
+hyreshusområden.
+Ökade möjligheter att flytta in i ett småhus är dessutom sparfrämjande.
+En ökad småhusandel bidrar också till att minska efterfrågan på fritidshus.
+ Ökat småhusbyggande ger dessutom bättre förutsättningar för rationaliseringar 
+och en industriell produktion på småhusområdet som kan
+bromsa kostnadsutvecklingen.
+Vi förordar ett ökat småhusbyggande så att det bättre överensstämmer
+med bostadskonsumenternas efterfrågan. Det torde innebära att andelen
+småhus redan 1972 bör vara uppe i 40 %. Det är i första hand kommunernas
+planering som skall ge möjlighet uppnå denna målsättning.
+20
+Motioner i Andra kammaren, nr 428 år 1968
+Höjd förräntning av vissa äldre bostadslån
+Genom beslut av 1953 års riksdag slutreglerades de tilläggslån som utgått
+under 1940-talet, varvid huvuddelen återkrävdes och resten efterskänktes.
+1957 års riksdag beslöt att från och med den 1/1 1958 genomföra en begränsad 
+amortering av de under 1950-talet utbetalade provisoriska tilläggslånen
+med ett belopp motsvarande det kapitaliserade värdet av ett årligt bidrag
+av en krona per m* lägenhetsyta. Någon ränta skulle inte utgå, och amorteringstiden 
+bestämdes till 25 år. År 1959 beslöts att äldre tilläggslån skulle
+återbetalas intill ett belopp av två kronor per m2 lägenhetsyta. Överskjutande 
+belopp skulle alltjämt vara räntefritt och stående. 1961 beslöts emellertid 
+att de till amortering uppsagda delarna skulle förräntas med fyra
+procent.
+De årgångar av flerfamiljshus det här gäller åtnjuter betydande förmåner 
+emedan tertiärlåneräntan är bunden vid tre procent, medan man
+i senare och med högre byggnadskostnad uppförda hus betalar fyra procent.
+ En höjning av räntan på de utestående tilläggslånen till sex procent
+är därför motiverad och leder till minskade hyresklyftor mellan dessa hus
+och senare uppförda.
+Med anledning av ett motionsyrkande till fjolårets riksdag anförde statsutskottet 
+bl. a. att det i och för sig är motiverat att villkoren för äldre lån
+regleras när hyrespolitiskt utrymme uppstår. Utskottet hemställde om en
+utredning och förslag till nästa års riksdag i fråga om sådana ändringar
+av räntevillkoren.
+Bostadsstyrelsen har gjort en utredning om dessa lån och framhållit att
+ingenting i riksdagsbesluten eller i de föreskrifter som med anledning härav 
+utfärdats antyder att statsmakterna skulle ha avsett att framdeles ändra
+beslutens innebörd. Departementschefen anser att bostadsstyrelsen anfört
+vägande skäl och framlägger därför inte något förslag om ändrade räntevillkor.
+Vi delar inte departementschefens uppfattning i detta avseende. Riksdagen 
+har tidigare ansett sig kunna ändra lånevillkoren, exempelvis när
+de till amortering uppsagda tilläggslånen åsattes ränta år 1961. Riksdagsbesluten 
+har heller aldrig innehållit något uttalande, som har gett intryck
+av att den beslutade räntan aldrig skulle ändras. Vi föreslår därför att
+räntan på dessa lån från och med den första juli 1968 höjs från fyra till
+sex procent. En sådan höjning bör innebära en årlig inkomstökning för
+staten på i runt tal 18 milj. kronor.
+Det statsbelånade bostadsbyggandets fördelningssystem
+I föreliggande proposition begär regeringen riksdagens bemyndigande att
+om så visar sig lämpligt fördelningen på län och kommuner av det statsbelånade 
+bostadsbyggandet försöksvis får göras på annat sätt än i antal
+Motioner i Andra kammaren, nr 428 år 1968 21
+lägenheter. Vad som här åsyftas är en fördelning i finansiella termer eller
+i kvadratmeter våningsyta.
+Nuvarande system med fördelning av ramar i antal lägenheter är uppenbarligen 
+överlägsen alternativa fördelningsmetoder i fråga om den administrativa 
+enkelheten. I synnerhet fördelning i finansiella termer men även
+fördelning i kvadratmeter våningsyta innebär väsentliga administrativa
+olägenheter för kommuner och länsbostadsnämnder.
+Vi vill emellertid inte motsätta oss att Kungl. Maj:t av riksdagen ges
+bemyndigande att på försök fördela det statsbelånade bostadsbyggandet
+på annat sätt än i antal lägenheter.
+I överensstämmelse härmed och i enlighet med inrikesministerns uttalande 
+(sid. 155) i propositionen bör hemställan om sådant bemyndigande
+utformas så, att det klart framgår att det är fråga om en försöksverksamhet.
+Vad gäller fördelning i finansiella termer har bostadsstyrelsen i en promemoria 
+klarlagt att invändningar kan göras och att effekterna av en sådan
+fördelning är svåra att hedöma. Över bostadsstyrelsens utredning i denna
+fråga har vissa remissinstanser yttrat sig, varvid flertalet avstyrkt övergång 
+till användning av finansiella termer. Bl. a. anföres att en sådan övergång 
+dels skulle försämra förutsättningarna för en långsiktig planering
+och dels riskera ogynnsamma effekter på produktionsinriktningen. Mot
+bakgrund av vad som sålunda har framkommit rörande fördelning i finansiella 
+termer vill vi förorda att vid eventuell försöksverksamhet fördelning
+i kvadratmeter våningsyta i första hand bör komma i fråga.
+I detta sammanhang vill vi starkt framhålla att en eventuell ny fördelningsmetod 
+icke får leda till en ensidig inriktning av byggandet på de
+mindre lägenlietstyperna. I likhet med inrikesministern anser vi att en sådan 
+inriktning kan leda till en snedvridning av bostadsbeståndet. För vissa
+kommuner, t. ex. städer med stort inslag av undervisningsanstalter samt
+vårdinstitutioner och därav uppkommet särskilt stort behov av smålägenheter 
+för att tillgodose de studerandes och vårdpersonalens behov eller glesbygdskommuner 
+där pensionärer efterfrågar små lägenheter, kan en
+fördelning i kvadratmeter våningsyta vara att föredra om icke tillräckligt
+stor kvot i lägenheter kan erhållas.
+Byggandets geografiska fördelning
+Departementschefen erinrar om att igångsättningen under förra året
+uppvisar en förskjutning mot storstadsregionerna. Av det totala antalet
+påbörjade lägenheter hänförde sig omkring 40 procent till de nämnda regionerna 
+mot 35 procent under år 1966. Vi har tidigare i våra motioner understrukit 
+angelägenheten av att områden med svår bostadsbrist får en stor
+andel av bostadsbyggandet, något som också bör bli fallet i fortsättningen.
+Departementschefen framhåller att en avsevärd del av bostadsbyggandet
+22
+Motioner i Andra kammaren, nr 428 år 1968
+bör tillkomma orter som visserligen inte har någon påtaglig bostadsbrist
+men vilkas näringsliv befinner sig i expansiv utveckling. Vi delar departementschefens 
+uppfattning på den punkten.
+Lånegränser
+Under senare år har vissa bostadskreditgivare erhållit möjlighet att ge lån
+mot inteckningssäkerhet upp till 75 % av låneunderlaget. Med beaktande
+härav har några reservanter i bostadspolitiska kommittén föreslagit att
+statslånets undre gräns höjes från 70 till 75 %. Samtidigt bör bostadsstyrelsen 
+ges generellt bemyndigande att i erforderlig grad fördjupa det statliga 
+lånet. Vi tillstyrker detta förslag.
+Höjningen av statslånets undre gräns från 70 till 75 % av låneunderlaget
+minskar anspråket på utrymme i statsbudgeten för bostadsfinansiellt stöd
+och underlättar därigenom genomförandet av de av oss härnedan föreslagna 
+reformerna.
+I fråga om de övre lånegränserna för olika företagarkategorier innebär
+nuvarande regler att den övre lånegränsen, i procent av låneunderlaget, är
+100 procent för allmännyttiga företag, 95 procent för bostadsrättsförening
+med kommunal kontroll, 90 procent för småhus som skall bebos av låntagaren 
+och 85 procent för enskilda företag i övrigt. Departementschefen
+föreslår ingen ändring av ifrågavarande bestämmelser.
+Enligt vår mening talar emellertid starka skäl för att de statliga lånen
+till allmännyttiga företag utformas så, att riskfördelningen mellan staten
+och kommunerna framgår på ett klarare sätt. Detta gäller särskilt om de
+risker för förluster som uppstår i en balanserad marknad om bostadsbyggandet 
+på en ort inte får en sammansättning beträffande hustyper, ägandeformer 
+och lägenhetsstorlekar som svarar mot konsumenternas efterfrågan.
+ Om en för stor andel av bostadsproduktionen på en ort sker i form av
+stora hyreshus, medan konsumenternas efterfrågan mera riktar sig mot
+låghus, kan det blir svårt att hyra ut lägenheterna i hyreshusen till en
+hyra som svarar mot kostnaden. Förluster kommer då att uppstå.
+Genom den fysiska planeringen, markpolitiken, bostadsbyggnadsprogrammen,
+ den egna bostadsproduktionen samt förmedlingen av statliga
+bostadslån får kommunerna på ett avgörande sätt inflytande över bostadsbyggandets 
+inriktning. Det beror alltså på kommunernas bedömningar om
+bostadsproduktionen på orten får en inriktning som motsvarar konsumenternas 
+önskemål. Vi finner det därför rimligt att kommunerna tar åtminstone 
+någon del av topprisken i fråga om allmännyttiga företag.
+De enskilda byggherrarnas andel av nyproduktionen visar en fortsatt
+tillbakagång, vartill den statliga politiken medverkat. Om denna utveckling
+fortsätter är det till nackdel för konsumenterna, emedan konkurrensen
+i byggherre- och förvaltningsledet försvagas. Det bör vara i allas intresse att
+de allmännyttiga företagens resultat kan jämföras med en enskild bostads
+-
+23
+Motioner i Andra kammaren, nr 428 år 1968
+förvaltning som arbetar under likvärdiga villkor. Bostadsbyggandet sker
+numera i så stora enheter att det för varje objekt erfordras ett kapital som
+det för enskilda företag kan bli svårt att uppbringa. Vi anser därför att
+möjlighet bör skapas för dessa företag att erhålla ett större statslån än enligt
+gällande regler.
+Småhus är särskilt lämpade för barnfamiljer; de erbjuder dessutom en
+god form för enskilt sparande. Det är enligt vår mening önskvärt att underlätta 
+för den enskilde att välja denna bostadsform. En höjning av lånegränsen 
+för småhus som bebos av ägaren är enligt vår mening motiverad.
+Vi förordar att de allmännyttiga bostadsföretagen får låna upp till 100 %
+av låneunderlaget under förutsättning att kommunen ställer borgen för det
+statliga bostadslånet i inteckningläget mellan dettas övre gräns och 95 %
+av låneunderlaget. För småhus som byggs utanför detaljplanelagt område
+bör dock en förutsättning för höjning från 90 % till 95 % vara att kommunen 
+tecknar borgen för denna höjning.
+Tidigare underlag för beslut om lån och hyresmaximering bestämdes
+i tre etapper som ledde fram till tre olika belopp: låneunderlag, pantvärde
+och godkänd produktionskostnad. Låneunderlag och pantvärde bestämmer
+lånets storlek resp. läge i förmånsrättsordningen. Hyressättningen är beroende 
+av den godkända produktionskostnaden. Bostadspolitiska kommittén 
+föreslog att de tre beloppen skall bakas samman till ett.
+Ett skäl för kommitténs förslag är att den nämnda uppdelningen väsentligen 
+betingades av den med långivningen förenade subventioneringen. I det
+från och med den 1 januari 1968 nya lånesystemet skall ej ingå subvention.
+Nyssnämnda motiv för uppdelning på tre belopp bortfaller därmed. Ett
+ytterligare skäl för kommittéförslaget är den förenkling av administrationen
+av lånen som det medför.
+Genom sammanföring av låneunderlag, pantvärde och produktionskostnad
+skulle överkostnadsproblemet avsevärt minskas. Vi finner starka skäl föreligga 
+för att kommitténs förslag på denna punkt bör genomföras och tillstyrker 
+därför detsamma.
+Avslutningsvis må nämnas att hyresfrågor och markfrågor behandlas
+i särskilda gemensamma motioner från folkpartiet och centerpartiet.
+Under hänvisning till det anförda hemställes,
+att riksdagen måtte
+1) godkänna riktpunkter för ett ordinarie bostadsbyggnadsprogram 
+innebärande igångsättning av
+för 1968 100 000 lägenheter + 10 000 konjunkturreserv
+» 1969 103 000 » + 10 000 »
+1970 108 000 » + 10 000 »
+1971 112 000 » + 10 000 »
+1972 115 000 » + 10 000 »
+»
+24
+Motioner i Andra kammaren, nr 428 år 1968
+2) beträffande bostadsbyggandets struktur och geografiska
+fördelning i skrivelse till Kungl. Maj :t uttala
+a) att erforderliga åtgärder bör vidtas för att successivt
+öka småhusbyggandets andel av bostadsproduktionen, vilket
+den väntade utvecklingen av efterfrågan motiverar, med en
+riktpunkt tills vidare att uppnå 40 % 1972, och vidare att
+den ökning av den totala produktionen, som ovan framlagda
+program innebär, alltså i första hand bör komma småhusbyggandet 
+till godo,
+b) att bostadsproduktionen i takt med tillgängliga markoch 
+planeringsresurser och med större målmedvetenhet bör
+inriktas på områden där bostadsbristen är störst eller eljest
+skulle bli besvärande samt att ansträngningar bör göras för
+att minska efterfrågetrycket i storstadsområdena genom en
+aktiv lokaliseringspolitik, som ger sysselsättning utanför
+dessa områden;
+3) besluta att räntan på nu amorteringspliktiga tilläggslån
+skall fastställas till 6 % mot nuvarande 4 % samt att denna
+subventionsminskning skall träda i kraft fr. o. m. den 1 juli
+1968;
+4) medge Kungl. Maj :t att på försök fördela det statsbelånade 
+bostadsbyggandet på annat sätt än i antal lägenheter
+och efter eventuell sådan försöksverksamhet redovisa erfarenheterna 
+för riksdagen;
+5) i skrivelse till Kungl. Maj :t hemställa att bostadsstyrelsen 
+får generellt bemyndigande att fördjupa det statliga 
+bostadslånet;
+6) beträffande den statliga bostadslångivningen
+a) höja den undre gränsen för de statliga bostadslånen,
+från 70 till 75 %,
+b) fastställa den övre lånegränsen i fråga om lån till kommun 
+eller allmännyttigt bostadsföretag till 100 % av låneunderlaget 
+under förutsättning att kommun ställer borgen
+för bostadslånen mellan 95 och 100 %,
+c) fastställa den övre lånegränsen för småhus som bebos
+av låntagaren till 95 % av låneunderlaget,
+d) fastställa den övre lånegränsen för enskilt ägda flerfamiljshus 
+till 90 % av låneunderlaget,
+e) tillstyrka att ett låneunderlag skall utgöra ett och
+samma belopp,
+Motioner i Andra kammaren, nr 428 år 1968 25
+beräknat i överensstämmelse med av bostadspolitiska kommittén 
+förordade grunder.
+Stockholm den 25 januari 1968
+Sven Wedén (fp) Cecilia Nettelbrandt (fp) Sven Gustafson (fp)
+i Göteborg
+Ingemar Mundebo (fp) Bertil Ohlin (fp) Henning Gustafsson (fp)
+Elias Jönsson (fp) Sven Antbg (fp)
+i Ingemarsgården
+kammare
+kammare
+Andra kammaren
+ET2O428
+2018-02-20 21:03:47
+riksdag
+riksdag
+tvåkammaren
+ET2O428
+2018-02-20 21:03:47
+session
+session
+lagtima
+ET2O428
+2018-02-20 21:03:47
+sidantal
+Antal sidor
+14
+ET2O428
+2018-02-20 21:03:47
+ET2O428
+Andra kammaren
+mot_1968__ak__428.pdf
+858173
+pdf
+Motioner i Andra kammaren, nr 428 år 1968
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1968/web_mot_1968__ak__428/mot_1968__ak__428.pdf

@@ -1,0 +1,114 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 292—293 dr 1959
+9
+Nr 292
+Av herr Ohlin m. fl., angående vissa vidgade direktiv för
+besparingsutredningen.
+Med hänvisning till vad vi i de likalydande motionerna 1:301 och
+11:370 anfört beträffande det statsfinansiella läget och den närmaste
+utvecklingen, så vitt den nu kan bedömas, får vi föreslå,
+att riksdagen i skrivelse till Kungl. Maj :t hemställer,
+att besparingsutredningen erhåller direktiv att överse de
+statliga utgifterna i syfte att nå besparingar som — under 
+förutsättning att en normal konjunktur återvänt —
+kan leda till balans i driftbudgeten under året 1960/61
+utan ökning av skattetrycket.
+Stockholm den 27 januari 1959
+Bertil Ohlin O. Malmborg Manne Ståhl
+Sven Wedén Wald. Svensson Sven Gustafson
+i Göteborg
+Ragnhild Sandström Henning Gustafsson
+i Skellefteå
+Nr 293
+Av herr Ohlin m.fl., i anledning av Kungl. Maj ds framställning 
+om anslag till Skadeersättning till kommunerna.
+Med hänvisning till innehållet i de likalydande motionerna 1:282 och
+11:353 hemställes,
+att riksdagen måtte under sjunde huvudtiteln till
+Skatteersättning till kommunerna för budgetåret 1959/60
+anvisa ett förslagsanslag av 540000 000 kronor.
+Stockholm den 27 januari 1959
+Bertil Ohlin O. Malmborg Sven Gustafson
+i Göteborg
+Manne Ståhl Ragnhild Sandström Henning Gustafsson
+i Skellefteå
+Sven Wedén
+Wald. Svensson
+kammare
+kammare
+Andra kammaren
+EK2O292
+2018-03-01 22:57:58
+riksdag
+riksdag
+tvåkammaren
+EK2O292
+2018-03-01 22:57:58
+session
+session
+lagtima
+EK2O292
+2018-03-01 22:57:58
+sidantal
+Antal sidor
+1
+EK2O292
+2018-03-01 22:57:58
+EK2O292
+Andra kammaren
+mot_1959__ak__292.pdf
+143340
+pdf
+Motioner i Andra kammaren, nr 292—293 dr 1959
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1959/web_mot_1959__ak__292/mot_1959__ak__292.pdf

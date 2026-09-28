@@ -1,0 +1,98 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 695 år 196b
+15
+Nr 695
+Av herr Ohlin m. fl., om höjning av folkpensionsavgiften.
+(Lika lydande med motion nr 602 i Första kammaren)
+Under hänvisning till den motivering som vi anfört i de denna dag avlämnade 
+likalydande motionerna I: 559 och II: 694 föreslår vi,
+1. att riksdagen måtte för sin del besluta sådan ändring
+av lagen om allmän försäkring att folkpensionsavgiften
+med tillämpning från den 1 juli 1964 skall uttagas med fem
+procent för år räknat, samt
+2. att vederbörande utskott måtte utarbeta förslag till erforderlig 
+författningstext.
+Stockholm den 26 januari 1964
+Bertil Ohlin Bertil von Friesen Henning Gustafsson
+Sven Gustafson Gunnar Helén Sven Wedén
+Gustaf Kollberg
+Manne Ståhl
+Brita Elmén
+kammare
+kammare
+Andra kammaren
+EP2O695
+2018-03-01 21:51:59
+riksdag
+riksdag
+tvåkammaren
+EP2O695
+2018-03-01 21:51:59
+session
+session
+lagtima
+EP2O695
+2018-03-01 21:51:59
+sidantal
+Antal sidor
+1
+EP2O695
+2018-03-01 21:51:59
+EP2O695
+Andra kammaren
+mot_1964__ak__695.pdf
+107540
+pdf
+Motioner i Andra kammaren, nr 695 år 196b
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1964/web_mot_1964__ak__695/mot_1964__ak__695.pdf

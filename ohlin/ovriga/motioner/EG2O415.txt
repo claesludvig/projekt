@@ -1,0 +1,579 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+12
+Motioner i Andra kammaren, nr 415 år 1955
+Nr 415
+Av herr Ohlin m. fl., angående den statliga bostadspolitiken.
+A. Bostadsbyggandets omfattning
+1. Utvecklingen efter kriget
+Nara tio år efter det andra världskrigets slut är bostadsbristen alltjämt icke
+blott av stor omfattning, utan även mångenstädes avsevärt större än för tio
+år sedan. Det allmännas åtgärder för att stärka framför allt det stora flertalet
+barnfamiljers möjligheter att få bättre bostäder, vilka åtgärder haft vårt fulla
+stöd, har visserligen lett till att ett mycket stort antal familjehushåll nu har
+bättre bostäder än vad de utan dessa åtgärder skulle ha haft. Men när det
+gällt bostadsproduktionens omfattning måste det konstateras, att den förda
+politiken allvarligt misslyckats att tillgodose den ökade efterfrågan på goda
+bostäder till rimligt pris som framträtt. För detta misslyckande i fråga om
+bostadsbyggandets storlek delar vi intet ansvar, då vi i väsentliga avseenden
+företrätt eu mer produktionsstimulerande politik än den som förts. Sålunda
+hai \i sedan länge konsekvent hävdat, att ett upprätthållande av den samhällsekonomiska 
+balansen och större frihet för bostadsbyggandet från regleringar
+måste bereda bostadsproduktionen ökade möjligheter. Likaledes har vi hävdat
+nödvändigheten att ge olika företagsformer mera likvärdiga konkurrensvillkor.
+^ idare har vi framhållit, att det allmännas politik måste mer direkt stimulera
+rationellt och effektivt byggande.
+Under det senaste skedet har regeringen i vissa avseenden närmat sig de
+liktlinjer vi företrätt, särskilt beträffande bostadsbyggandet och byggnadsregleringen.
+ De goda verkningarna härav framträder i utvecklingen under de tre
+senaste åren, då antalet färdiga lägenheter ökat från ca 45 000 under 1952 till
+52 000 under 1953 och en beräknad siffra av ca 55 000 under 1954. Den under
+de båda senaste åren igångsatta nyproduktionen har vidare omfattat betydligt
+flera lägenheter än vad som under samma år blivit färdiga. Då utvecklingen
+inom bostadsbyggandet samtidigt icke uppvisat några stockningssymtom av
+den art, som tydligt framträdde under t. ex. 1951 och 1947, måste man räkna
+med att kapacitetsökningen är icke obetydligt större än vad som hittills hunnit
+framträda i antalet färdiga lägenheter.
+o Vi vil1 emellertid framhålla, att samtidigt som således under de båda sista
+åiens friare system en icke obetydlig absolut ökning av investeringarna i
+bostadsbyggandet skett, sa har dettas andel av de totala bruttoinvesteringarna
+blivit kvar på en rekordlåg nivå. År 1951, då antalet färdigställda lägenheter
+\ ar det lägsta efter kriget eller knappt 40 000, uppgick således investeringarna i
+Motioner i Andra kammaren, nr 415 år 1955
+13
+bostäder till 20,9 % av samtliga, medan bostadsinvesteringarna för 1952 och
+1953 utgjorde respektive 19,9 och 20,4 samt för 1954 beräknas uppgå till
+20,5 % av samtliga. Som jämförelse kan nämnas, att bostadsinvesteringarnas
+andel 1938/39 och 1946/47 uppgick till 29—30 % och ännu 1949 till 23 % av
+samtliga.
+Sedan 1946 har värdet av de totala bruttoinvesteringarna stigit för varje
+år. Deras andel av hela bruttonationalprodukten har ökat från 25,4 % 1946
+till 30,9 % 1954. Volymmässigt anges i nationalbudgeten ökningen av den totala
+investeringen mellan dessa båda år till ca 50 %. Under samma tid har bostadsbyggandets 
+volym något minskat. Det vore således verklighetsfrämmande att
+söka hävda att bostadsbyggandet tillåtits undantränga andra investeringsanspråk.
+Mot denna bakgrund måste vi livligt beklaga att regeringen nu funnit det
+nödvändigt att ålägga bostadsbyggandet nya begränsningar.
+2. Bostadsbyggandet i nuvarande läge
+Det allmännas politik kan påverka bostadsbyggandets omfattning främst på
+fyra olika sätt, nämligen genom 1) direkt reglering, 2) storleken av den ram
+som fastställes för bostadsstyrelsens preliminära beviljande av bostadslån, 3)
+rationaliseringsfrämjande utformning av de statliga åtgärderna, 4) den statsekonomiska 
+politiken i stort, som bl. a. syftar till upprätthållandet av den samhällsekonomiska 
+balansen, särskilt balansen mellan investeringar och sparande.
+Den förda politiken har enligt vår mening icke tillräckligt beaktat betydelsen
+av de båda sistnämnda slagen av påverkningar. För vår del har vi beträffande
+det samhällsekonomiska balansproblemet i andra sammanhang utförligt hävdat
+följande två väsentliga synpunkter. För det första påverkas det totala utrymmet 
+för investeringar starkt av i vilken utsträckning det allmännas ekonomiska 
+politik och skattepolitik befordrar medborgarnas eget sparande. För det
+andra har vi framhållit, att efterkrigstidens ekonomiska politik, som sökt åstadkomma 
+jämvikt, dels genom direkta investeringsregleringar och dels genom
+avsevärt högre skatteuttag än vad som krävts för att på ett normalt sätt täcka
+statens löpande utgifter, i längden måste visa sig vara ett icke tillrådligt sätt
+att söka skapa varaktig stabilitet och balans i samhällsekonomien. En sådan
+politik minskar visserligen medborgarnas dispositionsrätt över sina inkomster
+och näringslivets investeringsanspråk och kan därigenom reducera efterfrågan.
+Men samtidigt reducerar den det enskilda sparandet och ökar riskerna för felinvesteringar.
+ De samlade resursernas tillväxt påverkas då i negativ riktning.
+En politik från det allmännas sida, som vill åstadkomma en mer varaktig stabilitet 
+och balans i samhällsekonomien och säkra ett så jämnt och kraftigt allmänt
+framåtskridande som möjligt, måste därför, som vi i annat sammanhang utvecklar,
+ för framtiden utformas så, att sparande och rationaliseringsansträng
+-
+Motioner i Andra kammaren, nr 415 år 1955
+ningar i avsevärt högre grad än vad som varit fallet under senare år positivt
+uppmuntras, och den eftersträvade balansen därmed i mindre utsträckning
+åstadkommes genom press nedåt på investeringarna och uppåt på skatterna
+men i större utsträckning genom ökat enskilt sparande och snabbare tillväxt av
+resurserna.
+Dessa allmänna synpunkter har stor betydelse även för bostadspolitikens utformning 
+och den omfattning av bostadsbyggandet som kan bli möjlig. Vi
+konstaterar, att regeringen i nuvarande läge åter alltför ensidigt tillgriper
+negativa medel. För bostadsbyggandets del tar sig detta uttryck främst i en
+inskränkning av egnahemsbyggandet. Även för bostadsproduktionen i dess helhet 
+innebär regeringens förslag icke endast ett stopp för den under de senare
+två åren pågående ökningen, utan även utpräglade risker för en ny nedgång.
+Under 1953 torde över 60 000 lägenheter ha påbörjats i hela landet. Det synes
+sannolikt att igångsättningen nära nalkats den siffran även 1954. För budgetåret 
+1955/56 beräknar socialministern en igångsättning av ea 54 000 lägenheter
+i statsbelånade hus, varvid med tillägg för de hus som bygges utan sådana lån
+den totala igångsättningen skulle komma att uppgå till 57 000 å 58 000 lägenheter.
+ Här framträder således under nästa budgetår en direkt minskning.
+Bostädernas andel av den totala bruttoinvesteringen har som ovan nämnts,
+från 1946 till 1954 gått ned från 29,7 % till 20,5 %. För 1955 räknas i nationalbudgeten 
+med en oförändrad investering i bostäder jämfört med 1954. Övriga
+investeringar beräknas fortsätta att växa med något över en halv miljard. Efter
+1955 kan emellertid, som framgår av ovanstående, om regeringens förslag godtages,
+ enligt vår mening en direkt minskning av bostadsinvesteringarna befaras
+jämfört med nuvarande nivå.
+Regeringens program innebär alltså en fortgående minskning av bostadsbyggandets 
+andel av alla investeringar från den nuvarande mycket låga nivån
+och även risk för en absolut reducering av detsamma.
+B. En ytterligare minskning av bostadsbyggandets andel
+av den totala investeringen kan ej accepteras
+1. Mer sparande och rationalisering inom bostadsbyggandet
+Det måste således konstateras att regeringens ekonomiska politik, som åter
+ensidigt möter det skärpta konjunkturläget med högre skatter och hårdare
+reglering, ännu en gång drabbar bostadsbyggandet. Enligt vår mening kan med
+den alltjämt flerstädes rådande svåra bostadsbristen en politik, som medför en
+ytterligare minskning, relativt och absolut, av bostadsinvesteringarna, icke godtagas.
+I det rådande läget är det särskilt angeläget att ytterligare åtgärder vidtages
+för att främja rationellt och effektivt byggande. Tyvärr saknas emellertid även
+i år förslag från regeringens sida att direkt inrikta det allmännas bostads
+-
+Motioner i Andra kammaren, nr 415 år 1955
+15
+politik i detta syfte. Utformningen i detalj av sådana åtgärder kan icke ske
+utan tillgång till erforderlig sakkunskap och expertis. Nedan måste vi därför
+inskränka oss till att ange några exempel på de av oss åsyftade åtgärdernas
+principiella karaktär.
+a) Ett flertal typer av egnahem med god standard, som kan byggas till låga
+kostnader, har under senare tid utarbetats och praktiskt prövats. Dessa har
+också väckt en icke obetydlig uppmärksamhet. Icke desto mindre anser vi att
+betydligt mer kan göras för att sprida ökad kännedom om de nya hustyperna
+iios alla som reflekterar på att bygga. Såväl producenterna som kommunerna
+och bostadsstvrelsen är säkert beredda till intresserad medverkan i detta syfte.
+b) Den nuvarande amorteringstiden för egnahemslån — 30 år bör bibehållas 
+för alla byggare, som bygger till en lämpligt avvägd maximikostnad. Vid
+högre kostnader än den sålunda fastställda maximikostnaden bör man överväga
+att räkna med en kortare amorteringstid. Metoder bör övervägas att uppmuntra
+egnahemsägare till snabbare amortering genom en viss nedsättning av till
+betalning förfallna räntor om de frivilligt binder sig för större amorteringar
+än enligt fastställd plan.
+c) I städer och tätorter har ibland en samtidig bebyggelse av ett helt egnahemsområde 
+kommit till stånd. Härigenom öppnas möjligheter för en produktion 
+av egnahem som kan tillgodogöra sig vissa av stordriftens fördelar, t. ex.
+genom rationell materialanskaffning och planering av egnahemsbyggarnas egna
+arbete. Där lämpliga förutsättningar föreligger bör egnahemsbyggande i denna
+form i ökad utsträckning komma till användning.
+d) Även för flerfamiljshusen bör man pröva en differentiering av lånevillkoren,
+ så att den som bygger till en på lämpligt sätt fastställd normalkostnad
+får lånevillkor motsvarande de av regeringen föreslagna. Vid lägre kostnader
+skulle något fördelaktigare villkor lämnas byggherren och vid högre kostnader
+än normalkostnaden skulle lånevillkoren i motsvarande grad skärpas.
+e) Möjligheterna bör undersökas att uppmuntra alla företagsformer att driva
+fram kostnadssparande projekt av den art, som kommit till stand i Stockholm
+genom befrielse från vissa av den nuvarande byggnadslagstiftningens bestämmelser.
+ Den pågående utredningen beträffande de byggnadstekniska författningarna 
+måste också erhålla direktiv att snabbt avsluta sitt arbete, så att ur författningarna 
+generellt kan utrensas hinder för ett effektivare och billigare bostadsbyggande.
+ I samband härmed bör byggarnas kontakt med myndigheterna,
+när det gäller ansökningar av olika slag, förenklas, och antalet myndigheter,
+vars utlåtande måste inhämtas, begränsas. Stadsplanernas och hustypernas betydelse 
+för ett rationellt byggande måste mera uppmärksammas.
+f) I det nuvarande stödet till bostadsbyggandet ingår även en viss räntesubvention.
+ Densamma innebär, att nedsättningen av byggarens kapitalutgifter
+blir större ju högre byggnadskostnaden är, så länge han håller sig inom de
+gränser, som över huvud taget kan godkännas för belåning. Denna subvention
+varierar alltså med den faktiskt redovisade kostnaden, vilket däremot numera
+16
+Motioner i Andra hammaren, nr 415 år 1955
+icke är fallet med de räntefria stående delarna av egnahemslån, icke heller med
+de till flerfamiljshus utgående tilläggslånen eller de löpande bidrag, per in2,
+som \i förordar i tilläggslånens ställe. Detta är ett ytterligare exempel på att
+eu snabbundersökning för att få fram lånevillkor och stödformer, som verkar
+positivt stimulerande på strävandena att rationalisera bostadsproduktionen,
+är av behovet påkallad.
+g) En sådan undersökning bör även taga sikte på att bostadsstödet bör givas
+en sådan utformning att det även kan brukas i säsongutjämningens tjänst betiäffande 
+byggnadsarbetsmarknaden. Sålunda bör övervägas att omkring det
+genomsnitt som Kungl. Maj:ts förslag innebär även variera stödet så att företag,
+ som bedrives huvudsakligen under en ur säsongutjämningssynpunkt fördelaktig 
+period, erhåller en något större andel än genomsnittet, och företag,
+som bedrives under en ur denna synpunkt besvärligare tid, motsvarande mindre
+andel.
+\i vill understryka att en samlad attack av här antytt slag för att åstadkomma 
+större effektivitet och lägre kostnader inom bostadsproduktionen icke
+får gå ut över normala krav på kvalitet och modernitet i huvudsaklig överensstämmelse 
+med vad som för närvarande gäller. Någon pressning bör icke ske
+på lägenheternas utrymmesstandard. Det förtjänar framhållas att i nationalbudgeten 
+lämnas uppgiften att den genomsnittliga storleken av under 1952
+och 1953 producerade lägenheter hade sjunkit till samma nivå som för åren
+1938—1939. Under 1954 synes någon förbättring åter ha ägt rum främst på
+grund av ökat egnahemsbyggande. Om den begränsning av egnahemsbyggandet,
+som regeringens förslag innebär, skulle genomföras, betyder detta alltså utpräglade 
+risker för ett icke önskvärt tillbakasteg i fråga om utrymmesstandarden.
+Vi föreslår således riksdagen, att hos Kungl. Maj:t anhålla att åtgärder vidtages 
+för en brett lagd rationaliseringsoffensiv i syfte att praktiskt och i full
+skala utnyttja de tekniska framsteg, som gjorts inom bostadsbyggandet under
+senare år. Riksdagen bör även anhålla om en omläggning av den statliga lånepolitiken 
+efter de riktlinjer, som av oss ovan exemplifierats.
+2. Bostadsbyggandet och investeringsutrymmet. Folkpartiets förslag
+Som i det föregående påpekats är det totala utrymmet för investeringar
+beroende av sparandets utveckling. Den politik vi företräder uppmuntrar till
+ökat sparande. Ovan har vi pekat på några möjligheter till en sparstimulerande
+uppläggning av själva bostadspolitiken, i annat sammanhang föreslår vi ytterligare 
+sparfrämjandet åtgärder. Den av oss förordade bostadspolitiken är givetvis 
+ett led i eu allmän ekonomisk politik av detta slag.
+\ i beräknar att målmedvetna ansträngningar efter ovannämnda riktlinjer
+för att framja rationellt och billigt byggande kan öka produktionskapaciteten
+inom byggnadsindustrien vid oförändrad kostnadsram med ca 5 % - motsvarande 
+åtminstone 2 000 å 3 000 lägenheter under budgetåret 1955/56. För
+Motioner i Andra kammaren, nr 415 år 1955
+17
+att hindra eu nedpressning av bostädernas låga andel av våra investeringar bör
+därutöver den av regeringen föreslagna kreditramen vidgas för att rymma
+ytterligare 2 000 å 3 000 lägenheter eller med ca 50 miljoner kronor. Därigenom
+blir det möjligt att under nästa budgetår vidmakthålla en omfattning av bostadsbyggandet 
+av 62 000—64 000 lägenheter och undvika den minskning av
+bostadsproduktionen på något längre sikt, som med regeringens förslag hotar,
+och som vi icke kan medverka till. Vad beträffar särskilt egnahemsbvggandet
+bör detta som under 1954 tills vidare kunna fortgå utan särskild begränsning.
+Vi beräknar emellertid att ett antal av cirka 18 000 under budgetåret påbörjade
+statsbelånade egnahem bör angivas som riktlinje och riksdagen på nytt underställas 
+frågan, såvida risk för kreditramens sprängning uppstår.
+Givetvis förutsätter vårt förslag en politik från riksbankens sida, som håller
+den allmänna kreditmarknaden tillräckligt stram. Om härigenom variationer
+i räntesatserna skulle föranledas, kan, med det system av löpande bidrag till
+bostäder som vi förordar, sådana variationer utan särskilda tekniska svårigheter 
+utjämnas inom bostadssektorn.
+Vårt förslag förestavas alltså av att vi icke kan ta på vårt ansvar att medverka 
+till en ny minskning av bostadsbyggandets redan starkt nedpressade
+andel av våra resurser. För den händelse situationen på byggnadsarbetsmarknaden 
+likväl skulle bli ansträngd bör därför regeringen överväga på vilka
+punkter ett uppskov med annan byggnads- och anläggningsverksamhet än bostadsbyggande 
+kan och bör ske.
+C. Låne- och stödfonner
+1. Regeringens förslag
+På kapitalbudgeten äskar socialministern ett anslag till lånefonden för bostadsbyggande 
+för budgetåret 1955/56 av 490 miljoner kronor och för tilläggslån 
+till viss bostadsbyggnadsverksamhet 210 miljoner kronor. Riksdagens godkännande 
+begäres av bemyndigande för bostadsstyrelsen att under ifrågavarande 
+budgetår medgiva preliminära beslut angående lån från fonden för
+bostadsbyggande intill ett belopp av 650 miljoner kronor och från anslaget till
+tilläggslån intill ett belopp av 140 miljoner kronor.
+Vad gäller bostadsstyrelsens bemyndiganderamar för innevarande budgetår har
+socialministern i särskild proposition hemställt, att dessa må vidgas från 550
+miljoner kronor till 750 miljoner kronor beträffande tertiärlån och från 167
+miljoner kronor till 227 miljoner kronor beträffande tilläggslån. Vidare äskas
+på tilläggsstat ett investeringsanslag till lånefonden för bostadsbyggande av 95
+miljoner kronor.
+Det generella stödet till nya flerfamiljshus föreslås sänkt från 2 kronor till
+.1 krona per m2 fr. o. m. den 1 april 1956. De räntefria stående delarna av
+egnahemslån sänks från samma tidpunkt från 8 000 till 6 000 kronor.
+2 Uihang till riksdagens protokoll 1955. 4 samt. Nr 40H—415
+18
+Motioner i Andra kammaren, nr 415 år 1955
+2. Löpande bidrag eller tilläggslån
+Socialministern föreslår icke ändring beträffande formen för subventionerna.
+Dessa förutsättes utgå genom tilläggslån som hittills till flerfamiljshus. Yi förordar 
+alltjämt ett utbyte av denna subventionsform mot löpande bidrag. Detta
+är i huvudsak i överensstämmelse med vad 1951 års bostadsutredning enhälligt 
+föreslagit. 1 praktiken skulle detta förslag innebära, att det allmänna betalar 
+räntan och en skälig årlig amortering på den del av i flerfamiljshus
+investerat kapital, som tills vidare av bostadspolitiska skäl befrias från vanliga
+förräntningskrav.
+Denna omläggning påverkar alltså icke den allmänna hyresnivån, och subventionerna 
+bibehålies och avvecklas i samma utsträckning som med hittillsvarande 
+tilläggslån. Vad beträffar subventionernas storlek och den fortsatta
+avvecklingen av desamma kan vi följaktligen beträffande flerfamiljshusen ansluta 
+oss till socialministerns förslag.
+Vad angår de räntefria, stående delarna av egnahemslån, finner vi den reduktion 
+som av regeringen föreslagits motiverad mot bakgrunden av de kostnadspressande 
+tekniska framsteg som gjorts beträffande egnahemsbyggandet.
+Ovan har vi förklarat att den av regeringen föreslagna inskränkningen av
+egnahemsbyggandet icke kan av oss accepteras utan i stället förordat en vidare
+ram för detsamma än vad Kungl. Maj: t föreslagit, dock anser vi, att den räntefria 
+stående delen bör reduceras till förslagsvis 4 000 kronor, när den lånesökandes 
+inkomstläge gör detta skäligt. Förslag om denna inkomstprövning bör stadsstyrelsen 
+anmodas att snarast framlägga. Dessa åtgärder, vilka minskar de statliga 
+kostnaderna, skulle möjliggöra ett ökat egnahemsbyggande utan proportionell
+ökning av statens utgifter för det statliga bidraget.
+Starka skäl finnes för den av 1951 års bostadsutredning föreslagna omläggningen 
+av stödet till flerfamiljshus. Ett system med löpande bidrag är enligt
+vår mening en tekniskt lätthanterligare form för det statliga stödet till hyreshusen 
+än tilläggslån en, samt ger dessutom en klar redovisning av vad det
+statliga hyresstödet verkligen kostar för det aktuella budgetåret. Det nuvarande
+systemet, som innnebär att driftbudgeten under ett enda år belastas med kostnader 
+för hyresnedsättningen i en årsproduktion lägenheter för myeket lång
+tid framåt, uppväcker överdrivna och felaktiga föreställningar om de reella
+kostnaderna för det statliga bostadsstödet. Vi vidhåller därför vår uppfattning,
+ att för flerfamiljshus en omläggning till löpande bidrag bör företagas,
+och föreslår, att riksdagen beslutar att den nya ordningen skall tillämpas från
+och med ingången av nästa budgetår. För egnahemshusen förutsätter vi däremot 
+att ingen ändring av stödformen skall ske. 3
+3. Anslagsbelopp och kreditramar
+Om stödet till hyreshusen i fortsättningen utgår i form av löpande bidrag,
+erfordras inte något anslag på kapitalbudgeten till tilläggslån. Som ovan nämnts
+Motioner i Andra kammaren, nr 415 år 1955
+19
+har socialministern föreslagit, att 210 miljoner kronor som ett investeringsanslag 
+skall tillföras tilläggslånefonden och 490 miljoner på samma sätt lånefonden 
+för bostadsbyggande. Enligt vårt förslag skall också anslaget till till1 
+äggslån i sin helhet tillföras bostadslånefonden. Då vi dessutom, som ovan
+framhållits, hävdar, att en ytterligare relativ eller absolut nedgång av bostadsinvesteringama 
+om möjligt måste förhindras, avser vi att en uppräkning i
+jämförelse med regeringens förslag med 50 miljoner bör ske. Vi förordar således
+att investeringsanslaget för bostadsbyggandet anvisas med (490 + 210 + oO =)
+750 miljoner. Socialministern föreslår en kreditram för preliminära lån av
+sammanlagt (650 + 140»=) 790 miljoner. I enlighet med ovanstående föieslåi
+vi att bostadsstyreisen skall bemyndigas att meddela beslut om preliminära
+lån under nästa budgetår intill ett belopp av 840 miljoner kronor.
+Vid övergång till löpande bidrag måste ett anslag upptagas på driftbudgeten,
+så avpassat att den hyressänkande effekten av stödet blir densamma som enligt
+regeringens förslag. Detta uppnås om anslaget är tillräckligt för att medge
+förräntning och en skälig amortering med betryggande säkerhetsmarginal av
+ett kapitalbelopp av samma storleksordning, som avsättningen till fonden för
+tilläggslån. I en utredning om saneringsfrågan, verkställd av bostadsstyrelsen
+och byggnadsstyrelsen, föreslås en speciell saneringssubvention. Denna föreslås
+utgå i form av ett löpande bidrag, så avpassat att det förräntar och amorterar
+den del av kapitalkostnaden som staten åtager sig att finansiera. Utredningen
+föreslår att bidraget beräknas efter 3,5 % ränta och en amorteringstid av 40 år.
+För vår del anser vi dock, att, man bör räkna med en något snabbare amortering 
+förslagsvis 30 år, samt att räntekostnaden bör beräknas efter 3.75 %.
+En årlig annuitet om 6 % inrymmer då eu betryggande marginal. Anslaget till
+löpande bidrag för kommande budgetår skulle alltså beräknas efter 6 c/o på
+210 miljoner kronor eller 12,6 miljoner kronor, avrundat till 13 miljoner kronor.
+I motion 11:386 till fjolårets riksdag föreslogs, att ränteförlusten på de
+treprocentiga tertiärlånen i fortsättningen inte skulle föranleda särskilda avskrivningar,
+ utan att anslag till ränteförluster för löpande budgetår skulle upptagas 
+på driftbudgeten. Den subvention, som staten ger i form av nedsatt ränta
+på tertiärlånet-, bör alltså enligt vår mening uttaxeras årligen på samma sätt
+som utgifterna för subventioneringen av bottenlåneränta. I kapitalbudgeten föreslås 
+ett investeringsanslag till lånefonden för bostadsbyggande av 490 000 000
+kronor. Av denna summa beräknas 100 000 000 kronor komma att utgå till
+rån tefria lån till enfamiljshus. Till tertiärlån och räntebärande egnahemslån
+beräknas alltså utgå ett, belopp av 390 000 000 kronor. Då vi föreslagit ett med
+50 miljoner kronor förhöjt investeringsanslag räknar vi här med ett belopp av
+440 miljoner. På driftbudgeten skulle således upptagas et t anslag som täcker
+skillnaden mellan 3 % och statens upplåningsränta på detta belopp. Anslaget
+bör enligt vår mening beräknas efter 0,75 % på 440 miljoner kronor, eller i
+runt tal 3,3 miljoner kronor. Kostnaderna för ett löpande bidrag enligt vårt
+förslag blir således (13 + 3,3=) 16,3 miljoner kronor. ''Ni förordar följaktligen
+20
+Motioner i Andra kammaren, nr 415 år 1955
+att anslaget till kapitalmedelsförluster och ränteeftergifter uppräknas med detta
+belopp till 36,3 miljoner kronor.
+D. Avskrivningarna
+I det föregående har vi föreslagit att tilläggslån till flerfamiljshus skall upphöra 
+att utgå och ersättas med ett årligt löpande bidrag, tillräckligt för att
+täcka räntekostnad och skälig amortering av den del av fastighetskapitalet, som
+enligt nuvarande stödformer finansieras genom tilläggslån. Anslag på kapitalbudgeten 
+till fonden för låneunderstöd blir då onödigt. I stället har anslaget
+till lånefonden för bostadsbyggande enligt vårt förslag ökats med ett motsvarande 
+belopp. Avskrivning av anslag till tilläggslån förlorar därigenom all
+aktualitet. Genom vårt förslag om att ett anslag till täckande av ränteförlusterna 
+på tertiär]ånen skall upptagas på driftbudgeten kommer också frågan om
+avskrivning av anslag till lånefonden för bostadsbyggande i ett annat läge beträffande 
+den del av denna fond, som utnyttjas till räntebärande tertiärlån och
+egnahemslån. Dessa amorteras av låntagarna och därigenom sker enligt vår
+mening en i normala fall tillräcklig avskrivning, ytterligare avskrivning bör
+ifrågakomma endast om direkt förlust uppstår på utestående lån, vilket varit
+ytterligt sällsynt. Vårt förslag i här berörda avseenden innebär alltså, att vidare 
+avskrivning av anslag till tilläggslån för hyreshus eller till räntebärande
+tertiärlån och egnahemslån inte behöver ifrågakomma.
+Men ur lånefonden för bostadsbyggande utgår även medel till räntefria
+stående delar av egnahemslån. Beträffande avskrivning av anslag till dessa
+lån, som har ren subventionskaraktär, anfördes i. en folkpartireservation till
+statsutskottets utlåtande nr 123 vid fjolårets riksdag bl. a. följande:
+Något tekniskt eller principiellt hinder för att bibehålla den nuvarande låneformen,
+ innebärande eu kapitalsubvention för egnahemsägarna, samtidigt som
+på driftbudgeten för varje år uppföres kostnaderna för de på samma år belöpande 
+ränta- och amörteringseftergifterna för denna kapitalsubvention, kan
+utskottet visserligen ej finna. Utskottet är dock icke främmande för att vissa
+skäl kan åberopas för eu avskrivning i huvudsak motsvarande de räntefria
+stående delarna av egnahemslånen. Utskottet anser likväl, att denna fråga icke
+kräver något ställningstagande vid 1954 års riksdag. Som utskottet ovan framhållit,
+ kan det nämligen beräknas, att. vid utgången av innevarande budgetår hittills 
+med skattemedel avskrivits ca 470 miljoner kronor på invesferingsanslägen
+till lånefonden för bostadsbyggande. Sämtidigt har emellertid endast ca 320
+milj. kronor från fonden utlämnats som räntefria stående delar av egnahemslån.
+ En riskfond om 150 milj. kronor har således redan uppstått. Under sådana
+förhållanden anser utskottet det olämpligt att av skattemedel uttaga ytterligare
+avskrivningsbelopp, då det redan för mycket avskrivna beloppet avsevärt överstiger 
+vad som kan beräknas åtgå för räntefria stående delar av egnahemslån
+under nästa budgetår.
+Motioner i Andra kammaren, nr 415 är 1955
+21
+Utvecklingen under innevarande budgetår visar att de skäl som i fjol anfördes 
+av folkpartireservanterna i statsutskottet mot ytterligare avskrivningar fortfarande 
+i och för sig äger giltighet. Men eftersom finansministern i år i statsverkspropositionen 
+upptager frågan om den framtida avskrivningen av anslaget
+till egnahemssubventionerna till behandling, finner vi det lämpligt att även
+vi för vår del tar ståndpunkt till denna avskrivningsfråga.
+I bil. 19 till statsverkspropositionen anför finansministern att kapitalsubventionerna 
+till egnahem kommer att bli eu definitiv förlust för staten, ”såvida
+icke en mera avsevärd höjning av hyror och bostadskostnader tillätes ske i
+framtiden”. Enligt hans mening saknas emellertid anledning räkna med en
+sådan utveckling och därför bör egnahemssubventionerna avskrivas helt. För en
+total avskrivning av tidigare för ifrågavarande ändamål anvisade belopp skulle
+erfordras omkring 346 miljoner kronor i ytterligare avskrivningsmedel. Finansministern 
+anser dock inte att denna retroaktiva reglering bör genomföras på
+en gång utan ske när och i den omfattning det statsfinansiella läget medger.
+Han räknar med en successiv minskning av anslagsbehovet till kapitalsubventioner 
+för såväl hyreshus som egnahem och anser det önskvärt att ett utjämningsförfarande 
+mellan budgetåren kommer till stånd. Detta uttalande innebär
+att finansministern numera inte ens i teorien helt fasthåller vid tidigare åberopade 
+avskrivningsregler.
+Vidare vill vi framhålla, att finansministerns uttalande, att för full avskrivning 
+av redan utlämnade räntefria stående delar skulle erfordras ytterligare
+346 miljoner kronor i avskrivningsmedel, enligt vår mening saknar täckning.
+Full avskrivning av dessa lånedelar måste anses ha skett genom de avskrivningsmedel 
+som redan anvisats till lånefonden för bostadsbyggande under tidigare år.
+Då statens självkostnadsränta under dessa år i stort sammanfallit med och t. o.m.
+understigit tertiärlåneräntan har nämligen någon avskrivning i syfte att utjämna 
+underräntan icke varit erforderlig.
+För vår del anser vi att de räntefria stående delarna av egnahem icke bör
+återkrävas ens vid eu förändring av hyresläget. Vi har i år liksom tidigare föreslagit 
+att riksdagen skall besluta, att kapitalsubventioner till egnahem inte skall
+kunna återkrävas annat än i vissa fall vid överlåtelser av fastigheterna. Genom
+ett sådant beslut skulle egnahemsägarna erhålla trygghet för att få behålla det
+stöd de en gång tilldelats. Kapitalbidraget till egnahem kan således enligt vår
+mening anses innebära totalförlust för staten, en uppfattning som givetvis inverkar 
+på bedömningen av avskrivningsbehovet för framtiden. Visserligen kan
+man även när det gäller engångsavskrivning av kapitalsubventionen till egnahem 
+anse,'' att eu sådan innebär onödig belastning på skattebetalarna. Även eu
+kapitalsubvention kan naturligtvis avskrivas i etapper efter en viss plan. Vi
+konstaterar med tillfredsställelse att finansministern i sitt principiella resonemang 
+numera anslutit sig till vår tidigare framförda tankegång om det berättigade 
+i en utjämning i detta avseende.
+Vid bedömningen av vilken börda som bör falla på det ena eller det andra
+-- Motioner i Andra kammaren, nr 415 år 1955
+budgetåret, kan emellertid icke endast statsfinansiella utan även konjunkturpolitiska 
+överväganden spela in. Då en viss överbalansering av budgeten i nuvarande 
+läge torde kunna försvaras, föreslår vi en fullständig avskrivning av de
+räntefria stående delarna av egnahemslån under nästa budgetår, för vilket ändamål 
+erfordras ett anslag av 100 miljoner kronor.
+E. Bostadspolitiken i övrigt
+Vi vidhåller vår sedan länge tillbaka hävdade principiella uppfattning att
+konkurrensvillkoren för olika företagsformer bör vara likvärdiga. Likaså understryker 
+vi vår uppfattning, att bostadsrabat.terna icke bör bindas av några
+konstlade tidsgränser, vilka alltid verkar orättvist. Vad beträffar de räntefria
+stående delarna av egnahemslånen bör dessa, som vi tidigare framhållit, icke
+återkrävas efter viss bestämd tid eller beroende på utvecklingen av bostadskostnaderna,
+ utan endast i samband med överlåtelse, såvida denna sker till oskäligt
+pris.
+För närvarande utgår statsbidrag till anordnande av pensionärslägenheter
+endast om lägenheterna är inrymda i fastigheter, som äges och förvaltas av kommunala 
+företag. Denna bestämmelse medför att man i kommuner och tätorter,
+där uppförande av hyreshus i offentlig regi inte är motiverat av eu verklig hyresmarknad,
+ antingen måste avstå från att anordna pensionärslägenheter i
+hyreshus eller också trots avsaknaden av ett verkligt behov på bostadsmarknaden
+gå i författning om startande av egna bostadsföretag. Det är därför angeläget
+att bestämmelserna ändras så att dessa bidrag kan utgå till pensionärsbostäder i
+godtagbara lägenheter i hyreshus, oavsett företagsform.
+Med hänvisning till ovanstående föreslår vi,
+att riksdagen
+1) i skrivelse till Kungl. Maj:t anhåller om en omläggning av
+den statliga bostadspolitiken efter riktlinjer som i motionen
+exemplifierats och i syfte att bättre främja rationellt och
+kostnadssparande byggande;
+.2) under uttalande att Kungl. Maj:ts förslag synes innebära
+en ytterligare minskning av bostadsbyggandets andel av de
+totala investeringarna, vilket i nuvarande bristläge om möjligt 
+bör undvikas, fastställer kreditramen för preliminära
+lånebeslut under nästa budgetår till 840 milj. kronor och
+investeringsanslaget på kapitalbudgeten för bostadsbyggande 
+till 750 milj. kronor, vilket i båda fallen innebär en
+ökning i jämförelse med Kungl. Maj:ts förslag med 50 milj.
+kronor och möjliggör att en produktion av mellan 60 000
+och 65 000 lägenheter per år kan vidmakthållas;
+3) med avslag på Kungl. Maj:ts förslag beträffande formen
+Motioner i Andra kammaren, nr 415 år 1955
+23
+för det allmännas stöd till flerfamiljshus beslutar en övergång 
+från och med nästa budgetår till löpande bidrag enligt 
+i motionen angivna riktlinjer i stället för tilläggslån
+samt en överföring av det av Kungl. Maj:t för fonden för
+låneunderstöd äskade beloppet till lånefonden för bostadsbyggande 
+;
+4) till kapitalmedelsförluster, ränteeftergifter och löpande bidrag 
+såsom i denna motion föreslagits anvisar ett belopp
+av 36,3 milj. kronor, vilket innebär eu ökning i jämförelse
+med Kungl. Maj:ts förslag med 16,3 milj. kronor;
+5) till avskrivning av nya kapitalinvesteringarna beträffande
+lånefonden för bostadsbyggande anslår 100 milj. kronor,
+vilket innebär en minskning i jämförelse med Kungl.
+Maj:ts förslag med 22,5 milj. kronor;
+6) avslår Kungl. Maj:ts förslag om avsättning i särskild ordning 
+av 227,5 milj. kronor till fonden för oreglerade kapitalmedelsförluster 
+och beslutar fastställa anslaget till denna
+fond till 1 milj. kronor;
+7) anhåller hos Kungl. Maj:t att bostadsstvrelsen får i uppdrag 
+utarbeta förslag till inkomstprövning i samband med
+utbetalande av räntefria stående delar av egnahemslån;
+8) beträffande bostadspolitiken i övrigt beslutar godkänna de
+i motionen angivna riktlinjerna.
+Stockholm den 26 januari 1955
+Bertil Ohlin
+Sven Wedén
+Filip Kristensson
+Ragnhild Sandström
+kammare
+kammare
+Andra kammaren
+EG2O415
+2018-03-02 09:34:42
+riksdag
+riksdag
+tvåkammaren
+EG2O415
+2018-03-02 09:34:42
+session
+session
+lagtima
+EG2O415
+2018-03-02 09:34:42
+sidantal
+Antal sidor
+12
+EG2O415
+2018-03-02 09:34:42
+EG2O415
+Andra kammaren
+mot_1955__ak__415.pdf
+742749
+pdf
+Motioner i Andra kammaren, nr 415 år 1955
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1955/web_mot_1955__ak__415/mot_1955__ak__415.pdf

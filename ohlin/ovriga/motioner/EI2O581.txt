@@ -1,0 +1,96 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 581 år 1957
+11
+Nr 581
+Av herr Olilin m. fl., i anledning av Kungl. Maj:ts proposition, nr
+100, angående anslag för budgetåret 1957/58 till främjande 
+av bostadsförsörjningen in. m.
+Under hänvisning till den motivering som anförts i de likalydande motionerna
+1:459 av herr Ohlon in. fl. och 11:580 av herr Ohlin m. fl. hemställes,
+att riksdagen måtte uttala, att riksbanken vid sin handläggning 
+av frågor om obligationslån av betydelse för bostadsbyggandet 
+bör beakta, att anskaffning av byggnadskreditiv för ett
+bostadsbyggande av den av riksdagen angivna omfattningen
+underlättas liksom ock att byggnadskred it i vens avlyftning påskyndas.
+Stockholm den 29 mars 1957
+Bertil Ohlin Wald. Svensson O. Malmborg
+Bertil ron Friesen
+Manne Ståhl
+kammare
+kammare
+Andra kammaren
+EI2O581
+2018-03-02 10:47:07
+riksdag
+riksdag
+tvåkammaren
+EI2O581
+2018-03-02 10:47:07
+session
+session
+lagtima
+EI2O581
+2018-03-02 10:47:07
+sidantal
+Antal sidor
+1
+EI2O581
+2018-03-02 10:47:07
+EI2O581
+Andra kammaren
+mot_1957__ak__581.pdf
+114252
+pdf
+Motioner i Andra kammaren, nr 581 år 1957
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1957/web_mot_1957__ak__581/mot_1957__ak__581.pdf

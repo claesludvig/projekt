@@ -1,0 +1,537 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 31 år 1959
+7
+Nr 31
+Av herr Ohlin m. fl., angående vissa åtgärder i syfte att minska
+kostnaderna för byggandet av skollokaler.
+I tider av god samhällsekonomisk balans är sparsamhet i det offentliga
+hushållandet en dygd, i dagens statsfinansiella situation en tvingande nödvändighet,
+ såvitt man syftar till ett fortsatt framåtskridande. Vissa samhälleliga 
+behov är dock av så utomordentligt angelägen natur, att det skulle
+vara en uppenbart oklok politik att t. o. m. i ekonomiskt mycket svåra
+tider eftersätta dem. Ett sådant behov anser vi behovet av ett tillräckligt
+antal fullgoda skollokaler vara. Angelägenheten av att investeringar på
+detta område ges hög prioritet har vitsordats av 1955 års långtidsutredning
+och vid upprepade tillfällen framhållits av skolöverstyrelsen. Om man
+emellertid, såsom vi gör, ansluter sig till denna uppfattning om vikten av
+ett expansivt program för skolväsendets utbyggnad, ökar — särskilt i nuvarande 
+investeringsläge — självfallet kravet på att alla tänkbara möjligheter 
+tillvaratages att genom noggrann planläggning och omsorgsfullt utnyttjande 
+av den moderna byggforskningens senaste rön begränsa kostnaden 
+för varje enskilt projekt. Liknande tankegångar har utvecklats av
+Stockholms stads skolbyggnadskostnadskommitté, som i sitt den 28 februari 
+avgivna betänkande »Rationalisering av en 1-plans skolbyggnad m. m.»
+anfört bl. a. följande:
+Mot bakgrunden av vad ovan anförts rörande storleksordningen av det
+föreliggande investeringsbehovet och de i förhållande härtill mycket knappa 
+resurserna för detta tillgodoseende är det naturligt att problemet att
+nedbringa byggnadskostnaderna numera fått en brännande aktualitet. Man
+liar så småningom kommit till insikt om att det för att åstadkomma största
+möjliga behovstäckning i fråga om antalet skollokaler utan att rimliga
+krav på funktionsduglighet åsidosättes endast föreligger den utvägen, att
+begränsa kostnaderna för de olika investeringsobjekten. Denna tankegång
+har också kommit till klart uttryck i olika uttalanden från statsmakternas
+sida.
+Sålunda underströk statsutskottet med anledning av motioner vid 1954
+års riksdag angelägenheten av att största möjliga antal skollokaler utvanns
+inom den för ändamålet bestämda byggnadskvoten utan att därför berättigade 
+anspråk på standard och ändamålsenlighet eftersattes. Ett ungefär
+likalydande uttalande gjordes vidare av föredragande departementschefen
+i propositionen Ull 1956 års riksdag angående skolväsendets ordnande på
+realskolestadict under övergångstiden före enhetsskolans genomförande.
+I detta sammanhang framhölls också vikten av att bestämmelserna rörande
+statsbidraget till skolbyggnader utformades så, att ett nedbringande av an
+-
+8
+Motioner i Andra kammaren, nr 31 år 1959
+läggningskostnaderna verkligen stimulerades så att planeringen av skolbyggnadsföretagen 
+redan från början inriktades på byggnadsprogram inom
+rimliga ekonomiska gränser, och rekommenderades en restriktiv praxis vid
+bedömningen av skäligheten av statsbidragsunderlagets storlek.
+Genom denna motion vill vi fästa uppmärksamheten på vissa, enligt vår
+mening icke tillräckligt beaktade, möjligheter att förbilliga skolbyggandet
+utan eftersättande av väsentliga standardkrav.
+Inledningsvis anser vi oss böra lämna en redovisning av vad vi menar
+med väsentliga standardkrav. Som sådana räknar vi endast krav, som Irån
+pedagogiska, hygieniska och andra skolsociala synpunkter fullgott kan motiveras.
+ Många av de krav och önskemål, som under lång tid varit vägledande 
+vid skolbyggnadsprojekteringen i landet, torde emellertid sakna tillräcklig 
+motivering och bör därför icke heller anses såsom väsentliga. Såväl
+statens sakrevision som den ovan nämnda skolbyggnadskostnadskommittén
+i Stockholms stad har tidigare erinrat härom.
+När det gäller att förbilliga skolbyggandet, synes den lättast framkomliga
+vägen vara att inom nyproduktionen öka den andel av lokalerna, som uppföres 
+i form av s. k. skolpaviljonger. Erfarenhetsmässigt har det nämligen
+visat sig, att produktionskostnaden per klassrum i skolpaviljonger icke
+behöver uppgå till mer än ungefär hälften av produktionskostnaden per
+klassrum i en skolanläggning, som uppföres på traditionellt sätt. Till fördelarna 
+av ett ökat byggande av skolpaviljonger återkommer vi mera utförligt
+i det följande.
+Frågan om möjligheterna att nedbringa kostnaderna även för uppförande
+av vad man med en något oegentlig benämning kallat »permanenta skollokaler» 
+har under de allra senaste åren varit föremål för en intensiv men
+splittrad utredningsverksamhet. I många avseenden pekar utredningsresultaten 
+på mycket stora möjligheter till kostnadsbesparingar. Endast några
+exempel härpå kommer här att nämnas.
+1 den teknisk-ekonomiska undersökningen »Våningsantal och planform»,
+vilken i mars 1957 överlämnades av statens byggnadsbesparingsutredning,
+ sammanfattas huvudresultatet på följande sätt:
+Det kan således fastslås, att en byggnad, i de fall där storlek och funktion
+medger det, bör uppföras i minst tre våningar. Den bör vidare utformas
+med mittkorridor eller med annan koncentrerad planform, och en byggnadsanläggning 
+bör såvitt möjligt utföras som en enda regelbunden byggnadskropp.
+ Frångående av en sådan utformning ökar alltid anläggningskostnaden 
+och fördyringen kan, även om man endast väljer någon annan av de
+här undersökta typerna, uppgå ända till 20 å 30 %. Då har ändock räknats
+med uteslutande i och för sig enkla utformningar. Tillämpas mera ovanliga
+och komplicerade former med oregelbundna byggnadskroppar, starkt differentiering 
+i form och byggnadssätt o. s. v. kan fördyringarna enbart genom 
+byggnadsanläggningens allmänna utformning bli väsentligt större.
+Den tidigare omnämnda skolbyggnadskostnadskommittén har i sitt be
+-
+Motioner i Andra kammaren, nr 31 år 1959
+9
+tänkande sammanställt de egna resnltaten i detta avseende med de resultat
+som uppnåtts av byggnadsbesparingsutredningen och anför därefter följande:
+Såsom 
+framgår av siffrorna överensstämma resultaten av de båda undersökningarna 
+tämligen väl med varandra, varför den statliga utredningen
+får anses ha givit ett kraftigt belägg för skolbyggnadskostnadskommitténs
+tidigare konstaterande, att byggnadskostnaderna sjunka med högre hushöjd 
+och då i särskilt hög grad vid en övergång från envånings- till flervåningshus 
+samt att mittkorridorsystemet ställer sig ur hyggnadsekonomiska 
+synpunkter avsevärt fördelaktigare än sidokorridorsystemet, allt under 
+förutsättning att byggnaderna utföras på konventionellt sätt. Byggnadsbesparingsutredningen 
+har också fastslagit, att en byggnad, i de fall där
+storlek och funktion medger det, hör uppföras i minst tre våningar samt
+utformas med mittkorridorsystem eller med annan koncentrerad planform,
+varvid byggnadsanläggningen, såvitt möjligt, bör utföras som en enda
+regelbunden byggnadskropp.
+I den promemoria, som statens sakrevision genom skrivelse den 28 juni
+1957 överlämnade till Kungl. Maj :t, diskuterades ifrågavarande problem
+ingående. Bl. a. anföres följande synpunkter:
+Mot kommitténs och besparingsutredningens beräkningar kan alltid anmärkas,
+ att de bygga på teoretiska exempel och att resultaten därför icke
+kunna anses återspegla verkliga förhållanden. Häremot bör framhållas, att
+just de stora praktiska svårigheterna för en beräkning av kostnaderna för
+olika planlösningsalternativ i det enskilda fallet medföra, att undersökningar 
+i syfte att klarlägga och renodla vissa faktorers inverkan på byggnadskostnaderna 
+bli av desto större betydelse som allmän vägledning. Att
+sådana beräkningar måste bygga på vissa antaganden ligger i sakens natur.
+Detta har bl. a. lett till att mot såväl kommittén som besparingsutredningen 
+kan invändas, att jämförelsen med enplanshusen är missvisande, emedan 
+man utgått från samma byggnadssätt som i 2- och 3-våningshusen. Om
+enplanshusen beräknats med utnyttjande av de för enplanshus specifika
+möjligheterna till förbilligande, menar man, att resultatet skulle blivit
+gynnsammare för enplanshusen. Varken kommittén eller besparingsutredningen 
+har förbisett denna invändning, som otvivelaktigt är av betydelse
+för bedömningen av beräkningarnas värde. Under hand har emellertid från
+besparingsutredningen meddelats, att en i juni 1957 ännu ej slutförd specialutredning 
+synes tyda på att möjligheterna att förbilliga enplanshus ej
+böra överskattas och icke kunna bli så stora, att de uppväga fördyringen
+i förhållande till 2- eller 3-våningshus. Invändningen synes för övrigt i viss
+grad minska i betydelse i fråga om bedömningen av hittillsvarande förhållanden 
+därigenom att flertalet befintliga envåningsbyggnader för skoländamål 
+faktiskt uppförts med samma byggnadssätt som 2- och 3-våningshus,
+d. v. s. med grävd grund, källare, betongbjälklag i taket o. s. v.
+Kommitténs och besparingsutredningens beräkningar bygga som förut
+sagts på vissa antaganden. Det bör därför understrykas, att de icke kunna
+utan vidare åberopas som belägg för att det i ett visst aktuellt i all skulle
+vara möjligt att uppnå besparingar av ovan angiven storleksordning eller
+att fördyringen vid visst alternativ skulle hålla sig inom de gränser utredningarna 
+synas ge stöd för. Beräkningarnas betydelse synes främst ligga
+10
+Motioner i Andra kammaren, nr 31 år 1959
+däri att de visa, att en koncentrerad planlösning är billigare än en mindre
+koncentrerad. Detta förhållande, som svarar mot vad som kunde förväntas 
+såväl rent teoretiskt som med hänsyn till allmänna byggnadsekonomiska 
+erfarenheter, är endast en bekräftelse på den stundom bortglömda men
+alltid giltiga satsen att byggnadskostnadernas storlek på ett avgörande sätt
+paverkas av valet av planlösning. De stora utslagen i fråga om byggkostnadernas 
+variationer med olika alternativ visar klart hur nödvändigt det
+är att detta val verkligen präglas av en önskan att tillvarataga möjligheterna 
+att förbilliga. Det för nu förevarande utredning betydelsefullaste är
+emellertid, att de åberopade beräkningarna ge ett allmänt begrepp om storleksordningen 
+av de merkostnader eller besparingar man har att vänta
+vid val av viss planlösningsprincip i förhållande till en annan. Även om utslagets 
+storlek kan variera från fall till fall, är det tack vare det nu tillgängliga 
+utredningsmaterialet möjligt att med bestämdhet hävda, att de
+ekonomiska olägenheterna av direktiv eller anvisningar som binda eller begränsa 
+projektörens möjlighet att välja det efter omständigheterna byggnadsekonomiskt 
+och i övrigt bästa planlösningsalternativet äro så stora,
+att sådana direktiv eller anvisningar — särskilt i nuvarande investeringsläge 
+— icke kunna godtagas eller bibehållas utan tvingande motivering.
+I sakrevisionens promemoria diskuteras vidare de olägenheter, som ansetts 
+förknippade med skollokaler, som inrymmes i trevåningshus med
+mittkorridor. I promemorian hävdas, att olägenheterna i mycket stor utsträckning 
+bör kunna helt elimineras genom omsorgsfull planering i övrigt.
+Man har svårt att värja sig för intrycket, att motståndet mot dylika skolbyggnader 
+är i högsta grad traditionellt betingat och uppkommet innan
+frågeställningens ekonomiska aspekter blivit klart belysta.
+Ett annat problem, som förtjänar uppmärksamhet vid skolbyggnadsplaneringen,
+ är frågan om och i vad mån suterrängvåningar kan anses
+lämpliga för undervisnings- eller andra lokaler. Stockholms skolbyggnadskostnadskommitté 
+anför, att det finns fog för antagandet, att tämligen betydande 
+kostnadsbesparingar kan uppnås, om man i högre grad än som gällande 
+anvisningar förutsätter förlägger undervisningslokaler till suterräng- eller
+källarvåning. Kommittén konstaterar, att exempelvis lärosalar och laboratorier 
+i naturvetenskaplig undervisning eller klassrum enligt gällande bestämmelser 
+icke kan förläggas till suterrängvåningsplanet, samt fortsätter:
+Vilka närmare motiveringar som ligga till grund för detta stadgande har
+icke kunnat klarläggas. Med nutida byggnadsteknik torde några tekniska
+problem icke föreligga att åstadkomma en tillfredsställande isolering av
+dessa utrymmen, varför några olägenheter av hygienisk art icke torde kunna 
+åberopas i detta sammanhang. Det skulle då vara att närmare undersöka,
+ huruvida pedagogiska eller skolsociala skäl skulle lägga hinder i
+vägen för ett utnyttjande av sådana utrymmen. En dylik undersökning
+ankommer ej på skolbyggnadskostnadskommittén att utföra. Att så skulle
+vara förhållandet är emellertid svårförståeligt för en icke fackman på det
+pedagogiska området. Bl. a. må framhållas, att belvsningsförhållandena i
+en souterränglokal med golv 0,8 meter under mark knappast äro sämre än
+i en ovan markytan belägen lokal, då fönsterhöjden i båda fallen torde
+bliva ungefär densamma.
+Motioner i Andra kammaren, nr 31 år 1959
+11
+Motsvarande synpunkter återfinnes i sakrevisionens promemoria.
+Vi vill än en gång understryka, att vad som ovan redovisats endast utgör
+eu bråkdel av alla de exempel som skulle kunna anföras på av olika utredningar 
+och forskargrupper anvisade möjligheter att förbilliga skolbyggandet.
+ Av den största betydelse måste det emellertid då vara, att dessa redan
+anvisade möjligheter i första hand tillvaratages. Om så skall kunna ske
+i önskad omfattning, bör dock mera arbete än hittills läggas ned på att
+sammanfatta och till de planerade lokalmyndigheterna, till arkitekterna
+och konstruktörerna sprida all den kunskap, som på hithörande område
+för närvarande endast står att vinna genom en tydligtvis alltför mödosam
+kompilatorisk källforskning.
+I anslutning till detta önskemål vill vi även instämma i sakrevisionens
+hemställan om åtgärder för en skyndsam översyn av gällande anvisningar
+i fråga om skolbyggnader i syfte att skapa förutsättningar för ett omedelbart 
+nedbringande av skolbyggnadskostnaderna. Vi instämmer helt i följande 
+av revisionen såsom stöd för dess hemställan gjorda uttalande.
+Då forskningsarbetet med nödvändighet kräver tid, och forskning på
+byggnadsområdet i regel torde vara särskilt tidskrävande, vill sakrevisionen
+framhålla, att den förordade översynen under rådande kraftiga utbyggnad
+av skolväsendet icke bör göras beroende av resultatet av pågående eller
+planerade forskningsarbeten. De nuvarande anvisningarna bygga nämligen
+i väsentliga hänseenden icke på några vetenskapliga eller andra objektiva
+undersökningar utan äro resultatet av bl. a. en historisk utveckling och
+en tillämpning på skolväsendets område av idéer inom modern arkitektur.
+Det bör därför vara möjligt att utan större tidsutdräkt genomföra en översyn 
+av dessa i syfte främst att ur dem rensa ut krav och önskemål, vilka
+med hänsyn till den nuvarande tekniken redan framstå som överdrivna
+eller onödiga eller för vilka endast kunna åberopas pedagogiska eller hygieniska 
+önskemål, beträffande vilka det är ovisst om ett tillgodoseende kan
+anses motivera de därav föranledda merkostnaderna. De reviderade anvisningarna 
+böra begränsas till de minimikrav, som en skolanläggning och
+däri ingående lokaler måste uppfylla i olika hänsenden, och åt desamma ges
+sådan utformning att de icke framtvinga dyrbarare planlösningar eller eljest 
+mera kostnadskrävande utföranden än som med tillgängliga erfarenheter 
+och undersökningsresultat kunna anses ofrånkomliga ur funktionell
+synpunkt.
+De åtgärder, vilka hittills diskuterats såsom ägnade att förbilliga skolbyggandet,
+ torde i huvudsak ha den egenskapen gemensam, att de åtminstone 
+på kort sikt icke kommer att medföra någon direkt lättnad i statsverkets 
+bidragsutgifter. Enligt den år 1957 utfärdade kungörelsen om statsbidrag 
+till byggnadsarbeten inom det allmänna skolväsendet (SFS nr 318
+år 1957) utgår nämligen statsbidraget i regel med samma belopp, oavsett
+om det enskilda byggnadsprojektet är opåkallat dyrt eller osedvanligt
+billigt. Sett från samhällsekonomisk synpunkt måste det emellertid redan
+på kort sikt vara ytterst angeläget, att största möjliga antal skollokaler
+utvinncs ur varje för ändamålet investerad miljon, något som också under
+-
+12
+Motioner i Andra kammaren, nr 31 år 1959
+strukits av statsutskottet i dess utlåtande rörande statsbidragsbestämmelserna 
+(nr 104 år 1957). Att man icke blott betraktar ifrågavarande
+problem från snävt statsfinansiell synpunkt utan även beaktar den samhällsekonomiska 
+aspekten anser vi vara betydelsefullt, icke minst därför
+att vi i en särskild motion föreslagit åtgärder för en successiv minskning
+av klassavdelningarnas storlek, vilket självfallet ställer krav på ökad lokaltillgång.
+ Vikten av att skolbyggandet ges prioritet vid investeringsavvägningarna 
+har vi också inledningsvis framhållit i denna motion.
+Vad i föregående stycke anförts minskar dock icke angelägenheten av
+att rationaliseringar på skolbyggandets område även avsätter spår i statsbudgeten.
+ I motionen har vi angivit ett par exempel, som enligt vår mening 
+klart visar, att skolbyggandet i mycket hög grad kan rationaliseras.
+I stor utsträckning har besparingsmöjligheterna påvisats av utredningar,
+som offentliggjorts efter tillkomsten av det nu gällande statsbidragssystemet.
+ Av departementschefsuttalandet i propositionen nr 122 år 1957 framgår 
+också, att man inom departementet bedömde de framtida rationaliseringsmöjligheterna 
+såsom mycket goda samt att man ansåg det rimligt
+att ompröva bidragsreglerna i den mån sådana möjligheter klart uppenbarades.
+ Bl. a. anförde departementschefen följande:
+Jag är med hänsyn till de krav på återhållsamhet med de produktiva
+resurserna, som måste ställas och som måste lända till efterrättelse inom
+olika områden, beredd att ansluta mig till den bland remissmyndigheterna
+kraftigt företrädda uppfattningen att de sakkunniga ej bedömt besparingsmöjligheterna 
+nog realistiskt utan föreslagit ett för högt enhetspris. Det
+bör i detta sammanhang också beaktas, att vid tillämpning av enhetsprismetoden 
+någon justering i efterhand av statsbidragssumman i förhållande
+till de verkliga byggnadskostnaderna ej skall ske. Jämväl denna omständighet 
+talar för att enhetspriset avväges med återhållsamhet. I avvaktan på
+resultatet av ytterligare undersökningar inom det byggnadstekniska området 
+rörande förbilligande byggmetoder och planlösningar finner jag mig
+dock böra förorda, att enhetspriset per kvadratmeter nettogolvyta inte
+nu bestämmes till lägre belopp än 900 kronor, med prisläget den 1 januari
+1957 taget som utgångspunkt. Detta belopp, 900 kronor, bör på sätt föreslagits 
+av de sakkunniga anknytas till ortsindex med uteslutande av tomtkostnader.
+ I enlighet med vad som gäller i fråga om det statsunderstödda
+bostadsbyggandet föreslår jag däremot, att någon anknytning till byggnadskostnadsindex 
+inte sker.
+Riksdagen följde icke helt departementschefens förslag. Med beaktande
+av vad som anfördes i motionen 11:599 av herr Andersson i Ronneby m. fl.
+beslöt nämligen riksdagen, att grundbeloppet skulle anknytas till byggnadsstyrelsens 
+byggnadskostnadsindex.
+Med anledning av detta beslut har § 6 i den ovannämnda bidragskungörelsen 
+(SFS nr 318 år 1957) fått följande lydelse:
+§ 6.
+1 mom. Statsbidrag till permanenta skollokaler utgår i förhållande till
+ett bidragsunderlag, beräknat enligt följande grunder.
+Motioner i Andra kammaren, nr 31 år 1959
+13
+2 mom. Vid nybyggnad och tillbyggnad bestämmes bidragsunderlaget
+med utgångspunkt i ett grundbelopp av niohundra kronor per kvadratmeter
+nettogolvyta av lokaler för undervisning, förvaring av skolmateriel, administration 
+och skolmåltidsverksamhet samt uppehållsrum för elever.
+Grundbeloppet omräknas med hänsyn till dels den förändring av byggnadskostnaderna 
+i allmänhet som må hava inträtt under tiden från den
+1 januari 1956 till den 1 januari det år, då statsbidragsbeslutet meddelas,
+dels de särskilda olikheter i fråga om bvggnadskostnader som finnas mellan 
+skilda orter. Till ledning skola därvid tjäna byggnadsstyrelsens byggnadskostnadsindex 
+och bostadsstyrelsens ortsindex, det senare omräknat
+med uteslutande av tomtkostnad.
+Då särskilda skäl äro därtill, må dock bidragsunderlaget vid nybyggnad
+och tillbyggnad efter Kungl. Maj :ts beprövande fastställas på sätt i 3 mom.
+stadgas för ombyggnad.
+Med hänsyn till att staten genom bl. a. skolöverstyrelsen och sin allmänna 
+utredningsverksamhet i hög grad medverkar i rationaliseringsarbetet
+för att förbilliga skolbvggandet, synes det oss vara rimligt, att de besparingar,
+ som härigenom kan vinnas, också kommer staten i viss mån tillgodo.
+ En liknande tankegång torde väl också ha legat bakom departementschefens 
+förslag att icke anknyta grundbeloppet till byggnadskostnadsindex.
+Av allt att döma torde man i dag kunna utgå från att kommunerna vid
+en fortsatt indexstegring av den storlek, som förekommit under de senaste
+åren, väl borde kunna kompensera kostnadsstegringarna med hjälp av
+fortlöpande rationaliseringsåtgärder inom skolbyggnadsområdet. Med hänsyn 
+härtill och till det angelägna behovet att tillvarataga varje rimlig möjlighet 
+till minskning av statsutgifterna anser vi det nu påkallat att avskaffa 
+anknytningen till byggnadskostnadsindex på ifrågavarande område.
+Dock anser vi, att hänsyn till den pågående projekteringen av skolor så
+till vida måste tagas, att man vid bestämmande av bidragsunderlaget beaktar 
+den kostnadsutveckling som ägt rum under tiden 1 januari 1956
+till den 1 januari 1959. För närvarande föreligger icke byggnadsstyrelsens
+indexsiffra per den 1 januari 1959, men det kan nämnas, att ifrågavarande 
+index under tiden 1 januari 1956 till den 1 juli 1958 stigit med ca
+9 %. Vi föreslår därför sådana ändringar i Kungl. Maj :ts kungörelse nr
+318 år 1957 att bidragsunderlaget från den 1 januari 1960 beräknas med
+utgångspunkt i ett grundbelopp av 900 kr. per kvadratmeter nettogolvyta,
+varvid dock grundbeloppet omräknas med hänsyn till dels den förändring
+av byggnadskostnaderna i allmänhet som inträtt under tiden från den 1
+januari 1956 till den 1 januari 1959, dels de särskilda olikheter i fråga om
+byggnadskostnader som finns mellan skilda orter.
+Självfallet är vi medvetna om att den föreslagna författningsändringen
+endast till en del påverkar den statliga bidragsgivningens storlek under
+budgetåret 1959/60. I avvaktan på Kungl. Maj :ts till den 15 februari aviserade 
+proposition i ärendet avstår vi därför från alt nu väcka förslag om
+ändring i det föreslagna beloppet till Byggnadsarbeten inom skolväsendet.
+14
+Motioner i Andra kammaren, nr 31 år 1959
+Ett ökat byggande av skolpaviljonger utgör en annan viktig väg till
+besparingar för såväl stat som kommun samtidigt som det inom en given
+investeringsram tillåter byggandet av ett avsevärt ökat antal klassrum. När
+vi i en partimotion 1956 framförde förslaget att monteringsfärdiga klassrumspaviljonger 
+skulle utnyttjas för att snabbt tillföra skolväsendet ett
+värdefullt lokaltillskott, hade denna byggnadstyp utnyttjats i ringa omfattning.
+ Till en del hängde detta samman med att byggnadstillstånd fordrades 
+enligt samma ordning som för s. k. permanenta byggnader. Vi föreslog 
+därför att paviljongerna skulle läggas utanför den byggnadskvot som
+då begränsade byggandet. Sedan riksdagen med anledning av vår motion
+framfört denna synpunkt i skrivelse till Kungi. Maj :t och klassrumspaviljongerna 
+genom författningsändring ställts utanför byggnadskvoten, har
+paviljongerna raskt vunnit i anseende och utnyttjande. Man torde nu icke
+längre kunna hänföra skolpaviljongerna enbart till kategorien »provisoriska 
+byggnader» även om de allmänt uppföres med statsbidrag enligt de
+särskilda bestämmelserna för sådana byggnader. Det finns i dagens läge
+starka skäl att ifrågasätta hela uppdelningen i »provisoriska» och »permanenta» 
+skolbyggnader, önskvärdheten att tills vidare behålla en särskild 
+stimulans för paviljongbyggandet gör dock att vi f. n. ej föreslår
+någon sådan ändring. I takt med att elementbyggnadssystemet vinner i omfattning 
+och effektivitet kan man räkna med att skolpaviljonger med en
+varaktighet av 30—40 år kommer att vara ett fullgott alternativ till byggnader 
+med bärande konstruktion i tegel eller betong. Vi hänvisar här till
+vad den ovannämnda skolbvggnadskostnadskommittén anfört:
+De relativt enhetliga funktionskraven för skolhusbyggnader och särskilt
+för klassrumsavdelningen böra bilda ett gott underlag för en industri- eller
+serieproduktion av skolbyggnadernas olika delar, inredningar och installationer.
+ Det är ett önskemål, att standardiseringen av de olika elementen
+därvid göres riksomfattande för att en tillräcklig avsättning för en industriell 
+produktion skall kunna ordnas. För att detta skall kunna uppnås måste
+förutsättas ett initiativ av de berörda statliga myndigheterna.
+I dag låter det sig alltså fastslås att skolpaviljongernas användning icke
+bör begränsas enbart till att åstadkomma ett extra lokaltillskott under en
+toppbelastningsperiod för en kommun. Det nyligen färdigställda tekniska
+läroverket i Linköping utgör ett fullgott exempel på hur även skolanläggning 
+med krävande institutionsbehov kan helt uppföras enligt paviljongsystemet 
+med åtföljande vinster i byggnadstid och anläggningskostnader.
+Mot denna bakgrund föreslår vi riksdagen att i särskild skrivelse till
+Kungl. Maj:t uttala, att fortsättningsvis en större andel än hittills av det
+totala skolbyggnadsbehovet i landet täckes genom byggnader av paviljongtyp,
+ så att minst 1/5 av investeringsramen förbehålles paviljongbyggnader.
+Nödvändigheten härav under den statsfinansiellt ansträngda period som
+nu förestår ter sig för oss särskilt klar som vi i denna dag särskilt väckt
+Motioner i Andra kammaren, nr 31 år 1959
+15
+partimotion framfört krav på en successiv minskning av antalet elever
+per klass, varav följer ett ökat klassrumsbehov.
+Vårt förslag innebär alltså för det närmaste budgetåret icke någon
+nämnvärd minskning av den samlade produktionskostnaden för skollokaler,
+ men genom att minska andelen av kostnadskrävande permanenta skolbyggnader 
+av traditionell typ anvisar vi en väg ut ur den hittillsvarande
+lokalbristen. Vi hänvisar i detta sammanhang till följande uttalande av
+kungl. skolöverstyrelsen i förordet till den nyligen utgivna skriften »Lokalbehov 
+och utrymmesekonomi», där problemets storleksordning antvdes:
+Besparingssynpunkten har fått ökad tyngd, allteftersom skolväsendets
+expansion aktualiserat allt större investeringsbehov. Byggnader för det
+allmänna skolväsendet har under senaste åren fått uppföras för ett belopp
+av i runt tal 175 miljoner kronor årligen. I sitt yttrande till långtidsutredningen 
+1956 redovisade skolöverstyrelsen ett investeringsbehov under en
+tioårsperiod av ca 3 miljarder kronor, dvs. 300 miljoner kronor årligen. På
+grund av svårigheterna att beräkna utbyggnadstakten var endast till en
+ringa del den investeringsökning medräknad, som genomförandet av enhetsskolan 
+kommer att kräva. Sedan dess har riksdagen uttalat sig för ett
+tidsschema, enligt vilket enhetsskolan skall vara helt genomförd i början
+av 1970-talet. Därtill kommer att redan under 1960-talet de utbildningsbehov 
+måste tillgodoses, som aktualiseras av att de stora årskullarna kommer 
+upp i gymnasieåldern och de yngre arbetsmarknadsåldrarna.
+\ i förutsätter att inom ecklesiastikdepartementet en särskild snabbutredning 
+igångsättes angående de ändringar i gällande lokalbehovsprövning
+som blir erforderliga för att skolöverstyrelsen skall kunna åstadkomma
+den eftersträvade övergången till ökat paviljongbyggande. Därvid bör även
+beaktas nödvändigheten att i samråd med civilförsvarsstyrelsen utforma
+regler för en samordning mellan skolbyggen av paviljongtyp utan källarutrymmen 
+och sådana skyddsrumsbyggen, som under fredstid användes
+för lagerändamål o. d. Även om den s. k. utrymningsmetoden synes förutsätta 
+att behovet av särskilda skyddsrum för skolbyggnader icke förblir
+så markerat som förr, torde statsmakterna icke ha observerat att skyddsrumskraven 
+skjutits åt sidan i samband med paviljongbyggandet.
+I anledning av den till den 15 februari aviserade särskilda propositionen
+i ämnet återkommer vi med specificerade förslag beträffande hela byggnadsanslaget.
+ För budgetåret 1960/61 förutsättes att en besparing i statsbidragen 
+med 5 milj. kr. skall bli möjlig utan att därför någon nedskärning
+av skolbyggnadsproduktionen skall bli erforderlig. För detta senare budgetår 
+räknar vi även med en motsvarande begränsning av själva investeringsramen.
+Vi hemställer,
+1. att riksdagen i skrivelse till Kungl. Maj :t uttalar att särskilda 
+bestämmelser utfärdas angående byggande av
+skolpaviljonger i ökad utsträckning upp till cn total investeringsram 
+av 30 milj. kr. budgetåret 1959/60,
+16
+Motioner i Andra kammaren, nr 31 år 1959
+2. att riksdagen hemställer om sådan ändring i Kungl.
+Maj :ts kungörelse 1957:318, att bidragsunderlaget från
+den 1 januari 1960 beräknas med utgångspunkt i ett
+grundbelopp av 900 kr. per kvadratmeter nettogolvyta,
+varvid dock grundbeloppet omräknas med hänsyn till
+dels den förändring av byggnadskostnaderna i allmänhet 
+som inträtt under tiden från den 1 januari 1956
+till den 1 januari 1959, dels de särskilda olikheter i fråga 
+om byggnadskostnader som finns mellan skilda orter,
+ samt
+3. att riksdagen likaledes i skrivelse till Kungl. Maj :t begär 
+skyndsam översyn av övriga bestämmelser rörande
+statsbidrag till byggnadsarbeten inom det allmänna
+skolväsendet i syfte att anpassa bestämmelserna med
+hänsyn till förefintliga ovan redovisade möjligheter att
+förbilliga skolbyggandet och så att även statsverkets
+utgifter för bidragsgivningen sammanlagt kan minskas
+med 10 milj. kr. budgetåret 1960/61.
+Stockholm den 21 januari 1959
+Bertil Ohlin
+Wald. Svensson
+Sven Wedén
+Henning Gustafsson
+i Skellefteå
+Gunnar Helén
+Sven Gustafson
+i Göteborg
+O. Malmborg
+Emil Kihlströms Tryckeri A.-B. Stockholm 1959
+590075
+kammare
+kammare
+Andra kammaren
+EK2O31
+2018-03-01 22:58:25
+riksdag
+riksdag
+tvåkammaren
+EK2O31
+2018-03-01 22:58:25
+session
+session
+lagtima
+EK2O31
+2018-03-01 22:58:25
+sidantal
+Antal sidor
+10
+EK2O31
+2018-03-01 22:58:25
+EK2O31
+Andra kammaren
+mot_1959__ak__31.pdf
+590740
+pdf
+Motioner i Andra kammaren, nr 31 år 1959
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1959/web_mot_1959__ak__31/mot_1959__ak__31.pdf

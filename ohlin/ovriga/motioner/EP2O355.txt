@@ -1,0 +1,822 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 355 år 1964
+1
+V
+Nr 355
+Av herr Ohlin m. fl., om ökat stöd åt handikappade.
+(Lika lydande med motion nr 283 i Första kammaren)
+De fysiskt och psykiskt handikappade möter i dagens Sverige särskilt
+stora svårigheter. Till en del är dessa ekonomiskt betingade. Förtidspensionens 
+storlek och storleken på andra bidrag till de handikappade regleras
+fortfarande av mycket snäva regler. Det är ett dåligt uttryck för solidariteten
+i ett högt utvecklat samhälle, när människor med fysiskt och psykiskt handikapp 
+tvingas leva kanske hela sitt liv också nätt och jämnt på existensminimum.
+ Det finns möjligheter att hjälpa dessa människor upp till en rimlig 
+levnadsnivå och därigenom lyfta bort en av deras allra tyngsta bördor.
+1960-talets socialpolitik måste målmedvetet riktas in på denna stora uppgift.
+Många av de handikappades problem går inte att lösa genom direkta ekonomiska 
+insatser från samhällets sida. Särskilt gäller detta de problem som
+möter dem vid kontakt med andra, ofta oförstående och fördomsfulla människor.
+ Samhället bör dock kunna ytterligare engagera sig för att göra dessa
+kontakter så friktionsfria som möjligt. Den sociala fostran, som grundskolan 
+avser att bereda sina elever, har här en synnerligen viktig uppgift. Även
+i övrigt måste samhället vara berett att genom upplysningsverksamhet motarbeta 
+den avoga hållning, som många har gentemot personer som inte ser
+ut eller beter sig som andra. En sådan upplysningsverksamhet ingår som ett
+nödvändigt och viktigt led i upprustningen av hjälpen till de handikappade.
+Folkpartiets målsättning för stödet till de handikappade framgår av ovanstående 
+uttalande, som hämtats från partimotionerna 1: 348 och II: 406 vid
+fjolårets riksdag. Kravet på att samhället skall förverkliga målsättningen
+gäller fortfarande med obruten styrka.
+I årets statsverksproposition har regeringen funnit gott att tillmötesgå ett
+väsentligt krav, som från vår sida framförts vid 1962 och 1963 års riksdagar.
+Invaliditetstillägg och invaliditetsersättningar föreslås bli indexreglerade.
+Det medför att åtskilliga svårt handikappade personer den 1 juli 1964 får
+inkomstförstärkningar på 240—400 kr. Genom att förtidspensionerna som
+ett led i folkpensionshöjningen samtidigt höjs med 300 kr. för ensam pensionär 
+och 450 kr. för äkta makar, tas ytterligare ett litet steg mot den målsättning 
+som vi uppställt. Vi noterar dessutom, att regeringen nu är beredd
+att acceptera folkpartiets och centerpartiets förslag, alt folkpensionerna —
+1 — It ihan g till riksdagens protokoll 1964. 4 sand. Är 355
+2
+Motioner i Andra kammaren, nr 355 år 196b
+därmed förtidspensionerna — skall bli föremål för standardhöjning även
+efter 1968. Lagen om allmän försäkring omöjliggör i sin nuvarande avfattning 
+detta. Den skall emellertid överses.
+Ett lagförslag från vårt håll om ersättning för vården i hemmet av neurosedynskadade 
+barn avslogs av 1963 års riksdag. Detta förslag var avsett att
+komma de neurosedynskadade barnens föräldrar till skyndsam hjälp och
+skulle gälla till dess allmännare bestämmelser hunnit träda i kraft. Nu föreslår 
+regeringen, att vårdbidrag införes som ekonomiskt stöd för vård i enskilda 
+hem av svårt handikappade barn.
+Den ökade aktivitet i fråga om stödet till de handikappade, som regeringen
+visar i den framlagda statsverkspropositionen, är ett glädjande tecken. Dock
+kvarstår intrycket, att regeringen inte velat föreslå eller ens ställa i utsikt en
+kraftigare standardhöjning för de handikappade.
+De förslag, som vi framför i denna motion, innebär i förhållande till regeringens 
+förslag en sammanlagd ökning av statens stöd till de handikappade
+med 30 730 000 kr. för budgetåret 1964/65. Självklart är att denna ökning av
+stödet till de handikappade endast får ses som ett steg på vägen mot de mål
+som satts upp i början av denna motion.
+1. Reformerade invaliditetstillägg och invaliditetsersättningar
+Invaliditetstillägg utgår med f. n. 1 200 kr. per år till handikappade, som
+inte vistas å anstalt, som komplement till ålderspension eller förtidspension.
+Berättigade till sådant tillägg är dels handikappade som är ur stånd att hjälpa 
+sig själva och på grund härav vid upprepade tillfällen dagligen är i behov
+av hjälp av andra, dels handikappade som utför förvärvsarbete men är i behov 
+av avsevärd hjälp eller har betydande merutgifter för färdmedel eller
+andra hjälpmedel.
+Invaliditetsersättning utgår när den handikappades arbetsinsats är sådan,
+att rätt till förtidspension ej föreligger. Ersättningen är bl. a. avsedd att utgöra 
+stimulans för en handikappad person att utföra sitt arbete. Berättigade
+till ersättningen är dels blinda, som trots sitt handikapp inte är berättigade
+till förtidspension och därför inte heller till invaliditetstillägg, dels handikappade 
+som utför förvärvsarbete men är i behov av avsevärd hjälp eller har
+betydande merutgifter för hjälpmedel.
+Indexreglering av invaliditetstillägg och invaliditetsersättningar föreslogs
+av oss redan 1962. Andra lagutskottets majoritet avvisade emellertid förslaget,
+ därför att den inte ansåg det »tillrådligt att i nuvarande krävande reformskede 
+ytterligare belasta administrationen». Utskottsmajoriteten menade,
+ att »det synes dessutom föga motiverat att bryta ut ett par av folkpensionsförmånerna 
+och indexreglera dem med hjälp av basbeloppet». Majoritetens 
+uppfattning var slutligen, att »därest penningvärdet skulle undergå
+en utveckling därhän, att realvärdet av förevarande förmåner alltför mycket
+urholkats, innan en övergång till beräkning på grundval av basbeloppet kun
+-
+Motioner i Andra kammaren, nr 355 år 1964
+3
+nät ske, finnes alltid möjligheten att genom höjning av beloppen återställa
+förmånernas realvärde».
+Vårt krav på indexreglering av förevarande förmåner återupprepades vid
+1963 års riksdag. Även denna gång ställde sig andra lagutskottets majoritet
+emellertid avvisande under hänvisning till att förmånernas storlek fastställdes 
+så sent som året innan. I 1964 års statsverksproposition upptar regeringen 
+vårt krav på att förmånerna skall indexregleras genom anknytning
+till basbeloppet.
+Indexregleringen är ett bra steg på vägen men den innebär dock ingen
+standardhöjning för de svårast drabbade invaliderna. Det bör ihågkommas,
+att endast invalider med mycket svåra handikapp kan bli berättigade till
+invaliditetstillägg eller invaliditetsersättning. Till denna grupp hör handikappade 
+med mycket svåra kroppsliga defekter, t. ex. sådana som saknar
+armar eller ben, handikappade med långt gången ledgångsreumatism, svårartad 
+nervsjukdom eller svår förlamning. I ett jämförelsevis ringa antal fall
+har invaliditetstillägg därtill ifrågakommit vid mentala rubbningar, såsom
+höggradig imbecillitet eller idioti. När det vid förra årets riksdag argumenterades 
+för en standardhöjning av invaliditetstillägg och invaliditetsersättningar,
+ skedde det med motivering att göra en snabb insats för de hårdast
+drabbade invaliderna.
+Vi hyser fortfarande uppfattningen att en snabb insats bör göras för att
+höja de särskilda invaliditetsförmånerna. I överensstämmelse med våra förslag 
+vid föregående års riksdag föreslår vi, att invaliditetstillägget fördubblas 
+från 1 200 kr. till 2 400 kr. om året och att invaliditetsersättningen höjes
+från 2 000 kr. till 3 000 kr. om året. Dessa reformer bör träda i kraft den 1
+juli 1964. Eftersom förmånerna nu skall indexregleras, blir beloppen 2 880
+kr. för invaliditetstillägget och 3 600 kr. för invaliditetsersättningen. Uttryckt
+i termer från lagen om allmän försäkring innebär vårt förslag, att invaliditetstillägget 
+skall utgöra 60 procent av basbeloppet och invaliditetsersättningen 
+75 procent av basbeloppet. Kostnaderna för denna reform beräknar
+vi till 12 milj. kr. för helt budgetår (budgetåret 1964/65). Det får ankomma
+på andra lagutskottet, att göra erforderliga ändringar i gällande lagtext i
+anledning av de här nämnda förslagen.
+Med de av oss föreslagna höjningarna av invaliditetstillägg och invaliditetsersättningar 
+blir skillnaden i förmåner mellan dem som har resp. inte
+har dessa tillägg och ersättningar stor. Självfallet är detta inget skäl mot att
+genomföra höjningarna. Det kan däremot åberopas som skäl för att införa
+halva invaliditetstillägg och invaliditctsersättningar. Dessa skulle utgå till
+medelsvårt handikappade personer. Vi har därvid i åtanke inte minst de förvärvsarbetande 
+handikappade, som nu inte kan få invaliditetstillägg eller
+invaliditetsersättning, därför alt deras behov av hjälp av annan inte är tillräckligt 
+stort eller deras merutgifter för hjälpmedel inte är nog betydande
+för åtnjutande av förmånerna. Vi föreslår att utredning skyndsamt sker, så
+1* —Bihang till riksdagens protokoll 1964. 4 sand. Nr 355
+4
+Motioner i Andra kammaren, nr 355 år 196i
+att bestämmelser om halva invaliditetstillägg och halva invaliditetsersättningar 
+kan träda i kraft senast den 1 juli 1965.
+1 ännu ett avseende är reglerna om de särskilda invaliditetsförmånerna
+otillfredsställande. En handikappad, som haft betydande merutgifter för
+hjälpmedel eller varit i behov av avsevärd fortlöpande hjälp av annan, får
+invaliditetstillägg eller invaliditetsersättning endast om han förvärvsarbetar.
+Skälet härtill är i huvudsak, att man önskar stimulera handikappade till
+förvärvsarbete. Men med reglernas utformning utesluts handikappade som
+studerar från rätten till förmånerna. Detta är orimligt. Självfallet bör även
+möjligheten att stimulera handikappade till studier tillvaratagas. Sämst ställda 
+i detta avseende är de som bedriver teoretiska studier och därigenom inte
+erhåller omskolningsbidrag, men även de som genomgår omskolning bör
+kunna få invaliditetstillägg eller invaliditetsersättning, som måste ses ur
+den synpunkten att det är fråga om stöd för de merutgifter som den handikappade 
+har i förhållande till andra. Vi föreslår därför en lagändring innebärande,
+ att invaliditetstillägg och invaliditetsersättning skall utgå på de
+grunder som stadgas i 9 kap. 2 §, andra stycket i lagen om allmän försäkring
+förutom när den handikappade förvärvsarbetar även när han på grund av
+studier med yrkesinriktning eller annan yrkesutbildning inte utför förvärvsarbete.
+ Kostnaderna för genomförande av detta förslag torde rymmas inom
+beräknat anslag. Andra lagutskottet torde få utforma lagbestämmelser i
+anledning av förslaget.
+2. Bidrag för vård i enskilda hem av handikappade barn
+Principen för utformning av stödet till de handikappade skall vara, att
+dessa bereds förutsättningar till ett liv som är så likt de friskas som möjligt.
+Målet för åtgärderna för stöd till vården i hemmet av handikappade barn
+bör därför vara, att merkostnaderna i jämförelse med kostnaderna för vården 
+av friska barn övertages av samhället. Vi föreslog i fjol, att som en första
+etapp mot detta mål en särskild vårdersättning skulle införas som generellt
+utgår för vården i hemmet av handikappade barn.
+Socialpolitiska kommittén har i april 1963 framlagt förslag om vårdbidrag
+för svårt handikappade barn. Förslaget innebär, att ett vårdbidrag om 2 000
+kr. per år skall utgå till i enskilda hem vårdade barn under 16 år, om barnet
+på grund av sjukdom, psykisk efterblivenhet, vanförhet eller annat lyte är
+varaktigt och i avsevärd omfattning i behov av särskild tillsyn och vård. Bidraget 
+skall utgå utan inkomstprövning. Antalet bidragsberättigade barn
+uppskattas till 5 000, d. v. s. kostnaderna som skall bestridas av staten beräknas 
+till omkring 10 milj. kr. per budgetår. Bestämmelserna föreslås träda i
+kraft den 1 juli 1964.
+Kommitténs förslag har upptagits i 1964 års statsverksproposition. Den
+förbättringen föreslås dock, att vårdbidragen genom anknytningen till bestämmelserna 
+för invaliditetsersättning indexregleras och därför utgår med
+2 400 kr. från den 1 juli 1964.
+Motioner i Andra kammaren, nr 355 år 196b 5
+Vid diskussionen i riksdagen under hösten 1963 i anslutning till förslaget
+från vårt håll om bidrag till vården i hemmet av neurosedynskadade barn
+framhölls, att det bidragsbelopp på 2 000 kr., som socialpolitiska kommittén
+föreslagit för vården av svårt handikappade barn, är klart otillräckligt. Men
+även med den föreslagna indexregleringen blir vårdbidraget alltför lågt.
+Statens kostnad för vårdbidraget blir enligt regeringens förslag knappt
+7 kr. per barn och dag. Detta belopp kan jämföras med vårdkostnaden för
+barn på barnhem, som är ca 31 kr. per dag, och för barn på barndaghem,
+som är ca 25 kr. per dag.
+Vården av handikappade barn i hemmet är ofta överlägsen anstaltsvården.
+ Inte minst från läkarhåll betonas det, att den naturliga kontakten med
+hemmet och familjemiljön inte får brytas utan tvingande skäl. Förutom
+att familjevården är bra ur vårdsynpunkt är den, som framgår av redovisningen 
+ovan, synnerligen lämplig från samhällsekonomisk synpunkt.
+De 2 400 kr., som regeringen föreslagit, täcker endast en liten del av de
+inerutgifter, som vårdaren av ett svårt handikappat barn åsamkas. Föräldrar
+kan tvingas att helt eller delvis avstå från förvärvsarbete. Det är i många
+fall önskvärt att specialutbildad personal hjälper till med träning och
+vård av barnet. Merutgifterna blir i dessa fall mycket stora.
+Synnerligen starka skäl talar således för att vårdbidragets belopp bär höjas
+väsentligt över den nivå som regeringen föreslagit. Det bör erinras om att
+regeringen föreslagit, att vårdbidraget skall utgå i form av invaliditetsersättning.
+ Även om skäl finns för en annan reglering, medför regeringens
+förslag fördelen att vårdbidraget från början indexregleras. Vi vill bl. a.
+av detta skäl inte motsätta oss, att den föreslagna bidragskonstruktionen
+nu genomföres. Samtidigt vill vi erinra om, att invaliditetsersättningarna
+av oss föreslagits bli höjda till 3 000 kr. (med indextillägg 3 600 kr.) från
+den 1 juli 1964. Vårdbidragen för vård i enskilt hem av svårt handikappade
+barn bör fr. o. m. nämnda datum utgå med samma belopp, d. v. s. 3 600 kr.
+Kostnaderna för denna reform beräknar vi till 6 milj. kr. för helt budgetår
+(budgetåret 1964/65). Utskottet får vid behandlingen av regeringens förslag 
+i frågan göra de ändringar i lagtexten, som föranleds av bifall till vårt
+förslag.
+Vårdbidragen kommer ca 5 000 svårt handikappade barn till godo. De
+medelsvårt handikappade barnen ställs dock utanför skyddet. Hit hör en
+icke ringa del av de neurosedynskadade barnen. Även de medelsvårt handikappade 
+barnen kräver särskild tillsyn och vård, så att vårdarna åsamkas
+betydande inerutgifter. Kompensation bör ges även för dessa inerutgifter
+och det kan lämpligen ske genom införande av halva vårdbidrag. Vi föreslår
+att utredning sker så snabbt att bestämmelser om halva vårdbidrag kan
+träda i kraft senast den 1 juli 1965.
+Härmed är dock inte de ekonomiska frågorna i samband med vården avhandikappade 
+barn lösta. Vid sidan av generella bidrag finns uppenbara
+6
+Motioner i Andra kammaren, nr 355 år 1965
+behov av särskilda behovsprövade bidrag. Ibland uppgår merkostnaderna
+för vården av svårt handikappade barn i hemmet till 10 000 kr. per år och
+därutöver. Självfallet skall inte ekonomiska svårigheter få hindra att föräldrar 
+eller andra personer vårdar de handikappade barnen. F. n. utgår inom
+vissa landsting och i Stockholms stad behovsprövade bidrag i sådana fall.
+Det kan emellertid tänkas, att denna verksamhet skulle få ökad omfattning
+och bidragens belopp skulle höjas om staten medverkade i någon form. Vi
+föreslår därför, att utredning sker om formerna för en eventuell statlig medverkan 
+i samband med utformningen av behovsprövade bidrag för vården
+av handikappade barn i enskilda hem.
+Antalet handikappade barn, som vårdas i enskilda hem, kommer sannolikt
+att öka i och med att det föreslagna vårdbidraget tillkommer. För att denna
+vård skall bli fullgod krävs att familjerna, som vårdar dessa barn, kan upprätthålla 
+en intim kontakt med läkare, kuratorer, sjukgymnaster och terapeuter.
+ Detta kommer att ställa ökade krav på den öppna vården. Man får
+t. ex. räkna med ett ökat behov av framför allt kuratorer, sjukgymnaster
+och terapeuter, som bereds möjligheter att hjälpa familjerna till rätta med
+råd och behandling. Viktigt är att denna personal får möjlighet att göra
+hembesök och att t. ex. anslag finns för rese-, dag- och nattraktamenten i
+de fall barnen vårdas på långt avstånd från den vårdanstalt, som ansvarar
+för behandlingen.
+3. Ersättning för sjukresor utom riket
+För vissa sjukdomar torde i Sverige saknas vård- och rehabiliteringsmöjligheter 
+eller kan man utomlands få en bättre terapi än vad som kan erbjudas 
+i Sverige. I sådana fall är det lämpligt att patienter hänvisas till sjukhus 
+utom riket.
+För närvarande utgår ingen ersättning från sjukförsäkringen för utrikes
+resor. Det innebär, att patienter som inte själva har råd att bekosta resan
+utomlands kan få avstå från den adekvata behandlingen. Patienter som
+hänvisas till specialistvård inom landet får däremot ersättning för resan.
+Vi anser det rimligt att även utrikesresor ersätts genom sjukförsäkringen,
+då det är uppenbart att lika god vård ej kan erbjudas i Sverige som på utrikes
+ort. Risken för missbruk torde vara obetydlig.
+Vi hemställer därför, att riksdagen i skrivelse till Kungl. Maj :t begär att
+sjukresebestämmelserna överses i syfte att införa ersättning även för resor 
+utom riket i samband med hänvisning från läkare till utländskt sjukhus,
+såvida ej likvärdig vård kan heredas inom landet.
+4. Semester- och fritidsfrågor för handikappade
+De handikappades önskemål om semester och fritidsgöromål ägnas f. n.
+tyvärr alltför ringa uppmärksamhet från samhällets sida. Ändå rör det sig
+här om ytterst betydelsefulla frågor i en handikappad människas liv.
+7
+Motioner i Andra kammaren, nr 355 år 19(it
+Liksom de friska vill också handikappade människor ha möjlighet till
+viss tids avkoppling i annan miljö på någon ort utanför hemorten. De handikappade 
+har ofta utpräglat intresse för konstnärlig verksamhet av något
+slag, läsning av litteratur in. in. och vill liksom andra medborgare ägna sig
+åt dessa intressen. Möjligheterna till semester och till meningsfull fritidssysselsättning 
+kan ofta framstå som särskilt väsentliga för handikappade,
+särskilt när de på grund av sitt handikapp är hårt bundna till hemmiljön.
+Det finns nu ibland oöverstigliga hinder för dem att realisera sådana önskemål.
+ De ekonomiska förutsättningarna kan saknas. Men det kan också
+t. ex. visa sig omöjligt att uppbringa en person som kan hjälpa den handikappade 
+under semestervistelse på annan ort.
+Om de ekonomiska resurserna för de handikappade förbättras, undanröjs 
+i huvudsak de ekonomiska hindren på detta område. Det kan likväl
+vara lämpligt att införa stipendier framför allt för att stimulera handikappade 
+till fritidssysselsättning. Frågor som rör de handikappades möjligheter
+till rekreation, miljöbyte och till meningsfull fritidssysselsättning bör —
+i överensstämmelse med vad vi föreslog vid 1963 års riksdag - närmare
+utredas.
+5. Bidrag till specialglasögon och för reparation av hörapparater
+Under femte huvudtiteln finns ett särskilt anslag på 5 milj. kr. för bidrag
+till hörapparater. Från anslaget utgår statsbidrag för hörapparatei med
+belopp motsvarande hela anskaffningskostnaden, dock högst 400 kr. I
+vissa fall kan bidrag till dyrare apparat medges med högre belopp. Det ar
+fallet när uppenbart behov föreligger av specialapparat för svårare hörselnedsättning.
+Bidrag till anskaffande av ordinära glasögon förekommer inte, vilket är
+naturligt eftersom en obetydligt nedsatt syn knappast kan betraktas som
+handikapp och kostnaderna för vanliga glasögon dessutom är små. Däremot
+anser vi att starka skäl talar för att bidrag bör utgå till specialglasögon, vilka
+betingar högt pris och dessutom är avsedda att korrigera ett handikapp hos
+vederbörande. För att koordinera reglerna härom med bestämmelserna
+för hörapparater kan det övervägas att låta bidrag utgå, när uppenbara behov 
+föreligger av specialglasögon för svårare synnedsättning. Bidragsbeloppet 
+kan bestämmas till mellanskillnaden mellan kostnaden för specialglasögon 
+och vanliga glasögon. Vi hemställer att Kungl. Maj :t framlägger förslag 
+i huvudsaklig överensstämmelse med de här angivna riktlinjerna.
+Anledningen till att bidrag inte utgår för reparation av hörapparater torde
+vara, att detta kunde tänkas medföra risk för minskad varsamhet vid handhavandet 
+av apparaterna. Emellertid är nuvarande ordning inte fullt ändamålsenlig.
+ I alltför stor utsträckning får hörapparater — även helt nya sådana 
+— ligga oanvända därför att de inte fungerar. Detta är olyckligt. Som
+vi framhöll i fjolårets partimotion måste undervisningen i skötseln av hör
+-
+8 Motioner i Andra kammaren, nr 355 är 1965
+apparater intensifieras, så att inte obetydliga fel på apparaterna medför att
+de kasseras.
+Det är naturligt, att hörapparater som barn har ganska lätt går sönder.
+Det inträffar självfallet även för barn som är varsamma vid handhavandet
+av apparaterna. När apparaterna går sönder, blir de inte alltid reparerade.
+Kanske har apparaten upprepade gånger strejkat, så att familjen av ekonomiska 
+eller andra skäl finner att den bör kasseras. Barnen vänjer sig vid
+att vara utan apparaterna, vilket naturligtvis blir till men för deras skolgång
+och försvårar kontakterna med omgivningen. I synnerhet för barn i skolan
+är det därför angeläget att hörapparaterna fungerar.
+Ett effektivt medel att förebygga att hörapparaterna inte blir liggande
+oanvända, när de inte fungerar synes vara att bidraget till hörapparater
+utvidgas till att omfatta även reparation av hörapparater. Det kan här nämnas 
+att Danmark har fria reparationer av hörapparater. Vi anser inte att
+det finns några relevanta skäl mot denna reform utan hemställer att regeringen 
+framlägger förslag i ämnet.
+6. Bidrag till anskaffande av ledarhundar och till ögonproteser
+Insatserna till förmån för de blinda är i Sverige tyvärr inte lika stora
+som i övriga nordiska länder. Ett väsentligt steg framåt är dock den utökning 
+av stödet till talboksverksamheten soin föreslås i statsverkspropositionen.
+ Där föreslås också att bidrag skall utgå för utbildning av ledarhundar 
+vid arméns hundskola i Sollefteå. Förslag saknas dock om bidrag till
+anskaffande av ledarhundar.
+I motionerna I: 415 och II: 498 vid 1963 års riksdag föreslogs, att bidrag
+till anskaffande av ledarhundar skulle utgå efter samma principer som
+statsbidrag till ortopediska hjälpmedel, d. v. s. med belopp motsvarande
+hela anskaffningskostnaden. I motionerna erinrades om att bidrag till ändamålet 
+regelmässigt inte beviljades av vare sig stat eller kommun. De statliga 
+invaliditetstilläggen resp. invaliditetsersättningarna avser inte att täcka
+kostnaderna för anskaffande av ledarhundar, endast för användande av
+ledarhundar. Det framhölls i motionerna, att kostnaderna för mathållning
+av ledarhundar uppgår till hela 700 kr. om året.
+Kostnaderna för anskaffande av ledarhundar får nu i regel bestridas av
+de blinda själva. Vi anser att ledarhundar bör jämställas med andra hjälpmedel,
+ för vars anskaffande bidrag nu utgår under anslaget Bidrag till ortopediska 
+hjälpmedel m. m. Bidrag omfattande hela anskaffningskostnaden,
+d. v. s. f. n. ca 2 500 kr., bör utgå fr. o. in. den 1 juli 1964. För tillfället
+finns endast ett hundratal blinda med ledarhundar i landet. Kostnaderna för
+reformen blir således små. Vi beräknar dem till 50 000 kr. för budgetåret
+1964/65.
+Vidare anser vi att bidrag bör utgå till ögonproteser från anslaget till
+Bidrag till ortopediska hjälpmedel m. in. Vi föreslår att beslut fattas härom.
+9
+Motioner i Andra kammaren, nr 355 år 196b
+Någon uppräkning av anslaget till ortopediska hjälpmedel m. in. torde ej erfordras 
+vid bifall till våra förslag.
+7. ökat anslag till De blindas förening
+De frivilliga handikapporganisationerna har gjort betydande insatser för
+att skapa förståelse bland myndigheter och allmänhet för de handikappades 
+svårigheter. De har härigenom aktivt bidragit till att påskynda utvecklingen 
+mot större jämställdhet mellan handikappade och andra personer i
+samhället. Jämsides med denna utåtriktade verksamhet bedriver de frivilliga 
+organisationerna en inre verksamhet av stor betydelse. Rådgivning
+och information är exempel på verksamheter som är speciellt viktiga i
+handikapporganisationer. Det kan gälla att hjälpa handikappade människor 
+med tillfälliga bekymmer och problem. Men organisationerna sprider
+också upplysning om nya hjälpmedel och andra forskningsresultat, som
+är ägnade att göra livet lättare för de handikappade. Dessa verksamheter är
+synnerligen förtjänstfulla. De bör få mesta möjliga stöd från samhället.
+De blindas förening begär för budgetåret 1964/65 231 000 kr. till föreningens 
+konsulentverksamhet och 50 000 kr. till utgivande av föreningens tidning 
+De blindas veckoblad. Regeringen vill pruta ner dessa anslagsäskanden
+med drygt hälften. Det innebär att nuvarande bidrag i stort sett bibehålies
+oförändrade.
+De blindas förenings konsulentverksamhet har under åren tagit allt större
+omfattning och allt fler blinda har härigenom blivit hjälpta. Då emellertid
+statsanslagen ej följt med i denna utveckling, har bördan på blindorganisationerna 
+börjat kännas alltför tung. Ett ökat statsbidrag skulle innebära
+ett erkännande från samhällets sida för de goda insatser som sker och skulle
+stimulera föreningen att ytterligare utöka verksamheten. Vi föreslår därför
+bifall till föreningens begäran om ökat anslag. De 50 000 kr. som föreningen
+begär för utgivande av sin tidning förefaller också utgöra ett skäligt belopp.
+På grund av vad här anförts bör anslaget till Bidrag till De blindas förening
+höjas med 150 000 kr.
+Riksdagen biföll 1963 ett anslag på 100 000 kr. till De blindas förening avsett 
+för fria bandspelare till blinda. Det visade sig under årets gång att behohovet 
+av bandspelare var betydligt större än vad man beräknat och att anslaget 
+var förbrukat redan i augusti. Genom ett förhöjt anslag med 135 000
+kr., vilket räcker till ca 300 bandspelare, skulle det enligt De blindas förening
+vara möjligt att någorlunda komma i kapp den efterfrågan på bandspelare
+som finns uppdämd och därigenom göra det möjligt för de blinda som vill
+ha en bandspelare att slippa onödig väntan på att få en sådan, vilket blir
+fallet om anslaget blir oförändrat. Det förefaller angeläget att undvika fördröjning 
+för de blinda med anskaffning av bandspelare och vi föreslår därför 
+att anslaget till Bidrag till De blindas förening höjes med 135 000 kr.,
+^ Motioner i Andra kammaren, nr 355 år 1964
+dvs. tillsammans med den ovan föreslagna höjningen till 1 285 000 kr. för
+budgetåret 1964/65.
+8. ökad forskning om elektrotekniska hjälpmedel
+Svenska vanförevårdens centralkommitté (SVCK) har under många år bedrivit 
+forskning och utvecklingsarbete rörande tekniska hjälpmedel och
+annan hjalp för handikappade. Denna verksamhet har efter hand ökat. Bristande 
+resurser har emellertid gjort, att möjligheter att pröva även elektrotekniska 
+hjälpmedel inte har förelegat. Samtidigt står det klart att det knappast
+finns något område där möjligheterna att genomföra förbättringar som ökar
+de handikappades fysiska aktivitet är så stora som här. Utomlands har man
+funnit ut metoder på elektrisk väg, som gjort det möjligt även för svårt rörelsehindrade 
+personer att utföra avancerade rörelser.
+I samarbete med Hörselfrämjandets riksförbund och De blindas förening
+har SVCK begärt anslag för att inrätta ett elektrotekniskt laboratorium där
+forskning på detta nya område skulle kunna äga rum. Driftkostnaderna för
+laboratoriet under budgetåret 1964/65 har beräknats till 150 000 kr. För att
+kunna täcka denna kostnad har SVCK begärt ett driftbidrag om 100 000 kr.
+Dessutom har SVCK begärt 300 000 kr. för en påbyggnad av SVCK:s nuvarande 
+byggnad för att skapa lokalutrymme för laboratoriet.
+Regeringen förklarar, att den inte nu är beredd att ta ställning till SVCK:s
+begäran om ett laboratorium. Möjligen är regeringens tveksamhet beroende
+av att ett förstatligande av SVCK har aktualiserats. Vi anser denna tveksamhet 
+obefogad, då den endast fördröjer insatserna för de handikappade.
+Centrala rehabiliteringsberedningen har tillstyrkt förslaget och anser att det
+är oberoende av ett eventuellt senare förstatligande — värdefullt om SVCK
+bereds möjlighet att utvidga sin verksamhet.
+Forskningen och utvecklingsarbetet rörande elektrotekniska hjälpmedel
+måste snarast sättas i gång och ges erforderliga resurser. Vi föreslår således
+bifall till SVCK:s begäran. Anslaget till SVCK bör således höjas med ytterligare 
+400 000 kr. till 650 000 kr. för budgetåret 1964/65.
+9. Personalupprustning inom arbetsvärden
+Rehabiliteringsverksamheten befinner sig i kraftig expansion. År 1962 inskrevs 
+vid arbetsvårdsexpeditionerna ca 39 000 personer jämfört med ca
+33 000 år 1961. Under 1963 torde enligt arbetsmarknadsstyrelsen totala antalet 
+arbetsvårdssökande närma sig 50 000, och det är, enligt generaldirektör 
+Bertil Olsson i AMS, inte orealistiskt att vi inom en nära framtid skall
+notera 100 000 arbetsvårdsfall om året. Denna prognos torde vara rimlig
+med tanke på det ökade antal remisser till arbetsvårdsexpeditionerna som
+blir följden av att rehabiliteringsverksamheten under de närmaste åren
+byggs ut.
+För att inte effekten av denna utbyggnad skall äventyras krävs att arbets
+-
+11
+Motioner i Andra kammaren, nr 355 år 196b
+vårdsverksamheten upprustas kraftigt personellt. Det kan under dessa förhållanden 
+knappast vara tillrådligt att, som Kungl. Maj :t föreslår i statsverkspropositionen,
+ pruta ner den föreslagna personalförstärkningen vid
+arbetsvårdsexpeditionerna från av arbetsmarknadsstyrelsen begärda 55 till
+20 tjänster. AMS förslag innebär även betydande löneuppflyttningar av personalen 
+i förhållande till Kungl. Maj :ts förslag. Detta bör ge möjlighet att
+anställa mer kvalificerad arbetskraft, bl. a. fler socionomer, inom arbetsvärden.
+ Vi föreslår bifall till AMS förslag och hemställer därför att anslaget
+till avlöningar för arbetsförmedlingarna höjs med 1 450 000 kr. till sammanlagt 
+58 450 000 kr.
+10. Reformer inom arbets provningsverksamheten
+Resurserna för arbetsprövningsverksamheten svarar f. n. inte alls mot behoven.
+ Långa väntetider gäller för dem som behöver arbetsprövas och detta
+försenar och försvårar i regel rehabiliteringen.
+För att snabbt lösa den kris som uppstått har arbetsmarknadsstyrelsen
+undersökt möjligheterna att ordna arbetsprövning vid arbetsträningsverkstäderna.
+ En förutsättning härför är att statsbidrag utgår för de särskilda
+kostnader som arbetsprövningsverksamheten medför. En tredubbling av arbetsprövningsverksamheten,
+ från nuvarande 200 till 600 patienter per år,
+skulle kunna ske vid en så jämförelsevis ringa ökning av statens bidrag till
+verksamheten som med 1 100 000 kr. Kostnaderna hänför sig till kursavgifter 
+vid prövningsavdelningarna samt utbildningsbidrag.
+Kungl. Maj :t avslår förslaget med hänvisning till att man inte nu bör
+genom dyrbara investeringar binda sig vid en avancerad arbetsprövning vid
+träningsverkstäderna. I likhet med centrala rehabiliteringsberedningen anser 
+vi dock att det vore värdefullt om arbetsprövning i varje fall tills vidare
+skedde vid vissa träningsverkstäder.
+Vi föreslår bifall till AMS förslag. Emellertid synes det av AMS beräknade
+anslaget för denna verksamhet 1 100 000 kr. kunna rymmas inom ramen för
+av Kungl. Maj :t föreslagna 135 milj. kr. varför någon anslagsökning icke
+synes nödvändig under punkten Omskolning in. in.
+Rehabilitering är i många fall utsiktslös om den sociala miljön är dålig. 1
+en interpellation från vårt håll i fjol höst riktades uppmärksamheten på förhållandena 
+i samband med förläggning av patienter vid statens arbetsklinik.
+Vissa patienter — häribiand lätt rörelsehämmade och balansrubbade personer 
+— placerades i en barack på långt avstånd från arbetskliniken. De
+hade stora svårigheter att till fots och med buss bege sig till arbetskliniken,
+där rehabiliteringen äger rum. Barackerna var lyhörda och lämnades utan
+tillräcklig tillsyn och service. Andra patienter var förlagda i fyrbäddsrum
+på Norrbackainstitutet tillsammans med institutets elever. I sitt interpellationssvar 
+antydde socialministern att en lösning höll på att utarbetas. Han
+12
+Motioner i Andra kammaren, nr 355 år 196t
+framhöll att arbetsklinikens styrelse i sina anslagsäskanden meddelat att
+den undersöker möjligheterna till en bättre lösning av förläggningsfrågan.
+Statens arbetsklinik har i sina anslagsäskanden begärt att anslaget till
+patientförläggning ökas med 20 000 kr. för att i samband med en lösning av
+förläggningsfrågan bestrida kostnaderna för en sjukvårdsutbildad husmor.
+Förläggningsfrågan torde erhålla sin lösning under 1964/65, framhåller klinikstyrelsen.
+ Regeringen vill dock inte bifalla arbetsklinikens anslagsframställning 
+utan föreslår oförändrat anslag om 2 000 kr. under nästa budgetår.
+En förhalning av lösningen av denna fråga kan enligt vår mening omöjligen
+accepteras. Vi hemställer, att riksdagen i skrivelse till Kungl. Maj :t kräver att
+förläggningsfrågan löses utan dröjsmål ävensom bemyndigar Kungl. Maj :t
+att anslå härför erforderliga medel.
+Behovet av forskning träder i förgrunden på många områden som rör stödet 
+till de handikappade. Vid statens arbetsklinik har rehabiliteringsforskning 
+bedrivits under en längre tid, men den har hämmats av bristande resurser.
+ I fjolårets partimotioner begärde vd, att denna forskning skulle få ökade
+medel att förfoga över. Kravet tillgodosågs inte. I år liksom förra året framförs 
+i arbetsklinikens petita förslag om anslag till avlönande av en särskild
+forskarassistent. Regeringen vill emellertid inte heller nu medverka till att
+öka arbetsklinikens forskningsresurser. Det gäller här ett synnerligen eftersatt 
+forskningsområde och då har vi svårt att se motiv till en upprepad tveksamhet.
+ Den av arbetskliniken begärda tjänsten som forskarassistent bör
+inrättas. Arbetsklinikens anslag bör därför höjas med ytterligare 35 000 kr.
+till 688 000 kr. för budgetåret 1964/65.
+11. Reformer inom arbetsträningsverksamheten
+Statsbidraget till anordnande av verkstäder för handikappade är avsett att
+stimulera huvudmännen att bygga s. k. skyddade eller lialvskyddade verkstäder 
+för handikappade, som inte kan placeras i den öppna marknaden eller
+som under en övergångstid behöver arbeta under lugnare förhållanden än
+som gäller på en vanlig arbetsplats.
+Bidraget utgår f. n. med högst 325 kr. per kvm. AMS har emellertid i sina
+petita föreslagit en höjning till högst 390 kr. per kvm, vilket dock Kungl.
+Maj :t avvisat. AMS:s förslag grundas på att köerna vid träningsverkstäderna
+är stora — endast 3 685 platser är disponibla medan platsbehovet beräknas
+utgöra 20 000. Det är under sådana omständigheter orimligt att som motiv
+för avslag hänvisa till att bidragsbestämmelserna för driften av verkstäder 
+reviderades av 1963 års riksdag.
+Även de höjda byggnadskostnaderna talar för att en ändring efter de riktlinjer 
+som arbetsmarknadsstyrelsen lagt fram bör ske nu. Vi hemställer
+att AMS:s förslag bifalles. Anslaget till Bidrag till anordnande av verkstäder
+för handikappade bör uppräknas med 5 000 000 kr. till 15 000 000 kr. för
+budgetåret 1964/65.
+Motioner i Andra kammaren, nr 355 år 196b
+13
+Som ett värdefullt komplement till den skyddade verksamheten finns vid
+ett antal industriföretag avdelningar för halvskyddad verksamhet. De erfarenheter 
+som ernåtts beträffande dessa avdelningar är mycket positiva.
+Trots att AMS gjort stora ansträngningar att intressera industriföretag att
+ta upp halvskyddad verksamhet har emellertid inte något nytillskott skett.
+Främsta anledningen härtill är att statsbidragen endast delvis kompenserar
+företagen för deras merkostnader.
+Bidraget är nu maximerat till 2 000 kr. per arbetsplats och år. Denna begränsning 
+vill AMS ta bort för att möjliggöra en prövning från fall till fall
+så att kompensation kan ges huvudmän för träningsverkstäder med goda
+och differentierade träningsresurser och där mera kostnadskrävande, kvalificerade 
+åtgärder vidtages. AMS vill även höja bidraget för de partiellt arbetsföra,
+ som sedan den 1 juli 1962 har varit 1 krona per fullgjord arbetstimme,
+ till 3 kr. per arbetstimme. Med dessa två ändringar i grunderna för
+statsbidrag och med den utökning av driften som väntas beräknar AMS att
+anslaget till driften av verkstäder för handikappade bör uppföras med
+17 000 000 kr.
+Kungl. Maj :t avslår dessa förslag till förbättringar av driftbidraget och
+föreslår att ifrågavarande anslag uppföres med 13 000 000 kr.
+Driftbidragens största förtjänst är att man får ett verksamt medel att föra
+ut handikappade i produktivt arbete, vilket ur samhällets och den handikappades 
+egen synvinkel måste vara synnerligen tillfredsställande. Vi anser,
+att de av AMS begärda förbättringarna är angelägna och bör genomföras.
+Anslaget till Bidrag till driften av verkstäder för handikappade bör således
+höjas med b 000 000 kr. till 17 000 000 kr. för budgetåret 1964/65.
+12. Förbättrad näringshjälp
+Medlen som anvisas till näringshjälp är bl. a. avsedda att ge de handikappade 
+möjlighet att anskaffa arbetsbefrämjande hjälpmedel. F. n. gäller
+att en stor grupp handikappade — de handikappade husmödrarna — inte
+kan erhålla näringshjälpsmedel till arbetsbefrämjande hushullsredskap.
+Arbetsmarknadsstyrelsen anser, att bidragsgrunderna bör ändras så att
+denna lucka i bestämmelserna tätas. Något skäl att genom olika behandling
+i bidragshänseende skilja hushållsarbete från annan yrkesutövning synes
+inte föreligga. Inte heller utgör det faktum att vissa hushållsredskap av regeringen 
+föreslås bli bidragsberätligade under anslaget till ortopediska hjälpmedel 
+m. in. hinder för bifall till AMS:s mera vittsyftande förslag på denna
+punkt. Det bör beaktas, att AMS:s förslag tillstyrkts av centrala rehabiliteringsberedningen.
+Vi föreslår således, att bidragsreglerna för rätt till näringshjälp ändras,
+så att näringshjälp kan utgå även för anskaffande av maskinella och andra
+lämpliga hjälpmedel åt handikappade husmödrar.
+Arbetsmarknadsstyrelsen har även föreslagit, att bidragsgrunderna för nä
+-
+14
+Motioner i Andra kammaren, nr 355 år 196i
+ringslijälpen ändras, så att personer som tidigare erhållit sådan hjälp till
+egen rörelse även kan få bidrag till vissa ytterligare kostnader. Det gäller
+kostnader som orsakas av att den handikappade för att trygga sin utkomst
+tvingas ändra produktionsinriktningen eller rationalisera verksamheten och
+detta kräver nyanskaffning av maskiner, lager in. m. Kungl. Maj :t biträder
+inte heller detta förslag. Vi anser däremot, att även denna senare ändring
+är motiverad.
+Med de två förändringar av bidragsbestämmelserna som vi föreslagit behöver 
+anslaget till näringshjälp höjas med 500 000 kr. till 6 500 000 kr. Detta
+föranleder en höjning av anslaget till Vissa sysselsättningsfrämjande åtgärder 
+för handikappade m. fl. till 77 500 000 kr., därav förslagsvis 30 000 000
+kr. att avräknas mot automobilskattemedlen.
+13. Höjt maximibelopp för invalidbostadsbidragen m. in.
+Bostadsstyrelsen har i sina anslagsäskanden begärt tillåtelse att försöksvis 
+bevilja invalidbostadsbidrag med högre belopp än nuvarande maximibelopp 
+om 10 000 kr. Styrelsen framhåller, att i fall när bostaden har besvärande 
+planförhållanden kan en invalid ha svårigheter att förflytta sig i eller
+utanför lägenheten. Vissa hjälpmedel, såsom radiostyrda garageportöppnare,
+ hydrauliska lyftplattor och hissar, kan avhjälpa dessa svårigheter.
+Dessa hjälpmedel är dyrbara. Enligt bostadsstyrelsen föreligger behov av
+ytterligare bidrag i det enskilda fallet om högst 18 000 kr.
+Socialpolitiska kommittén framhåller i yttrande över bostadsstyrelsens
+förslag, att man i första hand bör tillse att nya bostäder projekteras på sådant 
+sätt att dyrbara specialanordningar kan undvikas. Skulle ändå i enstaka 
+fall efter erforderlig utredning behov finnas föreligga av specialanordning,
+ t. ex. lyftplatta, vill kommittén tillstyrka att möjlighet öppnas för
+viss bidragsverksamhet för ifrågavarande ändamål. Regeringen, slutligen,
+avstyrker bostadsstyrelsens förslag om en förbättring av invalidbostadsbidragen.
+ I stället föreslås under socialhuvudtiteln ett bidrag om 100 000 kr.
+för budgetåret 1964/65 till De vanföras riksförbund. Bidraget skall användas 
+till inköp och installation av hydrauliska lyftplattor för rullstolsinvalider.
+Enligt vår mening bör stor vikt läggas vid att utforma samhälls- och bostadsmiljön 
+så att den bättre än nu är anpassad för handikappade personer.
+ Vi delar uppfattningen, som framförts av socialpolitiska kommittén, att
+nya bostäder bör projekteras, så att specialanordningar för invalider så långt
+möjligt görs onödiga.
+Det är emellertid uppenbart, att nuvarande situation på bostadsmarknaden 
+nödvändiggör åtgärder av den karaktär som bostadsstyrelsen skisserat.
+Specialinredning av invalidbostäder och liknande förbättringsverksamhet
+ställer sig dyrbar. Med hänsyn till den betydelse som bostadsmiljön har
+för en handikappads liv, bör kostnadssynpunkter inte få anses ha utslags
+-
+Motioner i Andra kammaren, nr 355 år 1964
+15
+givande betydelse i sammanhanget. Det sammanlagda bidraget till invalidbostäder 
+beräknas under budgetåret 1963/64 inte uppgå till mer än 1 milj.
+kr. För budgetåret 1964/65 beräknar bostadsstyrelsen och regeringen att bidrag 
+kommer att beviljas med 2 milj. kr.
+Bostadsstyrelsens önskemål i vad avser invalidlägenheter torde kunna
+komma att i huvudsak tillgodoses genom en generell höjning av invalidbostadsbidragets 
+maximibelopp. Härigenom blir det också möjligt att tillgodose 
+andra önskemål, t. ex. en förbättrad specialinredning. Vi föreslår
+därför att invalidbostadsbidragets maximibelopp fr. o. m. den 1 juli 1964
+höjs med 5 000 kr. till 15 000 kr.
+Regeringen ämnar under den närmaste tiden, enligt vad som framkommer 
+i statsverkspropositionen, uppdraga åt bostadsstyrelsen att genom hänvändelse 
+till kommunerna rikta deras uppmärksamhet på aktiva åtgärder
+för att fler förbättringslån beviljas och särskilda anslag föreslås för detta
+ändamål. Enligt vår uppfattning bör bostadsstyrelsen jämväl i ökad utsträckning 
+informera kommunerna om rörelsehindrade handikappades möjligheter 
+att erhålla invalidbostadsbidrag. En sådan verksamhet är angelägen 
+och kan väntas leda till att ett ökat antal invalidbostadsbidrag beviljas.
+De av oss föreslagna förbättringarna rörande maximibeloppet för invalidbostadsbidragen 
+och åtgärder för att öka antalet beviljade bidrag kan beräknas 
+erfordra en ytterligare uppräkning av anslaget till invalidbostäder
+med 1 milj. kr. Anslaget till Bidrag till viss bostadsförbättringsverksamhet
+bör således uppföras med 31 000 000 kr. under nästkommande budgetår.
+Under hänvisning till den ovan anförda motiveringen hemställer vi,
+att riksdagen måtte
+1. i anledning av våra förslag i en följdmotion angående
+invaliditetstillägg, invaliditetsersättningar och vårdbidrag
+för vård i enskilda hem av svårt handikappade barn till Bidrag 
+till folkpensioner m. in. för budgetåret 1964/65 under
+femte huvudtiteln beräkna ett i förhållande till Kungl. Maj :ts
+förslag med 18 000 000 kr. förhöjt förslagsanslag,
+2. i skrivelse till Kungl. Maj :t begära översyn av sjukresebestämmelserna 
+i syfte att införa ersättning för resor
+utom riket i samband med hänvisning från läkare till utländskt 
+sjukhus,
+3. i skrivelse till Kungl. Maj :t begära utredning om frågor
+som rör de handikappades möjligheter till semester och fritidssysselsättning,
+4. i skrivelse till Kungl. Maj :t hemställa om förslag till
+riksdagen rörande bidrag till specialglasögon samt för reparation 
+av hörapparater från anslaget till Bidrag till hörapparater,
+5. besluta att bidrag till anskaffande av ledarhundar samt
+16
+Motioner i Andra kammaren, nr 355 år 196i
+till ögonproteser skall utgå från anslaget till Bidrag till ortopediska 
+hjälpmedel fr. o. m. den 1 juli 1964,
+6. besluta bevilja De blindas förening ett ytterligare bidrag 
+av 285 000 kr. under nästa budgetår, varav 135 000 kr.
+avseende talboksverksamheten och 150 000 kr. föreningens
+konsulentverksamhet och tidning, och således till Bidrag
+till De blindas förening för budgetåret 1964/65 under femte
+huvudtiteln anvisa ett anslag av 1 285 000 kr.,
+7. besluta bevilja SVCK ett ytterligare bidrag av 400 000
+kr. för att möjliggöra inrättande av elektrotekniskt laboratorium,
+ och således till Bidrag till Svenska vanförevårdens
+centralkommitté för budgetåret 1964/65 under femte huvudtiteln 
+anvisa ett anslag av 650 000 kr.,
+8. besluta att för personalförstärkning av arbetsvårdsexpeditionerna 
+inom arbetsförmedlingen inrätta 55 nya
+tjänster i överensstämmelse med arbetsmarknadsstyrelsens
+förslag i stället för 20, som Kungl. Maj :t föreslagit, och därför 
+till Arbetsförmedlingen: Avlöningar för budgetåret
+1964/65 under elfte huvudtiteln anvisa ett i förhållande till
+Kungl. Maj :ts förslag med 1 450 000 kr. förhöjt förslagsanslag 
+om inalles 58 450 000 kr.,
+9. besluta att för personalförstärkning på arbetsmarknadsstyrelsens 
+arbetsvårdsbyrå inrätta 4 nya tjänster i stället 
+för 2 som Kungl. Maj :t föreslår, och därför till Arbetsmarknadsstyrelsen: 
+Avlöningar för budgetåret 1964/65 under 
+elfte huvudtiteln anvisa ett i jämförelse med Kungl.
+Maj :ts förslag med 60 000 kr. förhöjt förslagsanslag av
+11 110 000 kr.,
+10. besluta — inom ramen för nuvarande anslag till Omskolning 
+m. m. — genomföra arbetsmarknadsstyrelsens förslag 
+angående arbetsprövningsverksamhet vid arbetsträningsverkstäderna,
+ varigenom arbetsprövningsverksamheten
+under nästa budgetår kan tredubblas,
+11. i skrivelse till Kungl. Maj :t begära att frågan om förläggning 
+av patienter vid statens arbetsklinik löses utan
+dröjsmål ävensom bemyndiga Kungl. Maj :t att anslå härför
+erforderliga medel,
+12. besluta inrätta en tjänst som forskarassistent för rehabiliteringsforskning 
+vid statens arbetsklinik och därför
+till Statens arbetsklinik i Stockholm för budgetåret 1964/65
+under femte huvudtiteln anvisa ett i jämförelse med Kungl.
+Maj:ts förslag med 35 000 kr. förhöjt reservationsanslag om
+inalles 688 000 kr.,
+Motioner i Andra kammaren, nr 355 år 196i
+17
+13. besluta bifalla arebtsmarknadsstyrelsens förslag om
+nya bidragsregler för bidrag till anordnande av verkstäder
+för handikappade och i anledning därav till Bidrag till anordnande 
+av verkstäder för handikappade för budgetåret
+1964/65 under elfte huvudtiteln anvisa ett i förhållande till
+Kungl. Maj :ts förslag med 5 000 000 kr. förhöjt reservationsanslag 
+om inalles 15 000 000 kr.,
+14. besluta bifalla arbetsmarknadsstyrelsens förslag om
+nya bidragsregler för bidrag till driften av verkstäder för
+handikappade och i anledning därav till Bidrag till driften
+av verkstäder för handikappade för budgetåret 1964/65 under 
+elfte huvudtiteln anvisa ett i förhållande till Kungl.
+Maj :ts förslag med 4 000 000 kr. förhöjt förslagsanslag om
+inalles 17 000 000 kr.,
+15. besluta bifalla arbetsmarknadsstyrelsens förslag om
+förbättrade näringshjälpsbidrag för handikappade, och i anledning 
+därav till Vissa sgsselsättningsfrämjande åtgärder
+för handikappade m. fl. för budgetåret 1964/65 under elfte
+huvudtiteln anvisa ett i förhållande till Kungl. Maj :ts förslag 
+med 500 000 kr. förhöjt reservationsanslag av 77 500 000
+kr., därav förslagsvis 30 000 000 kr. att avräknas mot automobilskattemedlen,
+16. i skrivelse till Kungl. Maj :t hemställa att åt bostadsstyrelsen 
+måtte uppdragas att fästa kommunernas uppmärksamhet 
+på aktiva åtgärder i syfte att bättre utnyttja möjligheterna 
+till invalidbostadsbidrag,
+17. besluta höja invalidbostadsbidragets maximibelopp
+med 5 000 kr. till 15 000 kr. fr. o. m. den 1 juli 1964, samt
+18. i anledning av förslagen under 16 och 17 till Bidrag
+till viss bostadsförbättringsverksamhet för budgetåret 1964/
+65 under elfte huvudtiteln anvisa ett i förhållande till Kungl.
+Maj :ts förslag med 1 000 000 kr. förhöjt reservationsanslag
+om inalles 31 000 000 kr.
+Stockholm den 24 januari 1964
+Bertil Ohlin
+Sven Wedén
+Henning Gustafsson
+Gunnar Helén
+O. Malmborg
+Bertil von Friesen
+Sven Gustafson
+Manne Ståhl
+Gustaf Kollberg
+Brita Elmén
+kammare
+kammare
+Andra kammaren
+EP2O355
+2018-03-01 21:46:45
+riksdag
+riksdag
+tvåkammaren
+EP2O355
+2018-03-01 21:46:45
+session
+session
+lagtima
+EP2O355
+2018-03-01 21:46:45
+sidantal
+Antal sidor
+17
+EP2O355
+2018-03-01 21:46:45
+EP2O355
+Andra kammaren
+mot_1964__ak__355.pdf
+921463
+pdf
+Motioner i Andra kammaren, nr 355 år 1964
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1964/web_mot_1964__ak__355/mot_1964__ak__355.pdf

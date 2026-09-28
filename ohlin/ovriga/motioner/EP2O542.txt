@@ -1,0 +1,95 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+16
+Motioner i Andra kammaren, nr 5i2 år 1961
+Nr 542
+Av herr Ohlin m. fl., om inrättande av professurer i geriatrik.
+(Lika lydande med motion nr 408 i Första kammaren)
+Med hänvisning till den i de likalydande motionerna 1:451 och 11:541
+anförda motiveringen hemställer vi,
+att riksdagen måtte i skrivelse till Kungl. Maj :t begära
+skyndsam utredning och förslag rörande inrättande av professurer 
+i geriatrik.
+Stockholm den 26 januari 1964
+Bertil Ohlin Sven Wedén Gunnar Helén
+Gustaf Kollberg Manne Ståhl Bertil von Friesen
+Sven Gustafson Henning Gustafsson
+i Göteborg i Skellefteå
+Stockholm 1964. Isaac Marcus Boktryckeri Aktiebolag 640110
+kammare
+kammare
+Andra kammaren
+EP2O542
+2018-03-01 21:49:39
+riksdag
+riksdag
+tvåkammaren
+EP2O542
+2018-03-01 21:49:39
+session
+session
+lagtima
+EP2O542
+2018-03-01 21:49:39
+sidantal
+Antal sidor
+1
+EP2O542
+2018-03-01 21:49:39
+EP2O542
+Andra kammaren
+mot_1964__ak__542.pdf
+126349
+pdf
+Motioner i Andra kammaren, nr 5i2 år 1961
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1964/web_mot_1964__ak__542/mot_1964__ak__542.pdf

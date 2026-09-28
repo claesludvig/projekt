@@ -1,0 +1,95 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+10
+Motioner i Andra kammaren, nr 576—577.
+Nr 576.
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition,
+nr 245, med förslag till lag om ändring i 1, 9, 10 och 11 kap.
+vattenlagen, m. m.
+(Lika lydande med motion i Första kammaren nr 407.)
+Stockholm den 24 maj 1948.
+Bertil Ohlin. Oscar Carlström. Gustaf Andersson
+i Falun.
+O. E. Sandberg. Gust. Mosesson. Wald. Svensson.
+Nr 577.
+Av herr Kristensson m. fl., i anledning av Kungl. Maj ds proposition,
+ nr 244, med förslag till ändringar i regeringsformen
+och riksdagsordningen, m. m.
+(Motionen återtagen.)
+kammare
+kammare
+Andra kammaren
+E92O577
+2018-03-02 21:17:28
+riksdag
+riksdag
+tvåkammaren
+E92O577
+2018-03-02 21:17:28
+session
+session
+lagtima
+E92O577
+2018-03-02 21:17:28
+sidantal
+Antal sidor
+1
+E92O577
+2018-03-02 21:17:28
+E92O577
+Andra kammaren
+mot_1948__ak__577.pdf
+116914
+pdf
+Motioner i Andra kammaren, nr 576—577
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1948/web_mot_1948__ak__577/mot_1948__ak__577.pdf

@@ -1,0 +1,95 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+8
+Motioner i Första kammaren, nr 321.
+Nr 321.
+Av herr Andrén m. fl., i anledning av Kungl. Marits proposition
+angående beredskapsstat för försvar sväsendet för budgetåret 
+1943/44.
+(Lika lydande med motion i Andra kammaren nr 454.)
+Stockholm den 8 juni 1943.
+Georg Andrén.
+Bertil Ohlin. Ivar Anderson.
+J. B. Johansson.
+S. Linnér. Bickard Sandler.
+Sam Larsson.
+Nils Herlitz. Ruben Wagnsson.
+Ivar Ekströmer.
+Knut Petersson. Axel Mannerskantz.
+kammare
+kammare
+Första kammaren
+E42C321
+2018-03-02 22:42:18
+riksdag
+riksdag
+tvåkammaren
+E42C321
+2018-03-02 22:42:18
+session
+session
+lagtima
+E42C321
+2018-03-02 22:42:18
+sidantal
+Antal sidor
+1
+E42C321
+2018-03-02 22:42:18
+E42C321
+Första kammaren
+mot_1943__fk__321.pdf
+105917
+pdf
+Motioner i Första kammaren, nr 321
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1943/web_mot_1943__fk__321/mot_1943__fk__321.pdf

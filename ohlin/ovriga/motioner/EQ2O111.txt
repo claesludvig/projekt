@@ -1,0 +1,201 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+4
+Motioner i Andra kammaren, nr 111 år 1965
+Nr 111
+Av herr Ohlin m. fl., angående näringsforskning och näringshygien.
+(Lika lydande med motion nr 84 i Första kammaren)
+Nuvarande förhållanden
+I vårt land finns inga akademiska näringsinstitutioner som har till uppgift
+att bedriva forskning och meddela undervisning i näringslära. Detta medför
+att näringsproblemen, som bär avgörande betydelse för vår folkhälsa, ofta ej
+penetreras på önskvärt sätt. Det rör sig här om ett problem av även ekonomiskt
+stora mått. Den totala kostnaden för vår födoämneskonsumtion uppgick år 1961
+till 11 miljarder kronor. Därtill kommer att individens prestationsförmåga och
+motståndskraft står i direkt relation till nutritionstillståndet. Symtom som
+tyder på felaktiga kostvanor såsom tandkaries, järnbrist, åderförkalkning, fetma
+och förstoppning är i vårt land så vanliga att de för en stor del av befolkningen
+ter sig normala. För närvarande utgör åderförkalkning i hjärta och kärl 47 %
+av dödsorsakerna i alla åldrar. Allt detta skapar stort behov av forskning,
+undervisning och information inom näringslärans område.
+Näringsforskning bedrivs för närvarande vid ett flertal institutioner inom
+landet dock utan formell samordning av arbetet. Forskning, undervisning och
+information på näringslärans område bedrivs huvudsakligen på vissa avdelningar 
+vid statens institut för folkhälsan. Vid universitet och högskolor bedrivs
+forskning inom bl. a. näringsfysiologi, näringskemi och klinisk näringslära.
+Svenska institutet för konserveringsforskning (SIK) handhar forskning och
+information inom konserveringsområdet.
+Forskningsbehov
+Människans näringsförsörjning är av väsentlig betydelse för folkhälsan. Födans 
+beskaffenhet kan påverkas. Frågan är om det över huvud taget finns
+någon påverkbar faktor av större vikt i förebyggande hälsovård än kostfaktom.
+Massutspisning via storkök och användning av fabriksmässigt framställda varor
+kommer i framtidens samhälle att göra denna faktor än mer påverkbar.
+I ”Forskning, undervisning och information inom näringslärans område”
+(SOU 1963:77) anges ett flertal för folkhälsan utomordentligt viktiga forskningsprojekt:
+1) 
+Sambandet mellan kost och hälsotillstånd. För närvarande är relativt väl
+känt hur kosten bör vara sammansatt för att inte uppenbara uttryck för
+nutritionsrubbningar skall uppstå. Våra kunskaper om hur näringsämnena bör
+Motioner i Andra kammaren, nr 111 år 1965
+5
+intagas för ett optimalt hälsotillstånd är dock ännu rudimentära. Olika behov
+föreligger för olika kön, åldrar och yrkesgrupper.
+2) Sambandet mellan kost och uppkomst av olika sjukdomar. Här gäller det
+framför allt att utreda vilka kostfaktorer som bidrar till ökad frekvens av
+åderförkalkning i hjärta och kärl. Effekten av t. ex. mättade resp. omättade
+fettsyrors inverkan på organismen är ännu långt ifrån utredd. Kontroversiella
+resultat har hittills erhållits.
+3) Kostens betydelse för uppkomst av fetma, gikt, gallsten, njursten samt
+diabetes och dess följdtillstånd. Beträffande dessa sjukdomar har man goda
+skäl att räkna med att kunna finna de faktorer i kosten som är orsak till eller
+som förvärrar symtomen.
+4) Karies. Förekomsten av karies i vårt land är, som i de flesta högt civiliserade 
+länder, nästan hundraprocentig. Här föreligger ett bestämt samband med
+kosten. Ett omfattande forskningsarbete fordras för att bättre kunna fastställa
+vilka kostfaktorer som påverkar kariesförekomst.
+För att kunna ge lämpliga kostanvisningar är det viktigt att känna till olika
+individers kostvanor. Vår kunskap om de råvaror som används för matlagningen 
+behöver ökas. Undersökningar av kosten vid massutspisningar är en av
+de mest angelägna uppgifterna för en utvidgad näringsforskning.
+Undervisningsbehov
+Vid inrättande av näringsforskningsinstitutioner i Sverige skulle fullständig
+utbildning till hushållsvetenskaplig examen kunna ske inom landet genom att
+de föreslagna institutionerna fick ombesörja undervisningen i näringslära.
+Bland de personalkategorier för vilka akademisk utbildning i näringslära är
+behövlig kan nämnas forskare och akademiska lärare i näringslära, lärare vid
+seminarier för huslig utbildning, kostkonsulter samt näringsfysiologisk expertis.
+Behov av personal med utbildning i näringslära har anmälts från sjukhus-,
+skol- och militärbespisningar. Här torde föreligga behov av dels personal med
+specialutbildning i näringslära, vilken ger dem möjlighet att som kostkonsulenter 
+utföra kvalificerade uppgifter, dels av till sjukhusen knutna dietassistenter 
+som kan biträda såväl läkare som kostkonsulent i rutinarbetet. Utöver
+denna mer specialinriktade utbildning i näringslära föreligger behov av undervisning 
+i ämnet för en rad yrkesgrupper, såsom blivande läkare, tandläkare,
+veterinärer och agronomer. Även teknologer som väljer biokemiska linjer vid
+teknisk högskola bör erhålla viss sådan undervisning.
+Skapande av en organisation för forskning och undervisning
+Av det ovan anförda framgår att stora behov för närvarande föreligger av
+forskning och undervisning inom näringsområdet. För att tillgodose detta bör
+enligt sakkunnig expertis vart och ett av de medicinska lärosätena i landet
+förses med en institution för näringslära. För den tillämpade forskningen bör
+6
+Motioner i Andra kammaren, nr 111 år 1965
+den födoämneshygieniska avdelningen vid statens institut för folkhälsan utgöra
+ett naturligt organ, varför institutet bör tilldelas ökade resurser för att kunna
+utföra vad som i detta hänseende bör ankomma på detsamma.
+Vid institution för näringslära bör hushållsvetenskapliga och akademiska
+examina inom nutritionsläran kunna avläggas. Även dietassistenter bör där
+kunna utbildas. Undervisning i näringslära bör även ges till blivande läkare,
+tandläkare m. fl.
+Samordning
+Näringsforskningen kommer, även om de förslag som skisserats ovan genomföres,
+ att bedrivas i skilda sammanhang och vid olika institutioner. Det är
+därför rimligt, att ett samordningsorgan upprättas.
+Information till allmänheten
+Väsentligast är att nya forskningsrön kommer allmänheten snabbt till godo.
+Därför fordras upplysning, som bör vara lättillgänglig, vederhäftig och lämnas
+fortlöpande. För effektivisering kan flera möjligheter övervägas. Med hänsyn
+till den sakkunskap på näringsforskningsområdet som är företrädd inom folkhälsoinstitutet 
+bör den samordnade upplysningsverksamheten lämpligen lämnas 
+därifrån och där en särskild informationscentral inrättas. Denna bör erhålla
+tillräckliga resurser.
+Med stöd av vad ovan anförts hemställer vi,
+att riksdagen måtte besluta om en skyndsam översyn på
+basis av föreliggande utredningsmaterial beträffande i motionen 
+berörda spörsmål med syfte bl. a.
+1) att utvidga den födoämneshygieniska avdelningen av
+statens institut för folkhälsan eller inrätta en särskild näringssektion 
+där och
+2) att vid någon av landets medicinska fakulteter inrätta en
+institution för näringsforskning samt
+3) att riksdagen därefter snarast måtte föreläggas förslag
+i ärendet.
+Stockholm den 22 januari 1965
+Bertil Ohlin
+Henning Gustafsson
+i Skellefteå
+Sven Gustafson
+i Göteborg
+Sven Wedén
+Daniel Wiklund
+Sven Antby
+Brita Elmén
+Cecilia Nettelbrandt
+kammare
+kammare
+Andra kammaren
+EQ2O111
+2018-03-01 19:54:39
+riksdag
+riksdag
+tvåkammaren
+EQ2O111
+2018-03-01 19:54:39
+session
+session
+lagtima
+EQ2O111
+2018-03-01 19:54:39
+sidantal
+Antal sidor
+3
+EQ2O111
+2018-03-01 19:54:39
+EQ2O111
+Andra kammaren
+mot_1965__ak__111.pdf
+228527
+pdf
+Motioner i Andra kammaren, nr 111 år 1965
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1965/web_mot_1965__ak__111/mot_1965__ak__111.pdf

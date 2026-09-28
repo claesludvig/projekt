@@ -1,0 +1,101 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 356—357.
+1
+Nr 356.
+Av herr Thapper m. fl., i anledning av Kungl. Maj:ts proposition,
+nr 154, angående vissa anslag till civilförsvaret för budgetåret 
+1949/50 m. m.
+(Lika lydande med motion i Första kammaren nr 277.)
+Stockholm i april 1949.
+Fridolf Thapper.
+Yngve Häckner. Manne Ståhl. Elis Håstad.
+James I. A. Dickson. Carl Lindberg. Ivar Johansson
+i Mysingc.
+Martin Ljungberg. Sven Wedén. And. Stjärne.
+Nr 357.
+Av herr Håstad m. fl., i anledning av Kungl. Maj.ts proposition,
+nr 163, angående anslag för budgetåret 1949/50 till
+Stockholms och Göteborgs högskolor.
+(Lika lydande med motion i Första kammaren nr 279.)
+Stockholm den 2 april 1949.
+Elis Håstad. Ingrid Gärde Widemar. Jarl Hjalmarson.
+Harald Hallén. Bertil Ohlin. Frans Severin.
+1 — Bihang till riksdagens protokoll 1949. 4 samt. Nr 356—365.
+kammare
+kammare
+Andra kammaren
+EA2O356
+2018-03-02 18:54:35
+riksdag
+riksdag
+tvåkammaren
+EA2O356
+2018-03-02 18:54:35
+session
+session
+lagtima
+EA2O356
+2018-03-02 18:54:35
+sidantal
+Antal sidor
+1
+EA2O356
+2018-03-02 18:54:35
+EA2O356
+Andra kammaren
+mot_1949__ak__356.pdf
+112035
+pdf
+Motioner i Andra kammaren, nr 356—357
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1949/web_mot_1949__ak__356/mot_1949__ak__356.pdf

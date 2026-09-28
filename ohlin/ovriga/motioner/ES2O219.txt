@@ -1,0 +1,96 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+6
+Motioner i Andra kammaren, nr 218—219 år 1967
+Nr 218
+Av herrar Hedlund och Ohlin, om studiemedel till vuxen studerande.
+(Lika lydande med motion nr 173 i Första kammaren)
+Med hänvisning till vad som anförts i motionerna I: 132 och II: 171 hemställer 
+vi,
+att riksdagen måtte besluta att studiemedelsförordningen av den
+4 juni 1964 (nr 401) ändras så att studiemedel kan utgå även till
+personer över 40 år.
+Stockholm den 20 januari 1967
+Gunnar Hedlund (ep) Bertil Ohlin (fp)
+Nr 219
+Av herr Källstad, angående det inkomst prövade tillägget till studiebidrag.
+(Lika lydande med motion nr 140 i Första kammaren)
+Stockholm den 20 januari 1967
+T horvald Källstad (fp)
+kammare
+kammare
+Andra kammaren
+ES2O219
+2018-03-01 17:02:01
+riksdag
+riksdag
+tvåkammaren
+ES2O219
+2018-03-01 17:02:01
+session
+session
+lagtima
+ES2O219
+2018-03-01 17:02:01
+sidantal
+Antal sidor
+1
+ES2O219
+2018-03-01 17:02:01
+ES2O219
+Andra kammaren
+mot_1967__ak__219.pdf
+111447
+pdf
+Motioner i Andra kammaren, nr 218—219 år 1967
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1967/web_mot_1967__ak__219/mot_1967__ak__219.pdf

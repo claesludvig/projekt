@@ -1,0 +1,200 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 173.
+9
+Nr 473.
+Av herr Gustafson i Göteborg m. fl., i anledning av Kungl. Maj.ts
+proposition, nr 72, med förslag till lag angående ändring 
+i lagen den 29 juni 19iö (nr A20) om semester,
+m. in.
+De i proposition nr 72 framlagda förslagen till ändring av lagen den 29
+juni 1945 om semester kunna vi i stor utsträckning ansluta oss till. Det
+är tillfredsställande, att det nu synes vara möjligt att bereda flera grupper
+av det svenska folket ökad semester. I detta sammanhang vilja vi dock anföra 
+några synpunkter dels i direkt anslutning till lagen, dels till frågan
+om beredandet av semester för folkgrupper, som icke beröras av ifrågavarande 
+förslag.
+Ett spörsmål, kring vilket något delade meningar rått, är den tredje
+semesterveckans förläggning. I det med alternativ I betecknade förslaget
+från arbetstidsutredningen rekommenderas, att den tredje veckan tages ut
+i omedelbar anslutning till den övriga semestertiden. Fördelen med en sammanhängande 
+rekreationstid på tre veckor anses i flera remissuttalanden
+vara så vägande, att detta alternativ skulle vara att föredraga framför
+andra. Det alternativ, som arbetstidsutredningen benämner som alternativ
+III, innebär, att den tredje semesterveckan skulle kunna tagas ut utan
+direkt sammanhang med de två första veckorna och på ett sådant sätt, att
+arbetsgivarna skulle ha rätt att uppdela den tredje veckan på enstaka
+dagar. Speciellt har man då räknat med att den tredje veckan skulle kunna
+tagas ut i form av fria lördagar under sommarhalvåret. Vid den undersökning 
+arbetstidsutredningen gjort har det dock visat sig vara ett övervägande 
+intresse för en semester tre veckor i följd. Alternativ III har vunnit 
+betydligt mindre anslutning. Man torde dock kunna ifrågasätta, om de
+förebragta siffrorna ge en fullt riktig bild av t. ex. intresset för ett antal
+fria sommarlördagar. Hade arbetstidsutredningen, vilket varit naturligt,
+som alternativ till semester om tre veckor i följd satt upp två veckor och
+t. ex. åtta eller nio fria sommarlördagar i stället för den tredje veckans
+sex arbetsdagar, finns det anledning förmoda, att ett betydligt ökat intresse
+för detta alternativ skulle ha framkommit. Att inom ett stort antal yrkesområden 
+ett större antal fria sommarlördagar icke ur arbetstidssynpunkt
+är oberättigat som alternativ till den tredje veckans sex arbetsdagar är
+uppenbart. För en sådan uppdelning av semestertiden inom vissa områden
+av näringslivet tala, såsom framhållits av statens avtalsnämnd, även produktionstekniska 
+synpunkter. Ur effektivitetssynpunkt är nämligen lördagsarbetet 
+i en del branscher relativt litet lönande. Kostsamma uppvärm
+-
+10
+Motioner i Andra kammaren, nr i73.
+nings- och igångsättningsprocesser för det ringa antalet arbetstimmar under
+en lördag äro ofta mindre lönande. Den iakttagna stegringen av frånvarofrekvensen 
+på sommarlördagarna talar också för detta alternativ.
+Som departementschefen (s. 77) anför föreligger en möjlighet för parterna 
+att genom överenskommelse bestämma om eventuell uppdelning av
+den tredje semesterveckan. Alternativ III skulle därför icke böra lagfästas.
+Vi dela den uppfattningen, att så ej behöver ske. Vid lagens antagande
+synes det dock vara lämpligt, att riksdagen uttalar, att om parterna komma
+överens om att uppdela den tredje semesterveckan på enstaka dagar, man
+därvid med hänsyn till den i regel kortare arbetstiden under lördagen bör
+kunna förutsätta att, där ej särskilda skäl tala däremot, flera än sex fria
+sommarlördagar böra ersätta den tredje semesterveckans sex arbetsdagar.
+Samtidigt som vi vilja understryka betydelsen av att de anställda genom
+den nya lagen få förlängd semester vilja vi fästa uppmärksamheten på
+att stora kategorier av förvärvsarbetande ännu i betydande utsträckning
+sakna möjlighet att få tillräcklig ledighet för vila och rekreation. Vi åsyfta
+i första hand småföretagare och deras hustrur inom jordbruk, hantverk
+och andra näringsgrenar, som på grund av rörelsens art och omfattning
+ha svårt att ordna sådan ledighet, ävensom husmödrar i allmänhet.
+Mindre företagare deltaga i regel direkt i arbetet vid sidan av sina anställda 
+och leva ofta på samma ekonomiska standard som dessa. Den nya
+lagen kan komma att innebära en förmån för de anställda, som av företagaren 
+får betalas genom en ökad arbetsbörda och sänkt ekonomisk
+standard.
+Detta förhållande har observerats av arbetstidsutredningen, som i sitt
+betänkande om treveckorssemestern bl. a. skriver:
+»Ur ekonomiska synpunkter äro dessa småföretagare och de anställda
+ofta ganska jämställda. Det bör givetvis undvikas att förbättrade sociala
+förmåner för en grupp förvärvsarbetande skola gå ut över en annan grupp,
+så att den senare socialt sett får en försämrad position.»
+Departementschefen har vitsordat, att denna fråga förtjänar den största
+uppmärksamhet, men synes ha ägnat densamma ett relativt ringa intresse.
+Den är nu föremål för behandling i arbetsmarknadsstyrelsen.
+Ett flertal remissinstanser ha uttalat, att treveckorssemestern ej borde
+införas förrän småföretagarnas semesterfråga är löst. Om vi för vår del ej
+kunna ansluta oss till en sådan tanke, beror detta ingalunda på att vi
+skulle anse att småföretagarnas semesterfråga är mindre betydelsefull än
+de anställdas. När nu emellertid ett utarbetat förslag om förlängd semester
+för de anställda redan föreligger, bör denna reform enligt vår åsikt ej
+uppskjutas. Dock vilja vi föreslå, att riksdagen vid antagandet av ifrågavarande 
+lag gör ett bestämt uttalande att frågan om semester för nämnda
+kategorier småföretagare är av sådan vikt, att den snarast möjligt bör bli
+löst på ett sätt som tillgodoser dessa kategoriers berättigade intressen.
+Motioner i Andra kammaren, nr i73.
+11
+Med stöd av vad som ovan anförts hemställa vi,
+att riksdagen vid behandlingen av proposition nr 72 ville
+dels uttala, att frågan om semestermöjligheterna för
+småföretagare och deras hustrur inom jordbruk, hantverk
+m. m. samt husmödrar i allmänhet är av sådan vikt, att
+den snarast möjligt hör bli löst och att därför utredningen
+i frågan bör påskyndas;
+dels beakta vad i motionen anförts om möjligheterna
+att, där överenskommelse om uppdelning av den tredje
+semesterveckan träffas, utbyta denna mot ett lämpligt antal 
+fria sommarlördagar.
+Stockholm den 14 mars 1951.
+Sven Gustafson.
+Bertil Ohlin.
+Wald. Svensson.
+Sven Wedén.
+Brita Elmén.
+A. Widén.
+Carl S:son Schmidt.
+Folke Nihlfors.
+Erik Rosén.
+Filip Kristensson
+i Osby.
+Axel Gustafsson,
+Borås.
+Sven Antbi/.
+Oscar Andersson
+i Långviksmon.
+Rudolf Boman
+i Kieryd.
+Per A. Johnsson
+i Kastanjegården.
+kammare
+kammare
+Andra kammaren
+EC2O473
+2018-03-02 15:21:20
+riksdag
+riksdag
+tvåkammaren
+EC2O473
+2018-03-02 15:21:20
+session
+session
+lagtima
+EC2O473
+2018-03-02 15:21:20
+sidantal
+Antal sidor
+3
+EC2O473
+2018-03-02 15:21:20
+EC2O473
+Andra kammaren
+mot_1951__ak__473.pdf
+221585
+pdf
+Motioner i Andra kammaren, nr 173
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1951/web_mot_1951__ak__473/mot_1951__ak__473.pdf

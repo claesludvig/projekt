@@ -1,0 +1,162 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Första kammaren, Nr 273.
+5
+Nr 273.
+Av herr Ohlin, i anledning av Kungl. Majlis proposition
+med förslag till sjöarbetstidslag m. m.
+Med proposition nr 223 har Kungl. Majit föreslagit riksdagen till antagande 
+förslag till ny sjöarbetstidslag, avsedd att träda i kraft den 1 januari
+1939, då giltighetstiden för nu gällande lag i ämnet utgår.
+Lagförslaget innebär en reformering av sjöarbetstidslagstiftningen och
+är i huvudsak grundat på ett vid sjöfartskonferensen i Genéve 1936 antaget
+förslag till internationell konvention angående arbetstid och bemanning å
+fartyg samt ett i överensstämmelse med konventionsförslaget utarbetat gemensamt 
+nordiskt lagutkast, vars antagande i samtliga nordiska länder utgjort
+syftet för det nordiska samarbete, som i propositionen omförmäles. Detta
+samarbete synes enligt propositionens framställning kunna betraktas såsom
+en fortsättning av den samverkan mellan de nordiska länderna, som ägde
+rum vid sjöfartskonferensen i Genéve, och framstår i propositionen såsom
+ett av huvudmotiven till att Kungl. Majit ansett sig kunna föreslå ikraftträdande 
+av den svenska lagen utan att avvakta den internationella konventionens 
+ikraftträdande.
+Med hänsyn till den svenska handelssjöfartens starka beroende av den
+internationella konkurrensen, vilket förhållande även framhålles i propositionen,
+ skulle man icke kunna undgå att erfara betänkligheter, därest meningen 
+vore att Sverige skulle ensamt bland de sjöfartsidkande staterna
+genomföra denna sociala reform, som, hur rättvis den med hänsyn till det
+svenska sjöfolket må kunna förefalla, dock måste bedömas jämväl med hänsyn 
+till dess ekonomiska konsekvenser. Ett visst mått av trygghet ligger
+dock däri, att i England, som representerar omkring en tredjedel av världens
+sjögående handelstonnage, enligt vad i propositionen upplyses, avtalsvägen
+genomförts arbetstidsregler motsvarande i viktiga avseenden vad som nu
+föreslås för Sveriges del, såvitt angår fartyg, varav den brittiska handelsflottan 
+huvudsakligen utgöres. Ytterligare säkerhet mot alltför allvarliga
+olägenheter för den svenska handelsflottan erbjuder onekligen det nordiska
+samgående på vilket propositionen, såsom ovan framhållits, i viss mån kan
+sägas vara byggd.
+Emellertid saknas säkra upplysningar örn frågans läge i övriga nordiska
+länder. I vart fall bär, såsom särskilt av lagrådet påpekats, ännu icke något
+annat land vidtagit lagstiftningsåtgärder. I Danmark lider den nuvarande
+riksdagssessionen mot sitt slut utan att något regeringsförslag i förevarande
+fråga avhörts, och det torde redan vara väl sent för framläggande av ett
+sådant. I Norge har ämnet nyligen behandlats av en kommitté, som avgivit
+ett betänkande med ett flertal förslag, vilka i viktiga punkter förete väsentliga 
+inbördes skiljaktigheter och även avvika från det nordiska. Det kan
+6
+Motioner i Första kammaren, Nr 273.
+sålunda komma att dröja, innan frågan i Norge blir mogen för ett regeringsförslag.
+ I Finland Ilar ännu icke någon proposition avliörts. Det av Kungl.
+Maj:t gjorda antagandet, att de nordiska länderna skulle hålla jämna steg
+i denna lagstiftningsfråga, kan således icke frånkännas ett visst mått av
+osäkerhet.
+Dessa omständigheter synas göra det önskvärt, att den varsamhet, som
+Kungl. Majit själv anser påkallad på detta område, kunde erhålla uttryck i
+ett förbehåll av någon art för i huvudsak likartade lagars antagande i Danmark,
+ Finland och Norge, innan de ur konkurrenssynpunkt mest genomgripande 
+reformerna genomföras för Sveriges del. Ett dylikt förbehåll synes
+kunna åvägabringas utan att den nya lagens antagande i övrigt behöver
+hindras. Ett studium av lagförslaget och de till grund för detsamma liggande
+utredningarna visar, att de viktigaste reformerna hänföra sig till arbetstiden
+till sjöss för vaktindelat. däcksmanskap å fartyg med 2,000 tons bruttodräktighet 
+samt för vaktindelat maskinmanskap å fartyg med mera än 700 tons
+bruttodräktighet; för dylikt manskap skall arbetstiden enligt förslaget minskas
+från nuvarande 12 timmar till 8 timmar för dygn räknat. Motsvarande arbetstidsminskning 
+avses enligt propositionen för viss del av befälet skola samtidigt 
+med förslagets ikraftträdande genomföras genom ändringar i en särskild 
+administrativ författning (förordningen angående befäl å svenska handelsfartyg 
+m. m.). Till dessa reformer äro de största löpande kostnaderna
+att återföra, liksom också dessa samma nyheter äro de som kunna antagas
+komma att nödvändiggöra ekonomiskt mest kännbara nyinredningar och nyanskaffningar.
+Ikraftträdandet av här åsyftade lag- och författningsbestämmelser bör för
+den skull göras beroende av liknande bestämmelsers genomförande i övriga
+nordiska länder, och jag får sålunda hemställa,
+att riksdagen måtte dels uttala, att genomförandet av åttatimmarsprincipen 
+i fråga örn skeppstjänst till sjöss för vaktindelat 
+befäl eller manskap i vidare mån än hittills skett bör
+anstå till dess motsvarande lagstiftning införes jämväl i Danmark,
+ Finland och Norge dels och i och för sådant ändamål
+besluta, att till den föreslagna sjöarbetstidslagen skall fogas
+en övergångsbestämmelse av innebörd, att stadgandena i 4 §
+punkt c) och d) skola, såvitt angår sjöman vars arbetstid till
+sjöss enligt gällande lag utgör högst 24 timmar för två dygn i
+följd, träda i kraft först på dag, som av Konungen bestämmes.
+Stockholm den 22 mars 1938.
+Bertil Ohlin.
+kammare
+kammare
+Första kammaren
+DZ2C273
+2018-03-05 13:06:18
+riksdag
+riksdag
+tvåkammaren
+DZ2C273
+2018-03-05 13:06:18
+session
+session
+lagtima
+DZ2C273
+2018-03-05 13:06:18
+sidantal
+Antal sidor
+2
+DZ2C273
+2018-03-05 13:06:18
+DZ2C273
+Första kammaren
+mot_1938__fk__273.pdf
+180897
+pdf
+Motioner i Första kammaren, Nr 273
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1938/web_mot_1938__fk__273/mot_1938__fk__273.pdf

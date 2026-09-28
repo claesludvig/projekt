@@ -1,0 +1,158 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+6
+Motioner i Andm kammaren, nr 552 år 1961
+Nr 552
+Av herr Ohlin m. fl., angående omkostnads- och försäkringsavdrag 
+vid beskattningen, m. m.
+(Lika lydande med motion nr 475 i Första kammaren)
+Taxeringsmyndigheternas erfarenheter av schablonavdragen har inte visat 
+sig medföra den förenkling av taxeringsarbetet, som var reformens syfte.
+ Såväl den enskilde skattebetalarens deklarationsarbete som myndigheternas 
+taxeringsgöromål har tillkrånglats och försvårats. Riksdagens revisorer 
+har vid två tillfällen dels år 1957 och dels år 1959 företagit undersökningar 
+rörande erfarenheterna av schablonavdragsreformen. Båda undersökningarna 
+har klart givit vid handen, att de ändrade taxeringsreglerna 
+inte visat sig infria förväntningarna. År 1959 uttalade revisorerna sålunda 
+bl. a.:
+Speciellt synas avdragen under inkomst av tjänst och för försäkringspremier 
+m. m. vålla besvär för både deklaranterna och taxeringsmyndigheterna.
+ Icke minst de sistnämnda förorsakas mycket arbete genom att de
+nödgas rätta deklarationerna i de fall, då deklaranterna icke själva förstått
+att göra schablonavdrag med åsyftade belopp. Härigenom nödgas vederbörande 
+myndigheter sätta till tid, som eljest kunde användas till att granska 
+exempelvis mera svårkontrollerade deklarationer. Vidare kan det ifrågasättas 
+om icke schablonavdraget för försäkringspremier motverkar det
+syfte som ursprungligen låg till grund för försäkringsavdragets införande,
+nämligen att uppmuntra till anskaffandet av ett önskvärt försäkringsskydd.
+Schablonavdraget under inkomst av tjänst synes för att möjliggöra förhöjt
+avdrag locka till försök att konstruera utgifter, vilka sammantagna överstiga 
+med någon krona jämnt hundratal kronor.
+De gjorda erfarenheterna bör enligt vår mening föranleda en justering av
+riksdagens tidigare beslut beträffande schablonavdragen. I enlighet med
+statsrevisorernas förslag föreslår vi följande justeringar:
+1. Omkostnadsavdraget skall vid taxeringen uppföras med specificerat
+belopp, dock alltid lägst 100 kr. Avrundningen uppåt till närmaste hundratal 
+kronor bör sålunda slopas. Härigenom bortfaller incitamentet för den
+skattskyldige att söka redovisa omkostnader, som för upp avdragsbeloppet
+till ett högre liggande hundratal kronor.
+2. Avdrag för försäkringspremier skall få göras med det belopp, som motsvaras 
+av erlagd premie med bibehållen maximering. Schabloneringen av
+försäkringsavdragen, som innebär att ett visst avdrag för försäkringspremier 
+alltid skall göras oavsett storleken av faktiskt erlagda premier, bör
+således slopas. Schablonregeln strider klart mot intresset att genom rätt
+till avdrag för försäkringspremier stimulera det enskilda försäkringsspa
+-
+Motioner i Andra kammaren, nr 552 år 1961
+r
+l-andet. Den nuvarande utformningen av regeln medför enligt taxeringsmyndigheternas 
+erfarenheter dessutom ett mycket stort antal feldeklarationer,
+ som taxeringsmyndigheterna måste rätta.
+3. Den beskattningsbara inkomsten skall i enlighet med tidigare gällande
+regler avrundas nedåt till närmaste tiotal kronor. Avrundningen till när
+mast lägre 100-tal kronor har inte medfört någon arbetsbesparing vid skattedebiteringar.
+Det bör särskilt framhållas, att vårt förslag innebär att det s. k. löntagaravdraget 
+kvarstår orubbat.
+De föreslagna justeringarna kan beräknas medföra ett inkomsttillskott
+för statsverket av ca 80 milj. kr. för lielt år. Ändringen föreslås gälla
+fr. o. m. 1963 års taxering.
+Under hänvisning till det anförda hemställes,
+A. att riksdagen måtte besluta sådana ändringar i ifrågavarande 
+skatteförfattningar, att det s. k. omkostnadsavdraget 
+skall uppföras med i deklarationen redovisat belopp,
+dock lägst 100 kr., och att med bibehållande av nuvarande
+maximisunimor försäkringsavdraget må utnyttjas till det
+belopp som motsvaras av erlagda premier samt att avrundning 
+av den beskattningsbara inkomsten skall ske nedåt till
+jämna tiotal kronor;
+B. att vederbörande utskott måtte utarbeta förslag till
+erforderlig författningstext.
+Stockholm den 26 januari 1961
+Bertil Ohlin
+Wald. Svensson
+Gunnar Helén
+Bertil von Friesen
+Henning Gustafsson
+Manne Ståhl
+Sven Gustafson
+i Göteborg
+Sven Wedén
+Brita Elmén
+i Skellefteå
+kammare
+kammare
+Andra kammaren
+EM2O552
+2018-03-01 21:54:54
+riksdag
+riksdag
+tvåkammaren
+EM2O552
+2018-03-01 21:54:54
+session
+session
+lagtima
+EM2O552
+2018-03-01 21:54:54
+sidantal
+Antal sidor
+2
+EM2O552
+2018-03-01 21:54:54
+EM2O552
+Andra kammaren
+mot_1961__ak__552.pdf
+192148
+pdf
+Motioner i Andm kammaren, nr 552 år 1961
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1961/web_mot_1961__ak__552/mot_1961__ak__552.pdf

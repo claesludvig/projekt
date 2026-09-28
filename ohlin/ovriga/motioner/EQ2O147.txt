@@ -1,0 +1,103 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Nr lb7—151 Motioner i Andra kammaren, nr IM år 1965
+1
+Nr 147
+Av herr Ohlin m. fl., om inrättande av två nya medicinska högskolor.
+(Lika lydande med motion nr 115 i Första kammaren)
+Under hänvisning till den motivering, som anförts i de av oss väckta likalydande 
+motionerna I: 120 och II: 152, hemställer vi,
+att riksdagen måtte fatta principbeslut om inrättande av
+två nya medicinska högskolor, vardera med en utbildningskapacitet 
+av ca 50 nyintagna studerande per termin, samt
+uppdraga år Kungl. Maj :t att härför upptaga förhandlingar
+med härvid ifrågakommande sjukvårdshuvudmän samt snarast 
+förelägga riksdagen definitivt förslag.
+Stockholm den 25 januari 1965
+Bertil Ohlin
+Sven Wedén
+Brita Elmén
+Daniel Wiklund
+Bertil von Friesen
+Cecilia Nettelbrandt
+Sven Antby
+Henning Gustafsson
+l
+Bihang till riksdagens protokoll 19G5. i samt. Nr 147—151
+kammare
+kammare
+Andra kammaren
+EQ2O147
+2018-03-01 19:55:11
+riksdag
+riksdag
+tvåkammaren
+EQ2O147
+2018-03-01 19:55:11
+session
+session
+lagtima
+EQ2O147
+2018-03-01 19:55:11
+sidantal
+Antal sidor
+1
+EQ2O147
+2018-03-01 19:55:11
+EQ2O147
+Andra kammaren
+mot_1965__ak__147.pdf
+122579
+pdf
+Nr lb7—151 Motioner i Andra kammaren, nr IM år 1965
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1965/web_mot_1965__ak__147/mot_1965__ak__147.pdf

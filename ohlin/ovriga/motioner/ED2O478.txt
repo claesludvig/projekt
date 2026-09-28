@@ -1,0 +1,409 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+12
+Motioner i Andra kammaren, nr A78.
+Nr 478.
+Av herr Ohlin m. fl., angående dels en utredning om utbildning i
+praktisk psykologi, dels ock en översyn av föreliggande
+utredningsmaterial beträffande den framtida ungdomsvården 
+m. m.
+Sedan industrialismens genombrott i slutet av förra århundradet har vårt
+svenska samhälle dragits in i en omvandlingsprocess, som alltjämt pågår
+i ständigt stegrat tempo. Ett av de mest framträdande dragen i denna omvandling 
+är folkvandringen från den egentliga landsbygden till städer och
+andra tätorter. Det ligger i sakens natur, att det framför allt är den uppväxande 
+generationens andliga och materiella nyorientering, som i växelverkan 
+med de nya och större ekonomiska möjligheterna bestämmer tempo
+och inriktning av omdaningsprocessen. Ungdomens större möjligheter till
+utbildning, det friare av familje- och yrkestradition mera obundna yrkesvalet 
+samt mångfalden av arbetsuppgifter, som finnas att välja på, ha ökat
+både utkomstmöjligheterna och riskerna för vår tids ungdom. Utan tvivel
+kan man totalt sett bedöma utvecklingen som övervägande positiv och i
+densamma finna belägg för den nutida ungdomens stora förmåga att anpassa 
+sig efter nya förhållanden.
+Detta utesluter dock inte att det moderna samhället för ett stort antal
+ungdomar innebär en sådan kombination av frestelser och svårigheter, att
+de inte med obruten moral och livsvilja kunna nå fram till den position,
+som en människa behöver för att kunna bli en fullvärdig medborgare i ett
+fritt demokratiskt samhälle.
+Folkvandringen betyder ofta att ungdomen rycks ut ur sin fäderneärvda
+miljö och kastas in i en främmande omgivning, där den saknar alla rötter.
+Samtidigt har familjelivet ändrat karaktär: familjerna äro små, många
+ungdomar sakna syskon, familjen är inte längre en arbetsgemenskap och
+familjelivet har oftast inte en sådan mångsidighet och rikedom att det kan
+ge tillräckligt innehåll åt ungdomens fritid, vilken dessutom nu av flera
+anledningar är rikligare tilltagen än förr. En mindre nogräknad nöjesindustri 
+söker profitera på ungdomen med allsköns mindervärdig underhållning 
+och lyckas i många fall konkurrera ut den positiva verksamheten,
+som olika slag av ungdomsorganisationer bedriva. En stor del av ungdomen
+är fortfarande icke på något sätt föreningsansluten, och dess enda träffplatser 
+bli ofta gathörnen och kaféerna.
+Ungdomsfrågorna ha under senare tid ytterligare aktualiserats. Därom
+vittna de i hela landet uppmärksammade kravallerna i huvudstaden, de tal
+-
+Motioner i Andra kammaren, nr &78.
+13
+rika rymningarna från anstalter samt inte minst de av Kejnekommissionen
+blottade farorna, som den homosexuella prostitutionen utgör speciellt för
+den yngre manliga ungdomen i de större städerna.
+Man har också anledning peka på att just inom åldersgrupperna mellan
+femton och tjugo år både de utomäktenskapliga födslarna och de veneriska
+sjukdomarna ha visat ökning, medan de för den äldre ungdomens del gått
+tillbaka.
+Samhällets plikt att söka göra något för ungdomen har tidigare i flera
+olika sammanhang understrukits av riksdagen. Redan år 1937 begärdes en
+utredning rörande ungdomsbrottslighetens omfattning, orsaker och utveckling,
+ och år 1939 hemställdes om utredning angående missförhållandena
+på det offentliga nöjeslivets område. Huvudanledningen var i båda fallen
+den då starkt framträdande kriminaliteten bland ungdom och uppfattningen 
+att detta onda borde bekämpas i första hand genom profylaktiska åtgärder.
+Med anledning härav tillsatte regeringen på våren 1939 en kommitté med
+uppdrag att utreda åtgärder för bekämpande av brottsligheten samt de missförhållanden,
+ som förefinnas inom det offentliga nöjeslivet och botemedel
+häremot. På hemställan av riksdagen i skrivelse till Kungl. Maj :t den 10 juni
+1942 hänsköts till denna kommitté även frågan om förbättrad ungdomsvård
+över huvud taget.
+I de slutliga direktiven för kommitténs arbete pekas bl. a. på det ökade
+antal frestelser, som bilar, automater och andra lättåtkomliga byten utgöra,
+den ökade rörligheten bland ungdomen, anpassningssvårigheterna vid övergången 
+från skola till arbetsliv — i synnerhet för de debila ungdomarna —
+samt bristen på lämpliga fritidssysselsättningar.
+Denna kommitté, som antog namnet ungdomsvårdskommittén, har under 
+årens lopp avgivit inte mindre än sju olika betänkanden, nämligen om
+den psykiska barna- och ungdomsvården (SOU 1944:30), om ungdomens
+föreningsliv (SOU 1944:31), om ungdomens nöjesliv (SOU 1945:22), om
+ungdomens fritidssysselsättning (SOU 1947:12), om åtgärder till stöd åt
+utvecklingshämmad ungdom (SOU 1947:17), om ungdomen och arbetet
+(SOU 1948:21) samt på hösten 1951 ett slutbetänkande: Ungdomen möter
+samhället (SOU 1951:41).
+Det kan vidare i detta sammanhang erinras om alt den s. k. lantungdomskommittén 
+behandlat en del ungdomsfrågor i sitt betänkande om frivillig,
+ förberedande yrkesutbildning för lantungdom (SOU 1949:50).
+Även om de svenska statsmakterna under 1940-talet engagerats av cn
+mängd både kostnadskrävande och arbetskrävande uppgifter, måste man
+beklaga att så liten uppmärksamhet ägnats åt resultatet av dessa utredningar,
+ som tillkommit på riksdagens begäran. I varje fall måste det anses 
+vara i högsta grad önskvärt att dessa frågor nu, när ett samlat utredningsmaterial 
+föreligger, bliva föremål för cn fortsatt omprövning i eu po
+-
+14
+Motioner i Andra kammaren, nr A78.
+sitiv och reformvänlig anda. Förutom att ungdomsproblemen i dagens läge ha
+en ännu större aktualitet än när riksdagen hemställde om berörda utredningar,
+ finnes det ett starkt skäl att icke skjuta dessa frågor på framtiden.
+Beträffande en del åtgärder torde det nämligen vara nödvändigt att genom
+försöksverksamhet i mindre skala utröna de lämpligaste verksamhetsformerna.
+ Detta bör ske medan vi ännu ha att göra med de relativt små årgångarna 
+av ungdom från 1930-talet. När de större årskullarna från 1940-
+talets början och mitt mot slutet av femtiotalet och början av sextiotalet
+träda ut i livet, bör samhället vara bättre rustat än nu för att hjälpa dem
+och inpassa dem i en utvecklingsbefrämjande gemenskap. 1965 beräknas antalet 
+ungdomar i åldern 15—25 år vara 1 064 000 eller drygt 26 % mer än
+i mitten av femtiotalet. Det synes oss därför vara i högsta grad angeläget,
+att sådana förslag till förbättrad ungdomsvård, som ej på annat sätt förverkligats 
+och som ej äro alltför kostnadskrävande, snarast möjligt bliva
+föremål för statsmakternas prövning.
+Utan att nu taga definitiv standpunkt till de olika förslag, som utredningarna 
+framlagt, vilja vi här omnämna några som synas oss angelägna.
+1. 1945 års riksdag beslöt införandet av psykisk barna- och ungdomsvård 
+i hela landet. Denna skulle handhas av landstingen. Ännu 1951 hade
+dock endast fyra landsting, nämligen Stockholms, Värmlands, Västerbottens
+och Älvsborgs läns landsting samt städerna Stockholm och Göteborg inrättat 
+centraler för denna verksamhet. Vid de psykiatriska klinikerna i Uppsala 
+och Lund finnas dock barnavdelningar, som äro organiserade på samma
+sätt som ovannämnda centraler. De första fem åren ha varit avsedda som
+eu försöksperiod, vilken alltså nu gått till ända. Erfarenheterna ha varit
+synnerligen goda och tillströmningen av patienter så stor, att väntetiderna
+trots upprepade utvidgningar av ovannämnda kliniker och polikliniker varit 
+mycket betydande och förorsakat stora olägenheter.
+Orsaken till att man ej kunnat fullfölja programmet i övriga län har i
+första hand varit bristen på personal. För att denna verksamhet utan ytterligare 
+uppskov skall kunna genomföras kräves alltså att utbildningsmöjligheterna 
+i praktisk psykologi i vårt land betydligt vidgas. Ungdomsvårdskommittén 
+har gjort en översikt över befintliga utbildningsformer och funnit,
+ att ingen av dessa tillfredsställde det dubbla behovet av psykologisk
+och social utbildning, som behövs för assistenterna. År 1945 begärde därför 
+kommittén att få tillkalla särskilda sakkunniga för utredning av frågan
+om utbildning i praktisk psykologi med särskild hänsyn till behovet av assistenter 
+för den psykiska hälsovården, psykologer inom skolan, yrkesvägledningen,
+ ungdomsvårdsskolorna, barnavårdsnämnderna m. fl. samhällsorgan.
+ Med hänvisning till den då arbetande universitetsberedningen
+avslogs kommitténs anhållan. Sedermera har beslut fattats om en uppdelning 
+av de fyra lärostolarna i psykologi och pedagogik på åtta stycken med
+respektive psykologi och pedagogik som specialitet. Ännu är delningen ge
+-
+Motioner i Andra kammaren, nr i78.
+15
+nomförd endast i Uppsala, varjämte man beräknar att den skall komma till
+stånd i Stockholm inom den närmaste tiden.
+Emellertid har vid Stockholms högskola sedan 1946 en provisorisk årlig
+praktikantkurs ordnats för ett begränsat antal elever, som avlagt akademisk 
+examen i psykologi. De som här utbildas gå främst till industrien, socialvården 
+och barnavården. Vidare har Ericastiftelsens läkepedagogiska
+seminarium från år 1948 utökat sin kurstid från ett till två år.
+Det är enligt vår mening nödvändigt för ungdomsvårdens utbyggande att
+dylika kurser komma till stånd i ökad omfattning vid samtliga universitet
+och högskolor. Om så sker kommer troligen ett väsentligt ökat antal studenter 
+med intresse för psykologi att slå in på denna bana. Detta antagande
+stödes av det förhållandet, att det varje år finns uppåt trettio sökande enbart 
+till Stockholms högskolas nyssnämnda kurser, trots att endast ett tiotal 
+kunna intagas. Vi föreslå därför att inom ecklesiastikdepartementet en
+utredning om utbildningen i praktisk psykologi i vårt land utan dröjsmål
+kommer till stånd. — Lika nödvändigt synes det vara, att utbildningen av
+läkare för ovannämnda uppgifter befrämjas.
+2. Med hänsyn till angelägenheten av att på allt sätt uppmuntra de positiva 
+och uppbyggande krafterna bland ungdomen och gynna dess självverksamhet 
+anse vi att de förslag, som ungdomsvårdskommittén framlagt
+angående stöd till ungdomsorganisationerna för anställande av instruktörer 
+och avlönande av lokala ledare samt till instruktionskurser för dessa,
+snarast möjligt böra i sina huvuddrag förverkligas.
+Ungdomsvårdskommitténs förslag innebär, att ungdomsorganisationer av
+rikskaraktär, som ha minst 1 000 betalande medlemmar i åldern tio till
+tjugofem år, skola erhålla statsbidrag till avlöning av instruktörer med uppgift 
+att leda andlig och fysisk fostran, däri inbegripna all slags studieverksamhet,
+ sång, musik, teater och talövningar, slöjd och hobbies, s. k. praktisk 
+tävlingsverksamhet samt idrott, gymnastik och lägerverksamhet.
+Vissa gynnsamma erfarenheter i främmande länder, i första rummet England,
+ synas böra beaktas och efterbildas. Man bär där kommit vida längre
+än i vårt land i sina strävanden att få så stor del av ungdomen som möjligt
+ansluten till någon förening eller klubb. Även de svenska nykterhetsorganisationerna 
+ha mycket goda erfarenheter av konsulentverksamheten.
+Beträffande en punkt vilja vi redan här anmäla stor tveksamhet till ungdomsvårdskommitténs 
+förslag på förevarande område. Det gäller direkt statligt 
+stöd till verksamhet, som har intim kontakt med politiska partier. Undantag 
+härvidlag bilda studieorganisationerna. Till dem kunna som hittills
+understöd utgå.
+3. Det är allmänt känt att den starka inströmningen till städerna framför 
+allt av landsbygdens kvinnliga ungdom utgör ett problem såviil för
+landsbygdens hem och för de unga flickorna själva som för hela befolkningsutvecklingen 
+på landsbygden. Att ökade ansträngningar göras för att
+16
+Motioner i Andra kammaren, nr 478.
+uppmuntra de unga flickorna på landsbygden att stanna kvar där åtminstone 
+under de första ungdomsåren, så att de få tillfälle till ett mera moget 
+övervägande av sin framtida livsuppgift, synes vara i hög grad önskvärt.
+De förslag som framlagts av den förut nämnda utredningen för hem- och
+familjefrågor böra därför enligt vår mening allvarligt övervägas. Utredningen 
+förordar att konsulentverksamhet av den art, som praktiseras av
+JUF samt av Svenska landsbygdens studieförbund skall bedrivas i vidgad
+omfattning med rikligare stöd av allmänna medel.
+Dessa konsulenter ha arbetat framför allt genom att för mindre grupper
+av flickor ordna kursdagar i hemmen i matlagning, bakning, konservering,
+m. m. Vidare ha de organiserat studiecirklar i bl. a. hemvård och heminredning.
+ Särskilt uppskattade och av stort propagandavärde äro de tävlingar,
+som hållas t. ex. i spånad, mjölkning, hemslöjd. Utredningen framhåller att
+denna form av ungdomsvård »ge landsbygdsflickorna just vad de mången
+gång sakna, kontakt med jämnåriga, ökad säkerhet i arbetet och känslan
+av att detta arbete är socialt uppskattat».
+Det arbete av förevarande slag, som hittills kunnat bedrivas, är dock
+trots sin livaktighet otillräckligt. Möjligheten att ställa ledarkrafter till förfogande 
+har varit alltför begränsad. JUF:s kvinnliga konsulenter ha sålunda 
+endast kunnat uppehålla sitt arbete under några få månader av året
+med resultat, att alltför få landsbygdsflickor kunnat nås genom verksamheten.
+ Sedan 1942 ha anslagen till denna verksamhet kraftigt beskurits, varför 
+arbetet bland den kvinnliga ungdomen eftersatts. Erfarenheten i andra
+länder visar dock, att en dylik verksamhet kan växa ut till från social synpunkt 
+mycket betydelsefulla rörelser, om den får tillräckligt stöd. Sålunda
+ha Finland och Danmark rika erfarenheter på detta område, som vårt land
+bör kunna tillgodogöra sig.
+Från och med en viss ålder borde samtliga landsbygdsflickor ha möjlighet 
+att ansluta sig till ett praktiskt klubbarbete, bedrivet i fria former
+i anslutning till ungdomens egna organisationer. Verksamheten måste för
+att bli resultatrik bedrivas kontinuerligt och pågå året runt samt ha stöd
+av personer med erforderliga kvalifikationer och helst någon utbildning för
+ungdomsarbete. Det torde därför framför allt vara angeläget att ge de inom 
+respektive län arbetande ungdomsorganisationerna och ungdomsnämnderna 
+ett sådant stöd att de kunna helårsanställa kvinnliga konsulenter speciellt 
+för dylik verksamhet.
+För att utpröva de bästa formerna härvidlag synes det lämpligt att till
+att börja med starta en försöksverksamhet i tre län av olika karaktär.
+4. Särskilt för ungdomsvården i tätorterna torde en anknytning till och
+en utveckling av verksamheten vid s. k. fritidsgårdar, hemgårdar, ungdomsgårdar,
+ studiehem och liknande böra rekommenderas. Beträffande dessa,
+som äro avsedda att vara samlingsplatser för ungdomen, torde det grund
+-
+Motioner i Andra kammaren, nr 478.
+17
+läggande erfarenhetsmaterialet redan finnas. De böra gärna vara knutna
+till någon form av community center, så att såväl de äldre som småbarnen
+kunna samlas i den gemensamma fritidsanläggningen vid sidan av ungdomen.
+ I dessa anläggningar böra olika slag av såväl teoretisk som praktisk
+och rekreativ verksamhet, som intresserar ungdom, bedrivas. Dessutom
+böra lokaler såsom kafé- och klubbrum, där ungdom kan hålla till också
+utan att deltaga i organiserad verksamhet, finnas. Föreningar böra lika väl
+som det »hemlösa gänget» beredas husrum i fritidsgården.
+För att denna form av ungdomsvård skall kunna utvecklas måste staten
+på ett mera effektivt sätt än hittills stödja de kommunala och enskilda
+krafter, som kunna engageras i verksamheten.
+5. Att ett stort behov av lämpliga samlingslokaler föreligger är från alla
+håll erkänt och omvittnat. Här föreligger en bristsituation, som på ett
+avgörande sätt kan försvåra nästan alla slag av ungdomsverksamhet. Tills
+vidare är det därför av stor vikt att befintliga lokaler, enskilda såväl som
+kommunala, utnyttjas så rationellt som möjligt. Några föreskrifter från
+statsmakternas sida böra dock enligt vår mening icke i detta fall påyrkas.
+Sett i stort torde man nå längst både i fråga om trivsel och effektivitet om
+det överlämnas åt kommunalstyrelsen och de lokala organisationerna att
+ordna den saken.
+Beträffande finansieringen av nya lokaler eller upprustning av gamla
+lämnas redan nu stöd från statsmakternas sida. En översyn av bestämmelserna 
+för denna verksamhet är dock enligt vår mening önskvärd. Det
+praktiska resultatet av verksamheten motsvarar nämligen i fråga om en
+rättvis avvägning icke de i och för sig objektiva bestämmelser efter vilka
+verksamheten bedrives. Detta framgår av följande siffror som ordföranden
+i den verkställande nämnden nyligen lämnat.
+»Nykterhetsorganisationerna, som svara för hälften av de profana samlingslokalerna 
+i vårt land, ha under tiden 1944 till 1951 beviljats lån om
+tillsammans 998 675 kronor av de beviljade drygt 14,5 miljonerna. I procent 
+av den under perioden beviljade summan blir det 6,76. Samtidigt ha till
+folkets hus-lokaler beviljats kronor 9 510 325 eller 64,39 procent. Till bygdegårdar 
+och motsvarande ha gått 1 787 068 kronor eller 12,10 procent, till
+medborgarhus 553 200 kronor eller 3,75 procent samt till andra lokaler
+1 931 650 kronor eller 13 procent.»
+Vi skola inte här gå in på något utförligt resonemang om vad som ligger
+bakom dessa siffror. För undvikande av missförstånd må blott framhållas
+att förklaringen säkerligen icke bör sökas i någon partiskhet från nämndens 
+sida. Resultatet synes fastmer framgå ur ett samspel emellan de givna
+direktiven, objektivt tillämpade, och vissa faktiska förhållanden såväl ute
+1 bygderna som inom berörda organisationer.
+Framför allt möta emellertid svårigheter när det gäller att få byggnadstillstånd.
+ I detta fall borde en generösare tillståndsgivning kunna tillämpas
+2 Bihang till riksdagens protokoll 1052. 4 samt. Nr 477—478.
+18
+Motioner i Andra kammaren, nr i78.
+särskilt i de fall, då ungdomen själv vill engagera sig för att ordna lokalfrågan.
+ Detta är ju i och för sig själv en fritidsverksamhet av stort pedagogiskt 
+och ideellt värde.
+6. När det gäller ungdomens utbildning, vård och fostran vilja vi i detta
+sammanhang även peka på vikten av att medborgerlig bildning får ingå i
+kursplanerna för praktiskt taget alla slag av yrkesskolor, såsom centrala
+verkstadsskolor, lantbruksskolor, hushållsskolor m. fl.
+En ung människa skall ju ej blott utbildas för ett yrke utan också för
+att på bästa möjliga sätt kunna fylla sina uppgifter i familj och samhälle.
+Även de som välja den praktiska utbildningens väg böra därför vid något
+mognare ålder få göra sig förtrogna med vad det innebär att leva i ett demokratiskt 
+samhälle, vilket ansvar och vilka förpliktelser det medför och
+på vilka grundvärden demokratien vilar.
+å i ha förut påpekat, att en råd företeelser i vårt samhälle vittna om ungdomsvårdsfrågornas 
+aktualitet. Det förhållandet att viss försöksverksamhet
+behöver startas och ökad erfarenhet även i övrigt vinnas på detta område
+innan de större årgångar, som äro födda under 1940-talet, nå fram till den
+egentliga ungdomsåldern, talar också för att dessa frågor utan dröjsmål
+böra tagas upp av statsmakterna. Ännu ett skäl härför må avslutningsvis
+omnämnas.
+De flesta former av ungdomsvård kunna inte bedrivas i tillräcklig omfattning 
+och i önskvärda former utan ett starkt stöd av frivilligt arbetande
+krafter. Vad som på detta område har uträttats och alltjämt uträttas av
+de riktrotar inom religiösa och profana organisationer, som tack vare sin
+idealitet offrat fritid, kraft och medel för att samla ungdomen omkring
+Positiva uppgifter, det kan ej uppskattas i pengar. Utan de svenska folkrörelsernas 
+insats från 1800-talets senare hälft och fram till våra dagar
+skulle det svenska samhällets förut berörda omvandling icke kunnat ske
+under så lyckosamma betingelser som fallet nu varit. Att vi under de närmaste 
+tio åren möta växande ungdomsskaror är säkert. Om frivilliga krafter
+kunna mobiliseras i en omfattning som motsvarar behovet är däremot osäkert.
+ Delvis tära vi på ett ideellt grundkapital från folkrörelsernas genombrottsår.
+ Därtill kommer att det blir alltmera ont om arbetskraft, allt svårare 
+och allt dyrare att bedriva en av frivilliga krafter helt bekostad verksamhet.
+ Även detta talar för att statsmakterna utan dröjsmål böra medverka 
+till att de ideella och materiella resurser, som vårt samhälle förfogar
+över, inriktas på ett arbete till gagn för svensk ungdom. Den uppgiften är
+utan tvivel större än mycket annat som tilldrar sig vårt folks intresse.
+Med stöd av det ovan anförda få vi hemställa,
+att riksdagen i skrivelse till Kungl. Maj:t måtte anhålla
+att inom ecklesiastikdepartementet en utredning om utbildningen 
+i praktisk psykologi snarast kommer till stånd,
+Motioner i Andra kammaren, nr h-78.
+19
+att en skyndsam översyn och i de fall så behövs ytterligare 
+komplettering av det utredningsmaterial, som nu föreligger 
+beträffande den framtida ungdomsvården måtte
+verkställas, samt
+att förslag i ämnet måtte framläggas för 1953 års riksdag.
+Stockholm den 26 januari 1952.
+Wald. Svensson.
+Manne Ståhl.
+Per Johnson
+i Kastanjegården.
+Sven Wedén.
+Bertil Ohlin.
+Bertil von Friesen.
+Margit Wohlin.
+Emil Kihlströms Tryckeri A.-B. Stockholm 1952
+520142
+kammare
+kammare
+Andra kammaren
+ED2O478
+2018-03-02 12:59:06
+riksdag
+riksdag
+tvåkammaren
+ED2O478
+2018-03-02 12:59:06
+session
+session
+lagtima
+ED2O478
+2018-03-02 12:59:06
+sidantal
+Antal sidor
+8
+ED2O478
+2018-03-02 12:59:06
+ED2O478
+Andra kammaren
+mot_1952__ak__478.pdf
+490412
+pdf
+Motioner i Andra kammaren, nr A78
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1952/web_mot_1952__ak__478/mot_1952__ak__478.pdf

@@ -1,0 +1,197 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+2
+Motioner i Andra kammaren, nr 287.
+Nr 287.
+Av herr Wedén m. fl., om rätt att vid taxering till inkomstskatt 
+åtnjuta avdrag för vissa studiekostnader.
+Under en följd av år har frågan om möjligheter för personer, som avlagt
+vissa examina att vid taxering till inkomstskatt få avdraga vissa belopp —
+helt eller delvis motsvarande de kostnader vederbörande nedlagt på sina studier 
+— varit föremål för livlig debatt och utredning. Det är framför allt två
+utvägar, som därvid diskuterats. Den ena innebärande visst avdrag för studieskulder 
+och den andra avdrag för studiekostnader. En rad framställningar 
+ha gjorts i ärendet bl. a. redan 1943 från Sveriges förenade studentkårer 
+och vid senare tillfällen från Läroverkslärarnas riksförbund, Statstjänstemännens 
+riksförbund, Sveriges akademikers centralorganisation och
+Tjänstemännens centralorganisation.
+1944 års allmänna skattekommitté har i två betänkanden tagit upp spörsmålet 
+dels i ett betänkande angående ändrade bestämmelser för beskattning
+av periodiskt understöd m. m. (SOU 1950: 21) och dels ett betänkande angående 
+studiekostnaders behandling i beskattningshänseende (SOU 1951: 13).
+Enligt vår mening tala följande skäl för att principen om att studiekostnaderna 
+böra vara beräkningsgrund vid ställningstagandet om avdragsrätt.
+Enligt svensk skattelagstiftning får den som investerar kapital i en rörelse
+rätt att avskriva viss del av kostnaden för fastigheter, maskiner m. fl. Under 
+vissa förutsättningar föreligger till och med rätt till fri avskrivning för
+maskiner och verktyg. Skälet till avskrivningsrätten är att värdeminskningen 
+är en kostnad och ej en del av nettoinkomsten. Avdrag för sådan förslitning 
+av hjälpmedel i produktionen medgivas oberoende av om de finansierats 
+genom upplåning eller med hjälp av eget kapital. Huvudprincipen är
+att så stor del av den uppkomna kostnaden får avdragas varje år, att man
+kan beräkna, att när samtliga avdrag verkställts den ifrågavarande investeringen 
+då också skall vara förbrukad. Vid fri avskrivning kunna avdragen
+ske i snabbare takt.
+Av samma skäl borde rätt föreligga att avdraga de kostnader, som erfordras 
+för utbildning. Den möjlighet till ökad inkomst en erlagd examen ger
+är en tillgång, som efter ett visst antal år upphör — om ej förr, så när pensionsåldern 
+inträder. En avdragsrätt så utformad, att de i studierna nedlagda 
+kostnaderna helt ha avskrivits, när den ifrågavarande utbildningen
+icke längre kan väntas ge upphov till ökade inkomster, synas därför vara ur
+principiell synpunkt motiverad.
+»Förslitningen» av den arbetandes genom utbildningen förvärvade speciella 
+kapacitet är en parallell företeelse till förslitningen av en maskin eller
+Motioner i Andra kammaren, nr 287. 3
+värdeminskningen av en tidsbegränsad patenträttighet, å vilken avskrivning
+får göras.
+I sitt betänkande angående studiekostnaders behandling i beskattningshänseende 
+har också 1944 års allmänna skattekommitté i princip uttalat sig
+för samma ståndpunkt. Mot jämförelsen mellan investering i materiella
+tillgångar och investering i den immateriella tillgång, som en utbildning kan
+anses utgöra, gör emellertid kommittén invändningar. Rörelseidkaren hade
+att för åtnjutande och bibehållande av inkomsten från sin förvärvskälla regelmässigt 
+nödgas vidkänna vissa utgifter ägnade att vidmakthålla värdet
+av hans investering. Den senare hade att vidkännas sådana endast under
+förutsättning att studiekostnaderna bestridas av lånade medel. Endast då
+bleve enligt kommittén hans skatteförmåga reducerad i samma utsträckning 
+som rörelseidkarens. Kommittén anför vidare. »För den som nedlagt
+ärvt kapital i utbildning föreligger i regel med hänsyn till att ifrågavarande
+medborgargrupp i allmänhet ordnar sin ålderdomsförsörjning genom pensionering 
+däremot intet tvingande behov att vid slutet av den immateriella
+tillgångens varaktighetstid, d. v. s. då arbetsförmågan upphört, hava sparat
+ett mot studiekostnaden svarande belopp.»
+Detta resonemang torde inte vara hållbart. Det kan erinras att de akademiskt 
+utbildade ha icke obetydliga kostnader för att vidmakthålla sina kunskaper 
+och komplettera dem med hänsyn till utvecklingen. Skattemyndigheterna 
+äro i regel relativt obenägna att medgiva avdrag för dessa kostnader,
+ under det att motsatsen gäller beträffande rörelseidkarens utgifter för
+vidmakthållande av värdet å hans investering. Även bortsett härifrån synes
+följande invändning mot kommitténs resonemang fullt avgörande.
+Det är obestridligt, att en arbetande år efter år förbrukar det kapital, som
+nedlagts i hans utbildning. Däremot är det irrelevant, om han erhåller en
+del av ersättningen för arbetet i form av pension — uppskjuten lön — eller
+hela ersättningen i lön eller annan inkomst. I samtliga fall är arbetsersättningen 
+en bruttoinkomst, som bör minskas med ett kostnadsavdrag.
+En väsentlig nackdel med de förslag som hittills framkommit är, att de
+sysslat enbart med akademisk eller därmed jämförlig utbildning. Enligt
+vår uppfattning är det angeläget att söka komma fram till bestämmelser,
+som ge möjligheter att få avdrag för studiekostnader för de flesta slag av
+något så när kvalificerad utbildning. Sälvfallet måste vissa gränser sättas,
+men man torde ha anledning att här ej sätta dessa snävt. De grupper, som
+det utöver den akademiska utbildningen framför allt i nuvarande läge finnes
+anledning att ägna uppmärksamhet åt är s. k. yrkesutbildning av olika slag.
+Vi tänka på vissa slag av utbildning till jordbruk, handel, hantverk, sjukoch 
+hälsovård, socialt arbete och därmed jämförliga grupper. I 1944 års allmänna 
+skattekommitté har man tänkt sig en viss schablonisering, när det
+gäller att beräkna de kostnader de akademiska och därmed jämförliga stu
+-
+4
+Motioner i Andra kammaren, nr 287.
+diebanorna kunna ge upphov till. Liknande schablonberäkningar för studiekostnader 
+inom övriga utbildningsområden böra fastställas. Självfallet kan
+därvid aldrig en fullständigt rättvis avvägning åstadkommas. För vissa personer 
+bli de sålunda beräknade studiekostnaderna för stora och för andra
+för små. Men det är ej berättigat att av den anledningen att fullständig rättvisa 
+inte kan uppnås låta sig avskräcka från att söka åstadkomma en så
+tillfredsställande lösning som möjligt.
+Vi vilja understryka, att även med den här ifrågasatta metoden, är det
+icke obehövligt att söka hjälpa mindre bemedlade studerande med riklig
+tillgång på stipendier och kreditgarantier. För många finns nämligen inte
+för närvarande möjlighet att själva finansiera eller på drägliga villkor låna
+det kapital, som erfordras, för utbildning. Med hänsyn till stipendiemöjligheterna 
+torde emellertid den schablonmässigt beräknade studiekostnaden
+böra beräknas så att den någorlunda överensstämmer med den för respektive 
+grupp av studerande genomsnittliga, med andra medel än stipendier
+finansierade studiekostnaden.
+Lösandet av frågan om studiekostnadernas behandling ur skattehänseende 
+har nu varit föremål för diskussion under så lång tid, att det är angeläget
+att frågan snabbt bringas till lösning. Vi föreslå därför, att riksdagen begär
+en översyn av de nu framlagda förslagen så att 1953 års riksdag kan få ta
+ställning till ärendet.
+Med stöd av vad ovan anförts hemställes,
+att riksdagen måtte anhålla hos Kungl. Maj :t om förslag till
+1953 års riksdag beträffande lösning av frågan om rätt att avdraga 
+studiekostnader vid beskattningen för såväl akademiska
+och därmed jämförliga studier som för utbildning inom jordbruk,
+ handel, hantverk, sjuk- och hälsovård, socialt arbete och
+andra likartade grupper.
+Stockholm den 25 januari 1952.
+Sven Wedén. Bertil Ohlin. Gerda Höjer.
+Edith Liljedahl. Ingrid Gärde Widemar.
+kammare
+kammare
+Andra kammaren
+ED2O287
+2018-03-02 12:56:01
+riksdag
+riksdag
+tvåkammaren
+ED2O287
+2018-03-02 12:56:01
+session
+session
+lagtima
+ED2O287
+2018-03-02 12:56:01
+sidantal
+Antal sidor
+3
+ED2O287
+2018-03-02 12:56:01
+ED2O287
+Andra kammaren
+mot_1952__ak__287.pdf
+242653
+pdf
+Motioner i Andra kammaren, nr 287
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1952/web_mot_1952__ak__287/mot_1952__ak__287.pdf

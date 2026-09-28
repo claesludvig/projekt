@@ -1,0 +1,100 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+16
+Motioner i Andra kammaren, nr 522—523 år 1956
+Med stöd av det ovan anförda hemställer vi,
+att riksdagen måtte besluta att statsbidrag, på det sätt
+1952 års yrkesutbildningssakkunniga föreslagit, medges till
+byggnader vid lokala yrkesskolor samt att för delta ändamål 
+anslaget till Bidrag till byggnadsarbeten m. m. vid yrkesskolor 
+uppräknas med 3 300 000 kronor.
+Stockholm den 26 januari 1956
+Bertil Ohlin O Malmborg Wald. Svensson
+Skövde
+Bertil v. Friesen Manne Ståhl Henning Gustafsson
+i Skellefteå
+Nr 523
+Av herr Svensson i Stenkyrka m. fl„ om ökat anslag till folkhögskolor,
+ m. m.
+(Lika lydande med motion nr 264 i Första kammaren)
+Stockholm den 26 januari 1956
+Per Svensson Harald Andersson Fritz Börjesson
+i Stenkyrka i Dunker
+AB Gustaf Lindströms BoktrStockholm 1956
+kammare
+kammare
+Andra kammaren
+EH2O523
+2018-03-02 10:09:49
+riksdag
+riksdag
+tvåkammaren
+EH2O523
+2018-03-02 10:09:49
+session
+session
+lagtima
+EH2O523
+2018-03-02 10:09:49
+sidantal
+Antal sidor
+1
+EH2O523
+2018-03-02 10:09:49
+EH2O523
+Andra kammaren
+mot_1956__ak__523.pdf
+115966
+pdf
+Motioner i Andra kammaren, nr 522—523 år 1956
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__523/mot_1956__ak__523.pdf

@@ -1,0 +1,745 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Nr U5—U6
+Motioner i Andra kammaren, nr 145 år 1965
+1
+Nr 145
+Av herr Ohlin m. fl., om vissa åtgärder angående skolväsendet 
+m. m.
+(Lika lydande med motion nr 114 i Första kammaren)
+Skolväsendet
+Den nioåriga obligatoriska grundskolan genomföres nu successivt ute i
+landets kommuner. Enligt uppgift i statsverkspropositionen är grundskolan
+innevarande läsår införd i kommuner, som sammanlagt omfattar ca 80 %
+av landets folkmängd. Samtidigt pågår eu viss utbyggnad av den gymnasiala
+utbildningsorganisationen, vilken dock icke håller jämna steg med den
+kraftigt ökade efterfrågan. Antalet avvisade sökande till gymnasiet kommer
+med all sannolikhet att stiga under de närmaste åren. Som vi framhöll i en
+partimotion angående reformeringen av det gymnasiala skolstadiet, anser
+vi att det måste vara en primär utbildningspolitisk målsättning att genomföra 
+en för alla gällande rätt till valfri utbildning på det gymnasiala
+skolstadiet. Det är därför utomordentligt angeläget att utbyggnadstakten
+forceras och att alla sådana åtgärder vidtages som kan öka intagningen.
+En av de mest besvärande flaskhalsarna för en ökad utbyggnadstakt är
+lärarbristen, till icke ringa del förorsakad av brist på planering och framsynthet 
+från regeringens sida. Av lärarutbildningssakkunnigas undersökning 
+om skolans försörjning med lärare (SOU 1964:44) framgår att av
+13 837 inrättade tjänster för lärare i läroämnen är 5 500 icke tillsatta; luckorna 
+fylles av icke-ordinarie lärare. De flesta av dessa har ofullständig
+kompetens; således utföres ca 45 % av undervisningen på grundskolans högstadium 
+och inom realskoleorganisationen och ca 36 % av undervisningen
+på gymnasiet av icke-behöriga lärare. En icke ringa del av den totala undervisningstiden 
+— 8—10 % — bestrides genom att lärare åtar sig övertimmar.
+Situationen är utomordentligt allvarlig. Kvalitén på undervisningen blir
+självfallet lidande på att en så stor del utföres av icke-behöriga lärare,
+vilket i sin tur får menliga konsekvenser på möjligheterna att realisera det
+pedagogiska reformprogram som var en av huvudtankarna bakom skolreformen.
+ En förstärkning av lärarutbildningens kapacitet samt kraftigt ökade
+resurser till vidare- och fortbildning av lärare är synnerligen angeläget. Vi
+ämnar återkomma till dessa frågor i samband med riksdagens behandling
+av den av departementschefen aviserade propositionen om lärarutbildningen.
+ I detta sammanhang vill vi emellertid framhålla vikten av att man på
+olika vägar söker förbättra lärarnas arbetsvillkor, så att yrket ges ökad
+1 liihang till riksdagens protokoll 1965. S samt. Nr US—-Hd
+2
+Motioner i Andra kammaren, nr 145 år 1965
+attraktionskraft och så att de nu yrkesverksamma lärarnas arbetsbörda i
+görligaste mån lindras. Som ytterligt angelägen framstår också en kraftig
+satsning på det pedagogiska utvecklingsarbetets område. Vissa förslag av
+denna karaktär finnes också i statsverkspropositionen, men på vissa punkter 
+torde, vilket vi nedan skall återkomma till, en kraftigare satsning vara
+motiverad.
+Vi vill här erinra om att vi i en motion som väcktes till 1964 års riksdag
+(II: 489) framhöll vikten av att få en samlad överblick över grundskolans
+situation i fråga om materiella och personella resurser som underlag för
+bedömningen av behoven i fortsättningen. En sådan samlad översyn av hur
+de faktiska materiella och personella (vad avser annan personal än lärare)
+resurserna förhåller sig till behoven och de intentioner som låg bakom 1962
+års riksdagsbeslut om skolväsendets reformering framstår i dagens läge
+som ytterst angelägen. Redovisningen bör göras genom skolöverstyrelsens
+försorg och avse grundskolans läge i fråga om tillgång på lokaler, läroböcker
+och andra hjälpmedel, angivande av i vilken utsträckning brister föreligger
+samt analys av orsakerna till föreliggande brister i skolformens resurser.
+Pedagogiskt utvecklingsarbete
+Skolöverstyrelsen har begärt en ökning av anslaget till pedagogiskt utvecklingsarbete 
+på 1,8 miljon kronor. En intensiv forsknings- och försöksverksamhet 
+på pedagogikens område ingår som en mycket viktig beståndsdel 
+i strävandena att höja skolväsendets allmänna kvalité och undervisningens 
+effektivitet. Särskilt viktigt är att bedriva en utökad försöksverksamhet 
+med sådana undervisningsmetoder — Trumpmetoden eller någon
+modifierad form av denna — och med sådana tekniska hjälpmedel som icke
+endast erbjuder avsevärda pedagogiska fördelar utan som också innebär ett
+mer rationellt utnyttjande av tillgängliga lokal- och lärarresurser. Ytterligt
+angelägen är också forskningen och försöksverksamheten med nya undervisningsmetoder 
+och hjälpmedel för handikappade samt en utökad yrkespedagogisk 
+forskningsverksamhet. Detta sista område har hittills — trots
+förslag från vår sida om ökade anslag — tilldelats ytterst blygsamma anslag.
+Mot denna bakgrund anser vi att den av departementschefen föreslagna
+höjningen av anslaget på 900 000 kronor är otillräcklig. Vi föreslår därför
+en höjning med ytterligare 500 000 kronor, dvs. en sammanlagd höjning av
+1,4 miljon kronor.
+Skolbiblioteken
+Skolans bibliotek utgör ett viktigt och nödvändigt arbetsredskap för undervisningen.
+ Vikten av ett systematiskt utnyttjande av skolbiblioteken
+framhålles också i kursplanerna. De senare årens snabba utveckling av de
+teknisk-pedagogiska hjälpmedlen har också lett till en ökad användning av
+s. k. lärobokspaket, där läroboken används i växelverkan med andra hjälpmedel.
+ Det ter sig då naturligt och nödvändigt att man, som skolöverstvrel
+-
+Motioner i Andra kammaren, nr H5 år 1965
+3
+sen framhåller, söker samla skolans olika hjälpmedel till en enhet, en hjälpmedelscentral 
+eller mediatek. Dessa bör stå under ledning av särskilda
+befattningshavare som dels skall sköta och ansvara för samlingarna, dels
+ock ägna sig åt hjälpmedelsuppgifter av pedagogisk natur, hjälpa lärare vid
+uppläggningen av olika program osv. Frågan om en adekvat utbildning för
+dessa befattningshavare bör som SO framhållit i sitt petitum bli föremål
+för en förutsättningslös utredning.
+På kort sikt är det emellertid nödvändigt att söka förbättra situationen
+vad gäller de befintliga skolbibliotekens personella resurser. Nuvarande
+möjligheter till nedsättning av undervisningsskyldigheten för lärare som
+tjänstgör som skolbibliotekarie är otillfredsställande. Vi finner därför skolöverstyrelsens 
+förslag till obligatorisk pedagogisk skolbiblioteksverksamhet
+i grundskolan värdefullt. Frågan om efter vilka grunder statligt bidrag skall
+utgå till denna verksamhet bör emellertid ytterligare utredas. Vi föreslår
+därför att regeringen skyndsamt utarbetar förslag därtill, så att beslut därom 
+kan fattas av 1965 års höstriksdag.
+Underlättande av lärarnas arbetssituation
+Bristen på behöriga lärare är, som vi ovan framhållit, utomordentligt
+allvarlig. Situationen kan på många ställen klaras upp endast genom att de
+ordinarie lärarna åtar sig betydande övertidstjänstgöring. Det borde vara
+en självklarhet att man i detta läge vidtager alla sådana åtgärder som kan
+bidra till att underlätta lärarnas arbetssituation. Desto mer anmärkningsvärt 
+är det då att departementschefen icke biträder en höjning av de nu
+utgående ytterst blygsamma anslagen för skrivhjälp till lärare. Inom näringslivet 
+och statlig förvaltning är det uteslutet att man skulle misshushålla 
+med dyrbar arbetskraft på det sätt, som det innebär, att lärarna själva
+tvingas utskriva skrivningar och liknande ting — särskilt i ett läge, då det
+råder stor brist på arbetskraften i fråga. En mycket kraftig höjning av anslaget 
+till skrivhjälp åt lärare är således i hög grad motiverad; för att en
+sådan skall kunna ges avsedd effekt krävs emellertid en kartläggning av det
+lokala behovet samt förslag till anslagsprinciper. Målsättningen härvid
+måste vara att man i alla grundskolor och gymnasiala skolor kan erbjuda
+lärarna tillräcklig skrivhjälp. Eftersom en sådan plan f. n. inte föreligger,
+får vi i detta sammanhang inskränka oss till att föreslå en höjning av anslaget 
+till skrivhjälp åt lärare vid statliga gymnasier med 200 000 kronor
+till totalt 500 000 kronor och samma höjning för skrivhjälp på grundskolans 
+högstadium. Vidare bör Kungl. Maj:t tillse att denna fråga särskilt
+uppmärksammas i den ovan av oss begärda kartläggningen av grundskolans
+behov.
+Även rektorernas arbetssituation är utomordentligt pressad. De administrativa 
+göromålen vid ledningen av eu stor skolenhet är så omfattande,
+alt möjligheterna för rektorerna att ägna sig åt pedagogiska uppgifter blir
+ytterligt begränsade. Delta är en otillfredsställande situation. Den hittills
+lf 
+Bihang till riksdagens protokoll 1005. ''i samt. Nr 145—116
+4
+Motioner i Andra kammaren, nr liö år 1965
+varande försöksverksamheten med sekreterare i Ag 17 och ställföreträdande
+rektor synes enligt vad skolöverstyrelsen meddelar ha gett goda erfarenheter; 
+en utvidgning av verksamheten till att omfatta ytterligare 20 skolor i
+enlighet med Sö:s förslag synes därför väl motiverad. Vi föreslår därför en
+höjning av detta anslag med 526 000 kronor till totalt 865 209 kronor.
+Folkhögskolan
+Frågan om en ny utformning av statsbidragssystemet till folkhögskolan
+har länge varit aktuell. Senast i samband med gymnasiepropositionen framhöll 
+vi vikten av att denna fråga snarast löses. Skolöverstyrelsen har nu
+lagt fram ett förslag till nya bidragsregler, som innebär en väsentlig höjning
+av anslagen, men departementschefen anser att detta förslag bör överses och
+kompletteras, bl. a. med hänsyn till den nyligen beslutade bidragsreformen
+för de gymnasiala skolorna. Vi ser oss nödsakade att acceptera denna ytterligare 
+förskjutning av en angelägen reform, men vi förutsätter därvid att
+förslag om nya bidragsregler för folkhögskolorna förelägges 1966 års riksdag.
+Däremot kan vi icke acceptera departementschefens förslag att endast ytterligare 
+en folkhögskola — mot SÖ:s begärda två — skall erhålla statsbidrag 
+för nästa budgetår. Det finns ingen anledning att frångå skolöverstyrelsens 
+förslag härvidlag, och vi föreslår därför att två folkhögskolor erhåller 
+statsbidrag från och med budgetåret 1965/66. Kostnadsökningen härför
+beräknar vi till ca 151 000 kronor.
+Yrkesvägledning
+I vår partimotion angående de gymnasiala skolornas reformering framhöll 
+vi vikten av en kraftig utbyggnad av den studieorienterande och yrkesvägledande 
+verksamheten. Särskilt angeläget är därvid att man söker motverka 
+könsbundna och traditionella föreställningar om vad som är »manliga» 
+och »kvinnliga» yrken. Den nuvarande fördelningen av män och kvinnor 
+inom skolväsendet på olika utbildningslinjer är djupt otillfredsställande.
+Således framgår av följande tabell den procentuella fördelningen av män
+och kvinnor på olika utbildningsgrenar inom 9 y 1961—63:
+Procentuell fördelning efter utbildningsgren
+Samtliga Därav kvinnor
+1961
+1962
+1963
+1961
+1962
+1963
+Jord- och skogsbruk ....
+1,5
+2,3
+1,9
+0,0
+0,1
+0,0
+Husligt arbete ........
+Industri (med besläktade
+13,0
+16,8
+15,7
+30,3
+39,6
+38,2
+hantv. yrken)........
+15,4
+19,7
+20,0
+0,3
+3,2
+2,9
+Detaljhandel o. kontor ..
+Hantverk o. blandade yr-
+25,5
+22,2
+23,1
+45,7
+43,6
+46,4
+ken................
+26,4
+26,6
+26,4
+22,9
+12,6
+11,7
+Teknisk gren..........
+10,2
+12,4
+12,9
+0,8
+0,9
+0,8
+S:a
+100
+100
+100
+100
+100
+100
+5
+Motioner i Andra kammaren, nr 145 år 1965
+Flickorna är koncentrerade till de traditionella kvinnliga utbildningsvägarna,
+ husligt arbete och kontor, medan de i mycket liten utsträckning förekommer 
+på teknisk gren eller på industrisektorn. Någon utveckling mot
+en mera jämn fördelning på de olika utbildningsvägarna kan inte iakttas
+under perioden. Situationen är likartad inom yrkesskolorna och gymnasiet.
+Av ca 7 000 heltidsstuderande elever på tekniska yrkesskolor var endast ca
+700 kvinnor, av 34 500 elever inom sektorn industri—hantverk var ca 3 800
+kvinnor. Kvinnorna dominerar helt inom vårdyrkena (2 250 kvinnor av 2 264
+elever), husliga yrken samt kontor och handel. Vad gäller gymnasiet kan
+visserligen iakttas en blygsam ökning av antalet flickor på reallinjens matematiska 
+gren under de senaste åren; totalt sett utgör pojkarna fortfarande
+eu överväldigande majoritet inom reallinjen, och på den tekniska grenen
+förekommer ytterst få flickor.
+Detta är en besvärande situation icke minst av det skälet, att den önskade
+fördelningen av studerande på olika gymnasiala utbildningsvägar icke kan
+uppnås utan att en jämnare könsfördelning kommer till stånd. Här är det
+således nödvändigt med en mycket aktiv upplysningsverksamhet från samhällets 
+sida, som inte bara riktar sig till elever och föräldrar utan också till
+betydande medborgargrupper utanför skolan, till arbetsgivare och fackföreningar.
+ Psykotekniska tester bör i ökad omfattning utnyttjas i samband
+med yrkesvägledningen.
+I detta sammanhang vill vi också framhålla vikten av att skolans undervisning 
+inom samhällskunskap och andra ämnen, där denna fråga kan bli
+aktuell, är så utformad och att traditionella föreställningar om vad som är
+manliga och kvinnliga yrken icke ges ytterligare näring. Detta gäller självfallet 
+också det studie- och yrkesorienterande material som i informationssyfte 
+framställes inom SO eller yrkesvägledningen. Att döma av en undersökning 
+utförd av arbetsmarknadens kvinnoråd tycks åtskilligt brista härvidlag.
+ Vi förutsätter att regeringen uppdrar åt skolöverstyrelsen att noggrant 
+undersöka dessa förhållanden samt om så befinnes erforderligt vidtaga
+lämpliga åtgärder.
+Fn utbyggnad av den yrkesvägledande verksamheten bör f. n. i första hand
+ske genom en förstärkning av arbetsmarknadsstyrelsens resurser på detta
+område. Chefen för inrikesdepartementet har här föreslagit en viss ökning
+av antalet tjänster. Som framgår av arbetsmarknadsstyrelsens hemställan är
+emellertid behovet vida större än vad som med denna ökning kan tillgodoses.
+Vi föreslår därför en ökning av antalet konsulenttjänster i reglerad befordringsgång 
+utöver den av inrikesministern förordade med fem tjänster till en
+beräknad kostnad för budgetåret 1965/66 av ca 150 000 kronor.
+Studievägledning och yrkesorientering måste också ges i betydande utsträckning 
+vid universitet och högskolor. Behovet av sådan är redan nu mycket 
+stort och kan antas öka kraftigt i samband med en utbyggnad av ett
+rikt differentierat utbildningssystem inom universitetens ram. Den av 1964
+6
+Motioner i Andra kammaren, nr 145 år 1965
+års riksdag beslutade reformeringen av universitetens och högskolornas organisation 
+innebar också ett klart erkännande av principen att ansvaret för
+denna åvilar respektive läroanstalter. Det kan emellertid ifrågasättas om den
+personalorganisation som nu fungerar är tillräcklig för att kunna tillgodose
+dessa behov. Särskilt vad gäller Stockholms universitet är förhållandena ytterligt 
+otillfredsställande. Någon studierådgivning i universitetsmyndighetens 
+regi förekommer över huvud taget icke; den studierådgivande verksamhet 
+som förekommer och som är klart otillräcklig skötes och finansieras
+helt av studentkåren, dvs. de studerande själva. Trots upprepade framställningar 
+från studentkåren under de senaste åren har någon förändring därvidlag 
+icke skett.
+De brister som f. n. vidlåder studie- och yrkesvägledningens kapacitet och
+utformning och som berörts ovan motiverar enligt vår mening en utredning
+av dessa frågor såväl vad gäller förhållandet vid det lägre skolväsendet som
+vid universitet och högskolor. Denna utredning bör således kartlägga den nuvarande 
+situationen, undersöka det framtida behovet samt framlägga förslag
+till studie- och yrkesvägledningens framtida organisation och omfattning,
+varvid frågan om samarbetet och kontakten mellan berörda myndigheter
+och läroanstalter bör ägnas särskild uppmärksamhet. Vidare bör utredningen 
+behandla frågan om hur den framtida utbildningen av studie- och yrkesvägledare 
+bör utformas. Utredningen bör tillsättas snarast och bedriva sitt
+arbete med största skyndsamhet. Med hänsyn till den nuvarande svåra bristsituationen 
+bör utredningen som en första åtgärd framlägga förslag om eu
+provisorisk förstärkning av de yrkes- och studievägledande insatserna som
+kan tillämpas under en övergångstid.
+Högre utbildning och forskning
+Ett snävt och kortsiktigt perspektiv får inte prägla det högre utbildningsväsendets 
+expansion. Redan i dag går flertalet av de ungdomar som kommer
+ut från gymnasierna vidare till olika former av postgymnasial utbildning.
+Reformeringen av det gymnasiala skolstadiet och den snabba och kraftiga
+ökningen av ungdomar som efter den obligatoriska skolan söker sig vidare
+till gymnasiala studier kommer också med all säkerhet att leda till en kraftigt 
+ökad tillströmning till universitet och högskolor och andra former av
+mer praktiskt inriktad högre utbildning.
+Den utbyggnad av den högre utbildningen som ägt rum de senare åren
+har i flera avseenden varit helt otillräcklig. Varje år måste ett stort antal
+ungdomar som önskar utbildning vid de spärrade fackhögskolorna avvisas,
+trots att de väl uppfyller de formella kompetenskraven. Detta utgör en allvarlig 
+olägenhet såväl för den enskilde individen, vars möjligheter att fritt
+välja utbildning och yrke blir kraftigt inskränkt, som för samhället i sin
+helhet, då därigenom värdefull potentiell arbetskraft på yrkesområden, där
+bristen på sådan i dag är särskilt stor, går förlorad. Denna situation beror,
+7
+Motioner i Andra kammaren, nr U5 år
+enligt vår mening, till icke ringa del på regeringens bristande framsynthet
+och initiativkraft. Ett typiskt exempel på detta utgör regeringens handläggning 
+av frågan om en ny odontologisk högskola i Göteborg, där riksdagen
+fattade principbeslut om inrättande av en sådan 1945. Inte förrän 1964
+nästan 20 år senare — lade regeringen fram ett konkret förslag i frågan.
+I eu rad motioner från vårt håll har vi under de gångna åren framlagt
+förslag till åtgärder som syftat till ökad utbildningskapacitet vid de spärrade
+fackhögskolorna — förslag som mestadels har avvisats av regeringen och
+riksdagsmajoriteten men som nu, om de hade godkänts, hade inneburit en
+förbättrad situation. Det beslut om en forcerad utbyggnad som riksdagen fattade 
+1963 på grundval av proposition 1963: 172 är enligt vår mening ej heller
+tillräckligt omfattande. Således finner vi det angeläget att riksdagen nu
+fattar principbeslut om inrättande av en ny teknisk högskola, ett krav som
+vi också framförde till förra årets riksdag.
+Frågan om ökad utbyggnad av de medicinska och odontologiska fakulteterna 
+och högskolorna behandlas i en särskild motion väckt till årets riksdag.
+Den kraftiga expansion av studerandeantalet vid främst universitetens fria
+fakulteter som ägt rum under de senaste fem åren och som kan förväntas
+fortsätta även framdeles torde på längre sikt innebära att personer med kvalificerad 
+högre utbildning kommer att söka sig till arbetsmarknadssektorer
+där sådan arbetskraft hittills varit mindre vanligt förekommande. Detta är
+en för näringslivets produktivitet och expansion och därmed för hela samhällsutvecklingen 
+önskvärd och värdefull process. Ungdomens skiftande utbildningskrav 
+och arbetsmarknadens växande behov av en specialisering av
+den välutbildade arbetskraften måste emellertid leda till att den traditionella
+icke yrkesinriktade utbildningen särskilt vid de humanistiska och samhällsvetenskapliga 
+fakulteterna kompletteras med mer differentierade och målinriktade 
+utbildningslinjer, i vilka också ingår mer praktiskt yrkesinriktade
+moment. En viss utveckling i denna riktning har också ägt rum under de senaste 
+åren, bl. a. genom inrättande av akademisk journalist- och sekreterarutbildning.
+ Det nyligen framlagda utredningsförslaget om en reformerad
+psykologutbildning utgör också ett exempel på en sådan målinriktad utbildningslinje.
+ Redan år 1957 framförde folkpartiet krav i detta syfte. För att
+tillgodose de enskildas och arbetsmarknadens behov av mer yrkesinriktad
+akademisk utbildning har också arbetsmarknadsorganisationerna och folkuniversitet 
+anordnat särskilda yrkeskurser utanför universitetens ram.
+En ytterligare utbyggnad av de mer yrkesinriktade utbildningsvägarna vid
+universiteten — med fördel i samarbete med arbetsmarknadens organisationer 
+och näringslivet — ter sig ytterligt angelägen. Det under det senaste året
+från studenthåll framkomna förslaget härvidlag en promemoria utarbetad 
+vid Uppsala universitets studentkår om yrkesinriktade studier, vilken under 
+hösten remissbeliandlats - innehåller åtskilliga förslag som skulle kunna 
+ligga till grund för en försöksverksamhet. I samband med den komplette
+-
+8
+Motioner i Andra kammaren, nr Hd år 1''Jtiö
+rande utredningsverksamhet som här blir nödvändig bör också frågan om
+universitetens nuvarande betygssystem och dess ändamålsenlighet vid förekomsten 
+av dylika utbildningsvägar upptagas till utredning. Det förslag till
+ersättande av det nuvarande betygssystemet med ett creditsystem av modifierad 
+anglosaxisk modell — som för övrigt också tillämpas i Norge — vilket
+framlades av en arbetsgrupp vid Stockholms universitets studentkår 1963
+bör i detta sammanhang bli föremål för noggrann prövning. Genom inrättande 
+av ett betygssystem av denna eller likartad modell torde eu ökad flexibilitet 
+i utbildningsorganisationen kunna vinnas.
+Den stora efterfrågan på utbildning från ungdomens sida och arbetsmarknadens 
+brist på kvalificerad arbetskraft gör givetvis alla åtgärder — i likhet 
+med vad som gäller för det lägre skolväsendet — som syftar till ett mer
+rationellt utnyttjande av tillgängliga resurser i form av lokaler och lärare
+synnerligen angelägna. Frågor av rationaliseringskaraktär behandlas i viss
+utsträckning av 1963 års universitets- och högskolekommitté, som också
+skall undersöka olika tänkbara utbyggnadsalternativ av universitet och högskolor,
+ varför vi återkommer till dessa frågor i samband med riksdagsbehandlingen 
+av de förslag från regeringens sida grundade på denna utredning,
+som kommer att föreläggas riksdagen. I detta sammanhang vill vi emellertid
+framhålla vikten av en förstärkt forsknings- och försöksverksamhet på universitetspedagogikens 
+område, i vad såväl avses undervisningsformerna som
+utnyttjande av tekniska hjälpmedel m. in. samt också att sådana åtgärder
+vidtages som underlättar universitetslärarnas arbetssituation. De förslag härvidlag 
+som återfinnes i årets statsverksproposition är i flera fall otillräckliga.
+Pedagogiskt utvecklingsarbete
+Fn av det nya universitetskanslersämbetets viktigaste uppgifter är att genom 
+en kontinuerlig utredningsverksamhet taga initiativ på den akademiska
+utbildningens område. Härvidlag utgör det pedagogiska utvecklingsarbetet
+ett synnerligen viktigt område för forskning och försöksverksamhet. I ämbetets 
+anslagsäskanden framläggs också ett program för intensifierade insatser 
+på detta område, som länge varit allvarligt försummat. Detta program
+omfattar fyra huvudpunkter — utökad utbildningsstatistik, akademiska lärares 
+pedagogiska utbildning, förbättring av kurslitteratursituationen samt
+förbättring av tillgången på tekniska hjälpmedel i undervisningen. Departementschefen 
+har emellertid i helt otillräcklig omfattning biträtt de anslagsäskanden 
+som motiveras av dessa förslag.
+Således har departementschefen vad gäller anslaget till ökat utnyttjande
+av tekniska hjälpmedel i undervisningen föreslagit 500 000 mot ämbetets
+äskade 1,7 miljon kronor. Den nuvarande situationen på detta område är
+emellertid otillfredsställande. Moderna pedagogiska hjälpmedel, som språklaboratorier,
+ instruktionsfilmer och bildband, intern TV etc., förekommer i
+9
+Motioner i Andra kammaren, nr Hö är 19<iö
+ytterligt blygsam utsträckning inom den högre utbildningssektorn, särskilt
+då inom de humanistiska och samhällsvetenskapliga områdena där det mot
+bakgrund av det stora studerandeantalet — givetvis vore speciellt angeläget.
+Det borde således vara en självklarhet att man på samtliga av de »stora» moderna 
+språkens institutioner hade tillgång till språklaboratorier. Krfaienheterna 
+från andra länder — såväl inom Europa som USA av undervisning
+med sådana hjälpmedel är också vad det gäller den högre utbildningen mycket 
+goda. Det finns all anledning att uppmärksamma detta, då studietiderna i
+moderna språk är oroväckande långa; genomsnittligt f. n. de längsta inom de
+större ämnena inom de filosofiska fakulteterna, varvid de kraftigt öveiskrider 
+den generella målsättningen ett betyg per termin. Även vad gäller utnyttjande 
+av intern TV i universitetsundervisningen och då icke endast i den
+medicinska utbildningen utan i ett stort antal främst naturvetenskapliga
+ämnen — är erfarenheterna av den nu drygt tioåriga verksamhet som pågått
+i USA och även i England goda. Här är uppenbarligen ett område där Sverige
+ligger långt efter i utvecklingen. Detta är desto mer beklagligt då ett rationellt 
+utnyttjande av sådana tekniska hjälpmedel också innebär att man
+ökar lärarkraftens produktivitet och undervisningens effektivitet, vilket naturligtvis 
+är angeläget i den nuvarande bristsituationen.
+Vi föreslår därför en höjning av anslaget till tekniska hjälpmedel utöver
+departementschefens förslag med 1,2 miljon kronor till sammanlagt 1,7
+miljon kronor i enlighet med universitetskanslersämbetets äskande.
+Den nuvarande kursbokssituationen vid universitet och högskolor är ytterligt 
+otillfredsställande. I många humanistiska ämnen kan en stor del av
+läskursen vara utsåld sedan åratal och biblioteken kan ha 1—2 ex. av eftersökta 
+böcker, som skall läsas av flera hundra studerande under några veckor
+eller månader. 1 andra ämnen, t. ex. många samhällsvetenskapliga och alla
+ämnen med få studerande, finns över huvud taget inga läroböcker på vissa
+områden, vilket nödvändiggör ett föråldrat föreläsnings- och anteckningssystem 
+eller får till följd att vissa delar av ämnet helt försummas.
+Under ett skede av kraftig utbyggnad av den högre undervisningen ter sig
+dylika förhållanden som helt oacceptabla. I en stor mängd postgymnasiala
+utbildningslinjer är läskursen den dominerande delen. Att genomgå en sådan 
+utbildning utan god tillgång till alla kursböcker är naturligtvis ineffektivt 
+och tidsödande. Till detta kan läggas att de kursböcker som finns att
+köpa ofta är mycket dyra för eu studerande utan inkomst. Kostnaderna för
+detta slår mycket ojämnt på olika studerande kategorier, emedan de studicsoc.
+iala medlen självklart nog utgår med i huvudsak lika mycket till alla.
+Under del senaste decenniet har inga nya initiativ tagits från statsmakternas 
+sida för att råda bot på missförhållandena inom denna sektor. När nu
+universitetskanslersämbetet i sina petitaäskanden för budgetåret 1965/61)
+äskar anslag för att pröva nya grepp mot kursbokskrisen, måste detta därför
+hälsas med tillfredsställelse.
+10 Motioner i Andra kammaren, nr 145 år 1965
+Kanslersämbetets största äskande på detta område, 250 000 kronor för subvention 
+av ett tiotal värdefulla kursböcker så alt de kan utges till låga priser,
+har emellertid icke biträtts. Departementschefen avvisar denna idé under
+hänvisning till att den i gymnasiepropositionen aviserade lärohoksutredningen 
+nu även avses omfatta universitetsväsendets behov.
+Detta fördröjande av kanslersämbetets föreslagna försöksverksamhet är
+ytterst beklagligt. Genom att subventionera ett tiotal verk finns det en möjlighet 
+att studera verkningarna både när det gäller den större villigheten att
+producera böcker och i fråga om studenternas vilja att i ökad utsträckningköpa 
+sina läroböcker, om de är billiga.
+Det kan även ifrågasättas om den i statsverkspropositionen tänkta sammanslagna 
+utredningen om skolans och universitetsväsendets behov av kurslitteratur 
+är lycklig. Problemen inom dessa båda områden är helt olika. På
+det senare stadiet är det fråga om en brist på läroböcker av grundläggande
+natur. Vad gäller skolans lärobokssituation är däremot tillgången relativt
+god på lämpliga och billiga böcker. Svårigheten består här huvudsakligen i
+att i tid tå fram de behövliga böckerna till terminsstarten. Därtill kommer
+vissa övergångsproblem i samband med det gymnasiala stadiets nya utformning.
+ Med tanke på de helt olika problemen för skolstadium och universitetsstadium 
+torde det alltså vara bäst att en särskild utredning, som nu också 
+kommer att tillsättas av universitetskanslersämbetet, behandlar kursboksfrågor 
+vad gäller högre studier. Denna utredning bör ges tillfälle att bedriva 
+försöksverksamhet, som kan vara av stort värde för utredningens fortsatta 
+arbete. Vi föreslår därför att universitetskanslersämbetet för nämnda
+ändamål erhåller 250 000 kronor.
+Forskning
+Vad gäller anslagen till forskningsråden och övriga angelägna forskningspolitiska 
+frågor ämnar vi återkomma till dessa i samband med riksdagens
+behandling av den rörande dessa frågor aviserade särskilda propositionen.
+Vi vill i detta sammanhang endast aktualisera vårt krav att riksdagen hos
+Kungl. Maj :t begär att frågan om ett särskilt föredragande statsråd för vetenskaplig 
+forskning och högre utbildning upptas till omedelbar behandling.
+Bristen på personer med forskarutbildning är i dag synnerligen besvärande.
+ Den försvårar allvarligt möjligheter att planera och genomföra större
+forskningsprojekt och angeläget utvecklingsarbete, vilket bl. a. för industrien
+innebär en broms på utvecklingstakten. Bristen på forskarutbildade lärare
+är också mycket stor, vilket kan få allvarliga konsekvenser för möjligheterna 
+att förverkliga intentionerna bakom den nyligen beslutade gvmnasiereformen.
+ Den nuvarande situationen framgår av följande tabell — hämtad
+från LUS betänkande Skolans försörjning med lärare, SOU 1964: 44.
+Undervisningen skött av lektorskompetent lärare i procent av undervisningen 
+i vart ämne.
+Motioner i Andra kammaren, nr 1A5 år 1965 11
+Ämne
+Modersmålet ..............
+Engelska ..................
+Tyska......................
+Franska ..................
+Historia ....................
+Historia med samhällslära . .
+Ämne
+12,2 Samhällskunskap .......... 1,2
+11,0 Geografi .................. 21,5
+5,8 Matematik ................ 6,0
+9,1 Biologi .................... 30,6
+14,8 Fysik ...................... 14,0
+15,5 Kemi ...................... 12,3
+Som framgår av tabellen är det en anmärkningsvärt ringa andel av den
+totala undervisningen som sköts av lektor skompetenta lärare; särskilt låg
+är siffran i samhällskunskap, matematik, kemi och fysik. Till detta kan läggas 
+att endast 51 % av inrättade lektorstiänster var tillsatta höstterminen
+1963.
+Frågan om en effektiviserad forskarutbildning är f. n. föremål för utredning.
+ I avvaktan på denna utrednings resultat beslöt emellertid riksdagen
+1964 om vissa provisoriska anslag för en effektivisering av forskarutbildningen 
+samt — på förslag bl. a. av folkpartiet och emot regeringens förslag
+— om en förstärkning av licentiand- och doktorandstipendierna. Universitetskansler 
+sämbetet har nu föreslagit en höjning av det förra anslaget med
+1,5 miljon till totalt 3 miljoner, varav departementschefen biträtt endast en
+ökning på 500 000 kronor. Den oroande nedgång av antalet licentiatexamina
+som inträffat under de senaste åren trots att antalet licentiander och doktorander 
+ökat tyder på en allvarligt bristande effektivitet i högstadieundervisningen.
+ Mot denna bakgrund och med hänsyn till att det ifrågavarande
+anslaget för innevarande budgetår enligt universitetskanslersämbetets redogörelse 
+visat sig vara klart otillräckligt föreslår vi en ökning av anslaget med
+500 000 kr. utöver vad departementschefen föreslagit, dvs. att anslaget till
+provisoriska åtgärder för forskarutbildning in. m. uppskrives till 2,5 milj.
+kronor.
+Vi vill fästa riksdagens uppmärksamhet på det av universitetskanslersämbetet 
+framförda förslaget om s. k. utlandstillägg för högre vetenskapliga
+studier vid utländska universitet. Ett tillägg av denna karaktär ligger helt i
+linje med den internationalisering och breddning av det svenska vetenskapliga 
+arbetet som vi anser nödvändig och önskvärd. Tillägget föreslås av ämbetet 
+utgå med högst 1 500 kronor under förutsättningen att stipendiaten
+vistats utomlands minst tre månader och med motsvarande lägre belopp för
+kortare vistelse. Vi finner detta förslag rimligt och föreslår därför en höjning 
+av anslaget till stipendier för högre vetenskapliga studier med 60 000
+kronor motsvarande 40 sådana tillägg.
+Högre tjänster
+Forskarutbildningens effektivitet och kapacitet är givetvis i hög grad avhängig 
+av universitetens och högskolornas tillgång på högre akademiska lä
+-
+12
+Motioner i Andra kammaren, nr 145 år 1965
+rartjänster. I statsverkspropositionen föreslås också inrättande av ett icke
+oväsentligt antal högre tjänster. Departementschefen har emellertid icke biträtt 
+kravet på inrättande av en preceptur i statskunskap vid Stockholms
+universitet. Statskunskap utgör, som universitetskanslersämbetet framhåller,
+ ett av de ämnen vari på grund av bristande personella resurser den högre 
+utbildningen och forskningen hotar att allvarligt försummas. Detta gäller
+i hög grad också förhållandena vid statsvetenskapliga institutionen vid
+Stockholms universitet där man f. n. har drygt 800 1—2-betygsstuderande,
+ca 30 3-betygsstuderande samt icke mindre än 80 aktiva licentiander och
+doktorander men alltså endast en professur. Effektiviteten i handledningen
+av det 80-tal som nu ägnar sig åt högre studier blir självfallet kraftigt lidande 
+på en sådan ordning. Till detta kan läggas, att det starkt växande behovet
+av personer med forskarutbildning inom samhällsvetenskaperna bl. a. inom
+skolväsendet, där f. n. — som ovan visats — endast ca 1 % av undervisningen 
+i samhällskunskap bestrides av lektorer, motiverar en kraftig satsning 
+på detta område.
+Med hänvisning till ovanstående föreslår vi att en preceptur i statskunskap 
+inrättas vid Stockholms universitet redan från 1965/66 samt med anledning 
+därav medel för 500 assistenttimmar för forskning och allmänt institutionsarbete 
+samt för en tjänst som biträde. Den sammanlagda kostnadsökningen 
+kan för nästa budgetår beräknas till ca 85 000 kronor.
+Med hänvisning till vad ovan anförts hemställer vi,
+I. att riksdagen måtte besluta,
+1. att anslaget till pedagogiskt utvecklingsarbete uppräknas 
+med 500 000 kr. utöver vad Kungl. Maj :t föreslagit och
+därför till pedagogiskt utvecklingsarbete för budgetåret
+1965/66 under åttonde huvudtiteln anvisa ett reservationsanslag 
+av 3 510 000 kr.,
+2. att anslaget till skrivhjälp åt lärare på grundskolans
+högstadium uppräknas med 200 000 kr. utöver vad Kungl.
+Maj :t föreslagit och därför till Grundskolor in. in.: Bidrag
+till driften au grundskolor in. in. för budgetåret 1965/66 anvisa 
+ett förslagsanslag av 1 430 200 000 kr.,
+3. att anslaget till skrivhjälp åt lärarna vid de statliga
+gymnasierna uppräknas med 200 000 kr. utöver vad Kungl.
+Maj :t föreslagit samt att anslaget till försöksverksamheten
+med sekreterare vid rektorsexpeditioner i Ag 17 samt ställföreträdande 
+rektor uppräknas med 526 000 kr. utöver vad
+Kungl. Maj :t föreslagit och därför till Statliga allmänna
+gymnasier in. in.: Avlöningar för budgetåret 1965/66 anvisa
+ett förslagsanslag av 244 871 000 kr.,
+4. att ytterligare en folkhögskola utöver departementschefens 
+förslag erhåller statsbidrag och att anslaget till bi
+-
+Motioner i Andra kammaren, nr 145 år 1965
+13
+drag till folkhögskolor därvid uppräknas med 151 000 kr.
+utöver vad Kungl. Maj :t föreslagit och därför till Bidrag till
+driften av folkhögskolor för budgetåret 1965/66 anvisa ett
+förslagsanslag av 36 851 000 kr.,
+5. att anslaget till tekniska hjälpmedel för universitet
+och högskolor uppräknas med 1 200 000 kr. utöver Kungl.
+Maj :ts förslag samt att anslaget till försöksverksamhet med
+subventionering vid utgivande av kursböcker för högre utbildning 
+i enlighet med universitetskanslersämbetets förslag
+uppräknas med 250 000 kr. utöver Kungl. Maj :ts förslag och
+därför till Tekniska hjälpmedel i utbildningen in. m. för
+budgetåret 1965/66 anvisa ett reservationsanslag av
+2 025 000 kr.,
+6. att anslaget till provisoriska åtgärder för forskarhandledning 
+uppräknas med 500 000 kr. utöver vad Kungl. Maj :t
+föreslagit och därför till Provisoriska åtgärder för forskarutbildning,
+ forskarhandledning m. m. för budgetåret 1965/
+66 anvisa ett anslag av 2 500 000 kr.,
+7. att särskilda utlandstillägg på högst 1 500 kr. per studerande 
+för bedrivande av vetenskapliga studier vid utländska 
+universitet skall utgå i enlighet med universitetskanslersämbetets 
+förslag och att anslaget till licentiand- och
+doktorandstipendier i enlighet därmed uppräknas med
+60 000 kr. utöver vad Kungl. Maj :t föreslagit och därför till
+Stipendier för främ jande av högre vetenskapliga studier för
+budgetåret 1965/66 anvisa ett reservationsanslag av
+8 246 000 kr.,
+8. att en tjänst som preceptor vid statsvetenskapliga institutionen 
+vid Stockholms universitet inrättas fr. o. m.
+budgetåret 1965/66 samt att medel anvisas för 500 assistenttimmar 
+och en tjänst som biträde och att anslaget till avlöningar 
+vid Stockholms universitet därvid uppräknas med
+84 000 kr. utöver Kungl. Maj :ts förslag och därför till Stockholms 
+universitet: Avlöningar för budgetåret 1965/66 anvisa 
+ett förslagsanslag av 28 806 000 kr.,
+9. att utöver Kungl. Maj:ts förslag inrättas ytterligare
+fem tjänster såsom konsulenter i reglerad befordringsgång
+för arbetsförmedlingens yrkesvägledningsverksamhet till eu
+beräknad merkostnad av 150 000 kr. och därför till Arbetsförmedlingen: 
+Avlöningar för budgetåret 1965/66 anvisa ett
+förslagsanslag av 66 900 000 kr.
+II. att riksdagen måtte i skrivelse till Kungl. Maj :t
+1. anhålla att skolöverstyrelsen ges i uppdrag att under
+14
+Motioner i Andra kammaren, nr 745 år 1965
+läsåret 1965/66 göra kartläggning av grundskolans läge i
+fråga om personal, lokaler, läroböcker och andra hjälpmedel,
+ angivande i vilken utsträckning brister föreligger, samt
+anhålla att Kungl. Maj :t i 1966 års statsverksproposition
+redovisar denna kartläggning och framlägger förslag för ett
+planmässigt tillgodoseende av föreliggande behov,
+2. anhålla om att Kungl. Maj :t på grundval av skolöverstyrelsens 
+förslag skyndsamt utarbetar förslag till grunder
+för statligt bidrag för pedagogisk skolbibliotekstjänstgöring
+i grundskolan samt att dessa förelägges 1965 års höstriksdag 
+för beslut,
+3. ge till känna vad i motionen anförts angående studieoch 
+yrkesvägledningen samt begära en skyndsam utredning
+angående studie- och yrkesvägledningens utformning, omfattning 
+och organisation,
+4. begära en utredning angående utbildning av för skolväsendets 
+hjälpmedelsinstitutioner lämplig personal,
+5. ge till känna vad i motionen anförts angående vikten
+av inrättande av yrkesinriktade utbildningslinjer vid de filosofiska 
+fakulteterna samt behovet av en översyn av universitetens 
+nuvarande betygssystem, samt
+6. begära att frågan om ett särskilt föredragande statsråd
+för vetenskaplig forskning och högre utbildning upptages
+till omedelbar behandling.
+Stockholm den 25 januari 1965
+Bertil Ohlin
+Sven Wedén
+Brita Elmén
+Daniel Wiklund
+Bertil von Friesen
+Cecilia Xettelbrandt
+Sven Antlnj
+Henning Gustafsson
+kammare
+kammare
+Andra kammaren
+EQ2O145
+2018-03-01 19:55:10
+riksdag
+riksdag
+tvåkammaren
+EQ2O145
+2018-03-01 19:55:10
+session
+session
+lagtima
+EQ2O145
+2018-03-01 19:55:10
+sidantal
+Antal sidor
+14
+EQ2O145
+2018-03-01 19:55:10
+EQ2O145
+Andra kammaren
+mot_1965__ak__145.pdf
+823927
+pdf
+Motioner i Andra kammaren, nr 145 år 1965
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1965/web_mot_1965__ak__145/mot_1965__ak__145.pdf

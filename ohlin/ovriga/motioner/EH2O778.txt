@@ -1,0 +1,448 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 7TS år 1956
+5
+Nr 778
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition, nr
+165, angående åtgärder i prisreglerande syfte på jordbrukets 
+område m. m.
+I anledning av Kungl. Maj:ts proposition nr 198 vid 1955 års riksdag
+beslutades om de principiella grunderna för prissättningen på jordbrukets
+produkter under en treårsperiod framåt. Det förutsattes därvid att Kungl.
+Maj:t skulle framlägga definitiva förslag beträffande prisavvägningen
+och övriga detaljer till innevarande års riksdag. Då detta förslag nu föreligger 
+i proposition nr 165 vill vi anföra följande:
+I motionerna I: 555 och II: 690 vid föregående års riksdag, uttalade vi
+vår tillfredsställelse med att de nya principiella grunderna innebar en utveckling 
+i den riktning vi från folkpartiets sida påyrkat både i tidigare
+motioner och i de riktlinjer, som framlades i andra kammaren den 19 maj
+1954. Även i fråga om den inbördes prisavvägningen på jordbrukets olika
+produkter innebar riksdagens i fjol vid tre olika tillfällen fattade beslut en
+justering till förmån för den animaliska produktionen, som vi hade anledning 
+att hälsa med tillfredsställelse. I detta senare avseende innebär
+Kungl. Maj :ts nu framlagda förslag att förra årets nyorientering upprätthålles 
+och i någon mån ytterligare förstärkes. I en tabell på sid. 76 i bil. 4
+till propositionen kan följande siffror hämtas, som visar dessa förskjutningar:
+-
+Index år
+1950/51 1952/53 1 sept. 1956
+Vegetabiliska produkter ...... 100,0 140,3 134,4
+Animaliska produkter ...... 100,0 118,5 136,3
+Detta återställande av en riktigare balans emellan priser på animaliska
+och vegetabiliska produkter innebär en obestridlig fördel för det stora
+flertalet jordbrukare, vilka för sin utkomst huvudsakligen är beroende av
+den animaliska produktionen. En relativt starkare prishöjning för vissa
+vegetabilieprodukter var så mycket mindre befogad som åtgången av
+mänsklig arbetskraft kunnat minskas mera i denna produktion än i animalieproduktionen.
+Även i ett annat avseende har vi anledning uttala vår tillfredsställelse
+med de nu framlagda förslagen. Under fyra år å rad har vi från folkpartiets 
+sida föreslagit att man skulle sänka priset på margarin. Vi har varit
+6
+Motioner i Andra kammaren, nr 778 år 1950
+medvetna om att man med hänsyn till mjölkproduktionens intressen här
+måste gå försiktigt fram. Inte i något fall har de av oss framlagda förslagen 
+inneburit att prisspänningen mellan smör och margarin skulle ha
+ökats med mer än 35 öre. Vi har samtidigt anvisat vägar att på olika
+sätt kompensera mjölkproducentema för de nackdelar som prissänkningen
+kunde innebära för dem. Ändå har våra förslag tidigare år efter år avvisats.
+ Nu har däremot en ändring kommit till stånd. Den sammanlagda verkan 
+av vad Kungl. Maj:t föreslagit under föregående höst samt i nu
+föreliggande proposition innebär, att man genom en höjning av smörpriset 
+först ökat spänningen med 75 öre och sedan sänkt priset på båda
+slagen av matfett med 50 öre. För att mildra övergången föreslås för det
+närmaste året att 33,33 milj. skall tagas i anspråk ur clearingkassan för
+fettråvaror. Även om slutresultatet i denna prisanpassning kunde ha nåtts
+på ett smidigare och med hänsyn till jordbrukets marknadsproblem fördelaktigare 
+sätt, vill vi dock uttala vår tillfredsställelse med att man
+accepterat folkpartiets krav på en sänkning av den hittills höga extrabeskattningen 
+på margarin, vilket är av betydelse särskilt för de mindre bemedlade 
+folkgrupperna.
+Enligt riksdagens förra hösten fattade beslut fanns det skäl utgå ifrån att
+jordbruksbefolkningens inkomstläge under redovisningsåret 1952/53 ej understeg 
+motsvarande folkgruppers realinkomst inom andra näringar. Denna
+slutsats grundades på en sammanvägning och bedömning av fem olika undersökningar,
+ som jordbruksprisutredningen gjort. En av de grundläggande
+uppgifter, som förelegat i samband med den nu föreslagna prissättningen,
+har varit att bedöma inkomstutvecklingen för den tid som förflutit sedan
+jordbruksprisutredningens undersökningar gjordes. Då det inte varit möjligt 
+att fullfölja samtliga de undersökningar varpå jordbruksprisutredningen 
+grundade sin bedömning, och då man inte heller i övrigt haft ett
+tillfredsställande material till sitt förfogande, nödgas man enligt vår mening 
+konstatera att någon tillförlitlig inkomstjämförelse mellan jordbrukarna 
+och övriga folkgrupper icke kunnat göras. Så mycket viktigare är
+det, vilket departementschefen också framhåller, att man i fortsättningen
+söker få fram ett mera tillförlitligt material på detta område. Om detta
+inte lyckas saknas den grundläggande förutsättningen för en jordbrukspolitik 
+av det slag, som nu bedrives. Med de reservationer som ligger i
+ovan förda resonemang accepterar vi i huvudsak jordbruksministerns förslag 
+till prisavvägning för den treårsperiod, som nu ligger framför.
+I prop. 1955: 198 specificerades bl. a. de förhållanden, som fick föranleda 
+ändringar i importavgifterna och prisgränsema under den löpande
+prissättningsperioden. Sålunda kunde importavgifterna ändras eller kvantitativa 
+utrikeshandelsregleringar införas under en löpande prissättnings
+-
+Motioner i Andra kammaren, nr 77S år 1056
+7
+period, om det inhemska priset för en produkt passerade någon av prisgränsema.
+ Vidare angavs en regel för korrigering för ändringar i penningvärdet 
+(5-procentregeln) samt en regel mot att inlandspriserna mera
+långvarigt tenderar att genomsnittligt ligga vid nivå, som skiljer sig
+väsentligt från den genomsnittliga mittprisnivån, utan att därför priserna
+på de enskilda varorna ligger utanför prisgränserna (6-procentregeln).
+Vidare angavs, att en särskild översyn kunde bli nödvändig vid mera betydande 
+förändringar i växelkurserna. I övrigt skulle importen vara fri
+så länge det inhemska priset på en produkt låg mellan prisgränserna och
+under dessa förhållanden fick ej heller några ändringar vidtagas i importavgifterna.
+Vid propositionens behandling i riksdagen framfördes i motionerna I:
+558 och II: 688, att det fanns anledning att särskilt fästa uppmärksamheten 
+på de risker, som den inhemska prisbildningen kunde utsättas för
+genom import av dumpingkaraktär. Ett överskottsland angavs kunna av
+olika skäl vara angeläget att avyttra vissa kvantiteter och försälja dem
+till lägre pris än som annars gällde vid internationella affärer. Med de
+risker för spekulationsimport, som enligt motionärerna syntes förefinnas
+vid det föreslagna prissättningssystemet, ansågs av dem de i propositionen 
+föreslagna möjligheterna till kvantitativ importbegränsning icke vara
+tillfredsställande. De föreslog därför, att kvantitativ begränsning av importen 
+skulle kunna företagas redan då risker kunde bedömas föreligga
+för att genom en alltför omfattande import den nedre prisgränsen skulle
+komma att underskridas.
+Riksdagen avvisade med bestämdhet motionärernas förslag. I jordbruksutskottets 
+godkända utlåtande heter det å sid. 33:
+Mellan prisgränserna bör import, såsom departementschefen förslagit,
+efter erläggande av fastställd importavgift få verkställas av vem som
+helst. Utskottet vill i detta sammanhang avstyrka vad som i motionerna
+I: 558 och II: 688 yrkats om möjligheterna att i vissa fall tillgripa kvantitativa 
+handelsregleringar redan innan den nedre prisgränsen har underskridits.
+ Därvid får utskottet i första hand hänvisa till de olika spärregler,
+ som systemet har omgetts med. Vidare må framhållas, att den i motionerna 
+föreslagna anordningen enligt utskottets mening icke står i överensstämmelse 
+med systemets allmänna utformning. Införes möjlighet att tillgripa 
+kvantitativa utrikeshandelsregleringar redan när det inhemska priset 
+ligger inom prisgränserna, kan krav på införandet av sådana regleringar 
+komma att uppställas när som helst, varigenom ett av de främsta
+syftena med systemet — en närmare anknytning mellan prisutvecklingen
+på de inländska och de internationella marknaderna — skulle gå förlorat.
+I likhet med departementschefen vill utskottet därför förorda, att
+importmonopol och övriga kvantitativa utrikeshandelsbegränsningar, som
+för närvarande finns på jordbruksområdet, icke skall tillämpas, så länge
+priset på en vara ligger inom prisgränserna.
+8
+Motioner i Andra kammaren, nr 77S år 1950
+I proposition 1956: 165 föreslår jordbruksministern, att Kungl. Maj:t
+skulle kunna vidtaga åtgärder mot vissa former av dumpingexport innan
+en sådan export har medfört nedpressning av det inländska priset till den
+nedre prisgränsen. Departementschefen medger, att detta innebär ett avsteg 
+från principen att ingrepp i prisbildningen icke skall vidtagas så
+länge det inländska priset ligger mellan prisgränserna och ingen av de
+särskilda spärrreglerna har trätt i funktion. Enligt hans nu tillkännagivna 
+uppfattning skulle det icke vara oförenligt med det nya systemet
+att möjlighet lämnas Kungl. Maj:t att ingripa mot ifrågavarande dumping.
+ Departementschefen föreslår sålunda, att det bl. a. skall åligga jordbruksnämnden 
+att, därest dumping konstateras föreligga, pröva dennas
+beskaffenhet, omfattning och sannolika verkan samt efter samråd med
+generaltullstyrelsen och kommerskollegium, i den mån så finnes påkallat,
+till Kungl. Maj:t inkomma med förslag till lämpliga motåtgärder. Det
+skulle därefter ankomma på Kungl. Maj:t att från fall till fall avgöra,
+huruvida några åtgärder bör vidtagas.
+Såsom framgar av vad ovan relaterats innebär Kungl. Maj :ts förslag i
+denna del en ändring av vad riksdagen förra hösten beslutade. Ändringsförslagen 
+synes inte ha varit föremål för något remissförfarande. Enligt
+vår mening bör antidumpingtullar eller avgifter mot import av jordbruksprodukter 
+från visst land få tillgripas under samma förutsättningar som
+gäller för det svenska näringslivet i övrigt. Kvantitativa regleringar av
+importen av en jordbruksprodukt bör, såsom riksdagen i sitt beslut förra
+hösten starkt underströk, icke få tillgripas så länge dess pris icke underskrider 
+den nedre prisgränsen.
+Enligt den nya ordningen för prissättningen skulle den s. k. 4-procentregeln 
+icke tillämpas. Meningen har varit att jordbrukarnas ekonomiska
+svårigheter i samband med felslagen skörd skulle utjämnas genom en skördeskadeförsäkring.
+ Då en dylik icke beräknas kunna komma till stånd
+under nästa regleringsår, föreslår Kungl. Maj:t att 4-procentregeln skall
+äga tillämpning om skörden innevarande år skulle slå fel. Enligt den träffade 
+överenskommelsen skall jordbrukarna kompenseras genom prishöjning 
+utöver mittpriserna. Därest detta inte skulle vara möjligt bör Kungl.
+Maj:t äga fullmakt att lämna kontant ersättning för felande belopp upp
+till 50 milj. kronor. Därest större belopp kräves skall överenskommelsen
+underställas riksdagen. Enligt riksdagens beslut föregående år ansåg man
+det vara självfallet att därest en katastrofartad utveckling skulle drabba
+jordbruket, bl. a. på grund av missväxt, särskilda stödåtgärder borde
+övervägas. Erfarenheterna från 1955 års dåliga skörd visar emellertid, att
+en generell höjning av priserna inte är någon tillfredsställande metod att
+kompensera jordbruket. Särskilt om skördeutfallet skulle bli mycket
+Motioner i Andra kammaren, nr 778 år 1956
+9
+ojämnt kan en dylik åtgärd leda till att de som fått en god skörd ytterligare 
+gynnas samtidigt som de av missväxten drabbade ytterligare belastas.
+ Så blir lätt fallet om foderprisema får stiga. Riksdagen bör därför
+enligt vår mening inte nu binda sig för den form en eventuell kompensation 
+enligt 4-procentregeln bör få. Av synnerlig vikt är däremot att Kungl.
+Maj:t i god tid på sommaren klargör omfattningen av en eventuell missväxt 
+i olika delar av landet, så att en i möjligaste mån rättvis kompensation 
+kan lämnas.
+För vete föreslås samma pris som för innevarande år, vilket är 1 krona
+mera än vad jordbruksprisutredningen föreslagit. Både med hänsyn till
+den internationella prisutvecklingen och utvecklingstendensen beträffande 
+den svenska vetearealen kan man känna sig tveksam om denna prishöjning 
+är välbetänkt. Under förutsättning att den icke får ge anledning
+till en höjning av importavgifterna på foderspannmål vill vi emellertid
+inte motsätta oss densamma. I fråga om förmalningsavgiften fasthåller vi
+vid vår tidigare uppfattning att den bör slopas för jordbrukarnas löneförmalning 
+vid bygdekvarnama. Utvecklingen på svensk landsbygd talar för
+varje dag ett allt tydligare språk om att man inte bör lägga hinder i vägen 
+för de småföretag, det här gäller, att fortsätta sin verksamhet.
+Från folkpartiets sida har upprepade gånger framhållits, att foderpriserna 
+under senare år legat på en relativt sett alltför hög nivå. Erfarenheten 
+under de gångna åren visar, att prisstöd och exportpremier på brödsäd 
+och oljeväxter har en stark återverkan även på fodersädens prisläge.
+Vi motsatte oss därför förra hösten riksdagens beslut om att exportpremier 
+även på fodersäd skulle få tillgripas i vissa lägen. I bilaga nummer 3
+sid. 32—33 till propositionen lämnas exempel på hur välgrundad denna
+uppfattning är. År 1953 hade vårt land en ovanligt stor skörd av fodersäd.
+Den uppgick till 2 129 750 ton. Ingångspriset på fodersäd var under hösten
+mycket lågt. Tillgångarna realiserades emellertid bl. a. genom export så
+snabbt att man redan i februari—mars påföljande år hade brist på foder.
+Även om riksdagen föregående höst inte gick med på vårt förslag att utmönstra 
+exportpremierna för fodersäd, framhölls dock, att man icke genom 
+importavgifter borde fördyra fodermedlen mera än som kunde anses
+nödvändigt för att bereda fodersädesodlingen ett skäligt skydd. Kungl.
+Maj:t har nu föreslagit en importavgift på korn, havre, sorghum, kli,
+sockersnitsel och betfor m. rn. av 5 kronor pr dt. Denna importavgift, som
+ligger 1 krona högre än jordbruksprisutredningen föreslagit, kan enligt
+vår mening inte sakligt försvaras.
+Enligt 1955 års riksdagsbeslut skulle vid den konkreta utformningen av
+det nya prissättningssystemet importavgifterna fastställas så, att vid de
+importpriser, som bedömes såsom mest sannolika vid rådande marknads
+-
+10
+Motioner i Andra kammaren, nr 778 år 195d
+läge, mittprisnivån mellan prisgränserna i stort sett kunde uppnås. I konsekvens 
+härmed bör importavgiften för fodersäd avvägas så, att man i
+utgångsläget uppnår de angivna mittpriserna. Vid fastställandet av importavgifterna 
+bör sålunda det internationella prisläget för fodersäd tillmätas 
+den avgörande betydelsen. Vid det aktuella marknadsläget synes emellertid 
+den nu föreslagna importavgiften medföra, att priserna på fodersäd
+i utgångsläget ingalunda kommer att ligga vid mittprisnivån utan snarare
+kommer att tangera eller överskrida den övre prisgränsen. Det kan nämnas,
+ att under innevarande regleringsår ingen införselavgift bar uttagits
+vid import av fodersäd, och dessutom har tullfrihet tillämpats för kom
+ävensom för till foder avsedd brödsäd, som denaturerats vid införsel. Vidare 
+har genom uttagande av utförselavgifter exporten av fodermedel
+från Sverige i stort sett helt förhindrats. Ändå har priserna på inhemsk
+fodersäd varit synnerligen höga, vilket i väsentlig män har sammanhängt
+med det internationella prisläget. Både de gångna årens erfarenheter, det
+internationella prisläget och hänsyn till olika jordbrukskategoriers intressen 
+synes oss därför tala för att importavgifterna på foder sättes lägre
+än Kungl. Maj:t föreslagit. Vi förordar därför en avgift av 4 kronor för
+korn samt 3 kronor för havre, kli, sockersnitsel och betfor samt övriga
+med dessa produkter likvärdiga varor.
+Enligt tidigare anförda indexsiffror kommer, om 1950/51 års priser sättes 
+lika med 100, prisindex för vegetabiliska produkter den 1 september i
+år att bli 134,4 och för animaliska produkter 136,3. Om man jämför det
+föreslagna äggpriset, 3 kronor 20 öre, med 1950/51 års pris 2 kronor 72
+öre, finner man att prishöjningen på ägg understiger 18 % medan den för
+animaliska produkter i övrigt motsvarar drygt 36 O. Äggpriset har alltså
+på ett markerat sätt blivit efter i utvecklingen. Om härtill lägges att äggproduktionen 
+för flertalet producenter kräver betydande mängder inköpt
+foder, samt att de äggviterika höstfoderblandningarna sedan våren 1951
+stigit med bortåt 50 r/c, måste slutsatsen bli att äggproducenternas ersättning 
+för det egna arbetet icke motsvarar utvecklingen inom andra
+produktionsgrenar. Det finns därför enligt vår mening starka skäl för att
+söka nå en bättre relation emellan produktionskostnader och produktpris
+för fjäderfäskötseln. Detta så mycket mera som denna produktionsgren
+till övervägande del är förlagd till småbruket och då i främsta rummet till
+sådana småbruk, vars brukare inte har tillgång till arbete utanför den
+egna fastigheten. Något kan vinnas genom den sänkning av fodermedelsavgifterna 
+som ovan föreslagits. Av större betydelse är emellertid att det
+finns tillräckliga regleringsmedel till förfogande för äggexporten. När vi
+tidigare föreslagit att vissa medel borde anslås härför utöver importavgifter 
+å det foder, som förbrukas för äggproduktionen, har man hänvisat
+Motioner i Andra kammaren, nr 778 år 1950
+11
+till principen att de olika produktionsgrenarna inte bör subventionera varandra.
+ Denna princip som i och för sig är tämligen artificiell har i andra
+sammanhang på många sätt genombrutits. Särskilt har clearingkassan för
+fettråvaror enligt Kungl. Maj:ts nu framlagda förslag utnyttjats i olika
+riktningar. Sålunda får oljeväxtodlingens konjunkturutjämningsfond 10
+miljoner kronor, 5 miljoner överföres från samma källa till regleringsfonden 
+för socker och 33,33 miljoner ställes till Svenska mejeriernas riksförenings 
+förfogande som kompensation för en uppskjuten prishöjning på
+mjölk. Vidare skall 15 miljoner lämnas som räntefritt lån till regleringsfonden 
+för socker varjämte medel ställes till förfogande som förskott för
+inlösen av spånads- och oljelinfrö. När man sålunda utnyttjar dessa clearingmedel 
+för att giva ett flertal produktionsgrenar bästa möjliga utgångsläge 
+vid det nya systemets ikraftträdande, kan inga principiella invändningar 
+resas mot att vissa medel också ställs till Sveriges export- och
+importförenings för ägg förfogande för reglering av äggpriset. Då en dylik
+åtgärd såsom tidigare påvisats är från saklig synpunkt i hög grad berättigad,
+ får vi föreslå att 5 miljoner kronor ur clearingkassan för fettråvaror 
+under vart och ett av de närmaste tre åren får användas som regleringsmedel 
+för äggexporten.
+De i prop. nr 165 framlagda förslagen till importavgifter innebär, att
+dessa i genomsnitt kommer att uppgå till cirka 32 procent. Avvikelse härifrån 
+föreligger framför allt för den magra torrmjölkens vidkommande;
+importavgiften kan här anses uppgå till 71 ä 75 procent. Någon närmare
+motivering för detta förslag har statsrådet inte anfört. Då det i hög grad
+avviker från riksdagens i höstas fattade principbeslut om importskyddets
+allmänna höjd, anser vi erforderligt framhålla, att skydd av denna höjd
+inte bör användas för att möjliggöra en extraordinär fördyring av viktiga
+livsmedel, vid vilkas tillverkning numera torrmjölk ingår eller kan ingå.
+Det framstår som ett viktigt intresse inte minst för jordbruket på lång
+sikt att användningsområdet för mjölkäggvita utvidgas.
+I prop. 1955: 198 anförde departementschefen, att han icke var beredd
+att ta slutlig ställning till frågan huruvida den tekniska industrien skulle
+erhålla restitution för erlagda importavgifter. Han ansåg, att hithörande
+spörsmål behövde närmare övervägas, och att i samband därmed en justering 
+i fettregleringssystemet eventuellt kunde aktualiseras. Det skulle enligt 
+jordbruksministerns förslag, som också godkändes av riksdagen, ankomma 
+på statens jordbruksnämnd att undersöka dessa frågor och till
+Kungl. Maj :t inkomma med de förslag, vartill undersökningen kunde föranleda.
+I en reservation till jordbruksutskottets utlåtande hemställde folkpartiets 
+representanter i utskottet, att möjligheterna till förenkling av fett
+-
+12
+Motioner i Andra kammaren, nr 778 år 1950
+regleringssystemet skulle undersökas av en i vanlig ordning av Kungl.
+Maj:t tillsatt utredning. Detta skulle utgöra en bättre väg än propositionens 
+förslag, att det skulle ankomma på den berörda regleringsmyndigheten 
+att själv undersöka dessa spörsmål.
+Såsom angetts i prop. 1956: 165, har jordbruksnämnden nu visserligen
+föreslagit, att restitution för importavgiften skall lämnas den tekniska
+industrien, men i övrigt har översynen icke lett till någon förenkling av
+fettregleringssystemet. Sålunda kvarstår bl. a. bestämmelserna om inblandningstvång.
+ Svårigheterna att upprätthålla detta inblandningstvång
+har nu belysts genom jordbruksnämndens förslag, att föreskrift skulle utfärdas 
+om att kommersiell import av margarin och liknande matfett icke
+skulle få ske med mindre än att varan innehöll samma myckenhet vegetabilisk 
+olja, framvunnen av svenskt oljeväxtfrö, som i Sverige tillverkat
+margarin. Departementschefen har visserligen icke godkänt denna ytterligare 
+utväxt på fettregleringssystemet, men har i stället ansett sig nödsakad 
+att kompensera margarinindustrien för inblandningstvånget genom
+en höjning av importavgiften på margarin från 9 till 25 öre/kg.
+Det skulle, som vi tidigare framhållit, för landet vara ekonomiskt fördelaktigare 
+att importera mer valolja och exportera mer rapsolja än
+com nu äger rum. För att använda så mycket rapsolja, som nuvarande inblandningstvång 
+medför och som enligt propositionen skall ske i oförändrad 
+omfattning, tvingas man att härda rapsolja, en åtgärd som är oekonomisk 
+och icke är bruklig i utlandet.
+Genom inblandningstvånget tvingas fabrikanterna av främst margarin,
+men även annat matfett, att framställa dessa varor i ”enhetlig” kvalitet.
+I andra länder finns hushållsmargarin av skiftande kvaliteter och till
+olika priser. Utvecklingen står på detta område lika litet som på andra
+stilla. Svenska konsumenter betagas genom inblandningstvånget de möjligheter 
+att välja, som finns i andra länder.
+Tvångsinblandningen av viss mängd rapsolja vid tillverkningen av margarin 
+i större mängd än som är tekniskt och ekonomiskt berättigat kan
+möjligen åsyfta att ge de svenska oljeväxtodlarna ett något högre pris för
+sina produkter än som eljest vore möjligt att uppnå. Deras intresse kan
+emellertid tillgodoses på ett för folkhushållet bättre och billigare sätt. Importavgift 
+av olja föreslås enligt propositionen utgå med 30 öre pr kg,
+motsvarande 13,5 öre per kg frö eller 22 % av importvärdet. Evad det gäller 
+odlarna, vore det mera tilltalande att lämna kompensation för de begränsade 
+fördelarna av inblandningstvångets avskaffande genom eu med
+något öre höjd importavgift å vegetabilisk olja. Å andra sidan bortfaller —
+om inblandningstvånget avskaffas — motivet för en höjning av importavgiften 
+å margarin till 25 öre pr kg utöver avgiften å däri ingående olja.
+Motioner i Andra kammaren, nr 778 år 1956
+13
+Importavgiften å margarin bör då utgå med 7 öre per kg, vilket är det
+tidigare beräknade ”manufaktureringsskyddet”. Genom en sådan ordning
+skulle vårt land göra en nationalekonomisk vinst och vår valutatillgång
+ökas eftersom en export av viss mängd rapsolja kan väntas inbringa flera
+milj. kr. mer i valuta än importen av motsvarande mängd valolja kostar.
+Det ligger i sakens natur att svensk rapsolja under alla omständigheter
+skulle i betydande, ehuru i något minskad utsträckning användas som råvara 
+i den svenska margarinindustrien. Vad storleken av den för tillvaratagande 
+av oljeväxtproducenternas intresse erforderliga mindre höjningen
+av importavgiften beträffar, synes det böra ankomma på utskottet att
+härvidlag efter rådfrågande av expertis föreslå en bestämd siffra.
+Då starka skäl kan andragas för att hela fettregleringen underkastas en
+grundlig översyn av en allsidigt sammansatt utredning, vill vi förorda att
+riksdagen hemställer om en sådan.
+Med hänvisning till vad ovan anförts får vi hemställa,
+att riksdagen vid behandlingen av Kungl. Maj:ts prop.
+nr 165 måtte beakta de förslag och synpunkter, som framförts 
+i denna motion.
+Stockholm den 8 maj 1956
+Wald. Svensson
+Bertil Ohlin
+O. Malmborg
+Skövde
+Sven Gustafson
+i Göteborg
+kammare
+kammare
+Andra kammaren
+EH2O778
+2018-03-02 10:13:26
+riksdag
+riksdag
+tvåkammaren
+EH2O778
+2018-03-02 10:13:26
+session
+session
+lagtima
+EH2O778
+2018-03-02 10:13:26
+sidantal
+Antal sidor
+9
+EH2O778
+2018-03-02 10:13:26
+EH2O778
+Andra kammaren
+mot_1956__ak__778.pdf
+540934
+pdf
+Motioner i Andra kammaren, nr 7TS år 1956
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__778/mot_1956__ak__778.pdf

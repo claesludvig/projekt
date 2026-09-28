@@ -1,0 +1,118 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr i 85 år 1955
+Nr 185
+Av herr Ohlin m. fl., i anledning av vissa av Kungl. Maj. t gjorda
+framställningar om anslag för vägåndamål.
+Med hänvisning till den motivering, som anförts i motionen nr 184 i
+denna kammare, får vi föreslå,
+att riksdagen med ändring av vad Kungl. Maj :t hemställt
+i statsverkspropositionen, sjätte huvudtiteln, under punkten 
+11 måtte
+1. bemyndiga Kungl. Maj:t att låta under kalenderåret
+1955 verkställa vägbyggnad för
+a) Byggande av riksvägar intill ett belopp 
+av ........................ Kr. 115 000 000
+b) Byggande av länsvägar intill ett belopp 
+av ........................ » 215 000 000
+c) Byggande av ödebygdsvägar intill
+ett belopp av.................... » 12 000 000
+d) Byggande av storbroar intill ett belopp 
+av ........................ » 13 000 000
+2. för budgetåret 1955/56 anvisa följande reservationsanslag 
+att avräknas mot automobilskattemedlen, nämligen 
+till
+a) Byggande av riksvägar .
+b) Byggande av länsvägar
+c) Byggande av ödebygdsvägar
+d) Byggande av storbroar
+Stockholm den 26 januari 1955
+Kr.
+57 500 000
+107 500 000
+6 000 000
+6 500 000
+Wald. Svensson
+Manne Ståhl
+Bertil Ohlin
+Bertil v. Friesen Filip Kristensson
+Osby
+Per A. Johnsson Ragnhild Sandström
+i Kastanjegården
+kammare
+kammare
+Andra kammaren
+EG2O185
+2018-03-02 09:31:01
+riksdag
+riksdag
+tvåkammaren
+EG2O185
+2018-03-02 09:31:01
+session
+session
+lagtima
+EG2O185
+2018-03-02 09:31:01
+sidantal
+Antal sidor
+1
+EG2O185
+2018-03-02 09:31:01
+EG2O185
+Andra kammaren
+mot_1955__ak__185.pdf
+121769
+pdf
+Motioner i Andra kammaren, nr i 85 år 1955
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1955/web_mot_1955__ak__185/mot_1955__ak__185.pdf

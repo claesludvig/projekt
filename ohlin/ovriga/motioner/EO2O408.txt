@@ -1,0 +1,107 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 408 år 1963
+31
+Nr 408
+Av herr Ohlin m. fl., angående anslaget till Allmänna barnbidrag.
+(Lika lydande med motion nr 350 i Första kammaren)
+1 de denna dag väckta likalydande motionerna 1: 347 och II: 405 har vi
+som ett led i en förstärkning av familjepolitiken föreslagit en höjning av
+den form av skatterabatt som de allmänna barnbidragen utgör med 100
+kronor per barn från och med 1 januari 1964, så att det då utgår med 650
+kronor per barn. Vid bifall härtill bör anslaget till allmänna barnbidrag
+under femte huvudtiteln uppräknas med 86 milj. kronor för nästa budgetår.
+Vi föreslår alltså,
+att riksdagen till Allmänna barnbidrag för budgetåret
+1963/64 anvisar ett förslagsanslag av 1 033 milj. kronor.
+Stockholm den 25 januari 1963
+Gustaf Kollberg
+Henning Gustafsson
+Gunnar Helén
+Wald. Svensson
+Bertil Ohlin
+O. Malmborg
+Brita Elmén
+i Skellefteå
+Bertil von Friesen
+Manne Ståhl
+Sven Gustafson
+i Göteborg
+Stockholm 1963. Isaac Marcus Boktryckeri Aktiebolag 030178
+kammare
+kammare
+Andra kammaren
+EO2O408
+2018-03-01 21:04:33
+riksdag
+riksdag
+tvåkammaren
+EO2O408
+2018-03-01 21:04:33
+session
+session
+lagtima
+EO2O408
+2018-03-01 21:04:33
+sidantal
+Antal sidor
+1
+EO2O408
+2018-03-01 21:04:33
+EO2O408
+Andra kammaren
+mot_1963__ak__408.pdf
+114569
+pdf
+Motioner i Andra kammaren, nr 408 år 1963
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1963/web_mot_1963__ak__408/mot_1963__ak__408.pdf

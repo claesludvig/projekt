@@ -1,0 +1,369 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 715 år 1956
+3
+Nr 715
+Av herr Ohlin in. fl., i anledning av Kungl. Maj.ts proposition,
+nr 97, angående inrättande av en statens pris- och kartellnämnd,
+ m. ni.
+I Kungl. Maj:ts proposition nr 97 har i anledning av det betänkande, som
+1954 års priskontrollutredning avgivit, framlagts förslag angående inrättande 
+av en statens pris- och kartellnämnd in. in.
+Den föreliggande propositionen behandlar de organisatoriska åtgärder,
+som har samband med i särskilda propositioner upptagna förslag om ny
+prisregleringslagstiftning och om ändringar i lagstiftningen rörande konkurrensbegränsningar 
+in. m.
+I propositionen nr 97 föreslås inrättande av en statens pris- och kartellnämnd 
+med uppgift att följa prisutvecklingen inom näringslivet, registrera
+konkurrensbegriinsande överenskommelser, utföra särskilda undersökningar 
+rörande pris- och konkurrensförhållanden samt bedriva konsumentupplysning 
+i prisfrågor. Därjämte förordas, att pris- och kartellnämnden får
+fungera som nytt priskontrollorgan, om behov av ett sådant skulle uppkomma.
+I fråga om de arbetsuppgifter, som skulle ankomma på det nyinrättade
+organet, synes Kungl. Maj:ts förslag på vissa punkter mera långtgående än
+det förslag som avgivits av priskontrollutredningen.
+Priskontrollutredningen hade sålunda ansett det angeläget understryka,
+att det nya organet borde vara ett rent utredande organ. Ett flertal remissinstanser,
+ bland andra kommerskollegium, har också särskilt betonat, att
+det bör vara av grundläggande betydelse för det nya organets verksamhet,
+att arbetsuppgifterna begränsas till enbart utredningar. Verkställighetsorganen 
+skulle som hittills vara näringsfrihetsombudsmannen och näringsfrihetsrådet.
+ Kungl. Maj:t, som uttalar alt det i princip är fråga om att
+skapa rent utredande organ, har emellertid i anledning av ett uttalande
+av priskont roll nämnden uttalat »att det självfallet bör vara den blivande
+myndigheten obetaget alt hos andra myndigheter eller Kungl. Maj:t göra
+de framställningar, innefattande meningsyttringar eller förslag till åtgärder,
+ som dess ledning finner av omständigheterna påkallade».
+Vi delar den uppfattning som ligger till grund för priskontrollutredningens 
+förslag och som även bl. a. kommerskollegium företräder. 1 enlighet
+4
+Motioner i Andra kammaren, nr 715 dr 1956
+härmed yrkar vi, alt det organ som i fortsättningen skall handlägga verksamheten 
+på ifrågavarande område skall ges enbart utredande karaktär.
+Priskontrollutredningen hade vidare föreslagit en allmän och fortlöpande
+prisregislrering såsom grundval för verksamheten till undanröjande av
+konkurrensbegränsningar och för konsumentupplysning i prisfrågor. Vad
+först upplysningen beträffar skulle den vara klargörande men inte bedömande.
+ I fråga om den konsumentupplysning, som skall bedrivas av det
+nya organet, har i propositionen ingen precisering gjorts. Men såsom exempel 
+på förhållanden, varom upplysning borde lämnas allmänheten, har i
+propositionen anförts bland annat »skäligheten av prismarginalerna inom
+olika distributionsled», något som icke förutsatts av utredningen. Angivandet 
+av skäligheten hos ett pris eller en prismarginal måste grundas på en
+subjektiv bedömning och kan icke ges sken av att utgöra en objektiv upplysning.
+ Det må också i detta sammanhang betonas att, såsom även priskontrollutredningen 
+anfört, det icke är möjligt för en myndighet att konstruera 
+ett system av »skäliga» priser. De olikheter, som föreligger mellan
+å ena sidan Kungl. Maj:ts och å andra sidan utredningens förslag, synes
+vittna om en viss skiljaktig grundinställning till själva huvudproblemet på
+förevarande område, i det enligt utredningens mening skälighetsbedömningen 
+begränsas till fall av konkurrensbegränsning. Vi ansluter oss till
+priskontrollutredningens eniga ståndpunkt rörande upplysningens funktion.
+Vi vill också framhålla betydelsen av alt prisregistreringen inte ordnas
+så att den pålägger företagen tunga bördor genom uppgiftslämnande av
+stor omfattning. Att exempelvis infordra ett omfattande prismaterial från
+detaljhandelns mindre enheter synes oss onödigt. Med hänsyn till de faktiska 
+konkurrensförhållandena synes nämligen en sådan uppgiftslämning
+icke erforderlig för den åsyftade belysningen av marknadsförhållandena.
+Detta utesluter givetvis inte att uppgifter även från detta håll i speciella
+fall kan behöva inhämtas.
+Vi vill betona att prisövervakningen självklart inte får ta formen av en
+total prisregistrering, omfattande praktiskt taget alla priser. En sådan
+skulle ju f. ö. bli praktiskt fullkomligt ohanterlig.
+Vid handhavande av prisövervakningen och den därpå grundade konsumentupplysningen 
+är det av stor vikt att myndigheterna beaktar risken
+av att densamma kan avtrubba i stället för stärka allmänhetens prismedvetande.
+ Erfarenheten bär visat, att priskontroll kan ha en konkurrenshämmande 
+verkan. Den har nämligen en ogynnsam psykologisk effekt
+så till vida att konsumenterna bibringas den uppfattningen att alla priser
+är tillfredsställande. Prisövervakning är visserligen en annan sak än priskontroll,
+ men den skulle kunna i viss mån få liknande verkningar på prismedvetandet,
+ om inte dess utformning sker med beaktande av denna risk.
+I detta sammanhang erinras om den verksamhet som bedrives av Hemmens 
+forskningsinstitut och det av Kungl. Maj:t föreslagna institutet för
+Motioner i Andra kammaren, nr 715 dr 1956
+5
+konsumentfrågor i avsikt att bibringa konsumenterna varukännedom. Departementschefen 
+har härutinnan uttalat, att dessa organ knappast kan
+förutsättas besitta eller komma att utrustas med den för en konsumentupplysning 
+i prisfrågor erforderliga ekonomiska och statistiska expertisen.
+Häremot vill vi framhålla, att det kan vara skäl att det eller de organ
+som sysslar med sådan upplysning förses med erforderlig expertis, så att
+denna konsumentupplysning kan grundas på den varukännedom som erfordras 
+för en riktig prisbedömning i konkreta fall.
+Grundtanken i priskontrollutredningens förslag har angivits vara, att
+man under normala förhållanden, när full varuförsörjning råder, bör
+bygga på principen om fri konkurrens som prisregulator. Till denna grundtanke 
+vill vi uttala vår anslutning. Vi finner det vara ett samhälleligt intresse 
+att ingripanden kan ske mot företeelser som liar konkurrensbegränsande 
+karaktär i fall där ur allmän synpunkt skadliga verkningar kan
+påvisas. Utredningar och analyser i syfte att vinna klarhet härom måste
+anses befogade. Prisövervakningen har främst till uppgift att underlätta
+en bedömning av frågan när utredningar, som syftar till att klargöra huruvida 
+fri konkurrens råder eller icke, skall igångsättas.
+I enlighet med ovan framförda grundtanke om konkurrensens avgörande
+betydelse kommer vi att tillstyrka förebådade förslag som går ut på ökade
+möjligheter till utredningar rörande förekomsten av alla slag av konkurrensbegränsningar 
+och undanröjande av sådana begränsningar, som visar sig
+ha skadlig verkan.
+Den omständigheten, att en del företag, som icke har stöd av någon
+konkurrensbegränsning, har god räntabilitet och gör betydande vinster är
+däremot icke anledning till ingripande. Goda vinster — t. ex. för särskilt
+väl ledda företag och för företag som för fram nya varor — underlättar
+deras utveckling till gagn både för konsumenter, anställda och hela samhället.
+ Offentliga ingrepp som håller tillbaka dynamiken i den ekonomiska
+utvecklingen skadar alla parter.
+Vi accepterar att, såsom priskontrollutredningen föreslagit, Kungl. Maj:t
+skall efter framställning av näringsfrihetsrådet kunna föreskriva högstpriser 
+vid konstaterad skadlig verkan av konkurrensbegränsning.
+Propositionen förutsätter bibehållandet av priskontrollnämndens nuvarande 
+»fältorganisation» som består av särskilda priskontor vid länsstyrelserna 
+med sammanlagt ett 30-tal tjänstemän till eu kostnad överstigande
+en halv miljon kronor. I remissyttranden har ifrågasatts om icke insamlingen 
+av erforderliga prisuppgifter kunde ske dels genom utredningsorganet 
+självt från företagarna och dels, såsom flera remissmyndigheter
+framhållit, genom statistiska centralbyrån. Delta spörsmål synes oss förtjäna 
+närmare övervägande i kostnadsbesparande syfte.
+1 propositionen har även upptagits frågan om organisationen för det fall
+alt den allmänna prisregleringslagen skall träda i tillämpning. Härutinnan
+6
+Motioner i Andra kammaren, nr 7tö dr li)56
+har departementschefen anslutit sig till priskontrollnämndens uppfattning
+att det nya organet, pris- och kartellnämnden, skall fungera som nytt pi''iskontrollorgan 
+om behov av ett sådant skulle uppkomma. Enligt vår mening
+saknas anledning att nu träffa ett dylikt avgörande, vilket skulle kunna
+på ett icke önskvärt sätt påverka tänkesätt och arbetsinriktning hos det
+nya organet. Delta bleve ett slags beredskapsorgan för en priskontrollerande 
+verksamhet i händelse av krig in. m. av helt annan art än organets
+egentliga arbetsuppgift. Vi påyrkar i stället att frågan om organisationen
+av en eventuell framtida priskonlroll göres till föremål för särskild utredning.
+Arten av den verksamhet, som vi för vår del förutsätter, sammanfaller
+med den som hittills, ehuru i mindre omfattning, bedrivits inom kommerskollegium.
+ Vi anser därför naturligt, att den nu föreslagna utvidgade verksamheten 
+förlägges till detta ämbetsverk.
+I detta hänseende har departementschefen framhållit, att de nya arbetsuppgifterna 
+har speciell karaktär och till arten knappast sammanfaller
+med någon annan statlig verksamhet på det ekonomiskt-statistiska området.
+ Det synes också departementschefen vanskligt att med kommerskollegii 
+verksamhet förena en sådan verksamhet, som avses med priskontrollutredningens 
+förslag.
+Härtill må genmälas att kommerskollegium självt ansett, att den av priskontrollutredningen 
+föreslagna utredningsverksamheten på ett naturligt
+sätt ansluter sig till kollegiets allmänna ämnesområde, och föreslagit att
+nämnda verksamhet skulle handhavas av kollegium. Det är uppenbart, att
+vid sådant förhållande betydande personalförstärkning av detta ämbetsverk
+erfordras. Härutinnan hänvisar vi till det organisationsförslag som kommerskollegium 
+självt framlagt i sitt yttrande över utredningens betänkande.
+Detta torde kunna medföra vissa besparingar för det allmänna jämfört
+med organisationen av ett nytt självständigt ämbetsverk. Vi uttalar en bestämd 
+skepsis mot tillvägagångssättet att i onödan tillskapa nya ämbetsverk,
+ vilket medför risker för en överdriven expansion av den statliga
+administrationen.
+Vid bifall till vad vi sålunda förordat skulle den nuvarande monopolutredningsbyrån 
+och avdelningen för analys av pris- och marknadsförhållanden 
+inom kommerskollegium böra utbyggas och ges förslagsvis benämningen 
+utredningsinstitutet för pris- och kartellfrågor. Utredningsinstitutet
+torde lämpligen böra arbeta på två byråer, eu för prisfrågor och en för
+kartellfrågor. Det erforderliga antalet tjänster kan säkrare bedömas, när
+institutet varit i verksamhet någon tid.
+Den erforderliga personalen skulle enligt en av kommerskollegium framlagd 
+organisationsplan utgöras av följande befattningar, nämligen å kartellbyrån 
+1 kommerseråd i Ca 37, 4 byrådirektörer i Ce 33, 1 byrådirektör i Ce
+31, 4 förste aktuarier i Ce 29, 4 förste aktuarier i Ce 27, 14 amanuenser i
+Motioner i Andra kammaren, nr 715 dr 1956
+7
+Cf 19—Ce 25, 1 förste kansliskrivare i Ce 17, 1 kanslibiträde i Ce 11, 4
+biträden i reglerad befordringsgång (Cf 4—Ca 8), 1 expeditionsvakt i Ca 10
+och 1 expeditionsvakt i Ce 10.
+På prisbyrån skulle enligt samma organisationsplan finnas 1 kommerseråd 
+i Ca 37, 1 byrådirektör i Ce 33, 2 förste aktuarier i Ce 29, 4 förste
+aktuarier i Ce 27, 6 amanuenser i befordringsgången, 1 assistent i Ce 23
+och 2 assistenter i Ce 17 — samtliga tre assistenter avsedda för insamlingen
+av prisuppgifter i Stockholm, — ytterligare en assistent i Ce 15 och 2 assistenter 
+i Ce 13, 2 kanslibiträden i Ce 11 och 4 biträden i Cf 4—Ca 8. Sammanlagt 
+skulle alltså erfordras 62 befattningshavare i stället för de 78,
+varmed departementschefen räknat.
+Det sammanlagda belopp, som skulle erfordras för avlöning av denna
+personalstyrka under tiden 1 januari—30 juni 1957, kan uppskattas till
+i runt tal 550 000 kronor.
+Att märka är, att av nyssnämnda 62 befattningar 28 motsvaras av dem,
+som enligt förslaget på sid. 27 i propositionen nr 103 skulle skiljas från kommerskollegium.
+ Dessa 28 befattningar bör alltså bibehållas, varvid nettoökningen 
+av tjänster blir 34.
+Den i propositionen nr 97 föreslagna styrelsen för statens pris- och
+kartellnämnd torde i stället böra fungera som kommerskollegii råd i prisoch 
+kartellärenden. I enlighet med departementschefens beräkning torde
+för arvoden och ersättningar till rådet för tiden 1 januari—30 juni 1957
+böra upptagas en arvodespost av 10 000 kronor. I detta sammanhang synes
+riksdagen böra framhålla önskvärdheten av att Kungl. Maj:t vid utfärdandet
+av instruktionen för rådet och utredningsinstitutet beaktar vad i denna
+motion anförts.
+Av det belopp, varmed avlöningsanslaget till kommerskollegium skulle
+böra uppräknas i förhållande till förslagen i propositionen nr 103 —
+560 000 kronor — torde 28 300 kronor böra hänföras till avlöningar till
+ordinarie tjänstemän, 10 000 kronor till arvoden och särskilda ersättningar,
+bestämda av Kungl. Maj:t, 412 200 kronor till avlöningar till övrig ickeordinarie 
+personal och 109 500 kronor till rörligt tillägg.
+Slutligen bör det i propositionen nr 103 för kommerskollegium beräknade
+omkostnadsanslaget, 562 900 kronor, uppräknas med det i propositionen
+nr 97 för statens pris- och kartellnämnds omkostnader beräknade beloppet,
+150 000 kronor. Till kommerskollegii omkostnader bör alltså anvisas ett
+förslagsanslag av 712 900 kronor. I särskild motion, nr 685 i andra kammaren,
+ har framställts de jämkningsyrkanden, som erfordras beträffande
+proposition nr 103.
+Under åberopande av det anförda hemställer vi,
+alt riksdagen — med godtagande av Kungl. Maj ds förslag
+i de delar, som inte särskilt anges i det följande — måtte
+8
+Motioner i Andra kammaren, nr 115 dr 1956
+A. vid behandlingen av propositionen nr 97.
+I. med avslag å Kungl. Maj ds under denna punkt gjorda
+hemställan besluta, att den samhälleliga övervaknings- och
+utredningsverksamheten avseende pris- och konkurrensförhållanden 
+fr. o. m. den 1 januari 1957 skall anförtros ett
+utredningsinstitut för pris- och kartellfrågor omfattande
+en kartell och en prisbyrå i kommerskollegium, vars personaluppsättning 
+och anslagsbehov riksdagen förklarar sig
+vilja pröva vid behandlingen av propositionen nr 103;
+II. med avslag å Kungl. Maj ds under denna punkt gjorda
+hemställan, såvitt den avser personalförteckning för statens
+pris- och kartellnämnd, bemyndiga Kungl. Majd att vidtaga 
+de ändringar i personalförteckningen för ombudsmannaämbetet 
+för näringsfrihetsfrågor, som påkallas av departementschefens 
+i propositionen nr 97 bärutinnan framlagda
+förslag;
+III. avslå Kungl. Maj ds förslag om godkännande av avlöningsstat 
+för statens pris- och kartellnämnd, att tillämpas
+under tiden 1 januari—30 juni 1957;
+IV. avslå Kungl. Maj ds förslag, såvitt det avser anvisande
+av anslag för budgetåret 1956/57 till
+a) Statens pris- och kartellnämnd: Avlöningar samt
+b) Statens pris- och kartellnämnd: Omkostnader.
+V. i skrivelse till Kungl. Majd anhålla, att Kungl. Majd
+måtte föranstalta om skyndsam utredning av dels frågan
+om insamling av de primäruppgifter angående priser m. m.,
+som erfordras för utredningsarbetet rörande pris- och konkurrensbegränsningsfrågor,
+ dels ock frågan om organisationen 
+av priskontrollen för det fall, då den allmänna prisregleringslagen 
+kan böra träda i tillämpning;
+B. vid behandlingen av propositionen nr 103 — i enlighet med
+motion nr 685 i andra kammaren —
+II. bemyndiga Kungl. Majd att, i enlighet med de förslag
+i propositionen, som i det föregående lämnats utan erinran,
+samt de förslag, som ovan framlagts, dels fastställa personalförteckning 
+för kommerskollegium, att tillämpas tills
+vidare under tiden 1 juli—31 december 1956, dels ock i
+personalförteckningen vidtaga ändringar att gälla tills vidare 
+från och med den 1 januari 1957;
+III. godkänna följande avlöningsstat för kommerskollegium,
+ att tillämpas tills vidare från och med budgetåret
+1956/57:
+Motioner i Andra kammaren, nr 715 dr 1956 9
+Avlöningsstat
+1. Avlöningar till ordinarie tjänstemän, förslagsvis 
+.............................. 945 700
+2. Arvoden och särskilda ersättningar, bestämda 
+av Kungl. Maj:t................ 17 500
+3. Avlöningar till övrig icke-ordinarie personal 
+................................ 1 692 800
+4. Rörligt tillägg, förslagsvis ............ 648 300
+Summa kronor 3 304 300
+IV. för budgetåret 1956/57 under tionde huvudtiteln såsom 
+förslagsanslag anvisa till
+a) Kommerskollegium: Avlöningar 3 304 300 kronor;
+b) Kommerskollegium: Omkostnader 712 900 kronor;
+V. i skrivelse till Kungl. Maj:t anhålla, att Kungl. Maj:t
+vid utfärdandet av instruktion för kommerskollegii råd i
+pris- och kartellärenden samt för det i kommerskollegium
+ingående utredningsinstitutet för pris- och kartellfrågor beaktar 
+vad i denna motion anförts.
+Stockholm den 6 april 1956
+Bertil Ohlin
+Wald. Svensson
+Per A. Johnsson
+i Ivaslanjegården
+O. Malmborg,
+Skövde
+Filip Krislensson,
+Osby
+Henning Gustafsson,
+Skellefteå
+Ragnhild Sandström
+Gustaf Kollberg
+kammare
+kammare
+Andra kammaren
+EH2O715
+2018-03-02 10:12:27
+riksdag
+riksdag
+tvåkammaren
+EH2O715
+2018-03-02 10:12:27
+session
+session
+lagtima
+EH2O715
+2018-03-02 10:12:28
+sidantal
+Antal sidor
+7
+EH2O715
+2018-03-02 10:12:27
+EH2O715
+Andra kammaren
+mot_1956__ak__715.pdf
+423972
+pdf
+Motioner i Andra kammaren, nr 715 år 1956
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__715/mot_1956__ak__715.pdf

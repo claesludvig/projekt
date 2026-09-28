@@ -1,0 +1,99 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+16
+Motioner i Andra kammaren, nr 666 år 1956
+Nr 666
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition,
+nr 85, med förslag till lag angående ändrad lydelse av
+1 § lagen den SO juni 19Jf3 (nr ) om tillståndstvång
+för byggnadsarbete samt angående fortsatt giltighet av
+samma lag.
+(Lika lydande med motion nr 506 i Första kammaren)
+Stockholm den 20 mars 1956
+Bertil Ohlin
+Wald. Svensson
+i Ljungskile
+Henning Gustafsson
+i Skellefteå
+Manne Ståhl
+Ragnhild Sandström Bertil v. Friesen
+O. Malmborg
+i Skövde
+Alfa Boktr., Sthlm 1956
+kammare
+kammare
+Andra kammaren
+EH2O666
+2018-03-02 10:11:41
+riksdag
+riksdag
+tvåkammaren
+EH2O666
+2018-03-02 10:11:41
+session
+session
+lagtima
+EH2O666
+2018-03-02 10:11:41
+sidantal
+Antal sidor
+1
+EH2O666
+2018-03-02 10:11:41
+EH2O666
+Andra kammaren
+mot_1956__ak__666.pdf
+112924
+pdf
+Motioner i Andra kammaren, nr 666 år 1956
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__666/mot_1956__ak__666.pdf

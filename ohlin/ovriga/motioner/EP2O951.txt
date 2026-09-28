@@ -1,0 +1,278 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+4
+Motioner i Andra kammaren, nr 951 år 196i
+Nr 951
+Av herr Ohlin m. fl., i anledning av Kungl. Maj.ts proposition nr
+96, angående inrättande av ett institut för nyttiggörande
+av forskningsresultat.
+(Lika lydande med motion nr 775 i Första kammaren)
+Som ett led i sina uppgifter att främja teknisk utveckling och utnyttjande
+av forskningsresultat bildade tekniska forskningsrådet och malmfonden
+under fjolåret stiftelsen för exploatering av forskningsresultat (EFOR).
+Med stöd av bidrag från stiftarna skall EFOR verka för industriellt utnyttjande 
+inom eller utom Sverige av nya resultat av svenskt forsknings- och
+utvecklingsarbete. I första hand gäller det resultat som framkommit med
+stöd av någon av de två stiftarna, men i andra hand även resultat som på
+annat sätt framkommit vid svenska forskningsorganisationer. EFOR är
+således avsett som en serviceorganisation utan ekonomiska intressen i de
+tekniska uppfinningar eller vetenskapliga rön, vilkas industriella exploatering 
+stiftelsen främjar utifrån samhällsekonomiska eller allmänt utvecklingsbefrämjande 
+intressen. Som ekonomiskt stöd för stiftelsens verksamhet har
+tekniska forskningsrådet och malmfonden avsatt ett grundkapital av tillhopa 
+300 000 kr. samt för bestridande av de löpande kostnaderna under
+en femårsperiod 1,2 milj. kr.
+Skapandet av EFOR har allmänt mottagits som ett lovvärt initiativ av de
+två stiftarna. Ökade insatser — i detta fall från två offentliga organs sida —
+i syfte att främja det industriella nyttiggörandet av tekniska uppfinningar
+och vetenskapliga rön torde av en enig opinion bland dem som följer eller
+direkt sysslar med dessa frågor bedömas som i hög grad önskvärda. Det
+ligger emellertid i sakens natur att den helt dominerande delen av exploateringsarbetet 
+utföres i näringslivet direkt, inom de enskilda företagen eller
+genom nystartande av företag på grundval av teknisk uppfinning eller förbättring.
+ EFOR är att se som ett — icke företagsekonomiskt engagerat —
+komplement till den inom näringslivet och på marknaden kontinuerligt pågående 
+innovationsprocessen.
+Att påskynda och underlätta denna process, vilken i vid mening innefattar 
+insatser från grundforskning till ekonomiskt lönsam marknadsföring
+av nya produkter, är ett grundläggande led i en utvecklingsbefrämjande, dynamisk 
+ekonomisk politik. Från samhällets sida kan en serie olika åtgärder
+Motioner i Andra kammaren, nr 051 år 1964 5
+vidtagas i detta syfte. Hit hör t. ex. samhällets åtgärder för undervisning,
+utbildning och vetenskaplig forskning. Utformningen av skattepolitiken liksom 
+av den ekonomiska politiken i övrigt spelar en viktig roll. De delåtgärder 
+som i detta sammanhang närmast är av intresse gäller det avslutande
+ledet i den långa innovationskedjan, nyttiggörandet av uppnådda forskningsresultat 
+och marknadsföring av därpå grundade nya produkter.
+I den nu framlagda propositionen nr 96 redovisas i koncentrerad form
+den diskussion rörande forskningsresultatens nyttiggörande som förts inom
+forskningsberedningen. På grundval härav har inom handelsdepartementet
+utarbetats en promemoria med förslag till ökat finansiellt stöd från statens
+sida till EFOR samt en viss omläggning av stiftelsens verksamhet. Med beaktande 
+i viss mån av den kritik som framkommit vid remissbehandlingen
+i fråga om den föreslagna, delvis ändrade verksamhetsformen för EFOR,
+har handelsministern i propositionen föreslagit att ett nytt helstatligt organ
+skall tillskapas med uppgift att främja nyttiggörande av forskningsresultat.
+ Till det nya organets förfogande skall enligt propositionen ställas ett
+investeringsanslag av 20 milj. kr. Det nya organet, vars benämning förkortats 
+till INFOR, skiljer sig från EFOR väsentligen därigenom att INFOR
+inte endast skall vara ett serviceorgan utan skall ha en företagsekonomisk
+inriktning så till vida som det skall äga rätt att finansiellt ta del i bildande
+av tillverkningsföretag och ta del i vinsten av genom institutets förmedling
+eller engagemang exploaterade uppfinningar. Såväl utländska som inhemska
+forskningsresultat skall institutet ha möjlighet att överta och på angivet
+sätt föra fram till exploatering.
+Att samhället får ökade möjligheter alt lämna ett direkt finansiellt stöd
+inom ramen för ett samarbete mellan stat och näringsliv för att möjliggöra
+ett snabbare utnyttjande av forskningsresultat och tekniska uppfinningar
+kan vara motiverat i fall då det gäller projekt av kostnadskrävande, långsiktig 
+och riskfylld natur. Vi har därför ingen invändning mot att ett anslag
+uppföres på riksstalen för sådan verksamhet. De i propositionen föreslagna
+formerna för det nya institutets verksamhet synes oss dock väcka betänkligheter.
+Det bör uppmärksammas att med bildandet av INFOR kommer vi att få
+fyra olika statliga organ, som skall arbeta på åtminstone delvis samma
+stadier av innovationsförloppet. Härtill kommer att gränsen mellan tillämpad 
+forskning och exploateringsarbete inte alltid är klar; stundom griper
+dessa båda uppgifter in i varandra. Vid remissbehandlingen av departementspromemorian 
+— låt vara att den innefattade ett i formellt hänseende
+annat förslag — uttalades från flera håll farhågor för att ett nytt organ i
+realiteten skulle tillskapas som skulle komma att i varje fall delvis sammanfalla 
+med forskningsråden. Det uttalades sålunda att EFOR borde bibehållas
+i sin nuvarande funktion som ett rent serviceorgan och att det direkta statliga 
+finansieringsstödet borde förmedlas av redan existerande forskningsråd
+6
+Motioner i Andra kammaren, nr 951 år 1964
+och fonder, vilka arbetar med uppdelning på särskilda verksamhetsområden 
+och står under ledning av speciell sakkunskap. Denna uppfattning
+framfördes t. ex. av norrlandsfonden och tekniska forskningsrådet. Kollegienämnden 
+vid tekniska högskolan i Stockholm liksom överstyrelsen för de
+tekniska högskolorna påtalade också att samordnings- och gränsdragningsfrågorna 
+inte lösts på ett tillfredsställande sätt. Vi är icke helt övertygade
+om att departementschefens nu framlagda förslag, som alltså innebär att
+ett nytt organ tillskapas vid sidan av EFOR och de befintliga forskningsråden 
+och statliga fonderna, innefattar den bästa lösningen. I likhet med vad
+LO framhållit i fråga om promemorieförslaget bör INFOR :s tillkomst betraktas 
+som ett försök. En omprövning av verksamhetsformen bör alltså ske senare 
+med ledning av vunna erfarenheter.
+Den väsentliga frågan gäller emellertid huiuivida det nya institutet skall få
+rätt att, som föreslås i propositionen, »finansiellt ta del i bildande av tillverkningsföretag»,
+ d. v. s. bilda dotterföretag och alltså få en affärsmässig
+företagsekonomisk inriktning. Mot en sådan form för verksamhet talar flera
+skäl. Enligt vår uppfattning hör det uppställas som ett principiellt viktigt
+krav på den statliga verksamhet varom här är fråga, att den skal! vara av
+servicekaraktär. Eljest kan risk uppkomma att ett statligt intresse av privatekonomisk 
+natur kan bli hindrande eller försvårande för en aktualiserad
+stödinsats. Något sådant bör naturligtvis inte komma i fråga. Genom att
+självt eller tillsammans med andra intressenter bilda tillverkningsföretag
+skulle vidare det — förhållandevis begränsade — kapital som staten ställer
+till förfogande sannolikt bindas på ett varaktigare sätt än om stödet lämnas
+i annan form, t. ex. genom lån. Uppkommer förluster i på sådant sätt startad
+verksamhet, för vilka riskerna är betydande, torde en stark press uppkomma 
+på staten att ytterligare engagera sig i företaget i ekonomiskt hänseende.
+Vägledande för institutets verksamhet bör vara samhällsekonomiska hänsyn.
+ Tanken bakom institutets tilltänkta företagsekonomiska engagemang
+synes vara att institutet som sådant skulle få möjlighet att täcka uppkommande 
+förluster genom vinster eller del i vinster på andra insatser. Härtill
+kan sägas att i de fall ett stöd från institutets sida leder till framgång för
+det företag som erhållit stödet, erhåller det allmänna en ekonomisk »vinst»
+genom beskattningen. Departementschefen framhåller samtidigt att »den
+huvudsakliga målsättningen» skall vara samhällsekonomisk. Den av honom
+föreslagna konstruktionen kan emellertid inte väntas leda till en verksamhet
+av sådan huvudinriktning, utan institutet skulle få karaktären av ett statligt
+affärsföretag med industriell exploatering av forskningsresultat och uppfinningar 
+som verksamhetsområde.
+De industriella framstegen sker på en mycket bred front, och det är avvikt 
+att denna bredd i fråga om utvecklingen kan bibehållas. Den innesluter
+den decentralisering i fråga om risktagande och bedömning av utvecklingsprojekt 
+som på längre sikt torde ge de bästa resultaten. Ett ställningstagande
+Motioner i Andra kammaren, nr 951 år 196i
+7
+i eu utvecklingsfråga kräver som regel att ett mycket omfattande tekniskt
+och ekonomiskt underlag studeras och bedöms av personer som i detalj
+känner den bransch eller det projekt som avses. I de flesta fall kan man
+förutsätta att de resurser som finns tillgängliga för industriell utveckling
+endast medger att en ringa del av de idéer, uppfinningar eller rön som finns
+tillgängliga kan med framgång exploateras. Bristen på personal och kapital
+tvingar till ett strängt urval. Sett ur denna synpunkt förefaller vissa av de
+tankegångar som frainföres i propositionen vara tvivelaktiga. Så t. ex. anges 
+av departementschefen att »Institutets huvuduppgift bör bli att söka
+fylla det tomrum, som skapas av bristen på aktiva intressenter inom betydande 
+delar av industrien, beroende antingen på att branschen i fråga över
+huvud taget är svagt utvecklad eller intresset för ny teknik är påtagligt
+ringa».
+Det torde knappast kunna göras gällande att vissa industribranscher skulle 
+sakna aktivt intresse för utvecklingsarbete. Den omständigheten att en del
+företag saknar möjlighet att vidareutveckla ett forskningsresultat, antingen
+därför att detta arbete är synnerligen kapitalkrävande eller därför att det är
+förenat med betydande ekonomiska risker, betyder inte att företagen skulle
+vara ointresserade av utvecklingsarbete. Med den konkurrens som råder
+inom praktiskt taget alla branscher, inte minst utifrån, är det i själva verket 
+ett livsvillkor för de företag, som vill överleva, att sträva efter att ständigt 
+förnya och förbättra sin teknik, sitt produktionsprogram och sin marknadsföring.
+INFOR:s uppgifter synes inte böra bli att tjäna som något slags rationaliseringsorgan 
+för »tekniskt efterblivna branscher». Det kan lika väl gälla
+tekniskt avancerade områden. Väsentligt är — som vi framhållit tidigare —
+att INFOR :s verksamhet inriktas på som utvecklingsbara bedömda projekt,
+vilka på grund av sin kostnadskrävande, långsiktiga och riskfyllda natur
+anses kräva ett statligt stöd för att snabbare kunna bli förda fram till exploatering.
+Det ekonomiska stödet bör lämnas i form av lån med villkorlig återbetalningsskyldighet 
+och förräntningsplikt. Hinder bör inte föreligga för institutet 
+att lämna stödet i form av borgen eller annan garanti för lån i bank
+till företaget. Institutet bör således inte äga rätt att ingå i bildande avtillverkningsföretag 
+t. ex. genom tecknande av aktier.
+Då de medel som ställes till förfogande är begränsade kommer säkerligen
+svårigheter att uppkomma i fråga om prioritering mellan de företag som
+önskar erhålla stöd. Riskerna att vissa företag gynnas i konkurrensen får
+heller inte förbises. Det är därför av största vikt att styrelsen för INFOR
+får en så kvalificerad sammansättning som möjligt. I propositionen anges
+endast att styrelsen skall inrymma expertis på kreditgivning och marknadsföring.
+ Lika viktigt är att styrelsen även kommer att representera framstående 
+sakkunskap inom olika områden av teknik och industri. Det är av
+8
+Motioner i Andra kammaren, nr 951 år 1964
+väsentlig betydelse att det i styrelsen finns kompetenta personer med vid
+överblick, som kan sakkunnigt granska de bestämningar av anslagskrav,
+som görs i utomstående instanser. För att bättre kunna tillgodose här angivna 
+krav bör styrelsen göras större än vad departementschefen föreslagit.
+Vi föreslår att den skall bestå av nio personer, ej fem vilket senare antal
+synes bli alltför begränsat med hänsyn till styrelsens uppgifter.
+Under hänvisning till det ovan anförda föreslår vi,
+att riksdagen vid behandlingen av Kungl. Maj :ts proposition 
+nr 96 måtte besluta
+1) att det finansiella stöd, som det i propositionen föreslagna 
+nya institutet INFOR skall lämna för utnyttjande av
+forskningsresultat, skall utgå i form av lån eller av institutet 
+tecknad borgen för lån,
+2) att institutets styrelse skall bestå av nio personer samt
+3) att institutets verksamhet i övrigt skall bedrivas med
+beaktande av ovan i motionen angivna synpunkter.
+Stockholm den 17 april 1964
+Bertil Ohlin
+Bertil v. Friesen
+Manne Ståhl
+Wald. Svensson
+Brita Elmén
+Henning Gustafsson
+i Skellefteå
+Gunnar Helén
+Sven Gustafson
+i Göteborg
+Sven Wedén
+Gustaf Kollberg
+kammare
+kammare
+Andra kammaren
+EP2O951
+2018-03-01 21:55:57
+riksdag
+riksdag
+tvåkammaren
+EP2O951
+2018-03-01 21:55:57
+session
+session
+lagtima
+EP2O951
+2018-03-01 21:55:57
+sidantal
+Antal sidor
+5
+EP2O951
+2018-03-01 21:55:57
+EP2O951
+Andra kammaren
+mot_1964__ak__951.pdf
+336624
+pdf
+Motioner i Andra kammaren, nr 951 år 196i
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1964/web_mot_1964__ak__951/mot_1964__ak__951.pdf

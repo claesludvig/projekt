@@ -1,0 +1,101 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 358 år 1959
+15
+Nr 358
+Av herr Ohlin m. fl., om höjning i visst fall av värdeminskningsavdraget 
+för byggnad.
+I de likalydande motionerna 1:301 och 11:370 har vi behandlat olika skattepolitiska 
+frågor. Med hänvisning till vad där anförts, föreslår vi,
+att riksdagen i skrivelse till Kungl. Maj :t anhåller om
+utredning i syfte att anpassa beskattningsreglerna i fråga
+om värdeminskningsavdrag i byggnader, som ingår i rörelse,
+ så att större värdeminskningsavdrag kan göras under 
+de första åren efter uppförandet.
+Stockholm den 27 januari 1959
+Bertil Ohlin
+O. Malmborg
+Wald. Svensson
+Sven Wedén
+Manne Ståhl
+Sven Gustafson
+i Göteborg
+Ragnhild Sandström Henning Gustafsson
+i Skellefteå
+kammare
+kammare
+Andra kammaren
+EK2O358
+2018-03-01 22:59:01
+riksdag
+riksdag
+tvåkammaren
+EK2O358
+2018-03-01 22:59:01
+session
+session
+lagtima
+EK2O358
+2018-03-01 22:59:01
+sidantal
+Antal sidor
+1
+EK2O358
+2018-03-01 22:59:01
+EK2O358
+Andra kammaren
+mot_1959__ak__358.pdf
+117510
+pdf
+Motioner i Andra kammaren, nr 358 år 1959
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1959/web_mot_1959__ak__358/mot_1959__ak__358.pdf

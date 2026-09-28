@@ -1,0 +1,100 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+4
+Motioner i Andra kammaren, nr 576—577.
+att förordnandet om fortsatt tillämpning av prisregleringlagen 
+begränsas till den 31 december 1953, då priskontrollen 
+helt bör upphöra.
+Stockholm den 22 april 1953.
+Bertil Ohlin. Bertil von Friesen. Filip Kristensson
+i Osby.
+Sven Wedén. Gustaf Kollberg. Ragnhild Sandström.
+O. Malmborg, Wald. Svensson. Manne Ståhl.
+Skövde.
+Nr 577.
+Av herr Andersson i Dunker m fl., i anledning av Kungl. Maj:ts
+proposition, nr 195, angående det fortsatta stödet åt
+hampodlingen m. m.
+(Lika lydande med motion i Första kammaren, nr 470.)
+Stockholm den 22 april 1953.
+Harald Andersson Karl Kilsmo. Karin Wetterström.
+i Dunker.
+Sven Vigélsbo. Ivar Johansson. Karl Andersson,
+Björkäng.
+kammare
+kammare
+Andra kammaren
+EE2O577
+2018-03-02 13:36:38
+riksdag
+riksdag
+tvåkammaren
+EE2O577
+2018-03-02 13:36:38
+session
+session
+lagtima
+EE2O577
+2018-03-02 13:36:38
+sidantal
+Antal sidor
+1
+EE2O577
+2018-03-02 13:36:38
+EE2O577
+Andra kammaren
+mot_1953__ak__577.pdf
+126064
+pdf
+Motioner i Andra kammaren, nr 576—577
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1953/web_mot_1953__ak__577/mot_1953__ak__577.pdf

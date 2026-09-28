@@ -1,0 +1,108 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+8
+Motioner i Andra kammaren, nr 694 år 1963
+Nr 694
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition nr
+12, med förslag till lag angående ändrad lydelse av 1 och
+It §§ lagen den 25 maj 1962 (nr 392) om hustrutillägg och
+kommunalt bostadstillägg till folkpension, m. m.
+(Lika lydande med motion nr 567 i Första kammaren)
+Under hänvisning till motiveringen i de denna dag av oss väckta likalydande 
+motionerna 1: 566 och II: 693 hemställer vi,
+att riksdagen i samband med behandlingen av Kungl.
+Maj :ts proposition nr 12 måtte vid anvisande av anslaget
+till Bidrag till folkpensioner m. m. för budgetåret 1963/64
+under femte huvudtiteln uppräkna ifrågavarande anslag
+med ytterligare 3 milj. kr., avseende höjning av statens
+kostnader för inkomstprövade folkpensionsförmåner.
+Stockholm den 8 februari 1963
+Bertil Ohlin
+Sven Gustafson
+i Göteborg
+Wald. Svensson
+O. Malmborg
+Gustaf Kollberg
+Gunnar Helén
+Henning Gustafsson
+i Skellefteå
+Manne Ståhl
+Brita Elmén
+Alfa Boktr. AB, Sthlm 1963
+kammare
+kammare
+Andra kammaren
+EO2O694
+2018-03-01 21:08:32
+riksdag
+riksdag
+tvåkammaren
+EO2O694
+2018-03-01 21:08:32
+session
+session
+lagtima
+EO2O694
+2018-03-01 21:08:32
+sidantal
+Antal sidor
+1
+EO2O694
+2018-03-01 21:08:32
+EO2O694
+Andra kammaren
+mot_1963__ak__694.pdf
+150676
+pdf
+Motioner i Andra kammaren, nr 694 år 1963
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1963/web_mot_1963__ak__694/mot_1963__ak__694.pdf

@@ -1,0 +1,111 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 81,1 år 1960
+13
+Nr 841
+Av herr Ohlin m. fl., i anledning av Kungl. Majsts proposition nr
+150, angående komplettering av riksstats förslag et för
+budgetåret 1960/61, m. m.
+Under hänvisning till den i de likalydande motionerna I: 678 och II: 839
+anförda motiveringen hemställes,
+att riksdagen vid behandling av Kungl. Maj:ts proposition 
+nr 150 angående komplettering av riksstatsförslaget
+för budgetåret 1960/61 måtte upptaga inkomsterna från
+statens affärsfonder med följande belopp:
+Postverket, bevillning .
+Televerket .........
+Statens vattenfallsverk
+Domänverket .......
+10 milj. kr.
+95
+220
+40
+It
+tf
+tf
+Stockholm den 13 maj 1960
+Bertil Ohlin
+Sven Wedén
+Wald. Svensson
+Henning Gustafsson
+i Skellefteå
+Manne Stöld
+Sven Gustafson
+i Göteborg
+kammare
+kammare
+Andra kammaren
+EL2O841
+2018-03-01 21:18:24
+riksdag
+riksdag
+tvåkammaren
+EL2O841
+2018-03-01 21:18:24
+session
+session
+lagtima
+EL2O841
+2018-03-01 21:18:24
+sidantal
+Antal sidor
+1
+EL2O841
+2018-03-01 21:18:24
+EL2O841
+Andra kammaren
+mot_1960__ak__841.pdf
+144759
+pdf
+Motioner i Andra kammaren, nr 81,1 år 1960
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1960/web_mot_1960__ak__841/mot_1960__ak__841.pdf

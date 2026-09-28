@@ -1,0 +1,160 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+<5
+Motioner i Andra kammaren, nr 758 år 1956
+Nr 758
+Av herr Ohlin m. fl., i anledning av Kungl. Maj:ts proposition, nr
+1A7, med förslag till allmän prisregleringslag, m. m.
+I Kungl. Maj:ts proposition nr 147 har i anledning av det betänkande som
+1954 års priskontrollutredning avgivit framlagts förslag till allmän prisregleringslag.
+Förslaget innebär, att den nuvarande tidsbegränsade prisregleringslagen
+skall ersättas av en permanent beredskapslagstiftning. För dess tillämpning
+skiljs mellan tre fall. Kommer riket i krig skall lagen automatiskt träda i
+tillämpning. Vid krigsfara, vari riket befinner sig, skall Kungl. Maj:t äga
+förordna om lagens tillämpning. Har av annan orsak än krig eller krigsfara
+uppkommit betydande fara för allvarlig stegring av allmänna prisläget inom
+riket skall Kungl. Maj:t likaledes äga förordna om tillämpning av lagen.
+Det principiella ställningstagandet i propositionen har till grundtanke att
+den nuvarande priskontrollen skall upphöra och att man under normala
+förhållanden, när full varuförsörjning råder, bör helt bygga på principen
+om fri konkurrens som prisregulator. Till denna grundtanke uttalar vi vår
+fulla anslutning.
+I enlighet med denna grunduppfattning finner vi påkallat att ingripande
+från det allmännas sida sker när en allmän bristsituation på varuområdet
+inträder. Vi anser det sålunda vara erforderligt att en beredskapslag stiftas 
+för att bemästra sådana rubbningar i varuförsörjningen som kan uppkomma 
+vid krig eller krigsfara.
+Vi ansluter oss sålunda till förslaget om stiftande av en beredskapslag
+som skall kunna träda i tillämpning när riket kommer i krig eller befinner
+sig i krigsfara.
+Såvitt gäller det tredje fall som förslaget avser — fara för prisstegring
+av annan orsak än krig eller krigsfara — är vi däremot av annan uppfattning 
+än departementschefen.
+Rent principiellt måste betänkligheter resas mot att en beredskapslagstiftning 
+skall kunna sättas i kraft i situationer som icke i vedertagen mening 
+har beredskapskaraktär. Härutinnan hänvisar vi till den parallella
+lagstiftning som representeras av allmänna förfogandelagen och allmänna
+ransoneringslagen. Anledning saknas enligt vår mening att ge en undantagslagstiftning 
+på prisregleringsområdet en vidare tillämpning än som är
+fallet med nämnda båda lagar. Så mycket mindre måste så anses vara fallet
+som andra, generellt verkande medel står till buds för motverkande av en
+Motioner i Andra kammaren, nr 758 år 1956
+7
+inflationsartad prisstegring som föranletts av inom landet inträffade händelser.
+Vidare ger utformningen av förslaget i förevarande del anledning till
+erinran. Uttrycket »betydande fara för allvarlig stegring av allmänna prisläget 
+inom riket» är, såsom priskontrollutredningen själv medgav, tänjbart
+och kan öppna möjlighet att lagstiftningen sättes i tillämpning i ett läge
+då en sådan åtgärd icke framstår såsom ofrånkomlig. Departementschefen
+har också medgivit, att formuleringen kan tänkas lämna visst utrymme för
+olika meningar om när läget är sådant att lagen ger Kungl. Maj:t rätt att
+besluta prisreglering.
+Ytterligare må framhållas att förslaget i den del varom nu är fråga så till
+vida inger betänkligheter att Kungl. Maj:t förutsättes skola få bemyndigande 
+att utan riksdagens föregående hörande besluta om tillämpning av
+bestämmelsen. Från principiella synpunkter är av vikt att fullmaktslagar
+icke tillgripes i annan mån än när så är oundgängligen erforderligt. Det
+har till stöd för förslaget framhållits att riksdagens hörande skulle kunna
+innebära »ett ödesdigert dröjsmål» med de behövliga åtgärderna. Häremot
+må framhållas att riksdagen ju numera är samlad under större delen av
+året. Vidare må erinras om att tillämpningen av förfogande- och ransoneringslagarna 
+förutsätter riksdagens samtycke i andra fall än vid krig eller
+krigsfara. Det kan knappast göras gällande att behovet av skyndsamt ingripande 
+är större när det gäller prisreglering än åtgärder med stöd av nämnda
+båda lagar. Ett särskilt skäl mot en fullmakt synes oss i förevarande fall
+ligga i det förut anmärkta förhållandet, att förutsättningen för tillämpning
+av lagbestämmelsen formulerats så svävande, att olika meningar om dess
+förhandenvaro redan på förhand kan förutses uppkomma.
+Vi finner sålunda, i likhet med ett flertal remissinstanser, skäl icke föreligga 
+att i den nu föreliggande beredskapslagstiftningen uppställa andra
+förutsättningar för dess tillämpning än som skett i förfogande- och ransoneringslagarna.
+Under åberopande av det anförda hemställer vi,
+att riksdagen måtte besluta att 1 § i allmänna prisregleringslagen 
+ges en lydelse motsvarande 1 § i förfoganderespektive 
+ransoneringslagen samt att vederbörande utskott
+måtte utarbeta erforderlig författningstext.
+Stockholm den 24 april 1956
+Filip Kristensson
+i Osby
+Wald. Svensson
+Iiertil Ohlin
+Manne Ståhl Ragnhild Sandström
+Gustaf Kollberg Sven Gustafson
+i Göteborg
+kammare
+kammare
+Andra kammaren
+EH2O758
+2018-03-02 10:13:08
+riksdag
+riksdag
+tvåkammaren
+EH2O758
+2018-03-02 10:13:08
+session
+session
+lagtima
+EH2O758
+2018-03-02 10:13:08
+sidantal
+Antal sidor
+2
+EH2O758
+2018-03-02 10:13:08
+EH2O758
+Andra kammaren
+mot_1956__ak__758.pdf
+169444
+pdf
+Motioner i Andra kammaren, nr 758 år 1956
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1956/web_mot_1956__ak__758/mot_1956__ak__758.pdf

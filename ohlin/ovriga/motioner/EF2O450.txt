@@ -1,0 +1,158 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr iöO.
+3
+Nr 450.
+Av herr Ohlin m. fl., om ändrad lydelse av 28 § första
+stycket lagen om allmän sjukförsäkring.
+I anledning av Kungl. Maj :ts proposition nr 178 till förra årets riksdag
+med förslag till lag om allmän sjukförsäkring väckte folkpartiet en motion,
+vari bl. a. hemställdes, att riksdagen för sin del ville besluta, att möjlighet
+till undantag från tillhörighet till lagen måtte beredas icke endast grupper
+av anställda i offentlig tjänst utan jämväl sådana arbetar- och tjänstemannagrupper 
+på den privata arbetsmarknaden, som redan har tryggheten vid
+sjukdom tillfredsställande ordnad. I motionen erinrades om att Tjänstemännens 
+centralorganisation (TCO) i sitt yttrande över socialförsäkringsutredningens 
+betänkande ifrågasatt om icke i lagtexten skulle kunna skapas
+möjlighet även för tjänstemannagrupper på den privata arbetsmarknaden,
+som åtnjuter sjuklön, att undantagas från försäkringen. För klart slutna
+avtalsområden, såsom t. ex. för bank- och försäkringstjänstemän, kan det
+inte möta oöverstigliga svårigheter att införa undantagsbestämmelser på
+samma sätt som för de i offentlig tjänst anställda.
+Andra lagutskottets majoritet uttalade vid behandlingen av folkpartiets
+förslag i avseende på möjlighet till undantag från försäkringen, att den
+nya lagstiftningen ej utgjorde något hinder för komplettering genom arbetsgivarens 
+försorg. Utskottet ansåg: ”Det torde därför inte vara att befara
+att försämringar annat än mera undantagsvis uppkommer för dem, som nu
+är väl skyddade vid sjukdom.”
+I folkpartimotionen hade klart sagts ifrån att lagens ikraftträdande icke
+borde tagas till förevändning för en försämring av redan utgående sjukersättningsförmåner.
+ Den utjämning av skillnader i olika anställningsvillkor,
+såsom t. ex. sjuklöne- och pensionsförmåner, vilken eftersträvades, borde ej
+förverkligas genom en försämring för de grupper, vilka redan i dessa avseenden 
+uppnått en viss trygghet, utan genom en successiv förbättring för de
+sämre ställda. Denna principiella uppfattning kompletterades med det uttalandet,
+ alt endast om de berörda grupperna förhandlingsvägen frivilligt
+accepterade, att en förmån i detta avseende till en del utbyttes mot annan
+förmån eller höjd lön, borde undantag från denna regel ifrågakomma.
+Den debatt som sedan våren 1953 förts om anpassningen av tjänstemännens 
+sjukförmåner till den nya sjukförsäkringen och inledningen till de
+nödvändiga förhandlingarna med arbetsgivarna härom visar tyvärr att de
+4
+Motioner i Andra kammaren, nr £50.
+synpunkter, som folkpartiet för snart ett år sedan gjorde sig till tolk för,
+icke vunnit önskvärd anklang.
+I detta sammanhang kan finnas anledning erinra om att under förarbetena 
+till genomförandet av en semesterlag i vårt land uttalades farhågor för
+att lagen — trots dess karaktär av minimilagstiftning — skulle kunna tagas
+till förevändning för ett försämrande av tidigare utgående semesterförmåner,
+som kunde vara fördelaktigare för arbetstagarna än lagens. Av denna orsak
+infördes i semesterlagen en bestämmelse om att ifall längre semester i allmänhet 
+utgår för arbetstagare i någon yrkesgrupp med hänsyn till vissa angivna 
+omständigheter än vad som föreskrives i lagen, skall dylik sedvänja
+i fråga om semesterns längd lända till efterrättelse för arbetstagarna i yrkesgruppen.
+ I vad mån bestämmelserna om sedvänja motverkat en försämring
+av utgående bättre förmåner i fråga om semester kan väl knappast klarläggas.
+ Man synes kunna förvänta att även utan motsvarande bestämmelser
+rörande sjukförsäkringen förhandlingarna arbetsmarknadens parter emellan 
+kommer att föras i denna anda.
+Det är för oss självklart att i sjukförsäkringslagen bör finnas möjlighet
+att medge undantag för grupper av anställda, som redan har bättre sjukförmåner 
+ordnade. Härigenom skulle dessa grupper i detta hänseende jämställas 
+med de stats- och kommunalanställda, för vilka undantag kan medges.
+Under hänvisning till vad ovan anförts får vi hemställa,
+att riksdagen för sin del måtte besluta att § 28 första styc
+-
+ket lagen om allmän sjukförsäkring erhåller följande lydelse:
+Konungen äger från sjukpenningförsäkringen i dess helhet
+eller viss del därav undantaga arbetstagare, som på grund av
+lag eller författning, utfärdad av Konungen, eller bestämmelse,
+ som beslutats av kommun, äger uppbära lön vid sjukdom,
+så ock annan arbetstagare, vars rätt till lön vid sjukdom finnes 
+i liknande mån tryggad.
+Stockholm den 27 januari 1954.
+Bertil Ohlin.
+Wald. Svensson.
+Filip Kristensson
+i Osby.
+Sven Wedén.
+Manne Ståhl.
+O. Malmborg,
+Skövde.
+kammare
+kammare
+Andra kammaren
+EF2O450
+2018-03-02 14:07:58
+riksdag
+riksdag
+tvåkammaren
+EF2O450
+2018-03-02 14:07:58
+session
+session
+lagtima
+EF2O450
+2018-03-02 14:07:58
+sidantal
+Antal sidor
+2
+EF2O450
+2018-03-02 14:07:58
+EF2O450
+Andra kammaren
+mot_1954__ak__450.pdf
+200439
+pdf
+Motioner i Andra kammaren, nr iöO
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1954/web_mot_1954__ak__450/mot_1954__ak__450.pdf

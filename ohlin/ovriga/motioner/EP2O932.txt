@@ -1,0 +1,240 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 932 år 196i
+5
+Nr 932
+Av herr Ohlin m. fl., i anledning av Knngl. Maj.ts proposition nr
+69, angående anslag för budgetåret 196i/65 till vissa
+forskningsråd m. m.
+(Lika lydande med motion nr 762 i Första kammaren)
+Under senare år har sambandet mellan den tekniska framstegsfaktorn
+och den ekonomiska tillväxttakten alltmer uppmärksammats. Ett viktigt
+moment i den tekniska framstegsprocessen utgör forskningen. Enligt gjorda
+beräkningar uppskattades de totala investeringarna i forskning och utveckling 
+i Sverige till 1,7 % av bruttonationalprodukten för år 1963. De statliga
+insatserna kalkylerades härvid till 0,8 % av bruttonationalprodukten. Som
+en jämförelse kan nämnas att Japans utgifter för forskning och utveckling
+är av ungefär samma procentuella storleksordning, medan USA:s och Storbritanniens 
+samlade insatser för år 1961 låg mellan 2,5 och drygt 3 % av
+bruttonationalprodukten.
+Departementschefen beräknar i proposition nr 69 de statliga forskningsanslagen 
+för budgetåren 1963/64 och 1964/65 till drygt 387 resp. 454 mkr.
+Dessa belopp inkluderar anslag till atom- och försvarsforskningen med för
+budgetåret 1963/64 ca 58 resp. 55 mkr. och för budgetåret 1964/65 ca 60,5
+resp. 60,5 mkr. Vidare har för ernående av departementschefens siffror medräknats 
+10 mkr. ur Norrlandsfonden och 10 mkr. ur Malmfonden. Anslagen
+till universitet och högskolor beräknas till 50 % avse forskning. Härvidlag
+har departementschefen accepterat de normer som uppställdes av 1955 års
+universitetsutredning i betänkandet Forskningens villkor och behov (SOU
+1958: 32). Det kan vara motiverat att här återge utredningens uppfattning
+om hälftindelning av anslagen till universitet och högskolor i forskning och
+övrigt. Utredningen har »varit medveten om att detta (fördclningsnormen)
+sannolikt innebär en överskattning av den insats, som ifrågavarande personal 
+med läroanstalternas dåvarande resurser kunde göra i forskningen.
+Proportionen är sålunda snarare den önskvärda än den vid ifrågavarande
+tidpunkt faktiska.»
+Dessa synpunkter har än större tyngd i dag än då de formulerades av
+universitetsutredningen för ungefär 6 år sedan. Departementschefens antagande 
+att hälften av anslagen till universitet och högskolor avser forskning 
+synes verklighetsfrämmande.
+6 Motioner i Andra kammaren, nr 932 år 1964
+En 
+anslagen till forskningsråden. Dessa anslag uppgick 1963/64 till ca 42 mkr.
+I proposition nr 69 föreslås en uppräkning av detta belopp med ca 16,5 mkr.
+till ca 58,5 mkr. I sina äskanden har forskningsråden hemställt om en fördubbling 
+av anslagen; en höjning från 42 mkr. med 43,5 mkr. till ca 86 mkr.
+Skillnaden mellan äskade och föreslagna anslag till forskningsråden uppgår
+till ca 27,5 mkr.
+Departementschefen har gått emot förslaget att inrätta ett särskilt rymdforskningsråd.
+ Han har i stället vid uppräkningen av anslagen till de naturvetenskapliga,
+ tekniska och medicinska forskningsråden beräknat ett sammanlagt 
+belopp av ca 2,25 mkr. till rymdforskning. För innevarande budgetår 
+finns ett separat anslag av 2 mkr. för rymdforskning, som nu enligt
+propositionen skall indragas. Rymdkommittén (SOU 1963:61) beräknade
+anslagsbehovet för budgetåret 1964/65 till 6 mkr. Det kan förutsättas att
+forskningsråden i sina äskanden ej räknat med att svara för rymdforskningen.
+ Om rymdkommitténs beräkningar här betraktas som likställda med
+forskningsrådens äskanden, blir differensen mellan äskade höjningar och i
+propositionen föreslagna höjningar än större; närmare bestämt 33 mkr.
+(43,5 + 6 - 16,5 = 33).
+Kostnaderna för rymdforskning kommer enligt departementschefens förslag 
+att utgå ur de medicinska, tekniska och naturvetenskapliga forskningsråden; 
+merparten ur de två sistnämnda. Med hänsyn tagen till att dessa råd,
+som ovan angivits, vid ingivande av sina äskanden ej kalkylerat med utgifter 
+för rymdforskning finns det anledning att ytterligare räkna upp dessa
+anslag.
+Den ökning av anslaget till det naturvetenskapliga rådet som departementschefen 
+föreslår bör för en riktig redovisning av den reella höjningens
+storlek reduceras, förutom med ett obestämt belopp för rymdforskning även
+med medel för en svensk forskningsinsats under »lugna solens år» och med
+merkostnaderna för Sveriges deltagande i det europeiska sydobservatoriet
+(ESO). Svenska nationalkommittén för geodesi och geofysik har för deltagande 
+i det »lugna solens år» begärt 570 000 kr., och naturvetenskapliga
+rådet beräknar de ökade kostnaderna för deltagandet i ESO till 600 000 kr.
+för 1964/65. Med beaktande av ovanstående och av den redovisning av angelägna 
+projekt som rådet givit förordar vi en höjning av anslaget till naturvetenskaplig 
+forskning till 15,5 mkr. Departementschefens förslag ger
+13,5 mkr.
+Tekniska forskningsrådets äskanden innebär en hemställan om en ökning 
+av anslagen med ca 14 mkr. Den av departementschefen föreslagna
+höjningen på drygt 5 mkr. medför alltså en mycket kraftig beskärning. Som
+framgår av propositionen räknar tekniska forskningsrådet med att avsevärt
+ökade resurser kommer att krävas för bl. a. elektronik, medicinsk och optisk 
+teknik, petrokemi, teknisk mikrobiologi, transportforskning och verk
+-
+7
+Motioner i Andra kammaren, nr 932 år 196b
+stadsteknik. Vi kan med hänsyn till bl. a. detla förhållande inte godta departementschefens 
+förslag utan förordar i anslag till teknisk forskning 17,2
+mkr., d. v. s. en uppräkning med 4 mkr. i förhållande till propositionen.
+I propositionen redovisas att universitetskanslern hemställt om ett belopp 
+av 310 000 kr. till förhyrning för karolinska institutets räkning av en
+datamaskin avsedd för dokumentationsverksamhet. Departementschefen
+ställer sig positiv till detta förslag men menar att kostnaderna för verksamheten 
+bör bestridas från medicinska forskningsrådets anslag till medicinsk
+forskning. Då rådet i sina äskanden förutsatt sig ej behöva bestrida andra
+kostnader för projektet än eventuella bidrag till löner och viss förbrukningsmateriel,
+ blir den reella anslagsökningen för rådet mindre än annars bleve
+fallet. Som framgår av medicinska forskningsrådets anslagsberäkningar för
+1964/65 har den av 1955 års universitetsutredning förordade utbyggnadstakten 
+i fråga om den medicinska forskningen inte kunnat hållas. En snabb
+expansion av den medicinska forskningen är angelägen. Departementschefens 
+uppräkning av anslaget till den medicinska forskningen är enligt vårt
+förmenande otillräcklig. Vi förordar en böjning utöver departementschefens 
+med 4 mkr.
+Här kan tilläggas att det, med hänsyn till att från vårt håll tidigare påtalats 
+vikten av geriatrik forskning, är med tillfredsställelse vi noterar att
+departementschefen i propositionen som ett viktigt fält för medicinsk forskning 
+nämner geriatriken. Denna forskningsgren bör fa den fastare ställning
+som åstadkommes genom en särskild professur.
+Den i propositionen föreslagna höjningen av anslaget till samhällsforskning 
+med 565 000 kr. till ca 2,5 mkr. anser vi i och för sig otillräcklig. Denna
+forskning tvingas fortfarande arbeta med hårt begränsade ramar. I propositionen 
+sägs inget om att riksbankens jubileumsfond enligt framlagt förslag 
+redan under budgetåret 1964/65 avses stödja samhällsforskningen. Av
+skrivelsen till riksdagen framgår att den kommitté som under statsministerns 
+ledning har till uppgift att framlägga förslag till närmare bestämmelser 
+rörande fondens handhavande och utnyttjande enats om att fondmedlen 
+på nuvarande stadium och i första hand skall avse samhällsforskning
+i vidaste mening, vilket i detta sammanhang omfattar även t. ex. medicinska
+och biologiska aspekter. Då denna typ av forskning alltså kan påräkna kraftigt 
+stöd från riksbankens jubileumsfond, finner vi ej skäl att nu föreslå
+ytterligare höjning av propositionens anslag.
+Riksdagens granskning av den förelagda propositionen försvåras av att
+departementschefen gör sina avvägningar mellan de olika forskningsråden
+utan att ge mer än en ytterst rudimentär redovisning av de skäl som varit
+avgörande för den föreslagna fördelningen.
+Med hänsyn till rådande knapphet på resurser, såväl ekonomiska som
+personella, är en prioritering och därmed i viss mån en planläggning nödvändig,
+ naturligtvis under former som inte inskränker forskningens frihet.
+8
+Motioner i Andra kammaren, nr 932 år 1964
+En planering på sikt inom grundforskningens område är visserligen förenad
+med betydande svårigheter, men den kan likväl inte helt avvaras. Man bör
+eftersträva att väsentligt förbättra de arbetsmöjligheter som erbjuds forskningen,
+ särskilt inom sektorer som kan väntas i framtiden få en starkt ökad
+betydelse.
+Sammanlagt innebär de av oss föreslagna anslagen en ökning med ca
+10 mkr. utöver departementschefens förslag.
+Under hänvisning till vad ovan anförts hemställer vi,
+att riksdagen vid behandling av Kungl. Maj :ts proposition
+nr 69 måtte besluta att
+1. till Statens medicinska forskningsråd: Medicinsk forskning 
+för budgetåret 1964/65 under åttonde huvudtiteln anvisa 
+ett reservationsanslag av 16 360 000 kr.,
+2. till Statens naturvetenskapliga forskningsråd: Naturvetenskaplig 
+forskning för budgetåret 1964/65 under åttonde
+huvudtiteln anvisa ett reservationsanslag av 15 500 000 kr.,
+3. till Teknisk forskning för budgetåret 1964/65 under
+tionde huvudtiteln anvisa ett reservationsanslag av
+17 200 000 kr.
+Stockholm den 17 april 1964
+Wald. Svensson
+Henning Gustafsson
+i Skellefteå
+Bertil von Friesen
+Sven Wedén
+Manne Ståhl
+Brita Elmén
+Bertil Ohlin
+Gunnar Helén
+Gustaf Kollberg
+Sven Gustafson
+i Göteborg
+kammare
+kammare
+Andra kammaren
+EP2O932
+2018-03-01 21:55:41
+riksdag
+riksdag
+tvåkammaren
+EP2O932
+2018-03-01 21:55:41
+session
+session
+lagtima
+EP2O932
+2018-03-01 21:55:41
+sidantal
+Antal sidor
+4
+EP2O932
+2018-03-01 21:55:41
+EP2O932
+Andra kammaren
+mot_1964__ak__932.pdf
+275496
+pdf
+Motioner i Andra kammaren, nr 932 år 196i
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1964/web_mot_1964__ak__932/mot_1964__ak__932.pdf

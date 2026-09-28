@@ -1,0 +1,242 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 928 år 1966
+Nr 928
+Av herrar Hedlund och Ohlin, i anledning an Kungl. Maj. ts proposition 
+nr 125, angående komplettering av riksstatsförslaget 
+för budgetåret 1966/67 m. m.
+(Lika lydande med motion nr 756 i Första kammaren)
+Sveriges ekonomi kännetecknas f. n. av svåra balansrubbningar. Betalningsbalansen 
+visar sedan något år betydande underskott. Läget är snarare
+mera oroande än vad som förutsågs när statsverkspropositionen avlämnades
+i januari. Finansministern räknade då med att betalningsbalansunderskottet 
+skulle sjunka med 400 milj. kr. under 1966. Denna minskning anses nu
+orealistisk, främst på grund av försämrade exportutsikter. Den negativa
+bytesbalansen 1965 förklarades delvis med att en stor lageruppbyggnad
+skett. Lagerökningen, som har beräknats till 1 600 milj. kr. under 1965,
+förutses bli endast 900 milj. kr. innevarande år. Trots detta väntas underskottet 
+i betalningsbalansen bli minst lika stort 1966 som 1965.
+I kompletteringspropositionen räknar man med att konsumentprishöjningen 
+skall kunna begränsas till 3,5 procent i år. Erfarenheterna av den
+hittillsvarande prisutvecklingen under året talar emellertid för att prisuppgången 
+kommer att bli större. Konsumentprisindex har redan under
+perioden januari—mars 1966 ökat med ej mindre än 3,1 procent.
+Det erkänns även på regeringshåll, att den bristande samhällsekonomiska
+balansen är en följd av en långsiktig utveckling. Bakom denna utveckling
+ligger regeringens bristande förmåga att hushålla med landets resurser. Den
+politik som förts står bl. a. inte i samklang med de åtgärder i stabiliseringspolitiskt 
+syfte, som företagits i länder som vi är beroende av när det gäller
+utrikeshandeln.
+Bristen på långsiktig planering och hushållning har åtskilliga gånger påtalats.
+ Regeringens politik har lett till ett kraftigt ökat efterfrågetryck och
+en försämrad bytesbalans. Förutsättningarna för en jämn reformpolitik har
+härigenom försämrats.
+Skattesystemet verkar i sin nuvarande utformning hämmande på den inhemska 
+produktionen och försvårar konkurrensen med de utländska företagen.
+ Vidare finns i skattesystemet föga av element, som skulle stimulera
+till arbetsinsatser och sparande, men en hel del som verkar i motsatt riktning.
+ En skattereform bör nästa år genomföras efter i huvudsak de riktlinjer 
+som innefattas i allmänna skatteheredningens förslag. Förslag härom
+3
+Motioner i Andra kammaren, nr 928 år 1966
+har framlagts i våra motioner 1:519 och 11:645 samt 1:500 och 11:619,
+''lika kommer att behandlas i riksdagen samtidigt med kompletteringspropositionen.
+Det är beklagligt att regeringen saknar intresse för att samla representanter 
+för det allmänna, arbetsmarknadens parter och näringslivet samt fristående 
+ekonomisk expertis till gemensamma överläggningar om sådana
+åtgärder som tillsammans skulle utgöra en kraftfull politik mot prisstegringen.
+ Regeringspartiets ensidiga aktioner mot vissa grupper i samhället
+är närmast motsatsen till det erforderliga samlande greppet och har ytterligare 
+undergrävt förtroendet för regeringens politik i vida kretsar av vårt
+folk.
+Det är av synnerlig vikt att förtroendet för penningvärdet snarast återuppbygges.
+ Alternativet härtill är fortsatt snabb inflation. Förslag om ytterligare 
+ingrepp av regleringsnatur, som sätter ner funktionsdugligheten i
+ekonomien och gör produktionstillväxten långsammare, kan i så fall vara
+att vänta från regeringens sida.
+Regeringen har försatt sig i en mycket svår situation, som den nu försöker 
+komma till rätta med genom kortsiktiga åtgärder. Något långsiktigt
+stabiliseringsprogram bär regeringspartiet ej kunnat prestera. Från vårt
+hall hai varnats för följderna av regeringens politik och föreslagits åtgärder 
+som — om de i tid genomförts — skulle ha lett in på rätt spår och motverkat 
+inflationen. Vissa huvuddrag av ett sådant program har senast
+framlagts i motionerna I: 539 och II: 664 till innevarande års riksdag.
+Mot bakgrund av den nämnda situationen med en snarast tilltagande inflation 
+och andia tecken pa bristande samhällsekonomisk balans anser vi
+det angeläget att på nytt aktualisera vårt förslag till ett samlat stabiliseringspolitiskt 
+program. Några huvudpunkter kan sammanfattas sålunda:
+1. Budgetplaneringen bör göras fastare och få en mera långsiktig karaktär,
+ så att refoi marbetet kan tidsplaneras med hänsyn till de förväntade
+statsinkomsterna. Planeringen kan lämpligen omfatta en femårsperiod och
+hör få en rullande karaktär, som medger en kontinuerlig anpassning till
+det verkliga och förväntade läget. Den rullande femårsplanen skall ge bättre
+möjligheter att bedöma förutsättningarna för den ekonomiska politiken och
+att planera in olika reformer efter deras angelägenhetsgrad och det förefintliga 
+finansiella och samhällsekonomiska »utrymmet».
+2. Fn översiktlig nationalbudget innefattande tillgång och efterfrågan på
+olika slag av arbetskraft bör upprättas i syfte att förbättra grundvalen för
+en bedömning av de samhällsekonomiska resurserna. I denna bör redovisas
+såväl den totala användningen av arbetskraften som en sådan fördelning på
+olika arbetsmarknadssektorer att budgeten kan tjäna som vägledning för
+åtgärder i syfte att anpassa tillgången till efterfrågan.
+Denna budget bör upprättas varje år samt gälla för eu längre tidsperiod,
+så att den kan användas även i planeringen av den framtida utbildningen.
+1* — Bihancj till riksdagens protokoll 1966. 4 sand. Nr 926—929
+4
+Motioner i Andra kammaren, nr 928 år J966
+3. Med nuvarande handläggning av anslagsfrågorna ges få möjligheter
+för riksdagen att granska budgeten ur besparingssynpunkt. Därför bör en
+parlamentarisk översyn av statsutgifterna göras med jämna mellanrum i
+syfte att uppnå effektivitetsvinster och kostnadsbesparingar. Tiden är nu
+inne för en sådan parlamentarisk besparingsulredning.
+4. Den nuvarande omsättningsskatten bör ersättas med en konsumtionsneutral 
+och förenklad mervärdeskatt som stärker de svenska exportföretagens 
+konkurrenssituation gentemot utländska företag efter i huvudsak
+de riktlinjer som allmänna skatteberedningen angett. Samtidigt bör flertalet 
+punktskatter avvecklas. Lättnader bör åstadkommas i den personliga
+inkomstskatten genom sänkning av marginalskatterna och sänkt inkomstskatt 
+för lägre inkomster.
+5. Det enskilda sparandet bör stimuleras genom att regeringen ger hög
+prioritet åt kampen mot inflationen. Vidare bör skattelättnader medges för
+medel upp till ett bestämt maximibelopp, som sparats under viss tid på särskilt 
+konto eller för vissa särskilda ändamål. Med sikte på att stimulera det
+långfristiga sparandet bör tekniska förberedelser vidtagas genom riksgäldskontorets 
+försorg för att utge värdefasta obligationer.
+6. Konkurrensens värde för rationalisering, effektivitet och sänkta kostnader 
+i produktionen bör konsekvent tillvaratas. Detta gäller inte minst
+inom den kostnadskrävande byggnadssektorn. Kreditmarknaden göres mera
+enhetlig med bättre effektivitet och mera konkurrens som riktpunkter.
+Pris- och kartellnämnden ges tillräckliga resurser för en intensifierad prisövervakning.
+7. För att stärka medborgarnas förtroende för statsmakternas vilja och
+förmåga att med kraft och målmedvetenhet arbeta för penningvärdets försvar 
+bör samråd äga rum mellan företrädare för det allmänna, arbetsmarknadens 
+organisationer, näringslivet och fristående ekonomisk expertis. Sådana 
+samråd bör syfta till att påvisa de samhällsekonomiska förutsättningarna 
+för största möjliga reell inkomstförbättring för alla grupper och
+att klargöra att denna bäst uppnås genom att en allmän kostnadsuppressning 
+undvikes. Dessa samråd kan lämpligen äga rum vid återkommande
+rundabordskonferenser och förberedas i ett kontinuerligt arbetande ekonomisk^socialt 
+råd.
+Det ovan angivna är endast några sidor av en politik som söker målmedvetet 
+främja ekonomisk balans och snabba ekonomiska framsteg för att
+därigenom bl. a. skapa goda förutsättningar för en dämpning av inflationen.
+ Hit hör i övrigt bl. a. sådana åtgärder som ett mera energiskt stöd åt
+den vetenskapliga forskningen.
+Med hänvisning till ovan anförd motivering hemställes,
+att riksdagen vid sin behandling av Kungl. Maj :ts proposition 
+nr 125 måtte i skrivelse till Kungl. Maj :t begära
+en skattereform och andra åtgärder i syfte att åstadkomma
+Motioner i Andra kammaren, nr 928—929 år 1966
+5
+en stabil ekonomi, inriktad på att främja ekonomisk tillväxt 
+och hejda prisstegringarna, med utgångspunkt från det
+sjupunktsprogram som framlägges i motionen.
+Stockholm den 13 maj 1966
+Gunnar Hedlund (ep) Bertil Ohlin (fp)
+Nr 929
+Av herr Hermansson m. fl., f anledning av Kungl. Maj.ts proposition 
+nr 125, angående komplettering av riksstatsförslaget 
+för budgetåret 1966/67 m. m.
+(Lika lydande med motion nr 755 i första kammaren)
+Det finns anledning understryka finansministerns konstaterande i kompletteringen 
+till riksstatsförslaget att »kraven på stabiliseringspolitiken
+skärpts och en på den långsiktiga utvecklingen inriktad fördelning av resurserna 
+blir än mera nödvändig». Vilka nya samhälleliga åtgärder som
+därvidlag måste tillkomma blir oundvikligen den ekonomiska politikens
+huvudtema.
+Huvudorsaken till den pågående inflationen är en på den ekonomiska
+högkonjunkturen grundad spekulationsrush, där storkapitalets vinstintressen 
+är den styrande och avgörande kraften. Betydelsen av de samhälleliga 
+organens ekonomiska politik i stabiliserande syfte bör visst inte
+underskattas, men uppenbart är att denna inte förmått bemästra de med
+högkonjunkturen sammanhängande samhälleliga problemen. Detta aktualiserar 
+en omprövning av denna ekonomiska politik.
+Inflationens följdverkningar är bekanta och något försök till detaljerad
+analys av dessa skall inte här göras. Vi nöjer oss med att erinra om några av
+de väsentligaste. Låglönegruppernas situation är i mångt och mycket en följd
+av inflationen. Värdet av sociala förbättringar — i fråga om pensioner
+och andra trygghetsåtgärder — har förringats. Å andra sidan har vissa
+mindre grupper i samhället, särskilt de med arbetsfria inkomster, tillskansat 
+sig ökade realinkomster som ligger långt över genomsnittet för vanliga
+medborgare. Förmögenhetskoncentrationen har påskyndats. De ökade inkomst- 
+och förmögenhetsklyftorna i samhället är den ekonomiska utvecklingens 
+mindre tilltalande baksida.
+Under senare tid har ett nytt problem tillkommit — den bristande ba
+-
+kammare
+kammare
+Andra kammaren
+ER2O928
+2018-03-01 18:21:30
+riksdag
+riksdag
+tvåkammaren
+ER2O928
+2018-03-01 18:21:30
+session
+session
+lagtima
+ER2O928
+2018-03-01 18:21:30
+sidantal
+Antal sidor
+4
+ER2O928
+2018-03-01 18:21:30
+ER2O928
+Andra kammaren
+mot_1966__ak__928.pdf
+291670
+pdf
+Motioner i Andra kammaren, nr 928 år 1966
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1966/web_mot_1966__ak__928/mot_1966__ak__928.pdf

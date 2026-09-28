@@ -1,0 +1,89 @@
+p {
+ margin-top:2px;
+ margin-bottom:0;
+}
+div.dok p,span {
+ font-size:95%;
+ font-family:verdana;
+ white-space:nowrap;
+}
+div.sida {
+ border-bottom: 1px solid #ddd;
+ width:600px;
+ height:1100px;
+ position: relative;
+}
+div.block {
+ margin:2px;
+ display: inline-block;
+ position: absolute;
+}
+div.brask {
+ padding:5px 5px;
+ background:#eee;
+ border: 1px solid #999;
+ width:540px;
+}
+.linje {
+ height: 1px;border: 0;margin: 1em 0;padding: 0;border-top: 1px solid #ccc;
+ display: inline-block;
+ position: absolute;
+}
+.skannad, td {
+ border: 1px solid #eee;
+ padding: 1px;
+ margin: 0;
+ border-collapse: collapse;
+ white-space: nowrap;
+ text-align:center;
+ font-size:90%;
+}
+.RotatedCounterclockwise {
+ /* Safari */
+ -webkit-transform: rotate(-90deg);
+ /* Firefox */
+ -moz-transform: rotate(-90deg);
+ /* IE */
+ -ms-transform: rotate(-90deg);
+ /* Opera */
+ -o-transform: rotate(-90deg);
+ /* Internet Explorer */
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+Motioner i Andra kammaren, nr 347.
+/
+Nr 347.
+Av herr Ståhl m. fl., i anledning av Kungl. Maj.ts proposition,
+nr 82, angående anslag till stipendier åt lärjungar vid
+högre läroanstalter m. m.
+(Lika lydande med motion i Första kammaren nr 234.)
+Stockholm den 12 mars 1947.
+M. Ståhl. Bertil Ohlin. O. E. Sandberg.
+Einar Österman. Ruben Swedberg.
+kammare
+kammare
+Andra kammaren
+E82O347
+2018-03-02 20:39:52
+riksdag
+riksdag
+tvåkammaren
+E82O347
+2018-03-02 20:39:52
+session
+session
+lagtima
+E82O347
+2018-03-02 20:39:52
+sidantal
+Antal sidor
+1
+E82O347
+2018-03-02 20:39:52
+E82O347
+Andra kammaren
+mot_1947__ak__347.pdf
+111721
+pdf
+Motioner i Andra kammaren, nr 347
+https://weburn.kb.se/riks/tv%C3%A5kammarriksdagen/pdf/web/1947/web_mot_1947__ak__347/mot_1947__ak__347.pdf
