@@ -621,9 +621,44 @@ def _rd_voteringar(rm: str) -> pd.DataFrame | None:
     return None
 
 
+def _rd_kolumner(v: pd.DataFrame) -> pd.DataFrame:
+    """Bulkfilerna saknar ibland rubrikrad. Då blir första raden kolumnnamn; läs tillbaka
+    den som data och känn igen kolumnerna på innehållet."""
+    if "rost" in [str(c).lower() for c in v.columns]:
+        return v.rename(columns=str.lower)
+    forsta = pd.DataFrame([[re.sub(r"\.\d+$", "", str(c)) for c in v.columns]], columns=range(v.shape[1]))
+    v = pd.concat([forsta, v.set_axis(range(v.shape[1]), axis=1)], ignore_index=True).astype(str)
+    prov = v.head(2000)
+    test = {
+        "rost": lambda x: x.isin(["Ja", "Nej", "Avstår", "Frånvarande"]).mean() > 0.9,
+        "avser": lambda x: x.str.contains("sakfrågan|motivreservation", regex=True).mean() > 0.9,
+        "rm": lambda x: x.str.fullmatch(r"\d{4}/\d{2}").mean() > 0.9,
+        "votering_id": lambda x: x.str.fullmatch(r"[0-9A-Fa-f]{8}-[0-9A-Fa-f-]{27}").mean() > 0.9,
+        "datum": lambda x: x.str.match(r"\d{4}-\d{2}-\d{2}").mean() > 0.9,
+        "parti": lambda x: x.isin(["S", "M", "SD", "C", "V", "KD", "L", "MP", "FP", "-"]).mean() > 0.9,
+        "valkrets": lambda x: x.str.contains("län|kommun|Gotland", regex=True).mean() > 0.9,
+        "beteckning": lambda x: x.str.fullmatch(r"[A-ZÅÄÖ][A-Za-zåäö]*\d+").mean() > 0.9,
+        "kon": lambda x: x.isin(["man", "kvinna"]).mean() > 0.9,
+        "fodd": lambda x: x.str.fullmatch(r"19\d\d|20\d\d").mean() > 0.9,
+        "intressent_id": lambda x: x.str.fullmatch(r"\d{9,}").mean() > 0.9,
+        "namn": lambda x: x.str.fullmatch(r"[^\d]+ [^\d]+").mean() > 0.9,
+    }
+    namn = {}
+    for c in prov.columns:
+        for k, f in test.items():
+            if k not in namn.values() and f(prov[c]):
+                namn[c] = k
+                break
+    if "votering_id" in namn.values():   # punkten står direkt efter voterings-id
+        i = next(c for c, k in namn.items() if k == "votering_id")
+        if i + 1 in prov.columns and i + 1 not in namn:
+            namn[i + 1] = "punkt"
+    return v.rename(columns=namn)
+
+
 def _rd_aggregera(v: pd.DataFrame, rm: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Per votering och parti respektive per ledamot: antal ja, nej, avstår, frånvarande."""
-    v = v.rename(columns=str.lower)
+    v = _rd_kolumner(v)
     rost = v["rost"].str.lower().str.strip().map(
         {"ja": "ja", "nej": "nej", "avstår": "avstar", "frånvarande": "franvarande"})
     v = v.assign(r=rost).dropna(subset=["r"])

@@ -23,7 +23,7 @@ ORD = {
                     r"hushåll|konsument",
     "skatter": r"skatt|avdrag|mervärdesskatt|moms|tull",
     "invandring": r"migration|asyl|uppehållstillstånd|medborgarskap|utlänning|återvändande|utvisning|"
-                  r"förvar|familjeåterförening|arbetskraftsinvandring|flykting|integration|etablering",
+                  r"(?<!slut)förvar|familjeåterförening|arbetskraftsinvandring|flykting|integration|etablering",
     "valfard": r"socialtjänst|försörjningsstöd|ekonomiskt bistånd|sjukförsäkring|föräldraförsäkring|"
                r"lss|funktionsnedsättning|socialförsäkring|aktivitetsersättning",
     "bostad": r"bostad|hyres|plan- och bygg|byggande|bostadsrätt|lantmäteri",
@@ -46,14 +46,15 @@ UTSKOTT = {
 # Serien är andelen "bra förslag" (eller "satsa mer"), utom där serien själv är förslaget.
 OPINION = [
     ("farre_flyktingar", "invandring", r"(?i)färre flyktingar", r"(?i)^bra förslag", "Ta emot färre flyktingar",
-     r"(?i)migration|asyl|uppehållstillstånd|medborgarskap|återvändande|utvisning|förvar|familjeåterförening|"
+     r"(?i)migration|asyl|uppehållstillstånd|medborgarskap|återvändande|utvisning|(?<!slut)förvar|familjeåterförening|"
      r"arbetskraftsinvandring|utlänningslag"),
     ("sanka_skatt", "skatter", r"(?i)skatterna", r"(?i)^sänka skatterna", "Sänka skatterna",
      r"(?i)sänkt skatt|sänkt inkomstskatt|skattesänkning|sänkning av skatt|jobbskatteavdrag|skattereduktion"),
     ("hoja_skatt", "skatter", r"(?i)skatterna", r"(?i)^höja skatterna", "Höja skatterna",
      r"(?i)höjd skatt|höjning av skatt|skattehöjning|höjd energiskatt"),
     ("minska_forsvar", "forsvar", r"(?i)försvarsutgifterna", r"(?i)^bra förslag", "Minska försvarsutgifterna",
-     r"(?i)totalförsvar|försvarsbeslut|nato|försvarsmakt|värnplikt|civilt försvar|militär"),
+     r"(?i)totalförsvaret \d{4}|försvarsbeslut|utgiftsområde 6|medlemskap i nato|natomedlemskap|"
+     r"anslutning till nordatlantiska|försvarsanslag|ändringsbudget.*rikets militära försvar"),
     ("minska_bistand", "ekonomi", r"(?i)biståndet", r"(?i)^bra förslag", "Minska biståndet",
      r"(?i)bistånd|utvecklingssamarbete"),
     ("minska_offentlig", "ekonomi", r"(?i)offentliga sektorn", r"(?i)^bra förslag", "Minska den offentliga sektorn",

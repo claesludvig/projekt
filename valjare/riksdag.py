@@ -61,6 +61,9 @@ def dokument(mapp: Path) -> pd.DataFrame:
     if d.empty:
         return d
     d = d.drop_duplicates("dok_id")
+    # Regeringens skrivelser (t.ex. svar på Riksrevisionens rapporter) listas som prop i API:t
+    if "subtyp" in d:
+        d.loc[(d.doktyp == "prop") & (d.subtyp == "skr"), "doktyp"] = "skr"
     d["utskott"] = np.where(d.doktyp == "bet", d.beteckning.map(_utskott), None)
     d["fragor"] = [",".join(klassa(t, u)) for t, u in zip(d.titel, d.utskott)]
     d["url"] = d.dokument_url_html.fillna("").str.replace(r"^//", "https://", regex=True)
@@ -127,7 +130,7 @@ def aktivitet(dok: pd.DataFrame, bes: pd.DataFrame) -> pd.DataFrame:
     if a.empty:
         return a
     a = a.groupby(["rm", "fraga", "typ"]).size().unstack(fill_value=0).reset_index()
-    a = a.rename(columns={"prop": "propositioner", "bet": "betankanden"})
+    a = a.rename(columns={"prop": "propositioner", "bet": "betankanden", "skr": "skrivelser"})
     if not bes.empty:
         v = bes.assign(fraga=bes.fragor.fillna("").str.split(",")).explode("fraga")
         v = v[v.fraga != ""].groupby(["rm", "fraga"]).size().rename("voteringar").reset_index()
