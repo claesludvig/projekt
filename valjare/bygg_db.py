@@ -33,6 +33,8 @@ import valdistrikt as vdm
 import fragor
 import metod
 import lagesbild
+import norden as nordm
+from omraden import OMRADEN
 import riksdag
 import valkrets
 import verklighet
@@ -679,6 +681,7 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
     ut.update(webb_valkrets(tabeller))
     ut.update(webb_lage(tabeller))
     ut.update(webb_riksdag(tabeller))
+    ut.update(webb_omraden(tabeller))
     ut["evidens"] = {e[0]: {"avsnitt": e[1], "niva": e[2], "niva_text": metod.NIVAER[e[2]],
                             "sager": e[3], "sager_inte": e[4]} for e in metod.EVIDENS}
     kv = tabeller["kontroll"]
@@ -912,6 +915,30 @@ def webb_riksdag(t: dict[str, pd.DataFrame]) -> dict:
     return ut
 
 
+def webb_omraden(t: dict[str, pd.DataFrame]) -> dict:
+    n = t.get("norden", pd.DataFrame())
+    vk = t.get("verklighet", pd.DataFrame())
+    lb = t.get("lagesbild", pd.DataFrame())
+    finns_verk = set(vk.indikator.unique()) if len(vk) else set()
+    finns_lage = set(lb.id) if len(lb) else set()
+    finns_nord = set(n.id.unique()) if len(n) else set()
+    ut = {"omraden": [{**{k: o[k] for k in ("id", "namn", "fragor", "intro", "myndigheter", "luckor")},
+                       "sverige": [x for x in o["sverige"] if x in finns_verk],
+                       "saknas": [x for x in o["sverige"] if x not in finns_verk],
+                       "lage": [x for x in o["lage"] if x in finns_lage],
+                       "norden": [x for x in o["norden"] if x in finns_nord]} for o in OMRADEN]}
+    if len(n):
+        ut["norden"] = {}
+        for sid, d in n[n.ar_dec >= 2005].groupby("id"):
+            t_ = sorted(d.ar_dec.unique())
+            per = d.drop_duplicates("ar_dec").set_index("ar_dec").period
+            ut["norden"][sid] = {"namn": d.namn.iloc[0], "enhet": d.enhet.iloc[0], "t": [round(float(x), 3) for x in t_],
+                                 "p": [per[x] for x in t_],
+                                 "v": {g: [_r(x, 3) for x in dg.set_index("ar_dec").varde.reindex(t_)]
+                                       for g, dg in d.groupby("geo")}}
+    return ut
+
+
 def webb_lage(t: dict[str, pd.DataFrame]) -> dict:
     lb = t.get("lagesbild", pd.DataFrame())
     if lb.empty:
@@ -971,7 +998,10 @@ def main():
     print(f"  polisen {len(pol)}, kpi {len(kpi)}, valu-frågor {len(f_bet)}/{len(f_rang)}/{len(f_bast)}, "
           f"som {len(som_p)}, test bilar {len(t_bil)}, test skjutningar {len(t_skj)}")
     print("Verklighetsindikatorer")
-    verk, verk_f, verk_k = verklighet.bygg(scb, katalog(), DATA_DIR, f_bet, som_p, val, varningar, pol, kpi)
+    nord = nordm.bygg(DATA_DIR)
+    print(f"  Norden (Eurostat): {len(nord)} rader, {nord.id.nunique() if len(nord) else 0} serier")
+    verk, verk_f, verk_k = verklighet.bygg(scb, katalog(), DATA_DIR, f_bet, som_p, val, varningar, pol, kpi,
+                                           nordm.till_verklighet(nord))
     print(f"  {len(verk)} rader, {verk.indikator.nunique() if len(verk) else 0} indikatorer")
     print("Valkretsar")
     vk = valkrets.bygg(next((KALL_DIR / "xlsx").glob("val_radata_2026__preliminar-riksdagsval-utan*.xlsx"), None),
@@ -1003,7 +1033,7 @@ def main():
         "test_bilar": t_bil, "test_skjutningar": t_skj,
         "verklighet": verk, "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
-        **vk, **rd, "lagesbild": lb, "lagesbild_serie": lb_serie,
+        **vk, **rd, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),

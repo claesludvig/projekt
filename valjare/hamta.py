@@ -529,6 +529,39 @@ def hamta_riksbanken():
             logg["fel"].append(f"riksbanken {serie}: {exc}")
 
 
+# ---------- Eurostat (nordisk jämförelse) ----------
+
+EUROSTAT_API = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
+
+
+def hamta_eurostat():
+    from omraden import EUROSTAT, LANDER
+    ut_dir = DATA_DIR / "eurostat"
+    ut_dir.mkdir(parents=True, exist_ok=True)
+    for sid, ds, filt, namn, _ in EUROSTAT:
+        par = [("format", "JSON"), ("lang", "en"), ("sinceTimePeriod", "2000")]
+        par += [("geo", g) for g in LANDER] + list(filt.items())
+        try:
+            r = http("GET", f"{EUROSTAT_API}/{ds}", params=par)
+            if r.status_code != 200:
+                raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
+            df = jsonstat_till_df(r.json()).dropna(subset=["varde"])
+            # Dimensioner som inte låsts: välj totalvärdet, annars första värdet (loggas)
+            for d in [c for c in df.columns if c.endswith("_kod") and c[:-4] not in ("geo", "time", "freq")]:
+                koder = list(dict.fromkeys(df[d]))
+                if len(koder) > 1:
+                    val = next((k for k in koder if k in ("T", "TOTAL", "TOT", "TOT_X_EXT")), koder[0])
+                    logg["fel"].append(f"eurostat {sid}: {d[:-4]} ej låst, valde {val} av {koder[:6]}")
+                    df = df[df[d] == val]
+            ut = pd.DataFrame({"geo": df["geo_kod"], "tid": df["time_kod"], "varde": df["varde"]})
+            ut.to_csv(ut_dir / f"{sid}.csv", index=False)
+            logg.setdefault("eurostat", []).append({"id": sid, "dataset": ds, "rader": len(ut)})
+            print(f"  Eurostat {sid} ({ds}): {len(ut)} rader")
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"eurostat {sid} {ds}: {exc}")
+            print(f"  Eurostat {sid}: fel {exc}")
+
+
 # ---------- Riksdagen (data.riksdagen.se) ----------
 
 RD_API = "https://data.riksdagen.se"
@@ -801,6 +834,7 @@ def main():
         hamta_kolada()
         hamta_riksbanken()
         hamta_varldsbanken()
+        hamta_eurostat()
     if a.steg in ("alla", "geo"):
         hamta_geodata()
     if a.steg in ("alla", "riksdagen", "vecka"):

@@ -51,6 +51,10 @@ EVIDENS = [
      "Om besluten orsakade utvecklingen eller om de gick i opinionens riktning; kopplingen mellan förslag, "
      "beslut och sakfråga bygger på ord i rubriken och på utskottet och kan både missa och felklassa ärenden. "
      "SOM-värdena är andelen som tycker att förslaget är bra, inte en majoritetsomröstning."),
+    ("omraden", "Områdena", "beskrivande",
+     "Utveckling, kapacitet och mål per område i Sverige, jämfört med de nordiska grannländerna och EU-snittet.",
+     "Varför länderna skiljer sig. Definitioner och registrering skiljer sig mellan länder (särskilt för brott), "
+     "och en högre eller lägre nivå är inte i sig bättre eller sämre. Kunskapsluckorna står uttryckligen per område."),
     ("sammansattning", "Vilka röstar på partierna", "beskrivande",
      "Hur partiernas väljare fördelar sig på grupper enligt Valforskningsprogrammet och PSU.",
      "PSU mäter sympati i maj/november, inte röster. Gruppernas storlek i PSU är skattad "

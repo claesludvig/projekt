@@ -301,10 +301,10 @@ def fran_fragor(pol: pd.DataFrame, kpi: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
-def bygg(scb, katalog, data_dir, betydelse, som, val, varningar, pol=None, kpi=None):
+def bygg(scb, katalog, data_dir, betydelse, som, val, varningar, pol=None, kpi=None, norden=None):
     extra = fran_fragor(pol if pol is not None else pd.DataFrame(), kpi if kpi is not None else pd.DataFrame())
     delar = [d for d in (kolada(data_dir), scb_serier(scb, katalog, varningar), riksbanken(data_dir),
-                         varldsbanken(data_dir), extra)
+                         varldsbanken(data_dir), extra, norden if norden is not None else pd.DataFrame())
              if not d.empty]
     v = pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
     if v.empty:

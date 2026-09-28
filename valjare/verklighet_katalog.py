@@ -107,9 +107,6 @@ SCB_SERIER = [
      "val": {"Alder": "0 år", "Kon": "män"}, "innehall": r"."},
     {"fraga": "jamstalldhet", "namn": "Kvinnors lön i procent av mäns", "tabell": "TAB5124",
      "val": {}, "innehall": r"."},
-    {"fraga": "forsvar", "namn": "Offentliga utgifter för försvar, % av BNP (COFOG)",
-     "tabell": r"(?i)offentliga sektorns utgifter.*funktion", "val": {"~(?i)funktion|cofog": "~(?i)^(02|försvar)"},
-     "innehall": r"(?i)procent av BNP|andel av BNP|% av BNP"},
     {"fraga": "energi", "namn": "Elproduktion, kärnkraft (GWh/mån)", "tabell": "TAB78",
      "val": {"ProdAnv": "kärnkraft (kondens), netto ", "Elomrade": ["SE1", "SE2", "SE3", "SE4"]},
      "innehall": r"."},
@@ -151,6 +148,11 @@ MAL = {
                                        (3.5, 2035, "Natos mål från Haag 2025: 3,5 % kärnförsvar")],
          "kalla": "Natoåtagandet (Sverige medlem sedan 2024)",
          "not": "SIPRI räknar försvarsutgifter annorlunda än Nato; nivåerna är inte helt jämförbara."},
+    "Offentliga utgifter för försvar, % av BNP (COFOG)":
+        {"riktning": "hogre", "niva": [(2.0, 2024, "Natos riktmärke 2 %"),
+                                       (3.5, 2035, "Natos mål från Haag 2025: 3,5 % kärnförsvar")],
+         "kalla": "Natoåtagandet (Sverige medlem sedan 2024)",
+         "not": "COFOG räknar försvarsutgifter annorlunda än Nato; nivåerna är inte helt jämförbara."},
     "Förnybar energi, % av slutlig energianvändning":
         {"riktning": "hogre", "niva": [(65, 2030, "Sveriges bidrag till EU:s förnybartmål"),
                                        (50, 2020, "riksdagens mål 2020")],

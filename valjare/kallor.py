@@ -95,7 +95,6 @@ SCB_SOK = [
         ("återstående medellivslängd kön ålder", r"(?i)medellivslängd", 2, r"(?i)kommun|län|utbildning|födelse"),
         ("kvinnors lön i procent av mäns lön sektor", r"(?i)kvinnors lön", 3, None),
         ("elproduktion kärnkraft", r"(?i)elproduktion|elenergi", 1, None),
-        ("offentliga sektorns utgifter funktion COFOG", r"(?i)offentliga sektorns utgifter.*funktion", 2, r"(?i)kvartal|kommun|region"),
     ]],
     # --- Månads- och kvartalsserier för lägesbilden (lagesbild.py)
     *[{"tema": "manad", "sok": q, "rubrik": r"(?i)konkurs.*månad", "region": "riket", "max_celler": 200_000,
