@@ -17,7 +17,7 @@ rFurn=re.compile(r'^(?:\d+|Nr \d+\.?|(?:Första|Andra) kammarens protokoll.*|'+D
 TITLES=r'(?:Herr|Hans excellens|Chefen för \w+,? (?:herr|lierr|hem) statsrådet|Fru|Fröken|Hans excellens|Hennes excellens|Statsrådet|Talmannen|Herr talmannen|Förste vice talmannen|Andre vice talmannen|Tredje vice talmannen|Chefen för)'
 rSpk=re.compile(r'^'+TITLES+r'\s[^:.!?]{0,130}?(?::|yttrade:|anförde:)')
 rForts=re.compile(r'\((?:F|f)orts\.?\)\.?$')
-rOhlin=re.compile(r'^Herr (?:OHLIN|Ohlin)\b')
+rOhlin=re.compile(r'^(?:Herr (?:statsrådet )?(?:OHLIN|Ohlin)\b|Chefen för handelsdepartementet,? (?:herr )?statsrådet (?:OHLIN|Ohlin)\b)')
 rSec=re.compile(r'^§ ?(\d+)\.?$')
 rPunkt=re.compile(r'^Punkt(?:en|erna) [\d—–-]+')
 rEnd=re.compile(r'^(?:§ ?\d+\.?$|Överläggningen (?:var|förklarades)|Efter slutad överläggning|Punkt(?:en|erna) [\d—–-]+\.?$|Propositioner? (?:gavs|gåvos|framställdes)|Vad utskottet (?:i punkten )?hemställt bifölls|Kammaren (?:biföll|beslöt))')
@@ -48,7 +48,7 @@ def proc(fn):
             sec=l; sect=raw[i+1:i+4]; punkt=''
         elif rPunkt.match(l):
             punkt=join(raw[i:i+2])
-        if cur is None and rSpk.match(l3) and rOhlin.match(l):
+        if cur is None and rSpk.match(l3) and rOhlin.match(l3):
             cur={'lines':[l],'date':date or hdr_date,'sec':sec,'topic':join(sect),'punkt':punkt}
         elif cur is not None:
             cur['lines'].append(l)
@@ -60,6 +60,7 @@ def proc(fn):
     for k,c in enumerate(out):
         t=join(c['lines']); head=t[:120]
         typ='kort genmäle' if re.search(r'genmäle|replik',head[:60],re.I) else 'anförande'
+        if re.match(r'(?:Herr statsrådet|Chefen för handelsdepartementet)',head): typ='som statsråd'
         res.append({'dok_id':did,'n':k+1,'rm':meta['rm'],'kammare':meta['undertitel'],'datum':(c['date'] if c['date'] and abs(int(c['date'][:4])-y)<=1 else hdr_date),'paragraf':c['sec'],
             'arende':c['topic'][:300],'punkt':c['punkt'][:200],'typ':typ,'ord':len(t.split()),'text':t,
             'url':f"https://data.riksdagen.se/dokument/{did}.html"})

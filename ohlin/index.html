@@ -119,6 +119,7 @@ footer a{color:var(--accent)}
             <option value="">Alla inlägg</option>
             <option value="a">Anföranden</option>
             <option value="g">Korta genmälen</option>
+            <option value="s">Som handelsminister 1944–45</option>
           </select>
         </div>
       </fieldset>
@@ -141,14 +142,15 @@ footer a{color:var(--accent)}
 
     <main>
       <div class="bar-res" id="resHead"></div>
-      <div class="list" id="list"><div class="status">Läser in 1 890 inlägg (cirka 13 MB) …</div></div>
+      <div class="list" id="list"><div class="status">Läser in 1 913 inlägg (cirka 13 MB) …</div></div>
       <button class="more" id="more" type="button" hidden>Visa fler</button>
     </main>
   </div>
 
   <footer>
     <span>Källa: <a href="https://data.riksdagen.se" target="_blank" rel="noopener">Riksdagens öppna data</a>. Protokollen är inskannade och OCR-tolkade, så enstaka ord kan vara fellästa. Citera därför från det tryckta protokollet, som du når via länken vid varje inlägg.</span>
-    <span>Ett inlägg räknas från talarraden (”Herr OHLIN (fp):”) till nästa talare. Ärenderubriken är den närmast föregående paragrafen i protokollet och kan vara ungefärlig. Ohlin satt i första kammaren 1938–1944 och i andra kammaren 1945–1970. Han var Folkpartiets ordförande 1944–1967.</span>
+    <span>Läs också <a href="https://claude.ai/artifact/WCoHNsqEGTwHNyYeYgKpWB" target="_blank" rel="noopener">Ohlin om staten och politiken</a>, en genomgång av vad han sade om statens roll, folkpartiet och det politiska arbetets former.</span>
+    <span>Ett inlägg räknas från talarraden (”Herr OHLIN (fp):”) till nästa talare. Inläggen som handelsminister 1944–45 (”Herr statsrådet Ohlin”) är med. Ärenderubriken är den närmast föregående paragrafen i protokollet och kan vara ungefärlig. Ohlin satt i första kammaren 1938–1944 och i andra kammaren 1945–1970. Han var Folkpartiets ordförande 1944–1967.</span>
   </footer>
 </div>
 
@@ -216,7 +218,7 @@ function renderList(){
     <article>
       <div class="meta"><span class="date">${fmtDate(r.d)}</span>
         <span>${r.k==='FK'?'Första kammaren':'Andra kammaren'}</span>
-        <span class="pill ${r.t}">${r.t==='g'?'Kort genmäle':'Anförande'}</span>
+        <span class="pill ${r.t}">${r.t==='g'?'Kort genmäle':r.t==='s'?'Som statsråd':'Anförande'}</span>
         <span>${nf.format(r.o)} ord</span>${ts.length?`<span>${h} träff${h===1?'':'ar'}</span>`:''}</div>
       ${r.a?`<h2>${esc(r.a)}</h2>`:''}
       <p class="snip" id="s${r.id}">${snippet(r,i,ts)}</p>
@@ -284,7 +286,7 @@ function init(d){
       else{p.className='full';p.innerHTML=highlight(r.x,current.ts);b.textContent='Visa bara utdrag'}
       b.setAttribute('aria-expanded',!open)}
     if(b.dataset.copy){const r=D.inlagg.find(x=>x.id===+b.dataset.copy);
-      const txt=`Bertil Ohlin, ${r.t==='g'?'kort genmäle':'anförande'} i ${r.k==='FK'?'första':'andra'} kammaren ${fmtDate(r.d)}${r.a?', '+r.a:''}. Riksdagens protokoll, https://data.riksdagen.se/dokument/${r.p}.html`;
+      const txt=`Bertil Ohlin, ${r.t==='g'?'kort genmäle':r.t==='s'?'anförande som handelsminister':'anförande'} i ${r.k==='FK'?'första':'andra'} kammaren ${fmtDate(r.d)}${r.a?', '+r.a:''}. Riksdagens protokoll, https://data.riksdagen.se/dokument/${r.p}.html`;
       const done=()=>{b.textContent='Kopierad';setTimeout(()=>b.textContent='Kopiera källhänvisning',1600)};
       navigator.clipboard?navigator.clipboard.writeText(txt).then(done,()=>{b.textContent=txt}):(b.textContent=txt)}
   });

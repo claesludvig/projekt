@@ -18,7 +18,7 @@ def ärende(r):
 
 ut = {'teman': TEMAN, 'inlagg': [{
     'id': r['id'], 'd': r['datum'], 'k': 'FK' if r['kammare'].startswith('Första') else 'AK',
-    't': 'g' if r['typ'] == 'kort genmäle' else 'a', 'o': r['ord'], 'a': ärende(r),
+    't': {'kort genmäle': 'g', 'som statsråd': 's'}.get(r['typ'], 'a'), 'o': r['ord'], 'a': ärende(r),
     'te': [TEMAN.index(t) for t in r['teman']], 'p': r['dok_id'], 'x': r['text']} for r in R]}
 json.dump(ut, open(os.path.join(DATA, 'inlagg-webb.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
 print(len(R), 'inlägg,', os.path.getsize(os.path.join(DATA, 'inlagg-webb.json')) // 1000, 'kB')

@@ -3,7 +3,8 @@
 Ett sökbart register över Bertil Ohlins inlägg i riksdagens första och andra kammare
 1938–1970, hämtade ur riksdagens digitaliserade protokoll ([data.riksdagen.se](https://data.riksdagen.se)).
 
-- **1 890 inlägg**: 1 124 anföranden och 766 korta genmälen, sammanlagt cirka 1,9 miljoner ord.
+- **1 913 inlägg**: 1 129 anföranden, 772 korta genmälen och 12 anföranden som handelsminister 1944–45,
+  sammanlagt cirka 1,9 miljoner ord.
 - Inläggen kommer ur **513 protokoll**. Totalt har 1 351 protokoll som nämner Ohlin genomsökts.
 - Ohlin satt i första kammaren 1938–1944 och i andra kammaren 1945–1970.
 
@@ -17,6 +18,16 @@ python3 -m http.server  # öppna sedan http://localhost:8000/index.html
 ```
 
 `hamta.py` kräver att miljön når `data.riksdagen.se`.
+
+## Analys: Ohlin om staten och politiken
+
+`analys/` innehåller en tematisk genomgång av vad Ohlin sade om staten, folkpartiet, organisationerna,
+författningen och villkoren för politisk förändring (`analys/staten.html`).
+
+```
+python3 analys/verifiera.py    # kontrollerar att varje citat i analys/citat.py finns i inläggen
+python3 analys/bygg_analys.py  # bygger analys/staten.html (avbryter om något citat saknas)
+```
 
 ## Metod och begränsningar
 
