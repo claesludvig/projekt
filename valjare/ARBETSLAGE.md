@@ -83,7 +83,9 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
 1. Mediebarometerns fullständiga rapport (DiVA diva2:2056759, FULLTEXT05.pdf) har räckvidd per plattform och
    ålder; lägg in den i `kallor.DOKUMENT` och tolka den i CI, där DiVA går att nå.
 2. SOM: förtroende för medier efter partisympati skulle koppla medieanvändningen till partierna.
-3. Granska första körningen med Wikipedia, GDELT och Eurostat `vantan`/`fangar`.
+3. GDELT: körning 39 gav 0 rader (HTTP 429 och tomma svar för `sourcelang:swedish`). Hämtningen väntar nu
+   20–140 s och försöker igen. Ger nästa körning fortfarande inget: byt till GDELT:s ngram-data eller stryk källan.
+   Wikipedia (2 059 månadsvärden) och Eurostat `vantan` (WLIST) och `fangar` (crim_pris_cap) fungerar.
 
 ## Att tänka på
 

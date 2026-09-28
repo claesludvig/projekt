@@ -876,15 +876,21 @@ def hamta_gdelt():
     slut = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
     for parti, namn in GOOGLE_SOK.items():
         for mode, matt in (("timelinevolraw", "artiklar"), ("timelinetone", "ton")):
-            time.sleep(6)
             try:
-                svar = http("GET", GDELT, params={"query": f'"{namn}" sourcelang:swedish', "mode": mode,
-                                                  "format": "json", "startdatetime": "20170101000000",
-                                                  "enddatetime": slut, "timelinesmooth": 0})
+                # GDELT begränsar per IP-adress, och GitHubs maskiner delar adresser: vänta och försök igen
+                for forsok in range(4):
+                    time.sleep(20 + 40 * forsok)
+                    svar = http("GET", GDELT, params={"query": f'"{namn}" sourcelang:swedish', "mode": mode,
+                                                      "format": "json", "startdatetime": "20170101000000",
+                                                      "enddatetime": slut, "timelinesmooth": 0})
+                    if svar.status_code != 429 and not svar.text.startswith("Please limit"):
+                        break
                 try:
                     j = svar.json()
                 except ValueError:
                     raise RuntimeError(svar.text[:200].replace("\n", " ")) from None
+                if not j.get("timeline"):
+                    raise RuntimeError("tomt svar (inga svenskspråkiga träffar)")
                 for serie in j.get("timeline", []):
                     for d in serie.get("data", []):
                         rader.append({"parti": parti, "matt": matt, "dag": str(d.get("date", ""))[:8],
