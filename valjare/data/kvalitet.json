@@ -1,10 +1,9 @@
 {
  "skapad": "2026-09-28",
- "status": "fel",
+ "status": "varning",
  "antal": {
   "ok": 197,
-  "varning": 3,
-  "fel": 1
+  "varning": 3
  },
  "kontroller": [
   {
@@ -1502,14 +1501,6 @@
    "status": "ok",
    "detalj": "1571 rader (förra 1571)",
    "varde": 1571.0
-  },
-  {
-   "grupp": "volym",
-   "id": "rader_varningar",
-   "beskrivning": "Tabell varningar",
-   "status": "fel",
-   "detalj": "1 rader mot 2 förra körningen (-50 %)",
-   "varde": 1.0
   },
   {
    "grupp": "volym",

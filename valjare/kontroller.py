@@ -77,7 +77,7 @@ def volym(t: dict, bas: dict) -> list[dict]:
     for namn, df in t.items():
         n = len(df)
         forra = bas.get(namn)
-        if forra is None:
+        if forra is None or namn in ("varningar", "kvalitet"):   # färre varningar är inget fel
             continue
         if forra > 0 and n == 0:
             ut.append(_k("volym", f"rader_{namn}", f"Tabell {namn}", "fel", f"tom, förra körningen {forra} rader", n))

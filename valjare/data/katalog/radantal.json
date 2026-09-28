@@ -24,10 +24,10 @@
  "som_samhallsproblem": 663,
  "test_bilar": 24,
  "test_skjutningar": 112,
- "verklighet": 13445,
- "verklighet_indikator": 99,
+ "verklighet": 13521,
+ "verklighet_indikator": 100,
  "verklighet_kommunvarden": 240175,
- "verklighet_forandring": 255,
+ "verklighet_forandring": 259,
  "verklighet_kommun": 1312,
  "valdistrikt_2026": 6312,
  "valdistrikt_tiondel": 1080,
@@ -58,6 +58,6 @@
  "lagesbild_serie": 2741,
  "evidensniva": 14,
  "kontroll": 1571,
- "varningar": 2,
+ "varningar": 1,
  "licens": 12
 }

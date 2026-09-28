@@ -1,10 +1,6 @@
 ## Väljardatabasen: kvalitetskontroll 2026-09-28
 
-**Fel som behöver åtgärdas.**
-
-### Fel (1)
-
-- **Tabell varningar** (volym): 1 rader mot 2 förra körningen (-50 %)
+**Varningar.**
 
 ### Varning (3)
 
@@ -12,4 +8,4 @@
 - **Årsserie: Återinskrivning inom 30 dagar, 65+ (%)** (aktualitet): senaste år 2022
 - **Varning vid tolkning** (tolkning): valu_rd_2014_2018 s.18: kunde inte tolka 'obligatorisk skola 5 37 2 6 3 6 14 27 0 ~100'
 
-197 av 201 kontroller är ok.
+197 av 200 kontroller är ok.
