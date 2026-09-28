@@ -934,7 +934,10 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
     fl = t.get("media_foljare", pd.DataFrame())
     if len(nu):
         ut["foljare"] = {"nu": [{"parti": r.parti, "roll": r.roll, "namn": r.namn, "plattform": r.plattform,
-                                 "datum": str(r.datum)[:10], "foljare": int(r.foljare)} for r in nu.itertuples()],
+                                 "datum": str(r.datum)[:10], "foljare": int(r.foljare), "kalla": r.kalla,
+                                 "konto": str(r.konto), "verifierad": None if pd.isna(getattr(r, "verifierad", None))
+                                 else bool(r.verifierad)} for r in nu.itertuples()],
+                         "ej_matbara": ["Instagram", "Facebook", "X", "Threads"],
                          "serie": {f"{p}|{roll}|{pl}": {"d": [str(x)[:10] for x in d.datum], "v": [int(x) for x in d.foljare]}
                                    for (p, roll, pl), d in fl.groupby(["parti", "roll", "plattform"]) if len(d) > 1}}
     om = t.get("media_omnamnanden", pd.DataFrame())
@@ -962,6 +965,10 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
         ar = sorted(an.ar.unique())
         ut["annonser"] = {"ar": [int(a) for a in ar], "valuta": an.valuta.iloc[0],
                           "v": {p: [_r(x, 0) for x in d.set_index("ar").utgift.reindex(ar)] for p, d in an.groupby("parti")}}
+    from media_katalog import FORSKNING, MEDIEBAROMETERN, POLITIKNYHETER_ALDER
+    ut["mediebarometern"] = MEDIEBAROMETERN
+    ut["politiknyheter_alder"] = POLITIKNYHETER_ALDER
+    ut["forskning_media"] = FORSKNING
     wp = t.get("media_wikipedia", pd.DataFrame())
     if len(wp):
         man = sorted(wp.manad.unique())

@@ -62,12 +62,28 @@ Sidan (avsnitt 5): Wikipedia-intresse (parti/partiledare, antal/andel), nyhetsan
 sakfrågetabell och aktivitetstabell. Webbnyckeln heter `rd_partiaktivitet` (`rd_aktivitet` är upptagen av
 propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fungerar i 390 px.
 
+## Följare, medieanvändning och forskning (kväll 28/9)
+
+- Följarvärden från Wikidata var från 2018–2023 och är borttagna från sidan: bara värden från det senaste
+  året visas (`media.AKTUELL_DAGAR`). Wikidata används nu för att hitta kontona (`data/media/konton.csv`).
+- `hamta_foljare_matt` (körs dagligen i `--steg media`) mäter följare direkt: YouTube (kanalsidan, avrundat),
+  TikTok (profilsidans JSON, med verifieringsflagga), Bluesky (öppet API), Mastodon (öppet API).
+  → `data/media/foljare_matt.csv`, en rad per konto och dag. TikTok-konton som saknas i Wikidata står i
+  `media_katalog.KONTON_EXTRA` (kontrollerade 28/9; L:s partikonto och S-ledarens hittades inte).
+  Instagram, Facebook, Threads och X kräver inloggning eller betald åtkomst och mäts inte.
+- Wikidata: etiketten `mul` används som reserv (Ulf Kristersson saknar sv-etikett).
+- `media_katalog.MEDIEBAROMETERN` (Nordicom 2025, ur seminariebilderna 5 maj 2026),
+  `POLITIKNYHETER_ALDER` (SOM/Mediemyndigheten 2025) och `FORSKNING` (RJ P21-0158, Ekman & Widholm 2024 x2)
+  visas i avsnitt 5 ("Var finns publiken?" och "Forskningen").
+- Nätet fungerar nu från Claude-miljön för de flesta källor (riksdagen, Wikidata, TikTok, YouTube, Bluesky,
+  Nordicom), men inte DiVA, och Wikimedia och GDELT svarade 429 härifrån.
+
 ## Nästa steg
 
-1. Granska första körningen: fick GDELT och Wikimedia svar (se `fel` i hamtloggen)? Rimliga nivåer?
-   Om GDELT inte godtar `sourcelang:swedish`, prova `sourcelang:swe` eller `sourcecountry:SW`.
-2. Läs kodlistan för Eurostat `vantan` och `fangar` i hamtloggen och rätta filtren i `omraden.EUROSTAT`.
-3. Brå (uppklaring, lagföring) och Kriminalvården (beläggning) saknas fortfarande i `data/kallor`.
+1. Mediebarometerns fullständiga rapport (DiVA diva2:2056759, FULLTEXT05.pdf) har räckvidd per plattform och
+   ålder; lägg in den i `kallor.DOKUMENT` och tolka den i CI, där DiVA går att nå.
+2. SOM: förtroende för medier efter partisympati skulle koppla medieanvändningen till partierna.
+3. Granska första körningen med Wikipedia, GDELT och Eurostat `vantan`/`fangar`.
 
 ## Att tänka på
 

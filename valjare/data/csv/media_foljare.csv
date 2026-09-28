@@ -1,64 +1,90 @@
-parti,roll,qid,namn,plattform,konto,datum,foljare,rang
-MP,partiledare,Q24018140,Amanda Lind,X,370900852,2018-05-10,1372.0,normal
-MP,parti,Q213451,Miljöpartiet,X,18124359,2018-05-10,81902.0,normal
-SD,parti,Q504069,Sverigedemokraterna,X,97878686,2018-05-10,61805.0,normal
-M,parti,Q110843,Moderaterna,X,1113732522842710016,2018-05-10,96655.0,normal
-KD,partiledare,Q4941329,Ebba Busch,X,1407151866,2020-04-19,89235.0,normal
-KD,parti,Q213654,Kristdemokraterna,X,19014898,2020-04-21,54965.0,normal
-SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2020-04-21,93618.0,normal
-L,parti,Q110857,Liberalerna,X,18687011,2020-04-22,74302.0,normal
-V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2020-04-22,9988.0,normal
-V,parti,Q110837,Vänsterpartiet,X,17233550,2020-04-24,75154.0,normal
-S,parti,Q105112,Socialdemokraterna,X,3801501,2020-04-24,92521.0,normal
-S,partiledare,Q4935873,Magdalena Andersson,X,499854916,2020-06-16,2733.0,normal
-S,partiledare,Q4935873,Magdalena Andersson,X,499854916,2021-01-01,2810.0,preferred
-KD,partiledare,Q4941329,Ebba Busch,X,1407151866,2021-01-02,98552.0,normal
-V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2021-01-03,24515.0,normal
-L,parti,Q110857,Liberalerna,X,18687011,2021-01-04,76639.0,normal
-MP,parti,Q213451,Miljöpartiet,X,18124359,2021-01-04,92191.0,normal
-S,parti,Q105112,Socialdemokraterna,X,3801501,2021-01-05,98847.0,normal
-SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2021-01-07,103722.0,normal
-MP,partiledare,Q24018140,Amanda Lind,X,370900852,2021-01-07,6148.0,preferred
-V,parti,Q110837,Vänsterpartiet,X,17233550,2021-01-08,80673.0,normal
-KD,parti,Q213654,Kristdemokraterna,X,19014898,2021-01-10,58603.0,normal
-SD,parti,Q504069,Sverigedemokraterna,X,97878686,2021-01-10,92933.0,normal
-C,parti,Q110832,Centerpartiet,X,3796501,2021-01-10,62750.0,normal
-SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2021-11-17,57800.0,normal
-KD,partiledare,Q4941329,Ebba Busch,X,1407151866,2022-01-08,116468.0,normal
-S,parti,Q105112,Socialdemokraterna,X,3801501,2022-02-20,109041.0,normal
-V,parti,Q110837,Vänsterpartiet,X,17233550,2022-02-21,88768.0,normal
-L,parti,Q110857,Liberalerna,X,18687011,2022-02-21,81141.0,normal
-V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2022-02-24,49261.0,normal
-SD,parti,Q504069,Sverigedemokraterna,X,97878686,2022-02-25,103926.0,normal
-KD,parti,Q213654,Kristdemokraterna,X,19014898,2022-02-27,64970.0,normal
-C,parti,Q110832,Centerpartiet,X,3796501,2022-02-27,67171.0,normal
-SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2022-03-01,119271.0,normal
-MP,parti,Q213451,Miljöpartiet,X,18124359,2022-03-01,96533.0,normal
-KD,partiledare,Q4941329,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,2022-03-09,5010.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2022-06-29,9260.0,normal
-V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2022-11-02,5030.0,normal
-V,parti,Q110837,Vänsterpartiet,X,17233550,2023-02-03,98800.0,preferred
-C,parti,Q110832,Centerpartiet,X,3796501,2023-02-03,72487.0,preferred
-SD,parti,Q504069,Sverigedemokraterna,X,97878686,2023-02-03,134851.0,preferred
-V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2023-02-04,72257.0,preferred
-S,parti,Q105112,Socialdemokraterna,X,3801501,2023-02-04,114541.0,preferred
-L,parti,Q110857,Liberalerna,X,18687011,2023-02-05,89021.0,preferred
-KD,parti,Q213654,Kristdemokraterna,X,19014898,2023-02-06,75553.0,preferred
-SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2023-02-10,155960.0,preferred
-MP,parti,Q213451,Miljöpartiet,X,18124359,2023-02-10,102427.0,preferred
-KD,partiledare,Q4941329,Ebba Busch,X,1407151866,2023-02-10,187824.0,preferred
-KD,partiledare,Q4941329,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,2023-02-17,6850.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2023-02-17,12000.0,normal
-SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2023-02-17,77400.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2023-05-31,13400.0,normal
-V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2024-01-13,5620.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2024-01-14,16400.0,normal
-SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2024-01-15,87100.0,normal
-KD,partiledare,Q4941329,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,2024-02-17,6760.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2024-06-02,18100.0,normal
-V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2025-02-01,5900.0,preferred
-SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2025-02-01,95200.0,preferred
-KD,partiledare,Q4941329,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,2025-02-22,6870.0,preferred
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-05-11,21500.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-08-24,35100.0,normal
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-10-04,39100.0,preferred
+datum,parti,roll,namn,plattform,konto,foljare,verifierad,kalla,qid,rang
+2018-05-10,M,parti,Moderaterna,X,1113732522842710016,96655.0,,Wikidata,Q110843,normal
+2018-05-10,SD,parti,Sverigedemokraterna,X,97878686,61805.0,,Wikidata,Q504069,normal
+2018-05-10,MP,parti,Miljöpartiet,X,18124359,81902.0,,Wikidata,Q213451,normal
+2018-05-10,MP,partiledare,Amanda Lind,X,370900852,1372.0,,Wikidata,Q24018140,normal
+2020-04-19,KD,partiledare,Ebba Busch,X,1407151866,89235.0,,Wikidata,Q4941329,normal
+2020-04-21,SD,partiledare,Jimmie Åkesson,X,95972673,93618.0,,Wikidata,Q518776,normal
+2020-04-21,KD,parti,Kristdemokraterna,X,19014898,54965.0,,Wikidata,Q213654,normal
+2020-04-22,V,partiledare,Nooshi Dadgostar,X,282532238,9988.0,,Wikidata,Q18238235,normal
+2020-04-22,L,parti,Liberalerna,X,18687011,74302.0,,Wikidata,Q110857,normal
+2020-04-24,S,parti,Socialdemokraterna,X,3801501,92521.0,,Wikidata,Q105112,normal
+2020-04-24,V,parti,Vänsterpartiet,X,17233550,75154.0,,Wikidata,Q110837,normal
+2020-06-16,S,partiledare,Magdalena Andersson,X,499854916,2733.0,,Wikidata,Q4935873,normal
+2021-01-01,S,partiledare,Magdalena Andersson,X,499854916,2810.0,,Wikidata,Q4935873,preferred
+2021-01-02,KD,partiledare,Ebba Busch,X,1407151866,98552.0,,Wikidata,Q4941329,normal
+2021-01-03,V,partiledare,Nooshi Dadgostar,X,282532238,24515.0,,Wikidata,Q18238235,normal
+2021-01-04,L,parti,Liberalerna,X,18687011,76639.0,,Wikidata,Q110857,normal
+2021-01-04,MP,parti,Miljöpartiet,X,18124359,92191.0,,Wikidata,Q213451,normal
+2021-01-05,S,parti,Socialdemokraterna,X,3801501,98847.0,,Wikidata,Q105112,normal
+2021-01-07,SD,partiledare,Jimmie Åkesson,X,95972673,103722.0,,Wikidata,Q518776,normal
+2021-01-07,MP,partiledare,Amanda Lind,X,370900852,6148.0,,Wikidata,Q24018140,preferred
+2021-01-08,V,parti,Vänsterpartiet,X,17233550,80673.0,,Wikidata,Q110837,normal
+2021-01-10,SD,parti,Sverigedemokraterna,X,97878686,92933.0,,Wikidata,Q504069,normal
+2021-01-10,C,parti,Centerpartiet,X,3796501,62750.0,,Wikidata,Q110832,normal
+2021-01-10,KD,parti,Kristdemokraterna,X,19014898,58603.0,,Wikidata,Q213654,normal
+2021-11-17,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,57800.0,,Wikidata,Q504069,normal
+2022-01-08,KD,partiledare,Ebba Busch,X,1407151866,116468.0,,Wikidata,Q4941329,normal
+2022-02-20,S,parti,Socialdemokraterna,X,3801501,109041.0,,Wikidata,Q105112,normal
+2022-02-21,V,parti,Vänsterpartiet,X,17233550,88768.0,,Wikidata,Q110837,normal
+2022-02-21,L,parti,Liberalerna,X,18687011,81141.0,,Wikidata,Q110857,normal
+2022-02-24,V,partiledare,Nooshi Dadgostar,X,282532238,49261.0,,Wikidata,Q18238235,normal
+2022-02-25,SD,parti,Sverigedemokraterna,X,97878686,103926.0,,Wikidata,Q504069,normal
+2022-02-27,C,parti,Centerpartiet,X,3796501,67171.0,,Wikidata,Q110832,normal
+2022-02-27,KD,parti,Kristdemokraterna,X,19014898,64970.0,,Wikidata,Q213654,normal
+2022-03-01,SD,partiledare,Jimmie Åkesson,X,95972673,119271.0,,Wikidata,Q518776,normal
+2022-03-01,MP,parti,Miljöpartiet,X,18124359,96533.0,,Wikidata,Q213451,normal
+2022-03-09,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,5010.0,,Wikidata,Q4941329,normal
+2022-06-29,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,9260.0,,Wikidata,Q105112,normal
+2022-11-02,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,5030.0,,Wikidata,Q110837,normal
+2023-02-03,SD,parti,Sverigedemokraterna,X,97878686,134851.0,,Wikidata,Q504069,preferred
+2023-02-03,C,parti,Centerpartiet,X,3796501,72487.0,,Wikidata,Q110832,preferred
+2023-02-03,V,parti,Vänsterpartiet,X,17233550,98800.0,,Wikidata,Q110837,preferred
+2023-02-04,S,parti,Socialdemokraterna,X,3801501,114541.0,,Wikidata,Q105112,preferred
+2023-02-04,V,partiledare,Nooshi Dadgostar,X,282532238,72257.0,,Wikidata,Q18238235,preferred
+2023-02-05,L,parti,Liberalerna,X,18687011,89021.0,,Wikidata,Q110857,preferred
+2023-02-06,KD,parti,Kristdemokraterna,X,19014898,75553.0,,Wikidata,Q213654,preferred
+2023-02-10,SD,partiledare,Jimmie Åkesson,X,95972673,155960.0,,Wikidata,Q518776,preferred
+2023-02-10,KD,partiledare,Ebba Busch,X,1407151866,187824.0,,Wikidata,Q4941329,preferred
+2023-02-10,MP,parti,Miljöpartiet,X,18124359,102427.0,,Wikidata,Q213451,preferred
+2023-02-17,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,12000.0,,Wikidata,Q105112,normal
+2023-02-17,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,77400.0,,Wikidata,Q504069,normal
+2023-02-17,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,6850.0,,Wikidata,Q4941329,normal
+2023-05-31,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,13400.0,,Wikidata,Q105112,normal
+2024-01-13,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,5620.0,,Wikidata,Q110837,normal
+2024-01-14,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,16400.0,,Wikidata,Q105112,normal
+2024-01-15,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,87100.0,,Wikidata,Q504069,normal
+2024-02-17,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,6760.0,,Wikidata,Q4941329,normal
+2024-06-02,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,18100.0,,Wikidata,Q105112,normal
+2025-02-01,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,95200.0,,Wikidata,Q504069,preferred
+2025-02-01,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,5900.0,,Wikidata,Q110837,preferred
+2025-02-22,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,6870.0,,Wikidata,Q4941329,preferred
+2025-05-11,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,21500.0,,Wikidata,Q105112,normal
+2025-08-24,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,35100.0,,Wikidata,Q105112,normal
+2025-10-04,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,39100.0,,Wikidata,Q105112,preferred
+2026-09-28,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,39900.0,,mätt,,
+2026-09-28,S,partiledare,Magdalena Andersson,Bluesky,magdalenaandersson.socialdemokraterna.se,3410.0,,mätt,,
+2026-09-28,M,parti,Moderaterna,YouTube,UCaeBpLCv-n8wlKahXY4o1ZQ,8740.0,,mätt,,
+2026-09-28,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,107000.0,,mätt,,
+2026-09-28,C,parti,Centerpartiet,TikTok,Centerpartiet,4633.0,True,mätt,,
+2026-09-28,C,parti,Centerpartiet,YouTube,UCvFYHw6ahpdT4O1hFBxcQRQ,4680.0,,mätt,,
+2026-09-28,C,partiledare,Elisabeth Thand Ringqvist,TikTok,elisabethtrc,614.0,False,mätt,,
+2026-09-28,C,partiledare,Elisabeth Thand Ringqvist,Bluesky,elisabethtr.bsky.social,114.0,,mätt,,
+2026-09-28,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,6730.0,,mätt,,
+2026-09-28,V,partiledare,Nooshi Dadgostar,Bluesky,nooshidadgostar.bsky.social,1152.0,,mätt,,
+2026-09-28,V,partiledare,Nooshi Dadgostar,Mastodon,nooshidadgostar@mastodon.nu,264.0,,mätt,,
+2026-09-28,KD,parti,Kristdemokraterna,YouTube,UCAELki5flaev4zikzAkr4Lw,2480.0,,mätt,,
+2026-09-28,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,7130.0,,mätt,,
+2026-09-28,L,parti,Liberalerna,YouTube,UCDlEksDlX8aF_jE8eV3B4jA,2330.0,,mätt,,
+2026-09-28,MP,parti,Miljöpartiet,YouTube,UC0fLpFcjZBHW5vLBXDrZBIg,3120.0,,mätt,,
+2026-09-28,S,parti,Socialdemokraterna,TikTok,socialdemokraternas,87500.0,True,mätt,,
+2026-09-28,SD,parti,Sverigedemokraterna,TikTok,sverigedemokraterna,239500.0,True,mätt,,
+2026-09-28,M,parti,Moderaterna,TikTok,moderaterna,216600.0,True,mätt,,
+2026-09-28,V,parti,Vänsterpartiet,TikTok,vansterpartiet,61900.0,True,mätt,,
+2026-09-28,KD,parti,Kristdemokraterna,TikTok,kristdemokraterna,5883.0,True,mätt,,
+2026-09-28,MP,parti,Miljöpartiet,TikTok,miljopartietdegrona,17400.0,False,mätt,,
+2026-09-28,SD,partiledare,Jimmie Åkesson,TikTok,jimmieakesson,145400.0,True,mätt,,
+2026-09-28,M,partiledare,Ulf Kristersson,TikTok,ulfkristersson,43800.0,True,mätt,,
+2026-09-28,KD,partiledare,Ebba Busch,TikTok,buschebba,38600.0,True,mätt,,
+2026-09-28,V,partiledare,Nooshi Dadgostar,TikTok,nooshidadgostar,70400.0,True,mätt,,
+2026-09-28,L,partiledare,Simona Mohamsson,TikTok,smohamsson,13900.0,True,mätt,,

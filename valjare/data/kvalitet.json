@@ -1027,8 +1027,8 @@
    "id": "wikidata_foljare",
    "beskrivning": "Följarantal från Wikidata",
    "status": "ok",
-   "detalj": "14 konton med följarantal",
-   "varde": 14.0
+   "detalj": "26 konton med följarantal",
+   "varde": 26.0
   },
   {
    "grupp": "aktualitet",
@@ -1411,16 +1411,16 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "63 rader (förra 63)",
-   "varde": 63.0
+   "detalj": "89 rader (förra 63)",
+   "varde": 89.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "14 rader (förra 14)",
-   "varde": 14.0
+   "detalj": "26 rader (förra 14)",
+   "varde": 26.0
   },
   {
    "grupp": "volym",
@@ -1483,8 +1483,8 @@
    "id": "rader_media_rd_aktivitet",
    "beskrivning": "Tabell media_rd_aktivitet",
    "status": "ok",
-   "detalj": "0 rader (förra 0)",
-   "varde": 0.0
+   "detalj": "104 rader (förra 0)",
+   "varde": 104.0
   },
   {
    "grupp": "volym",
@@ -1539,8 +1539,8 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "15 rader (förra 15)",
-   "varde": 15.0
+   "detalj": "17 rader (förra 15)",
+   "varde": 17.0
   },
   {
    "grupp": "rimlighet",

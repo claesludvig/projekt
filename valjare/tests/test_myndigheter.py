@@ -29,12 +29,15 @@ def test_beviljade_uppehallstillstand(tmp_path):
     assert len(d) == 6   # detaljrader och årskolumnen räknas inte
 
 
-def test_gamla_foljarvarden_jamfors_inte(tmp_path):
+def test_gamla_foljarvarden_visas_inte(tmp_path):
     pd.DataFrame([
         {"parti": "M", "roll": "parti", "qid": "Q1", "namn": "M", "plattform": "X", "konto": "1",
-         "datum": "2018-05-10", "foljare": 90000, "rang": "normal"},
-        {"parti": "S", "roll": "parti", "qid": "Q2", "namn": "S", "plattform": "X", "konto": "2",
-         "datum": "2025-01-01", "foljare": 110000, "rang": "normal"},
+         "datum": "2023-02-10", "foljare": 90000, "rang": "normal"},
+        {"parti": "S", "roll": "parti", "qid": "Q2", "namn": "S", "plattform": "YouTube", "konto": "2",
+         "datum": "2026-06-01", "foljare": 30000, "rang": "normal"},
     ]).to_csv(tmp_path / "foljare.csv", index=False)
-    alla, nu = media.foljare(tmp_path)
-    assert len(alla) == 2 and list(nu.parti) == ["S"]
+    pd.DataFrame([{"datum": "2026-09-28", "parti": "S", "roll": "parti", "namn": "S", "plattform": "YouTube",
+                   "konto": "2", "foljare": 39900, "verifierad": None}]).to_csv(tmp_path / "foljare_matt.csv", index=False)
+    alla, nu = media.foljare(tmp_path, idag="2026-09-28")
+    assert len(alla) == 3
+    assert list(nu.parti) == ["S"] and nu.foljare.item() == 39900 and nu.kalla.item() == "mätt"

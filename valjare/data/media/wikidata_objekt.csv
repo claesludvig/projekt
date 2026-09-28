@@ -1,17 +1,17 @@
-parti,roll,qid,namn
-S,parti,Q105112,Socialdemokraterna
-S,partiledare,Q4935873,Magdalena Andersson
-M,parti,Q110843,Moderaterna
-M,partiledare,Q1780398,Q1780398
-SD,parti,Q504069,Sverigedemokraterna
-SD,partiledare,Q518776,Jimmie Åkesson
-C,parti,Q110832,Centerpartiet
-C,partiledare,Q4974920,Elisabeth Thand Ringqvist
-V,parti,Q110837,Vänsterpartiet
-V,partiledare,Q18238235,Nooshi Dadgostar
-KD,parti,Q213654,Kristdemokraterna
-KD,partiledare,Q4941329,Ebba Busch
-L,parti,Q110857,Liberalerna
-L,partiledare,Q123516132,Simona Mohamsson
-MP,parti,Q213451,Miljöpartiet
-MP,partiledare,Q24018140,Amanda Lind
+parti,roll,qid,namn,svwiki
+S,parti,Q105112,Socialdemokraterna,Socialdemokraterna (Sverige)
+S,partiledare,Q4935873,Magdalena Andersson,Magdalena Andersson
+M,parti,Q110843,Moderaterna,Moderaterna
+M,partiledare,Q1780398,Ulf Kristersson,Ulf Kristersson
+SD,parti,Q504069,Sverigedemokraterna,Sverigedemokraterna
+SD,partiledare,Q518776,Jimmie Åkesson,Jimmie Åkesson
+C,parti,Q110832,Centerpartiet,Centerpartiet
+C,partiledare,Q4974920,Elisabeth Thand Ringqvist,Elisabeth Thand Ringqvist
+V,parti,Q110837,Vänsterpartiet,Vänsterpartiet
+V,partiledare,Q18238235,Nooshi Dadgostar,Nooshi Dadgostar
+KD,parti,Q213654,Kristdemokraterna,Kristdemokraterna (Sverige)
+KD,partiledare,Q4941329,Ebba Busch,Ebba Busch
+L,parti,Q110857,Liberalerna,Liberalerna
+L,partiledare,Q123516132,Simona Mohamsson,Simona Mohamsson
+MP,parti,Q213451,Miljöpartiet,Miljöpartiet
+MP,partiledare,Q24018140,Amanda Lind,Amanda Lind

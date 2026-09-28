@@ -46,8 +46,8 @@
  "riksdag_ledamot": 4594,
  "opinion_forslag": 24,
  "opinion_beslut": 100,
- "media_foljare": 63,
- "media_foljare_nu": 14,
+ "media_foljare": 89,
+ "media_foljare_nu": 26,
  "media_omnamnanden": 104,
  "media_google_nyheter": 207,
  "media_talartid": 96,
@@ -55,7 +55,7 @@
  "media_wikipedia": 0,
  "media_gdelt": 0,
  "media_sakfragor": 136,
- "media_rd_aktivitet": 0,
+ "media_rd_aktivitet": 104,
  "media_ledare": 8,
  "norden": 2264,
  "lagesbild": 14,
@@ -63,5 +63,5 @@
  "evidensniva": 14,
  "kontroll": 1571,
  "varningar": 1,
- "licens": 15
+ "licens": 17
 }

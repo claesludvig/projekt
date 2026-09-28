@@ -1,15 +1,27 @@
-parti,roll,qid,namn,plattform,konto,datum,foljare,rang
-V,parti,Q110837,Vänsterpartiet,X,17233550,2023-02-03,98800.0,preferred
-C,parti,Q110832,Centerpartiet,X,3796501,2023-02-03,72487.0,preferred
-SD,parti,Q504069,Sverigedemokraterna,X,97878686,2023-02-03,134851.0,preferred
-V,partiledare,Q18238235,Nooshi Dadgostar,X,282532238,2023-02-04,72257.0,preferred
-S,parti,Q105112,Socialdemokraterna,X,3801501,2023-02-04,114541.0,preferred
-L,parti,Q110857,Liberalerna,X,18687011,2023-02-05,89021.0,preferred
-KD,parti,Q213654,Kristdemokraterna,X,19014898,2023-02-06,75553.0,preferred
-SD,partiledare,Q518776,Jimmie Åkesson,X,95972673,2023-02-10,155960.0,preferred
-MP,parti,Q213451,Miljöpartiet,X,18124359,2023-02-10,102427.0,preferred
-KD,partiledare,Q4941329,Ebba Busch,X,1407151866,2023-02-10,187824.0,preferred
-V,parti,Q110837,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,2025-02-01,5900.0,preferred
-SD,parti,Q504069,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,2025-02-01,95200.0,preferred
-KD,partiledare,Q4941329,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,2025-02-22,6870.0,preferred
-S,parti,Q105112,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,2025-10-04,39100.0,preferred
+datum,parti,roll,namn,plattform,konto,foljare,verifierad,kalla,qid,rang
+2026-09-28,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,39900.0,,mätt,,
+2026-09-28,S,partiledare,Magdalena Andersson,Bluesky,magdalenaandersson.socialdemokraterna.se,3410.0,,mätt,,
+2026-09-28,M,parti,Moderaterna,YouTube,UCaeBpLCv-n8wlKahXY4o1ZQ,8740.0,,mätt,,
+2026-09-28,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,107000.0,,mätt,,
+2026-09-28,C,parti,Centerpartiet,TikTok,Centerpartiet,4633.0,True,mätt,,
+2026-09-28,C,parti,Centerpartiet,YouTube,UCvFYHw6ahpdT4O1hFBxcQRQ,4680.0,,mätt,,
+2026-09-28,C,partiledare,Elisabeth Thand Ringqvist,TikTok,elisabethtrc,614.0,False,mätt,,
+2026-09-28,C,partiledare,Elisabeth Thand Ringqvist,Bluesky,elisabethtr.bsky.social,114.0,,mätt,,
+2026-09-28,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,6730.0,,mätt,,
+2026-09-28,V,partiledare,Nooshi Dadgostar,Bluesky,nooshidadgostar.bsky.social,1152.0,,mätt,,
+2026-09-28,V,partiledare,Nooshi Dadgostar,Mastodon,nooshidadgostar@mastodon.nu,264.0,,mätt,,
+2026-09-28,KD,parti,Kristdemokraterna,YouTube,UCAELki5flaev4zikzAkr4Lw,2480.0,,mätt,,
+2026-09-28,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,7130.0,,mätt,,
+2026-09-28,L,parti,Liberalerna,YouTube,UCDlEksDlX8aF_jE8eV3B4jA,2330.0,,mätt,,
+2026-09-28,MP,parti,Miljöpartiet,YouTube,UC0fLpFcjZBHW5vLBXDrZBIg,3120.0,,mätt,,
+2026-09-28,S,parti,Socialdemokraterna,TikTok,socialdemokraternas,87500.0,True,mätt,,
+2026-09-28,SD,parti,Sverigedemokraterna,TikTok,sverigedemokraterna,239500.0,True,mätt,,
+2026-09-28,M,parti,Moderaterna,TikTok,moderaterna,216600.0,True,mätt,,
+2026-09-28,V,parti,Vänsterpartiet,TikTok,vansterpartiet,61900.0,True,mätt,,
+2026-09-28,KD,parti,Kristdemokraterna,TikTok,kristdemokraterna,5883.0,True,mätt,,
+2026-09-28,MP,parti,Miljöpartiet,TikTok,miljopartietdegrona,17400.0,False,mätt,,
+2026-09-28,SD,partiledare,Jimmie Åkesson,TikTok,jimmieakesson,145400.0,True,mätt,,
+2026-09-28,M,partiledare,Ulf Kristersson,TikTok,ulfkristersson,43800.0,True,mätt,,
+2026-09-28,KD,partiledare,Ebba Busch,TikTok,buschebba,38600.0,True,mätt,,
+2026-09-28,V,partiledare,Nooshi Dadgostar,TikTok,nooshidadgostar,70400.0,True,mätt,,
+2026-09-28,L,partiledare,Simona Mohamsson,TikTok,smohamsson,13900.0,True,mätt,,
