@@ -32,7 +32,9 @@ import region as reg
 import valdistrikt as vdm
 import fragor
 import metod
+import kontroller
 import lagesbild
+from licenser import LICENSER, STATUS_TEXT
 import norden as nordm
 from omraden import OMRADEN
 import riksdag
@@ -682,6 +684,13 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
     ut.update(webb_lage(tabeller))
     ut.update(webb_riksdag(tabeller))
     ut.update(webb_omraden(tabeller))
+    kv = tabeller.get("kvalitet", pd.DataFrame())
+    if len(kv):
+        ut["kvalitet"] = {"status": max(kv.status, key=kontroller.ORDNING.get),
+                          "antal": kv.status.value_counts().to_dict(),
+                          "rader": kv[kv.status != "ok"].replace({np.nan: None}).to_dict("records")}
+    ut["licenser"] = [{"kalla": a, "utgivare": b, "status": c, "status_text": STATUS_TEXT[c], "villkor": d, "url": e}
+                      for a, b, c, d, e in LICENSER]
     ut["evidens"] = {e[0]: {"avsnitt": e[1], "niva": e[2], "niva_text": metod.NIVAER[e[2]],
                             "sager": e[3], "sager_inte": e[4]} for e in metod.EVIDENS}
     kv = tabeller["kontroll"]
@@ -1037,7 +1046,12 @@ def main():
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
+        "licens": pd.DataFrame(LICENSER, columns=["kalla", "utgivare", "status", "villkor", "url"]),
     }
+    print("Kvalitetskontroller")
+    kval = kontroller.kor(tabeller, DATA_DIR, varningar)
+    print("  " + ", ".join(f"{k}: {n}" for k, n in kval.status.value_counts().items()))
+    tabeller["kvalitet"] = kval
     if DB.exists():
         DB.unlink()
     with sqlite3.connect(DB) as con:

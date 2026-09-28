@@ -1182,8 +1182,20 @@ function renderMetod(){
   const k = D.kallor.map(q => `<tr><td><a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.namn)}</a><br><span class="note">${esc(q.utgivare)}</span></td><td>${esc(q.beskrivning)}</td></tr>`).join("");
   const kon = D.kontroll.filter(r => r.period === "2018" || r.period === "2022");
   const kt = kon.length ? `<details><summary>Kontroll: PSU-vikter före kalibrering jämfört med registrets röstande</summary><div class="tw"><table><tr><th>Indelning</th><th>År</th><th>Grupp</th><th class="n">PSU-skattning</th><th class="n">Register</th></tr>${kon.map(r=>`<tr><td>${esc(r.dimension)}</td><td>${r.period}</td><td>${esc(r.grupp)}</td><td class="n">${fmt(r.psu_skattad,1)}</td><td class="n">${fmt(r.register,1)}</td></tr>`).join("")}</table></div><p class="note">Värdena före kalibrering visar urvalets snedvridning: äldre, högutbildade och inrikes födda är överrepresenterade bland de svarande. Efter kalibrering träffar vikterna registret exakt valåren.</p></details>` : "";
+  const KV = D.kvalitet, STN = {ok: "ok", varning: "varning", fel: "fel"};
+  const kvHtml = KV ? `<h3>Kvalitetskontroll ${esc(D.skapad)}</h3>
+  <p>${KV.status === "ok" ? "Alla automatiska kontroller är gröna." : KV.status === "varning" ? "Inga fel, men varningar att känna till." : "Det finns fel: något i den senaste körningen ser inte rätt ut, och siffrorna nedan kan vara påverkade."}
+  ${Object.entries(KV.antal).map(([k,n]) => `${n} ${k}`).join(", ")}. Kontrollerna körs efter varje bygge: har källan kommit med nya siffror, har någon tabell krympt, stämmer summorna (349 mandat, 29 valkretsar, 100 procent)? Vid fel öppnas ett ärende i repot automatiskt.</p>
+  ${KV.rader.length ? `<details><summary>Varningar och fel (${KV.rader.length})</summary><div class="tw"><table><tr><th>Status</th><th>Kontroll</th><th>Detalj</th></tr>${KV.rader.map(r => `<tr><td><span class="st st-${r.status === "fel" ? "larm" : "bevaka"}">${r.status}</span></td><td>${esc(r.beskrivning)}</td><td class="note">${esc(r.detalj||"")}</td></tr>`).join("")}</table></div></details>` : ""}` : "";
+  const LI = D.licenser || [];
+  const liHtml = LI.length ? `<h3>Källornas villkor</h3>
+  <p>Öppna data får återanvändas med källhänvisning. Tabellerna från Valu och Valforskningsprogrammet återpubliceras här och bör stämmas av med utgivarna innan sidan sprids utanför en intern krets; utkast till förfrågningar finns i <code>valjare/granskning/</code>. Sammanställningen är inte en juridisk bedömning; villkoren ska bekräftas mot utgivarens text.</p>
+  <div class="tw"><table><tr><th>Källa</th><th>Status</th><th>Villkor</th></tr>${LI.map(l => `<tr><td><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.kalla)}</a><br><span class="note">${esc(l.utgivare)}</span></td><td><span class="st ${l.status === "oppen" ? "st-normal" : "st-bevaka"}">${esc(l.status_text)}</span></td><td class="note">${esc(l.villkor)}</td></tr>`).join("")}</table></div>` : "";
   $("metod").innerHTML = `
   <div style="display:grid;gap:14px">
+  ${kvHtml}
+  ${liHtml}
+  <p><b>Oberoende granskning.</b> Metoden, antagandena och kända svagheter är beskrivna i <code>valjare/granskning/METODGRANSKNING.md</code>, med konkreta frågor till en extern granskare. Allt kan byggas om från källorna med tre kommandon, och tolkarna testas automatiskt före varje bygge.</p>
   <p>Databasen byggs av två skript i repot <code>claesludvig/projekt</code>, mappen <code>valjare/</code>. <code>hamta.py</code> laddar ned rådata: SCB:s tabeller via PxWebApi 2, Valu- och valforskningsrapporter som pdf, Brå:s och Valmyndighetens Excelfiler. <code>bygg_db.py</code> tolkar och harmoniserar till SQLite (<code>data/valjare.sqlite</code>) och CSV (<code>data/csv/</code>).</p>
   <div class="tw"><table><tr><th>Tabell</th><th>Innehåll</th></tr>
   <tr><td><code>partistod</code></td><td>Andel av en grupp som röstar på eller sympatiserar med partiet (PSU 1972–2026, Valu 1991–2026)</td></tr>
@@ -1233,7 +1245,7 @@ function renderAll(){
   renderLage(); renderValkrets(); renderRiksdag(); renderOmraden(); renderChips(); renderSamm(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderVerk(); renderNTU();
 }
 (function init(){
-  $("meta").textContent = `Uppdaterad ${D.skapad}. Källor: SCB, Kolada, Polisen, Riksbanken, Brå, Valmyndigheten, SVT/Valu, Valforskningsprogrammet och SOM-institutet (GU).`;
+  $("meta").textContent = `Uppdaterad ${D.skapad}${D.kvalitet ? ` · kvalitetskontroll: ${D.kvalitet.status}` : ""}. Källor: SCB, Kolada, Polisen, Riksbanken, Brå, Valmyndigheten, SVT/Valu, Valforskningsprogrammet och SOM-institutet (GU).`;
   if (D.valkrets) {
     $("sel-vk").innerHTML = D.valkrets.lista.map(v => `<option value="${v.kod}">${esc(v.namn)}</option>`).join("");
     let vk = "01"; try { const x = localStorage.getItem("vb-vk"); if (x && D.valkrets.lista.some(v => v.kod === x)) vk = x; } catch(e) {}

@@ -111,7 +111,8 @@ def serier(scb, katalog: pd.DataFrame, pol: pd.DataFrame, kpi: pd.DataFrame, dat
     # Priser på el och drivmedel: KPI per produktgrupp t.o.m. 2025, därefter KPIF per COICOP
     ny = scb("TAB6602")
     for namn, monster in KPI_GRUPPER:
-        if namn == "El, lägenhet":
+        # Räntekostnader fanns bara i KPI-tabellen som upphörde 2025; styrräntan visas i stället
+        if namn in ("El, lägenhet", "Räntekostnader"):
             continue
         gammal = kpi[kpi.serie == namn] if kpi is not None and not kpi.empty else pd.DataFrame()
         s = None

@@ -103,6 +103,20 @@ de oviktade svarsantalen överrepresenterar äldre och högutbildade. Kontroller
 tabellen `kontroll`. Valu och Valforskningsprogrammet mäter röster, PSU sympati; källornas
 gruppindelningar redovisas var för sig.
 
+## Kvalitet, granskning och villkor
+
+- `kontroller.py` körs efter varje bygge: aktualitet (har källan kommit med nya siffror),
+  volym (har någon tabell krympt mer än 20 %) och rimlighet (349 mandat, 29 valkretsar, 290
+  kommuner, andelar som summerar till 100, voteringar med alla ledamöter). Resultatet står i
+  `data/kvalitet.json` och `data/kvalitet.md`, tabellen `kvalitet` och på sidan. Vid fel öppnar
+  arbetsflödet ett ärende i repot, som stängs när kontrollerna är gröna igen.
+- `tests/` testar tolkarna och beräkningarna före bygget (`python -m pytest -q tests`).
+- `granskning/METODGRANSKNING.md` är underlag för en oberoende granskning, med antaganden,
+  kontroller, kända brister och konkreta granskningsfrågor.
+- `licenser.py` och `granskning/LICENSER.md` anger villkoren per källa. Tabellerna från Valu och
+  Valforskningsprogrammet bör stämmas av innan sidan sprids; utkast till förfrågningar finns i
+  `granskning/`.
+
 ## Köra
 
 Nätverksåtkomst till SCB, SVT, GU, Brå och Valmyndigheten krävs. Arbetsflödet
