@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "518 artiklar i 7 flöden",
-   "varde": 518.0
+   "detalj": "537 artiklar i 7 flöden",
+   "varde": 537.0
   },
   {
    "grupp": "aktualitet",
@@ -1427,7 +1427,7 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "104 rader (förra 89)",
+   "detalj": "104 rader (förra 104)",
    "varde": 104.0
   },
   {
@@ -1435,7 +1435,7 @@
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "41 rader (förra 26)",
+   "detalj": "41 rader (förra 41)",
    "varde": 41.0
   },
   {
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "207 rader (förra 207)",
-   "varde": 207.0
+   "detalj": "208 rader (förra 208)",
+   "varde": 208.0
   },
   {
    "grupp": "volym",
@@ -1475,16 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "2059 rader (förra 2059)",
-   "varde": 2059.0
-  },
-  {
-   "grupp": "volym",
-   "id": "rader_media_gdelt",
-   "beskrivning": "Tabell media_gdelt",
-   "status": "ok",
-   "detalj": "0 rader (förra 0)",
-   "varde": 0.0
+   "detalj": "1924 rader (förra 1924)",
+   "varde": 1924.0
   },
   {
    "grupp": "volym",
@@ -1501,6 +1493,14 @@
    "status": "ok",
    "detalj": "104 rader (förra 104)",
    "varde": 104.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_som_fortroende",
+   "beskrivning": "Tabell som_fortroende",
+   "status": "ok",
+   "detalj": "7944 rader (förra 7944)",
+   "varde": 7944.0
   },
   {
    "grupp": "volym",
@@ -1555,8 +1555,8 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "18 rader (förra 17)",
-   "varde": 18.0
+   "detalj": "17 rader (förra 18)",
+   "varde": 17.0
   },
   {
    "grupp": "rimlighet",

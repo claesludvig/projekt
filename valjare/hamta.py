@@ -873,7 +873,6 @@ def hamta_foljare_matt():
 
 
 WIKIMEDIA = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/sv.wikipedia/all-access/user"
-GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 
 def hamta_wikipedia_visningar():
@@ -902,41 +901,6 @@ def hamta_wikipedia_visningar():
     if rader:
         pd.DataFrame(rader).to_csv(MEDIA_DIR / "wikipedia_visningar.csv", index=False)
     print(f"  Wikipedia: {len(rader)} månadsvärden")
-
-
-def hamta_gdelt():
-    """GDELT: svenskspråkiga nyhetsartiklar som nämner partinamnet, per dag sedan 2017, och deras
-    genomsnittliga ton. GDELT ber om högst en fråga var femte sekund."""
-    from media_katalog import GOOGLE_SOK
-    rader = []
-    slut = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
-    for parti, namn in GOOGLE_SOK.items():
-        for mode, matt in (("timelinevolraw", "artiklar"), ("timelinetone", "ton")):
-            try:
-                # GDELT begränsar per IP-adress, och GitHubs maskiner delar adresser: vänta och försök igen
-                for forsok in range(4):
-                    time.sleep(20 + 40 * forsok)
-                    svar = http("GET", GDELT, params={"query": f'"{namn}" sourcelang:swedish', "mode": mode,
-                                                      "format": "json", "startdatetime": "20170101000000",
-                                                      "enddatetime": slut, "timelinesmooth": 0})
-                    if svar.status_code != 429 and not svar.text.startswith("Please limit"):
-                        break
-                try:
-                    j = svar.json()
-                except ValueError:
-                    raise RuntimeError(svar.text[:200].replace("\n", " ")) from None
-                if not j.get("timeline"):
-                    raise RuntimeError("tomt svar (inga svenskspråkiga träffar)")
-                for serie in j.get("timeline", []):
-                    for d in serie.get("data", []):
-                        rader.append({"parti": parti, "matt": matt, "dag": str(d.get("date", ""))[:8],
-                                      "varde": d.get("value"), "totalt": d.get("norm")})
-            except Exception as exc:  # noqa: BLE001
-                logg["fel"].append(f"gdelt {parti} {matt}: {exc}")
-    if rader:
-        pd.DataFrame(rader).to_csv(MEDIA_DIR / "gdelt.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
-    logg["gdelt"] = {"rader": len(rader)}
-    print(f"  GDELT: {len(rader)} rader")
 
 
 def las_flode(xml: str) -> list[dict]:
@@ -1426,7 +1390,6 @@ def main():
         hamta_rss()
     if a.steg in ("alla", "vecka"):
         hamta_wikipedia_visningar()
-        hamta_gdelt()
     if a.steg == "alla":
         hamta_google_annonser()
     if a.steg == "vecka":

@@ -64,19 +64,6 @@ def test_omnamnanden(tmp_path):
     assert gn.set_index("parti").artiklar["SD"] == 1
 
 
-def test_gdelt_andel_och_vagd_ton(tmp_path):
-    rader = []
-    for dag, s, m in (("20240101", 30, 10), ("20240102", 10, 30)):
-        rader += [{"parti": "S", "matt": "artiklar", "dag": dag, "varde": s, "totalt": 1000},
-                  {"parti": "M", "matt": "artiklar", "dag": dag, "varde": m, "totalt": 1000},
-                  {"parti": "S", "matt": "ton", "dag": dag, "varde": -2.0 if dag.endswith("1") else -4.0, "totalt": None},
-                  {"parti": "M", "matt": "ton", "dag": dag, "varde": -1.0, "totalt": None}]
-    pd.DataFrame(rader).to_csv(tmp_path / "gdelt.csv.gz", index=False)
-    g = media.gdelt(tmp_path).set_index("parti")
-    assert g.loc["S", "artiklar"] == 40 and g.loc["S", "andel"] == 50
-    assert abs(g.loc["S", "ton"] - (30 * -2 + 10 * -4) / 40) < 1e-9
-
-
 def test_sakfragor_i_samma_artikel(tmp_path):
     pd.DataFrame([
         {"titel": "Moderaterna vill skärpa straffen för gängbrott", "beskrivning": "", "lank": "a", "hamtad": "2026-09-28T10:00"},

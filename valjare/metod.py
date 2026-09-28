@@ -57,12 +57,11 @@ EVIDENS = [
      "Varför länderna skiljer sig. Definitioner och registrering skiljer sig mellan länder (särskilt för brott), "
      "och en högre eller lägre nivå är inte i sig bättre eller sämre. Kunskapsluckorna står uttryckligen per område."),
     ("genomslag", "Genomslag", "beskrivande",
-     "Hur många som följer partierna och partiledarna, hur mycket de läses om på Wikipedia, hur ofta och i "
-     "vilken ton de nämns i nyheterna, vilka frågor de nämns med, hur aktiva de är i riksdagen och hur mycket "
+     "Hur många som följer partierna och partiledarna, hur mycket de läses om på Wikipedia, hur ofta de nämns "
+     "i nyheterna, vilka frågor de nämns med, hur aktiva de är i riksdagen och hur mycket "
      "de annonserade hos Google.",
-     "Räckvidd, stöd eller påverkan. Följare är inte räckvidd, och Wikidata uppdateras ojämnt. Intresse på "
-     "Wikipedia och många omnämnanden kan lika gärna bero på en skandal. GDELT:s ton mäter hela artikeln, inte "
-     "vad som sägs om partiet. Nyhetsflödena täcker ett urval redaktioner och bara rubrik och ingress, och "
+     "Räckvidd, stöd eller påverkan. Följare är inte räckvidd, och Instagram och Threads går inte att mäta (Facebook bara ibland). Intresse på "
+     "Wikipedia och många omnämnanden kan lika gärna bero på en skandal. Nyhetsflödena täcker ett urval redaktioner och bara rubrik och ingress, och "
      "historiken börjar när insamlingen startade."),
     ("sammansattning", "Vilka röstar på partierna", "beskrivande",
      "Hur partiernas väljare fördelar sig på grupper enligt Valforskningsprogrammet och PSU.",

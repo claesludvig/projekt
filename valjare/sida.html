@@ -224,7 +224,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   <section id="s-genomslag">
     <span class="label">5 · Genomslag</span>
     <h2>Hur syns partierna?</h2>
-    <p class="desc">Följare i sociala medier, intresse på Wikipedia, omnämnanden och ton i nyheterna, vilka frågor partierna förknippas med, aktivitet i riksdagen och politiska annonser. Allt hämtas ur öppna filer och flöden: Wikidata, Wikimedias sidvisningar, GDELT, redaktionernas RSS-flöden, Google Nyheter, riksdagens öppna data och Googles annonsdata.</p>
+    <p class="desc">Följare i sociala medier, intresse på Wikipedia, omnämnanden i nyheterna, vilka frågor partierna förknippas med, aktivitet i riksdagen och politiska annonser. Allt hämtas ur öppna filer och flöden: Wikidata, plattformarnas publika profiler, Wikimedias sidvisningar, redaktionernas RSS-flöden, Google Nyheter, riksdagens öppna data och Googles annonsdata.</p>
     <h3 id="h-gs-publik">Var finns publiken?</h3>
     <div class="small" id="gs-publik" style="grid-template-columns:repeat(auto-fill,minmax(270px,1fr))"></div>
     <p class="note" id="not-gs-publik"></p>
@@ -243,12 +243,6 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <div class="chart" id="c-gs-wiki"></div>
     <p class="note" id="not-gs-wiki"></p>
     <h3 style="margin-top:10px">Nämns i nyheterna</h3>
-    <div class="chart" id="c-gs-gdelt"></div>
-    <p class="note" id="not-gs-gdelt"></p>
-    <h3 style="margin-top:10px;font-size:14px" id="h-gs-ton">Tonen när partiet nämns</h3>
-    <div class="chart" id="c-gs-ton"></div>
-    <p class="note" id="not-gs-ton"></p>
-    <h3 style="margin-top:10px;font-size:14px">De senaste veckorna, i redaktionernas egna flöden</h3>
     <div class="chart" id="c-gs-andel"></div>
     <p class="note" id="not-gs-andel"></p>
     <div class="chart" id="c-gs-google"></div>
@@ -1281,8 +1275,8 @@ function hbar(el, rader, {enhet="", fmtV=v=>fmt(v), ref=null}={}){
 }
 function renderGenomslag(){
   const F = D.foljare, O = D.omnamnanden, G = D.google_nyheter, T = D.talartid, A = D.annonser;
-  if (!F && !O && !G && !T && !A && !D.wikipedia && !D.gdelt) { $("s-genomslag").hidden = true; return; }
-  renderPublik(); renderFort(); renderWiki(); renderGdelt(); renderSak(); renderAkt(); renderForsk();
+  if (!F && !O && !G && !T && !A && !D.wikipedia) { $("s-genomslag").hidden = true; return; }
+  renderPublik(); renderFort(); renderWiki(); renderSak(); renderAkt(); renderForsk();
   // Följare
   if (F) {
     const plattformar = [...new Set(F.nu.map(r => r.plattform))].filter(p => p !== "okänd").sort((a,b) => F.nu.filter(r=>r.plattform===b).length - F.nu.filter(r=>r.plattform===a).length);
@@ -1377,19 +1371,6 @@ function renderWiki(){
   lineChart(el, {xs, height: 260, yMin: 0, series: rader.map(q => ({name: PNAMN[q.p] + (gsWRoll === "partiledare" ? ` (${W.namn[`${q.p}|partiledare`]})` : ""), lbl: q.p, c: pc(q.p), hl: true, w: 1.6, v: glid(q.v, 3)})),
     yFmt: gsWSkala === "andel" ? (v => fmt(v) + " %") : stort, tipTitle: x => manTxt(man[xs.indexOf(x)]), focus: () => true, hoger: 40});
   $("not-gs-wiki").textContent = `Visningar per månad av ${gsWRoll === "parti" ? "partiets" : "den nuvarande partiledarens"} artikel på svenska Wikipedia, ${manTxt(man[0])}–${manTxt(man[n-1])}, glidande medel över tre månader. Bara användare, inte robotar (Wikimedia). Topparna följer valrörelser, partiledarbyten och kriser. Intresse är inte stöd: en skandal ger också många visningar.${gsWRoll === "partiledare" ? " Serien gäller dagens partiledare även före tiden som ledare." : ""}`;
-}
-function renderGdelt(){
-  const G = D.gdelt;
-  ["h-gs-ton", "c-gs-ton", "not-gs-ton"].forEach(id => $(id).hidden = !G);
-  if (!G) { $("c-gs-gdelt").innerHTML = `<p class="note">Den långa serien över omnämnanden i svenska nyheter (GDELT) har inte gått att hämta: tjänsten begränsar antalet frågor hårt. Till dess visas bara redaktionernas egna flöden nedan.</p>`; $("not-gs-gdelt").textContent = ""; return; }
-  const n = G.manader.length - 1, man = G.manader.slice(0, n), xs = man.map(manDec), tt = x => manTxt(man[xs.indexOf(x)]);
-  lineChart($("c-gs-gdelt"), {xs, height: 260, yMin: 0, series: P.filter(p => G.andel[p]).map(p => ({name: PNAMN[p], lbl: p, c: pc(p), hl: true, w: 1.6, v: glid(G.andel[p].slice(0, n), 3)})),
-    tipTitle: tt, focus: () => true, hoger: 40});
-  const sum = P.reduce((a, p) => a + (G.artiklar[p] || []).slice(0, n).reduce((x, y) => x + (y || 0), 0), 0);
-  $("not-gs-gdelt").textContent = `Partiets andel av alla partiomnämnanden i svenskspråkiga nyhetsartiklar på nätet, per månad (${manTxt(man[0])}–${manTxt(man[n-1])}), glidande medel över tre månader. GDELT läser av nyhetssajter världen över och söker här på partinamnet; ${stort(sum)} träffar totalt. Andelen jämförs mellan partierna, eftersom GDELT:s urval av sajter ändras över tid. Partiledarens namn ingår inte, och en artikel som nämner flera partier räknas för alla.`;
-  lineChart($("c-gs-ton"), {xs, height: 220, zero: true, series: P.filter(p => G.ton[p]).map(p => ({name: PNAMN[p], lbl: p, c: pc(p), hl: true, w: 1.6, v: glid(G.ton[p].slice(0, n), 6)})),
-    yFmt: v => fmt(v, 1), tipTitle: tt, focus: () => true, hoger: 40});
-  $("not-gs-ton").textContent = `Genomsnittlig ton i artiklarna som nämner partiet, enligt GDELT:s ordlistor (under noll: fler negativa än positiva ord), glidande medel över sex månader. Tonen gäller hela artikeln, inte just det som sägs om partiet, och nyheter om brott eller kriser drar ner den. Jämför partierna med varandra och över tid, inte mot noll.`;
 }
 function renderSak(){
   const S = D.sakfragor;

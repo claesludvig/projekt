@@ -983,13 +983,6 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
         ut["wikipedia"] = {"manader": man, "namn": {f"{p}|{r}": d.namn.iloc[-1] for (p, r), d in wp.groupby(["parti", "roll"])},
                            "v": {f"{p}|{r}": [None if pd.isna(x) else int(x) for x in d.set_index("manad").visningar.reindex(man)]
                                  for (p, r), d in wp.groupby(["parti", "roll"])}}
-    gd = t.get("media_gdelt", pd.DataFrame())
-    if len(gd):
-        man = sorted(gd.manad.unique())
-        ut["gdelt"] = {"manader": man, **{k: {p: [_r(x) for x in d.set_index("manad")[k].reindex(man)] for p, d in gd.groupby("parti")}
-                                          for k in ("andel", "ton")},
-                       "artiklar": {p: [None if pd.isna(x) else int(x) for x in d.set_index("manad").artiklar.reindex(man)]
-                                    for p, d in gd.groupby("parti")}}
     sf = t.get("media_sakfragor", pd.DataFrame())
     if len(sf):
         from verklighet_katalog import FRAGOR

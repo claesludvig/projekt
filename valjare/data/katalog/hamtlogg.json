@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T18:09:02.916357+00:00",
+ "start": "2026-09-28T19:47:26.165453+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -2207,7 +2207,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f1ed0a8ea90>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f80766180d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2267,11 +2267,23 @@
  ],
  "fel": [
   "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']",
-  "gdelt M artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
-  "gdelt M ton: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
-  "gdelt SD artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
-  "gdelt V artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
-  "gdelt KD artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429"
+  "följare S partiledare TikTok AnderssonMagda: inget följarantal i svaret",
+  "gdelt S artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
+  "gdelt S ton: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
+  "gdelt M artiklar: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt M ton: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt SD artiklar: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt SD ton: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt C artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
+  "gdelt C ton: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt V artiklar: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt V ton: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
+  "gdelt KD artiklar: GET https://api.gdeltproject.org/api/v2/doc/doc: HTTP 429",
+  "gdelt KD ton: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt L artiklar: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt L ton: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt MP artiklar: tomt svar (inga svenskspråkiga träffar)",
+  "gdelt MP ton: tomt svar (inga svenskspråkiga träffar)"
  ],
  "kolada": [
   {
@@ -2712,8 +2724,12 @@
    "rader": 106
   }
  ],
+ "foljare_matt": {
+  "konton": 27,
+  "matta": 26
+ },
  "gdelt": {
   "rader": 0
  },
- "slut": "2026-09-28T18:53:07.262209+00:00"
+ "slut": "2026-09-28T20:33:25.958701+00:00"
 }
