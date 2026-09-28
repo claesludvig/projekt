@@ -198,6 +198,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <h3 style="margin-top:14px">Propositioner per sakfråga och riksmöte</h3>
     <div class="tw"><table class="heat" id="t-rd-akt"></table></div>
     <p class="note">Antal propositioner från regeringen vars rubrik rör frågan. Ett ärende kan höra till flera frågor. Klassningen bygger på ord i rubriken och är en översikt, inte en fullständig förteckning.</p>
+    <p class="note" id="not-klassning"></p>
   </section>
 
   <section id="s-omraden">
@@ -1143,6 +1144,8 @@ function renderRiksdag(){
       return `<details class="op"><summary><b>${esc(o.forslag)}</b> <span class="note">(${esc(nm[o.fraga]||o.fraga)})</span><br>${bar} <span>${fmt(sist)} % bra förslag ${ar[ar.length-1]}</span>${ar.length>1?` <span class="note">(${ar[0]}: ${fmt(o.v[ar[0]])} %)</span>`:""} · <span class="note">${o.n ? `${o.n} ${o.n === 1 ? "proposition" : "propositioner"} i samma sak sedan 2018` : "inga propositioner i samma sak sedan 2018"}</span></summary>${bes?`<div class="tw"><table>${bes}</table></div>`:""}</details>`; }).join("");
   }
   renderSamst();
+  const KL = D.klassning;
+  if (KL) $("not-klassning").textContent = `Träffsäkerhet: prövad mot ${KL.urval} handkodade propositioner som inte användes när reglerna togs fram. ${fmt(100*KL.precision)} % av de tilldelade sakfrågorna är rätt, ${fmt(100*KL.tackning)} % av de rätta sakfrågorna hittas och ${fmt(100*KL.exakt)} % av propositionerna får exakt rätt sakfrågor (före justeringen: ${fmt(100*KL.fore.exakt)} %). Lag och ordning, miljö och sjukvård missas oftast. Se valjare/granskning/KLASSNING.md.`;
   const A = D.rd_aktivitet;
   if (A) { const nm = {...FRNAMN(), ...FR_EXTRA}, hi = Math.max(1, ...Object.values(A.v).flat()), bg = css("--paper"), c0 = css("--f3");
     $("t-rd-akt").innerHTML = `<tr><th>Fråga</th>${A.rm.map(r=>`<th class="n">${r.slice(2)}</th>`).join("")}</tr>` + FR_ORDNING.filter(f=>A.v[f]).map(f => `<tr><td>${esc(nm[f]||f)}</td>${A.v[f].map((x,i)=>{ const a = Math.sqrt(x/hi), c = mix(c0, bg, 0.08 + 0.8*a); return `<td class="c" style="background:${c};color:${a>0.6?textOn(c):"var(--ink)"}" title="${A.rm[i]}: ${x} propositioner">${x||""}</td>`; }).join("")}</tr>`).join(""); }

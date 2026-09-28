@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 
 import tolka
-from riksdag_katalog import FORTROENDE, OPINION, ORD, UTSKOTT
+from riksdag_katalog import FORTROENDE, OPINION, ORD, UTGIFTSOMRADE, UTSKOTT
 
 PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
 VALAR = [2010, 2014, 2018, 2022, 2026]
@@ -37,7 +37,11 @@ def _utskott(bet: str) -> str | None:
 
 
 def klassa(titel: str, utskott: str | None = None) -> list[str]:
-    t = str(titel).lower()
+    t = re.sub(r"\s+", " ", str(titel).lower()).strip()
+    if m := re.search(r"utgiftsområde (\d+)", t):
+        return list(UTGIFTSOMRADE.get(int(m[1]), []))
+    if "ålderspensionssystemet vid sidan av statens budget" in t:
+        return ["pension"]
     fr = [f for f, rx in ORD.items() if re.search(rx, t)]
     if not fr and utskott in UTSKOTT:
         fr = [UTSKOTT[utskott]]
@@ -249,3 +253,28 @@ def fortroende(op: pd.DataFrame) -> pd.DataFrame:
         return op
     return op[op.rubrik.str.contains("(?i)förtroende för samhällsinstitutioner", na=False)
               & op.serie.str.contains(FORTROENDE, regex=True, na=False)]
+
+
+def utvardera(facit: pd.DataFrame) -> pd.DataFrame:
+    """Träffsäkerhet mot handkodat facit: precision, täckning och F1 per sakfråga.
+
+    facit: dok_id, titel, facit ("fraga;fraga" eller tomt). Klassningen görs på titeln."""
+    rader = []
+    gissat = [set(klassa(t)) for t in facit.titel]
+    ratt = [set(x for x in str(f).split(";") if x and x != "nan") for f in facit.facit]
+    for fr in sorted(set().union(*ratt, *gissat)):
+        tp = sum(fr in g and fr in r for g, r in zip(gissat, ratt))
+        fp = sum(fr in g and fr not in r for g, r in zip(gissat, ratt))
+        fn = sum(fr not in g and fr in r for g, r in zip(gissat, ratt))
+        p_ = tp / (tp + fp) if tp + fp else None
+        r_ = tp / (tp + fn) if tp + fn else None
+        rader.append({"fraga": fr, "ratt": tp, "felaktigt_tillagd": fp, "missad": fn, "precision": p_,
+                      "tackning": r_, "f1": 2 * p_ * r_ / (p_ + r_) if p_ and r_ else 0.0})
+    tp = sum(len(g & r) for g, r in zip(gissat, ratt))
+    fp = sum(len(g - r) for g, r in zip(gissat, ratt))
+    fn = sum(len(r - g) for g, r in zip(gissat, ratt))
+    rader.append({"fraga": "TOTALT", "ratt": tp, "felaktigt_tillagd": fp, "missad": fn,
+                  "precision": tp / (tp + fp) if tp + fp else None, "tackning": tp / (tp + fn) if tp + fn else None,
+                  "f1": 2 * tp / (2 * tp + fp + fn) if tp else 0.0,
+                  "exakt": sum(g == r for g, r in zip(gissat, ratt)) / len(ratt)})
+    return pd.DataFrame(rader)

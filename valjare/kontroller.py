@@ -21,6 +21,7 @@ import pandas as pd
 ORDNING = {"ok": 0, "varning": 1, "fel": 2}
 KRYMPNING = 0.2       # mer än 20 procent färre rader än förra körningen = fel
 ARSSERIE_LAG = 3      # årsserie utan värde de senaste tre åren = varning
+VERSION = 2           # tabellindelningen; höjs när tabeller delas om så att volymkontrollen inte larmar
 
 
 def _k(grupp, id_, beskrivning, status, detalj="", varde=None):
@@ -151,6 +152,9 @@ def kor(t: dict, data_dir: Path, varningar: list[str], idag: date | None = None)
     idag = idag or date.today()
     basfil = data_dir / "katalog" / "radantal.json"
     bas = json.loads(basfil.read_text()) if basfil.exists() else {}
+    # Jämförelsebasen gäller bara samma tabellindelning (VERSION höjs när tabeller delas om)
+    if bas.get("_version") != VERSION:
+        bas = {}
     rader = aktualitet(t, idag) + volym(t, bas) + rimlighet(t)
     rader += [_k("tolkning", f"varning_{i}", "Varning vid tolkning", "varning", v) for i, v in enumerate(varningar)]
     k = pd.DataFrame(rader)
@@ -162,7 +166,8 @@ def kor(t: dict, data_dir: Path, varningar: list[str], idag: date | None = None)
     # Ny jämförelsebas, men inte om tabeller har krympt (då ska nästa körning jämföra med det friska läget)
     if status != "fel":
         basfil.parent.mkdir(parents=True, exist_ok=True)
-        basfil.write_text(json.dumps({n: len(df) for n, df in t.items()}, indent=1), encoding="utf-8")
+        basfil.write_text(json.dumps({"_version": VERSION, **{n: len(df) for n, df in t.items()}}, indent=1),
+                          encoding="utf-8")
     return k
 
 

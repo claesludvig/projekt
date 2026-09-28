@@ -691,6 +691,8 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
         ut["kvalitet"] = {"status": max(kv.status, key=kontroller.ORDNING.get),
                           "antal": kv.status.value_counts().to_dict(),
                           "rader": kv[kv.status != "ok"].replace({np.nan: None}).to_dict("records")}
+    from riksdag_katalog import KLASSNING
+    ut["klassning"] = KLASSNING
     ut["licenser"] = [{"kalla": a, "utgivare": b, "status": c, "status_text": STATUS_TEXT[c], "villkor": d, "url": e}
                       for a, b, c, d, e in LICENSER]
     ut["evidens"] = {e[0]: {"avsnitt": e[1], "niva": e[2], "niva_text": metod.NIVAER[e[2]],
@@ -1051,6 +1053,11 @@ def main():
     verk, verk_f, verk_k = verklighet.bygg(scb, katalog(), DATA_DIR, f_bet, som_p, val, varningar, pol, kpi,
                                            nordm.till_verklighet(nord))
     print(f"  {len(verk)} rader, {verk.indikator.nunique() if len(verk) else 0} indikatorer")
+    verk_ind = verk[["fraga", "indikator", "kalla"]].drop_duplicates("indikator").reset_index(drop=True)
+    verk_ind.insert(0, "indikator_id", range(len(verk_ind)))
+    k_ = verk[verk.niva == "kommun"]
+    verk_kv = pd.DataFrame({"indikator_id": k_.indikator.map(dict(zip(verk_ind.indikator, verk_ind.indikator_id))),
+                            "kommunkod": k_.region_kod, "ar": np.floor(k_.ar_dec).astype(int), "varde": k_.varde})
     print("Valkretsar")
     vk = valkrets.bygg(next((KALL_DIR / "xlsx").glob("val_radata_2026__preliminar-riksdagsval-utan*.xlsx"), None),
                        val, verk, ind, ntu_lan, namn, pol, scb, dist)
@@ -1082,7 +1089,10 @@ def main():
         "polisen_manad": pol, "kpi_manad": kpi, "fraga_betydelse": f_bet,
         "fraga_rang_parti": f_rang, "bast_politik": f_bast, "som_samhallsproblem": som_p,
         "test_bilar": t_bil, "test_skjutningar": t_skj,
-        "verklighet": verk, "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
+        # Kommunvärdena lagras kompakt (kod i stället för text per rad) för att hålla nere storleken
+        "verklighet": verk[verk.niva != "kommun"], "verklighet_indikator": verk_ind,
+        "verklighet_kommunvarden": verk_kv,
+        "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
         **vk, **rd, **med, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
@@ -1102,7 +1112,11 @@ def main():
                 print(f"  {namn}: tom, hoppas över")
                 continue
             df.to_sql(namn, con, index=False)
-            df.to_csv(CSV_DIR / f"{namn}.csv", index=False)
+            if len(df) > 150_000:   # stora tabeller komprimeras
+                df.to_csv(CSV_DIR / f"{namn}.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
+                (CSV_DIR / f"{namn}.csv").unlink(missing_ok=True)
+            else:
+                df.to_csv(CSV_DIR / f"{namn}.csv", index=False)
             print(f"  {namn}: {len(df)} rader")
     (DATA_DIR / "webb.json").write_text(
         json.dumps(webb(tabeller), ensure_ascii=False, separators=(",", ":"), default=float),

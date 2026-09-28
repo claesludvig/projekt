@@ -13,8 +13,9 @@ on:
     - cron: "17 5 * 6,12 1"   # måndagar i juni och december: allt, efter PSU-publiceringarna
     - cron: "43 5 * * 1"      # varje måndag: lägesbilden (månadsserierna)
 
+# En kö per gren: en ny push ersätter bara en väntande körning på samma gren
 concurrency:
-  group: valjare
+  group: valjare-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

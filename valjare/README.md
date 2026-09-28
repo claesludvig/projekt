@@ -81,7 +81,7 @@ Riktning och målnivå anges bara där riksdagen, lagen, Riksbanken eller ett in
 - `valdistrikt_2026`, `valdistrikt_tiondel`, `valdistrikt_samband`
 - `polisen_manad`, `kpi_manad`, `fraga_betydelse`, `fraga_rang_parti`, `bast_politik`, `som_samhallsproblem`
 - `test_bilar`, `test_skjutningar`
-- `verklighet`, `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogen i `verklighet_katalog.py`)
+- `verklighet` (riket, regioner, polisregioner), `verklighet_kommunvarden` + `verklighet_indikator` (kommunvärden, kompakt), `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogerna i `verklighet_katalog.py` och `indikatorer_katalog.py`)
 - `valkrets`, `valkrets_kommun`, `valresultat_valkrets`, `valkrets_indikator`, `valkrets_oversikt`
 - `lagesbild`, `lagesbild_serie`
 - `riksdag_dokument`, `riksdag_beslut`, `riksdag_aktivitet`, `riksdag_samstammighet`,
