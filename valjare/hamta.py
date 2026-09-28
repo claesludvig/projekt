@@ -615,6 +615,14 @@ def hamta_eurostat():
             if r.status_code != 200:
                 raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
             df = jsonstat_till_df(r.json()).dropna(subset=["varde"])
+            if df.empty and filt:
+                # Tom serie: logga vilka koder som finns för de låsta dimensionerna, så att filtret kan rättas
+                r0 = http("GET", f"{EUROSTAT_API}/{ds}", params=[("format", "JSON"), ("lang", "en"),
+                                                                ("sinceTimePeriod", "2015"), ("geo", "SE")])
+                alla = jsonstat_till_df(r0.json()) if r0.status_code == 200 else pd.DataFrame()
+                koder = {k: (list(dict.fromkeys(alla[f"{k}_kod"]))[:15] if f"{k}_kod" in alla else "saknas")
+                         for k in filt}
+                logg["fel"].append(f"eurostat {sid}: 0 rader med {filt}; koder för SE: {koder}")
             # Dimensioner som inte låsts: välj totalvärdet, annars första värdet (loggas)
             for d in [c for c in df.columns if c.endswith("_kod") and c[:-4] not in ("geo", "time", "freq")]:
                 koder = list(dict.fromkeys(df[d]))

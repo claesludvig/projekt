@@ -85,16 +85,17 @@ indikator_id,fraga,indikator,kalla
 83,pension,"Demografisk försörjningskvot, totalt",SCB TAB4642: Försörjningskvot totalt
 84,pension,"Demografisk försörjningskvot, från äldre 65+","SCB TAB4642: Försörjningskvot, från äldre 65+"
 85,egen_ekonomi,"Gini-koefficient, disponibel inkomst",SCB TAB1121: Gini-koefficient
-86,egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF
-87,forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS
-88,forsvar,"Försvarsutgifter, % av statens utgifter (SIPRI)",Världsbanken MS.MIL.XPND.ZS
-89,miljo,"Förnybar energi, % av slutlig energianvändning",Världsbanken EG.FEC.RNEW.ZS
-90,miljo,"Luftföroreningar PM2,5, medelexponering (µg/m³)",Världsbanken EN.ATM.PM25.MC.M3
-91,lag,Skjutningar per år,Polismyndigheten
-92,lag,Döda i skjutningar per år,Polismyndigheten
-93,lag,Sprängningar per år,Polismyndigheten
-94,energi,"Elpris egnahem (KPI, 1980=100)",SCB KPI (TAB5160)
-95,egen_ekonomi,"Bensinpris (KPI, 1980=100)",SCB KPI (TAB5160)
-96,egen_ekonomi,"Dieselpris (KPI, 1980=100)",SCB KPI (TAB5160)
-97,egen_ekonomi,Räntekostnader egnahem (KPI),SCB KPI (TAB5160)
-98,forsvar,"Offentliga utgifter för försvar, % av BNP (COFOG)",Eurostat gov_10a_exp
+86,egen_ekonomi,Hushållens låneskulder (% av disponibel inkomst),SCB TAB4592: Nyckeltal för inkomstutveckling
+87,egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF
+88,forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS
+89,forsvar,"Försvarsutgifter, % av statens utgifter (SIPRI)",Världsbanken MS.MIL.XPND.ZS
+90,miljo,"Förnybar energi, % av slutlig energianvändning",Världsbanken EG.FEC.RNEW.ZS
+91,miljo,"Luftföroreningar PM2,5, medelexponering (µg/m³)",Världsbanken EN.ATM.PM25.MC.M3
+92,lag,Skjutningar per år,Polismyndigheten
+93,lag,Döda i skjutningar per år,Polismyndigheten
+94,lag,Sprängningar per år,Polismyndigheten
+95,energi,"Elpris egnahem (KPI, 1980=100)",SCB KPI (TAB5160)
+96,egen_ekonomi,"Bensinpris (KPI, 1980=100)",SCB KPI (TAB5160)
+97,egen_ekonomi,"Dieselpris (KPI, 1980=100)",SCB KPI (TAB5160)
+98,egen_ekonomi,Räntekostnader egnahem (KPI),SCB KPI (TAB5160)
+99,forsvar,"Offentliga utgifter för försvar, % av BNP (COFOG)",Eurostat gov_10a_exp

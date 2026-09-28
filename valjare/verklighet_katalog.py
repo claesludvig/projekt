@@ -118,11 +118,11 @@ SCB_SERIER = [
      "val": {"Region": "Riket"}, "innehall": r"^Försörjningskvot totalt"},
     {"fraga": "pension", "namn": "Demografisk försörjningskvot, från äldre 65+", "tabell": "TAB4642",
      "val": {"Region": "Riket"}, "innehall": r"från äldre"},
-    # Hämtas från och med nästa körning (kallor.SCB_SOK, steg 3)
     {"fraga": "egen_ekonomi", "namn": "Gini-koefficient, disponibel inkomst", "tabell": "TAB1121",
      "val": {"~^Region": "Riket", "~(?i)inkomst": "~(?i)^disponibel inkomst"}, "innehall": r"(?i)gini"},
-    {"fraga": "egen_ekonomi", "namn": "Hushållens skuldkvot (% av disponibel inkomst)", "tabell": "TAB4592",
-     "val": {"~(?i)sektor": "~(?i)hushåll", "~(?i)indikator": "~(?i)skuldkvot"}, "innehall": r"."},
+    {"fraga": "egen_ekonomi", "namn": "Hushållens låneskulder (% av disponibel inkomst)", "tabell": "TAB4592",
+     "val": {"~(?i)sektor": "~^Hushåll$", "~(?i)indikator": "~(?i)^låneskulder i procent av disponibel"},
+     "innehall": r"."},
 ]
 
 # Världsbanken (öppet API). Militärutgifterna är SIPRI:s serie.
