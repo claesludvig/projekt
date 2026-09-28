@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-09-27T14:16:45.607974+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-09-28T06:33:07.702321+00:00",
+  "new_count": 20,
   "skipped": {
-    "seen": 26,
-    "offtopic": 151,
+    "seen": 20,
+    "offtopic": 141,
     "old": 29
   },
-  "fetch_errors": 2,
+  "fetch_errors": 11,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 11,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 4,
       "ok": true
     },
     {
@@ -65,77 +65,375 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/ExVlKo/andreas-norlens-tid-som-talman-var-bra-for-sverige",
-      "title": "Åtta goda år för talmansämbetet",
+      "url": "https://www.svd.se/a/q6q7aL/talmansvalet-far-andreas-norlen-sitta-kvar",
+      "title": "”Skulle inte stärka V att fullfölja det här”",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-09-27",
-      "author": "Paulina Neuding",
+      "published": "2026-09-28",
+      "author": "Emilia Lindell",
       "commentator": "",
-      "summary": "Norléns kärlek till kulturen har påmint om allt som förenar Sverige.",
-      "fulltext": "Andreas Norlén har varit riksdagens talman i en turbulent tid. Han har gjort ett av Sveriges viktigaste ämbeten till sitt på ett alldeles eget sätt.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nE n pandemi, en våg av väpnat gängvåld, ett krig i Europa.\nFör att inte nämna att det hela avslutas med att det för första gången sedan demokratins införande i Sverige kommer uppgifter om omfattande fusk i ett riksdagsval.\nOch så stöket i en allt mer konfliktfylld offentlighet.\nAndreas Norlén har varit riksdagens talman i en minst sagt turbulent tid. När han tillträdde 2018 kom han visserligen från posten som ordförande i KU, men var ännu en förhållandevis okänd moderat riksdagsledamot från Östergötland, korrekt och lågmäld i framtoningen, och disputerad på en avhandling i juridik om oskälighetsbegreppet i avtalslagens paragraf 36.\nDet är inte sådant som omedelbart brukar göra människor folkkära.\nMen Norlén har under de åtta år som gått gjort sitt ämbete, rikets högsta efter statschefens, till sitt på ett alldeles eget sätt.\nFramför allt har han visat en smittsam kärlek till kultur som kan tala till alla oavsett politisk hemvist.\nNär den politiska offentligheten, inte bara i Sverige, har rört sig mot tilltagande populism och gapande i sociala medier, har Norlén stått för motsatsen. Framför allt har han visat en smittsam kärlek till kultur som kan tala till alla oavsett politisk hemvist. Några rader av en ukrainsk poet under ett tal på årsdagen av Rysslands invasion, eller en dikt av Bodil Malmsten under en minnesceremoni för pandemins offer – sådant har påmint om att det är mer som förenar än som skiljer oss åt, även i turbulenta tider.\nHans egna böcker under ämbetstiden, ”Tomatdagboken” (skriven tillsammans med hustrun Helena Norlén, Max Ström förlag 2025) och ”Talmannens guide till svensk poesi” (2024), har kretsat just kring ynnesten att få odla sin egen trädgård, både yttre och inre. Ett slags motljud som har reducerat bruset från dagspolitikens tjafs och konflikter.\nNya majoritetsförhållanden i riksdagen innebär att det är dags för en ny talman, och det spekuleras i namn som Anders Ygeman och Morgan Johansson. Med andra ord – talmansämbetet kommer sannolikt att återgå till vad det var före 2018.\nMen cometh the hour, cometh the man , som britterna säger. Det behöver inte betyda något mer pompöst än att vi i alla fall med avseende på rikets näst högsta ämbete just har haft åtta riktigt goda år.",
+      "summary": "Det mesta tyder på att Andreas Norlén får sitta ytterligare fyra år som talman, sedan V på söndagen…",
+      "fulltext": "Det mesta tyder på att Andreas Norlén får sitta ytterligare fyra år som talman, sedan V på söndagen bekräftade att man ska rösta för honom i dagens omröstning. ”Det sämsta för V är om man fullföljer det här”, säger statsvetaren Tommy Möller.\nNär riksdagens ledamöter vid 11 samlas för talmansomröstning väntas Magdalena Anderssons (S) lag visa ytterligare tecken på splittring. In i det sista har de rödgröna ännu inte lagt fram någon motkandidat till Tidöpartiernas Andreas Norlén.\n”Behövs något alldeles extra för att få ihop det”",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "talman"
       ],
-      "first_seen": "2026-09-27T14:16:45.607974+00:00"
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9308279",
-      "title": "Pontus Mattsson: Förhandlingarna verkar vara otroligt låsa",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/riksdagen-valjer-ny-talman-det-har-galler",
+      "title": "Riksdagen väljer ny talman – det här gäller",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-09-27",
-      "author": "Ekot",
+      "published": "2026-09-28",
+      "author": "Nils Jönsson",
       "commentator": "",
-      "summary": "Enligt uppgifter till flera medier ska S och V mötas på söndagen. På måndagen ska en ny talman väljas i riksdagen och på söndagseftermiddagen väntas partier lämna in sina nomineringar till talman. ”Förhandlingarna verkar vara otroligt låsta”, säger Ekots politikreporter Pontus Mattsson. Hör honom berätta mer om regeringsbildningen och utredningar om misstänkt valfusk.",
-      "fulltext": "",
+      "summary": "Nu samlas riksdagen för första gången efter valet och ska utse ny talman. Andreas Norlén (M) är hittills den enda nominerade kandidaten.",
+      "fulltext": "Nu samlas riksdagen för första gången efter valet och ska utse ny talman. Andreas Norlén (M) är hittills den enda nominerade kandidaten.\nKlockan 11 på måndagen samlas riksdagsledamöterna för för första gången efter valet den 13 september. Det är upprop och ledamöterna ska rösta på vem som ska bli riksdagens talman kommande mandatperiod och vilka tre som blir vice talmän.\nTalmännen kommer att väljas var för sig och först ut är valet av talman, följt av förste vice talman, andre vice talman samt tredje vice talman.\nDet är partierna som nominerar kandidater till de olika posterna.\nModeraterna har nominerat Andreas Norlén (M). Kristdemokraterna, Liberalerna och Sverigedemokraterna har ställt sig bakom nomineringen. Även Vänsterpartiet kommer att rösta på Norlén.\nSocialdemokraterna har ännu inte nominerat någon kandidat.\nFör Socialdemokraterna har en talman från det egna partiet beskrivits bli en viktig spelare i kampen om regeringsmakten. Det handlar om att kontrollera tempot i processen, så att han eller hon kan sätta press på de förhandlande parterna vid rätt tillfälle, har en socialdemokrat sagt till SVT.\nTvå möjliga S-kandidater som det spekulerats om är bland andra tidigare justitieminister Morgan Johansson och Anders Ygeman, i dag riksdagens ålderspresident och alltså den som suttit längst och som håller i måndagens talmansval.\nSöndag klockan 14 var riksdagens deadline för partiernas nomineringar, för att hinna förtrycka lappar med kandidaternas namn. Men nomineringar kan komma in ända fram till omröstningen klockan 11 på måndagen.\nNär det bara finns en kandidat görs valet genom så kallad acklamation, vilket innebär att ledamöterna ropar ja eller nej till förslaget. Valet av de tre vice talmännen går till på samma sätt om det bara finns en kandidat till varje post.\nOm flera har nominerats kan valet göras med slutna valsedlar, om det är någon av riksdagsledamöterna vill det. Ledamöterna kan då rösta på vilken av kandidaterna de vill utan att det blir känt vem de röstat på.\nTalmannen är partipolitiskt neutral och står utanför det partipolitiska riksdagsarbetet. Talmannen har också en viktig roll vid bildandet av ny regering. Enligt regeringsformen har talmannen i uppgift att föreslå riksdagen en statsminister.\nTidigast på tisdagen den 29 september kan talmannen föreslå en statsminister. Den nyvalda riksdagen röstar om kandidaten. Om fler än hälften av ledamöterna röstar nej inleder då talmannen arbetet med att hitta en ny statsministerkandidat.\nTalmannen leder också kammarens sammanträden och planerar riksdagens arbete. I uppdraget ingår även att bland annat samråda i olika frågor med partiernas gruppledare och möten med utskottens ordförande respektive presidierna i riksdagens delegationer till internationella församlingar.\nTalmannen företräder riksdagen och tar till exempel emot presidenter, talmän och premiärministrar som gästar Sverige.\nTalmannen kan fram till nästkommande riksdagsval inte avsättas genom riksdagsbeslut.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308279'",
+      "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning",
         "talman"
       ],
-      "first_seen": "2026-09-27T14:16:45.607974+00:00"
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9308258",
-      "title": "Mattsson om V och talmansvalet: ”En otrolig krigsförklaring”",
+      "url": "https://www.sverigesradio.se/artikel/9308427",
+      "title": "Källor till Expressen: V-beskedet är en hämnd",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Anledningen till att Vänsterpartiet kommer rösta på moderaten Andreas Norlén är för att de utelämnats från samtal om regeringsbildningen, det enligt källor till Expressen . Det hela ska vara en slags hämnd då partiet utelämnats från samtal som enligt tidningen pågår mellan Socialdemokraterna, Miljöpartiet och Centerpartiet. ”De andra partierna träffas i olika konstellationer men Vänsterpartiet är helt utanför” säger Expressens politikreporter Anette Holmqvist.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308427'",
+      "matched_terms": [
+        "regeringsbildning",
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9307729",
+      "title": "Hanna Lindqvist, 22 – yngst i nya riksdagen",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Idag samlas riksdagens 349 ledamöter för upprop efter valet, trots att regeringsbildningen fortfarande dröjer. Knappt en tredjedel är nya, 54 procent är män och 46 procent kvinnor, samtidigt som flera profiler tar plats och andra missar riksdagen. MP:s 22-åriga nykomling Hanna Lindqvist blir yngst i kammaren. ”Jag tror att jag kan bli en viktig länk för att öka förtroende för politiker bland unga”, säger Lindqvist till Ekot.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9307729'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308383",
+      "title": "Expert om V:s besked: ”Accepterar inte längre att vara dörrmatta”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "När riksdagen röstar idag om talman idag, verkar det som att moderaten Andreas Norlén kommer få behålla jobbet. Detta efter att Vänsterpartiet igår förklarade att man ställer sig bakom Tidöpartiernas nominering. Ett oväntat beslut som tyder på att V inte accepterar rollen som dörrmatta för Socialdemokraterna, säger statsvetaren Jenny Madestam.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308383'",
+      "matched_terms": [
+        "talman",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9307699",
+      "title": "Efter leveransproblem – Postnord kallas till möte",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Valmyndigheten har fått in över hundra rapporter om transportproblem i samband med valet. På måndagsförmiddagen har Valmyndigheten kallat Postnord till ett möte för att ta reda på vad som gick fel. Alla röster har kommit tillrätta och bedöms inte ha någon påverkan på valresultatet, men på många håll undrar kommunernas valkanslier fortfarande vad som gjorde att osorterade röster levererades fel, och ibland flera dagar för sent.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9307699'",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/GxpOK4/vansterpartiet-rostar-pa-andreas-norlen-som-talman",
+      "title": "V bekräftar: Vi röstar på Andreas Norlén",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-27",
+      "author": "Emilia Lindell, Ingrid Friberg",
+      "commentator": "",
+      "summary": "Vänsterpartiet kommer att rösta på Andreas Norlén i måndagens talmansval, uppger vice partiledare…",
+      "fulltext": "Vänsterpartiet kommer att rösta på Andreas Norlén i måndagens talmansval, uppger vice partiledare Ida Gabrielsson i Agenda. ”Vi tror att han kommer att ta den här processen framåt mer än någon annan”, säger hon.\nVänsterpartiet kommer att gå emot Socialdemokraternas önskan om en talman från det egna partiet, när riksdagens ledamöter på måndag ska besluta om nästa mandatperiods talman.\nI söndagskvällens Agenda i SVT bekräftade vice partiledare Ida Gabrielsson de uppgifter som började cirkulera från källor redan i fredags.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "partiledar",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/0p33lG?pinnedEntry=78137",
+      "title": "V kommer att rösta på Norlén som talman",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-27",
+      "author": "",
+      "commentator": "",
+      "summary": "",
+      "fulltext": "Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.\nVänsterpartiet bekräftar: Kommer rösta på Norlén\nVänsterpartiets Ida Gabrielsson bekräftar att partiet kommer att rösta på Tidöpartiernas talmanskandidat Andreas Norlén i måndagens talmansval. Det säger den vice partiledaren i SVT:s Agenda.\n\"Vi röstar inte på en moderat talman utan vi röstar på Andreas Norlén\", säger hon.\nIda Gabrielsson förklarar Vänsterpartiets beslut med att det kan ta lång tid att bilda regering – och att riksdagen därför behöver stabilitet.\n\"Vi är många som upplever att han kan hålla sig ganska lugn, ha en distans och vara objektiv. Vi tror att det kan behövas i det här låsta läget.\"\nDet innebär att V ställer sig bakom M:s nominering. De senaste dagarna har det varit oklart om de rödgröna kommer att enas om en talmanskandidat. S har varit tydliga med att de vill se en socialdemokrat på posten.\nSkapa ett kostnadsfritt SvD Bas-konto för att ställa en fråga.\nValmyndigheten kallar Postnord till ett möte på måndagseftermiddagen, rapporterar Ekot.\nDetta efter att över hundra rapporter om problem med transporter i samband med valet kommit in till myndigheten.\nKommunrepresentanter vittnar om bristande återkoppling från Postnord.\nProblemen som pekas ut handlar bland annat om fellevererade förtidsröster. Det ska dock inte ha haft någon påverkan på valresultatet.\nMohamed Ali om misstankarna: ”Påfrestande”\nDen vänsterpartistiska ledamoten Mohamed Ali beskriver de senaste dagarnas rapportering om misstänkt valfusk som ”påfrestande, både personligen och politiskt”.\n”Jag har tagit del av rapportering och kommentarer där det har dragits slutsatser om mig innan de processer och utredningar som pågår har fått ha sin gång”, skriver han i ett Facebook-inlägg.\nHan skriver vidare att han tycker det är tungt att delar av debatten har kommit att handla om hans ursprung.\n”Det påverkar inte bara mig. Det riskerar också att få andra svenskar med minoritetsbakgrund att känna att deras deltagande i demokratin ifrågasätts på andra villkor”, skriver han vidare.\nPolisen utreder misstänkt valfusk kopplat till att han kryssades in i riksdagen. Mohamed Ali är inte delgiven misstanke om något brott. Han har tagit en timeout från riksdagen under tiden polisen utreder misstankarna. Han skriver att han begärt två veckors ledighet.\n”Jag vill vara tydlig med att min ledighetsansökan inte innebär att jag avsäger mig mitt uppdrag, och den ska inte heller tolkas som ett erkännande av skuld.”\nModeraterna nominerar Andreas Norlén till att fortsätta på talmansposten, skriver partiet i ett pressmeddelande.\n”I oroliga tider och ett svårt parlamentariskt läge är det viktigt med en talman med både erfarenhet och som är brett uppskattad över partigränserna”, säger gruppledaren Mattias Karlsson.\nDe övriga Tidöpartierna står bakom nomineringen, skriver TT.\nDe rödgröna partierna har ännu inte lagt fram någon kandidat. I fredags uppgav källor till Ekot att Vänsterpartiet överväger att rösta på ytterligare fyra år med Norlén.\nHan har suttit på talmansposten sedan 2018.\nBekräftat: Andersson och Dadgostar möts i dag\nS-ledaren Magdalena Andersson och V-ledaren Nooshi Dadgostar ska träffas under söndagen, bekräftar en partikälla för TT.\nPartikällan bekräftar att ett möte planeras under söndagen, men vill inte ge några detaljer om när eller vad det ska handla om.\nI morgon är det val av talmän till riksdagen och Andersson ska ge talmannen en lägesrapport.\nVal 2026 – så bildas en ny regering efter valet",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/5pK5PW/vansterpartiet-markerar-mot-storasyster-socialdemokraterna",
+      "title": "V markerar mot storasyster S",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-09-27",
+      "author": "Henrik Torehammar",
+      "commentator": "",
+      "summary": "Regeringsförhandlingarna hackar mellan röstfusksanklagelser och talmansval.",
+      "fulltext": "Regeringsförhandlingarna hackar mellan röstfusksanklagelser och talmansval. Går det att förstå rödgröna låsningar med hjälp av syskonteorin?\nDetta är en kommentar. Eventuella åsikter som uttrycks är skribentens egna.\nVissa tror starkt på att ens plats i syskonskaran påverkar ens personlighet. Det äldsta syskonet blir ansvarstagande och prestationsinriktat. Småsyskonet, särskilt sladdisen, en charmig narcissist. Mellanbarnet blir en kompromissande krockkudde som tvingas hitta en identitet utanför familjen.\nSyskonteorin är kanske inte hård vetenskap, men ibland känns den kusligt träffande.\nSå röstade din granne – se valresultatet i ditt kvarter\n”Andersson kommer att slukas av utrikespolitik”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling",
+        "talman"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/v-vill-se-andreas-norlen-som-talman",
+      "title": "V kommer att rösta på Andreas Norlén som talman",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Hedvig Eriksson",
+      "commentator": "",
+      "summary": "Vänsterpartiet kommer att rösta på Andreas Norlén när riksdagen väljer ny talman på måndag. Det säger vice partiledare Ida Gabrielsson i SVT:s Agenda. – Det kan ta lång tid för Sverige att få en regering och då tror vi att vi behöver stabilitet i riksdagen. Därför kommer vi att lägga vår röst på Andreas Norlén, säger hon.",
+      "fulltext": "Vänsterpartiet kommer att rösta på Andreas Norlén när riksdagen väljer ny talman på måndag. Det säger vice partiledare Ida Gabrielsson i SVT:s Agenda.\n– Det kan ta lång tid för Sverige att få en regering och då tror vi att vi behöver stabilitet i riksdagen. Därför kommer vi att lägga vår röst på Andreas Norlén, säger hon.\nHon poängterar att Vänsterpartiet inte röstar på ”en moderat talman” utan att det är Andreas Norléns personliga egenskaper som avgjort.\n– Han har erfarenheten och det är många som upplever att han kan hålla sig lugn och vara objektiv. Vi tror att det i det här låsta läget mellan oss partier kan behövas någon som har lite mer utifrånblick, säger Ida Gabrielsson.\nSocialdemokraterna har sagt att man vill se en talman från det egna partiet. Men sent på söndagskvällen hade den rödgröna sidan ännu inte presenterat någon gemensam kandidat inför måndagens omröstning.\nAtt Vänsterpartiet lägger sin röst på Norlén innebär att han har stöd från en majoritet i riksdagen.\nBeslutet att rösta på motståndarsidans kandidat påverkar inte viljan att bilda regering tillsammans med S, säger Ida Gabrielsson.\n– Vi är väldigt tydliga med på vilken sida vi står. Vi kommer aldrig rösta på någon annan än Magdalena Andersson, säger hon.\nMen hon tror att Norlén kan förhålla sig mer neutral till de fyra partiernas viljor än vad en socialdemokratisk talman kan.\n– Vi ser ju att det finns ett ganska starkt tryck på att just Vänsterpartiets väljare inte ska räknas och att vi ska vika ner oss för kravet om regeringsinflytande.\nUnder den dryga vecka som gått sedan Socialdemokraternas Magdalena Andersson fick talmannens uppdrag att försöka bilda regering har inga regeringsförhandlingar påbörjats. Nu faller det första försöket att visa enighet i riksdagen.\n– Det är klart att vi har inte lyckats samlat oss på den här sidan. Vi har än så länge inte fått till en fika mellan alla fyra partier. Det är något vi har velat väldigt länge i Vänsterpartiet, säger Ida Gabrielsson.\nMen hon är inte orolig för att dagens besked ska försvåra kommande förhandlingar.\n– Man missförstår om man tänker att man underlättar förhandling om man gör som den andra vill. Det skulle gå jättelätt att bilda regering om Vänsterpartiet inte krävde inflytande för våra väljares räkning. Där skon klämmer är att det finns ett parti, Centerpartiet, som säger nej till att våra mandat ska räknas och vi säger ja till alla. Där behöver den som ska bilda regering se till att vi kommer framåt, säger hon.\nSVT har sökt Magdalena Andersson (S), som inte vill kommentera i nuläget.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "partiledar",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/m-nominerar-norlen-till-talman",
+      "title": "M nominerar Norlén till talman",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Noa Jeppsson",
+      "commentator": "",
+      "summary": "Moderaterna meddelade i dag att de nominerar Andreas Norlén till talman i Sveriges riksdag. – Vi upplever att han har ett brett stöd bland riksdagens partier, säger Mattias Karlsson (M), gruppledare, till SVT.",
+      "fulltext": "Moderaterna meddelade i dag att de nominerar Andreas Norlén till talman i Sveriges riksdag.\n– Vi upplever att han har ett brett stöd bland riksdagens partier, säger Mattias Karlsson (M), gruppledare, till SVT.\nAndreas Norlén har varit Sveriges riksdags talman sedan 2018. Nu nomineras han av Moderaterna till en tredje mandatperiod. Strax efter nomineringen meddelade även Kristdemokraterna och Liberalerna att de står bakom den. – Moderaterna har nominerat Andreas Norlén till talman i ytterligare en mandatperiod. Kristdemokraterna ställer sig bakom nomineringen. Norlén har under sina åtta år som talman fått bred uppskattning över partigränserna. I ett svårt parlamentariskt läge är hans erfarenhet och breda uppskattning viktig, säger Camilla Brodin, Kristdemokraternas gruppledare.\nL-ledaren Simona Mohamsson har kommenterat nomineringen på X och skriver: ”Vi i Liberalerna tycker att Andreas Norlén ska fortsätta. Min uppgift är inte att rädda Magdalena Andersson från sitt regeringsunderlag.”\nÄven Sverigedemokraterna ställer sig bakom nomineringen.\n”Vi kommer att ställa oss bakom Andreas Norlén som talman och även nominera Julia Kronlid till talmanspresidiet. Det kommer att krävas stabilitet och erfarenhet i kammaren i det parlamentariska läge vi befinner oss i. En sådan stabilitet får vi med Andreas och Julia i presidiet”, skriver Sverigedemokraternas gruppledare Linda Lindberg till SVT.\nOppositionen har ännu inte kommit med någon kandidat. Praxis är att partierna nominerar sin kandidat dagen före talmansvalet, men nomineringar kan lämnas in ända fram till omröstningen på måndag .\nSocialdemokraterna har sagt att man vill se en talman från det egna partiet. Så kan det också bli om de rödgröna enas om en kandidat, eftersom de har majoritet i riksdagen.\nMen Vänsterpartiet har i veckan uttryckt stöd för moderaten Andreas Norlén som fortsatt talman. Partiet överväger att ge sitt stöd till honom i talmansvalet, men något beslut är inte fattat.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308387",
+      "title": "Vänsterpartiet kommer rösta på Andreas Norlén (M) som talman",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-09-27",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Läget kring regeringsbildningen präglas fortfarande av låsningar och ovisshet. Enligt Ekots inrikespolitiske reporter Pontus Mattsson kommer Socialdemokraterna och Vänsterpartiet med olika uppgifter om hur samtalen hittills sett ut. Även kring måndagens talmansval i riksdagen råder det oklarheter, där det ryktas om att Vänsterpartiet kommer rösta ner Socialdemokraternas kandidat.",
+      "summary": "Vänsterpartiet kommer att rösta på Moderaternas Andreas Norlén som talman, trots att partiet vill bilda regering med Socialdemokraterna som vill se en egen kandidat. ”Han har erfarenheten av att vara talman och av att lotsa oss igenom det här tidigare. Han har fått både Stefan Löfven och Magdalena Andersson valda och han kan ha lite mer distans till situationen i det här låsta läget”, säger Vänsterpartiets vice ordförande Ida Gabrielsson. Beskedet ger Norlén majoritet redan före omröstningen, eftersom han redan stöttas av alla fyra Tidöpartier.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308258'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9308387'",
+      "matched_terms": [
+        "talman",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308376",
+      "title": "Statsvetaren om V:s stöd för Norlén: ”Visar att man menar allvar”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Vänsterpartiet ställer sig bakom Moderaternas nominering Andreas Norlén som talman. Det klargjorde vice ordförande Ida Gabrielsson i SVT:s Agenda under söndagskvällen. ”Det kan ta lång tid att Sverige får en regering och då tror vi att vi behöver en stabilitet och en fast punkt i regeringen”, sa hon. ”Nu vill man visa att man menar allvar med att man ska sitta i regering”, säger Jenny Madestam, statsvetare vid Södertörns högskola.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308376'",
+      "matched_terms": [
+        "talman",
+        "Moderaterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308377",
+      "title": "Ledarskribenten Jonna Sima: ”Jag blir otroligt trött”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Jonna Sima, ledarskribent på Aftonbladets oberoende socialdemokratiska ledarsida, reagerar med trötthet på Vänsterpartiets besked att ställa sig bakom Moderaternas val av talman. ”Det är ett politiskt spel”, säger hon. Adam Cwejman, politisk redaktör på liberala Göteborgs-Posten, tror att Centerpartiet nu kommer att sätta sig i en regering med Vänsterpartiet, trots att de tidigare har sagt nej till detta. ”Centerpartiet kommer att nötas ner för de inser att de vinner inte så mycket på att vara emot Vänsterpartiet”, säger han.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308377'",
+      "matched_terms": [
+        "talman",
+        "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308336",
+      "title": "Moderaterna nominerar Andreas Norlén till talman",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Moderaterna nominerar Andreas Norlén till posten som riksdagens talman, det har partiets riksdagsgrupp beslutat på ett möte under söndagen. ”Det är viktigt med en talman med erfarenhet under oroliga tider och ett svårt parlamentariskt läge”, säger partiets gruppledare i en kommentar till Ekot. Det är fortfarande oklart vem Socialdemokraterna kommer att nominera.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308336'",
+      "matched_terms": [
+        "talman",
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308329",
+      "title": "Kan det bli omval i Dalarna?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Misstankarna om valfusk i Dalarna betyder inte automatiskt omval, enligt statsvetaren Jenny Madestam. Det är Valprövningsnämnden som avgör om fel kan konstateras och om de kan ha påverkat valutgången, samtidigt som regeringsbildningen fortsätter i ett separat spår. Hör Ekots Pontus Matsson och Jenny Madestam, docent i statsvetenskap vid Södertörns högskola, svara på lyssnarnas frågor om det misstänka valfusket.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308329'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308326",
+      "title": "Varför vill C inte samarbeta med V?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiet vill inte ens diskutera samarbete med Vänsterpartiet, främst på grund av stora skillnader i ekonomisk politik. Motståndet bygger också på en långvarig misstro mot Vänsterpartiets kommunistiska förflutna och partiets tidigare säkerhetspolitiska ställning. Hör Ekots Pontus Matsson och Jenny Madestam, docent i statsvetenskap vid Södertörns högskola, svara på lyssnarnas frågor om regeringsbildningen",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308326'",
       "matched_terms": [
         "regeringsbildning",
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9308322",
+      "title": "Hur väljs talmannen och vad är talmannens roll?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "I morgon måndag väljer riksdagen talman. Socialdemokraterna vill se en socialdemokrat på posten, medan Vänsterpartiet öppnat för att stödja nuvarande talmannen Andreas Norlén. Vilken partifärg talmannen har ska dock inte göra någon skillnad för hur talmannen jobbar. Hör Ekots Pontus Matsson och Jenny Madestam, docent i statsvetenskap vid Södertörns högskola, svara på lyssnarnas frågor om talmannens roll.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9308322'",
+      "matched_terms": [
         "talman",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-09-27T14:16:45.607974+00:00"
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/liberalernas-lokala-bakslag-i-valet-blir-ekonomisk-small",
-      "title": "Liberalernas lokala bakslag i valet blir ekonomisk smäll",
+      "url": "https://www.dn.se/sverige/hans-rosen-maktspel-gor-talmansvalet-till-en-rysare",
+      "title": "Hans Rosén: Maktspel med höga insatser inför talmansvalet",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-09-27",
-      "author": "Pia Gripenberg, Moa Källström",
+      "author": "Hans Rosén",
       "commentator": "",
-      "summary": "UPPSALA. Jubel och lättnad över riksdagsvalet. Sorg och besvikelse över vad som händer i regioner och på kommunnivå. För Liberalerna är det en ekonomisk smäll att röstas bort från regionpolitiken. Hur ska partiet komma tillbaka?",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-27 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/liberalernas-lokala-bakslag-i-valet-blir-ekonomisk-small/\nUPPSALA. Jubel och lättnad över riksdagsvalet. Sorg och besvikelse över vad som händer i regioner och på kommunnivå.\nFör Liberalerna är det en ekonomisk smäll att röstas bort från regionpolitiken.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nLyckan var stor på Liberalernas valvaka i Uppsala när de första valprognoserna rullade in. Det som verkade omöjligt några veckor tidigare hade gått vägen: partiet räddar sig kvar i riksdagen.\nSedan kom de lokala siffrorna. ”Skit” tänkte Thea Andersson (L), regionråd i Uppsala.\n– Jag gick hem. Jag tänkte inte sabba valvakan, berättar hon.\nHon blev regionråd i juni sedan hennes företrädare hoppade av efter att partiet gjorde upp med Sverigedemokraterna om att sitta tillsammans i en regering.\nI valet tappade L alla sina fem mandat i region Uppsala. Thea Andersson är kvar på sin post till årsskiftet, då en ny regionstyrelse träder in.\nI ytterligare tre regioner åkte partiet ut. Sammantaget finns L nu bara representerat i 12 av Sveriges 20 regioner.\nFör Liberalerna i Uppsala innebär det att man blir av med sitt regionala partistöd på över två miljoner kronor över en mandatperiod. Två anställda har varslats om uppsägning. Man säger upp sina möteslokaler hos Vuxenskolan.\nVarför gick det dåligt lokalt, när det gick bra nationellt?\n– Helt avgörande var att Simona gjorde ett jättebra jobb. Det fanns taktikröster, men det är också meningsfulla röster som väljarna kan stå för. Frågan är varför de inte valde L i alla val, säger Thea Andersson.\nHon var med och gjorde utvärderingen av valet 2022 och hoppas att en kommande analys kan förklara årets valresultat.\nMen hon har egna funderingar. En är att partiet ”inte hann med” de lokala valen när man var så fokuserad på riksdagen. Frågetecknen som fanns centralt om vägvalet rätades ut i uppgörelsen med SD, men hann inte förankras och föras ut lokalt.\n– Vissa lokala val har gått jättebra. Där har det funnits starka företrädare med väldigt tydliga frågor.\nThea Andersson talar också om identitet, att partiet varit splittrat och att man i regeringen riktat in sig på vissa frågor i stället för på helheten.\n– Vi pratar inte så mycket om försvarspolitik som vi har gjort historiskt. Utrikespolitiken är också ganska begränsad. Nu har vi chans att bredda väljarerbjudandet.\nHon ser fram mot att partiet kan enas efter de senaste årens splittring.\n– Det gör vi genom ett genomtänkt politiskt arbete tillsammans där vi hittar tillbaka till vad det är som är våra kärnvärden. Eller väljer nya.\n2026 är det andra valet i rad som Liberalerna tappar rejält med inflytande i regioner och kommuner. L var dessutom nära att bli utröstade i de stora regionerna Stockholm och Skåne.\n– Vi kan inte trilla ur flera. Det är helt avgörande.\n– I huvudsak är det faktiskt finansieringsfrågan. Men det är också ett demokratiskt kärnuppdrag.\nThea Andersson anser att Liberalerna måste vara ett ”fullserviceparti”.\n– Vår politiska identitet ska gå att känna igen på kommunal nivå, på regional nivå och på nationell nivå. Väljarna ska vara trygga med att välja oss tre gånger. Inte bara en gång.\nEn av få större städer där Liberalerna gick framåt är Västerås. Där är Anton Holmlund, ordförande för Liberala ungdomsförbundet, Luf, ledamot i kommunfullmäktige.\n– Vi hade mycket ideellt engagemang i Västerås, ett bra förstanamn och en sakpolitisk konflikt om äldrevården, sammanfattar han.\nHan pekar på att det varit färre namn på de lokala partilistorna i det här valet och tycker det är oroande.\n– Det finns definitivt fler liberalt sinnade människor i Sverige än vad de lokala valen visar. De kampanjerna har inte lyckats nå ut till tillräckligt många och inte lyckats få folk engagerade nog.\nLuf tillhörde dem som kritiserade vägvalet i mars med SD. Anton Holmlund tror att L kunnat klara sig kvar i riksdagen även utan den uppgörelsen.\nHan efterlyser en renovering av partiet. Och då talar han främst om de interna processerna.\n– Vill man att det ska funka som det har gjort de senaste fyra åren med ganska litet medlemsinflytande? Då kanske man behöver skriva ner det i stadgar och strukturer. Annars får man faktiskt följa de former som vi har.\nPolitiskt anser han att Liberalerna saknar en egen berättelse om vilket parti man är.\n– Det går inte att bygga ett parti på bara skolpolitiken. Det måste finnas någon djupare sammanhållen idé. Kanske ska man ha en ideologikongress eller något sådant under mandatperioden och komma fram till vad vår roll är i svensk politik?\nRiksdagen: 5,3 procent, en ökning med 0,7 procent\nRegionerna: 3,3 procent, en minskning med 1,3 procent.\nLiberalerna backar i alla regioner och åker ut i fyra regioner. Partiet saknar sedan tidigare mandat i flera regioner. L är därför bara är representerat i 12 av Sveriges 20 regioner.\nGotland är både kommun och region samtidigt. I Valmyndighetens statistik räknas Gotland enbart som en kommun. I den finns L representerat.\nKommunerna: 4,0 procent, en minskning med 1,2 procent.\nLiberalerna backar i 215 kommuner, går framåt i 61 och ligger still i 14 kommuner. I 39 kommuner åker partiet ut, enligt en sammanställning a v Dagens Samhälle .\nFör att väljas in i riksdagen måste ett parti få fyra procent av rösterna.\nI kommunen är spärren två eller tre procent, beroende på hur många valkretsar som finns.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nUppgifter: S och V planerar att träffas på söndag\nPeter Wolodarski: Putin kör fast i Ukraina, då försöker han skrämma resten av Europa\nLedare: Magdalena Andersson kan inte vänta på Vänsterpartiet",
+      "summary": "Måndagens talmansval har utvecklats till ett maktspel mellan blocken, men också inom Magdalena Anderssons tänkta regeringsunderlag. Vem det än blir som vinner valet så väntar en uppgift väl så svår som den talmannen ställdes inför 2018.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-28 08:32\nArtikelns ursprungsadress: https://www.dn.se/sverige/hans-rosen-maktspel-gor-talmansvalet-till-en-rysare/\nMåndagens talmansval har utvecklats till ett maktspel mellan blocken, men också inom Magdalena Anderssons tänkta regeringsunderlag. Vem det än blir som vinner valet så väntar en uppgift väl så svår som den talmannen ställdes inför 2018.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.\nDärefter 249 kr/mån. Följ med i allt som händer efter valet. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "riksdagsval",
-        "Liberalerna"
+        "regeringsunderlag",
+        "talman"
       ],
-      "first_seen": "2026-09-27T14:16:45.607974+00:00"
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/m-nominerar-norlen-som-talman-sd-kd-och-l-staller-sig-bakom",
+      "title": "M nominerar Norlén som talman – SD, KD och L ställer sig bakom",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-09-27",
+      "author": "Frida Bergkvist",
+      "commentator": "",
+      "summary": "Tidöpartierna vill behålla Andreas Norlén som riksdagens talman – ett val som även Vänsterpartiet ställer sig bakom.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-09-28 08:33\nArtikelns ursprungsadress: https://www.dn.se/sverige/m-nominerar-norlen-som-talman-sd-kd-och-l-staller-sig-bakom/\nTidöpartierna vill behålla Andreas Norlén som riksdagens talman – ett val som även Vänsterpartiet ställer sig bakom.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nAndreas Norlén valdes till riksdagens talman 2018 och har därmed suttit i åtta år.\n”I det här otroligt komplicerade parlamentariska läget så är det bra med en talman som är rutinerad, säger Moderatledaren och övergångsstatsministern Ulf Kristersson i en kommentar till TT.\n”Det är mycket bättre än att ha en nybörjare”, säger Kristersson.\nSD, KD och L ställer sig bakom Norlén, meddelar man kort efter M:s beslut offentliggjorts.\n”Norlén har under sina åtta år som talman fått bred uppskattning över partigränserna. I ett svårt parlamentariskt läge är hans erfarenhet och breda uppskattning viktig, säger KD:s gruppledare Camilla Brodin, i en kommentar till DN.\nL-ledaren Simona Mohamsson kommenterar nomineringen på X:\n”Vi i Liberalerna tycker att Andreas Norlén ska fortsätta. Min uppgift är inte att rädda Magdalena Andersson från sitt regeringsunderlag”, skriver Mohamsson.\nSverigedemokraterna kommer även att nominera Julia Kronlid (SD) till talmanspresidiet. Kronlid är i dag andra vice talman och SD önskar att hon fortsätter på den posten.\nFörutom talmannen har riksdagen alltså en vice talman, en andra vice- och en tredje vice talman.\n”Det kommer att krävas stabilitet och erfarenhet i kammaren i det parlamentariska läge vi befinner oss i. En sådan stabilitet får vi med Andreas och Julia i presidiet”, säger SD:s gruppledare Linda Lindberg i en skriftlig kommentar.\nOppositionen har ännu inte presenterat någon kandidat.\nS gruppledare Lena Hallengren har varit tydlig med att man vill se en socialdemokratisk kandidat samtidigt som Vänstern kommer att stödja Norlén.\nNorlén har gett S-ledaren Magdalena Andersson i uppdrag att försöka bilda regering och enligt uppgifter till DN finns det inom V en farhåga att en socialdemokratisk talman som är ny på sin post ska sätta partilinjen först.\nPå söndagskvällen bekräftar Ida Gabrielsson, Vänsterns vice ordförande, att man står bakom Norlén.\n– V kommer att rösta på Andreas Norlén i talmansvalet, säger hon i SVT:s Agenda.\nSamtidigt rapporterar Ekot och TT att Andersson och V-ledaren Nooshi Dadgostar planerar att träffas under söndagen. Det är inte känt vad mötet ska handla om.\nDN har sökt Vänsterpartiet och Socialdemokraterna som inte vill kommentera vare sig talmansfrågan eller uppgifterna om ett möte mellan partiledarna.\nNorléns dagar som talman är räknade – de kan ta över\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTidigare statssekreteraren: V:s besked upplevs som en krigsförklaring\nHans Rosén: Maktspel med höga insatser inför talmansvalet",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-09-28T06:33:07.702321+00:00"
     }
   ]
 }
