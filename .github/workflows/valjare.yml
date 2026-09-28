@@ -4,13 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       steg:
-        description: "alla | scb | dokument"
+        description: "alla | scb | dokument | verklighet | geo | vecka"
         default: "alla"
   push:
     branches: ["claude/voter-database-demographics-r9y5la"]
     paths: ["valjare/*.py", "valjare/sida.html", "valjare/requirements.txt", ".github/workflows/valjare.yml"]
   schedule:
-    - cron: "17 5 * 6,12 1"   # måndagar i juni och december, efter PSU-publiceringarna
+    - cron: "17 5 * 6,12 1"   # måndagar i juni och december: allt, efter PSU-publiceringarna
+    - cron: "43 5 * * 1"      # varje måndag: lägesbilden (månadsserierna)
 
 concurrency:
   group: valjare
@@ -33,7 +34,13 @@ jobs:
 
       - name: Hämta rådata
         working-directory: valjare
-        run: python hamta.py --steg "${{ inputs.steg || 'alla' }}"
+        # Veckokörningen hämtar bara månadsserierna; övriga schemalagda körningar allt
+        run: |
+          STEG="${{ inputs.steg }}"
+          if [ -z "$STEG" ]; then
+            if [ "${{ github.event.schedule }}" = "43 5 * * 1" ]; then STEG=vecka; else STEG=alla; fi
+          fi
+          python hamta.py --steg "$STEG"
 
       - name: Bygg databas och sida
         working-directory: valjare

@@ -12,6 +12,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import metod
+
 from tolka import partikod
 
 PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD", "ÖVR"]
@@ -141,4 +143,5 @@ def distrikt(nyckel: Path, scb_dir: Path, xlsx: Path | None) -> tuple[pd.DataFra
         for p in PARTIER:
             samb.append({"indikator": c, "parti": p, "n_distrikt": len(d),
                          "r": float(np.corrcoef(d[c], d[f"andel_{p}"])[0, 1])})
-    return dist, pd.DataFrame(tio), pd.DataFrame(samb)
+    # Intervallet bortser från att närliggande distrikt liknar varandra och är därför för smalt.
+    return dist, pd.DataFrame(tio), metod.med_ki(pd.DataFrame(samb), "r", "n_distrikt")

@@ -14,6 +14,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+import metod
 import tolka
 
 PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
@@ -138,7 +139,7 @@ def test_bilar(scb, val: pd.DataFrame) -> pd.DataFrame:
                           "r": float(np.corrcoef(j.x, j.y)[0, 1]),
                           "lutning_per_100_bilar": float(np.polyfit(j.x, j.y, 1)[0] * 100),
                           "n_kommuner": len(j)})
-    return pd.DataFrame(rader)
+    return metod.med_ki(pd.DataFrame(rader), "r", "n_kommuner")
 
 
 def test_skjutningar(pol: pd.DataFrame, val: pd.DataFrame, scb) -> pd.DataFrame:
@@ -170,8 +171,10 @@ def test_skjutningar(pol: pd.DataFrame, val: pd.DataFrame, scb) -> pd.DataFrame:
             d0 = andel[(andel.ar == y0) & (andel.parti == p)].set_index("pr").andel
             d1 = andel[(andel.ar == y1) & (andel.parti == p)].set_index("pr").andel
             j = pd.concat([per100k, d1 - d0], axis=1, keys=["x", "y"]).dropna()
+            r = float(np.corrcoef(j.x, j.y)[0, 1]) if len(j) > 2 else None
+            lag, hog = metod.r_ki(r, len(j))
             for reg, rad in j.iterrows():
                 rader.append({"fran": y0, "till": y1, "parti": p, "polisregion": reg,
                               "skjutningar_per_100k_ar": float(rad.x), "forandring": float(rad.y),
-                              "r_over_regioner": float(np.corrcoef(j.x, j.y)[0, 1]) if len(j) > 2 else None})
+                              "r_over_regioner": r, "r_lag": lag, "r_hog": hog, "n_regioner": len(j)})
     return pd.DataFrame(rader)

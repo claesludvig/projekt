@@ -22,7 +22,7 @@ Skriver även data/csv/<tabell>.csv och data/webb.json (underlag för index.html
 import json
 import re
 import sqlite3
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -31,8 +31,11 @@ import pandas as pd
 import region as reg
 import valdistrikt as vdm
 import fragor
+import metod
+import lagesbild
+import valkrets
 import verklighet
-from verklighet_katalog import FRAGOR
+from verklighet_katalog import FRAGOR, mal
 import tolka
 from tolka import partikod
 
@@ -496,7 +499,7 @@ def kommunsamband(val: pd.DataFrame, ind: pd.DataFrame) -> pd.DataFrame:
                 rader.append({"valar": int(y), "parti": p, "indikator": indikator,
                               "indikator_ar": int(ia), "r": r, "lutning": lutning,
                               "n_kommuner": len(j)})
-    return pd.DataFrame(rader)
+    return metod.med_ki(pd.DataFrame(rader), "r", "n_kommuner")
 
 
 # ---------- Brå NTU ----------
@@ -672,6 +675,10 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
         n = nt[(nt.kon == "Samtliga") & (nt.indikator.isin(EXPONERING) | (nt.kalla == "scb_ulf"))]
         ut["ntu"] = {ind: _kub(d.assign(parti="alla"), "ar") for ind, d in n.groupby("indikator")}
     ut.update(webb_region(tabeller))
+    ut.update(webb_valkrets(tabeller))
+    ut.update(webb_lage(tabeller))
+    ut["evidens"] = {e[0]: {"avsnitt": e[1], "niva": e[2], "niva_text": metod.NIVAER[e[2]],
+                            "sager": e[3], "sager_inte": e[4]} for e in metod.EVIDENS}
     kv = tabeller["kontroll"]
     ut["kontroll"] = kv[kv.kontroll == "psu_vikt_mot_register"].dropna(axis=1, how="all") \
         .round(1).to_dict("records") if not kv.empty else []
@@ -775,7 +782,8 @@ def webb_region(t: dict[str, pd.DataFrame]) -> dict:
             d = d.sort_values("ar_dec")
             ut["verk"].setdefault(fr, {})[ind] = {
                 "t": [round(float(x), 3) for x in d.ar_dec], "v": [_r(x, 2) for x in d.varde],
-                "p": list(d.period.astype(str)), "battre": d.battre.iloc[0], "kalla": d.kalla.iloc[0]}
+                "p": list(d.period.astype(str)), "kalla": d.kalla.iloc[0],
+                "mal": {k: v for k, v in mal(ind).items() if v is not None}}
     vf = t.get("verklighet_forandring", pd.DataFrame())
     if not vf.empty:
         ut["verk_forandring"] = vf.round(2).replace({np.nan: None}).to_dict("records")
@@ -804,6 +812,59 @@ def webb_region(t: dict[str, pd.DataFrame]) -> dict:
             ut["lan_ind"][ind] = {"t": [int(a) for a in ar], "v": {
                 l: [_r(x) for x in dl.set_index("ar").varde.reindex(ar)] for l, dl in d.groupby("lan")}}
     return ut
+
+
+def webb_valkrets(t: dict[str, pd.DataFrame]) -> dict:
+    vk = t.get("valkrets", pd.DataFrame())
+    if vk.empty:
+        return {}
+    res, ind = t["valresultat_valkrets"], t["valkrets_indikator"]
+    ut = {"lista": [{"kod": r.valkrets_kod, "namn": r.valkrets, "lan": r.lan, "kommuner": r.kommuner,
+                     "rostb": int(r.rostberattigade_2026) if pd.notna(r.rostberattigade_2026) else None,
+                     "m22": None if pd.isna(r.mandat_2022) else int(r.mandat_2022),
+                     "m26": None if pd.isna(r.mandat_2026) else int(r.mandat_2026)} for r in vk.itertuples()]}
+    ar = sorted(res.ar.unique())
+    ut["t"] = [int(a) for a in ar]
+    ut["val"] = {k: {p: [_r(x) for x in d[d.parti == p].set_index("ar").andel.reindex(ar)]
+                     for p in PARTIER + ["ÖVR", "valdeltagande"]} for k, d in res.groupby("valkrets_kod")}
+    # Riket: röster summerade över valkretsarna; valdeltagandet viktat med röstberättigade 2026
+    rp = res[res.parti.isin(PARTIER + ["ÖVR"])].groupby(["ar", "parti"]).roster.sum()
+    rp = (100 * rp / rp.groupby(level=0).transform("sum")).unstack()
+    vd = res[res.parti == "valdeltagande"].assign(w=lambda x: x.valkrets_kod.map(
+        dict(zip(vk.valkrets_kod, vk.rostberattigade_2026))))
+    vd = vd.dropna(subset=["andel", "w"]).groupby("ar").apply(
+        lambda x: np.average(x.andel, weights=x.w), include_groups=False)
+    ut["val"]["00"] = {**{p: [_r(x) for x in rp[p].reindex(ar)] if p in rp else [None] * len(ar)
+                          for p in PARTIER + ["ÖVR"]},
+                       "valdeltagande": [_r(x) for x in vd.reindex(ar)]}
+    m = res[res.mandat.notna()]
+    ut["mandat"] = {k: {p: [None if pd.isna(x) else int(x) for x in d[d.parti == p].set_index("ar").mandat.reindex([2022, 2026])]
+                        for p in PARTIER + ["ÖVR"]} for k, d in m.groupby("valkrets_kod")}
+    ut["ind"] = {}
+    i = ind[ind.ar >= 2010]
+    for (fr, namn), d in i.groupby(["fraga", "indikator"]):
+        ar = sorted(d.ar.unique())
+        m_ = {k: v for k, v in mal(namn).items() if v is not None}
+        ut["ind"][namn] = {"fraga": fr, "kallniva": d.kallniva.iloc[0], "kalla": d.kalla.iloc[0], "mal": m_,
+                           "t": [int(a) for a in ar],
+                           "riket": [_r(x, 2) for x in d.groupby("ar").riket.first().reindex(ar)],
+                           "v": {k: [_r(x, 2) for x in dk.set_index("ar").varde.reindex(ar)]
+                                 for k, dk in d.groupby("valkrets_kod")},
+                           "rang": {k: [None if pd.isna(x) else int(x) for x in dk.set_index("ar").rang.reindex(ar)]
+                                    for k, dk in d.groupby("valkrets_kod")},
+                           "antal": [int(x) for x in d.groupby("ar").antal.first().reindex(ar).fillna(0)]}
+    return {"valkrets": ut}
+
+
+def webb_lage(t: dict[str, pd.DataFrame]) -> dict:
+    lb = t.get("lagesbild", pd.DataFrame())
+    if lb.empty:
+        return {}
+    ser = t["lagesbild_serie"]
+    ser = ser[ser.period.str[:4].astype(int) >= date.today().year - 8]
+    return {"lage": {"rader": lb.round(3).replace({np.nan: None}).to_dict("records"),
+                     "serier": {k: {"p": list(d.period), "v": [_r(x, 2) for x in d.varde]}
+                                for k, d in ser.groupby("id")}}}
 
 
 def main():
@@ -856,6 +917,13 @@ def main():
     print("Verklighetsindikatorer")
     verk, verk_f, verk_k = verklighet.bygg(scb, katalog(), DATA_DIR, f_bet, som_p, val, varningar, pol, kpi)
     print(f"  {len(verk)} rader, {verk.indikator.nunique() if len(verk) else 0} indikatorer")
+    print("Valkretsar")
+    vk = valkrets.bygg(next((KALL_DIR / "xlsx").glob("val_radata_2026__preliminar-riksdagsval-utan*.xlsx"), None),
+                       val, verk, ind, ntu_lan, namn, pol, scb, dist)
+    print("  " + ", ".join(f"{k} {len(v)}" for k, v in vk.items()))
+    print("Lägesbild")
+    lb, lb_serie, _ = lagesbild.bygg(scb, katalog(), pol, kpi, DATA_DIR)
+    print(f"  {len(lb)} serier: " + ", ".join(f"{r.id} ({r.status})" for r in lb.itertuples()))
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -876,6 +944,8 @@ def main():
         "test_bilar": t_bil, "test_skjutningar": t_skj,
         "verklighet": verk, "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
+        **vk, "lagesbild": lb, "lagesbild_serie": lb_serie,
+        "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
     }

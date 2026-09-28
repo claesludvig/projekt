@@ -225,10 +225,12 @@ def scb_hamta_tabell(tab_id: str, region: str, max_celler: int,
 
 
 def hamta_scb(bara: str | None, tvinga: bool = False):
+    """bara: ett eller flera teman, kommaseparerade (None = alla)."""
     SCB_DIR.mkdir(parents=True, exist_ok=True)
+    teman = set(bara.split(",")) if bara else None
     katalog: dict[str, dict] = {}
     for post in SCB_SOK:
-        if bara and post["tema"] != bara:
+        if teman and post["tema"] not in teman:
             continue
         print(f"SCB-sökning '{post['sok']}' ({post['tema']})")
         try:
@@ -257,7 +259,7 @@ def hamta_scb(bara: str | None, tvinga: bool = False):
                 rad["_senaste"] = post.get("senaste")
                 rad["_post"] = post["sok"]
     for post in SCB_TABELLER:
-        if bara and post["tema"] != bara:
+        if teman and post["tema"] not in teman:
             continue
         nyckel = post["id"] + post.get("suffix", "")
         rad = katalog.setdefault(nyckel, {
@@ -273,6 +275,10 @@ def hamta_scb(bara: str | None, tvinga: bool = False):
     if (KAT_DIR / "scb_katalog.csv").exists() and not tvinga:
         f = pd.read_csv(KAT_DIR / "scb_katalog.csv", dtype=str)
         forra = dict(zip(f["id"], f["uppdaterad"].fillna("")))
+    if teman and (KAT_DIR / "scb_katalog.csv").exists():
+        # Behåll övriga teman i katalogen (bygg_db och cachen läser den)
+        gammal = pd.read_csv(KAT_DIR / "scb_katalog.csv", dtype=str)
+        kat_df = pd.concat([kat_df, gammal[~gammal["id"].isin(kat_df["id"])]], ignore_index=True)
     if len(kat_df):
         kat_df.sort_values(["vald", "tema", "id"], ascending=[False, True, True]) \
             .to_csv(KAT_DIR / "scb_katalog.csv", index=False)
@@ -363,13 +369,15 @@ def _slug(s: str) -> str:
     return re.sub(r"[^A-Za-z0-9_-]+", "_", s).strip("_")[:80]
 
 
-def hamta_dokument(tvinga: bool = False):
+def hamta_dokument(tvinga: bool = False, bara_sidor: set[str] | None = None):
     print("Dokument")
-    for d in DOKUMENT:
+    for d in DOKUMENT if bara_sidor is None else []:
         logg["dokument"].append(ladda_ned(d["id"], d["url"], d["typ"], tvinga))
     print("Länksidor")
     sedda = {d["url"] for d in DOKUMENT}
     for s in LANKSIDOR:
+        if bara_sidor is not None and s["id"] not in bara_sidor:
+            continue
         post = {"id": s["id"], "url": s["url"], "lankar": []}
         try:
             r = http("GET", s["url"])
@@ -429,7 +437,7 @@ def hamta_kolada():
     from verklighet_katalog import KOLADA
     print("Kolada")
     kat, valda = [], {}
-    for fraga, namn, sok, valj, _ in KOLADA:
+    for fraga, namn, sok, valj in KOLADA:
         if re.fullmatch(r"[NU]\d{5}", sok):          # känt id
             try:
                 meta = _kolada_alla(f"kpi/{sok}", {})
@@ -490,7 +498,7 @@ def hamta_varldsbanken():
     from verklighet_katalog import VARLDSBANKEN
     ut_dir = DATA_DIR / "varldsbanken"
     ut_dir.mkdir(parents=True, exist_ok=True)
-    for _, namn, kod, _ in VARLDSBANKEN:
+    for _, namn, kod in VARLDSBANKEN:
         try:
             r = http("GET", f"https://api.worldbank.org/v2/country/SWE/indicator/{kod}",
                      params={"format": "json", "per_page": 200})
@@ -507,7 +515,7 @@ def hamta_riksbanken():
     from verklighet_katalog import RIKSBANKEN
     ut_dir = DATA_DIR / "riksbanken"
     ut_dir.mkdir(parents=True, exist_ok=True)
-    for _, namn, serie, _ in RIKSBANKEN:
+    for _, namn, serie in RIKSBANKEN:
         try:
             r = http("GET", f"https://api.riksbank.se/swea/v1/Observations/{serie}/2000-01-01")
             if r.status_code != 200:
@@ -644,7 +652,8 @@ def hamta_geodata():
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet"], default="alla")
+    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka"], default="alla",
+                   help="vecka = bara månadsserierna till lägesbilden (SCB, Polisen, Riksbanken)")
     p.add_argument("--tema", help="bara ett SCB-tema (t.ex. psu)")
     p.add_argument("--tvinga", action="store_true", help="hämta allt, även oförändrat")
     a = p.parse_args()
@@ -658,6 +667,10 @@ def main():
         hamta_varldsbanken()
     if a.steg in ("alla", "geo"):
         hamta_geodata()
+    if a.steg == "vecka":
+        hamta_scb("manad,priser", a.tvinga)
+        hamta_dokument(a.tvinga, bara_sidor={"polisen"})
+        hamta_riksbanken()
     logg["slut"] = datetime.now(timezone.utc).isoformat()
     KAT_DIR.mkdir(parents=True, exist_ok=True)
     (KAT_DIR / "hamtlogg.json").write_text(

@@ -2,8 +2,9 @@
 
 Tabeller:
   verklighet            en rad per indikator, region och period (riket, län/region, kommun)
-  verklighet_forandring indikatorns förändring per mandatperiod i riket, med riktning
-                        (bättre/sämre) och frågans förändrade betydelse enligt Valu och SOM
+  verklighet_forandring indikatorns förändring per mandatperiod i riket, riktningen mot
+                        eller från ett officiellt mål (där sådant finns) och frågans
+                        förändrade betydelse enligt Valu och SOM
   verklighet_kommun     samband över kommunerna mellan indikatorns förändring under
                         mandatperioden och partiernas förändring
 """
@@ -14,11 +15,11 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from verklighet_katalog import FRAGOR, KOLADA, RIKSBANKEN, SCB_SERIER, VARLDSBANKEN
+import metod
+from verklighet_katalog import FRAGOR, RIKSBANKEN, SCB_SERIER, VARLDSBANKEN, mal
 
 VALAR = [2010, 2014, 2018, 2022, 2026]
 PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
-BATTRE_KOLADA = {namn: b for _, namn, _, _, b in KOLADA}
 
 
 def _niva(kod: str) -> str:
@@ -43,8 +44,7 @@ def kolada(data_dir: Path) -> pd.DataFrame:
             "fraga": d.fraga, "indikator": d.namn, "kalla": "Kolada " + d.kpi,
             "niva": d.region_kod.map(_niva), "region_kod": d.region_kod,
             "period": d.ar.astype(str), "ar_dec": d.ar.astype(float) + 0.5,
-            "varde": pd.to_numeric(d.varde, errors="coerce"),
-            "battre": d.namn.map(BATTRE_KOLADA)}))
+            "varde": pd.to_numeric(d.varde, errors="coerce")}))
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
@@ -149,13 +149,13 @@ def scb_serier(scb, katalog: pd.DataFrame, varningar: list) -> pd.DataFrame:
         delar.append(pd.DataFrame({
             "fraga": post["fraga"], "indikator": post["namn"], "kalla": f"SCB {t}: {cc}",
             "niva": "riket", "region_kod": "0000", "period": list(s_.index),
-            "ar_dec": [_tid(x)[1] for x in s_.index], "varde": s_.values, "battre": post["battre"]}))
+            "ar_dec": [_tid(x)[1] for x in s_.index], "varde": s_.values}))
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
 def riksbanken(data_dir: Path) -> pd.DataFrame:
     delar = []
-    for fraga, namn, serie, battre in RIKSBANKEN:
+    for fraga, namn, serie in RIKSBANKEN:
         f = data_dir / "riksbanken" / f"{serie}.csv"
         if not f.exists():
             continue
@@ -169,13 +169,13 @@ def riksbanken(data_dir: Path) -> pd.DataFrame:
         delar.append(pd.DataFrame({
             "fraga": fraga, "indikator": namn, "kalla": f"Riksbanken {serie}", "niva": "riket",
             "region_kod": "0000", "period": [str(p).replace("-", "M") for p in m.index],
-            "ar_dec": [p.year + (p.month - 0.5) / 12 for p in m.index], "varde": m.values, "battre": battre}))
+            "ar_dec": [p.year + (p.month - 0.5) / 12 for p in m.index], "varde": m.values}))
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
 def varldsbanken(data_dir: Path) -> pd.DataFrame:
     delar = []
-    for fraga, namn, kod, battre in VARLDSBANKEN:
+    for fraga, namn, kod in VARLDSBANKEN:
         f = data_dir / "varldsbanken" / f"{kod}.csv"
         if not f.exists():
             continue
@@ -187,7 +187,7 @@ def varldsbanken(data_dir: Path) -> pd.DataFrame:
             continue
         delar.append(pd.DataFrame({"fraga": fraga, "indikator": namn, "kalla": f"Världsbanken {kod}",
                                    "niva": "riket", "region_kod": "0000", "period": d.ar.astype(str),
-                                   "ar_dec": d.ar + 0.5, "varde": d.varde, "battre": battre}))
+                                   "ar_dec": d.ar + 0.5, "varde": d.varde}))
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
@@ -207,21 +207,29 @@ def forandring(v: pd.DataFrame, betydelse: pd.DataFrame, som: pd.DataFrame) -> p
     rader = []
     r = v[v.niva == "riket"]
     for (fraga, ind), d in r.groupby(["fraga", "indikator"]):
-        battre = d.battre.iloc[0]
+        m = mal(ind)
         for y0, y1 in zip(VALAR, VALAR[1:]):
             a, b = _arsvarde(d, y0), _arsvarde(d, y1)
             if a is None or b is None:
                 continue
             pct = 100 * (b - a) / abs(a) if a else None
             riktning = None
-            if battre in ("hogre", "lagre") and b != a:
-                riktning = "bättre" if (b > a) == (battre == "hogre") else "sämre"
+            if m["mal_riktning"] in ("hogre", "lagre") and b != a:
+                riktning = "mot målet" if (b > a) == (m["mal_riktning"] == "hogre") else "från målet"
+            elif m["mal_varde"] is not None and b != a:
+                riktning = "mot målet" if abs(b - m["mal_varde"]) < abs(a - m["mal_varde"]) else "från målet"
             vb = betydelse[betydelse.fraga == fraga_valu.get(fraga)] if not betydelse.empty else pd.DataFrame()
             sb = som[som.omrade == fraga_som.get(fraga)] if not som.empty else pd.DataFrame()
             gv = lambda df, col, y: (df[df.ar == y][col].mean() if len(df) and (df.ar == y).any() else None)  # noqa: E731
             rader.append({"fraga": fraga, "valu_fraga": fraga_valu.get(fraga), "indikator": ind,
                           "fran": y0, "till": y1, "varde_fran": a, "varde_till": b,
                           "forandring": b - a, "forandring_pct": pct, "riktning": riktning,
+                          # avstånd = mål − värde; uppfyllt beror på målets riktning
+                          "avstand_till_mal": None if m["mal_varde"] is None else m["mal_varde"] - b,
+                          "mal_uppfyllt": None if m["mal_varde"] is None or m["mal_riktning"] is None
+                          else bool(b >= m["mal_varde"] if m["mal_riktning"] == "hogre" else b <= m["mal_varde"]),
+                          "mal_riktning": m["mal_riktning"], "mal_varde": m["mal_varde"],
+                          "mal_text": m["mal_text"], "mal_kalla": m["mal_kalla"], "not": m["not"],
                           "valu_betydelse_fran": gv(vb, "andel", y0), "valu_betydelse_till": gv(vb, "andel", y1),
                           # SOM mäts på hösten: hösten före valet
                           "som_fran": gv(sb, "andel", y0 - 1), "som_till": gv(sb, "andel", y1 - 1)})
@@ -255,7 +263,7 @@ def kommunsamband(v: pd.DataFrame, val: pd.DataFrame) -> pd.DataFrame:
                               "r_forandring": float(np.corrcoef(j.x, j.y)[0, 1]),
                               "r_niva": float(np.corrcoef(j.niva, j.y)[0, 1]),
                               "n_kommuner": len(j)})
-    return pd.DataFrame(rader)
+    return metod.med_ki(metod.med_ki(pd.DataFrame(rader), "r_forandring", "n_kommuner"), "r_niva", "n_kommuner")
 
 
 def fran_fragor(pol: pd.DataFrame, kpi: pd.DataFrame) -> pd.DataFrame:
@@ -273,11 +281,11 @@ def fran_fragor(pol: pd.DataFrame, kpi: pd.DataFrame) -> pd.DataFrame:
             tot = tot[tot.m == 12]   # bara hela år
             delar.append(pd.DataFrame({"fraga": fraga, "indikator": namn, "kalla": "Polismyndigheten",
                                        "niva": "riket", "region_kod": "0000", "period": tot.ar.astype(str),
-                                       "ar_dec": tot.ar + 0.5, "varde": tot.n.astype(float), "battre": "lagre"}))
+                                       "ar_dec": tot.ar + 0.5, "varde": tot.n.astype(float)}))
             reg = reg[reg.m == 12]
             delar.append(pd.DataFrame({"fraga": fraga, "indikator": namn, "kalla": "Polismyndigheten",
                                        "niva": "polisregion", "region_kod": reg.polisregion, "period": reg.ar.astype(str),
-                                       "ar_dec": reg.ar + 0.5, "varde": reg.n.astype(float), "battre": "lagre"}))
+                                       "ar_dec": reg.ar + 0.5, "varde": reg.n.astype(float)}))
     if not kpi.empty:
         for serie, fraga, namn in (("El", "energi", "Elpris egnahem (KPI, 1980=100)"),
                                    ("Bensin", "egen_ekonomi", "Bensinpris (KPI, 1980=100)"),
@@ -289,7 +297,7 @@ def fran_fragor(pol: pd.DataFrame, kpi: pd.DataFrame) -> pd.DataFrame:
             delar.append(pd.DataFrame({"fraga": fraga, "indikator": namn, "kalla": "SCB KPI (TAB5160)",
                                        "niva": "riket", "region_kod": "0000",
                                        "period": [f"{a}M{m:02d}" for a, m in zip(d.ar, d.manad)],
-                                       "ar_dec": d.ar + (d.manad - 0.5) / 12, "varde": d.index_1980, "battre": "lagre"}))
+                                       "ar_dec": d.ar + (d.manad - 0.5) / 12, "varde": d.index_1980}))
     return pd.concat(delar, ignore_index=True) if delar else pd.DataFrame()
 
 
@@ -302,4 +310,6 @@ def bygg(scb, katalog, data_dir, betydelse, som, val, varningar, pol=None, kpi=N
     if v.empty:
         return v, pd.DataFrame(), pd.DataFrame()
     v = v.dropna(subset=["varde"])
+    m = pd.DataFrame([{"indikator": i, **mal(i)} for i in v.indikator.unique()])
+    v = v.merge(m[["indikator", "mal_riktning", "mal_varde"]], on="indikator", how="left")
     return v, forandring(v, betydelse, som), kommunsamband(v, val)

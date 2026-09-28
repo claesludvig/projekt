@@ -5,8 +5,26 @@ har förändrats över tid: vilka grupper som röstar på partierna, hur stora g
 i väljarkåren, var partierna är starka geografiskt och hur utsatthet och otrygghet
 fördelar sig mellan grupperna.
 
-Sidan `index.html` visar databasen i diagram (sammansättning per parti mot hela
-väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, NTU).
+Sidan `index.html` börjar med två avsnitt för den som ska fatta beslut:
+
+1. **Läget**: månadsserier (skjutningar, sprängningar, inflation, arbetslöshet, priser på el
+   och drivmedel, styrräntan, konkurser, bostadsbyggande, invandring) jämförda med samma
+   period i fjol och med seriens egen historik. Byggs om varje måndag; texten sparas i
+   `data/lagesbild/senaste.md` och `data/lagesbild/<år>-V<vecka>.md`.
+2. **Min valkrets**: riksdagens 29 valkretsar med mandat, valresultat, valdeltagande,
+   valdeltagandeklyftan mellan distrikten och ett 40-tal indikatorer mot riket och de andra
+   valkretsarna.
+
+Därefter följer väljaranalysen (sammansättning per parti, skiftet sedan 2006, Valu,
+kommunsamband, län, valdistrikt, sakfrågor och verklighet, NTU).
+
+**Evidensnivå.** Varje avsnitt är märkt beskrivande, modellskattning eller samband, med
+vad det inte kan säga (`metod.py`, tabellen `evidensniva`). Korrelationer har 95-procentiga
+intervall.
+
+**Mål i stället för värderingar.** Databasen säger inte om en utveckling är bra eller dålig.
+Riktning och målnivå anges bara där riksdagen, lagen, Riksbanken eller ett internationellt
+åtagande anger ett mål (`MAL` i `verklighet_katalog.py`).
 
 ## Källor
 
@@ -28,6 +46,8 @@ väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, 
 | Kolada (RKA) | Verklighetsindikatorer per kommun/region: väntetider i vården, skolresultat, äldreomsorg, anmälda brott, långtidsarbetslöshet, ekonomiskt bistånd, låg ekonomisk standard, skattesats, utsläpp, bostadsbyggande, inkomstskillnader | 2006– |
 | SCB (AKU, BNP, bostäder, invandring, medellivslängd, lön) och Riksbanken (styrränta) | Verklighetsindikatorer i riket | varierar |
 | Brå, Nationella trygghetsundersökningen | Utsatthet för brott, otrygghet, oro, förtroende per grupp | 2006–2025 |
+| Valmyndigheten | Valkretsindelning, mandat och preliminärt resultat per valkrets 2026 | 2022, 2026 |
+| SCB (KPIF, AKU per månad, konkurser, påbörjade bostäder, befolkningsförändringar) | Månadsserier till lägesbilden | varierar |
 
 ## Tabeller i `data/valjare.sqlite` (och `data/csv/`)
 
@@ -43,6 +63,9 @@ väljarkåren, skiftet sedan 2006, Valu 1991–2026, kommunsamband 1973–2026, 
 - `polisen_manad`, `kpi_manad`, `fraga_betydelse`, `fraga_rang_parti`, `bast_politik`, `som_samhallsproblem`
 - `test_bilar`, `test_skjutningar`
 - `verklighet`, `verklighet_forandring`, `verklighet_kommun` (indikatorer per sakfråga; katalogen i `verklighet_katalog.py`)
+- `valkrets`, `valkrets_kommun`, `valresultat_valkrets`, `valkrets_indikator`, `valkrets_oversikt`
+- `lagesbild`, `lagesbild_serie`
+- `evidensniva`
 - `kalla`, `kontroll`, `varningar`
 
 Exempel:
@@ -71,11 +94,12 @@ Nätverksåtkomst till SCB, SVT, GU, Brå och Valmyndigheten krävs. Arbetsflöd
 ```
 pip install -r requirements.txt
 python hamta.py          # rådata till data/scb, data/kallor, data/katalog
+python hamta.py --steg vecka   # bara månadsserierna till lägesbilden
 python bygg_db.py        # data/valjare.sqlite, data/csv, data/webb.json
 python bygg_sida.py      # index.html
 ```
 
 Nya SCB-tabeller läggs till i `kallor.py`. Nya verklighetsindikatorer läggs till i
 `verklighet_katalog.py` (Kolada-id eller sökord, SCB-tabell och variabelval, fråga och
-om högre värde är bättre eller sämre). Pdf-originalen sparas inte i git, bara
+och eventuellt ett officiellt mål i `MAL`). Pdf-originalen sparas inte i git, bara
 den extraherade texten i `data/kallor/txt`.
