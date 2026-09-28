@@ -98,6 +98,27 @@ table.score .ind{display:grid;gap:6px}
 table.score .irad{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 table.score .irad .pil{text-align:right}
 .tw{overflow-x:auto}
+/* navigering */
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+main section{scroll-margin-top:72px}
+.toc{margin-top:22px;border:1px solid var(--rule);border-radius:10px;padding:14px 16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px 28px}
+.toc h2{grid-column:1/-1;font:600 11.5px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.toc h3{font-size:13px;color:var(--ink2);margin:0 0 4px}
+.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.toc a,.rail a,.navpanel a{text-decoration:none;color:var(--ink);display:flex;gap:8px;align-items:baseline;padding:3px 6px;border-radius:5px;font-size:14px}
+.toc a:hover,.rail a:hover,.navpanel a:hover{background:var(--panel)}
+.toc .nr,.rail .nr,.navpanel .nr{font-size:11.5px;color:var(--muted);min-width:18px;font-variant-numeric:tabular-nums}
+.rail{position:fixed;top:24px;left:max(12px,calc(50% - 430px - 230px));width:200px;max-height:calc(100vh - 48px);overflow:auto;display:none;font-size:13px}
+.rail a{font-size:13px;color:var(--ink2);padding:3px 8px;border-left:2px solid transparent;border-radius:0}
+.rail a.aktiv{color:var(--ink);font-weight:600;border-left-color:var(--ink)}
+.rail .grupp{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px 10px}
+@media (min-width:1300px){.rail{display:block}}
+.navknapp{position:fixed;right:16px;bottom:16px;z-index:30;font:600 13px/1 var(--sans);background:var(--ink);color:var(--paper);border:0;border-radius:999px;padding:11px 15px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+@media (min-width:1300px){.navknapp{display:none}}
+.navpanel{position:fixed;right:16px;bottom:62px;z-index:30;background:var(--paper);border:1px solid var(--rule);border-radius:10px;padding:10px;width:min(300px,calc(100vw - 32px));max-height:70vh;overflow:auto;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+.navpanel .grupp{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:8px 6px 4px}
+.navpanel a.aktiv{font-weight:600;background:var(--panel)}
 /* evidensnivå */
 .evid{font-size:12.5px;color:var(--ink2);display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;max-width:72ch}
 .nv{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;border:1px solid currentColor;border-radius:4px;padding:1px 6px;white-space:nowrap}
@@ -112,7 +133,7 @@ table.score .irad .pil{text-align:right}
 .st-larm{background:var(--f1);color:var(--paper)} .st-bevaka{border:1px solid var(--f1);color:var(--f1)}
 .st-normal{border:1px solid var(--rule);color:var(--ink2)} .st-inaktuell{border:1px dashed var(--muted);color:var(--muted)}
 /* valkrets */
-.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .tile{background:var(--panel);border-radius:8px;padding:10px 12px}
 .tile .t{font-size:12px;color:var(--ink2)} .tile .v{font:600 22px/1.2 var(--sans)} .tile .s{font-size:12px;color:var(--muted)}
 table.vk td{vertical-align:middle} table.vk tr.grp td{font-weight:600;background:var(--panel);border-bottom:0}
@@ -137,6 +158,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     <p class="meta" id="meta"></p>
     <p class="note" style="margin-top:8px">Varje avsnitt är märkt med vad det kan och inte kan säga: <b>beskrivande</b> (mätt utfall), <b>modellskattning</b> (beräknad ur antaganden) eller <b>samband</b> (korrelation mellan områden, inte orsak). Riktning och mål visas bara där riksdagen, lagen, Riksbanken eller ett internationellt åtagande anger ett mål.</p>
   </header>
+  <nav class="toc" id="toc" aria-label="Innehåll"></nav>
 
   <section id="s-lage">
     <span class="label">1 · Läget</span>
@@ -394,6 +416,9 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 </main>
 <div id="tip" role="tooltip"></div>
+<nav class="rail" id="rail" aria-label="Innehåll i sidled"></nav>
+<button type="button" class="navknapp" id="navknapp" aria-expanded="false" aria-controls="navpanel">☰ Innehåll</button>
+<nav class="navpanel" id="navpanel" aria-label="Innehåll" hidden></nav>
 
 <script>
 const D = /*DATA*/null;
@@ -1261,6 +1286,36 @@ function renderGenomslag(){
   else { $("t-gs-annons").innerHTML = ""; $("not-gs-annons").textContent = "Googles annonsdata är inte hämtad ännu."; }
 }
 
+/* ---------- navigering ---------- */
+function byggNavigering(){
+  const sek = [...document.querySelectorAll("main > section")].filter(x => !x.hidden && x.id);
+  const post = sek.map(x => { const l = (x.querySelector(".label")?.textContent || "").trim(), m = l.match(/^(\d+)\s*·\s*(.+)$/);
+    return {id: x.id, nr: m ? m[1] : "", namn: m ? m[2] : (l || x.querySelector("h2")?.textContent || x.id),
+            grupp: !m ? "Metod och källor" : +m[1] <= 5 ? "Samhället och politiken" : "Väljarna"}; });
+  const grupper = [...new Set(post.map(p => p.grupp))];
+  const lank = p => `<a href="#${p.id}" data-id="${p.id}"><span class="nr">${p.nr}</span><span>${esc(p.namn)}</span></a>`;
+  $("toc").innerHTML = `<h2>Innehåll</h2>` + grupper.map(g => `<div><h3>${g}</h3><ol>${post.filter(p => p.grupp === g).map(p => `<li>${lank(p)}</li>`).join("")}</ol></div>`).join("");
+  const lista = grupper.map(g => `<div class="grupp">${g}</div>${post.filter(p => p.grupp === g).map(lank).join("")}`).join("");
+  $("rail").innerHTML = `<a href="#" style="font-weight:600;color:var(--ink)">↑ Till början</a>` + lista;
+  $("navpanel").innerHTML = lista + `<a href="#" style="margin-top:6px">↑ Till början</a>`;
+  const knapp = $("navknapp"), panel = $("navpanel");
+  const stang = () => { panel.hidden = true; knapp.setAttribute("aria-expanded", "false"); };
+  knapp.onclick = e => { e.stopPropagation(); panel.hidden = !panel.hidden; knapp.setAttribute("aria-expanded", String(!panel.hidden)); };
+  panel.onclick = e => { if (e.target.closest("a")) stang(); };
+  document.addEventListener("click", e => { if (!panel.hidden && !panel.contains(e.target) && e.target !== knapp) stang(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") stang(); });
+  // Markera avsnittet man befinner sig i
+  if ("IntersectionObserver" in window) {
+    const synliga = new Map();
+    const obs = new IntersectionObserver(poster => {
+      poster.forEach(p => synliga.set(p.target.id, p.isIntersecting ? p.boundingClientRect.top : null));
+      const aktiv = post.map(p => p.id).find(id => synliga.get(id) != null);
+      document.querySelectorAll(".rail a[data-id], .navpanel a[data-id]").forEach(a => a.classList.toggle("aktiv", a.dataset.id === aktiv));
+    }, {rootMargin: "-80px 0px -55% 0px"});
+    sek.forEach(x => obs.observe(x));
+  }
+}
+
 /* ---------- metod ---------- */
 function renderMetod(){
   const k = D.kallor.map(q => `<tr><td><a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.namn)}</a><br><span class="note">${esc(q.utgivare)}</span></td><td>${esc(q.beskrivning)}</td></tr>`).join("");
@@ -1393,7 +1448,7 @@ function renderAll(){
     $("sel-vfraga").innerHTML = fr.map(f=>`<option value="${f.id}">${esc(nm[f.id])}</option>`).join("");
     $("sel-vfraga").onchange = renderVerkDetalj;
   }
-  renderMetod(); renderAll();
+  renderMetod(); renderAll(); byggNavigering();
   let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderLage(); renderValkrets(); renderSamst(); renderOmraden(); renderGenomslag(); renderSkifte(); renderValu(); renderKommun(); renderLan(); renderDekomp(); renderDistrikt(); renderFragor(); renderVerk(); renderNTU(); }, 150); });
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", renderAll);
   new MutationObserver(renderAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});

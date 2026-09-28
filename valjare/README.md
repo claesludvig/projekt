@@ -124,6 +124,13 @@ gruppindelningar redovisas var för sig.
   Valforskningsprogrammet bör stämmas av innan sidan sprids; utkast till förfrågningar finns i
   `granskning/`.
 
+## Grenar och schema
+
+Utvecklingen sker på `claude/voter-database-demographics-r9y5la`. Efter varje lyckad körning där
+slås grenen automatiskt ihop med `main` (`.github/scripts/valjare_sla_ihop.sh`), eftersom GitHub
+bara kör schemalagda arbetsflöden från standardgrenen. Nyhetsartiklarna samlas på båda grenarna
+och slås ihop i stället för att skrivas över.
+
 ## Köra
 
 Nätverksåtkomst till SCB, SVT, GU, Brå och Valmyndigheten krävs. Arbetsflödet
