@@ -127,7 +127,7 @@ aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes 
 aktualitet,norden_vantan,"Eurostat: Avstått från vård på grund av väntetid (%, 16+)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,518 artiklar i 7 flöden,518.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,528 artiklar i 7 flöden,528.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,26 konton med följarantal,26.0
 aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 4 dagar sedan",4.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
@@ -182,12 +182,12 @@ volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,104 rader (förra 104)
 volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,207 rader (förra 208),207.0
 volym,rader_media_talartid,Tabell media_talartid,ok,96 rader (förra 96),96.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
-volym,rader_media_wikipedia,Tabell media_wikipedia,ok,2059 rader (förra 2059),2059.0
+volym,rader_media_wikipedia,Tabell media_wikipedia,ok,1924 rader (förra 0),1924.0
 volym,rader_media_gdelt,Tabell media_gdelt,ok,0 rader (förra 0),0.0
 volym,rader_media_sakfragor,Tabell media_sakfragor,ok,136 rader (förra 136),136.0
 volym,rader_media_rd_aktivitet,Tabell media_rd_aktivitet,ok,104 rader (förra 104),104.0
 volym,rader_media_ledare,Tabell media_ledare,ok,8 rader (förra 8),8.0
-volym,rader_norden,Tabell norden,ok,2448 rader (förra 2448),2448.0
+volym,rader_norden,Tabell norden,ok,2448 rader (förra 2264),2448.0
 volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 14),14.0
 volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2741 rader (förra 2741),2741.0
 volym,rader_evidensniva,Tabell evidensniva,ok,14 rader (förra 14),14.0
