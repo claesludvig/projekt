@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T11:43:04.880984+00:00",
+ "start": "2026-09-28T12:44:20.117926+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -2287,7 +2287,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7ff36864e0d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f0df7e86ad0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2701,5 +2701,5 @@
    "rader": 106
   }
  ],
- "slut": "2026-09-28T12:40:32.909227+00:00"
+ "slut": "2026-09-28T13:24:08.224546+00:00"
 }
