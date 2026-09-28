@@ -787,6 +787,35 @@ def _foljare_tiktok(konto: str) -> tuple[int | None, bool | None]:
     return u.get("stats", {}).get("followerCount"), bool(u.get("user", {}).get("verified"))
 
 
+def _foljare_x(konto: str) -> tuple[int | None, bool | None]:
+    """X: fxtwitters öppna API, som läser X:s publika profil. Bara svar där kontonamnet stämmer godtas
+    (X:s inbäddningstjänst kan innehålla andra konton och används inte). Ett nytt försök vid 429."""
+    for forsok in range(2):
+        r = http("GET", f"https://api.fxtwitter.com/{konto}")
+        if r.status_code == 200:
+            u = r.json().get("user") or {}
+            if (u.get("screen_name") or "").lower() == konto.lower() and u.get("followers") is not None:
+                return int(u["followers"]), bool((u.get("verification") or {}).get("verified"))
+            return None, None
+        time.sleep(20)
+    return None, None
+
+
+def _foljare_facebook(konto: str) -> tuple[int | None, bool | None]:
+    """Facebook: förhandsvisningen som Facebook visar för länkdelning ("N följare"). Facebook blockerar ofta."""
+    import html as h
+    for url in (f"https://mbasic.facebook.com/{konto}", f"https://www.facebook.com/{konto}"):
+        r = http("GET", url, headers={"User-Agent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+                                      "Accept-Language": "sv-SE,sv;q=0.9"})
+        m = re.search(r'og:description" content="([^"]*)', r.text)
+        t = h.unescape(m[1]) if m else ""
+        n = re.search(r"(\d[\d\s\u00a0\u202f]*)\s*(?:följare|followers)", t)
+        if n:
+            return _tal_sv(n[1]), None
+        time.sleep(3)
+    return None, None
+
+
 def _foljare_bluesky(konto: str) -> tuple[int | None, bool | None]:
     r = http("GET", "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile", params={"actor": konto})
     return (r.json().get("followersCount") if r.status_code == 200 else None), None
@@ -802,8 +831,8 @@ def hamta_foljare_matt():
     """Mäter följarantalet i dag för partiernas och partiledarnas konton på de plattformar som går att läsa
     utan inloggning (media_katalog.MATBARA). Kontona kommer från Wikidata (konton.csv) och KONTON_EXTRA.
     Varje körning lägger till en rad per konto i foljare_matt.csv, så att en egen tidsserie byggs upp.
-    Instagram, Facebook, Threads och X kräver inloggning eller betald åtkomst och mäts inte."""
-    from media_katalog import KONTON_EXTRA, MATBARA
+    Instagram och Threads kräver inloggning och mäts inte. Facebook blockerar ofta; misslyckanden loggas."""
+    from media_katalog import KONTON_EXTRA, KONTON_UTESLUT, MATBARA
     f = MEDIA_DIR / "konton.csv"
     k = pd.read_csv(f) if f.exists() else pd.DataFrame(columns=["parti", "roll", "namn", "plattform", "konto"])
     namn = k.drop_duplicates(["parti", "roll"]).set_index(["parti", "roll"]).namn.to_dict()
@@ -813,8 +842,10 @@ def hamta_foljare_matt():
     k = k[k.plattform.isin(MATBARA)].copy()
     k["nyckel"] = k.konto.astype(str).str.lower()
     k = k.drop_duplicates(["parti", "roll", "plattform", "nyckel"])
+    ut_nycklar = {(p, r, pl, ko.lower()) for p, r, pl, ko in KONTON_UTESLUT}
+    k = k[[(r.parti, r.roll, r.plattform, r.nyckel) not in ut_nycklar for r in k.itertuples()]]
     las = {"YouTube": _foljare_youtube, "TikTok": _foljare_tiktok, "Bluesky": _foljare_bluesky,
-           "Mastodon": _foljare_mastodon}
+           "Mastodon": _foljare_mastodon, "X": _foljare_x, "Facebook": _foljare_facebook}
     idag, rader = datetime.now(timezone.utc).strftime("%Y-%m-%d"), []
     for r in k.itertuples():
         try:
@@ -825,12 +856,17 @@ def hamta_foljare_matt():
                           "konto": r.konto, "foljare": int(n), "verifierad": verifierad})
         except Exception as exc:  # noqa: BLE001
             logg["fel"].append(f"följare {r.parti} {r.roll} {r.plattform} {r.konto}: {exc}")
-        time.sleep(1)
+        time.sleep(3 if r.plattform in ("X", "Facebook") else 1)
     ut = MEDIA_DIR / "foljare_matt.csv"
     gammal = pd.read_csv(ut) if ut.exists() else pd.DataFrame()
     ny = pd.DataFrame(rader)
     if len(ny):
-        d = pd.concat([gammal[gammal.datum != idag] if len(gammal) else gammal, ny], ignore_index=True)
+        # Ersätt bara dagens rader för de konton som mättes nu (en delkörning ska inte radera andra)
+        if len(gammal):
+            nyckel = ["datum", "parti", "roll", "plattform", "konto"]
+            gammal = gammal[~gammal[nyckel].astype(str).apply(tuple, axis=1).isin(set(ny[nyckel].astype(str).apply(tuple, axis=1)))]
+            gammal = gammal[[(r.parti, r.roll, r.plattform, str(r.konto).lower()) not in ut_nycklar for r in gammal.itertuples()]]
+        d = pd.concat([gammal, ny], ignore_index=True)
         d.to_csv(ut, index=False)
     logg["foljare_matt"] = {"konton": len(k), "matta": len(rader)}
     print(f"  Följare mätta: {len(rader)} av {len(k)} konton")

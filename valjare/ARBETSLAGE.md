@@ -78,6 +78,17 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
 - Nätet fungerar nu från Claude-miljön för de flesta källor (riksdagen, Wikidata, TikTok, YouTube, Bluesky,
   Nordicom), men inte DiVA, och Wikimedia och GDELT svarade 429 härifrån.
 
+## Följare på X och Facebook, medieförtroende (kväll 28/9, forts.)
+
+- X mäts via fxtwitter (`_foljare_x`, bara svar där kontonamnet stämmer). Facebook försöks via sidans
+  förhandsvisning (`_foljare_facebook`) men blockerades i alla försök härifrån; misslyckanden loggas.
+- `media_katalog.KONTON_UTESLUT`: @nya_moderaterna (oanvänt) och @UlfKristersson (inaktivt, 688 följare).
+- `media.som_fortroende` tolkar SOM:s Svenska förtroendetrender 1986–2024 (`data/kallor/txt/som_fortroendetrender.txt`,
+  pdfplumber-layout): 22 institutioner efter parti och vänster–höger. Sidan visar radio/tv och dagspress.
+- Mediebarometerns fullständiga rapport står i `kallor.DOKUMENT` (`mediebarometern_2025`) men DiVA blockeras
+  från Claude-miljön; CI hämtar den. Tolka sedan räckvidd per plattform och ålder ur
+  `data/kallor/txt/mediebarometern_2025.txt`.
+
 ## Nästa steg
 
 1. Mediebarometerns fullständiga rapport (DiVA diva2:2056759, FULLTEXT05.pdf) har räckvidd per plattform och

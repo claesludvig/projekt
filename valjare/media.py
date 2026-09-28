@@ -11,6 +11,7 @@ Tabeller:
   media_gdelt         svenskspråkiga nyhetsartiklar som nämner partiet per månad (GDELT), andel och ton
   media_sakfragor     sakfrågor som nämns i samma artikel som partiet (nyhetsflödena)
   media_rd_aktivitet  motioner, interpellationer och skriftliga frågor per parti och riksmöte
+  som_fortroende      förtroende för institutioner (bl.a. radio och tv, dagspressen) efter partisympati, SOM 1986–2024
 
 Följare är inte räckvidd: de säger hur många som valt att följa ett konto, inte hur många som
 ser inläggen. Omnämnanden räknas i rubrik och ingress och kan vara både positiva och negativa.
@@ -55,7 +56,8 @@ def foljare(mapp: Path, idag: pd.Timestamp | None = None) -> tuple[pd.DataFrame,
     d["datum"] = pd.to_datetime(d.datum, errors="coerce", utc=True).dt.tz_localize(None).dt.normalize()
     d = d.dropna(subset=["datum"])
     d["prio"] = (d.kalla == "mätt").astype(int)
-    d = d.sort_values(["datum", "prio"])
+    # Flera konton för samma parti och plattform (t.ex. gammalt och nytt användarnamn): det största räknas
+    d = d.sort_values(["datum", "prio", "foljare"])
     nu = d.groupby(["parti", "roll", "plattform"]).tail(1)
     idag = pd.Timestamp.now().normalize() if idag is None else pd.Timestamp(idag)
     nu = nu[nu.datum >= idag - pd.Timedelta(days=AKTUELL_DAGAR)].reset_index(drop=True)
@@ -223,6 +225,51 @@ def rd_aktivitet(rd_mapp: Path, ledamoter: pd.DataFrame | None) -> pd.DataFrame:
     return d
 
 
+PARTINAMN = {"Vänsterpartiet": "V", "Socialdemokraterna": "S", "Miljöpartiet": "MP", "Centerpartiet": "C",
+             "Liberalerna": "L", "Folkpartiet": "L", "Kristdemokraterna": "KD", "Moderaterna": "M",
+             "Sverigedemokraterna": "SD"}
+SOM_GRUPPER = {**PARTINAMN, "Samtliga": "ALLA", "Klart/något vänster": "vänster",
+               "Varken vänster eller höger": "mitten", "Klart/något höger": "höger"}
+GRUPP_KOMPAKT = {re.sub(r"\s", "", k): v for k, v in SOM_GRUPPER.items()}
+
+
+def som_fortroende(kall_dir: Path) -> pd.DataFrame:
+    """SOM-institutet, Svenska förtroendetrender 1986–2024: andel med mycket/ganska stort förtroende för varje
+    institution efter partisympati och vänster–höger, per år. Tolkas ur pdfplumbers layouttext (en rad per grupp,
+    en kolumn per år). Värden inom parentes bygger på få svar och markeras."""
+    f = kall_dir / "txt" / "som_fortroendetrender.txt"
+    if not f.exists():
+        return pd.DataFrame()
+    rader, inst, ar = [], None, []
+    for rad in f.read_text(encoding="utf-8").splitlines():
+        m = re.search(r"Tabell \d+[a-d]?\s+Andel mycket/ganska stort förtroende för (.+?), efter bakgrundsfaktorer", rad)
+        if m:
+            inst, ar = m[1].strip(), []
+            continue
+        if inst is None:
+            continue
+        if not ar:
+            a = re.findall(r"\b(19[89]\d|20[0-3]\d)\b", rad)
+            if len(a) >= 1 and re.fullmatch(r"[\s\d]+", rad):
+                ar = [int(x) for x in a]
+            continue
+        # Etiketten är texten före första talet; pdfplumber kan lägga in mellanslag i ord ("S amtliga")
+        namn = re.match(r"\s*([^\d(]+?)\s*(?=\(?\d)", rad)
+        grupp = namn and GRUPP_KOMPAKT.get(re.sub(r"\s", "", namn[1]))
+        if not grupp:
+            continue
+        varden = re.findall(r"\(?\d+\)?", rad[namn.end():])
+        if len(varden) != len(ar):   # delade tal ("5 2"): kolumnerna skiljs åt av minst två blanksteg
+            varden = [re.sub(r"\s", "", x) for x in re.split(r"\s{2,}", rad[namn.end():].strip()) if x.strip()]
+            if len(varden) != len(ar) or not all(re.fullmatch(r"\(?\d+\)?", v) for v in varden):
+                continue
+        for a, v in zip(ar, varden):
+            rader.append({"institution": inst, "grupp": grupp, "ar": a,
+                          "andel": int(v.strip("()")), "fa_svar": v.startswith("(")})
+    d = pd.DataFrame(rader)
+    return d.drop_duplicates(["institution", "grupp", "ar"]) if len(d) else d
+
+
 def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.DataFrame]:
     mapp = data_dir / "media"
     fl, nu = foljare(mapp)
@@ -240,4 +287,5 @@ def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.
             "media_wikipedia": wikipedia(mapp), "media_gdelt": gdelt(mapp),
             "media_sakfragor": sakfragor(mapp, ledare),
             "media_rd_aktivitet": rd_aktivitet(data_dir / "riksdagen", ledamoter),
+            "som_fortroende": som_fortroende(data_dir / "kallor"),
             "media_ledare": pd.DataFrame([{"parti": p, "namn": n} for p, n in ledare.items()])}

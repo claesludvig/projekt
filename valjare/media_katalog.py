@@ -117,7 +117,7 @@ KONTON_EXTRA = [
 KONTO_EGENSKAP = {"P2002": "X", "P2003": "Instagram", "P7085": "TikTok", "P2397": "YouTube",
                   "P12361": "Bluesky", "P2013": "Facebook", "P11892": "Threads", "P4033": "Mastodon"}
 # Plattformar där följarantalet går att läsa utan inloggning eller betald API-nyckel
-MATBARA = ("YouTube", "TikTok", "Bluesky", "Mastodon")
+MATBARA = ("YouTube", "TikTok", "Bluesky", "Mastodon", "X", "Facebook")
 
 # Medieanvändning i befolkningen (Nordicom, Mediebarometern 2025). Siffrorna är avskrivna ur Nordicoms
 # seminariebilder 5 maj 2026 (samma undersökning som rapporten) och kontrollerade mot dem.
@@ -171,3 +171,9 @@ FORSKNING = [
               "och upprörda genrer och ramar in valrörelsens viktigaste frågor till partiets fördel.",
               "Riks döljer kopplingen till partiet och är det mest utvecklade exemplet på parasitiska nyheter i Sverige."]},
 ]
+
+# Konton i Wikidata som inte ska mätas: (parti, roll, plattform, konto) -> skäl
+KONTON_UTESLUT = {
+    ("M", "parti", "X", "nya_moderaterna"): "gammalt konto som inte används ('Följ @moderaterna')",
+    ("M", "partiledare", "X", "UlfKristersson"): "inaktivt privat konto; som statsminister används regeringens @SwedishPM",
+}

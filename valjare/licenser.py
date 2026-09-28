@@ -45,6 +45,9 @@ LICENSER = [
      "https://www.nordicom.gu.se/sv/fakta-analys/mediebarometern"),
     ("Svenska nyhetsvanor (SOM-institutet)", "Mediemyndigheten", "citat",
      "Enstaka värden citeras med källhänvisning.", "https://mediemyndigheten.se/rapporter-och-analyser/svenska-nyhetsvanor/"),
+    ("SOM-institutet, Svenska förtroendetrender 1986–2024", "Göteborgs universitet", "citat",
+     "Tabeller över förtroende efter partisympati återges per år med källhänvisning. Stäm av om sidan sprids brett.",
+     "https://www.gu.se/som-institutet"),
     ("SVT:s vallokalsundersökning (Valu)", "SVT", "avstamning",
      "Rapporterna är upphovsrättsskyddade. Databasen återpublicerar tabeller per väljargrupp 1991–2026; "
      "begär tillstånd innan sidan sprids.", "https://omoss.svt.se/"),

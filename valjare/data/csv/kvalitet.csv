@@ -128,7 +128,7 @@ aktualitet,norden_vantan,"Eurostat: Avstått från vård på grund av väntetid 
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
 aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,518 artiklar i 7 flöden,518.0
-aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,26 konton med följarantal,26.0
+aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,41 konton med följarantal,41.0
 aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 4 dagar sedan",4.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
 volym,rader_partistod,Tabell partistod,ok,65350 rader (förra 65350),65350.0
@@ -176,10 +176,10 @@ volym,rader_riksdag_parti_fraga,Tabell riksdag_parti_fraga,ok,382 rader (förra 
 volym,rader_riksdag_ledamot,Tabell riksdag_ledamot,ok,4594 rader (förra 4594),4594.0
 volym,rader_opinion_forslag,Tabell opinion_forslag,ok,24 rader (förra 24),24.0
 volym,rader_opinion_beslut,Tabell opinion_beslut,ok,100 rader (förra 100),100.0
-volym,rader_media_foljare,Tabell media_foljare,ok,89 rader (förra 89),89.0
-volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,26 rader (förra 26),26.0
+volym,rader_media_foljare,Tabell media_foljare,ok,104 rader (förra 89),104.0
+volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,41 rader (förra 26),41.0
 volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,104 rader (förra 104),104.0
-volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,207 rader (förra 208),207.0
+volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,207 rader (förra 207),207.0
 volym,rader_media_talartid,Tabell media_talartid,ok,96 rader (förra 96),96.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
 volym,rader_media_wikipedia,Tabell media_wikipedia,ok,2059 rader (förra 2059),2059.0
@@ -192,7 +192,7 @@ volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 14),14.0
 volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2741 rader (förra 2741),2741.0
 volym,rader_evidensniva,Tabell evidensniva,ok,14 rader (förra 14),14.0
 volym,rader_kontroll,Tabell kontroll,ok,1571 rader (förra 1571),1571.0
-volym,rader_licens,Tabell licens,ok,17 rader (förra 17),17.0
+volym,rader_licens,Tabell licens,ok,18 rader (förra 17),18.0
 rimlighet,valkretsar_29,29 valkretsar,ok,29 valkretsar,29.0
 rimlighet,mandat_2022,Mandaten 2022 summerar till 349,ok,summa 349,349.0
 rimlighet,mandat_2026,Mandaten 2026 summerar till 349,ok,summa 349,349.0

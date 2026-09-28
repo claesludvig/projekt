@@ -201,6 +201,14 @@ DOKUMENT = [
      "url": "https://omoss.svt.se/download/18.c7d6c981a0a583535d1535/1789484134179/Valu%202026%20seminarium%20260915.pdf"},
     {"id": "valu_ep_2024", "typ": "valu",
      "url": "https://omoss.svt.se/download/18.273015e218fe7d3833535561/1718110247331/ValuResultat_EUval_2024.pdf"},
+    # SOM-institutet: förtroende för samhällsinstitutioner efter bakgrund och partisympati, 1986–2024
+    {"id": "som_fortroendetrender", "typ": "som",
+     "url": "https://www.gu.se/sites/default/files/2025-12/Svenska%20f%C3%B6rtroendetrender%201986-2024.pdf"},
+    # Nordicom: Mediebarometern 2025 (fullständig rapport, räckvidd per plattform och ålder) och seminariebilderna
+    {"id": "mediebarometern_2025", "typ": "nordicom",
+     "url": "https://norden.diva-portal.org/smash/get/diva2:2056759/FULLTEXT05.pdf"},
+    {"id": "mediebarometern_2025_bilder", "typ": "nordicom",
+     "url": "https://www.nordicom.gu.se/sites/default/files/Samlad%20ppt%20mediebarometer%202025.pdf"},
     # Valforskningsprogrammet (Svenska väljare), Göteborgs universitet
     {"id": "gu_valu_1991_2022", "typ": "svenska_valjare",
      "url": "https://www.gu.se/sites/default/files/2023-01/R23_2.pdf"},
