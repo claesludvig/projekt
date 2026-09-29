@@ -107,14 +107,14 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
 - Partiernas samlade politik: `partier_katalog.POLITIK_AO` (listsida/sitemap + mönster per parti) →
   `hamta.hamta_politik_ao()` → `data/kallor/politik/<parti>.json` (rubrik, hämtdatum, text per ämnessida; nya sidor
   hämtas, gamla förnyas efter 30 dagar, högst 120 per parti och körning; SD kräver 10 s mellan anrop). V:s sajt
-  blockerar härifrån (403) och hämtas bara i CI. `partier.politik()` rensar bort navigering/nyhetsflöden, plockar
+  blockerar härifrån (403) och hämtas bara i CI (102 sidor 29/9). `partier.politik()` rensar bort navigering/nyhetsflöden, plockar
   "Partiet vill:"-punkter och sorterar sidorna i 17 områden (`POLITIK_OMRADEN`, efter rubrik, annars text).
 - Citaten i STANDPUNKTER får komma ur valmanifesten eller ur politiksidorna (sidans adress blir källa).
 - Sidan: eget avsnitt 5 "Partiernas politik": områdesknappar, förslagstabellen, ett kort per parti med ämnessidorna
   (vill-punkter + hela texten) och sökning i allt. Fulltexterna ligger gzip+base64 i webb.json och packas upp
   i webbläsaren (DecompressionStream) först när någon öppnar en text eller söker.
 - Vänsterpartiets valplattform blockeras (HTTP 403) lokalt men hämtas i CI. Plattformen är kort och allmän;
-  när V:s politiksidor finns (efter CI) kan V:s besked i förslagstabellen fyllas på ur dem, liksom SD:s.
+  V:s och SD:s besked i förslagstabellen är påfyllda ur politiksidorna.
 
 ## Nästa steg
 

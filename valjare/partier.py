@@ -36,7 +36,7 @@ def texter(kall_dir: Path) -> dict[str, dict[str, str]]:
 # ---------- Partiernas samlada politik (Politik A–Ö) ----------
 
 # Rubriker där sidans egentliga innehåll tar slut (nyhetsflöden, relaterade sidor, kontaktrutor)
-SLUT = re.compile(r"^\s*(## )?(senast uppdaterad|andra läste även|vi har svaren|hittade du den information|uppdaterades senast|slutet på menyn|dela länken)|"
+SLUT = re.compile(r"^\s*(## )?(läs mer\s*$|uppdaterad:|senast uppdaterad|andra läste även|vi har svaren|hittade du den information|uppdaterades senast|slutet på menyn|dela länken)|"
                   r"^## (senaste nytt|nyheter|relaterade|mer om|läs mer|läs också|aktuellt|kontakt|"
                   r"talesperson|våra talesperson|dela|prenumerera|bli medlem|engagera dig|här kan du läsa|"
                   r"fler nyheter|artiklar|debattartiklar|pressmeddelanden|mer från|se även|tillbaka)", re.I | re.M)

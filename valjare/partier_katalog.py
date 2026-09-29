@@ -147,6 +147,7 @@ STANDPUNKTER = [
                             "blir mer jämlik i hela landet."),
         }),
         ("tandvard", "Billigare tandvård med högkostnadsskydd för fler", {
+            "V": ("ja", "Därför har vi lagt fram ett förslag på ett riktigt högkostnadsskydd i tandvården."),
             "M": ("delvis", "Vi skjuter till stora medel samtidigt som vi gör en omprioritering från yngre, med mindre behov, till äldre med större behov."),
             "SD": ("ja", "det högkostnadsskydd som sedan årsskiftet gäller äldre ska omfatta alla medborgare"),
             "S": ("ja", "Socialdemokraterna går till val på billigare tandvård för alla vuxna"),
@@ -223,6 +224,7 @@ STANDPUNKTER = [
     ]),
     ("energi", "Energi och klimat", [
         ("karnkraft", "Bygga ny kärnkraft", {
+            "V": ("nej", "En varsam avveckling av kärnkraften behöver mötas av en gedigen utbyggnad av förnybara energislag."),
             "SD": ("ja", "På lång sikt görs det genom utbyggnad av kärnkraft."),
             "M": ("ja", "Se till att ny kärnkraft kommer på plats så snart som möjligt genom att finansiera upp till "
                         "5 000 MW"),
@@ -249,6 +251,7 @@ STANDPUNKTER = [
                              "vindkraftsparker"),
         }),
         ("drivmedel", "Lägre priser på bensin och diesel (sänkt skatt, mindre reduktionsplikt)", {
+            "V": ("nej", "Vänsterpartiet vill därför göra det billigare och enklare för människor att resa hållbart, t.ex. med elbilar och kollektivtrafik."),
             "S": ("delvis", "S vill se till att du har råd att köra till jobb och aktiviteter även när världsmarknadspriserna på bensin och diesel stiger."),
             "L": ("delvis", "Reduktionsplikten och systemet med utsläppsrätter ska därför utformas så att de inte driver upp drivmedelspriserna mer än nödvändigt."),
             "KD": ("ja", "Reduktionsplikt samt höga drivmedelsskatter på dem som inte har andra alternativ än bilen leder enbart till omfördelning av pengar från landsbygdsbor till staten"),
@@ -280,6 +283,7 @@ STANDPUNKTER = [
             "L": ("ja", "den som jobbar och sköter sig ska inte utvisas för bagateller"),
         }),
         ("medborgarskap", "Hårdare krav för svenskt medborgarskap", {
+            "V": ("nej", "Det finns dock inga belägg för att språkkrav för medborgarskap skulle gynna integrationen eller leda till att man lär sig språket snabbare."),
             "SD": ("ja", "Vi fortsätter höja kraven för svenskt medborgarskap."),
             "M": ("ja", "Införa hedersscreening för nyanlända och en värderingsscreening för att beviljas svenskt "
                         "medborgarskap"),
@@ -290,6 +294,7 @@ STANDPUNKTER = [
     ]),
     ("forsvar", "Försvaret", [
         ("forsvarsanslag", "Höja försvarsanslagen mot Natos mål på 5 procent av BNP", {
+            "V": ("delvis", "Både det militära försvaret och det civila försvaret har ett behov av mer resurser, men behovet av resurser är också stort i många andra delar av samhället."),
             "M": ("ja", "vi ställer oss bakom det högre Nato-målet på minst 3,5 procent av BNP på militära utgifter, vilket Sverige ska nå redan 2030."),
             "L": ("ja", "Höjningen till 5 procent av BNP ska genomföras"),
             "C": ("ja", "Upprustningen måste fullföljas upp till fem procent av BNP"),
@@ -311,6 +316,7 @@ STANDPUNKTER = [
                         "när världen blir farligare."),
         }),
         ("plikt", "Värnplikt eller civilplikt för fler", {
+            "V": ("ja", "En ökning av antalet värnpliktiga är viktigt både för den folkliga förankringen och för personalförsörjningen."),
             "MP": ("ja", "civilplikten bör byggas ut som ett komplement till värnplikten"),
             "L": ("ja", "Försvaret av Sverige ska bygga på både frivillighet och plikt."),
             "KD": ("ja", "Allmän försvarsutbildning ska gälla alla unga – antingen militär utbildning eller "
