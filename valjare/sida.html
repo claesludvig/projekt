@@ -43,7 +43,7 @@ p{margin:0;max-width:66ch}
 .lead{font-size:17px;color:var(--ink2);margin-top:12px}
 .kicker{display:block;width:72px;height:5px;background:var(--ink);margin-bottom:18px}
 .meta{font-size:12.5px;color:var(--muted);margin-top:10px}
-section{border-top:1px solid var(--rule);margin-top:40px;padding-top:26px;display:grid;gap:14px}
+section{border-top:1px solid var(--rule);margin-top:40px;padding-top:26px;display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
 .desc{color:var(--ink2)}
 .note{font-size:12.5px;color:var(--muted)}
 .label{font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
@@ -60,7 +60,8 @@ section{border-top:1px solid var(--rule);margin-top:40px;padding-top:26px;displa
 .seg button{font:500 13px/1 var(--sans);background:transparent;color:var(--ink2);border:0;padding:8px 11px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--panel);color:var(--ink)}
 select{font:14px var(--sans);color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:7px 9px;max-width:100%}
-label.ctl{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ink2)}
+label.ctl{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ink2);max-width:100%;min-width:0}
+label.ctl select{min-width:0;flex:0 1 auto}
 input[type=range]{accent-color:var(--ink);width:min(260px,60vw)}
 
 /* sammansättningsblock */
@@ -144,6 +145,17 @@ main section{scroll-margin-top:72px}
 table.vk td{vertical-align:middle} table.vk tr.grp td{font-weight:600;background:var(--panel);border-bottom:0}
 table.vk .niv{font-size:11px;color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:0 4px;margin-left:4px;white-space:nowrap}
 table.vk svg{display:block}
+.polgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;margin-top:8px;align-items:start}
+.polkort summary .ing{display:block;font-weight:400;font-size:12.5px;color:var(--ink2);line-height:1.45;margin:1px 0 2px}
+.polkort details[open] summary .ing{display:none}
+.polkort{border:1px solid var(--rule);border-radius:10px;padding:10px 12px;border-top:4px solid var(--pc)}
+.polkort h4{margin:0 0 2px;font-size:14.5px} .polkort .note{font-size:12px}
+.polkort details{border-top:1px solid var(--rule);padding:6px 0} .polkort summary{cursor:pointer;font-size:13.5px;font-weight:600;line-height:1.5}
+.polkort ul{margin:4px 0 4px;padding-left:18px;font-size:13px;display:grid;gap:3px}
+.poltext{font-size:13px;line-height:1.55;max-height:420px;overflow:auto;border-left:2px solid var(--rule);padding-left:10px;margin:6px 0}
+.poltext h5{font-size:13px;margin:8px 0 2px} .poltext p{margin:0 0 6px}
+.polknapp{font:inherit;font-size:12.5px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:6px;padding:2px 8px;cursor:pointer}
+mark{background:color-mix(in srgb,var(--f3) 30%,transparent);color:inherit;border-radius:2px}
 details.op{border-top:1px solid var(--rule);padding:8px 0} details.op summary{line-height:1.7}
 details.op table td{vertical-align:middle}
 ul.lista{margin:6px 0 0;padding-left:18px;font-size:13.5px;display:grid;gap:5px}
@@ -224,20 +236,36 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     </div>
     <h3 style="margin-top:6px">Kunskapsluckor</h3>
     <ul id="omr-luckor" class="lista"></ul>
-    <h3 style="margin-top:18px" id="h-prog">Vad partierna vill</h3>
-    <p class="desc" id="desc-prog">Konkreta förslag ur partiernas valmanifest 2026, område för område. Varje svar bygger på ett ordagrant citat ur partiets eget program – håll muspekaren över eller öppna förslaget för att läsa det. Ett streck betyder att valmanifestet inte tar upp saken, inte att partiet saknar åsikt.</p>
-    <div class="seg" id="prog-knappar" role="group" aria-label="Välj område i partiernas program" style="flex-wrap:wrap"></div>
-    <div class="tw"><table id="t-prog" class="prog"></table></div>
-    <div class="legend" id="leg-prog"></div>
-    <div id="prog-sammanfattning" class="small" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))"></div>
-    <div id="prog-citat"></div>
-    <h3 style="margin-top:14px" id="h-prog-lik">Hur lika är programmen?</h3>
+  </section>
+
+  <section id="s-politik">
+    <span class="label">5 · Partiernas politik</span>
+    <h2>Vad vill partierna?</h2>
+    <p class="desc" id="desc-pol">Partiernas samlade politik, hämtad från deras egna sidor "Politik A–Ö", område för område. Välj ett område och läs vad varje parti vill, sida vid sida, eller sök på en fråga i allt partierna skriver. Texterna är partiernas egna och hämtas om varje vecka.</p>
+    <div class="seg" id="prog-knappar" role="group" aria-label="Välj område" style="flex-wrap:wrap"></div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0 4px">
+      <input type="search" id="pol-sok" placeholder="Sök i all politik, t.ex. kärnkraft, a-kassa, strandskydd" style="flex:1 1 280px;font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--rule);border-radius:7px;background:var(--paper);color:var(--ink)">
+      <span class="note" id="pol-status"></span>
+    </div>
+    <div id="pol-traffar"></div>
+    <div id="pol-omrade">
+      <h3 style="margin-top:14px" id="h-prog">Förslag att jämföra</h3>
+      <p class="desc" id="desc-prog">Konkreta förslag som flera partier tar ställning till. Varje svar bygger på ett ordagrant citat ur partiets valmanifest 2026 eller partiets egen politiksida – håll muspekaren över eller öppna förslaget för att läsa det. Ett streck betyder att partiet inte tar upp saken i texterna, inte att det saknar åsikt.</p>
+      <div class="tw"><table id="t-prog" class="prog"></table></div>
+      <div class="legend" id="leg-prog"></div>
+      <div id="prog-sammanfattning" class="small" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))"></div>
+      <div id="prog-citat"></div>
+      <div style="display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-top:16px"><h3 id="h-pol" style="margin:0">Partiernas politik i området</h3><button type="button" class="polknapp" id="pol-alla">Öppna alla</button></div>
+      <p class="note" id="not-pol"></p>
+      <div id="pol-partier" class="polgrid"></div>
+    </div>
+    <h3 style="margin-top:18px" id="h-prog-lik">Hur lika är förslagen?</h3>
     <div class="tw"><table class="heat" id="t-prog-lik"></table></div>
     <p class="note" id="not-prog"></p>
   </section>
 
   <section id="s-genomslag">
-    <span class="label">5 · Genomslag</span>
+    <span class="label">6 · Genomslag</span>
     <h2>Hur syns partierna?</h2>
     <p class="desc">Följare i sociala medier, intresse på Wikipedia, omnämnanden i nyheterna, vilka frågor partierna förknippas med, aktivitet i riksdagen och politiska annonser. Allt hämtas ur öppna filer och flöden: Wikidata, plattformarnas publika profiler, Wikimedias sidvisningar, redaktionernas RSS-flöden, Google Nyheter, riksdagens öppna data och Googles annonsdata.</p>
     <h3 id="h-gs-publik">Var finns publiken?</h3>
@@ -284,7 +312,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </div>
 
   <section id="s-sammansattning">
-    <span class="label">6 · Sammansättning</span>
+    <span class="label">7 · Sammansättning</span>
     <h2 id="h-samm">Vem röstar på partiet?</h2>
     <p class="desc">Varje stapel visar hur partiets väljare fördelar sig på grupperna. Den nedersta stapeln är hela väljarkåren; där partiets fördelning avviker därifrån är det över- eller underrepresenterat.</p>
     <div class="controls">
@@ -301,7 +329,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-skifte">
-    <span class="label">7 · Skiftet</span>
+    <span class="label">8 · Skiftet</span>
     <h2>Hur har väljarbasen förändrats sedan 2006?</h2>
     <p class="desc">SCB:s partisympatiundersökning, maj och november varje år. Välj grupp och mått. Den streckade linjen är hela väljarkåren.</p>
     <div class="controls">
@@ -317,7 +345,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-valu">
-    <span class="label">8 · Valdagen</span>
+    <span class="label">9 · Valdagen</span>
     <h2>Hur röstade grupperna, 1991–2026?</h2>
     <p class="desc">SVT:s vallokalsundersökning (Valu). Procent av gruppen som röstade på partiet i riksdagsvalet. Det valda partiet är markerat, övriga i grått.</p>
     <div class="small" id="c-valu"></div>
@@ -327,7 +355,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-kommun">
-    <span class="label">9 · Geografin</span>
+    <span class="label">10 · Geografin</span>
     <h2>Var partierna är starka, 1973–2026</h2>
     <p class="desc">Korrelation över Sveriges 290 kommuner mellan partiets valresultat och en strukturvariabel, val för val. Över noll: partiet är starkare i kommuner med högre värde. Strukturvariabeln tas från närmaste år med data (högst två år ifrån valet).</p>
     <div class="controls"><label class="ctl">Strukturvariabel <select id="sel-ind"></select></label></div>
@@ -336,7 +364,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-lan">
-    <span class="label">10 · Länen</span>
+    <span class="label">11 · Länen</span>
     <h2 id="h-lan">Partiets stöd i länen, 1973–2026</h2>
     <p class="desc">Andel av giltiga röster i riksdagsvalet per län. Den streckade linjen är riket.</p>
     <div class="small" id="c-lan-sm" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px 18px"></div>
@@ -360,7 +388,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-dekomp">
-    <span class="label">11 · Demografi eller beteende</span>
+    <span class="label">12 · Demografi eller beteende</span>
     <h2>Beror förändringen på vilka som röstar, eller på hur de röstar?</h2>
     <p class="desc">Förändringen i partiets stöd delas upp i två delar. <b>Sammansättning</b> är vad som hade hänt om varje grupp röstat som förut men gruppernas storlek ändrats. <b>Beteende</b> är att grupperna ändrat hur de röstar. De två delarna summerar exakt till förändringen.</p>
     <h3>Riket, per indelning och mandatperiod</h3>
@@ -379,7 +407,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-distrikt" hidden>
-    <span class="label">12 · Valdistrikten</span>
+    <span class="label">13 · Valdistrikten</span>
     <h2>Riksdagsvalet 2026 i valdistriktens grannskap</h2>
     <p class="desc" id="desc-distrikt"></p>
     <div class="controls"><label class="ctl">Strukturvariabel <select id="sel-vdind"></select></label></div>
@@ -388,7 +416,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-fragor">
-    <span class="label">13 · Sakfrågorna</span>
+    <span class="label">14 · Sakfrågorna</span>
     <h2>Brott, energipriser och vad väljarna sa var viktigt</h2>
     <p class="desc">Valet 2022 beskrivs ofta som avgjort av skjutningar och sprängningar och av höga el- och drivmedelspriser. Här står utvecklingen i verkligheten bredvid vad väljarna själva angav som viktigt och vilket parti de tyckte hade bäst politik. De lodräta linjerna är valdagarna.</p>
     <h3>Verkligheten</h3>
@@ -415,7 +443,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-verk">
-    <span class="label">14 · Verkligheten, fråga för fråga</span>
+    <span class="label">15 · Verkligheten, fråga för fråga</span>
     <h2>Hur utvecklades det väljarna tyckte var viktigt?</h2>
     <p class="desc">Varje sakfråga som Valu frågar om har kopplats till mått på hur det faktiskt gått, från SCB, Kolada (kommuner och regioner), Polisen och Riksbanken. Tabellen visar förändringen i riket under mandatperioden bredvid hur viktig frågan blev för väljarna.</p>
     <div class="controls"><label class="ctl">Mandatperiod <select id="sel-vper"></select></label></div>
@@ -431,7 +459,7 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
   </section>
 
   <section id="s-brott">
-    <span class="label">15 · Trygghet</span>
+    <span class="label">16 · Trygghet</span>
     <h2>Utsatthet och otrygghet i väljargrupperna</h2>
     <p class="desc">Brå:s Nationella trygghetsundersökning (NTU) och SCB:s undersökning av levnadsförhållanden (ULF, måtten som börjar med "ULF:"). Till vänster: andel i gruppen. Till höger: vad partiets väljare kan förväntas ligga på enbart utifrån deras sammansättning på den valda indelningen, jämfört med hela väljarkåren.</p>
     <div class="controls">
@@ -1030,7 +1058,7 @@ function renderNTU(){
 }
 
 /* ---------- evidensnivå ---------- */
-const EVID_SEK = {"s-lage":"lage","s-valkrets":"valkrets","s-riksdag":"riksdag","s-omraden":"omraden","s-genomslag":"genomslag","s-sammansattning":"sammansattning","s-skifte":"sammansattning","s-valu":"valu","s-kommun":"kommunsamband","s-lan":"lan","s-dekomp":"dekomposition","s-distrikt":"valdistrikt","s-fragor":"sakfragor","s-verk":"verklighet","s-brott":"trygghet"};
+const EVID_SEK = {"s-lage":"lage","s-valkrets":"valkrets","s-riksdag":"riksdag","s-omraden":"omraden","s-politik":"politik","s-genomslag":"genomslag","s-sammansattning":"sammansattning","s-skifte":"sammansattning","s-valu":"valu","s-kommun":"kommunsamband","s-lan":"lan","s-dekomp":"dekomposition","s-distrikt":"valdistrikt","s-fragor":"sakfragor","s-verk":"verklighet","s-brott":"trygghet"};
 function renderEvid(){
   if (!D.evidens) return;
   for (const [sid, eid] of Object.entries(EVID_SEK)) {
@@ -1223,32 +1251,107 @@ function verkChart(el, n, s){
     yFmt: v => fmt(v, dec(v)), series: ser, tipTitle: x => s.p[s.t.indexOf(x)], focus: q=>true, hoger: 10});
   markVal(el, s.t, {hoger: 10});
 }
-let progOmr = null, progSynk = null;
+let progOmr = null, progSynk = null, polTexter = null, polSok = "";
 const SVTXT = {ja: "Ja", nej: "Nej", delvis: "Delvis"};
+// Hela texterna ligger komprimerade i datat och packas upp första gången någon behöver dem
+async function polHamtaTexter(){
+  if (polTexter) return polTexter;
+  const bin = Uint8Array.from(atob(D.partiprogram.politik.texter_gz), c => c.charCodeAt(0));
+  const str = new Blob([bin]).stream().pipeThrough(new DecompressionStream("gzip"));
+  polTexter = JSON.parse(await new Response(str).text());
+  return polTexter;
+}
+function polStycken(st, q){
+  const m = q ? new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi") : null;
+  const hl = t => m ? esc(t).replace(m, x => `<mark>${x}</mark>`) : esc(t);
+  return st.map(x => x.startsWith("## ") ? `<h5>${hl(x.slice(3))}</h5>` : `<p>${hl(x)}</p>`).join("");
+}
+function polKallrad(x){ return `<a class="note" href="${esc(x.u)}" target="_blank" rel="noopener">partiets sida</a> <span class="note">hämtad ${x.h}</span>`; }
+function polAmne(x, idx){
+  const kort = t => t.length > 170 ? t.slice(0, t.lastIndexOf(" ", 165)) + " …" : t;
+  const forst = x.v.length ? x.v[0] : x.i;
+  return `<details data-i="${idx}"><summary>${esc(x.t)}${forst ? `<span class="ing">${esc(kort(forst))}</span>` : ""}</summary>${x.i && !x.v.includes(x.i) ? `<p class="note" style="font-size:12.5px;margin:4px 0">${esc(x.i)}</p>` : ""}` +
+    (x.v.length ? `<div class="note" style="font-weight:600;margin-top:4px">${esc(PNAMN[x.p])} vill</div><ul>${x.v.slice(0, 12).map(v => `<li>${esc(v)}</li>`).join("")}${x.v.length > 12 ? `<li class="note">… och ${x.v.length - 12} punkter till i hela texten</li>` : ""}</ul>` : "") +
+    `<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button type="button" class="polknapp" data-hel="${idx}">Läs hela texten (${fmt(x.n)} ord)</button>${polKallrad(x)}</div><div class="poltext" id="polt${idx}" hidden></div></details>`;
+}
+function polKopplaKnappar(root){
+  root.querySelectorAll("button[data-hel]").forEach(b => b.onclick = async () => {
+    const i = +b.dataset.hel, box = $("polt" + i);
+    if (!box.hidden) { box.hidden = true; b.textContent = b.textContent.replace("Dölj", "Läs"); return; }
+    b.disabled = true; const T = await polHamtaTexter(); b.disabled = false;
+    box.innerHTML = polStycken(T[i], polSok); box.hidden = false; b.textContent = b.textContent.replace("Läs", "Dölj");
+  });
+}
+async function renderPolSok(){
+  const Pp = D.partiprogram.politik, q = polSok.trim(), box = $("pol-traffar");
+  $("pol-omrade").hidden = q.length >= 3; $("prog-knappar").style.opacity = q.length >= 3 ? .45 : 1;
+  if (q.length < 3) { box.innerHTML = ""; $("pol-status").textContent = ""; return; }
+  $("pol-status").textContent = "Söker …";
+  const T = await polHamtaTexter(); if (q !== polSok.trim()) return;
+  const ql = q.toLowerCase(), per = {};
+  Pp.sidor.forEach((x, i) => {
+    const traff = T[i].filter(t => t.toLowerCase().includes(ql));
+    const iTitel = x.t.toLowerCase().includes(ql);
+    if (traff.length || iTitel) (per[x.p] = per[x.p] || []).push({x, i, traff, poang: traff.length + (iTitel ? 5 : 0)});
+  });
+  const antal = Object.values(per).reduce((a, l) => a + l.length, 0);
+  $("pol-status").textContent = antal ? `${antal} sidor hos ${Object.keys(per).length} partier nämner ”${q}”` : `Inget parti nämner ”${q}” på sina politiksidor`;
+  const m = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+  box.innerHTML = `<div class="polgrid">${P.map(p => { const l = (per[p] || []).sort((a, b) => b.poang - a.poang);
+    return `<div class="polkort" style="--pc:${pc(p)}"><h4>${esc(PNAMN[p])}</h4><div class="note">${l.length ? `${l.length} sidor` : Pp.saknas.includes(p) ? "Politiksidorna har inte kunnat hämtas ännu" : "Nämner inte ordet på sina politiksidor"}</div>` +
+      l.slice(0, 8).map(({x, i, traff}) => `<details open><summary>${esc(x.t)}</summary><ul>${traff.slice(0, 3).map(t => { const j = t.toLowerCase().indexOf(ql), a = Math.max(0, j - 160), e = Math.min(t.length, j + ql.length + 200);
+        return `<li>${a ? "… " : ""}${esc(t.slice(a, e)).replace(m, y => `<mark>${y}</mark>`)}${e < t.length ? " …" : ""}</li>`; }).join("")}</ul><div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button type="button" class="polknapp" data-hel="${i}">Läs hela texten (${fmt(x.n)} ord)</button>${polKallrad(x)}</div><div class="poltext" id="polt${i}" hidden></div></details>`).join("") +
+      (l.length > 8 ? `<p class="note">… och ${l.length - 8} sidor till: ${l.slice(8).map(y => esc(y.x.t)).join(", ")}</p>` : "") + `</div>`; }).join("")}</div>`;
+  polKopplaKnappar(box);
+}
 function renderProgram(){
   const G = D.partiprogram;
-  ["h-prog", "desc-prog", "prog-knappar", "t-prog", "leg-prog", "prog-sammanfattning", "prog-citat", "h-prog-lik", "t-prog-lik", "not-prog"].forEach(id => $(id).hidden = !G);
+  $("s-politik").hidden = !G;
   if (!G) return;
-  const O = G.omraden, o = O.find(x => x.id === progOmr) || O.find(x => x.id === omr) || O[0]; progOmr = o.id;
+  const Pp = G.politik;
+  // Områden: partiernas politiksidor om de finns, annars bara förslagen
+  const O = Pp ? Pp.omraden.filter(x => x.id !== "ovrigt" || Pp.sidor.some(s => s.o.includes("ovrigt"))) : G.omraden;
+  const oo = O.find(x => x.id === progOmr) || O.find(x => x.id === omr) || O[0]; progOmr = oo.id;
   $("prog-knappar").innerHTML = O.map(x => `<button type="button" data-o="${x.id}" aria-pressed="${x.id===progOmr}">${esc(x.namn)}</button>`).join("");
-  $("prog-knappar").querySelectorAll("button").forEach(b => b.onclick = () => { progOmr = b.dataset.o; renderProgram(); });
-  const cell = (f, p) => { const v = f.svar[p];
-    if (!v) return `<td class="c"><span class="sv sv-inget" title="${G.saknas.includes(p) ? "Programmet är inte hämtat ännu" : "Inget besked i valmanifestet"}">–</span></td>`;
-    return `<td class="c"><span class="sv sv-${v.s}" title="${esc(PNAMN[p])}: ”${esc(v.c)}”">${SVTXT[v.s]}</span></td>`; };
-  $("t-prog").innerHTML = `<tr><th>Förslag</th>${P.map(p => `<th class="n" title="${esc(PNAMN[p])}"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${pc(p)};margin-right:3px"></span>${p}</th>`).join("")}</tr>` +
-    o.fragor.map(f => `<tr><td>${esc(f.forslag)}</td>${P.map(p => cell(f, p)).join("")}</tr>`).join("");
-  $("leg-prog").innerHTML = `<span><span class="sv sv-ja">Ja</span> driver förslaget</span><span><span class="sv sv-delvis">Delvis</span> en bit på vägen eller med villkor</span><span><span class="sv sv-nej">Nej</span> vänder sig mot det</span><span><span class="sv sv-inget">–</span> inget besked i valmanifestet</span>`;
-  // Skiljelinjer och samsyn i området
-  const grupp = (f, s) => P.filter(p => f.svar[p]?.s === s);
-  const namnlista = ps => ps.map(p => PNAMN[p]).join(", ");
-  const isar = o.fragor.filter(f => grupp(f, "ja").length && grupp(f, "nej").length);
-  const eniga = o.fragor.filter(f => grupp(f, "ja").length >= 4 && !grupp(f, "nej").length);
-  $("prog-sammanfattning").innerHTML =
-    `<div><h3 style="font-size:14px">Här går partierna isär</h3>${isar.length ? `<ul class="lista">${isar.map(f => `<li><b>${esc(f.forslag)}.</b> Ja: ${namnlista(grupp(f, "ja"))}. Nej: ${namnlista(grupp(f, "nej"))}.${grupp(f, "delvis").length ? ` Delvis: ${namnlista(grupp(f, "delvis"))}.` : ""}</li>`).join("")}</ul>` : `<p class="note">Inget förslag i området där ett parti säger ja och ett annat nej i sitt valmanifest.</p>`}</div>` +
-    `<div><h3 style="font-size:14px">Här är de flesta överens</h3>${eniga.length ? `<ul class="lista">${eniga.map(f => `<li><b>${esc(f.forslag)}.</b> Ja: ${namnlista(grupp(f, "ja"))}.${grupp(f, "delvis").length ? ` Delvis: ${namnlista(grupp(f, "delvis"))}.` : ""} Ingen säger nej.</li>`).join("")}</ul>` : `<p class="note">Inget förslag som minst fyra partier driver utan att något säger nej.</p>`}</div>`;
-  // Citaten, ett förslag i taget
-  $("prog-citat").innerHTML = o.fragor.map(f => `<details class="op"><summary><b>${esc(f.forslag)}</b> <span class="note">– citat ur programmen</span></summary><ul class="lista">${P.filter(p => f.svar[p]).map(p => { const v = f.svar[p];
-    return `<li><span class="sv sv-${v.s}">${SVTXT[v.s]}</span> <b>${esc(PNAMN[p])}:</b> ”${esc(v.c)}” ${v.u ? `<a class="note" href="${esc(v.u)}" target="_blank" rel="noopener">källa</a>` : ""}</li>`; }).join("")}</ul></details>`).join("");
+  $("prog-knappar").querySelectorAll("button").forEach(b => b.onclick = () => { progOmr = b.dataset.o; if (polSok) { polSok = ""; $("pol-sok").value = ""; renderPolSok(); } renderProgram(); });
+  const sok = $("pol-sok"); sok.hidden = !Pp;
+  if (Pp && !sok.dataset.kopplad) { sok.dataset.kopplad = 1; let tm; sok.oninput = () => { clearTimeout(tm); tm = setTimeout(() => { polSok = sok.value; renderPolSok(); }, 250); }; }
+  // Förslagen i området (om några)
+  const o = G.omraden.find(x => x.id === progOmr);
+  ["h-prog", "desc-prog", "t-prog", "leg-prog", "prog-sammanfattning", "prog-citat"].forEach(id => $(id).hidden = !o);
+  if (o) {
+    const cell = (f, p) => { const v = f.svar[p];
+      if (!v) return `<td class="c"><span class="sv sv-inget" title="${G.saknas.includes(p) ? "Programmet är inte hämtat ännu" : "Inget besked i partiets texter"}">–</span></td>`;
+      return `<td class="c"><span class="sv sv-${v.s}" title="${esc(PNAMN[p])}: ”${esc(v.c)}”">${SVTXT[v.s]}</span></td>`; };
+    $("t-prog").innerHTML = `<tr><th>Förslag</th>${P.map(p => `<th class="n" title="${esc(PNAMN[p])}"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${pc(p)};margin-right:3px"></span>${p}</th>`).join("")}</tr>` +
+      o.fragor.map(f => `<tr><td>${esc(f.forslag)}</td>${P.map(p => cell(f, p)).join("")}</tr>`).join("");
+    $("leg-prog").innerHTML = `<span><span class="sv sv-ja">Ja</span> driver förslaget</span><span><span class="sv sv-delvis">Delvis</span> en bit på vägen eller med villkor</span><span><span class="sv sv-nej">Nej</span> vänder sig mot det</span><span><span class="sv sv-inget">–</span> inget besked i partiets texter</span>`;
+    // Skiljelinjer och samsyn i området
+    const grupp = (f, s) => P.filter(p => f.svar[p]?.s === s);
+    const namnlista = ps => ps.map(p => PNAMN[p]).join(", ");
+    const isar = o.fragor.filter(f => grupp(f, "ja").length && grupp(f, "nej").length);
+    const eniga = o.fragor.filter(f => grupp(f, "ja").length >= 4 && !grupp(f, "nej").length);
+    $("prog-sammanfattning").innerHTML =
+      `<div><h3 style="font-size:14px">Här går partierna isär</h3>${isar.length ? `<ul class="lista">${isar.map(f => `<li><b>${esc(f.forslag)}.</b> Ja: ${namnlista(grupp(f, "ja"))}. Nej: ${namnlista(grupp(f, "nej"))}.${grupp(f, "delvis").length ? ` Delvis: ${namnlista(grupp(f, "delvis"))}.` : ""}</li>`).join("")}</ul>` : `<p class="note">Inget förslag i området där ett parti säger ja och ett annat nej i sitt valmanifest.</p>`}</div>` +
+      `<div><h3 style="font-size:14px">Här är de flesta överens</h3>${eniga.length ? `<ul class="lista">${eniga.map(f => `<li><b>${esc(f.forslag)}.</b> Ja: ${namnlista(grupp(f, "ja"))}.${grupp(f, "delvis").length ? ` Delvis: ${namnlista(grupp(f, "delvis"))}.` : ""} Ingen säger nej.</li>`).join("")}</ul>` : `<p class="note">Inget förslag som minst fyra partier driver utan att något säger nej.</p>`}</div>`;
+    // Citaten, ett förslag i taget
+    $("prog-citat").innerHTML = o.fragor.map(f => `<details class="op"><summary><b>${esc(f.forslag)}</b> <span class="note">– citat ur programmen</span></summary><ul class="lista">${P.filter(p => f.svar[p]).map(p => { const v = f.svar[p];
+      return `<li><span class="sv sv-${v.s}">${SVTXT[v.s]}</span> <b>${esc(PNAMN[p])}:</b> ”${esc(v.c)}” ${v.u ? `<a class="note" href="${esc(v.u)}" target="_blank" rel="noopener">källa</a>` : ""}</li>`; }).join("")}</ul></details>`).join("");
+  }
+  // Partiernas politiksidor i området
+  ["h-pol", "pol-alla", "not-pol", "pol-partier"].forEach(id => $(id).hidden = !Pp);
+  if (Pp) {
+    const idx = Pp.sidor.map((x, i) => [x, i]).filter(([x]) => x.o.includes(progOmr));
+    $("h-pol").textContent = `Partiernas politik: ${oo.namn.toLowerCase()}`;
+    $("pol-partier").innerHTML = P.map(p => { const l = idx.filter(([x]) => x.p === p);
+      return `<div class="polkort" style="--pc:${pc(p)}"><h4>${esc(PNAMN[p])}</h4><div class="note">${l.length ? `${l.length} ${l.length === 1 ? "ämnessida" : "ämnessidor"}` : Pp.saknas.includes(p) ? "Politiksidorna har inte kunnat hämtas ännu" : "Ingen egen ämnessida i området – sök gärna på en fråga"}</div>${l.map(([x, i]) => polAmne(x, i)).join("")}</div>`; }).join("");
+    polKopplaKnappar($("pol-partier"));
+    $("pol-alla").textContent = "Öppna alla";
+    $("pol-alla").onclick = () => { const oppna = $("pol-alla").textContent === "Öppna alla";
+      $("pol-partier").querySelectorAll("details").forEach(d => d.open = oppna); $("pol-alla").textContent = oppna ? "Stäng alla" : "Öppna alla"; };
+    const n = Pp.sidor.length, per = P.map(p => `${p} ${Pp.sidor.filter(x => x.p === p).length}`).join(", ");
+    $("not-pol").textContent = `Varje parti med sina egna ämnessidor i området, med det partiet säger att det vill i punktform. Öppna en sida för hela texten. Totalt ${fmt(n)} ämnessidor (${per}). Sidorna sorteras in i områden efter rubrik, så en sida kan finnas under flera områden. Partierna delar in sin politik olika – ett parti med få sidor här kan ta upp frågan under en annan rubrik, och sökningen går igenom allt.${Pp.saknas.length ? ` ${Pp.saknas.map(p => PNAMN[p]).join(" och ")}: sidorna har inte kunnat hämtas ännu.` : ""}`;
+  }
   // Parvis likhet över alla områden
   const L = {}; G.likhet.forEach(r => { L[r.a + r.b] = r; L[r.b + r.a] = r; });
   const pp = P.filter(p => !G.saknas.includes(p)), bg = css("--paper"), c0 = css("--f3");
@@ -1256,8 +1359,8 @@ function renderProgram(){
     if (a === b) return `<td class="c note">·</td>`; const r = L[a + b]; if (!r || r.n < 5) return `<td class="c note" title="För få gemensamma förslag">–</td>`;
     const x = r.andel / 100, c = mix(c0, bg, 0.06 + 0.8 * x);
     return `<td class="c" style="background:${c};color:${x > 0.6 ? textOn(c) : "var(--ink)"}" title="${PNAMN[a]} och ${PNAMN[b]}: samma svar i ${r.lika} av ${r.n} förslag som båda tar ställning till">${r.andel} %</td>`; }).join("")}</tr>`).join("");
-  const antal = O.reduce((a, x) => a + x.fragor.length, 0);
-  $("not-prog").textContent = `Andel av de förslag som båda partierna tar ställning till där de svarar lika, över alla ${O.length} områden och ${antal} förslag. Många förslag här är sådana som flera partier driver (till exempel fler poliser och stöd till Ukraina), vilket drar upp likheten; skiljelinjerna syns bäst i listan ovan. Förslagen är utvalda för hand för att spegla vanliga stridsfrågor, och svaren gäller bara vad som står i valmanifesten 2026 (för Socialdemokraterna även vallöftena och de politiska riktlinjerna från 2025).${G.saknas.length ? ` ${G.saknas.map(p => PNAMN[p]).join(" och ")}: programmet har inte kunnat hämtas ännu.` : ""}`;
+  const antal = G.omraden.reduce((a, x) => a + x.fragor.length, 0);
+  $("not-prog").textContent = `Andel av de förslag som båda partierna tar ställning till där de svarar lika, över alla ${G.omraden.length} områden och ${antal} förslag. Många förslag här är sådana som flera partier driver (till exempel fler poliser och stöd till Ukraina), vilket drar upp likheten; skiljelinjerna syns bäst i listan ovan. Förslagen är utvalda för hand för att spegla vanliga stridsfrågor, och svaren gäller vad som står i valmanifesten 2026 (för Socialdemokraterna även vallöftena och de politiska riktlinjerna från 2025) och på partiernas egna politiksidor.${G.saknas.length ? ` ${G.saknas.map(p => PNAMN[p]).join(" och ")}: programmet har inte kunnat hämtas ännu.` : ""}`;
 }
 function renderOmraden(){
   const O = D.omraden; if (!O) { $("s-omraden").hidden = true; return; }
@@ -1299,7 +1402,7 @@ function renderOmraden(){
   $("omr-opinion").innerHTML = op.map(x => { const a = Object.keys(x.v).sort(), v = x.v[a[a.length-1]]; return `<li>${esc(x.forslag)}: <b>${fmt(v)} %</b> bra förslag ${a[a.length-1]}${a.length>1?` <span class="note">(${a[0]}: ${fmt(x.v[a[0]])} %)</span>`:""}</li>`; }).join("") || `<li class="note">SOM ställer inga frågor om konkreta förslag inom området.</li>`;
   $("omr-myndigheter").innerHTML = o.myndigheter.map(([n,u,v]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a> <span class="note">${esc(v)}</span></li>`).join("");
   // Följ områdesvalet ovan, men bara när det ändras (så att ett eget val nedan inte skrivs över vid omritning)
-  if (omr !== progSynk) { progSynk = omr; if (D.partiprogram && D.partiprogram.omraden.some(x => x.id === omr)) progOmr = omr; }
+  if (omr !== progSynk) { progSynk = omr; if (D.partiprogram && (D.partiprogram.politik ? D.partiprogram.politik.omraden : D.partiprogram.omraden).some(x => x.id === omr)) progOmr = omr; }
   renderProgram();
   $("omr-luckor").innerHTML = o.luckor.map(l => `<li>${esc(l)}</li>`).join("") + (o.saknas.length ? `<li>Serier i katalogen som inte har kunnat hämtas: ${o.saknas.map(esc).join(", ")}.</li>` : "");
 }
@@ -1461,7 +1564,7 @@ function byggNavigering(){
   const sek = [...document.querySelectorAll("main > section")].filter(x => !x.hidden && x.id);
   const post = sek.map(x => { const l = (x.querySelector(".label")?.textContent || "").trim(), m = l.match(/^(\d+)\s*·\s*(.+)$/);
     return {id: x.id, nr: m ? m[1] : "", namn: m ? m[2] : (l || x.querySelector("h2")?.textContent || x.id),
-            grupp: !m ? "Metod och källor" : +m[1] <= 5 ? "Samhället och politiken" : "Väljarna"}; });
+            grupp: !m ? "Metod och källor" : +m[1] <= 6 ? "Samhället och politiken" : "Väljarna"}; });
   const grupper = [...new Set(post.map(p => p.grupp))];
   const lank = p => `<a href="#${p.id}" data-id="${p.id}"><span class="nr">${p.nr}</span><span>${esc(p.namn)}</span></a>`;
   $("toc").innerHTML = `<h2>Innehåll</h2>` + grupper.map(g => `<div><h3>${g}</h3><ol>${post.filter(p => p.grupp === g).map(p => `<li>${lank(p)}</li>`).join("")}</ol></div>`).join("");
@@ -1538,6 +1641,7 @@ function renderMetod(){
   <tr><td><code>media_foljare</code>, <code>media_foljare_nu</code></td><td>Daterade följarantal per parti, partiledare och plattform (Wikidata)</td></tr>
   <tr><td><code>media_omnamnanden</code>, <code>media_google_nyheter</code></td><td>Omnämnanden per parti och vecka i redaktionernas nyhetsflöden; artiklar per parti och dag i Google Nyheter</td></tr>
   <tr><td><code>media_talartid</code>, <code>media_annonser</code></td><td>Anföranden och ord per parti och riksmöte; Googles politiska annonser per parti och år</td></tr>
+  <tr><td><code>partier_politik</code>, <code>partier_standpunkter</code>, <code>partier_likhet</code></td><td>Partiernas politiksidor (rubrik, område, vill-punkter och hela texten); partiernas svar och citat per förslag; parvis likhet</td></tr>
   <tr><td><code>evidensniva</code></td><td>Vad varje avsnitt kan och inte kan säga (beskrivande, modellskattning, samband)</td></tr>
   <tr><td><code>kontroll</code>, <code>varningar</code></td><td>Kvalitetskontroller och tolkningsvarningar</td></tr></table></div>
   <p><b>Mål i stället för värderingar.</b> Databasen anger inte om en utveckling är bra eller dålig. Riktning och målnivå finns bara där det finns ett beslutat mål (vårdgarantin, klimatlagen, Natoåtagandet, miljömålen, jämställdhetspolitikens delmål, kriminalpolitikens och sysselsättningspolitikens mål, Riksbankens inflationsmål). Målen och deras källor står i <code>verklighet_katalog.py</code> (<code>MAL</code>).</p>

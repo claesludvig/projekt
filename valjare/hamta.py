@@ -345,7 +345,13 @@ def _pdf_till_lopande_text(pdf: Path, txt: Path):
 
 
 def _html_till_text(html: str, txt: Path):
-    """Webbsida -> läsbar text: bara <main> (eller <article>/<body>), utan skript, stilar, menyer och sidfot."""
+    """Webbsida -> läsbar text i en fil (se _html_text)."""
+    txt.write_text(_html_text(html) + "\n", encoding="utf-8")
+
+
+def _html_text(html: str) -> str:
+    """Webbsida -> läsbar text: bara <main> (eller <article>/<body>), utan skript, stilar, menyer och sidfot.
+    Rubriker får prefixet "## "."""
     from html.parser import HTMLParser
 
     class Text(HTMLParser):
@@ -378,8 +384,7 @@ def _html_till_text(html: str, txt: Path):
     t = Text()
     t.feed(m[0] if m else html)
     text = re.sub(r"[ \t\u00a0]+", " ", "".join(t.delar))
-    text = re.sub(r"\n\s*\n+", "\n\n", text).strip()
-    txt.write_text(text + "\n", encoding="utf-8")
+    return re.sub(r"\n\s*\n+", "\n\n", text).strip()
 
 
 def _xlsx_oversikt(xlsx: Path, txt: Path):
@@ -940,6 +945,88 @@ def hamta_foljare_matt():
 WIKIMEDIA = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/sv.wikipedia/all-access/user"
 
 
+POLITIK_DIR = KALL_DIR / "politik"
+POLITIK_FORNYA_DAGAR = 30   # ämnessidor äldre än så hämtas om
+POLITIK_MAX_PER_KORNING = 120   # per parti, så att en körning inte blir för lång (SD kräver 10 s mellan anrop)
+
+
+def _politik_lankar(parti: str, lista: str, monster: str) -> list[str]:
+    """Ämnessidornas adresser ur listsidan eller sitemapen (även sitemap-index, ett steg ned)."""
+    from urllib.parse import urljoin
+    r = http("GET", lista, headers=WEBBLASARE)
+    r.raise_for_status()
+    t = r.text
+    if "<sitemapindex" in t:
+        t = "".join(http("GET", u, headers=WEBBLASARE).text for u in re.findall(r"<loc>([^<]+)</loc>", t))
+    adresser = re.findall(r"<loc>([^<]+)</loc>", t) + re.findall(r'href="([^"#?]+)"', t)
+    ut = []
+    for a in adresser:
+        a = urljoin(lista, a.strip())
+        if re.search(monster, a) and a.rstrip("/") != lista.rstrip("/") and a not in ut:
+            ut.append(a)
+    return ut
+
+
+def _politik_sida(url: str) -> tuple[str, str]:
+    """(rubrik, text) för en ämnessida. Rubriken är sidans första rubrik, annars <title> utan partinamnet."""
+    r = http("GET", url, headers=WEBBLASARE)
+    r.raise_for_status()
+    html = r.content.decode(r.encoding if r.encoding and r.encoding.lower() != "iso-8859-1" else "utf-8",
+                            errors="replace")
+    import html as htmlmod
+    text = _html_text(html)
+    rubrik = lambda x: htmlmod.unescape(re.sub(r"<[^>]+>", " ", x)).split("|")[0].strip()  # noqa: E731
+    m = re.search(r"<h1\b[^>]*>(.*?)</h1>", html, re.S | re.I)
+    titel = rubrik(m[1]) if m and rubrik(m[1]) else ""
+    if not titel:
+        m = re.search(r'<meta property="og:title" content="([^"]+)"', html) or re.search(r"<title>(.*?)</title>", html, re.S)
+        titel = re.sub(r"\s+[–-]\s+(Vänsterpartiet|Sverigedemokraterna|Moderaterna|Liberalerna|Centerpartiet|"
+                       r"Kristdemokraterna|Miljöpartiet|Socialdemokraterna).*$", "", rubrik(m[1])) if m else ""
+    return re.sub(r"\s+", " ", titel), text
+
+
+def hamta_politik_ao(tvinga: bool = False, partier: set[str] | None = None, max_per_korning: int | None = None):
+    """Partiernas samlade politik från deras "Politik A–Ö"-sidor (partier_katalog.POLITIK_AO). En fil per parti,
+    data/kallor/politik/<parti>.json: {"lista_hamtad", "sidor": {url: {titel, hamtad, text}}}. Sidor som
+    försvunnit ur listan tas bort; nya hämtas, gamla förnyas efter POLITIK_FORNYA_DAGAR."""
+    from partier_katalog import POLITIK_AO, POLITIK_PAUS
+    POLITIK_DIR.mkdir(parents=True, exist_ok=True)
+    nu = datetime.now(timezone.utc)
+    rapport = {}
+    for parti, (lista, monster) in POLITIK_AO.items():
+        if partier and parti not in partier:
+            continue
+        f = POLITIK_DIR / f"{parti}.json"
+        d = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {"sidor": {}}
+        try:
+            lankar = _politik_lankar(parti, lista, monster)
+        except Exception as exc:  # noqa: BLE001
+            logg["fel"].append(f"politik A–Ö {parti}: listan: {exc}")
+            rapport[parti] = {"fel": str(exc)[:200], "sidor": len(d["sidor"])}
+            continue
+        if not lankar:
+            logg["fel"].append(f"politik A–Ö {parti}: inga ämnessidor i {lista}")
+            continue
+        d["sidor"] = {u: v for u, v in d["sidor"].items() if u in lankar}
+        att_hamta = [u for u in lankar if tvinga or u not in d["sidor"] or
+                     (nu - datetime.fromisoformat(d["sidor"][u]["hamtad"])).days >= POLITIK_FORNYA_DAGAR]
+        att_hamta.sort(key=lambda u: (u in d["sidor"], d["sidor"].get(u, {}).get("hamtad", "")))
+        hamtade = 0
+        for u in att_hamta[:max_per_korning or POLITIK_MAX_PER_KORNING]:
+            try:
+                titel, text = _politik_sida(u)
+                d["sidor"][u] = {"titel": titel, "hamtad": nu.isoformat(timespec="seconds"), "text": text}
+                hamtade += 1
+            except Exception as exc:  # noqa: BLE001
+                logg["fel"].append(f"politik A–Ö {parti} {u}: {exc}")
+            time.sleep(POLITIK_PAUS.get(parti, 1))
+        d["lista"], d["lista_hamtad"] = lista, nu.isoformat(timespec="seconds")
+        f.write_text(json.dumps(d, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+        rapport[parti] = {"i_listan": len(lankar), "hamtade_nu": hamtade, "sidor": len(d["sidor"])}
+        print(f"  Politik A–Ö {parti}: {len(d['sidor'])} av {len(lankar)} sidor ({hamtade} hämtade nu)")
+    logg["politik_ao"] = rapport
+
+
 def hamta_wikipedia_visningar():
     """Sidvisningar per månad på svenska Wikipedia (sedan juli 2015) för partiernas och partiledarnas artiklar.
     Bara användare, inte robotar. Titlarna kommer från Wikidata (hamta_wikidata)."""
@@ -1427,7 +1514,7 @@ def hamta_geodata():
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka", "riksdagen", "media"],
+    p.add_argument("--steg", choices=["alla", "scb", "dokument", "geo", "verklighet", "vecka", "riksdagen", "media", "politik"],
                    default="alla",
                    help="vecka = bara månadsserierna till lägesbilden (SCB, Polisen, Riksbanken)")
     p.add_argument("--tema", help="bara ett SCB-tema (t.ex. psu)")
@@ -1455,6 +1542,8 @@ def main():
         hamta_rss()
     if a.steg in ("alla", "vecka"):
         hamta_wikipedia_visningar()
+    if a.steg in ("alla", "vecka", "politik"):
+        hamta_politik_ao(a.tvinga)
     if a.steg == "alla":
         hamta_google_annonser()
     if a.steg == "vecka":

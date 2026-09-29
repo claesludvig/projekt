@@ -56,6 +56,12 @@ EVIDENS = [
      "Utveckling, kapacitet och mål per område i Sverige, jämfört med de nordiska grannländerna och EU-snittet.",
      "Varför länderna skiljer sig. Definitioner och registrering skiljer sig mellan länder (särskilt för brott), "
      "och en högre eller lägre nivå är inte i sig bättre eller sämre. Kunskapsluckorna står uttryckligen per område."),
+    ("politik", "Partiernas politik", "beskrivande",
+     "Vad varje parti säger att det vill, med partiernas egna texter från deras sidor Politik A–Ö och valmanifesten 2026, "
+     "område för område och sökbart. Förslagstabellen visar hur partierna ställer sig till konkreta förslag, med ordagranna citat.",
+     "Hur partierna faktiskt röstar eller vad de driver i förhandlingar. Sidorna förs in i områden efter rubrik, så en fråga "
+     "kan ligga under ett annat område hos ett annat parti. Svaren i förslagstabellen och urvalet av förslag är gjorda för hand; "
+     "ett streck betyder att partiets texter inte tar upp saken, inte att partiet saknar åsikt."),
     ("genomslag", "Genomslag", "beskrivande",
      "Hur många som följer partierna och partiledarna, hur mycket de läses om på Wikipedia, hur ofta de nämns "
      "i nyheterna, vilka frågor de nämns med, hur aktiva de är i riksdagen och hur mycket "
