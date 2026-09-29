@@ -104,9 +104,17 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
   nytt beroende), webbsidorna med `hamta._html_till_text`.
 - `partier_katalog.STANDPUNKTER`: 7 områden × 3 förslag, svar ja/nej/delvis med ordagranna citat. `partier.py`
   hittar citatet i källtexten och räknar parvis likhet; `tests/test_partier.py` underkänner citat som saknas.
-- Sidan: "Vad partierna vill" i avsnitt 4 (egna områdesknappar, följer områdesvalet ovan).
-- Vänsterpartiets valplattform blockeras (HTTP 403) lokalt men hämtas i CI. Plattformen är kort och allmän,
-  så V har besked i 10 av 21 förslag.
+- Partiernas samlade politik: `partier_katalog.POLITIK_AO` (listsida/sitemap + mönster per parti) →
+  `hamta.hamta_politik_ao()` → `data/kallor/politik/<parti>.json` (rubrik, hämtdatum, text per ämnessida; nya sidor
+  hämtas, gamla förnyas efter 30 dagar, högst 120 per parti och körning; SD kräver 10 s mellan anrop). V:s sajt
+  blockerar härifrån (403) och hämtas bara i CI. `partier.politik()` rensar bort navigering/nyhetsflöden, plockar
+  "Partiet vill:"-punkter och sorterar sidorna i 17 områden (`POLITIK_OMRADEN`, efter rubrik, annars text).
+- Citaten i STANDPUNKTER får komma ur valmanifesten eller ur politiksidorna (sidans adress blir källa).
+- Sidan: eget avsnitt 5 "Partiernas politik": områdesknappar, förslagstabellen, ett kort per parti med ämnessidorna
+  (vill-punkter + hela texten) och sökning i allt. Fulltexterna ligger gzip+base64 i webb.json och packas upp
+  i webbläsaren (DecompressionStream) först när någon öppnar en text eller söker.
+- Vänsterpartiets valplattform blockeras (HTTP 403) lokalt men hämtas i CI. Plattformen är kort och allmän;
+  när V:s politiksidor finns (efter CI) kan V:s besked i förslagstabellen fyllas på ur dem, liksom SD:s.
 
 ## Nästa steg
 

@@ -48,6 +48,10 @@ LICENSER = [
     ("Partiernas valmanifest och valplattformar 2026", "Riksdagspartierna", "citat",
      "Offentliga partiprogram; korta ordagranna citat återges med länk till partiets eget dokument.",
      "https://www.val.se"),
+    ("Partiernas politik A–Ö", "Riksdagspartierna", "citat",
+     "Partiernas egna politiksidor återges i sin helhet med länk och hämtdatum, som underlag för jämförelse. Texterna är "
+     "partiernas; stäm av med partierna om sidan sprids brett.",
+     "https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-partier/"),
     ("SVT:s vallokalsundersökning (Valu)", "SVT", "avstamning",
      "Rapporterna är upphovsrättsskyddade. Databasen återpublicerar tabeller per väljargrupp 1991–2026; "
      "begär tillstånd innan sidan sprids.", "https://omoss.svt.se/"),

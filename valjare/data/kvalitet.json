@@ -2,7 +2,7 @@
  "skapad": "2026-09-29",
  "status": "varning",
  "antal": {
-  "ok": 206,
+  "ok": 207,
   "varning": 3
  },
  "kontroller": [
@@ -1536,6 +1536,14 @@
   },
   {
    "grupp": "volym",
+   "id": "rader_partier_politik",
+   "beskrivning": "Tabell partier_politik",
+   "status": "ok",
+   "detalj": "941 rader (förra 696)",
+   "varde": 941.0
+  },
+  {
+   "grupp": "volym",
    "id": "rader_norden",
    "beskrivning": "Tabell norden",
    "status": "ok",
@@ -1563,8 +1571,8 @@
    "id": "rader_evidensniva",
    "beskrivning": "Tabell evidensniva",
    "status": "ok",
-   "detalj": "14 rader (förra 14)",
-   "varde": 14.0
+   "detalj": "15 rader (förra 14)",
+   "varde": 15.0
   },
   {
    "grupp": "volym",
@@ -1579,8 +1587,8 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "18 rader (förra 18)",
-   "varde": 18.0
+   "detalj": "19 rader (förra 18)",
+   "varde": 19.0
   },
   {
    "grupp": "rimlighet",

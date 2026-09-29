@@ -1013,6 +1013,28 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
     return ut
 
 
+def webb_politik(pol: pd.DataFrame) -> dict | None:
+    """Partiernas samlade politik per område. Rubrik, adress, inledning och vill-punkter som vanlig JSON;
+    hela texterna (samma ordning som sidorna) som gzip + base64, som sidan packar upp först när de behövs."""
+    import base64
+    import gzip
+    from partier_katalog import POLITIK_AO, POLITIK_OMRADEN
+    if pol is None or pol.empty:
+        return None
+    pol = pol.sort_values(["parti", "titel"], key=lambda x: x.str.lower() if x.name == "titel" else x)
+    sidor = [{"p": r.parti, "t": r.titel, "u": r.url, "h": r.hamtad, "o": r.omraden.split(","),
+              "i": r.ingress if isinstance(r.ingress, str) else "",
+              "v": r.vill.split("\n") if isinstance(r.vill, str) and r.vill else [], "n": int(r.ord)}
+             for r in pol.itertuples()]
+    texter = [r.text.split("\n") for r in pol.itertuples()]
+    blob = base64.b64encode(gzip.compress(json.dumps(texter, ensure_ascii=False, separators=(",", ":")).encode(),
+                                          mtime=0)).decode()
+    omr = [{"id": oid, "namn": n} for oid, n, _ in POLITIK_OMRADEN] + [{"id": "ovrigt", "namn": "Övrigt"}]
+    return {"omraden": omr, "sidor": sidor, "texter_gz": blob,
+            "listor": {p: l for p, (l, _) in POLITIK_AO.items()},
+            "saknas": sorted(set(POLITIK_AO) - set(pol.parti))}
+
+
 def webb_partier(t: dict[str, pd.DataFrame]) -> dict:
     """Partiernas program per område: svar och citat per fråga, program som saknas och parvis likhet."""
     from partier_katalog import PROGRAM_NAMN
@@ -1029,6 +1051,7 @@ def webb_partier(t: dict[str, pd.DataFrame]) -> dict:
     lik = t.get("partier_likhet", pd.DataFrame())
     url = pr.dropna(subset=["url"]).drop_duplicates("parti").set_index("parti").url.to_dict()
     return {"partiprogram": {
+        "politik": webb_politik(t.get("partier_politik", pd.DataFrame())),
         "omraden": omr, "saknas": sorted(set(pr[~pr.program_hamtat].parti)),
         "program": {p: {"namn": n, "url": url.get(p)} for p, n in PROGRAM_NAMN.items()},
         "likhet": [{"a": r.parti_a, "b": r.parti_b, "n": int(r.fragor), "lika": int(r.lika),
@@ -1148,6 +1171,11 @@ def main():
     print(f"  {len(hittade)} citat, {int(hittade.dokument.notna().sum())} hittade i programmen, "
           f"saknade program: {sorted(set(prog[~prog.program_hamtat].parti))}")
     prog_lik = partier.likhet(prog)
+    pol_ao = partier.politik(KALL_DIR)
+    if len(pol_ao):
+        print("  Politik A–Ö: " + ", ".join(f"{p} {n}" for p, n in pol_ao.groupby("parti").size().items()) + " ämnessidor")
+        pol_ao = pol_ao.assign(omraden=pol_ao.omraden.str.join(","), vill=pol_ao.vill.str.join("\n"),
+                               text=pol_ao.stycken.str.join("\n")).drop(columns="stycken")
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -1171,7 +1199,7 @@ def main():
         "verklighet_kommunvarden": verk_kv,
         "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
-        **vk, **rd, **med, "partier_standpunkter": prog, "partier_likhet": prog_lik, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
+        **vk, **rd, **med, "partier_standpunkter": prog, "partier_likhet": prog_lik, "partier_politik": pol_ao, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
