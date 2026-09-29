@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T22:46:16.368197+00:00",
+ "start": "2026-09-29T05:36:16.224384+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1427,6 +1427,104 @@
    "status": "text finns, ej hämtad"
   },
   {
+   "id": "prog_s_valloften_2026",
+   "typ": "partiprogram",
+   "url": "https://www.socialdemokraterna.se/val-2026/valloften",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_s_riktlinjer_2025",
+   "typ": "partiprogram",
+   "url": "https://www.socialdemokraterna.se/download/18.66b0e5c8197581879cad79/1749654527283/A-E%20Politiska%20riktlinjer%202025_beslutat.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_m_2026",
+   "typ": "partiprogram",
+   "url": "https://moderaterna.se/app/uploads/2026/09/Valmanifest-2026_digital.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_sd_2026",
+   "typ": "partiprogram",
+   "url": "https://www.sd.se/wp-content/uploads/2026/07/valplattform-2026.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_c_2026",
+   "typ": "partiprogram",
+   "url": "https://val2026.centerpartiet.se/wp-content/uploads/2026/06/Valmanifest-2026.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_v_2026",
+   "typ": "partiprogram",
+   "url": "https://www.vansterpartiet.se/wp-content/uploads/2026/06/Valplattform_2026.pdf",
+   "fil": "data/kallor/pdf/prog_v_2026.pdf",
+   "bytes": 816215,
+   "status": "ok"
+  },
+  {
+   "id": "prog_kd_2026",
+   "typ": "partiprogram",
+   "url": "https://kristdemokraterna.se/download/18.3fb0a02c1a01f5f28f7326/1787292489599/Valmanifest%202026.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_mp_2026",
+   "typ": "partiprogram",
+   "url": "https://www.mp.se/wp-content/uploads/2026/08/miljopartiets-valmanifest-2026.pdf",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_1",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/1-en-trygg-start-i-livet",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_2",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/2-kunskap-som-oppnar-dorrar",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_3",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/3-ett-samhalle-dar-anstrangning-lonar-sig",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_4",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/4-mer-frihet-i-vardagen",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_5",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/5-skydd-for-friheten",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_6",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/6-nar-du-behover-samhallet-som-mest",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_7",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/7-frihet-som-haller-for-framtiden",
+   "status": "text finns, ej hämtad"
+  },
+  {
+   "id": "prog_l_2026_8",
+   "typ": "partiprogram",
+   "url": "https://www.liberalerna.se/valmanifest-2026/8-ett-sverige-som-haller-ihop",
+   "status": "text finns, ej hämtad"
+  },
+  {
    "id": "som_fortroendetrender",
    "typ": "som",
    "url": "https://www.gu.se/sites/default/files/2025-12/Svenska%20f%C3%B6rtroendetrender%201986-2024.pdf",
@@ -2225,7 +2323,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fa50a9406d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fdd3e967210>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2295,7 +2393,8 @@
   "följare L partiledare Facebook SMohamsson: inget följarantal i svaret",
   "följare MP parti Facebook miljopartiet: inget följarantal i svaret",
   "följare MP partiledare Facebook amandalindmp: inget följarantal i svaret",
-  "följare KD parti Facebook kristdemokraterna: inget följarantal i svaret"
+  "följare KD parti Facebook kristdemokraterna: inget följarantal i svaret",
+  "wikipedia KD parti (Kristdemokraterna (Sverige)): GET https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/sv.wikipedia/all-access/user/Kristdemokraterna_%28Sverige%29/monthly/2015070100/2026092900: HTTP 429"
  ],
  "kolada": [
   {
@@ -2740,5 +2839,5 @@
   "konton": 58,
   "matta": 47
  },
- "slut": "2026-09-28T23:15:12.922704+00:00"
+ "slut": "2026-09-29T06:06:16.736202+00:00"
 }
