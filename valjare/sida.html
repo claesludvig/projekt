@@ -93,6 +93,11 @@ td.n,th.n{text-align:right}
 .pil.mot{color:var(--f3)} .pil.fran{color:var(--f1)} .pil.neutral{color:var(--ink2)}
 .minibar{display:inline-block;height:8px;border-radius:2px;vertical-align:middle;margin-right:6px}
 .heat td.c{text-align:center;font-variant-numeric:tabular-nums;min-width:62px}
+table.prog td,table.prog th{vertical-align:middle}
+table.prog td.c{text-align:center;min-width:44px}
+.sv{display:inline-block;min-width:44px;font-size:11.5px;font-weight:600;border-radius:4px;padding:2px 6px;cursor:help}
+.sv-ja{background:var(--ink);color:var(--paper)} .sv-nej{border:1.5px solid var(--ink);color:var(--ink)}
+.sv-delvis{border:1.5px dashed var(--ink2);color:var(--ink2)} .sv-inget{color:var(--muted)}
 table.score td{vertical-align:top} table.score td.fr{font-weight:600;white-space:nowrap}
 table.score .ind{display:grid;gap:6px}
 table.score .irad{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
@@ -219,6 +224,16 @@ code{font-size:12.5px;background:var(--panel);padding:1px 4px;border-radius:3px}
     </div>
     <h3 style="margin-top:6px">Kunskapsluckor</h3>
     <ul id="omr-luckor" class="lista"></ul>
+    <h3 style="margin-top:18px" id="h-prog">Vad partierna vill</h3>
+    <p class="desc" id="desc-prog">Konkreta förslag ur partiernas valmanifest 2026, område för område. Varje svar bygger på ett ordagrant citat ur partiets eget program – håll muspekaren över eller öppna förslaget för att läsa det. Ett streck betyder att valmanifestet inte tar upp saken, inte att partiet saknar åsikt.</p>
+    <div class="seg" id="prog-knappar" role="group" aria-label="Välj område i partiernas program" style="flex-wrap:wrap"></div>
+    <div class="tw"><table id="t-prog" class="prog"></table></div>
+    <div class="legend" id="leg-prog"></div>
+    <div id="prog-sammanfattning" class="small" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))"></div>
+    <div id="prog-citat"></div>
+    <h3 style="margin-top:14px" id="h-prog-lik">Hur lika är programmen?</h3>
+    <div class="tw"><table class="heat" id="t-prog-lik"></table></div>
+    <p class="note" id="not-prog"></p>
   </section>
 
   <section id="s-genomslag">
@@ -1208,6 +1223,42 @@ function verkChart(el, n, s){
     yFmt: v => fmt(v, dec(v)), series: ser, tipTitle: x => s.p[s.t.indexOf(x)], focus: q=>true, hoger: 10});
   markVal(el, s.t, {hoger: 10});
 }
+let progOmr = null, progSynk = null;
+const SVTXT = {ja: "Ja", nej: "Nej", delvis: "Delvis"};
+function renderProgram(){
+  const G = D.partiprogram;
+  ["h-prog", "desc-prog", "prog-knappar", "t-prog", "leg-prog", "prog-sammanfattning", "prog-citat", "h-prog-lik", "t-prog-lik", "not-prog"].forEach(id => $(id).hidden = !G);
+  if (!G) return;
+  const O = G.omraden, o = O.find(x => x.id === progOmr) || O.find(x => x.id === omr) || O[0]; progOmr = o.id;
+  $("prog-knappar").innerHTML = O.map(x => `<button type="button" data-o="${x.id}" aria-pressed="${x.id===progOmr}">${esc(x.namn)}</button>`).join("");
+  $("prog-knappar").querySelectorAll("button").forEach(b => b.onclick = () => { progOmr = b.dataset.o; renderProgram(); });
+  const cell = (f, p) => { const v = f.svar[p];
+    if (!v) return `<td class="c"><span class="sv sv-inget" title="${G.saknas.includes(p) ? "Programmet är inte hämtat ännu" : "Inget besked i valmanifestet"}">–</span></td>`;
+    return `<td class="c"><span class="sv sv-${v.s}" title="${esc(PNAMN[p])}: ”${esc(v.c)}”">${SVTXT[v.s]}</span></td>`; };
+  $("t-prog").innerHTML = `<tr><th>Förslag</th>${P.map(p => `<th class="n" title="${esc(PNAMN[p])}"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${pc(p)};margin-right:3px"></span>${p}</th>`).join("")}</tr>` +
+    o.fragor.map(f => `<tr><td>${esc(f.forslag)}</td>${P.map(p => cell(f, p)).join("")}</tr>`).join("");
+  $("leg-prog").innerHTML = `<span><span class="sv sv-ja">Ja</span> driver förslaget</span><span><span class="sv sv-delvis">Delvis</span> en bit på vägen eller med villkor</span><span><span class="sv sv-nej">Nej</span> vänder sig mot det</span><span><span class="sv sv-inget">–</span> inget besked i valmanifestet</span>`;
+  // Skiljelinjer och samsyn i området
+  const grupp = (f, s) => P.filter(p => f.svar[p]?.s === s);
+  const namnlista = ps => ps.map(p => PNAMN[p]).join(", ");
+  const isar = o.fragor.filter(f => grupp(f, "ja").length && grupp(f, "nej").length);
+  const eniga = o.fragor.filter(f => grupp(f, "ja").length >= 4 && !grupp(f, "nej").length);
+  $("prog-sammanfattning").innerHTML =
+    `<div><h3 style="font-size:14px">Här går partierna isär</h3>${isar.length ? `<ul class="lista">${isar.map(f => `<li><b>${esc(f.forslag)}.</b> Ja: ${namnlista(grupp(f, "ja"))}. Nej: ${namnlista(grupp(f, "nej"))}.${grupp(f, "delvis").length ? ` Delvis: ${namnlista(grupp(f, "delvis"))}.` : ""}</li>`).join("")}</ul>` : `<p class="note">Inget förslag i området där ett parti säger ja och ett annat nej i sitt valmanifest.</p>`}</div>` +
+    `<div><h3 style="font-size:14px">Här är de flesta överens</h3>${eniga.length ? `<ul class="lista">${eniga.map(f => `<li><b>${esc(f.forslag)}.</b> Ja: ${namnlista(grupp(f, "ja"))}.${grupp(f, "delvis").length ? ` Delvis: ${namnlista(grupp(f, "delvis"))}.` : ""} Ingen säger nej.</li>`).join("")}</ul>` : `<p class="note">Inget förslag som minst fyra partier driver utan att något säger nej.</p>`}</div>`;
+  // Citaten, ett förslag i taget
+  $("prog-citat").innerHTML = o.fragor.map(f => `<details class="op"><summary><b>${esc(f.forslag)}</b> <span class="note">– citat ur programmen</span></summary><ul class="lista">${P.filter(p => f.svar[p]).map(p => { const v = f.svar[p];
+    return `<li><span class="sv sv-${v.s}">${SVTXT[v.s]}</span> <b>${esc(PNAMN[p])}:</b> ”${esc(v.c)}” ${v.u ? `<a class="note" href="${esc(v.u)}" target="_blank" rel="noopener">källa</a>` : ""}</li>`; }).join("")}</ul></details>`).join("");
+  // Parvis likhet över alla områden
+  const L = {}; G.likhet.forEach(r => { L[r.a + r.b] = r; L[r.b + r.a] = r; });
+  const pp = P.filter(p => !G.saknas.includes(p)), bg = css("--paper"), c0 = css("--f3");
+  $("t-prog-lik").innerHTML = `<tr><th></th>${pp.map(p => `<th class="n">${p}</th>`).join("")}</tr>` + pp.map(a => `<tr><td>${esc(PNAMN[a])}</td>${pp.map(b => {
+    if (a === b) return `<td class="c note">·</td>`; const r = L[a + b]; if (!r || r.n < 5) return `<td class="c note" title="För få gemensamma förslag">–</td>`;
+    const x = r.andel / 100, c = mix(c0, bg, 0.06 + 0.8 * x);
+    return `<td class="c" style="background:${c};color:${x > 0.6 ? textOn(c) : "var(--ink)"}" title="${PNAMN[a]} och ${PNAMN[b]}: samma svar i ${r.lika} av ${r.n} förslag som båda tar ställning till">${r.andel} %</td>`; }).join("")}</tr>`).join("");
+  const antal = O.reduce((a, x) => a + x.fragor.length, 0);
+  $("not-prog").textContent = `Andel av de förslag som båda partierna tar ställning till där de svarar lika, över alla ${O.length} områden och ${antal} förslag. Många förslag här är sådana som flera partier driver (till exempel fler poliser och stöd till Ukraina), vilket drar upp likheten; skiljelinjerna syns bäst i listan ovan. Förslagen är utvalda för hand för att spegla vanliga stridsfrågor, och svaren gäller bara vad som står i valmanifesten 2026 (för Socialdemokraterna även vallöftena och de politiska riktlinjerna från 2025).${G.saknas.length ? ` ${G.saknas.map(p => PNAMN[p]).join(" och ")}: programmet har inte kunnat hämtas ännu.` : ""}`;
+}
 function renderOmraden(){
   const O = D.omraden; if (!O) { $("s-omraden").hidden = true; return; }
   const o = O.find(x => x.id === omr) || O[0]; omr = o.id;
@@ -1247,6 +1298,9 @@ function renderOmraden(){
   const op = (D.opinion||[]).filter(x => o.fragor.includes(x.fraga));
   $("omr-opinion").innerHTML = op.map(x => { const a = Object.keys(x.v).sort(), v = x.v[a[a.length-1]]; return `<li>${esc(x.forslag)}: <b>${fmt(v)} %</b> bra förslag ${a[a.length-1]}${a.length>1?` <span class="note">(${a[0]}: ${fmt(x.v[a[0]])} %)</span>`:""}</li>`; }).join("") || `<li class="note">SOM ställer inga frågor om konkreta förslag inom området.</li>`;
   $("omr-myndigheter").innerHTML = o.myndigheter.map(([n,u,v]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a> <span class="note">${esc(v)}</span></li>`).join("");
+  // Följ områdesvalet ovan, men bara när det ändras (så att ett eget val nedan inte skrivs över vid omritning)
+  if (omr !== progSynk) { progSynk = omr; if (D.partiprogram && D.partiprogram.omraden.some(x => x.id === omr)) progOmr = omr; }
+  renderProgram();
   $("omr-luckor").innerHTML = o.luckor.map(l => `<li>${esc(l)}</li>`).join("") + (o.saknas.length ? `<li>Serier i katalogen som inte har kunnat hämtas: ${o.saknas.map(esc).join(", ")}.</li>` : "");
 }
 

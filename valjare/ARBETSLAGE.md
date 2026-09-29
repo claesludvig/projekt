@@ -97,6 +97,17 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
   `mb_plattformar`. Sidan: tabell i "Var finns publiken?" och en mening per plattform i följarnoten.
 - Facebook fungerade från GitHub (13 konton mätta 28/9); från Claude-miljön blockeras det.
 
+## Partiernas program (29/9)
+
+- `kallor.DOKUMENT` typ `partiprogram`: valmanifest/valplattformar 2026 (S: vallöften + politiska riktlinjer 2025,
+  L: åtta webbkapitel). PDF:erna görs om till text spalt för spalt (`hamta._pdf_till_lopande_text`, PyMuPDF,
+  nytt beroende), webbsidorna med `hamta._html_till_text`.
+- `partier_katalog.STANDPUNKTER`: 7 områden × 3 förslag, svar ja/nej/delvis med ordagranna citat. `partier.py`
+  hittar citatet i källtexten och räknar parvis likhet; `tests/test_partier.py` underkänner citat som saknas.
+- Sidan: "Vad partierna vill" i avsnitt 4 (egna områdesknappar, följer områdesvalet ovan).
+- Vänsterpartiets valplattform blockeras (HTTP 403) både härifrån och via WebFetch. Kolla om CI fick den
+  (`data/kallor/txt/prog_v_2026.txt`); fyll i så fall V i `STANDPUNKTER` med citat och kör testet.
+
 ## Nästa steg
 
 2. SOM: förtroende för medier efter partisympati skulle koppla medieanvändningen till partierna.

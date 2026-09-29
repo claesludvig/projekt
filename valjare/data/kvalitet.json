@@ -1,8 +1,8 @@
 {
- "skapad": "2026-09-28",
+ "skapad": "2026-09-29",
  "status": "varning",
  "antal": {
-  "ok": 204,
+  "ok": 206,
   "varning": 3
  },
  "kontroller": [
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "563 artiklar i 7 flöden",
-   "varde": 563.0
+   "detalj": "628 artiklar i 7 flöden",
+   "varde": 628.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-09-24, 4 dagar sedan",
-   "varde": 4.0
+   "detalj": "senaste dokument 2026-09-24, 5 dagar sedan",
+   "varde": 5.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "117 rader (förra 117)",
-   "varde": 117.0
+   "detalj": "164 rader (förra 117)",
+   "varde": 164.0
   },
   {
    "grupp": "volym",
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "210 rader (förra 208)",
-   "varde": 210.0
+   "detalj": "219 rader (förra 210)",
+   "varde": 219.0
   },
   {
    "grupp": "volym",
@@ -1475,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "2059 rader (förra 1924)",
-   "varde": 2059.0
+   "detalj": "1924 rader (förra 2059)",
+   "varde": 1924.0
   },
   {
    "grupp": "volym",
@@ -1517,6 +1517,22 @@
    "status": "ok",
    "detalj": "8 rader (förra 8)",
    "varde": 8.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partier_standpunkter",
+   "beskrivning": "Tabell partier_standpunkter",
+   "status": "ok",
+   "detalj": "168 rader (förra 168)",
+   "varde": 168.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partier_likhet",
+   "beskrivning": "Tabell partier_likhet",
+   "status": "ok",
+   "detalj": "28 rader (förra 28)",
+   "varde": 28.0
   },
   {
    "grupp": "volym",
@@ -1563,8 +1579,8 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "17 rader (förra 17)",
-   "varde": 17.0
+   "detalj": "18 rader (förra 18)",
+   "varde": 18.0
   },
   {
    "grupp": "rimlighet",

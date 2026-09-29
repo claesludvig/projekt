@@ -35,6 +35,7 @@ import metod
 import kontroller
 import lagesbild
 import media
+import partier
 from licenser import LICENSER, STATUS_TEXT
 import norden as nordm
 from omraden import OMRADEN
@@ -686,6 +687,7 @@ def webb(tabeller: dict[str, pd.DataFrame]) -> dict:
     ut.update(webb_riksdag(tabeller))
     ut.update(webb_omraden(tabeller))
     ut.update(webb_media(tabeller))
+    ut.update(webb_partier(tabeller))
     kv = tabeller.get("kvalitet", pd.DataFrame())
     if len(kv):
         ut["kvalitet"] = {"status": max(kv.status, key=kontroller.ORDNING.get),
@@ -1011,6 +1013,28 @@ def webb_media(t: dict[str, pd.DataFrame]) -> dict:
     return ut
 
 
+def webb_partier(t: dict[str, pd.DataFrame]) -> dict:
+    """Partiernas program per område: svar och citat per fråga, program som saknas och parvis likhet."""
+    from partier_katalog import PROGRAM_NAMN
+    pr = t.get("partier_standpunkter", pd.DataFrame())
+    if pr.empty:
+        return {}
+    omr = []
+    for (oid, onamn), d in pr.groupby(["omrade", "omrade_namn"], sort=False):
+        omr.append({"id": oid, "namn": onamn, "fragor": [
+            {"id": fid, "forslag": f.forslag.iloc[0],
+             "svar": {r.parti: {"s": r.svar, "c": r.citat, "u": None if pd.isna(r.url) else r.url}
+                      for r in f.itertuples() if isinstance(r.svar, str)}}
+            for fid, f in d.groupby("fraga", sort=False)]})
+    lik = t.get("partier_likhet", pd.DataFrame())
+    url = pr.dropna(subset=["url"]).drop_duplicates("parti").set_index("parti").url.to_dict()
+    return {"partiprogram": {
+        "omraden": omr, "saknas": sorted(set(pr[~pr.program_hamtat].parti)),
+        "program": {p: {"namn": n, "url": url.get(p)} for p, n in PROGRAM_NAMN.items()},
+        "likhet": [{"a": r.parti_a, "b": r.parti_b, "n": int(r.fragor), "lika": int(r.lika),
+                    "andel": _r(r.andel_lika, 0)} for r in lik.itertuples()]}}
+
+
 def webb_omraden(t: dict[str, pd.DataFrame]) -> dict:
     n = t.get("norden", pd.DataFrame())
     vk = t.get("verklighet", pd.DataFrame())
@@ -1117,6 +1141,13 @@ def main():
     print("Genomslag")
     med = media.bygg(DATA_DIR, rd.get("riksdag_ledamot"))
     print("  " + ", ".join(f"{k} {len(v)}" for k, v in med.items()))
+    print("Partiernas program")
+    from kallor import DOKUMENT
+    prog = partier.tabell(KALL_DIR, DOKUMENT)
+    hittade = prog[prog.citat.notna() & prog.program_hamtat]
+    print(f"  {len(hittade)} citat, {int(hittade.dokument.notna().sum())} hittade i programmen, "
+          f"saknade program: {sorted(set(prog[~prog.program_hamtat].parti))}")
+    prog_lik = partier.likhet(prog)
     print("Dekomposition")
     dekomp = reg.dekomposition(stod_psu, vikt_psu, profil_region, val, reg.utbildning_region(scb), namn_alla)
     print(f"  {len(dekomp)} rader")
@@ -1140,7 +1171,7 @@ def main():
         "verklighet_kommunvarden": verk_kv,
         "verklighet_forandring": verk_f, "verklighet_kommun": verk_k,
         "valdistrikt_2026": dist, "valdistrikt_tiondel": dist_tio, "valdistrikt_samband": dist_samb,
-        **vk, **rd, **med, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
+        **vk, **rd, **med, "partier_standpunkter": prog, "partier_likhet": prog_lik, "norden": nord, "lagesbild": lb, "lagesbild_serie": lb_serie,
         "evidensniva": pd.DataFrame(metod.EVIDENS, columns=["id", "avsnitt", "niva", "sager", "sager_inte"]),
         "kontroll": kontroll,
         "varningar": pd.DataFrame({"varning": varningar}),
