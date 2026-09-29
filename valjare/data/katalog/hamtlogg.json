@@ -1,5 +1,5 @@
 {
- "start": "2026-09-29T06:57:04.727987+00:00",
+ "start": "2026-09-29T10:53:02.547294+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -2321,7 +2321,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fc4ab34bd50>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f694955a1d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2836,5 +2836,47 @@
   "konton": 58,
   "matta": 47
  },
- "slut": "2026-09-29T07:26:04.196280+00:00"
+ "politik_ao": {
+  "V": {
+   "i_listan": 102,
+   "hamtade_nu": 102,
+   "sidor": 102
+  },
+  "S": {
+   "i_listan": 137,
+   "hamtade_nu": 0,
+   "sidor": 137
+  },
+  "MP": {
+   "i_listan": 56,
+   "hamtade_nu": 0,
+   "sidor": 56
+  },
+  "C": {
+   "i_listan": 30,
+   "hamtade_nu": 0,
+   "sidor": 30
+  },
+  "L": {
+   "i_listan": 127,
+   "hamtade_nu": 0,
+   "sidor": 127
+  },
+  "KD": {
+   "i_listan": 231,
+   "hamtade_nu": 0,
+   "sidor": 231
+  },
+  "M": {
+   "i_listan": 115,
+   "hamtade_nu": 0,
+   "sidor": 115
+  },
+  "SD": {
+   "i_listan": 245,
+   "hamtade_nu": 0,
+   "sidor": 245
+  }
+ },
+ "slut": "2026-09-29T11:24:17.887737+00:00"
 }
