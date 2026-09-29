@@ -105,8 +105,8 @@ propositionerna per fråga). Provat i Chromium med exempeldata: inga JS-fel, fun
 - `partier_katalog.STANDPUNKTER`: 7 områden × 3 förslag, svar ja/nej/delvis med ordagranna citat. `partier.py`
   hittar citatet i källtexten och räknar parvis likhet; `tests/test_partier.py` underkänner citat som saknas.
 - Sidan: "Vad partierna vill" i avsnitt 4 (egna områdesknappar, följer områdesvalet ovan).
-- Vänsterpartiets valplattform blockeras (HTTP 403) både härifrån och via WebFetch. Kolla om CI fick den
-  (`data/kallor/txt/prog_v_2026.txt`); fyll i så fall V i `STANDPUNKTER` med citat och kör testet.
+- Vänsterpartiets valplattform blockeras (HTTP 403) lokalt men hämtas i CI. Plattformen är kort och allmän,
+  så V har besked i 10 av 21 förslag.
 
 ## Nästa steg
 

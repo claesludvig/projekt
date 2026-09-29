@@ -14,7 +14,7 @@ PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
 def normalisera(t: str) -> str:
     """Samma jämförelseform för citat och källtext: utan mjuka bindestreck, nollbredds- och punkttecken,
     avstavning vid radbrytning och med ett mellanslag mellan orden."""
-    t = t.replace("­", "").replace("​", "").replace(" ", " ")
+    t = re.sub("­\\s*", "", t).replace("​", "").replace(" ", " ")
     t = re.sub(r"===== sida \d+ =====", " ", t)
     t = re.sub(r"[●•à]\s", " ", t)
     return re.sub(r"\s+", " ", t).strip()
