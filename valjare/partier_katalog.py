@@ -45,6 +45,7 @@ STANDPUNKTER = [
             "MP": ("nej", "Inte sätta barn i fängelse"),
         }),
         ("fler_poliser", "Fler poliser och mer lokal polisnärvaro", {
+            "V": ("ja", "Vi vill stärka polisen, socialtjänsten, elevhälsan och fritidsverksamheten"),
             "M": ("ja", "Fortsätta öka antalet poliser"),
             "SD": ("ja", "Vi fortsätter att öka antalet poliser genom ökade resurser och mer attraktiv polisutbildning."),
             "C": ("ja", "Stärk polisens närvaro i de delar av landet där den idag är alldeles för svag."),
@@ -66,6 +67,7 @@ STANDPUNKTER = [
     ]),
     ("vard", "Vården", [
         ("stat_vard", "Staten tar över ansvaret för sjukvården från regionerna", {
+            "V": ("delvis", "Det är statens ansvar att avsätta de resurser som krävs för att garantera en jämlik och jämställd sjukvård i hela landet"),
             "KD": ("ja", "Gör vården till ett nationellt ansvar och avveckla därefter dagens 21 olika regioner."),
             "L": ("delvis", "Men då behöver staten styra sjukvården mycket tydligare så att köerna kortas och sjukvården "
                             "blir mer jämlik i hela landet."),
@@ -88,6 +90,7 @@ STANDPUNKTER = [
     ]),
     ("skola", "Skolan", [
         ("vinst_skola", "Stoppa vinstuttag ur skolan", {
+            "V": ("ja", "Privatiseringar och marknadsexperiment har dränerat skolan, vården och omsorgen."),
             "L": ("ja", "Därför vill vi fasa ut vinstintresset ur skolan."),
             "MP": ("ja", "Avskaffa marknadsskolan och stoppa vinsterna"),
             "S": ("ja", "Fristående huvudmän ska inte få flytta skolans resurser från kommunen eller ha lägre "
@@ -98,6 +101,7 @@ STANDPUNKTER = [
                          "politiska skäl"),
         }),
         ("statlig_skola", "Staten tar över huvudansvaret för skolan", {
+            "V": ("delvis", "Staten ska ta ett långsiktigt och ökat finansieringsansvar för hela välfärdssektorn."),
             "L": ("ja", "Därför vill vi att staten tar över ansvaret för skolan från kommunerna."),
             "S": ("delvis", "Staten ska därför ta ett ökat ansvar för skolans finansiering för att stärka skolans "
                             "kvalitet och likvärdighet"),
@@ -120,12 +124,14 @@ STANDPUNKTER = [
                             "vanliga löner"),
         }),
         ("skatt_rika", "Höjd skatt för de mest förmögna och på kapital", {
+            "V": ("ja", "De med högst inkomst och stora förmögenheter behöver bidra med mer skatt till välfärden."),
             "S": ("ja", "De allra mest förmögna ska bidra mer."),
             "MP": ("ja", "Minska de ekonomiska klyftorna genom att beskatta de superrika och stärka välfärds- och "
                          "trygghetssystemen"),
             "M": ("nej", "Finansiera nya reformer utan att höja skattetrycket"),
         }),
         ("bidragskrav", "Hårdare krav för att få bidrag", {
+            "V": ("nej", "När man kallar sjuka och arbetslösa för fuskare gör regeringen det lättare att motivera en politik som monterar ner och försvagar våra socialförsäkringar."),
             "M": ("ja", "Säkerställa att bidragstaket fullt ut träder i kraft"),
             "SD": ("ja", "Vi fortsätter att dra åt bidragskranen."),
             "S": ("ja", "För personer med försörjningsstöd vill vi se krav på aktivitetsplikt."),
@@ -147,6 +153,7 @@ STANDPUNKTER = [
             "MP": ("nej", "Ny kärnkraft är inte lösningen"),
         }),
         ("vindkraft", "Bygga ut vindkraften", {
+            "V": ("ja", "Likaså finns det stora behov av en utbyggnad av förnybar elproduktion, elnät och lagring"),
             "MP": ("ja", "Investera i förnybar energi som sol och vind"),
             "C": ("ja", "Peka ut områden för havsbaserad vindkraft och auktionera ut rättigheterna att bygga vindparker "
                         "där."),
@@ -169,6 +176,7 @@ STANDPUNKTER = [
     ]),
     ("integration", "Migration och integration", [
         ("stram_asyl", "Asylpolitik på EU:s miniminivå", {
+            "V": ("nej", "Vårt svar är en human politik som värnar asylrätten"),
             "SD": ("ja", "Asyllagstiftningen ska vara på EU:s miniminivå"),
             "M": ("ja", "Att asylinvandringen till Sverige ska vara restriktiv och den asylrelaterade migrationspolitiken "
                         "i enlighet med EU:s miniminivå"),
@@ -176,6 +184,7 @@ STANDPUNKTER = [
             "L": ("ja", "behöver Sverige och EU föra en stram asylpolitik"),
         }),
         ("stoppa_utvisningar", "Låta den som arbetar och sköter sig stanna (stoppa så kallade kompetensutvisningar)", {
+            "V": ("ja", "Men Sverige blir inte tryggare av att människor som lever sina liv här rycks upp och utvisas."),
             "C": ("ja", "Den som arbetar, betalar skatt och bygger sitt liv i Sverige ska inte utvisas på grund av "
                         "orimliga regelmissar eller långsam byråkrati."),
             "MP": ("ja", "Stoppa orimliga utvisningar: Människor som byggt upp sina liv i Sverige ska få stanna."),
@@ -198,6 +207,7 @@ STANDPUNKTER = [
             "SD": ("ja", "Upprustningen av Försvarsmakten är välbehövlig, men tar stora ekonomiska resurser i anspråk."),
         }),
         ("ukraina", "Fortsatt militärt och civilt stöd till Ukraina", {
+            "V": ("ja", "Vi har agerat för Ukrainas självklara rätt att försvara sig mot Rysslands anfallskrig"),
             "SD": ("ja", "Stödet till Ukraina och motståndet mot den ryska imperialismen är Sveriges viktigaste "
                          "utrikespolitiska fråga"),
             "M": ("ja", "Att stödet till Ukraina ska vara Sveriges viktigaste utrikespolitiska prioritering"),
