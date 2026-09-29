@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "628 artiklar i 7 flöden",
-   "varde": 628.0
+   "detalj": "658 artiklar i 7 flöden",
+   "varde": 658.0
   },
   {
    "grupp": "aktualitet",
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "219 rader (förra 219)",
-   "varde": 219.0
+   "detalj": "220 rader (förra 220)",
+   "varde": 220.0
   },
   {
    "grupp": "volym",
@@ -1475,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "1924 rader (förra 1924)",
-   "varde": 1924.0
+   "detalj": "2059 rader (förra 2059)",
+   "varde": 2059.0
   },
   {
    "grupp": "volym",
@@ -1539,7 +1539,7 @@
    "id": "rader_partier_politik",
    "beskrivning": "Tabell partier_politik",
    "status": "ok",
-   "detalj": "941 rader (förra 696)",
+   "detalj": "941 rader (förra 941)",
    "varde": 941.0
   },
   {
@@ -1571,7 +1571,7 @@
    "id": "rader_evidensniva",
    "beskrivning": "Tabell evidensniva",
    "status": "ok",
-   "detalj": "15 rader (förra 14)",
+   "detalj": "15 rader (förra 15)",
    "varde": 15.0
   },
   {
@@ -1587,7 +1587,7 @@
    "id": "rader_licens",
    "beskrivning": "Tabell licens",
    "status": "ok",
-   "detalj": "19 rader (förra 18)",
+   "detalj": "19 rader (förra 19)",
    "varde": 19.0
   },
   {
