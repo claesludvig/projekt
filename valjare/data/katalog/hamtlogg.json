@@ -1,5 +1,5 @@
 {
- "start": "2026-09-29T10:53:02.547294+00:00",
+ "start": "2026-09-29T12:30:44.851217+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -2321,7 +2321,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f694955a1d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fda18a87350>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2382,6 +2382,7 @@
  "fel": [
   "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']",
   "följare S partiledare TikTok AnderssonMagda: inget följarantal i svaret",
+  "följare C partiledare X elisabethtr: inget följarantal i svaret",
   "följare C partiledare Facebook elisabethtr: inget följarantal i svaret",
   "följare C partiledare Facebook Elisabeththandringqvist: inget följarantal i svaret",
   "följare V parti Facebook vansterpartiet: inget följarantal i svaret",
@@ -2834,12 +2835,12 @@
  ],
  "foljare_matt": {
   "konton": 58,
-  "matta": 47
+  "matta": 46
  },
  "politik_ao": {
   "V": {
    "i_listan": 102,
-   "hamtade_nu": 102,
+   "hamtade_nu": 0,
    "sidor": 102
   },
   "S": {
@@ -2878,5 +2879,5 @@
    "sidor": 245
   }
  },
- "slut": "2026-09-29T11:24:17.887737+00:00"
+ "slut": "2026-09-29T13:01:27.618768+00:00"
 }

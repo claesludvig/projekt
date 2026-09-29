@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "741 artiklar i 7 flöden",
-   "varde": 741.0
+   "detalj": "768 artiklar i 7 flöden",
+   "varde": 768.0
   },
   {
    "grupp": "aktualitet",
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "223 rader (förra 223)",
-   "varde": 223.0
+   "detalj": "226 rader (förra 223)",
+   "varde": 226.0
   },
   {
    "grupp": "volym",
