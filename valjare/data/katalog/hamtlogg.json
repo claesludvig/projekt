@@ -1,5 +1,5 @@
 {
- "start": "2026-09-28T21:36:03.009910+00:00",
+ "start": "2026-09-28T22:46:16.368197+00:00",
  "scb": [
   {
    "id": "TAB3230",
@@ -1436,9 +1436,7 @@
    "id": "mediebarometern_2025",
    "typ": "nordicom",
    "url": "https://norden.diva-portal.org/smash/get/diva2:2056759/FULLTEXT05.pdf",
-   "fil": "data/kallor/pdf/mediebarometern_2025.pdf",
-   "bytes": 23416124,
-   "status": "ok"
+   "status": "text finns, ej hämtad"
   },
   {
    "id": "mediebarometern_2025_bilder",
@@ -2227,7 +2225,7 @@
    "id": "kriminalvarden",
    "url": "https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/",
    "lankar": [],
-   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7f3e9e61ded0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
+   "status": "fel: GET https://www.kriminalvarden.se/forskning-och-statistik/statistik-och-fakta/: HTTPSConnectionPool(host='www.kriminalvarden.se', port=443): Max retries exceeded with url: /forskning-och-statistik/statistik-och-fakta/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kriminalvarden.se', port=443) at 0x7fa50a9406d0>, 'Connection to www.kriminalvarden.se timed out. (connect timeout=120)'))"
   },
   {
    "id": "val_radata_2026",
@@ -2289,8 +2287,15 @@
   "eurostat vardplatser: hlthcare ej låst, valde TOTAL av ['TOTAL', 'SOM', 'PSY']",
   "följare S partiledare TikTok AnderssonMagda: inget följarantal i svaret",
   "följare C partiledare Facebook elisabethtr: inget följarantal i svaret",
+  "följare C partiledare Facebook Elisabeththandringqvist: inget följarantal i svaret",
+  "följare V parti Facebook vansterpartiet: inget följarantal i svaret",
   "följare V partiledare Facebook nooshi.dadgostar: inget följarantal i svaret",
-  "wikipedia KD parti (Kristdemokraterna (Sverige)): GET https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/sv.wikipedia/all-access/user/Kristdemokraterna_%28Sverige%29/monthly/2015070100/2026092800: HTTP 429"
+  "följare KD partiledare Facebook buschebba: inget följarantal i svaret",
+  "följare L parti Facebook liberalernas: inget följarantal i svaret",
+  "följare L partiledare Facebook SMohamsson: inget följarantal i svaret",
+  "följare MP parti Facebook miljopartiet: inget följarantal i svaret",
+  "följare MP partiledare Facebook amandalindmp: inget följarantal i svaret",
+  "följare KD parti Facebook kristdemokraterna: inget följarantal i svaret"
  ],
  "kolada": [
   {
@@ -2732,8 +2737,8 @@
   }
  ],
  "foljare_matt": {
-  "konton": 57,
-  "matta": 54
+  "konton": 58,
+  "matta": 47
  },
- "slut": "2026-09-28T22:12:15.534725+00:00"
+ "slut": "2026-09-28T23:15:12.922704+00:00"
 }
