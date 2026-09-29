@@ -45,6 +45,9 @@ LICENSER = [
     ("SOM-institutet, Svenska förtroendetrender 1986–2024", "Göteborgs universitet", "citat",
      "Tabeller över förtroende efter partisympati återges per år med källhänvisning. Stäm av om sidan sprids brett.",
      "https://www.gu.se/som-institutet"),
+    ("Partiernas valmanifest och valplattformar 2026", "Riksdagspartierna", "citat",
+     "Offentliga partiprogram; korta ordagranna citat återges med länk till partiets eget dokument.",
+     "https://www.val.se"),
     ("SVT:s vallokalsundersökning (Valu)", "SVT", "avstamning",
      "Rapporterna är upphovsrättsskyddade. Databasen återpublicerar tabeller per väljargrupp 1991–2026; "
      "begär tillstånd innan sidan sprids.", "https://omoss.svt.se/"),

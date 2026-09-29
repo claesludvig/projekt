@@ -321,6 +321,67 @@ def _pdf_till_text(pdf: Path, txt: Path):
             ut.write("\n")
 
 
+def _pdf_till_lopande_text(pdf: Path, txt: Path):
+    """PDF i spalter (partiprogram) -> löpande text: varje textrad läggs i vänster eller höger spalt efter var den
+    börjar, och spalterna läses var för sig uppifrån och ned (pdfplumbers layoutläge och PyMuPDF:s block blandar
+    annars spalterna rad för rad). Avstavningar vid radslut tas bort."""
+    import pymupdf
+    with pymupdf.open(pdf) as doc, txt.open("w", encoding="utf-8") as ut:
+        for i, sida in enumerate(doc, 1):
+            w, rader = sida.rect.width, []
+            for block in sida.get_text("dict")["blocks"]:
+                for rad in block.get("lines", []):
+                    t = "".join(sp["text"] for sp in rad["spans"]).strip()
+                    if t:
+                        rader.append((rad["bbox"][0], rad["bbox"][1], t))
+            delar = []
+            for kol in ([r for r in rader if r[0] < w * 0.47], [r for r in rader if r[0] >= w * 0.47]):
+                kol.sort(key=lambda r: (round(r[1] / 3), r[0]))
+                delar.append("\n".join(r[2] for r in kol))
+            text = "\n\n".join(d for d in delar if d)
+            text = re.sub(r"([•●à])\s*\n", r"\1 ", text)
+            text = re.sub(r"(?<=[a-zåäö])-\n(?=[a-zåäö])", "", text)
+            ut.write(f"\n===== sida {i} =====\n{text}\n")
+
+
+def _html_till_text(html: str, txt: Path):
+    """Webbsida -> läsbar text: bara <main> (eller <article>/<body>), utan skript, stilar, menyer och sidfot."""
+    from html.parser import HTMLParser
+
+    class Text(HTMLParser):
+        HOPPA = {"script", "style", "nav", "header", "footer", "noscript", "svg", "form", "button"}
+        BLOCK = {"p", "div", "li", "h1", "h2", "h3", "h4", "h5", "br", "tr", "section", "article", "ul", "ol"}
+
+        def __init__(self):
+            super().__init__()
+            self.djup, self.delar = 0, []
+
+        def handle_starttag(self, tag, attrs):
+            if tag in self.HOPPA:
+                self.djup += 1
+            elif tag in self.BLOCK:
+                self.delar.append("\n")
+            if tag in ("h1", "h2", "h3", "h4") and not self.djup:
+                self.delar.append("## ")
+
+        def handle_endtag(self, tag):
+            if tag in self.HOPPA and self.djup:
+                self.djup -= 1
+            elif tag in self.BLOCK:
+                self.delar.append("\n")
+
+        def handle_data(self, data):
+            if not self.djup:
+                self.delar.append(data)
+
+    m = re.search(r"<main\b.*?</main>", html, re.S | re.I) or re.search(r"<article\b.*?</article>", html, re.S | re.I)
+    t = Text()
+    t.feed(m[0] if m else html)
+    text = re.sub(r"[ \t\u00a0]+", " ", "".join(t.delar))
+    text = re.sub(r"\n\s*\n+", "\n\n", text).strip()
+    txt.write_text(text + "\n", encoding="utf-8")
+
+
 def _xlsx_oversikt(xlsx: Path, txt: Path):
     with txt.open("w", encoding="utf-8") as ut:
         blad = pd.read_excel(xlsx, sheet_name=None, header=None, nrows=60)
@@ -333,7 +394,7 @@ def _xlsx_oversikt(xlsx: Path, txt: Path):
 
 def ladda_ned(doc_id: str, url: str, typ: str, tvinga: bool = False) -> dict:
     post = {"id": doc_id, "typ": typ, "url": url}
-    if not tvinga and url.lower().split("?")[0].endswith(".pdf") and \
+    if not tvinga and (url.lower().split("?")[0].endswith(".pdf") or typ == "partiprogram") and \
             (KALL_DIR / "txt" / f"{doc_id}.txt").exists():
         post["status"] = "text finns, ej hämtad"
         return post
@@ -355,10 +416,14 @@ def ladda_ned(doc_id: str, url: str, typ: str, tvinga: bool = False) -> dict:
         post["bytes"] = len(r.content)
         txt_dir = KALL_DIR / "txt"
         txt_dir.mkdir(parents=True, exist_ok=True)
-        if ext == ".pdf":
+        if ext == ".pdf" and typ == "partiprogram":
+            _pdf_till_lopande_text(fil, txt_dir / f"{doc_id}.txt")
+        elif ext == ".pdf":
             _pdf_till_text(fil, txt_dir / f"{doc_id}.txt")
         elif ext in (".xlsx", ".xls"):
             _xlsx_oversikt(fil, txt_dir / f"{doc_id}.txt")
+        elif "html" in r.headers.get("Content-Type", ""):
+            _html_till_text(r.text, txt_dir / f"{doc_id}.txt")
         post["status"] = "ok"
     except Exception as exc:  # noqa: BLE001
         post["status"] = f"fel: {exc}"

@@ -1,8 +1,8 @@
 {
- "skapad": "2026-09-28",
+ "skapad": "2026-09-29",
  "status": "varning",
  "antal": {
-  "ok": 203,
+  "ok": 206,
   "varning": 3
  },
  "kontroller": [
@@ -1027,8 +1027,8 @@
    "id": "nyhetsfloden",
    "beskrivning": "Nyhetsflödena (Google Nyheter)",
    "status": "ok",
-   "detalj": "senaste artikel för 0 dagar sedan",
-   "varde": 0.0
+   "detalj": "senaste artikel för 1 dagar sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-09-24, 4 dagar sedan",
-   "varde": 4.0
+   "detalj": "senaste dokument 2026-09-24, 5 dagar sedan",
+   "varde": 5.0
   },
   {
    "grupp": "volym",
@@ -1504,11 +1504,35 @@
   },
   {
    "grupp": "volym",
+   "id": "rader_mediebarometern",
+   "beskrivning": "Tabell mediebarometern",
+   "status": "ok",
+   "detalj": "91 rader (förra 91)",
+   "varde": 91.0
+  },
+  {
+   "grupp": "volym",
    "id": "rader_media_ledare",
    "beskrivning": "Tabell media_ledare",
    "status": "ok",
    "detalj": "8 rader (förra 8)",
    "varde": 8.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partier_standpunkter",
+   "beskrivning": "Tabell partier_standpunkter",
+   "status": "ok",
+   "detalj": "168 rader (förra 168)",
+   "varde": 168.0
+  },
+  {
+   "grupp": "volym",
+   "id": "rader_partier_likhet",
+   "beskrivning": "Tabell partier_likhet",
+   "status": "ok",
+   "detalj": "28 rader (förra 28)",
+   "varde": 28.0
   },
   {
    "grupp": "volym",

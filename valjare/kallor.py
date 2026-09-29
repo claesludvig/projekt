@@ -201,6 +201,23 @@ DOKUMENT = [
      "url": "https://omoss.svt.se/download/18.c7d6c981a0a583535d1535/1789484134179/Valu%202026%20seminarium%20260915.pdf"},
     {"id": "valu_ep_2024", "typ": "valu",
      "url": "https://omoss.svt.se/download/18.273015e218fe7d3833535561/1718110247331/ValuResultat_EUval_2024.pdf"},
+    # Partiernas valmanifest och valplattformar inför riksdagsvalet 2026 (partiernas egna webbplatser).
+    # Underlag för partier_katalog.STANDPUNKTER; citaten där kontrolleras mot texterna (tests/test_partier.py).
+    {"id": "prog_s_valloften_2026", "typ": "partiprogram", "url": "https://www.socialdemokraterna.se/val-2026/valloften"},
+    {"id": "prog_s_riktlinjer_2025", "typ": "partiprogram",
+     "url": "https://www.socialdemokraterna.se/download/18.66b0e5c8197581879cad79/1749654527283/A-E%20Politiska%20riktlinjer%202025_beslutat.pdf"},
+    {"id": "prog_m_2026", "typ": "partiprogram", "url": "https://moderaterna.se/app/uploads/2026/09/Valmanifest-2026_digital.pdf"},
+    {"id": "prog_sd_2026", "typ": "partiprogram", "url": "https://www.sd.se/wp-content/uploads/2026/07/valplattform-2026.pdf"},
+    {"id": "prog_c_2026", "typ": "partiprogram", "url": "https://val2026.centerpartiet.se/wp-content/uploads/2026/06/Valmanifest-2026.pdf"},
+    {"id": "prog_v_2026", "typ": "partiprogram", "url": "https://www.vansterpartiet.se/wp-content/uploads/2026/06/Valplattform_2026.pdf"},
+    {"id": "prog_kd_2026", "typ": "partiprogram",
+     "url": "https://kristdemokraterna.se/download/18.3fb0a02c1a01f5f28f7326/1787292489599/Valmanifest%202026.pdf"},
+    {"id": "prog_mp_2026", "typ": "partiprogram", "url": "https://www.mp.se/wp-content/uploads/2026/08/miljopartiets-valmanifest-2026.pdf"},
+    *[{"id": f"prog_l_2026_{i}", "typ": "partiprogram", "url": f"https://www.liberalerna.se/valmanifest-2026/{slug}"}
+      for i, slug in enumerate(["1-en-trygg-start-i-livet", "2-kunskap-som-oppnar-dorrar",
+                                "3-ett-samhalle-dar-anstrangning-lonar-sig", "4-mer-frihet-i-vardagen",
+                                "5-skydd-for-friheten", "6-nar-du-behover-samhallet-som-mest",
+                                "7-frihet-som-haller-for-framtiden", "8-ett-sverige-som-haller-ihop"], 1)],
     # SOM-institutet: förtroende för samhällsinstitutioner efter bakgrund och partisympati, 1986–2024
     {"id": "som_fortroendetrender", "typ": "som",
      "url": "https://www.gu.se/sites/default/files/2025-12/Svenska%20f%C3%B6rtroendetrender%201986-2024.pdf"},
