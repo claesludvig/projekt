@@ -1,5 +1,5 @@
 {
- "skapad": "2026-09-30",
+ "skapad": "2026-10-01",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -11,112 +11,112 @@
    "id": "lage_pris_bensin",
    "beskrivning": "Månadsserie: Bensin, prisförändring 12 mån (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_totalt",
    "beskrivning": "Månadsserie: Beviljade uppehållstillstånd, första",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_skjutningar",
    "beskrivning": "Månadsserie: Skjutningar",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_skjutningar_doda",
    "beskrivning": "Månadsserie: Döda i skjutningar",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_sprangningar",
    "beskrivning": "Månadsserie: Sprängningar (detonationer)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_pris_diesel",
    "beskrivning": "Månadsserie: Diesel, prisförändring 12 mån (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_styrranta",
    "beskrivning": "Månadsserie: Styrräntan (%)",
    "status": "ok",
-   "detalj": "senaste 2026-09, 0 månader sedan",
-   "varde": 0.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_kpif",
    "beskrivning": "Månadsserie: KPIF, 12-månadersförändring (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_pris_el",
    "beskrivning": "Månadsserie: El, prisförändring 12 mån (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_skydd",
    "beskrivning": "Månadsserie: Beviljade uppehållstillstånd, skydd",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_anknytning",
    "beskrivning": "Månadsserie: Beviljade uppehållstillstånd, anknytning",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_arbete",
    "beskrivning": "Månadsserie: Beviljade uppehållstillstånd, arbete",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_studier",
    "beskrivning": "Månadsserie: Beviljade uppehållstillstånd, studier",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_aku",
    "beskrivning": "Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-08, 2 månader sedan",
+   "varde": 2.0
   },
   {
    "grupp": "aktualitet",
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "1006 artiklar i 7 flöden",
-   "varde": 1006.0
+   "detalj": "1255 artiklar i 7 flöden",
+   "varde": 1255.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-09-24, 6 dagar sedan",
-   "varde": 6.0
+   "detalj": "senaste dokument 2026-09-24, 7 dagar sedan",
+   "varde": 7.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "210 rader (förra 164)",
-   "varde": 210.0
+   "detalj": "257 rader (förra 210)",
+   "varde": 257.0
   },
   {
    "grupp": "volym",
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "241 rader (förra 225)",
-   "varde": 241.0
+   "detalj": "253 rader (förra 241)",
+   "varde": 253.0
   },
   {
    "grupp": "volym",
