@@ -1,53 +1,53 @@
 {
-  "fetched_at": "2026-10-02T07:18:06.579648+00:00",
-  "new_count": 18,
+  "fetched_at": "2026-10-02T14:16:42.280390+00:00",
+  "new_count": 11,
   "skipped": {
-    "seen": 16,
-    "offtopic": 130,
-    "old": 21
+    "seen": 34,
+    "offtopic": 143,
+    "old": 22
   },
-  "fetch_errors": 6,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 7,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 4,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 7,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "",
+      "feed": "https://www.dn.se/ledare/rss/",
       "new": 0,
-      "ok": false
+      "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Aftonbladet Ledare",
       "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -59,341 +59,213 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/chatt-stall-dina-fragor-om-laget-i-svensk-politik",
-      "title": "Chatt: Ställ din fråga om läget i svensk politik",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-01",
-      "author": "Hampus Rundberg",
-      "commentator": "",
-      "summary": "Låst läge i regeringsbildningen på den rödgröna sidan och fortfarande ovisst vad talmannens nästa steg blir. Vad undrar du om inrikespolitiken just nu?",
-      "fulltext": "Låst läge i regeringsbildningen på den rödgröna sidan och fortfarande ovisst vad talmannens nästa steg blir. Vad undrar du om inrikespolitiken just nu?\nStäll din fråga till politikreportrarna Erik Nilsson och Daniel Ingmo, de svarar från 14.00.\nMånga undrar kring nästa steg i regeringsbildningsprocessen.\nI morgon kl 11:00 håller talmannen pressträff och då får vi svar på vad som väntar härnäst.\nVi hoppas kunna chatta med er snart igen och svara på fler frågor.\nAnders • Kan socialdemokraterna bilda egen regering\nEn sådan regering skulle inte ha majoritet i kammaren utan skulle vara beroende av stödpartier. Just nu finns det röda linjer bland de tilltänkta partierna som omöjliggör en renodlad S-regering.\nV vill som bekant sitta med och MP svarade så sent som i går att de skulle rösta rött till en sådan lösning.\nRoleu • Talman har pressträff imorgon kl 11. Vad innebär det?\nDå ger han besked om vad som händer härnäst. Om någon får ett nytt sonderingsuppdrag, eller om han ser framför sig en statsministeromröstning inom kort till exempel.\nMi • Hej! Om Ulf Kristersson får sonderingsuppdraget, vad kan det innebära för regeringsbildningen? Varför vill Magdalena Andersson det?\nOm Kristersson får sonderingsuppdraget får han undersöka sina möjligheter att bilda regering. Han vet redan nu dock att det inte ser ut att kunna gå vägen.\nDetta eftersom han då behöver C, och C vägrar att samarbeta med SD.\nMagdalena Andersson vill att Kristersson prövas, eftersom hon just nu inte ser ut att kunna vinna en statsministeromröstning.\nOch ingen vill bli nedröstad i riksdagen.\nJögge • Skulle det kunna blir sossarna och moderaterna i en regering\nSvaret från partierna brukar vara att detta endast är aktuellt om Sverige skulle befinna sig i krig eller allvarlig kris.\nTyr • Har v specifierat hur många ministerposter dom vill ha?\nUlla • Hej, skulle inte V förlora ganska mycket om det blir omval? Så de borde väl ”foga” sig om de vill ha inflytande?\nSvårt att säga på förhand vem som vinner och förlorar på ett extra val.\nInom V minns man med glädje tillbaka på hur man fällde Stefan Löfven som statsminister 2021. Då utlöstes en regeringskris och V gynnades samtidigt i opinionsmätningarna.\nOm mätningarna skulle visa något liknande denna gång är svårt att veta men det är alltså inte givet att V förlorar på ett sådant scenario.\nAleksej • Hej, hur roligt hade det inte varit om L till slut släpper fram Magdalena Andersson. Är det verkligen helt omöjligt? L har ju bytt sida några gånger…\nDet lär inte hända. Simona Mohamsson har varit väldigt tydlig med att man inte kommer göra så.\nL riskerar att straffas hårt om man i detta läge skulle byta sida.\nMånga har frågat när vi kommer att få besked från talmannen.\nNu fick vi reda på att han håller pressträff imorgon klockan 11. Spännande!\nJoel • Vad skulle krävas för att någon annan än Magdalena Andersson eller Ulf Kristersson får sonderingsuppdrag?\nAtt talmannen bedömer att det finns förutsättningar för någon annan att försöka bilda regering.\nTill exempel fick C-ledaren Annie Lööf sonderingsuppdrag, 2018. Hon lyckades dock inte.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/krig-eller-kris-under-regeringsbildningen-sa-kan-sverige-agera",
-      "title": "Kris eller krig under regeringsbildningen – så kan Sverige agera",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-01",
-      "author": "Andreas Öbrink",
-      "commentator": "",
-      "summary": "En förvärrad säkerhetskris eller en väpnad attack mot Sverige, eller ett annat Natoland, skulle kräva snabba beslut. Så hur skulle en övergångsregering kunna agera? – Man löser det som behöver lösas och hanterar det som inte kan vänta på den nya regeringen, säger Marika Ericson, folkrättsjurist och prefekt vid Försvarshögskolan.",
-      "fulltext": "En förvärrad säkerhetskris eller en väpnad attack mot Sverige, eller ett annat Natoland, skulle kräva snabba beslut. Så hur skulle en övergångsregering kunna agera?\n– Man löser det som behöver lösas och hanterar det som inte kan vänta på den nya regeringen, säger Marika Ericson, folkrättsjurist och prefekt vid Försvarshögskolan.\nVarningarna för ryska hot har duggat tätt den senaste tiden, bland annat från USA, Polen och Danmark. Under sommaren har en rad misstänkta hybridangrepp inträffat bland annat i Tyskland, Polen och Baltikum.\nEn utdragen regeringsbildning skulle dock inte påverka Sveriges möjligheter att agera om en säkerhetskris skulle inträffa under tiden. Enligt Marika Ericson folkrättsjurist och prefekt vid Försvarshögskolan, har övergångsregeringen stora befogenheter.\n– En övergångsregering har formellt sett samma beslutsmandat som en ordinarie regering, säger hon.\nDäremot skulle en övergångsregering troligen vara noggrann med att förankra beslut med övriga riksdagen och en tänkbar framtida regering. Man skulle sannolikt också undvika beslut som påverkar budgeten framåt utan samsyn.\n– Man gör inga jättestora policyskiften eller principbeslut som kommer att påverka framåt, säger hon.\nBerörda myndigheter som polisen och Försvarsmakten har tydliga mandat och kan i stor utsträckning agera själva. Man behöver inte vänta på politiska beslut till exempel vid sabotageförsök, cyberangrepp eller kränkningar i luftrummet.\n– Vi har en tydlig ansvarsfördelning redan från början som gör att myndigheter har sina uppgifter och de utför man – oavsett om vi är i en regeringsombildning eller om det är en tydlig regering på plats, säger Marika Ericson.\nEn stor del av försvarets verksamhet, till exempel incidentberedskap, Natosamarbete, pågående operationer och övningsverksamhet omfattas dessutom av redan tagna beslut.\nOm det skulle bli aktuellt att aktivera Natos artikel 5, till exempel om någon av Sveriges Natogrannar attackeras, så kan en övergångsregering ta nödvändiga beslut. Även då så lär man dock försöka få så stor nationell samling som möjligt, och hålla kontakt med övriga riksdagspartier.\n– Man samlar utrikesnämnden till exempel, och man kommer att samla alla partiledare, det är ju ganska självklart. Vi kommer att få en riksdagshantering också. Så inget av de här besluten kommer att fattas i ett vakuum, säger Marika Ericson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "övergångsregering"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.expressen.se/ledare/snabba-pa-utsatt--magda-for-eldprovet",
-      "title": "Snabba på – utsätt Magda för eldprovet",
-      "source": "Expressen Ledare",
+      "url": "https://www.svd.se/a/Wgbv8r/nya-turer-i-regeringsbildningen-detta-har-hant",
+      "title": "Nya turer i regeringsbildningen – detta har hänt",
+      "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-10-01",
-      "author": "ledarredaktionen",
+      "published": "2026-10-02",
+      "author": "TT",
       "commentator": "",
-      "summary": "Magdalena Andersson har sagt att hon vunnit valet. Ändå vill hon inte sondera. Talmannen kan inte låta henne komma undan med cirkuskonsterna.",
-      "fulltext": "Magdalena Andersson har sagt att hon vunnit valet. Ändå vill hon inte sondera. Talmannen kan inte låta henne komma undan med cirkuskonsterna.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nI augusti var hon segerviss. Socialdemokraternas partiledare Magdalena Andersson höll ett ”valvinnartal” 35 dagar före valet – ja, S kallade det så. På Mosebacke i Stockholm, med ett sensommarprunkande Djurgården bakom sig, tog hon plats på scen. Hon ville leda Sverige i en ny samarbetsanda.\nSvenskarna gick till val. Hon vann. Seger utropades på Sveavägen 68. Tårtor serverades.\nMen är det något kvar av dem borde resterna lämnas tillbaka till Coop. 18 dagar efter valet låter det annorlunda.\nAndersson vill inte låta riksdagen pröva om den har förtroende för henne.\nDet är en genant historia som utspelar sig, och som måste få ett slut.\nDen 18 september gav talmannen i uppdrag åt S-ledaren att sondera. Det gjorde hon i en vecka. Sedan kallade hon till presskonferens, men inte för att meddela hur det går i förhandlingarna, för några sådana hade inte ägt rum. Hon lämnade ifrån sig sonderingsuppdraget, trots att någon sådan formell procedur inte finns. Det är talmannen som bestämmer. Men Andersson ville inte längre. Där är vi nu.\nFelet är, enligt S-ledaren, Vänsterpartiets. V röstade på Moderaternas kandidat Andreas Norlén som talman, och det, menar Andersson, innebär att det finns en ”ny konstellation i riksdagen av vänsterpartister och moderater”. Det är ”rimligt” att den konstellationen också gör upp om regeringsmakten, sa hon på pressträffen.\nNej, det är inte rimligt. S-spinnet om V hjärta M är svammel. Vad som däremot är rimligt är att pröva Anderssons stöd i kammaren.\nSocialdemokraterna har sagt att de har vunnit valet. De har ätit tårta. En majoritet av riksdagens ledamöter står bakom Magdalena Andersson som statsminister. Då kan det inte gå en månad innan hon prövas. Att S inte brytt sig om att åtminstone samtala med andra partier om samarbete – något alla begriper att man behöver göra om man ska styra – är inget skäl till att förvandla regeringsbildningen till Rederiet säsong nio.\nVad som krävs är tempo och karaktärsutveckling.\nI går onsdag meddelade talman Norlén att han kommer att ta processen vidare senare i veckan. Rimligtvis bör Andersson få ett nytt uppdrag att sondera. Sedan bör hon inom kort prövas i riksdagen.\nDet vill hon så klart inte. Hon har ännu inte förmått Vänstern och Centern att släppa sina motstridiga krav. Risken finns att hon inte tolereras av riksdagen. Det bekväma för Andersson vore om Moderatledaren Ulf Kristersson i stället tog på sig rollen att bli nedröstad vid omröstning ett av maximala fyra, medan Andersson och hennes förhandlare i godan ro fortsätter att fundera ut en plan för att förmå C eller V att ändra sig.\nMen det var inte moderattjänstemännen som bjöds på tårta fem dagar efter valet. Andersson har 176 mandat bakom sig, Kristersson 173, och i dagsläget har inget parti meddelat att det ändrat sig angående frågan om vem som bör leda Sverige.\nSå snabba på. Låt Andersson prövas skarpt. Först då kan den här historien börja röra på sig.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "summary": "Snart tre veckor har gått sedan valet men samtidigt tycks en ny regering vara långt borta.",
+      "fulltext": "Snart tre veckor har gått sedan valet men samtidigt tycks en ny regering vara långt borta. Det här är vad som har hänt sedan valdagen.\n13 september. Sverige går till val. SD och S backar kraftigt medan V ökar mest av alla partier. Läget mellan blocken är väldigt jämnt.\n14 september. Oppositionen leder med 176 mandat mot regeringssidans 173. S partisekreterare Tobias Baudin kontaktar sina kollegor i oppositionen. Partiledarna för Tidöpartierna äter middag i statsministerbostaden Sagerska huset.\n15 september. Rösträkningen fortsätter. Socialdemokraterna kräver att statsminister Ulf Kristersson (M) lämnar in sin avskedsansökan till talmannen. SD:s ledning möts och diskuterar valresultatet.\n16 september. Mandat hoppar fram och tillbaka under rösträkningen. SVT:s prognos pekar på att oppositionen vinner valet.\n17 september. Rösträkningen är klar. De rödgröna partierna vinner valet med 176 mandat mot Tidöpartiernas 173. Ulf Kristersson avgår som statsminister och leder nu en övergångsregering. Magdalena Andersson (S) håller segertal.\n18 september. Den första talmansrundan inleds. Magdalena Andersson får det första sonderingsuppdraget.\n19 september. Klockan 12.15 är den slutgiltiga rösträkningen till riksdagsvalet klar. Var tredje ledamot i riksdagen är ny.\n21 september. Gruppledarna för de rödgröna partierna ses och diskuterar platserna i riksdagens utskott. En kartell bildas. Senare under veckan pratar de om talmansvalet.\n25 september. En vecka har gått sedan Magdalena Andersson fick sonderingsuppdraget. C och V står fast vid sina krav.\n27 september. Ett telefonsamtal sker mellan V-ledaren Nooshi Dadgostar och Magdalena Andersson. V meddelar på kvällen att de röstar på moderaten Andreas Norlén som talman.\n28 september. Upprop hålls för nya riksdagsledamöter. Andreas Norlén väljs till talman för en tredje mandatperiod med stöd av M, SD, KD, L och V. Magdalena Andersson lämnar tillbaka sonderingsuppdraget med motiveringen att V samverkat med Moderaterna. Norlén håller presskonferens och kallar till sig partiledarna på onsdag den 30 september.\n30 september. Den andra talmansrundan hålls, Norlén behöver mer tid för att peka ut en sonderingsperson.\n2 oktober. Talmannen ger uppdraget till Magdalena Andersson igen och meddelar att hon ska prövas i en statsministeromröstning. Hon inleder det formellt måndagen den 5 oktober och ska återrapportera den 12 oktober.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman"
+        "regeringsbildning"
       ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9311410",
-      "title": "Gissén: Personkemin mellan partiledarna har blivit betydligt bättre",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-01",
-      "author": "Ekot",
+      "url": "https://www.svd.se/a/eG1ly9/kristersson-om-nya-steget-naturligt",
+      "title": "C bjuder in S, V och MP till möte – alla tackar ja",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-02",
+      "author": "Niklas Svahn/TT, Peter Wallberg/TT",
       "commentator": "",
-      "summary": "En lyssnare undrar om personkemin mellan partiledarna har blivit bättre eller sämre än vid tidigare regeringsbildningar. Personkemin är nog generellt betydligt bättre än det ser ut att vara, säger Helena Gissén, Ekots inrikespolitiska kommentator. Men hon tar upp exemplet när Vänsterpartiet röstade för en moderat talman. ”Praxis säger att det största partiet från det vinnande laget ska få talmansposten. Det tyckte framför allt Socialdemokraterna var ett oerhört svek”, säger hon.",
-      "fulltext": "",
+      "summary": "Centerpartiet (C) bjuder in partiledarna för S, V och MP till möte för att få en gemensam lägesbild…",
+      "fulltext": "Centerpartiet (C) bjuder in partiledarna för S, V och MP till möte för att få en gemensam lägesbild av Sveriges utmaningar.\nC står dock fast vid att V inte ska sitta i en regering.\nS, V och MP har redan tackat ja till Centerledaren Elisabeth Thand Ringqvists inbjudan.\nMötet, som ska hållas i närtid, ska ske på partiledarnivå men även andra höga företrädare kan komma att delta.\nTanken är att partierna ska få en gemensam lägesbild över läget i Sverige, framför allt ekonomin. På mötet ska även externa aktörer delta, som expertmyndigheter.\nCenterns syfte sägs vara att komma ifrån en låst position i regeringsfrågan.\nEnligt en Centerkälla är partiet trötta på bilden av att partierna inte ses och pratar med varandra. Samtidigt kan V nu få sin fika, enligt källan.\nI en debattartikel i SvD utvecklar Thand Ringqvist resonemanget. Hon pekar där på att partier i andra länder skaffar sig en gemensam lägesbild innan de börjar förhandla om politik och fördela poster. C-ledaren tonar dock ned eventuella förväntningar på mötet.\n”Sannolikt är vi inte överens om alla prioriteringar när vi går därifrån, men vi kan åtminstone sätta ord på var de största skillnaderna finns”, skriver Thand Ringqvist.\nHon uppger att C och V har väsensskilt olika syn på företagande, skattenivåer och marknadsekonomi och bedömer att det sannolikt kommer att ”märkas i hur vi beskriver verkligheten”.\nHuvudorsaken till att läget är låst i regeringsfrågan på den rödgröna sidan är kvar. I debattartikeln står att C:s linje att V inte ska sitta i regeringen ligger fast.\nÄven V uppger att man står fast vid att partiet ska ha ministerposter för att kunna stödja en S-ledd regering.\nInbjudan till Centerns möte skickades ut till partiledarna. Något datum för mötet har inte kommunicerats, men Thand Ringqvist säger till Sveriges Radio att mötet ska ske ”så snart som möjligt”.\nCenterns utspel kom timmarna efter att riksdagens talman Andreas Norlén på nytt utsett S-ledaren Magdalena Andersson att sondera hur möjligheten att bilda regering ser ut.\nAndersson uppger att hon under helgen ska begrunda hur hon kan ta processen framåt. S-ledaren skriver i sitt uttalande att hon kommer att fortsätta föra samtal brett för att hitta en väg framåt.\n”Jag hoppas att även andra partier funderar igenom sina ställningstaganden”, skriver Andersson och fortsätter:\n”Vägen framåt förutsätter att alla politiska krafter agerar konstruktivt, och sätter Sverige och svenska folkets bästa främst.”\nFler av Tidöpartiernas ledare välkomnar att talmannen gett tillbaka sonderingsuppdraget till Andersson och att det nya uppdraget ska avslutas med en första statsministeromröstning.\n”Man kan inte fira valvinst med tårta och sen inte göra själva jobbet”, skriver Liberalernas Simona Mohamsson på X.",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9311410'",
+      "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning",
-        "talman",
         "partiledar",
-        "Moderaterna",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/rodgron-offensiv-i-riksdagen-mot-utvisningarna",
-      "title": "Rödgrön offensiv i riksdagen mot utvisningarna",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-01",
-      "author": "Pia Gripenberg, Hans Rosén",
-      "commentator": "",
-      "summary": "I skuggan av den tröga regeringsbildningen försöker de rödgröna partierna enas i riksdagen om ett nytt migrationspolitiskt förslag. Målsättningen är att stoppa utvisningar av unga människor. – Det viktigaste för att lösa det här är att få en ny regering på plats, säger Ida Karkiainen (S).",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-02 09:18\nArtikelns ursprungsadress: https://www.dn.se/sverige/rodgron-offensiv-i-riksdagen-mot-utvisningarna/\nI skuggan av den tröga regeringsbildningen försöker de rödgröna partierna enas i riksdagen om ett nytt migrationspolitiskt förslag. Målsättningen är att stoppa utvisningar av unga människor.\n– Det viktigaste för att lösa det här är att få en ny regering på plats, säger Ida Karkiainen (S).\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nTonårsutvisningar som splittrade familjer och tvingade integrerade ungdomar att lämna Sverige blev en av de mest känsloladdade valfrågorna. Riksdagen har beslutat om en så kallad ventil som ska göra det möjligt för fler att stanna. Den lagstiftningen trädde i kraft på torsdagen, den 1 oktober.\nMen ventilen är för snäv enligt partierna på den rödgröna sidan, som anser att möjligheterna att få stanna måste vidgas.\nTrots att själva regeringsförhandlingarna dem emellan går trögt agerar de nu i riksdagen för att få till en förändring. När riksdagen öppnade i måndags lämnade Miljöpartiet in sin motion. Vänsterpartiet lanserade ett så kallat utskottsinitiativ i onsdags och i nästa vecka kommer Centerpartiet med sitt förslag.\n– Vi måste stoppa utvisningarna, men vi måste också skapa bättre vägar för att de som redan har utvisats i den här gruppen ska kunna återvända till Sverige, säger Niels Paarup-Petersen (C).\nHans parti vill därför att Migrationsverket inrättar särskilda återkomstcenter som kan bistå personer som har en stark och varaktig anknytning till Sverige.\n– Dessa människor måste prioriteras så att de inte behöver stå i kö i 14 månader hos Migrationsverket, säger Paarup-Petersen.\nSamuel Gonzalez Westling, Vänsterpartiets gruppledare i riksdagen, menar att det är flera saker som gör att ribban för att få stanna är för hög i den gällande lagstiftningen. Han pekar bland annat på åldersgränsen 21 år och de höga inkomstkraven för arbetstillstånd.\n– Det här är personer som har sin naturliga hemvist i Sverige. Deras föräldrar finns här, de har vuxit upp här, de har hela sina liv här, säger Gonzalez Westling.\nFram till att den nya ventilen trädde i kraft hade utvisningarna tillfälligt stoppats. Det betyder att stoppet upphörde från och med den 1 oktober.\n– Den innebär att många ungdomar nu riskerar att utvisas, kanske redan innan jul, säger Annika Hirvonen (MP).\nSocialdemokraterna är positiva till att låta socialförsäkringsutskottet bereda de nya förslagen om utvisningarna. Talespersonen Ida Karkiainen vill inte uttala sig närmare än så innan hon har sett detaljerna. Men hon betonar att partiet vill göra mer än vad Tidöregeringen har åstadkommit.\n– Regeringens ventil kommer inte att räcka. Vi vill ha en lagstiftning som tydligt tar hänsyn till anknytningen till Sverige, säger Karkiainen.\nMen även om det finns en majoritet i riksdagen för en ny lag är det inte säkert att det går att få igenom den så länge Sverige har en övergångsregering.\n– Vi behöver lösa regeringsfrågan så att vi kan utreda och ändra den här lagstiftningen så snabbt som möjligt, säger Ida Karkiainen.\nFrån V, C och MP ser man gärna att den tidigare ventilen som fanns i lagen – att personer med särskilt ömmande omständigheter får stanna i Sverige – återinförs.\n– Eftersom den lagstiftningen redan funnits tror vi att den skulle vara snabbast att få igenom i riksdagen. Då behövs inte samma omfattande arbete som behövs för en ny lag, säger Annika Hirvonen.\nTill skillnad från de tre andra partierna tror inte S på att återinföra bestämmelsen om särskilt ömmande omständigheter. Ida Karkiainens bedömning är att det inte skulle hjälpa de berörda grupperna med tillräcklig precision.\nEfter en het debatt pausade regeringen i mars i år de så kallade tonårsutvisningarna i väntan på ny lagstiftning.\nDe tillfälliga reglerna ger vissa unga vuxna utökade möjligheter att ansöka om arbetstillstånd eller tillstånd för studier på universitet eller högskola utan att först behöva lämna Sverige. Tillstånd som normalt ska sökas från hemlandet och vara klara innan man kommer till Sverige.\nDe tillfälliga reglerna gäller ansökningar som görs mellan 1 oktober 2026 och 31 december 2027.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nIda Gabrielsson frontar Vänsterpartiet i regeringsfrågan\nDN:s politikreportrar chattade med läsarna om regeringsbildningen\nSäverman: Förr skjutsade baronen sina underlydande till vallokalen",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/chatt-dns-politikreportrar-svarar-pa-fragor-om-regeringsbildningen",
-      "title": "DN:s politikreportrar chattade med läsarna om regeringsbildningen",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-01",
-      "author": "DN",
-      "commentator": "Tomas Ramberg",
-      "summary": "DN:s Tomas Ramberg och Hans Olsson svarade på läsarnas frågor om det politiska läget. Läs chatten här nere:",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-02 09:17\nArtikelns ursprungsadress: https://www.dn.se/sverige/chatt-dns-politikreportrar-svarar-pa-fragor-om-regeringsbildningen/\nDN:s Tomas Ramberg och Hans Olsson svarade på läsarnas frågor om det politiska läget.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nRödgrön offensiv i riksdagen mot utvisningarna\nIda Gabrielsson frontar Vänsterpartiet i regeringsfrågan\nSäverman: Förr skjutsade baronen sina underlydande till vallokalen",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.aftonbladet.se/ledare/a/0BjzGG/roda-traden-vander-vinden-nu-maste-centerpartiet-vika-ner-sig",
-      "title": "Vänder vinden nu – måste Centerpartiet vika ner sig?",
-      "source": "Aftonbladet Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-01",
-      "author": "Ledarredaktionen",
-      "commentator": "",
-      "summary": "PODD Röda tråden om regeringsbildningen",
-      "fulltext": "Aftonbladets ledarsida är oberoende socialdemokratisk.\nDe rödgröna oppositionspartierna vägrar fortfarande att ses allihop i samma rum för att diskutera regeringsbildningen. Men Aftonbladets ledarsida har i ett färskt avsnitt av Röda tråden lyckats samlat ihop en panel med rödgröna opinionsbildare från hela spektrat för att nysta i frågan.\nI panelen: Daniel Swedin (Arbetets ledarsida), Matilda Molander (Tankesmedjan Fores) och Kalle Sundin (Aftonbladets ledarsida).",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
         "Centerpartiet"
       ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/fragan-ar-nar-talmannen-tar-till-sitt-skarpaste-vapen",
-      "title": "”Frågan är när talmannen tar till sitt skarpaste vapen”",
+      "url": "https://www.svt.se/nyheter/inrikes/efter-c-invit-alla-rodgrona-partier-i-gemensamt-mote",
+      "title": "Efter C-invit – alla rödgröna partier i gemensamt möte",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Mats Knutson",
-      "commentator": "Mats Knutson",
-      "summary": "Talmannens besked efter onsdagens talmansrunda bekräftar dödläget i regeringsbildningen. Frågan är när talmannen tar till sitt skarpaste vapen, att tvinga fram en statsministeromröstning i riksdagen.",
-      "fulltext": "Talmannens besked efter onsdagens talmansrunda bekräftar dödläget i regeringsbildningen. Frågan är när talmannen tar till sitt skarpaste vapen, att tvinga fram en statsministeromröstning i riksdagen.\nOförenliga krav från Centerpartiet och Vänsterpartiet, röda linjer, ett högt tonläge och öppet bråk mellan Socialdemokraterna och Vänsterpartiet. Läget i regeringsfrågan har komplicerats ytterligare de senaste dagarna, inte minst sedan Vänsterpartiet valde att rösta fram en moderat talman och S-ledaren Magdalena Andersson som en direkt konsekvens av detta lämnade tillbaka sitt sonderingsuppdrag.\nSamtidigt har det udda inträffat att ingen av statsministerkandidaterna tycks vilja stå till förfogande som regeringsbildare. Andersson och övriga rödgröna partiledare tycker att M-ledaren Ulf Kristersson ska få ett sonderingsuppdrag. Tidöpartierna å andra sidan anser att Andersson ska få uppdraget på nytt.\nUppenbart vill varken Andersson eller Kristersson bli föremål för denna första statsministeromröstning – i alla fall inte just nu. Skälet är att de båda vet att de med all sannolikhet skulle förlora.\nTalmannens besked på onsdagseftermiddagen, att han ännu inte har något besked om hur processen ska föras vidare, kan tolkas som ett illavarslande tecken för hur regeringsbildningen nu ska ta nästa steg.\nUppenbart har onsdagens talmansrunda inte fått partiledarna att ändra sig. Därmed bekräftar talmannens besked att det låsta läget består. Ännu finns ingen statsministerkandidat som är beredd att gå till omröstning.\nTalmannen skriver i ett pressmeddelande att han nu ska ha fortsatta informella samtal med partierna och därefter ge besked senare i veckan.\nFrågan är dock om det kan få någon av statsministerkandidaterna att ändra sig. Ulf Kristerssons Tidöpartier samlar bara 173 mandat i riksdagen och han saknar därmed förutsättningar att vinna. Magdalena Anderssons sida samlar visserligen 176 mandat, en majoritet, men med tanke på de interna motsättningarna mellan framför allt V och C, men också mellan S och V, lär inte heller hon kunna samla tillräckligt stöd för att bli vald.\nKanske kommer talmannen att tvingas använda sitt skarpaste vapen, att sätta ut ett datum för en statsministeromröstning, för att föra regeringsbildningen framåt.\nPartierna vet att efter fyra misslyckade statsministeromröstningar i riksdagen blir det ett extraval. När processen med omröstningar kommit igång ökar därmed pressen successivt på partierna att kompromissa eller sudda ut röda linjer för att undvika ett extraval.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman",
-        "statsminister"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/s-profilens-otippade-regeringsforslag-v-och-c-i-regering-2028",
-      "title": "S-profilens otippade regeringsförslag: V och C i regering 2028",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Cecilia Tiberg",
-      "commentator": "",
-      "summary": "Socialdemokraterna kommer inte att vilja bilda regering med Vänsterpartiet – men kan komma att lova V ministerposter längre fram. Det säger Annika Strandhäll (S) i Politikbyrån.",
-      "fulltext": "Socialdemokraterna kommer inte att vilja bilda regering med Vänsterpartiet – men kan komma att lova V ministerposter längre fram. Det säger Annika Strandhäll (S) i Politikbyrån.\nAnnika Strandhäll är före detta riksdagsledamot för Socialdemokraterna. Hon sitter också i Socialdemokraternas verkställande utskott och är ordförande för förbundet S-kvinnor. I Politikbyrån berättar hon att hon på förhand kände till att Magdalena Andersson skulle lämna tillbaka sonderingsuppdraget efter att Vänsterpartiet röstat fram moderaten Andreas Norlén till talman.\nEfter Vänsterpartiets agerande tror Annika Strandhäll att det blir ännu svårare för S att svälja en regering där V ingår.\n– Med den tillitsbrist som jag hör och ser nu så är den vägen inte framkomlig, säger hon i Politikbyrån.\nMen för att komma förbi låsta positioner framåt tror Annika Strandhäll på ett löfte om ministerposter – halvvägs in i mandatperioden.\n– Jag tror att en lösning ut från det här kunde vara att man sätter sig ner och gör en överenskommelse. Det kommer inte att innebära att Centern eller Vänstern ingår från dag ett i en regering, men att man har en uppgörelse med gemensam politik där man är beredd att ompröva detta, kanske i mitten av mandatperioden, säger hon.\nSe hela avsnittet av Politikbyrån på SVT Play .\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/snecker-v-det-behovs-for-att-linjerna-ska-luckras-upp",
-      "title": "Snecker (V): Det behövs för att linjerna ska luckras upp",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-30",
+      "published": "2026-10-02",
       "author": "Gustav Motte",
       "commentator": "",
-      "summary": "Flera partier har markerat röda linjer mot varandra. Nu ska kraven försöka knådas ut under onsdagens nya talmansrundor. – Jag tror att det kommer att behöva ta några statsministeromröstningar, säger tidigare riksdagsledamot Linda Snecker (V).",
-      "fulltext": "Flera partier har markerat röda linjer mot varandra.\nNu ska kraven försöka knådas ut under onsdagens nya talmansrundor.\n– Jag tror att det kommer att behöva ta några statsministeromröstningar, säger tidigare riksdagsledamot Linda Snecker (V).\nUnder onsdagen hålls nya talmansrundor i riksdagen. Talman Andreas Norlén (M) ska träffa samtliga partiledare, förutom socialdemokraternas Magdalena Andersson som lämnat in sin sondering för att bilda regering.\nEn av de hårdaste knutarna i en eventuell regeringsbildning står mellan Vänsterpartiet och Centerpartiet. Den ena parten kräver att sitta med i regeringen och den andra kan inte tänka sig stödja en sådan lösning.\nEnligt den tidigare riksdagsledamoten för Vänsterpartiet Linda Snecker kan knutarna i regeringsbildningen inte komma som en chock.\nI dag onsdag träffar Sveriges omvalde talman Andreas Norlén återigen partiledarna i följande ordning:\n– Vänsterpartiet har under otroligt lång tid, under flera år, varit väldigt tydliga. Som genom det kongressbeslut där partiledningen ville bli fast surrade vid masten om att man ska ingå i regeringen, säger Snecker och fortsätter:\n– Vänsterpartiet har visat mot socialdemokratin att man är redo att rösta bort en socialdemokratisk statsminister.\nLinda Snecker säger däremot i SVT:s Morgonstudion att vissa av kraven kan komma att redas ut. Men att detta kommer ta tid.\nKällström: Svårt att övertyga Vänsterpartiet\nÄven Karin Källström, ledarskribent C-märkta Östersunds-posten tror att lösningen kommer ta tid.\n– Jag tror inte att det kommer gå att övertyga Vänsterpartiet om en annan linje än den de har, för den har också sin inneboende logik, säger Källström och påpekar att båda parterna kan anse sig ha rätt samtidigt.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "En möjlig islossning i regeringsfrågan. Från att inte ha kunnat fika tillsammans ska samtliga rödgröna partier ha gemensamma samtal med ”externa aktörer” efter inbjudan av Centerpartiet. – Det här klart en öppning mot att göra något konstruktivt, att sitta ner och prata om utmaningar för Sverige, säger Elisabeth Thand Ringqvist (C).",
+      "fulltext": "Från att inte ha kunnat fika tillsammans ska samtliga rödgröna partier ha gemensamma samtal med ”externa aktörer” efter inbjudan av Centerpartiet.\n– Det här klart en öppning mot att göra något konstruktivt, att sitta ner och prata om utmaningar för Sverige, säger Elisabeth Thand Ringqvist (C).\nPartiledare Elisabeth Thand Ringqvist (C) bjöd strax efter lunch in till ett möte med samtliga rödgröna partier.\nInbjudan kom till allmänhetens kännedom efter C-ledaren skrivit en debattartikel i Svenska Dagbladet. I artikeln skriver Thand Ringqvist till en gemensam ”lägesgenomgång med externa aktörer”, skriver C-ledaren och fortsätter:\n”Sannolikt är vi inte överens om alla prioriteringar när vi går därifrån, men vi kan åtminstone sätta ord på var de största skillnaderna finns”.\nTill SVT Nyheter säger Thand Ringqvist på frågan om detta kan sudda ut partiets röda linjer:\n– Nej. Vi har fortfarande väldigt tydliga linjer gentemot Vänsterpartiet. Men det här är ett sätt för oss att vara konstruktiva, säger hon och svarar på nästa fråga:\nÖppnar ni upp för att Vänsterpartiet kan få inflytande i regeringen?\n– Det får bli ett nästa steg. Det får Magdalena Andersson titta på, eftersom det är hon som sonderar. Vårt bidrag har varit att öppna för samtal eftersom vi varit en del av de låsningarna som funnits, säger Thand Ringqvist.\nInbjudan togs väl emot. Samtliga partier som bjöds in har sagt att de kommer delta.\n”Vi ser positivt på C:s inbjudan och kommer att delta”, skriver partisekreterare Katrin Wissing (MP) till SVT Nyheter.\n– Vi ser det som självklart att delta, säger partiets ekonomisk-politisk talesperson Mikael Damberg (S).\nÄven Vänsterpartiets partisekreterare Maria Forsberg har godkänt inbjudan.\n– Vi har tackat för inbjudan och kommer delta, säger Forsberg (V).\nI en kommentar till Svenska Dagbladet säger Thand Ringqvist att hon ser framemot ”konstruktiva samtal nästa vecka om nuläge och utmaningar för Sverige, inte om vem som ska sitta på vilken ministerpost”.\nInnan inbjudan skickades ut till partierna bad Thand Ringqvist om lov av sitt parti. Enligt uppgifter till Expressen samlade både partistyrelse och riksdagsgrupp för att diskutera frågan.\n– Jag fick gott gehör, säger Thand Ringqvist till tidningen.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "statsminister"
+        "regeringsfråg",
+        "Centerpartiet"
       ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/centerpartiet-saknar-en-plan-b",
-      "title": "Centerpartiet saknar en plan B",
+      "url": "https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen",
+      "title": "Det här händer nu i sonderingsprocessen",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Elisabeth Marmorstein",
-      "commentator": "Elisabeth Marmorstein",
-      "summary": "Centerpartiet gick till val på en dröm om en mittenregering. Den lösningen fick dock inte tillräckligt stöd av väljarna och nu står partiet där nära nog fastlåsta i en rävsax och utan en plan B. Men deras viktigaste röda linje – den mot Sverigedemokraterna – kommer att ligga fast.",
-      "fulltext": "Centerpartiet gick till val på en dröm om en mittenregering.\nDen lösningen fick dock inte tillräckligt stöd av väljarna och nu står partiet där nära nog fastlåsta i en rävsax och utan en plan B.\nMen deras viktigaste röda linje – den mot Sverigedemokraterna – kommer att ligga fast.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "published": "2026-10-02",
+      "author": "Marcus Bornlid Lesseur",
+      "commentator": "",
+      "summary": "Socialdemokraternas partiledare Magdalena Andersson får tillbaka sonderingsuppdraget av Andreas Norlén. Det meddelade talmannen under en pressträff i riksdagshuset på fredagen. Formellt inleds Magdalena Anderssons förnyade sonderingsrunda på måndag. Därefter ska hon återkomma med rapport den 12 oktober.",
+      "fulltext": "Socialdemokraternas partiledare Magdalena Andersson får tillbaka sonderingsuppdraget av Andreas Norlén.\nDet meddelade talmannen under en pressträff i riksdagshuset på fredagen.\nFormellt inleds Magdalena Anderssons förnyade sonderingsrunda på måndag. Därefter ska hon återkomma med rapport den 12 oktober.\nAndreas Norlén säger att han efter att ha företagit samtal med de övriga partiledarna och de vice talmännen landat i att Magdalena Andersson (S) fortsatt har bäst möjligheter att bilda en regering som tolereras av riksdagen.\nDe parlamentariska förutsättningarna, säger han, har inte förändrats sedan valresultatet presenterades: den rödgröna sidan har helt enkelt fler mandat än Tidöpartierna.\n– Magdalena Andersson och jag är överens om att uppdraget ska avslutas med en omröstning i riksdagen.\nMagdalena Anderssons sonderingsuppdrag inleds formellt på måndag, resultatet av ansträngningarna ska sedan rapporteras till talmannen den 12 oktober. Då kan den socialdemokratiska partiledaren antingen be om en förlängning av uppdraget eller avsluta sonderingen.\nOm sonderingen avslutas kommer en statsministeromröstning vidta därefter, tidigast den 14 oktober.\nAndreas Norlén säger att han inte ser det som att en ny sonderingsrunda inleds i och med att Magdalena Andersson återfår uppdraget.\n– Jag ser det som att det här är samma sonderingsuppdrag. Det som hände i veckan har varit ett slags hack, en fnurra på tråden. Nu fortsätter vi på det sätt som vi tänkt från början.\nDet faktum att Magdalena Andersson lämnade tillbaka uppdraget som en följd av att Vänsterpartiet röstade fram honom som talman, i stället för att stödja Socialdemokraternas talmansalternativ, är en fråga som Andreas Norlén anser att partierna nu måste lämna bakom sig.\nI och med att Magdalena Andersson får tillbaka uppdraget säger Andreas Norlén att han vill skicka ”en signal” till de fyra oppositionspartierna. Han är medveten om att det fortfarande råder betydande låsningar partierna emellan.\n– Jag vill inte recensera partierna eller processen, men jag vill skicka en signal om att eftertanke och omprövning nu behövs.\nPå frågan om det krävdes en övertalningsinsats från Norléns sida för att förmå Andersson att gå vidare med sonderingarna säger att han så inte var fallet.\n– Jag är en vänlig person, jag tänker att vi kom överens om det här i god anda.\nEnligt Andreas Norlén är det fortfarande en öppen fråga hur mycket tid Magdalena Andersson ska få på sig om hon ber om en förlängning av sonderingsuppdraget måndagen den 12 oktober.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument//_cms2bfd2cfc-e605-4ef3-aa72-03133c80c145sv",
-      "title": "Talmannen om regeringsbildningen",
-      "source": "Riksdagen",
-      "kind": "officiell",
-      "published": "2026-09-30",
-      "author": "riksdagsinformation@riksdagen.se",
-      "commentator": "",
-      "summary": "… Talmannen kommer nu att överväga nästa steg i regeringsbildningen, och under den tiden ha informella samtal med olika partiföreträdare. Talmannen om regeringsbildningen press,talmannen … 2026-09-30 16:19:32",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '404 Not Found' for url 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_cms2bfd2cfc-e605-4ef3-aa72-03133c80c145sv/'",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/ida-gabrielsson-frontar-vansterpartiet-i-regeringsfragan",
-      "title": "Ida Gabrielsson frontar Vänsterpartiet i regeringsfrågan",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Pia Gripenberg",
-      "commentator": "",
-      "summary": "Ida Gabrielsson är Vänsterpartiets svar på Folkhälsomyndighetens Anders Tegnell. Hennes uppgift är att ständigt synas och hamra in sitt budskap oavsett hur hårt det blåser. Så vem är 44-åringen från Sandviken?",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-02 09:17\nArtikelns ursprungsadress: https://www.dn.se/sverige/ida-gabrielsson-frontar-vansterpartiet-i-regeringsfragan/\nIda Gabrielsson är Vänsterpartiets svar på Folkhälsomyndighetens Anders Tegnell.\nHennes uppgift är att ständigt synas och hamra in sitt budskap oavsett hur hårt det blåser.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-forhandlingen-ar-inte-dod-den-ror-sig-bara-valdigt-langsamt",
-      "title": "Tomas Ramberg: Förhandlingen är inte död – den rör sig bara väldigt långsamt",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Regeringsbildningens heta potatis har landat i talman Andreas Norléns knä och han har svårt att bestämma vem han ska kasta den till. Samtidigt börjar det så sakta röra på sig i regeringsfrågan.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/tomas-ramberg-forhandlingen-ar-inte-dod-den-ror-sig-bara-valdigt-langsamt'",
-      "matched_terms": [
-        "regeringsbildning",
-        "regeringsfråg",
-        "talman"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/inget-nytt-sonderingsuppdrag-c-och-v-i-ordkrig",
-      "title": "Inget nytt sonderingsuppdrag – C och V i ordkrig",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Pia Gripenberg",
-      "commentator": "",
-      "summary": "Onsdagens talmansrundor ledde inte till något nytt sonderingsuppdrag. I stället fortsätter skyttegravskriget mellan Vänsterpartiet och Centern. – Det är svårt att bilda en regering när Centerpartiet inte är tydliga med vilket block de vill ingå i, säger V-ledaren Nooshi Dadgostar.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/inget-nytt-sonderingsuppdrag-c-och-v-i-ordkrig'",
       "matched_terms": [
         "talman",
         "sondering",
+        "partiledar",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/uppgifter-magdalena-andersson-far-tillbaka-sonderingsuppdraget",
+      "title": "Uppgifter: Magdalena Andersson får tillbaka sonderingsuppdraget",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-02",
+      "author": "Gustav Motte",
+      "commentator": "",
+      "summary": "Magdalena Andersson (S) får tillbaka sonderingsuppdraget enligt uppgifter till Dagens Nyheter.",
+      "fulltext": "Magdalena Andersson (S) får tillbaka sonderingsuppdraget enligt uppgifter till Dagens Nyheter.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "sondering"
+      ],
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9312147",
+      "title": "Centerledaren om inbjudan: ”Viktigt att komma vidare”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-02",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiets partiledare Elisabeth Thand Ringqvist har bjudit in de rödgröna partierna till samtal. ”Det är viktigt att komma vidare i diskussionerna om hur vi kan få en regering för Sverige”, säger Thand Ringqvist till Ekot.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9312147'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9311932",
+      "title": "Furtenbach: ”Misstron kunde ju nästan inte vara större mellan V och C”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-02",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Det är tydligt att talmannen Andreas Norlén har blivit påverkad av regeringsbildningen 2018 och har därför bytt taktik, menar Ekot inrikespolitiske kommentator Fredrik Furtenbach. Förutsättningarna för att det ska gå fortare för Magdalena Andersson (S) att försöka bilda regering finns, då uppdraget kommer avslutas med statsministeromröstning. Men enligt Furtenbach menar att det hänger på de rödgröna partierna. ”Misstron kunde ju nästan inte vara större mellan Vänsterpartiet och Centerpartiet”, säger Fredrik Furtenbach.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9311932'",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman",
+        "statsminister",
         "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/dags-for-andra-talmansrundan",
-      "title": "Dags för andra talmansrundan",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9311856",
+      "title": "Gissén: Ska fundera över helgen om låsningar kan luckras upp",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-09-30",
-      "author": "Evelyn Jones",
+      "published": "2026-10-02",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Partiledare efter partiledare har på onsdagen träffat talmannen Andreas Norlén som för andra gången ska försöka ge någon uppdrag att bilda regeringsunderlag. Utgångsläget är dock mörkt – ingen visar tecken på att vilja få det. – Jag tycker att det rimliga är att man prövar Magdalena Andersson (S), säger Jimmie Åkesson (SD).",
+      "summary": "Att Magdalena Andersson (S) får tillbaka sonderingsuppdraget för att bilda regering av var knappast oväntat, enligt Ekots inrikespolitiska kommentatorn Helena Gissén. Något som Gissén däremot tyckte var intressant var att talmannen Andréas Norlén meddelande under fredagens pressträff att processen formellt inleds på måndag för att partierna ska få helgen till eftertanke, vilket hon kopplar till de rödgröna partiernas röda linjer i regeringsfrågan. ”De ska fundera över helgen på om det går att luckra upp de här låsningarna. Det är ju den konflikten som ser så svårlöslig ut” säger Helena Gissén.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/dags-for-andra-talmansrundan'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9311856'",
       "matched_terms": [
-        "regeringsunderlag",
+        "regeringsfråg",
         "talman",
-        "partiledar"
+        "sondering"
       ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/gabrielsson-v-slar-tillbaka-mest-ohederliga-teater-jag-upplevt",
-      "title": "Gabrielsson (V) slår tillbaka: ”Mest ohederliga teater jag upplevt”",
-      "source": "SVT Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9311770",
+      "title": "Magdalena Andersson (S) får tillbaka sonderingsuppdraget",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-09-29",
-      "author": "Natalie Radlovacki",
+      "published": "2026-10-02",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Vänsterpartiets Ida Gabrielsson reagerar på X efter Anders Ygeman (S) och Rickard Nordins (C) medverkan i tisdagskvällens Aktuellt. Hon vänder sig mot påståendet att V skulle göra upp med Tidösidan efter att partiet röstat fram Andreas Norlén som talman: ”Detta är den mest ohederliga teater jag någonsin upplevt”, skriver Gabrielsson.",
-      "fulltext": "Vänsterpartiets Ida Gabrielsson reagerar på X efter Anders Ygeman (S) och Rickard Nordins (C) medverkan i tisdagskvällens Aktuellt. Hon vänder sig mot påståendet att V skulle göra upp med Tidösidan efter att partiet röstat fram Andreas Norlén som talman:\n”Detta är den mest ohederliga teater jag någonsin upplevt”, skriver Gabrielsson.\nVänsterpartiets beslut att rösta fram moderata Andreas Norlén som riksdagens talman har fått både Socialdemokraterna och Centerpartiet att ifrågasätta partiets agerande i regeringsbildningen.\nI tisdagens Aktuellt sade Centerpartiets vice partiordförande Rickard Nordin att partierna haft ”konstruktiva samtal” mellan gruppledarna om bland annat talmansvalet och utskottsplatser.\n– Att Vänsterpartiet då bryter mot samtalen gör mig besviken, och visar också på att det är svårt att jobba med V när det kommer till just tillit och förtroende, sade Nordin.\nÄven Anders Ygeman (S) kritiserade Vänsterpartiets agerande i Aktuellt:\n– V har brutit mot riksdagspraxis och traditioner, och det som var väljarnas förväntningar, då är det rimligt att man får ta ansvar för det.\nRedan på måndagen anklagade C-ledaren Elisabeth Thand Ringqvist Vänsterpartiet för att ha brutit mot en överenskommelse mellan de rödgröna gruppledarna inför talmansvalet.\nV:s vice partiledare Ida Gabrielsson reagerade efter programmet på X. Hon pekar särskilt på uppgifterna om att Vänsterpartiet skulle ha kommit överens med Tidöpartier om talmansvalet.\n”Otroligt fult att inte komma igår till Aktuellt när jag hade kunnat ge svar på tal, istället ljuger C att V 'kommit överens i gruppledarkretsen' om talmansvalet när det inte har hänt”, skriver Gabrielsson.\nHon syftar på måndagens Aktuellt, där hon själv medverkade. S och C ställde in sin medverkan.\nI sitt inlägg beskriver Gabrielsson situationen som ”den mest ohederliga teater” hon någonsin upplevt.\nS och C vill ge Kristersson (M) sonderingsuppdraget\nBåde Socialdemokraterna och Centerpartiet vill att Moderatledaren Ulf Kristersson ska få sonderingsuppdraget. Argumentet är att den konstellation som röstade för Andreas Norlén som talman bör få möjlighet att prövas även i regeringsbildningen.\n– Det är tydligt att Vänsterpartiet är beredda att göra upp med Tidösidan, sade Rickard Nordin i Aktuellt.\nVänsterpartiet har samtidigt sagt att partiet vill se förhandlingar mellan S, V, C och MP för att försöka forma en regering.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Magdalena Andersson (S) får tillbaka sonderingsuppdraget och ska återigen försöka bilda regering. Det säger talmannen Andreas Norlén under en pressträff. Talmannen säger även att sonderingsuppdraget ska avslutas med statsministeromröstning i riksdagen. ”Det är en signal om att det krävs eftertanke och omprövning för att processen ska kunna föras framåt”, säger talmannen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9311770'",
+      "matched_terms": [
+        "talman",
+        "sondering",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-andersson-biter-i-det-sura-applet",
+      "title": "Tomas Ramberg: Andersson biter i det sura äpplet",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-02",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Att Magdalena Andersson blir först ut att prövas som statsminister är surt för Socialdemokraterna men spelar ingen roll för vilken regering det blir. Samtidigt bjuder Centern på ett litet genombrott genom att bjuda in S, V och MP till samtal.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-02 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-andersson-biter-i-det-sura-applet/\nAtt Magdalena Andersson blir först ut att prövas som statsminister är surt för Socialdemokraterna men spelar ingen roll för vilken regering det blir.\nSamtidigt bjuder Centern på ett litet genombrott genom att bjuda in S, V och MP till samtal.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/magdalena-andersson-far-uppdraget-att-bilda-regering-igen",
+      "title": "Magdalena Andersson får uppdraget att bilda regering – igen",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-02",
+      "author": "Ulrika By, Evelyn Jones, Pia Gripenberg",
+      "commentator": "",
+      "summary": "S-ledaren Magdalena Andersson får tillbaka uppdraget att bilda en regering. – Det är partiledarna som har nyckeln till att lösa det här. Inte jag, säger talman Andreas Norlén. Elisabeth Thand Ringqvist (C) vill lösa upp knutarna genom att först ha ett möte om läget i Sverige.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-02 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/magdalena-andersson-far-uppdraget-att-bilda-regering-igen/\nS-ledaren Magdalena Andersson får tillbaka uppdraget att bilda en regering.\n– Det är partiledarna som har nyckeln till att lösa det här. Inte jag, säger talman Andreas Norlén.\nElisabeth Thand Ringqvist (C) vill lösa upp knutarna genom att först ha ett möte om läget i Sverige.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nMagdalena Andersson är enligt Andreas Norlén villig att återigen sondera inför en ny regeringsbildning – trots att hon så sent som i måndags avsade sig jobbet.\n– De grundläggande parlamentariska förutsättningarna är desamma som när Magdalena Andersson först fick uppdraget. Därför är det rimligt att hon återupptar sitt sonderingsarbete, säger talmannen.\nHan understryker vikten av att partierna tar helgen på sig att fundera över läget:\n– Mot bakgrund av de låsningar som föreligger finns det all anledning att dra ett djupt andetag. Om Sverige ska kunna få en regering så krävs det förflyttningar.\nMagdalena Andersson ska återrapportera till talmannen senast den 12 oktober. Då kan hon be om mer tid eller slutrapportera sitt uppdrag. Efter sonderingsrundan ska en omröstning hållas riksdagen.\n– Magdalena Andersson och jag är överens om att det här uppdraget ska avslutas med en statsministeromröstning i riksdagen, säger Norlén.\nTalmannens ambition är att processen ska gå fortare än rekordåret 2018. Då tog det 134 dagar innan Sverige hade en ny regering på plats. Samtidigt menar han att det är partiledarna som måste göra de politiska valen.\n– Det är de som har nyckeln till att lösa det här. Inte jag.\nMagdalena Andersson (S) skriver på Facebook att hon kommer att fortsätta att ha breda politiska samtal och att alla politiska krafter behöver agera konstruktivt och ”sätta Sverige och svenska folkets bästa främst”.\n”Jag välkomnar talmannens besked och jag kommer under helgen begrunda hur jag kan ta processen framåt. Jag hoppas att även andra partier funderar igenom sina ställningstaganden,” skriver hon.\nCenterledaren Elisabeth Thand Ringqvist vill försöka lösa upp knutarna i regeringsfrågan genom att bjuda in övriga rödgröna partier till en gemensam lägesgenomgång, skriver hon på Svenska Dagbladets debattsida.\nDetta möte bör ske innan partier börjar förhandla om politik och fördela poster, framhåller Elisabeth Thand Ringqvist. Hon planerar att bjuda in företrädare från näringslivet, fackförbunden, myndigheter och organisationer för att prata ekonomi, jobb, klimat, konkurrenskraft och så vidare.\n”Sannolikt är vi inte överens om alla prioriteringar när vi går därifrån, men vi kan åtminstone sätta ord på var de största skillnaderna finns.”\nEnligt SvD har S, V och MP tackat ja till Centerpartiets inbjudan.\nTill DN skriver Elisabeth Thand Ringqvist att hon välkomnar att Magdalena Andersson fått sonderingsuppdraget. ”Jag ser fram emot konstruktiva samtal nästa vecka om nuläge och utmaningar för Sverige, inte om vem som ska sitta på vilken ministerpost.\nMiljöpartiets språkrör Daniel Helldén skriver i ett sms till DN:\n”Det finns en rödgrön majoritet i riksdagen och vi kommer fortsatt i den här processen att vara konstruktiva för att Sverige ska få en rödgrön regering på plats. För oss är de gemensamma utgångspunkterna givna: utsläppen ska ner, välfärden stärkas och vi ska bygga ihop vårt land igen.”\nPartiledare Nooshi Dadgostar (V) reagerar på talmannens besked i ett sms till DN:\n”Väljarna har valt en ny inriktning för Sverige där vi fyller på i plånböckerna, stärker sjukvården och bekämpar arbetslösheten. Vänsterpartiet är berett att ingå i en sådan rödgrön regering ledd av Magdalena Andersson”, skriver Nooshi Dadgostar.\nLiberalernas partiledare Simona Mohamsson skriver på X att hon välkomnar att S-ledaren får sonderingsuppdraget av talmannen.\n”För att komma vidare behöver hon också testas skarpt i kammaren. Man kan inte fira valvinst med tårta och sen inte göra själva jobbet”, skriver Mohamsson.\nKD:s Ebba Busch skriver på X att hon framfört till talmannen att det är rimligt att Magdalena Andersson prövas som statsminister.\n”Väljarna behöver i en riksdagsvotering få svart på vitt bokfört om S kan leva upp till sitt löfte innan valet,” skriver Busch.\nEfter valet i september fördelas riksdagens 349 platser enligt följande:\nTomas Ramberg: Andersson biter i det sura äpplet\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTomas Ramberg: Andersson biter i det sura äpplet\nSäverman: Förr skjutsade baronen sina underlydande till vallokalen\nSusanne Nyström: Politiker ska synas i sömmarna – men det här är bara trams",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "talman",
-        "Vänsterpartiet"
+        "partiledar"
       ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/moderaternas-overtag-pa-sverigedemokraterna-vaxer",
-      "title": "Moderaternas övertag på Sverigedemokraterna växer",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-09-29",
-      "author": "Stefan Rothmaier",
-      "commentator": "",
-      "summary": "Moderaternas väljarstöd ökar i DN/Ipsos första mätning efter valet. Det var åtta år sedan partiet senast hade ett lika stort övertag på Sverigedemokraterna som nu.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/moderaternas-overtag-pa-sverigedemokraterna-vaxer'",
-      "matched_terms": [
-        "Moderaterna",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-02T07:18:06.579648+00:00"
+      "first_seen": "2026-10-02T14:16:42.280390+00:00"
     }
   ]
 }
