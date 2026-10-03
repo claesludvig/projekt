@@ -1,64 +1,39 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-02
+# Svensk politik och regeringsförhandlingarna — 2026-10-03
 
-11 nya poster sedan förra utskicket (34 redan utskickade, 143 utanför ämnet).
+6 nya poster sedan förra utskicket (39 redan utskickade, 143 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Nya turer i regeringsbildningen – detta har hänt](https://www.svd.se/a/Wgbv8r/nya-turer-i-regeringsbildningen-detta-har-hant)
-SvD Ledare · 2026-10-02 · TT
+### [Röda linjer och gröna dunster](https://www.svd.se/a/ylveXR/darfor-spricker-magdalena-anderssons-regeringsalternativ)
+SvD Ledare · 2026-10-03 · Fredrik Johansson
 
-Snart tre veckor har gått sedan valet men samtidigt tycks en ny regering vara långt borta.
+När sakpolitiken prövas faller regeringsalternativet.
 
-### [C bjuder in S, V och MP till möte – alla tackar ja](https://www.svd.se/a/eG1ly9/kristersson-om-nya-steget-naturligt)
-SvD Ledare · 2026-10-02 · Niklas Svahn/TT, Peter Wallberg/TT
+### [Ledare: Magdalena Andersson kan inte låta V bromsa henne](https://www.dn.se/ledare/magdalena-andersson-kan-inte-lata-v-bromsa-henne)
+DN Ledare · 2026-10-03 · DN:s ledarredaktion
 
-Centerpartiet (C) bjuder in partiledarna för S, V och MP till möte för att få en gemensam lägesbild…
+Nooshi Dadgostar (V) och Ida Gabrielsson (V) pratar ofta om att de vill träffa centerpartisterna på en fika. Men det som krävs för att få en regering på plats är att Vänsterpartiet slutar att blockera alla diskussioner om ett politiskt program med sitt krav på ministerposter.
+
+### [Så hjälpte jag Andersson att bli statsminister](https://www.aftonbladet.se/ledare/a/oKLWxm/sa-hjalpte-jag-magdalena-andersson-att-bli-statsminister)
+Aftonbladet Ledare · 2026-10-03 · Daniel Suhonen
+
+DANIEL SUHONEN Hann knappt få in snapsen
+
+### [När tröttnar vi på politikernas spel?](https://www.svd.se/a/1onj9J/nar-trottnar-vi-pa-politikernas-spel)
+SvD Ledare · 2026-10-02 · Svenska Dagbladet
+
+Regeringsbildningen sitter fast i ett sammelsurium av röda linjer som ingen riktigt velat ta i.
 
 ## Rapportering
 
-### [Efter C-invit – alla rödgröna partier i gemensamt möte](https://www.svt.se/nyheter/inrikes/efter-c-invit-alla-rodgrona-partier-i-gemensamt-mote)
-SVT Nyheter · 2026-10-02 · Gustav Motte
-
-En möjlig islossning i regeringsfrågan. Från att inte ha kunnat fika tillsammans ska samtliga rödgröna partier ha gemensamma samtal med ”externa aktörer” efter inbjudan av Centerpartiet. – Det här klart en öppning mot att göra något konstruktivt, att sitta ner och prata om utmaningar för Sverige, säger Elisabeth Thand Ringqvist (C).
-
-### [Det här händer nu i sonderingsprocessen](https://www.svt.se/nyheter/inrikes/det-har-hander-nu-i-sonderingsprocessen)
-SVT Nyheter · 2026-10-02 · Marcus Bornlid Lesseur
-
-Socialdemokraternas partiledare Magdalena Andersson får tillbaka sonderingsuppdraget av Andreas Norlén. Det meddelade talmannen under en pressträff i riksdagshuset på fredagen. Formellt inleds Magdalena Anderssons förnyade sonderingsrunda på måndag. Därefter ska hon återkomma med rapport den 12 oktober.
-
-### [Uppgifter: Magdalena Andersson får tillbaka sonderingsuppdraget](https://www.svt.se/nyheter/inrikes/uppgifter-magdalena-andersson-far-tillbaka-sonderingsuppdraget)
-SVT Nyheter · 2026-10-02 · Gustav Motte
-
-Magdalena Andersson (S) får tillbaka sonderingsuppdraget enligt uppgifter till Dagens Nyheter.
-
-### [Centerledaren om inbjudan: ”Viktigt att komma vidare”](https://www.sverigesradio.se/artikel/9312147)
+### [Spanien röstar nej till större trygghet för hyresgäster](https://www.sverigesradio.se/artikel/9312337)
 Ekot, Sveriges Radio · 2026-10-02 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiets partiledare Elisabeth Thand Ringqvist har bjudit in de rödgröna partierna till samtal. ”Det är viktigt att komma vidare i diskussionerna om hur vi kan få en regering för Sverige”, säger Thand Ringqvist till Ekot.
+Efter omfattande protester mot reglerna på bostadsmarknaden har det spanska parlamentet idag röstat nej till två nya lagar som skulle ge hyresgäster större trygghet. Nu väcks frågan om regeringskoalitionen kan fortsätta regera, eller om Spanien kan ställas inför ett nyval. ”Det som ställs på sin spets är att ett av partierna som stödjer Pedro Sanchez fällde det här förslaget”, säger Ekots Sydeuropakorrespondent Cecilia Blomberg.
 
-### [Furtenbach: ”Misstron kunde ju nästan inte vara större mellan V och C”](https://www.sverigesradio.se/artikel/9311932) **[kommentator]**
+### [S, V och MP välkomnar Centerpartiets mötesinbjudan](https://www.sverigesradio.se/artikel/9312319)
 Ekot, Sveriges Radio · 2026-10-02 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Det är tydligt att talmannen Andreas Norlén har blivit påverkad av regeringsbildningen 2018 och har därför bytt taktik, menar Ekot inrikespolitiske kommentator Fredrik Furtenbach. Förutsättningarna för att det ska gå fortare för Magdalena Andersson (S) att försöka bilda regering finns, då uppdraget kommer avslutas med statsministeromröstning. Men enligt Furtenbach menar att det hänger på de rödgröna partierna. ”Misstron kunde ju nästan inte vara större mellan Vänsterpartiet och Centerpartiet”, säger Fredrik Furtenbach.
+Socialdemokraternas Anders Ygeman säger att han bejakar att Magdalena Andersson återigen fått uppdraget att sondera möjligheten att bilda regering. Under dagen har Centerpartiet bjudit in de övriga rödgröna partierna till möte med företrädare för bland andra fack och näringsliv. Centerpartiet håller fast vid sin linje att Vänsterpartiet inte ska sitta i regering.
 
-### [Gissén: Ska fundera över helgen om låsningar kan luckras upp](https://www.sverigesradio.se/artikel/9311856)
-Ekot, Sveriges Radio · 2026-10-02 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Att Magdalena Andersson (S) får tillbaka sonderingsuppdraget för att bilda regering av var knappast oväntat, enligt Ekots inrikespolitiska kommentatorn Helena Gissén. Något som Gissén däremot tyckte var intressant var att talmannen Andréas Norlén meddelande under fredagens pressträff att processen formellt inleds på måndag för att partierna ska få helgen till eftertanke, vilket hon kopplar till de rödgröna partiernas röda linjer i regeringsfrågan. ”De ska fundera över helgen på om det går att luckra upp de här låsningarna. Det är ju den konflikten som ser så svårlöslig ut” säger Helena Gissén.
-
-### [Magdalena Andersson (S) får tillbaka sonderingsuppdraget](https://www.sverigesradio.se/artikel/9311770)
-Ekot, Sveriges Radio · 2026-10-02 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Magdalena Andersson (S) får tillbaka sonderingsuppdraget och ska återigen försöka bilda regering. Det säger talmannen Andreas Norlén under en pressträff. Talmannen säger även att sonderingsuppdraget ska avslutas med statsministeromröstning i riksdagen. ”Det är en signal om att det krävs eftertanke och omprövning för att processen ska kunna föras framåt”, säger talmannen.
-
-### [Tomas Ramberg: Andersson biter i det sura äpplet](https://www.dn.se/sverige/tomas-ramberg-andersson-biter-i-det-sura-applet) **[kommentator]**
-DN Nyheter · 2026-10-02 · Tomas Ramberg
-
-Att Magdalena Andersson blir först ut att prövas som statsminister är surt för Socialdemokraterna men spelar ingen roll för vilken regering det blir. Samtidigt bjuder Centern på ett litet genombrott genom att bjuda in S, V och MP till samtal.
-
-### [Magdalena Andersson får uppdraget att bilda regering – igen](https://www.dn.se/sverige/magdalena-andersson-far-uppdraget-att-bilda-regering-igen)
-DN Nyheter · 2026-10-02 · Ulrika By, Evelyn Jones, Pia Gripenberg
-
-S-ledaren Magdalena Andersson får tillbaka uppdraget att bilda en regering. – Det är partiledarna som har nyckeln till att lösa det här. Inte jag, säger talman Andreas Norlén. Elisabeth Thand Ringqvist (C) vill lösa upp knutarna genom att först ha ett möte om läget i Sverige.
-
-_Genererat 2026-10-02T14:16:42.280390+00:00._
+_Genererat 2026-10-03T06:16:35.013099+00:00._
