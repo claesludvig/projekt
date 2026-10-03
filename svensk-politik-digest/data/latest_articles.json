@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-10-03T06:16:35.013099+00:00",
+  "fetched_at": "2026-10-03T14:15:43.458054+00:00",
   "new_count": 6,
   "skipped": {
-    "seen": 39,
-    "offtopic": 143,
+    "seen": 38,
+    "offtopic": 144,
     "old": 22
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Aftonbladet Ledare",
       "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,110 +65,109 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/ylveXR/darfor-spricker-magdalena-anderssons-regeringsalternativ",
-      "title": "Röda linjer och gröna dunster",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.svt.se/nyheter/inrikes/bild-om-svenskt-valfusk-sprids-utomlands",
+      "title": "Bild om svenskt valfusk sprids utomlands",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
       "published": "2026-10-03",
-      "author": "Fredrik Johansson",
+      "author": "TT",
       "commentator": "",
-      "summary": "När sakpolitiken prövas faller regeringsalternativet.",
-      "fulltext": "Magdalena Anderssons regeringsprojekt har kört fast. Efter helgen möter de röda linjerna sakpolitiken igen, och ännu större motsättningar väntar.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nU nder veckan kraschade Magdalena Anderssons regeringsprojekt. Åtminstone tillfälligt. Vi vet ännu inte om det återigen kan lyfta och var det i så fall landar.\nEn sak står dock alldeles klar: Det som Magdalena Andersson före och efter valet viftat bort som ovidkommande praktikaliteter visade sig vara hårda realiteter. Förvåningen hos den som ens bara ytligt följer svensk politik får sägas ha varit begränsad. Centerpartiets och Vänsterpartiets hårdnackade ”röda linjer” lät sig inte ruckas av att S-ledaren förklarade sig vara ”en stenhård förhandlare”. Vi var många som såg det komma.\nUtifrån det sämsta valresultatet sedan demokratins genombrott har Magdalena Andersson sedan valdagen basunerat ut sin triumf till alla som velat lyssna och även till alla oss andra. Det har ätits tårta . Spelats in glada videohälsningar. Det har facebookats om en ny ”riktning”, vilken enligt en trosviss Magdalena Andersson ska vara ”framåt”.\nMetaforen om kejsarens nya kläder är så uppenbar att den blir fantasilös. Men det är värre. Kejsaren är inte bara naken, utan dessutom exhibitionist. Det behövs ingen pojke som säger det uppenbara – det utannonseras ogenerat av Andersson själv och av hennes handgångna ygemän.\n”Se på mig! Jag har absolut ingenting på kroppen! Är det inte helt galet?!”\nSedan Magdalena Andersson i måndags meddelade att hon avsåg att ”lämna tillbaka” sonderingsuppdraget till talmannen har en svart fars utspelats. De partier som anser sig ha vunnit valet menar nu att det är Ulf Kristerssons sak att bilda regering. Samma Kristersson som alldeles nyligen av Tobias Baudin krävdes instämma i den dånande gratulationskören inför Magdalena Anderssons enastående valseger.\nOm Socialdemokraternas budskap förra veckan var ”framåt”, vill Anders Ygeman nu ”ta ett steg tillbaka”.\nSkådespelet är ovärdigt. Magdalena Andersson saknar politik , hon saknar ett regeringsalternativ och hon saknar det som krävs för att få ihop den situation som nu råder.\nHon verkar inte ens ha försökt. Verkligheten och vi andra som befolkar den förväntas i stället böja oss för S-ledningens fantasier och Magdalena Anderssons Instagramkonto.\nVäljarna ska inbilla sig att Andersson är allt från en stark statsminister till ”en stenhård förhandlare ”. Vi ska dessutom åsidosätta den parlamentariska aritmetikens lagar för att anpassa oss till denna politiska egomani.\nDet är riksdagens uppgift att se till att statsministerfrågan expedieras snabbt och resolut. Och det arbetet leds av Andreas Norlén. Regeringsformen ger talmannen ett tydligt mandat och Sverige behöver en regering. Det är bara att rada upp kandidaterna och börja rösta.\nPå fredagen gav talmannen Andersson ånyo i uppdrag att sondera. En ny veckas försök att få regeringsunderlaget i Centerpartiet och Vänsterpartiet att vistas i samma lokal inleds på måndag. Kanske går det. Kanske inte. Att Andreas Norlén öppnar för att ge Andersson mer tid är däremot ingen bra idé. Det är skarpa omröstningar som kan driva detta framåt.\nMagdalena Andersson säger sig ha vunnit, så hon är den rimliga kandidaten i en första votering. Kanske leder det till att alla de röda linjer som målats upp bleknar. Jag vet inte. Ingen vet. Men något måste hända och talmannen äger makten att få det att hända.\nFrån olika vänsterhåll har den senaste veckans olidliga plågor och genans givit ytterligare näring till en idé om att lösningen ligger i sakpolitiken. Om bara Centerpartiet och Vänsterpartiet får förmånen att sitta i samma rum som Magdalena Andersson och Daniel Helldén kommer de fromt söka sig mot gemensamma lösningar.\nMed sitt sedvanliga goda humör återupprepade Flammas chefredaktör Leonidas Aretakis sin idé om att de fyra partierna ska åka i väg – Böda camping står högt på Flammans önskelista över destinationer – för att där hitta samsyn i frågor där man har helt olika uppfattningar.\nDet fina med de röda linjerna är att man slipper diskutera sakfrågor.\nDen likaledes optimistiske Daniel Suhonen på Katalys har till och med ett tiopunktsprogram för ett samarbete, som helst ska ingås på Runö folkhögskola . Det är bekvämt vagt. Grön tillväxt. Välfärd i hela landet. Fred på jorden (är inte med, men det är antagligen en redigeringsmiss). Men också idéer om avskaffat kommunalt självstyre (”förstatligande av kommunalskatten”) och avskaffat karensavdrag. Stora områden av den ekonomiska politiken är helt utelämnade. Det är inte i närheten av ett regeringsprogram. Och inte ens det skulle partierna kunna komma överens om.\nDet fina med de röda linjerna är att man slipper diskutera sakfrågor. Det är de röda linjerna som gör att det överhuvudtaget finns ett rödgrönt regeringsalternativ. Det som föreslås från Aretakis och Suhonen är att gå från metafysisk oenighet till oenighet i hårda politiska frågor. Från en liturgisk dans där sonderingsuppdrag skickas runt som en het potatis, till ett fullskaligt politiskt krig.\nOm Centerpartiet övergav sina röda linjer skulle man – migrationen undantagen – få avsevärt större politisk utväxling med Tidöpartierna. Moderaterna, Liberalerna, Kristdemokraterna och – jo, även Sverigedemokraterna – har politiska program som är betydligt mer kompatibla med Centerpartiets.\nVänsterpartiet är ett ytligt reformerat kommunistparti, vars program – om det genomfördes – skulle slå sönder förutsättningarna för produktiv verksamhet i Sverige. Miljöpartiets ekonomiska program är marginellt bättre, men saltar anrättningen med en syn på skogs- och lantbruk som står direkt i strid med Centerpartiets. Elisabeth Thand Ringqvist är fullt medveten om detta. De röda linjerna är ett sätt att undvika också den verkligheten.\nTidöavtalet var som konstruktion nödvändigt av politiska skäl, men också för att bygga tillit i relationerna. Alla fyra partier gav upp sådant som var mer eller mindre viktigt för dem. Det är en del av spelets regler i en demokrati. Helheten blir viktigare än delarna. Riktningen viktigare än den exakta vägen. I alla fall så länge den är det. I dag skulle ett avtal se annorlunda ut och sannolikt vara enklare att sluta.\nDet rödgröna alternativet har ingen motsvarande riktning (att säga ”framåt” på Instagram är inte att deklarera en politisk färdriktning). De fyra partier som nu skämmer ut sig i grupp (Vänsterpartiet fascinerande nog allra minst) förenas av en enda sak: Centerpartiets besatthet av Sverigedemokraterna.\nAretakis och Suhonen ska nog vara glada för att det är så. Då slipper de en sakpolitisk förhandling som – vore den uppriktig och på allvar – skulle spåra ur innan Magdalena Andersson hunnit säga ”stenhård förhandlare”.\nDärför är det dags för statsministervoteringar. Det är dags att ta Sverige på allvar.",
+      "summary": "Diskussionen om Sverige utomlands har efter riksdagsvalet till stor del handlat om valfusk, och eldats på av stora invandringskritiska konton.",
+      "fulltext": "Diskussionen om Sverige utomlands har efter riksdagsvalet till stor del handlat om valfusk, och eldats på av stora invandringskritiska konton.\nTotalt rör det sig om 100 000 publiceringar, säger Svenska institutets generaldirektör Madeleine Sjöstedt till Sveriges Radio Ekot .\n– Vad vi ser är att det är tunga konton som verkar i en migrationskritisk miljö och som har miljontals följare som driver på den här trafiken, säger hon.\nSjöstedt beskriver diskussionerna om eventuellt valfusk som ”omfattande”. I samband med det diskuteras också om migrationen till Sverige har påverkat valutgången.\nMyndigheten analyserar en stor mängd medier, sociala medier och diskussionsforum på 53 olika språk. Enligt Sjöstedt kan Svenska institutet tidigt upptäcka stor aktivitet som kan innebära påverkanskampanjer.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsalternativ"
+        "riksdagsval"
       ],
-      "first_seen": "2026-10-03T06:16:35.013099+00:00"
+      "first_seen": "2026-10-03T14:15:43.458054+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/magdalena-andersson-kan-inte-lata-v-bromsa-henne",
-      "title": "Ledare: Magdalena Andersson kan inte låta V bromsa henne",
-      "source": "DN Ledare",
-      "kind": "kommentar",
+      "url": "https://www.svt.se/nyheter/inrikes/det-har-talar-emot-att-regeringsbildningen-slutar-i-extraval",
+      "title": "Det här talar emot att regeringsbildningen slutar i extraval",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
       "published": "2026-10-03",
-      "author": "DN:s ledarredaktion",
+      "author": "Kristoffer Törnmalm",
       "commentator": "",
-      "summary": "Nooshi Dadgostar (V) och Ida Gabrielsson (V) pratar ofta om att de vill träffa centerpartisterna på en fika. Men det som krävs för att få en regering på plats är att Vänsterpartiet slutar att blockera alla diskussioner om ett politiskt program med sitt krav på ministerposter.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-03 08:15\nArtikelns ursprungsadress: https://www.dn.se/ledare/magdalena-andersson-kan-inte-lata-v-bromsa-henne/\nNooshi Dadgostar (V) och Ida Gabrielsson (V) pratar ofta om att de vill träffa centerpartisterna på en fika. Men det som krävs för att få en regering på plats är att Vänsterpartiet slutar att blockera alla diskussioner om ett politiskt program med sitt krav på ministerposter.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nEn veckas skuggboxning är över. Magdalena Andersson (S) har fått tillbaka sonderingsuppdraget. Måndag den 12 oktober ska hon avrapportera till talmannen Andreas Norlén. Efter det kan hon be om några dagar till före votering eller omgående skickas upp i kammaren. Alldeles oavsett pekar det mesta på att hon kommer att förlora den.\nFör ingenting har ändrats. Vänsterpartiet kräver benhårt att få sitta i regering. Det finns fortfarande inte 175 ledamöter i riksdagen som ens är beredda att överväga den saken.\nDet betyder inte att de kommande veckorna är betydelselösa.\nDen här hösten kan i praktiken sluta på tre sätt. Socialdemokraterna och Moderaterna skulle till slut kunna finna varandra eller – mer troligt – så får S-ledaren ihop en regering med de nuvarande oppositionspartierna som grund.\nAtt det skulle gå att foga in C och SD i samma Tidölag, som många högerröster drömmer om, framstår däremot som otänkbart.\nVare sig Magdalena Andersson når en överenskommelse med Ulf Kristersson eller ledarna för C, MP och V kommer dock sakpolitiken att stå i centrum. Det gäller helt enkelt att hitta ett program som alla i regeringsunderlaget tycker är tillräckligt bra.\nS och M lär inte hålla några samtal nu – och ett allvarligt försök är väl bara aktuellt sent i processen efter flera misslyckade voteringar – men Andersson håller rimligen informella kanaler öppna.\nVad gäller S, MP, C och V måste de få igång ett samtal om innehållet i en överenskommelse.\nIda Gabrielsson, V:s vice ordförande, har försökt sätta bilden att det är centerpartisterna som är problemet. Hon vill fika. Men faktum är att det hela tiden varit Vänstern som blockerat. Partiet vägrar att diskutera sakpolitik innan de andra böjt sig om ministerposterna.\nCenterpartiets inbjudan , som skickades ut på fredagen, är ett uppenbart försök att komma bort från den låsningen. De vill att S, MP och V tillsammans ska få höra hur näringsliv, fackförbund, myndigheter och organisationer av olika slag ser på behoven av reformer – för att utifrån detta kunna diskutera just sakpolitik i stället för att fastna i själva utformningen av regeringen.\nMagdalena Andersson kan i alla fall inte låta Vänsterpartiets ministerkrav bromsa henne. Diskussionerna om sakfrågorna måste komma igång. Skillnaderna mellan partierna i den ekonomiska politiken är stora, och blir inte enkla att överbrygga ens i ett läge när alla vill komma överens.\nS stora och dyra löfte – att avskaffa karensavdraget – är C emot. Det kommer att ta tid att formulera gångbara kompromisser.\nDet vore bäst om vänsterpartisterna är med i samtalen från start, men om de inte vill så måste de andra köra på själva.\nAtt Magdalena Andersson ska ha ett regeringsunderlag klart den 12 oktober framstår som osannolikt. Troligen kommer fler sonderingsrundor att krävas. Men kanske når hon i alla fall fram till något som MP och C kan ställa sig bakom. I ett sådant läge blir det Vänsterns ledamöter – tillsammans med M, SD, KD och L – som sänker S-ledaren i kammaren.\nDet vore åtminstone en tydlig signal om vilket parti som står i vägen för ett maktskifte.\nDN:s ledarredaktion: Andy Burnham säger något ingen brittisk politiker vågat före honom\nDN:s ledarredaktion: Rasistisk dynga hör inte hemma i eftervalsdebatten\n”Vill du prata om Stefan Holm och Emil Persson?”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Andy Burnham säger något ingen brittisk politiker vågat före honom\nLedare: Rasistisk dynga hör inte hemma i eftervalsdebatten\nStatsvetaren om regeringsfrågan: ”Så här ska det inte gå till”",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost",
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-03T06:16:35.013099+00:00"
-    },
-    {
-      "url": "https://www.aftonbladet.se/ledare/a/oKLWxm/sa-hjalpte-jag-magdalena-andersson-att-bli-statsminister",
-      "title": "Så hjälpte jag Andersson att bli statsminister",
-      "source": "Aftonbladet Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-03",
-      "author": "Daniel Suhonen",
-      "commentator": "",
-      "summary": "DANIEL SUHONEN Hann knappt få in snapsen",
-      "fulltext": "Aftonbladets ledarsida är oberoende socialdemokratisk.\nJag befann mig med sambon i Köpenhamn. Det var den 23 november 2021. En lite sen och efterlängtad semester. Förmiddag. Sovmorgon. Sambon i duschen. Då ringer ett nummer från riksdagen.\nEn tjänsteman i S-regeringen. ”Vi behöver din hjälp. Vi förstår inte Vänsterpartiet.”\nDet handlade om att få Vänsterpartiets stöd för att få Magdalena Andersson vald som statsminister. Det var kaos. Socialdemokraterna höll på att sätta ihop något slags reformprogram för att blidka Vänsterpartiet. Något rejält köttben om pensionerna. Frågan till mig gällde vilken summa eller reform som krävdes. Jag sa: Inte mig emot i sak. Men ni tänker helt fel.\nJag sa: Vad Vänsterpartiet behöver i detta läge är inte någon stor sakpolitisk reform. De vill bli behandlade med respekt. Som ett viktigt parti, ett parti som Socialdemokraterna samtalar med. Det enda ni behöver göra är att kalla till ett möte, samla pressen och låt dem ta bilder och sedan kommer de bägge ut en eller två timmar senare och så kommer Noosihi Dadgostar meddela att Magdalena Andersson kommer bli statsminister.\nI andra änden: Herregud. Detta har ingen sagt till oss. Tror du det är så enkelt?\nJag: Ja exakt så enkelt är det. Vänsterpartiet vill bli bemötta som ett parti Magdalena Andersson tar på allvar, respekterar. Ger ni dem det i det, släpper de fram regeringen.\nSambon och jag hade knappt hunnit beställa in våra smörrebröd, snaps och våra immiga Tuborg Classic på mitt favoritställe innan Omni-flashen kom. Magdalena Andersson skulle möta Nooshi Dadgostar. Nästan exakt som jag sagt. Och statsminister blev Magdalena Andersson.\nPå kvällen kom från tjänstemannen ett kort sms (fritt ur minnet): Stort tack. Magda hälsar.\nJag tror i sin kärna att respekten och tilliten just nu är det som saknas mest och behöver byggas upp bland de rödgröna. Socialdemokraterna måste en gång för alla ge upp sitt 45-procentspartitrauma och sluta chikanera och mobba sina blivande partners. Socialdemokratin borde vara den vuxne i rummet som med en schysst attityd samlar sitt lag och skapar ett förtroendefullt klimat för förhandlingar.\nNär jag med stor behållning läser Torbjörn Nilssons och Maggie Strömbergs bok L’amour toujours – Berättelsen om Tidö är det till slut de sociala banden som byggs upp mellan de blivande Tidö-partierna som löser upp knutarna. En hel del alkohol är också inblandad. Men avgörande är att på olika nivåer i partierna snacka med varandra utan spel och konster, som äkta bra samtal är. Inte för att man är överens om allt, eller älskar varandra eller inte i grund och botten är konkurrenter. Men man har ett gemensamt jobb att göra. Att få en regering på plats.\nSe så. Gör det bara. Se till att träffas nu på hemlig ort. Och sluta prata om allt i media.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-03T06:16:35.013099+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/1onj9J/nar-trottnar-vi-pa-politikernas-spel",
-      "title": "När tröttnar vi på politikernas spel?",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-02",
-      "author": "Svenska Dagbladet",
-      "commentator": "",
-      "summary": "Regeringsbildningen sitter fast i ett sammelsurium av röda linjer som ingen riktigt velat ta i.",
-      "fulltext": "PODD | 2 oktober. Regeringsbildningen sitter fast i ett sammelsurium av röda linjer som ingen riktigt velat ta i.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nLedarredaktionen sammanfattar veckan och konstaterar att regeringsbildningen rör sig mycket långsamt. Vem kommer behöva ge med sig? Och när ledsnar omgivningen på att spela med i politikernas spel?\nTove Lifvendahl, Paulina Neuding och Mattias Svensson står för åsikterna, Andreas Ericson för frågorna, som är fler än vanligt eftersom det är fredag, dessutom med en osedvanlig mängd musikinslag.\nLedarredaktionen sammanfattar veckan och konstaterar att regeringsbildningen rör sig mycket långsamt. Vem kommer behöva ge med sig? Och när ledsnar omgivningen på att spela med i politikernas spel? Tove Lifvendahl, Paulina Neuding och Mattias Svensson står för åsikterna, Andreas Ericson för frågorna.\nLedarredaktionen produceras av Svenska Dagbladet och distribueras av Acast. Förutom att lyssna här på SvD.se kan du även höra podden i följande kanaler:\nHitta podcasten genom att söka efter ”Ledarredaktionen” – eller klicka på länkarna.",
+      "summary": "Läget i politiken ser låst ut – och redan nu talas det om extraval. Men hur sannolikt är det att svenska folket kallas till valurnorna på nytt? Här är några saker som talar emot ett extraval.",
+      "fulltext": "Läget i politiken ser låst ut – och redan nu talas det om extraval.\nMen hur sannolikt är det att svenska folket kallas till valurnorna på nytt?\nHär är några saker som talar emot ett extraval.\nEfter fyra misslyckade statsministeromröstningar i riksdagen blir det extraval. Senaste det skedde var 1958 – annars brukar svenska politiker hitta lösningar på låsningar i regeringsfrågan.\nMen hur sannolikt är det att förhandlingarna efter det här riksdagsvalet slutar så?\nHör SVT:s politikreporter Kristoffer Törnmalm i videon ovan om vad som talar emot ett extraval.\nKallas ibland för nyval men heter i regeringsformen extra val (och stavas där just så).\nMellan ordinarie val kan extraval utlysas av regeringen. Men det ska också hållas om talmannens förslag till statsminister förkastas av riksdagen fyra gånger – om ordinarie val ska inte ska hållas inom tre månader.\nSamma regler som för ordinarie val gäller i huvudsak eftersom ett extraval är ett helt nytt val.\nNya röstkort skickas ut av Valmyndigheten. Kommunerna ska se till att det finns vallokaler och röstningslokaler för förtidsröstning.\nOmval innebär att ett val görs om i en viss valkrets eller ett visst område efter överklagande till Valprövningsnämnden.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning"
       ],
-      "first_seen": "2026-10-03T06:16:35.013099+00:00"
+      "first_seen": "2026-10-03T14:15:43.458054+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9312337",
-      "title": "Spanien röstar nej till större trygghet för hyresgäster",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/v-valkomnar-cs-inbjudan-knutson-forsta-steg-mot-islossning",
+      "title": "V välkomnar C:s inbjudan – Knutson: ”Första steg mot islossning”",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-02",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Efter omfattande protester mot reglerna på bostadsmarknaden har det spanska parlamentet idag röstat nej till två nya lagar som skulle ge hyresgäster större trygghet. Nu väcks frågan om regeringskoalitionen kan fortsätta regera, eller om Spanien kan ställas inför ett nyval. ”Det som ställs på sin spets är att ett av partierna som stödjer Pedro Sanchez fällde det här förslaget”, säger Ekots Sydeuropakorrespondent Cecilia Blomberg.",
-      "fulltext": "",
+      "published": "2026-10-03",
+      "author": "Mimmi Nilsson",
+      "commentator": "Mats Knutson",
+      "summary": "Vänsterpartiet välkomnar Centerpartiets inbjudan till ett gemensamt möte med alla rödgröna partier. C står fast vid kravet att V inte ska sitta i regering, men SVT:s politiska kommentator Mats Knutson ser en förändring hos partierna. – Med tanke på det hårda tonläge som varit kan det här vara ett första steg mot en islossning, säger han i Rapport.",
+      "fulltext": "Vänsterpartiet välkomnar Centerpartiets inbjudan till ett gemensamt möte med alla rödgröna partier.\nC står fast vid kravet att V inte ska sitta i regering, men SVT:s politiska kommentator Mats Knutson ser en förändring hos partierna.\n– Med tanke på det hårda tonläge som varit kan det här vara ett första steg mot en islossning, säger han i Rapport.\nPå fredagen bjöd Centerpartiets partiledare Elisabeth Thand Ringqvist in Socialdemokraterna, Miljöpartiet och Vänsterpartiet till ett gemensamt möte och alla partier har tackat ja.\nMötet kommer att hållas i nästa vecka och även externa aktörer, som exempelvis expertmyndigheter, kommer att delta.\nC står fast vid sin tidigare position där man inte vill se Vänsterpartiet i regering. Thand Ringqvist menar att partiet nu öppnar för samtal eftersom man själva varit del i de låsningar som funnits.\n– Vi har fortfarande en väldigt tydlig röd linje mot regeringssamverkan med Vänsterpartiet, men vi vill också visa att vi kan vara konstruktiva, säger hon.\nThand Ringqvist vill i nuläget inte svara på om hon anser att V kan få någon form av politiskt inflytande i en rödgrön regering.\n– Det viktiga är att vi sätter oss ner och pratar om vad vi har för gemensamma mål. Vi ser att vi vill sitta i regering och vi behöver ha gemensamma spelregler klara innan vi kan gå vidare och diskutera politiska frågor, säger partisekreteraren Maria Forsberg i Aktuellt på fredagen.\nPartiet står fast vid sitt krav om ministerposter men Maria Forsberg menar att mötet är ett steg i rätt riktning.\n– Den viktiga frågan som riksdagen har ställt till oss är vem som ska vara statsminister och vilka partier ska sitta i regeringen och det behöver vi också diskutera, säger hon.\nTrots att både V och C står fast vid sina röda linjer är det gemensamma mötet en klar förändring från båda partierna, menar SVT:s politiska kommentator Mats Knutson.\n– Man ska vara försiktig med att dra för långtgående slutsatser, men med tanke på det hårda tonläge som varit kan det här vara ett första steg mot en islossning, säger han i Rapport.\nUnder fredagen meddelade talmannen Andreas Norlén att S-ledaren Magdalena Andersson får fortsätta sitt sonderingsuppdrag fram till nästa måndag.\nFör att lyckas samla en majoritet i riksdagen måste hon få någon av partierna att släppa sina krav,\n– Det kommer man nog inte att hinna med fram till nästa måndag, men talmannen säger ju att han under vissa förhållanden är beredd att ge Magdalena Andersson ytterligare tid och det lär han i så fall behöva, säger Knutson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312337'",
-      "matched_terms": [
-        "koalition"
-      ],
-      "first_seen": "2026-10-03T06:16:35.013099+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9312319",
-      "title": "S, V och MP välkomnar Centerpartiets mötesinbjudan",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-02",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Socialdemokraternas Anders Ygeman säger att han bejakar att Magdalena Andersson återigen fått uppdraget att sondera möjligheten att bilda regering. Under dagen har Centerpartiet bjudit in de övriga rödgröna partierna till möte med företrädare för bland andra fack och näringsliv. Centerpartiet håller fast vid sin linje att Vänsterpartiet inte ska sitta i regering.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312319'",
+      "fetch_error": "",
       "matched_terms": [
         "Centerpartiet",
-        "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-03T06:16:35.013099+00:00"
+      "first_seen": "2026-10-03T14:15:43.458054+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9312350",
+      "title": "Valfusk präglar bilden av Sverige utomlands",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-03",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Internationella samtal om Sverige kretsar kring riksdagsvalet och valfusk, konstaterar Svenska Institutet. Hundratusen publiceringar om valfusk har gjorts i sociala medier och medier efter valet, enligt myndigheten, som gör stora mätningar på 53 olika språk. ”Det är tunga konton i en migrationskritisk miljö som har miljontals följare och driver på den här trafiken”, säger generaldirektör Madeleine Sjöstedt.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312350'",
+      "matched_terms": [
+        "riksdagsval"
+      ],
+      "first_seen": "2026-10-03T14:15:43.458054+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/de-ar-i-politisk-minoritet-pa-sitt-gymnasium",
+      "title": "De är i politisk minoritet på sitt gymnasium",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-03",
+      "author": "Molly Karlsson Inde, Anette Nantell",
+      "commentator": "",
+      "summary": "På Danderydsskolan där nästa alla röstar höger stämplas centerpartisten Melker Nordström som ”sosse”. På Söderskolan där MP fick egen majoritet väcker moderaten Loke Hedman starka reaktioner. Hur är det att sticka ut på en plats där man hänger varje dag?",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-03 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/de-ar-i-politisk-minoritet-pa-sitt-gymnasium/\nPå Danderydsskolan där nästa alla röstar höger stämplas centerpartisten Melker Nordström som ”sosse”. På Söderskolan där MP fick egen majoritet väcker moderaten Loke Hedman starka reaktioner.\nHur är det att sticka ut på en plats där man hänger varje dag?\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nUtanför Danderyds gymnasium, där Tidöpartierna får 80,8 procent av elevernas röster i skolvalet, sitter en 17-årig elev i CUF-tröja och läser. Det var också så hans politiska engagemang började – med en bok alltså.\n– Jag läste 1984 när jag var tolv år och började hata staten, säger han med ett skratt.\n– Ideologiskt sett, om allting skulle fungera perfekt, vill jag avskaffa staten. Men jag är liksom inte praktiskt anarkist, förtydligar han.\nSom centerpartist sticker han ut på sitt gymnasium. Här är Moderaterna ”status quo”, förklarar Melker:\n– Alltså du vet det där gamla avsnittet av Svensson, Svensson, när farsan säger: ”Men man måste ju rösta på Socialdemokraterna”. Jag tror det är lite samma här. Men det är klart att man influeras av sin livsstil och av sina föräldrar. Jag har också gjort det.\nHan säger att man vet att Danderyds gymnasium är en högerskola, oavsett om man är politiskt insatt eller inte.\n– Stereotypen om Danderyd är att det är grisch-grabbar och folk som bor i Djursholm.\nFakta. Statsvetaren om skolornas politiska splittring\nJakob Ahlbom, doktorand i statsvetenskap, säger att den geografiska polariseringen har ökat i Sverige, vilket reflekteras även i Stockholmsskolorna.\n– Det som ligger bakom är socioekonomisk bakgrund i en bredare bemärkelse. Det handlar alltså inte bara om inkomst, utan också om att personer med olika intressen och livsmiljöer röstar olika, säger han.\nAtt det blir så fundamentala skillnader kan också ha med människans natur att göra:\n– Människan är ett flockdjur som tenderar att gruppera sig, säger Ahlbom.\nAtt Stockholmsskolorna har så olika politiska profiler vet även ungdomsförbunden om, säger Melker.\n– Vi i CUF kampanjar kanske inte om att ha platt skatt utanför Södra Latin. Då pratar man om tonårsutvisningarna, så att man har chans att värva någon.\nMånaderna innan valet har han fått ställa upp på många debatter med sina klasskompisar, oftast frivilligt.\n– Jag hade en rätt så lång debatt i klassen för typ en vecka sedan om migrationspolitik. Det är det folk vill snacka med mig om eftersom vi verkligen inte håller med varandra.\n– Det beror helt på mot vem. Vissa vill bara provocera, vilket jag förstår. Men andra vill faktiskt diskutera, vilket jag tycker om.\nTrots att han också är borgerlig uppfattas han som mer vänster på sin skola.\n– Med tanke på att många har en rätt så statisk bild av hur svensk politik ser ut, så blir man ofta ihopklumpad med vänstern. Då behöver jag förklara för de andra att vi vill sänka skatten mest av alla. Kalla mig inte sosse, liksom.\nPå frågan om han hade velat byta skola, till en där fler tycker som honom, är svaret ett starkt nej.\n– Det lättaste sättet att bli dum i huvudet är att spendera all sin tid med folk som håller med en. Jag tycker verkligen att det är viktigt att kunna diskutera med andra, och sen behöver mina åsikter prövas också.\n– Vi båda har blått på oss i dag, konstaterar Loke Hedman nöjt och pekar på sin moderatkollega Atli Hedberg.\nFöre årsskiftet läste Loke det kommunistiska manifestet och det brann till – fast i motstånd. Kort därefter gick han med i MUF, Moderaternas ungdomsförbund.\n– Jag har inte alltid varit övertygad moderat, men när jag fortsatte läsa till exempel Hayek och Friedman resonerade jag mycket mer med det än med Marx och Engels.\nI år har han också startat en moderat förening på sin gymnasieskola Södra Latin, något som saknades sedan innan. I dag har MSU Fria Latin fem regelbundet engagerade, och Atli Hedberg var en av de tidiga värvningarna.\nDen socialdemokratiska föreningen på skolan är betydligt större – vilket kanske inte är så förvånande. Södra Latin är en av Stockholmsskolorna med högst rödgrön majoritet i skolvalet. Oppositionspartierna hade fått drygt 94 procent av riksdagsmandaten om skolans elever fick bestämma.\nLoke Hedman tror att elevernas vänsterlutning beror på att de kommer från välbärgade familjer.\n– Jag tror att det ligger någonting i att de vill vara annorlunda och göra uppror. Sedan tror jag också att vänstersidans patosargument är mycket starkare än våra. De är lättare att övertyga med än att sänka skatten för allihopa.\nMSU på skolan hamnar ofta i debatt med sina klasskompisar. Olikheterna kan blossa upp i matsalen, på lektioner eller på raster.\n– Egentligen lite när som helst. Folk är väldigt intresserade och engagerade, säger Atli.\nAtt gå på en skola med fler moderater låter på sätt och vis skönt, tycker Atli.\n– Kulturen här är väldigt vänster och det blir svårt att vara fullt ut öppen med vad man tycker utan att mötas av kritik, ord eller att personen blir attackerad snarare än argumenten.\nLoke ser också fördelar med att umgås med likasinnade, men stormtrivs samtidigt i att vara i politisk minoritet:\n– Om det är underförstått att alla redan tycker samma sak så lyssnar ingen på en. Här lyssnar folk och man får mer reaktioner, även om det mestadels handlar om motreaktioner. Det är mycket, mycket roligare att vara moderat på en vänsterskola.\nSom exempel lyfter han en kampanj där de affischerat korridorerna med budskapet om att Södra Latin borde privatiseras.\n– Det är ingenting som vi står för egentligen. Det är snarare för att vi vill väcka reaktioner och få folk att förstå ändå att det finns olika åsikter. Vi är inte här för att värva medlemmar. Vi vill bredda en väldigt smal åsiktskorridor.\nTrots den upptrissade stämningen tror de båda att det finns åsikter som de delar med de andra eleverna på skolan. Framför allt handlar det om att alla människor är lika mycket värda, menar Loke.\n– Men vi vill inte heller se tonårsutvisningarna eller det otroligt höga lönekravet för arbetstillstånd som regeringen infört. Det är jättekonstigt att människor ska tjäna 33 000 för att få stanna i Sverige.\nMed föreningen hoppas de att fler på skolan vågar säga vad de tycker.\n– Det är inte roligt om världen ska vara svart eller vit, säger Loke.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSvensksomalier känner sig utpekade efter valet\nStatsvetare om oväntade inviten: ”Fiffigt drag”\nIpsos var pricksäkert – nu ska mätningarna bli ännu bättre",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-10-03T14:15:43.458054+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/ipsos-var-pricksakert-nu-ska-matningarna-bli-annu-battre",
+      "title": "Ipsos var pricksäkert – nu ska mätningarna bli ännu bättre",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-03",
+      "author": "Hans Rosén",
+      "commentator": "",
+      "summary": "Ipsos kom närmast partiernas valresultat av alla opinionsinstitut i den sista mätningen före valdagen. Men Moderaterna underskattades och nu börjar arbetet för att lyckas ännu bättre i nästa val. – Utmaningen är att förstå vad som är slump och vad som är systematiska fel, säger Nicklas Källebring på Ipsos.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-03 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/ipsos-var-pricksakert-nu-ska-matningarna-bli-annu-battre/\nIpsos kom närmast partiernas valresultat av alla opinionsinstitut i den sista mätningen före valdagen. Men Moderaterna underskattades och nu börjar arbetet för att lyckas ännu bättre i nästa val.\n– Utmaningen är att förstå vad som är slump och vad som är systematiska fel, säger Nicklas Källebring på Ipsos.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "valresultat",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-10-03T14:15:43.458054+00:00"
     }
   ]
 }
