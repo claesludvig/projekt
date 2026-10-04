@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-04T06:15:44.897236+00:00",
-  "new_count": 1,
+  "fetched_at": "2026-10-04T14:15:48.628888+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 41,
-    "offtopic": 145,
+    "seen": 40,
+    "offtopic": 143,
     "old": 23
   },
-  "fetch_errors": 1,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,22 +65,75 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9311180",
-      "title": "Trög regeringsbildning kan försena reformer: ”Riskerar förlorat år”",
+      "url": "https://www.sverigesradio.se/artikel/9312735",
+      "title": "Statsvetaren: C verkar ha gett upp tanken på mittenregering",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-04",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Det tröga regeringsbildandet riskerar att leda till försenat reformarbete då de rödgröna kanske inte hinner lämna in en höstbudget i tid. I vissa fall kan förändringar göras i efterhand i en ändringsbudget, t. ex. i vårbudgeten, men till exempel den statliga inkomstskatten kan endast ändras på hösten. ”Det blir ett förlorat år för många stora reformer om det inte finns en enighet om budgeten innan dess,” säger Lisa Pelling på den fackföreningsnära tankesmedjan Arena Idé.",
+      "summary": "Nyligen bjöd centerledaren Elisabeth Thand Ringqvist in samtliga partiledare på den rödgröna sidan till ett möte för att hitta samsyn i de stora politiska frågorna. Ett möte som visar på att Centerpartiet släppt idén om att få ihop en mittenregeringen. Det menar Statsvetaren Tommy Möller på Stockholms universitet. Samtidigt kvarstår partiernas röda linjer mot varandra vilket gör den här regeringsbildningen svår att lösa men de finns två möjliga vägar fram anser Tommy Möller.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9311180'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312735'",
       "matched_terms": [
         "regeringsbildning",
-        "regeringsbildande"
+        "partiledar",
+        "Centerpartiet"
       ],
-      "first_seen": "2026-10-04T06:15:44.897236+00:00"
+      "first_seen": "2026-10-04T14:15:48.628888+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9312640",
+      "title": "Splittring mellan politiska ledarna: ”Bosnien är ett dött land”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-04",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Valrörelsen i Bosnien Hercegovina har varit polariserande, med splittring mellan kandidater som vill se större självstyre för sin folkgrupp och de som vill hålla ihop landet. Bosniaken Denis Becirovic, en av de tre sittande presidenterna på nationell nivå, går till val på att bevara den nationella enheten. I den bosniska i hög grad självstyrande regionen Republika Srpska, sa partiledaren och serben Milorad Dodik nyligen att Bosnien som land är dött.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312640'",
+      "matched_terms": [
+        "partiledar"
+      ],
+      "first_seen": "2026-10-04T14:15:48.628888+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/centerns-vag-till-makten-taggtrad-och-valium",
+      "title": "Centerns väg till makten: ”Taggtråd och valium”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-04",
+      "author": "Hans Olsson, Hanna Jakobson",
+      "commentator": "",
+      "summary": "Under de senaste åtta åren har Centerpartiets motvilja mot Vänsterpartiet fått regeringar att spricka, budgetar att falla och statsministrar att avgå. Nu står C och V återigen i fokus när Magdalena Andersson försöker få ihop sin regering. Kan Centerpartiet försonas med sin motpart den här gången?",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-04 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/centerns-vag-till-makten-taggtrad-och-valium/\nUnder de senaste åtta åren har Centerpartiets motvilja mot Vänsterpartiet fått regeringar att spricka, budgetar att falla och statsministrar att avgå. Nu står C och V återigen i fokus när Magdalena Andersson försöker få ihop sin regering.\nKan Centerpartiet försonas med sin motpart den här gången?\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nOnsdagen den 24 november 2021 ställdes allt på sin spets. På förmiddagen röstade Centerpartiet för att släppa fram Magdalena Andersson (S) som Sveriges första kvinnliga statsminister. Efter lunch lade C ned sina röster i budgetomröstningen med resultatet att den dåvarande oppositionen i stället fick igenom sitt förslag. Senare på dagen lämnade Magdalena Andersson in sin avskedsansökan.\n”Det är viktigt för mig att lyssna in vad alla vill så att vi inte riskerar en onödig splittring i partiet när det är mindre än ett år kvar till nästa val”, skriver den dåvarande partiledaren Annie Lööf i sin bok ”Också Annie” när hon försöker förklara varför C gjorde som de gjorde. Det interna motståndet mot att agera stödparti till S var helt enkelt för starkt.\nÄven om den här onsdagen var särskilt dramatisk hade C:s agerande i regeringsfrågan redan tidigare skapat stora konvulsioner. När Centerpartiet tillsammans med Liberalerna tecknade Januariavtalet med den dåvarande S/MP-regeringen efter valet 2018 innehöll det en så kallad förnedringsklausul. Innebörden var att Vänsterpartiet inte skulle få något inflytande under mandatperioden, vilket skapade stor förstämning inom V.\nNär V sommaren 2021 fällde statsminister Stefan Löfven var det på grund av ett förslag om fri hyressättning som drevs av C.\nDet här är sår som inte har läkt än i dag, och det är i det ljuset man ska se den avgrundsdjupa misstro som finns mellan C och V när de ska försöka ingå i samma regeringsunderlag. Just nu är de bägge partiernas utgångspunkter helt oförenliga. V kräver ministerposter i en kommande regering medan C håller fast vid sin röda linje om att V inte ska ingå i en regering.\nAnnie Lööf kallades på sin tid för nej-drottningen efter att hon upprepade gånger sagt nej till både Stefan Löfven och Ulf Kristersson som statsministrar. Hur ska Elisabeth Thand Ringqvist agera den här gången?\n– Min bild är att man tuggar rätt mycket taggtråd och äter valium nu på Centerkansliet och förbereder sig för en lång höst. Man vet att ju längre tid det tar, desto tydligare blir det hur svårt det är att bilda regering utan C och därmed kan utfallet bli bättre ur ett C-perspektiv, säger Magnus Demervall som i dag är vd för organisationen Företagarna men länge var en av Annie Lööfs närmaste medarbetare.\nHan har varit en nyckelspelare i flera förhandlingar med Socialdemokraterna och menar att C, om man ska lyckas, måste göra som man har gjort tidigare – hålla fast benhårt vid sin grundposition och politik. Samtidigt utgår han ifrån att Elisabeth Thand Ringqvist kommer att utsättas för hårt tryck både utifrån och inifrån.\n– Det är klart att det är tufft att ha det där trycket på sig men man kan väl säga att Centerpartiet tränade ganska hårt på det här för åtta år sedan. Den som tror att det går att sätta tryck på Centerpartiet genom att vara elak i media tror jag läser läget fel.\nDen förra C-ledaren Maud Olofsson anser att det är oförtjänt att Centerpartiet beskrivs som en bromskloss i svensk politik. Hon pekar på olika samarbeten som ägt rum under de senaste decennierna, till exempel under finanskrisen på 1990-talet och under pandemin.\n– Om man tittar historiskt är det hemskt svårt att hävda att Centerpartiet har varit en bromskloss. Det är snarare så att vi har tagit på oss väldigt mycket ansvar under årens lopp, säger hon.\nSamtidigt framhåller hon att C i grunden är ett pragmatiskt parti vars övergripande mål är att få igenom så mycket sakpolitik som möjligt. Det är där man ska söka förklaringen till att C övergett sina borgerliga kamrater och i stället valt att stödja S och Magdalena Andersson.\n– Det är klart att det är en risk, för vi har verkligen inte varit några som har haft en förkärlek för socialdemokrater. Men bedömningen är att vi har större förutsättningar att få igenom de områden som partiet har lyft fram i valrörelsen i en regering ledd av Magdalena Andersson.\nMaud Olofsson tycker också att det är för mycket fokus på C:s röda linjer. Hon menar att även alla andra partier har satt upp flera ultimativa krav och att det hamnar i skymundan. Hon ser till exempel förhållandet mellan Socialdemokraterna och Moderaterna mer som en mur än som en linje.\n– Om vi ska få fram en regering så måste ju alla släppa sina röda linjer.\nDet är mycket som står på spel för Centerpartiet de närmaste veckorna. Utfallet i regeringsförhandlingarna kommer att definiera partiet lång tid framöver. Att återigen framställas som en bromskloss är ett riskfyllt projekt.\nFör att förstå hur ett parti agerar i komplexa vägval, behöver man analysera situationen utifrån modellen om de ”tre arenorna”, anser statsvetaren Mikael Sundström, vid Lunds universitet. I korthet handlar det om hur ett beslut påverkar partiet, väljarkåren och riksdagen och samarbetet med andra partier.\n– Det är inte så ofta de tre arenorna är synkade. I dag finns inget internt hot i partiet mot Elisabeth Thand Ringqvist, hon är ganska nyvald och det gick relativt bra i valet. Men det kan komma att bli extraval, så Centerpartiet måste bevaka de väljare som röstat på dem. Det är alltså två arenor som är aktiva nu, väljarna och det parlamentariska läget, säger han.\nDet faktum att riksdagsvalet ligger nära i tid gör det än viktigare att ta hänsyn till väljarna om de inte vill riskera en svekdebatt, menar Mikael Sundström.\n– Hade vi varit tre år in i mandatperioden och det hade dykt upp en kris så kunde man åtminstone hävda att situationen hade ändrats. Men nu har de ägnat en hel valrörelse åt att understryka att de inte vill ha med ytterkanterna att göra, att de vill gå mot mitten.\nCenterns position, till höger i de ekonomiska frågorna och men långt ifrån Tidöpartierna i så kallade värderingsfrågor, sätter dem i en svår sits, menar Mikael Sundström.\n– Deras väljarskara är emot SD, och det gör det svårt att kasta om seglen. Samtidigt som placeringen på höger-vänsterskalan gör det nästan omöjligt för dem att samarbeta nära med Vänsterpartiet, säger Mikael Sundström.\nSamtidigt påminner han om Centerns motivering till att tidigare ingå samarbeten, även om det sved.\n– Där har C trots stora kostnader valt att bryta lägen för att det enligt dem låg i det nationella intresset.\nJanuariavtalet var en politisk överenskommelse som slöts i januari 2019 mellan Socialdemokraterna, Miljöpartiet, Centerpartiet och Liberalerna. Avtalet låg till grund för att Stefan Löfven kunde fortsätta som statsminister.\nÖverenskommelsen innehöll 73 punkter med förslag om bland annat arbetsmarknad, skatter, bostäder och miljö. Januariavtalet gällde under mandatperioden 2018–2022.\nLäs också: Magdalena Andersson får uppdraget att bilda regering – igen\nLäs också: Här är din nya riksdag – alla ledamöter\nLäs också: ”Inte ett drömläge för någon” – C-politiker tror på kompromiss\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nMagdalena Andersson får uppdraget att bilda regering – igen\nC-politiker tror på kompromiss: ”Inte ett drömläge för någon”\nEfter Liberalernas tapp i Stockholm: ”Pågår gigantisk renovering”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-04T14:15:48.628888+00:00"
+    },
+    {
+      "url": "https://www.dn.se/kultur/anders-svensson-ska-arets-val-kallas-for-rodlinjevalet",
+      "title": "Anders Svensson: Ska årets val kallas för rödlinjevalet?",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-04",
+      "author": "Anders Svensson",
+      "commentator": "",
+      "summary": "Vi minns kosackvalet, löntagarfondsvalet och alliansvalet – men årets riksdagsval har inte fått något smeknamn som satt sig. Språktidningens Anders Svensson har ett förslag: rödlinjevalet.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-04 16:15\nArtikelns ursprungsadress: https://www.dn.se/kultur/anders-svensson-ska-arets-val-kallas-for-rodlinjevalet/\nVi minns kosackvalet, löntagarfondsvalet och alliansvalet – men årets riksdagsval har inte fått något smeknamn som satt sig. Språktidningens Anders Svensson har ett förslag: rödlinjevalet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFläskvalet föreslog någon eftersom riksdagspartierna ständigt kastade nya köttben åt väljarna. Men ni då-valet tyckte någon som ansåg att partiernas självupplevda önskan om att prata sakpolitik ändå överskuggades av ivern att peka ut motståndarna som odugliga. Fuskvalet , kramvalet och överbudsvalet är några av alla andra förslag som dykt upp. Hittills har dock inget namn på årets riksdagsval satt sig på samma sätt som kosackvalet , löntagarfondsvalet eller alliansvalet gjorde en gång i tiden.\nUttrycket som exploderade under valrörelsen var röd linje . Något parti hade en röd linje mot Sverigedemokraterna, något mot Vänsterpartiet, somliga åt båda hållen.\nHelt nytt är inte uttrycket. Substantivet linje har sedan 1800-talet använts i bemärkelsen ”alternativ för (politiskt) handlande” medan adjektivet röd länge har symboliserat en varning eller ett stopp. För omkring femton år sedan började röd linje smyga sig in i mediespråket. ”Regeringen Netanyahu har pressat Vita huset att USA måste dra en gräns, en ’röd linje’ mot Iran och dess kärnteknik”, skrev DN 2012.\nUttrycket är inlånat från engelskan. Efter Osmanska rikets kollaps samlades amerikanska, brittiska och franska oljebolag 1928 för att dela upp tillgångarna i Mellanöstern. Den som i rött drog upp gränserna på kartan var Calouste Gulbenkian som också såg till att försäkra sig om att få del av intäkterna. Avtalet kallades red line agreement .\nNär red line senare rotade sig i den politiska debatten handlade det i regel om bildliga gränser för någons handlingsutrymme till skillnad från geografiska skiljelinjer. Någorlunda vanligt i engelskan blev uttrycket först på 1990-talet.\nInför valet 2022 etablerade sig röd linje på allvar i svenskan. Då liksom nu rörde det sig främst om synen på vilka partier som var möjliga att samarbeta med.\nHittills i år har uttrycket använts mer än dubbelt så många gånger som under hela 2022. I takt med att partierna biter sig fast i olika positioner som gör regeringsbildningen till en ekvation där ingen vill att lösningen ska stavas extra val kommer talet om röda linjer fortsätta. Och för att en konstellation ska få majoritet krävs att något parti överger en röd linje.\nHenrik Ekengren Oscarsson, valforskare vid Göteborgs universitet, efterlyste på X namnförslag på årets riksdagsval. Diskussionerna om röda linjer präglade valrörelsen, färgade Liberalernas fem i tolv-uppståndelse och dominerade eftervalsdebatten. Så vad sägs om rödlinjevalet ?\nJag har svårt för kattrasnamnet norsk skogkatt , jag saknar ett s. Är norska språket inblandat? Var är s:et och funkar det verkligen utan?\nSvar: Ja, det heter formellt sett tydligen norsk skogkatt . Det framgår även av källor som Nationalencyklopedin och Kattförbundet Sveraks webb. Sannolikt är den foge-s-lösa stavningen som du antyder ett norskt lån, där det till exempel heter skogkatt och havkatt (svenska havskatt ). Sammansättningar med skog varierar i norskan, som skogbruk (svenska skogsbruk ) men skogsdyr ( skogsdjur ).\nI svenskan är foge-s helt dominerande i sammansättningar med skog , som i skogsdunge . Dessutom är foge-s i första hand en ordbildningsfråga – inte en stavningsfråga – som inte minst speglar vad som känns naturligast i uttalet av en sammansättning. Att försvenska till skogskatt är därför helt naturligt. Det är för övrigt den form Svenska Akademiens ordlista anger.\nDet finns säkert de som tycker att skogkatt är en fast term eller att det är normkällor som Kattförbundet Sverak som styr, men så kan man inte resonera kring en allmänspråklig sammansättning med så allmängiltiga och frekventa ordled; då styr i stället ordbildningsmönster och frekvens i stavnings- och uttalsbruk.\nNär jag kikar i ett medietextarkiv får jag faktiskt fler träffar på norsk skogskatt än norsk skogkatt .\nDet verkar som om det heter ”jag har inte satt min fot där sedan i onsdags”, men borde det inte vara suttit ? Jag tycker visserligen att ”jag har inte suttit min fot där” låter fel, men det heter ju ”jag har inte druckit en klunk” och ”jag har inte sjungit en ton”. Så varför låter ”jag har inte suttit min fot” fel? Och vad är korrekt?\nSvar: Det handlar om två olika verb: sitta och sätta . Sitta böjs sitta, satt, suttit , medan sätta böjs sätta, satte, satt . Här är det någon som sätter sin fot eller inte har satt sin fot.\nVeckans språkfrågor publiceras i samarbete med Språktidningen och Språkrådet. Har du också en språkfråga? Hitta svaret i Språkrådets frågelåda: frageladan.isof.se\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nCenterns väg till makten: ”Taggtråd och valium”\nEfter Liberalernas tapp i Stockholm: ”Pågår gigantisk renovering”\nMartin Liby Troein: Den här siffran säger allt om maktbalansen i svensk politik",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "riksdagsval"
+      ],
+      "first_seen": "2026-10-04T14:15:48.628888+00:00"
     }
   ]
 }
