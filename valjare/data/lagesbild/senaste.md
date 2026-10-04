@@ -1,6 +1,6 @@
 # Lägesbild vecka 40 2026
 
-Skapad 2026-10-03 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-10-04 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
 
 ## Ovanlig utveckling
 

@@ -127,9 +127,9 @@ aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes 
 aktualitet,norden_vantan,"Eurostat: Avstått från vård på grund av väntetid (%, 16+)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,1695 artiklar i 7 flöden,1695.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,1889 artiklar i 7 flöden,1889.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,54 konton med följarantal,54.0
-aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 9 dagar sedan",9.0
+aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 10 dagar sedan",10.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
 volym,rader_partistod,Tabell partistod,ok,65350 rader (förra 65350),65350.0
 volym,rader_gruppvikt,Tabell gruppvikt,ok,5809 rader (förra 5809),5809.0
@@ -176,10 +176,10 @@ volym,rader_riksdag_parti_fraga,Tabell riksdag_parti_fraga,ok,382 rader (förra 
 volym,rader_riksdag_ledamot,Tabell riksdag_ledamot,ok,4594 rader (förra 4594),4594.0
 volym,rader_opinion_forslag,Tabell opinion_forslag,ok,24 rader (förra 24),24.0
 volym,rader_opinion_beslut,Tabell opinion_beslut,ok,100 rader (förra 100),100.0
-volym,rader_media_foljare,Tabell media_foljare,ok,352 rader (förra 304),352.0
+volym,rader_media_foljare,Tabell media_foljare,ok,399 rader (förra 352),399.0
 volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,54 rader (förra 54),54.0
 volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,104 rader (förra 104),104.0
-volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,281 rader (förra 269),281.0
+volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,301 rader (förra 281),301.0
 volym,rader_media_talartid,Tabell media_talartid,ok,96 rader (förra 96),96.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
 volym,rader_media_wikipedia,Tabell media_wikipedia,ok,2059 rader (förra 2059),2059.0
