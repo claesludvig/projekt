@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-10-03T14:15:43.458054+00:00",
-  "new_count": 6,
+  "fetched_at": "2026-10-04T06:15:44.897236+00:00",
+  "new_count": 1,
   "skipped": {
-    "seen": 38,
-    "offtopic": 144,
-    "old": 22
+    "seen": 41,
+    "offtopic": 145,
+    "old": 23
   },
   "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,109 +65,22 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/bild-om-svenskt-valfusk-sprids-utomlands",
-      "title": "Bild om svenskt valfusk sprids utomlands",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-03",
-      "author": "TT",
-      "commentator": "",
-      "summary": "Diskussionen om Sverige utomlands har efter riksdagsvalet till stor del handlat om valfusk, och eldats på av stora invandringskritiska konton.",
-      "fulltext": "Diskussionen om Sverige utomlands har efter riksdagsvalet till stor del handlat om valfusk, och eldats på av stora invandringskritiska konton.\nTotalt rör det sig om 100 000 publiceringar, säger Svenska institutets generaldirektör Madeleine Sjöstedt till Sveriges Radio Ekot .\n– Vad vi ser är att det är tunga konton som verkar i en migrationskritisk miljö och som har miljontals följare som driver på den här trafiken, säger hon.\nSjöstedt beskriver diskussionerna om eventuellt valfusk som ”omfattande”. I samband med det diskuteras också om migrationen till Sverige har påverkat valutgången.\nMyndigheten analyserar en stor mängd medier, sociala medier och diskussionsforum på 53 olika språk. Enligt Sjöstedt kan Svenska institutet tidigt upptäcka stor aktivitet som kan innebära påverkanskampanjer.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "riksdagsval"
-      ],
-      "first_seen": "2026-10-03T14:15:43.458054+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/det-har-talar-emot-att-regeringsbildningen-slutar-i-extraval",
-      "title": "Det här talar emot att regeringsbildningen slutar i extraval",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-03",
-      "author": "Kristoffer Törnmalm",
-      "commentator": "",
-      "summary": "Läget i politiken ser låst ut – och redan nu talas det om extraval. Men hur sannolikt är det att svenska folket kallas till valurnorna på nytt? Här är några saker som talar emot ett extraval.",
-      "fulltext": "Läget i politiken ser låst ut – och redan nu talas det om extraval.\nMen hur sannolikt är det att svenska folket kallas till valurnorna på nytt?\nHär är några saker som talar emot ett extraval.\nEfter fyra misslyckade statsministeromröstningar i riksdagen blir det extraval. Senaste det skedde var 1958 – annars brukar svenska politiker hitta lösningar på låsningar i regeringsfrågan.\nMen hur sannolikt är det att förhandlingarna efter det här riksdagsvalet slutar så?\nHör SVT:s politikreporter Kristoffer Törnmalm i videon ovan om vad som talar emot ett extraval.\nKallas ibland för nyval men heter i regeringsformen extra val (och stavas där just så).\nMellan ordinarie val kan extraval utlysas av regeringen. Men det ska också hållas om talmannens förslag till statsminister förkastas av riksdagen fyra gånger – om ordinarie val ska inte ska hållas inom tre månader.\nSamma regler som för ordinarie val gäller i huvudsak eftersom ett extraval är ett helt nytt val.\nNya röstkort skickas ut av Valmyndigheten. Kommunerna ska se till att det finns vallokaler och röstningslokaler för förtidsröstning.\nOmval innebär att ett val görs om i en viss valkrets eller ett visst område efter överklagande till Valprövningsnämnden.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-03T14:15:43.458054+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/v-valkomnar-cs-inbjudan-knutson-forsta-steg-mot-islossning",
-      "title": "V välkomnar C:s inbjudan – Knutson: ”Första steg mot islossning”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-03",
-      "author": "Mimmi Nilsson",
-      "commentator": "Mats Knutson",
-      "summary": "Vänsterpartiet välkomnar Centerpartiets inbjudan till ett gemensamt möte med alla rödgröna partier. C står fast vid kravet att V inte ska sitta i regering, men SVT:s politiska kommentator Mats Knutson ser en förändring hos partierna. – Med tanke på det hårda tonläge som varit kan det här vara ett första steg mot en islossning, säger han i Rapport.",
-      "fulltext": "Vänsterpartiet välkomnar Centerpartiets inbjudan till ett gemensamt möte med alla rödgröna partier.\nC står fast vid kravet att V inte ska sitta i regering, men SVT:s politiska kommentator Mats Knutson ser en förändring hos partierna.\n– Med tanke på det hårda tonläge som varit kan det här vara ett första steg mot en islossning, säger han i Rapport.\nPå fredagen bjöd Centerpartiets partiledare Elisabeth Thand Ringqvist in Socialdemokraterna, Miljöpartiet och Vänsterpartiet till ett gemensamt möte och alla partier har tackat ja.\nMötet kommer att hållas i nästa vecka och även externa aktörer, som exempelvis expertmyndigheter, kommer att delta.\nC står fast vid sin tidigare position där man inte vill se Vänsterpartiet i regering. Thand Ringqvist menar att partiet nu öppnar för samtal eftersom man själva varit del i de låsningar som funnits.\n– Vi har fortfarande en väldigt tydlig röd linje mot regeringssamverkan med Vänsterpartiet, men vi vill också visa att vi kan vara konstruktiva, säger hon.\nThand Ringqvist vill i nuläget inte svara på om hon anser att V kan få någon form av politiskt inflytande i en rödgrön regering.\n– Det viktiga är att vi sätter oss ner och pratar om vad vi har för gemensamma mål. Vi ser att vi vill sitta i regering och vi behöver ha gemensamma spelregler klara innan vi kan gå vidare och diskutera politiska frågor, säger partisekreteraren Maria Forsberg i Aktuellt på fredagen.\nPartiet står fast vid sitt krav om ministerposter men Maria Forsberg menar att mötet är ett steg i rätt riktning.\n– Den viktiga frågan som riksdagen har ställt till oss är vem som ska vara statsminister och vilka partier ska sitta i regeringen och det behöver vi också diskutera, säger hon.\nTrots att både V och C står fast vid sina röda linjer är det gemensamma mötet en klar förändring från båda partierna, menar SVT:s politiska kommentator Mats Knutson.\n– Man ska vara försiktig med att dra för långtgående slutsatser, men med tanke på det hårda tonläge som varit kan det här vara ett första steg mot en islossning, säger han i Rapport.\nUnder fredagen meddelade talmannen Andreas Norlén att S-ledaren Magdalena Andersson får fortsätta sitt sonderingsuppdrag fram till nästa måndag.\nFör att lyckas samla en majoritet i riksdagen måste hon få någon av partierna att släppa sina krav,\n– Det kommer man nog inte att hinna med fram till nästa måndag, men talmannen säger ju att han under vissa förhållanden är beredd att ge Magdalena Andersson ytterligare tid och det lär han i så fall behöva, säger Knutson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-03T14:15:43.458054+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9312350",
-      "title": "Valfusk präglar bilden av Sverige utomlands",
+      "url": "https://www.sverigesradio.se/artikel/9311180",
+      "title": "Trög regeringsbildning kan försena reformer: ”Riskerar förlorat år”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-03",
+      "published": "2026-10-04",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Internationella samtal om Sverige kretsar kring riksdagsvalet och valfusk, konstaterar Svenska Institutet. Hundratusen publiceringar om valfusk har gjorts i sociala medier och medier efter valet, enligt myndigheten, som gör stora mätningar på 53 olika språk. ”Det är tunga konton i en migrationskritisk miljö som har miljontals följare och driver på den här trafiken”, säger generaldirektör Madeleine Sjöstedt.",
+      "summary": "Det tröga regeringsbildandet riskerar att leda till försenat reformarbete då de rödgröna kanske inte hinner lämna in en höstbudget i tid. I vissa fall kan förändringar göras i efterhand i en ändringsbudget, t. ex. i vårbudgeten, men till exempel den statliga inkomstskatten kan endast ändras på hösten. ”Det blir ett förlorat år för många stora reformer om det inte finns en enighet om budgeten innan dess,” säger Lisa Pelling på den fackföreningsnära tankesmedjan Arena Idé.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312350'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9311180'",
       "matched_terms": [
-        "riksdagsval"
+        "regeringsbildning",
+        "regeringsbildande"
       ],
-      "first_seen": "2026-10-03T14:15:43.458054+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/de-ar-i-politisk-minoritet-pa-sitt-gymnasium",
-      "title": "De är i politisk minoritet på sitt gymnasium",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-03",
-      "author": "Molly Karlsson Inde, Anette Nantell",
-      "commentator": "",
-      "summary": "På Danderydsskolan där nästa alla röstar höger stämplas centerpartisten Melker Nordström som ”sosse”. På Söderskolan där MP fick egen majoritet väcker moderaten Loke Hedman starka reaktioner. Hur är det att sticka ut på en plats där man hänger varje dag?",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-03 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/de-ar-i-politisk-minoritet-pa-sitt-gymnasium/\nPå Danderydsskolan där nästa alla röstar höger stämplas centerpartisten Melker Nordström som ”sosse”. På Söderskolan där MP fick egen majoritet väcker moderaten Loke Hedman starka reaktioner.\nHur är det att sticka ut på en plats där man hänger varje dag?\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nUtanför Danderyds gymnasium, där Tidöpartierna får 80,8 procent av elevernas röster i skolvalet, sitter en 17-årig elev i CUF-tröja och läser. Det var också så hans politiska engagemang började – med en bok alltså.\n– Jag läste 1984 när jag var tolv år och började hata staten, säger han med ett skratt.\n– Ideologiskt sett, om allting skulle fungera perfekt, vill jag avskaffa staten. Men jag är liksom inte praktiskt anarkist, förtydligar han.\nSom centerpartist sticker han ut på sitt gymnasium. Här är Moderaterna ”status quo”, förklarar Melker:\n– Alltså du vet det där gamla avsnittet av Svensson, Svensson, när farsan säger: ”Men man måste ju rösta på Socialdemokraterna”. Jag tror det är lite samma här. Men det är klart att man influeras av sin livsstil och av sina föräldrar. Jag har också gjort det.\nHan säger att man vet att Danderyds gymnasium är en högerskola, oavsett om man är politiskt insatt eller inte.\n– Stereotypen om Danderyd är att det är grisch-grabbar och folk som bor i Djursholm.\nFakta. Statsvetaren om skolornas politiska splittring\nJakob Ahlbom, doktorand i statsvetenskap, säger att den geografiska polariseringen har ökat i Sverige, vilket reflekteras även i Stockholmsskolorna.\n– Det som ligger bakom är socioekonomisk bakgrund i en bredare bemärkelse. Det handlar alltså inte bara om inkomst, utan också om att personer med olika intressen och livsmiljöer röstar olika, säger han.\nAtt det blir så fundamentala skillnader kan också ha med människans natur att göra:\n– Människan är ett flockdjur som tenderar att gruppera sig, säger Ahlbom.\nAtt Stockholmsskolorna har så olika politiska profiler vet även ungdomsförbunden om, säger Melker.\n– Vi i CUF kampanjar kanske inte om att ha platt skatt utanför Södra Latin. Då pratar man om tonårsutvisningarna, så att man har chans att värva någon.\nMånaderna innan valet har han fått ställa upp på många debatter med sina klasskompisar, oftast frivilligt.\n– Jag hade en rätt så lång debatt i klassen för typ en vecka sedan om migrationspolitik. Det är det folk vill snacka med mig om eftersom vi verkligen inte håller med varandra.\n– Det beror helt på mot vem. Vissa vill bara provocera, vilket jag förstår. Men andra vill faktiskt diskutera, vilket jag tycker om.\nTrots att han också är borgerlig uppfattas han som mer vänster på sin skola.\n– Med tanke på att många har en rätt så statisk bild av hur svensk politik ser ut, så blir man ofta ihopklumpad med vänstern. Då behöver jag förklara för de andra att vi vill sänka skatten mest av alla. Kalla mig inte sosse, liksom.\nPå frågan om han hade velat byta skola, till en där fler tycker som honom, är svaret ett starkt nej.\n– Det lättaste sättet att bli dum i huvudet är att spendera all sin tid med folk som håller med en. Jag tycker verkligen att det är viktigt att kunna diskutera med andra, och sen behöver mina åsikter prövas också.\n– Vi båda har blått på oss i dag, konstaterar Loke Hedman nöjt och pekar på sin moderatkollega Atli Hedberg.\nFöre årsskiftet läste Loke det kommunistiska manifestet och det brann till – fast i motstånd. Kort därefter gick han med i MUF, Moderaternas ungdomsförbund.\n– Jag har inte alltid varit övertygad moderat, men när jag fortsatte läsa till exempel Hayek och Friedman resonerade jag mycket mer med det än med Marx och Engels.\nI år har han också startat en moderat förening på sin gymnasieskola Södra Latin, något som saknades sedan innan. I dag har MSU Fria Latin fem regelbundet engagerade, och Atli Hedberg var en av de tidiga värvningarna.\nDen socialdemokratiska föreningen på skolan är betydligt större – vilket kanske inte är så förvånande. Södra Latin är en av Stockholmsskolorna med högst rödgrön majoritet i skolvalet. Oppositionspartierna hade fått drygt 94 procent av riksdagsmandaten om skolans elever fick bestämma.\nLoke Hedman tror att elevernas vänsterlutning beror på att de kommer från välbärgade familjer.\n– Jag tror att det ligger någonting i att de vill vara annorlunda och göra uppror. Sedan tror jag också att vänstersidans patosargument är mycket starkare än våra. De är lättare att övertyga med än att sänka skatten för allihopa.\nMSU på skolan hamnar ofta i debatt med sina klasskompisar. Olikheterna kan blossa upp i matsalen, på lektioner eller på raster.\n– Egentligen lite när som helst. Folk är väldigt intresserade och engagerade, säger Atli.\nAtt gå på en skola med fler moderater låter på sätt och vis skönt, tycker Atli.\n– Kulturen här är väldigt vänster och det blir svårt att vara fullt ut öppen med vad man tycker utan att mötas av kritik, ord eller att personen blir attackerad snarare än argumenten.\nLoke ser också fördelar med att umgås med likasinnade, men stormtrivs samtidigt i att vara i politisk minoritet:\n– Om det är underförstått att alla redan tycker samma sak så lyssnar ingen på en. Här lyssnar folk och man får mer reaktioner, även om det mestadels handlar om motreaktioner. Det är mycket, mycket roligare att vara moderat på en vänsterskola.\nSom exempel lyfter han en kampanj där de affischerat korridorerna med budskapet om att Södra Latin borde privatiseras.\n– Det är ingenting som vi står för egentligen. Det är snarare för att vi vill väcka reaktioner och få folk att förstå ändå att det finns olika åsikter. Vi är inte här för att värva medlemmar. Vi vill bredda en väldigt smal åsiktskorridor.\nTrots den upptrissade stämningen tror de båda att det finns åsikter som de delar med de andra eleverna på skolan. Framför allt handlar det om att alla människor är lika mycket värda, menar Loke.\n– Men vi vill inte heller se tonårsutvisningarna eller det otroligt höga lönekravet för arbetstillstånd som regeringen infört. Det är jättekonstigt att människor ska tjäna 33 000 för att få stanna i Sverige.\nMed föreningen hoppas de att fler på skolan vågar säga vad de tycker.\n– Det är inte roligt om världen ska vara svart eller vit, säger Loke.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSvensksomalier känner sig utpekade efter valet\nStatsvetare om oväntade inviten: ”Fiffigt drag”\nIpsos var pricksäkert – nu ska mätningarna bli ännu bättre",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-10-03T14:15:43.458054+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/ipsos-var-pricksakert-nu-ska-matningarna-bli-annu-battre",
-      "title": "Ipsos var pricksäkert – nu ska mätningarna bli ännu bättre",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-03",
-      "author": "Hans Rosén",
-      "commentator": "",
-      "summary": "Ipsos kom närmast partiernas valresultat av alla opinionsinstitut i den sista mätningen före valdagen. Men Moderaterna underskattades och nu börjar arbetet för att lyckas ännu bättre i nästa val. – Utmaningen är att förstå vad som är slump och vad som är systematiska fel, säger Nicklas Källebring på Ipsos.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-03 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/ipsos-var-pricksakert-nu-ska-matningarna-bli-annu-battre/\nIpsos kom närmast partiernas valresultat av alla opinionsinstitut i den sista mätningen före valdagen. Men Moderaterna underskattades och nu börjar arbetet för att lyckas ännu bättre i nästa val.\n– Utmaningen är att förstå vad som är slump och vad som är systematiska fel, säger Nicklas Källebring på Ipsos.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "valresultat",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-10-03T14:15:43.458054+00:00"
+      "first_seen": "2026-10-04T06:15:44.897236+00:00"
     }
   ]
 }
