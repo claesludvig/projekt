@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "2096 artiklar i 7 flöden",
-   "varde": 2096.0
+   "detalj": "2139 artiklar i 7 flöden",
+   "varde": 2139.0
   },
   {
    "grupp": "aktualitet",
@@ -1187,7 +1187,7 @@
    "id": "rader_polisen_manad",
    "beskrivning": "Tabell polisen_manad",
    "status": "ok",
-   "detalj": "5328 rader (förra 5280)",
+   "detalj": "5328 rader (förra 5328)",
    "varde": 5328.0
   },
   {
@@ -1251,7 +1251,7 @@
    "id": "rader_verklighet",
    "beskrivning": "Tabell verklighet",
    "status": "ok",
-   "detalj": "13522 rader (förra 13521)",
+   "detalj": "13522 rader (förra 13522)",
    "varde": 13522.0
   },
   {
@@ -1427,7 +1427,7 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "446 rader (förra 399)",
+   "detalj": "446 rader (förra 446)",
    "varde": 446.0
   },
   {
@@ -1443,7 +1443,7 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "160 rader (förra 104)",
+   "detalj": "160 rader (förra 160)",
    "varde": 160.0
   },
   {
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "319 rader (förra 301)",
-   "varde": 319.0
+   "detalj": "323 rader (förra 319)",
+   "varde": 323.0
   },
   {
    "grupp": "volym",
@@ -1475,7 +1475,7 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "2075 rader (förra 2059)",
+   "detalj": "2075 rader (förra 2075)",
    "varde": 2075.0
   },
   {
@@ -1563,7 +1563,7 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2745 rader (förra 2741)",
+   "detalj": "2745 rader (förra 2745)",
    "varde": 2745.0
   },
   {
