@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-10-05T06:43:04.841535+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-10-05T14:19:37.406628+00:00",
+  "new_count": 1,
   "skipped": {
     "seen": 42,
-    "offtopic": 140,
-    "old": 23
+    "offtopic": 143,
+    "old": 24
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -23,13 +23,13 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,96 +65,21 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/ledare/vansterpartiets-sanning-ar-ingen-sanning",
-      "title": "Ledare: Vänsterpartiets ”sanning” är ingen sanning",
-      "source": "DN Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-05",
-      "author": "DN:s ledarredaktion",
-      "commentator": "",
-      "summary": "Det är respektlöst att vilja bygga en regering på Vänsterpartiets mandat utan att partiet har ministerposter, säger V-företrädare. Det skulle ingen annan gå med på. Verkligen?",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/ledare/vansterpartiets-sanning-ar-ingen-sanning'",
-      "matched_terms": [
-        "ministerpost",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-05T06:43:04.841535+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/efter-ss-historiskt-daliga-valresultat-intern-kritik-mot-valstrategin",
-      "title": "Efter S:s historiskt dåliga valresultat: Intern kritik mot valstrategin",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-04",
-      "author": "Mathilda Ståhl, Marie Nordstrand",
-      "commentator": "",
-      "summary": "Socialdemokraterna gjorde sitt sämsta val någonsin. Nu riktas hård kritik från egna partimedlemmar mot partiets valstrategi där fokuset på den egna partiledaren samt skrämsel om SD-ministrar i en Tidöregering har fått ta mer plats än sakpolitiken.",
-      "fulltext": "Socialdemokraterna gjorde sitt sämsta val någonsin.\nNu riktas hård kritik från egna partimedlemmar mot partiets valstrategi där fokuset på den egna partiledaren samt skrämsel om SD-ministrar i en Tidöregering har fått ta mer plats än sakpolitiken.\nDen före detta socialdemokratiska riksdagsledamoten, Veronica Palm, menar att S dåliga valresultat är ett tydligt tecken på att partiets valstrategi inte fungerade.\nKritiken handlar om att det varit för stort fokus på Magdalena Andersson som person samt att prata om hur det skulle se ut med Sverigedemokraterna i en regering. Sakpolitiken har däremot inte tagit lika stor plats.\n– Det fungerade inte 2022 och det fungerade inte nu, säger Veronica Palm.\nMånga i partiet delar hennes bild av att valstrategin inte varit gynnsam för Socialdemokraterna, men få vill prata öppet om problematiken.\nEn av dem som resonerar över vad som gick fel är Elfva Barrio, ordförande för S-studenter.\n– Vi kan inte fortsätta satsa på att övertyga missnöjda borgerliga väljare utan vi måste ju övertyga väljare om att det är socialdemokratisk politik som är vägen framåt, säger hon.\nAnders Ygeman (S) får frågan kring vad han ser för förklaring till Socialdemokraternas tapp i söndagskvällens Agenda.\n– Vårt första alternativ i den här valrörelsen var att bli av med Kristersson-regeringen och då har flera partier på vår sida ökat medan vi minskat, säger han.\nEnligt Ygeman kommer Socialdemokraterna att utvärdera valet noga när turerna kring regeringsbildningen lugnat sig.\n– Vi får utvärdera valet i lugn och ro och vi kommer nog att hitta många saker som vi gjorde rätt och en del saker som vi gjorde fel också, säger han.\nHör Veronica Palm berätta om sin kritik mot Socialdemokraternas valstrategi i spelaren ovan.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
-        "valresultat",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-10-05T06:43:04.841535+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9312823",
-      "title": "De rödgröna partierna möts på fredag",
+      "url": "https://www.sverigesradio.se/artikel/9312912",
+      "title": "Sánchez utlyser nyval",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-04",
+      "published": "2026-10-05",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Centerpartiet kommer att träffa de övriga rödgröna partierna på fredag, säger Elisabeth Thand Ringqvist (C) i SVT:s Agenda. Samtidigt betonar C-ledaren att de röda linjerna mot Vänsterpartiet står kvar. Socialdemokraternas vice gruppledare Anders Ygeman säger att han hoppas på öppningar under veckan inför mötet.",
+      "summary": "Spaniens premiärminister Pedro Sánchez utlyser nyval efter att hans regering inte fått igenom sina förslag för att lösa landets bostadskris, meddelar han i ett tv-sänt tal på måndagsmorgonen. Nyvalet kommer att hållas 29 november. Bostadspaketet, i huvudsak bestående av två olika lagar, lades fram efter det att en 87-årig kvinna vräktes från sin lägenhet i Madrid – vilket har fått spanjorernas ilska över bostadskrisen att kulminera. Men förslagen röstades ner i det spanska parlamentet, vilket visar att Sánchez regeringsunderlag är ett väldigt skört bygge, säger Sveriges Radios Sydeuropakorrespondent Cecilia Blomberg.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312823'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9312912'",
       "matched_terms": [
-        "Centerpartiet",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
+        "regeringsunderlag"
       ],
-      "first_seen": "2026-10-05T06:43:04.841535+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/thand-ringqvist-roda-linjerna-bleknar-inte",
-      "title": "Thand Ringqvist: Röda linjerna bleknar inte",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-04",
-      "author": "Frida Bergkvist",
-      "commentator": "",
-      "summary": "Centerpartiets invit innebär inte att de röda linjerna mot Vänsterpartiet har bleknat. Det säger Elisabeth Thand Ringqvist i SVT:s Agenda inför fredagens rödgröna möte. – Det är inte en korrekt analys, säger C-ledaren.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-05 08:41\nArtikelns ursprungsadress: https://www.dn.se/sverige/thand-ringqvist-roda-linjerna-bleknar-inte/\nCenterpartiets invit innebär inte att de röda linjerna mot Vänsterpartiet har bleknat. Det säger Elisabeth Thand Ringqvist i SVT:s Agenda inför fredagens rödgröna möte.\n– Det är inte en korrekt analys, säger C-ledaren.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nCenterledaren Elisabeth Thand Ringqvist har bjudit in S, V och MP till en gemensam lägesgenomgång och samtal om utmaningar framöver.\nVissa betraktar mötet, som ska ske på fredag, som ett steg framåt mot en rödgrön regering. Men enligt Thand Ringqvist har Centerns röda linjer mot Vänstern inte bleknat.\n– Det är inte en korrekt analys, säger C-ledaren i Agenda.\nEnligt Thand Ringqvist bör mötet ske innan partierna börjar förhandla om politik och poster. Hon säger att C kan bygga regering med ”allting från Miljöpartiet till Moderaterna”, men att C och V i dagsläget ”har väldigt få beröringspunkter”.\n– Våra röda linjer ligger kvar. Vi har gått till val på en politik som ligger i mitten, säger Thand Ringqvist.\nHon svarar inte på om hon är beredd att gå till nyval för att slippa regera med V.\n– Ett extraval skulle vara ett misslyckande för alla partier och vi måste kunna lösa det tidigare, säger C-ledaren.\nVänsterpartiets vice ordförande Ida Gabrielsson menar att Centerpartiet ”blockerar” regeringsbildningen. S-ledaren Magdalena Andersson fick tidigare i veckan en ny möjlighet att sondera möjligheterna för att bilda regering – efter att hon misslyckats första gången.\n– Har vi fyra Magdalena Andersson som statsministerkandidat, då lär vi vara vuxna nog att ge och ta till varandra i innehåll. Inte sätta upp en linje, säger Ida Gabrielsson.\nSocialdemokraten Anders Ygeman kommer inte att gå in som ”domare” mellan C och V, framhåller han i Agenda.\nGabrielsson efterfrågar dock mer draghjälp från S.\n– Det är lite fegt ändå. Det är inte så att vi har ett krav mot Centern, utan det är de som har det mot oss. Man behöver inte vara domare, men lite mer rättvis, säger hon.\nYgeman svarar inte på om S är beredda att släppa in V i en regering.\n– Vi kommer inte dela ut några statsrådsposter i tv, säger han.\nSamtliga rödgröna partier har meddelat att de kommer närvara på fredagens möte.\nS-ledaren Magdalena Andersson har i uppdrag att sondera förutsättningarna för att bilda regering. Hon ska rapportera till talman Andreas Norlén senast den 12 oktober och därefter kommer en statsministeromröstning att äga rum i riksdagen.\nStatsvetare om oväntade inviten: ”Fiffigt drag”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nCenterns väg till makten: ”Taggtråd och valium”\n22 och 24 år – och ideologiska fiender: Här är riksdagens yngsta ledamöter\nSusanne Nyström: Det finns bara ett sätt för regeringsbildningen att röra sig framåt",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-05T06:43:04.841535+00:00"
-    },
-    {
-      "url": "https://www.dn.se/ledare/susanne-nystrom-det-finns-bara-ett-satt-for-regeringsbildningen-att-rora-sig-framat",
-      "title": "Susanne Nyström: Det finns bara ett sätt för regeringsbildningen att röra sig framåt",
-      "source": "DN Nyheter",
-      "kind": "kommentar",
-      "published": "2026-10-04",
-      "author": "Susanne Nyström",
-      "commentator": "Susanne Nyström",
-      "summary": "Ulf Kristersson (M) är fullt medveten om vad som krävs för att nästa regering ska kunna bildas. Det har han visat i flera intervjuer och i sitt brev till talmannen.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-05 08:41\nArtikelns ursprungsadress: https://www.dn.se/ledare/susanne-nystrom-det-finns-bara-ett-satt-for-regeringsbildningen-att-rora-sig-framat/\nUlf Kristersson (M) är fullt medveten om vad som krävs för att nästa regering ska kunna bildas. Det har han visat i flera intervjuer och i sitt brev till talmannen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFörst fick Magdalena Andersson (S) sonderingsuppdraget av talman Andreas Norlén. Därefter kastade hon in handduken. Och i fredags skickade talmannen tillbaka uppgiften till henne igen.\nSamtidigt slog Norlén fast att det kommer att krävas omprövning och eftertanke. I alla fall om processen ska röra sig framåt.\nDet är han långt ifrån ensam om att inse.\nRedan några dagar efter valet, när Ulf Kristersson (M) i ett brev till talmannen begärde att få bli entledigad, påtalade han att förutsättningarna för att bilda regering är svåra och att det därför behövs en ”konstruktiv öppenhet från riksdagens partier för att en statsminister ska kunna tolereras”. I senare intervjuer har han även konstaterat att alla lösningar verkar ”rätt osannolika” just nu ( SvD 29/9 ).\n”Att V viker sig är osannolikt, att C viker sig är osannolikt, att det finns en förändring på min sida är osannolikt,” sammanfattade han läget i Dagens industri ( 23/9 ).\n”Att vi skulle ha ett extraval är osannolikt”, fortsatte han. Och, inte minst: ”Att vi aldrig mer får en regering är det mest osannolika”.\n”Något kommer att inträffa, frågan är bara vad”, löd den givna slutsatsen.\nHär finns egentligen bara två huvudalternativ. Antingen bestämmer sig Socialdemokraterna, Miljöpartiet, Centerpartiet och Vänsterpartiet – som på C:s inbjudan snart ska samlas till möte – för att utgöra ett gemensamt regeringsunderlag, som utgår från sakpolitiska överenskommelser. Eller så ser Kristersson själv till att något inträffar genom att ta initiativ till att bilda en S-M-regering tillsammans med ett av de mindre mittenpartierna.\nDet senare har han avfärdat, med motiveringen att en samlingsregering bara är tänkbart vid krig eller krigsfara ( TT 28/9 ). Men det är dock inte en sådan som är aktuell eftersom en majoritet av riksdagspartierna skulle stå utanför. Och M-ledaren har också understrukit att han är beredd att försöka bilda regering om Andersson går bet – samt att några röda linjer måste förflyttas: ”Annars får vi ingen regering igen” ( Dagens industri 23/9 ).\nDet är den inställningen som krävs i en tid när det mesta framstår som osannolikt. I alla fall om processen ska röra sig framåt.\nSusanne Nyström: Politiker ska synas i sömmarna – men det här är bara trams\nSusanne Nyström: I måndags ställde Camilla Kvartoft valårets jobbigaste frågor\nSusanne Nyström: Så förlorade Vänsterpartiet greppet om sin egen kris\n”Vill du prata om Stefan Holm och Emil Persson?”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nThand Ringqvist: Röda linjerna bleknar inte\nCenterns väg till makten: ”Taggtråd och valium”\n22 och 24 år – och ideologiska fiender: Här är riksdagens yngsta ledamöter",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman"
-      ],
-      "first_seen": "2026-10-05T06:43:04.841535+00:00"
+      "first_seen": "2026-10-05T14:19:37.406628+00:00"
     }
   ]
 }
