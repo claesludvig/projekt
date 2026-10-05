@@ -11223,6 +11223,7 @@ egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF,riket,0000,2026M06,2026.4583
 egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF,riket,0000,2026M07,2026.5416666666667,1.75,,
 egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF,riket,0000,2026M08,2026.625,1.75,,
 egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF,riket,0000,2026M09,2026.7083333333333,1.75,,
+egen_ekonomi,Styrräntan (%),Riksbanken SECBREPOEFF,riket,0000,2026M10,2026.7916666666667,1.75,,
 forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS,riket,0000,2024,2024.5,1.99771738810168,hogre,2.0
 forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS,riket,0000,2023,2023.5,1.50126036606591,hogre,2.0
 forsvar,"Försvarsutgifter, % av BNP (SIPRI)",Världsbanken MS.MIL.XPND.GD.ZS,riket,0000,2022,2022.5,1.33147661923348,hogre,2.0

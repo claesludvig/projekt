@@ -1,6 +1,6 @@
-# Lägesbild vecka 40 2026
+# Lägesbild vecka 41 2026
 
-Skapad 2026-10-04 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-10-05 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
 
 ## Ovanlig utveckling
 
@@ -9,14 +9,14 @@ Skapad 2026-10-04 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen j
 ## Värd att bevaka
 
 - **Beviljade uppehållstillstånd, första**: Augusti 2026: 6 863. Senaste tolv månaderna: 87 984 (året innan 89 405). De tre senaste månaderna: −9 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2021). _Källa: Migrationsverket._
-- **Skjutningar**: Augusti 2026: 4. Senaste tolv månaderna: 97 (året innan 202). De tre senaste månaderna: −61 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
-- **Döda i skjutningar**: Augusti 2026: 0. Senaste tolv månaderna: 23 (året innan 45). De tre senaste månaderna: −33 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
-- **Sprängningar (detonationer)**: Augusti 2026: 4. Senaste tolv månaderna: 130 (året innan 197). De tre senaste månaderna: −75 % mot samma månader i fjol. _Källa: Polismyndigheten._
+- **Skjutningar**: September 2026: 8. Senaste tolv månaderna: 83 (året innan 198). De tre senaste månaderna: −58 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
+- **Döda i skjutningar**: September 2026: 1. Senaste tolv månaderna: 18 (året innan 48). De tre senaste månaderna: −64 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
+- **Sprängningar (detonationer)**: September 2026: 1. Senaste tolv månaderna: 112 (året innan 207). De tre senaste månaderna: −86 % mot samma månader i fjol. _Källa: Polismyndigheten._
 
 ## Inom det vanliga
 
 - **Diesel, prisförändring 12 mån (%)**: Augusti 2026: 18,0 %. +23,3 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
-- **Styrräntan (%)**: September 2026: 1,8 %. −0,2 procentenheter mot ett år tidigare. _Källa: Riksbanken._
+- **Styrräntan (%)**: Oktober 2026: 1,8 %. 0,0 procentenheter mot ett år tidigare. _Källa: Riksbanken._
 - **KPIF, 12-månadersförändring (%)**: Augusti 2026: 0,7 %. −2,6 procentenheter mot ett år tidigare. Mål: 2,0 (Riksbankens inflationsmål (KPIF)). _Källa: SCB TAB6590._
 - **El, prisförändring 12 mån (%)**: Augusti 2026: 4,7 %. −20,3 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 - **Beviljade uppehållstillstånd, skydd**: Augusti 2026: 882. Senaste tolv månaderna: 11 983 (året innan 12 527). De tre senaste månaderna: −22 % mot samma månader i fjol. _Källa: Migrationsverket._

@@ -1,5 +1,5 @@
 {
- "skapad": "2026-10-04",
+ "skapad": "2026-10-05",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -27,24 +27,24 @@
    "id": "lage_skjutningar",
    "beskrivning": "Månadsserie: Skjutningar",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_skjutningar_doda",
    "beskrivning": "Månadsserie: Döda i skjutningar",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_sprangningar",
    "beskrivning": "Månadsserie: Sprängningar (detonationer)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -59,8 +59,8 @@
    "id": "lage_styrranta",
    "beskrivning": "Månadsserie: Styrräntan (%)",
    "status": "ok",
-   "detalj": "senaste 2026-09, 1 månader sedan",
-   "varde": 1.0
+   "detalj": "senaste 2026-10, 0 månader sedan",
+   "varde": 0.0
   },
   {
    "grupp": "aktualitet",
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "1889 artiklar i 7 flöden",
-   "varde": 1889.0
+   "detalj": "2096 artiklar i 7 flöden",
+   "varde": 2096.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-09-24, 10 dagar sedan",
-   "varde": 10.0
+   "detalj": "senaste dokument 2026-09-24, 11 dagar sedan",
+   "varde": 11.0
   },
   {
    "grupp": "volym",
@@ -1187,8 +1187,8 @@
    "id": "rader_polisen_manad",
    "beskrivning": "Tabell polisen_manad",
    "status": "ok",
-   "detalj": "5280 rader (förra 5280)",
-   "varde": 5280.0
+   "detalj": "5328 rader (förra 5280)",
+   "varde": 5328.0
   },
   {
    "grupp": "volym",
@@ -1251,8 +1251,8 @@
    "id": "rader_verklighet",
    "beskrivning": "Tabell verklighet",
    "status": "ok",
-   "detalj": "13521 rader (förra 13521)",
-   "varde": 13521.0
+   "detalj": "13522 rader (förra 13521)",
+   "varde": 13522.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "399 rader (förra 352)",
-   "varde": 399.0
+   "detalj": "446 rader (förra 399)",
+   "varde": 446.0
   },
   {
    "grupp": "volym",
@@ -1443,16 +1443,16 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "104 rader (förra 104)",
-   "varde": 104.0
+   "detalj": "160 rader (förra 104)",
+   "varde": 160.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "301 rader (förra 281)",
-   "varde": 301.0
+   "detalj": "319 rader (förra 301)",
+   "varde": 319.0
   },
   {
    "grupp": "volym",
@@ -1475,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "2059 rader (förra 2059)",
-   "varde": 2059.0
+   "detalj": "2075 rader (förra 2059)",
+   "varde": 2075.0
   },
   {
    "grupp": "volym",
@@ -1563,8 +1563,8 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2741 rader (förra 2741)",
-   "varde": 2741.0
+   "detalj": "2745 rader (förra 2741)",
+   "varde": 2745.0
   },
   {
    "grupp": "volym",
