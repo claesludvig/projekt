@@ -25,8 +25,11 @@ import katalog
 BASE_DIR = Path(__file__).resolve().parent
 DB = BASE_DIR / "data" / "bostadsarkiv.sqlite"
 UT = BASE_DIR / "webb" / "data"
-MAX_STYCKEN = 30
-MAX_TECKEN = 1100
+MAX_STYCKEN = 20
+MAX_TECKEN = 900
+# Högsta längd på anförandetext per relevansgrad (låg, medel, hög); längre
+# anföranden kortas till de stycken som träffar och märks med "kort".
+ANF_MAX = {0: 1200, 1: 4000, 2: 12000}
 MAX_FIL = 14_000_000
 GRAD = {"låg": 0, "medel": 1, "hög": 2}
 PERIODER = [(1939, 1944), (1945, 1959), (1960, 1974), (1975, 1989), (1990, 2009), (2010, 2026)]
@@ -82,6 +85,33 @@ def dokument_stycken(db, dok_id, ar, rem=False):
     return valda, len(ut) + len(akt_ut), sorted(kap), sorted(akt)
 
 
+def korta_anforande(t, grad, ar):
+    """Hela texten om den ryms, annars styckena med träffar (och början) upp
+    till ANF_MAX[grad] tecken, åtskilda med [ … ]."""
+    gr = ANF_MAX[grad]
+    if len(t) <= gr:
+        return t, False
+    st = t.split("\n\n")
+    valda = [0]
+    for i, s in enumerate(st):
+        low = s.lower()
+        if i and (_KARNA.search(low) or avsnitt_for(ar, low) or _AKT.search(low)):
+            valda.append(i)
+    ut, n, forra = [], 0, -1
+    for i in valda:
+        s = st[i]
+        if n + len(s) > gr:
+            s = klipp(s, _KARNA) if n == 0 else ""
+            if not s:
+                break
+        if forra >= 0 and i != forra + 1:
+            ut.append("[ … ]")
+        ut.append(s)
+        n += len(s)
+        forra = i
+    return "\n\n".join(ut) + "\n\n[ … ]", True
+
+
 def period(ar):
     for i, (f, t) in enumerate(PERIODER):
         if f <= ar <= t:
@@ -132,8 +162,12 @@ def main():
          kammare) in db.execute(
             """SELECT id, prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik,
                       grad, text, kammare FROM anforanden ORDER BY datum, prot_id, anf_nr"""):
+        g = GRAD.get(grad, 0)
+        kort_text, kortad = korta_anforande(text, g, ar or 0)
         p = {"d": datum, "p": prot_id, "r": f"{rm}:{prot_nr}", "n": anf_nr, "s": talare,
-             "f": parti, "k": replik, "h": rub(rubrik), "g": GRAD.get(grad, 0), "x": text}
+             "f": parti, "k": replik, "h": rub(rubrik), "g": g, "x": kort_text}
+        if kortad:
+            p["kort"] = 1
         if kammare:
             p["c"] = kammare
         kap = avsnitt_for(ar or 0, (text + " " + rubrik).lower())

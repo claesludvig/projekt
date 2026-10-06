@@ -184,7 +184,7 @@ footer a{color:var(--accent)}
 
   <footer>
     <span>Källor: <a href="https://data.riksdagen.se" target="_blank" rel="noopener">Riksdagens öppna data</a> (protokoll, propositioner, betänkanden och utlåtanden, motioner, SOU från 1997, Ds, direktiv) och <a href="https://sou.kb.se" target="_blank" rel="noopener">Kungliga bibliotekets digitaliserade SOU</a> (1939–1996). Det mesta före 1990-talet är inskannat och OCR-tolkat, så enstaka ord kan vara fellästa. Citera därför från originalet, som du når via länken vid varje källa.</span>
-    <span>Ett anförande räknas från talarraden (”Herr LUNDBERG (s):” före 1980-talet, ”Anf. 12 NAMN (parti):” därefter) till nästa talare. Det tas med om det nämner bostadsbyggandet eller dess finansiering (t.ex. <i>bostadsbyggande</i>, <i>räntegaranti</i>, <i>tertiärlån</i>, <i>placeringsplikt</i>, <i>räntebidrag</i>) eller om ärendet handlar om bostäder; då kommer hela debatten med. För dokumenten visas de stycken som tar upp ämnet, högst 30 per dokument. Hela texten finns hos källan.</span>
+    <span>Ett anförande räknas från talarraden (”Herr LUNDBERG (s):” före 1980-talet, ”Anf. 12 NAMN (parti):” därefter) till nästa talare. Det tas med om det nämner bostadsbyggandet eller dess finansiering (t.ex. <i>bostadsbyggande</i>, <i>räntegaranti</i>, <i>tertiärlån</i>, <i>placeringsplikt</i>, <i>räntebidrag</i>) eller om ärendet handlar om bostäder; då kommer hela debatten med. Långa anföranden med låg eller medelhög relevans är kortade till de stycken som tar upp ämnet. För dokumenten visas de stycken som tar upp ämnet, högst 20 per dokument. Hela texten finns hos källan.</span>
     <span>Kapitelavsnitten sätts automatiskt efter år och ord i texten. Se dem som en grov sortering. Lodräta linjer i diagrammet markerar maktskiften mellan blocken: Fälldin 1976, Palme 1982, Bildt 1991, Carlsson 1994, Reinfeldt 2006, Löfven 2014 och Kristersson 2022.</span>
     <span id="upd"></span>
   </footer>
@@ -264,7 +264,7 @@ function cardAnf(r,i,h,ts){
     <p class="snip" id="s${i}">${snippet(r.x,lower[i],ts)}</p>
     ${r.ak?`<div class="akap">${r.ak.map(g=>`<span class="ak" title="Anförandet redovisar eller bemöter aktörens hållning">Om ${esc(AKTNAMN[g]||g)}</span>`).join('')}</div>`:''}
     ${kapTxt(r)}
-    <div class="acts"><button class="linkbtn" type="button" data-full="${i}" aria-expanded="false">Visa hela anförandet</button>
+    <div class="acts"><button class="linkbtn" type="button" data-full="${i}" aria-expanded="false">${r.kort?'Visa utdraget':'Visa hela anförandet'}</button>${r.kort?'<span class="sub">Kortat här, hela texten finns hos riksdagen</span>':''}
       <a href="https://data.riksdagen.se/dokument/${esc(r.p)}.html" target="_blank" rel="noopener">Protokollet hos riksdagen</a>
       <button class="linkbtn" type="button" data-copy="${i}">Kopiera källhänvisning</button></div>
   </article>`;
@@ -426,7 +426,7 @@ function init(idx){
   $('list').addEventListener('click',e=>{
     const b=e.target.closest('button');if(!b)return;
     if(b.dataset.full){const i=+b.dataset.full,r=A[i],p=$('s'+i),open=b.getAttribute('aria-expanded')==='true';
-      if(open){p.className='snip';p.innerHTML=snippet(r.x,lower[i],current.ts);b.textContent='Visa hela anförandet'}
+      if(open){p.className='snip';p.innerHTML=snippet(r.x,lower[i],current.ts);b.textContent=r.kort?'Visa utdraget':'Visa hela anförandet'}
       else{p.className='full';p.innerHTML=highlight(r.x,current.ts);b.textContent='Visa bara utdrag'}
       b.setAttribute('aria-expanded',!open)}
     if(b.dataset.ps){const i=+b.dataset.ps,r=A[i],ul=$('s'+i),open=b.getAttribute('aria-expanded')==='true',ts=current.ts,vis=synliga(r,ts);
