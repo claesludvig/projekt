@@ -10,6 +10,9 @@ Tabeller
 - anforanden: relevanta anföranden med talare, parti, ärende och text
 - avsnitt: de relevanta dokumentens text i avsnitt om ca 2 000 tecken, med
   PDF-sida (KB) eller närmaste rubrik (riksdagen)
+- aktorsstycken: stycken där en aktörsgrupp (aktorer.py) redovisas ta ställning,
+  t.ex. "Byggnadsentreprenörföreningen anser …" i en proposition, samt hela
+  remissvar från regeringen.se med remissinstansens grupp
 - sok_anf, sok_avs: FTS5-index över anföranden och avsnitt (pekar på
   texten i tabellerna, så att den inte lagras två gånger)
 
@@ -24,6 +27,7 @@ import sqlite3
 import time
 from pathlib import Path
 
+import aktorer
 import text as textmodul
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -55,6 +59,11 @@ CREATE VIRTUAL TABLE sok_avs USING fts5(
 CREATE INDEX anf_datum ON anforanden(datum);
 CREATE INDEX anf_parti ON anforanden(parti);
 CREATE INDEX avs_dok ON avsnitt(dok_id);
+CREATE TABLE aktorsstycken (
+  id INTEGER PRIMARY KEY, typ TEXT, ref TEXT, dok_id TEXT, ar INTEGER, grupp TEXT,
+  organisation TEXT, sida TEXT, text TEXT);
+CREATE INDEX akt_grupp ON aktorsstycken(grupp, ar);
+CREATE INDEX akt_ref ON aktorsstycken(ref);
 CREATE VIEW kallor AS
   SELECT 'prot' AS typ, id, datum, ar, 'Prot. ' || rm || ':' || prot_nr || ', anf. ' || anf_nr AS beteckning,
          talare || CASE WHEN parti <> '' THEN ' (' || parti || ')' ELSE '' END AS titel,
@@ -157,6 +166,18 @@ def main():
             db.execute("INSERT INTO avsnitt (dok_id, nr, sida, rubrik, text) VALUES (?,?,?,?,?)",
                        (r["id"], nr, sida, rub, txt))
             n_avs += 1
+            if r["doktyp"] == "rem":
+                g = aktorer.grupp_for_organisation(r["organ"])
+                if nr <= 3:
+                    db.execute("INSERT INTO aktorsstycken (typ, ref, dok_id, ar, grupp, organisation, sida, text)"
+                               " VALUES (?,?,?,?,?,?,?,?)",
+                               ("rem", r["id"], r["id"], ar_av(r["datum"]), g, r["organ"], sida, txt))
+                continue
+            for st in txt.split("\n\n"):
+                for g in aktorer.stallningstagande(st.lower()):
+                    db.execute("INSERT INTO aktorsstycken (typ, ref, dok_id, ar, grupp, organisation, sida, text)"
+                               " VALUES (?,?,?,?,?,?,?,?)",
+                               (r["doktyp"], r["id"], r["id"], ar_av(r["datum"]), g, "", sida, st))
 
     prot = {}
     for r in las_csv(DATA / "protokoll.csv"):
@@ -180,6 +201,10 @@ def main():
                  a["karna"], a["bred"], a["karntermer"], a["bredtermer"], a["grad"],
                  a["ord"], a["url"], textmodul.rensa_sidhuvud(a["text"]), a.get("kammare", "")))
             n_anf += 1
+            low = a["text"].lower()
+            for g in aktorer.stallningstagande(low):
+                db.execute("INSERT INTO aktorsstycken (typ, ref, dok_id, ar, grupp, organisation, sida, text)"
+                           " VALUES (?,?,?,?,?,?,?,?)", ("prot", aid, a["prot_id"], ar_av(a["datum"]), g, "", "", ""))
 
     for t in ("sok_anf", "sok_avs"):
         db.execute(f"INSERT INTO {t}({t}) VALUES ('rebuild')")

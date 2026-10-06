@@ -18,6 +18,7 @@ import re
 import sqlite3
 from pathlib import Path
 
+import aktorer
 import kapitel
 import katalog
 
@@ -32,6 +33,7 @@ PERIODER = [(1939, 1944), (1945, 1959), (1960, 1974), (1975, 1989), (1990, 2009)
 
 _KARNA = re.compile("|".join(f"(?:{p})" for p in katalog.KARNA.values()))
 _BRED = re.compile("|".join(f"(?:{p})" for p in katalog.BRED.values()))
+_AKT = re.compile("|".join(p.pattern for _, p in aktorer._MONSTER))
 _KAP = [(a["nr"], a["fran"], a["till"], re.compile(a["mönster"])) for a in kapitel.AVSNITT]
 
 
@@ -51,23 +53,33 @@ def klipp(st, pat):
     return ("… " if a else "") + st[a:b] + (" …" if b < len(st) else "")
 
 
-def dokument_stycken(db, dok_id, ar):
-    """Stycken med kärnträff eller kapitelträff, kapitelavsnitt för hela texten."""
+def dokument_stycken(db, dok_id, ar, rem=False):
+    """Stycken med kärnträff, kapitelträff eller aktörers ställningstaganden.
+    Returnerar (stycken, antal, kapitelavsnitt, aktörsgrupper). Ett stycke är
+    [sida, text] eller [sida, text, "bygg,fast"] när aktörer tar ställning."""
     kap_pat = [p for _, f, t, p in _KAP if f <= ar <= t]
-    ut, reserv, kap = [], [], set()
-    for sida, txt in db.execute("SELECT sida, text FROM avsnitt WHERE dok_id = ? ORDER BY nr", (dok_id,)):
+    ut, akt_ut, reserv, kap, akt = [], [], [], set(), set()
+    for nr, (sida, txt) in enumerate(db.execute(
+            "SELECT sida, text FROM avsnitt WHERE dok_id = ? ORDER BY nr", (dok_id,)), 1):
         for st in txt.split("\n\n"):
             low = st.lower()
             k = set(avsnitt_for(ar, low))
             kap |= k
-            if _KARNA.search(low) or k:
-                pat = _KARNA if _KARNA.search(low) else next(p for p in kap_pat if p.search(low))
+            g = [] if rem else aktorer.stallningstagande(low)
+            if g:
+                akt |= set(g)
+                akt_ut.append([sida, klipp(st, _AKT),
+                               ",".join(g)])
+            elif _KARNA.search(low) or k or (rem and nr == 1 and len(ut) < 3):
+                pat = _KARNA if _KARNA.search(low) else next((p for p in kap_pat if p.search(low)), _BRED)
                 ut.append([sida, klipp(st, pat)])
             elif len(reserv) < 10 and _BRED.search(low):
                 reserv.append([sida, klipp(st, _BRED)])
-    if not ut:
+    if not ut and not akt_ut:
         ut = reserv
-    return ut[:MAX_STYCKEN], len(ut), sorted(kap)
+    gr = MAX_STYCKEN // 2 if rem else MAX_STYCKEN
+    valda = akt_ut[:gr] + ut[:gr]
+    return valda, len(ut) + len(akt_ut), sorted(kap), sorted(akt)
 
 
 def period(ar):
@@ -112,10 +124,13 @@ def main():
             rubriker.append(r)
         return rub_idx[r]
 
+    anf_akt = {}
+    for ref, g in db.execute("SELECT ref, grupp FROM aktorsstycken WHERE typ = 'prot'"):
+        anf_akt.setdefault(ref, set()).add(g)
     anf = []
-    for (prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik, grad, text,
+    for (aid, prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik, grad, text,
          kammare) in db.execute(
-            """SELECT prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik,
+            """SELECT id, prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik,
                       grad, text, kammare FROM anforanden ORDER BY datum, prot_id, anf_nr"""):
         p = {"d": datum, "p": prot_id, "r": f"{rm}:{prot_nr}", "n": anf_nr, "s": talare,
              "f": parti, "k": replik, "h": rub(rubrik), "g": GRAD.get(grad, 0), "x": text}
@@ -124,13 +139,17 @@ def main():
         kap = avsnitt_for(ar or 0, (text + " " + rubrik).lower())
         if kap:
             p["a"] = kap
+        if aid in anf_akt:
+            p["ak"] = sorted(anf_akt[aid])
         anf.append(p)
 
     dok = []
-    for (did, doktyp, bet, titel, datum, ar, url, pdf, grad, karna, karntermer, ord_, kalla) in db.execute(
+    for (did, doktyp, bet, titel, datum, ar, url, pdf, grad, karna, karntermer, ord_, kalla, organ) in db.execute(
             """SELECT id, doktyp, beteckning, titel, datum, ar, url, pdf_url, grad, karna, karntermer,
-                      ord, kalla FROM dokument WHERE relevant = 1 ORDER BY datum, beteckning"""):
-        ps, n, kap = dokument_stycken(db, did, ar or 0)
+                      ord, kalla, organ FROM dokument WHERE relevant = 1 ORDER BY datum, beteckning"""):
+        ps, n, kap, akt = dokument_stycken(db, did, ar or 0, rem=doktyp == "rem")
+        if doktyp == "rem":
+            akt = [aktorer.grupp_for_organisation(organ)]
         p = {"id": did, "t": doktyp, "b": bet, "ti": titel, "d": datum, "u": url,
              "pdf": pdf, "g": GRAD.get(grad, 0), "kn": karna,
              "kt": [t.split(":")[0] for t in karntermer.split(";") if t][:4],
@@ -138,6 +157,10 @@ def main():
         kap = sorted(set(kap) | set(avsnitt_for(ar or 0, titel.lower())))
         if kap:
             p["a"] = kap
+        if akt:
+            p["ak"] = akt
+        if doktyp == "rem":
+            p["org"] = organ
         dok.append(p)
 
     kap_antal = {a["nr"]: 0 for a in kapitel.AVSNITT}
@@ -146,6 +169,10 @@ def main():
             kap_antal[k] += 1
     per_antal = [sum(1 for p in anf + dok if period(int(p["d"][:4])) == i) for i in range(len(PERIODER))]
 
+    akt_antal = {}
+    for p in anf + dok:
+        for g in p.get("ak", []):
+            akt_antal[g] = akt_antal.get(g, 0) + 1
     per_ar = {}
     for p in anf:
         per_ar.setdefault(p["d"][:4], [0, 0])[0] += 1
@@ -154,6 +181,8 @@ def main():
     index = {
         "rubriker": rubriker,
         "per_ar": per_ar,
+        "aktorer": [{"k": k, "namn": n, "bransch": k in aktorer.BRANSCH, "antal": akt_antal.get(k, 0)}
+                    for k, n, _ in aktorer.GRUPPER],
         "perioder": [{"fran": f, "till": t, "antal": per_antal[i]} for i, (f, t) in enumerate(PERIODER)],
         "kapitel": [{"nr": a["nr"], "namn": a["namn"], "fran": a["fran"], "till": a["till"],
                      "antal": kap_antal[a["nr"]]} for a in kapitel.AVSNITT],
