@@ -108,7 +108,7 @@ class CsvSkrivare:
         ny = not p.exists()
         p.parent.mkdir(parents=True, exist_ok=True)
         self.f = open(p, "a", encoding="utf-8", newline="")
-        self.w = csv.DictWriter(self.f, fieldnames=falt, extrasaction="ignore")
+        self.w = csv.DictWriter(self.f, fieldnames=falt, extrasaction="ignore", lineterminator="\n")
         if ny:
             self.w.writeheader()
 
@@ -124,7 +124,7 @@ def ta_bort_rader(p, nycklar, faltnamn):
     rader = [r for r in las_csv(p) if r[faltnamn] not in nycklar]
     falt = PROT_FALT if p == PROT_CSV else DOK_FALT
     with open(p, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=falt, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=falt, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         w.writerows(rader)
 
