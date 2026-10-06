@@ -75,6 +75,7 @@ GRUPPER = [
 BRANSCH = {"bygg", "fast", "allm", "villa", "bank"}
 NAMN = {k: n for k, n, _ in GRUPPER}
 _MONSTER = [(k, re.compile("|".join(f"(?:{p})" for p in ps))) for k, _, ps in GRUPPER]
+_NAGON = re.compile("|".join(p.pattern for _, p in _MONSTER))
 
 # Ord som visar att ett stycke redovisar en ståndpunkt och inte bara räknar upp
 # remissinstanser.
@@ -108,9 +109,9 @@ def grupp_for_organisation(namn):
 def stallningstagande(text_lower):
     """Grupper vars ståndpunkt redovisas i stycket. Långa uppräkningar av
     remissinstanser (många grupper, inget ställningsord) räknas inte."""
-    g = grupper_i(text_lower)
-    if not g or not _STALLNING.search(text_lower):
+    if not _STALLNING.search(text_lower) or not _NAGON.search(text_lower):
         return []
+    g = grupper_i(text_lower)
     if len(g) >= 5 and len(text_lower) < 120 * len(g):
         return []
     return g
