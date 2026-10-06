@@ -19,7 +19,7 @@ def html_till_text(h):
     h = re.sub(r"(?is)<h[1-6][^>]*>(.*?)</h[1-6]>",
                lambda m: "\n\n# " + re.sub(r"<[^>]+>", " ", m.group(1)) + "\n\n", h)
     h = re.sub(r"(?i)<br\s*/?>", "\n", h)
-    h = re.sub(r"(?i)</(p|div|li|tr|table|h[1-6])>", "\n\n", h)
+    h = re.sub(r"(?i)</(p|div|li|tr|table|pre|h[1-6])>", "\n\n", h)
     h = re.sub(r"(?i)<(td|th)[^>]*>", " ", h)
     h = re.sub(r"<[^>]+>", "", h)
     h = htmlmod.unescape(h).replace("\xa0", " ")
@@ -116,6 +116,12 @@ def dela_avsnitt_rubrik(t):
 # --- Protokoll ----------------------------------------------------------------
 
 _ANF = re.compile(r"^Anf\.\s*(\d+)\s+(.{2,160}?):\s*(.*)$", re.S)
+# 1994/95–2002/03 står talaren på egen rad utan kolon: "Anf. 3 LENA HJELM-WALLÉN (s)".
+_ANF_UTAN_KOLON = re.compile(r"^Anf\.\s*(\d+)\s+([^\n:]{2,160}?)()\s*$")
+
+
+def _anf_huvud(st):
+    return _ANF.match(st) or _ANF_UTAN_KOLON.match(st)
 _PARTI = re.compile(r"\(([A-Za-zÅÄÖåäö]{1,4})\)")
 _PARAGRAF = re.compile(r"^(?:\d+\s*§|§\s*\d+)\s")
 
@@ -148,11 +154,11 @@ def dela_protokoll(text):
                 aktuell = None
             if rub and not re.match(r"^(Anf\.|Prot\.|Protokoll|Riksdagens protokoll)", rub):
                 rubrik = rub
-            m = _ANF.match(rub)
+            m = _anf_huvud(rub)
             if not m:
                 continue
             st = rub
-        m = _ANF.match(st)
+        m = _anf_huvud(st)
         if m:
             if aktuell:
                 anf.append(aktuell)

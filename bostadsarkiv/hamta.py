@@ -172,6 +172,7 @@ def rm_fil(rm):
 def bearbeta_protokoll(dok):
     t = rd_text(dok["dok_id"])
     anf = text.dela_protokoll(t)
+    n_anf = len(anf)
     if not anf:
         # Bilagor till protokollen (skriftliga svar, frågor) saknar anföranden;
         # då bedöms varje avsnitt för sig. Numren 1000+ skiljer dem från anföranden.
@@ -193,7 +194,7 @@ def bearbeta_protokoll(dok):
             "url": f"https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_{dok['dok_id']}",
             "text": a["text"],
         })
-    return dok, len(anf), rel, len(t)
+    return dok, n_anf, rel, len(t)
 
 
 def hamta_protokoll(fran, till, arbetare, om=False, grans=None, tomma=False):
