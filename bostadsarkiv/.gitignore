@@ -1,0 +1,4 @@
+__pycache__/
+# Databasen byggs lokalt med python bygg_db.py (för stor för git)
+data/bostadsarkiv.sqlite
+data/bostadsarkiv.tmp
