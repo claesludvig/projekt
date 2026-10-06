@@ -63,7 +63,19 @@ träffar per term, så att urvalet går att granska och ändra.
 - `data/hamtlogg.json`: antal och fel per körning
 - `data/bostadsarkiv.sqlite`: sökdatabasen. Den byggs lokalt och ligger inte i git.
 
-## Använda
+## Söksidan
+
+Den publicerade söksidan **Bostadsarkivet** (https://claude.ai/artifact/1RQ8ZiGEsz91fNeQ8KT4wc)
+är byggd som "Ohlin i kammaren": diagram per år, filter för källtyp, parti, period och
+relevans, och sökning direkt i webbläsaren. Anförandena finns med i sin helhet. För
+propositioner, betänkanden och utredningar visas de stycken som nämner bostadsbyggandet
+(högst 30 per dokument). Sidan är `webb/index.html`, och datafilerna byggs med:
+
+```sh
+python bygg_db.py && python bygg_webb.py   # skriver webb/data/*.json (ca 65 MB, ej i git)
+```
+
+## Använda lokalt
 
 ```sh
 pip install -r requirements.txt     # bara requests; pdftotext (poppler-utils) behövs för KB
