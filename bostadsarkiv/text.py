@@ -39,6 +39,21 @@ def stada(t):
     return "\n\n".join(stycken)
 
 
+def sy_ihop_rader(t):
+    """Slå ihop stycken som egentligen är tryckrader (äldre inskannade tryck, där
+    varje rad blivit ett eget stycke): ett stycke som inte slutar med punkt,
+    kolon, utrops- eller frågetecken fortsätter i nästa. Rubriker ('# ') och
+    sidmarkeringar ('[PDF-sida N]') lämnas orörda."""
+    ut = []
+    for s in t.split("\n\n"):
+        if (ut and not ut[-1].startswith(("# ", "[PDF-sida")) and not s.startswith(("# ", "[PDF-sida"))
+                and not re.search(r"[.!?:;»”\")]$", ut[-1]) and len(ut[-1]) < 4000):
+            ut[-1] = (ut[-1][:-1] if ut[-1].endswith("-") and s[:1].islower() else ut[-1] + " ") + s
+        else:
+            ut.append(s)
+    return "\n\n".join(ut)
+
+
 def normalisera(t):
     t = t.lower()
     t = re.sub(r"(\w)-\s*\n\s*(\w)", r"\1\2", t)

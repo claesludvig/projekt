@@ -162,6 +162,8 @@ def main():
         with gzip.open(p, "rt", encoding="utf-8") as f:
             t = f.read()
         t = t.split("\n\n", 1)[1] if "\n\n" in t else t  # huvudet med beteckning och källa
+        if (ar_av(r["datum"]) or 2000) < 2000:
+            t = textmodul.sy_ihop_rader(t)
         for nr, (sida, rub, txt) in enumerate(dela_avsnitt(t), 1):
             db.execute("INSERT INTO avsnitt (dok_id, nr, sida, rubrik, text) VALUES (?,?,?,?,?)",
                        (r["id"], nr, sida, rub, txt))

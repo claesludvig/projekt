@@ -16,16 +16,16 @@ GRUPPER = [
         r"byggnadsentreprenörfören", r"byggnadsentreprenörsfören", r"byggentreprenörerna",
         r"sveriges byggindustrier", r"byggföretagen", r"byggnadsindustriförbund",
         r"byggnadsindustrins centralorganisation", r"näringslivets byggnadsdelegation",
-        r"byggmästarefören", r"byggmästarfören", r"byggherrarna", r"småhusindustri",
-        r"trähusindustri", r"trähusfabrikerna", r"monteringsfärdiga hus", r"bostadsgaranti",
-        r"byggmaterialindustri", r"byggmaterialproducent", r"skånska cementgjuteriet",
+        r"byggmästarefören", r"byggmästarfören", r"byggherrarna", r"trähusfabrikernas fören",
+        r"trähusindustrins", r"bostadsgaranti",
+        r"byggmaterialindustrierna", r"byggmaterialproducenterna", r"skånska cementgjuteriet",
         r"\bskanska\b", r"\bncc\b", r"\bjm\b", r"armerad betong", r"\babv\b",
-        r"\bbi\b(?= |,|\))", r"träindustrin", r"svenskt trä\b", r"\bbyggherre\w*fören",
+        r"svenskt trä\b", r"\bbyggherre\w*fören", r"trä- och möbelföretagen", r"\btmf\b",
     ]),
     ("fast", "Fastighetsägare", [
         r"fastighetsägareförbund", r"fastighetsägarefören", r"fastighetsägarförbund",
-        r"fastighetsägarna", r"sveriges fastighetsägare", r"fastighetsägarnas riksförbund",
-        r"fastighetsbranschen", r"\bbyggherrarna\b",
+        r"fastighetsägarförening", r"fastighetsägarna (?:sverige|stockholm|gfr|mitt|syd|nord|öst)",
+        r"sveriges fastighetsägare", r"fastighetsägarnas riksförbund", r"fastighetsägarnas centralorganisation",
     ]),
     ("allm", "Allmännyttan och kooperationen", [
         r"allmännyttiga bostadsföretag", r"\bsabo\b", r"sveriges allmännytta",
@@ -95,6 +95,8 @@ def grupper_i(text_lower):
 def grupp_for_organisation(namn):
     """Grupp för en remissinstans (namnet på remissvaret)."""
     low = namn.lower()
+    if low.startswith("fastighetsägarna"):
+        return "fast"
     g = grupper_i(low)
     if g:
         return g[0]
