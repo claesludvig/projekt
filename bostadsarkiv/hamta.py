@@ -169,8 +169,23 @@ def rm_fil(rm):
     return ANF_DIR / f"{rm.replace('/', '-')}.jsonl.gz"
 
 
+def kammare(dok):
+    """FK eller AK för tvåkammarriksdagen (till 1970), annars tomt."""
+    t = (dok.get("titel") or "").upper()
+    if "FÖRSTA KAMMAREN" in t:
+        return "FK"
+    if "ANDRA KAMMAREN" in t:
+        return "AK"
+    if dok["datum"][:4] < "1971" and len(dok["dok_id"]) > 3:
+        return {"C": "FK", "D": "FK", "O": "AK", "P": "AK"}.get(dok["dok_id"][3].upper(), "")
+    return ""
+
+
 def bearbeta_protokoll(dok):
     t = rd_text(dok["dok_id"])
+    if dok["datum"][5:10] in ("", "01-01"):
+        # Äldre protokoll har bara året i riksdagens förteckning.
+        dok = {**dok, "datum": text.datum_ur_text(t, dok["datum"][:4]) or dok["datum"]}
     anf = text.dela_protokoll(t)
     n_anf = len(anf)
     if not anf:
@@ -185,7 +200,7 @@ def bearbeta_protokoll(dok):
         if not (text.anforande_relevant(karna, bred) or text.titeltraff(a["rubrik"])):
             continue
         rel.append({
-            "prot_id": dok["dok_id"], "rm": dok["rm"], "prot_nr": dok["beteckning"],
+            "prot_id": dok["dok_id"], "rm": dok["rm"], "prot_nr": dok["beteckning"], "kammare": kammare(dok),
             "datum": dok["datum"][:10], "anf_nr": a["nr"], "talare": a["talare"],
             "parti": a["parti"], "replik": a["replik"], "rubrik": a["rubrik"],
             "karna": sum(karna.values()), "bred": sum(bred.values()),
@@ -277,7 +292,7 @@ def rensa_anforanden(prot_ids):
 # --- SOU, Ds, direktiv från riksdagen -------------------------------------------
 
 def beteckning(doktyp, rm, nr):
-    pref = {"sou": "SOU", "ds": "Ds", "dir": "Dir.", "prop": "Prop.", "bet": "Bet."}[doktyp]
+    pref = {"sou": "SOU", "ds": "Ds", "dir": "Dir.", "prop": "Prop.", "bet": "Bet.", "mot": "Mot."}[doktyp]
     return f"{pref} {rm}:{nr}"
 
 
@@ -534,7 +549,7 @@ def main():
     ap.add_argument("vad", choices=["alla", "protokoll", "riksdagsdok", "kb", "omvardera"])
     ap.add_argument("--fran", type=int, default=katalog.FRAN_AR)
     ap.add_argument("--till", type=int, default=date.today().year)
-    ap.add_argument("--typ", nargs="*", default=["sou", "ds", "dir", "prop", "bet"], help="för riksdagsdok")
+    ap.add_argument("--typ", nargs="*", default=["sou", "ds", "dir", "prop", "bet", "mot"], help="för riksdagsdok")
     ap.add_argument("--arbetare", type=int, default=4)
     ap.add_argument("--om", action="store_true", help="hämta om det som redan finns")
     ap.add_argument("--grans", type=int, help="högst så många nya (för test)")

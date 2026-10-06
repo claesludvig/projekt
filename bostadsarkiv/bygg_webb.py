@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Bygger datafilerna till den publicerade söksidan (webb/index.html).
 
-Anförandena tas med i sin helhet. För propositioner, betänkanden och
-utredningar tas de stycken med som innehåller en kärnterm (högst
-MAX_STYCKEN per dokument), eftersom fulltexterna är för stora för en
-webbsida. Hela texten finns i sökdatabasen och hos källan.
+Anförandena tas med i sin helhet. För propositioner, betänkanden, motioner
+och utredningar tas de stycken med som nämner bostadsbyggandet eller
+träffar ett kapitelavsnitts mönster (högst MAX_STYCKEN per dokument),
+eftersom fulltexterna är för stora för en webbsida. Hela texten finns i
+sökdatabasen och hos källan.
+
+Varje källa märks med de avsnitt i kapitlet den hör till (kapitel.py).
+Filerna delas upp per period, så att sidan bara laddar den period som visas.
 
     python bygg_db.py && python bygg_webb.py
 """
@@ -14,6 +18,7 @@ import re
 import sqlite3
 from pathlib import Path
 
+import kapitel
 import katalog
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -23,9 +28,15 @@ MAX_STYCKEN = 30
 MAX_TECKEN = 1100
 MAX_FIL = 14_000_000
 GRAD = {"låg": 0, "medel": 1, "hög": 2}
+PERIODER = [(1939, 1944), (1945, 1959), (1960, 1974), (1975, 1989), (1990, 2009), (2010, 2026)]
 
 _KARNA = re.compile("|".join(f"(?:{p})" for p in katalog.KARNA.values()))
 _BRED = re.compile("|".join(f"(?:{p})" for p in katalog.BRED.values()))
+_KAP = [(a["nr"], a["fran"], a["till"], re.compile(a["mönster"])) for a in kapitel.AVSNITT]
+
+
+def avsnitt_for(ar, low):
+    return [nr for nr, f, t, p in _KAP if f <= ar <= t and p.search(low)]
 
 
 def klipp(st, pat):
@@ -40,38 +51,50 @@ def klipp(st, pat):
     return ("… " if a else "") + st[a:b] + (" …" if b < len(st) else "")
 
 
-def stycken(db, dok_id):
-    ut, reserv = [], []
+def dokument_stycken(db, dok_id, ar):
+    """Stycken med kärnträff eller kapitelträff, kapitelavsnitt för hela texten."""
+    kap_pat = [p for _, f, t, p in _KAP if f <= ar <= t]
+    ut, reserv, kap = [], [], set()
     for sida, txt in db.execute("SELECT sida, text FROM avsnitt WHERE dok_id = ? ORDER BY nr", (dok_id,)):
         for st in txt.split("\n\n"):
             low = st.lower()
-            if _KARNA.search(low):
-                ut.append([sida, klipp(st, _KARNA)])
+            k = set(avsnitt_for(ar, low))
+            kap |= k
+            if _KARNA.search(low) or k:
+                pat = _KARNA if _KARNA.search(low) else next(p for p in kap_pat if p.search(low))
+                ut.append([sida, klipp(st, pat)])
             elif len(reserv) < 10 and _BRED.search(low):
                 reserv.append([sida, klipp(st, _BRED)])
     if not ut:
         ut = reserv
-    return ut[:MAX_STYCKEN], len(ut)
+    return ut[:MAX_STYCKEN], len(ut), sorted(kap)
 
 
-def skriv_delar(namn, poster, nyckel_ar):
-    """Dela upp i filer om högst MAX_FIL byte, i årsordning."""
-    filer, buf, storlek = [], [], 0
-    for p in poster:
-        s = len(json.dumps(p, ensure_ascii=False).encode()) + 1
-        if buf and storlek + s > MAX_FIL:
-            filer.append(buf)
-            buf, storlek = [], 0
-        buf.append(p)
-        storlek += s
-    if buf:
-        filer.append(buf)
+def period(ar):
+    for i, (f, t) in enumerate(PERIODER):
+        if f <= ar <= t:
+            return i
+    return len(PERIODER) - 1
+
+
+def skriv_delar(namn, poster):
+    """Dela upp per period och därefter i filer om högst MAX_FIL byte."""
     index = []
-    for i, f in enumerate(filer, 1):
-        fn = f"{namn}-{i}.json"
-        (UT / fn).write_text(json.dumps(f, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        index.append({"fil": fn, "fran": nyckel_ar(f[0]), "till": nyckel_ar(f[-1]), "antal": len(f),
-                      "byte": (UT / fn).stat().st_size})
+    for pi, (f, t) in enumerate(PERIODER):
+        filer, buf, storlek = [], [], 0
+        for p in (p for p in poster if period(int(p["d"][:4])) == pi):
+            s = len(json.dumps(p, ensure_ascii=False).encode()) + 1
+            if buf and storlek + s > MAX_FIL:
+                filer.append(buf)
+                buf, storlek = [], 0
+            buf.append(p)
+            storlek += s
+        if buf:
+            filer.append(buf)
+        for i, del_ in enumerate(filer, 1):
+            fn = f"{namn}-{f}-{i}.json"
+            (UT / fn).write_text(json.dumps(del_, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+            index.append({"fil": fn, "period": pi, "antal": len(del_), "byte": (UT / fn).stat().st_size})
     return index
 
 
@@ -90,39 +113,66 @@ def main():
         return rub_idx[r]
 
     anf = []
-    for (aid, prot_id, rm, prot_nr, datum, anf_nr, talare, parti, replik, rubrik, grad,
-         karntermer, text) in db.execute(
-            """SELECT id, prot_id, rm, prot_nr, datum, anf_nr, talare, parti, replik, rubrik,
-                      grad, karntermer, text FROM anforanden ORDER BY datum, prot_id, anf_nr"""):
-        anf.append({"d": datum, "p": prot_id, "r": f"{rm}:{prot_nr}", "n": anf_nr, "s": talare,
-                    "f": parti, "k": replik, "h": rub(rubrik), "g": GRAD.get(grad, 0), "x": text})
+    for (prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik, grad, text,
+         kammare) in db.execute(
+            """SELECT prot_id, rm, prot_nr, datum, ar, anf_nr, talare, parti, replik, rubrik,
+                      grad, text, kammare FROM anforanden ORDER BY datum, prot_id, anf_nr"""):
+        p = {"d": datum, "p": prot_id, "r": f"{rm}:{prot_nr}", "n": anf_nr, "s": talare,
+             "f": parti, "k": replik, "h": rub(rubrik), "g": GRAD.get(grad, 0), "x": text}
+        if kammare:
+            p["c"] = kammare
+        kap = avsnitt_for(ar or 0, (text + " " + rubrik).lower())
+        if kap:
+            p["a"] = kap
+        anf.append(p)
 
     dok = []
-    for (did, doktyp, bet, titel, datum, url, pdf, grad, karna, karntermer, ord_, kalla) in db.execute(
-            """SELECT id, doktyp, beteckning, titel, datum, url, pdf_url, grad, karna, karntermer,
+    for (did, doktyp, bet, titel, datum, ar, url, pdf, grad, karna, karntermer, ord_, kalla) in db.execute(
+            """SELECT id, doktyp, beteckning, titel, datum, ar, url, pdf_url, grad, karna, karntermer,
                       ord, kalla FROM dokument WHERE relevant = 1 ORDER BY datum, beteckning"""):
-        ps, n = stycken(db, did)
-        dok.append({"id": did, "t": doktyp, "b": bet, "ti": titel, "d": datum, "u": url,
-                    "pdf": pdf, "g": GRAD.get(grad, 0), "kn": karna,
-                    "kt": [t.split(":")[0] for t in karntermer.split(";") if t][:4],
-                    "o": ord_, "kb": int(kalla == "kb"), "ps": ps, "pn": n})
+        ps, n, kap = dokument_stycken(db, did, ar or 0)
+        p = {"id": did, "t": doktyp, "b": bet, "ti": titel, "d": datum, "u": url,
+             "pdf": pdf, "g": GRAD.get(grad, 0), "kn": karna,
+             "kt": [t.split(":")[0] for t in karntermer.split(";") if t][:4],
+             "o": ord_, "kb": int(kalla == "kb"), "ps": ps, "pn": n}
+        kap = sorted(set(kap) | set(avsnitt_for(ar or 0, titel.lower())))
+        if kap:
+            p["a"] = kap
+        dok.append(p)
 
+    kap_antal = {a["nr"]: 0 for a in kapitel.AVSNITT}
+    for p in anf + dok:
+        for k in p.get("a", []):
+            kap_antal[k] += 1
+    per_antal = [sum(1 for p in anf + dok if period(int(p["d"][:4])) == i) for i in range(len(PERIODER))]
+
+    per_ar = {}
+    for p in anf:
+        per_ar.setdefault(p["d"][:4], [0, 0])[0] += 1
+    for p in dok:
+        per_ar.setdefault(p["d"][:4], [0, 0])[1] += 1
     index = {
         "rubriker": rubriker,
-        "anforanden": skriv_delar("anf", anf, lambda p: p["d"][:4]),
-        "dokument": skriv_delar("dok", dok, lambda p: p["d"][:4]),
+        "per_ar": per_ar,
+        "perioder": [{"fran": f, "till": t, "antal": per_antal[i]} for i, (f, t) in enumerate(PERIODER)],
+        "kapitel": [{"nr": a["nr"], "namn": a["namn"], "fran": a["fran"], "till": a["till"],
+                     "antal": kap_antal[a["nr"]]} for a in kapitel.AVSNITT],
+        "filer": skriv_delar("dok", dok) + skriv_delar("anf", anf),
         "uppdaterad": db.execute("SELECT MAX(hamtad) FROM dokument").fetchone()[0],
         "protokoll": db.execute("SELECT COUNT(*) FROM protokoll").fetchone()[0],
         "bedomda": db.execute("SELECT COUNT(*) FROM dokument").fetchone()[0],
+        "per_typ": dict(db.execute("SELECT typ, COUNT(*) FROM kallor GROUP BY typ").fetchall()),
     }
     (UT / "index.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),
                                    encoding="utf-8")
     tot = sum(f.stat().st_size for f in UT.glob("*.json"))
     print(f"{len(anf)} anföranden, {len(dok)} dokument, {len(list(UT.glob('*.json')))} filer, "
           f"{tot / 1e6:.0f} MB")
-    for k in ("anforanden", "dokument"):
-        for f in index[k]:
-            print(f"  {f['fil']}: {f['fran']}–{f['till']}, {f['antal']} poster, {f['byte'] / 1e6:.1f} MB")
+    for i, (f, t) in enumerate(PERIODER):
+        mb = sum(x["byte"] for x in index["filer"] if x["period"] == i) / 1e6
+        print(f"  {f}–{t}: {per_antal[i]} källor, {mb:.1f} MB")
+    for a in index["kapitel"]:
+        print(f"  avsnitt {a['nr']} {a['namn']}: {a['antal']}")
 
 
 if __name__ == "__main__":

@@ -43,7 +43,8 @@ CREATE TABLE protokoll (
 CREATE TABLE anforanden (
   id TEXT PRIMARY KEY, prot_id TEXT, rm TEXT, prot_nr TEXT, datum TEXT, ar INTEGER,
   anf_nr INTEGER, talare TEXT, parti TEXT, replik INTEGER, rubrik TEXT, karna INTEGER,
-  bred INTEGER, karntermer TEXT, bredtermer TEXT, grad TEXT, ord INTEGER, url TEXT, text TEXT);
+  bred INTEGER, karntermer TEXT, bredtermer TEXT, grad TEXT, ord INTEGER, url TEXT, text TEXT,
+  kammare TEXT);
 CREATE TABLE avsnitt (
   id INTEGER PRIMARY KEY, dok_id TEXT, nr INTEGER, sida TEXT, rubrik TEXT, text TEXT);
 CREATE VIRTUAL TABLE sok_anf USING fts5(
@@ -173,11 +174,11 @@ def main():
                 continue
             sedda.add(aid)
             db.execute(
-                "INSERT INTO anforanden VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                "INSERT INTO anforanden VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (aid, a["prot_id"], a["rm"], a["prot_nr"], a["datum"], ar_av(a["datum"]),
                  a["anf_nr"], a["talare"], a["parti"], int(a["replik"]), a["rubrik"],
                  a["karna"], a["bred"], a["karntermer"], a["bredtermer"], a["grad"],
-                 a["ord"], a["url"], textmodul.rensa_sidhuvud(a["text"])))
+                 a["ord"], a["url"], textmodul.rensa_sidhuvud(a["text"]), a.get("kammare", "")))
             n_anf += 1
 
     for t in ("sok_anf", "sok_avs"):

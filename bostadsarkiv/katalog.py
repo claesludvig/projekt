@@ -26,6 +26,14 @@ KARNA = {
     "investeringsstöd till bostäder": r"investeringsstöd(?:et)? (?:till|för) (?:hyres|bostäder|bostads|små)|investeringsbidrag(?:et)? (?:till|för) (?:hyres|bostäder|bostads)",
     "byggkostnader": r"byggkostnad|produktionskostnader(?:na)? för bostäder",
     "byggsubventioner": r"bostadssubvention|byggsubvention|produktionsstöd",
+    # Bostadsfinansieringen 1939–1990: statens lån, räntegarantin och kreditstyrningen.
+    "räntegaranti": r"räntegaranti|garantiränt|räntelån",
+    "tertiärlån": r"tertiärlån|sekundärlån|bottenlån|kompletteringslån|egnahemslån|bostadslånefond",
+    "bostadsobligationer": r"bostadsobligation|bostadsinstitut|bostadskreditinstitut|bostadskreditkass|stadshypotek|bostadskreditnämnd",
+    "placeringsplikt": r"placeringsplikt|placeringskvot|placeringskrav|likviditetskvot|prioriterade sektor|prioriterad utlåning",
+    "byggnadsreglering": r"byggnadsreglering|byggnadstillstånd|igångsättningstillstånd|byggnadslov för bostäder|byggnadskvot|startkvot",
+    "miljonprogrammet": r"miljonprogram|en miljon (?:nya |)(?:bostäder|lägenheter)|bostadssociala utredningen|bostadsbyggnadsutredningen",
+    "bostadsbyggnadsverksamhet": r"bostadsbyggnadsverksamhet|byggande av bostadshus|bostadsbebyggelse",
 }
 
 BRED = {
@@ -38,7 +46,8 @@ BRED = {
     "flerbostadshus/småhus": r"flerbostadshus|småhus",
     "allmännyttan": r"allmännytt|bostadsbolag|bostadsföretag",
     "plan- och bygglagen": r"plan- och bygglag|\bpbl\b|bygglov|detaljplan|översiktsplan|planprocess|planmonopol",
-    "bostadslån": r"bostadslån|bostadskredit",
+    "bostadslån": r"bostadslån|bostadskredit|bolån",
+    "kreditpolitiken": r"kreditpolitik|kreditreglering|kreditransonering|lågräntepolitik|räntereglering|kreditrestriktion|utlåningstak|ap-fond|allmänna pensionsfond|pensionsfonden|penningpolitik",
     "mark": r"markanvisning|markpris|byggbar mark|markpolitik",
     "byggsektorn": r"byggsektor|byggbransch|byggindustri|byggföretag|byggherr|byggmaterial",
     "byggregler": r"byggregl|byggnorm|boverkets byggregler|tillgänglighetskrav",
@@ -66,6 +75,16 @@ SOKFRAGOR = [
     "bostadsmarknaden",
     "plan- och bygglagen",
     "allmännyttiga bostadsföretag",
+    "räntegaranti",
+    "tertiärlån",
+    "bostadslån",
+    "placeringsplikt",
+    "likviditetskvot",
+    "byggnadsreglering",
+    "igångsättningstillstånd",
+    "miljonprogrammet",
+    "bostadsobligationer",
+    "kreditpolitiken bostäder",
 ]
 
 # Dokumenttyper som hämtas från riksdagen och vad de heter.
@@ -76,9 +95,10 @@ DOKTYPER = {
     "dir": "Kommittédirektiv",
     "prop": "Propositioner",
     "bet": "Utskottsbetänkanden",
+    "mot": "Motioner",
 }
 
-FRAN_AR = 1990
+FRAN_AR = 1939
 
 # --- Urvalsregler ------------------------------------------------------------
 # Ett anförande är relevant om det har minst en kärnträff, eller minst tre

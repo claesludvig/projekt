@@ -29,7 +29,7 @@ def html_till_text(h):
 def stada(t):
     """Slå ihop avstavning vid radbrytning och rader inom stycken."""
     t = t.replace("\r", "")
-    t = re.sub(r"(\w)-[ \t]*\n[ \t]*(?=[a-zåäöé])", r"\1", t)
+    t = re.sub(r"(\w)-[ \t]*\n(?:[ \t]*\n)?[ \t]*(?=[a-zåäöé])", r"\1", t)
     stycken = []
     for s in re.split(r"\n[ \t]*\n+", t):
         s = re.sub(r"[ \t]*\n[ \t]*", " ", s)
@@ -113,6 +113,20 @@ def dela_avsnitt_rubrik(t):
     return ut
 
 
+_MANADER = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti",
+            "september", "oktober", "november", "december"]
+_DAGDATUM = re.compile(r"(?:Måndagen|Tisdagen|Onsdagen|Torsdagen|Fredagen|Lördagen|Söndagen)\s+den\s+"
+                       r"(\d{1,2})\s+(" + "|".join(_MANADER) + r")", re.I)
+
+
+def datum_ur_text(t, ar):
+    """'Onsdagen den 25 maj' i protokollets början, som ÅÅÅÅ-MM-DD."""
+    m = _DAGDATUM.search(t[:8000])
+    if not m:
+        return None
+    return f"{ar}-{_MANADER.index(m.group(2).lower()) + 1:02d}-{int(m.group(1)):02d}"
+
+
 # --- Protokoll ----------------------------------------------------------------
 
 _ANF = re.compile(r"^Anf\.\s*(\d+)\s+(.{2,160}?):\s*(.*)$", re.S)
@@ -120,10 +134,31 @@ _ANF = re.compile(r"^Anf\.\s*(\d+)\s+(.{2,160}?):\s*(.*)$", re.S)
 _ANF_UTAN_KOLON = re.compile(r"^Anf\.\s*(\d+)\s+([^\n:]{2,160}?)()\s*$")
 
 
+# Före 1980-talet står talaren som "Herr LUNDBERG (s):", "Herr Nilsson, Bernhard:"
+# eller "Herr statsrådet Möller:". Namnet måste se ut som ett namn, så att
+# "Herr talman, jag vill säga detta:" inte tas för en talarrad.
+_TITEL = (r"(?:(?:herr\s+)?(?:statsrådet|statsministern|[a-zåäö]+ministern|talmannen|"
+          r"förste\s+vice\s+talmannen|andre\s+vice\s+talmannen|tredje\s+vice\s+talmannen)\s*)")
+_NAMN = r"[A-ZÅÄÖÉÜ][\w\-ÅÄÖÉÜåäöéü.]*(?:[ ,]+(?:[A-ZÅÄÖÉÜ][\w\-ÅÄÖÉÜåäöéü.]*|i|von|af|de|på)){0,5}"
+_HERR = re.compile(
+    r"^(?:Herr|Fru|Fröken|HERR|FRU|FRÖKEN)\s+(" + _TITEL + r"?(?:" + _NAMN + r")?|talmannen)"
+    r"\s*,?\s*(\([A-Za-zÅÄÖåäö]{1,4}\))?\s*,?\s*(?:replik|yttrade)?\s*:\s*(.*)$", re.S)
+
+
 def _anf_huvud(st):
-    return _ANF.match(st) or _ANF_UTAN_KOLON.match(st)
+    """(nr eller None, talarhuvud, resten av stycket) om stycket börjar ett anförande."""
+    m = _ANF.match(st) or _ANF_UTAN_KOLON.match(st)
+    if m:
+        return int(m.group(1)), m.group(2), m.group(3)
+    m = _HERR.match(st)
+    if m and m.group(1).strip() and "talman" not in m.group(1).lower().replace("talmannen", ""):
+        return None, m.group(1) + (" " + m.group(2) if m.group(2) else ""), m.group(3)
+    return None
 _PARTI = re.compile(r"\(([A-Za-zÅÄÖåäö]{1,4})\)")
-_PARAGRAF = re.compile(r"^(?:\d+\s*§|§\s*\d+)\s")
+# "5 § Svar på interpellation …" eller "§ 5" på egen rad (äldre protokoll, där
+# ärendets rubrik står i nästa stycke). "1 § förordningen …" i lagtext räknas inte.
+_PARAGRAF = re.compile(r"^(?:\d+\s*§\s+[A-ZÅÄÖ]|§\s*\d+\s+[A-ZÅÄÖ])")
+_PARAGRAF_ENSAM = re.compile(r"^§\s*\d+\.?$")
 
 
 def _tolka_talare(huvud):
@@ -145,7 +180,7 @@ def dela_protokoll(text):
     Returnerar en lista med dict: nr, talare, parti, replik, rubrik, text.
     Ett anförande slutar vid nästa 'Anf.', vid en rubrik eller vid en ny
     paragraf i protokollet (t.ex. '5 § Beslut om ...')."""
-    anf, aktuell, rubrik = [], None, ""
+    anf, aktuell, rubrik, lopnr, vanta_rubrik = [], None, "", 0, False
     for st in text.split("\n\n"):
         if st.startswith("# "):
             rub = st[2:].strip()
@@ -162,12 +197,25 @@ def dela_protokoll(text):
         if m:
             if aktuell:
                 anf.append(aktuell)
-            namn, parti, replik = _tolka_talare(m.group(2))
-            aktuell = {"nr": int(m.group(1)), "talare": namn, "parti": parti,
+            nr, huvud, rest = m
+            namn, parti, replik = _tolka_talare(huvud)
+            lopnr += 1
+            aktuell = {"nr": nr if nr is not None else lopnr, "talare": namn, "parti": parti,
                        "replik": replik, "rubrik": rubrik, "stycken": []}
-            if m.group(3).strip():
-                aktuell["stycken"].append(m.group(3).strip())
+            if rest.strip():
+                aktuell["stycken"].append(rest.strip())
             continue
+        if _PARAGRAF_ENSAM.match(st):
+            if aktuell:
+                anf.append(aktuell)
+                aktuell = None
+            rubrik, vanta_rubrik = st, True
+            continue
+        if vanta_rubrik:
+            vanta_rubrik = False
+            if not _anf_huvud(st):
+                rubrik = f"{rubrik} {st[:200]}"
+                continue
         if _PARAGRAF.match(st):
             if aktuell:
                 anf.append(aktuell)
@@ -210,7 +258,7 @@ def _sy_ihop(stycken, rubrik):
     for s in stycken:
         if _SIDHUVUD.match(s) or (kant and s.strip().lower() == kant):
             continue
-        if ut and not re.search(r"[.!?:”\")]$", ut[-1]) and re.match(r"^[a-zåäö]", s):
+        if ut and not re.search(r"[.!?:”\")]$", ut[-1]):
             ut[-1] = ut[-1] + " " + s
         else:
             ut.append(s)

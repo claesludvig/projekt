@@ -15,7 +15,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import sok as sokmodul
 
 DB = sokmodul.DB
-TYPNAMN = {"prot": "Protokoll", "sou": "SOU", "ds": "Ds", "dir": "Direktiv", "prop": "Proposition", "bet": "Betänkande"}
+TYPNAMN = {"prot": "Protokoll", "sou": "SOU", "ds": "Ds", "dir": "Direktiv", "prop": "Proposition", "bet": "Betänkande", "mot": "Motion"}
 
 CSS = """
 :root{--bg:#fbfaf7;--fg:#1f2328;--mut:#5f6670;--lin:#d9d6cf;--acc:#7a2e3a;--mark:#ffe9a8;--kort:#fff}
@@ -50,7 +50,7 @@ def sida(titel, kropp):
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(titel)}</title>
 <style>{CSS}</style></head><body><main>
 <h1><a href="/">Bostadsarkivet</a></h1>
-<p class="sub">Riksdagens protokoll, propositioner, betänkanden, SOU, Ds och direktiv om bostadsbyggandet 1990–2026</p>
+<p class="sub">Riksdagens protokoll, propositioner, betänkanden, SOU, Ds och direktiv om bostadsbyggandet 1939–2026</p>
 {kropp}</main></body></html>"""
 
 

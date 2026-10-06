@@ -87,15 +87,25 @@ mark{background:var(--mark);color:var(--ink);padding:0 1px;border-radius:2px}
 footer{font-size:13px;color:var(--muted);max-width:780px;display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--rule);padding-top:18px}
 footer a{color:var(--accent)}
 @media (prefers-reduced-motion:no-preference){.chip,.bar{transition:background-color .12s,fill .12s}}
+.kap{display:flex;flex-direction:column;gap:4px}
+.kap button{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:6px;align-items:baseline;text-align:left;font:inherit;font-size:13.5px;line-height:1.35;border:1px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:4px;padding:6px 8px;cursor:pointer}
+.kap button b{font-weight:600;color:var(--accent);font-variant-numeric:tabular-nums}
+.kap button small{color:var(--muted);font-variant-numeric:tabular-nums;font-size:12px}
+.kap button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.kap button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.per{display:flex;flex-wrap:wrap;gap:6px}
+.per .chip.loading{border-style:dashed}
+.akap{display:flex;flex-wrap:wrap;gap:6px;font-size:12px}
+.akap span{border:1px solid var(--accent);color:var(--accent);border-radius:3px;padding:0 6px}
 </style>
 
 <div class="wrap">
   <header>
-    <span class="eyebrow">Riksdagens protokoll, riksdagstryck och statliga utredningar 1990–2026</span>
+    <span class="eyebrow">Riksdagens protokoll, riksdagstryck och statliga utredningar 1939–2026</span>
     <h1>Bostadsarkivet</h1>
-    <p class="lede">Allt riksdagen och de statliga utredningarna har sagt om bostadsbyggandet sedan 1990: anföranden i kammaren, propositioner, utskottsbetänkanden, SOU, Ds och kommittédirektiv. Sök ord för ord i texten.</p>
-    <div class="stats" id="stats"><span>Läser in arkivet …</span></div>
-    <div class="load" id="load" aria-hidden="true"><i id="loadbar"></i></div>
+    <p class="lede">Det riksdagen och de statliga utredningarna har sagt om bostadsbyggandet och dess finansiering sedan 1939: anföranden i kammaren, propositioner, utskottsbetänkanden, motioner, SOU, Ds och kommittédirektiv. Sök ord för ord i texten, eller utgå från kapitlets avsnitt.</p>
+    <div class="stats" id="stats"><span>Läser in förteckningen …</span></div>
+    <div class="load" id="load" aria-hidden="true" hidden><i id="loadbar"></i></div>
   </header>
 
   <section class="chart" aria-label="Källor per år">
@@ -103,22 +113,29 @@ footer a{color:var(--accent)}
       <span><strong>Källor per år</strong> · klicka på ett år för att visa bara det året</span>
       <span class="legend"><span><i style="background:var(--bar-on)"></i>Anföranden</span><span><i style="background:var(--doc)"></i>Dokument</span><span id="yearState"></span></span>
     </div>
-    <div class="chart-scroll"><svg id="chart" role="img" aria-label="Antal källor per år 1990–2026"></svg></div>
+    <div class="chart-scroll"><svg id="chart" role="img" aria-label="Antal källor per år 1939–2026"></svg></div>
   </section>
 
   <div class="layout">
     <aside>
+      <fieldset>
+        <legend>Kapitlets avsnitt</legend>
+        <div class="kap" id="kapitel"></div>
+        <p class="hint">Ett avsnitt visar källor från dess år som tar upp avsnittets ämne, t.ex. placeringsplikt, likviditetskvot och AP-fonderna för avsnitt 6. Klicka igen för att släppa avsnittet.</p>
+      </fieldset>
       <div>
         <label class="lbl" for="q">Sök i texten</label>
-        <input type="search" id="q" placeholder="t.ex. räntebidrag, investeringsstöd" autocomplete="off">
-        <p class="hint">Alla ord måste finnas med. Skriv "inom citattecken" för en exakt fras. Ordet hittas även inuti längre ord: <i>byggkostnad</i> träffar <i>byggkostnaderna</i>.</p>
+        <input type="search" id="q" placeholder="t.ex. räntegaranti, tertiärlån" autocomplete="off">
+        <p class="hint">Alla ord måste finnas med. Skriv "inom citattecken" för en exakt fras. Ordet hittas även inuti längre ord: <i>placeringsplikt</i> träffar <i>placeringsplikten</i>.</p>
       </div>
       <fieldset>
-        <legend>År</legend>
+        <legend>Period</legend>
+        <div class="per" id="perioder"></div>
         <div class="row">
           <select id="from" aria-label="Från år"></select>
           <select id="to" aria-label="Till år"></select>
         </div>
+        <p class="hint">Varje period laddas när du väljer den. Hela 1939–2026 är över 100 MB och tar tid.</p>
       </fieldset>
       <fieldset>
         <legend>Källa</legend>
@@ -136,7 +153,7 @@ footer a{color:var(--accent)}
           <option value="1">Medel och hög</option>
           <option value="2">Bara hög</option>
         </select>
-        <p class="hint">Hög betyder att bostadsbyggandet är huvudämnet, låg att det nämns i förbigående.</p>
+        <p class="hint">Hög betyder att bostadsbyggandet eller dess finansiering är huvudämnet, låg att det nämns i förbigående.</p>
       </fieldset>
       <fieldset>
         <label class="lbl" for="sort">Ordning</label>
@@ -152,36 +169,37 @@ footer a{color:var(--accent)}
 
     <main>
       <div class="bar-res" id="resHead"></div>
-      <div class="list" id="list"><div class="status">Läser in knappt 19 000 källor (cirka 65 MB). Det kan ta en stund på mobilnät.</div></div>
+      <div class="list" id="list"><div class="status">Läser in förteckningen …</div></div>
       <button class="more" id="more" type="button" hidden>Visa fler</button>
     </main>
   </div>
 
   <footer>
-    <span>Källor: <a href="https://data.riksdagen.se" target="_blank" rel="noopener">Riksdagens öppna data</a> (protokoll, propositioner, betänkanden, SOU från 1997, Ds, direktiv) och <a href="https://sou.kb.se" target="_blank" rel="noopener">Kungliga bibliotekets digitaliserade SOU</a> (1990–1996). Protokollen och SOU:erna från 1990-talet är inskannade och OCR-tolkade, så enstaka ord kan vara fellästa. Citera därför från originalet, som du når via länken vid varje källa.</span>
-    <span>Ett anförande räknas från talarraden (”Anf. 12 NAMN (parti):”) till nästa talare. Det tas med om det nämner bostadsbyggandet (t.ex. <i>bostadsbyggande</i>, <i>bostadsförsörjning</i>, <i>räntebidrag</i>, <i>byggkostnader</i>) eller om ärendet handlar om bostäder; då kommer hela debatten med. För propositioner, betänkanden och utredningar visas de stycken som nämner bostadsbyggandet, högst 30 per dokument. Hela texten finns hos källan.</span>
-    <span>Lodräta linjer i diagrammet markerar regeringsskiften: Bildt 1991, Carlsson 1994, Reinfeldt 2006, Löfven 2014, Kristersson 2022.</span>
+    <span>Källor: <a href="https://data.riksdagen.se" target="_blank" rel="noopener">Riksdagens öppna data</a> (protokoll, propositioner, betänkanden och utlåtanden, motioner, SOU från 1997, Ds, direktiv) och <a href="https://sou.kb.se" target="_blank" rel="noopener">Kungliga bibliotekets digitaliserade SOU</a> (1939–1996). Det mesta före 1990-talet är inskannat och OCR-tolkat, så enstaka ord kan vara fellästa. Citera därför från originalet, som du når via länken vid varje källa.</span>
+    <span>Ett anförande räknas från talarraden (”Herr LUNDBERG (s):” före 1980-talet, ”Anf. 12 NAMN (parti):” därefter) till nästa talare. Det tas med om det nämner bostadsbyggandet eller dess finansiering (t.ex. <i>bostadsbyggande</i>, <i>räntegaranti</i>, <i>tertiärlån</i>, <i>placeringsplikt</i>, <i>räntebidrag</i>) eller om ärendet handlar om bostäder; då kommer hela debatten med. För dokumenten visas de stycken som tar upp ämnet, högst 30 per dokument. Hela texten finns hos källan.</span>
+    <span>Kapitelavsnitten sätts automatiskt efter år och ord i texten. Se dem som en grov sortering. Lodräta linjer i diagrammet markerar maktskiften mellan blocken: Fälldin 1976, Palme 1982, Bildt 1991, Carlsson 1994, Reinfeldt 2006, Löfven 2014 och Kristersson 2022.</span>
     <span id="upd"></span>
   </footer>
 </div>
 
 <script>
 (function(){
-const PAGE=40, Y0=1990, Y1=2026;
+const PAGE=40, Y0=1939, Y1=2026;
 const $=id=>document.getElementById(id);
-const TYPER=[['prot','Anföranden'],['prop','Propositioner'],['bet','Betänkanden'],['sou','SOU'],['ds','Ds'],['dir','Direktiv']];
-const TYPNAMN={prot:'Anförande',prop:'Proposition',bet:'Betänkande',sou:'SOU',ds:'Ds',dir:'Direktiv'};
-const PARTIER=['S','M','V','C','FP','L','KD','KDS','MP','SD','NYD'];
-const PARTINAMN={S:'Socialdemokraterna',M:'Moderaterna',V:'Vänsterpartiet',C:'Centerpartiet',FP:'Folkpartiet',L:'Liberalerna',KD:'Kristdemokraterna',KDS:'Kristdemokratiska samhällspartiet',MP:'Miljöpartiet',SD:'Sverigedemokraterna',NYD:'Ny demokrati'};
-const SKIFTEN={1991:'Bildt',1994:'Carlsson',2006:'Reinfeldt',2014:'Löfven',2022:'Kristersson'};
+const TYPER=[['prot','Anföranden'],['prop','Propositioner'],['bet','Betänkanden'],['mot','Motioner'],['sou','SOU'],['ds','Ds'],['dir','Direktiv']];
+const TYPNAMN={prot:'Anförande',prop:'Proposition',bet:'Betänkande',mot:'Motion',sou:'SOU',ds:'Ds',dir:'Direktiv'};
+const TYPPLURAL={prot:'anföranden',prop:'propositioner',bet:'betänkanden',mot:'motioner',sou:'SOU',ds:'Ds',dir:'direktiv'};
+const PARTINAMN={S:'Socialdemokraterna',M:'Moderaterna',H:'Högerpartiet',V:'Vänsterpartiet',VPK:'Vänsterpartiet kommunisterna',K:'Kommunisterna',C:'Centerpartiet',BF:'Bondeförbundet',CP:'Centerpartiet',FP:'Folkpartiet',L:'Liberalerna',KD:'Kristdemokraterna',KDS:'Kristdemokratiska samhällspartiet',MP:'Miljöpartiet',SD:'Sverigedemokraterna',NYD:'Ny demokrati'};
+const SKIFTEN={1976:'Fälldin',1982:'Palme',1991:'Bildt',1994:'Carlsson',2006:'Reinfeldt',2014:'Löfven',2022:'Kristersson'};
 const MANAD=['jan','feb','mars','april','maj','juni','juli','aug','sep','okt','nov','dec'];
 const nf=new Intl.NumberFormat('sv-SE');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const reEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const fmtDate=d=>{const p=d.split('-');return p.length<3?p[0]:`${+p[2]} ${MANAD[+p[1]-1]} ${p[0]}`};
+const mb=b=>nf.format(Math.round(b/1e6))+' MB';
 
-let R=[], A=[], lower=[], shown=PAGE, yearPick=null, typOn=new Set(), partiOn=new Set(), current={res:[],ts:[]};
-let laddat=0, totalt=1, klart=false;
+let IDX=null, R=[], A=[], lower=[], shown=PAGE, yearPick=null, kapOn=null, typOn=new Set(), partiOn=new Set(), current={res:[],ts:[]};
+const laddade=new Set(), laddar=new Map();
 
 function terms(){
   const q=$('q').value.trim().toLowerCase(), out=[]; let m; const re=/"([^"]+)"|(\S+)/g;
@@ -190,12 +208,15 @@ function terms(){
 }
 function count(hay,t){let n=0,i=hay.indexOf(t);while(i>-1){n++;i=hay.indexOf(t,i+t.length)}return n}
 const ar=r=>+r.d.slice(0,4);
+const intervall=()=>yearPick?[yearPick,yearPick]:[+$('from').value,+$('to').value];
+const behovs=()=>{const [f,t]=intervall();return IDX.perioder.map((p,i)=>p.fran<=t&&p.till>=f?i:-1).filter(i=>i>=0)};
 
 function filter(){
-  const ts=terms(), f=+$('from').value, t=+$('to').value, g=+$('grad').value, res=[];
+  const ts=terms(), [f,t]=intervall(), g=+$('grad').value, res=[];
   for(let i=0;i<A.length;i++){
     const r=A[i], y=ar(r);
-    if(yearPick? y!==yearPick : (y<f||y>t)) continue;
+    if(y<f||y>t) continue;
+    if(kapOn&&!(r.a&&r.a.includes(kapOn))) continue;
     if(typOn.size&&!typOn.has(r.t)) continue;
     if(partiOn.size&&(r.t!=='prot'||!partiOn.has(r.f))) continue;
     if(r.g<g) continue;
@@ -216,37 +237,39 @@ function highlight(text,ts){
 }
 function snippet(x,low,ts){
   if(!ts.length){const w=x.split(/\s+/);return highlight(w.slice(0,70).join(' ')+(w.length>70?' …':''),ts)}
-  const p=low.indexOf(ts[0]); let a=Math.max(0,p-220), b=Math.min(x.length,p+ts[0].length+260);
+  const p=Math.max(0,low.indexOf(ts[0])); let a=Math.max(0,p-220), b=Math.min(x.length,p+ts[0].length+260);
   a=a?x.lastIndexOf(' ',a)+1:0; const bb=x.indexOf(' ',b); b=bb<0?x.length:bb;
   return (a>0?'… ':'')+highlight(x.slice(a,b),ts)+(b<x.length?' …':'');
 }
 const gradTxt=g=>`<span class="grad" title="Relevans: ${['låg','medel','hög'][g]}"><b>${'●'.repeat(g+1)}${'○'.repeat(2-g)}</b> ${['låg','medel','hög'][g]}</span>`;
+const kapTxt=r=>r.a&&r.a.length?`<div class="akap">${r.a.map(n=>`<span title="${esc(IDX.kapitel.find(k=>k.nr===n).namn)}">Avsnitt ${n}</span>`).join('')}</div>`:'';
+const KAMMARE={FK:'Första kammaren',AK:'Andra kammaren'};
 
 function cardAnf(r,i,h,ts){
   return `<article>
     <div class="meta"><span class="date">${fmtDate(r.d)}</span><span class="pill a">Anförande</span>
-      <span>Prot. ${esc(r.r)}, anf. ${r.n}${r.k?' · replik':''}</span>${gradTxt(r.g)}${ts.length?`<span>${h} träff${h===1?'':'ar'}</span>`:''}</div>
+      ${r.c?`<span>${KAMMARE[r.c]}</span>`:''}<span>Prot. ${esc(r.r)}${r.n?`, anf. ${r.n}`:''}${r.k?' · replik':''}</span>${gradTxt(r.g)}${ts.length?`<span>${h} träff${h===1?'':'ar'}</span>`:''}</div>
     <h2>${esc(r.s||'Protokollsavsnitt')}${r.f?` <span class="sub">(${esc(r.f)})</span>`:''}</h2>
     ${R[r.h]?`<div class="sub">${esc(R[r.h])}</div>`:''}
     <p class="snip" id="s${i}">${snippet(r.x,lower[i],ts)}</p>
+    ${kapTxt(r)}
     <div class="acts"><button class="linkbtn" type="button" data-full="${i}" aria-expanded="false">Visa hela anförandet</button>
       <a href="https://data.riksdagen.se/dokument/${esc(r.p)}.html" target="_blank" rel="noopener">Protokollet hos riksdagen</a>
       <button class="linkbtn" type="button" data-copy="${i}">Kopiera källhänvisning</button></div>
   </article>`;
 }
+const psLi=(p,ts,kort)=>`<li>${p[0]?`<span class="sida">PDF-s. ${esc(p[0])}</span>`:''}${kort?snippet(p[1],p[1].toLowerCase(),ts):highlight(p[1],ts)}</li>`;
+function synliga(r,ts){let v=ts.length?r.ps.filter(p=>ts.some(t=>p[1].toLowerCase().includes(t))):r.ps;return v.length?v:r.ps}
 function cardDok(r,i,h,ts){
-  const ps=r.ps.map((p,k)=>({p,k,low:p[1].toLowerCase()}));
-  let vis=ts.length?ps.filter(o=>ts.some(t=>o.low.includes(t))):ps;
-  if(!vis.length) vis=ps;
-  const n=Math.min(2,vis.length);
-  const li=o=>`<li>${o.p[0]?`<span class="sida">PDF-s. ${esc(o.p[0])}</span>`:''}${snippet(o.p[1],o.low,ts)}</li>`;
+  const vis=synliga(r,ts), n=Math.min(2,vis.length);
   return `<article>
     <div class="meta"><span class="date">${fmtDate(r.d)}</span><span class="pill d">${TYPNAMN[r.t]}</span>
       <span>${esc(r.b)}</span>${gradTxt(r.g)}<span>${nf.format(r.kn)} omnämnanden</span>${ts.length?`<span>${h} träff${h===1?'':'ar'}</span>`:''}</div>
     <h2>${esc(r.ti)}</h2>
-    <ul class="ps" id="s${i}">${vis.slice(0,n).map(li).join('')}</ul>
+    <ul class="ps" id="s${i}">${vis.slice(0,n).map(p=>psLi(p,ts,true)).join('')}</ul>
     ${r.kt.length?`<div class="tags">${r.kt.map(t=>`<span>${esc(t)}</span>`).join('')}</div>`:''}
-    <div class="acts">${vis.length>n||vis.some(o=>o.p[1].length>500)?`<button class="linkbtn" type="button" data-ps="${i}" aria-expanded="false">Visa alla ${vis.length} stycken i sin helhet</button>`:''}
+    ${kapTxt(r)}
+    <div class="acts">${vis.length>n||vis.some(p=>p[1].length>500)?`<button class="linkbtn" type="button" data-ps="${i}" aria-expanded="false">Visa alla ${vis.length} stycken i sin helhet</button>`:''}
       <a href="${esc(r.u)}" target="_blank" rel="noopener">${r.kb?'Hos KB':'Hos riksdagen'}</a>
       ${r.pdf?`<a href="${esc(r.pdf)}" target="_blank" rel="noopener">PDF</a>`:''}
       <button class="linkbtn" type="button" data-copy="${i}">Kopiera källhänvisning</button></div>
@@ -255,9 +278,11 @@ function cardDok(r,i,h,ts){
 
 function renderList(){
   const {res,ts}=current, nAnf=res.filter(x=>x.r.t==='prot').length, hits=res.reduce((s,x)=>s+x.h,0);
-  $('resHead').innerHTML=`<span><b>${nf.format(res.length)}</b> källor · ${nf.format(nAnf)} anföranden och ${nf.format(res.length-nAnf)} dokument${ts.length?` · ${nf.format(hits)} träffar`:''}</span>${klart?'':'<span>Laddar fortfarande …</span>'}`;
+  const vantar=behovs().filter(i=>!laddade.has(i));
+  const vt=vantar.length?`<span>Laddar ${vantar.map(i=>`${IDX.perioder[i].fran}–${IDX.perioder[i].till}`).join(', ')} …</span>`:'';
+  $('resHead').innerHTML=`<span><b>${nf.format(res.length)}</b> källor · ${nf.format(nAnf)} anföranden och ${nf.format(res.length-nAnf)} dokument${ts.length?` · ${nf.format(hits)} träffar`:''}</span>${vt}`;
   const L=$('list');
-  if(!res.length){L.innerHTML=`<div class="status">${klart?'Inga källor matchar. Pröva ett kortare sökord eller ta bort ett filter.':'Läser in …'}</div>`;$('more').hidden=true;return}
+  if(!res.length){L.innerHTML=`<div class="status">${vantar.length?'Läser in perioden …':'Inga källor matchar. Pröva ett kortare sökord eller ta bort ett filter.'}</div>`;$('more').hidden=true;return}
   L.innerHTML=res.slice(0,shown).map(({r,i,h})=>r.t==='prot'?cardAnf(r,i,h,ts):cardDok(r,i,h,ts)).join('');
   $('more').hidden=res.length<=shown;
   $('more').textContent=`Visa fler (${nf.format(Math.min(PAGE,res.length-shown))} av ${nf.format(res.length-shown)} kvar)`;
@@ -265,106 +290,137 @@ function renderList(){
 
 function drawChart(res){
   const years=[];for(let y=Y0;y<=Y1;y++)years.push(y);
-  const all={},anf={},dok={};years.forEach(y=>{all[y]=0;anf[y]=0;dok[y]=0});
-  A.forEach(r=>{const y=ar(r);if(y in all)all[y]++});
+  const all={},anf={},dok={};years.forEach(y=>{all[y]=(IDX.per_ar[y]||[0,0]).reduce((a,b)=>a+b,0);anf[y]=0;dok[y]=0});
   res.forEach(x=>{const y=ar(x.r);if(y in all)(x.r.t==='prot'?anf:dok)[y]++});
-  const top=Math.max(10,...Object.values(all)), step=top>800?250:top>400?100:top>100?50:10;
+  const top=Math.max(10,...Object.values(all)), step=top>1500?500:top>800?250:top>400?100:top>100?50:10;
   const max=Math.ceil(top/step)*step;
-  const W=Math.max(680,$('chart').parentNode.clientWidth), H=180, l=36, r=6, t=18, b=24;
-  const bw=(W-l-r)/years.length, sy=v=>t+(H-t-b)*(1-v/max);
+  const W=Math.max(820,$('chart').parentNode.clientWidth), H=190, l=40, r=6, t=20, b=24;
+  const bw=(W-l-r)/years.length, sy=v=>t+(H-t-b)*(1-v/max), [f,to]=intervall();
   let s=`<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">`;
   for(let v=0;v<=max;v+=step){s+=`<line class="grid" x1="${l}" x2="${W-r}" y1="${sy(v)}" y2="${sy(v)}"/><text x="${l-6}" y="${sy(v)+4}" text-anchor="end">${nf.format(v)}</text>`}
   years.forEach((y,k)=>{
-    const x=l+k*bw+1.5, w=Math.max(1,bw-3);
-    if(SKIFTEN[y]) s+=`<line class="ev" x1="${x-1.5}" x2="${x-1.5}" y1="${t-10}" y2="${H-b}"/><text x="${x+1}" y="${t-5}">${SKIFTEN[y]}</text>`;
-    s+=`<rect class="bar" x="${x}" y="${sy(all[y])}" width="${w}" height="${sy(0)-sy(all[y])}" style="opacity:.35" data-y="${y}"><title>${y}: ${nf.format(all[y])} källor</title></rect>`;
+    const x=l+k*bw+1, w=Math.max(1,bw-2), inne=y>=f&&y<=to;
+    if(SKIFTEN[y]) s+=`<line class="ev" x1="${x-1}" x2="${x-1}" y1="${t-12}" y2="${H-b}"/><text x="${x+1}" y="${t-7}">${SKIFTEN[y]}</text>`;
+    s+=`<rect class="bar" x="${x}" y="${sy(all[y])}" width="${w}" height="${sy(0)-sy(all[y])}" style="opacity:${inne?.35:.18}" data-y="${y}"><title>${y}: ${nf.format(all[y])} källor</title></rect>`;
     s+=`<rect class="bar on" x="${x}" y="${sy(anf[y])}" width="${w}" height="${sy(0)-sy(anf[y])}" data-y="${y}"><title>${y}: ${nf.format(anf[y])} anföranden matchar</title></rect>`;
     s+=`<rect class="bar doc" x="${x}" y="${sy(anf[y]+dok[y])}" width="${w}" height="${sy(anf[y])-sy(anf[y]+dok[y])}" data-y="${y}"><title>${y}: ${nf.format(dok[y])} dokument matchar</title></rect>`;
-    if(y%2===0) s+=`<text x="${x+w/2}" y="${H-8}" text-anchor="middle">${y}</text>`;
+    if(y%5===0) s+=`<text x="${x+w/2}" y="${H-8}" text-anchor="middle">${y}</text>`;
   });
-  $('chart').outerHTML=s.replace('<svg','<svg id="chart" role="img" aria-label="Antal källor per år 1990–2026"')+'</svg>';
+  $('chart').outerHTML=s.replace('<svg','<svg id="chart" role="img" aria-label="Antal källor per år 1939–2026"')+'</svg>';
   $('chart').addEventListener('click',e=>{const y=e.target.dataset&&e.target.dataset.y;if(!y)return;yearPick=yearPick===+y?null:+y;update()});
   $('yearState').innerHTML=yearPick?`· visar ${yearPick} · <button class="linkbtn" type="button" id="clearYear">alla år</button>`:'';
   if(yearPick) $('clearYear').onclick=()=>{yearPick=null;update()};
 }
 
+function chipsState(){
+  const beh=new Set(behovs());
+  document.querySelectorAll('#perioder .chip').forEach(b=>{const i=+b.dataset.p;
+    b.setAttribute('aria-pressed',beh.has(i));b.classList.toggle('loading',laddar.has(i)&&!laddade.has(i))});
+  document.querySelectorAll('#kapitel button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.k===kapOn));
+  const pc={};A.forEach(r=>{if(r.t==='prot'&&r.f)pc[r.f]=(pc[r.f]||0)+1});
+  const P=Object.keys(pc).sort((a,b)=>pc[b]-pc[a]);
+  for(const p of partiOn) if(!P.includes(p)) P.push(p);
+  $('partier').innerHTML=P.length?P.map(p=>`<button class="chip" type="button" aria-pressed="${partiOn.has(p)}" data-p="${p}" title="${PARTINAMN[p]||p}">${p} <small>${nf.format(pc[p]||0)}</small></button>`).join(''):'<p class="hint">Partierna visas när en period har laddats.</p>';
+  const tc={};A.forEach(r=>tc[r.t]=(tc[r.t]||0)+1);
+  document.querySelectorAll('#typer .chip').forEach(b=>b.querySelector('small').textContent=laddade.size?nf.format(tc[b.dataset.t]||0):'');
+}
+
 function update(keep){
   if(!keep) shown=PAGE;
-  current=filter(); renderList(); drawChart(current.res);
-  try{localStorage.setItem('bostadsarkiv-f',JSON.stringify({q:$('q').value,s:$('sort').value,g:$('grad').value}))}catch(e){}
+  ensure();
+  current=filter(); renderList(); drawChart(current.res); chipsState();
+  try{localStorage.setItem('bostadsarkiv-f2',JSON.stringify({q:$('q').value,s:$('sort').value,g:$('grad').value,f:$('from').value,t:$('to').value,k:kapOn}))}catch(e){}
 }
 
-function stats(){
-  const nAnf=A.filter(r=>r.t==='prot').length, per={}; A.forEach(r=>{if(r.t!=='prot')per[r.t]=(per[r.t]||0)+1});
-  $('stats').innerHTML=`<span><b>${nf.format(nAnf)}</b> anföranden</span>`+
-    ['prop','bet','sou','ds','dir'].map(t=>`<span><b>${nf.format(per[t]||0)}</b> ${{prop:'propositioner',bet:'betänkanden',sou:'SOU',ds:'Ds',dir:'direktiv'}[t]}</span>`).join('')+
-    (klart?'':`<span>${Math.round(100*laddat/totalt)} % inläst</span>`);
-  $('loadbar').style.width=(100*laddat/totalt)+'%'; $('load').hidden=klart;
-  const cnt=t=>A.filter(r=>r.t===t).length;
-  document.querySelectorAll('#typer .chip').forEach(b=>b.querySelector('small').textContent=nf.format(cnt(b.dataset.t)));
-  const pc={};A.forEach(r=>{if(r.t==='prot')pc[r.f]=(pc[r.f]||0)+1});
-  document.querySelectorAll('#partier .chip').forEach(b=>b.querySelector('small').textContent=nf.format(pc[b.dataset.p]||0));
-}
-
-function lagg_till(lista, typ){
+function lagg_till(lista){
   for(const r of lista){
-    if(typ==='prot'){r.t='prot';lower.push((r.x+' '+r.s+' '+(R[r.h]||'')).toLowerCase())}
+    if(r.x!==undefined){r.t='prot';lower.push((r.x+' '+r.s+' '+(R[r.h]||'')).toLowerCase())}
     else lower.push((r.ti+' '+r.b+' '+r.ps.map(p=>p[1]).join(' ')).toLowerCase());
     A.push(r);
   }
 }
 
-function init(){
+function ensure(){
+  for(const i of behovs()){
+    if(laddade.has(i)||laddar.has(i)) continue;
+    const filer=IDX.filer.filter(f=>f.period===i);
+    const tot=filer.reduce((s,f)=>s+f.byte,0); let fatt=0;
+    const p=(async()=>{
+      for(const f of filer){
+        const data=await fetch('data/'+f.fil).then(r=>{if(!r.ok)throw new Error(f.fil+' '+r.status);return r.json()});
+        lagg_till(data); fatt+=f.byte; progress(); update(true);
+      }
+      laddade.add(i); laddar.delete(i); progress(); update(true);
+    })().catch(e=>{laddar.delete(i);$('list').innerHTML=`<div class="status">Perioden kunde inte läsas in (${esc(String(e.message||e))}). Ladda om sidan för att försöka igen.</div>`});
+    laddar.set(i,{tot,get fatt(){return fatt},p});
+  }
+  progress();
+}
+function progress(){
+  let tot=0,fatt=0;for(const v of laddar.values()){tot+=v.tot;fatt+=v.fatt}
+  $('load').hidden=!laddar.size; if(tot) $('loadbar').style.width=(100*fatt/tot)+'%';
+}
+
+function stats(){
+  const pt=IDX.per_typ;
+  $('stats').innerHTML=['prot','prop','bet','mot','sou','ds','dir'].filter(t=>pt[t]).map(t=>`<span><b>${nf.format(pt[t])}</b> ${TYPPLURAL[t]}</span>`).join('');
+  if(IDX.uppdaterad)$('upd').textContent=`Hämtat ${IDX.uppdaterad}. ${nf.format(IDX.protokoll)} protokoll och ${nf.format(IDX.bedomda)} dokument har gåtts igenom.`;
+}
+
+function setRange(f,t){$('from').value=String(f);$('to').value=String(t);yearPick=null}
+
+function init(idx){
+  IDX=idx; R=idx.rubriker;
   const ys=[];for(let y=Y0;y<=Y1;y++)ys.push(`<option>${y}</option>`);
-  $('from').innerHTML=ys.join('');$('to').innerHTML=ys.join('');$('to').value=String(Y1);
-  $('typer').innerHTML=TYPER.map(([k,n])=>`<button class="chip" type="button" aria-pressed="false" data-t="${k}">${n} <small></small></button>`).join('');
-  $('partier').innerHTML=PARTIER.map(p=>`<button class="chip" type="button" aria-pressed="false" data-p="${p}" title="${PARTINAMN[p]}">${p} <small></small></button>`).join('');
+  $('from').innerHTML=ys.join('');$('to').innerHTML=ys.join('');
+  $('kapitel').innerHTML=idx.kapitel.map(k=>`<button type="button" aria-pressed="false" data-k="${k.nr}"><b>${k.nr}</b><span>${esc(k.namn)}</span><small>${nf.format(k.antal)}</small></button>`).join('');
+  $('perioder').innerHTML=idx.perioder.map((p,i)=>{const b=idx.filer.filter(f=>f.period===i).reduce((s,f)=>s+f.byte,0);
+    return `<button class="chip" type="button" aria-pressed="false" data-p="${i}" title="${nf.format(p.antal)} källor, ${mb(b)}">${p.fran}–${String(p.till).slice(2)}</button>`}).join('');
+  $('typer').innerHTML=TYPER.filter(([k])=>idx.per_typ[k]).map(([k,n])=>`<button class="chip" type="button" aria-pressed="false" data-t="${k}">${n} <small></small></button>`).join('');
+  stats();
+  // Utgångsläge: avsnitt 6, det kapitlet skrivs från. Senaste valen gäller om de finns.
+  let s=null;try{s=JSON.parse(localStorage.getItem('bostadsarkiv-f2')||'null')}catch(e){}
+  if(s){$('q').value=s.q||'';$('sort').value=s.s||'d';$('grad').value=s.g||'0';setRange(s.f||1960,s.t||1975);kapOn=s.k||null}
+  else{const k=idx.kapitel.find(k=>k.nr===6);kapOn=6;setRange(k.fran,k.till)}
+
+  $('kapitel').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const n=+b.dataset.k;
+    if(kapOn===n){kapOn=null}else{kapOn=n;const k=idx.kapitel.find(k=>k.nr===n);setRange(k.fran,k.till)}update()});
+  $('perioder').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const p=idx.perioder[+b.dataset.p];
+    let [f,t]=intervall();const inne=p.fran>=f&&p.till<=t;
+    if(inne&&!(p.fran===f&&p.till===t)){ if(p.fran===f) f=p.till+1; else if(p.till===t) t=p.fran-1; else {f=p.fran;t=p.till} }
+    else if(!inne){ f=Math.min(f,p.fran); t=Math.max(t,p.till); if(behovs().length===0){f=p.fran;t=p.till} }
+    setRange(f,t);update()});
   $('typer').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const k=b.dataset.t;
     typOn.has(k)?typOn.delete(k):typOn.add(k);b.setAttribute('aria-pressed',typOn.has(k));update()});
   $('partier').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const k=b.dataset.p;
-    partiOn.has(k)?partiOn.delete(k):partiOn.add(k);b.setAttribute('aria-pressed',partiOn.has(k));update()});
-  try{const s=JSON.parse(localStorage.getItem('bostadsarkiv-f')||'null');if(s){$('q').value=s.q||'';$('sort').value=s.s||'d';$('grad').value=s.g||'0'}}catch(e){}
+    partiOn.has(k)?partiOn.delete(k):partiOn.add(k);update()});
   let tm;$('q').addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(()=>update(),260)});
-  ['from','to','grad','sort'].forEach(id=>$(id).addEventListener('change',()=>{yearPick=null;update()}));
+  ['from','to'].forEach(id=>$(id).addEventListener('change',()=>{yearPick=null;if(+$('from').value>+$('to').value)$('to').value=$('from').value;update()}));
+  ['grad','sort'].forEach(id=>$(id).addEventListener('change',()=>update()));
   $('more').onclick=()=>{shown+=PAGE;renderList()};
-  $('reset').onclick=()=>{$('q').value='';$('from').value=String(Y0);$('to').value=String(Y1);$('grad').value='0';$('sort').value='d';
-    typOn.clear();partiOn.clear();yearPick=null;document.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed','false'));update()};
+  $('reset').onclick=()=>{$('q').value='';$('grad').value='0';$('sort').value='d';kapOn=null;
+    typOn.clear();partiOn.clear();yearPick=null;document.querySelectorAll('#typer .chip').forEach(b=>b.setAttribute('aria-pressed','false'));update()};
   $('list').addEventListener('click',e=>{
     const b=e.target.closest('button');if(!b)return;
     if(b.dataset.full){const i=+b.dataset.full,r=A[i],p=$('s'+i),open=b.getAttribute('aria-expanded')==='true';
       if(open){p.className='snip';p.innerHTML=snippet(r.x,lower[i],current.ts);b.textContent='Visa hela anförandet'}
       else{p.className='full';p.innerHTML=highlight(r.x,current.ts);b.textContent='Visa bara utdrag'}
       b.setAttribute('aria-expanded',!open)}
-    if(b.dataset.ps){const i=+b.dataset.ps,r=A[i],ul=$('s'+i),open=b.getAttribute('aria-expanded')==='true',ts=current.ts;
-      let vis=ts.length?r.ps.filter(p=>ts.some(t=>p[1].toLowerCase().includes(t))):r.ps; if(!vis.length)vis=r.ps;
-      const li=p=>`<li>${p[0]?`<span class="sida">PDF-s. ${esc(p[0])}</span>`:''}${highlight(p[1],ts)}</li>`;
-      const kort=p=>`<li>${p[0]?`<span class="sida">PDF-s. ${esc(p[0])}</span>`:''}${snippet(p[1],p[1].toLowerCase(),ts)}</li>`;
-      ul.innerHTML=open?vis.slice(0,2).map(kort).join(''):vis.map(li).join('');
+    if(b.dataset.ps){const i=+b.dataset.ps,r=A[i],ul=$('s'+i),open=b.getAttribute('aria-expanded')==='true',ts=current.ts,vis=synliga(r,ts);
+      ul.innerHTML=open?vis.slice(0,2).map(p=>psLi(p,ts,true)).join(''):vis.map(p=>psLi(p,ts,false)).join('');
       b.textContent=open?`Visa alla ${vis.length} stycken i sin helhet`:'Visa färre stycken';b.setAttribute('aria-expanded',!open)}
     if(b.dataset.copy){const r=A[+b.dataset.copy];
       const txt=r.t==='prot'
-        ?`${r.s}${r.f?' ('+r.f+')':''}, anförande ${r.n} i riksdagens protokoll ${r.r}, ${fmtDate(r.d)}${R[r.h]?', '+R[r.h]:''}. https://data.riksdagen.se/dokument/${r.p}.html`
+        ?`${r.s}${r.f?' ('+r.f+')':''}, ${r.n?'anförande '+r.n+' i ':''}riksdagens protokoll ${r.c?(r.c==='FK'?'FK ':'AK '):''}${r.r}, ${fmtDate(r.d)}${R[r.h]?', '+R[r.h]:''}. https://data.riksdagen.se/dokument/${r.p}.html`
         :`${r.b}, ${r.ti}. ${r.u}`;
       const done=()=>{b.textContent='Kopierad';setTimeout(()=>b.textContent='Kopiera källhänvisning',1600)};
       try{navigator.clipboard.writeText(txt).then(done,()=>{b.textContent=txt})}catch(err){b.textContent=txt}}
   });
   window.addEventListener('resize',()=>{clearTimeout(tm);tm=setTimeout(()=>drawChart(current.res),150)});
+  update();
 }
 
-async function ladda(){
-  init();
-  const idx=await fetch('data/index.json').then(r=>{if(!r.ok)throw new Error('index '+r.status);return r.json()});
-  R=idx.rubriker;
-  if(idx.uppdaterad)$('upd').textContent=`Hämtat ${idx.uppdaterad}. ${nf.format(idx.protokoll)} protokoll och ${nf.format(idx.bedomda)} dokument har gåtts igenom.`;
-  const filer=[...idx.dokument.map(f=>[f,'dok']),...idx.anforanden.slice().reverse().map(f=>[f,'prot'])];
-  totalt=filer.reduce((s,[f])=>s+f.byte,0);
-  // Dokumenten först (minst), sedan anförandena från nyast till äldst, så att sidan blir användbar tidigt.
-  for(const [f,typ] of filer){
-    const data=await fetch('data/'+f.fil).then(r=>{if(!r.ok)throw new Error(f.fil+' '+r.status);return r.json()});
-    lagg_till(data,typ); laddat+=f.byte; klart=laddat>=totalt;
-    stats(); update(true);
-  }
-}
-ladda().catch(e=>{$('list').innerHTML=`<div class="status">Arkivet kunde inte läsas in (${esc(String(e.message||e))}). Ladda om sidan för att försöka igen.</div>`});
+fetch('data/index.json').then(r=>{if(!r.ok)throw new Error('index '+r.status);return r.json()}).then(init)
+  .catch(e=>{$('list').innerHTML=`<div class="status">Arkivet kunde inte läsas in (${esc(String(e.message||e))}). Ladda om sidan för att försöka igen.</div>`});
 })();
 </script>
