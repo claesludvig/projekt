@@ -4664,5 +4664,42 @@
    }
   },
   "slut": "2026-10-06T18:53:47"
+ },
+ {
+  "start": "2026-10-06T18:11:23",
+  "fel": [],
+  "antal": {
+   "sou": {
+    "hamtade": 1495,
+    "relevanta": 361,
+    "fel": 0
+   },
+   "ds": {
+    "hamtade": 304,
+    "relevanta": 64,
+    "fel": 0
+   },
+   "dir": {
+    "hamtade": 315,
+    "relevanta": 142,
+    "fel": 0
+   },
+   "prop": {
+    "hamtade": 3524,
+    "relevanta": 1635,
+    "fel": 0
+   },
+   "bet": {
+    "hamtade": 4370,
+    "relevanta": 1874,
+    "fel": 0
+   },
+   "mot": {
+    "hamtade": 9714,
+    "relevanta": 4790,
+    "fel": 0
+   }
+  },
+  "slut": "2026-10-06T19:24:15"
  }
 ]
