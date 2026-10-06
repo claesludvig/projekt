@@ -377,12 +377,19 @@ def pdf_text(url):
     tmp = Path(tempfile.mkdtemp(prefix="bostadsarkiv_", dir=os.environ.get("BOSTADSARKIV_TMP")))
     try:
         pdf = tmp / "dok.pdf"
-        r = hamta_url(url, timeout=600, stream=True)
-        if r is None:
-            return ""
-        with open(pdf, "wb") as f:
-            for bit in r.iter_content(1 << 20):
-                f.write(bit)
+        for forsok in range(4):  # stora PDF:er bryts ibland mitt i nedladdningen
+            r = hamta_url(url, timeout=600, stream=True)
+            if r is None:
+                return ""
+            try:
+                with open(pdf, "wb") as f:
+                    for bit in r.iter_content(1 << 20):
+                        f.write(bit)
+                break
+            except requests.RequestException:
+                if forsok == 3:
+                    raise
+                time.sleep(10 * (forsok + 1))
         ut = subprocess.run(["pdftotext", "-enc", "UTF-8", str(pdf), "-"],
                             capture_output=True, timeout=600)
         raw = ut.stdout.decode("utf-8", "replace")
@@ -461,11 +468,70 @@ def hamta_kb(fran, till, arbetare, om=False, grans=None):
     kor_dokument(att_gora, bearbeta_kb, arbetare, "kb", lambda d: f"SOU {d['ar']}:{d['nr']}")
 
 
+# --- Ny bedömning av sparad text ----------------------------------------------
+
+def omvardera():
+    """Bedöm om sparade texter och anföranden med nuvarande katalog.py, utan
+    att hämta något. Kan bara ta bort: text som inte sparades (för att den
+    bedömdes som irrelevant) finns inte lokalt. Har reglerna lättats, kör
+    hamta.py med --om i stället."""
+    rader, n_bort = las_csv(DOK_CSV), 0
+    for r in rader:
+        if not r["textfil"] or not (DATA / r["textfil"]).exists():
+            continue
+        with gzip.open(DATA / r["textfil"], "rt", encoding="utf-8") as f:
+            t = f.read().split("\n\n", 1)[-1]
+        karna, bred = text.rakna(t)
+        tt = text.titeltraff(r["titel"])
+        rel = text.dokument_relevant(karna, int(r["ord"]), tt)
+        r.update(karna=sum(karna.values()), bred=sum(bred.values()),
+                 karntermer=text.termstrang(karna), bredtermer=text.termstrang(bred),
+                 titeltraff=int(tt), relevant=int(rel),
+                 grad=text.grad(karna, int(r["ord"]), tt) if rel else "")
+        if not rel:
+            (DATA / r["textfil"]).unlink()
+            r["textfil"] = ""
+            n_bort += 1
+    with open(DOK_CSV, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=DOK_FALT, extrasaction="ignore", lineterminator="\n")
+        w.writeheader()
+        w.writerows(rader)
+    print(f"Dokument: {n_bort} av {sum(1 for r in rader if r['relevant'] in (1, '1')) + n_bort} föll bort")
+
+    antal = {}
+    a_fore = a_efter = 0
+    for p in sorted(ANF_DIR.glob("*.jsonl.gz")):
+        with gzip.open(p, "rt", encoding="utf-8") as f:
+            anf = [json.loads(x) for x in f if x.strip()]
+        kvar = []
+        for a in anf:
+            karna, bred = text.rakna(a["text"])
+            if not (text.anforande_relevant(karna, bred) or text.titeltraff(a["rubrik"])):
+                continue
+            a.update(karna=sum(karna.values()), bred=sum(bred.values()),
+                     karntermer=text.termstrang(karna), bredtermer=text.termstrang(bred),
+                     grad=text.anforande_grad(karna))
+            kvar.append(a)
+            antal[a["prot_id"]] = antal.get(a["prot_id"], 0) + 1
+        with gzip.open(p, "wt", encoding="utf-8", compresslevel=9) as f:
+            f.writelines(json.dumps(a, ensure_ascii=False) + "\n" for a in kvar)
+        a_fore += len(anf)
+        a_efter += len(kvar)
+    prot = las_csv(PROT_CSV)
+    for r in prot:
+        r["relevanta"] = antal.get(r["dok_id"], 0)
+    with open(PROT_CSV, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=PROT_FALT, extrasaction="ignore", lineterminator="\n")
+        w.writeheader()
+        w.writerows(prot)
+    print(f"Anföranden: {a_fore} -> {a_efter}")
+
+
 # --- Huvudprogram -------------------------------------------------------------
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("vad", choices=["alla", "protokoll", "riksdagsdok", "kb"])
+    ap.add_argument("vad", choices=["alla", "protokoll", "riksdagsdok", "kb", "omvardera"])
     ap.add_argument("--fran", type=int, default=katalog.FRAN_AR)
     ap.add_argument("--till", type=int, default=date.today().year)
     ap.add_argument("--typ", nargs="*", default=["sou", "ds", "dir", "prop", "bet"], help="för riksdagsdok")
@@ -475,6 +541,8 @@ def main():
     ap.add_argument("--tomma", action="store_true", help="gör om protokoll utan anföranden")
     a = ap.parse_args()
     DATA.mkdir(exist_ok=True)
+    if a.vad == "omvardera":
+        return omvardera()
 
     if a.vad in ("alla", "riksdagsdok"):
         hamta_riksdagsdok(a.typ, a.fran, a.arbetare, a.om, a.grans)

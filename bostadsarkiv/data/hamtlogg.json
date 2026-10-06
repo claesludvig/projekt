@@ -4590,5 +4590,55 @@
    }
   },
   "slut": "2026-10-06T14:21:38"
+ },
+ {
+  "start": "2026-10-06T13:52:26",
+  "fel": [
+   {
+    "vad": "kb SOU 1997:7",
+    "fel": "('Connection broken: IncompleteRead(117751772 bytes read, 1514799 more expected)', IncompleteRead(117751772 bytes read, 1514799 more expected))"
+   },
+   {
+    "vad": "kb SOU 1997:85",
+    "fel": "('Connection broken: IncompleteRead(121327772 bytes read, 906554 more expected)', IncompleteRead(121327772 bytes read, 906554 more expected))"
+   }
+  ],
+  "antal": {
+   "kb": {
+    "hamtade": 1342,
+    "relevanta": 142,
+    "fel": 2
+   }
+  },
+  "slut": "2026-10-06T14:56:48"
+ },
+ {
+  "start": "2026-10-06T14:57:25",
+  "fel": [],
+  "antal": {
+   "kb": {
+    "hamtade": 2,
+    "relevanta": 2,
+    "fel": 0
+   }
+  },
+  "slut": "2026-10-06T14:57:52"
+ },
+ {
+  "start": "2026-10-06T15:05:21",
+  "fel": [],
+  "antal": {
+   "bet": {
+    "hamtade": 0,
+    "relevanta": 0,
+    "fel": 0
+   },
+   "prop": {
+    "hamtade": 0,
+    "relevanta": 0,
+    "fel": 0
+   }
+  },
+  "slut": "2026-10-06T15:09:38"
  }
 ]
