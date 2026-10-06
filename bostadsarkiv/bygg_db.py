@@ -3,7 +3,8 @@
 hamta.py har sparat.
 
 Tabeller
-- dokument: alla bedömda SOU, Ds och direktiv (även de som inte bedömdes
+- dokument: alla bedömda SOU, Ds, direktiv, propositioner och betänkanden
+  (även de som inte bedömdes
   relevanta, med träffräkning, så att urvalet går att granska)
 - protokoll: alla genomgångna kammarprotokoll
 - anforanden: relevanta anföranden med talare, parti, ärende och text

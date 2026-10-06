@@ -42,12 +42,12 @@ def sok(db, q, typ=None, fran=None, till=None, parti=None, sortera="rang", grans
     """Sök i anföranden och utredningsavsnitt. Partifilter gäller bara
     anföranden (utredningarna utesluts då)."""
     delar, arg = [], []
-    for sql, ar_kol, ar_typer in ((ANF, "a.ar", ["prot"]), (AVS, "d.ar", ["sou", "ds", "dir"])):
+    for sql, ar_kol, ar_typer in ((ANF, "a.ar", ["prot"]), (AVS, "d.ar", ["sou", "ds", "dir", "prop", "bet"])):
         valda = [t for t in ar_typer if not typ or t in typ]
         if not valda or (parti and "prot" not in valda):
             continue
         del_arg = [q]
-        if ar_typer != ["prot"] and len(valda) < 3:
+        if ar_typer != ["prot"] and len(valda) < len(ar_typer):
             sql += f" AND d.doktyp IN ({','.join('?' * len(valda))})"
             del_arg += valda
         if fran:
@@ -87,7 +87,7 @@ def oversikt(db):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("fraga", nargs="?")
-    ap.add_argument("--typ", nargs="*", choices=["prot", "sou", "ds", "dir"])
+    ap.add_argument("--typ", nargs="*", choices=["prot", "sou", "ds", "dir", "prop", "bet"])
     ap.add_argument("--fran", type=int)
     ap.add_argument("--till", type=int)
     ap.add_argument("--parti", nargs="*")

@@ -1,6 +1,7 @@
 name: Bostadsarkivet - nya protokoll och utredningar (månadsvis)
 
-# Hämtar nya kammarprotokoll, SOU, Ds och kommittédirektiv om bostadsbyggandet
+# Hämtar nya kammarprotokoll, propositioner, betänkanden, SOU, Ds och
+# kommittédirektiv om bostadsbyggandet
 # sedan förra året. Det som redan finns hoppas över. Databasen byggs inte här;
 # den byggs lokalt med python bygg_db.py.
 on:

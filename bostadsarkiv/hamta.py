@@ -5,7 +5,8 @@ Källor
 - Riksdagens protokoll (data.riksdagen.se): alla kammarprotokoll hämtas,
   delas upp i anföranden och de anföranden som rör bostadsbyggandet sparas
   med talare, parti, datum och ärende.
-- SOU, Ds och kommittédirektiv (data.riksdagen.se): kandidater hittas med
+- SOU, Ds, kommittédirektiv, propositioner och utskottsbetänkanden
+  (data.riksdagen.se): kandidater hittas med
   riksdagens sökmotor (katalog.SOKFRAGOR), fulltexten hämtas och bedöms.
   Riksdagen har SOU från 1997.
 - SOU 1990–1999 från Kungliga biblioteket (sou.kb.se): inskannade PDF:er med
@@ -275,7 +276,7 @@ def rensa_anforanden(prot_ids):
 # --- SOU, Ds, direktiv från riksdagen -------------------------------------------
 
 def beteckning(doktyp, rm, nr):
-    pref = {"sou": "SOU", "ds": "Ds", "dir": "Dir."}[doktyp]
+    pref = {"sou": "SOU", "ds": "Ds", "dir": "Dir.", "prop": "Prop.", "bet": "Bet."}[doktyp]
     return f"{pref} {rm}:{nr}"
 
 
@@ -313,6 +314,13 @@ def bearbeta_rd_dokument(d):
     t = rd_text(d["dok_id"])
     if len(t) < 500 and meta["pdf_url"]:
         t = pdf_text(meta["pdf_url"])
+    if re.fullmatch(r"(?:Betänkande|Proposition|Prop\.)?\s*\d{4}/\d{2}:\w+", meta["titel"]):
+        # Äldre betänkanden och propositioner saknar titel i listan; ta första
+        # rubriken i texten som inte bara är beteckningen.
+        for rub in re.findall(r"^# (.+)$", t, re.M)[:15]:
+            if len(rub) > 8 and not re.search(r"\d{4}/\d{2}|^(Betänkande|Proposition|Riksdagen|Sammanfattning|Innehåll)", rub):
+                meta["titel"] = f"{meta['titel']}: {rub[:150]}"
+                break
     return bedom_dokument(meta, t, "riksdagen")
 
 
@@ -459,7 +467,7 @@ def main():
     ap.add_argument("vad", choices=["alla", "protokoll", "riksdagsdok", "kb"])
     ap.add_argument("--fran", type=int, default=katalog.FRAN_AR)
     ap.add_argument("--till", type=int, default=date.today().year)
-    ap.add_argument("--typ", nargs="*", default=["sou", "ds", "dir"], help="för riksdagsdok")
+    ap.add_argument("--typ", nargs="*", default=["sou", "ds", "dir", "prop", "bet"], help="för riksdagsdok")
     ap.add_argument("--arbetare", type=int, default=4)
     ap.add_argument("--om", action="store_true", help="hämta om det som redan finns")
     ap.add_argument("--grans", type=int, help="högst så många nya (för test)")

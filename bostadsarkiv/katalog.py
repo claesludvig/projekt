@@ -49,7 +49,8 @@ BRED = {
 }
 
 # Frågor till riksdagens sökmotor (data.riksdagen.se) för att hitta kandidater
-# bland SOU, Ds och kommittédirektiv. Protokollen hämtas alla, utan sökning.
+# bland SOU, Ds, kommittédirektiv, propositioner och betänkanden. Protokollen
+# hämtas alla, utan sökning.
 # Sökmotorn böjer orden själv (bostadsbyggande = bostadsbyggandet).
 SOKFRAGOR = [
     "bostadsbyggande",
@@ -72,6 +73,8 @@ DOKTYPER = {
     "sou": "Statens offentliga utredningar",
     "ds": "Departementsserien",
     "dir": "Kommittédirektiv",
+    "prop": "Propositioner",
+    "bet": "Utskottsbetänkanden",
 }
 
 FRAN_AR = 1990
