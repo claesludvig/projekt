@@ -3,3 +3,5 @@ __pycache__/
 data/bostadsarkiv.sqlite
 data/bostadsarkiv.tmp
 webb/data/
+data/bostadsarkiv.tmp-journal
+data/*.sqlite-journal
