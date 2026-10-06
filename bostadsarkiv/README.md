@@ -4,6 +4,19 @@ En sökbar samling av källmaterial om bostadsbyggandet i Sverige 1990 till i da
 riksdagens kammarprotokoll (per anförande), propositioner, utskottsbetänkanden och
 statliga utredningar (SOU, Ds och kommittédirektiv) i fulltext.
 
+## Innehåll (hämtat 2026-10-06)
+
+| Typ | Bedömda | Med i basen |
+|---|---|---|
+| Kammarprotokoll | 4 901 protokoll | 16 928 anföranden |
+| Propositioner | 1 877 | 619 |
+| Utskottsbetänkanden | 2 243 | 640 |
+| SOU (riksdagen 1997–, KB 1990–1999) | 2 980 | 437 |
+| Ds | 287 | 48 |
+| Kommittédirektiv | 262 | 119 |
+
+Texten tar ca 170 MB komprimerat i `data/`, och sökdatabasen ca 1,7 GB.
+
 ## Källor
 
 | Källa | Vad | Period | Hur |
@@ -74,15 +87,18 @@ python hamta.py alla                 # allt som saknas, 1990 till i dag
 python hamta.py protokoll --fran 2026
 python hamta.py riksdagsdok --typ sou ds dir prop bet --fran 2025
 python hamta.py kb                   # SOU 1990–1999 från KB
-python hamta.py protokoll --om       # gör om (t.ex. efter ändrad ordlista)
+python hamta.py omvardera            # bedöm sparad text igen efter skärpt ordlista
+python hamta.py protokoll --om       # hämta och bedöm om allt (efter lättad ordlista)
 ```
 
 `.github/workflows/bostadsarkiv.yml` hämtar nytt material den 3:e varje månad från
 förra årets början och committar `data/`. Schemalagda körningar går bara från
 standardgrenen.
 
-Ändrar du ordlistan eller reglerna i `katalog.py` påverkar det bara nya hämtningar. Kör
-med `--om` för att bedöma om det som redan hämtats.
+Ändrar du ordlistan eller reglerna i `katalog.py` påverkar det bara nya hämtningar. Har
+du skärpt dem räcker `hamta.py omvardera`, som bedömer den sparade texten igen och tar
+bort det som inte längre uppfyller reglerna. Har du lättat dem måste texten hämtas om med
+`--om`, eftersom det som tidigare bedömdes som irrelevant aldrig sparades.
 
 ## Begränsningar
 
