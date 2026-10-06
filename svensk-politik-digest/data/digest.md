@@ -1,31 +1,34 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-06
 
-4 nya poster sedan förra utskicket (37 redan utskickade, 144 utanför ämnet).
+5 nya poster sedan förra utskicket (39 redan utskickade, 143 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Lars Calmfors: Det finns ett svar på regeringsfrågan som ingen talar om](https://www.dn.se/ledare/lars-calmfors-det-finns-ett-svar-pa-regeringsfragan-som-ingen-talar-om)
-DN Nyheter · 2026-10-06 · Lars Calmfors
+### [Dadgostar tänker ta upp regeringsfrågan: ”Behöver ske”](https://www.svd.se/a/0BGEB2/kritik-mot-c-s-mote-riskerar-bli-teoretiskt)
+SvD Ledare · 2026-10-06 · Johanna Ekström/TT, Niklas Svahn/TT
 
-Spelet kring regeringsbildningen skadar förtroendet till politiken. Det skulle också ett extra val göra. Men det finns alternativ. Flera europeiska länder har testat tjänstemannaregeringar. KOLUMNEN. Lars Calmfors är professor emeritus i internationell ekonomi, forskare vid IFN och fristående kolumnist på Dagens Nyheters ledarsida.
+V-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet…
 
 ## Rapportering
 
-### [Polisen och LO har gett klartecken till centermöte](https://www.sverigesradio.se/artikel/9313466)
-Ekot, Sveriges Radio · 2026-10-05 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Daniel Alling om Patriot-beskedet: ”Tydligt budskap till Ryssland”](https://www.sverigesradio.se/artikel/9314160)
+Ekot, Sveriges Radio · 2026-10-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Såväl Polisen som Konjunkturinstitutet och LO kommer till Centerpartiets uppmärksammade möte på fredag dit partiet bjudit in övriga rödgröna partier samt olika samhällsaktörer. Centerpartiet håller fast vid att Vänsterpartiet inte ska sitta i regering – men ser ändå skäl att se om partierna har en gemensam syn i en rad samhällsfrågor – som bland annat ekonomi, och arbetsmarknad, liksom inre och yttre säkerhet. Det var i fredags, efter att talmannen givit tillbaka sonderingsuppdraget till Socialdemokraternas Magdalena Andersson, som centerledaren Elisabeth Thand Ringqvist gick ut medialt och bjöd in de övriga rödgröna partierna till mötet.
+Sverige skickar Patriot-luftvärn till Polen för att försvara Natos östra gräns, det meddelade statsminister Ulf Kristersson under en pressträff med försvarsministern, utrikesministern och justitieministern. Enligt Daniel Alling, Sveriges Radios internationella korrespondent, vill övergångsregeringen visa internt och internationellt att Sveriges säkerhet fungerar och att de tar ansvar innan en ny regering finns på plats. "Det är ett tydligt budskap till Ryssland, och även till Ukraina, att Sverige är djupt inblandad i den här frågan och ser den som prioriterad”, säger Daniel Alling.
 
-### [Partiledarna på plats under rödgröna ödesmötet](https://www.dn.se/sverige/partiledarna-pa-plats-under-odesmotet)
-DN Nyheter · 2026-10-05 · Pia Gripenberg, Hans Olsson
+### [Försvarsmakten nobbar centerns möte: ”Inte prioriterat”](https://www.sverigesradio.se/artikel/9314142)
+Ekot, Sveriges Radio · 2026-10-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-De sista detaljerna finslipas nu inför de rödgrönas ödesmöte på fredag. Enligt uppgifter till DN kommer de högsta företrädarna för varje parti att delta i mötet.
+Försvarsmakten tackar nej till att delta på Centerpartiets uppmärksammade möte på fredag, då partiet samlar de andra rödgröna partierna, men också bjudit in organisationer och myndigheter för en genomgång av läget för Sverige. Partiet är hemlighetsfullt om vilka externa aktörer som bjudits in, men klart är att såväl LO som Saco och TCO deltar liksom Polisen och Konjunkturinstitutet. Det var för knappt en vecka sedan som Centerpartiets partiledare Elisabeth Thand Ringqvist bjöd in till möte för att komma ifrån den låst situationen i regeringsbildningen.
 
-## Officiella besked
+### [Regeringen skickar luftvärn till Polen](https://www.sverigesradio.se/artikel/9314110)
+Ekot, Sveriges Radio · 2026-10-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-### [Pressbriefing om säkerhetsläget](https://www.regeringen.se/pressmeddelanden/2026/10/pressbriefing-om-sakerhetslaget)
-Regeringen.se · 2026-10-06 · Regeringskansliet
+Regeringen skickar svenskt luftvärn till Polen, för att försvara Natos östra gräns. Det säger statsminister Ulf Kristersson (M), under en pressträff på tisdagen. ”Det nya, som vi inte gjort förut, är att vi också på plats kommer bidra med luftvärnssystemet Patriot till den insatsen”, säger statsministern. Syftet är att skydda Natos logistikhubb i Polen och se till att allt försvarsmateriel kan skickas till Ukraina.
 
-Tisdag den 6 oktober håller statsminister Ulf Kristersson, utrikesminister Maria Malmer Stenergard, försvarsminister Pål Jonson och justitieminister Gunnar Strömmer en pressbriefing om säkerhetsläget. På briefingen ges en lägesbild.
+### [De rödgröna överens om stopplag för tonårsutvisningar](https://www.sverigesradio.se/artikel/9314048)
+Ekot, Sveriges Radio · 2026-10-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-_Genererat 2026-10-06T06:18:14.294917+00:00._
+Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här har tagits upp idag på utskottssammanträdet och ärendet är nu bordlagt till nästa sammanträde för behandling”, säger riksdagsledamoten Ida Karkiainen (S). Vid nästa sammanträde med socialförsäkringsutskottet, kommer förslaget att klubbas, för att sedan läggas fram i riksdagen för beslut. Hur snabbt beslutet kan tas och hur många som berörs är oklart.
+
+_Genererat 2026-10-06T14:21:42.702198+00:00._

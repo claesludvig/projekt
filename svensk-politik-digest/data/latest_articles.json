@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-06T06:18:14.294917+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-10-06T14:21:42.702198+00:00",
+  "new_count": 5,
   "skipped": {
-    "seen": 37,
-    "offtopic": 144,
-    "old": 25
+    "seen": 39,
+    "offtopic": 143,
+    "old": 23
   },
-  "fetch_errors": 1,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 4,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,77 +65,95 @@
   ],
   "articles": [
     {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/pressbriefing-om-sakerhetslaget",
-      "title": "Pressbriefing om säkerhetsläget",
-      "source": "Regeringen.se",
-      "kind": "officiell",
+      "url": "https://www.svd.se/a/0BGEB2/kritik-mot-c-s-mote-riskerar-bli-teoretiskt",
+      "title": "Dadgostar tänker ta upp regeringsfrågan: ”Behöver ske”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-10-06",
-      "author": "Regeringskansliet",
+      "author": "Johanna Ekström/TT, Niklas Svahn/TT",
       "commentator": "",
-      "summary": "Tisdag den 6 oktober håller statsminister Ulf Kristersson, utrikesminister Maria Malmer Stenergard, försvarsminister Pål Jonson och justitieminister Gunnar Strömmer en pressbriefing om säkerhetsläget. På briefingen ges en lägesbild.",
-      "fulltext": "Tisdag den 6 oktober håller statsminister Ulf Kristersson, utrikesminister Maria Malmer Stenergard, försvarsminister Pål Jonson och justitieminister Gunnar Strömmer en pressbriefing om säkerhetsläget. På briefingen ges en lägesbild.\nTid: 6 oktober 2026 kl. 14.00 Plats: Föranmälda journalister kan delta på plats i Regeringens pressrum, Rosenbad. Ingång Drottninggatan 1. Praktisk information: Obligatorisk föranmälan senast tisdag den 6 oktober kl. 13.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering från kl. 13.30. Deltagande sker i mån av plats.\nPraktisk information: Obligatorisk föranmälan senast tisdag den 6 oktober kl. 13.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering från kl. 13.30. Deltagande sker i mån av plats.\nAnmälan till pressbriefing den 6 oktober - extern webbplats,\nSidan är uppmärkt med följande kategorier\nPublicerad 30 september 2026 · Pressmeddelande från Maria Malmer Stenergard , Pål Jonson , Ulf Kristersson , Försvarsdepartementet , Statsrådsberedningen , Utrikesdepartementet\nPublicerad 24 september 2026 · Pressmeddelande från Carl-Oskar Bohlin , Maria Malmer Stenergard , Pål Jonson , Försvarsdepartementet , Utrikesdepartementet\nPublicerad 21 september 2026 · Pressmeddelande från Jakob Forssmed , Maria Malmer Stenergard , Socialdepartementet , Utrikesdepartementet\nPublicerad 18 september 2026 · Pressmeddelande från Utrikesdepartementet",
+      "summary": "V-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet…",
+      "fulltext": "Nooshi Dadgostar (V) i riksdagen. Foto: Martin Pahlmblad/TT\nV-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet bara ska ge en gemensam lägesbild.\n– Det är det som behöver ske, här och nu, säger hon.\nCenterpartiet har bjudit in de andra rödgröna partiledarna till ett gemensamt möte på fredag. Det blir första gången efter valet alla fyra ses i samma rum.\nInbjudan handlar om att partierna ska få en gemensam lägesbild över Sveriges utmaningar, enligt C-ledaren Elisabeth Thand Ringqvist.\nDadgostar säger att hon ser på mötet med tillförsikt.\n– Det är alltid bra att kunskapsinhämta på olika seminarier, det gör ju vi kontinuerligt. Det viktiga är att vi får en handlingskraftig regering på plats med fyra partier som kan genomföra viktiga förändringar i Sverige.\nEn ny regering behöver ”fylla på i plånböckerna, stärka sjukvården, införa miljardärsskatt, se till att skapa fler jobb”, fortsätter hon.\n– Jag utgår från att den kommer att finnas med i diskussionen. Det är det som behöver ske, här och nu, säger Dadgostar.\nHon uppmanar samtidigt S-ledaren Magdalena Andersson att bjuda in till ”regeringsbildningsmöten” mellan alla fyra partier.\n– Jag utgår från att regeringsbildaren bjuder in.\nC har varit fåordigt kring exakt vilka myndigheter och organisationer som har bjudits in till mötet. Svenskt Näringsliv, LO, Konjunkturinstitutet och Saco hör dock till dem som har fått en inbjudan.\nFöretagarna är däremot inte inbjudna, vilket branschorganisationens vd Magnus Demervall är kritisk till. Han menar att mötet riskerar att bli alltför teoretiskt och akademiskt.\n– Om man bara lyssnar på några få fackförbund och storföretagen så missar man perspektivet från små och medelstora företag. De är tillsammans Sveriges största jobbskapare och arbetsgivare, säger han.\nFöretagarna har tidigare uttryckt oro för olika förslag i valrörelsen, framför allt det slopade karensavdraget som både S och V gått fram med.\n– Om man vill fortsätta hålla Sverige konkurrenskraftigt får man inte dra fel slutsatser. Det riskerar man att göra om man bara lyssnar på några som primärt sitter på några få kvarter i Sveriges huvudstad.\n– Det riskerar att bli dåligt förankrat i verkligheten, säger Demervall.\nMötet äger rum fredag eftermiddag och utöver partiledare är även partiernas ekonomiskpolitiska talespersoner, gruppledare och partisekreterare inbjudna.",
       "paywall": false,
       "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg"
+      ],
+      "first_seen": "2026-10-06T14:21:42.702198+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9314160",
+      "title": "Daniel Alling om Patriot-beskedet: ”Tydligt budskap till Ryssland”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-06",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Sverige skickar Patriot-luftvärn till Polen för att försvara Natos östra gräns, det meddelade statsminister Ulf Kristersson under en pressträff med försvarsministern, utrikesministern och justitieministern. Enligt Daniel Alling, Sveriges Radios internationella korrespondent, vill övergångsregeringen visa internt och internationellt att Sveriges säkerhet fungerar och att de tar ansvar innan en ny regering finns på plats. \"Det är ett tydligt budskap till Ryssland, och även till Ukraina, att Sverige är djupt inblandad i den här frågan och ser den som prioriterad”, säger Daniel Alling.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314160'",
+      "matched_terms": [
+        "övergångsregering",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-06T14:21:42.702198+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9314142",
+      "title": "Försvarsmakten nobbar centerns möte: ”Inte prioriterat”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-06",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Försvarsmakten tackar nej till att delta på Centerpartiets uppmärksammade möte på fredag, då partiet samlar de andra rödgröna partierna, men också bjudit in organisationer och myndigheter för en genomgång av läget för Sverige. Partiet är hemlighetsfullt om vilka externa aktörer som bjudits in, men klart är att såväl LO som Saco och TCO deltar liksom Polisen och Konjunkturinstitutet. Det var för knappt en vecka sedan som Centerpartiets partiledare Elisabeth Thand Ringqvist bjöd in till möte för att komma ifrån den låst situationen i regeringsbildningen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314142'",
+      "matched_terms": [
+        "regeringsbildning",
+        "partiledar",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-06T14:21:42.702198+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9314110",
+      "title": "Regeringen skickar luftvärn till Polen",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-06",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Regeringen skickar svenskt luftvärn till Polen, för att försvara Natos östra gräns. Det säger statsminister Ulf Kristersson (M), under en pressträff på tisdagen. ”Det nya, som vi inte gjort förut, är att vi också på plats kommer bidra med luftvärnssystemet Patriot till den insatsen”, säger statsministern. Syftet är att skydda Natos logistikhubb i Polen och se till att allt försvarsmateriel kan skickas till Ukraina.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314110'",
       "matched_terms": [
         "statsminister"
       ],
-      "first_seen": "2026-10-06T06:18:14.294917+00:00"
+      "first_seen": "2026-10-06T14:21:42.702198+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/lars-calmfors-det-finns-ett-svar-pa-regeringsfragan-som-ingen-talar-om",
-      "title": "Lars Calmfors: Det finns ett svar på regeringsfrågan som ingen talar om",
-      "source": "DN Nyheter",
-      "kind": "kommentar",
-      "published": "2026-10-06",
-      "author": "Lars Calmfors",
-      "commentator": "",
-      "summary": "Spelet kring regeringsbildningen skadar förtroendet till politiken. Det skulle också ett extra val göra. Men det finns alternativ. Flera europeiska länder har testat tjänstemannaregeringar. KOLUMNEN. Lars Calmfors är professor emeritus i internationell ekonomi, forskare vid IFN och fristående kolumnist på Dagens Nyheters ledarsida.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-06 08:17\nArtikelns ursprungsadress: https://www.dn.se/ledare/lars-calmfors-det-finns-ett-svar-pa-regeringsfragan-som-ingen-talar-om/\nSpelet kring regeringsbildningen skadar förtroendet till politiken. Det skulle också ett extra val göra. Men det finns alternativ. Flera europeiska länder har testat tjänstemannaregeringar.\nKOLUMNEN. Lars Calmfors är professor emeritus i internationell ekonomi, forskare vid IFN och fristående kolumnist på Dagens Nyheters ledarsida.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "regeringsfråg"
-      ],
-      "first_seen": "2026-10-06T06:18:14.294917+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9313466",
-      "title": "Polisen och LO har gett klartecken till centermöte",
+      "url": "https://www.sverigesradio.se/artikel/9314048",
+      "title": "De rödgröna överens om stopplag för tonårsutvisningar",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-05",
+      "published": "2026-10-06",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Såväl Polisen som Konjunkturinstitutet och LO kommer till Centerpartiets uppmärksammade möte på fredag dit partiet bjudit in övriga rödgröna partier samt olika samhällsaktörer. Centerpartiet håller fast vid att Vänsterpartiet inte ska sitta i regering – men ser ändå skäl att se om partierna har en gemensam syn i en rad samhällsfrågor – som bland annat ekonomi, och arbetsmarknad, liksom inre och yttre säkerhet. Det var i fredags, efter att talmannen givit tillbaka sonderingsuppdraget till Socialdemokraternas Magdalena Andersson, som centerledaren Elisabeth Thand Ringqvist gick ut medialt och bjöd in de övriga rödgröna partierna till mötet.",
+      "summary": "Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här har tagits upp idag på utskottssammanträdet och ärendet är nu bordlagt till nästa sammanträde för behandling”, säger riksdagsledamoten Ida Karkiainen (S). Vid nästa sammanträde med socialförsäkringsutskottet, kommer förslaget att klubbas, för att sedan läggas fram i riksdagen för beslut. Hur snabbt beslutet kan tas och hur många som berörs är oklart.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9313466'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9314048'",
       "matched_terms": [
-        "talman",
-        "sondering",
         "Centerpartiet",
+        "Miljöpartiet",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-06T06:18:14.294917+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/partiledarna-pa-plats-under-odesmotet",
-      "title": "Partiledarna på plats under rödgröna ödesmötet",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-05",
-      "author": "Pia Gripenberg, Hans Olsson",
-      "commentator": "",
-      "summary": "De sista detaljerna finslipas nu inför de rödgrönas ödesmöte på fredag. Enligt uppgifter till DN kommer de högsta företrädarna för varje parti att delta i mötet.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-06 08:18\nArtikelns ursprungsadress: https://www.dn.se/sverige/partiledarna-pa-plats-under-odesmotet/\nDe sista detaljerna finslipas nu inför de rödgrönas ödesmöte på fredag.\nEnligt uppgifter till DN kommer de högsta företrädarna för varje parti att delta i mötet.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar"
-      ],
-      "first_seen": "2026-10-06T06:18:14.294917+00:00"
+      "first_seen": "2026-10-06T14:21:42.702198+00:00"
     }
   ]
 }
