@@ -15,7 +15,7 @@ statliga utredningar (SOU, Ds och kommittédirektiv) i fulltext.
 | Ds | 287 | 48 |
 | Kommittédirektiv | 262 | 119 |
 
-Texten tar ca 170 MB komprimerat i `data/`, och sökdatabasen ca 1,7 GB.
+Texten tar ca 230 MB komprimerat i `data/`, och sökdatabasen ca 1,7 GB.
 
 ## Källor
 
