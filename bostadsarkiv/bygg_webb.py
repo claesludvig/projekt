@@ -135,7 +135,8 @@ def skriv_delar(namn, poster):
             filer.append(buf)
         for i, del_ in enumerate(filer, 1):
             fn = f"{namn}-{f}-{i}.json"
-            (UT / fn).write_text(json.dumps(del_, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+            data = json.dumps(del_, ensure_ascii=False, separators=(",", ":")).replace("\ufffd", "")
+            (UT / fn).write_text(data, encoding="utf-8")
             index.append({"fil": fn, "period": pi, "antal": len(del_), "byte": (UT / fn).stat().st_size})
     return index
 

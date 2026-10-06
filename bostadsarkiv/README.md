@@ -1,34 +1,49 @@
 # Bostadsarkivet
 
-En sökbar samling av källmaterial om bostadsbyggandet i Sverige 1990 till i dag:
-riksdagens kammarprotokoll (per anförande), propositioner, utskottsbetänkanden och
-statliga utredningar (SOU, Ds och kommittédirektiv) i fulltext.
+En sökbar samling av källmaterial om bostadsbyggandet och dess finansiering i Sverige
+1939 till i dag: riksdagens kammarprotokoll (per anförande)  propositioner 
+utskottsbetänkanden  motioner  statliga utredningar (SOU  Ds  kommittédirektiv) och
+regeringens remissvar  i fulltext.
 
 ## Innehåll (hämtat 2026-10-06)
 
 | Typ | Bedömda | Med i basen |
 |---|---|---|
-| Kammarprotokoll | 4 901 protokoll | 16 928 anföranden |
-| Propositioner | 1 877 | 619 |
-| Utskottsbetänkanden | 2 243 | 640 |
-| SOU (riksdagen 1997–, KB 1990–1999) | 2 980 | 437 |
-| Ds | 287 | 48 |
-| Kommittédirektiv | 262 | 119 |
+| Kammarprotokoll 1939– | 10 451 protokoll | 29 844 anföranden |
+| Propositioner | 3 524 | 1 635 |
+| Utskottsbetänkanden och utlåtanden | 4 370 | 1 874 |
+| Motioner | 9 714 | 4 790 |
+| SOU (KB 1939–1999  riksdagen 1997–) | 6 353 | 1 304 |
+| Ds | 304 | 64 |
+| Kommittédirektiv | 315 | 142 |
+| Remissvar  regeringen.se 2014– | 6 596 | 6 249 |
 
-Texten tar ca 230 MB komprimerat i `data/`, och sökdatabasen ca 1,7 GB.
+Sökdatabasen (`bygg_db.py`) blir ca 5 8 GB och ligger inte i git.
+
+**Kapitelfilter** (`kapitel.py`): avsnitten i kapitlet om kreditpolitiken och
+bostadsfinansieringen  med år och ämnesord. **Aktörsfilter** (`aktorer.py`):
+byggföretag  fastighetsägare  allmännyttan och kooperationen  banker och andra
+grupper  med historiska organisationsnamn. Stycken där en aktör redovisas ta ställning
+sparas i tabellen `aktorsstycken`.
+
+Sammanställningen *Branschen och bostadsfinansieringen* (`analys/bygg_branschen.py` 
+https://claude.ai/artifact/Xw5nbx765D4mFeUeAnD4LP) visar vad byggföretagen och
+fastighetsägarna anförde i remissvaren 1946–1990.
 
 ## Källor
 
 | Källa | Vad | Period | Hur |
 |---|---|---|---|
-| Riksdagen, data.riksdagen.se | Kammarprotokoll | 1990– | Alla protokoll hämtas och delas upp i anföranden; anföranden om bostadsbyggandet sparas |
+| Riksdagen, data.riksdagen.se | Kammarprotokoll | 1939– | Alla protokoll hämtas och delas upp i anföranden; anföranden om bostadsbyggandet sparas |
 | Riksdagen, data.riksdagen.se | SOU | 1997– | Kandidater via riksdagens sökmotor (`katalog.SOKFRAGOR`), fulltexten bedöms |
 | Riksdagen, data.riksdagen.se | Ds, kommittédirektiv | 1990– | Som SOU |
-| Riksdagen, data.riksdagen.se | Propositioner, utskottsbetänkanden | 1990– | Som SOU. Äldre dokument utan titel i listan får första rubriken i texten som titel |
-| Kungliga biblioteket, sou.kb.se | SOU (inskannade, OCR) | 1990–1999 | Alla SOU som riksdagen saknar hämtas som PDF och bedöms; sidnumren (PDF-sida) sparas |
+| Riksdagen, data.riksdagen.se | Propositioner, utskottsbetänkanden, motioner | 1939– | Som SOU. Äldre dokument utan titel i listan får första rubriken i texten som titel |
+| Kungliga biblioteket, sou.kb.se | SOU (inskannade, OCR) | 1939–1999 | Alla SOU som riksdagen saknar hämtas som PDF och bedöms; sidnumren (PDF-sida) sparas |
 
-KB:s OCR-text från 1990-talet innehåller läsfel. Citera alltid från originalet
+Den OCR-tolkade texten före 2000-talet innehåller läsfel. Citera alltid från originalet
 (länkarna till riksdagen.se och KB:s PDF finns vid varje träff).
+
+| Regeringskansliet, regeringen.se | Remissvar (en PDF per instans) | 2014– | `hamta_remisser.py`: alla remisser inom Bostäder och samhällsplanering och bostadsrelaterade inom Finansmarknad |
 
 ## Vad räknas som bostadsbyggande
 
