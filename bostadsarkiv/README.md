@@ -1,9 +1,9 @@
 # Bostadsarkivet
 
 En sökbar samling av källmaterial om bostadsbyggandet och dess finansiering i Sverige
-1939 till i dag: riksdagens kammarprotokoll (per anförande)  propositioner 
-utskottsbetänkanden  motioner  statliga utredningar (SOU  Ds  kommittédirektiv) och
-regeringens remissvar  i fulltext.
+1939 till i dag: riksdagens kammarprotokoll (per anförande), propositioner,
+utskottsbetänkanden, motioner, statliga utredningar (SOU, Ds, kommittédirektiv) och
+regeringens remissvar, i fulltext.
 
 ## Innehåll (hämtat 2026-10-06)
 
@@ -13,20 +13,20 @@ regeringens remissvar  i fulltext.
 | Propositioner | 3 524 | 1 635 |
 | Utskottsbetänkanden och utlåtanden | 4 370 | 1 874 |
 | Motioner | 9 714 | 4 790 |
-| SOU (KB 1939–1999  riksdagen 1997–) | 6 353 | 1 304 |
+| SOU (KB 1939–1999, riksdagen 1997–) | 6 353 | 1 304 |
 | Ds | 304 | 64 |
 | Kommittédirektiv | 315 | 142 |
-| Remissvar  regeringen.se 2014– | 6 596 | 6 249 |
+| Remissvar, regeringen.se 2014– | 6 596 | 6 249 |
 
-Sökdatabasen (`bygg_db.py`) blir ca 5 8 GB och ligger inte i git.
+Sökdatabasen (`bygg_db.py`) blir ca 5,8 GB och ligger inte i git.
 
 **Kapitelfilter** (`kapitel.py`): avsnitten i kapitlet om kreditpolitiken och
-bostadsfinansieringen  med år och ämnesord. **Aktörsfilter** (`aktorer.py`):
-byggföretag  fastighetsägare  allmännyttan och kooperationen  banker och andra
-grupper  med historiska organisationsnamn. Stycken där en aktör redovisas ta ställning
+bostadsfinansieringen, med år och ämnesord. **Aktörsfilter** (`aktorer.py`):
+byggföretag, fastighetsägare, allmännyttan och kooperationen, banker och andra
+grupper, med historiska organisationsnamn. Stycken där en aktör redovisas ta ställning
 sparas i tabellen `aktorsstycken`.
 
-Sammanställningen *Branschen och bostadsfinansieringen* (`analys/bygg_branschen.py` 
+Sammanställningen *Branschen och bostadsfinansieringen* (`analys/bygg_branschen.py`,
 https://claude.ai/artifact/Xw5nbx765D4mFeUeAnD4LP) visar vad byggföretagen och
 fastighetsägarna anförde i remissvaren 1946–1990.
 
