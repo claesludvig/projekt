@@ -147,6 +147,11 @@ def main():
     for (did, doktyp, bet, titel, datum, ar, url, pdf, grad, karna, karntermer, ord_, kalla, organ) in db.execute(
             """SELECT id, doktyp, beteckning, titel, datum, ar, url, pdf_url, grad, karna, karntermer,
                       ord, kalla, organ FROM dokument WHERE relevant = 1 ORDER BY datum, beteckning"""):
+        if not datum:
+            m = re.search(r"/remisser/(\d{4})/(\d{2})/", url or "")
+            if not m:
+                continue
+            datum, ar = f"{m.group(1)}-{m.group(2)}-01", int(m.group(1))
         ps, n, kap, akt = dokument_stycken(db, did, ar or 0, rem=doktyp == "rem")
         if doktyp == "rem":
             akt = [aktorer.grupp_for_organisation(organ)]
@@ -174,6 +179,7 @@ def main():
         for g in p.get("ak", []):
             akt_antal[g] = akt_antal.get(g, 0) + 1
     per_ar = {}
+    anf = [p for p in anf if p["d"][:4].isdigit()]
     for p in anf:
         per_ar.setdefault(p["d"][:4], [0, 0])[0] += 1
     for p in dok:
