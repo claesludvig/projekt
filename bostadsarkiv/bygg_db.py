@@ -4,8 +4,8 @@ hamta.py har sparat.
 
 Tabeller
 - dokument: alla bedömda SOU, Ds, direktiv, propositioner och betänkanden
-  (även de som inte bedömdes
-  relevanta, med träffräkning, så att urvalet går att granska)
+  (även de som inte bedömdes relevanta, med träffräkning, så att urvalet
+  går att granska)
 - protokoll: alla genomgångna kammarprotokoll
 - anforanden: relevanta anföranden med talare, parti, ärende och text
 - avsnitt: de relevanta dokumentens text i avsnitt om ca 2 000 tecken, med
