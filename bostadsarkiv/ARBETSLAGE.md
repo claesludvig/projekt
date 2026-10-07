@@ -29,6 +29,10 @@ Avsnitten med år och ämnesord finns i `kapitel.py`.
   - Sammanställningen **Branschen och bostadsfinansieringen**:
     https://claude.ai/artifact/Xw5nbx765D4mFeUeAnD4LP (byggs med `analys/bygg_branschen.py`,
     31 citat hämtade ordagrant ur databasen, OCR-rättelser listade per citat).
+  - **Reservationerna i utredningarna**: https://claude.ai/artifact/8T2Vi9Npz1GqLnymEZa9kh
+    (byggs med `analys/bygg_reservationer.py`, 24 citat; automatisk lista över alla
+    reservationer/särskilda yttranden i SOU t.o.m. 1992 i `data/sarskilda_yttranden.jsonl.gz`
+    från `analys/sarskilda_yttranden.py`; layouttext ur KB:s PDF för tvåspaltiga sidor i `data/layout/`).
 
 ## Innehåll (hämtat 2026-10-06)
 
@@ -81,18 +85,23 @@ deras avveckling 1970. Vid 1990 års omläggning (prop. 1990/91:34) tillstyrkte 
 begränsade räntebidrag men påpekade behovet av att fördela kapitalkostnader över tiden vid hög
 inflation/realränta. Lucka: branschens hållning när räntebidragen infördes mitten av 1970-talet.
 
-## Nästa uppgift (beställd 2026-10-07)
+## Särskilda yttranden (klart 2026-10-07)
 
-Gå igenom utredningarnas **särskilda yttranden** (och reservationer) – särskilt från experter
-och ledamöter som företrädde byggföretag, fastighetsägare, banker, HSB/Riksbyggen/SABO.
-Prioritera SOU 1945:63, SOU 1956:40, SOU 1975:12 (och 1975:51), SOU 1981:104, SOU 1982:52 samt
-utredningarna bakom besluten 1946–47, 1957 (bostadsbyggnadsutredningen), 1962
-(kreditmarknadsutredningen, SOU 1961:42), 1967 (SOU 1966:44 Bostadspolitiskt kreditstöd),
-1974 (SOU 1972:40 m.fl.) och 1990 (boendekostnadsutredningen).
-Förslag på metod: sök i `avsnitt` efter rubriker/stycken "Särskilt yttrande", "Reservation",
-"av herr/fru X", koppla namnet till organisation via kommittéförteckningen i betänkandets
-början, och redovisa per kapitelavsnitt på samma sätt som branschsidan (citat ordagrant ur
-källtexten, OCR-rättelser synliga). Lägg gärna till ett nytt avsnitt på branschsidan eller
-en egen sida.
+Automatisk genomgång: 834 SOU t.o.m. 1992 → 355 reservationer/särskilda yttranden i 140 SOU,
+113 rör finansieringen eller ett kapitelavsnitt. Handläst: SOU 1947:86, 1952:37, 1956:40, 1963:58,
+1966:44, 1974:17, 1974:32, 1975:12 (+ reservationen i 1948 års bostadsutredning via prop. 1953:138).
+Inga reservationer: SOU 1945:63, 1961:42, 1968:30, 1982:52; SOU 1981:104 = ensamutredare.
+Huvudfynd: Källenius (SBEF, h), Näverfelt (ex-SBEF) och Turesson (h/m) reserverade sig mot
+utjämningslånen 1974 ("rävsaxen") och mot totalfinansieringen 1975 – fyller luckan om branschens
+hållning i mitten av 1970-talet. Olofgörs/Turesson 1966: hyrorna "relativt okänslig[a] för
+kortsiktiga ränteförändringar" (relevant för avsnitt 2). Verifierade roller: Wiman = vice vd
+Stockholms fastighetsägareförening; Hallnäs = ombudsman Bankmannaföreningen; Erik Svensson = ordf.
+Hyresgästernas riksförbund; Näverfelt = SBEF 1964; Lindberger = docent finansdep.
+Oklart: Petzäll (NBD hänvisade till honom), Skarstedt (direktör Hälsingborg; SABO m.fl. stödde hans yttrande).
+Spaltblandad OCR (går ej att citera utan sidbild): SOU 1973:50, delar av 1974:17, 1975:51.
+Fallgrop: 1966:44 anger Källenius som instämmande, prop. 1967:100 anger Petzäll.
 
-Därefter, om Ludvig vill: kapitelutkastets avsnitt 5–9 med arkivet som källbas.
+## Nästa uppgift
+
+Om Ludvig vill: kapitelutkastets avsnitt 5–9 med arkivet som källbas (remissvar på branschsidan,
+reservationer på reservationssidan). Möjligt tillägg: läsa sidbilderna för SOU 1973:50 och 1975:51.

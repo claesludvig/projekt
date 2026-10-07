@@ -334,7 +334,7 @@ def main():
 {''.join(delar)}
 <section id="luckor"><h2>Vad materialet inte visar</h2>
 <p>Redovisningen i propositionerna är departementets sammanfattning och kan vara förkortad. Ett yttrande som saknas i en remissredovisning behöver inte betyda att organisationen inte yttrade sig. Det tydligaste exemplet är räntebidragssystemets införande i mitten av 1970-talet, där byggföretagens och fastighetsägarnas egna synpunkter knappt syns i trycket. För dem behövs originalyttrandena i Riksarkivet, eller organisationernas egna arkiv och tidskrifter.</p>
-<p>Utredningarnas egna texter, till exempel SOU 1945:63, SOU 1956:40, SOU 1975:12 och SOU 1981:104, innehåller ibland särskilda yttranden från experter som organisationerna utsett. De finns i arkivet men är inte genomgångna här.</p>
+<p>Utredningarnas reservationer och särskilda yttranden, där organisationernas egna företrädare skrev i eget namn, är genomgångna på sidan <a href="https://claude.ai/artifact/8T2Vi9Npz1GqLnymEZa9kh" target="_blank" rel="noopener">Reservationerna i utredningarna</a>. Där syns också branschens hållning till utjämningslånen och totalfinansieringen 1974–1975.</p>
 </section>
 <footer><span>Källor: propositioner, utskottsbetänkanden och statliga utredningar via <a href="https://data.riksdagen.se" target="_blank" rel="noopener">Riksdagens öppna data</a> och <a href="https://sou.kb.se" target="_blank" rel="noopener">Kungliga bibliotekets digitaliserade SOU</a>. Sammanställt ur <a href="{ARKIVET}" target="_blank" rel="noopener">Bostadsarkivet</a>.</span></footer>
 </main>

@@ -28,7 +28,10 @@ sparas i tabellen `aktorsstycken`.
 
 Sammanställningen *Branschen och bostadsfinansieringen* (`analys/bygg_branschen.py`,
 https://claude.ai/artifact/Xw5nbx765D4mFeUeAnD4LP) visar vad byggföretagen och
-fastighetsägarna anförde i remissvaren 1946–1990.
+fastighetsägarna anförde i remissvaren 1946–1990. *Reservationerna i utredningarna*
+(`analys/sarskilda_yttranden.py`, `analys/bygg_reservationer.py`,
+https://claude.ai/artifact/8T2Vi9Npz1GqLnymEZa9kh) går igenom reservationer och särskilda
+yttranden i SOU till och med 1992.
 
 ## Källor
 
