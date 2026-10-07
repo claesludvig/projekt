@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-06T14:21:42.702198+00:00",
+  "fetched_at": "2026-10-07T06:25:30.432403+00:00",
   "new_count": 5,
   "skipped": {
-    "seen": 39,
-    "offtopic": 143,
-    "old": 23
+    "seen": 38,
+    "offtopic": 145,
+    "old": 22
   },
-  "fetch_errors": 4,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 4,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,95 +65,94 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/0BGEB2/kritik-mot-c-s-mote-riskerar-bli-teoretiskt",
-      "title": "Dadgostar tänker ta upp regeringsfrågan: ”Behöver ske”",
-      "source": "SvD Ledare",
+      "url": "https://www.dn.se/ledare/anna-hedenmo-ursakta-men-hur-lojliga-regeringsutspel-tal-sverige",
+      "title": "Anna Hedenmo: Ursäkta, men hur löjliga regeringsutspel tål Sverige?",
+      "source": "DN Nyheter",
       "kind": "kommentar",
-      "published": "2026-10-06",
-      "author": "Johanna Ekström/TT, Niklas Svahn/TT",
+      "published": "2026-10-07",
+      "author": "Anna Hedenmo",
       "commentator": "",
-      "summary": "V-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet…",
-      "fulltext": "Nooshi Dadgostar (V) i riksdagen. Foto: Martin Pahlmblad/TT\nV-ledaren Nooshi Dadgostar tänker ta upp regeringsfrågan på C:s möte på fredag – trots att mötet bara ska ge en gemensam lägesbild.\n– Det är det som behöver ske, här och nu, säger hon.\nCenterpartiet har bjudit in de andra rödgröna partiledarna till ett gemensamt möte på fredag. Det blir första gången efter valet alla fyra ses i samma rum.\nInbjudan handlar om att partierna ska få en gemensam lägesbild över Sveriges utmaningar, enligt C-ledaren Elisabeth Thand Ringqvist.\nDadgostar säger att hon ser på mötet med tillförsikt.\n– Det är alltid bra att kunskapsinhämta på olika seminarier, det gör ju vi kontinuerligt. Det viktiga är att vi får en handlingskraftig regering på plats med fyra partier som kan genomföra viktiga förändringar i Sverige.\nEn ny regering behöver ”fylla på i plånböckerna, stärka sjukvården, införa miljardärsskatt, se till att skapa fler jobb”, fortsätter hon.\n– Jag utgår från att den kommer att finnas med i diskussionen. Det är det som behöver ske, här och nu, säger Dadgostar.\nHon uppmanar samtidigt S-ledaren Magdalena Andersson att bjuda in till ”regeringsbildningsmöten” mellan alla fyra partier.\n– Jag utgår från att regeringsbildaren bjuder in.\nC har varit fåordigt kring exakt vilka myndigheter och organisationer som har bjudits in till mötet. Svenskt Näringsliv, LO, Konjunkturinstitutet och Saco hör dock till dem som har fått en inbjudan.\nFöretagarna är däremot inte inbjudna, vilket branschorganisationens vd Magnus Demervall är kritisk till. Han menar att mötet riskerar att bli alltför teoretiskt och akademiskt.\n– Om man bara lyssnar på några få fackförbund och storföretagen så missar man perspektivet från små och medelstora företag. De är tillsammans Sveriges största jobbskapare och arbetsgivare, säger han.\nFöretagarna har tidigare uttryckt oro för olika förslag i valrörelsen, framför allt det slopade karensavdraget som både S och V gått fram med.\n– Om man vill fortsätta hålla Sverige konkurrenskraftigt får man inte dra fel slutsatser. Det riskerar man att göra om man bara lyssnar på några som primärt sitter på några få kvarter i Sveriges huvudstad.\n– Det riskerar att bli dåligt förankrat i verkligheten, säger Demervall.\nMötet äger rum fredag eftermiddag och utöver partiledare är även partiernas ekonomiskpolitiska talespersoner, gruppledare och partisekreterare inbjudna.",
+      "summary": "Hur ser det som händer i Sverige ut för omvärlden? Reaktionen från Wall Street Journals stjärna visar hur absurt bråket kring regeringsbildningen är. KOLUMNEN. Anna Hedenmo är journalist och fristående kolumnist på DN:s ledarsida.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-07 08:24\nArtikelns ursprungsadress: https://www.dn.se/ledare/anna-hedenmo-ursakta-men-hur-lojliga-regeringsutspel-tal-sverige/\nHur ser det som händer i Sverige ut för omvärlden? Reaktionen från Wall Street Journals stjärna visar hur absurt bråket kring regeringsbildningen är.\nKOLUMNEN. Anna Hedenmo är journalist och fristående kolumnist på DN:s ledarsida.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg"
+        "regeringsbildning"
       ],
-      "first_seen": "2026-10-06T14:21:42.702198+00:00"
+      "first_seen": "2026-10-07T06:25:30.432403+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9314160",
-      "title": "Daniel Alling om Patriot-beskedet: ”Tydligt budskap till Ryssland”",
+      "url": "https://www.sverigesradio.se/artikel/9314397",
+      "title": "Ytterhögerpartiet AFD får talmanspost för första gången",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-06",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Sverige skickar Patriot-luftvärn till Polen för att försvara Natos östra gräns, det meddelade statsminister Ulf Kristersson under en pressträff med försvarsministern, utrikesministern och justitieministern. Enligt Daniel Alling, Sveriges Radios internationella korrespondent, vill övergångsregeringen visa internt och internationellt att Sveriges säkerhet fungerar och att de tar ansvar innan en ny regering finns på plats. \"Det är ett tydligt budskap till Ryssland, och även till Ukraina, att Sverige är djupt inblandad i den här frågan och ser den som prioriterad”, säger Daniel Alling.",
+      "summary": "För första gången får ytterhögerpartiet AFD talmansposten i en tysk delstat, efter att Tobias Rausch röstats in i Sachsen-Anhalts parlament. AFD blev största parti i delstatsvalet med 44 procent, men saknar egen majoritet. ”Jag kommer ta beslut som inte alla är överens om”, sade Tobias Rausch i dag.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314160'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314397'",
       "matched_terms": [
-        "övergångsregering",
-        "statsminister"
+        "talman"
       ],
-      "first_seen": "2026-10-06T14:21:42.702198+00:00"
+      "first_seen": "2026-10-07T06:25:30.432403+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9314142",
-      "title": "Försvarsmakten nobbar centerns möte: ”Inte prioriterat”",
+      "url": "https://www.sverigesradio.se/artikel/9314354",
+      "title": "Överens om stopp för tonårsutvisningar: ”Finns en press på att enas”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-06",
       "author": "Ekot",
-      "commentator": "",
-      "summary": "Försvarsmakten tackar nej till att delta på Centerpartiets uppmärksammade möte på fredag, då partiet samlar de andra rödgröna partierna, men också bjudit in organisationer och myndigheter för en genomgång av läget för Sverige. Partiet är hemlighetsfullt om vilka externa aktörer som bjudits in, men klart är att såväl LO som Saco och TCO deltar liksom Polisen och Konjunkturinstitutet. Det var för knappt en vecka sedan som Centerpartiets partiledare Elisabeth Thand Ringqvist bjöd in till möte för att komma ifrån den låst situationen i regeringsbildningen.",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "De fyra rödgröna partierna – Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet – är överens om att tillfälligt stoppa de så kallade tonårs-utvisningarna. Eftersom partierna nu har majoritet i riksdagen och i utskottet som jobbar med frågan är detta möjligt. ”Det finns ju en press om att enas såklart, och jag tror att det fortfarande finns åsiktsskillnader mellan de här partierna”, säger Ekots politikkommentator Fredrik Furtenbach.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314142'",
-      "matched_terms": [
-        "regeringsbildning",
-        "partiledar",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-10-06T14:21:42.702198+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9314110",
-      "title": "Regeringen skickar luftvärn till Polen",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-06",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Regeringen skickar svenskt luftvärn till Polen, för att försvara Natos östra gräns. Det säger statsminister Ulf Kristersson (M), under en pressträff på tisdagen. ”Det nya, som vi inte gjort förut, är att vi också på plats kommer bidra med luftvärnssystemet Patriot till den insatsen”, säger statsministern. Syftet är att skydda Natos logistikhubb i Polen och se till att allt försvarsmateriel kan skickas till Ukraina.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314110'",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-06T14:21:42.702198+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9314048",
-      "title": "De rödgröna överens om stopplag för tonårsutvisningar",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-06",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet enades under tisdagen om att ta fram ett förslag till stopplag till de uppmärksammade tonårsutvisningarna. Det är den första frågan som de rödgröna är överens om efter valet. ”Vi har enats om det bland de fyra partierna. Det här har tagits upp idag på utskottssammanträdet och ärendet är nu bordlagt till nästa sammanträde för behandling”, säger riksdagsledamoten Ida Karkiainen (S). Vid nästa sammanträde med socialförsäkringsutskottet, kommer förslaget att klubbas, för att sedan läggas fram i riksdagen för beslut. Hur snabbt beslutet kan tas och hur många som berörs är oklart.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9314048'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314354'",
       "matched_terms": [
         "Centerpartiet",
         "Miljöpartiet",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-06T14:21:42.702198+00:00"
+      "first_seen": "2026-10-07T06:25:30.432403+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9314293",
+      "title": "Magdalena Andersson: ”Ingen som suddat ut någon röd linje”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-06",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Inför fredagens möte med de rödgröna partierna, som Centerpartiet har bjudit in till, ligger de röda linjerna fortsatt kvar, enligt Socialdemokraternas partiledare Magdalena Andersson. Hon säger att det pågår fortsatta diskussioner mellan partierna. ”Jag har haft bra samtal med alla partiledare för de rödgröna partierna, och jag ser fram emot mötet som Centerpartiet initierade på fredag”, säger Magdalena Andersson.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314293'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-07T06:25:30.432403+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-centern-ror-sig-ett-myrsteg-i-taget",
+      "title": "Tomas Ramberg: Centern rör sig – ett myrsteg i taget",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-06",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Att följa regeringsbildningen är som att sitta och se när målarfärgen torkar på en vägg. Tittar man lite närmare händer det faktiskt något. Takten sätts nu av Centern, vars inre våndor kräver att inga steg hoppas över.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-07 08:24\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-centern-ror-sig-ett-myrsteg-i-taget/\nAtt följa regeringsbildningen är som att sitta och se när målarfärgen torkar på en vägg. Tittar man lite närmare händer det faktiskt något.\nTakten sätts nu av Centern, vars inre våndor kräver att inga steg hoppas över.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-10-07T06:25:30.432403+00:00"
     }
   ]
 }
