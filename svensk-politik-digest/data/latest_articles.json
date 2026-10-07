@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-07T06:25:30.432403+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-10-07T14:16:28.544246+00:00",
+  "new_count": 1,
   "skipped": {
-    "seen": 38,
-    "offtopic": 145,
-    "old": 22
+    "seen": 39,
+    "offtopic": 146,
+    "old": 24
   },
-  "fetch_errors": 3,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,94 +65,23 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/ledare/anna-hedenmo-ursakta-men-hur-lojliga-regeringsutspel-tal-sverige",
-      "title": "Anna Hedenmo: Ursäkta, men hur löjliga regeringsutspel tål Sverige?",
+      "url": "https://www.dn.se/sverige/sa-blir-styret-i-stockholms-stad-historisk-majoritet",
+      "title": "Så blir styret i Stockholms stad: ”Historisk majoritet”",
       "source": "DN Nyheter",
-      "kind": "kommentar",
+      "kind": "nyhet",
       "published": "2026-10-07",
-      "author": "Anna Hedenmo",
+      "author": "Anton Säll, Molly Karlsson Inde",
       "commentator": "",
-      "summary": "Hur ser det som händer i Sverige ut för omvärlden? Reaktionen från Wall Street Journals stjärna visar hur absurt bråket kring regeringsbildningen är. KOLUMNEN. Anna Hedenmo är journalist och fristående kolumnist på DN:s ledarsida.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-07 08:24\nArtikelns ursprungsadress: https://www.dn.se/ledare/anna-hedenmo-ursakta-men-hur-lojliga-regeringsutspel-tal-sverige/\nHur ser det som händer i Sverige ut för omvärlden? Reaktionen från Wall Street Journals stjärna visar hur absurt bråket kring regeringsbildningen är.\nKOLUMNEN. Anna Hedenmo är journalist och fristående kolumnist på DN:s ledarsida.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "summary": "Miljöpartiet gick framåt i valet medan Socialdemokraterna och Vänsterpartiet backade. Nu står det klart att en rödgrön majoritet fortsätter styra i Stockholms stad. Fördelningen av antalet borgarrådsposter är oförändrad.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-07 16:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/sa-blir-styret-i-stockholms-stad-historisk-majoritet/\nMiljöpartiet gick framåt i valet medan Socialdemokraterna och Vänsterpartiet backade. Nu står det klart att en rödgrön majoritet fortsätter styra i Stockholms stad.\nFördelningen av antalet borgarrådsposter är oförändrad.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDet nya styret i Stockholms stad är klart. Helt väntat fortsätter Vänsterpartiet, Socialdemokraterna och Miljöpartiet att regera vidare i majoritet.\n– Vi tre bildar en historisk majoritet i Stockholms stadshus. Det är första gången som en rödgrön majoritet får förtroende av väljarna att styra två mandatperioder i rad, säger Emilia Bjuggren (S), blivande finansborgarråd.\nDet rödgröna styret tog över efter valet 2022. Dessförinnan styrde Alliansen tillsammans med Miljöpartiet i fyra år.\nAtt samma styre sitter kvar i två mandatperioder i rad är ovanligt i huvudstaden, där Moderaterna och Socialdemokraterna brukar turas om att sitta på finansborgarrådsposten.\nEn rotel är en avdelning som ansvarar för ett visst politiskt område. Det borgarråd som ansvarar för området är chef för roteln.\nSocial-, arbetsmarknads- och trygghetsborgarråd\nUnder den senaste mandatperioden har Socialdemokraterna suttit på fyra av nio borgarrådsposter medan Vänsterpartiet fick tre poster och Miljöpartiet två. Den fördelningen blir densamma i det nya styret, trots att Miljöpartiet gick kraftigt framåt och Socialdemokraterna och Vänsterpartiet backade.\nMen borgarrådens ansvarsområden förändras något. Till exempel kommer Miljöpartiet att ha ansvar även över kulturfrågorna.\n– Vi har velat ha ansvar för kulturen hur länge som helst, säger Cindy Falquet Lindh (MP) som är nöjd med förhandlingarna.\nAlexandra Mattsson (V) kommer att få borgarrådposten med ansvar för personal- förskole- och idrottsfrågor.\n– Att också ha personalfrågor ger oss goda möjligheter att arbeta med arbetsvillkoren och korta arbetstiden inom välfärden, säger Mattson om sin nya roll.\nExakt hur hon ska arbeta för detta vill hon återkomma med i samband med att budgeten presenteras.\nVem som tilldelas de övriga borgarrådsposterna kommer att presenteras senare. Formellt väljs borgarråden vid kommunfullmäktiges sammanträde den 19 oktober.\nModeraternas oppositionsborgarråd Christofer Fjellner tycker att det nygamla styret verkar göra en tydlig vänstersväng.\n– När jag tittar på det som presenterades så är det rätt tydligt att den gamla pragmatiska socialdemokratin är borta. Det känns som att Reformisterna tagit greppet om hela Stockholms stad, säger han och fortsätter:\n– Det är inte som att stockholmarna har röstat för en vänstersväng i politiken. Snarare tvärtom, eftersom de två tydliga vänsterpartierna minskade i valet.\nSedan tidigare står det klart att mångåriga borgarråden Karin Wanngård och Jan Valeskog, finansborgarråd respektive stadsbyggnadsborgarråd, lämnar kommunpolitiken. Dessutom lämnar vänsterpartisten Torun Boucher, tidigare äldre- och kulturborgarråd.\nI valet fick Socialdemokraterna 26,5 procent och Vänsterpartiet 14,5 procent. Miljöpartiet ökade till elva procent och tog därmed över mandaten som S och V tappade i valet. Tillsammans samlar partierna 53 av 101 mandat i kommunfullmäktige.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nAnderssons balansgång: S-väljarna splittrade om V-ministrar\nAnna Hedenmo: Ursäkta, men hur löjliga regeringsutspel tål Sverige?\nDN Debatt. ”Tar partierna sitt ansvar för att vi ska bry oss om politik?”",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-07T06:25:30.432403+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9314397",
-      "title": "Ytterhögerpartiet AFD får talmanspost för första gången",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-06",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "För första gången får ytterhögerpartiet AFD talmansposten i en tysk delstat, efter att Tobias Rausch röstats in i Sachsen-Anhalts parlament. AFD blev största parti i delstatsvalet med 44 procent, men saknar egen majoritet. ”Jag kommer ta beslut som inte alla är överens om”, sade Tobias Rausch i dag.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314397'",
-      "matched_terms": [
-        "talman"
-      ],
-      "first_seen": "2026-10-07T06:25:30.432403+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9314354",
-      "title": "Överens om stopp för tonårsutvisningar: ”Finns en press på att enas”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-06",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "De fyra rödgröna partierna – Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet – är överens om att tillfälligt stoppa de så kallade tonårs-utvisningarna. Eftersom partierna nu har majoritet i riksdagen och i utskottet som jobbar med frågan är detta möjligt. ”Det finns ju en press om att enas såklart, och jag tror att det fortfarande finns åsiktsskillnader mellan de här partierna”, säger Ekots politikkommentator Fredrik Furtenbach.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314354'",
-      "matched_terms": [
-        "Centerpartiet",
         "Miljöpartiet",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-07T06:25:30.432403+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9314293",
-      "title": "Magdalena Andersson: ”Ingen som suddat ut någon röd linje”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-06",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Inför fredagens möte med de rödgröna partierna, som Centerpartiet har bjudit in till, ligger de röda linjerna fortsatt kvar, enligt Socialdemokraternas partiledare Magdalena Andersson. Hon säger att det pågår fortsatta diskussioner mellan partierna. ”Jag har haft bra samtal med alla partiledare för de rödgröna partierna, och jag ser fram emot mötet som Centerpartiet initierade på fredag”, säger Magdalena Andersson.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9314293'",
-      "matched_terms": [
-        "partiledar",
-        "Centerpartiet",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-10-07T06:25:30.432403+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-centern-ror-sig-ett-myrsteg-i-taget",
-      "title": "Tomas Ramberg: Centern rör sig – ett myrsteg i taget",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-06",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Att följa regeringsbildningen är som att sitta och se när målarfärgen torkar på en vägg. Tittar man lite närmare händer det faktiskt något. Takten sätts nu av Centern, vars inre våndor kräver att inga steg hoppas över.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-07 08:24\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-centern-ror-sig-ett-myrsteg-i-taget/\nAtt följa regeringsbildningen är som att sitta och se när målarfärgen torkar på en vägg. Tittar man lite närmare händer det faktiskt något.\nTakten sätts nu av Centern, vars inre våndor kräver att inga steg hoppas över.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-07T06:25:30.432403+00:00"
+      "first_seen": "2026-10-07T14:16:28.544246+00:00"
     }
   ]
 }
