@@ -1,29 +1,24 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-08
 
-4 nya poster sedan förra utskicket (34 redan utskickade, 150 utanför ämnet).
+3 nya poster sedan förra utskicket (34 redan utskickade, 153 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Att köpa ut Nooshi kan ruinera Sverige](https://www.expressen.se/ledare/att-kopa-ut-nooshi-kan-ruinera-sverige)
-Expressen Ledare · 2026-10-07 · ledarredaktionen
+### [Regeringen höjer bnp-prognosen: ”Dukat bord”](https://www.svd.se/a/644z5r/regeringen-hojer-bnp-prognosen-for-i-ar)
+SvD Ledare · 2026-10-08 · TT
 
-Ett V utan ministerposter är ingen vinst för C. För utan ministerportfölj lär Nooshi Dadgostar kräva något som vore dåligt för Sverige: ett stort sakpolitiskt genomslag.
+Svensk ekonomi växer mer än väntat, enligt övergångsregeringens nya prognos.
 
 ## Rapportering
 
-### [Ex-ministern: ”En myt att man har stort inflytande i en regering”](https://www.svt.se/nyheter/inrikes/ex-ministern-en-myt-att-man-har-stort-inflytande-i-en-regering)
-SVT Nyheter · 2026-10-08 · Cecilia Tiberg
+### [SSU: Vänsterpartiet pausar hela det politiska landskapet](https://www.sverigesradio.se/artikel/9315601)
+Ekot, Sveriges Radio · 2026-10-08 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Tidigare S-ministern Anders Sundström tror att V skulle få stort genomslag för sin politik som stödparti till en regering. Men idén sågas av Aron Etzler, tidigare partisekreterare för Vänsterpartiet. – Man får tänka efter lite när partiet som själva tycker att regeringsmakten är det viktigaste som finns säger ”men för ert parti är det här ointressant”, säger han i Politikbyrån.
+SSU:s ordförande Moska Hassas riktar nu kritik mot Vänsterpartiets agerande i de pågående försöken att få till en regering - och tycker att partiet borde tänka om. ”Just nu pausar de hela det politiska landskapet, genom sina ministerkrav. Det tycker jag är synd och det är faktiskt inte förtroendeingivande mot de väljare som har röstat på det rödgröna blocket och det förtroende man har gett”, säger Moska Hassas. På måndag ska Socialdemokraternas partiledare Magdalena Andersson rapportera till talmannen hur det går med försöken att bilda en regering.
 
-### [C till V: ”Ett jättestort problem kvarstår”](https://www.svt.se/nyheter/inrikes/c-till-v-ett-jattestort-problem-kvarstar)
-SVT Nyheter · 2026-10-07 · Natalie Radlovacki
+### [Jimmie Åkesson: SD gör sig redo för tiden efter Tidö](https://www.dn.se/sverige/jimmie-akesson-sd-gor-sig-redo-for-tiden-efter-tido)
+DN Nyheter · 2026-10-08 · Sofia Clason
 
-Låst läge mellan Centerpartiet och Vänsterpartiet. I onsdagskvällens Aktuellt möttes Martin Ådahl (C) och Ida Gabrielsson (V) för att diskutera partiernas röda linjer och vad som skulle krävas för att komma vidare. – Det är ett jättestort problem som kvarstår, säger Ådahl och syftar på antisemitism inom Vänsterpartiet.
+Sverigedemokraterna gör sig redo för tiden efter Tidö. Det menar Jimmie Åkesson, som även anklagar samarbetspartierna för att ha tagit åt sig äran för SD:s reformer. ”Bakom regeringskansliets kulisser har Sverigedemokraterna varit motorn i hela samarbetet”, skriver Åkesson på Expressen Debatt.
 
-### [Internt tryck inför rödgrönt toppmöte: ”Skarpaste gränsen”](https://www.svt.se/nyheter/inrikes/internt-tryck-infor-rodgront-toppmote-skarpaste-gransen)
-SVT Nyheter · 2026-10-07 · Erik Nilsson, Daniel Ingmo
-
-C-ledaren Elisabeth Thand Ringqvst har samlat till rödgrönt toppmöte. Internt finns ett tryck på att hålla fast vid C:s röda linjer – samtidigt som partiet inte vill ge sken av att vara den som sinkar regeringsbildningen. – Det finns en bild av att C har varit problemet, säger en C-källa.
-
-_Genererat 2026-10-08T06:18:33.290007+00:00._
+_Genererat 2026-10-08T14:16:43.967646+00:00._

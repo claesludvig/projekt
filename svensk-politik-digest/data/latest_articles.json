@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-08T06:18:33.290007+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-10-08T14:16:43.967646+00:00",
+  "new_count": 3,
   "skipped": {
     "seen": 34,
-    "offtopic": 150,
-    "old": 22
+    "offtopic": 153,
+    "old": 20
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,75 +65,59 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/ex-ministern-en-myt-att-man-har-stort-inflytande-i-en-regering",
-      "title": "Ex-ministern: ”En myt att man har stort inflytande i en regering”",
-      "source": "SVT Nyheter",
+      "url": "https://www.svd.se/a/644z5r/regeringen-hojer-bnp-prognosen-for-i-ar",
+      "title": "Regeringen höjer bnp-prognosen: ”Dukat bord”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-08",
+      "author": "TT",
+      "commentator": "",
+      "summary": "Svensk ekonomi växer mer än väntat, enligt övergångsregeringens nya prognos.",
+      "fulltext": "Svensk ekonomi växer mer än väntat, enligt övergångsregeringens nya prognos.\nTillväxten i år beräknas nu till 3,0 procent, mot 2,5 procent i förra prognosen från augusti.\nNästa regering kommer till ”ett väldigt vackert dukat bord”, säger finansminister Elisabeth Svantesson (M).\n– Det är tydligt att svensk ekonomi går som tåget, säger Svantesson på en pressträff.\nHushållen vågar konsumera och svenska företag i många branscher går också väldigt bra, säger hon. Sverige sticker därmed ut i relation till andra länder i EU.\nFör nästa år sänks dock tillväxtprognosen till 2,3 procent, från tidigare 2,5 procent.\n– Vi lämnar lågkonjunkturen nu, och under nästa år har vi en konjunkturell balans, säger Svantesson.\nPå arbetsmarknaden ser regeringen en försiktig återhämtning. Arbetslösheten väntas fortsätta minska i år för att landa på 7,7 procent nästa år, enligt prognosen. I år beräknas arbetslösheten till 8,5 procent.\nInflationsprognosen lämnas oförändrad jämfört med augustiprognosen. Finansdepartementet konstaterar att Sveriges inflation är fortsatt låg trots höga energipriser.\n”Det kan förklaras bland annat av låg kärninflation och de tillfälliga skattesänkningar som regeringen genomfört. Framöver väntas inflationen närma sig Riksbankens inflationsmål på 2 procent”, skriver departementet i ett pressmeddelande.\nFinansministern framhåller samtidigt att prognosen omgärdas av osäkerhet. Konflikten i Mellanöstern fortsätter och trappas delvis upp.\n– Vi ser ingen lösning, och ju längre den pågår desto större blir risken att energipriserna inte kommer ner till mer normala nivåer utan tvärtom kommer att vara höga, säger hon.\nAndra osäkerheter är det fortsatta kriget i Ukraina och AI:s påverkan på ekonomin.\nInhemsk efterfrågan kan också påverkas negativt av stigande räntor.\nFör nästa mandatperiod är bedömningen fortsatt att reformutrymmet ligger på 50 miljarder kronor.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "övergångsregering"
+      ],
+      "first_seen": "2026-10-08T14:16:43.967646+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9315601",
+      "title": "SSU: Vänsterpartiet pausar hela det politiska landskapet",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-08",
-      "author": "Cecilia Tiberg",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Tidigare S-ministern Anders Sundström tror att V skulle få stort genomslag för sin politik som stödparti till en regering. Men idén sågas av Aron Etzler, tidigare partisekreterare för Vänsterpartiet. – Man får tänka efter lite när partiet som själva tycker att regeringsmakten är det viktigaste som finns säger ”men för ert parti är det här ointressant”, säger han i Politikbyrån.",
-      "fulltext": "Tidigare S-ministern Anders Sundström tror att V skulle få stort genomslag för sin politik som stödparti till en regering.\nMen idén sågas av Aron Etzler, tidigare partisekreterare för Vänsterpartiet.\n– Man får tänka efter lite när partiet som själva tycker att regeringsmakten är det viktigaste som finns säger ”men för ert parti är det här ointressant”, säger han i Politikbyrån.\nTrots att regeringsbildningen går trögt står Vänsterpartiet fast vid sina krav på ministerposter. Den tidigare S-ministern Anders Sundström säger att han inte ser några problem med V i regering – men att det är överskattat att vara statsråd.\n– Som minister måste man träffa ointressanta människor, ägna tid åt att resa runt i världen och syssla med väldigt mycket administrativa saker, säger han i veckans Politikbyrån .\nAnders Sundström var arbetsmarknadsminister och senare näringsminister, mellan 1994 och 1998. Han var också påtänkt som partiledare efter Håkan Juholt 2012, men tackade nej.\nSundström tror att ett parti av Vänsterns storlek får mycket större genomslag för sin politik som stödparti. Han jämför med hur stort inflytande SD haft under den gångna mandatperioden.\n”Ett parti som själv är besatt av regeringsmakten”\nMen Aron Etzler, tidigare partisekreterare för Vänsterpartiet, ger inte mycket för Anders Sundströms resonemang.\n– Man får tänka efter lite när partiet som själva tycker att regeringsmakten är det viktigaste som finns säger ”men för ert parti så är det här ointressant”. En regering fattar 10 000 beslut per år. Skälet till att varenda valrörelse handlar om vem som ska ha regeringsmakten, är ju att den yttersta makten finns där, säger han.\nUnder åren Anders Sundström var minister samarbetade Socialdemokraterna med Vänsterpartiet och Centerpartiet. Han menar att samarbetspartierna rundade honom och gick direkt till statsministern när de ville driva igenom politik.\nHade du kunnat uträtta mer om du inte suttit i regering?\n– Absolut. 90 procent av tiden går åt till att administrera Sverige. Jag sa många gånger till mina kollegor att det skulle vara mycket bättre att sitta på statsrådsberedningen och ha synpunkter på allt möjligt, säger han.\nSe Politikbyrån på SVT Play. Programmet gästas av Aron Etzler, före detta partisekreterare för Vänsterpartiet, Märta Stenevi, tidigare språkrör för Miljöpartiet och Henrik Vinge, vice partiledare för Sverigedemokraterna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "SSU:s ordförande Moska Hassas riktar nu kritik mot Vänsterpartiets agerande i de pågående försöken att få till en regering - och tycker att partiet borde tänka om. ”Just nu pausar de hela det politiska landskapet, genom sina ministerkrav. Det tycker jag är synd och det är faktiskt inte förtroendeingivande mot de väljare som har röstat på det rödgröna blocket och det förtroende man har gett”, säger Moska Hassas. På måndag ska Socialdemokraternas partiledare Magdalena Andersson rapportera till talmannen hur det går med försöken att bilda en regering.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9315601'",
       "matched_terms": [
-        "regeringsmakt",
-        "stödparti",
+        "talman",
+        "partiledar",
+        "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-08T06:18:33.290007+00:00"
+      "first_seen": "2026-10-08T14:16:43.967646+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/c-till-v-ett-jattestort-problem-kvarstar",
-      "title": "C till V: ”Ett jättestort problem kvarstår”",
-      "source": "SVT Nyheter",
+      "url": "https://www.dn.se/sverige/jimmie-akesson-sd-gor-sig-redo-for-tiden-efter-tido",
+      "title": "Jimmie Åkesson: SD gör sig redo för tiden efter Tidö",
+      "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-07",
-      "author": "Natalie Radlovacki",
+      "published": "2026-10-08",
+      "author": "Sofia Clason",
       "commentator": "",
-      "summary": "Låst läge mellan Centerpartiet och Vänsterpartiet. I onsdagskvällens Aktuellt möttes Martin Ådahl (C) och Ida Gabrielsson (V) för att diskutera partiernas röda linjer och vad som skulle krävas för att komma vidare. – Det är ett jättestort problem som kvarstår, säger Ådahl och syftar på antisemitism inom Vänsterpartiet.",
-      "fulltext": "Låst läge mellan Centerpartiet och Vänsterpartiet. I onsdagskvällens Aktuellt möttes Martin Ådahl (C) och Ida Gabrielsson (V) för att diskutera partiernas röda linjer och vad som skulle krävas för att komma vidare.\n– Det är ett jättestort problem som kvarstår, säger Ådahl och syftar på antisemitism inom Vänsterpartiet.\nVänsterpartiet har velat sätta sig ner med Centerpartiet för att diskutera vägen fram mot en rödgrön regering. Centerpartiet har samtidigt avvisat V:s inviter.\nI onsdagskvällens Aktuellt möttes till slut Centerns ekonomiskpolitiska talesperson Martin Ådahl och Vänsterns vice partiledare Ida Gabrielsson för att diskutera de röda linjer som hittills har stått i vägen för ett samarbete.\n– Vi är beredda att sätta oss och reda ut, jag skulle kunna göra det direkt här efter med Martin, sade V:s vice partiledare.\nMartin Ådahl underströk att C inte går med på V:s ultimatum om att sitta med i regeringen och få ministerposter. Utöver skillnaderna i den ekonomiska politiken lyfte Ådahl fram en annan faktor till partiets hållning.\n– Det har varit viktigt för oss under många år att rensa bort antisemitism och annan syn på grundläggande demokratiska frågor ur vårt parti när det har dykt upp. Problemet är att Vänsterpartiet ända in i närtid har haft de här problemen. Det är ett jättestort problem som kvarstår, sade han.\nGabrielsson (V): ”Vi är beredda att kompromissa”\nIda Gabrielsson fortsatte i linjen att få till ett samtal och uttryckte att V är redo att kompromissa på flera plan.\n– Vi är självklart beredda att ge och ta i alla sakförhandlingar. Det blir mest ett 'ultimatum' när Centern säger nej, trots att de inte har tillräckligt med röster, sade vice partiledaren.\nMarmorstein: S inte sugna att ha V i regering\nSamtidigt har Socialdemokraternas Magdalena Andersson tidigare sagt att V har ”en lång resa” kvar innan partiet kan sitta i regering. SVT:s inrikespolitiska kommentator Elisabeth Marmorstein fick frågan hur villiga S är att sitta i regering ihop med med V nu:\n– Inte det minsta. Och det som centerpartisterna förlitar sig på, det är att S ska fortsätta att hålla den dörren stängd, säger hon.\nMen om V mäktar med att stå fast vid sitt ministerkrav även efter ett par statsministeromröstningar, då kan S stå inför valet: Extraval eller V-ministrar. Det menar Marmorstein.\n– Då lutar jag nog ändå åt att S väljer det senare. För om det är nått parti som verkligen vill undvika ett extraval, så är det S.\nSe mer från partirepresentanterna i klippen eller hela mötet på SVT Play .\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Sverigedemokraterna gör sig redo för tiden efter Tidö. Det menar Jimmie Åkesson, som även anklagar samarbetspartierna för att ha tagit åt sig äran för SD:s reformer. ”Bakom regeringskansliets kulisser har Sverigedemokraterna varit motorn i hela samarbetet”, skriver Åkesson på Expressen Debatt.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-08 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/jimmie-akesson-sd-gor-sig-redo-for-tiden-efter-tido/\nSverigedemokraterna gör sig redo för tiden efter Tidö. Det menar Jimmie Åkesson, som även anklagar samarbetspartierna för att ha tagit åt sig äran för SD:s reformer.\n”Bakom regeringskansliets kulisser har Sverigedemokraterna varit motorn i hela samarbetet”, skriver Åkesson på Expressen Debatt .\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nI början av veckan kom nyheten att Sverigedemokraterna möblerar om i utskotten . Flera tunga namn ska byta plats. Enligt uppgifter till Expressen talas det internt om petningar.\nI en debattartikel hos samma tidning skriver nu partiledaren Jimmie Åkesson att han inte alls har petat någon. I stället handlar det om att SD gör sig redo för en tid efter Tidösamarbetet med Moderaterna, Kristdemokraterna och Liberalerna.\nÅkesson skriver att samarbetet varit framgångsrikt, men att SD under tiden har börjat uppfattas som ett borgerligt högerparti.\n”Samtidigt har moderata och kristdemokratiska ministrar kunnat ta åt sig äran för reformer som man från början inte velat genomföra. Reformer som vi behövt stånga oss blodiga i förhandlingar för att få igenom”, skriver partiledaren.\nJimmie Åkesson beskriver SD som själva motorn i samarbetet och hävdar att många reformer aldrig hade blivit av utan partiet. SD ska samtidigt ha behövt ”hantera” samarbetspartierna, enligt Åkesson.\n”Om de borgerliga partierna uppfattas som lika bra (eller tillräckligt bra) i frågor där Sverigedemokraterna haft ledartröjan, samtidigt som vårt förtroende hos väljarna i andra frågor är avsevärt lägre – varför ska man då rösta på Sverigedemokraterna istället för Moderaterna?”\nSD kommer vara villiga att samarbeta åt både höger och vänster framöver, enligt Åkesson. Partiet ska inte ”fastna i en kamp med Moderaterna” om att vara näst störst, utan sikta på att stärka sin egen position.\nÅkesson är inte den enda partiledaren som uttryckt ett slags adjö till Tidö. Även statsminister Ulf Kristersson har sagt att Tidösamarbetet tillhör den förra mandatperioden, enligt Dagens Industri .\n– Tidöprojektet var alldeles entydigt ett projekt för förra mandatperioden. Det var ett väldigt gott samarbete och även gott under valrörelsen, sade han till Di.\nKristdemokraternas partiledare Ebba Busch har å sin del sagt att partiet har ”samma inställning som före valet”. När Magdalena Andersson förra veckan lämnade tillbaka sonderingsuppdraget, efter att Vänsterpartiet valt att stötta Andreas Norlén (M) som talman, skrev Busch på X :\n”Det finns en majoritet i riksdagen för borgerlig ekonomisk politik, den majoriteten skulle tjäna Sverige väl.”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSD möblerar om i utskotten – tunga namn byter plats\nElisabeth Svantesson: Svensk ekonomi går som tåget\nLedare: Ska museer konkurreras ut av gym och departementet?",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Centerpartiet",
-        "Vänsterpartiet"
+        "samarbetspart",
+        "Sverigedemokraterna"
       ],
-      "first_seen": "2026-10-08T06:18:33.290007+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/internt-tryck-infor-rodgront-toppmote-skarpaste-gransen",
-      "title": "Internt tryck inför rödgrönt toppmöte: ”Skarpaste gränsen”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-07",
-      "author": "Erik Nilsson, Daniel Ingmo",
-      "commentator": "",
-      "summary": "C-ledaren Elisabeth Thand Ringqvst har samlat till rödgrönt toppmöte. Internt finns ett tryck på att hålla fast vid C:s röda linjer – samtidigt som partiet inte vill ge sken av att vara den som sinkar regeringsbildningen. – Det finns en bild av att C har varit problemet, säger en C-källa.",
-      "fulltext": "C-ledaren Elisabeth Thand Ringqvst har samlat till rödgrönt toppmöte.\nInternt finns ett tryck på att hålla fast vid C:s röda linjer – samtidigt som partiet inte vill ge sken av att vara den som sinkar regeringsbildningen.\n– Det finns en bild av att C har varit problemet, säger en C-källa.\nMötet ska hållas under fredagseftermiddagen på en konferensgård på Lidingö, utanför Stockholm.\nDe högsta företrädarna för de rödgröna, inklusive partiledarna, ska delta. Även nio externa gäster ska vara på plats för att ge sina lägesbilder.\nPå mötet blir det inga regeringsförhandlingar och ingen plan finns för att lösa ut knäckfrågan: att V kräver ministerposter samtidigt som C vägrar att släppa fram en regering med V-ministrar.\nMen inom Centerpartiet hyllas initiativet, och en förhoppning är att partiet inte ska få skulden för att Sverige inte ser ut att ha någon ny regering inom nära räckhåll.\n– Det finns en bild av att C har varit problemet, säger en C-källa.\nÄven om C och V nu kommer att delta på samma möte finns det en stor förväntan, inom C, på att man håller fast vid den röda linjen gentemot V.\nSamtidigt uppger personer på flera nivåer i partiet att det finns en insikt om att Vänsterpartiet med stor sannolikhet kommer att behövas i ett samarbete.\nHittills har Elisabeth Thand Ringqvist utåt inte velat ta ställning till den frågan.\n– Det får bli ett nästa steg. Det får Magdalena Andersson titta på, eftersom det är hon som sonderar. Vårt bidrag har varit att öppna för samtal eftersom vi varit en del av de låsningarna som funnits, har hon sagt till SVT.\nAtt C skulle vända sig högerut beskrivs, av flera personer, som otänkbart.\nDen röda linjen mot SD har ett brett stöd internt och är hårdare än den gentemot V.\nFör medan C inte utesluter att samarbeta med V utanför regering, så beskrivs dörren som helt stängd mot att ge SD politiskt inflytande överhuvudtaget.\nChanserna för M-ledaren Ulf Kristersson att bilda en ny regering döms därför ut inom C, säger flera personer till SVT. Detta eftersom en sådan regering högst sannolikt skulle kräva stöd av SD.\n– Den skarpaste gränsen är den mot SD, säger en C-källa.\nTrots att C bjuder in till mötet poängterar flera personer i partiet att det är S-ledaren Magdalena Andersson som har sonderingsuppdraget, och att det är hon som behöver lösa regeringsfrågan.\nPå måndag ska Andersson lämna en rapport till talmannen om hur processen går – och en statsministeromröstning kan hållas tidigast nästa onsdag.\nI nuläget ser hon inte ut att kunna bli statsminister.\n– Det är ju ingen som har suddat ut någon röd linje, sa hon på tisdagen.\nAlbin Kainelainen, generaldirektör Konjunkturinstitutet.\nJakob Hallgren, direktör Utrikespolitiska institutet.\nSvante Axelson, nationella samordnare Fossilfritt Sverige.\nFrån partierna har C bjudit in partiledarna, partisekreterarna, gruppledarna och de ekonomisk-politiska talespersonerna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-08T06:18:33.290007+00:00"
-    },
-    {
-      "url": "https://www.expressen.se/ledare/att-kopa-ut-nooshi-kan-ruinera-sverige",
-      "title": "Att köpa ut Nooshi kan ruinera Sverige",
-      "source": "Expressen Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-07",
-      "author": "ledarredaktionen",
-      "commentator": "",
-      "summary": "Ett V utan ministerposter är ingen vinst för C. För utan ministerportfölj lär Nooshi Dadgostar kräva något som vore dåligt för Sverige: ett stort sakpolitiskt genomslag.",
-      "fulltext": "Ett V utan ministerposter är ingen vinst för C. För utan ministerportfölj lär Nooshi Dadgostar kräva något som vore dåligt för Sverige: ett stort sakpolitiskt genomslag.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nDet är fullt rimligt att Vänsterpartiet kräver ministerposter i en rödgrön regering. Betydligt mindre rimlig är partiets politik och syn på ekonomi. Och, för den delen, på nutidshistoria.\nPå 2020-talet drabbades världen av hög inflation, mycket beroende på pandemin och kriget i Ukraina. Covid ledde till brutna leveranskedjor och att regeringar pytsade ut miljarders miljarder i stöd, kriget ledde bland annat till högre energi- och matpriser.\nEfter pandemin hade folk dessutom ovanligt mycket sparpengar och uppdämd köplust, så efterfrågan steg. Och när efterfrågan trumfar tillgången på varor och tjänster, stiger priserna. Då måste centralbanker höja räntorna för att trycka ner efterfrågan.\nMen Vänsterpartiet såg en annan huvudskurk. I sin valplattform skriver man om den så kallade ”inflationskrisen”. Citattecknen är avslöjande; partiet köper inte den gängse historieskrivningen om varför hushållens ekonomi försämrades.\nEnligt V berodde inflations- och räntekrisen ”främst” på att marknadsdominerande matjättar och banker kunde öka sina vinster.\nOch, visst, konkurrensen i livsmedelsbranschen och banksektorn kan absolut förbättras. Men att den faktorn skulle vara en huvudförklaring till den höga (samt globala) inflationen: Nej.\nMen för V beror problem ofta på att en aktör – en matjätte, bank, ett el- eller bostadsbolag – tar ut ohemula vinster som leder till magra plånböcker hos konsumenterna. Och det är inte okej. För att skydda konsumenterna måste staten då gå in med bestämda steg och fixa problemen.\nDet kan handla om att göra statliga SBAB till en pressare av bolåneräntor, lagstifta mot höga matpriser, införa en särskild skatt på bankernas ”övervinster” eller att rakt av ”frysa hyrorna”.\nNär en marknad fungerar dåligt frågar sig en marknadsliberal hur man kan förbättra konkurrensen, företagsklimatet och stimulera drivkrafter. V:s reflex är mer att staten ska beskatta, subventionera, äga eller sätta prispress.\nOch, givetvis – rädda folket från varje prishöjning genom ett regn av bidrag. ”Hushållen ska skyddas mot prischocker”, som det står i valplattformen.\nI Vänsterpartiets värld finns ju pengar till allt om man bara beskattar mera (i synnerhet de ”superrika”): höjda ersättningar och pensioner, en bättre och mer personaltät välfärd, ett enormt bostadsbyggande – och samtidigt en generell arbetstidsförkortning med bibehållen lön.\nVänsterpartiet har, som bekant, aldrig suttit i regeringen. Det är möjligen en delförklaring till att man glatt radar upp förslag som känns bra utan att bry sig om huruvida de är realistiska eller innebär målkonflikter.\nMan är van vid att servera sina hjärtefrågor och sedan hoppas på att Socialdemokraterna tvingas genomdriva en eller annan i utbyte mot partiets stöd i riksdagen.\nMen nu vill V in i regeringen. Och självklart bävar det marknads- och business-dyrkande Centern för ett intåg av V-stollar i Rosenbad. Men om Vänsterpartiet ska hållas utanför kommer de att kräva god kompensation – i form av ännu mer V-politik än om de får ministerposter.\nDet är pest eller kolera som gäller för Centerpartiet om man insisterar på att hänga med de rödgröna.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost"
-      ],
-      "first_seen": "2026-10-08T06:18:33.290007+00:00"
+      "first_seen": "2026-10-08T14:16:43.967646+00:00"
     }
   ]
 }
