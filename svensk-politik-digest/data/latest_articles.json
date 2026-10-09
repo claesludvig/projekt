@@ -1,36 +1,36 @@
 {
-  "fetched_at": "2026-10-08T14:16:43.967646+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-10-09T14:20:07.514147+00:00",
+  "new_count": 9,
   "skipped": {
-    "seen": 34,
-    "offtopic": 153,
-    "old": 20
+    "seen": 27,
+    "offtopic": 128,
+    "old": 21
   },
-  "fetch_errors": 1,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 4,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "https://www.dn.se/ledare/rss/",
+      "feed": "",
       "new": 0,
-      "ok": true
+      "ok": false
     },
     {
       "name": "SvD Ledare",
@@ -65,59 +65,167 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/644z5r/regeringen-hojer-bnp-prognosen-for-i-ar",
-      "title": "Regeringen höjer bnp-prognosen: ”Dukat bord”",
+      "url": "https://www.svd.se/a/BMMxR7/rodgronas-mote-pa-hogberga",
+      "title": "Andersson: ”Bestämmer mig efter dagens möte”",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-10-08",
-      "author": "TT",
+      "published": "2026-10-09",
+      "author": "Jenny Nyman, Karin Thurfjell, Harald Tydén",
       "commentator": "",
-      "summary": "Svensk ekonomi växer mer än väntat, enligt övergångsregeringens nya prognos.",
-      "fulltext": "Svensk ekonomi växer mer än väntat, enligt övergångsregeringens nya prognos.\nTillväxten i år beräknas nu till 3,0 procent, mot 2,5 procent i förra prognosen från augusti.\nNästa regering kommer till ”ett väldigt vackert dukat bord”, säger finansminister Elisabeth Svantesson (M).\n– Det är tydligt att svensk ekonomi går som tåget, säger Svantesson på en pressträff.\nHushållen vågar konsumera och svenska företag i många branscher går också väldigt bra, säger hon. Sverige sticker därmed ut i relation till andra länder i EU.\nFör nästa år sänks dock tillväxtprognosen till 2,3 procent, från tidigare 2,5 procent.\n– Vi lämnar lågkonjunkturen nu, och under nästa år har vi en konjunkturell balans, säger Svantesson.\nPå arbetsmarknaden ser regeringen en försiktig återhämtning. Arbetslösheten väntas fortsätta minska i år för att landa på 7,7 procent nästa år, enligt prognosen. I år beräknas arbetslösheten till 8,5 procent.\nInflationsprognosen lämnas oförändrad jämfört med augustiprognosen. Finansdepartementet konstaterar att Sveriges inflation är fortsatt låg trots höga energipriser.\n”Det kan förklaras bland annat av låg kärninflation och de tillfälliga skattesänkningar som regeringen genomfört. Framöver väntas inflationen närma sig Riksbankens inflationsmål på 2 procent”, skriver departementet i ett pressmeddelande.\nFinansministern framhåller samtidigt att prognosen omgärdas av osäkerhet. Konflikten i Mellanöstern fortsätter och trappas delvis upp.\n– Vi ser ingen lösning, och ju längre den pågår desto större blir risken att energipriserna inte kommer ner till mer normala nivåer utan tvärtom kommer att vara höga, säger hon.\nAndra osäkerheter är det fortsatta kriget i Ukraina och AI:s påverkan på ekonomin.\nInhemsk efterfrågan kan också påverkas negativt av stigande räntor.\nFör nästa mandatperiod är bedömningen fortsatt att reformutrymmet ligger på 50 miljarder kronor.",
+      "summary": "De rödgröna partiledarna träffas i dag för att få en ”gemensam lägesbild”.",
+      "fulltext": "De rödgröna partiledarna träffas i dag för att få en ”gemensam lägesbild”. Mötet avgör hur Magdalena Andersson tänker gå vidare. ”Drar slutsatser under helgen”, säger hon när hon anländer till gården på Lidingö.\nI regn och rusk anländer de fyra rödgröna partierna till sin uppmärksammade träff.\nLäget är ännu låst i regeringsfrågan – och mötet på Högberga gård på Lidingö utanför Stockholm är första gången partiledarna ses i den här formen.\nCenterledaren: Vi måste sitta ned i samma rum",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "övergångsregering"
+        "partiledar"
       ],
-      "first_seen": "2026-10-08T14:16:43.967646+00:00"
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9315601",
-      "title": "SSU: Vänsterpartiet pausar hela det politiska landskapet",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/ett-extraval-vore-en-mardrom-for-s",
+      "title": "”Ett extraval vore en mardröm för S”",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-08",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "SSU:s ordförande Moska Hassas riktar nu kritik mot Vänsterpartiets agerande i de pågående försöken att få till en regering - och tycker att partiet borde tänka om. ”Just nu pausar de hela det politiska landskapet, genom sina ministerkrav. Det tycker jag är synd och det är faktiskt inte förtroendeingivande mot de väljare som har röstat på det rödgröna blocket och det förtroende man har gett”, säger Moska Hassas. På måndag ska Socialdemokraternas partiledare Magdalena Andersson rapportera till talmannen hur det går med försöken att bilda en regering.",
-      "fulltext": "",
+      "published": "2026-10-09",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Centerpartiet räknar kallt med att Socialdemokraterna håller fast vid sin motvilja mot V i regeringen. Lika kallt räknar Vänsterpartiet med att S aldrig kommer låta det gå till ett extraval. Och där har partiet en poäng – Magdalena Andersson (S) kan svårligen möta väljarna med budskapet: ”Förlåt, jag lyckades inte bilda regering, var god rösta igen”.",
+      "fulltext": "Centerpartiet räknar kallt med att Socialdemokraterna håller fast vid sin motvilja mot V i regeringen.\nLika kallt räknar Vänsterpartiet med att S aldrig kommer låta det gå till ett extraval.\nOch där har partiet en poäng – Magdalena Andersson (S) kan svårligen möta väljarna med budskapet: ”Förlåt, jag lyckades inte bilda regering, var god rösta igen”.\nVarken de enskilda samtalen på partiledarnivå eller Centerpartiets seminarieövning i eftermiddag lär räcka för att dyrka upp låsningen om vilka partier som ska sitta i nästa regering. När både C och V räknar med att det kommer krävas ett par statsministeromröstningar för att processen ska röra sig framåt finns ingen anledning att tro att de är redo att börja förhandla redan nu.\nOch för varje omröstning rycker ett hotande extraval närmare.\nDå är frågan vilket parti som har mest att förlora på ett sådant. Svaret borde vara givet, ändå pekas det ofta på Vänsterpartiet, Centerpartiet eller möjligen de hårt prövade Liberalerna. Visst, ett extraval innebär stora risker även för dem, men det parti som mest av alla vill undvika ett extraval är trots allt Socialdemokraterna.\nDet är Magdalena Andersson (S) som riskerar att gå till historien som den enda S-ledare som inte lyckas bilda regering efter en valseger.\nHon har redan lett partiet till det sämsta valresultatet sen arbetare fick rösträtt. Men det lär partikamraterna ha överseende med om hon lyckas bilda regering.\nSkulle hon däremot misslyckas har både hon och partiet ett mardrömslikt utgångsläge. För de kan knappast gå till val på budskapet om att rösta på en stark statsminister efter en fallerad regeringsbildning. Och hur många väljare kommer tro på Magdalena Andersson om hon säger: Vi kommer lösa regeringsfrågan för det har vi alltid gjort.\nDe kan inte heller göra de påstådda tolv SD-ministrarna till huvudnummer igen när Moderaterna återtagit ledartröjan till höger.\nEn annan riskfaktor för S är att valdeltagandet mycket väl kan bli lägre i ett extraval, vilket skulle missgynna S.\nDärmed är det en lågoddsare att de rödgröna skulle förlora regeringsmakten innan de ens hunnit tillträda. Slutar det så, ja då lär Magdalena Andersson inte sitta kvar särskilt länge som partiledare.\nAllt detta har Vänsterpartiet kalkylerat med ända sedan de började skissa på sitt ultimativa ministerkrav.\nOch det ska verkligen inte uteslutas att S, med extravalskniven mot strupen, slutligen accepterar V-ministrar. Men det spelar i slutändan mindre roll om Elisabeth Thand Ringqvist ( C) står fast vid sin röda linje och hellre tar ett extraval än släpper in V i regeringen.\nFöljande frågor ställdes till rödgröna väljare:\nOm du fick välja mellan följande två alternativ, vilket skulle du föredra?\nEn regering där Socialdemokraterna, Miljöpartiet, Centerpartiet och Vänsterpartiet får ministerposter – 83%\nOm du fick välja mellan följande två alternativ, vilket skulle du föredra?\nEn regering med Socialdemokraterna och Miljöpartiet, där Centerpartiet och Vänsterpartiet inte får ministerposter – 66%\nOm du fick välja mellan följande två alternativ, vilket skulle du föredra?\nEn regering med Moderaterna, Kristdemokraterna, Liberalerna och Centerpartiet, med stöd av Sverigedemokraterna – 10%\nHur sannolikt tror du att det är att Socialdemokraterna, Vänsterpartiet, Miljöpartiet och Centerpartiet kommer överens om att bilda en regering?\nPå det hela taget, hur tycker du att följande partier har hanterat regeringsbildningen?\nAndel positiva svar för respektive parti:\nVilket av de fyra rödgröna partierna tycker du bär störst ansvar för svårigheterna att bilda en regering?\nVilken av följande grupper av partier tror du skulle stärka sitt sammanlagda väljarstöd om det hölls ett extra val?\nTycker du att det var rätt av Vänsterpartiet att rösta fram Andreas Norlén som talman, istället för att rösta på Socialdemokraternas kandidat?(Frågan endast ställd till vänsterpartistiska väljare)\nUndersökningen genomfördes av Indikator Opinion på uppdrag av SVT Nyheter under perioden 2–7 oktober 2026. Totalt deltog 1 624 rödgröna väljare i undersökningen.\nDatainsamlingen genomfördes inom ramen för Indikators slumpmässigt rekryterade Sverigepanel, där deltagarfrekvensen bland inbjudna panelister var 43 procent.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9315601'",
+      "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "partiledar",
+        "Centerpartiet",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-08T14:16:43.967646+00:00"
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/jimmie-akesson-sd-gor-sig-redo-for-tiden-efter-tido",
-      "title": "Jimmie Åkesson: SD gör sig redo för tiden efter Tidö",
+      "url": "https://www.sverigesradio.se/artikel/9316336",
+      "title": "Gabrielsson bjöd in Ådahl (C) till bastumöte",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-09",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö. Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade även hon redan sedan tidigare bjudit in C-toppen Martin Ådahl till att bada bastu, vilket även Dagens Industri har rapporterat om. ”Så det blev ju lite snott kanske,” säger Gabrielsson till Ekot.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316336'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet",
+        "Kristdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9316284",
+      "title": "Gissén: Inget tyder på att C kommer erkänna V",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-09",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "I eftermiddag möts de rödgröna partierna på Högberga gård på Lidingö i Stockholm. Mötet sker på initiativ av Centerpartiet som, utöver MP, S och V, även har bjudit in en rad samhällsaktörer till det partiet kallar en ”gemensam lägesgenomgång”. Enligt Ekots inrikespolitiska kommentator Helena Gissén finns det dock inget som pekar på att Centerpartiet är på väg att släppa sin röda linje mot Vänsterpartiet.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316284'",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/rodgrona-partiledare-i-odesmote-alla-maste-ge-och-ta",
+      "title": "Rödgröna partiledare i ödesmöte: ”Alla måste ge och ta”",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-08",
-      "author": "Sofia Clason",
+      "published": "2026-10-09",
+      "author": "Jakob Kerren, Hans Rosén, Evelyn Jones",
       "commentator": "",
-      "summary": "Sverigedemokraterna gör sig redo för tiden efter Tidö. Det menar Jimmie Åkesson, som även anklagar samarbetspartierna för att ha tagit åt sig äran för SD:s reformer. ”Bakom regeringskansliets kulisser har Sverigedemokraterna varit motorn i hela samarbetet”, skriver Åkesson på Expressen Debatt.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-08 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/jimmie-akesson-sd-gor-sig-redo-for-tiden-efter-tido/\nSverigedemokraterna gör sig redo för tiden efter Tidö. Det menar Jimmie Åkesson, som även anklagar samarbetspartierna för att ha tagit åt sig äran för SD:s reformer.\n”Bakom regeringskansliets kulisser har Sverigedemokraterna varit motorn i hela samarbetet”, skriver Åkesson på Expressen Debatt .\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nI början av veckan kom nyheten att Sverigedemokraterna möblerar om i utskotten . Flera tunga namn ska byta plats. Enligt uppgifter till Expressen talas det internt om petningar.\nI en debattartikel hos samma tidning skriver nu partiledaren Jimmie Åkesson att han inte alls har petat någon. I stället handlar det om att SD gör sig redo för en tid efter Tidösamarbetet med Moderaterna, Kristdemokraterna och Liberalerna.\nÅkesson skriver att samarbetet varit framgångsrikt, men att SD under tiden har börjat uppfattas som ett borgerligt högerparti.\n”Samtidigt har moderata och kristdemokratiska ministrar kunnat ta åt sig äran för reformer som man från början inte velat genomföra. Reformer som vi behövt stånga oss blodiga i förhandlingar för att få igenom”, skriver partiledaren.\nJimmie Åkesson beskriver SD som själva motorn i samarbetet och hävdar att många reformer aldrig hade blivit av utan partiet. SD ska samtidigt ha behövt ”hantera” samarbetspartierna, enligt Åkesson.\n”Om de borgerliga partierna uppfattas som lika bra (eller tillräckligt bra) i frågor där Sverigedemokraterna haft ledartröjan, samtidigt som vårt förtroende hos väljarna i andra frågor är avsevärt lägre – varför ska man då rösta på Sverigedemokraterna istället för Moderaterna?”\nSD kommer vara villiga att samarbeta åt både höger och vänster framöver, enligt Åkesson. Partiet ska inte ”fastna i en kamp med Moderaterna” om att vara näst störst, utan sikta på att stärka sin egen position.\nÅkesson är inte den enda partiledaren som uttryckt ett slags adjö till Tidö. Även statsminister Ulf Kristersson har sagt att Tidösamarbetet tillhör den förra mandatperioden, enligt Dagens Industri .\n– Tidöprojektet var alldeles entydigt ett projekt för förra mandatperioden. Det var ett väldigt gott samarbete och även gott under valrörelsen, sade han till Di.\nKristdemokraternas partiledare Ebba Busch har å sin del sagt att partiet har ”samma inställning som före valet”. När Magdalena Andersson förra veckan lämnade tillbaka sonderingsuppdraget, efter att Vänsterpartiet valt att stötta Andreas Norlén (M) som talman, skrev Busch på X :\n”Det finns en majoritet i riksdagen för borgerlig ekonomisk politik, den majoriteten skulle tjäna Sverige väl.”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSD möblerar om i utskotten – tunga namn byter plats\nElisabeth Svantesson: Svensk ekonomi går som tåget\nLedare: Ska museer konkurreras ut av gym och departementet?",
+      "summary": "I spöregn och kuling samlas de rödgröna partiernas ledare för första gången sedan valet. På vägen in till fredagens möte välkomnar de Centerpartiets initiativ. – Alla partier måste vara beredda att ge och ta, säger Magdalena Andersson (S).",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-09 16:20\nArtikelns ursprungsadress: https://www.dn.se/sverige/rodgrona-partiledare-i-odesmote-alla-maste-ge-och-ta/\nI spöregn och kuling samlas de rödgröna partiernas ledare för första gången sedan valet. På vägen in till fredagens möte välkomnar de Centerpartiets initiativ.\n– Alla partier måste vara beredda att ge och ta, säger Magdalena Andersson (S).\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nUnder fyra timmar på fredagseftermiddagen ska partitoppar från S, V, C och MP få en föredragning om läget för Sverige på Högberga gård på Lidingö utanför Stockholm. Näringsliv, fackförbund och myndigheter kommer att ur sina perspektiv ge en uppdatering om hur det står till med ekonomin, arbetsmarknaden, klimatet och mycket annat. Mötet sker på Centerns initiativ.\nPartiledarna hade en positiv inställning när de på vägen in mötte medierna i ett tält där regnet smattrade mot taket.\n– Det viktigaste är att vi sitter alla fyra tillsammans och får den här samlade lägesbilden, säger S-ledaren Magdalena Andersson som har talmannens uppdrag att försöka bilda en ny regering.\nHon skickade samtidigt en skarp signal till sina tre partiledarkolleger.\n– Ska vi kunna ta ansvar för valresultatet så behöver alla partier vara beredda att både ge och ta. Jag hoppas att det här kan vara ett stag på vägen mot en sådan regering, säger S-ledaren.\nDen hårdaste låsningen finns mellan Vänsterpartiet och Centern. V-ledaren Nooshi Dadgostar välkomnade det centerpartistiska evenemanget.\n– Det här är ett trevligt och bra initiativ, säger hon\nHur tänker du ta upp regeringsfrågan i dag?\n– Ja, alltså, det här sker ändå i en kontext av att vi ska bilda en regering, så jag utgår från att diskussionen också blir hur vi fortsätter den här processen.\nDagens värdinna Elisabeth Thand Ringqvist (C) ser inte fredagens möte som en förhandling om vilka partier som ska sitta i regeringen.\n– Nej, jag kommer ta upp mina reflektioner från de dragningarna som har gjorts, för de har jag inte hört än, säger Centerledaren till DN.\n– Vi får se efter i dag om det finns någonting mer vi ska prata om. Och framför allt så är det ju Magdalena Andersson som har sonderingsuppdraget som får bestämma nästa steg.\nMiljöpartiets språkrör är otåliga att komma igång med konkreta förhandlingar.\n– Vi har en rödgrön majoritet i riksdagen och det är den vi ska arbeta utifrån. Och vi ser att vi behöver fyra partier i regeringen, säger Daniel Helldén innan han och Amanda Lind försvinner in på mötet.\nDet var i måndags som Magdalena Andersson fick ett förnyat sonderingsuppdrag av talmannen Andreas Norlén. Hon fick en vecka på sig och ska återrapportera på måndag. Beroende på vilka besked hon ger kan talmannen antingen ge mer tid, eller besluta om att riksdagen ska rösta om henne som statsministerkandidat. En sådan omröstning kan ske tidigast på onsdag.\nÄn så länge har inga regelrätta förhandlingar kommit igång. Den främsta låsningen ligger i att Centerpartiet säger nej till Vänsterpartiets krav på ministerposter.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nV-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det”\nVänsterpartiets resa mot makten: ”Det är nu eller aldrig”\nJohannes Klenell: Tänk om människor i Järva faktiskt oroar sig för hyrorna, jobben och välfärden?",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "samarbetspart",
-        "Sverigedemokraterna"
+        "partiledar",
+        "Centerpartiet"
       ],
-      "first_seen": "2026-10-08T14:16:43.967646+00:00"
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/v-toppen-infor-odesmotet-tough-shit-da-far-man-tugga-i-sig-det",
+      "title": "V-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-09",
+      "author": "Evelyn Jones",
+      "commentator": "",
+      "summary": "På fredagen möts toppolitiker från de fyra rödgröna partierna för första gången tillsammans. Vänsterpartiets Ida Gabrielsson tror inte Magdalena Andersson (S) klarar en statsministeromröstning efter mötet. – Jag tror inte på någon trollspösituation där det kommer bli helt fantastiskt och så löser allt sig efter fredagen, säger hon.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-09 16:19\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-toppen-infor-odesmotet-tough-shit-da-far-man-tugga-i-sig-det/\nPå fredagen möts toppolitiker från de fyra rödgröna partierna för första gången tillsammans. Vänsterpartiets Ida Gabrielsson tror inte Magdalena Andersson (S) klarar en statsministeromröstning efter mötet.\n– Jag tror inte på någon trollspösituation där det kommer bli helt fantastiskt och så löser allt sig efter fredagen, säger hon.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDe har precis delat kattbilder med varandra efter finansutskottets möte. Vänsterpartiets ekonomisk-politiska talesperson Ida Gabrielsson och Centerpartiets motsvarighet Martin Ådahl har katter av samma ras.\n– Neva Masquerade – han kunde det namnet. Jag kallar den sibirisk skogskatt. De är vita, lurviga och har blå ögon, säger Ida Gabrielsson i en fåtölj i riksdagens kammarfoajé.\nKvällen innan gjorde de båda klart att deras röda linjer ligger kvar: Vänsterpartiet kräver att få sitta i en regering som de stöttar – medan C inte vill stötta en regering med V-ministrar. Då möttes de två partiernas motsvarigheter i en debatt i SVT:s Aktuellt – för ovanlighetens skull. Annars har Ida Gabrielsson sedan valet mest synts i tv-studior utan någon från C på plats.\n– Det känns lite ängsligt tycker jag. Vi har väldigt mycket samarbete men det känns lite som att C tror att de ska bli smittade om de kommer till tv samtidigt som V. Som att de då kanske råkar hamna i regering med oss, säger hon.\nPå fredagen ska partiledare och språkrör för de partier som vill se Magdalena Andersson som statsminister mötas på Högberga gård på Lidingö. Det är Centerpartiets Elisabeth Thand Ringqvist som bjudit in till mötet där partiledare, tillsammans med andra toppositioner i partierna, ska få en gemensam bild av läget i Sverige från inbjudna talare.\nIda Gabrielsson kommer att vara där. Hon tycker att det är bra att de åtminstone kan ses i samma rum med målsättningen att få en lägesbeskrivning.\n– Sedan så hade ju vi egentligen hoppats att vi hade kommit längre nu.\n– Ja, att vi hade kunnat börja med regeringsförhandlingar. För oss har det egentligen varit ganska självklart att vi behöver ha flera alternativ. Om det inte blir S, V och MP som får majoritet så kommer vi behöva samarbeta med C. Därför har vi gjort ett jobb innan med att få våra medlemmar att acceptera det. Det verkar vara mer låst från Centerpartiet.\nVad kommer ni ha med er in i fredagens samtal?\n– Alla funderingar som C skulle kunna ha på V:s politik kan de få dryfta. Det är först när man sitter ner och samtalar som man kan göra på det sättet. Men man kanske måste bestämma sig lite för vad man vill – eller vad man får acceptera.\nPå torsdagen syntes Elisabeth Thand Ringqvist på bild tillsammans med KD-ledaren Ebba Busch efter att ha bastat i Stockholmsområdet. Centerpartiets pressekreterare har kommenterat mötet med att ”Centerpartiet kommer fortsätta föra breda konstruktiva samtal för att få en regering på plats”.\nIda Gabrielsson säger att man såklart får basta med vem man vill.\n– Men jag tänker att hon kanske sonderat klart när hon har varit och bastat med Ebba Busch och sett att det fanns ingen där i ”mitten” som vill vara med och ha Magdalena Andersson som statsminister. Det är bara vi fyra.\n– Tough shit, men man får tugga i sig det. Det är inte som att vänsterpartisterna tycker C är det bästa partiet heller.\nIda Gabrielsson säger att hon själv funderat på att bjuda in de andra partierna till sin vedeldade bastu i Åmot.\n– Den går på ved, inte el som de verkar ha haft här i Stockholm. Det blir lite trångt för den är inte så stor, men då kan det kännas lite för Martin Ådahl som i badtunnan där hos Maud Olofsson. Den var också vedeldad.\nTror du det är det som behövs för att ni ska kunna bilda regering?\n– Min erfarenhet är att det ändå är lättare att förstå varandra om man möts mer. Men om man bara vill visa upp en triumf eller en skalp – att Vänsterpartiet inte fick vara med och därför har vi ändå gjort en borgerlig insats. Då kommer det ju vara svårt.\n– Jag tror inte på någon trollspösituation där det kommer bli helt fantastiskt och så löser allt sig efter fredagen. Jag tror mycket på att det är hårt jobb det handlar om. Det kan bli tufft men vi vill så fort som möjligt börja med att regeringsförhandla.\nIda Gabrielsson tror inte att Magdalena Andersson (S) kommer att klara en statsministeromröstning i nästa vecka.\n– Det tror jag blir väldigt svårt. Jag har inte varit med om att man väljer en statsminister i nutid utan att man har gjort en överenskommelse. Att vi skulle komma överens om att alla fyra ska ingå i regering och gjort en del av förhandlingarna klara tror jag blir svårt.\nMen hon är helt säker på att Magdalena Andersson är rätt person att ta förhandlingarna i hamn.\n– Vi vill ju verkligen att hon ska bli vald. Det känner vi stor entusiasm inför, säger Ida Gabrielsson.\nSignalen till partiledarna inför mötet: ”Ge er inte in i det”\nPå fredag mellan klockan 11 och 17 kommer mötet hållas på Högberga gård på Lidingö, utanför Stockholm.\nMötet sker på initiativ av Centerpartiet och ska handla om ”läget för Sverige”.\nUtöver partiledarna från V, MP, S och C deltar representanter från fack och näringslivet samt partisekreterare, gruppledare och ekonomiskpolitiska talespersoner.\nDet är första gången alla partiledarna för de rödgröna ses tillsammans sedan valet.\nKonjunkturinstitutet, Generaldirektör Albin Kainelainen\nTCO, Förbundsordförande Therese Svanström\nSaco, Förbundsordförande Sofia Rydgren Stale\nPolisen, biträdande rikspolischef Stefan Hector\nUtrikespolitiska institutet, direktör Jakob Hallgren\nFossilfritt Sverige, Nationell Samordnare Svante Axelsson\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nRödgröna partiledare i ödesmöte: ”Alla måste ge och ta”\nVänsterpartiets resa mot makten: ”Det är nu eller aldrig”\nSignalen till partiledarna inför mötet: ”Ge er inte in i det”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/vansterpartiets-resa-mot-makten-det-ar-nu-eller-aldrig",
+      "title": "Vänsterpartiets resa mot makten: ”Det är nu eller aldrig”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-09",
+      "author": "Hans Rosén, Hanna Jakobson",
+      "commentator": "",
+      "summary": "Januariavtalets ”förnedringsklausul” var en chock för V. De slog tillbaka genom att fälla Stefan Löfven – och blev övertygade om att det lönar sig att sätta hårt mot hårt. Efter valet 2026 står nästa strid: den om ministerposter. – Det är nu eller aldrig, säger en V-källa.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-09 16:19\nArtikelns ursprungsadress: https://www.dn.se/sverige/vansterpartiets-resa-mot-makten-det-ar-nu-eller-aldrig/\nJanuariavtalets ”förnedringsklausul” var en chock för V. De slog tillbaka genom att fälla Stefan Löfven – och blev övertygade om att det lönar sig att sätta hårt mot hårt. Efter valet 2026 står nästa strid: den om ministerposter.\n– Det är nu eller aldrig, säger en V-källa.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/har-ska-partiledarna-motas-folj-med-in-pa-kursgarden",
+      "title": "Här ska partiledarna mötas – följ med in på kursgården",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-08",
+      "author": "Julia Lindvall, Filip Brusman",
+      "commentator": "",
+      "summary": "På fredagen väntar ett laddat första möte mellan partiledarna för S, V, MP och C. Platsen för mötet är en kursgård på Lidingö – där det tidigare uppstått kärlek i Gift vid första ögonkastet. Frågan är om det kommer slå gnistor även mellan partiledarna.",
+      "fulltext": "På fredagen väntar ett laddat första möte mellan partiledarna för S, V, MP och C.\nPlatsen för mötet är en kursgård på Lidingö – där det tidigare uppstått kärlek i Gift vid första ögonkastet. Frågan är om det kommer slå gnistor även mellan partiledarna.\nPå fredagen hålls det första gemensamma mötet på partiledarnivå mellan S, V, MP och C.\nC-ledaren Elisabeth Thand Ringqvist har utöver partiledarna även bjudit in en rad externa aktörer som ske ge partierna en bild av vilka utmaningar Sverige står inför.\nAtt partiledarna nu samlas ses av många som ett möjligt första steg mot riktiga regeringsförhandlingar.\nMen enligt Thand Ringqvist rör det sig inte om några regeringsförhandlingar – syftet med mötet är enligt henne att se om partierna har ”några som helst gemensamma ingångar”.\nV-ledaren Nooshi Dadgostar säger dock till TT att hon planerar att ta upp regeringsfrågan även om den inte finns med på dagordningen.\nPå schemat står möte mellan klockan 13.00 och 17.00. Men på kursgården finns även möjlighet att basta – något V-toppen Ida Gabrielsson tidigare sagt sig vilja göra tillsammans med Martin Ådahl från Centerpartiet.\n– Jag tänker att man sätter en hasp på och säger ”ni kommer inte ut förrän ni har löst regeringsfrågan”, säger besökaren Johan Thulin som tips inför fredagens möte.\nFölj med när SVT besöker kursgården i videon ovan.\nAlbin Kainelainen , generaldirektör Konjunkturinstitutet.\nStefan Hector , biträdande rikspolischef.\nJakob Hallgren , direktör Utrikespolitiska institutet.\nSvante Axelson , nationella samordnare Fossilfritt Sverige.\nFrån partierna har C bjudit in partiledarna, partisekreterarna, gruppledarna och de ekonomisk-politiska talespersonerna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar"
+      ],
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/signalen-till-partiledarna-infor-motet-ge-er-inte-in-i-det",
+      "title": "Signalen till partiledarna inför mötet: ”Ge er inte in i det”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-08",
+      "author": "Evelyn Jones",
+      "commentator": "",
+      "summary": "På fredag samlas de fyra rödgröna partiledarna för att diskutera vägen framåt. Centerpartiet vill att partierna ska få en bild av läget i Sverige – från särskilt inbjudna gäster. – Var beredd på överraskningar, säger Jakob Hallgren på Utrikespolitiska institutet.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/signalen-till-partiledarna-infor-motet-ge-er-inte-in-i-det'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-09T14:20:07.514147+00:00"
     }
   ]
 }
