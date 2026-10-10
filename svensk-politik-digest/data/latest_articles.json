@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-10T06:16:09.896280+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-10-10T14:15:42.354244+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 36,
+    "seen": 39,
     "offtopic": 147,
     "old": 22
   },
-  "fetch_errors": 4,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 4,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,101 +65,38 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9316705",
-      "title": "SD:s partisekreterare: ”Slöjförbudet missade målet”",
+      "url": "https://www.sverigesradio.se/artikel/9317020",
+      "title": "Budgetförslag på plats: ”Han har EU:s svåraste jobb”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-10",
       "author": "Ekot",
       "commentator": "",
-      "summary": "”Det är min personliga uppfattning att det missar i huvudsak målet med de lägsta åldrarna, med barn som inte får välja själva”, säger Mattias Bäckström Johansson i Ekots lördagsintervju . Sverigedemokraterna backade mest av alla partier i riksdagsvalet. Efter fyra år i Tidösamarbetet ska partiet fokusera på att ta fram ny politik, bland annat på välfärdsområdet, som skola och omsorg. ”Vi har en stor potential att kunna bygga förtroende i vissa av dem”, säger säger Bäckström Johansson.",
+      "summary": "EU:s ordförandeland Irland har precis lagt fram ett nytt förslag till EU:s nästa långtidsbudget. Budgetförhandlingarna, som är mycket svåra, ska avgöra vad EU ska satsa på de kommande sju åren. Irland vill se en total budget på 1 825 miljarder euro. Det är lägre än kommissionens ursprungliga förslag men inte alls så lågt som Sverige och andra sparsamma länder krävt. Det Irland har skurit ner på är just det som Sverige vill satsa på: konkurrenskraft, säkerhet och försvar. Man har inte skurit så mycket i de stora budgetposterna, som jordbruksstödet.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316705'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317020'",
       "matched_terms": [
-        "riksdagsval",
-        "Sverigedemokraterna"
+        "budgetförhandling"
       ],
-      "first_seen": "2026-10-10T06:16:09.896280+00:00"
+      "first_seen": "2026-10-10T14:15:42.354244+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/dodlaget-bestar-i-regeringsfragan",
-      "title": "”Dödläget består i regeringsfrågan”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-09",
-      "author": "Mats Knutson",
-      "commentator": "Mats Knutson",
-      "summary": "Mötet på Högberga gård blev ingen murbräcka för att bryta dödläget i regeringsfrågan. Positionerna tycks lika låsta som tidigare. Om talmannen vill ha en statsministeromröstning i riksdagen redan nästa vecka lär S-ledaren Magdalena Andersson bli nedröstad.",
-      "fulltext": "Mötet på Högberga gård blev ingen murbräcka för att bryta dödläget i regeringsfrågan. Positionerna tycks lika låsta som tidigare. Om talmannen vill ha en statsministeromröstning i riksdagen redan nästa vecka lär S-ledaren Magdalena Andersson bli nedröstad.\nFörväntningarna har varit låga inför fredagens möte mellan de rödgröna partiledarna på Högberga gård på Lidingö. Ändå låter medverkande partiledare och språkrör nöjda efter mötet. Men i sak är läget i regeringsfrågan oförändrat. Ingen försöker heller ge sken av något annat.\nCenterpartiets röda linjer gentemot Vänsterpartiet består. Samtidigt håller Vänsterpartiet fast vid sina krav på ministerposter. Ståndpunkterna är oförenliga och är därmed Magdalena Anderssons just nu största huvudvärk.\nFör redan på måndag ska hon träffa talman Andreas Norlén för att lämna en rapport om sitt sonderingsuppdrag.\nAndreas Norlén har tidigare sagt att han vill snabba på höstens regeringsprocess och han kan på måndag välja att datumsätta en första statsministeromröstning om Andersson.\nGivet de kommentarer som partiledarna gav på väg ut från mötet på Högberga gård har Andersson i dagsläget små möjligheter att klara en sådan omröstning. Regeringsbildningen har inte kommit tillräckligt långt och de röda linjerna i regeringsfrågan ligger uppenbart fast.\nDet går dock inte att avfärda mötet på Högberga gård som ett misslyckande. I efterhand kan det mycket väl pekas ut som startpunkten för en process som längre fram leder till en ny regering.\nFör de rödgröna partierna var det också viktigt att kunna samla alla partiledare i samma rum. Trots att snart en månad har gått har det alltså skett först nu. För de rödgröna partierna upplevs detta som ett stort steg, men väljarna uppfattar det nog snarare som ett litet steg.\nVäljarna förväntar sig att de partier som utropat sig till valvinnare också kan hantera valresultatet och bilda en regering. Den opinionsundersökning som Indikator Opinion gjort på SVT:s uppdrag indikerar också att både Centerpartiets och Vänsterpartiets väljare är öppna för kompromisser hellre än ett extraval.\nSådana kompromisser tycks dock inte vara nära förestående. I veckan har Centerpartiet upprepat sina röda linjer mot Vänsterpartiet. Det handlar både om Vänsterpartiets politik och skandalerna i partiet, enligt Centerpartiets företrädare.\nDe skyttegravar som grävts under valrörelsen, har alltså efter valdagen snarare grävts än djupare. Desto svårare blir de därmed att ta sig ur.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "talman",
-        "statsminister"
-      ],
-      "first_seen": "2026-10-10T06:16:09.896280+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9316901",
-      "title": "Furtenbach: ”Det mesta talar för en omröstning i riksdagen”",
+      "url": "https://www.sverigesradio.se/artikel/9316962",
+      "title": "Huthierna trappar upp – dödliga attacker mot saudiska flygplatser",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-09",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Mötet mellan de rödgröna partiledarna på fredagen löste inte knutarna mellan partierna, och inget tyder på att en rödgrön regering kommit närmare. Ekots inrikespolitiske kommentator Fredrik Furtenbach säger att Centerpartiet kan ha bjudit in de övriga partierna av taktiska skäl. ”Det mesta talar för att riksdagen snart har en omröstning som Magdalena Andersson (S) inte klarar”, säger han.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316901'",
-      "matched_terms": [
-        "partiledar",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-10-10T06:16:09.896280+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9316856",
-      "title": "C-ledaren efter mötet: Regeringsfrågan kom inte upp",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-09",
+      "published": "2026-10-10",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Mötet på Lidingö där politiker från de rödgröna partierna och myndigheter träffats under fredagen är över. Centerpartiets partiledare Elisabeth Thand Ringqvist beskriver mötet som en lägesgenomgång av Sverige just nu. Hon hänvisar frågor om regeringsbildandet till Socialdemokraternas ledare Magdalena Andersson.",
+      "summary": "Den Iranstödda huthirörelsen har trappat upp attackerna mot Saudiarabiens flygplatser. Sex människor har dödats, enligt saudiska myndigheter, och flera flygbolag har stoppat flygningar. Den saudiledda koalitionen har samtidigt genomfört omfattande flyganfall mot huthierna i Jemen. Saudiarabien söker stöd från Turkiet och Pakistan genom Meckapakten. Turkiet förbereder försvarsstöd men ska inte skicka trupper till Jemen, enligt utrikesminister Hakan Fidan.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316856'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316962'",
       "matched_terms": [
-        "regeringsbildande",
-        "regeringsfråg",
-        "partiledar",
-        "Centerpartiet",
-        "Socialdemokraterna"
+        "koalition"
       ],
-      "first_seen": "2026-10-10T06:16:09.896280+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9316762",
-      "title": "Centerledaren: ”Viktigt att visa att vi kan sitta i samma rum”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-09",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "För första gången sedan valet samlas de rödgröna partierna till ett gemensamt möte, samtidigt som regeringsfrågan fortfarande är låst. Centerpartiet hoppas på ett bättre samtalsklimat, medan Vänsterpartiet vill tala om regeringsbildningen och kräver plats i en regering. På måndag ska Magdalena Andersson (S) lämna besked till talmannen om hon ska fortsätta med sina försök att bilda regering.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316762'",
-      "matched_terms": [
-        "regeringsbildning",
-        "regeringsfråg",
-        "talman",
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-10T06:16:09.896280+00:00"
+      "first_seen": "2026-10-10T14:15:42.354244+00:00"
     }
   ]
 }

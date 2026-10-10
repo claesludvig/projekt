@@ -1,32 +1,17 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-10
 
-5 nya poster sedan förra utskicket (36 redan utskickade, 147 utanför ämnet).
+2 nya poster sedan förra utskicket (39 redan utskickade, 147 utanför ämnet).
 
 ## Rapportering
 
-### [SD:s partisekreterare: ”Slöjförbudet missade målet”](https://www.sverigesradio.se/artikel/9316705)
+### [Budgetförslag på plats: ”Han har EU:s svåraste jobb”](https://www.sverigesradio.se/artikel/9317020)
 Ekot, Sveriges Radio · 2026-10-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-”Det är min personliga uppfattning att det missar i huvudsak målet med de lägsta åldrarna, med barn som inte får välja själva”, säger Mattias Bäckström Johansson i Ekots lördagsintervju . Sverigedemokraterna backade mest av alla partier i riksdagsvalet. Efter fyra år i Tidösamarbetet ska partiet fokusera på att ta fram ny politik, bland annat på välfärdsområdet, som skola och omsorg. ”Vi har en stor potential att kunna bygga förtroende i vissa av dem”, säger säger Bäckström Johansson.
+EU:s ordförandeland Irland har precis lagt fram ett nytt förslag till EU:s nästa långtidsbudget. Budgetförhandlingarna, som är mycket svåra, ska avgöra vad EU ska satsa på de kommande sju åren. Irland vill se en total budget på 1 825 miljarder euro. Det är lägre än kommissionens ursprungliga förslag men inte alls så lågt som Sverige och andra sparsamma länder krävt. Det Irland har skurit ner på är just det som Sverige vill satsa på: konkurrenskraft, säkerhet och försvar. Man har inte skurit så mycket i de stora budgetposterna, som jordbruksstödet.
 
-### [”Dödläget består i regeringsfrågan”](https://www.svt.se/nyheter/inrikes/dodlaget-bestar-i-regeringsfragan) **[kommentator]**
-SVT Nyheter · 2026-10-09 · Mats Knutson
+### [Huthierna trappar upp – dödliga attacker mot saudiska flygplatser](https://www.sverigesradio.se/artikel/9316962)
+Ekot, Sveriges Radio · 2026-10-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Mötet på Högberga gård blev ingen murbräcka för att bryta dödläget i regeringsfrågan. Positionerna tycks lika låsta som tidigare. Om talmannen vill ha en statsministeromröstning i riksdagen redan nästa vecka lär S-ledaren Magdalena Andersson bli nedröstad.
+Den Iranstödda huthirörelsen har trappat upp attackerna mot Saudiarabiens flygplatser. Sex människor har dödats, enligt saudiska myndigheter, och flera flygbolag har stoppat flygningar. Den saudiledda koalitionen har samtidigt genomfört omfattande flyganfall mot huthierna i Jemen. Saudiarabien söker stöd från Turkiet och Pakistan genom Meckapakten. Turkiet förbereder försvarsstöd men ska inte skicka trupper till Jemen, enligt utrikesminister Hakan Fidan.
 
-### [Furtenbach: ”Det mesta talar för en omröstning i riksdagen”](https://www.sverigesradio.se/artikel/9316901) **[kommentator]**
-Ekot, Sveriges Radio · 2026-10-09 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Mötet mellan de rödgröna partiledarna på fredagen löste inte knutarna mellan partierna, och inget tyder på att en rödgrön regering kommit närmare. Ekots inrikespolitiske kommentator Fredrik Furtenbach säger att Centerpartiet kan ha bjudit in de övriga partierna av taktiska skäl. ”Det mesta talar för att riksdagen snart har en omröstning som Magdalena Andersson (S) inte klarar”, säger han.
-
-### [C-ledaren efter mötet: Regeringsfrågan kom inte upp](https://www.sverigesradio.se/artikel/9316856)
-Ekot, Sveriges Radio · 2026-10-09 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Mötet på Lidingö där politiker från de rödgröna partierna och myndigheter träffats under fredagen är över. Centerpartiets partiledare Elisabeth Thand Ringqvist beskriver mötet som en lägesgenomgång av Sverige just nu. Hon hänvisar frågor om regeringsbildandet till Socialdemokraternas ledare Magdalena Andersson.
-
-### [Centerledaren: ”Viktigt att visa att vi kan sitta i samma rum”](https://www.sverigesradio.se/artikel/9316762)
-Ekot, Sveriges Radio · 2026-10-09 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-För första gången sedan valet samlas de rödgröna partierna till ett gemensamt möte, samtidigt som regeringsfrågan fortfarande är låst. Centerpartiet hoppas på ett bättre samtalsklimat, medan Vänsterpartiet vill tala om regeringsbildningen och kräver plats i en regering. På måndag ska Magdalena Andersson (S) lämna besked till talmannen om hon ska fortsätta med sina försök att bilda regering.
-
-_Genererat 2026-10-10T06:16:09.896280+00:00._
+_Genererat 2026-10-10T14:15:42.354244+00:00._
