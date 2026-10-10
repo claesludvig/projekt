@@ -1,0 +1,102 @@
+{
+  "fetched_at": "2026-10-10T14:15:42.354244+00:00",
+  "new_count": 2,
+  "skipped": {
+    "seen": 39,
+    "offtopic": 147,
+    "old": 22
+  },
+  "fetch_errors": 2,
+  "sources": [
+    {
+      "name": "SVT Nyheter",
+      "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Ekot, Sveriges Radio",
+      "feed": "https://api.sr.se/api/rss/program/83",
+      "new": 2,
+      "ok": true
+    },
+    {
+      "name": "DN Nyheter",
+      "feed": "https://www.dn.se/nyheter/politik/rss/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "DN Ledare",
+      "feed": "https://www.dn.se/ledare/rss/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "SvD Ledare",
+      "feed": "https://www.svd.se/feed/articles.rss",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Expressen Ledare",
+      "feed": "https://feeds.expressen.se/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Aftonbladet Ledare",
+      "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Regeringen.se",
+      "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Riksdagen",
+      "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
+      "new": 0,
+      "ok": true
+    }
+  ],
+  "articles": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/9317020",
+      "title": "Budgetförslag på plats: ”Han har EU:s svåraste jobb”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-10",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "EU:s ordförandeland Irland har precis lagt fram ett nytt förslag till EU:s nästa långtidsbudget. Budgetförhandlingarna, som är mycket svåra, ska avgöra vad EU ska satsa på de kommande sju åren. Irland vill se en total budget på 1 825 miljarder euro. Det är lägre än kommissionens ursprungliga förslag men inte alls så lågt som Sverige och andra sparsamma länder krävt. Det Irland har skurit ner på är just det som Sverige vill satsa på: konkurrenskraft, säkerhet och försvar. Man har inte skurit så mycket i de stora budgetposterna, som jordbruksstödet.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317020'",
+      "matched_terms": [
+        "budgetförhandling"
+      ],
+      "first_seen": "2026-10-10T14:15:42.354244+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9316962",
+      "title": "Huthierna trappar upp – dödliga attacker mot saudiska flygplatser",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-10",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Den Iranstödda huthirörelsen har trappat upp attackerna mot Saudiarabiens flygplatser. Sex människor har dödats, enligt saudiska myndigheter, och flera flygbolag har stoppat flygningar. Den saudiledda koalitionen har samtidigt genomfört omfattande flyganfall mot huthierna i Jemen. Saudiarabien söker stöd från Turkiet och Pakistan genom Meckapakten. Turkiet förbereder försvarsstöd men ska inte skicka trupper till Jemen, enligt utrikesminister Hakan Fidan.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9316962'",
+      "matched_terms": [
+        "koalition"
+      ],
+      "first_seen": "2026-10-10T14:15:42.354244+00:00"
+    }
+  ]
+}
