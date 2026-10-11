@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-11T06:16:14.708997+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-10-11T14:16:21.580338+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 34,
-    "offtopic": 151,
+    "seen": 33,
+    "offtopic": 153,
     "old": 22
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,57 +65,41 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/ledare/dags-att-lata-vansterpartiet-bekanna-farg",
-      "title": "Ledare: Dags att låta Vänsterpartiet bekänna färg",
-      "source": "DN Ledare",
+      "url": "https://www.svd.se/a/gdLORA/pressen-okar-andersson-kan-tvingas-till-omrostning",
+      "title": "Pressen ökar: Andersson kan tvingas till omröstning",
+      "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-10-11",
-      "author": "DN:s ledarredaktion",
+      "author": "Anja Haglund/TT",
       "commentator": "",
-      "summary": "Nästa vecka väntar en första statsministervotering. Ingenting pekar på att Magdalena Andersson kommer att klara den – men det är inte ett skäl att inte försöka.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-11 08:15\nArtikelns ursprungsadress: https://www.dn.se/ledare/dags-att-lata-vansterpartiet-bekanna-farg/\nNästa vecka väntar en första statsministervotering. Ingenting pekar på att Magdalena Andersson kommer att klara den – men det är inte ett skäl att inte försöka.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDet blev en trevlig fredag på Lidingö i alla fall. Nooshi Dadgostar (V), Daniel Helldén (MP), Amanda Lind (MP), Magdalena Andersson (S) och värden, Elisabeth Thand Ringqvist (C), var alla överens om att det varit ett givande möte. En bild på de fem leende tillsammans togs till och med.\nMen de var också överens om att någon förhandling inte ägt rum – inga röda linjer hade försvunnit. Liksom om att bollen nu ligger hos Magdalena Andersson. Det är hon som vill leda nästa regering, söker de andras stöd, och måste ta initiativ till nästa träff.\nS-ledaren sa själv att hon skulle ta helgen för att reflektera.\nMen mer tid än så har hon inte. På måndag ska hon avrapportera sitt sonderingsuppdrag hos talmannen, och han har varit tydlig – om hon inte ber om en förlängning så är det dags för statsministervotering på onsdag.\nÄr det inte lika bra att bränna av den? Det är väl först när det närmar sig ett extra val som pressen ökar och partier kommer att börja fundera på att överge sina ultimativa krav?\nÄven om man bortser från att det inte är ett särskilt seriöst sätt att förhålla sig till en sonderingsprocess, så är faktum att partierna – också S, MP och C – står en bra bit ifrån varandra i den ekonomiska politiken. Kompromisser är inte omöjliga men sådana kräver tid – stötande och blötande vid förhandlingsbordet. Varför då vaska den?\nDet är också uppenbart vad nästa naturliga steg är. På fredagen fick partiledarna en rad beskrivningar av framför allt den ekonomiska och säkerhetspolitiska verkligheten. Nu är det dags att formulera politik som förhåller sig till denna.\nDet är också en chans att låta Vänsterpartiet bekänna färg.\nFör det är V som blockerar den här processen. Partiet vägrar att sätta sig ned med de andra och prata om ett politiskt program innan centerpartisterna inte bara sagt att Nooshi Dadgostar ska få sitta i regering, utan att de tänker sitta där med henne.\nOm Magdalena Andersson bjuder in till sakpolitiska samtal vägrar kanske V-ledaren att komma. Kanske marscherar hon ut efter att hon förklarat att hon minsann inte tänker diskutera karensavdraget eller annat som berör kvinnorna i välfärden innan hon själv och Ida Gabrielsson fått välja tavlor att hänga på väggarna i sina nya rum inne på Rosenbad.\nMen det vore också värdefullt för väljarna att se.\nPå samma sätt är det viktig information om S, MP och C klarar att komma tillräckligt långt för att de alla ska kunna stötta Magdalena Andersson i en statsministervotering, medan Vänsterpartiet – tillsammans med Tidöhögern – fäller henne.\nDN:s ledarredaktion: Nobelkommittén ställer barbariet mot civilisationen\nDN:s ledarredaktion: Våra röster gör skillnad – nu stoppas tonårsutvisningarna\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Nobelkommittén ställer barbariet mot civilisationen\nLedare: Våra röster gör skillnad – nu stoppas tonårsutvisningarna\nKarensavdraget: ”Man blir straffad för något man inte rår för”",
+      "summary": "Tidigast på onsdag kan S-ledaren Magdalena Andersson prövas som statsminister i riksdagen.",
+      "fulltext": "Tidigast på onsdag kan S-ledaren Magdalena Andersson prövas som statsminister i riksdagen.\nTalmannen kan utlysa en omröstning även om hon riskerar att fällas – för att tvinga processen framåt.\nVad händer med försöken att bilda regering?\nPå måndag ska Magdalena Andersson rapportera till talman Andreas Norlén hur det går.\nHon kan då antingen be om mer tid eller slutrapportera sitt sonderingsuppdrag, om hon skulle ha lyckats få ihop ett färdigt regeringsalternativ. Det är det dock inte mycket som pekar på just nu. Läget på den rödgröna sidan ser fortsatt låst ut och fredagens möte på Lidingö var inget som kunde lösa upp knutarna mellan C och V.\nS-ledaren har inte svarat på om hon kommer att be om mer tid, utan har sagt att hon ska fundera över helgen.\nTalmannen kan bevilja mer tid om han bedömer att det pågår samtal eller förhandlingar som behöver få fortsätta.\nHan har samtidigt förberett för att hålla en möjlig omröstning om S-ledaren som statsminister i veckan, vilket tidigast kan ske onsdagen den 14 oktober.\nVarför hålla en statsministeromröstning innan det finns ett färdigt regeringsalternativ?\nDet är inte säkert att det kommer att ske, men det kan ske om talmannen bedömer att det behövs för att få fart på förhandlingarna. Då kan han lägga fram ett förslag på ny statsminister även om kandidaten med största sannolikhet kommer att röstas ner.\nTalmannen har fyra försök att få igenom en statsminister. Säger riksdagen nej alla fyra gångerna väntar ett extra val – och det är ett scenario som nästan inget parti vill ha.\nAtt tvinga fram statsministeromröstningar brukar beskrivas som ett av talmannens skarpaste vapen och användes även under den utdragna regeringsbildningen 2018. Då var både dåvarande S-ledaren Stefan Löfven och M-ledaren Ulf Kristersson uppe i olika omröstningar och fälldes. Först i den tredje omröstningen valdes Löfven till statsminister.\nDen här gången har Andreas Norlén varit tydlig med att han vill se en snabbare process än de 134 dagar det tog 2018.\nVad krävs för att röstas fram som statsminister?\nEn statsminister väljs så länge inte en majoritet i riksdagen, det vill säga 175 eller fler, röstar emot.\nI teorin skulle det alltså kunna räcka med att till exempel bara Socialdemokraterna röstar för Magdalena Andersson, om de andra rödgröna partierna avstår (röstar gult). Tidöpartiernas 173 mandat räcker inte för att fälla Andersson, även om samtliga trycker rött.\nÅ andra sidan kan det vara problematiskt om en statsminister blir vald utan att ha ett färdigt regeringsalternativ. Det kan bli svårt att få igenom både budget och politik. 2018 tvingades Stefan Löfven regera hela sitt första år på en M-KD-budget.\nEtt alternativ är att regera med ”hoppande majoriteter” och göra upp med olika partier i olika frågor. Det är en lösning som Magdalena Andersson inte har uteslutit.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister",
-        "Vänsterpartiet"
+        "statsminister"
       ],
-      "first_seen": "2026-10-11T06:16:14.708997+00:00"
+      "first_seen": "2026-10-11T14:16:21.580338+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9317144",
-      "title": "Tolv döda och över 300 skadade på Riyads flygplats",
+      "url": "https://www.sverigesradio.se/artikel/9317238",
+      "title": "Guide: Nästa steg i regeringsförhandlingarna",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-10",
+      "published": "2026-10-11",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Tolv människor har dödats och över 300 skadats i en attack mot flygplatsen i Riyad. Enligt saudiska myndigheter ligger Huthirörelsen bakom attacken, som är den dödligaste mot Saudiarabien under den senaste upptrappningen av Jemenkriget. Flygtrafiken har stoppats tillfälligt, och saudiska medborgare utomlands hänvisas till landets ambassader för konsulär hjälp. Den saudiledda koalitionen kallar attacken ett krigsbrott och utlovar ett kraftfullt svar.",
+      "summary": "I fredags samlades de rödgröna partierna på en kursgård på Lidingö utanför Stockholm, tillsammans med bland andra företrädare för fackföreningar, näringsliv och polisen. Socialdemokraternas ledare Magdalena Andersson har sagt att hon ska ta helgen efter mötet och reflektera inför hennes deadline på måndag att rapportera till talmannen om sitt sonderingsuppdrag. ”Ett bra tips nu är att utrusta sig med tålamod för det mesta talar för en väldigt utdragen process”, säger Helena Gissén, Ekots inrikespolitiska kommentator.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317144'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317238'",
       "matched_terms": [
-        "koalition"
+        "regeringsförhandling",
+        "talman",
+        "sondering",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-10-11T06:16:14.708997+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9317102",
-      "title": "SD-toppen: Tidösamarbetet en förklaring till partiets tapp",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-10",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "En förklaring till att Sverigedemokraterna backade i årets val och förlorade väljare till Moderaterna, är den gångna mandatperiodens regeringssamarbete. Det säger Mattias Bäckström Johansson, Sverigedemokraternas partisekreterare, i Ekots lördagsintervju. ”Man förlorar lite av sin identitet om man har den här typen av samverkan”, säger Mattias Bäckström Johansson.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317102'",
-      "matched_terms": [
-        "Moderaterna",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-11T06:16:14.708997+00:00"
+      "first_seen": "2026-10-11T14:16:21.580338+00:00"
     }
   ]
 }
