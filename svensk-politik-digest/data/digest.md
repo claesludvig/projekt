@@ -1,19 +1,19 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-11
+# Svensk politik och regeringsförhandlingarna — 2026-10-12
 
-2 nya poster sedan förra utskicket (33 redan utskickade, 153 utanför ämnet).
+2 nya poster sedan förra utskicket (31 redan utskickade, 156 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Pressen ökar: Andersson kan tvingas till omröstning](https://www.svd.se/a/gdLORA/pressen-okar-andersson-kan-tvingas-till-omrostning)
-SvD Ledare · 2026-10-11 · Anja Haglund/TT
+### [Pekar ut alternativen: ”Då börjar det bli allvar”](https://www.svd.se/a/zl0px1/magdalena-andersson-moter-talmannen-idag)
+SvD Ledare · 2026-10-12 · Alexandra Karlsson
 
-Tidigast på onsdag kan S-ledaren Magdalena Andersson prövas som statsminister i riksdagen.
+Efter en helg av ”reflekterande” ska Magdalena Andersson i veckan möta talmannen.
 
 ## Rapportering
 
-### [Guide: Nästa steg i regeringsförhandlingarna](https://www.sverigesradio.se/artikel/9317238)
+### [Anderssons besked till talmannen dröjer – blir först på tisdag](https://www.sverigesradio.se/artikel/9317302)
 Ekot, Sveriges Radio · 2026-10-11 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-I fredags samlades de rödgröna partierna på en kursgård på Lidingö utanför Stockholm, tillsammans med bland andra företrädare för fackföreningar, näringsliv och polisen. Socialdemokraternas ledare Magdalena Andersson har sagt att hon ska ta helgen efter mötet och reflektera inför hennes deadline på måndag att rapportera till talmannen om sitt sonderingsuppdrag. ”Ett bra tips nu är att utrusta sig med tålamod för det mesta talar för en väldigt utdragen process”, säger Helena Gissén, Ekots inrikespolitiska kommentator.
+Det blir först på tisdag som Socialdemokraternas partiledare Magdalena Andersson kommer att rapportera till talmannen. Hon ska då lämna en rapport med anledning av uppdraget att sondera förutsättningarna för att bilda en regering. Mötet äger rum på talmannens kontor kl 11, enligt ett pressmeddelande från riksdagen. När hon fick uppdraget var beskedet att hon skulle lämna rapport senast på måndagen 12 oktober.
 
-_Genererat 2026-10-11T14:16:21.580338+00:00._
+_Genererat 2026-10-12T06:25:04.190930+00:00._

@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-10-11T14:16:21.580338+00:00",
+  "fetched_at": "2026-10-12T06:25:04.190930+00:00",
   "new_count": 2,
   "skipped": {
-    "seen": 33,
-    "offtopic": 153,
-    "old": 22
+    "seen": 31,
+    "offtopic": 156,
+    "old": 21
   },
   "fetch_errors": 1,
   "sources": [
@@ -65,41 +65,40 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/gdLORA/pressen-okar-andersson-kan-tvingas-till-omrostning",
-      "title": "Pressen ökar: Andersson kan tvingas till omröstning",
+      "url": "https://www.svd.se/a/zl0px1/magdalena-andersson-moter-talmannen-idag",
+      "title": "Pekar ut alternativen: ”Då börjar det bli allvar”",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-10-11",
-      "author": "Anja Haglund/TT",
+      "published": "2026-10-12",
+      "author": "Alexandra Karlsson",
       "commentator": "",
-      "summary": "Tidigast på onsdag kan S-ledaren Magdalena Andersson prövas som statsminister i riksdagen.",
-      "fulltext": "Tidigast på onsdag kan S-ledaren Magdalena Andersson prövas som statsminister i riksdagen.\nTalmannen kan utlysa en omröstning även om hon riskerar att fällas – för att tvinga processen framåt.\nVad händer med försöken att bilda regering?\nPå måndag ska Magdalena Andersson rapportera till talman Andreas Norlén hur det går.\nHon kan då antingen be om mer tid eller slutrapportera sitt sonderingsuppdrag, om hon skulle ha lyckats få ihop ett färdigt regeringsalternativ. Det är det dock inte mycket som pekar på just nu. Läget på den rödgröna sidan ser fortsatt låst ut och fredagens möte på Lidingö var inget som kunde lösa upp knutarna mellan C och V.\nS-ledaren har inte svarat på om hon kommer att be om mer tid, utan har sagt att hon ska fundera över helgen.\nTalmannen kan bevilja mer tid om han bedömer att det pågår samtal eller förhandlingar som behöver få fortsätta.\nHan har samtidigt förberett för att hålla en möjlig omröstning om S-ledaren som statsminister i veckan, vilket tidigast kan ske onsdagen den 14 oktober.\nVarför hålla en statsministeromröstning innan det finns ett färdigt regeringsalternativ?\nDet är inte säkert att det kommer att ske, men det kan ske om talmannen bedömer att det behövs för att få fart på förhandlingarna. Då kan han lägga fram ett förslag på ny statsminister även om kandidaten med största sannolikhet kommer att röstas ner.\nTalmannen har fyra försök att få igenom en statsminister. Säger riksdagen nej alla fyra gångerna väntar ett extra val – och det är ett scenario som nästan inget parti vill ha.\nAtt tvinga fram statsministeromröstningar brukar beskrivas som ett av talmannens skarpaste vapen och användes även under den utdragna regeringsbildningen 2018. Då var både dåvarande S-ledaren Stefan Löfven och M-ledaren Ulf Kristersson uppe i olika omröstningar och fälldes. Först i den tredje omröstningen valdes Löfven till statsminister.\nDen här gången har Andreas Norlén varit tydlig med att han vill se en snabbare process än de 134 dagar det tog 2018.\nVad krävs för att röstas fram som statsminister?\nEn statsminister väljs så länge inte en majoritet i riksdagen, det vill säga 175 eller fler, röstar emot.\nI teorin skulle det alltså kunna räcka med att till exempel bara Socialdemokraterna röstar för Magdalena Andersson, om de andra rödgröna partierna avstår (röstar gult). Tidöpartiernas 173 mandat räcker inte för att fälla Andersson, även om samtliga trycker rött.\nÅ andra sidan kan det vara problematiskt om en statsminister blir vald utan att ha ett färdigt regeringsalternativ. Det kan bli svårt att få igenom både budget och politik. 2018 tvingades Stefan Löfven regera hela sitt första år på en M-KD-budget.\nEtt alternativ är att regera med ”hoppande majoriteter” och göra upp med olika partier i olika frågor. Det är en lösning som Magdalena Andersson inte har uteslutit.",
+      "summary": "Efter en helg av ”reflekterande” ska Magdalena Andersson i veckan möta talmannen.",
+      "fulltext": "Efter en helg av ”reflekterande” ska Magdalena Andersson i veckan möta talmannen. En ny regering kan dröja, men för SvD pekar experter ut en väg framåt. ”Det är mer sannolikt än andra alternativ”, säger statsvetaren Jonas Hinnfors.\nI fredags, nästan fyra veckor efter valet, hade de rödgröna partiledarna sitt första gemensamma möte. På Centerpartiets initiativ samlades alla på Högberga gård på Lidingö utanför Stockholm för att med hjälp av inbjudna gäster få en bild av ”nuläget” i Sverige och världen.\nEfter mötet var samtliga partiledare nöjda och sa att det hade varit konstruktivt. Men på frågan om partierna nu var närmare att kunna bilda en regering var svaren luddiga.\nPressen ökar: Andersson kan tvingas till omröstning",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister"
+        "talman"
       ],
-      "first_seen": "2026-10-11T14:16:21.580338+00:00"
+      "first_seen": "2026-10-12T06:25:04.190930+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9317238",
-      "title": "Guide: Nästa steg i regeringsförhandlingarna",
+      "url": "https://www.sverigesradio.se/artikel/9317302",
+      "title": "Anderssons besked till talmannen dröjer – blir först på tisdag",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-11",
       "author": "Ekot",
       "commentator": "",
-      "summary": "I fredags samlades de rödgröna partierna på en kursgård på Lidingö utanför Stockholm, tillsammans med bland andra företrädare för fackföreningar, näringsliv och polisen. Socialdemokraternas ledare Magdalena Andersson har sagt att hon ska ta helgen efter mötet och reflektera inför hennes deadline på måndag att rapportera till talmannen om sitt sonderingsuppdrag. ”Ett bra tips nu är att utrusta sig med tålamod för det mesta talar för en väldigt utdragen process”, säger Helena Gissén, Ekots inrikespolitiska kommentator.",
+      "summary": "Det blir först på tisdag som Socialdemokraternas partiledare Magdalena Andersson kommer att rapportera till talmannen. Hon ska då lämna en rapport med anledning av uppdraget att sondera förutsättningarna för att bilda en regering. Mötet äger rum på talmannens kontor kl 11, enligt ett pressmeddelande från riksdagen. När hon fick uppdraget var beskedet att hon skulle lämna rapport senast på måndagen 12 oktober.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317238'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317302'",
       "matched_terms": [
-        "regeringsförhandling",
         "talman",
-        "sondering",
+        "partiledar",
         "Socialdemokraterna"
       ],
-      "first_seen": "2026-10-11T14:16:21.580338+00:00"
+      "first_seen": "2026-10-12T06:25:04.190930+00:00"
     }
   ]
 }
