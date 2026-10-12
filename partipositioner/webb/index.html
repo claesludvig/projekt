@@ -1,0 +1,269 @@
+<meta charset="utf-8">
+<title>Partiernas bostadspolitik</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+<style>
+/* Samma system som Bostadsarkivet: register överst, matris parti × valperiod, filter i vänsterspalt, stycken. */
+:root{
+  --ground:#F4F5F2; --surface:#FFFFFF; --ink:#1B2029; --muted:#5C6470; --rule:#D8DBD4;
+  --accent:#23508F; --accent-soft:#E3EAF4; --mark:#F3E3A2; --doc:#6B5A2E;
+  --h0:#F4F5F2; --h1:#DCE5F1; --h2:#B4C7E2; --h3:#7D9CCB; --h4:#3F67A6; --h5:#23508F;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --ground:#111418; --surface:#181C22; --ink:#E4E6E9; --muted:#98A0AB; --rule:#2B3139;
+  --accent:#8DB2EA; --accent-soft:#1E2A3B; --mark:#5B4C16; --doc:#D2BC86;
+  --h0:#181C22; --h1:#1F2B3C; --h2:#2A4161; --h3:#3C5F8E; --h4:#5F86C0; --h5:#8DB2EA;}}
+:root[data-theme="dark"]{
+  color-scheme:dark; --ground:#111418; --surface:#181C22; --ink:#E4E6E9; --muted:#98A0AB; --rule:#2B3139;
+  --accent:#8DB2EA; --accent-soft:#1E2A3B; --mark:#5B4C16; --doc:#D2BC86;
+  --h0:#181C22; --h1:#1F2B3C; --h2:#2A4161; --h3:#3C5F8E; --h4:#5F86C0; --h5:#8DB2EA;}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font:15px/1.5 var(--sans);padding-inline:16px;padding-block:28px 60px;margin:0}
+.wrap{max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:26px}
+header{display:flex;flex-direction:column;gap:10px;max-width:800px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+h1{font:600 clamp(32px,5vw,48px)/1.05 var(--serif);margin:0;text-wrap:balance}
+.lede{font:400 18px/1.5 var(--serif);margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink);font-weight:600}
+.load{height:3px;background:var(--rule);border-radius:2px;overflow:hidden;max-width:420px}
+.load i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--rule)}
+.tabs button{font:500 14px var(--sans);background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:8px 12px;cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.panel-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.panel-head strong{color:var(--ink);font-weight:600}
+.matris-scroll{overflow-x:auto}
+table.matris{border-collapse:separate;border-spacing:2px;font-size:12px;font-variant-numeric:tabular-nums}
+.matris th{font-weight:500;color:var(--muted);padding:2px 4px;white-space:nowrap}
+.matris th.p{text-align:left;color:var(--ink);font-weight:600;position:sticky;left:0;background:var(--surface);padding-right:10px}
+.matris td{padding:0}
+.matris button{display:block;width:34px;height:28px;border:1px solid transparent;border-radius:3px;cursor:pointer;font:11px var(--sans);color:var(--ink);padding:0}
+.matris button:hover{border-color:var(--ink)}
+.matris button[aria-pressed="true"]{outline:2px solid var(--accent);outline-offset:1px}
+.matris button.tom{cursor:default;color:transparent}
+.legend{display:flex;gap:4px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:18px;height:12px;border-radius:2px}
+.layout{display:grid;grid-template-columns:270px minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:860px){.layout{grid-template-columns:minmax(0,1fr)}}
+aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);display:flex;flex-direction:column;gap:18px;max-height:calc(100vh - 24px);overflow-y:auto;padding-bottom:8px}
+@media (max-width:860px){aside{position:static;max-height:none}}
+fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+legend,label.lbl{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;padding:0;margin-bottom:6px}
+input[type=search],select{width:100%;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:8px 10px}
+input[type=search]:focus,select:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.row{display:flex;gap:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:999px;padding:3px 10px;cursor:pointer;text-align:left}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.chip small{color:inherit;opacity:.7;font-variant-numeric:tabular-nums}
+.hint{font-size:12px;color:var(--muted);margin:0}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+main{display:flex;flex-direction:column;gap:14px;min-width:0}
+.bar-res{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.bar-res b{color:var(--ink)}
+.list{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+article{border-bottom:1px solid var(--rule);padding:16px 0;display:flex;flex-direction:column;gap:8px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;align-items:center}
+.meta .date{color:var(--ink);font-weight:600}
+.pill{font-size:11px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--accent);color:var(--accent);border-radius:3px;padding:0 6px}
+.pill.s{border-color:var(--doc);color:var(--doc)}
+h2{font:600 19px/1.3 var(--serif);margin:0;text-wrap:balance;overflow-wrap:anywhere}
+.ps{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+.ps li{font:400 16px/1.58 var(--serif);max-width:72ch;overflow-wrap:anywhere}
+.ps .nr{font:12px var(--sans);color:var(--muted);margin-right:6px}
+.ps .fq{font:11px var(--sans);color:var(--muted);margin-left:6px}
+mark{background:var(--mark);color:var(--ink);padding:0 1px;border-radius:2px}
+.acts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px}
+.acts a{color:var(--accent)}
+.more{align-self:flex-start;font:inherit;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:4px;padding:8px 16px;cursor:pointer}
+.status{padding:30px 0;color:var(--muted);font-size:15px}
+footer{font-size:13px;color:var(--muted);max-width:800px;display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--rule);padding-top:18px}
+footer a{color:var(--accent)}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Partiprogram, valmanifest, överenskommelser, motioner och medier om bostadspolitiken</span>
+    <h1>Partiernas bostadspolitik</h1>
+    <p class="lede">Vad riksdagspartierna har sagt om hyror, byggande, bolån, bostadsskatter och allmännyttan, från de första partiprogrammen till i dag. Välj en fråga och klicka på en ruta för att läsa partiets egna formuleringar under valperioden, eller sök fritt i alla stycken.</p>
+    <div class="stats" id="stats"><span>Läser in …</span></div>
+    <div class="load" id="load" hidden><i id="loadbar"></i></div>
+  </header>
+
+  <section class="panel" aria-label="Partier och valperioder">
+    <div class="panel-head"><span><strong id="mtitel">Fråga</strong> · andel av partiets valmanifest och program som ägnas frågan, promille av orden. Klicka på en ruta.</span>
+      <span class="legend" id="legend"></span></div>
+    <div class="chips" id="fragor"></div>
+    <div class="row" style="align-items:center;flex-wrap:wrap;gap:12px;font-size:13px;color:var(--muted)">
+      <label for="fran">Från</label><select id="fran" style="width:auto"></select>
+      <label><input type="checkbox" id="block"> visa Alliansen och De rödgröna</label>
+    </div>
+    <div class="matris-scroll"><table class="matris" id="matris"></table></div>
+  </section>
+
+  <div class="layout">
+    <aside>
+      <div>
+        <label class="lbl" for="q">Sök i styckena</label>
+        <input type="search" id="q" placeholder="t.ex. marknadshyror, ränteavdrag" autocomplete="off">
+        <p class="hint">Alla ord måste finnas i samma stycke. "Citattecken" för exakt fras. Ord hittas även inuti längre ord.</p>
+      </div>
+      <fieldset><legend>Parti</legend><div class="chips" id="partier"></div></fieldset>
+      <fieldset><legend>Källa</legend><div class="chips" id="slag"></div></fieldset>
+      <fieldset><legend>Period</legend><div class="row"><select id="from" aria-label="Från år"></select><select id="to" aria-label="Till år"></select></div></fieldset>
+      <fieldset><label class="lbl" for="sort">Ordning</label>
+        <select id="sort"><option value="d">Äldst först</option><option value="-d">Nyast först</option><option value="-h">Flest träffar först</option></select></fieldset>
+      <button class="linkbtn" id="reset" type="button">Rensa alla val</button>
+    </aside>
+    <main>
+      <div class="bar-res" id="resHead"></div>
+      <div class="list" id="list"><div class="status">Läser in …</div></div>
+      <button class="more" id="more" type="button" hidden>Visa fler</button>
+    </main>
+  </div>
+
+  <footer>
+    <span>Källor: <a href="https://snd.se/sv/vivill" target="_blank" rel="noopener">SND, Svenska partiprogram och valmanifest</a> (CC BY 4.0), riksdagens öppna data (partiernas kommitté- och partimotioner om bostäder 2000–), regeringen.se och riksdagens protokoll (regeringsförklaringar), partiernas webbplatser (hämtade i oktober 2026), överenskommelserna i original eller kopia, samt Aftonbladet, Expressen, Dagens Nyheter, Svenska Dagbladet, Omni, Dagens Samhälle, Hem & Hyra, Fastighetstidningen, Byggvärlden och Google Nyheter.</span>
+    <span>Ett stycke räknas till en fråga när det innehåller frågans ord (t.ex. <i>marknadshyr</i>, <i>bruksvärde</i>, <i>presumtionshyr</i> för hyressättningen). Det säger vad partiet tar upp, inte vilken ståndpunkt det har; den får man läsa ut av styckena. Medieartiklar räknas till de partier som nämns i dem. Artiklar bakom betalvägg finns ofta bara med rubrik och ingress.</span>
+    <span>En valperiod börjar med valåret: kolumnen 2022 rymmer valmanifestet inför valet 2022 och allt fram till valet 2026.</span>
+    <span id="upd"></span>
+  </footer>
+</div>
+
+<script>
+(function(){
+const PAGE=30, VAL=[1887,1890,1893,1896,1899,1902,1905,1908,1911,1914,1917,1920,1921,1924,1928,1932,1936,1940,1944,1948,1952,1956,1958,1960,1964,1968,1970,1973,1976,1979,1982,1985,1988,1991,1994,1998,2002,2006,2010,2014,2018,2022,2026];
+const ORD=['v','s','mp','c','l','kd','m','sd','nyd','rg','all'];
+const $=id=>document.getElementById(id);
+const nf=new Intl.NumberFormat('sv-SE');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const reEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const period=y=>{let p=VAL[0];for(const v of VAL){if(v<=y)p=v;else break}return p};
+const pnamn=y=>{const i=VAL.indexOf(y);return i<VAL.length-1?`${y}–${VAL[i+1]}`:`${y}–`};
+let IDX,D=[],P={},F={},RX={},ST={},laddade=new Set(),laddar=false,shown=PAGE;
+let fraga='hyra',cell=null,partiOn=new Set(),slagOn=new Set(),current=[];
+
+function terms(){const q=$('q').value.trim().toLowerCase(),o=[];let m;const re=/"([^"]+)"|(\S+)/g;while((m=re.exec(q)))o.push((m[1]||m[2]).trim());return o.filter(Boolean)}
+function count(h,t){let n=0,i=h.indexOf(t);while(i>-1){n++;i=h.indexOf(t,i+t.length)}return n}
+function hl(text,ts){let h=esc(text);if(!ts.length){return cell&&RX[fraga]?h.replace(RX[fraga],'<mark>$&</mark>'):h}const re=new RegExp('('+ts.map(t=>reEsc(esc(t))).sort((a,b)=>b.length-a.length).join('|')+')','gi');return h.replace(re,'<mark>$1</mark>')}
+
+// Matris: fokus = promille av orden i valmanifest/program om frågan, medel per parti och period
+function matris(){
+  const from=+$('fran').value, visaBlock=$('block').checked;
+  const cols=VAL.filter(v=>v>=from);
+  const val={},n={};
+  for(const r of IDX.fokus){const p=period(r.ar);if(p<from)continue;const k=r.parti+'|'+p;val[k]=(val[k]||0)+r[fraga];n[k]=(n[k]||0)+1}
+  const docsIn={};for(const d of D){if(!d.q.includes(fraga))continue;const p=period(d.y);for(const pa of d.p){const k=pa+'|'+p;docsIn[k]=(docsIn[k]||0)+1}}
+  const max=Math.max(0.5,...Object.keys(val).map(k=>val[k]/n[k]));
+  const steg=v=>v<=0?0:Math.min(5,1+Math.floor(4*Math.sqrt(v/max)));
+  const rader=ORD.filter(p=>P[p]&&(visaBlock||!['rg','all'].includes(p)));
+  let h='<thead><tr><th></th>'+cols.map(c=>`<th>${String(c).slice(c<2000?2:2)}</th>`).join('')+'</tr></thead><tbody>';
+  h=h.replace(/<th>(\d+)<\/th>/g,(m,y)=>`<th title="${pnamn(+('1'+y)>2026?+y:+y)}">${y}</th>`);
+  h='<thead><tr><th></th>'+cols.map(c=>`<th title="Valperioden ${pnamn(c)}">${c}</th>`).join('')+'</tr></thead><tbody>';
+  for(const p of rader){
+    h+=`<tr><th class="p" title="${esc(P[p].namn)}">${esc(P[p].kod)}</th>`;
+    for(const c of cols){const k=p+'|'+c, v=n[k]?val[k]/n[k]:null, cnt=docsIn[k]||0;
+      if(v===null&&!cnt){h+='<td><button class="tom" type="button" disabled tabindex="-1">·</button></td>';continue}
+      const s=v===null?0:steg(v), on=cell&&cell[0]===p&&cell[1]===c;
+      h+=`<td><button type="button" data-p="${p}" data-c="${c}" aria-pressed="${on}" style="background:var(--h${s});color:${s>=4?'var(--surface)':'var(--ink)'}" title="${esc(P[p].kod)} ${pnamn(c)}: ${v===null?'inget valmanifest eller program':nf.format(Math.round(v*10)/10)+' ‰ av programtexten'}, ${cnt} källor tar upp frågan">${cnt||''}</button></td>`}
+    h+='</tr>'}
+  $('matris').innerHTML=h+'</tbody>';
+  $('mtitel').textContent=F[fraga];
+  $('legend').innerHTML='mindre <i style="background:var(--h1)"></i><i style="background:var(--h2)"></i><i style="background:var(--h3)"></i><i style="background:var(--h4)"></i><i style="background:var(--h5)"></i> mer · siffran = antal källor';
+}
+
+function filter(){
+  const ts=terms(),f=+$('from').value,t=+$('to').value,res=[];
+  for(let i=0;i<D.length;i++){const d=D[i];
+    if(cell){if(!d.p.includes(cell[0])||period(d.y)!==cell[1]||!d.q.includes(fraga))continue}
+    else if(d.y<f||d.y>t)continue;
+    if(partiOn.size&&!d.p.some(p=>partiOn.has(p)))continue;
+    if(slagOn.size&&!slagOn.has(d.s))continue;
+    const st=ST[i];
+    let vis=null,h=0;
+    if(st){
+      vis=st.filter(r=>{if(cell&&!r[2].includes(fraga))return false;
+        if(cell&&d.s==='media'&&r[3].length&&!r[3].includes(cell[0]))return false;
+        if(!ts.length)return true;const l=r[1].toLowerCase();return ts.every(x=>l.includes(x))});
+      if(ts.length)h=vis.reduce((s,r)=>s+ts.reduce((a,x)=>a+count(r[1].toLowerCase(),x),0),0);
+      if((ts.length||cell)&&!vis.length&&!(cell&&d.s==='media'&&!st.length))continue;
+    }else if(ts.length){const l=(d.t+' '+d.in).toLowerCase();if(!ts.every(x=>l.includes(x)))continue}
+    res.push({d,i,vis,h})}
+  const s=$('sort').value,k=s.replace('-',''),dir=s.startsWith('-')?-1:1;
+  res.sort((a,b)=>{const A=k==='h'?a.h:a.d.d,B=k==='h'?b.h:b.d.d;return (A<B?-1:A>B?1:0)*dir});
+  return res;
+}
+const SLAGKORT={valmanifest:'Valmanifest',partiprogram:'Program',handlingsprogram:'Handlingsprogram','överenskommelse':'Överenskommelse','regeringsförklaring':'Regeringsförklaring',motion:'Motion',partisajt:'Webbplats i dag',wayback:'Webbarkiv',media:'Medier'};
+function card(x,j){
+  const {d,vis}=x,ts=terms(),open=d._open,lista=vis||[],n=open?lista.length:Math.min(3,lista.length);
+  const partier=d.p.map(p=>P[p]?P[p].kod:p).join(', ');
+  return `<article><div class="meta"><span class="date">${esc(d.d)}</span><span class="pill">${SLAGKORT[d.s]||d.s}</span>${partier?`<span class="pill s">${esc(partier)}</span>`:''}<span>${esc(d.k||'')}${d.u&&d.s!=='wayback'&&d.u!==d.k?' · '+esc(d.u):''}</span>${ts.length&&x.h?`<span>${nf.format(x.h)} träffar</span>`:''}</div>
+    <h2>${hl(d.t,ts)}</h2>
+    ${lista.length?`<ul class="ps">${lista.slice(0,n).map(r=>`<li>${hl(r[1],ts)}${r[2].length?`<span class="fq">${r[2].map(q=>F[q]).join(' · ')}</span>`:''}</li>`).join('')}</ul>`:(d.in?`<p class="ps" style="font:400 15.5px/1.55 var(--serif);color:var(--muted);margin:0">${hl(d.in,ts)}</p>`:'')}
+    <div class="acts">${lista.length>3?`<button class="linkbtn" type="button" data-open="${j}">${open?'Visa färre stycken':`Visa alla ${lista.length} stycken`}</button>`:''}
+      <a href="${esc(d.l)}" target="_blank" rel="noopener">${d.s==='wayback'?'Arkivkopian':d.s==='media'?'Artikeln':'Källan'}</a>${d.pdf?`<a href="${esc(d.pdf)}" target="_blank" rel="noopener">PDF</a>`:''}
+      <button class="linkbtn" type="button" data-copy="${j}">Kopiera källhänvisning</button></div></article>`;
+}
+function render(){
+  const ts=terms(),vantar=laddade.size<IDX.filer.length;
+  const head=cell?`<span><b>${esc(P[cell[0]].namn)}</b> om ${esc(F[fraga].toLowerCase())}, ${pnamn(cell[1])} · <b>${nf.format(current.length)}</b> källor · <button class="linkbtn" type="button" id="clearCell">visa alla</button></span>`
+    :`<span><b>${nf.format(current.length)}</b> källor${ts.length?` · ${nf.format(current.reduce((s,x)=>s+x.h,0))} träffar`:''}</span>`;
+  $('resHead').innerHTML=head+(vantar?'<span>Laddar styckena …</span>':'');
+  if(cell)$('clearCell').onclick=()=>{cell=null;update()};
+  if(!current.length){$('list').innerHTML=`<div class="status">${vantar?'Laddar styckena …':'Inga källor matchar. Pröva ett annat ord eller ta bort ett filter.'}</div>`;$('more').hidden=true;return}
+  $('list').innerHTML=current.slice(0,shown).map(card).join('');
+  $('more').hidden=current.length<=shown;$('more').textContent=`Visa fler (${nf.format(current.length-shown)} kvar)`;
+}
+function chips(){
+  const pc={},sc={};current.forEach(({d})=>{d.p.forEach(p=>pc[p]=(pc[p]||0)+1);sc[d.s]=(sc[d.s]||0)+1});
+  document.querySelectorAll('#partier .chip').forEach(b=>{b.setAttribute('aria-pressed',partiOn.has(b.dataset.p));b.querySelector('small').textContent=nf.format(pc[b.dataset.p]||0)});
+  document.querySelectorAll('#slag .chip').forEach(b=>{b.setAttribute('aria-pressed',slagOn.has(b.dataset.s));b.querySelector('small').textContent=nf.format(sc[b.dataset.s]||0)});
+  document.querySelectorAll('#fragor .chip').forEach(b=>b.setAttribute('aria-pressed',b.dataset.q===fraga));
+}
+function update(keep){if(!keep){shown=PAGE;D.forEach(d=>d._open=false)}current=filter();matris();render();chips();
+  try{localStorage.setItem('partibostad-f1',JSON.stringify({q:$('q').value,fr:fraga,fran:$('fran').value}))}catch(e){}}
+async function ladda(){
+  if(laddar)return;laddar=true;$('load').hidden=false;const tot=IDX.filer.reduce((s,f)=>s+f.byte,0);let fatt=0;
+  const queue=[...IDX.filer.keys()];
+  const arb=async()=>{while(queue.length){const i=queue.shift(),f=IDX.filer[i];
+    const data=await fetch('data/'+f.fil).then(r=>{if(!r.ok)throw new Error(f.fil+' '+r.status);return r.json()});
+    for(const [j,st] of data)ST[j]=st;laddade.add(i);fatt+=f.byte;$('loadbar').style.width=(100*fatt/tot)+'%';update(true)}};
+  try{await Promise.all([arb(),arb()])}catch(e){$('list').insertAdjacentHTML('afterbegin',`<div class="status">En del av styckena kunde inte läsas in (${esc(String(e.message||e))}). Ladda om sidan.</div>`)}
+  $('load').hidden=true;laddar=false;
+}
+function init(idx){
+  IDX=idx;D=idx.docs;idx.partier.forEach(p=>P[p.k]=p);idx.fragor.forEach(f=>{F[f.k]=f.namn;try{RX[f.k]=new RegExp(f.rx,'gi')}catch(e){}});
+  $('fragor').innerHTML=idx.fragor.map(f=>`<button class="chip" type="button" data-q="${f.k}" aria-pressed="false">${esc(f.namn)}</button>`).join('');
+  $('fran').innerHTML=VAL.filter(v=>v>=1900).map(v=>`<option ${v===1968?'selected':''}>${v}</option>`).join('');
+  const ys=[];for(let y=1887;y<=2026;y++)ys.push(`<option>${y}</option>`);$('from').innerHTML=ys.join('');$('to').innerHTML=ys.join('');$('from').value=1887;$('to').value=2026;
+  $('partier').innerHTML=ORD.filter(p=>P[p]).map(p=>`<button class="chip" type="button" data-p="${p}" aria-pressed="false" title="${esc(P[p].namn)}">${esc(P[p].kod)} <small></small></button>`).join('');
+  const sl=Object.keys(idx.slag).filter(s=>D.some(d=>d.s===s));
+  $('slag').innerHTML=sl.map(s=>`<button class="chip" type="button" data-s="${s}" aria-pressed="false">${esc(idx.slag[s])} <small></small></button>`).join('');
+  const cnt=s=>D.filter(d=>d.s===s).length;
+  $('stats').innerHTML=`<span><b>${nf.format(cnt('valmanifest')+cnt('partiprogram')+cnt('handlingsprogram'))}</b> program och valmanifest</span><span><b>${nf.format(cnt('överenskommelse')+cnt('regeringsförklaring'))}</b> överenskommelser och regeringsförklaringar</span><span><b>${nf.format(cnt('motion'))}</b> motioner</span><span><b>${nf.format(cnt('partisajt')+cnt('wayback'))}</b> sidor från partiernas webbplatser</span><span><b>${nf.format(cnt('media'))}</b> medieartiklar</span>`;
+  $('upd').textContent=`Hämtat ${idx.uppdaterad}.`;
+  try{const s=JSON.parse(localStorage.getItem('partibostad-f1')||'null');if(s){$('q').value=s.q||'';if(F[s.fr])fraga=s.fr;if(s.fran)$('fran').value=s.fran}}catch(e){}
+  $('fragor').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;fraga=b.dataset.q;cell=null;update()};
+  $('matris').onclick=e=>{const b=e.target.closest('button[data-p]');if(!b)return;const k=[b.dataset.p,+b.dataset.c];cell=cell&&cell[0]===k[0]&&cell[1]===k[1]?null:k;update();$('resHead').scrollIntoView({behavior:'smooth',block:'start'})};
+  ['fran','block'].forEach(id=>$(id).addEventListener('change',()=>update(true)));
+  const tog=(id,set,a)=>$(id).addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;const k=b.dataset[a];set.has(k)?set.delete(k):set.add(k);update()});
+  tog('partier',partiOn,'p');tog('slag',slagOn,'s');
+  let tm;$('q').addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(()=>update(),280)});
+  ['from','to','sort'].forEach(id=>$(id).addEventListener('change',()=>update()));
+  $('more').onclick=()=>{shown+=PAGE;render()};
+  $('reset').onclick=()=>{$('q').value='';partiOn.clear();slagOn.clear();cell=null;$('from').value=1887;$('to').value=2026;$('sort').value='d';update()};
+  $('list').onclick=e=>{const b=e.target.closest('button');if(!b)return;
+    if(b.dataset.open){const d=current[+b.dataset.open].d;d._open=!d._open;render()}
+    if(b.dataset.copy){const d=current[+b.dataset.copy].d,txt=`${d.p.map(p=>P[p]?P[p].kod:p).join(', ')}${d.p.length?': ':''}${d.t} (${d.d}). ${d.k?d.k+'. ':''}${d.l}`;
+      try{navigator.clipboard.writeText(txt).then(()=>{b.textContent='Kopierad';setTimeout(()=>b.textContent='Kopiera källhänvisning',1600)},()=>{b.textContent=txt})}catch(err){b.textContent=txt}}};
+  update();ladda();
+}
+fetch('data/index.json').then(r=>{if(!r.ok)throw new Error('index '+r.status);return r.json()}).then(init)
+  .catch(e=>{$('list').innerHTML=`<div class="status">Förteckningen kunde inte läsas in (${esc(String(e.message||e))}). Ladda om sidan.</div>`});
+})();
+</script>
