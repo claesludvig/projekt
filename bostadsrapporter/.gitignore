@@ -1,0 +1,8 @@
+__pycache__/
+data/pdf/
+data/bostadsrapporter.sqlite
+data/sidor.jsonl
+data/renderade.jsonl
+data/wp.jsonl
+data/rendera_urls.txt
+webb/data/
