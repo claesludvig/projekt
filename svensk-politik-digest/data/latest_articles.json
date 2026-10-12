@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-12T06:25:04.190930+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-10-12T14:28:17.796693+00:00",
+  "new_count": 3,
   "skipped": {
-    "seen": 31,
-    "offtopic": 156,
-    "old": 21
+    "seen": 30,
+    "offtopic": 155,
+    "old": 22
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,40 +65,59 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/zl0px1/magdalena-andersson-moter-talmannen-idag",
-      "title": "Pekar ut alternativen: ”Då börjar det bli allvar”",
+      "url": "https://www.svd.se/a/p1rmwV/omrostning-om-s-ledaren-kan-ske-i-veckan",
+      "title": "Omröstning om S-ledaren kan ske i veckan",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-10-12",
-      "author": "Alexandra Karlsson",
+      "author": "Anja Haglund/TT",
       "commentator": "",
-      "summary": "Efter en helg av ”reflekterande” ska Magdalena Andersson i veckan möta talmannen.",
-      "fulltext": "Efter en helg av ”reflekterande” ska Magdalena Andersson i veckan möta talmannen. En ny regering kan dröja, men för SvD pekar experter ut en väg framåt. ”Det är mer sannolikt än andra alternativ”, säger statsvetaren Jonas Hinnfors.\nI fredags, nästan fyra veckor efter valet, hade de rödgröna partiledarna sitt första gemensamma möte. På Centerpartiets initiativ samlades alla på Högberga gård på Lidingö utanför Stockholm för att med hjälp av inbjudna gäster få en bild av ”nuläget” i Sverige och världen.\nEfter mötet var samtliga partiledare nöjda och sa att det hade varit konstruktivt. Men på frågan om partierna nu var närmare att kunna bilda en regering var svaren luddiga.\nPressen ökar: Andersson kan tvingas till omröstning",
+      "summary": "Socialdemokraternas ledare Magdalena Andersson har bett om mer tid för sitt sonderingsuppdrag.",
+      "fulltext": "Socialdemokraternas ledare Magdalena Andersson har bett om mer tid för sitt sonderingsuppdrag.\nEn första statsministeromröstning kan fortfarande ske redan i veckan.\nDet har gått fyra veckor sedan valet och försöken att bilda en regering fortsätter.\nMagdalena Andersson skulle ha rapporterat till talmannen på måndagen men har bett om mer tid, vilket talmannen beviljat. Ett möte dem emellan ska nu ske tisdag klockan 11.\nMagdalena Andersson kan då antingen slutrapportera eller be om ytterligare mer tid.\nMer tid kan beviljas om talmannen bedömer att det pågår samtal eller förhandlingar som bör få fortsätta.\nMen hittills finns det inget som tyder på något genombrott eller att några röda linjer suddats ut. Läget ser fortsatt låst ut mellan Vänsterpartiet och Centerpartiet.\nTalman Andreas Norlén har tidigare skärpt tonen och meddelat att Andersson kommer att prövas i en statsministeromröstning oavsett om hon lyckas eller inte.\n– Om processen inte är framgångsrik behöver vi en omröstning för att komma vidare och öka trycket på partierna, sade Norlén när han på nytt delade ut sonderingsuppdraget till S-ledaren i början av oktober.\nNär en omröstning tidigast kan ske är inte helt klart. Först måste ärendet bordläggas två gånger i riksdagens kammare. Därefter ska riksdagsledamöterna senast på fjärde dagen efter den dag då förslaget lagts fram rösta om det.\n”Hypotetiskt sett och enligt regelverket är det möjligt med omröstning på torsdag. Men talmannen har inte kallat in riksdagen för ett bordläggningsplenum med detta syfte på tisdagen”, skriver talmannens pressekreterare i ett mejl på måndagsförmiddagen.\nMagdalena Andersson uppgav efter fredagens möte mellan de rödgröna på Lidingö att hon inte tror att hon skulle vinna en statsministeromröstning i nuläget.\n– Det bedömer jag som osannolikt, sade hon till Göteborgs-Posten .\nTalmannen har meddelat att han efter mötet med S-ledaren kommer att överlägga med de vice talmännen om den fortsatta processen.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman"
-      ],
-      "first_seen": "2026-10-12T06:25:04.190930+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9317302",
-      "title": "Anderssons besked till talmannen dröjer – blir först på tisdag",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-11",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Det blir först på tisdag som Socialdemokraternas partiledare Magdalena Andersson kommer att rapportera till talmannen. Hon ska då lämna en rapport med anledning av uppdraget att sondera förutsättningarna för att bilda en regering. Mötet äger rum på talmannens kontor kl 11, enligt ett pressmeddelande från riksdagen. När hon fick uppdraget var beskedet att hon skulle lämna rapport senast på måndagen 12 oktober.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9317302'",
-      "matched_terms": [
-        "talman",
-        "partiledar",
+        "sondering",
         "Socialdemokraterna"
       ],
-      "first_seen": "2026-10-12T06:25:04.190930+00:00"
+      "first_seen": "2026-10-12T14:28:17.796693+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/andersson-kan-fallas-redan-denna-vecka",
+      "title": "Andersson kan fällas redan denna vecka",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-12",
+      "author": "Hans Rosén, Hans Olsson",
+      "commentator": "",
+      "summary": "Mycket pekar mot att Magdalena Andersson fälls i en statsministeromröstning senare i veckan. Den bedömningen gör DN:s källor i de rödgröna partierna. På tisdagen måste S-ledaren ge besked till talmannen om hur det går med regeringsbildningen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-12 16:26\nArtikelns ursprungsadress: https://www.dn.se/sverige/andersson-kan-fallas-redan-denna-vecka/\nMycket pekar mot att Magdalena Andersson fälls i en statsministeromröstning senare i veckan. Den bedömningen gör DN:s källor i de rödgröna partierna.\nPå tisdagen måste S-ledaren ge besked till talmannen om hur det går med regeringsbildningen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nEn månad har nu gått sedan valdagen och ännu är ingen regering i närheten av att vara på plats. S-ledaren Magdalena Andersson ska under tisdagen återrapportera sitt sonderingsuppdrag till talmannen och då ge besked om hon har lyckats samla ett trovärdigt regeringsunderlag. Uppdraget skulle egentligen ha återrapporterats under måndagen men S-ledaren begärde och fick en dag extra för att genomföra ytterligare samtal innan hon träffar talmannen.\nEnligt flera källor inom de rödgröna partierna pekar det mesta mot att Magdalena Andersson kommer att prövas i en statsministeromröstning senare i veckan, troligen på torsdag. Förhandlingarna mellan Socialdemokraterna, Centerpartiet, Vänsterpartiet och Miljöpartiet har inte kommit så långt att hon kan presentera ett färdigt regeringsalternativ.\n– Det kanske behövs en omröstning för att sätta mer press på de inblandade partierna, säger en källa.\nEnligt DN:s uppgifter har kontakterna mellan partierna fortsatt under helgen, efter Högbergamötet i fredags, men det handlar inte om några regelrätta förhandlingar.\n– Det vore förvånande om det skedde ett genombrott före tisdag. Troligast är att Magdalena Andersson kastar in handduken, säger en källa med insyn i förhandlingarna.\nSamtidigt har talman Andreas Norlén sagt att han vill ha en snabbare process än under den rekordlånga regeringsbildningen 2018. Det talar också för att han kommer att ställa upp Magdalena Andersson till statsministeromröstning i stället för att ge henne mer sonderingstid.\n– Det kan finnas skäl att jobba med kortare tidsfrister än vad jag gjorde i början av processen, sade Andreas Norlén i samband med att han delade ut det första sonderingsuppdraget.\nMagdalena Andersson har mycket små möjligheter att vinna en statsministeromröstning i det här läget. För att det ska ske måste det finnas en majoritet i riksdagen som inte röstar nej, vilket knappast är troligt eftersom det inte finns något enat regeringsunderlag.\nOm hon förlorar omröstningen måste talmannen utse en ny sonderingsperson. Det troligaste är att uppdraget går till M-ledaren Ulf Kristersson, men det skulle också kunna gå till Centerpartiets Elisabeth Thand Ringqvist för att hon ska kunna gå till botten med om det verkligen finns något mittenalternativ.\nDet mest påtagliga som hänt under Magdalena Anderssons sonderingsuppdrag är mötet på Högberga gård på Lidingö i fredags. Då sammanstrålade ledarna för de fyra rödgröna partierna för första gången sedan valet. Det skedde på Centerpartiets initiativ. Upplägget var att partitopparna fick lyssna på företrädare för näringsliv, fackförbund och myndigheter som gav en lägesbild inom ekonomi, brottsbekämpning, klimatomställning med mera.\nTongångarna efter mötet var mycket positiva, samtidigt som alla medgav att inga konkreta steg hade tagits mot en ny regering.\n– Det var ett väldigt, väldigt bra initiativ från Centerpartiet så jag är väldigt glad över att de tog det. Nu ska jag under helgen reflektera över nästa steg, sade S-ledaren Magdalena Andersson.\nFör att hon ska kunna tillträda som statsminister krävs inte bara en överenskommelse om vilken politik som ska föras. Den hårdaste låsningen finns i frågan om vilka partier som i så fall ska ingå i regeringen.\nV kräver ministerposter, något C säger nej till. C håller fast vid att det i stället skulle gå att bilda någon slags mittenregering. Men om V hålls utanför krävs att både Liberalerna och Kristdemokraterna ställer upp bakom Magdalena Andersson. Det har varken Ebba Busch eller Simona Mohamsson hittills visat något intresse för.\nVänsterpartiets resa mot makten: ”Det är nu eller aldrig”\nCenterpartiets väg mot makten: ”Taggtråd och valium”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nVänsterpartiets resa mot makten: ”Det är nu eller aldrig”\nCenterns väg till makten: ”Taggtråd och valium”\nJohannes Klenell: Järvafältet ligger faktiskt inte i yttre rymden",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-12T14:28:17.796693+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/s-ledarens-mote-med-talmannen-skjuts-upp-det-hander-nu",
+      "title": "S-ledarens möte med talmannen skjuts upp – det händer nu",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-11",
+      "author": "Ossi Carp, Ida Palm Ekspong",
+      "commentator": "",
+      "summary": "Magdalena Andersson (S) möte med talmannen har skjutits upp till tisdag. Då ska hon meddela om hon har ett regeringsunderlag eller inte. Allt tyder på att det är fortsatt låsta positioner och ingen rödgrön regering är på plats. – Min gissning är att det här kommer att ta ett tag, säger statsvetaren Malena Rosén Sundström.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-12 16:27\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-ledarens-mote-med-talmannen-skjuts-upp-det-hander-nu/\nMagdalena Andersson (S) möte med talmannen har skjutits upp till tisdag. Då ska hon meddela om hon har ett regeringsunderlag eller inte. Allt tyder på att det är fortsatt låsta positioner och ingen rödgrön regering är på plats.\n– Min gissning är att det här kommer att ta ett tag, säger statsvetaren Malena Rosén Sundström.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsunderlag",
+        "talman"
+      ],
+      "first_seen": "2026-10-12T14:28:17.796693+00:00"
     }
   ]
 }
