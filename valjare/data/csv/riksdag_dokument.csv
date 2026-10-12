@@ -2820,6 +2820,9 @@ HD03310,prop,2025/26,310,Nytt regelverk för hälsodataregister,,Socialdeparteme
 HD03311,skr,2025/26,311,Riksrevisionens rapport om trafikavtal,,Landsbygds- och infrastrukturdepartementet,,2026-09-08,,https://data.riksdagen.se/dokument/HD03311.html
 HD03312,prop,2025/26,312,Några förtydliganden och justeringar i de nya reglerna om bygglov,,Landsbygds- och infrastrukturdepartementet,,2026-09-08,bostad,https://data.riksdagen.se/dokument/HD03312.html
 HD03313,prop,2025/26,313,Ett nytt brott och andra åtgärder mot människohandel,,Justitiedepartementet,,2026-09-24,lag,https://data.riksdagen.se/dokument/HD03313.html
+HE033,prop,2026/27,3,Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd,,Finansdepartementet,,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE033.html
+HE035,prop,2026/27,5,Kommuners och regioners grundläggande beredskap inför kris och krig,,Försvarsdepartementet,,2026-10-06,,https://data.riksdagen.se/dokument/HE035.html
+HE037,prop,2026/27,7,Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion,,Klimat- och näringslivsdepartementet,,2026-10-08,miljo,https://data.riksdagen.se/dokument/HE037.html
 ,,,,,,,,,,
 H201NU6,bet,2014/15,NU6,Granskning av grönbok om en utvidgning av EU:s skydd av geografiska ursprungsbeteckningar,,NU,NU,2014-10-16,energi,https://data.riksdagen.se/dokument/H201NU6.html
 H201NU5,bet,2014/15,NU5,Granskning av vitbok om effektivare kontroll av företagskoncentrationer i EU,,NU,NU,2014-10-17,energi,https://data.riksdagen.se/dokument/H201NU5.html
@@ -7304,3 +7307,44 @@ HE01FiU10,bet,2026/27,FiU10,Statens budget för 2027,,FiU,FiU,2026-08-31,ekonomi
 HE01FiU11,bet,2026/27,FiU11,Höständringsbudget för 2026,,FiU,FiU,2026-08-31,ekonomi,https://data.riksdagen.se/dokument/HE01FiU11.html
 HE01SoU7,bet,2026/27,SoU7,Nytt regelverk för hälsodataregister,,SoU,SoU,2026-09-03,sjukvard,https://data.riksdagen.se/dokument/HE01SoU7.html
 HE01KrU1,bet,2026/27,KrU1,"Utgiftsområde 17 Kultur, medier, trossamfund och fritid",,KrU,KrU,2026-09-21,,https://data.riksdagen.se/dokument/HE01KrU1.html
+HE01CU1,bet,2026/27,CU1,"Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik",,CU,CU,2026-10-06,bostad,https://data.riksdagen.se/dokument/HE01CU1.html
+HE01CU2,bet,2026/27,CU2,Stärkt trygghet i bostadsrätter,,CU,CU,2026-10-06,bostad,https://data.riksdagen.se/dokument/HE01CU2.html
+HE01CU3,bet,2026/27,CU3,Några förtydliganden och justeringar i de nya reglerna om bygglov,,CU,CU,2026-10-06,bostad,https://data.riksdagen.se/dokument/HE01CU3.html
+HE01JuU1,bet,2026/27,JuU1,Utgiftsområde 4 Rättsväsendet,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU1.html
+HE01JuU2,bet,2026/27,JuU2,Hörande och tillfälligt överförande vid handläggning av en arresteringsorder,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU2.html
+HE01JuU3,bet,2026/27,JuU3,Stärkt skydd för domstolarnas och domarnas oberoende,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU3.html
+HE01JuU4,bet,2026/27,JuU4,Kompletterande bestämmelser till EU:s förordning om överföring av straffrättsliga förfaranden,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU4.html
+HE01JuU5,bet,2026/27,JuU5,Riksrevisionens rapport om infiltration i staten,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU5.html
+HE01JuU6,bet,2026/27,JuU6,Uppföljning av den brottsförebyggande strategin Barriärer mot brott,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU6.html
+HE01JuU7,bet,2026/27,JuU7,Uppföljning av den nationella strategin mot organiserad brottslighet,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU7.html
+HE01JuU8,bet,2026/27,JuU8,Uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU8.html
+HE01JuU9,bet,2026/27,JuU9,Ett nytt brott och andra åtgärder mot människohandel,,JuU,JuU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01JuU9.html
+HE01KU1,bet,2026/27,KU1,Utgiftsområde 1 Rikets styrelse,,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU1.html
+HE01KU2,bet,2026/27,KU2,Översyn av JO-ämbetet (vilande grundlagsförslag),,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU2.html
+HE01KU3,bet,2026/27,KU3,En tydligare bestämmelse om hets mot folkgrupp (vilande grundlagsförslag),,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU3.html
+HE01KU4,bet,2026/27,KU4,Stärkt skydd för demokratin och domstolarnas oberoende (vilande grundlagsförslag),,KU,KU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01KU4.html
+HE01KU5,bet,2026/27,KU5,Uppföljning av riksdagens tillämpning av subsidiaritetsprincipen,,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU5.html
+HE01KU6,bet,2026/27,KU6,Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.),,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU6.html
+HE01KU7,bet,2026/27,KU7,Tillgänglighetskrav för vissa medier (vilande grundlagsförslag),,KU,KU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01KU7.html
+HE01KU8,bet,2026/27,KU8,Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan (vilande grundlagsförslag),,KU,KU,2026-10-06,lag,https://data.riksdagen.se/dokument/HE01KU8.html
+HE01KU9,bet,2026/27,KU9,En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag),,KU,KU,2026-10-06,invandring,https://data.riksdagen.se/dokument/HE01KU9.html
+HE01KU12,bet,2026/27,KU12,Riksrevisionens rapport om handläggning av ärenden där den enskilde inte behärskar svenska,,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU12.html
+HE01KU13,bet,2026/27,KU13,Några frågor om ledamöternas ersättningar och om trygghetsskapande åtgärder,,KU,KU,2026-10-06,,https://data.riksdagen.se/dokument/HE01KU13.html
+HE01SkU2,bet,2026/27,SkU2,Teknisk översyn av mervärdesskattereglerna vid gränsöverskridande handel,,SkU,SkU,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE01SkU2.html
+HE01SkU3,bet,2026/27,SkU3,"Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare",,SkU,SkU,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE01SkU3.html
+HE01SkU4,bet,2026/27,SkU4,Stadigvarande vistelse – en definition,,SkU,SkU,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE01SkU4.html
+HE01SkU5,bet,2026/27,SkU5,Förändringar i förfarandet för kupongskatt,,SkU,SkU,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE01SkU5.html
+HE01SkU6,bet,2026/27,SkU6,Skatteavtal mellan Sverige och Nederländerna,,SkU,SkU,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE01SkU6.html
+HE01SkU7,bet,2026/27,SkU7,Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd,,SkU,SkU,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE01SkU7.html
+HE01KU10,bet,2026/27,KU10,Granskning av statsrådens tjänsteutövning och regeringsärendenas handläggning,,KU,KU,2026-10-07,,https://data.riksdagen.se/dokument/HE01KU10.html
+HE01MJU1,bet,2026/27,MJU1,"Utgiftsområde 20 Klimat, miljö och natur",,MJU,MJU,2026-10-07,"klimat,miljo",https://data.riksdagen.se/dokument/HE01MJU1.html
+HE01MJU2,bet,2026/27,MJU2,"Utgiftsområde 23 Areella näringar, landsbygd och livsmedel",,MJU,MJU,2026-10-07,,https://data.riksdagen.se/dokument/HE01MJU2.html
+HE01MJU3,bet,2026/27,MJU3,Kompletterande bestämmelser till EU-förordningar om kemikalier och avfall,,MJU,MJU,2026-10-07,miljo,https://data.riksdagen.se/dokument/HE01MJU3.html
+HE01MJU4,bet,2026/27,MJU4,En mer enhetlig reglering av tillsyn och kontroll på miljöbalkens område,,MJU,MJU,2026-10-07,miljo,https://data.riksdagen.se/dokument/HE01MJU4.html
+HE01MJU5,bet,2026/27,MJU5,Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion,,MJU,MJU,2026-10-07,miljo,https://data.riksdagen.se/dokument/HE01MJU5.html
+HE01SfU5,bet,2026/27,SfU5,Riksrevisionens rapport om Försäkringskassans och Pensionsmyndighetens hantering av ändrade förhållanden,,SfU,SfU,2026-10-07,pension,https://data.riksdagen.se/dokument/HE01SfU5.html
+HE01SfU6,bet,2026/27,SfU6,Riksrevisionens rapport om Migrationsverkets kontroller av arbetstillstånd,,SfU,SfU,2026-10-07,invandring,https://data.riksdagen.se/dokument/HE01SfU6.html
+HE01NU8,bet,2026/27,NU8,Framtidssäkring av elräkningar i unionen,,NU,NU,2026-10-08,energi,https://data.riksdagen.se/dokument/HE01NU8.html
+HE01KrU2,bet,2026/27,KrU2,Ungdomspolitisk skrivelse,,KrU,KrU,2026-10-09,,https://data.riksdagen.se/dokument/HE01KrU2.html
+HE01KrU3,bet,2026/27,KrU3,Ny politisk inriktning för ett starkare filmland,,KrU,KrU,2026-10-09,,https://data.riksdagen.se/dokument/HE01KrU3.html
+HE01SkU9,bet,2026/27,SkU9,Subsidiaritetsprövning av kommissionens förslag till ändringar av direktiv vad gäller regelförenklingar på direktbeskattningens område,,SkU,SkU,2026-10-12,skatter,https://data.riksdagen.se/dokument/HE01SkU9.html

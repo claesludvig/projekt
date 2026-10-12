@@ -1,5 +1,5 @@
 {
- "skapad": "2026-10-11",
+ "skapad": "2026-10-12",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "3438 artiklar i 7 flöden",
-   "varde": 3438.0
+   "detalj": "3640 artiklar i 7 flöden",
+   "varde": 3640.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-09-24, 17 dagar sedan",
-   "varde": 17.0
+   "detalj": "senaste dokument 2026-10-12, 0 dagar sedan",
+   "varde": 0.0
   },
   {
    "grupp": "volym",
@@ -1363,8 +1363,8 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7305 rader (förra 7305)",
-   "varde": 7305.0
+   "detalj": "7349 rader (förra 7305)",
+   "varde": 7349.0
   },
   {
    "grupp": "volym",
@@ -1379,8 +1379,8 @@
    "id": "rader_riksdag_aktivitet",
    "beskrivning": "Tabell riksdag_aktivitet",
    "status": "ok",
-   "detalj": "201 rader (förra 201)",
-   "varde": 201.0
+   "detalj": "208 rader (förra 201)",
+   "varde": 208.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "723 rader (förra 678)",
-   "varde": 723.0
+   "detalj": "769 rader (förra 723)",
+   "varde": 769.0
   },
   {
    "grupp": "volym",
@@ -1443,16 +1443,16 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "168 rader (förra 168)",
-   "varde": 168.0
+   "detalj": "224 rader (förra 168)",
+   "varde": 224.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "405 rader (förra 374)",
-   "varde": 405.0
+   "detalj": "413 rader (förra 405)",
+   "varde": 413.0
   },
   {
    "grupp": "volym",

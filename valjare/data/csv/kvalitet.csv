@@ -127,9 +127,9 @@ aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes 
 aktualitet,norden_vantan,"Eurostat: Avstått från vård på grund av väntetid (%, 16+)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,3438 artiklar i 7 flöden,3438.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,3640 artiklar i 7 flöden,3640.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,54 konton med följarantal,54.0
-aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-09-24, 17 dagar sedan",17.0
+aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-10-12, 0 dagar sedan",0.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
 volym,rader_partistod,Tabell partistod,ok,65350 rader (förra 65350),65350.0
 volym,rader_gruppvikt,Tabell gruppvikt,ok,5809 rader (förra 5809),5809.0
@@ -168,18 +168,18 @@ volym,rader_valresultat_valkrets,Tabell valresultat_valkrets,ok,2146 rader (för
 volym,rader_valkrets_indikator,Tabell valkrets_indikator,ok,29815 rader (förra 29815),29815.0
 volym,rader_valkrets_oversikt,Tabell valkrets_oversikt,ok,2368 rader (förra 2368),2368.0
 volym,rader_opinion,Tabell opinion,ok,359 rader (förra 359),359.0
-volym,rader_riksdag_dokument,Tabell riksdag_dokument,ok,7305 rader (förra 7305),7305.0
+volym,rader_riksdag_dokument,Tabell riksdag_dokument,ok,7349 rader (förra 7305),7349.0
 volym,rader_riksdag_beslut,Tabell riksdag_beslut,ok,8289 rader (förra 8289),8289.0
-volym,rader_riksdag_aktivitet,Tabell riksdag_aktivitet,ok,201 rader (förra 201),201.0
+volym,rader_riksdag_aktivitet,Tabell riksdag_aktivitet,ok,208 rader (förra 201),208.0
 volym,rader_riksdag_samstammighet,Tabell riksdag_samstammighet,ok,192 rader (förra 192),192.0
 volym,rader_riksdag_parti_fraga,Tabell riksdag_parti_fraga,ok,382 rader (förra 382),382.0
 volym,rader_riksdag_ledamot,Tabell riksdag_ledamot,ok,4594 rader (förra 4594),4594.0
 volym,rader_opinion_forslag,Tabell opinion_forslag,ok,24 rader (förra 24),24.0
 volym,rader_opinion_beslut,Tabell opinion_beslut,ok,100 rader (förra 100),100.0
-volym,rader_media_foljare,Tabell media_foljare,ok,723 rader (förra 678),723.0
+volym,rader_media_foljare,Tabell media_foljare,ok,769 rader (förra 723),769.0
 volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,54 rader (förra 54),54.0
-volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,168 rader (förra 168),168.0
-volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,405 rader (förra 374),405.0
+volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,224 rader (förra 168),224.0
+volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,413 rader (förra 405),413.0
 volym,rader_media_talartid,Tabell media_talartid,ok,96 rader (förra 96),96.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
 volym,rader_media_wikipedia,Tabell media_wikipedia,ok,2075 rader (förra 2075),2075.0
