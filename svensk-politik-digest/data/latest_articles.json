@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-13T06:16:25.312871+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-10-13T14:16:42.728513+00:00",
+  "new_count": 12,
   "skipped": {
-    "seen": 29,
-    "offtopic": 154,
-    "old": 23
+    "seen": 32,
+    "offtopic": 150,
+    "old": 16
   },
   "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 2,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 5,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,75 +65,226 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9318166",
-      "title": "Furtenbach: Det vore en fullständig sensation",
+      "url": "https://www.svd.se/a/0BrqX2/magdalena-andersson-redo-for-nederlag",
+      "title": "Ett magplask för simmerskan",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-13",
+      "author": "Henrik Torehammar",
+      "commentator": "",
+      "summary": "Det blev ingen ny regering trots ett förlängt sonderingsuppdrag. I stället gör sig Magdalena…",
+      "fulltext": "Det blev ingen ny regering trots ett förlängt sonderingsuppdrag. I stället gör sig Magdalena Andersson redo att röstas ned av kammaren.\nHur jobbigt är beskedet för Socialdemokraterna?\nDet var en partiledare som med jämnmod berättade att hon nog kommer att falla i den aviserade statsministeromröstningen. Simmerskan från Uppsala får vara med om ett magplask. Trots seminariet , och ett efterföljande karaokeparty för tjänstemännen, har inte tillräckligt många röda linjer suddats ut. Men samtidigt lyfte Socialdemokraternas partiledare fram det hon ser som framgångar: att den rödgröna majoriteten i utskotten enats om att ”stoppa de orättvisa tonårsutvisningarna” och pausa handelsavtalet med Israel.\nAndersson: Jag kommer fortsätta föra samtal\nFörtroenderas för S-ledaren – ”en strategi”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "sondering"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/X9zn0B/v-kravs-ledarskap-som-inser-verkligheten",
+      "title": "V: ”Krävs ledarskap som inser verkligheten”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-13",
+      "author": "Niklas Svahn/TT",
+      "commentator": "",
+      "summary": "V-ledaren Nooshi Dadgostar beklagar att regeringsförhandlingarna inte har kommit längre.",
+      "fulltext": "V-ledaren Nooshi Dadgostar beklagar att regeringsförhandlingarna inte har kommit längre.\n”Nu krävs ett tydligt ledarskap som inser den parlamentariska realiteten”, säger hon.\nMagdalena Andersson har misslyckats med sitt första försök att bilda regering. Det meddelade hon talmannen Andreas Norlén under tisdagsförmiddagen.\nMen hon kommer ändå att ställas inför en statsministeromröstning på torsdag denna vecka eftersom Norlén vill sätta press på partierna.\n”Centerpartiet har tagit konstruktiva initiativ för att föra processen framåt och varit tydliga med vilken politisk riktning vi vill se för Sverige”, säger C-ledaren Elisabeth Thand Ringqvist i en skriftlig kommentar.\nHon återkommer till hur C ska rösta på torsdag.\nDe röda linjerna mellan V och C kvarstår, trots att partierna sågs på Högberga gård på Lidingö i fredags.\nV kräver ministerposter och C kan fortsatt inte acceptera en regering där V ingår.\n”Tyvärr finns det fortfarande partier som inte accepterar den parlamentariska verklighet som valresultatet innebär. För att processen ska kunna föras framåt krävs nu ett tydligt ledarskap som inser den parlamentariska realiteten”, säger V:s partiledare Nooshi Dadgostar i en skriftlig kommentar.\nMiljöpartiets språkrör Amanda Lind tror fortfarande på en majoritetsregering som består av alla fyra partier; S, V, C och MP.\n”Det är det vi jobbar för”, skriver Lind.\nFrån Tidöpartierna hörs skarp kritik mot Magdalena Anderssons ledarskap.\n”En svag uppvisning i ledarskap från Andersson. Trots att hennes sida vann valet saknar hon plan för att bilda en regering. I statsministeromröstningen på torsdag kommer Liberalerna rösta rött till henne”, skriver L:s partiledare Simona Mohamsson.\n”På västfronten intet nytt”, kommenterar KD-ledaren Ebba Busch.\nUlf Kristersson (M), som leder en övergångsregering, välkomnar talmannens besked.\n”Eftersom 176 riksdagsmandat önskar att Magdalena Andersson bildar nästa regering är det naturligt att riksdagen får pröva hennes ledarskap”, skriver han i en kommentar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/chatt-fraga-svts-marmorstein-om-politiska-laget",
+      "title": "Chatt: Fråga SVT:s Marmorstein om politiska läget",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Thea Mossige-Norheim",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Det blir statsministeromröstning om Magdalena Andersson (S) på torsdag – även om hon själv är övertygad om att hon kommer att falla. Förvirrad? Ställ din fråga till SVT:s inrikespolitiska kommentator Elisabeth Marmorstein, som svarar från 16.00 – först i sändning och sedan i chatten.",
+      "fulltext": "Det blir statsministeromröstning om Magdalena Andersson (S) på torsdag – även om hon själv är övertygad om att hon kommer att falla.\nStäll din fråga till SVT:s inrikespolitiska kommentator Elisabeth Marmorstein, som svarar från 16.00 – först i sändning och sedan i chatten.\nStäll dina frågor till Elisabeth Marmorstein\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/andreas-norlen-blir-omrostning-om-magdalena-andersson",
+      "title": "Andreas Norlén: Blir omröstning om Magdalena Andersson (S) som statsminister",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Johan Wicklén, Thea Mossige-Norheim",
+      "commentator": "",
+      "summary": "Det blir en omröstning om Magdalena Andersson (S) som statsminister för en socialdemokratisk enpartiregering. Det säger talman Andreas Norlén på en pressträff. – Rimligen innebär det stegvis ökad press på partierna att värdera sina alternativ.",
+      "fulltext": "Det blir en omröstning om Magdalena Andersson (S) som statsminister för en socialdemokratisk enpartiregering. Det säger talman Andreas Norlén på en pressträff.\n– Rimligen innebär det stegvis ökad press på partierna att värdera sina alternativ.\nOmröstningen i riksdagen kommer att ske på torsdag.\nDet efter att S-ledaren Magdalena Andersson meddelat talmannen att det i nuläget saknas förutsättningar för att bilda en regering som kan tolereras av riksdagen.\n– Givet att man måste ange en partisammansättning när man prövas som statsminister och att det inte finns någon färdig regeringsbildning att pröva i kammaren så kommer hon att prövas för en enpartiregering, säger talman Andreas Norlén på en pressträff.\nBåde V och MP säger att de kommer att rösta nej till en ren Socialdemokratisk regering.\nC meddelar att de ännu inte tagit ställning till saken.\nS-ledaren Magdalena Andersson säger att hon räknar med att falla i omröstningen.\nAndreas Norlén säger han att han delvis kommer ändra taktik om Andersson röstas ned, och diskutera med övriga partiledarna om hur processen ska tas framåt.\n– Jag ser framför mig att ringa runt istället för att bjuda in till en talmansrunda på mitt kontor, för att signalera lite tempo i denna process.\nTalmannen får föreslå högst fyra olika kandidater för riksdagen innan det måste bli extra val. En statsministeromröstning är därför hans ”skarpaste verktyg”, sa Andreas Norlén.\n– Det innebär ju att varje genomförd och misslyckad omröstning för oss närmare ett extra val. Rimligen innebär det stegvis ökad press på partierna att värdera sina alternativ. Om det ena alternativet är extra val och det ena är regeringsbildning måste man ju värdera vad man helst vill ha.\nEfter talmannens besked kritiserar L-ledaren Simona Mohamsson S-ledaren.\n”En svag uppvisning i ledarskap från Andersson. Trots att hennes sida vann valet saknar hon plan för att bilda en regering. I statsministeromröstningen på torsdag kommer Liberalerna rösta rött till henne”, skriver Mohamsson på X.\nStatsminister Ulf Kristersson (M) skriver till SVT:\n”Eftersom 176 riksdagsmandat önskar att Magdalena Andersson bildar nästa regering är det naturligt att riksdagen får pröva hennes ledarskap och förmåga att samla den majoriteten bakom en sådan regering. Om den majoriteten inte används i den första omröstningen så blir det upp till talmannen vad nästa steg är”.\nMed SVT:s app håller du dig alltid uppdaterad på senaste nytt. Nu kan du själv välja vilka ämnen du är särskilt intresserad av att få pushnotiser om.\nNu kan du välja de ämnen du är extra intresserad av.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "statsminister",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-s-saknas-forutsattningar-att-bilda-regering",
+      "title": "Magdalena Andersson (S): Saknas förutsättningar att bilda regering",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Johan Wicklén, Thea Mossige-Norheim",
+      "commentator": "",
+      "summary": "Det saknas förutsättningar för att bilda en regering. Det meddelar S-ledaren Magdalena Andersson efter sitt möte med talman Andreas Norlén. – Det handlar inte minst om oförenliga ställningstaganden vad gäller regeringsfrågan, sa Andersson på en pressträff.",
+      "fulltext": "Det saknas förutsättningar för att bilda en regering.\nDet meddelar S-ledaren Magdalena Andersson efter sitt möte med talman Andreas Norlén.\n– Det handlar inte minst om oförenliga ställningstaganden vad gäller regeringsfrågan, sa Andersson på en pressträff.\nPå tisdagen redovisade Magdalena Andersson (S) för talmannen hur det gått under hennes sonderingsuppdrag.\n– Min sammantagna bedömning är att det har skett framsteg, men samtidigt att det i nuläget saknas förutsättningar för att bilda en regering som kan tolereras av riksdagen, sa Andersson på en pressträff.\nMagdalena Andersson nämner ”oförenliga positioner” mellan C och V.\n– Jag bedömer att det i dagsläget är för låst, inte minst vad gäller regeringsfrågan, att det är inte är meningsfullt att begära mer tid hos talmannen, säger hon till SVT.\nEftersom processen inte har kommit tillräckligt långt skulle en omröstning nu i så fall gälla en ren S-regering, meddelar Andersson på pressträffen. Hon konstaterar dock att hon kommer att falla i en sådan omröstning.\nSenare gav talman Andreas Norlén besked om att det blir en omröstning om Magdalena Andersson som statsminister för en socialdemokratisk enpartiregering på torsdag klockan 12.\nHan säger också att han efter omröstningen på torsdag delvis kommer att ändra taktik.\n– Då kommer jag att diskutera med övriga partiledare om hur vi i så fall ska ta processen framåt. Jag ser framför mig att ringa runt istället för att bjuda in till en talmansrunda på mitt kontor, för att signalera lite tempo i denna process.\nAndersson vill att Ulf Kristersson (M) får sonderingsuppdraget efter henne. Andreas Norlén vill inte kommentera vem han skulle kunna ge sonderingsuppdraget om Andersson inte godkänns av riksdagen på torsdag.\nDet har nu gått en månad sedan valet. Andersson fick sitt första sonderingsuppdrag den 18 september. Hon gav dock upp försöken att bilda regering och lämnade tillbaka sitt uppdrag till talmannen 28 september, efter att Vänsterpartiet röstat på Moderaternas kandidat Andreas Norlén till talman i riksdagen.\nDen 2 oktober fick Andersson på nytt uppdraget av talmannen. Det var det resultatet hon på tisdagen redovisade för Norlén.\nS-ledaren har bekräftat att hon samtalat med alla partiledare på den rödgröna sidan. Andersson har ännu inte pekat ut vilka partier hon skulle vilja ha med i en regering eller i ett regeringssamarbete.\nVänsterpartiet kräver att få sitta med i en S-ledd regering för att stödja den. Centern vägrar dock att samarbete med en regering där V ingår.\nMed SVT:s app håller du dig alltid uppdaterad på senaste nytt. Nu kan du själv välja vilka ämnen du är särskilt intresserad av att få pushnotiser om.\nNu kan du välja de ämnen du är extra intresserad av.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "talman"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.expressen.se/ledare/centern-maste-fa-syna-sin-egen-bluff",
+      "title": "Centern måste få syna sin egen bluff",
+      "source": "Expressen Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-13",
+      "author": "ledarredaktionen",
+      "commentator": "",
+      "summary": "Regeringsförhandlingarna har kört fast. Det är dags att låta Elisabeth Thand Ringqvist pröva om mittendrömmen håller.",
+      "fulltext": "Regeringsförhandlingarna har kört fast. Det är dags att låta Elisabeth Thand Ringqvist pröva om mittendrömmen håller.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nEn månad har gått sedan valet, och ännu syns ingen regeringskoalition till. På tisdagsförmiddagen meddelade Magdalena Andersson, S, att det ”i nuläget saknas förutsättningar att bilda en regering”.\nPartiledarna på den rödgröna sidan verkar inte ha bråttom. Det hittills största framsteget i förhandlingarna var inte ens en förhandling – utan att de fyra partierna kunde sitta i samma konferensrum på Högberga gård.\nEfteråt sa Magdalena Andersson att hon hoppas på ”fler möjligheter att träffas alla fyra tillsammans”. Som att det finns någon mystisk kraft som repellerar partiledarna från varandra och fysiskt hindrar dem från att boka ett mötesrum, skicka ut inbjudan och dyka upp.\nDet är naturligtvis nonsens. De har alla möjligheter att träffas – om de vill. Uttalandet är typiskt för Magdalena Anderssons passiva ledarskap under denna regeringsbildning. Det verkar som att S-ledaren mest väntar fromt på att ett regeringsunderlag ska falla i hennes knä från himlen.\nDärför är det klokt att talman Andreas Norlén nu sätter fart på processen genom att pröva Magdalena Andersson vid en statsministeromröstning i riksdagen på torsdag.\nRiksdagen har fyra försök att rösta om en ny statsminister. Därefter blir det automatiskt extraval. Att börja bränna av omröstningarna kan mjuka upp partiernas röda linjer.\nOm Magdalena Andersson inte får ihop ett regeringsunderlag tills på torsdag klockan 12 vill hon att Ulf Kristersson ska få chansen. Men det vore rimligare att sonderingsuppdraget i så fall går vidare till C-ledaren Elisabeth Thand Ringqvist. Det är ju Centerpartiets röda linjer som håller landet i en strypsnara.\nAlla som kan räkna till 175 vet att det finns två huvudalternativ: S, V, MP, C eller Tidöpartierna plus C. Men centerpartisterna håller fast vid att det finns en annan lösning, som ingen annan ser: Mittens rike.\nEfter Högbergaseminariet sa Elisabeth Thand Ringqvist att partiet vill se samarbete i mitten, och att ”varje möjligt regeringsspår måste vi dra i botten.”\nEfter valet 2018 fick dåvarande C-ledaren Annie Lööf sonderingsuppdraget när Ulf Kristersson, M, hade fallit i den första statsministeromröstningen. Då sa C att ”de sex partier som samlar 75 procent av väljarstödet och befinner sig mellan ytterkantspartierna” borde kunna få fram en regering.\nLåter det bekant? Pandemin kom och gick, Ryssland anföll Ukraina, Sverige gick med i Nato. Men Centerpartiets talepunkter är intakta efter åtta år.\nEfter en veckas fruktlösa försök fick Annie Lööf erkänna sig besegrad. Det blev ingen samling i mitten 2018.\nElisabeth Thand Ringqvist kanske har bättre tur. Eller så smäller hon huvudet i samma vägg. Oavsett vilket resultatet blir skulle det ge en skjuts åt processen.\nCenterpartiets dröm måste få möta verkligheten.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9318660",
+      "title": "Busch om mitten-högerregering: Jobbar direkt med involverade parter",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Det pågår samtal om möjligheterna att få till en mitten-högerregering, det uppger Kristdemokraternas partiledare Ebba Busch i en intervju med Ekot. Det efter att Magdalena Andersson i nuläget gett upp försöken att bilda en regering. ”Jag tror att det finns en väg framåt, men den jobbar jag för direkt med de parter som är involverade”, säger Ebba Busch (KD). Häromdagen syntes Ebba Busch (KD) och Elisabeth Thand Ringqvist (C) på bild efter att ha bastat tillsammans. Nu säger Busch att hon har goda samtal med flera parter.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar",
+        "Kristdemokraterna"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9318641",
+      "title": "Furtenbach: ”Då kommer hon med all sannolikhet att fällas”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-13",
       "author": "Ekot",
       "commentator": "Fredrik Furtenbach",
-      "summary": "Magdalena Andersson (S) ska i dag rapportera till talmannen om regeringsbildningen. Enligt Ekots inrikespolitiska kommentator Fredrik Furtenbach, är det mest sannolikt att hon ännu saknar stöd för att bli statsminister. ”Om hon skulle ha samlat stöd så vore det en fullständig sensation”, säger han.",
+      "summary": "Det är fortsatt låst läge i regeringsbildningen och på torsdag ska Magdalena Andersson (S) prövas som statsministerkandidat. ”Då kommer hon med all sannolikhet att fällas”, säger Fredrik Furtenbach, Ekots inrikespolitiska kommentator. ”Det skulle inte lösa sig om hon fick en vecka till heller. Det skulle troligen inte leda till någonting\", säger han.",
       "fulltext": "",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "talman",
         "statsminister"
       ],
-      "first_seen": "2026-10-13T06:16:25.312871+00:00"
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/efter-rodgrona-motet-detta-vantar-magdalena-andersson",
-      "title": "Efter rödgröna mötet – detta väntar Magdalena Andersson",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-12",
-      "author": "Julia Lindvall, Filip Brusman",
-      "commentator": "",
-      "summary": "Trots att de rödgröna partiledarna hållit ett första gemensamt möte ser det ut att dröja innan Sverige får en ny regering. Här är vad som väntar Magdalena Andersson (S) de kommande dagarna.",
-      "fulltext": "Trots att de rödgröna partiledarna hållit ett första gemensamt möte ser det ut att dröja innan Sverige får en ny regering.\nHär är vad som väntar Magdalena Andersson (S) de kommande dagarna.\nPå tisdagen ska S-ledaren Magdalena Andersson redovisa för talman Andreas Norlén hur hennes sonderingsuppdrag har gått. Efter det finns det två alternativ.\nHör om vägen framåt efter mötet i videon ovan.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar"
-      ],
-      "first_seen": "2026-10-13T06:16:25.312871+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/s-krisar-i-historiskt-roda-adalen-vi-maste-vara-mer-lyhorda",
-      "title": "S krisar i historiskt röda Ådalen: ”Vi måste vara mer lyhörda”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-12",
-      "author": "Ulf Mattmar",
-      "commentator": "",
-      "summary": "Socialdemokraterna gjorde ett historiskt dåligt resultat i riksdagsvalet. Nu har väljare börjat överge partiet – till och med i arbetarrörelsens hjärtland, det röda Ådalen.",
-      "fulltext": "Socialdemokraterna gjorde ett historiskt dåligt resultat i riksdagsvalet. Nu har väljare börjat överge partiet – till och med i arbetarrörelsens hjärtland, det röda Ådalen.\nKnappast någon plats är så helig i arbetarrörelsens historia som Ådalen. Det var i Kramfors som skotten mot demonstrerande arbetare föll 1931.\nSå sent som 2014 hade Socialdemokraterna här ett stöd på 52 procent i riksdagsvalet. Nu har det sjunkit till 34.4 procent. I årets val en minskning med 7,25 procentenheter jämfört med 2022. I kommunvalet gick det ännu sämre – ett tapp på över 20 procentenheter.\nAtt just i Ådalen göra ett riktigt dåligt val svider illa i den socialdemokratiska självbilden.\n– Man kan inte påstå att Ådalen och människorna här svikit. Vi måste rikta blickarna mot oss själva och fundera på vad vi kunde gjort annorlunda, säger Tomas Litström, mångårig S-politiker i Kramfors kommun.\nFörr var Ådalen en sjudande industribygd med pappersbruk, timmerflottning och ett fyrtiotal ångsågar. Fackföreningarna var mäktiga och kampviljan stark. I dag är allt annorlunda. Avfolkning, industrinedläggningar och misstro mot makten i Stockholm har satt djupa spår – och kanske är det här vi hittar en förklaring till socialdemokratins kris?\nVarför gjorde Socialdemokraterna ett historiskt dåligt val? Hör vad Kramfors S-politiker och vanliga väljare tror i videon ovan.\nI Aktuellt ikväll klockan 21.00 – möt Kramforsborna i ett längre reportage.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "riksdagsval",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-10-13T06:16:25.312871+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318082",
-      "title": "Explosioner i Riyad",
+      "url": "https://www.sverigesradio.se/artikel/9318431",
+      "title": "Gissén: Norlén gav en känga till Liberalerna",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-12",
+      "published": "2026-10-13",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Flera explosioner har hörts i Saudiarabiens huvudstad Riyad, strax efter att ett textmeddelande sänts ut med varningar om kommande luftangrepp. Den Saudiledda militärkoalitionen uppger att en ballistisk robot som avfyrats från huthirebellerna skjutits ned. I helgen dödades 13 personer efter att huthirebellerna anföll den internationella flygplatsen i Riyad.",
+      "summary": "Riksdagen kommer att rösta om Madalena Andersson (S) i en första statsministeromröstning, meddelar talmannen Andreas Norlén. Det blir en omröstning om Andersson som statsminister för en enpartiregering. ”Norlén gav också en känga till Liberalerna, som inte hade hittat en tid att träffa Magdalena Andersson”, säger Ekots inrikespolitiska kommentator Helena Gissén.",
       "fulltext": "",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "koalition"
+        "talman",
+        "statsminister",
+        "Liberalerna"
       ],
-      "first_seen": "2026-10-13T06:16:25.312871+00:00"
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9318413",
+      "title": "Magdalena Andersson avslutar försök att bilda regering",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraternas partiledare Magdalena Andersson ger upp uppdraget att bilda en ny regering. ”Min sammantagna bedömning är att det har skett framsteg men att det i nuläget saknas förutsättningar för att bilda en regering som kan tolereras av riksdagen. Det handlar inte minst om oförenliga ställningstaganden i regeringsfrågan” sa Andersson under pressträff på tisdagen. Riksdagen kommer ändå att rösta om henne i en första statsministeromröstning, meddelar talmannen Andreas Norlén. Det blir omröstning om Andersson som statsminister för en enpartiregering.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "talman",
+        "statsminister",
+        "partiledar",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9318373",
+      "title": "Gissén: ”Låter inte särskilt intresserad av V i regeringen”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraternas partiledare Magdalena Andersson hoppar av uppdraget att bilda en ny regering. Det meddelade hon till talmannen i dag. En motsättning i regeringsfrågan har varit Centerpartiets och Vänsterpartiets röda linjer och Andersson sa under pressträffen att oförenliga ställningstaganden vad gäller regeringsfrågan återstår. ”Hon hoppas att de ska på ett eller annat sätt sudda sina röda linjer. Men det är bara att konstatera att hon själv inte låter särskilt intresserad av att släppa in V i regeringen” säger Ekots politiska kommentator Helena Gissén.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "talman",
+        "partiledar",
+        "Centerpartiet",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-forodmjukat-centerparti-storre-problem-for-andersson",
+      "title": "Tomas Ramberg: Förödmjukat centerparti större problem för Andersson",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-13",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Regeringsbildningen handlar nu om att rädda ansiktet på Centerpartiet. Magdalena Andersson är inte särskilt ledsen över att tvingas gå mot ett nederlag i torsdagens statsministeromröstning, eftersom hon behöver vinna tid för en lösning som Centern kan svälja.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-13 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-forodmjukat-centerparti-storre-problem-for-andersson/\nRegeringsbildningen handlar nu om att rädda ansiktet på Centerpartiet. Magdalena Andersson är inte särskilt ledsen över att tvingas gå mot ett nederlag i torsdagens statsministeromröstning, eftersom hon behöver vinna tid för en lösning som Centern kan svälja.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nCenterledaren Elisabeth Thand Ringqvist står med ryggen mot väggen i regeringsfrågan. Den offentliga debattens pekfinger riktas nu nästan entydigt mot henne. Centerledningen tvingas gång på gång försöka förklara sin position för allt mer klentrogna intervjuare.\nDet var visserligen Centern som i fredags kallade ihop V, S och MP till ett första möte mellan de fyra som står bakom Magdalena Andersson. Men – förklarade centerledningen efter mötet – det betyder inte att de accepterat V som del av ett regeringsunderlag. Elisabeth Thand Ringqvist föredrar fortfarande andra möjliga regeringsspår – spår som ”vi måste dra i botten.” Också partikollegan Martin Ådahl hävdade att ”det fortfarande finns många olika tänkbara regeringsunderlag”.\nNyckelordet här är ”tänkbara”. Det vill säga tänkbara för C – de partier C tänker på tänker själva helt annorlunda.\nDet framgick med all tydlighet när Magdalena Andersson lämnade sin rapport till talmannen på tisdagen. Ett av Centerns ”tänkbara” partier – Simona Mohamssons Liberaler – har inte ens hittat tid för att träffa Magdalena Andersson under hennes sonderingsuppdrag.\nC och L delar uppenbarligen inte verklighetsbild. Centerfolket står ensamt.\nDärför ska Centerns uttalanden nog inte tas alltför bokstavligt – som om partiet faktiskt tror att andra partier kommer att låta sig övertalas att byta fot och bilda en mittenregering under en socialdemokratisk statsminister. En rimligare tolkning är att Thand Ringqvist behöver tid för att visa sitt partifolk att alla vägar som inte innefattar Vänsterpartiet verkligen är stängda. Eller har ”dragits i botten” som hon säger.\nVänsterpartiet frustar otåligt i regeringsfarstun. Nooshi Dadgostar vill att Magdalena Andersson offentligt ska ta Centern i örat och pressa Thand Ringqvist att börja förhandla om ett gemensamt regeringsprogram. Det kommer Andersson inte att göra.\nAtt vårda Centerns eftervalsångest är ett viktigt intresse för Socialdemokraterna. Magdalena Andersson behöver ett nära band till C. Hon vill inte ha fyra år av återkommande regeringskriser och förhandlingar – och en stabil regering kräver ett stabilt Centern. Att förödmjuka partiet skulle bygga in en konflikt – och leda till att samarbetet med Socialdemokraterna ständigt ifrågasätts.\nCentern behöver lång tid och kanske ytterligare någon statsministeromröstning för att hitta fram till de andra rödgröna. Skulden för att det inte blir en mittenregering ska först läggas på de högerpartier som – kommer det att heta – trots Centerns ihärdiga kamp vägrat ta ansvar för en regering utan ytterkantspartier.\nGivetvis krävs också stor politisk utdelning för Centern – även om regeringen innehåller vänsterministrar måste Thand Ringqvist kunna hävda att politikens tyngdpunkt ligger i mitten. Förmodligen också få skrivningar om att Sveriges linje på tunga områden som försvar, utrikes- och säkerhetspolitik ligger fast.\nMagdalena Andersson verkade på tisdagen inte ha särskilt bråttom. Om någon månads längre regeringsbildning kan få Centern att frivilligt lämna sina skyttegravar från valrörelsen kan hon leva med det.\nMagdalena Andersson ger upp: ”Jag kommer att fällas på torsdag”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nMagdalena Andersson ger upp: ”Jag kommer att fällas på torsdag”\nÅsa Wikforss: Anklagelserna om valfusk följer ett globalt mönster\nIngen elev kom fram – skolskjutsen i Stockholm sågas",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-13T14:16:42.728513+00:00"
     }
   ]
 }
