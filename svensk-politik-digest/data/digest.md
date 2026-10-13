@@ -1,24 +1,27 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-12
+# Svensk politik och regeringsförhandlingarna — 2026-10-13
 
-3 nya poster sedan förra utskicket (30 redan utskickade, 155 utanför ämnet).
-
-## Analys och kommentar
-
-### [Omröstning om S-ledaren kan ske i veckan](https://www.svd.se/a/p1rmwV/omrostning-om-s-ledaren-kan-ske-i-veckan)
-SvD Ledare · 2026-10-12 · Anja Haglund/TT
-
-Socialdemokraternas ledare Magdalena Andersson har bett om mer tid för sitt sonderingsuppdrag.
+4 nya poster sedan förra utskicket (29 redan utskickade, 154 utanför ämnet).
 
 ## Rapportering
 
-### [Andersson kan fällas redan denna vecka](https://www.dn.se/sverige/andersson-kan-fallas-redan-denna-vecka)
-DN Nyheter · 2026-10-12 · Hans Rosén, Hans Olsson
+### [Furtenbach: Det vore en fullständig sensation](https://www.sverigesradio.se/artikel/9318166) **[kommentator]**
+Ekot, Sveriges Radio · 2026-10-13 · Ekot
 
-Mycket pekar mot att Magdalena Andersson fälls i en statsministeromröstning senare i veckan. Den bedömningen gör DN:s källor i de rödgröna partierna. På tisdagen måste S-ledaren ge besked till talmannen om hur det går med regeringsbildningen.
+Magdalena Andersson (S) ska i dag rapportera till talmannen om regeringsbildningen. Enligt Ekots inrikespolitiska kommentator Fredrik Furtenbach, är det mest sannolikt att hon ännu saknar stöd för att bli statsminister. ”Om hon skulle ha samlat stöd så vore det en fullständig sensation”, säger han.
 
-### [S-ledarens möte med talmannen skjuts upp – det händer nu](https://www.dn.se/sverige/s-ledarens-mote-med-talmannen-skjuts-upp-det-hander-nu)
-DN Nyheter · 2026-10-11 · Ossi Carp, Ida Palm Ekspong
+### [Efter rödgröna mötet – detta väntar Magdalena Andersson](https://www.svt.se/nyheter/inrikes/efter-rodgrona-motet-detta-vantar-magdalena-andersson)
+SVT Nyheter · 2026-10-12 · Julia Lindvall, Filip Brusman
 
-Magdalena Andersson (S) möte med talmannen har skjutits upp till tisdag. Då ska hon meddela om hon har ett regeringsunderlag eller inte. Allt tyder på att det är fortsatt låsta positioner och ingen rödgrön regering är på plats. – Min gissning är att det här kommer att ta ett tag, säger statsvetaren Malena Rosén Sundström.
+Trots att de rödgröna partiledarna hållit ett första gemensamt möte ser det ut att dröja innan Sverige får en ny regering. Här är vad som väntar Magdalena Andersson (S) de kommande dagarna.
 
-_Genererat 2026-10-12T14:28:17.796693+00:00._
+### [S krisar i historiskt röda Ådalen: ”Vi måste vara mer lyhörda”](https://www.svt.se/nyheter/inrikes/s-krisar-i-historiskt-roda-adalen-vi-maste-vara-mer-lyhorda)
+SVT Nyheter · 2026-10-12 · Ulf Mattmar
+
+Socialdemokraterna gjorde ett historiskt dåligt resultat i riksdagsvalet. Nu har väljare börjat överge partiet – till och med i arbetarrörelsens hjärtland, det röda Ådalen.
+
+### [Explosioner i Riyad](https://www.sverigesradio.se/artikel/9318082)
+Ekot, Sveriges Radio · 2026-10-12 · Ekot
+
+Flera explosioner har hörts i Saudiarabiens huvudstad Riyad, strax efter att ett textmeddelande sänts ut med varningar om kommande luftangrepp. Den Saudiledda militärkoalitionen uppger att en ballistisk robot som avfyrats från huthirebellerna skjutits ned. I helgen dödades 13 personer efter att huthirebellerna anföll den internationella flygplatsen i Riyad.
+
+_Genererat 2026-10-13T06:16:25.312871+00:00._
