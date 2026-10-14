@@ -1,69 +1,74 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-13
+# Svensk politik och regeringsförhandlingarna — 2026-10-14
 
-12 nya poster sedan förra utskicket (32 redan utskickade, 150 utanför ämnet).
+13 nya poster sedan förra utskicket (32 redan utskickade, 149 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Ett magplask för simmerskan](https://www.svd.se/a/0BrqX2/magdalena-andersson-redo-for-nederlag)
-SvD Ledare · 2026-10-13 · Henrik Torehammar
+### [Här är Sveriges mest underskattade politiker](https://www.expressen.se/ledare/karin-pihl/har-ar-sveriges-mest--underskattade-politiker)
+Expressen Ledare · 2026-10-14 · karin pihl
 
-Det blev ingen ny regering trots ett förlängt sonderingsuppdrag. I stället gör sig Magdalena…
+Utskrattade och hånade, så lyder eftermälet för partiledare som vågade gå före. Det är orättvist.
 
-### [V: ”Krävs ledarskap som inser verkligheten”](https://www.svd.se/a/X9zn0B/v-kravs-ledarskap-som-inser-verkligheten)
-SvD Ledare · 2026-10-13 · Niklas Svahn/TT
+### [Ledare: Hur länge tänker S-ledaren dalta med Dadgostar?](https://www.dn.se/ledare/hur-lange-tanker-s-ledaren-dalta-med-dadgostar)
+DN Ledare · 2026-10-14 · DN:s ledarredaktion
 
-V-ledaren Nooshi Dadgostar beklagar att regeringsförhandlingarna inte har kommit längre.
-
-### [Centern måste få syna sin egen bluff](https://www.expressen.se/ledare/centern-maste-fa-syna-sin-egen-bluff)
-Expressen Ledare · 2026-10-13 · ledarredaktionen
-
-Regeringsförhandlingarna har kört fast. Det är dags att låta Elisabeth Thand Ringqvist pröva om mittendrömmen håller.
+Magdalena Andersson kommer att förlora statsministervoteringen på torsdag, och ingen är förvånad. Vad som däremot är anmärkningsvärt är att hon inte ens tog sig till förhandlingsbordet.
 
 ## Rapportering
 
-### [Chatt: Fråga SVT:s Marmorstein om politiska läget](https://www.svt.se/nyheter/inrikes/chatt-fraga-svts-marmorstein-om-politiska-laget) **[kommentator]**
-SVT Nyheter · 2026-10-13 · Thea Mossige-Norheim
+### [Magdalena Andersson (S) om statsministeromröstningen](https://www.svt.se/nyheter/inrikes/magdalena-andersson-s-om-statsministeromrostningen)
+SVT Nyheter · 2026-10-14 · Gustav Motte
 
-Det blir statsministeromröstning om Magdalena Andersson (S) på torsdag – även om hon själv är övertygad om att hon kommer att falla. Förvirrad? Ställ din fråga till SVT:s inrikespolitiska kommentator Elisabeth Marmorstein, som svarar från 16.00 – först i sändning och sedan i chatten.
+Under torsdagen kommer riksdagen hålla en statsministeromröstning – för Magdalena Andersson (S). Med största sannolikhet kommer hon inte samla tillräckligt med röster. – Nej, jag kommer inte ha stöd nog, säger Andersson i SVT:s Morgonstudion.
 
-### [Andreas Norlén: Blir omröstning om Magdalena Andersson (S) som statsminister](https://www.svt.se/nyheter/inrikes/andreas-norlen-blir-omrostning-om-magdalena-andersson)
-SVT Nyheter · 2026-10-13 · Johan Wicklén, Thea Mossige-Norheim
+### [SVT/Verian: MP ökar i första mätningen efter valet](https://www.svt.se/nyheter/inrikes/svtverian-mp-okar-i-forsta-matningen-efter-valet)
+SVT Nyheter · 2026-10-14 · Malvina Britts
 
-Det blir en omröstning om Magdalena Andersson (S) som statsminister för en socialdemokratisk enpartiregering. Det säger talman Andreas Norlén på en pressträff. – Rimligen innebär det stegvis ökad press på partierna att värdera sina alternativ.
+Miljöpartiet ökar i den första opinionsmätningen efter valet, samtidigt som Moderaterna fortsätter att stärkas. Det visar SVT/Verians väljarbarometer för oktober. – Det är möjligt att MP har gynnats av sin återhållsamma roll i regeringsbildningen, säger Per Söderpalm, opinionsansvarig på Verian.
 
-### [Magdalena Andersson (S): Saknas förutsättningar att bilda regering](https://www.svt.se/nyheter/inrikes/magdalena-andersson-s-saknas-forutsattningar-att-bilda-regering)
-SVT Nyheter · 2026-10-13 · Johan Wicklén, Thea Mossige-Norheim
+### [Årets mäktigaste på sociala medier](https://www.sverigesradio.se/artikel/9318950)
+Ekot, Sveriges Radio · 2026-10-14 · Ekot
 
-Det saknas förutsättningar för att bilda en regering. Det meddelar S-ledaren Magdalena Andersson efter sitt möte med talman Andreas Norlén. – Det handlar inte minst om oförenliga ställningstaganden vad gäller regeringsfrågan, sa Andersson på en pressträff.
+Sverigedemokraterna behåller sin maktställning i sociala medier, enligt årets Maktbarometer, som ges ut av Medieakademin. På andra plats kommer SVT och på tredje plats Aftonbladet. Föreningen har kartlagt vilka som når ut mest till svenskarna på Facebook, Instagram, Youtube, Tiktok och X. Humorgruppen JLC är de första nöjesprofilerna på listan och kommer på femte plats. De tappar en position från förra året men går om familjen Lundell, som går från en andraplats till sjua på listan. Årets tio mäktigaste Sverigedemokraterna SVT Aftonbladet Expressen JLC TV4 Familjen Lundell Moderaterna Socialdemokraterna 100 procent
 
-### [Busch om mitten-högerregering: Jobbar direkt med involverade parter](https://www.sverigesradio.se/artikel/9318660)
+### [V-toppens kritik mot C: ”Måste släppa det”](https://www.sverigesradio.se/artikel/9318922)
+Ekot, Sveriges Radio · 2026-10-14 · Ekot
+
+Nu borde Centerpartiet få sondera mittenalternativ så att vi kan komma vidare, menar Vänsterpartiets vice partiledare, Ida Gabrielsson. ”Det tror jag är viktigt att man kör i botten”, säger hon. Gårdagens besked från S-ledaren Magdalena Andersson visade att det fortfarande var låst läge mellan de rödgröna partierna. Ida Gabrielsson riktar även kritik mot Socialdemokraterna för att inte ha varit tydliga med att de som regeringsbildare kan tänka sig en fyrpartiregering.
+
+### [13 styren klara – SD får mer inflytande i regionerna](https://www.sverigesradio.se/artikel/9318784)
+Ekot, Sveriges Radio · 2026-10-14 · Ekot
+
+När styret av 13 av 21 regioner presenterats står det klart att Sverigedemokraterna tar plats i tre styren och blir samarbetsparti till ytterligare ett och stärker därmed sitt inflytande i regionerna. Även Vänsterpartiet har stor möjlighet till det. V är med i slutförhandlingarna kring rödgröna maktskiften i både Östergötland och Gävleborg och tar sig in i styret av region Gotland, Dalarna och Örebro. I 8 av de 13 regionerna blir det olika former av blocköverskridande styren, ledda av Socialdemokraterna. Där ingår oftast Centerpartiet.
+
+### [Analys: ”Det är dags att kliva upp ur sandlådan”](https://www.svt.se/nyheter/inrikes/analys-det-ar-dags-att-kliva-upp-ur-sandladan) **[kommentator]**
+SVT Nyheter · 2026-10-13 · Mats Knutson
+
+Risken är uppenbar att turerna kring regeringsbildningen enbart uppfattas som politisk teater. Ansvaret vilar tungt på S-ledaren Magdalena Andersson, men också på Vänsterpartiet och Centerpartiet, vars oförenliga krav förhindrar en rödgrön regering. En utdragen process i riksdagen under hösten, med statsministeromröstningar som redan på förhand är dömda att misslyckas, leder sannolikt till ett skadat förtroende inte bara för inblandade partier utan även för det politiska systemet i stort.
+
+### [Frida Spång: ”Befolkningen är väldigt uppdelad”](https://www.sverigesradio.se/artikel/9318898)
 Ekot, Sveriges Radio · 2026-10-13 · Ekot
 
-Det pågår samtal om möjligheterna att få till en mitten-högerregering, det uppger Kristdemokraternas partiledare Ebba Busch i en intervju med Ekot. Det efter att Magdalena Andersson i nuläget gett upp försöken att bilda en regering. ”Jag tror att det finns en väg framåt, men den jobbar jag för direkt med de parter som är involverade”, säger Ebba Busch (KD). Häromdagen syntes Ebba Busch (KD) och Elisabeth Thand Ringqvist (C) på bild efter att ha bastat tillsammans. Nu säger Busch att hon har goda samtal med flera parter.
+En första statsministeromröstning om Magdalena Andersson väntar på torsdag. Men det är fortfarande låst på den rödgröna sidan. Frida Spång tycker att regeringsbildningen har blivit svår att följa och att väljarna lämnas med många frågetecken.
 
-### [Furtenbach: ”Då kommer hon med all sannolikhet att fällas”](https://www.sverigesradio.se/artikel/9318641) **[kommentator]**
+### [Henrik Juserius: Kan minska människors förtroende för politiken](https://www.sverigesradio.se/artikel/9318900)
 Ekot, Sveriges Radio · 2026-10-13 · Ekot
 
-Det är fortsatt låst läge i regeringsbildningen och på torsdag ska Magdalena Andersson (S) prövas som statsministerkandidat. ”Då kommer hon med all sannolikhet att fällas”, säger Fredrik Furtenbach, Ekots inrikespolitiska kommentator. ”Det skulle inte lösa sig om hon fick en vecka till heller. Det skulle troligen inte leda till någonting", säger han.
+En första statsministeromröstning om Magdalena Andersson väntar på torsdag. Men det är fortfarande låst på den rödgröna sidan. Henric Juserius tror att en utdragen regeringsbildning kan minska människors förtroende för politiken.
 
-### [Gissén: Norlén gav en känga till Liberalerna](https://www.sverigesradio.se/artikel/9318431)
+### [Jan Hård: ”Håll inte på och dravla runt”](https://www.sverigesradio.se/artikel/9318893)
 Ekot, Sveriges Radio · 2026-10-13 · Ekot
 
-Riksdagen kommer att rösta om Madalena Andersson (S) i en första statsministeromröstning, meddelar talmannen Andreas Norlén. Det blir en omröstning om Andersson som statsminister för en enpartiregering. ”Norlén gav också en känga till Liberalerna, som inte hade hittat en tid att träffa Magdalena Andersson”, säger Ekots inrikespolitiska kommentator Helena Gissén.
+En första statsministeromröstning om Magdalena Andersson väntar på torsdag. Men det är fortfarande låst på den rödgröna sidan. Jan Hård är kritisk till att regeringsbildningen drar ut på tiden.
 
-### [Magdalena Andersson avslutar försök att bilda regering](https://www.sverigesradio.se/artikel/9318413)
+### [Kraftiga smällar i Saudiarabien](https://www.sverigesradio.se/artikel/9318872)
 Ekot, Sveriges Radio · 2026-10-13 · Ekot
 
-Socialdemokraternas partiledare Magdalena Andersson ger upp uppdraget att bilda en ny regering. ”Min sammantagna bedömning är att det har skett framsteg men att det i nuläget saknas förutsättningar för att bilda en regering som kan tolereras av riksdagen. Det handlar inte minst om oförenliga ställningstaganden i regeringsfrågan” sa Andersson under pressträff på tisdagen. Riksdagen kommer ändå att rösta om henne i en första statsministeromröstning, meddelar talmannen Andreas Norlén. Det blir omröstning om Andersson som statsminister för en enpartiregering.
+Saudiarabien har skjutit ner tre kryssningsrobotar som ska ha avfyrats av huthirebellerna i Jemen. Det uppger den saudiledda koalitionen som strider mot huthirörelsen, skriver nyhetsbyrån AFP. Kraftiga smällar hördes i närheten av det Saudiska oljebolaget Aramcos högkvarter i östra Saudiarabien och i huvudstaden Riyad. Samtidigt har den saudiledda koalitionen, som strider mot huthierna i Jemen, slagit till mot ett oljeföretag i Jemens huvudstad.
 
-### [Gissén: ”Låter inte särskilt intresserad av V i regeringen”](https://www.sverigesradio.se/artikel/9318373)
-Ekot, Sveriges Radio · 2026-10-13 · Ekot
+### [Statsvetare: Omröstningen inget hinder för Andersson](https://www.dn.se/sverige/statsvetare-omrostningen-inget-hinder-for-andersson)
+DN Nyheter · 2026-10-13 · Frida Bergkvist
 
-Socialdemokraternas partiledare Magdalena Andersson hoppar av uppdraget att bilda en ny regering. Det meddelade hon till talmannen i dag. En motsättning i regeringsfrågan har varit Centerpartiets och Vänsterpartiets röda linjer och Andersson sa under pressträffen att oförenliga ställningstaganden vad gäller regeringsfrågan återstår. ”Hon hoppas att de ska på ett eller annat sätt sudda sina röda linjer. Men det är bara att konstatera att hon själv inte låter särskilt intresserad av att släppa in V i regeringen” säger Ekots politiska kommentator Helena Gissén.
+Riksdagen kommer med allra största sannolikhet rösta nej till Magdalena Andersson på torsdag. Men det betyder inte att hennes chanser att bilda regering har försämrats, menar statsvetare. – Det utgör inte alls något hinder för henne att bli statsminister, säger Oskar Hultin Bäckersten på Mälardalens universitet.
 
-### [Tomas Ramberg: Förödmjukat centerparti större problem för Andersson](https://www.dn.se/sverige/tomas-ramberg-forodmjukat-centerparti-storre-problem-for-andersson) **[kommentator]**
-DN Nyheter · 2026-10-13 · Tomas Ramberg
-
-Regeringsbildningen handlar nu om att rädda ansiktet på Centerpartiet. Magdalena Andersson är inte särskilt ledsen över att tvingas gå mot ett nederlag i torsdagens statsministeromröstning, eftersom hon behöver vinna tid för en lösning som Centern kan svälja.
-
-_Genererat 2026-10-13T14:16:42.728513+00:00._
+_Genererat 2026-10-14T06:16:33.496264+00:00._
