@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-14T06:16:33.496264+00:00",
-  "new_count": 13,
+  "fetched_at": "2026-10-14T14:16:15.492147+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 32,
-    "offtopic": 149,
-    "old": 16
+    "seen": 40,
+    "offtopic": 152,
+    "old": 14
   },
   "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 3,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 7,
+      "new": 1,
       "ok": true
     },
     {
@@ -29,7 +29,7 @@
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,242 +65,76 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-s-om-statsministeromrostningen",
-      "title": "Magdalena Andersson (S) om statsministeromröstningen",
+      "url": "https://www.svt.se/nyheter/inrikes/rodgrona-sprickan-olyckligt-satt-att-styra",
+      "title": "Rödgröna sprickan: ”Olyckligt sätt att styra”",
       "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-10-14",
-      "author": "Gustav Motte",
+      "author": "Erik Nilsson",
       "commentator": "",
-      "summary": "Under torsdagen kommer riksdagen hålla en statsministeromröstning – för Magdalena Andersson (S). Med största sannolikhet kommer hon inte samla tillräckligt med röster. – Nej, jag kommer inte ha stöd nog, säger Andersson i SVT:s Morgonstudion.",
-      "fulltext": "Under torsdagen kommer riksdagen hålla en statsministeromröstning – för Magdalena Andersson (S).\nMed största sannolikhet kommer hon inte samla tillräckligt med röster.\n– Nej, jag kommer inte ha stöd nog, säger Andersson i SVT:s Morgonstudion.\nMagdalena Andersson (S) ska prövas som statsminister i riksdagen. Men under torsdagens omröstning lär hon falla. Inte ens Magdalena Andersson själv tror på att hon röstas igenom.\n– Det kommer vara en omröstning där jag inte kommer tolereras av riksdagen, säger Andersson och nämner de låsningar som finns mellan Vänster och Centerpartiet i SVT:s Morgonstudion.\n– Jag har haft jättebra möten med flera partier. Men det finns låsningar och det är inte meningsfullt att begära mer tid. Talmannen får sedan ta processen vidare.\nTycker Kristersson ska ta över sonderingen\nEnligt Andersson är valresultatet komplicerat.\n– Att det här kommer ta lite tid borde inte vara en överraskning.\nAndersson vill se att Kristersson tar över sonderingsgsuppdraget efter henne.\n– Nu ska talmannen ge någon annan i uppdrag att sondera. Jag tycker själv att det är rimligt att partiledaren för Sveriges näst störta parti tar över, alltså Ulf Kristersson.\nDu säger att det har gjorts framsteg. Vad har skett konkret?\n– Till exempel har vi fyra partier som tidigare var opposition, som skulle kunna bilda ett samarbete kring en ny regering, säkrat majoritet i riksdagens alla utskott. Vi har även pausat EU:s handelsavtal med Israel, säger Andersson och nämner att samtal ”bra” förts på olika nivåer.\nI SVT:s Morgonstudion säger Magdalena Andersson att det kommer krävas flera statsministeromröstningar för att få till en regering.\n– Vi har haft olika planer och för det här läget visste jag att det kommer bli komplicerat. Det här kommer att ta tid. Det kommer krävas några omröstningar för att få tillräckligt mycket tryck i processen.\nI SVT/Verians färska opinionsmätning ökar Miljöpartiet – men både Centerpartiet och Vänsterpartiet backar.\nAndersson vill inte dra för stora slutsatser kring resultatet, men säger att det kan finnas en frustrations över regeringsbildningen.\n– Svenska har ju röstat – och vi har ett valresultat. Det är klart att människor är frustrerade över att det inte är en ny regering på plats. Jag delar den frustrationen.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Miljöpartiet vill att de rödgröna partierna börjar förhandla ekonomisk politik – trots att de inte är överens i regeringsfrågan. – Det borde vi ha börjat prata om för längesen, säger MP-toppen Janine Alm Ericson. Men Vänsterpartiet nobbar hennes idé.",
+      "fulltext": "Miljöpartiet vill att de rödgröna partierna börjar förhandla ekonomisk politik – trots att de inte är överens i regeringsfrågan.\n– Det borde vi ha börjat prata om för längesen, säger MP-toppen Janine Alm Ericson.\nS-ledaren Magdalena Andersson ser ut att gå mot en förlorad statsministeromröstning på torsdag.\nTrots det vill Miljöpartiet att de rödgröna partierna börjar förhandla om ett gemensamt budgetförslag.\nSista datum för en regering att presentera en statsbudget för nästa år är 12 november. Men partierna kan – även efter det – lägga fram gemensamma budgetförslag.\n– Vi är beredda att göra det på vilket sätt som helst, säger ekonomisk-politiska talespersonen Janine Alm Ericson (MP) som vill inleda samtalen redan nu.\n– Det borde vi ha börjat prata om för längesen.\nJanine Alm Ericson anser att det inte är bra om den ekonomiska politiken beslutas genom enskilda utskottsinitiativ från riksdagens finansutskott.\n– Det blir ett olyckligt sätt att styra Sverige, säger hon.\nMen V-toppen Ida Gabrielsson håller inte med om att de rödgröna bör inleda budgetsamtal redan nu.\nV kräver ministerposter – medan C säger nej till en regering med V-ministrar. Den frågan behöver redas ut först, anser hon.\n– Jag har aldrig varit med om att man gör en överenskommelse där man inte vet vilka roller alla ska ha och vilka som ska ingå. Det behöver man veta först, säger Gabrielsson.\nDen sittande regeringen kommer att lägga fram en stram övergångsbudget, som inte ska innehålla någon ny politisk inriktning. Ida Gabrielsson tycker att de rödgröna partierna bör rösta på den och sedan lägga ”en ändringsbudget direkt efter årsskiftet”.\n– Eftersom vi inte kommer att få en regering på plats väldigt snabbt så är det självklart att vi, fyra partier, bör samsas runt övergångsbudgeten.\nC:s ekonomisk-politiske talesperson Martin Ådahl ger inte något svar på hur han ser på frågan om ett rödgrönt budgetalternativ, medan S:s företrädare Mikael Damberg gärna diskuterar ekonomisk politik med de andra rödgröna.\n– Jag tycker att partierna bör gå över i en diskussion där vi förhandlar sakinnehåll på ett djupare sätt, men just nu ligger bollen hos talmannen, säger han.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "Miljöpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-14T14:16:15.492147+00:00"
+    },
+    {
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/statsministern-deltar-i-europeiska-radet-i-bryssel",
+      "title": "Statsministern deltar i Europeiska rådet i Bryssel",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-10-14",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "Den 15–16 oktober reser statsminister Ulf Kristersson till Bryssel för möte i Europeiska rådet. EU:s stats- och regeringschefer kommer bland annat att diskutera Europas konkurrenskraft, stödet till Ukraina samt europeisk säkerhet och försvar.",
+      "fulltext": "Den 15–16 oktober reser statsminister Ulf Kristersson till Bryssel för möte i Europeiska rådet. EU:s stats- och regeringschefer kommer bland annat att diskutera Europas konkurrenskraft, stödet till Ukraina samt europeisk säkerhet och försvar.\nMot bakgrund av ett osäkert geopolitiskt läge väntas toppmötet ha ett starkt fokus på ekonomiska frågor. Ledarna kommer att diskutera åtgärder för att stärka EU:s konkurrenskraft, minska effekterna av höga energipriser för hushåll och företag samt följa upp genomförandet av unionens strategi för tillväxt och den inre marknaden. Även förhandlingarna om EU:s nästa långtidsbudget för perioden 2028–2034 står på dagordningen.\nUnder toppmötet väntas ledarna också bekräfta EU:s långsiktiga stöd till Ukraina med anledning av Rysslands fullskaliga invasion, samt diskutera Ukrainas fortsatta väg mot EU-medlemskap. Europeiska rådet ska också behandla frågor om europeisk säkerhet och försvar, inklusive arbetet med att stärka unionens försvarsberedskap och motståndskraft mot hybridhot. I den kontexten driver regeringen på för att ytterligare begränsa ryska medborgares möjligheter att få visum som tillåter dem att resa in i EU.\n– Sverige kommer att fortsätta driva på för ett långsiktigt och kraftfullt stöd till Ukraina och för ökat tryck på Ryssland. Samtidigt är vi tydliga om att EU:s nästa långtidsbudget behöver vara ansvarsfull och återhållsam. Vi behöver en bättre, inte större, EU-budget, säger statsminister Ulf Kristersson.\nVid mötet ska EU:s stats- och regeringschefer även hålla strategiska diskussioner om migration och EU:s framtida utvidgning. Därutöver väntas utvecklingen i Mellanöstern diskuteras, med fokus på regional säkerhet, sjöfart i Hormuzsundet och konsekvenser för globala försörjningskedjor.\nEuropeiska rådet utgör den högsta nivån för medlemsländernas politiska samarbete. Det är den EU-institution som fastställer EU:s allmänna politiska riktning och prioriteringar. Rådet består av de 27 medlemsländernas stats- och regeringschefer samt Europeiska rådets ordförande och Europeiska kommissionens ordförande. Rådet håller i regel fyra ordinarie toppmöten per år.\nInför mötet i Europeiska rådet samrådde statsministern med riksdagens EU-nämnd.\nSidan är uppmärkt med följande kategorier",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "statsminister"
       ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
+      "first_seen": "2026-10-14T14:16:15.492147+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/svtverian-mp-okar-i-forsta-matningen-efter-valet",
-      "title": "SVT/Verian: MP ökar i första mätningen efter valet",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-14",
-      "author": "Malvina Britts",
-      "commentator": "",
-      "summary": "Miljöpartiet ökar i den första opinionsmätningen efter valet, samtidigt som Moderaterna fortsätter att stärkas. Det visar SVT/Verians väljarbarometer för oktober. – Det är möjligt att MP har gynnats av sin återhållsamma roll i regeringsbildningen, säger Per Söderpalm, opinionsansvarig på Verian.",
-      "fulltext": "Miljöpartiet ökar i den första opinionsmätningen efter valet, samtidigt som Moderaterna fortsätter att stärkas. Det visar SVT/Verians väljarbarometer för oktober.\n– Det är möjligt att MP har gynnats av sin återhållsamma roll i regeringsbildningen, säger Per Söderpalm, opinionsansvarig på Verian.\nEn dryg månad har gått sedan de rödgröna partierna blev störst i valet. Sedan dess har mycket av den politiska debatten handlat om hur en ny regering ska bildas, med Centerpartiets och Vänsterpartiets olika positioner i centrum.\nMen trots turerna i regeringsfrågan är förändringarna i den första opinionsmätningen från Verian efter valet relativt små.\n– Väljarbarometern för oktober ligger nära utfallet i riksdagsvalet och tyder på att väljarna till stor del står fast vid sina tidigare partival. Några större rörelser mellan blocken ser vi inte, säger Per Söderpalm.\nMiljöpartiet sticker ut med en statistiskt säkerställd uppgång, från 6,1 procent i valet till 7,1 procent i oktober.\nPartiet har hållit en låg profil i regeringsförhandlingarna, till skillnad från Centerpartiet och Vänsterpartiet, som fått stor uppmärksamhet för sina positioner och krav.\n– MP framstår i jämförelse med C och V som mer resonligt, säger Elisabeth Marmorstein, SVT:s inrikespolitiska kommentator.\nÄven Moderaterna ökar statistiskt säkerställt, från 19,9 procent i valet till 22,3 procent. Det är partiets högsta notering på över fem år.\n– Uppgången består troligen främst av återvändande moderata väljare som stödröstade på Liberalerna i valet, säger Per Söderpalm.\nLiberalerna tappar samtidigt från 5,3 till 3,7 procent och hamnar åter under riksdagsspärren.\n– Vi såg samma sak efter förra valet och sen låg L under riksdagsspärren hela mandatperioden, säger Elisabeth Marmorstein.\nModeraterna har nu ett övertag på 5,1 procentenheter gentemot Sverigedemokraterna, som får 17,2 procent. Det är M:s största försprång till SD sedan 2018.\nDå kan opinionsmätningarna sätta tryck på de rödgröna partierna. Hör Elisabeth Marmorstein i videon ovan.\nVerians väljarbarometer baseras på cirka 3 000 genomförda intervjuer med personer i Sifo-panelen – en panel som rekryteras via slumpmässiga riksrepresentativa urval. Panelen består av cirka 85 000 deltagare. Urvalet sker i åldrarna 18-84 år. Undersökningen kompletteras med telefonintervjuer med personer i åldrarna 85 år och uppåt.\nFrågan som ställs är: ”Vilket parti skulle du rösta på om det vore val i dag?”\nSvarsfrekvensen i väljarbarometern ligger kring 40 procent. De svarande kontrolleras så att de är representativa för olika demografiska grupper som kön, ålder, region, utbildning och partisympati i föregående val.\nVäljarbarometer genomfördes under dessa datum: 28 september till 11 oktober 2026.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "Miljöpartiet",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.expressen.se/ledare/karin-pihl/har-ar-sveriges-mest--underskattade-politiker",
-      "title": "Här är Sveriges mest underskattade politiker",
-      "source": "Expressen Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-14",
-      "author": "karin pihl",
-      "commentator": "",
-      "summary": "Utskrattade och hånade, så lyder eftermälet för partiledare som vågade gå före. Det är orättvist.",
-      "fulltext": "Utskrattade och hånade, så lyder eftermälet för partiledare som vågade gå före. Det är orättvist.\nHär är Sveriges mest underskattade politiker\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nVarje gång C-toppen Martin Ådahl upprepar att ”det finns ju ett alternativ i mitten också” blir rösten tunnare. Det är osannolikt att Centern får igenom sin drömregering. Därmed måste partiet välja: SD eller V. Höger eller vänster. Kanske börjar det sätta sig nu.\nSå skänk en tanke åt Muharrem Demirok . Minns ni honom?\nHösten 2024 skakades C av interna uppror. Dåvarande partiordförande Demirok ville peka ut Magdalena Andersson som statsministerkandidat. Han hade en plan , strategisk och politisk. C skulle ”överge nyliberalismen”, prata mer om välfärdsfrågor och samarbeta med S.\nDet gillades inte av partiet, som fortfarande levde i ett Annie Lööf-rus. Demirok avgick. Partistyrelsen gick inte med på hans idé om S-samarbete.\nI dag är han ihågkommen som en kortvarig partiledare som inte klarade av sitt jobb. Han sällar sig till en skara politiker som fick den otacksamma uppgiften att genomföra en impopulär kursändring. Som för många andra i hans sits kostade det honom jobbet.\nMen vi vet ju alla hur det gick med C. Den 9 juni sa den nuvarande partiledaren Elisabeth Thand Ringqvist att Magdalena Andersson är den mest sannolika statsministerkandidaten för partiet. Troligen måste C acceptera en regering med tyngdpunkt till vänster och inte i mitten. Därav Ådahls skiftande röstläge.\nDet blev som Demirok ville. Han var före sin tid. Och han är inte ensam om att ha haft den otacksamma uppgiften.\nDen tidigare moderatledaren Anna Kinberg Batra råkade ut för något liknande. Hon tog över ett parti i kris. Fredrik Reinfeldt stack på valnatten och ingen visste hur M skulle hantera valförlusten. Det politiska projektet alliansen var på upphällningen.\nI januari 2017 sa Kinberg Batra att Moderaterna skulle öppna för att samarbeta med Sverigedemokraterna. Det tog hus i helvete. Till slut blev den interna kritiken för stark och hon tvingades avgå samma sommar.\nDrygt fem år senare stod hennes efterträdare Ulf Kristersson i riksdagens presscenter och visade upp Tidöavtalet mellan SD, M, KD och L framför smattrande kameror.\nOch apropå L. Liberalerna har genomgått samma process. Nyamko Sabunis politiska projekt som partiledare var att återföra partiet till borgerligheten, även om det skulle ge SD visst inflytande. Den interna kritiken vällde fram med orkanstyrka. Sabuni fick gå, och hennes efterträdare Johan Pehrson kunde sedan bli minister med stöd av SD.\nDe politiker som blir ihågkomna är de som lyckats föra sina partier till rekordnivåer i opinionen, vinna valet, ta plats i regeringen. Ulf Kristersson betraktas som en M-ledare som vågade göra upp med ”nya Moderaterna” och som regerade Sverige framgångsrikt i fyra år.\nDet är sant. Men det var Kinberg Batra som krattade manegen för den nya riktningen, likt Demirok och Sabuni gjorde i sina partier.\nNog finns fler förklaringar till att de alla satt en kort tid som partiledare. Men det är orättvist att komma ihåg dem som förlorare.\nI själva verket är de politiska föregångare som tog en för laget. De av rev plåstret trots att alla skrek. Och deras eftermäle förtjänar respekt. Utan partiledare som vågar ta risker och göra folk arga skulle politikutvecklingen stå still.\nSå när Centern eventuellt sätter sig i en S-ledd regering: Tänk på Murre. Martin Ådahls ministerpost är hans förtjänst.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318950",
-      "title": "Årets mäktigaste på sociala medier",
+      "url": "https://www.sverigesradio.se/artikel/9319456",
+      "title": "V-ledamotens ledighetsanökan godkänns inte",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-14",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Sverigedemokraterna behåller sin maktställning i sociala medier, enligt årets Maktbarometer, som ges ut av Medieakademin. På andra plats kommer SVT och på tredje plats Aftonbladet. Föreningen har kartlagt vilka som når ut mest till svenskarna på Facebook, Instagram, Youtube, Tiktok och X. Humorgruppen JLC är de första nöjesprofilerna på listan och kommer på femte plats. De tappar en position från förra året men går om familjen Lundell, som går från en andraplats till sjua på listan. Årets tio mäktigaste Sverigedemokraterna SVT Aftonbladet Expressen JLC TV4 Familjen Lundell Moderaterna Socialdemokraterna 100 procent",
+      "summary": "V-ledamoten Mohamed Alis ledighetsansökan nekas av riksdagen, meddelar talmannen. ”Överenskommelsen mellan talmannen och gruppledarna säger att det handlar om ledamöter som är misstänkta för brott och den här ledamoten är inte delgiven misstankte för brott”, säger Andreas Norlén till Ekot. Mohamed Ali ansökte om ledighet fram till i måndags, men frågan behandlades inte av talmannen, enligt Vänsterpartiets gruppledare Samuel Gonzalez Westling.",
       "fulltext": "",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Moderaterna",
-        "Socialdemokraterna",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318922",
-      "title": "V-toppens kritik mot C: ”Måste släppa det”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-14",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Nu borde Centerpartiet få sondera mittenalternativ så att vi kan komma vidare, menar Vänsterpartiets vice partiledare, Ida Gabrielsson. ”Det tror jag är viktigt att man kör i botten”, säger hon. Gårdagens besked från S-ledaren Magdalena Andersson visade att det fortfarande var låst läge mellan de rödgröna partierna. Ida Gabrielsson riktar även kritik mot Socialdemokraterna för att inte ha varit tydliga med att de som regeringsbildare kan tänka sig en fyrpartiregering.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
-        "Centerpartiet",
-        "Socialdemokraterna",
+        "talman",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
+      "first_seen": "2026-10-14T14:16:15.492147+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9318784",
-      "title": "13 styren klara – SD får mer inflytande i regionerna",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.dn.se/kultur/per-molander-vansterpartiet-borde-ta-efter-sverigedemokraterna",
+      "title": "Per Molander: Vänsterpartiet borde ta efter Sverigedemokraterna",
+      "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-10-14",
-      "author": "Ekot",
+      "author": "",
       "commentator": "",
-      "summary": "När styret av 13 av 21 regioner presenterats står det klart att Sverigedemokraterna tar plats i tre styren och blir samarbetsparti till ytterligare ett och stärker därmed sitt inflytande i regionerna. Även Vänsterpartiet har stor möjlighet till det. V är med i slutförhandlingarna kring rödgröna maktskiften i både Östergötland och Gävleborg och tar sig in i styret av region Gotland, Dalarna och Örebro. I 8 av de 13 regionerna blir det olika former av blocköverskridande styren, ledda av Socialdemokraterna. Där ingår oftast Centerpartiet.",
-      "fulltext": "",
+      "summary": "Vänsterpartiet borde beakta förhandlingsteorins grundregler. Varför skulle inte V kunna göra en liknande resa mot makten som SD har gjort, frågar sig Per Molander.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-14 16:15\nArtikelns ursprungsadress: https://www.dn.se/kultur/per-molander-vansterpartiet-borde-ta-efter-sverigedemokraterna/\nVänsterpartiet borde beakta förhandlingsteorins grundregler. Varför skulle inte V kunna göra en liknande resa mot makten som SD har gjort, frågar sig Per Molander.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nEn grundregel inom förhandlingsteorin är att den part som har lättast att leva med att en förhandling strandar också är den som är starkast och kan nå ett bättre resultat. I de nu pågående regeringsförhandlingarna är det C och V som är huvudparter, medan S snarast har rollen av medlare och MP bidar sin tid.\nOm förhandlingarna strandar definitivt, blir det extraval. Med största sannolikhet skulle högerblocket vinna detta val och kunna bilda regering på egen hand. Man skulle ju ha ett extremt tungt argument i valrörelsen: de rödgröna partierna har haft chansen att bilda regering och visat sin oförmåga att utnyttja möjligheten. Vem har lättast att leva med det utfallet? V, som befinner sig så långt bort man kan komma från högerblocket i det politiska spektret, eller C, som på viktiga områden som ekonomi och arbetsmarknad är ett högerparti? Frågan är retorisk.\nOm de rödgröna partierna tillsammans mot förmodan skulle vinna ett extraval med ungefär samma styrkeförhållanden som i valet nyligen, är man tillbaka till ruta ett. Eftersom Sverige trots allt måste ha en regering, är det sannolikt att C i ett sådant läge skulle gå med på att bilda regering med M, L och KD. SD har ju generöst erbjudit sig att avstå från ministerposter för att göra en sådan lösning möjlig. Det skulle bli en svekdebatt, men C:s partiledning skulle kunna hänvisa till nödvändigheten att lösa regeringsfrågan utan att något av ”ytterlighetspartierna” sitter i regeringen. Svekdebatter brukar dessutom inte ha långvariga effekter på väljarsympatierna, och nästa val skulle ligga flera år bort.\n”Det är nu eller aldrig”, heter det från en central källa inom V ( DN 9/10 ). Vad grundar man ett så kategoriskt uttalande på? SD har ju under den gångna mandatperioden stått utanför regeringen och anses nu av sina koalitionspartner ha kvalificerat sig för att sitta med i regeringen. Varför skulle inte V kunna göra en liknande resa?\n”Det är i regeringen som den yttersta makten ligger”, har varit ett annat ledord för V. Men under den gångna mandatperioden har ju en central kritik från oppositionen och opinionsbildare ute i samhället varit att SD haft ett orimligt stort inflytande över den förda politiken, trots att man inte har suttit i regeringen. Det går uppenbarligen att utöva ett starkt inflytande på basis av en gemensam plattform, representanter i regeringskansliet och medverkan vid presskonferenser och liknande arrangemang, där politiken presenteras och diskuteras. Varför skulle inte V kunna nå framgång med en sådan lösning?\n”Tyvärr finns det fortfarande partier som inte accepterar den parlamentariska verklighet som valresultatet innebär”, skrev V:s partiledare i en kommentar till det senaste misslyckandet. Men precis samma kommentar kan fällas till V:s uppträdande under sonderingarna. Det räcker inte att titta på det senaste valresultatet; man måste också göra en analys av förhandlingsläget och de tänkbara framtida alternativen, som antyds ovan.\nAtt mogna som människa innebär bland annat att inse att livet ibland är ett val mellan ett dåligt alternativ och ett som är sämre. Det gäller också inom politiken.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nVänsterpartiets resa mot makten: ”Det är nu eller aldrig”\nRöstmottagare dömd för inblandning i mordet på Mikael\nStatsvetare: Ger främmande makt tillfälle att agera",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "samarbetspart",
-        "Centerpartiet",
-        "Socialdemokraterna",
         "Sverigedemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.dn.se/ledare/hur-lange-tanker-s-ledaren-dalta-med-dadgostar",
-      "title": "Ledare: Hur länge tänker S-ledaren dalta med Dadgostar?",
-      "source": "DN Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-14",
-      "author": "DN:s ledarredaktion",
-      "commentator": "",
-      "summary": "Magdalena Andersson kommer att förlora statsministervoteringen på torsdag, och ingen är förvånad. Vad som däremot är anmärkningsvärt är att hon inte ens tog sig till förhandlingsbordet.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-14 08:14\nArtikelns ursprungsadress: https://www.dn.se/ledare/hur-lange-tanker-s-ledaren-dalta-med-dadgostar/\nMagdalena Andersson kommer att förlora statsministervoteringen på torsdag, och ingen är förvånad. Vad som däremot är anmärkningsvärt är att hon inte ens tog sig till förhandlingsbordet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDet finns ingen överenskommelse med Vänsterpartiet, Miljöpartiet och Centerpartiet, meddelade Magdalena Andersson (S) när hon på tisdagen avslutade sitt sonderingsuppdrag. Talmannen Andreas Norlén väljer ändå att skicka henne till riksdagen för en statsministervotering på torsdag. Den kommer S-ledaren att förlora.\nInget av detta är överraskande. Låsningarna har varit tydliga hela tiden. Processen för att få till en ny regering måste fortsätta, ja, sannolikt krävs det hot om ett annalkande extra val för att partier ska ompröva sina ultimativa krav.\nVad som ändå är anmärkningsvärt är hur kort Andersson kom.\nC, MP, S och V står mycket långt ifrån varandra i den ekonomiska politiken. Det hade inte varit konstigt om de stupat på en riktigt svår sakfråga – som när Centern drog sig ur förhandlingarna med Stefan Löfvens (S) inför hans första statsministeromröstning hösten 2018, eftersom han inte ville ge dem tillräckligt många reformer.\nMen den här gången tog sig partierna aldrig ens till förhandlingsbordet.\nElisabeth Thand Ringqvist (C) bjöd in de tre andra för att de skulle få en gemensam lägesbild av en rad nyckelaktörer i fredags. Alla vara nöjda med mötet. Med detta som grund var det därefter upplagt för att sätta sig ner och förhandla om en regeringsplattform.\nMagdalena Andersson var diplomatisk på tisdagen, pekade inte ut något parti. Men det är uppenbart vem som blockerar nästa steg mot en regering.\nS, MP och C är alla öppna för att prata sakpolitik. Men V vägrar. Nooshi Dadgostar tänker inte diskutera ett program innan hon har blivit lovad en ministerpost. Därmed låser sig allt.\nAv allt att döma kommer Ulf Kristersson (M) att få en chans att sondera när Andersson fallit. Det framstår som en lönlös övning. Centerpartiet och Sverigedemokraterna går inte att knöka in i samma regeringsunderlag.\nDärefter lär bollen komma tillbaka till Magdalena Andersson. Rimligen rullar hon inte tummarna i väntan på det. För under nästa sondering måste sakfrågorna upp på bordet.\nS, C, MP och V har visat att de kan komma överens om att stoppa tonårsutvisningarna. I klimatpolitiken finns tydliga beröringspunkter. Men i den ekonomiska politiken kommer det att krävas svåra kompromisser. För att nå dem måste de börja förhandla.\nOch så krävs ett slut på daltandet med Vänsterpartiet. Det går inte att utgå från att alla andra ska böja sig för ens viktigaste krav innan man ens sätter sig ner för att börja prata. Om vänsterpartisterna inte är beredda att snacka karensavdrag och barnbidrag innan de lovats platser i regeringen, ja då får de andra köra igång själva.\nMöjligen har Dadgostar bestämt sig: Kanske ser hon hellre ett extra val och riskerar att få Tidö vid makten än att ingå i ett samarbete där hon inte får en statsrådspost. I så fall kommer hon att förvandla de tre rödgröna partierna – som i valet tillsammans fick knappt 43 procent och inte har varit i närheten av en majoritet sedan 2002 – till en politiskt irrelevant enhet.\nEn sådan kamikaze-inställning kan inte Magdalena Andersson göra så mycket åt. Men om hon tar fram ett program med C och MP – med en öppen dörr till V att när de vill ansluta till samtalet – så gör hon det åtminstone tydligt för Nooshi Dadgostars väljare och partimedlemmar vad hon offrar när hon röstar med M, L, KD och SD för att sänka S-ledaren.\nDN:s ledarredaktion: De ekonomiska nyheterna från USA och Frankrike är bekymrande\nDN:s ledarredaktion: Putin terrorbombar Ukraina – då rycker Trump ut till hans hjälp\n”Är det rimligt att veta så mycket om ett par bröst?”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: De ekonomiska nyheterna från USA och Frankrike är bekymrande\nLedare: Putin terrorbombar Ukraina – då rycker Trump ut till hans hjälp\nStatsvetare: Omröstningen inget hinder för Andersson",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/analys-det-ar-dags-att-kliva-upp-ur-sandladan",
-      "title": "Analys: ”Det är dags att kliva upp ur sandlådan”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-13",
-      "author": "Mats Knutson",
-      "commentator": "Mats Knutson",
-      "summary": "Risken är uppenbar att turerna kring regeringsbildningen enbart uppfattas som politisk teater. Ansvaret vilar tungt på S-ledaren Magdalena Andersson, men också på Vänsterpartiet och Centerpartiet, vars oförenliga krav förhindrar en rödgrön regering. En utdragen process i riksdagen under hösten, med statsministeromröstningar som redan på förhand är dömda att misslyckas, leder sannolikt till ett skadat förtroende inte bara för inblandade partier utan även för det politiska systemet i stort.",
-      "fulltext": "Risken är uppenbar att turerna kring regeringsbildningen enbart uppfattas som politisk teater. Ansvaret vilar tungt på S-ledaren Magdalena Andersson, men också på Vänsterpartiet och Centerpartiet, vars oförenliga krav förhindrar en rödgrön regering. En utdragen process i riksdagen under hösten, med statsministeromröstningar som redan på förhand är dömda att misslyckas, leder sannolikt till ett skadat förtroende inte bara för inblandade partier utan även för det politiska systemet i stort.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister",
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318898",
-      "title": "Frida Spång: ”Befolkningen är väldigt uppdelad”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-13",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "En första statsministeromröstning om Magdalena Andersson väntar på torsdag. Men det är fortfarande låst på den rödgröna sidan. Frida Spång tycker att regeringsbildningen har blivit svår att följa och att väljarna lämnas med många frågetecken.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318900",
-      "title": "Henrik Juserius: Kan minska människors förtroende för politiken",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-13",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "En första statsministeromröstning om Magdalena Andersson väntar på torsdag. Men det är fortfarande låst på den rödgröna sidan. Henric Juserius tror att en utdragen regeringsbildning kan minska människors förtroende för politiken.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318893",
-      "title": "Jan Hård: ”Håll inte på och dravla runt”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-13",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "En första statsministeromröstning om Magdalena Andersson väntar på torsdag. Men det är fortfarande låst på den rödgröna sidan. Jan Hård är kritisk till att regeringsbildningen drar ut på tiden.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9318872",
-      "title": "Kraftiga smällar i Saudiarabien",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-13",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Saudiarabien har skjutit ner tre kryssningsrobotar som ska ha avfyrats av huthirebellerna i Jemen. Det uppger den saudiledda koalitionen som strider mot huthirörelsen, skriver nyhetsbyrån AFP. Kraftiga smällar hördes i närheten av det Saudiska oljebolaget Aramcos högkvarter i östra Saudiarabien och i huvudstaden Riyad. Samtidigt har den saudiledda koalitionen, som strider mot huthierna i Jemen, slagit till mot ett oljeföretag i Jemens huvudstad.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "koalition"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/statsvetare-omrostningen-inget-hinder-for-andersson",
-      "title": "Statsvetare: Omröstningen inget hinder för Andersson",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-13",
-      "author": "Frida Bergkvist",
-      "commentator": "",
-      "summary": "Riksdagen kommer med allra största sannolikhet rösta nej till Magdalena Andersson på torsdag. Men det betyder inte att hennes chanser att bilda regering har försämrats, menar statsvetare. – Det utgör inte alls något hinder för henne att bli statsminister, säger Oskar Hultin Bäckersten på Mälardalens universitet.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-14 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/statsvetare-omrostningen-inget-hinder-for-andersson/\nRiksdagen kommer med allra största sannolikhet rösta nej till Magdalena Andersson på torsdag.\nMen det betyder inte att hennes chanser att bilda regering har försämrats, menar statsvetare.\n– Det utgör inte alls något hinder för henne att bli statsminister, säger Oskar Hultin Bäckersten på Mälardalens universitet.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-14T06:16:33.496264+00:00"
+      "first_seen": "2026-10-14T14:16:15.492147+00:00"
     }
   ]
 }
