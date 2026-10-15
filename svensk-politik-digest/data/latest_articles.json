@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-14T14:16:15.492147+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-10-15T06:16:07.890673+00:00",
+  "new_count": 9,
   "skipped": {
-    "seen": 40,
-    "offtopic": 152,
+    "seen": 34,
+    "offtopic": 128,
     "old": 14
   },
   "fetch_errors": 0,
@@ -11,7 +11,7 @@
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
@@ -23,19 +23,19 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "https://www.dn.se/ledare/rss/",
+      "feed": "",
       "new": 0,
-      "ok": true
+      "ok": false
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,88 +53,173 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/rodgrona-sprickan-olyckligt-satt-att-styra",
-      "title": "Rödgröna sprickan: ”Olyckligt sätt att styra”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-14",
-      "author": "Erik Nilsson",
+      "url": "https://www.svd.se/a/0Bb3oE/andersson-ska-rostas-ned-kan-ske-fler-ganger",
+      "title": "Källor: Räkna med fler misslyckade försök",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-15",
+      "author": "Jenny Nyman, Etezaz Yousuf",
       "commentator": "",
-      "summary": "Miljöpartiet vill att de rödgröna partierna börjar förhandla ekonomisk politik – trots att de inte är överens i regeringsfrågan. – Det borde vi ha börjat prata om för längesen, säger MP-toppen Janine Alm Ericson. Men Vänsterpartiet nobbar hennes idé.",
-      "fulltext": "Miljöpartiet vill att de rödgröna partierna börjar förhandla ekonomisk politik – trots att de inte är överens i regeringsfrågan.\n– Det borde vi ha börjat prata om för längesen, säger MP-toppen Janine Alm Ericson.\nS-ledaren Magdalena Andersson ser ut att gå mot en förlorad statsministeromröstning på torsdag.\nTrots det vill Miljöpartiet att de rödgröna partierna börjar förhandla om ett gemensamt budgetförslag.\nSista datum för en regering att presentera en statsbudget för nästa år är 12 november. Men partierna kan – även efter det – lägga fram gemensamma budgetförslag.\n– Vi är beredda att göra det på vilket sätt som helst, säger ekonomisk-politiska talespersonen Janine Alm Ericson (MP) som vill inleda samtalen redan nu.\n– Det borde vi ha börjat prata om för längesen.\nJanine Alm Ericson anser att det inte är bra om den ekonomiska politiken beslutas genom enskilda utskottsinitiativ från riksdagens finansutskott.\n– Det blir ett olyckligt sätt att styra Sverige, säger hon.\nMen V-toppen Ida Gabrielsson håller inte med om att de rödgröna bör inleda budgetsamtal redan nu.\nV kräver ministerposter – medan C säger nej till en regering med V-ministrar. Den frågan behöver redas ut först, anser hon.\n– Jag har aldrig varit med om att man gör en överenskommelse där man inte vet vilka roller alla ska ha och vilka som ska ingå. Det behöver man veta först, säger Gabrielsson.\nDen sittande regeringen kommer att lägga fram en stram övergångsbudget, som inte ska innehålla någon ny politisk inriktning. Ida Gabrielsson tycker att de rödgröna partierna bör rösta på den och sedan lägga ”en ändringsbudget direkt efter årsskiftet”.\n– Eftersom vi inte kommer att få en regering på plats väldigt snabbt så är det självklart att vi, fyra partier, bör samsas runt övergångsbudgeten.\nC:s ekonomisk-politiske talesperson Martin Ådahl ger inte något svar på hur han ser på frågan om ett rödgrönt budgetalternativ, medan S:s företrädare Mikael Damberg gärna diskuterar ekonomisk politik med de andra rödgröna.\n– Jag tycker att partierna bör gå över i en diskussion där vi förhandlar sakinnehåll på ett djupare sätt, men just nu ligger bollen hos talmannen, säger han.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "Miljöpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-14T14:16:15.492147+00:00"
-    },
-    {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/statsministern-deltar-i-europeiska-radet-i-bryssel",
-      "title": "Statsministern deltar i Europeiska rådet i Bryssel",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-10-14",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "Den 15–16 oktober reser statsminister Ulf Kristersson till Bryssel för möte i Europeiska rådet. EU:s stats- och regeringschefer kommer bland annat att diskutera Europas konkurrenskraft, stödet till Ukraina samt europeisk säkerhet och försvar.",
-      "fulltext": "Den 15–16 oktober reser statsminister Ulf Kristersson till Bryssel för möte i Europeiska rådet. EU:s stats- och regeringschefer kommer bland annat att diskutera Europas konkurrenskraft, stödet till Ukraina samt europeisk säkerhet och försvar.\nMot bakgrund av ett osäkert geopolitiskt läge väntas toppmötet ha ett starkt fokus på ekonomiska frågor. Ledarna kommer att diskutera åtgärder för att stärka EU:s konkurrenskraft, minska effekterna av höga energipriser för hushåll och företag samt följa upp genomförandet av unionens strategi för tillväxt och den inre marknaden. Även förhandlingarna om EU:s nästa långtidsbudget för perioden 2028–2034 står på dagordningen.\nUnder toppmötet väntas ledarna också bekräfta EU:s långsiktiga stöd till Ukraina med anledning av Rysslands fullskaliga invasion, samt diskutera Ukrainas fortsatta väg mot EU-medlemskap. Europeiska rådet ska också behandla frågor om europeisk säkerhet och försvar, inklusive arbetet med att stärka unionens försvarsberedskap och motståndskraft mot hybridhot. I den kontexten driver regeringen på för att ytterligare begränsa ryska medborgares möjligheter att få visum som tillåter dem att resa in i EU.\n– Sverige kommer att fortsätta driva på för ett långsiktigt och kraftfullt stöd till Ukraina och för ökat tryck på Ryssland. Samtidigt är vi tydliga om att EU:s nästa långtidsbudget behöver vara ansvarsfull och återhållsam. Vi behöver en bättre, inte större, EU-budget, säger statsminister Ulf Kristersson.\nVid mötet ska EU:s stats- och regeringschefer även hålla strategiska diskussioner om migration och EU:s framtida utvidgning. Därutöver väntas utvecklingen i Mellanöstern diskuteras, med fokus på regional säkerhet, sjöfart i Hormuzsundet och konsekvenser för globala försörjningskedjor.\nEuropeiska rådet utgör den högsta nivån för medlemsländernas politiska samarbete. Det är den EU-institution som fastställer EU:s allmänna politiska riktning och prioriteringar. Rådet består av de 27 medlemsländernas stats- och regeringschefer samt Europeiska rådets ordförande och Europeiska kommissionens ordförande. Rådet håller i regel fyra ordinarie toppmöten per år.\nInför mötet i Europeiska rådet samrådde statsministern med riksdagens EU-nämnd.\nSidan är uppmärkt med följande kategorier",
+      "summary": "Magdalena Andersson (S) väntas röstas ned som statsministerkandidat. Källor som SvD talat med räknar…",
+      "fulltext": "Magdalena Andersson (S) väntas röstas ned som statsministerkandidat. Källor som SvD talat med räknar med fler misslyckade försök – innan hon lyckas bilda en regering: ”Blir inte extra val, men vi har en bit kvar”.\nPå torsdagen, vid lunchtid, ska riksdagen pröva Magdalena Andersson som statsministerkandidat.\nHon har på förhand själv medgett att hon räknar med att bli nedröstad.\n– För mig har det varit uppenbart sedan vi fick valresultatet att det här är komplicerat, det kommer att ta tid och det kan krävas statsministeromröstningar, sa Magdalena Anderson till SvD i tisdags.\nTvå av de tre partierna som förväntas ingå i hennes eventuella regeringsunderlag kommer att rösta rött, Vänsterpartiet och Miljöpartiet.\nCenterpartiet hade så sent som under onsdagseftermiddagen inte kommunicerat sitt ställningstagande.\nBilden inifrån Vänsterpartiet är att det går långsamt och att riktiga förhandlingar är långt borta.\n– Det konstiga är inte att vi inte har en regering på plats, utan att processen inte har kommit längre, säger en V-källa.\nÄven om talman Andreas Norlén ger någon annan kandidat sonderingsuppdraget efter torsdagens omröstning så räknar Andersson med att fortsätta samtalen med de övriga partierna.\nEnligt SvD:s källor i de fyra partierna räknar man med att det kommer krävas flera statsministervoteringar innan förhandlingarna tar fart på riktigt.\n– Jag tror att det kan börja röra på sig efter två statsministeromröstningar, säger en källa.\nFrån Miljöpartiets sida finns också en stor oro över att budgetförhandlingen inte har kommit igång över huvud taget. Detta trots att regeringen väntas lämna en sådan på riksdagens bord till den 12 november.\nKällor understryker att nästa regering riskerar att förlora tempo i att ta sig an viktiga samhällsproblem. En risk är helt enkelt att man inte hinner genomföra sina viktigaste reformer innan valet 2030.\nVänsterpartister, som SvD talat med, argumenterar å andra sidan att voteringarna är ett medel för nå deras mål: nämligen att de ska få ministerposter.\n– Jag tycker att talmansomröstningen visar med all önskvärd tydlighet att V är beredda att rösta mot S om det krävs. Det var en liten föromröstning om frågan om regering. Innan dess fanns det snack om att vi inte skulle våga, säger en V-källa.\n– Jag tycker att vi fick önskad effekt (med talmansvalet), det var mycket känslor i riksdagen den veckan, men sedan har det fortsatt i positiv riktning. C bjöd in till seminarium, det började röra sig.\nTrots att Magdalena Andersson kommer att röstas ned på torsdagen så har hon själv understrukit att det sker framsteg i regeringsbildningsprocessen.\nHon har pekat på att S, V, MP och C säkrat egen majoritet i riksdagens utskott, gemensamt agerat för att stoppa tonårsutvisningarna samt frysa EU:s handelsavtal med Israel.\nBilden av att det rör sig åt rätt riktning, med hänvisning till samma framsteg, bekräftas av källor i hennes förmodade regeringsunderlag.\n– Jag tror inte att det blir extra val, men vi har en bit kvar.\nAndersson: Jag kommer fortsätta föra samtal",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "statsminister"
       ],
-      "first_seen": "2026-10-14T14:16:15.492147+00:00"
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9319456",
-      "title": "V-ledamotens ledighetsanökan godkänns inte",
+      "url": "https://www.svt.se/nyheter/inrikes/vad-undrar-du-om-dagens-statsministeromrostning",
+      "title": "Vad undrar du om dagens statsministeromröstning?",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-15",
+      "author": "Edith Lindvall",
+      "commentator": "",
+      "summary": "I dag, torsdag, ska riksdagen rösta om Magdalena Andersson (S) som statsminister för en enpartiregering. Vad undrar du om omröstningen? Fråga SVT:s politikreporter Erik Nilsson.",
+      "fulltext": "I dag, torsdag, ska riksdagen rösta om Magdalena Andersson (S) som statsminister för en enpartiregering. Vad undrar du om omröstningen? Fråga SVT:s politikreporter Erik Nilsson.\nS-ledaren säger själv att det krävs några statsministeromröstningar för att få till en regering som tolereras av riksdagen, och att en statsministeromröstning om henne är ett ”sätt att föra processen framåt”.\nMen hon säger också att hon är medveten om att hon kommer att falla i en sådan.\nChatten med SVT:s Erik Nilsson startar 07.30, men du kan ställa dina frågor redan nu.\nStäll dina frågor till politikreporter Erik Nilsson\nStefan • Hur länge får Sverige vara utan regering?\nSverige har en övergångsregering med Ulf Kristersson (M) som statsminister fram till att en ny regering tillträder.\nHelena • Varför ska V och C rösta rött idag i statsministeromröstningen? De vill ju att Magdalena Andersson ska bli statsminister.\nJa, men både V och MP kräver att själva få sitta i regering och därför röstar de nu nej.\nFörslaget idag handlar om en regering med bara S-ministrar.\nExtraval är samma sak som nyval. Det vill säga, att riksdagsvalet görs om för ett nytt resultat.\nJa! Omröstningen börjar vid klockan 12, och vi på SVT börjar sända en stund strax före.\nEs • Har C något krav på att sitta i regering? Jag har inte sett frågan ställas till dem.\nDe sitter gärna i regering, men har inte utfärdat något sådant ultimativt krav.\nE du från Göteborg • Vad skulle du säga om du var tvungen att spekulera kring anledningarna till att just L-ledaren Simona Mohamsson går ut så hårt mot Magdalena Andersson och dennas ledarskap? Partier som kanske egentligen är ännu mer höger, såsom M, KD och SD, har ju inte alls haft samma retorik, tvärtom.\nLiberalerna har samarbetat både vänsterut och högerut, och internt tror man att det därför kan vara svårt för väljare att lita på dem.\nDärför vill L vara övertydliga med att de kommer att stanna kvar på högersidan.\nBerra • C är det parti som står längst till höger ekonomiskt i Sveriges riksdag. Är deras SD-motstånd verkligen starkt nog att hindra dem från att bilda en borgerlig regering med Tidölaget?\nJag bedömer att Centerpartiets motstånd mot SD är väldigt starkt, och att det är osannolikt att C skulle bilda regering med Jimmie Åkesson och hans partikollegor.\nDet stämmer att C skiljer sig från till exempel V och MP i den ekonomiska politiken.\nSamtidigt har C också lyft politiska skillnader till SD, bland annat klimatpolitiken.\nC antar också att deras väljare sannolikt skulle bli mycket besvikna om de började att samarbeta med SD, eftersom SD-motståndet har varit lite av en profilfråga för C i många år.\nJesper • Hej Erik, kommer Kristersson få uppdraget och omröstning även om tidö förlorade valet?\nMen precis som Kristersson själv var inne på igår, så saknar han stöd i riksdagen. Så det är mycket osannolikt att han skulle lyckas bli vald till statsminister igen, just nu.\nPolitik-Nisse • Bedömer du att Talmannen kallar till pressträff efter dagens omröstning?\nDet hoppas vi. Han kommer säkert att komma med någon kommunikation om hur han ser på läget framåt.\nMen han sa i tisdags att han kommer att ringa runt till partiledarna, innan han bestämmer sig för vem som får sonderingsuppdraget härnäst – förutsatt att Magdalena Andersson förlorar.\nRoman Rosdolsky • Hur många ministerposter har V krävt?\nCenterpartiets partiledare Elisabeth Thand Ringqvist vill inte svara på om partiet kommer rösta för Magdalena Andersson (S) i torsdagens statsministeromröstning.\nVänsterpartiets vice partiledare Ida Gabrielsson säger att V kommer att rösta nej till Magdalena Andersson i en statsministeromröstning där alternativet är en ren S-regering.\nOch Miljöpartiets språkrör Amanda Lind skriver i en kommentar till SVT Nyheter: ”Vi tror fortfarande att en majoritetsregering med alla fyra partier är det bästa och det är det vi jobbar för.”\nTalmannen får föreslå högst fyra olika kandidater för riksdagen innan det måste bli extra val.\n– Rimligen innebär det stegvis ökad press på partierna att värdera sina alternativ. Om det ena alternativet är extra val och det ena är regeringsbildning måste man ju värdera vad man helst vill ha, sa talman Andreas Norlén på en pressträff.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-behover-en-plan-b",
+      "title": "”Magdalena Andersson behöver en plan B”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-15",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Magdalena Andersson tonar ner betydelsen av att bli nedröstad i den första statsministeromröstningen. Att den nesan bara är ett nödvändigt ont för att till sist bli tolererad av riksdagen. Men frågan är om Socialdemokraterna verkligen har en plan för det läge som uppstått.",
+      "fulltext": "Magdalena Andersson tonar ner betydelsen av att bli nedröstad i den första statsministeromröstningen.\nAtt den nesan bara är ett nödvändigt ont för att till sist bli tolererad av riksdagen.\nMen frågan är om Socialdemokraterna verkligen har en plan för det läge som uppstått.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9319716",
+      "title": "Riksdagen röstar om Magdalena Andersson (S) som statsminister",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-14",
+      "published": "2026-10-15",
       "author": "Ekot",
       "commentator": "",
-      "summary": "V-ledamoten Mohamed Alis ledighetsansökan nekas av riksdagen, meddelar talmannen. ”Överenskommelsen mellan talmannen och gruppledarna säger att det handlar om ledamöter som är misstänkta för brott och den här ledamoten är inte delgiven misstankte för brott”, säger Andreas Norlén till Ekot. Mohamed Ali ansökte om ledighet fram till i måndags, men frågan behandlades inte av talmannen, enligt Vänsterpartiets gruppledare Samuel Gonzalez Westling.",
+      "summary": "Under torsdagen kommer riksdagen att ha den första statsministeromröstningen efter valet, det är stödet för Magdalena Andersson som ska prövas i kammaren. Ingen räknar med att hon kommer att få majoritet, inte ens hon själv, eftersom både de gamla Tidö-partierna och Vänsterpartiet sagt att de kommer att rösta nej. Statsvetarprofessor Jonas Hinnfors berättar vad som kan hända nu.",
       "fulltext": "",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
+        "statsminister",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-14T14:16:15.492147+00:00"
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
     },
     {
-      "url": "https://www.dn.se/kultur/per-molander-vansterpartiet-borde-ta-efter-sverigedemokraterna",
-      "title": "Per Molander: Vänsterpartiet borde ta efter Sverigedemokraterna",
+      "url": "https://www.dn.se/sverige/experten-svarar-detta-ar-en-statsministeromrostning",
+      "title": "Experten svarar: Detta är en statsministeromröstning",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-14",
-      "author": "",
+      "published": "2026-10-15",
+      "author": "Li Brun",
       "commentator": "",
-      "summary": "Vänsterpartiet borde beakta förhandlingsteorins grundregler. Varför skulle inte V kunna göra en liknande resa mot makten som SD har gjort, frågar sig Per Molander.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-14 16:15\nArtikelns ursprungsadress: https://www.dn.se/kultur/per-molander-vansterpartiet-borde-ta-efter-sverigedemokraterna/\nVänsterpartiet borde beakta förhandlingsteorins grundregler. Varför skulle inte V kunna göra en liknande resa mot makten som SD har gjort, frågar sig Per Molander.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nEn grundregel inom förhandlingsteorin är att den part som har lättast att leva med att en förhandling strandar också är den som är starkast och kan nå ett bättre resultat. I de nu pågående regeringsförhandlingarna är det C och V som är huvudparter, medan S snarast har rollen av medlare och MP bidar sin tid.\nOm förhandlingarna strandar definitivt, blir det extraval. Med största sannolikhet skulle högerblocket vinna detta val och kunna bilda regering på egen hand. Man skulle ju ha ett extremt tungt argument i valrörelsen: de rödgröna partierna har haft chansen att bilda regering och visat sin oförmåga att utnyttja möjligheten. Vem har lättast att leva med det utfallet? V, som befinner sig så långt bort man kan komma från högerblocket i det politiska spektret, eller C, som på viktiga områden som ekonomi och arbetsmarknad är ett högerparti? Frågan är retorisk.\nOm de rödgröna partierna tillsammans mot förmodan skulle vinna ett extraval med ungefär samma styrkeförhållanden som i valet nyligen, är man tillbaka till ruta ett. Eftersom Sverige trots allt måste ha en regering, är det sannolikt att C i ett sådant läge skulle gå med på att bilda regering med M, L och KD. SD har ju generöst erbjudit sig att avstå från ministerposter för att göra en sådan lösning möjlig. Det skulle bli en svekdebatt, men C:s partiledning skulle kunna hänvisa till nödvändigheten att lösa regeringsfrågan utan att något av ”ytterlighetspartierna” sitter i regeringen. Svekdebatter brukar dessutom inte ha långvariga effekter på väljarsympatierna, och nästa val skulle ligga flera år bort.\n”Det är nu eller aldrig”, heter det från en central källa inom V ( DN 9/10 ). Vad grundar man ett så kategoriskt uttalande på? SD har ju under den gångna mandatperioden stått utanför regeringen och anses nu av sina koalitionspartner ha kvalificerat sig för att sitta med i regeringen. Varför skulle inte V kunna göra en liknande resa?\n”Det är i regeringen som den yttersta makten ligger”, har varit ett annat ledord för V. Men under den gångna mandatperioden har ju en central kritik från oppositionen och opinionsbildare ute i samhället varit att SD haft ett orimligt stort inflytande över den förda politiken, trots att man inte har suttit i regeringen. Det går uppenbarligen att utöva ett starkt inflytande på basis av en gemensam plattform, representanter i regeringskansliet och medverkan vid presskonferenser och liknande arrangemang, där politiken presenteras och diskuteras. Varför skulle inte V kunna nå framgång med en sådan lösning?\n”Tyvärr finns det fortfarande partier som inte accepterar den parlamentariska verklighet som valresultatet innebär”, skrev V:s partiledare i en kommentar till det senaste misslyckandet. Men precis samma kommentar kan fällas till V:s uppträdande under sonderingarna. Det räcker inte att titta på det senaste valresultatet; man måste också göra en analys av förhandlingsläget och de tänkbara framtida alternativen, som antyds ovan.\nAtt mogna som människa innebär bland annat att inse att livet ibland är ett val mellan ett dåligt alternativ och ett som är sämre. Det gäller också inom politiken.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nVänsterpartiets resa mot makten: ”Det är nu eller aldrig”\nRöstmottagare dömd för inblandning i mordet på Mikael\nStatsvetare: Ger främmande makt tillfälle att agera",
+      "summary": "När riksdagen röstar om Magdalena Andersson som statsminister på torsdagen väntas hon falla. Varför ser vägen till en regeringsbildning ut som den gör – och varför har vi just fyra statsministeromröstningar? En avvägningsfråga, enligt Hans Hegeland, doktor i statsvetenskap.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-15 08:14\nArtikelns ursprungsadress: https://www.dn.se/sverige/experten-svarar-detta-ar-en-statsministeromrostning/\nNär riksdagen röstar om Magdalena Andersson som statsminister på torsdagen väntas hon falla.\nVarför ser vägen till en regeringsbildning ut som den gör – och varför har vi just fyra statsministeromröstningar?\nEn avvägningsfråga, enligt Hans Hegeland, doktor i statsvetenskap.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nPå torsdagen ska riksdagen rösta om Magdalena Andersson som statsminister efter att hon sonderat regeringsunderlag. Det blir den första av max fyra statsministeromröstningar som kan hållas innan det blir nyval.\n– Till syvende och sist handlar hur fort regeringsbildningen går om hur partierna förhandlar, säger Hans Hegeland, som är doktor i statsvetenskap, jobbar som utskottsråd i finansutskottet och dessutom är expert på riksdagsordningen, som styr riksdagens arbete.\nFyra statsministeromröstningar innan det blir nyval, men varför? Enligt Hans Hegeland är det en avvägning mellan att ge partierna en chans att bilda regering å ena sidan, och att inte låta det dra ut på tiden å den andra. Regeln har vi haft i regeringsformen sedan 1974.\n– Det skapar mer frihet för talmannen och partierna att själva avgöra hur lång tid det tar, i stället för att tidsramen ska vara fastställd i lagen, säger Hans Hegeland.\nNär regeringen ska väljas behöver inte en majoritet av riksdagsledamöterna rösta ja. Det räcker att de är okej med regeringen och inte röstar nej, att regeringen inte har majoriteten emot sig. Det heter att regeringen tolereras och är en konsekvens av att vi har negativ parlamentarism.\n– Tanken är att om en statsminister inte behöver en majoritet med sig för att släppas fram så blir det enklare att få en regering på plats. Sedan kan regeringen alltid avsättas om 175 ledamöter misstror regeringen. Man kan säga att det är en säkerhetsventil för folkviljans genomslag.\nMellan 2014 och 2022 vann oppositionens budget tre gånger. Senaste gången Socialdemokraterna hade uppdraget att bilda regering, 2018, tog det 134 dagar att bilda regering, och efter årets val finns ännu ingen regering på plats.\nMen det vore fel att skylla långa regeringsbildningsprocesser och svårigheter att få igenom budgetar på att det är systemet som är trögt, dåligt eller bristfälligt, enligt Hans Hegeland.\n– Formella regler spelar en roll, men det som är avgörande är hur partierna får ihop en regering.\nHan ser en bredare och längre utveckling i Europa och internationellt där det tar allt längre tid att bilda regeringar.\n– Det beror på att våra partisystem är mer fragmentiserade. Det finns större splittring mellan partierna nu än för 40 år sedan.\nHade det varit bättre om våra regler för att bilda regering var mer likt något annat lands?\n– Jag tror inte att antalet gånger man har en statsministeromröstning är avgörande. Det kan man såklart inte veta innan man testat andra system, men det går att konstatera att det inom alla parlamentariska system som finns kan förekomma svårigheter med regeringsbildning.\nÄr det troligt att det i framtiden kommer vara svårt att bilda en regering som får igenom sin politik?\n– Det är svårt att säga, men jag tror snarare att erfarenheten från 2014–2022 är att partierna anstränger sig för att skapa regeringar som har stöd i riksdagen för sin politik. Partierna kan känna att det var för instabilt, och i framtiden försöker lösa majoritetsförhållanden.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nRegeringsdramat går vidare – här är alternativen\nSusanne Nyström: Vad i hela friden håller Simona Mohamsson på med?\nLedare: Fem nya Kumlaanstalter om året behövs – samtidigt saknas en plan",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Sverigedemokraterna",
-        "Vänsterpartiet"
+        "regeringsbildning",
+        "statsminister"
       ],
-      "first_seen": "2026-10-14T14:16:15.492147+00:00"
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/talmannens-ord-efter-omtalade-brevet-fokuserar-pa-mitt-levande-liv",
+      "title": "Talmannens ord efter omtalade brevet: ”Fokuserar på mitt levande liv”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-14",
+      "author": "Julia Lindvall, Daniel Ingmo",
+      "commentator": "",
+      "summary": "Talman Andreas Norlén vill se över reglerna för statsbegravningar. Han framhåller Finland som ett föregångsland – där riksdagens talman är en av dem som kan få en statsbegravning. När SVT frågar om brevet skjuter han frågan om sin sista vila på framtiden. – Jag fokuserar på mitt levande liv, säger han.",
+      "fulltext": "Talman Andreas Norlén vill se över reglerna för statsbegravningar.\nHan framhåller Finland som ett föregångsland – där riksdagens talman är en av dem som kan få en statsbegravning.\nNär SVT frågar om brevet skjuter han frågan om sin sista vila på framtiden.\n– Jag fokuserar på mitt levande liv, säger han.\nPå regeringskansliet bereds just nu talman Andreas Norléns förslag om att se över regelverket för statsbegravningar.\nDetta efter att ett brev inkommit till justitieminister Gunnar Strömmer (M) från Andreas Norlén dagen innan han valdes om som talman i september.\nSyftet med brevet var att uppmärksamma ministern om att Sverige saknar ett tydligt regelverk och därmed lyfta frågan om situationen borde ses över.\nI Sverige har statsbegravningar i huvudsak förknippats med kungahuset, men efter att ha tittat på Finland, ville talmannen lyfta frågan om även personer med särskild nationell betydelse skulle kunna bli föremål för en sådan begravning.\nI brevet, som Expressen var först att rapportera om, citerar Norlén ett stycke från den finska regeringens hemsida:\n”Statsrådet kan i undantagsfall besluta om att ordna eller finansiera begravning även för personer som mycket länge varit statsminister eller riksdagens talman och för personer som har särskild nationell betydelse, t.ex. Nobelpristagare.”\nTill SVT svarar nu Andreas Norlén för första gången på frågan varför han skrev brevet.\n– I min roll som talman arbetar jag med ceremoniella frågor av olika slag och då har jag konstaterat att till exempel Finland har ett regelverk för statsbegravningar och att Sverige inte har det. Och då har jag bara uppmärksammat justitiedepartementet på det och sagt att det kanske man borde se över vid lämpligt tillfälle.\nEnligt ditt förslag så ska även före detta talmän kunna inkluderas i detta – varför tycker du som talman att det är nödvändigt?\n– Jag säger inte att det är nödvändigt, utan det jag säger är att vi har inget regelverk idag på det här området och det skiljer oss från en del andra länder, till exempel vårt kära grannland Finland. Då tänker jag att det är bra att förutsättningslöst titta på den frågan. Du skulle inte ha något emot att ha en statsbegravning själv?\n– Jag väljer att fokusera på mitt levande liv och tänker att jag hoppas på att alla sådana frågor ligger långt fram i tiden.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman"
+      ],
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
+    },
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_he097",
+      "title": "Protokoll 2026/27:7 Onsdagen den 14 oktober",
+      "source": "Riksdagen",
+      "kind": "officiell",
+      "published": "2026-10-14",
+      "author": "riksdagsinformation@riksdagen.se",
+      "commentator": "",
+      "summary": "… Det är första gången sedan 1994 som det blir märkbart billigare att korsa kommungränsen. Men ju längre vänsterpartierna stökar med regeringsbildningen, desto större är risken att det stödet inte finns kvar efter den 1 januari. Trots att vänsterpartierna har lovat lägre båtpriser, inte bara för gotlänningar utan för alla, verkar Gotlandsstödet nu gå om intet när de i stället fokuserar på att bråka med varandra. … 2026-10-14",
+      "fulltext": "I kammarens protokoll finns allt som sägs i kammaren nedskrivet. I protokollet står det också hur partierna har röstat. Ett snabbprotokoll publiceras ungefär sex timmar efter att dagens sista debatt i kammaren är slut. Det slutliga protokollet är färdigt efter några veckor.\nI kammarens protokoll finns allt som sägs i kammaren nedskrivet. I protokollet står det också hur partierna har röstat. Ett snabbprotokoll publiceras ungefär sex timmar efter att dagens sista debatt i kammaren är slut. Det slutliga protokollet är färdigt efter några veckor.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/regeringsdramat-gar-vidare-har-ar-alternativen",
+      "title": "Regeringsdramat går vidare – här är alternativen",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-14",
+      "author": "Hans Rosén, Hans Olsson",
+      "commentator": "",
+      "summary": "Magdalena Anderssons första försök misslyckades. Nu ska talmannen lämna stafettpinnen vidare. Vilka är alternativen när regeringsdramat går in i andra akten? Här är DN:s guide till statsministerpusslet.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-15 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/regeringsdramat-gar-vidare-har-ar-alternativen/\nMagdalena Anderssons första försök misslyckades. Nu ska talmannen lämna stafettpinnen vidare. Vilka är alternativen när regeringsdramat går in i andra akten?\nHär är DN:s guide till statsministerpusslet.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/kristersson-inga-forutsattningar-for-en-icke-socialistisk-regering",
+      "title": "Kristersson: Inga förutsättningar för en icke-socialistisk regering",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-14",
+      "author": "Hans Olsson",
+      "commentator": "",
+      "summary": "Statsminister Ulf Kristersson (M) ser inte att det just nu finns några förutsättningar för att han ska kunna bilda en regering. – Att slänga bort omröstningar som man vet misslyckas är att slösa på svenska folkets tålamod, säger han.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-15 08:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/kristersson-inga-forutsattningar-for-en-icke-socialistisk-regering/\nStatsminister Ulf Kristersson (M) ser inte att det just nu finns några förutsättningar för att han ska kunna bilda en regering.\n– Att slänga bort omröstningar som man vet misslyckas är att slösa på svenska folkets tålamod, säger han.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-10-15T06:16:07.890673+00:00"
     }
   ]
 }
