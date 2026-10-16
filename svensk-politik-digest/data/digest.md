@@ -1,31 +1,34 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-16
 
-4 nya poster sedan förra utskicket (47 redan utskickade, 148 utanför ämnet).
+5 nya poster sedan förra utskicket (45 redan utskickade, 152 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Pourmokhtari nobbar C: ”Lovat enhörningar”](https://www.svd.se/a/1od53q/romina-pourmokhtari-l-sager-nej-till-centerpartiets-mittenlosning)
-SvD Ledare · 2026-10-15 · Karin Thurfjell
+### [Hotet om extra val ökar pressen på partierna](https://www.svd.se/a/Elq7jG/hotet-om-extra-val-okar-pressen-pa-partierna)
+SvD Ledare · 2026-10-16 · Niklas Svahn/TT
 
-Liberalerna nobbar Centerpartiets mittendröm och säger nej till Magdalena Andersson som…
+Trycket på de rödgröna att komma överens ökar efter en första statsministeromröstning av fyra…
+
+### [Talmannen ger besked på måndag](https://www.svd.se/a/ylbPRx/talmannen-ger-besked-pa-mandag)
+SvD Ledare · 2026-10-16 · Niklas Svahn/TT
+
+Talman Andreas Norlén kallar till pressträff på måndag för att berätta om nästa steg i…
 
 ## Rapportering
 
-### [”Nu ökar pressen på Magdalena Andersson”](https://www.svt.se/nyheter/inrikes/nu-okar-pressen-pa-magdalena-andersson) **[kommentator]**
-SVT Nyheter · 2026-10-15 · Mats Knutson
+### [Så mycket kan ett extra val kosta](https://www.sverigesradio.se/artikel/9321073)
+Ekot, Sveriges Radio · 2026-10-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Det tydliga nederlaget i statsministeromröstningen var visserligen väntat, men är samtidigt symboliskt jobbigt för Magdalena Andersson, som utropat sig till valvinnare och firat med tårta på partihögkvarteret. Nu tar Sverige ett steg närmare ett extraval och därmed ökar pressen på inblandade partier.
+Sverige har inte fått någon ny regering efter valet, igår torsdag stoppade riksdagen i en omröstning Socialdemokraternas Magdalena Andersson från att bli statsminister. Efter fyra misslyckade statsministeromröstningar blir det automatiskt extra val och det ska sedan hållas inom tre månader efter det att regeringen har utlyst det. ”Nästan exakt som ett ordinarie val bara mycket mer begränsad tid", säger Valmyndighetens kanslichef Anna Nyqvist.
 
-### [Andersson nedröstad – så kan sonderingsrundorna fortsätta](https://www.svt.se/nyheter/inrikes/andersson-nedrostad-sa-kan-sonderingsrundorna-fortsatta)
-SVT Nyheter · 2026-10-15 · Mathilda Ståhl
+### [DN:s politikreportrar chattade med läsarna om läget i regeringsbildningen](https://www.dn.se/sverige/chatta-med-dns-politikreportrar-om-regeringsbildningen)
+DN Nyheter · 2026-10-16 · DN
 
-Magdalena Andersson röstades ned som statsministerkandidat med 248 röster emot och 99 röster för. Under eftermiddagen har talmannen hållit samtal med övriga partiledare men ännu är det oklart vem som får sonderingsuppdraget härnäst.
+DN:s Hanna Jakobsson och Evelyn Jones besvarade läsarnas frågor om läget i politiken. Läs chatten här nere:
 
-## Officiella besked
+### [Talmannen skjuter upp besked om sondering](https://www.dn.se/sverige/talmannen-skjuter-upp-besked-om-sondering)
+DN Nyheter · 2026-10-16 · Sofia Clason
 
-### [Protokoll 2026/27:8 Torsdagen den 15 oktober](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_he098)
-Riksdagen · 2026-10-15 · riksdagsinformation@riksdagen.se
+Talman Andreas Norlén skjuter upp beskedet om vem som får sonderingsuppdraget efter Magdalena Andersson. Han sätter samtidigt press på partierna om att prata med varandra. – Det kan tyda på att det är tyst verkstad, säger statsvetarprofessorn Henrik Ekengren Oscarsson.
 
-… Att ha förberett sig för att kunna regera är en annan sak. Herr talman! Vi moderater har stor respekt för att regeringsbildningar kan vara komplicerade. Att samla partier med olika politiska utgångspunkter kring en gemensam regeringspolitik kräver både tålamod, kompromissvilja och ansvarstagande. Det vet vi av egen erfarenhet. Men jag tycker ändå att det väcker berättigade frågor. … 2026-10-15
-
-_Genererat 2026-10-16T06:20:14.507553+00:00._
+_Genererat 2026-10-16T14:17:12.172328+00:00._
