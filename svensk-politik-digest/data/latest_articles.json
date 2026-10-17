@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-16T14:17:12.172328+00:00",
+  "fetched_at": "2026-10-17T06:15:48.405092+00:00",
   "new_count": 5,
   "skipped": {
-    "seen": 45,
-    "offtopic": 152,
+    "seen": 47,
+    "offtopic": 150,
     "old": 8
   },
-  "fetch_errors": 1,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,91 +65,95 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/Elq7jG/hotet-om-extra-val-okar-pressen-pa-partierna",
-      "title": "Hotet om extra val ökar pressen på partierna",
-      "source": "SvD Ledare",
+      "url": "https://www.dn.se/ledare/amanda-sokolnicki-nu-ror-vi-oss-i-snabb-takt-mot-ett-extra-val",
+      "title": "Amanda Sokolnicki: Nu rör vi oss i snabb takt mot ett extra val",
+      "source": "DN Nyheter",
       "kind": "kommentar",
-      "published": "2026-10-16",
-      "author": "Niklas Svahn/TT",
-      "commentator": "",
-      "summary": "Trycket på de rödgröna att komma överens ökar efter en första statsministeromröstning av fyra…",
-      "fulltext": "Trycket på de rödgröna att komma överens ökar efter en första statsministeromröstning av fyra möjliga.\n– Omröstningarna är ett spel. Så var det inte tänkt att de skulle användas, säger Tommy Möller, professor i statsvetenskap vid Stockholms universitet.\nS-ledaren Magdalena Andersson röstades ner i riksdagen under torsdagen.\nRegeringsformen slår fast att tre voteringar nu återstår. Har man inte kunnat välja en statsminister då utlyses automatiskt ett extra val.\nDetta faktum har av både politiker och statsvetare beskrivits som en nödvändig press för att få partierna att sätta sig ned och komma överens.\nTalman Andreas Norlén ska nu återigen utse en så kallad sonderingsperson som får i uppdrag att undersöka möjligheterna att samla stöd för en regering. Den personen behöver inte ställas inför en omröstning, men Norlén har antytt att det vore naturligt. På måndag lämnar talmannen besked om nästa steg.\n– Man kan säga att man använder de här omröstningarna som någon sorts spel, alltså ett extra valspel, att ju närmare man kommer den fjärde omröstningen desto mer press blir det på partierna. Så var det inte tänkt, säger Tommy Möller.\nMöller tror att Norlén utser Moderatledaren Ulf Kristersson till sonderingsperson.\n– Han skulle kunna göra det väldigt kort och kanske bara ringa till (C-ledaren Elisabeth) Thand Ringqvist och få det bekräftat att det fortfarande inte finns någon möjlighet att samarbeta. Han kan inte tvingas ställa upp i en omröstning. Men han kanske gör det, precis som Magdalena Andersson valde att göra, för att driva processen framåt.\nOm Kristersson skulle röstas ner återstår två försök och pressen ökar ytterligare.\nNär Stefan Löfven (S) röstades fram som statsminister efter den rekordlånga regeringsbildningen 2018 gick det på tredje försöket.\nTommy Möller tror inte att Thand Ringqvist skulle ställas inför en votering, än mindre KD-ledaren Ebba Busch.\nSnarare då att de röda linjerna mellan C och V luckras upp, på något osannolikt sätt, och en lösning uppenbarar sig i den rödgröna majoriteten, enligt Möller. Om det så är med ett, två, tre eller fyra partier i regering.\n– De rödgröna är angelägna om att inte få ett extra val. Om man inte klarar av att bilda regering framstår det som osannolikt att man skulle få nytt förtroende från väljarna, säger han.\nOm Magdalena Andersson inte väljs i en tredje omröstning betyder det inte heller att loppet är kört för de rödgröna.\n– Det är ingenting som hindrar att Magdalena Andersson förlorar en tredje omröstning och ändå läggs fram i en fjärde, säger Möller.",
+      "published": "2026-10-17",
+      "author": "Amanda Sokolnicki",
+      "commentator": "Amanda Sokolnicki",
+      "summary": "Centerpartiet måste komma ut i verkligheten, säger Vänsterpartiet. Den verkligheten ser ut att bli ett extra val.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-17 08:14\nArtikelns ursprungsadress: https://www.dn.se/ledare/amanda-sokolnicki-nu-ror-vi-oss-i-snabb-takt-mot-ett-extra-val/\nCenterpartiet måste komma ut i verkligheten, säger Vänsterpartiet.\nDen verkligheten ser ut att bli ett extra val.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nVad är egentligen problemet? Efter att ha tvingats lyssna på försiktiga talepunkter i flera veckor är det befriande att höra den tidigare Centerledaren Maud Olofsson explodera i Aktuellt : ”Vet du Ulla, du är oförskämd när du säger det där: ’Ni har en dröm som ni måste ge upp’, det kommer inte att hålla om man ska samarbeta om man har den attityden, och tyvärr har Vänsterpartiet haft den attityden hela tiden efter valet. Det bygger inga relationer och ingen tillit!”\nUlla? Det är Ulla Andersson, V-veteranen som står i SVT-studion och precis har upprepat att ”Centerpartiet har sprungit runt i sin dröm” när de säger nej till vänsterpartistiska ministrar.\nNågon behöver ju ge sig, om oppositionen ska lyckas bilda regering. Och det kommer att bli Centerpartiet, tycks nu allt fler anta.\n64 procent av svenskarna vill inte ha Vänsterpartiet i regeringen, visar en ny mätning från Novus . Även bland väljare som röstat på S, C, MP och V säger 41 procent nej.\nÄndå är det just detta som Ulla Andersson anser är den ”verklighet” som Centerpartiet måste acceptera.\nI vårt land tenderar åsikter att svänga snabbt och i klunga; många är imponerande snabbfotade när signalen går. Och efter det här valet är den nya sanningen att alla partier i regeringsunderlaget måste få ministerposter.\nHur det sett ut tidigare spelar mindre roll.\nFör Tidöpartierna är det förstås en mycket praktisk ny sanning: Då ser det mindre dramatiskt ut när de vill förse Sverigedemokraterna med ministerposter sedan. Mer förvånande är kanske att så många journalister går med på den beskrivningen.\nCenterpartiet har dessutom redan gjort en stor eftergift genom att öppna för att ingå i samma regeringsunderlag som Vänsterpartiet. De är beredda att gå dit, men inte längre.\nElisabeth Thand Ringqvist har också lärt sig av Liberalerna hur lätt man blir uppäten av ytterkantspartier om man inte har klart för sig var de egna gränserna går. Så på vad bygger antagandet att hon ska ändra sig? Att andra – som inte företräder Centerns intressen och sakpolitik – säger det?\nKlart är i alla fall att den här nya sanningen minskar pressen på Vänsterpartiet att ändra hållning. Och att ett extra val därmed närmar sig.\nFör visst, att ge sig ut i en ny valrörelse har setts som en omöjlighet. Alla partier i opposition förlorar på det – och därför borde det inte hända. Det är logiskt.\nMen är vi säkra på att det här kommer att få ett logiskt slut?\nNej, det mest troliga scenariot just nu är nog att omgivningen fortsätter att missförstå Centerpartiet. Och att Vänsterpartiet fortsätter att kräva ministerposter – och får se inflytelserika ut en stund.\nJa, ungefär som när Vänsterpartiet tillsammans med Tidöpartierna fällde Stefan Löfven sommaren 2021. Nooshi Dadgostar har aldrig haft så högt förtroende i mätningarna som då. Högern älskade henne ju.\nMånga återkommer till den händelsen nu: Läxan från den gången är att Vänsterpartiet menar allvar med sina hot, säger de. Vänstern kommer inte att backa. Men är det verkligen den viktigaste läxan från den sommaren? Är inte lärdomen snarare vad som hände efter Nooshi Dadgostars maktdemonstration? Vad hon bäddade för?\nFör samma scenario ser nu alltmer troligt ut: Vänsterpartiet får visa musklerna i några veckor och överöses med kärlek och ryggdunkar från höger. Och sedan? Då väntar extra val – och ja, en ny Tidöregering.\nVänsterpartiets attityd är en strategisk gåva till Ulf Kristersson.\nDet skulle förstås vara ett enormt nederlag för alla väljare som inte vill återgå till Tidöepoken, inte minst för Centerpartiets. Men Centern har – till skillnad från Vänsterpartiet – alternativ i framtiden. Det här valet var det till exempel bara sju mandat som saknades för att kunna bilda en regering i mitten genom att göra upp med Ebba Busch (KD).\nOch Vänsterpartiet? Ja, det skulle efter ett extra val parkera sig längst ut till vänster i ett land som inte haft en vänstermajoritet på ett kvarts sekel.\nMen Nooshi Dadgostar får i alla fall se mäktig ut i några veckor hösten 2026. Grattis!\nAmanda Sokolnicki: Spelet mot Centern avslöjar högerns dubbelmoral\nDN:s ledarredaktion: Danska forskare leker med afrikanska barns liv\n”Är det rimligt att veta så mycket om ett par bröst?”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Danska forskare leker med afrikanska barns liv\nAmanda Sokolnicki: Spelet mot Centern avslöjar högerns dubbelmoral\nDN Debatt. ”Vår ensidiga demokratisyn har gjort det svårare att regera”",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister"
+        "Centerpartiet",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-16T14:17:12.172328+00:00"
+      "first_seen": "2026-10-17T06:15:48.405092+00:00"
     },
     {
-      "url": "https://www.svd.se/a/ylbPRx/talmannen-ger-besked-pa-mandag",
-      "title": "Talmannen ger besked på måndag",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-16",
-      "author": "Niklas Svahn/TT",
-      "commentator": "",
-      "summary": "Talman Andreas Norlén kallar till pressträff på måndag för att berätta om nästa steg i…",
-      "fulltext": "Talman Andreas Norlén kallar till pressträff på måndag för att berätta om nästa steg i regeringsbildningen, meddelar han i ett pressmeddelande.\n”Jag kommer nu att reflektera över den information jag har fått från partiledarna och ha fortsatta diskussioner. Jag förutsätter också att även partiledarna utnyttjar tiden väl för sina fortsatta samtal. Det krävs inte att någon har ett formellt sonderingsuppdrag för att partierna ska kunna ha dialog med varandra”, säger Norlén i pressmeddelandet.\nHan har diskuterat läget med partiledarna och språkrören på telefon. Statsminister Ulf Kristersson (M) hade sitt samtal med talmannen sent på torsdagskvällen efter att ha suttit inlåst på EU-toppmöte i Bryssel hela dagen.\nKristersson upprepade då till Norlén att han tycker att de fyra partier som vill se en socialdemokratiskt ledd regering, och har en majoritet i riksdagen, i första hand ska försöka bilda en regering i någon konstellation. Själv kan han tänka sig att undersöka förutsättningarna för en ”icke-socialistisk regering”, men då måste förutsättningarna ändras.\n– Skulle det visa sig stora eller små öppningar för en annan regering, i någon slags konstellation, då kommer jag den dagen också vara fullt beredd att pröva det mycket mera skarpt, men där är vi inte ännu, säger han till journalister i Bryssel.\nOm Norlén ändå ber honom att sondera möjligheten att försöka bilda en ny regering kommer han inte att säga nej.\n– Alla, förutsätter jag, kommer att ha respekt för talmannens beslut, säger Kristersson.\nI helgen kommer Norlén fortsätta att ha informella samtal och återkomma med besked på måndag klockan 13.30.\nUnder torsdagen röstades S-ledaren Magdalena Andersson ner som statsminister av riksdagen. Läget verkar fortsatt låst på den rödgröna sidan, där C och V har tydliga röda linjer mot varandra.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman"
-      ],
-      "first_seen": "2026-10-16T14:17:12.172328+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9321073",
-      "title": "Så mycket kan ett extra val kosta",
+      "url": "https://www.sverigesradio.se/artikel/9321389",
+      "title": "Kristersson efter EU-toppmötet: ”Långt ifrån varandra”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-16",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Sverige har inte fått någon ny regering efter valet, igår torsdag stoppade riksdagen i en omröstning Socialdemokraternas Magdalena Andersson från att bli statsminister. Efter fyra misslyckade statsministeromröstningar blir det automatiskt extra val och det ska sedan hållas inom tre månader efter det att regeringen har utlyst det. ”Nästan exakt som ett ordinarie val bara mycket mer begränsad tid\", säger Valmyndighetens kanslichef Anna Nyqvist.",
+      "summary": "EU-toppmötet i Bryssel präglades av stor osäkerhet. Bland annat kring hur man ska enas om en ny budget, hur man ska stötta Ukraina och hur man ska hantera migrationen. Inga framsteg gjordes och nu flyttas det upp till högsta nivå , EU:s ordförande Antonio Costa ska leda förhandlingarna framåt. ”Det finns inte en gnutta av enighet i detta”, sa statsminister Ulf Kristersson.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321073'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321389'",
       "matched_terms": [
-        "statsminister",
-        "Socialdemokraterna"
+        "statsminister"
       ],
-      "first_seen": "2026-10-16T14:17:12.172328+00:00"
+      "first_seen": "2026-10-17T06:15:48.405092+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/chatta-med-dns-politikreportrar-om-regeringsbildningen",
-      "title": "DN:s politikreportrar chattade med läsarna om läget i regeringsbildningen",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9321260",
+      "title": "Kristersson: Inte min tur att sondera ny regering",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-16",
-      "author": "DN",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "DN:s Hanna Jakobsson och Evelyn Jones besvarade läsarnas frågor om läget i politiken. Läs chatten här nere:",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-16 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/chatta-med-dns-politikreportrar-om-regeringsbildningen/\nDN:s Hanna Jakobsson och Evelyn Jones besvarade läsarnas frågor om läget i politiken.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTalmannen skjuter upp besked om sondering\nLyckades knäcka den politiska nöten: C kliver in i rödgrönt styre\nMax Hjelm: Kultur kan inte bara handla om att bevara Vasaskeppet",
+      "summary": "Statsminister Ulf Kristersson tycker inte att det är han, som i det här läget ska ha sonderingsuppdraget för en ny svensk regering. Men om han får frågan, så säger han inte nej till talmannen. ”Det är klart att finns det förutsättningar, om någonting håller på att förändras, då ska alla veta att jag inte är blyg. Jag kommer inte undvika att pröva en sådan regeringsbildning som jag tycker skulle vara bra för Sverige”, säger Ulf Kristersson (M).",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321260'",
       "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-16T14:17:12.172328+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/talmannen-skjuter-upp-besked-om-sondering",
-      "title": "Talmannen skjuter upp besked om sondering",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-16",
-      "author": "Sofia Clason",
-      "commentator": "",
-      "summary": "Talman Andreas Norlén skjuter upp beskedet om vem som får sonderingsuppdraget efter Magdalena Andersson. Han sätter samtidigt press på partierna om att prata med varandra. – Det kan tyda på att det är tyst verkstad, säger statsvetarprofessorn Henrik Ekengren Oscarsson.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-16 16:16\nArtikelns ursprungsadress: https://www.dn.se/sverige/talmannen-skjuter-upp-besked-om-sondering/\nTalman Andreas Norlén skjuter upp beskedet om vem som får sonderingsuppdraget efter Magdalena Andersson. Han sätter samtidigt press på partierna om att prata med varandra.\n– Det kan tyda på att det är tyst verkstad, säger statsvetarprofessorn Henrik Ekengren Oscarsson.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFörst på måndag väntas ett svar från talman Andreas Norlén om nästa steg i processen för att få en regering på plats. Tidigare var det sagt att ett besked skulle komma i dag, fredag.\nI stället har talmannen pratat med partiföreträdarna i telefon.\n– Jag kommer nu att reflektera över den information jag har fått från partiledarna och ha fortsatta diskussioner. Jag förutsätter också att även partiledarna utnyttjar tiden väl för sina fortsatta samtal. Det krävs inte att någon har ett formellt sonderingsuppdrag för att partierna ska kunna ha dialog med varandra, säger talmannen i ett uttalande.\nNu väntar fler informella samtal inför måndagen, då Andreas Norlén har kallat till en pressträff vid 13.30-tiden.\nHenrik Ekengren Oscarsson, professor i statsvetenskap vid Göteborgs universitet, tror att det uppskjutna beskedet kan innebära att arbetet rör på sig bakom stängda dörrar.\n– Det kan betyda att det händer någonting i bakgrunden, men det går ju inte att veta vad det är, säger Henrik Ekengren Oscarsson.\n– Men ju tystare det är desto mer händer. Det är det som är lärdomen från förra gången och från regeringsbildningsprocesser generellt, fortsätter han.\nStatsvetaren Jonas Hinnfors, professor emeritus vid Göteborgs universitet, lägger fram en annan möjlig anledning. Om partierna får fler dagar att diskutera utan att någon har pressen på sig som sonderingsuppdraget innebär, kan det öppna för friare samtal i fler partikonstellationer.\n– Om Andreas Norlén sätter upp en deadline är det klart att det blir en viss tidspress. Men det är inte säkert att det fungerar. Det såg vi med Magdalena Andersson, säger Jonas Hinnfors.\nFrågan om ett nytt sonderingsuppdrag har blivit aktuell igen efter torsdagens statsministeromröstning då S-ledaren Magdalena Andersson röstades ned. Riksdagsledamöterna fick ta ställning till om hon skulle få bilda en ren S-regering, vilket slutade med en klar majoritet för nej-sidan . Bara Socialdemokraternas 99 ledamöter tryckte grönt. De andra 248 ledamöterna som var närvarande tryckte rött.\nMagdalena Andersson sade efteråt att det var ett ”helt förväntat” resultat och att hon nu fortsätter samtalen med olika partier. Hon sade också att hon tycker att M-ledaren Ulf Kristersson borde få sonderingsuppdraget härnäst.\nKristersson själv har varit skeptisk. De rödgröna partierna, som alla har Andersson som statsministerkandidat, har tillsammans en majoritet i riksdagen med 176 mandat mot Tidöpartiernas 173. M-ledaren har sagt att han i nuläget inte ser de parlamentariska förutsättningarna för en regering med honom i spetsen.\n– Ja, vad händer då? Det är okänd mark, men det är ju talmannen som äger vad han väljer att kalla saker, säger Henrik Ekengren Oscarsson.\nJonas Hinnfors instämmer om att ett sådant läge inte uppstått tidigare. Det finns ingen regel i grundlagen som säger att någon måste tacka ja.\n– Under väldigt lång tid var det nästan alltid hyfsat enkelt. Det fanns ett vänsteralternativ och ett högeralternativ, säger han.\nDagens situation, med partiförflyttningar och röda linjer, har lett till en otydligare spelplan som liknar den i många andra europeiska länder. En följd är att regeringsbildningen blir mer komplicerad och tar längre tid.\n– Förr eller senare kommer någon att vilja ha sonderingsuppdraget, men då behöver man ha samtalen på plats. Sedan ska man inte vara rädd för extraval heller. Det är demokratin i arbete, säger Jonas Hinnfors och fortsätter:\n– Däremot tror jag att många partier är rädda för det. Det kan få dem att börja vilja ha uppdraget och börja förhandla.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nDN:s politikreportrar chattade med läsarna om läget i regeringsbildningen\nRiksdagen säger nej till Magdalena Andersson som statsminister\nLyckades knäcka den politiska nöten: C kliver in i rödgrönt styre",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
+        "regeringsbildning",
         "talman",
-        "sondering"
+        "sondering",
+        "statsminister"
       ],
-      "first_seen": "2026-10-16T14:17:12.172328+00:00"
+      "first_seen": "2026-10-17T06:15:48.405092+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9321115",
+      "title": "Fredrik Furtenbach: ”Talmannens jobb är ovanligt svårt den här gången”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-16",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "På fredagen har det gått 33 dagar sedan Sverige gick till val. Talmannen Andreas Norlén har kallat till pressträff på måndag, med anledning av nästa steg i regeringsbildningen. Att partierna är oeniga om vem som bör få uppdraget att sondera, gör talmannens jobb ovanligt svårt just nu, enligt Ekots inrikespolitiska kommentator Fredrik Furtenbach. Kan talmannen tvinga någon att sondera? Och vilka scenarier väntar framåt? Hör Fredrik Furtenbach förklara läget i regeringsbildningen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321115'",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman"
+      ],
+      "first_seen": "2026-10-17T06:15:48.405092+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/brak-bakom-kulisserna-c-vagrar-delta-i-rodgrona-moten",
+      "title": "Bråk bakom kulisserna: C vägrar delta i rödgröna möten",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-16",
+      "author": "Pia Gripenberg",
+      "commentator": "",
+      "summary": "S, V, MP och C kom efter valet överens om att säkra en rödgrön majoritet i riksdagens utskott. Men ett organiserat samarbete vill Centerpartiet inte vara med på. – Jag är väldigt förvånad över Centerpartiets inställning, säger Samuel Gonzalez Westling, Vänsterpartiets gruppledare.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-17 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/brak-bakom-kulisserna-c-vagrar-delta-i-rodgrona-moten/\nS, V, MP och C kom efter valet överens om att säkra en rödgrön majoritet i riksdagens utskott. Men ett organiserat samarbete vill Centerpartiet inte vara med på.\n– Jag är väldigt förvånad över Centerpartiets inställning, säger Samuel Gonzalez Westling, Vänsterpartiets gruppledare.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-17T06:15:48.405092+00:00"
     }
   ]
 }

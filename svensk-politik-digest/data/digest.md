@@ -1,34 +1,34 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-16
+# Svensk politik och regeringsförhandlingarna — 2026-10-17
 
-5 nya poster sedan förra utskicket (45 redan utskickade, 152 utanför ämnet).
+5 nya poster sedan förra utskicket (47 redan utskickade, 150 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Hotet om extra val ökar pressen på partierna](https://www.svd.se/a/Elq7jG/hotet-om-extra-val-okar-pressen-pa-partierna)
-SvD Ledare · 2026-10-16 · Niklas Svahn/TT
+### [Amanda Sokolnicki: Nu rör vi oss i snabb takt mot ett extra val](https://www.dn.se/ledare/amanda-sokolnicki-nu-ror-vi-oss-i-snabb-takt-mot-ett-extra-val) **[kommentator]**
+DN Nyheter · 2026-10-17 · Amanda Sokolnicki
 
-Trycket på de rödgröna att komma överens ökar efter en första statsministeromröstning av fyra…
-
-### [Talmannen ger besked på måndag](https://www.svd.se/a/ylbPRx/talmannen-ger-besked-pa-mandag)
-SvD Ledare · 2026-10-16 · Niklas Svahn/TT
-
-Talman Andreas Norlén kallar till pressträff på måndag för att berätta om nästa steg i…
+Centerpartiet måste komma ut i verkligheten, säger Vänsterpartiet. Den verkligheten ser ut att bli ett extra val.
 
 ## Rapportering
 
-### [Så mycket kan ett extra val kosta](https://www.sverigesradio.se/artikel/9321073)
+### [Kristersson efter EU-toppmötet: ”Långt ifrån varandra”](https://www.sverigesradio.se/artikel/9321389)
 Ekot, Sveriges Radio · 2026-10-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sverige har inte fått någon ny regering efter valet, igår torsdag stoppade riksdagen i en omröstning Socialdemokraternas Magdalena Andersson från att bli statsminister. Efter fyra misslyckade statsministeromröstningar blir det automatiskt extra val och det ska sedan hållas inom tre månader efter det att regeringen har utlyst det. ”Nästan exakt som ett ordinarie val bara mycket mer begränsad tid", säger Valmyndighetens kanslichef Anna Nyqvist.
+EU-toppmötet i Bryssel präglades av stor osäkerhet. Bland annat kring hur man ska enas om en ny budget, hur man ska stötta Ukraina och hur man ska hantera migrationen. Inga framsteg gjordes och nu flyttas det upp till högsta nivå , EU:s ordförande Antonio Costa ska leda förhandlingarna framåt. ”Det finns inte en gnutta av enighet i detta”, sa statsminister Ulf Kristersson.
 
-### [DN:s politikreportrar chattade med läsarna om läget i regeringsbildningen](https://www.dn.se/sverige/chatta-med-dns-politikreportrar-om-regeringsbildningen)
-DN Nyheter · 2026-10-16 · DN
+### [Kristersson: Inte min tur att sondera ny regering](https://www.sverigesradio.se/artikel/9321260)
+Ekot, Sveriges Radio · 2026-10-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-DN:s Hanna Jakobsson och Evelyn Jones besvarade läsarnas frågor om läget i politiken. Läs chatten här nere:
+Statsminister Ulf Kristersson tycker inte att det är han, som i det här läget ska ha sonderingsuppdraget för en ny svensk regering. Men om han får frågan, så säger han inte nej till talmannen. ”Det är klart att finns det förutsättningar, om någonting håller på att förändras, då ska alla veta att jag inte är blyg. Jag kommer inte undvika att pröva en sådan regeringsbildning som jag tycker skulle vara bra för Sverige”, säger Ulf Kristersson (M).
 
-### [Talmannen skjuter upp besked om sondering](https://www.dn.se/sverige/talmannen-skjuter-upp-besked-om-sondering)
-DN Nyheter · 2026-10-16 · Sofia Clason
+### [Fredrik Furtenbach: ”Talmannens jobb är ovanligt svårt den här gången”](https://www.sverigesradio.se/artikel/9321115) **[kommentator]**
+Ekot, Sveriges Radio · 2026-10-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Talman Andreas Norlén skjuter upp beskedet om vem som får sonderingsuppdraget efter Magdalena Andersson. Han sätter samtidigt press på partierna om att prata med varandra. – Det kan tyda på att det är tyst verkstad, säger statsvetarprofessorn Henrik Ekengren Oscarsson.
+På fredagen har det gått 33 dagar sedan Sverige gick till val. Talmannen Andreas Norlén har kallat till pressträff på måndag, med anledning av nästa steg i regeringsbildningen. Att partierna är oeniga om vem som bör få uppdraget att sondera, gör talmannens jobb ovanligt svårt just nu, enligt Ekots inrikespolitiska kommentator Fredrik Furtenbach. Kan talmannen tvinga någon att sondera? Och vilka scenarier väntar framåt? Hör Fredrik Furtenbach förklara läget i regeringsbildningen.
 
-_Genererat 2026-10-16T14:17:12.172328+00:00._
+### [Bråk bakom kulisserna: C vägrar delta i rödgröna möten](https://www.dn.se/sverige/brak-bakom-kulisserna-c-vagrar-delta-i-rodgrona-moten)
+DN Nyheter · 2026-10-16 · Pia Gripenberg
+
+S, V, MP och C kom efter valet överens om att säkra en rödgrön majoritet i riksdagens utskott. Men ett organiserat samarbete vill Centerpartiet inte vara med på. – Jag är väldigt förvånad över Centerpartiets inställning, säger Samuel Gonzalez Westling, Vänsterpartiets gruppledare.
+
+_Genererat 2026-10-17T06:15:48.405092+00:00._
