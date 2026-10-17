@@ -1,5 +1,5 @@
 {
- "skapad": "2026-10-16",
+ "skapad": "2026-10-17",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -1035,24 +1035,24 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "4584 artiklar i 7 flöden",
-   "varde": 4584.0
+   "detalj": "4794 artiklar i 7 flöden",
+   "varde": 4794.0
   },
   {
    "grupp": "aktualitet",
    "id": "wikidata_foljare",
    "beskrivning": "Följarantal från Wikidata",
    "status": "ok",
-   "detalj": "54 konton med följarantal",
-   "varde": 54.0
+   "detalj": "55 konton med följarantal",
+   "varde": 55.0
   },
   {
    "grupp": "aktualitet",
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-10-12, 4 dagar sedan",
-   "varde": 4.0
+   "detalj": "senaste dokument 2026-10-12, 5 dagar sedan",
+   "varde": 5.0
   },
   {
    "grupp": "volym",
@@ -1427,16 +1427,16 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "955 rader (förra 909)",
-   "varde": 955.0
+   "detalj": "1009 rader (förra 955)",
+   "varde": 1009.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "54 rader (förra 54)",
-   "varde": 54.0
+   "detalj": "55 rader (förra 54)",
+   "varde": 55.0
   },
   {
    "grupp": "volym",
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "470 rader (förra 461)",
-   "varde": 470.0
+   "detalj": "482 rader (förra 470)",
+   "varde": 482.0
   },
   {
    "grupp": "volym",
