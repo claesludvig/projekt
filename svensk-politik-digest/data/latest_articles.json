@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-17T06:15:48.405092+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-10-17T14:02:41.595224+00:00",
+  "new_count": 1,
   "skipped": {
-    "seen": 47,
+    "seen": 52,
     "offtopic": 150,
-    "old": 8
+    "old": 7
   },
-  "fetch_errors": 3,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,95 +65,23 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/ledare/amanda-sokolnicki-nu-ror-vi-oss-i-snabb-takt-mot-ett-extra-val",
-      "title": "Amanda Sokolnicki: Nu rör vi oss i snabb takt mot ett extra val",
+      "url": "https://www.dn.se/sverige/mp-irritationen-mot-c-efter-beskedet-bara-spel",
+      "title": "MP-irritationen mot C efter beskedet: ”Bara spel”",
       "source": "DN Nyheter",
-      "kind": "kommentar",
+      "kind": "nyhet",
       "published": "2026-10-17",
-      "author": "Amanda Sokolnicki",
-      "commentator": "Amanda Sokolnicki",
-      "summary": "Centerpartiet måste komma ut i verkligheten, säger Vänsterpartiet. Den verkligheten ser ut att bli ett extra val.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-17 08:14\nArtikelns ursprungsadress: https://www.dn.se/ledare/amanda-sokolnicki-nu-ror-vi-oss-i-snabb-takt-mot-ett-extra-val/\nCenterpartiet måste komma ut i verkligheten, säger Vänsterpartiet.\nDen verkligheten ser ut att bli ett extra val.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nVad är egentligen problemet? Efter att ha tvingats lyssna på försiktiga talepunkter i flera veckor är det befriande att höra den tidigare Centerledaren Maud Olofsson explodera i Aktuellt : ”Vet du Ulla, du är oförskämd när du säger det där: ’Ni har en dröm som ni måste ge upp’, det kommer inte att hålla om man ska samarbeta om man har den attityden, och tyvärr har Vänsterpartiet haft den attityden hela tiden efter valet. Det bygger inga relationer och ingen tillit!”\nUlla? Det är Ulla Andersson, V-veteranen som står i SVT-studion och precis har upprepat att ”Centerpartiet har sprungit runt i sin dröm” när de säger nej till vänsterpartistiska ministrar.\nNågon behöver ju ge sig, om oppositionen ska lyckas bilda regering. Och det kommer att bli Centerpartiet, tycks nu allt fler anta.\n64 procent av svenskarna vill inte ha Vänsterpartiet i regeringen, visar en ny mätning från Novus . Även bland väljare som röstat på S, C, MP och V säger 41 procent nej.\nÄndå är det just detta som Ulla Andersson anser är den ”verklighet” som Centerpartiet måste acceptera.\nI vårt land tenderar åsikter att svänga snabbt och i klunga; många är imponerande snabbfotade när signalen går. Och efter det här valet är den nya sanningen att alla partier i regeringsunderlaget måste få ministerposter.\nHur det sett ut tidigare spelar mindre roll.\nFör Tidöpartierna är det förstås en mycket praktisk ny sanning: Då ser det mindre dramatiskt ut när de vill förse Sverigedemokraterna med ministerposter sedan. Mer förvånande är kanske att så många journalister går med på den beskrivningen.\nCenterpartiet har dessutom redan gjort en stor eftergift genom att öppna för att ingå i samma regeringsunderlag som Vänsterpartiet. De är beredda att gå dit, men inte längre.\nElisabeth Thand Ringqvist har också lärt sig av Liberalerna hur lätt man blir uppäten av ytterkantspartier om man inte har klart för sig var de egna gränserna går. Så på vad bygger antagandet att hon ska ändra sig? Att andra – som inte företräder Centerns intressen och sakpolitik – säger det?\nKlart är i alla fall att den här nya sanningen minskar pressen på Vänsterpartiet att ändra hållning. Och att ett extra val därmed närmar sig.\nFör visst, att ge sig ut i en ny valrörelse har setts som en omöjlighet. Alla partier i opposition förlorar på det – och därför borde det inte hända. Det är logiskt.\nMen är vi säkra på att det här kommer att få ett logiskt slut?\nNej, det mest troliga scenariot just nu är nog att omgivningen fortsätter att missförstå Centerpartiet. Och att Vänsterpartiet fortsätter att kräva ministerposter – och får se inflytelserika ut en stund.\nJa, ungefär som när Vänsterpartiet tillsammans med Tidöpartierna fällde Stefan Löfven sommaren 2021. Nooshi Dadgostar har aldrig haft så högt förtroende i mätningarna som då. Högern älskade henne ju.\nMånga återkommer till den händelsen nu: Läxan från den gången är att Vänsterpartiet menar allvar med sina hot, säger de. Vänstern kommer inte att backa. Men är det verkligen den viktigaste läxan från den sommaren? Är inte lärdomen snarare vad som hände efter Nooshi Dadgostars maktdemonstration? Vad hon bäddade för?\nFör samma scenario ser nu alltmer troligt ut: Vänsterpartiet får visa musklerna i några veckor och överöses med kärlek och ryggdunkar från höger. Och sedan? Då väntar extra val – och ja, en ny Tidöregering.\nVänsterpartiets attityd är en strategisk gåva till Ulf Kristersson.\nDet skulle förstås vara ett enormt nederlag för alla väljare som inte vill återgå till Tidöepoken, inte minst för Centerpartiets. Men Centern har – till skillnad från Vänsterpartiet – alternativ i framtiden. Det här valet var det till exempel bara sju mandat som saknades för att kunna bilda en regering i mitten genom att göra upp med Ebba Busch (KD).\nOch Vänsterpartiet? Ja, det skulle efter ett extra val parkera sig längst ut till vänster i ett land som inte haft en vänstermajoritet på ett kvarts sekel.\nMen Nooshi Dadgostar får i alla fall se mäktig ut i några veckor hösten 2026. Grattis!\nAmanda Sokolnicki: Spelet mot Centern avslöjar högerns dubbelmoral\nDN:s ledarredaktion: Danska forskare leker med afrikanska barns liv\n”Är det rimligt att veta så mycket om ett par bröst?”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Danska forskare leker med afrikanska barns liv\nAmanda Sokolnicki: Spelet mot Centern avslöjar högerns dubbelmoral\nDN Debatt. ”Vår ensidiga demokratisyn har gjort det svårare att regera”",
+      "author": "Hanna Jakobson, Evelyn Jones",
+      "commentator": "",
+      "summary": "C-ledaren säger att partiet kan rösta ja till en ren S-regering. Det väcker frustration i Miljöpartiet som står fast vid kravet om ministerposter. – Centerpartiet har backat in sig i ett hörn, säger Grön Ungdoms språkrör Anton Bylin.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-17 16:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/mp-irritationen-mot-c-efter-beskedet-bara-spel/\nC-ledaren säger att partiet kan rösta ja till en ren S-regering. Det väcker frustration i Miljöpartiet som står fast vid kravet om ministerposter.\n– Centerpartiet har backat in sig i ett hörn, säger Grön Ungdoms språkrör Anton Bylin.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRedan på förhand stod det klart att Magdalena Andersson skulle falla i torsdagens statsministeromröstning. Låsningarna mellan V och C, där den ena kräver ministerposter och den andra vägrar att säga ja till V i regering, fanns kvar.\nFörslaget som talmannen lagt fram var en ren S-regering, men Andersson saknade stöd för en sådan. I samband med omröstningen kom Centerledaren med ett besked:\n– Vi hade kunnat släppa fram en enpartiregering för S om vi hade haft någon plan för hur politiken skulle se ut. Men det blockeras av V och MP som måste vara med i en regering.\nCenterledarens nya giv om en socialdemokratisk enpartiregering väckte irritation hos de andra partiledarna i V och MP.\n– Våra väljare är lika viktiga som socialdemokraternas, kontrade V-ledaren Nooshi Dadgostar i Aftonbladet.\n– Det är ett nej, markerade Daniel Helldén till Expressen.\nI decennier har MP krävt att sitta med i varje regering de röstar fram – med ett undantag. Det var 2021, då de lämnade S-MP-regeringen eftersom den skulle tvingas styra på högerpartiernas budget och ändå röstade ja till Andersson.\nNär DN pratar med miljöpartister på olika nivåer är det ingen som tror att MP kommer släppa kravet på ministerposter i en regering. De ser det som en självklarhet.\nAnton Bylin, Grön Ungdoms språkrör, säger att det finns en frustration i partiet över att regeringsbildningen går långsamt.\n– Alla fyra partier hade kunnat förbereda sig bättre. Det här var ju det mest sannolika utfallet. Så de möten som man har börjat ha nu i det lilla, hade man kunnat ha innan valet.\nOch Centerpartiets besked har skapat ytterligare friktion i ett redan ansträngt läge.\n– De vill väl bara ha någonting att säga. De har backat in sig i ett hörn, säger Grön Ungdoms språkrör Anton Bylin.\nInför höstens val spreds en farhåga bland miljöpartisterna att S skulle försöka blockera MP från ministerposter, enligt uppgifter till DN. Skälen bakom rädslan var bland annat Anderssons höga opinionssiffror, och det öppna flirtandet med Kristdemokraternas Ebba Busch.\n– Innan valet var jag livrädd för det. Men S gjorde ett uselt valresultat. Med en enpartiregering skulle de tvingas förhandla med fler partier varje gång de skulle säkra majoritet, säger en MP-källa med insyn.\nAtt C ändå sänder en signal om att inte heller MP behöver sitta i en regering är taktik, tror källan.\n– Det är bara spel mot V. Det finns inget principiellt motstånd från C mot MP.\nAlternativet med en socialdemokratisk enpartiregering har, enligt uppgifter till DN, diskuterats i S både före och efter valet. Om varken C, V eller MP får några ministerposter, så blir det rättvist, kan man höra socialdemokrater som resonerar.\nMen det finns också de som varnar för att det skulle bli en skör regering som riskerar att fällas om något av samarbetspartierna blir missnöjda med den förda politiken – likt det som hände sommaren 2021. Då valde Nooshi Dadgostars parti att fälla regeringen Löfven.\nAtt en enpartiregering blir för svag är argument som hörs från både MP och V.\n– Det är tydligt att en svag minoritetsregering inte kommer kunna leda och styra landet. Det verkar varken troligt för S eller för MP och V att rösta fram, säger Ida Gabrielsson, vice partiledare för V.\nAtt C försöker haka av även MP anser hon är ”jättedumt”.\n– Om vi ska komma framåt då är det inte en bra idé att det blir färre och färre kvar, säger hon.\nPå måndagen ska talmannen presentera vem han ger det nya sonderingsuppdraget efter att Magdalena Andersson röstats ner. Men i ett pressmeddelande på fredagen underströk han att det inte krävs ett sonderingsuppdrag för att partierna ska prata med varandra.\n”Jag förutsätter också att även partiledarna utnyttjar tiden väl för sina fortsatta samtal” skrev Norlén.\nVänsterpartiet vill att Elisabeth Thand Ringqvist ska få uppdraget för att få reda på vilka lösningar som finns på bordet utan V i regering.\n– Vi kan bara ställa krav på ministerposter om vi behövs. Behövs vi inte så är det som det är. Men snart måste vi få reda på det, säger Vänsterpartiets Ida Gabrielsson.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nAmanda Sokolnicki: Nu rör vi oss i snabb takt mot ett extra val\nDN Debatt. ”Vår ensidiga demokratisyn har gjort det svårare att regera”\nVietnamesisk Facebooksida skriver falska uppgifter om valfusk",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
+        "ministerpost",
         "Centerpartiet",
-        "Vänsterpartiet"
+        "Miljöpartiet"
       ],
-      "first_seen": "2026-10-17T06:15:48.405092+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9321389",
-      "title": "Kristersson efter EU-toppmötet: ”Långt ifrån varandra”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-16",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "EU-toppmötet i Bryssel präglades av stor osäkerhet. Bland annat kring hur man ska enas om en ny budget, hur man ska stötta Ukraina och hur man ska hantera migrationen. Inga framsteg gjordes och nu flyttas det upp till högsta nivå , EU:s ordförande Antonio Costa ska leda förhandlingarna framåt. ”Det finns inte en gnutta av enighet i detta”, sa statsminister Ulf Kristersson.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321389'",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-17T06:15:48.405092+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9321260",
-      "title": "Kristersson: Inte min tur att sondera ny regering",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-16",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Statsminister Ulf Kristersson tycker inte att det är han, som i det här läget ska ha sonderingsuppdraget för en ny svensk regering. Men om han får frågan, så säger han inte nej till talmannen. ”Det är klart att finns det förutsättningar, om någonting håller på att förändras, då ska alla veta att jag inte är blyg. Jag kommer inte undvika att pröva en sådan regeringsbildning som jag tycker skulle vara bra för Sverige”, säger Ulf Kristersson (M).",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321260'",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman",
-        "sondering",
-        "statsminister"
-      ],
-      "first_seen": "2026-10-17T06:15:48.405092+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9321115",
-      "title": "Fredrik Furtenbach: ”Talmannens jobb är ovanligt svårt den här gången”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-16",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "På fredagen har det gått 33 dagar sedan Sverige gick till val. Talmannen Andreas Norlén har kallat till pressträff på måndag, med anledning av nästa steg i regeringsbildningen. Att partierna är oeniga om vem som bör få uppdraget att sondera, gör talmannens jobb ovanligt svårt just nu, enligt Ekots inrikespolitiska kommentator Fredrik Furtenbach. Kan talmannen tvinga någon att sondera? Och vilka scenarier väntar framåt? Hör Fredrik Furtenbach förklara läget i regeringsbildningen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321115'",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman"
-      ],
-      "first_seen": "2026-10-17T06:15:48.405092+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/brak-bakom-kulisserna-c-vagrar-delta-i-rodgrona-moten",
-      "title": "Bråk bakom kulisserna: C vägrar delta i rödgröna möten",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-16",
-      "author": "Pia Gripenberg",
-      "commentator": "",
-      "summary": "S, V, MP och C kom efter valet överens om att säkra en rödgrön majoritet i riksdagens utskott. Men ett organiserat samarbete vill Centerpartiet inte vara med på. – Jag är väldigt förvånad över Centerpartiets inställning, säger Samuel Gonzalez Westling, Vänsterpartiets gruppledare.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-17 08:15\nArtikelns ursprungsadress: https://www.dn.se/sverige/brak-bakom-kulisserna-c-vagrar-delta-i-rodgrona-moten/\nS, V, MP och C kom efter valet överens om att säkra en rödgrön majoritet i riksdagens utskott. Men ett organiserat samarbete vill Centerpartiet inte vara med på.\n– Jag är väldigt förvånad över Centerpartiets inställning, säger Samuel Gonzalez Westling, Vänsterpartiets gruppledare.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-17T06:15:48.405092+00:00"
+      "first_seen": "2026-10-17T14:02:41.595224+00:00"
     }
   ]
 }
