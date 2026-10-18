@@ -1,0 +1,18 @@
+[
+  {
+    "namn": "Levi's 501 herr, midja 80-86 cm, max 300 kr",
+    "fraga": "501",
+    "marke": ["Levi Strauss & Co"],
+    "kon": ["Man"],
+    "skick": ["Nytt", "Mycket bra", "Bra"],
+    "matt": {"waistInCm": [80, 86], "innerLegLengthInCm": [78, null]},
+    "max_pris": 300
+  },
+  {
+    "namn": "Fjällräven Kånken, alla, max 250 kr",
+    "fraga": "kånken",
+    "marke": ["Fjällräven"],
+    "max_pris": 250,
+    "aktiv": true
+  }
+]

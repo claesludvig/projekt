@@ -1,0 +1,48 @@
+name: Sellpy - annonsbevakning
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 5-21/2 * * *"  # varannan timme ca 07-23 svensk tid
+
+jobs:
+  bevaka:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Kör bevakningarna i bevakningar.json
+        working-directory: sellpy
+        run: python sellpy.py bevaka
+
+      - name: Skapa issue vid nya träffar eller prissänkningar (ger notis via GitHub)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          antal=$(python -c "import json;d=json.load(open('sellpy/data/nya.json'));print(sum(len(b['nya'])+len(b['prissankta']) for b in d['bevakningar']))")
+          echo "Nyheter: $antal"
+          [ "$antal" -gt 0 ] || exit 0
+          gh issue create --title "Sellpy: $antal nya träffar $(date -u +%Y-%m-%d\ %H:%M)" --body-file sellpy/data/nya.md
+
+      - name: Commit sedda annonser
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sellpy/data/sedda.json
+          git diff --cached --quiet && exit 0
+          git add sellpy/data
+          git commit -m "Auto: Sellpy-bevakning"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push misslyckades (försök $i), hämtar och rebasar..."
+            git pull --rebase
+            sleep $((i * 3))
+          done
+          git push
