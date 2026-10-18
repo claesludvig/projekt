@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-18T06:02:46.585725+00:00",
+  "fetched_at": "2026-10-18T14:02:40.647118+00:00",
   "new_count": 1,
   "skipped": {
-    "seen": 48,
-    "offtopic": 154,
+    "seen": 49,
+    "offtopic": 153,
     "old": 7
   },
   "fetch_errors": 0,
@@ -11,7 +11,7 @@
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,22 +65,21 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/liten-orkide-symbol-for-rodgron-konflikt-skogspolitiken-splittrar",
-      "title": "Liten orkidé symbol för rödgrön konflikt – skogspolitiken splittrar",
-      "source": "SVT Nyheter",
+      "url": "https://www.dn.se/sverige/tre-rodgrona-ungdomsforbund-forhandlingsredo-men-cuf-sager-nej",
+      "title": "Tre rödgröna ungdomsförbund förhandlingsredo – men CUF säger nej",
+      "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-10-18",
-      "author": "Johanna Waldenström",
+      "author": "Li Brun",
       "commentator": "",
-      "summary": "Skogspolitiken kan bli en svår knäckfråga i förhandlingarna om en rödgrön regering. Centerpartiet och Miljöpartiet står långt ifrån varandra.",
-      "fulltext": "Skogspolitiken kan bli en svår knäckfråga i förhandlingarna om en rödgrön regering. Centerpartiet och Miljöpartiet står långt ifrån varandra.\nDen lilla skogsorkidén knärot har blivit en omstridd symbol i svensk skogspolitik. Den har i flera fall fått Skogsstyrelsen och domstolar att stoppa planerade avverkningar.\nÄr det rimligt att stoppa avverkningar för en sådan här liten växt?\n– Är det rimligt att hålla på med ett skogsbruk som tar död på vår natur?, säger Emil V Nilsson från Naturskyddsföreningen till SVT:s Agenda.\nKonflikten mellan artskydd och äganderätt går rakt in i de rödgröna regeringsförhandlingarna, där Centerpartiet och Miljöpartiet har motstående åsikter.\nCenterpartiet vill värna skogsägarnas rätt att bruka sin skog, medan Miljöpartiet vill stärka skyddet för hotade arter och begränsa avverkningarna.\nBranschorganisationen Skogsindustrierna framhåller hur viktig skogen är för Sveriges export och att skogsindustrin är en viktig arbetsgivare. Att fler avverkningbeslut överklagas och stoppas ser de som oroande.\n– Det här drabbar de markägare som bedriver skogsbruk väldigt hårt, och leder till osäkerhet om hur de kan bruka sin mark, säger Skogsindustriernas vd Viveka Beckeman.\nIntresseorganisationer följer utvecklingen\nBåde Skogsindustrierna och Naturskyddsföreningen följer de rödgröna samtalen om regeringsmakten med stort intresse.\n– Över 80 procent av den svenska riksdagen är för ett aktivt skogsbruk, säger Viveka Beckeman.\nEmil V Nilsson hoppas att Miljöpartiets linje kommer få genomslag.\n– När det gäller skogen så förstår jag inte varför ett parti som C, som säger sig vilja ta ansvar för klimatet, inte vill skydda skogen, säger han.\nCenterpartiet vill värna äganderätten, underlätta ett aktivt skogsbruk och prioritera frivilligt naturskydd.\nMiljöpartiet vill skydda mer skog, stärka artskyddet och ge staten större inflytande över vilka skogar som får avverkas.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Lås in er och kom inte ut utan regering – tycker SSU och Ung Vänster. Det går för långsamt, tycker Grön ungdom. – Det finns inget att anmärka på, jag tycker Elisabeth sköter sig exemplariskt, säger Emelie Rossheim (CUF). Så här tycker ungdomsförbunden att moderpartierna ska lösa regeringsfrågan.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-18 16:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/tre-rodgrona-ungdomsforbund-forhandlingsredo-men-cuf-sager-nej/\nLås in er och kom inte ut utan regering – tycker SSU och Ung Vänster. Det går för långsamt, tycker Grön ungdom.\n– Det finns inget att anmärka på, jag tycker Elisabeth sköter sig exemplariskt, säger Emelie Rossheim (CUF).\nSå här tycker ungdomsförbunden att moderpartierna ska lösa regeringsfrågan.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\n– Kasta in alla partiledare i ett rum, lås dörren och låt dem inte komma ut förrän de är klara.\nDet säger My Kårlycke, ordförande för Ung Vänster.\nHon är, i likhet med Moska Hassas (SSU) och Anton Bylin (Grön ungdom), frustrerad över att de fyra rödgröna partierna inte kommit längre i processen att bilda regering. Hon hade velat se att partierna möttes mer.\n– Om jag var partiledare hade jag varit ännu tydligare. Jag hade sagt rakt ut att antingen träffas vi nu i samma rum och pratar, eller så får de andra partierna vara väldigt tydliga med att det är ett extraval de vill ha.\nFörra fredagens seminarium där C bjöd in V, S och MP ser hon som ett steg på vägen, men kallar det ett ”spel för gallerierna” så länge partierna inte sätter sig ned och förhandlar.\n– Det är under all kritik om man inte kan sitta i samma rum, säger hon.\nÄndå är hon tveksam till om de röda linjerna mellan C och V skulle gå att sudda ut genom att träffas. Att C vill börja med sakpolitiken ser hon som ett tecken på att de vill använda V:s mandat för en regering utan dem.\n– C måste inse att V är större än dem, säger hon.\nVarför ska inte V släppa på kravet om ministerposter, få igenom sakpolitik och underlätta det låsta läget?\n– Vi har varit stödparti åt olika S-regeringar så många gånger utan att få utfallet vi vill. Vi har helt enkelt testat det förut, säger hon.\nGrön ungdom har lobbat för att moderpartiet ska börja med ett rödgrönt budgetsamarbete innan det finns ett färdigt regeringsunderlag, något de nu har fått napp för, berättar språkröret Anton Bylin.\n– Alla fattar att något kommer behöva förändras med de röda linjer som finns. C och V får gärna ha kvar sina åsikter, men de röda linjerna behöver pausas så att vi kan börja förhandla sakpolitik för att få ihop en egen budget i tid, säger han.\nEn majoritetsregering kommer i det här läget kräva tillitsbygge mellan centerpartister och vänsterpartister, tror Anton Bylin, som erkänner att moderpartiet MP just nu har relativt sett goda förutsättningar för regeringssamarbete.\n– V:s strategi får beskrivas som ett försök att pressa Centerpartiet tills de viker sig helt, och efter det ska man samarbeta i fyra år. Det är inte nödvändigtvis en situation som bäddar jättebra för ett tillitsfullt samarbete.\nSjälv tycker han att även de rödgröna ungdomsförbunden borde träffas, inte minst för att CUF och Ung Vänster ska få en bättre bild av varandra, vilket CUF-ordförande Emelie Rossheim inte skriver under på.\n”Jag är emot Nooshi Dadgostar och Ida Gabrielssons teater, men trots det är sannolikheten större att vi tre kommer överens, än att CUF och Ung Vänster gör det. Ung Vänster vill göra en Swexit, det är omdömeslöst och saknar verklighetsförankring”, skriver hon till DN.\nHon är nöjd med att Centern håller fast vid att inte ingå i någon regering med ”ytterkantspartiet” Vänstern. Givet valresultatet är hennes drömregering i stället en där Elisabeth Thand Ringqvist tar med sig S och MP och närmar sig KD och L:\n”Helt enkelt en mittenregering med S, C, KD, MP och L där hon (Simona Mohamsson) är varmt välkommen att driva socialliberal politik utan inflytande från ytterkanterna”, skriver hon.\nMoska Hassas är ordförande för SSU , och precis som Anton Bylin tycker hon att de fyra partierna ska börja sitt samarbete genom en gemensam budget. Hon lyfter precis som My Kårlycke strategin ”låsa in sig”.\n– Vi vill förhindra en övergångsbudget från Tidö. De röda linjerna från C och V skapar ett regeringskulturkrig där vem som får vilken ministerpost hamnar i fokus i stället för sakpolitiken, säger hon.\nVad hade du gjort annorlunda i Magdalena Anderssons ställe?\n– Jag tycker S gör rätt i att träffa de andra partierna under premissen att diskutera sakpolitik. SSU:s krav mot S är att vi vill ha en regering ledd av Magdalena Andersson som har en hög reformtakt och en stark agenda. Det är inget vi sticker under stol med, att vi varit kritiska till när tempot tidigare varit för lågt.\nFakta. Vad är dina tre bästa förhandlingstips till din partiledare?\nAnton Bylin, Grön ungdom: Driv upp tempot, säkra det egna inflytandet, se också till att vi får igenom det vi förtjänar för våra mandat. I övrigt: fortsätt som ni gör, respektera alla och få en regering på plats.\nMy Kårlycke, Ung Vänster: Ge dig inte, säg till Elisabeth Thand Ringqvist att hon borde få sondera så att hon inser att det inte finns någon mittenmajoritet, sätt på kaffebryggaren och ha något hembakt hemma om någon skulle komma förbi.\nMoska Hassas, SSU: Jag tror inte att hon behöver några råd, men vi i SSU vill ha en regering som tar tag i våra samhällsproblem, får igenom en höjning av CSN, avgiftsfri tandvård och bekämpar gängkriminaliteten och -våldet.\nEmelie Rossheim, CUF : Keep slaying queen. Det är modigt det Elisabeth gör. Söka stöd över blockgränsen och samtidigt värna om Centerpartiets kärna. Simona Mohamsson och Ebba Bush borde ta efter, en mittenregering hade kunnat uträtta stordåd för jobben, klimatet och välfärden\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nStatsvetaren om låsta läget – därför ska du fortsätta bry dig\nBjörn Wiman: Techmiljardärernas leksak kan vara vår tids atomvapen\nMP-irritationen mot C efter beskedet: ”Bara spel”",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Centerpartiet",
-        "Miljöpartiet"
+        "regeringsfråg"
       ],
-      "first_seen": "2026-10-18T06:02:46.585725+00:00"
+      "first_seen": "2026-10-18T14:02:40.647118+00:00"
     }
   ]
 }
