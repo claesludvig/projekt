@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-17T14:02:41.595224+00:00",
+  "fetched_at": "2026-10-18T06:02:46.585725+00:00",
   "new_count": 1,
   "skipped": {
-    "seen": 52,
-    "offtopic": 150,
+    "seen": 48,
+    "offtopic": 154,
     "old": 7
   },
   "fetch_errors": 0,
@@ -11,7 +11,7 @@
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,23 +65,22 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/sverige/mp-irritationen-mot-c-efter-beskedet-bara-spel",
-      "title": "MP-irritationen mot C efter beskedet: ”Bara spel”",
-      "source": "DN Nyheter",
+      "url": "https://www.svt.se/nyheter/inrikes/liten-orkide-symbol-for-rodgron-konflikt-skogspolitiken-splittrar",
+      "title": "Liten orkidé symbol för rödgrön konflikt – skogspolitiken splittrar",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-17",
-      "author": "Hanna Jakobson, Evelyn Jones",
+      "published": "2026-10-18",
+      "author": "Johanna Waldenström",
       "commentator": "",
-      "summary": "C-ledaren säger att partiet kan rösta ja till en ren S-regering. Det väcker frustration i Miljöpartiet som står fast vid kravet om ministerposter. – Centerpartiet har backat in sig i ett hörn, säger Grön Ungdoms språkrör Anton Bylin.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-17 16:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/mp-irritationen-mot-c-efter-beskedet-bara-spel/\nC-ledaren säger att partiet kan rösta ja till en ren S-regering. Det väcker frustration i Miljöpartiet som står fast vid kravet om ministerposter.\n– Centerpartiet har backat in sig i ett hörn, säger Grön Ungdoms språkrör Anton Bylin.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRedan på förhand stod det klart att Magdalena Andersson skulle falla i torsdagens statsministeromröstning. Låsningarna mellan V och C, där den ena kräver ministerposter och den andra vägrar att säga ja till V i regering, fanns kvar.\nFörslaget som talmannen lagt fram var en ren S-regering, men Andersson saknade stöd för en sådan. I samband med omröstningen kom Centerledaren med ett besked:\n– Vi hade kunnat släppa fram en enpartiregering för S om vi hade haft någon plan för hur politiken skulle se ut. Men det blockeras av V och MP som måste vara med i en regering.\nCenterledarens nya giv om en socialdemokratisk enpartiregering väckte irritation hos de andra partiledarna i V och MP.\n– Våra väljare är lika viktiga som socialdemokraternas, kontrade V-ledaren Nooshi Dadgostar i Aftonbladet.\n– Det är ett nej, markerade Daniel Helldén till Expressen.\nI decennier har MP krävt att sitta med i varje regering de röstar fram – med ett undantag. Det var 2021, då de lämnade S-MP-regeringen eftersom den skulle tvingas styra på högerpartiernas budget och ändå röstade ja till Andersson.\nNär DN pratar med miljöpartister på olika nivåer är det ingen som tror att MP kommer släppa kravet på ministerposter i en regering. De ser det som en självklarhet.\nAnton Bylin, Grön Ungdoms språkrör, säger att det finns en frustration i partiet över att regeringsbildningen går långsamt.\n– Alla fyra partier hade kunnat förbereda sig bättre. Det här var ju det mest sannolika utfallet. Så de möten som man har börjat ha nu i det lilla, hade man kunnat ha innan valet.\nOch Centerpartiets besked har skapat ytterligare friktion i ett redan ansträngt läge.\n– De vill väl bara ha någonting att säga. De har backat in sig i ett hörn, säger Grön Ungdoms språkrör Anton Bylin.\nInför höstens val spreds en farhåga bland miljöpartisterna att S skulle försöka blockera MP från ministerposter, enligt uppgifter till DN. Skälen bakom rädslan var bland annat Anderssons höga opinionssiffror, och det öppna flirtandet med Kristdemokraternas Ebba Busch.\n– Innan valet var jag livrädd för det. Men S gjorde ett uselt valresultat. Med en enpartiregering skulle de tvingas förhandla med fler partier varje gång de skulle säkra majoritet, säger en MP-källa med insyn.\nAtt C ändå sänder en signal om att inte heller MP behöver sitta i en regering är taktik, tror källan.\n– Det är bara spel mot V. Det finns inget principiellt motstånd från C mot MP.\nAlternativet med en socialdemokratisk enpartiregering har, enligt uppgifter till DN, diskuterats i S både före och efter valet. Om varken C, V eller MP får några ministerposter, så blir det rättvist, kan man höra socialdemokrater som resonerar.\nMen det finns också de som varnar för att det skulle bli en skör regering som riskerar att fällas om något av samarbetspartierna blir missnöjda med den förda politiken – likt det som hände sommaren 2021. Då valde Nooshi Dadgostars parti att fälla regeringen Löfven.\nAtt en enpartiregering blir för svag är argument som hörs från både MP och V.\n– Det är tydligt att en svag minoritetsregering inte kommer kunna leda och styra landet. Det verkar varken troligt för S eller för MP och V att rösta fram, säger Ida Gabrielsson, vice partiledare för V.\nAtt C försöker haka av även MP anser hon är ”jättedumt”.\n– Om vi ska komma framåt då är det inte en bra idé att det blir färre och färre kvar, säger hon.\nPå måndagen ska talmannen presentera vem han ger det nya sonderingsuppdraget efter att Magdalena Andersson röstats ner. Men i ett pressmeddelande på fredagen underströk han att det inte krävs ett sonderingsuppdrag för att partierna ska prata med varandra.\n”Jag förutsätter också att även partiledarna utnyttjar tiden väl för sina fortsatta samtal” skrev Norlén.\nVänsterpartiet vill att Elisabeth Thand Ringqvist ska få uppdraget för att få reda på vilka lösningar som finns på bordet utan V i regering.\n– Vi kan bara ställa krav på ministerposter om vi behövs. Behövs vi inte så är det som det är. Men snart måste vi få reda på det, säger Vänsterpartiets Ida Gabrielsson.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nAmanda Sokolnicki: Nu rör vi oss i snabb takt mot ett extra val\nDN Debatt. ”Vår ensidiga demokratisyn har gjort det svårare att regera”\nVietnamesisk Facebooksida skriver falska uppgifter om valfusk",
+      "summary": "Skogspolitiken kan bli en svår knäckfråga i förhandlingarna om en rödgrön regering. Centerpartiet och Miljöpartiet står långt ifrån varandra.",
+      "fulltext": "Skogspolitiken kan bli en svår knäckfråga i förhandlingarna om en rödgrön regering. Centerpartiet och Miljöpartiet står långt ifrån varandra.\nDen lilla skogsorkidén knärot har blivit en omstridd symbol i svensk skogspolitik. Den har i flera fall fått Skogsstyrelsen och domstolar att stoppa planerade avverkningar.\nÄr det rimligt att stoppa avverkningar för en sådan här liten växt?\n– Är det rimligt att hålla på med ett skogsbruk som tar död på vår natur?, säger Emil V Nilsson från Naturskyddsföreningen till SVT:s Agenda.\nKonflikten mellan artskydd och äganderätt går rakt in i de rödgröna regeringsförhandlingarna, där Centerpartiet och Miljöpartiet har motstående åsikter.\nCenterpartiet vill värna skogsägarnas rätt att bruka sin skog, medan Miljöpartiet vill stärka skyddet för hotade arter och begränsa avverkningarna.\nBranschorganisationen Skogsindustrierna framhåller hur viktig skogen är för Sveriges export och att skogsindustrin är en viktig arbetsgivare. Att fler avverkningbeslut överklagas och stoppas ser de som oroande.\n– Det här drabbar de markägare som bedriver skogsbruk väldigt hårt, och leder till osäkerhet om hur de kan bruka sin mark, säger Skogsindustriernas vd Viveka Beckeman.\nIntresseorganisationer följer utvecklingen\nBåde Skogsindustrierna och Naturskyddsföreningen följer de rödgröna samtalen om regeringsmakten med stort intresse.\n– Över 80 procent av den svenska riksdagen är för ett aktivt skogsbruk, säger Viveka Beckeman.\nEmil V Nilsson hoppas att Miljöpartiets linje kommer få genomslag.\n– När det gäller skogen så förstår jag inte varför ett parti som C, som säger sig vilja ta ansvar för klimatet, inte vill skydda skogen, säger han.\nCenterpartiet vill värna äganderätten, underlätta ett aktivt skogsbruk och prioritera frivilligt naturskydd.\nMiljöpartiet vill skydda mer skog, stärka artskyddet och ge staten större inflytande över vilka skogar som får avverkas.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "ministerpost",
         "Centerpartiet",
         "Miljöpartiet"
       ],
-      "first_seen": "2026-10-17T14:02:41.595224+00:00"
+      "first_seen": "2026-10-18T06:02:46.585725+00:00"
     }
   ]
 }
