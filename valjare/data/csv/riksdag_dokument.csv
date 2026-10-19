@@ -2823,6 +2823,9 @@ HD03313,prop,2025/26,313,Ett nytt brott och andra åtgärder mot människohandel
 HE033,prop,2026/27,3,Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd,,Finansdepartementet,,2026-10-06,skatter,https://data.riksdagen.se/dokument/HE033.html
 HE035,prop,2026/27,5,Kommuners och regioners grundläggande beredskap inför kris och krig,,Försvarsdepartementet,,2026-10-06,,https://data.riksdagen.se/dokument/HE035.html
 HE037,prop,2026/27,7,Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion,,Klimat- och näringslivsdepartementet,,2026-10-08,miljo,https://data.riksdagen.se/dokument/HE037.html
+HE034,prop,2026/27,4,Nya förenklingsregler och andra kompletteringar i lagen om tilläggsskatt,,Finansdepartementet,,2026-10-13,skatter,https://data.riksdagen.se/dokument/HE034.html
+HE036,prop,2026/27,6,Svenskt bidrag till Natos avskräckning och försvar under 2027,,Utrikesdepartementet,,2026-10-13,forsvar,https://data.riksdagen.se/dokument/HE036.html
+HE0312,prop,2026/27,12,En ny produktansvarslag,,Justitiedepartementet,,2026-10-15,,https://data.riksdagen.se/dokument/HE0312.html
 ,,,,,,,,,,
 H201NU6,bet,2014/15,NU6,Granskning av grönbok om en utvidgning av EU:s skydd av geografiska ursprungsbeteckningar,,NU,NU,2014-10-16,energi,https://data.riksdagen.se/dokument/H201NU6.html
 H201NU5,bet,2014/15,NU5,Granskning av vitbok om effektivare kontroll av företagskoncentrationer i EU,,NU,NU,2014-10-17,energi,https://data.riksdagen.se/dokument/H201NU5.html
@@ -7344,7 +7347,28 @@ HE01MJU4,bet,2026/27,MJU4,En mer enhetlig reglering av tillsyn och kontroll på 
 HE01MJU5,bet,2026/27,MJU5,Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion,,MJU,MJU,2026-10-07,miljo,https://data.riksdagen.se/dokument/HE01MJU5.html
 HE01SfU5,bet,2026/27,SfU5,Riksrevisionens rapport om Försäkringskassans och Pensionsmyndighetens hantering av ändrade förhållanden,,SfU,SfU,2026-10-07,pension,https://data.riksdagen.se/dokument/HE01SfU5.html
 HE01SfU6,bet,2026/27,SfU6,Riksrevisionens rapport om Migrationsverkets kontroller av arbetstillstånd,,SfU,SfU,2026-10-07,invandring,https://data.riksdagen.se/dokument/HE01SfU6.html
-HE01NU8,bet,2026/27,NU8,Framtidssäkring av elräkningar i unionen,,NU,NU,2026-10-08,energi,https://data.riksdagen.se/dokument/HE01NU8.html
 HE01KrU2,bet,2026/27,KrU2,Ungdomspolitisk skrivelse,,KrU,KrU,2026-10-09,,https://data.riksdagen.se/dokument/HE01KrU2.html
 HE01KrU3,bet,2026/27,KrU3,Ny politisk inriktning för ett starkare filmland,,KrU,KrU,2026-10-09,,https://data.riksdagen.se/dokument/HE01KrU3.html
-HE01SkU9,bet,2026/27,SkU9,Subsidiaritetsprövning av kommissionens förslag till ändringar av direktiv vad gäller regelförenklingar på direktbeskattningens område,,SkU,SkU,2026-10-12,skatter,https://data.riksdagen.se/dokument/HE01SkU9.html
+HE01FiU12,bet,2026/27,FiU12,Ändring i statens budget för 2026 – Bemyndigande om ekonomiska åtaganden för beräkningskraft,,FiU,FiU,2026-10-13,ekonomi,https://data.riksdagen.se/dokument/HE01FiU12.html
+HE01AU1,bet,2026/27,AU1,Utgiftsområde 13 Integration och jämställdhet,,AU,AU,2026-10-14,"jamstalldhet,invandring",https://data.riksdagen.se/dokument/HE01AU1.html
+HE01AU2,bet,2026/27,AU2,Utgiftsområde 14 Arbetsmarknad och arbetsliv,,AU,AU,2026-10-14,jobb,https://data.riksdagen.se/dokument/HE01AU2.html
+HE01AU3,bet,2026/27,AU3,Riksrevisionens rapport om statens arbete för att motverka risker för etnisk diskriminering vid myndigheters beslut,,AU,AU,2026-10-14,jamstalldhet,https://data.riksdagen.se/dokument/HE01AU3.html
+HE01CU4,bet,2026/27,CU4,En ny produktansvarslag,,CU,CU,2026-10-14,bostad,https://data.riksdagen.se/dokument/HE01CU4.html
+HE01FöU2,bet,2026/27,FöU2,Personalförsörjning av det militära försvaret,,FöU,FöU,2026-10-14,forsvar,https://data.riksdagen.se/dokument/HE01FöU2.html
+HE01FöU3,bet,2026/27,FöU3,En modern personalförsörjning av det civila försvaret,,FöU,FöU,2026-10-14,forsvar,https://data.riksdagen.se/dokument/HE01FöU3.html
+HE01FöU4,bet,2026/27,FöU4,En ny lag för ökad motståndskraft hos kritiska verksamhetsutövare,,FöU,FöU,2026-10-14,forsvar,https://data.riksdagen.se/dokument/HE01FöU4.html
+HE01SkU8,bet,2026/27,SkU8,Nya förenklingsregler och andra kompletteringar i lagen om tilläggsskatt,,SkU,SkU,2026-10-14,skatter,https://data.riksdagen.se/dokument/HE01SkU8.html
+HE01TU1,bet,2026/27,TU1,Utgiftsområde 22 Kommunikationer,,TU,TU,2026-10-14,,https://data.riksdagen.se/dokument/HE01TU1.html
+HE01UbU1,bet,2026/27,UbU1,Utgiftsområde 16 Utbildning och universitetsforskning,,UbU,UbU,2026-10-14,skola,https://data.riksdagen.se/dokument/HE01UbU1.html
+HE01UbU2,bet,2026/27,UbU2,Utgiftsområde 15 Studiestöd,,UbU,UbU,2026-10-14,skola,https://data.riksdagen.se/dokument/HE01UbU2.html
+HE01FöU1,bet,2026/27,FöU1,Utgiftsområde 6 Försvar och samhällets krisberedskap,,FöU,FöU,2026-10-15,forsvar,https://data.riksdagen.se/dokument/HE01FöU1.html
+HE01FöU5,bet,2026/27,FöU5,Kommuners och regioners grundläggande beredskap inför kris och krig,,FöU,FöU,2026-10-15,forsvar,https://data.riksdagen.se/dokument/HE01FöU5.html
+HE01NU1,bet,2026/27,NU1,Utgiftsområde 24 Näringsliv,,NU,NU,2026-10-15,,https://data.riksdagen.se/dokument/HE01NU1.html
+HE01NU2,bet,2026/27,NU2,Utgiftsområde 19 Regional utveckling,,NU,NU,2026-10-15,,https://data.riksdagen.se/dokument/HE01NU2.html
+HE01NU3,bet,2026/27,NU3,Utgiftsområde 21 Energi,,NU,NU,2026-10-15,energi,https://data.riksdagen.se/dokument/HE01NU3.html
+HE01NU5,bet,2026/27,NU5,Energieffektivitet i företag och i fjärrvärme- och fjärrkylesektorn,,NU,NU,2026-10-15,energi,https://data.riksdagen.se/dokument/HE01NU5.html
+HE01NU6,bet,2026/27,NU6,"Kontaktpunkter, tillstånd och tidsfrister enligt EU-förordningen om kritiska råmaterial och EU-förordningen om nettonollindustri",,NU,NU,2026-10-15,energi,https://data.riksdagen.se/dokument/HE01NU6.html
+HE01NU7,bet,2026/27,NU7,En myndighet för redovisning och revision,,NU,NU,2026-10-15,energi,https://data.riksdagen.se/dokument/HE01NU7.html
+HE01NU8,bet,2026/27,NU8,Framtidssäkring av elräkningar i unionen,,NU,NU,2026-10-15,energi,https://data.riksdagen.se/dokument/HE01NU8.html
+HE01SkU1,bet,2026/27,SkU1,"Utgiftsområde 3 Skatt, tull och exekution",,SkU,SkU,2026-10-15,skatter,https://data.riksdagen.se/dokument/HE01SkU1.html
+HE01SkU9,bet,2026/27,SkU9,Subsidiaritetsprövning av kommissionens förslag till ändringar av direktiv vad gäller regelförenklingar på direktbeskattningens område,,SkU,SkU,2026-10-15,skatter,https://data.riksdagen.se/dokument/HE01SkU9.html

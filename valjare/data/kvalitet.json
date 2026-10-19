@@ -1,19 +1,11 @@
 {
- "skapad": "2026-10-18",
+ "skapad": "2026-10-19",
  "status": "varning",
  "antal": {
   "ok": 207,
   "varning": 3
  },
  "kontroller": [
-  {
-   "grupp": "aktualitet",
-   "id": "lage_pris_bensin",
-   "beskrivning": "Månadsserie: Bensin, prisförändring 12 mån (%)",
-   "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
-  },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_totalt",
@@ -48,11 +40,19 @@
   },
   {
    "grupp": "aktualitet",
+   "id": "lage_pris_bensin",
+   "beskrivning": "Månadsserie: Bensin, prisförändring 12 mån (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
    "id": "lage_pris_diesel",
    "beskrivning": "Månadsserie: Diesel, prisförändring 12 mån (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -67,16 +67,16 @@
    "id": "lage_kpif",
    "beskrivning": "Månadsserie: KPIF, 12-månadersförändring (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_pris_el",
    "beskrivning": "Månadsserie: El, prisförändring 12 mån (%)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -115,8 +115,8 @@
    "id": "lage_aku",
    "beskrivning": "Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",
    "status": "ok",
-   "detalj": "senaste 2026-08, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-09, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "4981 artiklar i 7 flöden",
-   "varde": 4981.0
+   "detalj": "5187 artiklar i 7 flöden",
+   "varde": 5187.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-10-12, 6 dagar sedan",
-   "varde": 6.0
+   "detalj": "senaste dokument 2026-10-15, 4 dagar sedan",
+   "varde": 4.0
   },
   {
    "grupp": "volym",
@@ -1363,8 +1363,8 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7349 rader (förra 7349)",
-   "varde": 7349.0
+   "detalj": "7373 rader (förra 7349)",
+   "varde": 7373.0
   },
   {
    "grupp": "volym",
@@ -1379,8 +1379,8 @@
    "id": "rader_riksdag_aktivitet",
    "beskrivning": "Tabell riksdag_aktivitet",
    "status": "ok",
-   "detalj": "208 rader (förra 208)",
-   "varde": 208.0
+   "detalj": "212 rader (förra 208)",
+   "varde": 212.0
   },
   {
    "grupp": "volym",
@@ -1403,8 +1403,8 @@
    "id": "rader_riksdag_ledamot",
    "beskrivning": "Tabell riksdag_ledamot",
    "status": "ok",
-   "detalj": "4594 rader (förra 4594)",
-   "varde": 4594.0
+   "detalj": "4943 rader (förra 4594)",
+   "varde": 4943.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "1055 rader (förra 1009)",
-   "varde": 1055.0
+   "detalj": "1102 rader (förra 1055)",
+   "varde": 1102.0
   },
   {
    "grupp": "volym",
@@ -1443,16 +1443,16 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "224 rader (förra 224)",
-   "varde": 224.0
+   "detalj": "280 rader (förra 224)",
+   "varde": 280.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "503 rader (förra 482)",
-   "varde": 503.0
+   "detalj": "512 rader (förra 503)",
+   "varde": 512.0
   },
   {
    "grupp": "volym",
@@ -1563,8 +1563,8 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2745 rader (förra 2745)",
-   "varde": 2745.0
+   "detalj": "2750 rader (förra 2745)",
+   "varde": 2750.0
   },
   {
    "grupp": "volym",
