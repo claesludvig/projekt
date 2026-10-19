@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-18T14:02:40.647118+00:00",
-  "new_count": 1,
+  "fetched_at": "2026-10-19T06:03:04.779452+00:00",
+  "new_count": 6,
   "skipped": {
-    "seen": 49,
-    "offtopic": 153,
+    "seen": 46,
+    "offtopic": 151,
     "old": 7
   },
-  "fetch_errors": 0,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,21 +65,112 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/sverige/tre-rodgrona-ungdomsforbund-forhandlingsredo-men-cuf-sager-nej",
-      "title": "Tre rödgröna ungdomsförbund förhandlingsredo – men CUF säger nej",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-18",
-      "author": "Li Brun",
+      "url": "https://www.svd.se/a/zlwOKb/vad-blir-nasta-steg-i-regeringsbildningen",
+      "title": "Vad blir nästa steg i regeringsbildningen?",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-19",
+      "author": "TT",
       "commentator": "",
-      "summary": "Lås in er och kom inte ut utan regering – tycker SSU och Ung Vänster. Det går för långsamt, tycker Grön ungdom. – Det finns inget att anmärka på, jag tycker Elisabeth sköter sig exemplariskt, säger Emelie Rossheim (CUF). Så här tycker ungdomsförbunden att moderpartierna ska lösa regeringsfrågan.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-18 16:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/tre-rodgrona-ungdomsforbund-forhandlingsredo-men-cuf-sager-nej/\nLås in er och kom inte ut utan regering – tycker SSU och Ung Vänster. Det går för långsamt, tycker Grön ungdom.\n– Det finns inget att anmärka på, jag tycker Elisabeth sköter sig exemplariskt, säger Emelie Rossheim (CUF).\nSå här tycker ungdomsförbunden att moderpartierna ska lösa regeringsfrågan.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\n– Kasta in alla partiledare i ett rum, lås dörren och låt dem inte komma ut förrän de är klara.\nDet säger My Kårlycke, ordförande för Ung Vänster.\nHon är, i likhet med Moska Hassas (SSU) och Anton Bylin (Grön ungdom), frustrerad över att de fyra rödgröna partierna inte kommit längre i processen att bilda regering. Hon hade velat se att partierna möttes mer.\n– Om jag var partiledare hade jag varit ännu tydligare. Jag hade sagt rakt ut att antingen träffas vi nu i samma rum och pratar, eller så får de andra partierna vara väldigt tydliga med att det är ett extraval de vill ha.\nFörra fredagens seminarium där C bjöd in V, S och MP ser hon som ett steg på vägen, men kallar det ett ”spel för gallerierna” så länge partierna inte sätter sig ned och förhandlar.\n– Det är under all kritik om man inte kan sitta i samma rum, säger hon.\nÄndå är hon tveksam till om de röda linjerna mellan C och V skulle gå att sudda ut genom att träffas. Att C vill börja med sakpolitiken ser hon som ett tecken på att de vill använda V:s mandat för en regering utan dem.\n– C måste inse att V är större än dem, säger hon.\nVarför ska inte V släppa på kravet om ministerposter, få igenom sakpolitik och underlätta det låsta läget?\n– Vi har varit stödparti åt olika S-regeringar så många gånger utan att få utfallet vi vill. Vi har helt enkelt testat det förut, säger hon.\nGrön ungdom har lobbat för att moderpartiet ska börja med ett rödgrönt budgetsamarbete innan det finns ett färdigt regeringsunderlag, något de nu har fått napp för, berättar språkröret Anton Bylin.\n– Alla fattar att något kommer behöva förändras med de röda linjer som finns. C och V får gärna ha kvar sina åsikter, men de röda linjerna behöver pausas så att vi kan börja förhandla sakpolitik för att få ihop en egen budget i tid, säger han.\nEn majoritetsregering kommer i det här läget kräva tillitsbygge mellan centerpartister och vänsterpartister, tror Anton Bylin, som erkänner att moderpartiet MP just nu har relativt sett goda förutsättningar för regeringssamarbete.\n– V:s strategi får beskrivas som ett försök att pressa Centerpartiet tills de viker sig helt, och efter det ska man samarbeta i fyra år. Det är inte nödvändigtvis en situation som bäddar jättebra för ett tillitsfullt samarbete.\nSjälv tycker han att även de rödgröna ungdomsförbunden borde träffas, inte minst för att CUF och Ung Vänster ska få en bättre bild av varandra, vilket CUF-ordförande Emelie Rossheim inte skriver under på.\n”Jag är emot Nooshi Dadgostar och Ida Gabrielssons teater, men trots det är sannolikheten större att vi tre kommer överens, än att CUF och Ung Vänster gör det. Ung Vänster vill göra en Swexit, det är omdömeslöst och saknar verklighetsförankring”, skriver hon till DN.\nHon är nöjd med att Centern håller fast vid att inte ingå i någon regering med ”ytterkantspartiet” Vänstern. Givet valresultatet är hennes drömregering i stället en där Elisabeth Thand Ringqvist tar med sig S och MP och närmar sig KD och L:\n”Helt enkelt en mittenregering med S, C, KD, MP och L där hon (Simona Mohamsson) är varmt välkommen att driva socialliberal politik utan inflytande från ytterkanterna”, skriver hon.\nMoska Hassas är ordförande för SSU , och precis som Anton Bylin tycker hon att de fyra partierna ska börja sitt samarbete genom en gemensam budget. Hon lyfter precis som My Kårlycke strategin ”låsa in sig”.\n– Vi vill förhindra en övergångsbudget från Tidö. De röda linjerna från C och V skapar ett regeringskulturkrig där vem som får vilken ministerpost hamnar i fokus i stället för sakpolitiken, säger hon.\nVad hade du gjort annorlunda i Magdalena Anderssons ställe?\n– Jag tycker S gör rätt i att träffa de andra partierna under premissen att diskutera sakpolitik. SSU:s krav mot S är att vi vill ha en regering ledd av Magdalena Andersson som har en hög reformtakt och en stark agenda. Det är inget vi sticker under stol med, att vi varit kritiska till när tempot tidigare varit för lågt.\nFakta. Vad är dina tre bästa förhandlingstips till din partiledare?\nAnton Bylin, Grön ungdom: Driv upp tempot, säkra det egna inflytandet, se också till att vi får igenom det vi förtjänar för våra mandat. I övrigt: fortsätt som ni gör, respektera alla och få en regering på plats.\nMy Kårlycke, Ung Vänster: Ge dig inte, säg till Elisabeth Thand Ringqvist att hon borde få sondera så att hon inser att det inte finns någon mittenmajoritet, sätt på kaffebryggaren och ha något hembakt hemma om någon skulle komma förbi.\nMoska Hassas, SSU: Jag tror inte att hon behöver några råd, men vi i SSU vill ha en regering som tar tag i våra samhällsproblem, får igenom en höjning av CSN, avgiftsfri tandvård och bekämpar gängkriminaliteten och -våldet.\nEmelie Rossheim, CUF : Keep slaying queen. Det är modigt det Elisabeth gör. Söka stöd över blockgränsen och samtidigt värna om Centerpartiets kärna. Simona Mohamsson och Ebba Bush borde ta efter, en mittenregering hade kunnat uträtta stordåd för jobben, klimatet och välfärden\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nStatsvetaren om låsta läget – därför ska du fortsätta bry dig\nBjörn Wiman: Techmiljardärernas leksak kan vara vår tids atomvapen\nMP-irritationen mot C efter beskedet: ”Bara spel”",
+      "summary": "Drygt fem veckor efter valnatten saknar Sverige fortfarande en regering.",
+      "fulltext": "Drygt fem veckor efter valnatten saknar Sverige fortfarande en regering. I eftermiddag ska riksdagens talman Andreas Norlén hålla pressträff om hur landet ligger.\nI torsdags röstade riksdagen nej till S-ledaren Magdalena Andersson som statsminister i den första skarpa prövningen av en kandidat i kammaren sedan valnatten.\nSedan dess håller talmannen informella samtal med partierna och klockan 13.30 i dag, måndag, ska han hålla pressträff för att informera om nästa steg i processen.\nNorlén har uppmanat partierna att tala med varandra, med eller utan sonderingsuppdrag.\nLäget inom oppositionspartierna Socialdemokraterna, Vänsterpartiet, Centerpartiet och Miljöpartiet – som tillsammans samlar en riksdagsmajoritet – har hittills varit låst.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg"
+        "regeringsbildning"
       ],
-      "first_seen": "2026-10-18T14:02:40.647118+00:00"
+      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/PgLp5R/statsvetare-darfor-ar-ett-extraval-osannolikt",
+      "title": "Statsvetare: Därför är ett extraval osannolikt",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-19",
+      "author": "Emilia Lindell",
+      "commentator": "",
+      "summary": "Om Ulf Kristersson tilldelas det nya sonderingsuppdraget kan det bli statsministeromröstning redan i…",
+      "fulltext": "Om Ulf Kristersson tilldelas det nya sonderingsuppdraget kan det bli statsministeromröstning redan i veckan. Det finns inga tecken på att högern får med sig C på sin sida. ”De har en Berlinmur mot SD”, säger statsvetaren Tommy Möller.\nSom väntat röstades Magdalena Andersson (S) ned i den första statsministeromröstningen i torsdags. Vid 13.30 på måndagen ska talman Andreas Norlén presentera nästa steg i regeringsbildningen, och vem som får sonderingsuppdraget.\nMånga tror att Ulf Kristersson (M) står på tur, vilket S-ledaren också hoppas på.\nAndersson faller – C, V och MP röstade rött\nKälla: Inte konstigt att vi inte har en regering",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "sondering",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9321291",
+      "title": "M och S hittar varandra i kommunerna – över 50 styren",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-19",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Efter valet har Moderaterna och Socialdemokraterna kommit överens om att styra tillsammans i över 50 kommuner. I drygt 30 av dem blir det en fortsättning på tidigare samarbeten medan det är helt nytt i drygt 20 av kommunerna. Samtidigt spricker nästan 20 styren där partierna styrt ihop innan valet. I Bollnäs går M och S skilda vägar. I Eskilstuna går man in på fjärde mandatperioden tillsammans. I Trelleborg kom det nya samarbetet som en överraskning för många.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321291'",
+      "matched_terms": [
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/strommer-m-om-regeringsbildningen-finns-lasningar",
+      "title": "Strömmer (M) om regeringsbildningen: ”Finns låsningar”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-18",
+      "author": "Nora Holand",
+      "commentator": "",
+      "summary": "Andersson röstades ner som statsminister i torsdags och imorgon kommer talmannens besked om vad som händer nu. Många menar att Kristersson borde få sondera – men är Moderaterna redo att bygga en ny regering till höger? – Om vi i något skede ska pröva möjligheten att bilda borgerlig regering så måste fem partier vara i spel. Där är vi inte idag, säger justitieminister Gunnar Strömmer (M) i Agenda.",
+      "fulltext": "Andersson röstades ner som statsminister i torsdags och imorgon kommer talmannens besked om vad som händer nu.\nMånga menar att Kristersson borde få sondera – men är Moderaterna redo att bygga en ny regering till höger?\n– Om vi i något skede ska pröva möjligheten att bilda borgerlig regering så måste fem partier vara i spel. Där är vi inte idag, säger justitieminister Gunnar Strömmer (M) i Agenda.\nDet har gått 35 dagar sedan valet. Trots att de rödgröna partiledarna var positiva till mötet mellan dem förra fredagen så ser det fortfarande ut att dröja innan Sverige får en ny regering.\nI torsdags röstades S-ledaren Magdalena Andersson ned som statsministerkandidat i riksdagen. Talmannens besked om vem som får sonderingsuppdrag härnäst kommer under måndagen.\nAndersson kan få försöka ännu en gång men ett annat alternativ är att Ulf Kristersson (M) får uppdraget.\nDå blir frågan om Moderaterna är redo att bilda en regering till höger.\n– Det är ingen hemlighet att det finns låsningar mellan Centerpartiet och Sverigedemokraterna, säger Gunnar Strömmer (M).\nUnder söndagen skickade SD-ledaren Jimmie Åkesson ett öppet brev till Thand Ringqvist (C) på X , där han bjöd in henne till ett möte om ”om det parlamentariska läget och de låsningar som uppenbarligen finns”. Något hon inte svarat på.\n– Jag tror att många medborgare har upplevt att det inte har varit för mycket kaffekoppar såhär långt under regeringsbildningsprocessen. Sen hur de väljer att ha kontakt med varandra är förstås upp till de partierna, säger Gunnar Strömmer.\nHan säger att det finns mycket i den ekonomiska politiken som förenar partierna högerut men att låsningen ligger i de röda linjerna mellan partier. Låsningar mellan C och SD är en realitet, säger han.\n– Jag uppfattar att det mycket var bakgrunden till C:s val att gå till val med Andersson som statsministerkandidat. Hur det ska lösas upp, och om det går, är en fråga som i hög grad ägs av partierna själva.\nModeraterna pratar med företrädare för andra partier, säger Strömmer, men säger att inget har förändrats i grunden:\n– Jag upplever inte att det har skett någon dramatisk förflyttning som ändrar det grundläggande utgångsläget.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman",
+        "statsminister",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9320867",
+      "title": "Över 160 000 nya spanjorer kan stoppas från att rösta",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-18",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Över 160 000 utlandsspanjorer kan stoppas från att rösta i valet den 29 november efter ett beslut i Spaniens högsta domstol. Domstolen kräver styrkande att de omfattas av den så kallade ”barnbarnslagen”. Lagen infördes 2022 och ger ättlingar till spanjorer som gick i exil under inbördeskriget eller Francodiktaturen möjlighet till spanskt medborgarskap. Högerpartiet Vox hävdar att lagen använts för att manipulera valresultatet. Premiärminister Pedro Sánchez avfärdar anklagelserna.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9320867'",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9321784",
+      "title": "Åkesson bjuder in Thand Ringqvist till möte",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-18",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Sverigedemokraternas ledare Jimmie Åkesson bjuder in Centerpartiets Elisabeth Thand Ringqvist till ett ”förutsättningslöst samtal om det parlamentariska läget\", skriver han på sociala medier. I brevet skriver han att ett utdraget dödläge riskerar att bli direkt skadligt för Sverige. Han skriver att Sverigedemokraterna inte har några röda linjer, men att partiets linje om att de antingen kommer ingå i en regering eller att vara i opposition ligger fast.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321784'",
+      "matched_terms": [
+        "Centerpartiet",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-10-19T06:03:04.779452+00:00"
     }
   ]
 }
