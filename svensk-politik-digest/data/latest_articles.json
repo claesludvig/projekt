@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-19T06:03:04.779452+00:00",
-  "new_count": 6,
+  "fetched_at": "2026-10-19T14:03:35.905169+00:00",
+  "new_count": 10,
   "skipped": {
-    "seen": 46,
-    "offtopic": 151,
-    "old": 7
+    "seen": 45,
+    "offtopic": 141,
+    "old": 14
   },
-  "fetch_errors": 3,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,112 +65,188 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/zlwOKb/vad-blir-nasta-steg-i-regeringsbildningen",
-      "title": "Vad blir nästa steg i regeringsbildningen?",
+      "url": "https://www.svd.se/a/rM4zoR/elisabeth-thand-ringqvist-c-kommer-troligen-misslyckas",
+      "title": "Piggt val av Norlén – men dödsdömt",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-10-19",
-      "author": "TT",
+      "author": "Henrik Torehammar",
       "commentator": "",
-      "summary": "Drygt fem veckor efter valnatten saknar Sverige fortfarande en regering.",
-      "fulltext": "Drygt fem veckor efter valnatten saknar Sverige fortfarande en regering. I eftermiddag ska riksdagens talman Andreas Norlén hålla pressträff om hur landet ligger.\nI torsdags röstade riksdagen nej till S-ledaren Magdalena Andersson som statsminister i den första skarpa prövningen av en kandidat i kammaren sedan valnatten.\nSedan dess håller talmannen informella samtal med partierna och klockan 13.30 i dag, måndag, ska han hålla pressträff för att informera om nästa steg i processen.\nNorlén har uppmanat partierna att tala med varandra, med eller utan sonderingsuppdrag.\nLäget inom oppositionspartierna Socialdemokraterna, Vänsterpartiet, Centerpartiet och Miljöpartiet – som tillsammans samlar en riksdagsmajoritet – har hittills varit låst.",
+      "summary": "Talmannen vill låta Centerns mittendrömmar möta verkligheten. Till stor glädje för V och M, som…",
+      "fulltext": "Talmannen vill låta Centerns mittendrömmar möta verkligheten. Till stor glädje för V och M, som räknar med ännu ett misslyckande.\nN ämen, detta var ett piggt val av talman Norlén. Så skulle den allmänna pressreaktionen kunna sammanfattas över att Elisabeth Thand Ringqvist (C) nu får sonderingsuppdraget.\nKanske är det en sorts passiv aggressivitet klädd i den mildaste östgötska när talmannen vill att ETR ska låta pratet om en regering i mitten möta verkligheten. För även talmannen verkar vara medveten om att det kan sluta i ännu en statsministeromröstning med minst 175 nejröster.\nAlice Landerholm: Min familj definierar inte mig\nStatsvetare: Därför är ett extraval osannolikt",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning"
+        "talman"
       ],
-      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
     },
     {
-      "url": "https://www.svd.se/a/PgLp5R/statsvetare-darfor-ar-ett-extraval-osannolikt",
-      "title": "Statsvetare: Därför är ett extraval osannolikt",
+      "url": "https://www.svd.se/a/Elkbaa/thand-ringqvist-far-talmannens-sonderingsuppdrag",
+      "title": "C-ledaren får sondera: ”Nyckelspelare”",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-10-19",
-      "author": "Emilia Lindell",
+      "author": "Jenny Nyman",
       "commentator": "",
-      "summary": "Om Ulf Kristersson tilldelas det nya sonderingsuppdraget kan det bli statsministeromröstning redan i…",
-      "fulltext": "Om Ulf Kristersson tilldelas det nya sonderingsuppdraget kan det bli statsministeromröstning redan i veckan. Det finns inga tecken på att högern får med sig C på sin sida. ”De har en Berlinmur mot SD”, säger statsvetaren Tommy Möller.\nSom väntat röstades Magdalena Andersson (S) ned i den första statsministeromröstningen i torsdags. Vid 13.30 på måndagen ska talman Andreas Norlén presentera nästa steg i regeringsbildningen, och vem som får sonderingsuppdraget.\nMånga tror att Ulf Kristersson (M) står på tur, vilket S-ledaren också hoppas på.\nAndersson faller – C, V och MP röstade rött\nKälla: Inte konstigt att vi inte har en regering",
+      "summary": "Centerpartiets Elisabeth Thand Ringqvist får talmannens uppdrag att undersöka sin önskade…",
+      "fulltext": "Centerpartiets Elisabeth Thand Ringqvist får talmannens uppdrag att undersöka sin önskade mittenregering. Men Liberalerna säger omgående nej – och vill i stället ta reda på om ”de icke-socialistiska partierna” kan enas.\nDet har nu gått 36 dagar sedan valet och än är ingen ny regering i sikte. När Magdalena Andersson (S) i torsdags röstades ned som statsminister gick bollen tillbaka till talman Andreas Norlén.\nPå måndagen meddelar han att nästa sonderingsuppdrag går till C-ledaren Elisabeth Thand Ringqvist.\nPourmokhtari nobbar C: ”Lovat enhörningar”",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "sondering",
+        "talman",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/eGvze9/thand-ringqvist-kommer-aven-prata-med-v-och-sd",
+      "title": "Ska sondera – men vill inte bli statsminister",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-19",
+      "author": "Johanna Ekström/TT",
+      "commentator": "",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist får uppdraget att sondera för en ny regering.",
+      "fulltext": "C-ledaren Elisabeth Thand Ringqvist får uppdraget att sondera för en ny regering.\nHon vill prata med alla partiledare – men partiets röda linjer ligger fast.\n– Det finns många låsningar, säger hon till TT.\nTalman Andreas Norlén ger Centerpartiets ledare Elisabeth Thand Ringqvist i uppdrag att se om det finns förutsättningar för en regering i mitten.\nHon säger att hon är ödmjuk inför uppdraget.\n– Min ambition är att bidra till en lösning på regeringsfrågan, inte att själv bli statsminister, säger hon.\nDen mittenregering som Thand Ringqvist nu vill undersöka förutsättningarna för består av S, MP, C, KD och L, och har S-ledaren Magdalena Andersson som statsminister.\n– I det mittenalternativ som vi ser framför oss är den högst troliga statsministerkandidaten Magdalena Andersson, som leder det största partiet, säger hon.\nThand Ringqvist kommer dock att bjuda in samtliga partiledare till samtal.\n– Även Nooshi Dadgostar (V), Ulf Kristersson (M) och Jimmie Åkesson (SD).\n– Jag vill få en syn på hela det politiska landskapet i det här uppdraget, och förstå hur alla resonerar, säger hon.\nDet innebär dock inte, enligt Thand Ringqvist, att Centerpartiet har ändrat uppfattning gentemot vare sig V eller SD i en regering.\nSer du någon slags öppning för samarbete högerut?\n– Nej, jag har fått uppdraget att titta på ett mittenalternativ.\nHar något ändrats i Centerpartiets syn på V?\n– Vi vet att Sverige står inför stora utmaningar med hög arbetslöshet, vi har klimatutmaningar, vi har en välfärd som inte fungerar i hela landet.\nLösningen är enligt Centerpartiet att skapa tillväxt.\n– Då måste man göra det med partier som delar både utgångspunkt och lösningar, säger hon.\nCenterledaren säger att hon har en god relation till både Liberalerna och Kristdemokraterna. Hon fångades till exempel nyligen på bild efter ett bastumöte med KD-ledaren Ebba Busch.\nHur ser du på dina chanser att lyckas med det här?\n– Det finns många låsningar i svensk politik som gör det svårt att få en handlingskraftig mittenregering på plats. De låsningarna finns även på vänsterkanten. Så utgångsläget är väldigt svårt, säger hon.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
         "statsminister"
       ],
-      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9321291",
-      "title": "M och S hittar varandra i kommunerna – över 50 styren",
+      "url": "https://www.svt.se/nyheter/inrikes/ett-ovantat-drag-av-talmannen-men-det-kan-lona-sig",
+      "title": "”Ett oväntat drag av talmannen – men det kan löna sig”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-19",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Att ge sonderingsuppdraget till Elisabeth Thand Ringqvist (C) redan nu var ett oväntat drag av talmannnen. Men det visar hur låst läget är och att Centerpartiet benhårt håller fast vid sin röda linje mot V-ministrar. Och möjligen kan försöket att på allvar testa partiets dröm om en lösning i mitten vara det som krävs för att processen ska börja röra sig framåt.",
+      "fulltext": "Att ge sonderingsuppdraget till Elisabeth Thand Ringqvist (C) redan nu var ett oväntat drag av talmannnen.\nMen det visar hur låst läget är och att Centerpartiet benhårt håller fast vid sin röda linje mot V-ministrar.\nOch möjligen kan försöket att på allvar testa partiets dröm om en lösning i mitten vara det som krävs för att processen ska börja röra sig framåt.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "sondering",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/talmannen-ger-elisabeth-thand-rinqvist-c-sonderingsuppdraget",
+      "title": "Talmannen ger Elisabeth Thand Ringqvist (C) sonderingsuppdraget",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-19",
+      "author": "Thea Mossige-Norheim, Erik Nilsson",
+      "commentator": "",
+      "summary": "Elisabeth Thand Ringqvist (C) får sonderingsuppdraget av talmannen. – Det verkade rimligt att ta avstamp i det så kallade mittenalternativet, säger Andreas Norlén på en pressträff. C-ledaren bjuder nu in alla partiledare till samtal – men vill själv inte bli statsminister.",
+      "fulltext": "Elisabeth Thand Ringqvist (C) får sonderingsuppdraget av talmannen.\n– Det verkade rimligt att ta avstamp i det så kallade mittenalternativet, säger Andreas Norlén på en pressträff.\nC-ledaren bjuder nu in alla partiledare till samtal – men vill själv inte bli statsminister.\nI torsdags röstade riksdagen nej till förslaget om Magdalena Andersson som statsminister i en ren S-regering.\nDagen därpå meddelade talman Andreas Norlén (M) att han diskuterat med partiledarna på telefon, och skulle ha ”fortsatta informella samtal” om regeringsbildningen.\nPå måndagen gav han sonderingsuppdraget till C-ledaren Elisabeth Thand Ringqvist.\nAndreas Norlén säger att C-ledarens namn lyftes fram ”från både vänster och höger” efter statsministeromröstningen förra veckan.\n– Därför framstår det som rimligt att börja där. Man kan såklart diskutera om man skulle börjat någon annanstans, för det är inte en exakt vetenskap detta. Men jag tyckte ändå att det verkade rimligt att ta avstamp i den fortsatta processen i det så kallade mittenalternativet. Jag ser fram emot att ta del av hennes rapport.\nNågot datum för statsministeromröstning om någon kandidat är inte satt.\nElisabeth Thand Ringqvist (C) säger i en kommentar till SVT att hon är ”ödmjuk inför att ha fått talmannens uppdrag att sondera möjligheterna till en regering i mitten.”\nHon fortsätter: ”Min ambition är att bidra till en lösning på regeringsfrågan, inte att själv bli statsminister. Centerpartiet vill se en handlingskraftig regering som skapar fler jobb, minskar utsläppen och stärker välfärden. Nu kommer jag att bjuda in alla partiledare till samtal.”\nTill TT säger hon att Magdalena Andersson är den ”högst troliga statsministerkandidaten” i mittenregeringen de ser framför sig, eftersom hon leder det största partiet. C-ledaren säger att hon även kommer samtala med V och SD.\n– Jag vill få en syn på hela det politiska landskapet i det här uppdraget, och förstå hur alla resonerar, säger hon till nyhetsbyrån.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "sondering",
+        "statsminister",
+        "partiledar"
+      ],
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/sd-bjuder-in-c-till-mote-da-kan-det-bli-en-ny-hogerallians",
+      "title": "SD bjuder in C till möte – då kan det bli en ny högerallians",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-19",
+      "author": "Mathilda Ståhl",
+      "commentator": "",
+      "summary": "I helgen bjöd SD:s partiledare Jimmie Åkesson in C-ledaren Elisabeth Thand Ringqvist till ett möte. I ett öppet brev, som publicerats på X, ber han C att överväga att släppa sina låsningar gentemot SD. – Det finns en möjlighet att centern går tillbaka till att se till sakpolitiken, säger Adam Danieli, idéchef på Timbro som inte utesluter ett samarbete där både C och SD ingår.",
+      "fulltext": "I helgen bjöd SD:s partiledare Jimmie Åkesson in C-ledaren Elisabeth Thand Ringqvist till ett möte.\nI ett öppet brev, som publicerats på X, ber han C att överväga att släppa sina låsningar gentemot SD.\n– Det finns en möjlighet att centern går tillbaka till att se till sakpolitiken, säger Adam Danieli, idéchef på Timbro som inte utesluter ett samarbete där både C och SD ingår.\nCenterpartiet har ännu inte tackat ja till Jimmie Åkessons inbjudan.\nCenterpartiet har sedan länge gjort det tydligt att de inte kan stödja en regering där det krävs någon form av stöd från Sverigedemokraterna. Men nu finns det vissa tecken på att de röda linjerna är på väg att suddas ut.\n– Jag tycker vi har hört flera röster från centerhåll under förra veckan som visar att man är öppen för andra samarbeten. Förhandlingen med vänstersidan så som den ser ut nu går inte centerns väg, säger Adam Danieli.\nÄven om partierna hade lyckats enas i vissa sakfrågor kommer den svåraste knuten att lösa ut vara frågan om SD:s ministerposter.\nEfter att Magdalena Andersson röstats ned som statsminister i förra veckan vill delar av riksdagen nu att sonderingsuppdraget går till Ulf Kristersson (M).\nKristersson och Åkesson har tagit i hand på att SD ska få ministerposter i en M-ledd regering. Samtidigt skulle Centerpartiets röster behövas för att rösta fram en högermittenallians.\n– Ministerposterna är en principiell fråga för Sverigedemokraterna men man ska också komma ihåg att många av SD:s väljare har väldigt högt förtroende för Ulf Kristersson, säger Adam Danieli.\nHan menar att en nedröstning av Kristersson som statsminister skulle vara att gå emot SD-väljarnas vilja.\nArvid Hallén, från SD-märkta Oikos, tror att den viktigaste punkten i ett sådant scenario är att Sverigedemokraternas migrations- och kriminalpolitik får ligga fast under kommande mandatperiod.\n– Det är väldigt svårt för Sverigedemokraterna att backa i migrationspolitiken, speciellt om de inte ska sitta i regering, säger han.\nOm det skulle bli förhandlingar där SD och C ingår skulle det innebära en stor svekdebatt inom Centerpartiet.\n– Om regeringen behöver Sverigedemorkraternas stöd oavsett om det är i regering eller som stödparti kommer det bli en väldigt tuff debatt. Kanske mer med väljarna än med medlemmarna, säger Eric Luth från centerkopplade tankesmedjan Fores.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar"
+      ],
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
+    },
+    {
+      "url": "https://www.expressen.se/ledare/antligen-c-tvingas-mota-verkligheten",
+      "title": "Äntligen! C tvingas möta verkligheten",
+      "source": "Expressen Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-19",
+      "author": "ledarredaktionen",
+      "commentator": "",
+      "summary": "Centerledaren Elisabeth Thand Ringqvist får sonderingsuppdraget. Det är ett oväntat, men klokt, drag av talman Andreas Norlén.",
+      "fulltext": "Centerledaren Elisabeth Thand Ringqvist får sonderingsuppdraget. Det är ett oväntat, men klokt, drag av talman Andreas Norlén.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nElisabeth Thand Ringqvist är ”en nyckelspelare” i regeringsbildningsprocessen, motiverade talmannen sitt val. Det är ett diplomatiskt sätt att säga att det hittills är C som har stått för låsningarna.\nEnda sättet att dyrka upp läget är att låta Elisabeth Thand Ringqvist testa sin dröm om mittens rike i verkligheten. Hon har fyra alternativ:\nThand Ringqvist kan försöka samla stöd för att ge Magdalena Andersson statsministerposten i en majoritetsregering bestående av S, C, MP, KD och L. Det ser dock helt döfött ut på förhand.\nI förra veckan tackade Liberalernas Simona Mohamsson nej till att ens träffa Andersson. Efter alla uppslitande turer gör Liberalernas ledning analysen att partiet inte överlever att byta blocktillhörighet en gång till. Räkna inte med att Mohamsson begår harakiri för att rädda ansiktet på Centerpartiet.\nMiljöpartiet har i sin tur sagt nej till att regera med KD.\nEfter att Magdalena Andersson föll i statsministeromröstningen i torsdags öppnade Centern för att stödja en socialdemokratisk enpartiregering, om det funnits ”någon plan för hur politiken skulle se ut”. Men sådana diskussioner blockeras av att MP och V kräver ministerposter, menade Thand Ringqvist.\n– Våra väljare är lika viktiga som socialdemokraternas, kontrade V-ledaren Nooshi Dadgostar i Aftonbladet .\nCenterpartisterna behöver inte sätta sig i en regering med SD. Det räcker att C trycker gult i en statsministeromröstning för att släppa igenom en borgerlig minoritetsregering – bestående av M, KD och L – med SD som stödparti i riksdagen.\nI sakpolitiken finns det en samsyn om att sänka skatterna för både folk och företag, se till att det finns polis i varje kommun och förenkla för skogs- och lantbruk. Här borde det finnas en grund att bygga på. Men hur mycket Centerpartiet än talar om att sakpolitiken ska avgöra är det uppenbart att det inte stämmer.\nInte ens om man ger Thand Ringqvist hela reformutrymmet är hon nöjd.\nInför valet lovade Moderaterna att genomföra alla de sex krav som C satt upp för att stötta Magdalena Andersson – satsningar på allt från fossilfri el till ungas psykiska hälsa – för att locka partiet över blockgränsen. Det möttes av kalla handen.\n– Det är försent. Han har valt Sverigedemokraterna och han får stå för det, svarade Elisabeth Thand Ringqvist.\nI torsdags lanserade vd:n för den centerpartistiska tankesmedjan Fores, Matilda Molander, idén om ”Alliansen 3.0” – en fyrpartiregering med M, KD, L och C som får stöd i riksdagen av SD. Testballongen borde ge hopp åt Kristersson, kan man tro – men icke.\nI förhandlingar brukar man behöva ge och ta. Det borde partiet som gett upphov till begreppet kohandel förstå. Ska SD ge upp ministerposter, kommer de att kräva betalt i politik. Så vad tänker sig Molander att Thand Ringqvist ska erbjuda Åkesson?\nIngenting. Mindre än så, faktiskt. Hon kräver att SD ”utöver att avstå från ministerposter också går med på stora sakpolitiska eftergifter”. Den strama migrationspolitiken ska rivas upp. Drivmedelspriserna ska höjas. Och euron ska införas.\nAtt förhandla med Centerpartiet är alltså som att dela en godispåse med Karlsson på taket: ”En till mig, och en till mig.”\nÖvriga partiledare lär dock inte vara lika lättduperade som stackars Lillebror.\nNär Elisabeth Thand Ringqvist återrapporterar till talmannen om en vecka är sannolikheten alltså minimal att hon kan visa upp en regeringskoalition. För landet är det viktigaste vilken slutsats hon drar av det.\nNär mitten har fallit måste Centerpartiet justera sin position.\nValresultatet gör det omöjligt att bilda regering om inte C släpper en av sina två röda linjer. Vänsterpartiet lär inte ge upp kravet på statsrådsposter. Antingen får C gå med på vänsterpartistiska ministrar, eller att släppa fram en regering som samarbetar med SD.\nÄr det sakpolitiken eller SD-motståndet som väger tyngst?\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "sondering"
+      ],
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9322192",
+      "title": "Helena Gissén: ”Thand Ringqvist är inte aktuell som statsminister”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-19",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Efter valet har Moderaterna och Socialdemokraterna kommit överens om att styra tillsammans i över 50 kommuner. I drygt 30 av dem blir det en fortsättning på tidigare samarbeten medan det är helt nytt i drygt 20 av kommunerna. Samtidigt spricker nästan 20 styren där partierna styrt ihop innan valet. I Bollnäs går M och S skilda vägar. I Eskilstuna går man in på fjärde mandatperioden tillsammans. I Trelleborg kom det nya samarbetet som en överraskning för många.",
+      "summary": "Elisabeth Thand Ringqvist (C) får uppdrag att sondera möjligheterna till en mittenregering, vilket inte är helt oväntat då flera partier föreslagit detta, säger Helena Gissén, Ekots inrikespolitiska kommentator. ”Hon är inte aktuell för statsministerfrågan utan om det blir en mittenregering är det Magdalena Andersson som skulle bli statsminister”, säger Gissén. Helena Gissén beskriver läget med de låsta regeringsförhandlingarna som allvarligt och talmannen sa själv under pressträffen på måndagen att han inte ser att det gjorts några framsteg.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321291'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9322192'",
       "matched_terms": [
-        "Moderaterna",
-        "Socialdemokraterna"
+        "regeringsförhandling",
+        "talman",
+        "statsminister"
       ],
-      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/strommer-m-om-regeringsbildningen-finns-lasningar",
-      "title": "Strömmer (M) om regeringsbildningen: ”Finns låsningar”",
-      "source": "SVT Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9322173",
+      "title": "Talmannen: Thand Ringqvist (C) får sonderingsuppdraget",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-18",
-      "author": "Nora Holand",
+      "published": "2026-10-19",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Andersson röstades ner som statsminister i torsdags och imorgon kommer talmannens besked om vad som händer nu. Många menar att Kristersson borde få sondera – men är Moderaterna redo att bygga en ny regering till höger? – Om vi i något skede ska pröva möjligheten att bilda borgerlig regering så måste fem partier vara i spel. Där är vi inte idag, säger justitieminister Gunnar Strömmer (M) i Agenda.",
-      "fulltext": "Andersson röstades ner som statsminister i torsdags och imorgon kommer talmannens besked om vad som händer nu.\nMånga menar att Kristersson borde få sondera – men är Moderaterna redo att bygga en ny regering till höger?\n– Om vi i något skede ska pröva möjligheten att bilda borgerlig regering så måste fem partier vara i spel. Där är vi inte idag, säger justitieminister Gunnar Strömmer (M) i Agenda.\nDet har gått 35 dagar sedan valet. Trots att de rödgröna partiledarna var positiva till mötet mellan dem förra fredagen så ser det fortfarande ut att dröja innan Sverige får en ny regering.\nI torsdags röstades S-ledaren Magdalena Andersson ned som statsministerkandidat i riksdagen. Talmannens besked om vem som får sonderingsuppdrag härnäst kommer under måndagen.\nAndersson kan få försöka ännu en gång men ett annat alternativ är att Ulf Kristersson (M) får uppdraget.\nDå blir frågan om Moderaterna är redo att bilda en regering till höger.\n– Det är ingen hemlighet att det finns låsningar mellan Centerpartiet och Sverigedemokraterna, säger Gunnar Strömmer (M).\nUnder söndagen skickade SD-ledaren Jimmie Åkesson ett öppet brev till Thand Ringqvist (C) på X , där han bjöd in henne till ett möte om ”om det parlamentariska läget och de låsningar som uppenbarligen finns”. Något hon inte svarat på.\n– Jag tror att många medborgare har upplevt att det inte har varit för mycket kaffekoppar såhär långt under regeringsbildningsprocessen. Sen hur de väljer att ha kontakt med varandra är förstås upp till de partierna, säger Gunnar Strömmer.\nHan säger att det finns mycket i den ekonomiska politiken som förenar partierna högerut men att låsningen ligger i de röda linjerna mellan partier. Låsningar mellan C och SD är en realitet, säger han.\n– Jag uppfattar att det mycket var bakgrunden till C:s val att gå till val med Andersson som statsministerkandidat. Hur det ska lösas upp, och om det går, är en fråga som i hög grad ägs av partierna själva.\nModeraterna pratar med företrädare för andra partier, säger Strömmer, men säger att inget har förändrats i grunden:\n– Jag upplever inte att det har skett någon dramatisk förflyttning som ändrar det grundläggande utgångsläget.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Talman Andreas Norlén (M) har bett Elisabeth Thand Ringqvist (C) att sondera möjligheterna till en regering som kan tolereras och rapportera tillbaka om en vecka. C-ledaren ska då främst undersöka möjligheten till en mittenregering. Talmannen bedömer att ingen tydlig framgång skett i processen att bilda regering på något håll hittills.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9322173'",
+      "matched_terms": [
+        "talman",
+        "sondering"
+      ],
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/thand-ringqvist-far-sonderingsuppdraget-detta-hander-nu",
+      "title": "Thand Ringqvist får sonderingsuppdraget – detta händer nu",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-19",
+      "author": "Tove Höök Bittkowski",
+      "commentator": "",
+      "summary": "På måndagen meddelade talman Andreas Norlén att Centerpartiets partiledare Elisabeth Thand Ringqvist får uppdraget att undersöka förutsättningarna för att bilda en regering. Detta händer med regeringsbildningen nu.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-19 16:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/thand-ringqvist-far-sonderingsuppdraget-detta-hander-nu/\nPå måndagen meddelade talman Andreas Norlén att Centerpartiets partiledare Elisabeth Thand Ringqvist får uppdraget att undersöka förutsättningarna för att bilda en regering.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nI torsdags hade riksdagen en statsministeromröstning om Magdalena Andersson (S). S-ledaren hade inte tillräckligt underlag för att bilda regering, då fler än hälften av riksdagens ledamöter röstade nej.\nPå måndagen gav talmannen sonderingsuppdraget till Elisabeth Thand Ringqvist (C) för att låta henne undersöka förutsättningarna för ett så kallat mittenalternativ.\nElisabeth Thand Ringqvist har kommenterat uppdraget och säger att hon själv inte vill bli statsminister, istället är hennes fokus att ”bidra till en lösning på regeringsfrågan”.\n● C-ledaren har till på måndagen den 26 oktober på sig att återrapportera till talmannen.\n● Elisabeth Thand Ringqvist kommer bjuda in alla partiledare till samtal.\n● Norlén menar att det genom att ge C-ledaren uppdraget kommer föra regeringsprocessen framåt, även om hon inte lyckas.\n● När nästa statsministeromröstning kan ske är ännu oklart.\n● Det finns ingen gräns för hur många sonderingsuppdrag en talman kan dela ut.\n● Riksdagen ska rösta om statsministern som talmannen har föreslagit. Kandidaten behöver inte ha en majoritet bakom sig i riksdagen. Det räcker med att färre än 175 ledamöter röstar nej.\n● Talmannen kan max genomföra fyra statsministeromröstningar.\n● Om det fjärde förslaget röstas ned ska talmannen omedelbart besluta om ett extra val.\n● Om riksdagen däremot enats om en statsministerkandidat får denne bestämma vilka ministrar som ska ingå i regeringen.\n● Ett formellt regeringsskifte sker vid en så kallad skifteskonselj på slottet där statschefen är ordförande.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTalmannen: Centerledaren får sonderingsuppdraget\nPolitiker efter DN:s granskning: ”Ivo tycks ha jagat pinnar, inte kriminella”\nLedare: Ska svenska folket verkligen dömas av amatörer?",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
         "talman",
-        "statsminister",
-        "Moderaterna"
+        "sondering",
+        "partiledar",
+        "Centerpartiet"
       ],
-      "first_seen": "2026-10-19T06:03:04.779452+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9320867",
-      "title": "Över 160 000 nya spanjorer kan stoppas från att rösta",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-18",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Över 160 000 utlandsspanjorer kan stoppas från att rösta i valet den 29 november efter ett beslut i Spaniens högsta domstol. Domstolen kräver styrkande att de omfattas av den så kallade ”barnbarnslagen”. Lagen infördes 2022 och ger ättlingar till spanjorer som gick i exil under inbördeskriget eller Francodiktaturen möjlighet till spanskt medborgarskap. Högerpartiet Vox hävdar att lagen använts för att manipulera valresultatet. Premiärminister Pedro Sánchez avfärdar anklagelserna.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9320867'",
-      "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-10-19T06:03:04.779452+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9321784",
-      "title": "Åkesson bjuder in Thand Ringqvist till möte",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-18",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Sverigedemokraternas ledare Jimmie Åkesson bjuder in Centerpartiets Elisabeth Thand Ringqvist till ett ”förutsättningslöst samtal om det parlamentariska läget\", skriver han på sociala medier. I brevet skriver han att ett utdraget dödläge riskerar att bli direkt skadligt för Sverige. Han skriver att Sverigedemokraterna inte har några röda linjer, men att partiets linje om att de antingen kommer ingå i en regering eller att vara i opposition ligger fast.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9321784'",
-      "matched_terms": [
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-19T06:03:04.779452+00:00"
+      "first_seen": "2026-10-19T14:03:35.905169+00:00"
     }
   ]
 }

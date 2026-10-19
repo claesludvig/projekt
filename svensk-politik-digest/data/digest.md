@@ -1,39 +1,59 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-19
 
-6 nya poster sedan förra utskicket (46 redan utskickade, 151 utanför ämnet).
+10 nya poster sedan förra utskicket (45 redan utskickade, 141 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Vad blir nästa steg i regeringsbildningen?](https://www.svd.se/a/zlwOKb/vad-blir-nasta-steg-i-regeringsbildningen)
-SvD Ledare · 2026-10-19 · TT
+### [Piggt val av Norlén – men dödsdömt](https://www.svd.se/a/rM4zoR/elisabeth-thand-ringqvist-c-kommer-troligen-misslyckas)
+SvD Ledare · 2026-10-19 · Henrik Torehammar
 
-Drygt fem veckor efter valnatten saknar Sverige fortfarande en regering.
+Talmannen vill låta Centerns mittendrömmar möta verkligheten. Till stor glädje för V och M, som…
 
-### [Statsvetare: Därför är ett extraval osannolikt](https://www.svd.se/a/PgLp5R/statsvetare-darfor-ar-ett-extraval-osannolikt)
-SvD Ledare · 2026-10-19 · Emilia Lindell
+### [C-ledaren får sondera: ”Nyckelspelare”](https://www.svd.se/a/Elkbaa/thand-ringqvist-far-talmannens-sonderingsuppdrag)
+SvD Ledare · 2026-10-19 · Jenny Nyman
 
-Om Ulf Kristersson tilldelas det nya sonderingsuppdraget kan det bli statsministeromröstning redan i…
+Centerpartiets Elisabeth Thand Ringqvist får talmannens uppdrag att undersöka sin önskade…
+
+### [Ska sondera – men vill inte bli statsminister](https://www.svd.se/a/eGvze9/thand-ringqvist-kommer-aven-prata-med-v-och-sd)
+SvD Ledare · 2026-10-19 · Johanna Ekström/TT
+
+C-ledaren Elisabeth Thand Ringqvist får uppdraget att sondera för en ny regering.
+
+### [Äntligen! C tvingas möta verkligheten](https://www.expressen.se/ledare/antligen-c-tvingas-mota-verkligheten)
+Expressen Ledare · 2026-10-19 · ledarredaktionen
+
+Centerledaren Elisabeth Thand Ringqvist får sonderingsuppdraget. Det är ett oväntat, men klokt, drag av talman Andreas Norlén.
 
 ## Rapportering
 
-### [M och S hittar varandra i kommunerna – över 50 styren](https://www.sverigesradio.se/artikel/9321291)
+### [”Ett oväntat drag av talmannen – men det kan löna sig”](https://www.svt.se/nyheter/inrikes/ett-ovantat-drag-av-talmannen-men-det-kan-lona-sig) **[kommentator]**
+SVT Nyheter · 2026-10-19 · Elisabeth Marmorstein
+
+Att ge sonderingsuppdraget till Elisabeth Thand Ringqvist (C) redan nu var ett oväntat drag av talmannnen. Men det visar hur låst läget är och att Centerpartiet benhårt håller fast vid sin röda linje mot V-ministrar. Och möjligen kan försöket att på allvar testa partiets dröm om en lösning i mitten vara det som krävs för att processen ska börja röra sig framåt.
+
+### [Talmannen ger Elisabeth Thand Ringqvist (C) sonderingsuppdraget](https://www.svt.se/nyheter/inrikes/talmannen-ger-elisabeth-thand-rinqvist-c-sonderingsuppdraget)
+SVT Nyheter · 2026-10-19 · Thea Mossige-Norheim, Erik Nilsson
+
+Elisabeth Thand Ringqvist (C) får sonderingsuppdraget av talmannen. – Det verkade rimligt att ta avstamp i det så kallade mittenalternativet, säger Andreas Norlén på en pressträff. C-ledaren bjuder nu in alla partiledare till samtal – men vill själv inte bli statsminister.
+
+### [SD bjuder in C till möte – då kan det bli en ny högerallians](https://www.svt.se/nyheter/inrikes/sd-bjuder-in-c-till-mote-da-kan-det-bli-en-ny-hogerallians)
+SVT Nyheter · 2026-10-19 · Mathilda Ståhl
+
+I helgen bjöd SD:s partiledare Jimmie Åkesson in C-ledaren Elisabeth Thand Ringqvist till ett möte. I ett öppet brev, som publicerats på X, ber han C att överväga att släppa sina låsningar gentemot SD. – Det finns en möjlighet att centern går tillbaka till att se till sakpolitiken, säger Adam Danieli, idéchef på Timbro som inte utesluter ett samarbete där både C och SD ingår.
+
+### [Helena Gissén: ”Thand Ringqvist är inte aktuell som statsminister”](https://www.sverigesradio.se/artikel/9322192)
 Ekot, Sveriges Radio · 2026-10-19 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Efter valet har Moderaterna och Socialdemokraterna kommit överens om att styra tillsammans i över 50 kommuner. I drygt 30 av dem blir det en fortsättning på tidigare samarbeten medan det är helt nytt i drygt 20 av kommunerna. Samtidigt spricker nästan 20 styren där partierna styrt ihop innan valet. I Bollnäs går M och S skilda vägar. I Eskilstuna går man in på fjärde mandatperioden tillsammans. I Trelleborg kom det nya samarbetet som en överraskning för många.
+Elisabeth Thand Ringqvist (C) får uppdrag att sondera möjligheterna till en mittenregering, vilket inte är helt oväntat då flera partier föreslagit detta, säger Helena Gissén, Ekots inrikespolitiska kommentator. ”Hon är inte aktuell för statsministerfrågan utan om det blir en mittenregering är det Magdalena Andersson som skulle bli statsminister”, säger Gissén. Helena Gissén beskriver läget med de låsta regeringsförhandlingarna som allvarligt och talmannen sa själv under pressträffen på måndagen att han inte ser att det gjorts några framsteg.
 
-### [Strömmer (M) om regeringsbildningen: ”Finns låsningar”](https://www.svt.se/nyheter/inrikes/strommer-m-om-regeringsbildningen-finns-lasningar)
-SVT Nyheter · 2026-10-18 · Nora Holand
+### [Talmannen: Thand Ringqvist (C) får sonderingsuppdraget](https://www.sverigesradio.se/artikel/9322173)
+Ekot, Sveriges Radio · 2026-10-19 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Andersson röstades ner som statsminister i torsdags och imorgon kommer talmannens besked om vad som händer nu. Många menar att Kristersson borde få sondera – men är Moderaterna redo att bygga en ny regering till höger? – Om vi i något skede ska pröva möjligheten att bilda borgerlig regering så måste fem partier vara i spel. Där är vi inte idag, säger justitieminister Gunnar Strömmer (M) i Agenda.
+Talman Andreas Norlén (M) har bett Elisabeth Thand Ringqvist (C) att sondera möjligheterna till en regering som kan tolereras och rapportera tillbaka om en vecka. C-ledaren ska då främst undersöka möjligheten till en mittenregering. Talmannen bedömer att ingen tydlig framgång skett i processen att bilda regering på något håll hittills.
 
-### [Över 160 000 nya spanjorer kan stoppas från att rösta](https://www.sverigesradio.se/artikel/9320867)
-Ekot, Sveriges Radio · 2026-10-18 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Thand Ringqvist får sonderingsuppdraget – detta händer nu](https://www.dn.se/sverige/thand-ringqvist-far-sonderingsuppdraget-detta-hander-nu)
+DN Nyheter · 2026-10-19 · Tove Höök Bittkowski
 
-Över 160 000 utlandsspanjorer kan stoppas från att rösta i valet den 29 november efter ett beslut i Spaniens högsta domstol. Domstolen kräver styrkande att de omfattas av den så kallade ”barnbarnslagen”. Lagen infördes 2022 och ger ättlingar till spanjorer som gick i exil under inbördeskriget eller Francodiktaturen möjlighet till spanskt medborgarskap. Högerpartiet Vox hävdar att lagen använts för att manipulera valresultatet. Premiärminister Pedro Sánchez avfärdar anklagelserna.
+På måndagen meddelade talman Andreas Norlén att Centerpartiets partiledare Elisabeth Thand Ringqvist får uppdraget att undersöka förutsättningarna för att bilda en regering. Detta händer med regeringsbildningen nu.
 
-### [Åkesson bjuder in Thand Ringqvist till möte](https://www.sverigesradio.se/artikel/9321784)
-Ekot, Sveriges Radio · 2026-10-18 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Sverigedemokraternas ledare Jimmie Åkesson bjuder in Centerpartiets Elisabeth Thand Ringqvist till ett ”förutsättningslöst samtal om det parlamentariska läget", skriver han på sociala medier. I brevet skriver han att ett utdraget dödläge riskerar att bli direkt skadligt för Sverige. Han skriver att Sverigedemokraterna inte har några röda linjer, men att partiets linje om att de antingen kommer ingå i en regering eller att vara i opposition ligger fast.
-
-_Genererat 2026-10-19T06:03:04.779452+00:00._
+_Genererat 2026-10-19T14:03:35.905169+00:00._
