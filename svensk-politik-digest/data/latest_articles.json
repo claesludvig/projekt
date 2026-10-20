@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-20T06:03:11.187145+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-10-20T14:03:28.077347+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 45,
-    "offtopic": 148,
-    "old": 14
+    "seen": 48,
+    "offtopic": 143,
+    "old": 15
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,58 +65,82 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/thand-ringqvist-c-om-chanserna-for-en-mittenregering-utesluter-ingenting-pa-forhand",
-      "title": "Thand Ringqvist (C) om chanserna för en mittenregering: ”Utesluter ingenting på förhand”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
+      "url": "https://www.svd.se/a/n9PVzm/det-finns-en-majoritet-for-mitten",
+      "title": "”Det finns en majoritet för mitten”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-10-20",
-      "author": "Mathilda Ståhl",
+      "author": "SvD",
       "commentator": "",
-      "summary": "På måndagen meddelade talman Andreas Norlén att han lämnar över sonderingsuppdraget till Centerpartiets partiledare Elisabeth Thand Ringqvist. – Jag har bokat in möten med alla partiledare men det kommer främst att vara de som jag har sagt kan vara en del av en mittenregering, säger hon i Morgonstudion.",
-      "fulltext": "På måndagen meddelade talman Andreas Norlén att han lämnar över sonderingsuppdraget till Centerpartiets partiledare Elisabeth Thand Ringqvist.\n– Jag har bokat in möten med alla partiledare men det kommer främst att vara de som jag har sagt kan vara en del av en mittenregering, säger hon i Morgonstudion.\nPå måndag 26 oktober ska Elisabeth Thand Ringqvist återkomma till talmannen och meddela huruvida hon har lyckats skapa ett regeringsunderlag.\nTrots att alla partiledare kommer att träffa C-ledaren, har samtliga varit tydliga med att de röda linjerna ligger kvar.\n– Jag utesluter ingenting nu på förhand, säger Elisabeth Thand Ringqvist i Morgonstudion .\nÄr du beredd att släppa era röda linjer mot V eller SD?\n– Nej, det är därför jag sonderar möjligheterna för ett mittenalternativ, säger Thand Ringqvist.\nHon menar att det första steget för att bilda en regering i mitten är att hålla samtal med alla partiledare. Beroende på vilka förutsättningar som då finns tror hon att det kan leda till en stark regering.\n– En mittenregering skulle kunna få igenom mycket bra blocköverskridande politik, säger hon.\nDe röda linjerna ligger kvar för samtliga partier, även för C, men trots motstånd från båda sidor tror C-ledaren att det finns många som kan vara för ett mittenalternativ.\n– Sitter man på vänstersidan eller högersidan så kommer man ju säga att det här kommer misslyckas. Det är ju en del av att få makten så det klart att det är många som vill se mig misslyckas, säger Elisabeth Thand Ringqvist.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Centerpartiet har fått talmannens uppdrag att sondera möjligheterna för en mittenregering.",
+      "fulltext": "Centerpartiet har fått talmannens uppdrag att sondera möjligheterna för en mittenregering. Trots utmaningarna finns ett brett stöd för mittenpolitik i riksdagen. Det som förenar partierna är mer än det som skiljer dem åt, skriver Elisabeth Thand Ringqvist (C).\nDet här är en argumenterande text med syfte att påverka. Åsikterna som uttrycks är skribentens egna.\nJag är ödmjuk inför att ha fått talmannens uppdrag att sondera möjligheterna till en mittenregering. Min ambition är att bidra till en lösning på regeringsfrågan, inte att bli statsminister. Det är ett uppdrag jag ska genomföra på största allvar, för väljarna förtjänar seriösa politiker som grundligt undersöker alla möjligheter.\nJag har inga illusioner om att det blir lätt. Kristdemokraterna vill inte regera med Socialdemokraterna så länge det inte är kris, krig eller exceptionellt läge. Liberalerna vill inte se Magdalena Andersson som statsminister. Miljöpartiet kräver ministerposter och Socialdemokraterna kan inte stötta någon annan som statsminister. Jag kommer ändå be alla diskutera följande med mig: finns det mer som förenar än det som skiljer oss åt? Finns det en grund för en tillväxtvänlig politik tydligt förankrad i mitten?\nVerkligheten bryr sig inte om politiska block. Konjunkturinstitutet prognosticerar en arbetslöshet på 8,7 procent i år. Höga energipriser väntas driva upp inflationen, och räntorna med den. Klimatpolitiska rådet konstaterar att Sverige är på väg att missa klimatmålen. Rysslands krigsföring i Europa och hybridattacker runt Östersjön hotar våra samhällen. Den organiserade brottsligheten rekryterar barn. Reformutrymmet är enligt Konjunkturinstitutet knappt 100 miljarder kronor. Det kräver en regering som vågar prioritera.\nOm de fem partiernas valplattformar läggs bredvid varandra är det slående ofta vi pekar ut likartade problem och lösningar.\nLiberalerna vill ha 20 elever i klassen. Socialdemokraterna vill genomföra en småskolereform med små klasser. Miljöpartiet och Centerpartiet vill minska klasserna. Kristdemokraterna har vården som sin viktigaste fråga. Socialdemokraterna, Miljöpartiet och Centerpartiet vill alla bygga ut primärvården.\nSocialdemokraterna vill ha billigare el, Kristdemokraterna stabil fossilfri el och Miljöpartiet mer sol, vind och lagring. Vi vill ha en energiöverenskommelse, i syfte att bygga det stabila elsystem som ger mest el till lägst kostnad.\nSocialdemokraterna vill slå mot den organiserade brottslighetens ekonomi. Kristdemokraterna efterfrågar nationellt ledarskap. Vi vill ha poliser där människor bor. Tillsammans förstärker det den offensiv mot kriminaliteten som i brett samförstånd inletts.\nMiljöpartiet och Centerpartiet vill lätta sjuklönekostnaden för småföretagen. Miljöpartiet vill sänka arbetsgivaravgiften för växande företag och lantbrukare, och vi vill ta bort anställningsskatten för de tio första anställda i växande företag och införa jordbrukssavdrag. Kristdemokraterna och vi vill stärka jord- och skogsbruket.\nDet är dock mer än sakpolitik som förenar.\nFör det första skulle det vara stabilt. En majoritetsregering får igenom budgetar och kan i för Sverige systemviktiga frågor söka breda överenskommelser. Med mandatövervikt klarar den att ledamöter från regeringspartierna blir politiska vildar. Det är en säkerhet svensk politik inte har haft på länge, och som ger en välbehövlig långsiktighet.\nFör det andra skulle besluten hålla. Sveriges största reformer har sällan gjorts av ett block mot ett annat. Pensionssystemet byggdes gemensamt. Reformer som har stöd över de gamla blockgränserna river inte nästa regering lättvindigt upp. Det gäller energin, skolan, bostäder och försvaret.\nFör det tredje skulle den ha kontakt med hela landet. Med både företag och fackföreningsrörelse, med både landsbygder och städer, med både grön industri och gröna näringarna.\nFör det fjärde skulle den kunna tala med en röst. Alla fem partierna står bakom Ukraina och vill att Sverige blir en starkare röst i EU. När säkerhetsläget är det allvarligaste på generationer behöver Sverige en regering där ingen tvekar om var vi hör hemma.\nÄven om vi ser olika på skatterna för dem med höga inkomster, på vinster i välfärden och på decentralisering versus centralisering är det som förenar oss mer än det som skiljer oss.\nUnder den kommande veckan vill jag träffa partiledarna för Socialdemokraterna, Miljöpartiet, Kristdemokraterna och Liberalerna, för att fråga dem vad de anser förenar oss mer än vad som skiljer oss. Jag kommer även fråga övriga partiledare om möten, för det är att ta sonderingsuppdraget och Sverige på allvar.\nNågra menar att Centerpartiet ska släppa in Vänsterpartiet i regering och föra in Sverige på en historisk vänstersväng. Det är otänkbart för oss, och det har inte svenska folket röstat för. Valet gav inte mandat för en vänstersväng och Centerpartiet kommer hedra valresultatet.\nTvärtom är mitt uppdrag är att utröna om mittenalternativet är möjligt och vad en sådan regering kan göra för Sverige. Om mittenalternativet inte är möjligt nu, givet partiers linjer och det parlamentariska läget, ska det vara något vi kommer fram till efter att grundligt undersökt det, snarare än att kasta bort det på förhand.\nElisabeth Thand Ringqvist partiledare (C)\nPekar ut alternativen: ”Då börjar det bli allvar”\nVill du debattera? Klicka här för mer info.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "talman",
-        "sondering",
-        "partiledar",
         "Centerpartiet"
       ],
-      "first_seen": "2026-10-20T06:03:11.187145+00:00"
+      "first_seen": "2026-10-20T14:03:28.077347+00:00"
     },
     {
-      "url": "https://www.regeringen.se/artiklar/2026/10/statsministern-tog-emot-singapores-president",
-      "title": "Statsministern tog emot Singapores president",
-      "source": "Regeringen.se",
-      "kind": "officiell",
+      "url": "https://www.svt.se/nyheter/inrikes/landsbygden-ror-sig-hogerut-moderaterna-okar-i-56-kommuner",
+      "title": "Landsbygden rör sig högerut – Moderaterna ökar i 56 kommuner",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
       "published": "2026-10-20",
-      "author": "Regeringskansliet",
+      "author": "Jenny Lagerstedt",
       "commentator": "",
-      "summary": "Måndagen den 19 oktober tog statsminister Ulf Kristersson emot Singapores president Tharman Shanmugaratnam för ett möte på Rosenbad. Mötet ägde rum i samband med presidentens statsbesök i Sverige på inbjudan av H.M. Konungen.",
-      "fulltext": "Måndagen den 19 oktober tog statsminister Ulf Kristersson emot Singapores president Tharman Shanmugaratnam för ett möte på Rosenbad. Mötet ägde rum i samband med presidentens statsbesök i Sverige på inbjudan av H.M. Konungen.\nStatsminister Ulf Kristersson och Singapores president Tharman Shanmugaratnam.\nPå mötet deltog även utrikesminister Maria Malmer Stenergard och bistånds- och utrikeshandelsminister Benjamin Dousa.\nStatsministern välkomnar presidenten utanför Rosenbad.\nSverige och Singapore firar 60 år av diplomatiska förbindelser och har ett nära samarbete på flera viktiga områden. På dagordningen för mötet, för vilket statsministern stod värd, stod bland annat hållbar energi, innovation och investeringar samt Singapores kommande ordförandeskap i Sydostasiatiska nationers förbund, ASEAN. Ledarna diskuterade även säkerhetspolitik och resiliensfrågor kopplade till infrastruktur.\n– Singapore och Sverige tillhör världens mest innovativa länder och samarbetar redan inom områden som energi, hälsa samt den gröna och digitala omställningen. Samtidigt blir de ekonomiska och säkerhetspolitiska utmaningarna i Europa alltmer sammankopplade med utvecklingen i Asien och Stillahavsregionen. Därför är det värdefullt att våra länder nu fördjupar dialogen på dessa områden, med utgångspunkt i våra gemensamma intressen, säger statsminister Ulf Kristersson.\nPå mötet deltog även utrikesminister Maria Malmer Stenergard och bistånds- och utrikeshandelsminister Benjamin Dousa samt Singapores minister för sociala frågor och juniorministern för handels- och industrifrågor.\nMötet med statsministern ägde rum i samband med presidentens statsbesök den 19 – 21 oktober i Stockholm, på inbjudan av H.M. Konungen.\nSidan är uppmärkt med följande kategorier:",
+      "summary": "Moderaterna är landsbygdens vinnare i riksdagsvalet. Det visar SVT:s genomgång. Partiet gick framåt i samtliga 56 landsbygdskommuner. – Det har skett ett historiskt skifte, säger Daniel Jansson på SOM-institutet.",
+      "fulltext": "Moderaterna är landsbygdens vinnare i riksdagsvalet. Det visar SVT:s genomgång. Partiet gick framåt i samtliga 56 landsbygdskommuner.\n– Det har skett ett historiskt skifte, säger Daniel Jansson på SOM-institutet.\nModeraterna fick fler röster i alla 56 landsbygdskommuner, från Simrishamn till Pajala, i det här riksdagsvalet jämfört med 2022.\nAtt Moderaterna gått framåt på landsbygden beror på att de har drivit sakpolitiska frågor som lockar väljarna där, menar Daniel Jansson, på SOM-institutet vid Göteborgs universitet.\n– De har ägt frågor som är viktiga för boende på landsbygden. Det handlar om säkerhet och trygghet, Sveriges ekonomi och den egna ekonomin och frågor om invandring och flyktingmottagning.\nAlla kommuner med färre än 15 000 invånare i största tätorten och få jobbpendlare räknas som landsbygd, enligt organisationen Sveriges kommuner och regioner.\nTidigare röstade storstadsbor i större utsträckning på partier högerut medan boende på landsbygden röstade mer vänster. Men de senaste åren har det skett en förändring som befästes ytterligare i årets val.\n– Idag är de som bor på landsbygden mer höger än boende i städer, och mycket mer höger än boende i våra tre storstäder, säger Daniel Jansson.\nEnligt honom finns det flera orsaker till att landsbygden blir mer höger. En av dem är skillnader i utbildningsnivå.\n– I städer finns en mycket större närhet till universitet och arbeten som kräver högskoleutbildning.\nPå 90-talet förknippades högerpolitik i större utsträckning med ekonomiska frågor och skattepolitik. Men nu har andra dimensioner tagit sig in i begreppen vilket också avgör hur vi röstar.\n– Nu handlar det också om man har traditionella och nationalistiska värderingar å ena sidan, eller om man har mer progressiva, gröna och liberala värderingar, säger Daniel Jansson.\nSe mer om högersvängen på landsbygden i Aktuellt ikväll eller reportaget från Sunne på SVT play.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister"
+        "riksdagsval",
+        "Moderaterna"
       ],
-      "first_seen": "2026-10-20T06:03:11.187145+00:00"
+      "first_seen": "2026-10-20T14:03:28.077347+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-thand-ringqvist-far-sjalv-grava-mittens-grav",
-      "title": "Tomas Ramberg: Thand Ringqvist får själv gräva mittens grav",
+      "url": "https://www.sverigesradio.se/artikel/9324586",
+      "title": "C-ledaren: ”Våra röda linjer mot V och SD ligger fast”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerledaren Elisabeth Thand Ringqvist har fått talmannens uppdrag att undersöka möjligheten att bilda en ny regering. Hennes tänkta mittenalternativ omfattar fem partier: Från Miljöpartiet och Socialdemokraterna till Centerpartiet, Liberalerna och Kristdemokraterna. Samtidigt har Centerpartiet satt upp tydliga gränser. ”Det är många som måste fundera på sina röda linjer, men våra röda linjer mot Vänsterpartiet och Sverigedemokraterna ligger fast”, säger Elisabeth Thand Ringqvist i P1 Morgon.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9324586'",
+      "matched_terms": [
+        "talman",
+        "Centerpartiet",
+        "Kristdemokraterna",
+        "Liberalerna",
+        "Miljöpartiet",
+        "Socialdemokraterna",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-20T14:03:28.077347+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/daniel-hellden-far-riksdagsarvode-och-over-20-000-i-pension-fran-stockholms-stad",
+      "title": "Daniel Helldén får riksdagsarvode – och över 20 000 i pension från Stockholms stad",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-19",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Talmannen pressar Centern att lägga korten på bordet. Korten kommer att visa sig vara precis så svaga som alla andra partier sagt – det finns inget mittenalternativ. Frågan är hur centerledaren Elisabeth Thand Ringqvist vill gå vidare efter att ha tvingats begrava sin favoritregering.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-20 08:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-thand-ringqvist-far-sjalv-grava-mittens-grav/\nTalmannen pressar Centern att lägga korten på bordet. Korten kommer att visa sig vara precis så svaga som alla andra partier sagt – det finns inget mittenalternativ.\nFrågan är hur centerledaren Elisabeth Thand Ringqvist vill gå vidare efter att ha tvingats begrava sin favoritregering.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.\nDärefter 249 kr/mån. Alltid kvalitetsjournalistik. Ingen bindningstid.",
+      "published": "2026-10-20",
+      "author": "Anton Säll",
+      "commentator": "",
+      "summary": "Daniel Helldén får över 80 000 kronor i lön per månad som riksdagsledamot och partiledare för Miljöpartiet. Utöver det får han 20 766 kronor per månad i visstidspension från Stockholms stad – helt enligt reglerna.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-20 16:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/daniel-hellden-far-riksdagsarvode-och-over-20-000-i-pension-fran-stockholms-stad/\nDaniel Helldén får över 80 000 kronor i lön per månad som riksdagsledamot och partiledare för Miljöpartiet. Utöver det får han 20 766 kronor per månad i visstidspension från Stockholms stad – helt enligt reglerna.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman"
+        "partiledar",
+        "Miljöpartiet"
       ],
-      "first_seen": "2026-10-20T06:03:11.187145+00:00"
+      "first_seen": "2026-10-20T14:03:28.077347+00:00"
     }
   ]
 }
