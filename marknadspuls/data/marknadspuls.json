@@ -1,6 +1,6 @@
 {
-  "genererad": "2026-10-19T06:24:27+00:00",
-  "data_t_o_m": "2026-10-18",
+  "genererad": "2026-10-20T06:18:49+00:00",
+  "data_t_o_m": "2026-10-19",
   "perioder": [
     "1d",
     "2d",
@@ -19,90 +19,90 @@
           "namn": "OMXS30",
           "ticker": "^OMX",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 3296.8401,
+          "datum": "2026-10-19",
+          "senast": 3267.6001,
           "forandring": {
-            "1d": 1.25,
-            "2d": 0.63,
-            "3d": 0.61,
-            "1v": 1.19,
-            "2v": 1.11,
-            "1m": 1.42
+            "1d": -0.89,
+            "2d": 0.35,
+            "3d": -0.26,
+            "1v": -0.07,
+            "2v": 0.31,
+            "1m": 0.1
           }
         },
         {
           "namn": "DAX",
           "ticker": "^GDAXI",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 25622.6094,
+          "datum": "2026-10-19",
+          "senast": 25319.7695,
           "forandring": {
-            "1d": 0.95,
-            "2d": 1.28,
-            "3d": 1.44,
-            "1v": 2.13,
-            "2v": 1.55,
-            "1m": 0.33
+            "1d": -1.18,
+            "2d": -0.25,
+            "3d": 0.08,
+            "1v": 0.17,
+            "2v": 0.26,
+            "1m": 0.06
           }
         },
         {
           "namn": "Stoxx 50",
           "ticker": "^STOXX50E",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 6204.23,
+          "datum": "2026-10-19",
+          "senast": 6144.8101,
           "forandring": {
-            "1d": 0.58,
-            "2d": 0.22,
-            "3d": 0.6,
-            "1v": 0.5,
-            "2v": -0.55,
-            "1m": -0.99
+            "1d": -0.96,
+            "2d": -0.38,
+            "3d": -0.74,
+            "1v": -0.91,
+            "2v": -1.56,
+            "1m": -1.47
           }
         },
         {
           "namn": "S&P 500",
           "ticker": "^GSPC",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 7659.4399,
+          "datum": "2026-10-19",
+          "senast": 7690.73,
           "forandring": {
-            "1d": -1.09,
-            "2d": -0.77,
-            "3d": -1.87,
-            "1v": -1.95,
-            "2v": -0.82,
-            "1m": 1.43
+            "1d": 0.41,
+            "2d": -0.69,
+            "3d": -0.37,
+            "1v": -1.49,
+            "2v": -1.07,
+            "1m": 0.53
           }
         },
         {
           "namn": "Nasdaq 100",
           "ticker": "^NDX",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 29187.5508,
+          "datum": "2026-10-19",
+          "senast": 29529.3496,
           "forandring": {
-            "1d": -2.5,
-            "2d": -2.55,
-            "3d": -4.52,
-            "1v": -5.49,
-            "2v": -5.26,
-            "1m": 0.84
+            "1d": 1.17,
+            "2d": -1.36,
+            "3d": -1.41,
+            "1v": -3.7,
+            "2v": -4.98,
+            "1m": -0.39
           }
         },
         {
           "namn": "VIX",
           "ticker": "^VIX",
           "enhet": "pts",
-          "datum": "2026-10-16",
-          "senast": 19.99,
+          "datum": "2026-10-19",
+          "senast": 18.44,
           "forandring": {
-            "1d": 3.53,
-            "2d": 3.12,
-            "3d": 4.72,
-            "1v": 5.15,
-            "2v": 4.68,
-            "1m": 2.28
+            "1d": -1.55,
+            "2d": 1.98,
+            "3d": 1.57,
+            "1v": 3.23,
+            "2v": 2.92,
+            "1m": 3.63
           }
         }
       ]
@@ -114,45 +114,45 @@
           "namn": "US 3M",
           "ticker": "^IRX",
           "enhet": "bp",
-          "datum": "2026-10-16",
-          "senast": 4.07,
+          "datum": "2026-10-19",
+          "senast": 4.075,
           "forandring": {
-            "1d": -1.8,
-            "2d": -1.5,
-            "3d": 1.3,
-            "1v": 1.3,
-            "2v": 7.7,
-            "1m": 10.0
+            "1d": 0.5,
+            "2d": -1.3,
+            "3d": -1.0,
+            "1v": 2.5,
+            "2v": 5.7,
+            "1m": 9.7
           }
         },
         {
           "namn": "US 10Y",
           "ticker": "^TNX",
           "enhet": "bp",
-          "datum": "2026-10-16",
-          "senast": 5.098,
+          "datum": "2026-10-19",
+          "senast": 5.136,
           "forandring": {
-            "1d": 0.9,
-            "2d": -9.2,
-            "3d": -11.9,
-            "1v": -14.6,
-            "2v": -17.9,
-            "1m": 9.2
+            "1d": 3.8,
+            "2d": 4.7,
+            "3d": -5.4,
+            "1v": -10.4,
+            "2v": -17.5,
+            "1m": 13.8
           }
         },
         {
           "namn": "US 30Y",
           "ticker": "^TYX",
           "enhet": "bp",
-          "datum": "2026-10-16",
-          "senast": 5.436,
+          "datum": "2026-10-19",
+          "senast": 5.472,
           "forandring": {
-            "1d": 0.7,
-            "2d": -8.9,
-            "3d": -12.7,
-            "1v": -16.4,
-            "2v": -19.4,
-            "1m": 8.7
+            "1d": 3.6,
+            "2d": 4.3,
+            "3d": -5.3,
+            "1v": -12.6,
+            "2v": -19.3,
+            "1m": 14.1
           }
         }
       ]
@@ -164,60 +164,60 @@
           "namn": "EUR/USD",
           "ticker": "EURUSD=X",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 1.1213,
+          "datum": "2026-10-19",
+          "senast": 1.1225,
           "forandring": {
-            "1d": 0.16,
-            "2d": 0.08,
-            "3d": 0.47,
-            "1v": 0.0,
-            "2v": -0.33,
-            "1m": -2.81
+            "1d": 0.11,
+            "2d": 0.27,
+            "3d": 0.19,
+            "1v": 0.19,
+            "2v": -0.26,
+            "1m": -2.18
           }
         },
         {
           "namn": "USD/SEK",
           "ticker": "SEK=X",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 9.951,
+          "datum": "2026-10-19",
+          "senast": 9.9119,
           "forandring": {
-            "1d": -0.33,
-            "2d": -0.11,
-            "3d": -0.85,
-            "1v": -0.11,
-            "2v": -0.91,
-            "1m": 1.76
+            "1d": -0.39,
+            "2d": -0.73,
+            "3d": -0.5,
+            "1v": -0.85,
+            "2v": -1.22,
+            "1m": 0.92
           }
         },
         {
           "namn": "EUR/SEK",
           "ticker": "EURSEK=X",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 11.1581,
+          "datum": "2026-10-19",
+          "senast": 11.1265,
           "forandring": {
-            "1d": -0.17,
-            "2d": 0.0,
-            "3d": -0.37,
-            "1v": -0.16,
-            "2v": -1.22,
-            "1m": -1.1
+            "1d": -0.28,
+            "2d": -0.45,
+            "3d": -0.28,
+            "1v": -0.66,
+            "2v": -1.48,
+            "1m": -1.29
           }
         },
         {
           "namn": "EUR/NOK",
           "ticker": "EURNOK=X",
           "enhet": "pct",
-          "datum": "2026-10-16",
-          "senast": 10.6227,
+          "datum": "2026-10-19",
+          "senast": 10.5829,
           "forandring": {
-            "1d": -0.05,
-            "2d": -0.34,
-            "3d": -0.53,
-            "1v": -0.93,
-            "2v": -1.94,
-            "1m": -1.52
+            "1d": -0.37,
+            "2d": -0.43,
+            "3d": -0.71,
+            "1v": -1.16,
+            "2v": -2.23,
+            "1m": -2.07
           }
         }
       ]
@@ -229,45 +229,45 @@
           "namn": "Brent",
           "ticker": "BZ=F",
           "enhet": "pct",
-          "datum": "2026-10-18",
-          "senast": 107.9,
+          "datum": "2026-10-19",
+          "senast": 109.55,
           "forandring": {
-            "1d": -1.78,
-            "2d": 1.87,
-            "3d": 1.73,
-            "1v": 4.49,
-            "2v": 6.46,
-            "1m": 3.88
+            "1d": 1.7,
+            "2d": -0.28,
+            "3d": 3.43,
+            "1v": 2.72,
+            "2v": 9.2,
+            "1m": 5.47
           }
         },
         {
           "namn": "Guld",
           "ticker": "GC=F",
           "enhet": "pct",
-          "datum": "2026-10-18",
-          "senast": 4200.3999,
+          "datum": "2026-10-19",
+          "senast": 4160.1001,
           "forandring": {
-            "1d": 0.46,
-            "2d": 0.73,
-            "3d": 2.25,
-            "1v": -0.64,
-            "2v": 0.68,
-            "1m": -5.07
+            "1d": -0.98,
+            "2d": -0.5,
+            "3d": -0.24,
+            "1v": -0.73,
+            "2v": 0.08,
+            "1m": -5.98
           }
         },
         {
           "namn": "Koppar",
           "ticker": "HG=F",
           "enhet": "pct",
-          "datum": "2026-10-18",
-          "senast": 6.623,
+          "datum": "2026-10-19",
+          "senast": 6.538,
           "forandring": {
-            "1d": 1.41,
-            "2d": 1.71,
-            "3d": 0.17,
-            "1v": -1.79,
-            "2v": 0.58,
-            "1m": 0.12
+            "1d": -1.24,
+            "2d": 0.11,
+            "3d": 0.41,
+            "1v": -2.4,
+            "2v": -0.72,
+            "1m": -1.16
           }
         }
       ]
@@ -280,63 +280,63 @@
       "korrelation": {
         "1m": {
           "varde": -0.11,
-          "obs": 22
+          "obs": 21
         },
         "3m": {
           "varde": -0.36,
           "obs": 64
         }
       },
-      "graf": "marknadspuls/data/grafer/2026-10-19/omxs30_mot_brent.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-19/omxs30_mot_brent.png"
+      "graf": "marknadspuls/data/grafer/2026-10-20/omxs30_mot_brent.png",
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-20/omxs30_mot_brent.png"
     },
     {
       "a": "OMXS30",
       "b": "US 10Y",
       "korrelation": {
         "1m": {
-          "varde": -0.14,
-          "obs": 22
+          "varde": -0.06,
+          "obs": 21
         },
         "3m": {
           "varde": -0.21,
           "obs": 64
         }
       },
-      "graf": "marknadspuls/data/grafer/2026-10-19/omxs30_mot_us_10y.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-19/omxs30_mot_us_10y.png"
+      "graf": "marknadspuls/data/grafer/2026-10-20/omxs30_mot_us_10y.png",
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-20/omxs30_mot_us_10y.png"
     },
     {
       "a": "EUR/USD",
       "b": "US 10Y",
       "korrelation": {
         "1m": {
-          "varde": 0.05,
-          "obs": 22
+          "varde": -0.05,
+          "obs": 21
         },
         "3m": {
-          "varde": 0.22,
+          "varde": 0.24,
           "obs": 64
         }
       },
-      "graf": "marknadspuls/data/grafer/2026-10-19/eur_usd_mot_us_10y.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-19/eur_usd_mot_us_10y.png"
+      "graf": "marknadspuls/data/grafer/2026-10-20/eur_usd_mot_us_10y.png",
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-20/eur_usd_mot_us_10y.png"
     },
     {
       "a": "USD/SEK",
       "b": "OMXS30",
       "korrelation": {
         "1m": {
-          "varde": -0.01,
-          "obs": 22
+          "varde": -0.11,
+          "obs": 21
         },
         "3m": {
-          "varde": 0.02,
+          "varde": 0.04,
           "obs": 65
         }
       },
-      "graf": "marknadspuls/data/grafer/2026-10-19/usd_sek_mot_omxs30.png",
-      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-19/usd_sek_mot_omxs30.png"
+      "graf": "marknadspuls/data/grafer/2026-10-20/usd_sek_mot_omxs30.png",
+      "graf_url": "https://raw.githubusercontent.com/claesludvig/projekt/main/marknadspuls/data/grafer/2026-10-20/usd_sek_mot_omxs30.png"
     }
   ],
   "fel": [
