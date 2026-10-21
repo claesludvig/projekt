@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-21T06:03:15.370353+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-10-21T14:03:20.693698+00:00",
+  "new_count": 0,
   "skipped": {
     "seen": 48,
-    "offtopic": 143,
+    "offtopic": 147,
     "old": 15
   },
-  "fetch_errors": 2,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Aftonbladet Ledare",
       "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -63,79 +63,5 @@
       "ok": true
     }
   ],
-  "articles": [
-    {
-      "url": "https://www.aftonbladet.se/ledare/a/kvLy96/ge-nasta-sondering-till-nooshi-dadgostar",
-      "title": "Ge nästa sondering till Nooshi Dadgostar",
-      "source": "Aftonbladet Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-21",
-      "author": "Anders Lindberg",
-      "commentator": "Anders Lindberg",
-      "summary": "ANDERS LINDBERG Viktigast är att C och V fortsätter umgås",
-      "fulltext": "Viktigast är att C och V fortsätter umgås\nAftonbladets ledarsida är oberoende socialdemokratisk.\nElisabeth Thand Ringqvist (C) kommer inte att lyckas med sitt uppdrag att sondera för en ny regering. Eftersom den politiska mitten bara består av hennes eget parti. Sannolikt blir det ingen votering heller.\nDet som däremot leder processen framåt är att Elisabeth Thand Ringqvist nu tvingas samtala direkt med Vänsterpartiets Nooshi Dadgostar på tu man hand. De två håller i nycklarna till nästa regeringsbildning.\nEller annorlunda uttryckt: om C och V håller fast i sina röda linjer blir det extra val och förmodligen en ny Tidöregering någon gång i mars, april.\nNär man lyssnar på Elisabeth Thand Ringqvist och Nooshi Dadgostar, eller deras olika löjtnanter, får man lätt intrycket att deras enda vallöfte var vem som ska få ministerposter.\nVänsterpartiets valplattform var 11 sidor långt, sprängfyllt med vänsterlöften om ”en ny inriktning för Sverige”. ”På din sida”, var partiets klatschiga slogan.\nCenterpartiets valmanifest var hela 96 sidor med 328 reformförslag. ”Sverige kan mer”, skrev de på sina affischer.\nBåda partierna pratade dessutom om att stödja Magdalena Andersson som statsminister. C sa uttryckligen att Ulf Kristersson var ”diskvalificerad”. Hur bra tycker de själva att de lyckats med det löftet hittills?\nCenterpartiet och Vänsterpartiet har haft helt olika strategier efter valet. Vänstern har lagt all kraft på att vinna medierna för sin sak. Ida Gabrielsson dag ut och dag in i tv och radio.\nDet har betalat sig. I dag är den dominerande berättelsen att Centerpartiet kommer att behöva böja sig. Lite som ”alla” på sin tid var övertygade om att Annie Lööf skulle vika ner sig och acceptera en borgerlig regering med stöd av SD. Vilket hon inte gjorde.\nVad Vänsterpartiet däremot inte gjort är att bygga förtroende hos de partier de vill samarbeta med. Det behöver de börja göra. Särskilt efter att Vänsterpartiet i Region Stockholm öppnat för att stödja Moderaterna och rösta för skattesänkningar i syfte att sabotera för Socialdemokraterna.\nSocialdemokraterna kan inte lösa konflikten mellan Centerpartiet och Vänsterpartiet. Det måste partierna göra själva. Förhoppningsvis kan Elisabeth Thand Ringqvist ta några steg för att skapa det förtroende som behövs. Och i så fall bör nästa sonderingsuppdrag gå till Nooshi Dadgostar.\nSen kanske det är dags för förutsättningslösa diskussioner om vad som är viktigast i de över hundra sidorna med vallöften som partierna gick till val på. Och om de faktiskt menande allvar med att Magdalena Andersson ska kunna bli statsminister.\nDet var väl ändå för att få en annan politik som väljarna röstade på dem?",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "sondering"
-      ],
-      "first_seen": "2026-10-21T06:03:15.370353+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9325146",
-      "title": "Färre platser på folkhögskolor: ”Statliga stödet har minskat”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Antalet utbildningsplatser på folkhögskolorna har minskat under de senaste åren. Enligt Olle Westberg (S), generalsekreterare för Rörelsefolkhögskolornas intresseorganisation, har antalet platser till allmän kurs har minskat med drygt 2 000 sedan 2019 på grund av minskat statligt stöd. Gymnasie-, högskole- och forskningsminister Lotta Edholm (L), uppger att hon inte vill kommentera antalet utbildningsplatser med hänvisning till att hon sitter i en övergångsregering.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9325146'",
-      "matched_terms": [
-        "övergångsregering"
-      ],
-      "first_seen": "2026-10-21T06:03:15.370353+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9325072",
-      "title": "Kristersson: Andersson borde prövas igen",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Moderaternas partiledare, statsminister Ulf Kristersson anser att det rimliga vore att Socialdemokraternas partiledare Magdalena Andersson prövas i nästa statsministeromröstning. ”Den frågan har inte varit på kartan, vad jag känner till”, säger Magdalena Andersson (S). Talman Andreas Norlén gav på sin pressträff i måndags inget besked om centerledaren Elisabeth Thand Ringqvists sonderingsuppdrag ska följas av en andra statsministeromröstning.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9325072'",
-      "matched_terms": [
-        "talman",
-        "sondering",
-        "statsminister",
-        "partiledar",
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-10-21T06:03:15.370353+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/efter-statsministerfiaskot-tiden-rinner-ut-for-rodgron-budget",
-      "title": "Efter statsministerfiaskot: Tiden rinner ut för rödgrön budget",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-20",
-      "author": "Hans Olsson, Hans Rosén",
-      "commentator": "",
-      "summary": "De rödgröna partierna har gett upp förhoppningarna om att lägga fram en gemensam budget i höst. – Tiden rinner i väg, säger Mikael Damberg (S).",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-21 08:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/efter-statsministerfiaskot-tiden-rinner-ut-for-rodgron-budget/\nDe rödgröna partierna har gett upp förhoppningarna om att lägga fram en gemensam budget i höst.\n– Tiden rinner i väg, säger Mikael Damberg (S).\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-21T06:03:15.370353+00:00"
-    }
-  ]
+  "articles": []
 }
