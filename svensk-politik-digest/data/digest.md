@@ -1,29 +1,29 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-20
+# Svensk politik och regeringsförhandlingarna — 2026-10-21
 
 4 nya poster sedan förra utskicket (48 redan utskickade, 143 utanför ämnet).
 
 ## Analys och kommentar
 
-### [”Det finns en majoritet för mitten”](https://www.svd.se/a/n9PVzm/det-finns-en-majoritet-for-mitten)
-SvD Ledare · 2026-10-20 · SvD
+### [Ge nästa sondering till Nooshi Dadgostar](https://www.aftonbladet.se/ledare/a/kvLy96/ge-nasta-sondering-till-nooshi-dadgostar) **[kommentator]**
+Aftonbladet Ledare · 2026-10-21 · Anders Lindberg
 
-Centerpartiet har fått talmannens uppdrag att sondera möjligheterna för en mittenregering.
+ANDERS LINDBERG Viktigast är att C och V fortsätter umgås
 
 ## Rapportering
 
-### [Landsbygden rör sig högerut – Moderaterna ökar i 56 kommuner](https://www.svt.se/nyheter/inrikes/landsbygden-ror-sig-hogerut-moderaterna-okar-i-56-kommuner)
-SVT Nyheter · 2026-10-20 · Jenny Lagerstedt
-
-Moderaterna är landsbygdens vinnare i riksdagsvalet. Det visar SVT:s genomgång. Partiet gick framåt i samtliga 56 landsbygdskommuner. – Det har skett ett historiskt skifte, säger Daniel Jansson på SOM-institutet.
-
-### [C-ledaren: ”Våra röda linjer mot V och SD ligger fast”](https://www.sverigesradio.se/artikel/9324586)
+### [Färre platser på folkhögskolor: ”Statliga stödet har minskat”](https://www.sverigesradio.se/artikel/9325146)
 Ekot, Sveriges Radio · 2026-10-20 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerledaren Elisabeth Thand Ringqvist har fått talmannens uppdrag att undersöka möjligheten att bilda en ny regering. Hennes tänkta mittenalternativ omfattar fem partier: Från Miljöpartiet och Socialdemokraterna till Centerpartiet, Liberalerna och Kristdemokraterna. Samtidigt har Centerpartiet satt upp tydliga gränser. ”Det är många som måste fundera på sina röda linjer, men våra röda linjer mot Vänsterpartiet och Sverigedemokraterna ligger fast”, säger Elisabeth Thand Ringqvist i P1 Morgon.
+Antalet utbildningsplatser på folkhögskolorna har minskat under de senaste åren. Enligt Olle Westberg (S), generalsekreterare för Rörelsefolkhögskolornas intresseorganisation, har antalet platser till allmän kurs har minskat med drygt 2 000 sedan 2019 på grund av minskat statligt stöd. Gymnasie-, högskole- och forskningsminister Lotta Edholm (L), uppger att hon inte vill kommentera antalet utbildningsplatser med hänvisning till att hon sitter i en övergångsregering.
 
-### [Daniel Helldén får riksdagsarvode – och över 20 000 i pension från Stockholms stad](https://www.dn.se/sverige/daniel-hellden-far-riksdagsarvode-och-over-20-000-i-pension-fran-stockholms-stad)
-DN Nyheter · 2026-10-20 · Anton Säll
+### [Kristersson: Andersson borde prövas igen](https://www.sverigesradio.se/artikel/9325072)
+Ekot, Sveriges Radio · 2026-10-20 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Daniel Helldén får över 80 000 kronor i lön per månad som riksdagsledamot och partiledare för Miljöpartiet. Utöver det får han 20 766 kronor per månad i visstidspension från Stockholms stad – helt enligt reglerna.
+Moderaternas partiledare, statsminister Ulf Kristersson anser att det rimliga vore att Socialdemokraternas partiledare Magdalena Andersson prövas i nästa statsministeromröstning. ”Den frågan har inte varit på kartan, vad jag känner till”, säger Magdalena Andersson (S). Talman Andreas Norlén gav på sin pressträff i måndags inget besked om centerledaren Elisabeth Thand Ringqvists sonderingsuppdrag ska följas av en andra statsministeromröstning.
 
-_Genererat 2026-10-20T14:03:28.077347+00:00._
+### [Efter statsministerfiaskot: Tiden rinner ut för rödgrön budget](https://www.dn.se/sverige/efter-statsministerfiaskot-tiden-rinner-ut-for-rodgron-budget)
+DN Nyheter · 2026-10-20 · Hans Olsson, Hans Rosén _(betalvägg — endast ingress)_
+
+De rödgröna partierna har gett upp förhoppningarna om att lägga fram en gemensam budget i höst. – Tiden rinner i väg, säger Mikael Damberg (S).
+
+_Genererat 2026-10-21T06:03:15.370353+00:00._

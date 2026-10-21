@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-20T14:03:28.077347+00:00",
+  "fetched_at": "2026-10-21T06:03:15.370353+00:00",
   "new_count": 4,
   "skipped": {
     "seen": 48,
     "offtopic": 143,
     "old": 15
   },
-  "fetch_errors": 1,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Aftonbladet Ledare",
       "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,82 +65,77 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/n9PVzm/det-finns-en-majoritet-for-mitten",
-      "title": "”Det finns en majoritet för mitten”",
-      "source": "SvD Ledare",
+      "url": "https://www.aftonbladet.se/ledare/a/kvLy96/ge-nasta-sondering-till-nooshi-dadgostar",
+      "title": "Ge nästa sondering till Nooshi Dadgostar",
+      "source": "Aftonbladet Ledare",
       "kind": "kommentar",
-      "published": "2026-10-20",
-      "author": "SvD",
-      "commentator": "",
-      "summary": "Centerpartiet har fått talmannens uppdrag att sondera möjligheterna för en mittenregering.",
-      "fulltext": "Centerpartiet har fått talmannens uppdrag att sondera möjligheterna för en mittenregering. Trots utmaningarna finns ett brett stöd för mittenpolitik i riksdagen. Det som förenar partierna är mer än det som skiljer dem åt, skriver Elisabeth Thand Ringqvist (C).\nDet här är en argumenterande text med syfte att påverka. Åsikterna som uttrycks är skribentens egna.\nJag är ödmjuk inför att ha fått talmannens uppdrag att sondera möjligheterna till en mittenregering. Min ambition är att bidra till en lösning på regeringsfrågan, inte att bli statsminister. Det är ett uppdrag jag ska genomföra på största allvar, för väljarna förtjänar seriösa politiker som grundligt undersöker alla möjligheter.\nJag har inga illusioner om att det blir lätt. Kristdemokraterna vill inte regera med Socialdemokraterna så länge det inte är kris, krig eller exceptionellt läge. Liberalerna vill inte se Magdalena Andersson som statsminister. Miljöpartiet kräver ministerposter och Socialdemokraterna kan inte stötta någon annan som statsminister. Jag kommer ändå be alla diskutera följande med mig: finns det mer som förenar än det som skiljer oss åt? Finns det en grund för en tillväxtvänlig politik tydligt förankrad i mitten?\nVerkligheten bryr sig inte om politiska block. Konjunkturinstitutet prognosticerar en arbetslöshet på 8,7 procent i år. Höga energipriser väntas driva upp inflationen, och räntorna med den. Klimatpolitiska rådet konstaterar att Sverige är på väg att missa klimatmålen. Rysslands krigsföring i Europa och hybridattacker runt Östersjön hotar våra samhällen. Den organiserade brottsligheten rekryterar barn. Reformutrymmet är enligt Konjunkturinstitutet knappt 100 miljarder kronor. Det kräver en regering som vågar prioritera.\nOm de fem partiernas valplattformar läggs bredvid varandra är det slående ofta vi pekar ut likartade problem och lösningar.\nLiberalerna vill ha 20 elever i klassen. Socialdemokraterna vill genomföra en småskolereform med små klasser. Miljöpartiet och Centerpartiet vill minska klasserna. Kristdemokraterna har vården som sin viktigaste fråga. Socialdemokraterna, Miljöpartiet och Centerpartiet vill alla bygga ut primärvården.\nSocialdemokraterna vill ha billigare el, Kristdemokraterna stabil fossilfri el och Miljöpartiet mer sol, vind och lagring. Vi vill ha en energiöverenskommelse, i syfte att bygga det stabila elsystem som ger mest el till lägst kostnad.\nSocialdemokraterna vill slå mot den organiserade brottslighetens ekonomi. Kristdemokraterna efterfrågar nationellt ledarskap. Vi vill ha poliser där människor bor. Tillsammans förstärker det den offensiv mot kriminaliteten som i brett samförstånd inletts.\nMiljöpartiet och Centerpartiet vill lätta sjuklönekostnaden för småföretagen. Miljöpartiet vill sänka arbetsgivaravgiften för växande företag och lantbrukare, och vi vill ta bort anställningsskatten för de tio första anställda i växande företag och införa jordbrukssavdrag. Kristdemokraterna och vi vill stärka jord- och skogsbruket.\nDet är dock mer än sakpolitik som förenar.\nFör det första skulle det vara stabilt. En majoritetsregering får igenom budgetar och kan i för Sverige systemviktiga frågor söka breda överenskommelser. Med mandatövervikt klarar den att ledamöter från regeringspartierna blir politiska vildar. Det är en säkerhet svensk politik inte har haft på länge, och som ger en välbehövlig långsiktighet.\nFör det andra skulle besluten hålla. Sveriges största reformer har sällan gjorts av ett block mot ett annat. Pensionssystemet byggdes gemensamt. Reformer som har stöd över de gamla blockgränserna river inte nästa regering lättvindigt upp. Det gäller energin, skolan, bostäder och försvaret.\nFör det tredje skulle den ha kontakt med hela landet. Med både företag och fackföreningsrörelse, med både landsbygder och städer, med både grön industri och gröna näringarna.\nFör det fjärde skulle den kunna tala med en röst. Alla fem partierna står bakom Ukraina och vill att Sverige blir en starkare röst i EU. När säkerhetsläget är det allvarligaste på generationer behöver Sverige en regering där ingen tvekar om var vi hör hemma.\nÄven om vi ser olika på skatterna för dem med höga inkomster, på vinster i välfärden och på decentralisering versus centralisering är det som förenar oss mer än det som skiljer oss.\nUnder den kommande veckan vill jag träffa partiledarna för Socialdemokraterna, Miljöpartiet, Kristdemokraterna och Liberalerna, för att fråga dem vad de anser förenar oss mer än vad som skiljer oss. Jag kommer även fråga övriga partiledare om möten, för det är att ta sonderingsuppdraget och Sverige på allvar.\nNågra menar att Centerpartiet ska släppa in Vänsterpartiet i regering och föra in Sverige på en historisk vänstersväng. Det är otänkbart för oss, och det har inte svenska folket röstat för. Valet gav inte mandat för en vänstersväng och Centerpartiet kommer hedra valresultatet.\nTvärtom är mitt uppdrag är att utröna om mittenalternativet är möjligt och vad en sådan regering kan göra för Sverige. Om mittenalternativet inte är möjligt nu, givet partiers linjer och det parlamentariska läget, ska det vara något vi kommer fram till efter att grundligt undersökt det, snarare än att kasta bort det på förhand.\nElisabeth Thand Ringqvist partiledare (C)\nPekar ut alternativen: ”Då börjar det bli allvar”\nVill du debattera? Klicka här för mer info.",
+      "published": "2026-10-21",
+      "author": "Anders Lindberg",
+      "commentator": "Anders Lindberg",
+      "summary": "ANDERS LINDBERG Viktigast är att C och V fortsätter umgås",
+      "fulltext": "Viktigast är att C och V fortsätter umgås\nAftonbladets ledarsida är oberoende socialdemokratisk.\nElisabeth Thand Ringqvist (C) kommer inte att lyckas med sitt uppdrag att sondera för en ny regering. Eftersom den politiska mitten bara består av hennes eget parti. Sannolikt blir det ingen votering heller.\nDet som däremot leder processen framåt är att Elisabeth Thand Ringqvist nu tvingas samtala direkt med Vänsterpartiets Nooshi Dadgostar på tu man hand. De två håller i nycklarna till nästa regeringsbildning.\nEller annorlunda uttryckt: om C och V håller fast i sina röda linjer blir det extra val och förmodligen en ny Tidöregering någon gång i mars, april.\nNär man lyssnar på Elisabeth Thand Ringqvist och Nooshi Dadgostar, eller deras olika löjtnanter, får man lätt intrycket att deras enda vallöfte var vem som ska få ministerposter.\nVänsterpartiets valplattform var 11 sidor långt, sprängfyllt med vänsterlöften om ”en ny inriktning för Sverige”. ”På din sida”, var partiets klatschiga slogan.\nCenterpartiets valmanifest var hela 96 sidor med 328 reformförslag. ”Sverige kan mer”, skrev de på sina affischer.\nBåda partierna pratade dessutom om att stödja Magdalena Andersson som statsminister. C sa uttryckligen att Ulf Kristersson var ”diskvalificerad”. Hur bra tycker de själva att de lyckats med det löftet hittills?\nCenterpartiet och Vänsterpartiet har haft helt olika strategier efter valet. Vänstern har lagt all kraft på att vinna medierna för sin sak. Ida Gabrielsson dag ut och dag in i tv och radio.\nDet har betalat sig. I dag är den dominerande berättelsen att Centerpartiet kommer att behöva böja sig. Lite som ”alla” på sin tid var övertygade om att Annie Lööf skulle vika ner sig och acceptera en borgerlig regering med stöd av SD. Vilket hon inte gjorde.\nVad Vänsterpartiet däremot inte gjort är att bygga förtroende hos de partier de vill samarbeta med. Det behöver de börja göra. Särskilt efter att Vänsterpartiet i Region Stockholm öppnat för att stödja Moderaterna och rösta för skattesänkningar i syfte att sabotera för Socialdemokraterna.\nSocialdemokraterna kan inte lösa konflikten mellan Centerpartiet och Vänsterpartiet. Det måste partierna göra själva. Förhoppningsvis kan Elisabeth Thand Ringqvist ta några steg för att skapa det förtroende som behövs. Och i så fall bör nästa sonderingsuppdrag gå till Nooshi Dadgostar.\nSen kanske det är dags för förutsättningslösa diskussioner om vad som är viktigast i de över hundra sidorna med vallöften som partierna gick till val på. Och om de faktiskt menande allvar med att Magdalena Andersson ska kunna bli statsminister.\nDet var väl ändå för att få en annan politik som väljarna röstade på dem?",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "Centerpartiet"
+        "sondering"
       ],
-      "first_seen": "2026-10-20T14:03:28.077347+00:00"
+      "first_seen": "2026-10-21T06:03:15.370353+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/landsbygden-ror-sig-hogerut-moderaterna-okar-i-56-kommuner",
-      "title": "Landsbygden rör sig högerut – Moderaterna ökar i 56 kommuner",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-20",
-      "author": "Jenny Lagerstedt",
-      "commentator": "",
-      "summary": "Moderaterna är landsbygdens vinnare i riksdagsvalet. Det visar SVT:s genomgång. Partiet gick framåt i samtliga 56 landsbygdskommuner. – Det har skett ett historiskt skifte, säger Daniel Jansson på SOM-institutet.",
-      "fulltext": "Moderaterna är landsbygdens vinnare i riksdagsvalet. Det visar SVT:s genomgång. Partiet gick framåt i samtliga 56 landsbygdskommuner.\n– Det har skett ett historiskt skifte, säger Daniel Jansson på SOM-institutet.\nModeraterna fick fler röster i alla 56 landsbygdskommuner, från Simrishamn till Pajala, i det här riksdagsvalet jämfört med 2022.\nAtt Moderaterna gått framåt på landsbygden beror på att de har drivit sakpolitiska frågor som lockar väljarna där, menar Daniel Jansson, på SOM-institutet vid Göteborgs universitet.\n– De har ägt frågor som är viktiga för boende på landsbygden. Det handlar om säkerhet och trygghet, Sveriges ekonomi och den egna ekonomin och frågor om invandring och flyktingmottagning.\nAlla kommuner med färre än 15 000 invånare i största tätorten och få jobbpendlare räknas som landsbygd, enligt organisationen Sveriges kommuner och regioner.\nTidigare röstade storstadsbor i större utsträckning på partier högerut medan boende på landsbygden röstade mer vänster. Men de senaste åren har det skett en förändring som befästes ytterligare i årets val.\n– Idag är de som bor på landsbygden mer höger än boende i städer, och mycket mer höger än boende i våra tre storstäder, säger Daniel Jansson.\nEnligt honom finns det flera orsaker till att landsbygden blir mer höger. En av dem är skillnader i utbildningsnivå.\n– I städer finns en mycket större närhet till universitet och arbeten som kräver högskoleutbildning.\nPå 90-talet förknippades högerpolitik i större utsträckning med ekonomiska frågor och skattepolitik. Men nu har andra dimensioner tagit sig in i begreppen vilket också avgör hur vi röstar.\n– Nu handlar det också om man har traditionella och nationalistiska värderingar å ena sidan, eller om man har mer progressiva, gröna och liberala värderingar, säger Daniel Jansson.\nSe mer om högersvängen på landsbygden i Aktuellt ikväll eller reportaget från Sunne på SVT play.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "riksdagsval",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-10-20T14:03:28.077347+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9324586",
-      "title": "C-ledaren: ”Våra röda linjer mot V och SD ligger fast”",
+      "url": "https://www.sverigesradio.se/artikel/9325146",
+      "title": "Färre platser på folkhögskolor: ”Statliga stödet har minskat”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-20",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Centerledaren Elisabeth Thand Ringqvist har fått talmannens uppdrag att undersöka möjligheten att bilda en ny regering. Hennes tänkta mittenalternativ omfattar fem partier: Från Miljöpartiet och Socialdemokraterna till Centerpartiet, Liberalerna och Kristdemokraterna. Samtidigt har Centerpartiet satt upp tydliga gränser. ”Det är många som måste fundera på sina röda linjer, men våra röda linjer mot Vänsterpartiet och Sverigedemokraterna ligger fast”, säger Elisabeth Thand Ringqvist i P1 Morgon.",
+      "summary": "Antalet utbildningsplatser på folkhögskolorna har minskat under de senaste åren. Enligt Olle Westberg (S), generalsekreterare för Rörelsefolkhögskolornas intresseorganisation, har antalet platser till allmän kurs har minskat med drygt 2 000 sedan 2019 på grund av minskat statligt stöd. Gymnasie-, högskole- och forskningsminister Lotta Edholm (L), uppger att hon inte vill kommentera antalet utbildningsplatser med hänvisning till att hon sitter i en övergångsregering.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9324586'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9325146'",
       "matched_terms": [
-        "talman",
-        "Centerpartiet",
-        "Kristdemokraterna",
-        "Liberalerna",
-        "Miljöpartiet",
-        "Socialdemokraterna",
-        "Sverigedemokraterna",
-        "Vänsterpartiet"
+        "övergångsregering"
       ],
-      "first_seen": "2026-10-20T14:03:28.077347+00:00"
+      "first_seen": "2026-10-21T06:03:15.370353+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/daniel-hellden-far-riksdagsarvode-och-over-20-000-i-pension-fran-stockholms-stad",
-      "title": "Daniel Helldén får riksdagsarvode – och över 20 000 i pension från Stockholms stad",
+      "url": "https://www.sverigesradio.se/artikel/9325072",
+      "title": "Kristersson: Andersson borde prövas igen",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Moderaternas partiledare, statsminister Ulf Kristersson anser att det rimliga vore att Socialdemokraternas partiledare Magdalena Andersson prövas i nästa statsministeromröstning. ”Den frågan har inte varit på kartan, vad jag känner till”, säger Magdalena Andersson (S). Talman Andreas Norlén gav på sin pressträff i måndags inget besked om centerledaren Elisabeth Thand Ringqvists sonderingsuppdrag ska följas av en andra statsministeromröstning.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9325072'",
+      "matched_terms": [
+        "talman",
+        "sondering",
+        "statsminister",
+        "partiledar",
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-21T06:03:15.370353+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/efter-statsministerfiaskot-tiden-rinner-ut-for-rodgron-budget",
+      "title": "Efter statsministerfiaskot: Tiden rinner ut för rödgrön budget",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-10-20",
-      "author": "Anton Säll",
+      "author": "Hans Olsson, Hans Rosén",
       "commentator": "",
-      "summary": "Daniel Helldén får över 80 000 kronor i lön per månad som riksdagsledamot och partiledare för Miljöpartiet. Utöver det får han 20 766 kronor per månad i visstidspension från Stockholms stad – helt enligt reglerna.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-20 16:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/daniel-hellden-far-riksdagsarvode-och-over-20-000-i-pension-fran-stockholms-stad/\nDaniel Helldén får över 80 000 kronor i lön per månad som riksdagsledamot och partiledare för Miljöpartiet. Utöver det får han 20 766 kronor per månad i visstidspension från Stockholms stad – helt enligt reglerna.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": false,
+      "summary": "De rödgröna partierna har gett upp förhoppningarna om att lägga fram en gemensam budget i höst. – Tiden rinner i väg, säger Mikael Damberg (S).",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-21 08:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/efter-statsministerfiaskot-tiden-rinner-ut-for-rodgron-budget/\nDe rödgröna partierna har gett upp förhoppningarna om att lägga fram en gemensam budget i höst.\n– Tiden rinner i väg, säger Mikael Damberg (S).\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
+      "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "partiledar",
-        "Miljöpartiet"
+        "statsminister"
       ],
-      "first_seen": "2026-10-20T14:03:28.077347+00:00"
+      "first_seen": "2026-10-21T06:03:15.370353+00:00"
     }
   ]
 }
