@@ -1,17 +1,17 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-22
 
-2 nya poster sedan förra utskicket (43 redan utskickade, 154 utanför ämnet).
+2 nya poster sedan förra utskicket (41 redan utskickade, 153 utanför ämnet).
 
 ## Rapportering
 
-### [C styr med SD och V i fler kommuner](https://www.sverigesradio.se/artikel/9325941)
-Ekot, Sveriges Radio · 2026-10-22 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [SVT/Verian: Kristersson (M) rusar i förtroende – Dadgostar (V) i botten](https://www.svt.se/nyheter/inrikes/svtverian-kristersson-m-rusar-i-fortroende-dadgostar-v-i-botten)
+SVT Nyheter · 2026-10-22 · Jonathan Norberg Neib
 
-Den här veckan undersöker Centerpartiet möjligheten för en mittenregering utan V och SD. Samtidigt har C inlett fler samarbeten i kommunerna med partierna som de har en röd linje i regeringsfrågan kring. C har hittills gjort upp om att styra med SD i sju kommuner och med V i 37 kommuner. Av de 200 av landets 290 kommuner som är färdigförhandlade ska Centerpartiet vara med och styra i hälften, oftast i blocköverskridande samarbeten.
+Ulf Kristersson (M) får sin bästa notering någonsin i SVT/Verians senaste förtroendemätning för partiledarna. Samtidigt rasar vänsterledaren Nooshi Dadgostar (V).
 
-### [S-skräcken för extraval: ”Ökenvandring i åtta år”](https://www.dn.se/sverige/s-skracken-for-extraval-okenvandring-i-atta-ar)
-DN Nyheter · 2026-10-21 · Pia Gripenberg
+### [Busch om elpriserna: ”Kan bli en stökig vinter”](https://www.dn.se/sverige/busch-om-elpriserna-kan-bli-en-stokig-vinter)
+DN Nyheter · 2026-10-22 · Hans Rosén
 
-Oron växer inom socialdemokratin för att man ska misslyckas i regeringsförhandlingarna och att partiet tvingas gå till extraval. – Då väntar en ökenvandring i åtta år, säger Daniel Färm, på S-tidningen Aktuellt i Politiken.
+Riskerna för stigande elpriser är överhängande, enligt energiminister Ebba Busch (KD). Hon försäkrar att övergångsregeringen är redo att aktivera elprisstödet. – Det kan bli en stökig vinter, säger Ebba Busch.
 
-_Genererat 2026-10-22T06:03:20.384604+00:00._
+_Genererat 2026-10-22T14:03:35.535778+00:00._

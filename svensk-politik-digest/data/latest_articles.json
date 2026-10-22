@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-22T06:03:20.384604+00:00",
+  "fetched_at": "2026-10-22T14:03:35.535778+00:00",
   "new_count": 2,
   "skipped": {
-    "seen": 43,
-    "offtopic": 154,
-    "old": 11
+    "seen": 41,
+    "offtopic": 153,
+    "old": 14
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,39 +65,38 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9325941",
-      "title": "C styr med SD och V i fler kommuner",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/svtverian-kristersson-m-rusar-i-fortroende-dadgostar-v-i-botten",
+      "title": "SVT/Verian: Kristersson (M) rusar i förtroende – Dadgostar (V) i botten",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-10-22",
-      "author": "Ekot",
+      "author": "Jonathan Norberg Neib",
       "commentator": "",
-      "summary": "Den här veckan undersöker Centerpartiet möjligheten för en mittenregering utan V och SD. Samtidigt har C inlett fler samarbeten i kommunerna med partierna som de har en röd linje i regeringsfrågan kring. C har hittills gjort upp om att styra med SD i sju kommuner och med V i 37 kommuner. Av de 200 av landets 290 kommuner som är färdigförhandlade ska Centerpartiet vara med och styra i hälften, oftast i blocköverskridande samarbeten.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9325941'",
-      "matched_terms": [
-        "regeringsfråg",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-10-22T06:03:20.384604+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/s-skracken-for-extraval-okenvandring-i-atta-ar",
-      "title": "S-skräcken för extraval: ”Ökenvandring i åtta år”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-21",
-      "author": "Pia Gripenberg",
-      "commentator": "",
-      "summary": "Oron växer inom socialdemokratin för att man ska misslyckas i regeringsförhandlingarna och att partiet tvingas gå till extraval. – Då väntar en ökenvandring i åtta år, säger Daniel Färm, på S-tidningen Aktuellt i Politiken.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-22 08:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-skracken-for-extraval-okenvandring-i-atta-ar/\nOron växer inom socialdemokratin för att man ska misslyckas i regeringsförhandlingarna och att partiet tvingas gå till extraval.\n– Då väntar en ökenvandring i åtta år, säger Daniel Färm, på S-tidningen Aktuellt i Politiken.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
+      "summary": "Ulf Kristersson (M) får sin bästa notering någonsin i SVT/Verians senaste förtroendemätning för partiledarna. Samtidigt rasar vänsterledaren Nooshi Dadgostar (V).",
+      "fulltext": "Ulf Kristersson (M) får sin bästa notering någonsin i SVT/Verians senaste förtroendemätning för partiledarna.\nSamtidigt rasar vänsterledaren Nooshi Dadgostar (V).\nPå en månad har förtroendet för statsminister Ulf Kristersson ökat med sju procentenheter, enligt Verians senaste förtroendeundersökning.\nModeratledarens förtroendesiffra ligger nu på 45 procent.\n– Det är hans bästa notering någonsin, säger SVT:s politiska kommentator Elisabeth Marmorstein i Morgonstudion.\n– Moderaterna har ju ökat sedan valet och det påverkar även förtroendet för partiledaren. Sedan är det sannolikt så att han kan gynnas av att det är stökigt på den rödgröna sidan, tillägger hon.\nPå andraplatsen finns Ebba Busch (KD) med 41 procent, tätt följt av Socialdemokraternas Magdalena Andersson på 40 procent.\nS-ledarens position är en ökning på tre procentenheter. Trots detta är noteringen dystra siffror för Socialdemokraterna.\n– Tittar man på Andersson så är hon inne i en nedåtgående trend. För fyra år sedan var det 61 procent som hade stort förtroende för henne. I dag ligger hon på 40. Då kan man ifrågasätta hur smart det var att göra partiledaren till huvudnummer även i det här valet, säger Elisabeth Marmorstein.\nDet största tappet i oktobermätningen står Vänsterpartiets partiledare Nooshi Dadgostar för.\nVänsterledaren rasar från 19 till 11 procent på en månad.\n– Så här lågt förtroende har hon inte haft sedan hon valdes till partiledare 2020, säger Elisabeth Marmorstein.\nDadgostar tappar främst bland rödgröna väljare.\n– Faktiskt även bland Vänsterpartiets väljare. Samtidigt har hon lågt förtroende bland högerväljare. Det är en skillnad mot sommaren 2021 då Vänsterpartiet var med och fällde Stefan Löfven. Då ökade Nooshi Dadgostars förtroende även bland moderata och kristdemokratiska väljare, säger Elisabeth Marmorstein.\nElisabeth Thand Ringqvist (C): 18 (oförändrat)\nUndersökningen gjordes baserat på svar från 1 054 personer i åldrarna 18-84 år ur den slumpmässigt rekryterade och riksrepresentativa Sifopanelen. Svaren samlades in under perioden 14 till 16 oktober 2026.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsförhandling"
+        "partiledar"
       ],
-      "first_seen": "2026-10-22T06:03:20.384604+00:00"
+      "first_seen": "2026-10-22T14:03:35.535778+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/busch-om-elpriserna-kan-bli-en-stokig-vinter",
+      "title": "Busch om elpriserna: ”Kan bli en stökig vinter”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-22",
+      "author": "Hans Rosén",
+      "commentator": "",
+      "summary": "Riskerna för stigande elpriser är överhängande, enligt energiminister Ebba Busch (KD). Hon försäkrar att övergångsregeringen är redo att aktivera elprisstödet. – Det kan bli en stökig vinter, säger Ebba Busch.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-22 16:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/busch-om-elpriserna-kan-bli-en-stokig-vinter/\nRiskerna för stigande elpriser är överhängande, enligt energiminister Ebba Busch (KD). Hon försäkrar att övergångsregeringen är redo att aktivera elprisstödet.\n– Det kan bli en stökig vinter, säger Ebba Busch.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nSverige löper ingen akut risk att drabbas av brist på el eller drivmedel närmaste tiden – men det kan bli betydligt dyrare. Det var i korta drag budskapet från energiminister Busch och Energimyndighetens generaldirektör Caroline Asserup på en pressträff på torsdagen.\nFlera faktorer bäddar för prisrusning. Nivåerna i vattenkraftens magasin är låga och kärnkraften levererar inte för fullt på grund av pågående underhåll.\nDessutom hotar gasbrist i Europa, något som har en tendens att trycka upp elpriserna i framför allt södra Sverige. EU-länderna har en gemensam elmarknad och på kontinenten produceras mycket el i gaskraftverk. Om priserna stiger där på grund av brist så stiger de ofta också här. Gasbristen beror både på Ukrainakriget och blockaden i Hormuzsundet.\nEnergiministern försäkrar att Sverige står väl rustat men understryker samtidigt allvaret.\n– Dosen gör giftet. Höga priser under lång tid i kombination med känsliga marknader är en potentiellt farlig mix för Sverige, säger Ebba Busch.\nHittills i oktober ligger snittpriset på el i södra Sverige, elområde 4, på 1,54 kronor per kilowattimme. Det är över gränsen för elstöd som ligger på 1,50 kronor, men då räknat som genomsnitt för en hel månad.\nEnergiministern bekräftar att det kan bli aktuellt att betala ut ett högkostnadsskydd. Hennes bedömning är att övergångsregeringen har mandat att göra det. Vilken nivå det i så fall skulle bli på elstödet återstår att fatta beslut om.\n– Uppstår det frågetecken kring det så har vi en god dialog med samtliga partier i riksdagen, säger hon.\nBeskedet kommer med ett förbehåll. Övergångsregeringen måste hålla sig inom de kostnadsramar som redan är satta för stödet, och hur det ska se ut nästa år måste en ny regering ta ställning till.\nStriderna i Mellanöstern har också pressat upp priserna på drivmedel. Tidöregeringen genomförde tillfälliga skattesänkningar för att i någon mån kompensera för detta, men de löper ut under hösten. Sverigedemokraterna har väckt förslag i riksdagen om att övergångsregeringen borde ta upp en ny förhandling med kommissionen om att återigen få sänka skatten under EU:s miniminivå.\nEbba Busch betonar att övergångsregeringen inte har, och inte bör ha, någon uppfattning i frågan.\n– Men givet den erfarenhet jag har av energifrågorna och som partiledare för Kristdemokraterna så ser jag positivt på ett sådant initiativ. Jag ser att det kan finnas behov av det och ser fram emot att diskutera det i riksdagen, säger KD-ledaren.\nPeter Alestig: Den fossila krisen är tillbaka med besked\nKris på Svenska kraftnät – tunga chefer hoppar av\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nYtterligare två tunga avhopp på Svenska kraftnät\nPeter Alestig: Efter lugnet – nu hotar en fossil bomb världsekonomin\nSvenska kraftnäts generaldirektör om kritiken: ”Har aldrig varit en dålig ton”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "övergångsregering"
+      ],
+      "first_seen": "2026-10-22T14:03:35.535778+00:00"
     }
   ]
 }
