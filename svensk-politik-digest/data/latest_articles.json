@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-21T14:03:20.693698+00:00",
-  "new_count": 0,
+  "fetched_at": "2026-10-22T06:03:20.384604+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 48,
-    "offtopic": 147,
-    "old": 15
+    "seen": 43,
+    "offtopic": 154,
+    "old": 11
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -63,5 +63,41 @@
       "ok": true
     }
   ],
-  "articles": []
+  "articles": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/9325941",
+      "title": "C styr med SD och V i fler kommuner",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-22",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Den här veckan undersöker Centerpartiet möjligheten för en mittenregering utan V och SD. Samtidigt har C inlett fler samarbeten i kommunerna med partierna som de har en röd linje i regeringsfrågan kring. C har hittills gjort upp om att styra med SD i sju kommuner och med V i 37 kommuner. Av de 200 av landets 290 kommuner som är färdigförhandlade ska Centerpartiet vara med och styra i hälften, oftast i blocköverskridande samarbeten.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9325941'",
+      "matched_terms": [
+        "regeringsfråg",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-22T06:03:20.384604+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/s-skracken-for-extraval-okenvandring-i-atta-ar",
+      "title": "S-skräcken för extraval: ”Ökenvandring i åtta år”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-21",
+      "author": "Pia Gripenberg",
+      "commentator": "",
+      "summary": "Oron växer inom socialdemokratin för att man ska misslyckas i regeringsförhandlingarna och att partiet tvingas gå till extraval. – Då väntar en ökenvandring i åtta år, säger Daniel Färm, på S-tidningen Aktuellt i Politiken.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-22 08:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-skracken-for-extraval-okenvandring-i-atta-ar/\nOron växer inom socialdemokratin för att man ska misslyckas i regeringsförhandlingarna och att partiet tvingas gå till extraval.\n– Då väntar en ökenvandring i åtta år, säger Daniel Färm, på S-tidningen Aktuellt i Politiken.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling"
+      ],
+      "first_seen": "2026-10-22T06:03:20.384604+00:00"
+    }
+  ]
 }
