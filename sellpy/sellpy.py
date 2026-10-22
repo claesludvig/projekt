@@ -38,6 +38,8 @@ INDEX = {
     "dyrast": "prod_marketItem_se_price_desc_virtual",
 }
 ANNONS_URL = "https://www.sellpy.se/item/{}"
+# Lagret som ger märkningen "Snabb leverans" i Sverige (sellpy-commons: SE -> [`J`])
+SNABB_LAGER = "J"
 
 # Svenska filternamn -> Algolia-attribut (listor = ELLER inom filtret, OCH mellan filter)
 FACETTER = {
@@ -95,6 +97,8 @@ def bygg_params(s):
     if s.get("dagar"):
         sedan = datetime.now(timezone.utc).timestamp() - s["dagar"] * 86400
         numeric.append(f"saleStartedAt>={int(sedan * 1000)}")
+    if s.get("snabb"):
+        facet_filters.append([f"storageSite:{SNABB_LAGER}"])
     params = {"query": s.get("fraga", ""), "facetFilters": facet_filters, "numericFilters": numeric}
     params.update(s.get("algolia") or {})  # fri utbyggnad för avancerade filter
     return params
@@ -213,7 +217,7 @@ def skriv_rapport(resultat):
 
 def sokning_fran_args(a):
     s = {"fraga": a.fraga or "", "sortering": a.sortera, "min_pris": a.min_pris, "max_pris": a.max_pris,
-         "dagar": a.dagar}
+         "dagar": a.dagar, "snabb": a.snabb}
     for nyckel in FACETTER:
         if getattr(a, nyckel, None):
             s[nyckel] = getattr(a, nyckel)
@@ -239,6 +243,7 @@ def main():
         sp.add_argument("--matt", action="append", metavar="NAMN=MIN-MAX",
                         help=f"måttfilter i cm, t.ex. waistInCm=80-86 eller innerLegLengthInCm=82-. Namn: {', '.join(MATT)}")
         sp.add_argument("--dagar", type=float, help="bara annonser publicerade senaste N dagarna")
+        sp.add_argument("--snabb", action="store_true", help="bara varor märkta Snabb leverans")
         sp.add_argument("--sortera", choices=list(INDEX), default="nyast")
         sp.add_argument("-n", "--antal", type=int, default=25)
         sp.add_argument("--json", action="store_true")

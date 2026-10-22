@@ -25,7 +25,7 @@ python sellpy.py bevaka                # kör alla bevakningar
 Filter: `--marke --typ --storlek --skick --farg --material --monster --kon --kategori
 --langd --midjehojd --stil` (upprepa för ELLER), `--min-pris --max-pris` (kr),
 `--matt NAMN=MIN-MAX` (cm; `waistInCm`, `innerLegLengthInCm`, `lengthInCm`, `widthInCm`,
-`heightInCm`, `heelHeightInCm`), `--dagar N`, `--sortera nyast|relevans|billigast|dyrast`.
+`heightInCm`, `heelHeightInCm`), `--dagar N`, `--snabb` (bara Snabb leverans), `--sortera nyast|relevans|billigast|dyrast`.
 Storlekar heter som i Sellpys data, t.ex. `PANTS-INCH-32`, `MEN-INT-M`, `SHOES-EU-43` —
 `facetter` visar vilka som finns.
 

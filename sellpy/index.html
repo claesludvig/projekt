@@ -61,6 +61,7 @@ aside summary .valda { color:var(--accent); font-weight:400; }
       <option value="7">Senaste veckan</option>
       <option value="30">Senaste månaden</option>
     </select>
+    <label><input type="checkbox" id="snabb"> Snabb leverans</label>
     <button class="primar" id="sokknapp">Sök</button>
     <button id="rensa">Rensa</button>
     <button id="sparaknapp">Spara som bevakning</button>
@@ -100,11 +101,12 @@ let state = { fraga:"", sortering:"nyast", filter:{}, matt:{} }, sida = 0, oppna
 function lasHash() {
   try { const s = JSON.parse(decodeURIComponent(location.hash.slice(1))); if (s) state = Object.assign(state, s); } catch {}
   $("fraga").value = state.fraga || ""; $("sortering").value = state.sortering || "nyast";
-  $("min_pris").value = state.min_pris ?? ""; $("max_pris").value = state.max_pris ?? ""; $("dagar").value = state.dagar ?? "";
+  $("min_pris").value = state.min_pris ?? ""; $("max_pris").value = state.max_pris ?? ""; $("dagar").value = state.dagar ?? ""; $("snabb").checked = !!state.snabb;
 }
 function lasFalt() {
   state.fraga = $("fraga").value.trim(); state.sortering = $("sortering").value;
   for (const k of ["min_pris","max_pris","dagar"]) { const v = $(k).value; if (v === "") delete state[k]; else state[k] = +v; }
+  if ($("snabb").checked) state.snabb = true; else delete state.snabb;
 }
 function params(utan) {
   const facetFilters = [], numericFilters = ["price_SE.amount>0"]; // utan pris = ej till salu
@@ -117,6 +119,7 @@ function params(utan) {
     if (lo != null) numericFilters.push(`metadata.measurement.${m}>=${lo}`);
     if (hi != null) numericFilters.push(`metadata.measurement.${m}<=${hi}`);
   }
+  if (state.snabb) facetFilters.push(["storageSite:J"]); // lagret bakom märkningen "Snabb leverans"
   if (state.dagar) numericFilters.push(`saleStartedAt>=${Date.now() - state.dagar*864e5}`);
   return { query: state.fraga || "", facetFilters, numericFilters };
 }
@@ -198,7 +201,7 @@ $("filter").addEventListener("input", e => {
 $("filter").addEventListener("toggle", e => { const k = e.target.dataset?.k; if (k) e.target.open ? oppna.add(k) : oppna.delete(k); }, true);
 $("sokknapp").onclick = () => { lasFalt(); sok(); };
 $("fraga").addEventListener("keydown", e => { if (e.key === "Enter") { lasFalt(); sok(); } });
-for (const id of ["sortering","dagar","min_pris","max_pris"]) $(id).addEventListener("change", () => { lasFalt(); sok(); });
+for (const id of ["sortering","dagar","min_pris","max_pris","snabb"]) $(id).addEventListener("change", () => { lasFalt(); sok(); });
 $("rensa").onclick = () => { state = { fraga:"", sortering:"nyast", filter:{}, matt:{} }; location.hash = ""; lasHash(); sok(); };
 $("visafilter").onclick = () => $("filter").classList.toggle("oppen");
 $("mer").onclick = () => { sida++; sok(true); };
@@ -210,6 +213,7 @@ $("sparaknapp").onclick = () => {
   if (Object.keys(state.matt).length) b.matt = state.matt;
   if (state.min_pris != null) b.min_pris = state.min_pris;
   if (state.max_pris != null) b.max_pris = state.max_pris;
+  if (state.snabb) b.snabb = true;
   $("bevakningjson").textContent = JSON.stringify(b, null, 2);
   $("bevakning").style.display = "block";
 };
