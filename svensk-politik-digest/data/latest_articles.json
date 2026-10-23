@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-23T06:03:12.189529+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-10-23T14:03:15.397235+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 39,
-    "offtopic": 154,
-    "old": 14
+    "seen": 38,
+    "offtopic": 161,
+    "old": 9
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,59 +65,41 @@
   ],
   "articles": [
     {
-      "url": "https://www.expressen.se/ledare/ann-charlotte-marteus/sverige-har-regeringskris-da-kor-svt-buskis",
-      "title": "Sverige har regeringskris – då kör SVT buskis",
-      "source": "Expressen Ledare",
-      "kind": "kommentar",
+      "url": "https://www.sverigesradio.se/artikel/9326455",
+      "title": "Direktrapport | Regeringsbildningen efter valet 2026",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
       "published": "2026-10-23",
-      "author": "ann-charlotte marteus",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Politikbyrån är ett av SVT:s bästa samhällsprogram. Varför förstör man det med usel buskis och kommentarer om partiledares utseende?",
-      "fulltext": "Politikbyrån är ett av SVT:s bästa samhällsprogram. Varför förstör man det med usel buskis och kommentarer om partiledares utseende?\nSverige har regeringskris – då kör SVT buskis\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nJag gillar Politikbyrån. Formatet är enkelt: en programledare och tre gäster – politiker, debattörer, experter – sitter runt ett bord och pratar, analyserar och debatterar politik.\nDe senaste månaderna har avsnitten varit extra matiga med valrörelse, val och regeringsbildningshoppla.\nVeckans program hade tre centerpartister som gäster och handlade uteslutande om Centern. Ett ypperligt val eftersom partiledare Elisabeth Thand Ringqvist sonderar som bäst. Dessutom är partiets röda linjer en källa till oändligt filosoferande.\nJättespännande, kort sagt. Bara att köra på och fylla sändningstiden väl – programmet är bara en halvtimme långt.\nMen, nej, det var inte alls bara att köra på, tyckte SVT . Här behövs en liten rolig paus! Så man hade bjudit in en ”hemlig gäst”. Vilket kändes konstigt för ett samhällsprogram. Antingen är en gäst intressant och då sitter hon eller han vid bordet som en vanlig – gäst. Eller också inte.\nMen det var ingen gäst, direkt, utan ett segment som hette ”Elin roastar Centerpartiet” med komikern Elin Almén.\n”Hur fick plötsligt Centerpartiet så mycket uppmärksamhet, de är ju riksdagens kusinen från landet!”\n”Hur hamnade de i centrum, de bara Shit, vad roligt, vi har inte varit i centrum sen den gången vi åkte in till Karlstad centrum”\nBuskisnivå. Men att jag inte skrattade, är en sak. Liksom att varenda kotte som tittar på Politikbyrån vet exakt varför Centerpartiet får så mycket uppmärksamhet.\nVärre är att Almén refererade till Elisabeth Thand Ringqvists utseende för att locka skratt.\nVisst, det har skämtats om politikers utseende förr. Det mest berömda exemplet är kanske Tage Danielssons ”Det är en oomkullrunkelig politisk sanning att Ingvar Carlsson ser ut som en fot i ansiktet.”\nMen Tage Danielsson var en briljant komiker med världens snällaste östgötska stämma och han sade det i en revy (Under dubbelgöken). Inte i ett samhällsprogram.\nKontext spelar roll. I en revy eller humorprogram tar publiken – inklusive offren – inte allt på blodigt allvar, det är själva grejen, och humor ska vara vass och utmanande. Men i ett seriöst samhällsprogram, där man förväntar sig saklighet, magnifieras elakhetsfaktorn.\nPolitikbyrån bjöd med öppna armar in osaklighet i programmet och krattade manegen för övertramp. Men – varför? Varför pressa in ett humorinslag i ett samhällsprogram som är 28 minuter långt? Under en regeringsbildningsprocess som i sig själv är en thriller! SVT har ju redan Svenska Nyheter.\nTror Politikbyrån inte på sitt eget koncept? På sin förmåga att göra politik intressant? Eller är det jakten på yngre tittare, och tron på vad dessa mytiska figurer vill ha, som förmörkar omdömet?\nSVT:s samhällsredaktion måste sluta larva sig.\nAnn-Charlotte Marteus är ledarskribent på Expressen. Läs mer av henne här .\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "summary": "Det senaste om läget i svensk politik. Följ Ekots bevakning om regeringsbildningen efter riksdagsvalet den 13 september 2026.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9326455'",
+      "matched_terms": [
+        "regeringsbildning",
+        "riksdagsval"
+      ],
+      "first_seen": "2026-10-23T14:03:15.397235+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/ebba-busch-s-bor-overvaga-att-slappa-fram-kristersson",
+      "title": "Ebba Busch: S bör överväga att släppa fram Kristersson",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-23",
+      "author": "Hans Olsson",
+      "commentator": "",
+      "summary": "KD-ledaren Ebba Busch anser att Socialdemokraterna bör överväga att släppa fram Ulf Kristersson som statsminister, om de pågående regeringsförhandlingarna misslyckas. – Jag hoppas verkligen att det finns socialdemokrater som prövar den tanken, säger hon.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-23 16:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/ebba-busch-s-bor-overvaga-att-slappa-fram-kristersson/\nKD-ledaren Ebba Busch anser att Socialdemokraterna bör överväga att släppa fram Ulf Kristersson som statsminister, om de pågående regeringsförhandlingarna misslyckas.\n– Jag hoppas verkligen att det finns socialdemokrater som prövar den tanken, säger hon.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nEbba Busch höll på fredagen tal inför partikamraterna på KD:s partifullmäktige. En stor del av talet ägnades åt den pågående regeringsbildningen som ännu inte lett fram till att Sverige har en ny regering.\n– Vi har nu 41 dagar av ingenting. Det är dags för svensk politik att ta sig upp ur sandlådan, säger Ebba Busch.\nHon anser att Socialdemokraterna och partiledaren Magdalena Andersson var för otydliga i valrörelsen med att de inte hade ett färdigt regeringsalternativ och att den utdragna processen riskerar att förtroendet för politiken kan få sig en törn om det inte snart blir en lösning.\nOm de röda linjerna mellan partierna på Magdalena Anderssons sida ligger fast och det inte går att få fram en regering anser hon att S bör överväga att släppa fram en regering som leds av Ulf Kristersson i stället.\n– Om man inte får ihop det på vänstersidan, ska man då trycka Sverige mot ett extra val eller släppa fram den konstellation som blir störst därefter och klarar av att få ihop det, säger Ebba Busch och fortsätter:\n– Det vilar ett stort ansvar på Magdalena Andersson och vänsterpartierna för det läge som vi är i nu, säger hon.\nEbba Busch har under veckan träffat C-ledaren Elisabeth Thand Ringqvist, som just nu har uppdraget att sondera möjligheterna för en ny regering. Ebba Busch håller fast vid att hon inte kommer att medverka till att släppa fram en regering som leds av Magdalena Andersson.\n– Det är Ulf Kristersson som är vår statsministerkandidat, säger Ebba Busch.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nJohannes Klenell: Så blev jag och Annie Lööf valets stora vinnare\n”Det var en enkel googling, men det finns många Mohamed Ali”\nMax Hjelm: Högern har fastnat i ett heligt krig mot år 2014 – och det enda vapen de har är en hammare",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringskris",
-        "partiledar"
+        "regeringsförhandling",
+        "statsminister",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-10-23T06:03:12.189529+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9326738",
-      "title": "Moderata EU-politiker på tvärs mot regeringens linje",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-22",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Moderaternas EU-parlamentariker röstade för en större EU-budget för 2027, trots att den svenska regeringen driver en restriktiv budgetlinje. Europaparlamentet vill lägga drygt en miljard euro mer än EU-kommissionens förslag, medan medlemsländerna, inklusive Sverige, vill lägga ungefär en miljard mindre. Även parlamentarikerna från Centerpartiet och Miljöpartiet stödde den linje som nu blir Europaparlamentets ingång i slutförhandlingarna med ministerrådet.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9326738'",
-      "matched_terms": [
-        "Centerpartiet",
-        "Miljöpartiet",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-10-23T06:03:12.189529+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9326723",
-      "title": "SD-förslag om tidigarelagda straffskärpningar får nej",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-22",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Sverigedemokraternas förslag om att införa flera av de redan beslutade straffskärpningarna till år 2029, fick nej i justitieutskottet på torsdagen av den rödgröna majoriteten. Bland annat handlade det om den så kallade mängdrabatten. Enligt Kriminalvården saknas resurser för att genomföra alla förändringar till 2029, det behövs fler fängelseplatser enligt myndigheten. Socialdemokraterna vill i stället att förändringarna införs under flera år och att mängdrabatten för sexualbrott tas bort först.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9326723'",
-      "matched_terms": [
-        "Socialdemokraterna",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-23T06:03:12.189529+00:00"
+      "first_seen": "2026-10-23T14:03:15.397235+00:00"
     }
   ]
 }

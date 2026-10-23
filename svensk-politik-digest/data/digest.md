@@ -1,24 +1,17 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-23
 
-3 nya poster sedan förra utskicket (39 redan utskickade, 154 utanför ämnet).
-
-## Analys och kommentar
-
-### [Sverige har regeringskris – då kör SVT buskis](https://www.expressen.se/ledare/ann-charlotte-marteus/sverige-har-regeringskris-da-kor-svt-buskis)
-Expressen Ledare · 2026-10-23 · ann-charlotte marteus
-
-Politikbyrån är ett av SVT:s bästa samhällsprogram. Varför förstör man det med usel buskis och kommentarer om partiledares utseende?
+2 nya poster sedan förra utskicket (38 redan utskickade, 161 utanför ämnet).
 
 ## Rapportering
 
-### [Moderata EU-politiker på tvärs mot regeringens linje](https://www.sverigesradio.se/artikel/9326738)
-Ekot, Sveriges Radio · 2026-10-22 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Direktrapport | Regeringsbildningen efter valet 2026](https://www.sverigesradio.se/artikel/9326455)
+Ekot, Sveriges Radio · 2026-10-23 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Moderaternas EU-parlamentariker röstade för en större EU-budget för 2027, trots att den svenska regeringen driver en restriktiv budgetlinje. Europaparlamentet vill lägga drygt en miljard euro mer än EU-kommissionens förslag, medan medlemsländerna, inklusive Sverige, vill lägga ungefär en miljard mindre. Även parlamentarikerna från Centerpartiet och Miljöpartiet stödde den linje som nu blir Europaparlamentets ingång i slutförhandlingarna med ministerrådet.
+Det senaste om läget i svensk politik. Följ Ekots bevakning om regeringsbildningen efter riksdagsvalet den 13 september 2026.
 
-### [SD-förslag om tidigarelagda straffskärpningar får nej](https://www.sverigesradio.se/artikel/9326723)
-Ekot, Sveriges Radio · 2026-10-22 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Ebba Busch: S bör överväga att släppa fram Kristersson](https://www.dn.se/sverige/ebba-busch-s-bor-overvaga-att-slappa-fram-kristersson)
+DN Nyheter · 2026-10-23 · Hans Olsson
 
-Sverigedemokraternas förslag om att införa flera av de redan beslutade straffskärpningarna till år 2029, fick nej i justitieutskottet på torsdagen av den rödgröna majoriteten. Bland annat handlade det om den så kallade mängdrabatten. Enligt Kriminalvården saknas resurser för att genomföra alla förändringar till 2029, det behövs fler fängelseplatser enligt myndigheten. Socialdemokraterna vill i stället att förändringarna införs under flera år och att mängdrabatten för sexualbrott tas bort först.
+KD-ledaren Ebba Busch anser att Socialdemokraterna bör överväga att släppa fram Ulf Kristersson som statsminister, om de pågående regeringsförhandlingarna misslyckas. – Jag hoppas verkligen att det finns socialdemokrater som prövar den tanken, säger hon.
 
-_Genererat 2026-10-23T06:03:12.189529+00:00._
+_Genererat 2026-10-23T14:03:15.397235+00:00._
