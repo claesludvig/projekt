@@ -1,17 +1,24 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-22
+# Svensk politik och regeringsförhandlingarna — 2026-10-23
 
-2 nya poster sedan förra utskicket (41 redan utskickade, 153 utanför ämnet).
+3 nya poster sedan förra utskicket (39 redan utskickade, 154 utanför ämnet).
+
+## Analys och kommentar
+
+### [Sverige har regeringskris – då kör SVT buskis](https://www.expressen.se/ledare/ann-charlotte-marteus/sverige-har-regeringskris-da-kor-svt-buskis)
+Expressen Ledare · 2026-10-23 · ann-charlotte marteus
+
+Politikbyrån är ett av SVT:s bästa samhällsprogram. Varför förstör man det med usel buskis och kommentarer om partiledares utseende?
 
 ## Rapportering
 
-### [SVT/Verian: Kristersson (M) rusar i förtroende – Dadgostar (V) i botten](https://www.svt.se/nyheter/inrikes/svtverian-kristersson-m-rusar-i-fortroende-dadgostar-v-i-botten)
-SVT Nyheter · 2026-10-22 · Jonathan Norberg Neib
+### [Moderata EU-politiker på tvärs mot regeringens linje](https://www.sverigesradio.se/artikel/9326738)
+Ekot, Sveriges Radio · 2026-10-22 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Ulf Kristersson (M) får sin bästa notering någonsin i SVT/Verians senaste förtroendemätning för partiledarna. Samtidigt rasar vänsterledaren Nooshi Dadgostar (V).
+Moderaternas EU-parlamentariker röstade för en större EU-budget för 2027, trots att den svenska regeringen driver en restriktiv budgetlinje. Europaparlamentet vill lägga drygt en miljard euro mer än EU-kommissionens förslag, medan medlemsländerna, inklusive Sverige, vill lägga ungefär en miljard mindre. Även parlamentarikerna från Centerpartiet och Miljöpartiet stödde den linje som nu blir Europaparlamentets ingång i slutförhandlingarna med ministerrådet.
 
-### [Busch om elpriserna: ”Kan bli en stökig vinter”](https://www.dn.se/sverige/busch-om-elpriserna-kan-bli-en-stokig-vinter)
-DN Nyheter · 2026-10-22 · Hans Rosén
+### [SD-förslag om tidigarelagda straffskärpningar får nej](https://www.sverigesradio.se/artikel/9326723)
+Ekot, Sveriges Radio · 2026-10-22 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Riskerna för stigande elpriser är överhängande, enligt energiminister Ebba Busch (KD). Hon försäkrar att övergångsregeringen är redo att aktivera elprisstödet. – Det kan bli en stökig vinter, säger Ebba Busch.
+Sverigedemokraternas förslag om att införa flera av de redan beslutade straffskärpningarna till år 2029, fick nej i justitieutskottet på torsdagen av den rödgröna majoriteten. Bland annat handlade det om den så kallade mängdrabatten. Enligt Kriminalvården saknas resurser för att genomföra alla förändringar till 2029, det behövs fler fängelseplatser enligt myndigheten. Socialdemokraterna vill i stället att förändringarna införs under flera år och att mängdrabatten för sexualbrott tas bort först.
 
-_Genererat 2026-10-22T14:03:35.535778+00:00._
+_Genererat 2026-10-23T06:03:12.189529+00:00._

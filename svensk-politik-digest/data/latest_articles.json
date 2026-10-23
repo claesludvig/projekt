@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-22T14:03:35.535778+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-10-23T06:03:12.189529+00:00",
+  "new_count": 3,
   "skipped": {
-    "seen": 41,
-    "offtopic": 153,
+    "seen": 39,
+    "offtopic": 154,
     "old": 14
   },
-  "fetch_errors": 0,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,38 +65,59 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/svtverian-kristersson-m-rusar-i-fortroende-dadgostar-v-i-botten",
-      "title": "SVT/Verian: Kristersson (M) rusar i förtroende – Dadgostar (V) i botten",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-22",
-      "author": "Jonathan Norberg Neib",
+      "url": "https://www.expressen.se/ledare/ann-charlotte-marteus/sverige-har-regeringskris-da-kor-svt-buskis",
+      "title": "Sverige har regeringskris – då kör SVT buskis",
+      "source": "Expressen Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-23",
+      "author": "ann-charlotte marteus",
       "commentator": "",
-      "summary": "Ulf Kristersson (M) får sin bästa notering någonsin i SVT/Verians senaste förtroendemätning för partiledarna. Samtidigt rasar vänsterledaren Nooshi Dadgostar (V).",
-      "fulltext": "Ulf Kristersson (M) får sin bästa notering någonsin i SVT/Verians senaste förtroendemätning för partiledarna.\nSamtidigt rasar vänsterledaren Nooshi Dadgostar (V).\nPå en månad har förtroendet för statsminister Ulf Kristersson ökat med sju procentenheter, enligt Verians senaste förtroendeundersökning.\nModeratledarens förtroendesiffra ligger nu på 45 procent.\n– Det är hans bästa notering någonsin, säger SVT:s politiska kommentator Elisabeth Marmorstein i Morgonstudion.\n– Moderaterna har ju ökat sedan valet och det påverkar även förtroendet för partiledaren. Sedan är det sannolikt så att han kan gynnas av att det är stökigt på den rödgröna sidan, tillägger hon.\nPå andraplatsen finns Ebba Busch (KD) med 41 procent, tätt följt av Socialdemokraternas Magdalena Andersson på 40 procent.\nS-ledarens position är en ökning på tre procentenheter. Trots detta är noteringen dystra siffror för Socialdemokraterna.\n– Tittar man på Andersson så är hon inne i en nedåtgående trend. För fyra år sedan var det 61 procent som hade stort förtroende för henne. I dag ligger hon på 40. Då kan man ifrågasätta hur smart det var att göra partiledaren till huvudnummer även i det här valet, säger Elisabeth Marmorstein.\nDet största tappet i oktobermätningen står Vänsterpartiets partiledare Nooshi Dadgostar för.\nVänsterledaren rasar från 19 till 11 procent på en månad.\n– Så här lågt förtroende har hon inte haft sedan hon valdes till partiledare 2020, säger Elisabeth Marmorstein.\nDadgostar tappar främst bland rödgröna väljare.\n– Faktiskt även bland Vänsterpartiets väljare. Samtidigt har hon lågt förtroende bland högerväljare. Det är en skillnad mot sommaren 2021 då Vänsterpartiet var med och fällde Stefan Löfven. Då ökade Nooshi Dadgostars förtroende även bland moderata och kristdemokratiska väljare, säger Elisabeth Marmorstein.\nElisabeth Thand Ringqvist (C): 18 (oförändrat)\nUndersökningen gjordes baserat på svar från 1 054 personer i åldrarna 18-84 år ur den slumpmässigt rekryterade och riksrepresentativa Sifopanelen. Svaren samlades in under perioden 14 till 16 oktober 2026.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Politikbyrån är ett av SVT:s bästa samhällsprogram. Varför förstör man det med usel buskis och kommentarer om partiledares utseende?",
+      "fulltext": "Politikbyrån är ett av SVT:s bästa samhällsprogram. Varför förstör man det med usel buskis och kommentarer om partiledares utseende?\nSverige har regeringskris – då kör SVT buskis\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nJag gillar Politikbyrån. Formatet är enkelt: en programledare och tre gäster – politiker, debattörer, experter – sitter runt ett bord och pratar, analyserar och debatterar politik.\nDe senaste månaderna har avsnitten varit extra matiga med valrörelse, val och regeringsbildningshoppla.\nVeckans program hade tre centerpartister som gäster och handlade uteslutande om Centern. Ett ypperligt val eftersom partiledare Elisabeth Thand Ringqvist sonderar som bäst. Dessutom är partiets röda linjer en källa till oändligt filosoferande.\nJättespännande, kort sagt. Bara att köra på och fylla sändningstiden väl – programmet är bara en halvtimme långt.\nMen, nej, det var inte alls bara att köra på, tyckte SVT . Här behövs en liten rolig paus! Så man hade bjudit in en ”hemlig gäst”. Vilket kändes konstigt för ett samhällsprogram. Antingen är en gäst intressant och då sitter hon eller han vid bordet som en vanlig – gäst. Eller också inte.\nMen det var ingen gäst, direkt, utan ett segment som hette ”Elin roastar Centerpartiet” med komikern Elin Almén.\n”Hur fick plötsligt Centerpartiet så mycket uppmärksamhet, de är ju riksdagens kusinen från landet!”\n”Hur hamnade de i centrum, de bara Shit, vad roligt, vi har inte varit i centrum sen den gången vi åkte in till Karlstad centrum”\nBuskisnivå. Men att jag inte skrattade, är en sak. Liksom att varenda kotte som tittar på Politikbyrån vet exakt varför Centerpartiet får så mycket uppmärksamhet.\nVärre är att Almén refererade till Elisabeth Thand Ringqvists utseende för att locka skratt.\nVisst, det har skämtats om politikers utseende förr. Det mest berömda exemplet är kanske Tage Danielssons ”Det är en oomkullrunkelig politisk sanning att Ingvar Carlsson ser ut som en fot i ansiktet.”\nMen Tage Danielsson var en briljant komiker med världens snällaste östgötska stämma och han sade det i en revy (Under dubbelgöken). Inte i ett samhällsprogram.\nKontext spelar roll. I en revy eller humorprogram tar publiken – inklusive offren – inte allt på blodigt allvar, det är själva grejen, och humor ska vara vass och utmanande. Men i ett seriöst samhällsprogram, där man förväntar sig saklighet, magnifieras elakhetsfaktorn.\nPolitikbyrån bjöd med öppna armar in osaklighet i programmet och krattade manegen för övertramp. Men – varför? Varför pressa in ett humorinslag i ett samhällsprogram som är 28 minuter långt? Under en regeringsbildningsprocess som i sig själv är en thriller! SVT har ju redan Svenska Nyheter.\nTror Politikbyrån inte på sitt eget koncept? På sin förmåga att göra politik intressant? Eller är det jakten på yngre tittare, och tron på vad dessa mytiska figurer vill ha, som förmörkar omdömet?\nSVT:s samhällsredaktion måste sluta larva sig.\nAnn-Charlotte Marteus är ledarskribent på Expressen. Läs mer av henne här .\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
+        "regeringskris",
         "partiledar"
       ],
-      "first_seen": "2026-10-22T14:03:35.535778+00:00"
+      "first_seen": "2026-10-23T06:03:12.189529+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/busch-om-elpriserna-kan-bli-en-stokig-vinter",
-      "title": "Busch om elpriserna: ”Kan bli en stökig vinter”",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9326738",
+      "title": "Moderata EU-politiker på tvärs mot regeringens linje",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-22",
-      "author": "Hans Rosén",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Riskerna för stigande elpriser är överhängande, enligt energiminister Ebba Busch (KD). Hon försäkrar att övergångsregeringen är redo att aktivera elprisstödet. – Det kan bli en stökig vinter, säger Ebba Busch.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-22 16:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/busch-om-elpriserna-kan-bli-en-stokig-vinter/\nRiskerna för stigande elpriser är överhängande, enligt energiminister Ebba Busch (KD). Hon försäkrar att övergångsregeringen är redo att aktivera elprisstödet.\n– Det kan bli en stökig vinter, säger Ebba Busch.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nSverige löper ingen akut risk att drabbas av brist på el eller drivmedel närmaste tiden – men det kan bli betydligt dyrare. Det var i korta drag budskapet från energiminister Busch och Energimyndighetens generaldirektör Caroline Asserup på en pressträff på torsdagen.\nFlera faktorer bäddar för prisrusning. Nivåerna i vattenkraftens magasin är låga och kärnkraften levererar inte för fullt på grund av pågående underhåll.\nDessutom hotar gasbrist i Europa, något som har en tendens att trycka upp elpriserna i framför allt södra Sverige. EU-länderna har en gemensam elmarknad och på kontinenten produceras mycket el i gaskraftverk. Om priserna stiger där på grund av brist så stiger de ofta också här. Gasbristen beror både på Ukrainakriget och blockaden i Hormuzsundet.\nEnergiministern försäkrar att Sverige står väl rustat men understryker samtidigt allvaret.\n– Dosen gör giftet. Höga priser under lång tid i kombination med känsliga marknader är en potentiellt farlig mix för Sverige, säger Ebba Busch.\nHittills i oktober ligger snittpriset på el i södra Sverige, elområde 4, på 1,54 kronor per kilowattimme. Det är över gränsen för elstöd som ligger på 1,50 kronor, men då räknat som genomsnitt för en hel månad.\nEnergiministern bekräftar att det kan bli aktuellt att betala ut ett högkostnadsskydd. Hennes bedömning är att övergångsregeringen har mandat att göra det. Vilken nivå det i så fall skulle bli på elstödet återstår att fatta beslut om.\n– Uppstår det frågetecken kring det så har vi en god dialog med samtliga partier i riksdagen, säger hon.\nBeskedet kommer med ett förbehåll. Övergångsregeringen måste hålla sig inom de kostnadsramar som redan är satta för stödet, och hur det ska se ut nästa år måste en ny regering ta ställning till.\nStriderna i Mellanöstern har också pressat upp priserna på drivmedel. Tidöregeringen genomförde tillfälliga skattesänkningar för att i någon mån kompensera för detta, men de löper ut under hösten. Sverigedemokraterna har väckt förslag i riksdagen om att övergångsregeringen borde ta upp en ny förhandling med kommissionen om att återigen få sänka skatten under EU:s miniminivå.\nEbba Busch betonar att övergångsregeringen inte har, och inte bör ha, någon uppfattning i frågan.\n– Men givet den erfarenhet jag har av energifrågorna och som partiledare för Kristdemokraterna så ser jag positivt på ett sådant initiativ. Jag ser att det kan finnas behov av det och ser fram emot att diskutera det i riksdagen, säger KD-ledaren.\nPeter Alestig: Den fossila krisen är tillbaka med besked\nKris på Svenska kraftnät – tunga chefer hoppar av\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nYtterligare två tunga avhopp på Svenska kraftnät\nPeter Alestig: Efter lugnet – nu hotar en fossil bomb världsekonomin\nSvenska kraftnäts generaldirektör om kritiken: ”Har aldrig varit en dålig ton”",
+      "summary": "Moderaternas EU-parlamentariker röstade för en större EU-budget för 2027, trots att den svenska regeringen driver en restriktiv budgetlinje. Europaparlamentet vill lägga drygt en miljard euro mer än EU-kommissionens förslag, medan medlemsländerna, inklusive Sverige, vill lägga ungefär en miljard mindre. Även parlamentarikerna från Centerpartiet och Miljöpartiet stödde den linje som nu blir Europaparlamentets ingång i slutförhandlingarna med ministerrådet.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9326738'",
       "matched_terms": [
-        "övergångsregering"
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Moderaterna"
       ],
-      "first_seen": "2026-10-22T14:03:35.535778+00:00"
+      "first_seen": "2026-10-23T06:03:12.189529+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9326723",
+      "title": "SD-förslag om tidigarelagda straffskärpningar får nej",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-22",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Sverigedemokraternas förslag om att införa flera av de redan beslutade straffskärpningarna till år 2029, fick nej i justitieutskottet på torsdagen av den rödgröna majoriteten. Bland annat handlade det om den så kallade mängdrabatten. Enligt Kriminalvården saknas resurser för att genomföra alla förändringar till 2029, det behövs fler fängelseplatser enligt myndigheten. Socialdemokraterna vill i stället att förändringarna införs under flera år och att mängdrabatten för sexualbrott tas bort först.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9326723'",
+      "matched_terms": [
+        "Socialdemokraterna",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-10-23T06:03:12.189529+00:00"
     }
   ]
 }
