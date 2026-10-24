@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-23T14:03:15.397235+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-10-24T06:04:21.910884+00:00",
+  "new_count": 1,
   "skipped": {
-    "seen": 38,
-    "offtopic": 161,
+    "seen": 36,
+    "offtopic": 164,
     "old": 9
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,41 +65,21 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9326455",
-      "title": "Direktrapport | Regeringsbildningen efter valet 2026",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/c-ledaren-om-motet-med-akesson-star-nara-varandra-i-vissa-fragor",
+      "title": "C-ledaren om mötet med Åkesson: ”Står nära varandra i vissa frågor”",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-10-23",
-      "author": "Ekot",
+      "author": "Erik Nilsson, Julia Lindvall",
       "commentator": "",
-      "summary": "Det senaste om läget i svensk politik. Följ Ekots bevakning om regeringsbildningen efter riksdagsvalet den 13 september 2026.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9326455'",
-      "matched_terms": [
-        "regeringsbildning",
-        "riksdagsval"
-      ],
-      "first_seen": "2026-10-23T14:03:15.397235+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/ebba-busch-s-bor-overvaga-att-slappa-fram-kristersson",
-      "title": "Ebba Busch: S bör överväga att släppa fram Kristersson",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-23",
-      "author": "Hans Olsson",
-      "commentator": "",
-      "summary": "KD-ledaren Ebba Busch anser att Socialdemokraterna bör överväga att släppa fram Ulf Kristersson som statsminister, om de pågående regeringsförhandlingarna misslyckas. – Jag hoppas verkligen att det finns socialdemokrater som prövar den tanken, säger hon.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-23 16:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/ebba-busch-s-bor-overvaga-att-slappa-fram-kristersson/\nKD-ledaren Ebba Busch anser att Socialdemokraterna bör överväga att släppa fram Ulf Kristersson som statsminister, om de pågående regeringsförhandlingarna misslyckas.\n– Jag hoppas verkligen att det finns socialdemokrater som prövar den tanken, säger hon.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nEbba Busch höll på fredagen tal inför partikamraterna på KD:s partifullmäktige. En stor del av talet ägnades åt den pågående regeringsbildningen som ännu inte lett fram till att Sverige har en ny regering.\n– Vi har nu 41 dagar av ingenting. Det är dags för svensk politik att ta sig upp ur sandlådan, säger Ebba Busch.\nHon anser att Socialdemokraterna och partiledaren Magdalena Andersson var för otydliga i valrörelsen med att de inte hade ett färdigt regeringsalternativ och att den utdragna processen riskerar att förtroendet för politiken kan få sig en törn om det inte snart blir en lösning.\nOm de röda linjerna mellan partierna på Magdalena Anderssons sida ligger fast och det inte går att få fram en regering anser hon att S bör överväga att släppa fram en regering som leds av Ulf Kristersson i stället.\n– Om man inte får ihop det på vänstersidan, ska man då trycka Sverige mot ett extra val eller släppa fram den konstellation som blir störst därefter och klarar av att få ihop det, säger Ebba Busch och fortsätter:\n– Det vilar ett stort ansvar på Magdalena Andersson och vänsterpartierna för det läge som vi är i nu, säger hon.\nEbba Busch har under veckan träffat C-ledaren Elisabeth Thand Ringqvist, som just nu har uppdraget att sondera möjligheterna för en ny regering. Ebba Busch håller fast vid att hon inte kommer att medverka till att släppa fram en regering som leds av Magdalena Andersson.\n– Det är Ulf Kristersson som är vår statsministerkandidat, säger Ebba Busch.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nJohannes Klenell: Så blev jag och Annie Lööf valets stora vinnare\n”Det var en enkel googling, men det finns många Mohamed Ali”\nMax Hjelm: Högern har fastnat i ett heligt krig mot år 2014 – och det enda vapen de har är en hammare",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist har nu träffat alla partiledare – inklusive Jimmie Åkesson. Efter mötet säger hon att den röda linjen mot SD ligger fast, men att det finns vissa likheter mellan C och SD. – Det var ett uppriktigt och bra samtal, säger Elisabeth Thand Ringqvist (C) till SVT.",
+      "fulltext": "C-ledaren Elisabeth Thand Ringqvist har nu träffat alla partiledare – inklusive Jimmie Åkesson.\nEfter mötet säger hon att den röda linjen mot SD ligger fast, men att det finns vissa likheter mellan C och SD.\n– Det var ett uppriktigt och bra samtal, säger Elisabeth Thand Ringqvist (C) till SVT.\nElisabeth Thand Ringqvist har nu hållit enskilda möten med alla partiledare, för att undersöka vilka möjligheter som finns för att bilda en mittenregering.\nPå måndag ska hon återrapportera till talmannen hur hennes sonderingsuppdrag har gått, men vad beskedet till honom blir har hon inte landat i ännu.\n– Än så länge kan jag säga att det finns ju ett intresse för en politik som förs i mitten i Sverige. Och sen ska jag formulera det ordentligt till talmannen vad det betyder.\nThand Ringqvist är på fredagseftermiddagen inte redo att avfärda möjligheterna att bilda en mittenregering, trots att flera andra partiledare säger nej till en sådan lösning.\nÄr Magdalena Andersson fortfarande den mest sannolika statsministern ur Centerpartiets perspektiv?\nTror du det kommer sluta med att Magdalena Andersson blir statsminister?\nMötet med Åkesson: ”Står nära varandra i vissa frågor”\nThand Ringqvist framhåller att hon tycker att alla möten med partiledarna har varit ”uppriktiga samtal” som hon uppskattat.\nEnligt C-ledaren gäller det även mötet med Jimmie Åkesson.\n– Det är såklart ingen hemlighet att vi står nära varandra i vissa frågor som till exempel rör utvecklingen av svensk landsbygd.\nMötet har dock inte förändrat något gällande Centerpartiets röda linje mot att ge Sverigedemokraterna politiskt inflytande.\n– Vår grundinställning när det gäller regeringsfrågan ligger ju fast. Vi kan inte sitta i en regering eller samarbeta med en regering där SD ingår. Det är ingen skillnad på det. Men det var bra att vi för första gången också kunde ha ett samtal om politik.\nVarför är det så viktigt att inte samarbeta med SD?\n– Det är en lång lista med saker som vi beskrivit i valrörelsen.\nPå fredagen höll Thand Ringqvist sin sista partiledarträff inom ramen för sonderingsuppdraget, då med V-ledaren Nooshi Dadgostar.\nC-ledaren beskriver det som ett ”bra möte”, men har inget nytt besked om hur partiets förhållningssätt till V.\nFinns det något Vänsterpartiet kan ge er så att ni ruckar på ert motstånd mot att släppa in dem i en regering?\n– Jag förstår din fråga, men vi står otroligt långt ifrån varandra politiskt och ideologiskt.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsförhandling",
-        "statsminister",
-        "Socialdemokraterna"
+        "partiledar"
       ],
-      "first_seen": "2026-10-23T14:03:15.397235+00:00"
+      "first_seen": "2026-10-24T06:04:21.910884+00:00"
     }
   ]
 }

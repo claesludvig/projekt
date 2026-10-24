@@ -1,17 +1,12 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-23
+# Svensk politik och regeringsförhandlingarna — 2026-10-24
 
-2 nya poster sedan förra utskicket (38 redan utskickade, 161 utanför ämnet).
+1 nya poster sedan förra utskicket (36 redan utskickade, 164 utanför ämnet).
 
 ## Rapportering
 
-### [Direktrapport | Regeringsbildningen efter valet 2026](https://www.sverigesradio.se/artikel/9326455)
-Ekot, Sveriges Radio · 2026-10-23 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [C-ledaren om mötet med Åkesson: ”Står nära varandra i vissa frågor”](https://www.svt.se/nyheter/inrikes/c-ledaren-om-motet-med-akesson-star-nara-varandra-i-vissa-fragor)
+SVT Nyheter · 2026-10-23 · Erik Nilsson, Julia Lindvall
 
-Det senaste om läget i svensk politik. Följ Ekots bevakning om regeringsbildningen efter riksdagsvalet den 13 september 2026.
+C-ledaren Elisabeth Thand Ringqvist har nu träffat alla partiledare – inklusive Jimmie Åkesson. Efter mötet säger hon att den röda linjen mot SD ligger fast, men att det finns vissa likheter mellan C och SD. – Det var ett uppriktigt och bra samtal, säger Elisabeth Thand Ringqvist (C) till SVT.
 
-### [Ebba Busch: S bör överväga att släppa fram Kristersson](https://www.dn.se/sverige/ebba-busch-s-bor-overvaga-att-slappa-fram-kristersson)
-DN Nyheter · 2026-10-23 · Hans Olsson
-
-KD-ledaren Ebba Busch anser att Socialdemokraterna bör överväga att släppa fram Ulf Kristersson som statsminister, om de pågående regeringsförhandlingarna misslyckas. – Jag hoppas verkligen att det finns socialdemokrater som prövar den tanken, säger hon.
-
-_Genererat 2026-10-23T14:03:15.397235+00:00._
+_Genererat 2026-10-24T06:04:21.910884+00:00._
