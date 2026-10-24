@@ -4,9 +4,9 @@
 
 ## Rapportering
 
-### [C-ledaren om mötet med Åkesson: ”Står nära varandra i vissa frågor”](https://www.svt.se/nyheter/inrikes/c-ledaren-om-motet-med-akesson-star-nara-varandra-i-vissa-fragor)
-SVT Nyheter · 2026-10-23 · Erik Nilsson, Julia Lindvall
+### [Tomas Ramberg: Risken för extraval är överskattad](https://www.dn.se/sverige/tomas-ramberg-risken-for-extraval-ar-overskattad) **[kommentator]**
+DN Nyheter · 2026-10-24 · Tomas Ramberg
 
-C-ledaren Elisabeth Thand Ringqvist har nu träffat alla partiledare – inklusive Jimmie Åkesson. Efter mötet säger hon att den röda linjen mot SD ligger fast, men att det finns vissa likheter mellan C och SD. – Det var ett uppriktigt och bra samtal, säger Elisabeth Thand Ringqvist (C) till SVT.
+Extraval är ordet för dagen i den svenska politiken. Från höger växer hoppet – från vänster skräcken – för att regeringsbildningen ska krascha. Men ett extraval vore ett oöverträffat rekord i politisk klantighet.
 
-_Genererat 2026-10-24T06:04:21.910884+00:00._
+_Genererat 2026-10-24T14:02:41.542008+00:00._
