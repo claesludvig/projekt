@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-25T06:02:59.163834+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-10-25T14:02:57.753866+00:00",
+  "new_count": 0,
   "skipped": {
-    "seen": 36,
+    "seen": 38,
     "offtopic": 163,
     "old": 9
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -63,42 +63,5 @@
       "ok": true
     }
   ],
-  "articles": [
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-darfor-kan-inte-c-slappa-den-roda-linjen-mot-sd",
-      "title": "Mats Knutson: Därför kan inte C släppa den röda linjen mot SD",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-25",
-      "author": "Malvina Britts, Erik Nilsson, Julia Lindvall",
-      "commentator": "Mats Knutson",
-      "summary": "Centerpartiet håller fast vid sin röda linje mot Sverigedemokraterna. Det har partiledaren Elisabeth Thand Ringqvist upprepat flera gånger under veckan. Men varför sitter SD-motståndet så hårt inom C? – Det finns tre skäl, säger SVT:s inrikespolitiske kommentator Mats Knutson.",
-      "fulltext": "Centerpartiet håller fast vid sin röda linje mot Sverigedemokraterna. Det har partiledaren Elisabeth Thand Ringqvist upprepat flera gånger under veckan.\nMen varför sitter SD-motståndet så hårt inom C?\n– Det finns tre skäl, säger SVT:s inrikespolitiske kommentator Mats Knutson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-10-25T06:02:59.163834+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9326564",
-      "title": "Svårt för kommuner att planera när ny regering dröjer",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-25",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Regeringsbildningen drar ut på tiden vilket påverkar kommunernas och regionernas möjligheter att planera sin verksamhet. Det säger Anders Henriksson, ordförande i paraplyorganisationen Sveriges kommuner och regioner, SKR. Ovissheten handlar bland annat om ifall det blir nya satsningar på välfärden och i så fall vilka och i vilken form.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9326564'",
-      "matched_terms": [
-        "regeringsbildning"
-      ],
-      "first_seen": "2026-10-25T06:02:59.163834+00:00"
-    }
-  ]
+  "articles": []
 }
