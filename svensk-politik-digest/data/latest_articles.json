@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-25T14:02:57.753866+00:00",
-  "new_count": 0,
+  "fetched_at": "2026-10-26T06:03:42.991321+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 38,
+    "seen": 36,
     "offtopic": 163,
     "old": 9
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -63,5 +63,40 @@
       "ok": true
     }
   ],
-  "articles": []
+  "articles": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/9328182",
+      "title": "Efter förlusten: Bolsonaro vägrar erkänna valresultatet",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-26",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Flávio Bolsonaro, som förlorade presidentvalet i Brasilien mot Lula da Silva, vägrar erkänna valresultat och kräver att det ska ogiltigförklaras, det rapporterar flera nyhetsbyråer. Lula da Silva sa i ett uttalande efter valsegern, som gav honom ännu en mandatperiod, att brasilianare röstade för att \"garantera demokratin\". Lula da Silva fick knappt 52 procent och Flávio Bolsonaro drygt 48.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328182'",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-10-26T06:03:42.991321+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/regeringsbildningen-ar-inte-bara-en-sapopera-svenska-folket-har-rostat-for-ny-sakpolitik",
+      "title": "Ledare: Regeringsbildningen är inte bara en såpopera – svenska folket har röstat för ny sakpolitik",
+      "source": "DN Nyheter",
+      "kind": "kommentar",
+      "published": "2026-10-26",
+      "author": "DN:s ledarredaktion",
+      "commentator": "",
+      "summary": "När politiken reduceras till skådespel är det viktigt att minnas att valet handlade om sakpolitik.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-26 07:02\nArtikelns ursprungsadress: https://www.dn.se/ledare/regeringsbildningen-ar-inte-bara-en-sapopera-svenska-folket-har-rostat-for-ny-sakpolitik/\nNär politiken reduceras till skådespel är det viktigt att minnas att valet handlade om sakpolitik.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRegeringsbildningen drar ut på tiden, hoppet sviktar, cynikerna blir allt fler. Eftervalsperioden har i viss mån haft formen av en såpopera: en utdragen process i många delar där återkommande karaktärer ständigt hittar nya vägar till konflikter och cliffhangers.\nMen när politiken reduceras till skådespel är det viktigt att minnas att valet handlade om sakpolitik, och att svenska folket på flera områden har uttryckt en tydlig vilja. Några exempel:\nTidöregeringens utvisningspolitik stöttades inte av svenska folket. Rubrikerna om allt från splittrade familjer och utkastad sjukvårdspersonal till tvångsutvisningar av barn var troligen delvis vad som avgjorde valet. Oppositionen har nu majoritet i riksdagen, och använder den för att försöka stoppa tonårsutvisningarna på riktigt. De● är en kursändring som behöver fullföljas.\nAv det förra följer det senare; Sverige kan nu gå från att kasta ut till att hjälpa in. Sverigedemokraterna ville enbart ha kravbaserad politik och lägga noll kronor på integration. Flera av Tidöpartierna valde att kalla försök att minska segregationen för ”tvångsblandning”. En negativ ton om invandrare i allmänhet tillåts splittra landet. En ny regering bör kunna arbeta för att läka ihop Sverige, få fler i arbete och därmed erbjuda en väg in i samhället.\nEfter Tidöåren är vi längre från att klara klimatmålen än innan. Våra nordiska grannar ligger före i elektrifieringen av fordonsflottan. Få partier vågade innan valet erkänna att drivmedelspriserna skulle höjas på grund av EU-krav. Nu behövs en politik som slutar med bränslepopulism, ser till att ny elproduktion kommer till och elektrifieringen tar fart, skyndar på omställningen, och får med sig hela Sverige på vägen.\nAvtal som stärkte Somalias premiärminister – en korrupt Hamas-supporter. Plötsliga nedskärningar i stödorganisationer som hjälper hungrande barn i Etiopien , utan att alternativa givare först identifierats. Minskning av biståndet, på rent populistiska grunder. Den senaste mandatperioden har sannerligen inneburit en omdaning av Sveriges plats i världen. Efter valet finns en majoritet för att lägga om kursen i svensk biståndspolitik.\nDet finns förstås fler politikområden än de ovan nämnda som en ett nytt regeringssamarbete måste hantera. Men det här är fyra exempel där det finns en klar möjlighet att byta riktning och som handlar om vilket Sverige vi i grund och botten vill ha. Det är också sakområden där svenska folket röstat för en förändring.\nDN:s ledarredaktion: Världen missar 1,5-gradersmålet – vad ska Sverige göra då?\nDN:s ledarredaktion: Skolan och krispolitiken lider av samma problem\n”Är det rimligt att veta så mycket om ett par bröst?”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Världen missar 1,5-gradersmålet – vad ska Sverige göra då?\nLedare: Skolan och krispolitiken lider av samma problem\nLedare: Nu blir bensinen dyrare – men det kommer verkligen inte som en chock",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-10-26T06:03:42.991321+00:00"
+    }
+  ]
 }
