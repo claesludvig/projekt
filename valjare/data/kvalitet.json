@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "6705 artiklar i 7 flöden",
-   "varde": 6705.0
+   "detalj": "6744 artiklar i 7 flöden",
+   "varde": 6744.0
   },
   {
    "grupp": "aktualitet",
@@ -1363,7 +1363,7 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7380 rader (förra 7373)",
+   "detalj": "7380 rader (förra 7380)",
    "varde": 7380.0
   },
   {
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "1432 rader (förra 1384)",
-   "varde": 1432.0
+   "detalj": "1436 rader (förra 1432)",
+   "varde": 1436.0
   },
   {
    "grupp": "volym",
@@ -1443,7 +1443,7 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "336 rader (förra 280)",
+   "detalj": "336 rader (förra 336)",
    "varde": 336.0
   },
   {
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "641 rader (förra 631)",
-   "varde": 641.0
+   "detalj": "644 rader (förra 641)",
+   "varde": 644.0
   },
   {
    "grupp": "volym",
@@ -1475,7 +1475,7 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "1939 rader (förra 2075)",
+   "detalj": "1939 rader (förra 1939)",
    "varde": 1939.0
   },
   {
