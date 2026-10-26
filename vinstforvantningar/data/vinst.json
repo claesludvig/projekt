@@ -1,7 +1,7 @@
 {
-  "genererad": "2026-10-19T05:03:29+00:00",
-  "datum": "2026-10-19",
-  "vecka": 43,
+  "genererad": "2026-10-26T05:12:15+00:00",
+  "datum": "2026-10-26",
+  "vecka": 44,
   "ar": {
     "0y": "2026",
     "+1y": "2027"
@@ -14,14 +14,14 @@
   "index": {
     "revidering": {
       "0y": {
-        "1v": -1.12,
-        "1m": -0.67,
-        "3m": -0.35
+        "1v": 0.67,
+        "1m": -0.07,
+        "3m": 0.02
       },
       "+1y": {
-        "1v": 0.76,
-        "1m": 1.7,
-        "3m": 2.48
+        "1v": -0.15,
+        "1m": 1.2,
+        "3m": 1.88
       }
     },
     "antal_bolag": {
@@ -29,113 +29,80 @@
       "+1y": 29
     },
     "bredd_1m": {
-      "hojda": 22,
-      "sankta": 6,
-      "oforandrade": 1
+      "hojda": 21,
+      "sankta": 8,
+      "oforandrade": 0
     },
     "analytikerrevideringar_30d": {
       "upp": 118,
       "ner": 53
     },
-    "tillvaxt_nasta_ar": 15.6,
-    "kurs_3m": 4.8,
-    "eps_nasta_ar_3m": 2.5,
-    "vardering_3m": 2.2
+    "tillvaxt_nasta_ar": 14.6,
+    "kurs_3m": -1.5,
+    "eps_nasta_ar_3m": 1.9,
+    "vardering_3m": -3.3
   },
   "eps_index": {
     "0y": [
       {
-        "datum": "2026-07-21",
+        "datum": "2026-07-28",
         "varde": 100.0
       },
       {
-        "datum": "2026-08-20",
-        "varde": 100.07
+        "datum": "2026-08-27",
+        "varde": 99.92
       },
       {
-        "datum": "2026-09-19",
-        "varde": 100.34
-      },
-      {
-        "datum": "2026-10-12",
-        "varde": 100.8
+        "datum": "2026-09-26",
+        "varde": 100.09
       },
       {
         "datum": "2026-10-19",
-        "varde": 99.65
+        "varde": 99.39
+      },
+      {
+        "datum": "2026-10-26",
+        "varde": 100.02
       }
     ],
     "+1y": [
       {
-        "datum": "2026-07-21",
+        "datum": "2026-07-28",
         "varde": 100.0
       },
       {
-        "datum": "2026-08-20",
-        "varde": 100.52
+        "datum": "2026-08-27",
+        "varde": 100.23
       },
       {
-        "datum": "2026-09-19",
-        "varde": 100.77
-      },
-      {
-        "datum": "2026-10-12",
-        "varde": 101.72
+        "datum": "2026-09-26",
+        "varde": 100.68
       },
       {
         "datum": "2026-10-19",
-        "varde": 102.48
+        "varde": 102.04
+      },
+      {
+        "datum": "2026-10-26",
+        "varde": 101.88
       }
     ]
   },
   "storsta_hojningar": [
-    "Lifco",
     "Boliden",
-    "Swedbank"
+    "Atlas Copco",
+    "Alfa Laval"
   ],
   "storsta_sankningar": [
-    "H&M",
-    "EQT",
-    "Essity"
+    "SKF",
+    "Essity",
+    "H&M"
   ],
   "bolag": [
     {
-      "namn": "Lifco",
-      "ticker": "LIFCO-B.ST",
-      "borsvarde": 149528011504.63257,
-      "nasta_rapport": "2026-10-23",
-      "0y": {
-        "eps": 10.29092,
-        "revidering": {
-          "1v": 0.34,
-          "1m": 4.85,
-          "3m": 0.91
-        },
-        "analytiker": 7.0,
-        "upp_30d": 2.0,
-        "ner_30d": 0.0,
-        "upp_7d": 2.0,
-        "ner_7d": 0.0
-      },
-      "+1y": {
-        "eps": 11.50826,
-        "revidering": {
-          "1v": 0.74,
-          "1m": 5.74,
-          "3m": 2.28
-        },
-        "analytiker": 7.0,
-        "upp_30d": 2.0,
-        "ner_30d": 0.0,
-        "upp_7d": 2.0,
-        "ner_7d": 0.0
-      },
-      "tillvaxt_nasta_ar": 11.8
-    },
-    {
       "namn": "Boliden",
       "ticker": "BOL.ST",
-      "borsvarde": 151522357454.52295,
+      "borsvarde": 137210660272.73853,
       "nasta_rapport": "2026-10-29",
       "0y": {
         "eps": 44.18298,
@@ -166,115 +133,49 @@
       "tillvaxt_nasta_ar": 24.5
     },
     {
-      "namn": "Swedbank",
-      "ticker": "SWED-A.ST",
-      "borsvarde": 452295152662.5,
+      "namn": "Atlas Copco",
+      "ticker": "ATCO-A.ST",
+      "borsvarde": 860100852760.769,
       "nasta_rapport": "2026-10-22",
       "0y": {
-        "eps": 27.94197,
+        "eps": 6.27113,
         "revidering": {
-          "1v": 0.58,
-          "1m": 0.51,
-          "3m": 2.33
+          "1v": 0.29,
+          "1m": 1.0,
+          "3m": 1.44
         },
-        "analytiker": 9.0,
-        "upp_30d": 5.0,
-        "ner_30d": 1.0,
-        "upp_7d": 4.0,
-        "ner_7d": 0.0
-      },
-      "+1y": {
-        "eps": 31.84681,
-        "revidering": {
-          "1v": 0.82,
-          "1m": 4.86,
-          "3m": 7.44
-        },
-        "analytiker": 9.0,
-        "upp_30d": 7.0,
-        "ner_30d": 0.0,
-        "upp_7d": 3.0,
-        "ner_7d": 1.0
-      },
-      "tillvaxt_nasta_ar": 14.0
-    },
-    {
-      "namn": "SCA",
-      "ticker": "SCA-B.ST",
-      "borsvarde": 88284448723.92082,
-      "nasta_rapport": "2026-10-23",
-      "0y": {
-        "eps": 3.4184,
-        "revidering": {
-          "1v": 0.18,
-          "1m": 1.09,
-          "3m": 0.09
-        },
-        "analytiker": 11.0,
-        "upp_30d": 4.0,
-        "ner_30d": 2.0,
-        "upp_7d": 1.0,
-        "ner_7d": 0.0
-      },
-      "+1y": {
-        "eps": 4.81662,
-        "revidering": {
-          "1v": 1.25,
-          "1m": 4.59,
-          "3m": 8.85
-        },
-        "analytiker": 12.0,
-        "upp_30d": 6.0,
-        "ner_30d": 0.0,
-        "upp_7d": 1.0,
-        "ner_7d": 0.0
-      },
-      "tillvaxt_nasta_ar": 40.9
-    },
-    {
-      "namn": "SEB",
-      "ticker": "SEB-A.ST",
-      "borsvarde": 426366847103.8801,
-      "nasta_rapport": "2026-10-22",
-      "0y": {
-        "eps": 16.40982,
-        "revidering": {
-          "1v": -0.28,
-          "1m": -0.41,
-          "3m": 0.22
-        },
-        "analytiker": 11.0,
-        "upp_30d": 3.0,
-        "ner_30d": 3.0,
-        "upp_7d": 2.0,
-        "ner_7d": 3.0
-      },
-      "+1y": {
-        "eps": 18.93089,
-        "revidering": {
-          "1v": 0.3,
-          "1m": 3.28,
-          "3m": 6.1
-        },
-        "analytiker": 10.0,
+        "analytiker": 15.0,
         "upp_30d": 5.0,
         "ner_30d": 0.0,
         "upp_7d": 3.0,
         "ner_7d": 0.0
       },
-      "tillvaxt_nasta_ar": 15.4
+      "+1y": {
+        "eps": 7.67337,
+        "revidering": {
+          "1v": 1.53,
+          "1m": 3.68,
+          "3m": 5.05
+        },
+        "analytiker": 14.0,
+        "upp_30d": 5.0,
+        "ner_30d": 0.0,
+        "upp_7d": 3.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 22.4
     },
     {
       "namn": "Alfa Laval",
       "ticker": "ALFA.ST",
-      "borsvarde": 238241298056.9745,
+      "borsvarde": 223113539791.51276,
       "nasta_rapport": "2026-10-27",
       "0y": {
         "eps": 21.86003,
         "revidering": {
-          "1v": 1.69,
+          "1v": 1.68,
           "1m": 1.79,
-          "3m": -3.86
+          "3m": -3.91
         },
         "analytiker": 8.0,
         "upp_30d": 2.0,
@@ -285,9 +186,9 @@
       "+1y": {
         "eps": 25.3129,
         "revidering": {
-          "1v": 2.18,
+          "1v": 1.73,
           "1m": 3.02,
-          "3m": 0.29
+          "3m": 0.45
         },
         "analytiker": 7.0,
         "upp_30d": 2.0,
@@ -298,62 +199,29 @@
       "tillvaxt_nasta_ar": 15.8
     },
     {
-      "namn": "Handelsbanken",
-      "ticker": "SHB-A.ST",
-      "borsvarde": 308433264105.4207,
-      "nasta_rapport": "2026-10-21",
-      "0y": {
-        "eps": 11.3541,
-        "revidering": {
-          "1v": 0.06,
-          "1m": 0.51,
-          "3m": 0.52
-        },
-        "analytiker": 11.0,
-        "upp_30d": 5.0,
-        "ner_30d": 0.0,
-        "upp_7d": 2.0,
-        "ner_7d": 1.0
-      },
-      "+1y": {
-        "eps": 12.23449,
-        "revidering": {
-          "1v": 0.83,
-          "1m": 2.84,
-          "3m": 3.48
-        },
-        "analytiker": 11.0,
-        "upp_30d": 6.0,
-        "ner_30d": 0.0,
-        "upp_7d": 3.0,
-        "ner_7d": 1.0
-      },
-      "tillvaxt_nasta_ar": 7.8
-    },
-    {
       "namn": "ABB",
       "ticker": "ABB.ST",
-      "borsvarde": 1646310392090.0,
+      "borsvarde": 1476116936292.0,
       "nasta_rapport": "2026-10-20",
       "0y": {
-        "eps": 3.34,
+        "eps": 3.496,
         "revidering": {
-          "1v": -8.07,
-          "1m": -6.11,
-          "3m": -6.11
+          "1v": 5.14,
+          "1m": 0.0,
+          "3m": 0.0
         },
-        "analytiker": 2.0,
+        "analytiker": 5.0,
         "upp_30d": 0.0,
         "ner_30d": 0.0,
         "upp_7d": 0.0,
         "ner_7d": 0.0
       },
       "+1y": {
-        "eps": 4.095,
+        "eps": 4.105,
         "revidering": {
-          "1v": 2.37,
-          "1m": 2.72,
-          "3m": 2.72
+          "1v": 0.24,
+          "1m": 2.97,
+          "3m": 2.97
         },
         "analytiker": 2.0,
         "upp_30d": 1.0,
@@ -361,98 +229,164 @@
         "upp_7d": 1.0,
         "ner_7d": 0.0
       },
-      "tillvaxt_nasta_ar": 22.6
+      "tillvaxt_nasta_ar": 17.4
     },
     {
-      "namn": "Telia",
-      "ticker": "TELIA.ST",
-      "borsvarde": 182095986480.90036,
+      "namn": "Sandvik",
+      "ticker": "SAND.ST",
+      "borsvarde": 434770168567.9641,
       "nasta_rapport": "2026-10-22",
       "0y": {
-        "eps": 2.40368,
+        "eps": 17.9261,
         "revidering": {
-          "1v": -3.37,
-          "1m": -3.1,
-          "3m": 3.51
+          "1v": 1.66,
+          "1m": 1.53,
+          "3m": 2.18
         },
-        "analytiker": 13.0,
-        "upp_30d": 3.0,
+        "analytiker": 16.0,
+        "upp_30d": 5.0,
         "ner_30d": 1.0,
-        "upp_7d": 3.0,
+        "upp_7d": 2.0,
         "ner_7d": 0.0
       },
       "+1y": {
-        "eps": 2.70064,
+        "eps": 20.46799,
         "revidering": {
-          "1v": 1.28,
-          "1m": 2.17,
-          "3m": 4.59
+          "1v": 1.49,
+          "1m": 2.72,
+          "3m": 6.26
         },
-        "analytiker": 13.0,
+        "analytiker": 16.0,
         "upp_30d": 5.0,
-        "ner_30d": 0.0,
-        "upp_7d": 4.0,
+        "ner_30d": 1.0,
+        "upp_7d": 2.0,
         "ner_7d": 0.0
       },
-      "tillvaxt_nasta_ar": 12.4
+      "tillvaxt_nasta_ar": 14.2
     },
     {
-      "namn": "Atlas Copco",
-      "ticker": "ATCO-A.ST",
-      "borsvarde": 986457100357.231,
-      "nasta_rapport": "2026-10-22",
+      "namn": "Getinge",
+      "ticker": "GETI-B.ST",
+      "borsvarde": 72913338016.92389,
+      "nasta_rapport": "2026-10-21",
       "0y": {
-        "eps": 6.25272,
+        "eps": 13.09404,
         "revidering": {
-          "1v": 0.02,
-          "1m": 0.71,
-          "3m": 1.16
+          "1v": 1.31,
+          "1m": 1.75,
+          "3m": 4.44
         },
-        "analytiker": 15.0,
-        "upp_30d": 5.0,
-        "ner_30d": 0.0,
-        "upp_7d": 3.0,
+        "analytiker": 11.0,
+        "upp_30d": 3.0,
+        "ner_30d": 3.0,
+        "upp_7d": 2.0,
         "ner_7d": 0.0
       },
       "+1y": {
-        "eps": 7.55805,
+        "eps": 14.48053,
         "revidering": {
-          "1v": -0.03,
-          "1m": 2.12,
-          "3m": 4.13
+          "1v": 1.02,
+          "1m": 2.53,
+          "3m": 4.54
         },
-        "analytiker": 14.0,
-        "upp_30d": 5.0,
-        "ner_30d": 0.0,
-        "upp_7d": 3.0,
+        "analytiker": 11.0,
+        "upp_30d": 4.0,
+        "ner_30d": 2.0,
+        "upp_7d": 2.0,
         "ner_7d": 0.0
       },
-      "tillvaxt_nasta_ar": 20.9
+      "tillvaxt_nasta_ar": 10.6
+    },
+    {
+      "namn": "Lifco",
+      "ticker": "LIFCO-B.ST",
+      "borsvarde": 127362247747.68372,
+      "nasta_rapport": "2026-10-23",
+      "0y": {
+        "eps": 10.00378,
+        "revidering": {
+          "1v": -2.79,
+          "1m": 1.92,
+          "3m": 1.92
+        },
+        "analytiker": 7.0,
+        "upp_30d": 2.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 11.15826,
+        "revidering": {
+          "1v": -3.04,
+          "1m": 2.53,
+          "3m": 2.53
+        },
+        "analytiker": 7.0,
+        "upp_30d": 2.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 11.5
+    },
+    {
+      "namn": "SCA",
+      "ticker": "SCA-B.ST",
+      "borsvarde": 87722577947.78958,
+      "nasta_rapport": "2026-10-23",
+      "0y": {
+        "eps": 3.505,
+        "revidering": {
+          "1v": 2.53,
+          "1m": 3.94,
+          "3m": 4.44
+        },
+        "analytiker": 4.0,
+        "upp_30d": 4.0,
+        "ner_30d": 2.0,
+        "upp_7d": 1.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 4.73093,
+        "revidering": {
+          "1v": -1.78,
+          "1m": 2.1,
+          "3m": 3.62
+        },
+        "analytiker": 13.0,
+        "upp_30d": 6.0,
+        "ner_30d": 0.0,
+        "upp_7d": 1.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 35.0
     },
     {
       "namn": "Ericsson",
       "ticker": "ERIC-B.ST",
-      "borsvarde": 342891917031.90985,
-      "nasta_rapport": "2026-10-15",
+      "borsvarde": 340512844989.12714,
+      "nasta_rapport": "2027-01-22",
       "0y": {
-        "eps": 6.98433,
+        "eps": 6.97738,
         "revidering": {
-          "1v": 6.29,
-          "1m": 6.64,
-          "3m": 6.1
+          "1v": 6.58,
+          "1m": 6.53,
+          "3m": 5.99
         },
-        "analytiker": 14.0,
+        "analytiker": 15.0,
         "upp_30d": 2.0,
         "ner_30d": 6.0,
         "upp_7d": 1.0,
         "ner_7d": 3.0
       },
       "+1y": {
-        "eps": 7.01581,
+        "eps": 7.0206,
         "revidering": {
-          "1v": 1.04,
-          "1m": 2.02,
-          "3m": 1.43
+          "1v": 1.23,
+          "1m": 2.08,
+          "3m": 1.5
         },
         "analytiker": 15.0,
         "upp_30d": 4.0,
@@ -460,19 +394,118 @@
         "upp_7d": 3.0,
         "ner_7d": 1.0
       },
-      "tillvaxt_nasta_ar": 0.5
+      "tillvaxt_nasta_ar": 0.6
+    },
+    {
+      "namn": "Swedbank",
+      "ticker": "SWED-A.ST",
+      "borsvarde": 425887858035.0,
+      "nasta_rapport": "2026-10-22",
+      "0y": {
+        "eps": 28.23062,
+        "revidering": {
+          "1v": 1.03,
+          "1m": 1.76,
+          "3m": 1.34
+        },
+        "analytiker": 6.0,
+        "upp_30d": 5.0,
+        "ner_30d": 1.0,
+        "upp_7d": 4.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 31.71666,
+        "revidering": {
+          "1v": -0.41,
+          "1m": 1.98,
+          "3m": 6.13
+        },
+        "analytiker": 8.0,
+        "upp_30d": 7.0,
+        "ner_30d": 0.0,
+        "upp_7d": 3.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 12.3
+    },
+    {
+      "namn": "Telia",
+      "ticker": "TELIA.ST",
+      "borsvarde": 189645629112.0332,
+      "nasta_rapport": "2026-10-22",
+      "0y": {
+        "eps": 2.41428,
+        "revidering": {
+          "1v": 0.44,
+          "1m": -2.68,
+          "3m": -2.52
+        },
+        "analytiker": 12.0,
+        "upp_30d": 3.0,
+        "ner_30d": 1.0,
+        "upp_7d": 3.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 2.69171,
+        "revidering": {
+          "1v": -0.33,
+          "1m": 1.83,
+          "3m": 1.93
+        },
+        "analytiker": 13.0,
+        "upp_30d": 5.0,
+        "ner_30d": 0.0,
+        "upp_7d": 4.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 11.5
+    },
+    {
+      "namn": "Hexagon",
+      "ticker": "HEXA-B.ST",
+      "borsvarde": 284678283214.4712,
+      "nasta_rapport": "2026-10-23",
+      "0y": {
+        "eps": 0.3056,
+        "revidering": {
+          "1v": -1.73,
+          "1m": -2.51,
+          "3m": -3.36
+        },
+        "analytiker": 12.0,
+        "upp_30d": 2.0,
+        "ner_30d": 3.0,
+        "upp_7d": 1.0,
+        "ner_7d": 1.0
+      },
+      "+1y": {
+        "eps": 0.3429,
+        "revidering": {
+          "1v": 1.61,
+          "1m": 1.82,
+          "3m": -0.41
+        },
+        "analytiker": 14.0,
+        "upp_30d": 3.0,
+        "ner_30d": 2.0,
+        "upp_7d": 0.0,
+        "ner_7d": 2.0
+      },
+      "tillvaxt_nasta_ar": 12.2
     },
     {
       "namn": "Epiroc",
       "ticker": "EPI-A.ST",
-      "borsvarde": 319666033840.16943,
+      "borsvarde": 303331831965.95764,
       "nasta_rapport": "2026-10-28",
       "0y": {
-        "eps": 8.39127,
+        "eps": 8.39362,
         "revidering": {
-          "1v": 0.56,
-          "1m": 0.73,
-          "3m": -1.33
+          "1v": 0.48,
+          "1m": 0.63,
+          "3m": 0.31
         },
         "analytiker": 17.0,
         "upp_30d": 5.0,
@@ -481,11 +514,11 @@
         "ner_7d": 2.0
       },
       "+1y": {
-        "eps": 10.14445,
+        "eps": 10.14945,
         "revidering": {
-          "1v": 0.78,
-          "1m": 1.84,
-          "3m": 1.33
+          "1v": 0.63,
+          "1m": 1.69,
+          "3m": 1.31
         },
         "analytiker": 16.0,
         "upp_30d": 7.0,
@@ -496,141 +529,75 @@
       "tillvaxt_nasta_ar": 20.9
     },
     {
-      "namn": "AstraZeneca",
-      "ticker": "AZN.ST",
-      "borsvarde": 2548913586977.0,
-      "nasta_rapport": "2026-10-30",
+      "namn": "Handelsbanken",
+      "ticker": "SHB-A.ST",
+      "borsvarde": 300414200033.4207,
+      "nasta_rapport": "2026-10-21",
       "0y": {
-        "eps": 10.41333,
+        "eps": 11.47403,
         "revidering": {
-          "1v": -0.48,
-          "1m": -0.48,
-          "3m": -0.03
+          "1v": 1.06,
+          "1m": 1.49,
+          "3m": 1.61
         },
-        "analytiker": 3.0,
-        "upp_30d": 1.0,
-        "ner_30d": 1.0,
-        "upp_7d": 1.0,
+        "analytiker": 8.0,
+        "upp_30d": 5.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
         "ner_7d": 1.0
       },
       "+1y": {
-        "eps": 11.57333,
+        "eps": 12.18766,
         "revidering": {
-          "1v": 1.56,
-          "1m": 1.56,
-          "3m": 1.47
+          "1v": -0.38,
+          "1m": 1.6,
+          "3m": 3.06
         },
-        "analytiker": 3.0,
-        "upp_30d": 1.0,
-        "ner_30d": 1.0,
-        "upp_7d": 1.0,
+        "analytiker": 12.0,
+        "upp_30d": 6.0,
+        "ner_30d": 0.0,
+        "upp_7d": 3.0,
         "ner_7d": 1.0
       },
-      "tillvaxt_nasta_ar": 11.1
+      "tillvaxt_nasta_ar": 6.2
     },
     {
-      "namn": "Getinge",
-      "ticker": "GETI-B.ST",
-      "borsvarde": 71251881959.21194,
-      "nasta_rapport": "2026-10-21",
+      "namn": "SEB",
+      "ticker": "SEB-A.ST",
+      "borsvarde": 390982099232.7603,
+      "nasta_rapport": "2026-10-22",
       "0y": {
-        "eps": 12.92464,
+        "eps": 16.12294,
         "revidering": {
-          "1v": 0.45,
-          "1m": 0.29,
-          "3m": 13.19
+          "1v": -1.72,
+          "1m": -2.28,
+          "3m": -1.63
         },
-        "analytiker": 11.0,
+        "analytiker": 8.0,
         "upp_30d": 3.0,
         "ner_30d": 3.0,
         "upp_7d": 2.0,
-        "ner_7d": 0.0
+        "ner_7d": 3.0
       },
       "+1y": {
-        "eps": 14.33389,
+        "eps": 18.83703,
         "revidering": {
-          "1v": 0.93,
-          "1m": 1.52,
-          "3m": 6.77
+          "1v": -0.46,
+          "1m": 1.47,
+          "3m": 5.49
         },
-        "analytiker": 11.0,
-        "upp_30d": 4.0,
-        "ner_30d": 2.0,
-        "upp_7d": 2.0,
+        "analytiker": 10.0,
+        "upp_30d": 5.0,
+        "ner_30d": 0.0,
+        "upp_7d": 3.0,
         "ner_7d": 0.0
       },
-      "tillvaxt_nasta_ar": 10.9
-    },
-    {
-      "namn": "Sandvik",
-      "ticker": "SAND.ST",
-      "borsvarde": 446686834836.4641,
-      "nasta_rapport": "2026-10-22",
-      "0y": {
-        "eps": 17.6341,
-        "revidering": {
-          "1v": -1.3,
-          "1m": -0.08,
-          "3m": -2.01
-        },
-        "analytiker": 16.0,
-        "upp_30d": 5.0,
-        "ner_30d": 1.0,
-        "upp_7d": 2.0,
-        "ner_7d": 0.0
-      },
-      "+1y": {
-        "eps": 20.16756,
-        "revidering": {
-          "1v": -0.42,
-          "1m": 1.33,
-          "3m": 4.79
-        },
-        "analytiker": 16.0,
-        "upp_30d": 5.0,
-        "ner_30d": 1.0,
-        "upp_7d": 2.0,
-        "ner_7d": 0.0
-      },
-      "tillvaxt_nasta_ar": 14.4
-    },
-    {
-      "namn": "Volvo",
-      "ticker": "VOLV-B.ST",
-      "borsvarde": 661685295722.3934,
-      "nasta_rapport": "2026-10-23",
-      "0y": {
-        "eps": 21.57429,
-        "revidering": {
-          "1v": -0.18,
-          "1m": 0.1,
-          "3m": -0.14
-        },
-        "analytiker": 18.0,
-        "upp_30d": 5.0,
-        "ner_30d": 6.0,
-        "upp_7d": 0.0,
-        "ner_7d": 5.0
-      },
-      "+1y": {
-        "eps": 25.77806,
-        "revidering": {
-          "1v": -0.48,
-          "1m": 1.18,
-          "3m": 3.25
-        },
-        "analytiker": 18.0,
-        "upp_30d": 9.0,
-        "ner_30d": 2.0,
-        "upp_7d": 4.0,
-        "ner_7d": 1.0
-      },
-      "tillvaxt_nasta_ar": 19.5
+      "tillvaxt_nasta_ar": 16.8
     },
     {
       "namn": "Nibe",
       "ticker": "NIBE-B.ST",
-      "borsvarde": 90158495804.37866,
+      "borsvarde": 89593991958.074,
       "nasta_rapport": "2026-11-17",
       "0y": {
         "eps": 1.66979,
@@ -661,84 +628,51 @@
       "tillvaxt_nasta_ar": 22.1
     },
     {
-      "namn": "Assa Abloy",
-      "ticker": "ASSA-B.ST",
-      "borsvarde": 399324092073.0,
-      "nasta_rapport": "2026-10-27",
+      "namn": "Addtech",
+      "ticker": "ADDT-B.ST",
+      "borsvarde": 81079227902.12415,
+      "nasta_rapport": "2026-10-22",
       "0y": {
-        "eps": 16.18178,
+        "eps": 10.27897,
         "revidering": {
-          "1v": -0.37,
-          "1m": 0.01,
-          "3m": 1.88
+          "1v": -0.36,
+          "1m": -0.83,
+          "3m": 0.3
         },
-        "analytiker": 20.0,
-        "upp_30d": 8.0,
-        "ner_30d": 2.0,
-        "upp_7d": 1.0,
-        "ner_7d": 1.0
-      },
-      "+1y": {
-        "eps": 18.3513,
-        "revidering": {
-          "1v": 0.11,
-          "1m": 1.09,
-          "3m": 2.86
-        },
-        "analytiker": 20.0,
-        "upp_30d": 9.0,
+        "analytiker": 6.0,
+        "upp_30d": 2.0,
         "ner_30d": 1.0,
-        "upp_7d": 1.0,
-        "ner_7d": 1.0
-      },
-      "tillvaxt_nasta_ar": 13.4
-    },
-    {
-      "namn": "Nordea",
-      "ticker": "NDA-SE.ST",
-      "borsvarde": 595264370548.5715,
-      "nasta_rapport": "2026-10-15",
-      "0y": {
-        "eps": 1.45088,
-        "revidering": {
-          "1v": -0.83,
-          "1m": -1.7,
-          "3m": -1.9
-        },
-        "analytiker": 5.0,
-        "upp_30d": 1.0,
-        "ner_30d": 4.0,
-        "upp_7d": 0.0,
+        "upp_7d": 2.0,
         "ner_7d": 1.0
       },
       "+1y": {
-        "eps": 1.56796,
+        "eps": 11.79534,
         "revidering": {
-          "1v": -0.84,
-          "1m": 0.93,
-          "3m": 2.12
+          "1v": 0.46,
+          "1m": 1.01,
+          "3m": 1.63
         },
-        "analytiker": 10.0,
-        "upp_30d": 4.0,
-        "ner_30d": 2.0,
-        "upp_7d": 0.0,
-        "ner_7d": 2.0
+        "analytiker": 6.0,
+        "upp_30d": 3.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
+        "ner_7d": 0.0
       },
-      "tillvaxt_nasta_ar": 8.1
+      "tillvaxt_nasta_ar": 14.8
     },
     {
       "namn": "Saab",
       "ticker": "SAAB-B.ST",
-      "borsvarde": 350229888068.11084,
+      "borsvarde": 348494991661.5,
       "nasta_rapport": "2026-10-23",
       "0y": {
-        "eps": 14.9412,
+        "eps": 15.52223,
         "revidering": {
-          "1v": 0.2,
-          "1m": 0.27,
-          "3m": 3.48
+          "1v": 3.89,
+          "1m": 4.08,
+          "3m": 4.58
         },
-        "analytiker": 11.0,
+        "analytiker": 1.0,
         "upp_30d": 2.0,
         "ner_30d": 2.0,
         "upp_7d": 1.0,
@@ -747,9 +681,9 @@
       "+1y": {
         "eps": 19.03707,
         "revidering": {
-          "1v": 0.18,
-          "1m": 0.77,
-          "3m": 4.14
+          "1v": 0.0,
+          "1m": 0.55,
+          "3m": 0.48
         },
         "analytiker": 13.0,
         "upp_30d": 3.0,
@@ -757,98 +691,164 @@
         "upp_7d": 2.0,
         "ner_7d": 2.0
       },
-      "tillvaxt_nasta_ar": 27.4
+      "tillvaxt_nasta_ar": 22.6
     },
     {
-      "namn": "Addtech",
-      "ticker": "ADDT-B.ST",
-      "borsvarde": 89612217529.93689,
-      "nasta_rapport": "2026-10-22",
+      "namn": "Nordea",
+      "ticker": "NDA-SE.ST",
+      "borsvarde": 576334759295.6543,
+      "nasta_rapport": "2026-10-15",
       "0y": {
-        "eps": 10.31576,
+        "eps": 1.4524,
         "revidering": {
-          "1v": -0.77,
-          "1m": -0.47,
-          "3m": 0.66
+          "1v": -0.73,
+          "1m": -1.6,
+          "3m": -1.8
         },
         "analytiker": 6.0,
-        "upp_30d": 2.0,
-        "ner_30d": 1.0,
-        "upp_7d": 2.0,
+        "upp_30d": 1.0,
+        "ner_30d": 4.0,
+        "upp_7d": 0.0,
         "ner_7d": 1.0
       },
       "+1y": {
-        "eps": 11.74164,
+        "eps": 1.56396,
         "revidering": {
-          "1v": -0.3,
-          "1m": 0.55,
-          "3m": 1.18
+          "1v": -1.09,
+          "1m": 0.49,
+          "3m": 1.86
         },
-        "analytiker": 6.0,
-        "upp_30d": 3.0,
-        "ner_30d": 0.0,
-        "upp_7d": 2.0,
-        "ner_7d": 0.0
-      },
-      "tillvaxt_nasta_ar": 13.8
-    },
-    {
-      "namn": "Hexagon",
-      "ticker": "HEXA-B.ST",
-      "borsvarde": 282530772712.0,
-      "nasta_rapport": "2026-10-23",
-      "0y": {
-        "eps": 0.31097,
-        "revidering": {
-          "1v": -0.44,
-          "1m": -0.79,
-          "3m": -1.67
-        },
-        "analytiker": 14.0,
-        "upp_30d": 2.0,
-        "ner_30d": 3.0,
-        "upp_7d": 1.0,
-        "ner_7d": 1.0
-      },
-      "+1y": {
-        "eps": 0.33747,
-        "revidering": {
-          "1v": 0.01,
-          "1m": 0.2,
-          "3m": -1.98
-        },
-        "analytiker": 14.0,
-        "upp_30d": 3.0,
+        "analytiker": 10.0,
+        "upp_30d": 4.0,
         "ner_30d": 2.0,
         "upp_7d": 0.0,
         "ner_7d": 2.0
       },
-      "tillvaxt_nasta_ar": 8.5
+      "tillvaxt_nasta_ar": 7.7
+    },
+    {
+      "namn": "AstraZeneca",
+      "ticker": "AZN.ST",
+      "borsvarde": 2624907968335.0,
+      "nasta_rapport": "2026-10-30",
+      "0y": {
+        "eps": 10.29667,
+        "revidering": {
+          "1v": -1.12,
+          "1m": -1.6,
+          "3m": -1.12
+        },
+        "analytiker": 3.0,
+        "upp_30d": 1.0,
+        "ner_30d": 1.0,
+        "upp_7d": 1.0,
+        "ner_7d": 1.0
+      },
+      "+1y": {
+        "eps": 11.43333,
+        "revidering": {
+          "1v": -1.21,
+          "1m": 0.33,
+          "3m": 0.45
+        },
+        "analytiker": 3.0,
+        "upp_30d": 1.0,
+        "ner_30d": 1.0,
+        "upp_7d": 1.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 11.0
+    },
+    {
+      "namn": "Assa Abloy",
+      "ticker": "ASSA-B.ST",
+      "borsvarde": 410431855413.0,
+      "nasta_rapport": "2026-10-27",
+      "0y": {
+        "eps": 16.1895,
+        "revidering": {
+          "1v": 0.05,
+          "1m": -0.33,
+          "3m": 0.1
+        },
+        "analytiker": 20.0,
+        "upp_30d": 8.0,
+        "ner_30d": 2.0,
+        "upp_7d": 1.0,
+        "ner_7d": 1.0
+      },
+      "+1y": {
+        "eps": 18.37257,
+        "revidering": {
+          "1v": 0.12,
+          "1m": 0.27,
+          "3m": 1.25
+        },
+        "analytiker": 20.0,
+        "upp_30d": 9.0,
+        "ner_30d": 1.0,
+        "upp_7d": 1.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 13.5
+    },
+    {
+      "namn": "Volvo",
+      "ticker": "VOLV-B.ST",
+      "borsvarde": 625693231069.2131,
+      "nasta_rapport": "2026-10-23",
+      "0y": {
+        "eps": 21.73428,
+        "revidering": {
+          "1v": 0.74,
+          "1m": 0.54,
+          "3m": 0.58
+        },
+        "analytiker": 16.0,
+        "upp_30d": 5.0,
+        "ner_30d": 6.0,
+        "upp_7d": 0.0,
+        "ner_7d": 5.0
+      },
+      "+1y": {
+        "eps": 25.58512,
+        "revidering": {
+          "1v": -0.75,
+          "1m": -0.08,
+          "3m": 0.46
+        },
+        "analytiker": 18.0,
+        "upp_30d": 9.0,
+        "ner_30d": 2.0,
+        "upp_7d": 4.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 17.7
     },
     {
       "namn": "Evolution",
       "ticker": "EVO.ST",
-      "borsvarde": 145322961600.0,
+      "borsvarde": 152420871474.2439,
       "nasta_rapport": "2026-10-23",
       "0y": {
-        "eps": 5.38073,
+        "eps": 5.33244,
         "revidering": {
-          "1v": 0.3,
-          "1m": 0.01,
-          "3m": 0.04
+          "1v": -0.9,
+          "1m": -0.84,
+          "3m": -0.72
         },
-        "analytiker": 18.0,
+        "analytiker": 17.0,
         "upp_30d": 2.0,
         "ner_30d": 5.0,
         "upp_7d": 1.0,
         "ner_7d": 1.0
       },
       "+1y": {
-        "eps": 6.12726,
+        "eps": 6.08769,
         "revidering": {
-          "1v": 0.31,
-          "1m": 0.02,
-          "3m": 1.18
+          "1v": -0.65,
+          "1m": -0.43,
+          "3m": -0.46
         },
         "analytiker": 18.0,
         "upp_30d": 3.0,
@@ -856,32 +856,32 @@
         "upp_7d": 1.0,
         "ner_7d": 1.0
       },
-      "tillvaxt_nasta_ar": 13.9
+      "tillvaxt_nasta_ar": 14.2
     },
     {
       "namn": "Tele2",
       "ticker": "TEL2-B.ST",
-      "borsvarde": 111107690229.83466,
+      "borsvarde": 110864951933.33069,
       "nasta_rapport": "2026-10-20",
       "0y": {
-        "eps": 9.45167,
+        "eps": 8.77709,
         "revidering": {
-          "1v": -0.03,
-          "1m": 7.38,
-          "3m": 5.97
+          "1v": -7.14,
+          "1m": -0.28,
+          "3m": -0.29
         },
-        "analytiker": 10.0,
+        "analytiker": 9.0,
         "upp_30d": 3.0,
         "ner_30d": 3.0,
         "upp_7d": 2.0,
         "ner_7d": 3.0
       },
       "+1y": {
-        "eps": 8.71777,
+        "eps": 8.69631,
         "revidering": {
-          "1v": 0.12,
-          "1m": -0.25,
-          "3m": -1.66
+          "1v": -0.25,
+          "1m": -0.5,
+          "3m": -0.52
         },
         "analytiker": 10.0,
         "upp_30d": 4.0,
@@ -889,52 +889,52 @@
         "upp_7d": 3.0,
         "ner_7d": 2.0
       },
-      "tillvaxt_nasta_ar": -7.8
+      "tillvaxt_nasta_ar": -0.9
     },
     {
-      "namn": "SKF",
-      "ticker": "SKF-B.ST",
-      "borsvarde": 123445677314.04236,
-      "nasta_rapport": "2026-10-21",
+      "namn": "EQT",
+      "ticker": "EQT.ST",
+      "borsvarde": 373029176320.6928,
+      "nasta_rapport": "2026-10-15",
       "0y": {
-        "eps": 17.29983,
+        "eps": 1.23961,
         "revidering": {
-          "1v": -0.36,
-          "1m": 0.43,
-          "3m": 1.79
+          "1v": -0.42,
+          "1m": -2.79,
+          "3m": -2.73
         },
-        "analytiker": 9.0,
-        "upp_30d": 2.0,
-        "ner_30d": 2.0,
-        "upp_7d": 2.0,
-        "ner_7d": 1.0
+        "analytiker": 12.0,
+        "upp_30d": 0.0,
+        "ner_30d": 3.0,
+        "upp_7d": 0.0,
+        "ner_7d": 3.0
       },
       "+1y": {
-        "eps": 19.31021,
+        "eps": 1.73022,
         "revidering": {
-          "1v": -1.37,
-          "1m": -0.42,
-          "3m": 1.37
+          "1v": 1.31,
+          "1m": -1.45,
+          "3m": 0.74
         },
-        "analytiker": 9.0,
+        "analytiker": 12.0,
         "upp_30d": 2.0,
         "ner_30d": 2.0,
         "upp_7d": 2.0,
-        "ner_7d": 1.0
+        "ner_7d": 2.0
       },
-      "tillvaxt_nasta_ar": 11.6
+      "tillvaxt_nasta_ar": 39.6
     },
     {
       "namn": "Skanska",
       "ticker": "SKA-B.ST",
-      "borsvarde": 111553260196.05374,
+      "borsvarde": 112091572312.39252,
       "nasta_rapport": "2026-11-05",
       "0y": {
-        "eps": 17.04091,
+        "eps": 16.94948,
         "revidering": {
-          "1v": -0.47,
-          "1m": -0.05,
-          "3m": 0.56
+          "1v": -0.54,
+          "1m": -0.39,
+          "3m": -0.59
         },
         "analytiker": 7.0,
         "upp_30d": 0.0,
@@ -943,11 +943,11 @@
         "ner_7d": 1.0
       },
       "+1y": {
-        "eps": 18.22387,
+        "eps": 18.15762,
         "revidering": {
-          "1v": -1.13,
-          "1m": -0.93,
-          "3m": -2.18
+          "1v": -0.36,
+          "1m": -1.49,
+          "3m": -1.29
         },
         "analytiker": 8.0,
         "upp_30d": 1.0,
@@ -955,85 +955,19 @@
         "upp_7d": 0.0,
         "ner_7d": 1.0
       },
-      "tillvaxt_nasta_ar": 6.9
-    },
-    {
-      "namn": "Essity",
-      "ticker": "ESSITY-B.ST",
-      "borsvarde": 186937348745.69598,
-      "nasta_rapport": "2026-10-22",
-      "0y": {
-        "eps": 18.4716,
-        "revidering": {
-          "1v": -0.24,
-          "1m": -1.49,
-          "3m": -3.91
-        },
-        "analytiker": 15.0,
-        "upp_30d": 0.0,
-        "ner_30d": 11.0,
-        "upp_7d": 0.0,
-        "ner_7d": 5.0
-      },
-      "+1y": {
-        "eps": 20.09807,
-        "revidering": {
-          "1v": -0.13,
-          "1m": -1.71,
-          "3m": -2.85
-        },
-        "analytiker": 15.0,
-        "upp_30d": 1.0,
-        "ner_30d": 10.0,
-        "upp_7d": 1.0,
-        "ner_7d": 4.0
-      },
-      "tillvaxt_nasta_ar": 8.8
-    },
-    {
-      "namn": "EQT",
-      "ticker": "EQT.ST",
-      "borsvarde": 371409492334.3072,
-      "nasta_rapport": "2026-10-15",
-      "0y": {
-        "eps": 1.24443,
-        "revidering": {
-          "1v": -0.04,
-          "1m": -2.41,
-          "3m": 1.2
-        },
-        "analytiker": 10.0,
-        "upp_30d": 0.0,
-        "ner_30d": 3.0,
-        "upp_7d": 0.0,
-        "ner_7d": 3.0
-      },
-      "+1y": {
-        "eps": 1.72435,
-        "revidering": {
-          "1v": 0.96,
-          "1m": -1.78,
-          "3m": 0.09
-        },
-        "analytiker": 10.0,
-        "upp_30d": 2.0,
-        "ner_30d": 2.0,
-        "upp_7d": 2.0,
-        "ner_7d": 2.0
-      },
-      "tillvaxt_nasta_ar": 38.6
+      "tillvaxt_nasta_ar": 7.1
     },
     {
       "namn": "H&M",
       "ticker": "HM-B.ST",
-      "borsvarde": 275214695973.7124,
+      "borsvarde": 279205628481.2124,
       "nasta_rapport": "2026-09-24",
       "0y": {
-        "eps": 8.011,
+        "eps": 8.01684,
         "revidering": {
           "1v": 0.18,
-          "1m": 0.42,
-          "3m": 1.02
+          "1m": 0.4,
+          "3m": 1.29
         },
         "analytiker": 24.0,
         "upp_30d": 10.0,
@@ -1042,11 +976,11 @@
         "ner_7d": 1.0
       },
       "+1y": {
-        "eps": 8.25874,
+        "eps": 8.25374,
         "revidering": {
-          "1v": -0.06,
-          "1m": -1.79,
-          "3m": -1.35
+          "1v": 0.07,
+          "1m": -1.77,
+          "3m": -1.14
         },
         "analytiker": 24.0,
         "upp_30d": 4.0,
@@ -1054,82 +988,76 @@
         "upp_7d": 0.0,
         "ner_7d": 2.0
       },
-      "tillvaxt_nasta_ar": 3.1
-    }
-  ],
-  "kommande_rapporter": [
-    {
-      "namn": "ABB",
-      "datum": "2026-10-20"
-    },
-    {
-      "namn": "Tele2",
-      "datum": "2026-10-20"
-    },
-    {
-      "namn": "Handelsbanken",
-      "datum": "2026-10-21"
-    },
-    {
-      "namn": "Getinge",
-      "datum": "2026-10-21"
-    },
-    {
-      "namn": "SKF",
-      "datum": "2026-10-21"
-    },
-    {
-      "namn": "Swedbank",
-      "datum": "2026-10-22"
-    },
-    {
-      "namn": "SEB",
-      "datum": "2026-10-22"
-    },
-    {
-      "namn": "Telia",
-      "datum": "2026-10-22"
-    },
-    {
-      "namn": "Atlas Copco",
-      "datum": "2026-10-22"
-    },
-    {
-      "namn": "Sandvik",
-      "datum": "2026-10-22"
-    },
-    {
-      "namn": "Addtech",
-      "datum": "2026-10-22"
+      "tillvaxt_nasta_ar": 3.0
     },
     {
       "namn": "Essity",
-      "datum": "2026-10-22"
+      "ticker": "ESSITY-B.ST",
+      "borsvarde": 186398244202.30402,
+      "nasta_rapport": "2027-01-21",
+      "0y": {
+        "eps": 18.62768,
+        "revidering": {
+          "1v": 0.84,
+          "1m": -0.66,
+          "3m": -1.84
+        },
+        "analytiker": 15.0,
+        "upp_30d": 0.0,
+        "ner_30d": 11.0,
+        "upp_7d": 0.0,
+        "ner_7d": 5.0
+      },
+      "+1y": {
+        "eps": 19.94208,
+        "revidering": {
+          "1v": -0.78,
+          "1m": -2.48,
+          "3m": -3.56
+        },
+        "analytiker": 15.0,
+        "upp_30d": 1.0,
+        "ner_30d": 10.0,
+        "upp_7d": 1.0,
+        "ner_7d": 4.0
+      },
+      "tillvaxt_nasta_ar": 7.1
     },
     {
-      "namn": "Lifco",
-      "datum": "2026-10-23"
-    },
-    {
-      "namn": "SCA",
-      "datum": "2026-10-23"
-    },
-    {
-      "namn": "Volvo",
-      "datum": "2026-10-23"
-    },
-    {
-      "namn": "Saab",
-      "datum": "2026-10-23"
-    },
-    {
-      "namn": "Hexagon",
-      "datum": "2026-10-23"
-    },
-    {
-      "namn": "Evolution",
-      "datum": "2026-10-23"
-    },
+      "namn": "SKF",
+      "ticker": "SKF-B.ST",
+      "borsvarde": 122717112826.0,
+      "nasta_rapport": "2026-10-21",
+      "0y": {
+        "eps": 16.36206,
+        "revidering": {
+          "1v": -5.42,
+          "1m": -4.27,
+          "3m": -5.0
+        },
+        "analytiker": 9.0,
+        "upp_30d": 2.0,
+        "ner_30d": 2.0,
+        "upp_7d": 2.0,
+        "ner_7d": 1.0
+      },
+      "+1y": {
+        "eps": 18.62772,
+        "revidering": {
+          "1v": -3.53,
+          "1m": -3.61,
+          "3m": -2.06
+        },
+        "analytiker": 10.0,
+        "upp_30d": 2.0,
+        "ner_30d": 2.0,
+        "upp_7d": 2.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 13.8
+    }
+  ],
+  "kommande_rapporter": [
     {
       "namn": "Alfa Laval",
       "datum": "2026-10-27"
@@ -1156,8 +1084,8 @@
     }
   ],
   "grafer": {
-    "vinst_mot_kurs": "https://raw.githubusercontent.com/claesludvig/projekt/main/vinstforvantningar/data/grafer/2026-10-19/vinst_mot_kurs.png",
-    "revideringar_1m": "https://raw.githubusercontent.com/claesludvig/projekt/main/vinstforvantningar/data/grafer/2026-10-19/revideringar_1m.png"
+    "vinst_mot_kurs": "https://raw.githubusercontent.com/claesludvig/projekt/main/vinstforvantningar/data/grafer/2026-10-26/vinst_mot_kurs.png",
+    "revideringar_1m": "https://raw.githubusercontent.com/claesludvig/projekt/main/vinstforvantningar/data/grafer/2026-10-26/revideringar_1m.png"
   },
   "metod": "Analytikerkonsensus för vinst per aktie (EPS) enligt Yahoo Finance. Revidering = ändring av konsensusprognosen över perioden, i %. Indexsiffror är viktade med börsvärde. Bolag med förlust eller byte av tecken i prognosen räknas inte. Investor och Industrivärden ingår inte. 2026 och 2027 avser innevarande och nästa räkenskapsår.",
   "fel": []
