@@ -1,19 +1,22 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-26
 
-2 nya poster sedan förra utskicket (36 redan utskickade, 163 utanför ämnet).
-
-## Analys och kommentar
-
-### [Ledare: Regeringsbildningen är inte bara en såpopera – svenska folket har röstat för ny sakpolitik](https://www.dn.se/ledare/regeringsbildningen-ar-inte-bara-en-sapopera-svenska-folket-har-rostat-for-ny-sakpolitik)
-DN Nyheter · 2026-10-26 · DN:s ledarredaktion
-
-När politiken reduceras till skådespel är det viktigt att minnas att valet handlade om sakpolitik.
+3 nya poster sedan förra utskicket (36 redan utskickade, 159 utanför ämnet).
 
 ## Rapportering
 
-### [Efter förlusten: Bolsonaro vägrar erkänna valresultatet](https://www.sverigesradio.se/artikel/9328182)
+### [I dag presenterar Thand Ringqvist (C) sitt sonderingsuppdrag](https://www.svt.se/nyheter/inrikes/i-dag-presenterar-thand-ringqvist-c-sitt-sonderingsuppdrag)
+SVT Nyheter · 2026-10-26 · Ofelia Gedda
+
+Centerledaren har haft sedan förra måndagen på sig att sondera möjligheterna till att bilda en regering. I dag klockan 10 rapporterar Elisabeth Thand Ringqvist tillbaka till talmannen om hur det har gått.
+
+### [Gissén efter C-ledarens misslyckande: ”Det har vi vetat väldigt länge”](https://www.sverigesradio.se/artikel/9328287)
 Ekot, Sveriges Radio · 2026-10-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Flávio Bolsonaro, som förlorade presidentvalet i Brasilien mot Lula da Silva, vägrar erkänna valresultat och kräver att det ska ogiltigförklaras, det rapporterar flera nyhetsbyråer. Lula da Silva sa i ett uttalande efter valsegern, som gav honom ännu en mandatperiod, att brasilianare röstade för att "garantera demokratin". Lula da Silva fick knappt 52 procent och Flávio Bolsonaro drygt 48.
+”Att det inte gick att få till en mittenregering, det har vi vetat väldigt länge” säger Ekots inrikespolitiska kommentator Helena Gissén efter beskedet från Elisabeth Thand Ringqvist. På måndagen träffade Centerpartiets ledare Thand Ringqvist talmannen Andreas Norlén och meddelade att hon misslyckats med uppdraget att sondera för en regering med stöd av mittenpartierna i riksdagen. Centerledaren verkar dock inte helt ha övergivit förhoppningen, menar Helena Gissén.
 
-_Genererat 2026-10-26T06:03:42.991321+00:00._
+### [Elisabeth Thand Ringqvist (C): Finns ingen majoritet för en mittenregering](https://www.sverigesradio.se/artikel/9328262)
+Ekot, Sveriges Radio · 2026-10-26 · Ekot _(brödtext ej hämtad — endast ingress)_
+
+På måndagen träffade Centerpartiets ledare Elisabeth Thand Ringqvist talmannen Andreas Norlén. ”Samtalen har visat att det finns gemensamma utgångspunkter som skulle kunna ge gemensamma lösningar. Men det finns ingen majoritet för en mittenregering”, säger Thand Ringqvist . När hon fick en fråga om idén om mittenregering nu kan begravas svararde Centerledaren: ”Just nu kan vi begrava det”.
+
+_Genererat 2026-10-26T14:08:46.601032+00:00._
