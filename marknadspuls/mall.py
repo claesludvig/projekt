@@ -12,8 +12,12 @@ rapport = {
   "ingress": "En mening om dagens största rörelse (valfri)",
   "drivkrafter": "Ett stycke om vad som driver rörelserna i tabellerna.",
   "punkter": [{"bold_lead": "Kort etikett", "text": "Koppling mellan rörelse och orsak."}],   # max 3
-  "kallor": [{"namn": "ING", "titel": "...", "url": "https://..."}]
+  "kallor": [{"namn": "ING", "titel": "...", "url": "https://..."}],
+  "trading": {"text": "Ett stycke om tradingläget (valfri).",
+              "punkter": [{"bold_lead": "Kort etikett", "text": "..."}]}             # max 2
 }
+
+Avsnitten om OMXS30-bolagen och tradingläget visas bara när data["aktier"] finns.
 """
 
 from html import escape
@@ -126,6 +130,155 @@ def _p(html_text: str, extra: str = "") -> str:
     return f'<p style="color:{C_TEXT};font-size:15px;line-height:1.6;margin:0 0 16px 0;{extra}">{html_text}</p>'
 
 
+def _liten(text: str) -> str:
+    return f'<div style="font-size:11px;color:{C_DAMPAD};margin:10px 0 0 0;line-height:1.5;">{text}</div>'
+
+
+def _underrubrik(text: str) -> str:
+    return (f'<div style="font-size:11px;color:{C_DAMPAD};margin:22px 0 4px 0;text-transform:uppercase;'
+            f'letter-spacing:0.5px;">{escape(text)}</div>')
+
+
+def _enkel_tabell(huvud: list, rader: list, vanster=(0,)) -> str:
+    """rader = listor av (text, färg|None). Kolumnerna i `vanster` vänsterställs."""
+    th = f"padding:5px 3px;font-size:10px;color:{C_DAMPAD};font-weight:600;border-bottom:1px solid {C_LINJE};"
+    h = "".join(f'<th style="{th}text-align:{"left" if i in vanster else "right"};">{escape(x)}</th>'
+                for i, x in enumerate(huvud))
+    tr = []
+    for rad in rader:
+        celler = "".join(
+            f'<td style="padding:5px 3px;font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums;'
+            f'text-align:{"left" if i in vanster else "right"};color:{farg or C_TEXT};">{text}</td>'
+            for i, (text, farg) in enumerate(rad))
+        tr.append(f'<tr style="border-bottom:1px solid #f0f4f8;">{celler}</tr>')
+    return (f'<table role="presentation" cellspacing="0" cellpadding="0" style="width:100%;border-collapse:collapse;'
+            f'font-family:{FONT};"><tr>{h}</tr>{"".join(tr)}</table>')
+
+
+def _c(x):
+    return (fmt_andring(x, "pct"), _farg(x))
+
+
+def _indexrad(ix: dict) -> str:
+    return (f"OMXS30 {_tal(ix['senast'], 0)}: {fmt_andring(ix['vs_ma20'], 'pct')} % mot MA20, "
+            f"{fmt_andring(ix['vs_ma50'], 'pct')} % mot MA50, {fmt_andring(ix['vs_ma200'], 'pct')} % mot MA200 · "
+            f"RSI {ix['rsi14']:.0f} · z60 {_tal(ix['z60'], 2)} · normal veckorörelse ±{_tal(ix['normal_veckorörelse'], 1)} % "
+            f"(volatilitet {_tal(ix['vol20'], 0)} % i årstakt) · {ix['bredd_upp_1d']} av {ix['antal_bolag']} bolag upp "
+            f"senaste dagen, {ix['bredd_over_ma50']} över MA50")
+
+
+def _bolag_html(a: dict) -> list:
+    ut = [_h2("OMXS30-bolagen"), _p(escape(_indexrad(a["index"])), "font-size:13px;")]
+    rr = a["rorelser"]
+    rader = []
+    for i in range(max(len(rr["1d"]["basta"]), len(rr["1v"]["basta"]))):
+        rad = []
+        for p in ("1d", "1v"):
+            for sida in ("basta", "samsta"):
+                lista = rr[p][sida]
+                if i < len(lista):
+                    rad += [(escape(lista[i]["namn"]), None), _c(lista[i]["andring"])]
+                else:
+                    rad += [("", None), ("", None)]
+        rader.append(rad)
+    ut.append(_underrubrik("Största rörelserna, %"))
+    ut.append(_enkel_tabell(["Bäst 1d", "", "Sämst 1d", "", "Bäst 1v", "", "Sämst 1v", ""], rader,
+                            vanster=(0, 2, 4, 6)))
+    return ut
+
+
+def _trading_html(a: dict, rapport: dict) -> list:
+    ut = [_h2("Tradingläge — högst en vecka")]
+    tr = rapport.get("trading") or {}
+    if tr.get("text"):
+        ut.append(_p(escape(tr["text"])))
+    if tr.get("punkter"):
+        li = "".join(
+            f'<li style="color:{C_TEXT};font-size:15px;line-height:1.6;margin-bottom:10px;">'
+            f'<strong style="color:{C_RUBRIK};">{escape(p["bold_lead"])}:</strong> {escape(p["text"])}</li>'
+            for p in tr["punkter"][:2])
+        ut.append(f'<ul style="margin:0 0 16px 0;padding-left:20px;">{li}</ul>')
+
+    ut.append(_underrubrik("Kandidater"))
+    if a["kandidater"]:
+        rader = [[(f"<strong>{escape(k['namn'])}</strong>", C_RUBRIK), (_tal(k["senast"], 2), None), _c(k["1v"]),
+                  _c(k["res_1v"]), _c(k["prognos_1m"]), (_tal(k["stopp"], 2), None), (_tal(k["vikt"], 2), None)]
+                 for k in a["kandidater"]]
+        ut.append(_enkel_tabell(["Bolag", "Kurs", "1v %", "Mot index", "Prognos 1m", "Stopp", "Vikt"], rader))
+        skal = "".join(f'<div style="margin:6px 0 0 0;"><strong style="color:{C_RUBRIK};">{escape(k["namn"])}:</strong> '
+                       f'{escape("; ".join(k["skal"]))}</div>' for k in a["kandidater"])
+        ut.append(f'<div style="font-size:12px;color:{C_TEXT};line-height:1.5;margin:8px 0 0 0;">{skal}</div>')
+    else:
+        ut.append(_p("Inga bolag klarar urvalet i dag.", "font-size:13px;"))
+
+    if a["uttanjda"]:
+        ut.append(_underrubrik("Uttänjda — risk för rekyl"))
+        ut.append(_p(escape(" · ".join(f"{u['namn']} ({u['skal'][0]})" for u in a["uttanjda"])), "font-size:13px;"))
+    if a["undvik"]:
+        ut.append(_underrubrik("Undvik som köp"))
+        ut.append(_p("<br>".join(f"<strong>{escape(u['namn'])}</strong>: {escape('; '.join(u['skal']))}"
+                                 for u in a["undvik"]), "font-size:13px;"))
+    ut.append(_underrubrik("Händelser kommande 7 dagar"))
+    ut.append(_p("<br>".join(f"{int(h['datum'][8:])}/{int(h['datum'][5:7])} {escape(h['handelse'])}"
+                             for h in a["handelser"]) or "Inga kända.", "font-size:13px;"))
+
+    if a.get("uppfoljning"):
+        u = a["uppfoljning"]
+        ut.append(_underrubrik(f"Utfall för kandidaterna från {int(u['fran'][8:])}/{int(u['fran'][5:7])}"))
+        rader = [[(escape(b["namn"]), None), _c(b["avkastning"]), _c(b["mot_index"])] for b in u["bolag"]]
+        rader.append([("<strong>Snitt</strong>", None), _c(u["snitt"]), _c(u["snitt_mot_index"])])
+        ut.append(_enkel_tabell(["Bolag", "Avkastning %", "Mot OMXS30"], rader))
+        ut.append(_liten(f"OMXS30 under samma period: {fmt_andring(u['index'], 'pct')} %."))
+
+    if a.get("signalkontroll"):
+        ut.append(_underrubrik("Signalkontroll — fungerar urvalet?"))
+        rader = [[(escape(s["signal"]), None), (_tal(s["ic"], 2), None), (_tal(s["t"], 1), None),
+                  (_tal(s["ic_26v"], 2), None), (_tal(s["ic_8v"], 2), None)] for s in a["signalkontroll"]]
+        ut.append(_enkel_tabell(["Signal", "IC 1 år", "t", "IC 26 v", "IC 8 v"], rader))
+    ut.append(_liten(escape(a["metod"]) + (f" Vinstprognoser per {_datum(a['prognoser_per'])}." if a.get("prognoser_per") else "")))
+    return ut
+
+
+def _bolag_text(a: dict) -> list:
+    rr = a["rorelser"]
+    ut = ["", "OMXS30-BOLAGEN", _indexrad(a["index"])]
+    for p in ("1d", "1v"):
+        for sida, etikett in (("basta", "Bäst"), ("samsta", "Sämst")):
+            ut.append(f"{etikett} {p}: " + ", ".join(f"{x['namn']} {fmt_andring(x['andring'], 'pct')}" for x in rr[p][sida]))
+    return ut
+
+
+def _trading_text(a: dict, rapport: dict) -> list:
+    ut = ["", "TRADINGLÄGE — HÖGST EN VECKA"]
+    tr = rapport.get("trading") or {}
+    if tr.get("text"):
+        ut.append(tr["text"])
+    for p in tr.get("punkter", [])[:2]:
+        ut.append(f"- {p['bold_lead']}: {p['text']}")
+    ut.append("Kandidater (kurs, 1v %, mot index, prognos 1m, stopp, vikt):")
+    for k in a["kandidater"]:
+        ut.append(f"  {k['namn']}: {_tal(k['senast'], 2)} | {fmt_andring(k['1v'], 'pct')} | {fmt_andring(k['res_1v'], 'pct')}"
+                  f" | {fmt_andring(k['prognos_1m'], 'pct')} | {_tal(k['stopp'], 2)} | {_tal(k['vikt'], 2)} — {'; '.join(k['skal'])}")
+    if not a["kandidater"]:
+        ut.append("  Inga bolag klarar urvalet i dag.")
+    if a["uttanjda"]:
+        ut.append("Uttänjda: " + " · ".join(f"{u['namn']} ({u['skal'][0]})" for u in a["uttanjda"]))
+    for u in a["undvik"]:
+        ut.append(f"Undvik {u['namn']}: {'; '.join(u['skal'])}")
+    ut.append("Händelser 7 dagar: " + ("; ".join(f"{int(h['datum'][8:])}/{int(h['datum'][5:7])} {h['handelse']}"
+                                                 for h in a["handelser"]) or "inga kända"))
+    if a.get("uppfoljning"):
+        u = a["uppfoljning"]
+        ut.append(f"Utfall kandidaterna från {u['fran']}: snitt {fmt_andring(u['snitt'], 'pct')} %, "
+                  f"mot OMXS30 {fmt_andring(u['snitt_mot_index'], 'pct')} (" +
+                  ", ".join(f"{b['namn']} {fmt_andring(b['avkastning'], 'pct')}" for b in u["bolag"]) + ")")
+    for s in a.get("signalkontroll", []):
+        ut.append(f"Signalkontroll {s['signal']}: IC 1 år {_tal(s['ic'], 2)} (t {_tal(s['t'], 1)}), "
+                  f"26 v {_tal(s['ic_26v'], 2)}, 8 v {_tal(s['ic_8v'], 2)}")
+    ut.append(a["metod"])
+    return ut
+
+
 def rendera(rapport: dict, data: dict) -> str:
     perioder = data["perioder"]
     delar = [
@@ -143,6 +296,10 @@ def rendera(rapport: dict, data: dict) -> str:
     delar.append(
         f'<div style="font-size:11px;color:{C_DAMPAD};margin:10px 0 0 0;line-height:1.5;">{escape(data["periodforklaring"])}</div>'
     )
+
+    aktier = data.get("aktier")
+    if aktier:
+        delar += _bolag_html(aktier)
 
     if data["par"]:
         delar.append(_h2("Samband — senaste månaden"))
@@ -172,6 +329,9 @@ def rendera(rapport: dict, data: dict) -> str:
                 for p in rapport["punkter"][:3]
             )
             delar.append(f'<ul style="margin:0 0 16px 0;padding-left:20px;">{li}</ul>')
+
+    if aktier:
+        delar += _trading_html(aktier, rapport)
 
     fot = []
     if rapport.get("kallor"):
@@ -219,6 +379,8 @@ def rendera_text(rapport: dict, data: dict) -> str:
             )
         rader.append("")
     rader.append(data["periodforklaring"])
+    if data.get("aktier"):
+        rader += _bolag_text(data["aktier"])
     if data["par"]:
         rader += ["", "SAMBAND — SENASTE MÅNADEN"]
         for par in data["par"]:
@@ -230,6 +392,8 @@ def rendera_text(rapport: dict, data: dict) -> str:
             rader.append(rapport["drivkrafter"])
         for p in rapport.get("punkter", [])[:3]:
             rader.append(f"- {p['bold_lead']}: {p['text']}")
+    if data.get("aktier"):
+        rader += _trading_text(data["aktier"], rapport)
     if rapport.get("kallor"):
         rader += ["", "Källor:"] + [f"- {k['namn']}: {k['titel']} {k.get('url', '')}".rstrip() for k in rapport["kallor"]]
     if data.get("fel"):
