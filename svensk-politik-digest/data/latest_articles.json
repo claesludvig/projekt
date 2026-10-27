@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-10-26T14:08:46.601032+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-10-27T06:06:10.729477+00:00",
+  "new_count": 8,
   "skipped": {
-    "seen": 36,
-    "offtopic": 159,
+    "seen": 35,
+    "offtopic": 155,
     "old": 12
   },
-  "fetch_errors": 2,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 4,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,58 +65,143 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/i-dag-presenterar-thand-ringqvist-c-sitt-sonderingsuppdrag",
-      "title": "I dag presenterar Thand Ringqvist (C) sitt sonderingsuppdrag",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-26",
-      "author": "Ofelia Gedda",
+      "url": "https://www.svd.se/a/El14rl/bolsonaros-parti-erkanner-resultatet",
+      "title": "Bolsonaros parti erkänner valresultatet",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-27",
+      "author": "TT-AFP",
       "commentator": "",
-      "summary": "Centerledaren har haft sedan förra måndagen på sig att sondera möjligheterna till att bilda en regering. I dag klockan 10 rapporterar Elisabeth Thand Ringqvist tillbaka till talmannen om hur det har gått.",
-      "fulltext": "Centerledaren har haft sedan förra måndagen på sig att sondera möjligheterna till att bilda en regering.\nI dag klockan 10 rapporterar Elisabeth Thand Ringqvist tillbaka till talmannen om hur det har gått.\nEfter att Elisabeth Thand Ringqvist fick sonderingsuppdraget från talmannen Andreas Norlén så har hon under förra veckan haft möten med alla partiledare för att se över förutsättningarna för en mittenregering.\nPartiledaren har tidigare sagt att hon skulle vilja se en mittenregering bestående av Centerpartiet tillsammans med MP, S, L och KD.\nOm talmannen efter mötet bedömer att det finns förutsättningar för att bilda regering kan han välja att föreslå en statsministerkandidat som riksdagen ska rösta om.\nI mitten av oktober valde riksdagen att rösta nej till statsministerkandidaten Magdalena Andersson (S).\nInnan Thand Ringqvist fick uppdraget så har Magdalena Andersson (S) efter två sonderingsrundor misslyckats med att bilda regering.\nOm inte heller Elisabeth Thand Ringqvist får ihop ett regeringsunderlag så kommer talmannen ge ut uppdraget på nytt, till vem är ännu inte bestämt.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Högerkandidaten Flávio Bolsonaros parti PL erkänner resultatet i Brasiliens presidentval, trots att…",
+      "fulltext": "Högerkandidaten Flávio Bolsonaros parti PL erkänner resultatet i Brasiliens presidentval, trots att Bolsonaro tidigare själv sagt att han vill att valet ska ogiltigförklaras.\n”Vi erkänner presidentvalets resultat . . . men vi tycker att de frågor som lyfts måste tas itu med”, uppger partiet i ett uttalande.\nBolsonaro, son till fängslade expresidenten Jair Bolsonaro, har kritiserat att vallokalernas öppettider förlängdes under söndagskvällen. Han begärde själv att det skulle ske på vissa håll, men har kallat förlängningen för ”oacceptabel”.\nUnder måndagskvällen sade Bolsonaro dock att han kommer att leda oppositionen mot Lula.\nVänsterpresidenten Lula da Silva vann söndagens andra omgång i presidentvalet med 51,8 procent av rösterna. Det innebär runt 4,4 miljoner fler röster till Lula, som under tisdagen fyller 81 år. Han har därmed säkrat sin fjärde mandatperiod som president i landet.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "sondering"
+        "valresultat"
       ],
-      "first_seen": "2026-10-26T14:08:46.601032+00:00"
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9328287",
-      "title": "Gissén efter C-ledarens misslyckande: ”Det har vi vetat väldigt länge”",
+      "url": "https://www.svd.se/a/1olP9l/saudiarabien-skjutit-ned-robotar",
+      "title": "Saudiarabien: Skjutit ned robotar",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-27",
+      "author": "TT-AFP",
+      "commentator": "",
+      "summary": "Den saudiledda koalitionen, som strider mot Huthirörelsen, uppger under tisdagen att den skjutit ned…",
+      "fulltext": "Den saudiledda koalitionen, som strider mot Huthirörelsen, uppger under tisdagen att den skjutit ned tre ballistiska robotar som huthierna avfyrat mot Saudiarabiens östra delar.\nHuthirörelsens styrkor kontrollerar en stor del av Jemen och har stöd från Iran. Den har trappat upp attacker mot Saudiarabien under de senaste veckorna.",
+      "paywall": true,
+      "fetch_error": "",
+      "matched_terms": [
+        "koalition"
+      ],
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9328959",
+      "title": "Israel går till val: ”Sämsta läget på länge”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Kritiker vill se ett regeringsskifte som de menar skulle stärka rättsväsendet och demokratin. Matematikern Idan från Tel Aviv, är en av de som vill se ett regeringsskifte, han säger att ”Israel befinner sig i sitt sämsta läge på länge”. Samtidigt har premiärminister Benjamin Netanyahu starkt stöd bland väljare som tycker att han gör ett bra jobb och vill att han ska sitta kvar.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328959'",
+      "matched_terms": [
+        "regeringsskifte"
+      ],
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9328962",
+      "title": "Bolsonaros parti accepterar nu valresultatet",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "I Brasilien så har Flavio Bolsonaros parti som förlorade valet nu officiellt accepterat resultatet, trots att Bolsonaro initialt inte ville erkänna sig besegrad. Men i ett uttalande skriver partiet också att de farhågor som lyfts måste hanteras.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328962'",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9328852",
+      "title": "Aktivisten: ”Vi har svårt att tro att det är sant”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-26",
       "author": "Ekot",
       "commentator": "",
-      "summary": "”Att det inte gick att få till en mittenregering, det har vi vetat väldigt länge” säger Ekots inrikespolitiska kommentator Helena Gissén efter beskedet från Elisabeth Thand Ringqvist. På måndagen träffade Centerpartiets ledare Thand Ringqvist talmannen Andreas Norlén och meddelade att hon misslyckats med uppdraget att sondera för en regering med stöd av mittenpartierna i riksdagen. Centerledaren verkar dock inte helt ha övergivit förhoppningen, menar Helena Gissén.",
+      "summary": "”Himlen ser annorlunda ut idag jämfört med i går och vi har svårt att tro att det är sant”, säger Hadzi Nenad Maricic, medlem i den serbiska aktivistgruppen Kreni Promeni till Ekot, om Studentlistans valseger. Att Studentlistan vann valet och att Vucic har erkänt sig besegrad, har överraskat många och Hadzi Nenad Maricic säger att valresultatet är en seger för demokratin och att landet går en ny tid till mötes. Härnäst måste den ledarlösa organisationen Studentlistan utse en ledare.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328287'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328852'",
       "matched_terms": [
-        "talman",
-        "Centerpartiet"
+        "valresultat"
       ],
-      "first_seen": "2026-10-26T14:08:46.601032+00:00"
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9328262",
-      "title": "Elisabeth Thand Ringqvist (C): Finns ingen majoritet för en mittenregering",
+      "url": "https://www.sverigesradio.se/artikel/9328849",
+      "title": "Martin Ådahl (C): Vi försöker verkligen vara konstruktiva",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-26",
       "author": "Ekot",
       "commentator": "",
-      "summary": "På måndagen träffade Centerpartiets ledare Elisabeth Thand Ringqvist talmannen Andreas Norlén. ”Samtalen har visat att det finns gemensamma utgångspunkter som skulle kunna ge gemensamma lösningar. Men det finns ingen majoritet för en mittenregering”, säger Thand Ringqvist . När hon fick en fråga om idén om mittenregering nu kan begravas svararde Centerledaren: ”Just nu kan vi begrava det”.",
+      "summary": "Martin Ådahl, ekonomiskpolitisk talesperson för Centerpartiet, bemöter i Studio Ett reaktionerna om att C borde släppa taget om idén om en mittenregering, efter Elisabeth Thand Ringqvists sonderingsuppdrag misslyckats. Enligt Ådahl är det inte aktuellt för Centerpartiet att släppa sina röda linjer mot V och SD. ”Där finns inte den här sakgemenskapen på samma sätt”, säger han.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328262'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9328849'",
       "matched_terms": [
-        "talman",
+        "sondering",
         "Centerpartiet"
       ],
-      "first_seen": "2026-10-26T14:08:46.601032+00:00"
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-nu-har-bade-c-och-v-trottnat-pa-andersson",
+      "title": "Tomas Ramberg: Nu har både C och V tröttnat på Andersson",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-26",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Centern spelar ett högt spel i regeringsfrågan. Trots att de andra partierna återigen släckt Elisabeth Thand Ringqvists hopp om en mittenregering trappar Centerledaren upp striden mot Vänsterpartiet. Socialdemokraterna kan inte längre hoppas att V och C självmant ska backa från sina krav.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-27 07:06\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-nu-har-bade-c-och-v-trottnat-pa-andersson/\nCentern spelar ett högt spel i regeringsfrågan. Trots att de andra partierna återigen släckt Elisabeth Thand Ringqvists hopp om en mittenregering trappar Centerledaren upp striden mot Vänsterpartiet.\nSocialdemokraterna kan inte längre hoppas att V och C självmant ska backa från sina krav.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/isobel-hadley-kamptz-i-verkligheten-kan-monstren-besegras",
+      "title": "Isobel Hadley-Kamptz: I verkligheten kan monstren besegras",
+      "source": "DN Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-26",
+      "author": "Isobel Hadley-Kamptz",
+      "commentator": "",
+      "summary": "Kanske är det för tidigt att tala om ett trendbrott i kampen mot den globala radikalhögern. Men, som valresultaten i både Serbien och Brasilien visar, så går den att besegra.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-27 07:05\nArtikelns ursprungsadress: https://www.dn.se/ledare/isobel-hadley-kamptz-i-verkligheten-kan-monstren-besegras/\nKanske är det för tidigt att tala om ett trendbrott i kampen mot den globala radikalhögern. Men, som valresultaten i både Serbien och Brasilien visar, så går den att besegra.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFör några dagar sedan skrev jag om hur världspolitiken blivit en skräckfilm , där monstren alltid verkar komma tillbaka. Den här gången hade jag dock fel.\nFör i både Brasilien och Serbien stod en majoritet av väljarna i helgen upp för demokratin och valde bort den auktoritära nyhöger vars maktinnehav så ofta ses som närmast ödesbestämt.\nI Brasilien var den sittande vänsterpresidenten Lula da Silva nästan uträknad. I den första valomgången kom han efter högerpopulisten Flávio Bolsonaro, vars pappa avtjänar ett 27 år långt fängelsestraff för en planerad statskupp. Ingen har tidigare gått från förlust i den första omgången i det brasilianska presidentvalet till att vinna i den sista och avgörande.\nÄndå lyckades Lula, på bara tre veckor, vinna ytterligare 10 miljoner röster och slå Bolsonaro med dubbelt så stor marginal som när han 2022 besegrade pappan, Jair Bolsonaro. Det är än mer imponerande givet att de amerikanska it-jättarna tycks ha skjuvat den digitala spelplanen till Bolsonaros fördel och att konservativa borgmästare i stora brasilianska städer på valdagen stängde ner kollektivtrafik , till synes för att försvåra för icke bilburna att ta sig till vallokalerna.\nLula har också nått ut till nya väljargrupper, och vann bland annat i traditionellt högerlutande storstäder som Sao Paolo och Rio de Janeiro. En nyckelfaktor verkar ha varit mobilisering. Valdeltagandet var, till skillnad från hur det alltid brukar vara, högre i den andra omgången än i den första.\nI Serbien har Aleksandar Vučić och hans SNS (Serbiska framstegspartiet) suttit vid makten i 12 år, och under den tiden monterat ner centrala delar av den serbiska demokratin. Likt Viktor Orbán i Ungern kontrollerar Vučić nästan alla landets medier, som under valrörelsen enbart givit plats åt regeringspositiva röster. Ändå blev han alltså, precis som Orbán, nu bortröstad efter flera år av stora folkliga protester mot främst utbredd korruption.\nEfter att Vučić på söndagskvällen erkände sig besegrad – med större respekt för demokratin än Bolsonaro som hävdar att valet där han förlorade bör ogiltigförklaras – togs gatorna i Belgrad över av jublande folkmassor.\nVad den segrande Studentlistan nu vill göra är dock mer oklart, bortom krav på att stärka rättsstaten och mediefriheten och bekämpa korruptionen. Det är å andra sidan en bra början för att vrida Serbien i rätt riktning.\nKanske är det för tidigt att tala om trendbrott i kampen mot den globala radikalhögern. Men det viktiga är insikten att det går att vinna. Monstren må komma tillbaka, men de kan faktiskt också besegras.\nIsobel Hadley-Kamptz: Monstren kommer alltid tillbaka\nIsobel Hadley-Kamptz: Trump har alltid velat att Ryssland ska vinna\nDN:s ledarredaktion: Ett kommunalråd i Sveriges näst största stad avgår efter hot – borde skapa ramaskri\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nHenrik Brandão Jönsson: Högernationalisterna föll på eget grepp\nIsobel Hadley-Kamptz: Monstren kommer alltid tillbaka\nLedare: Ett kommunalråd i Sveriges näst största stad avgår efter hot – borde skapa ramaskri",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-10-27T06:06:10.729477+00:00"
     }
   ]
 }
