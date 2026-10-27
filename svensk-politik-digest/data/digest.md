@@ -1,49 +1,44 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-27
 
-8 nya poster sedan förra utskicket (35 redan utskickade, 155 utanför ämnet).
-
-## Analys och kommentar
-
-### [Bolsonaros parti erkänner valresultatet](https://www.svd.se/a/El14rl/bolsonaros-parti-erkanner-resultatet)
-SvD Ledare · 2026-10-27 · TT-AFP
-
-Högerkandidaten Flávio Bolsonaros parti PL erkänner resultatet i Brasiliens presidentval, trots att…
-
-### [Saudiarabien: Skjutit ned robotar](https://www.svd.se/a/1olP9l/saudiarabien-skjutit-ned-robotar)
-SvD Ledare · 2026-10-27 · TT-AFP _(betalvägg — endast ingress)_
-
-Den saudiledda koalitionen, som strider mot Huthirörelsen, uppger under tisdagen att den skjutit ned…
-
-### [Isobel Hadley-Kamptz: I verkligheten kan monstren besegras](https://www.dn.se/ledare/isobel-hadley-kamptz-i-verkligheten-kan-monstren-besegras)
-DN Ledare · 2026-10-26 · Isobel Hadley-Kamptz
-
-Kanske är det för tidigt att tala om ett trendbrott i kampen mot den globala radikalhögern. Men, som valresultaten i både Serbien och Brasilien visar, så går den att besegra.
+7 nya poster sedan förra utskicket (38 redan utskickade, 154 utanför ämnet).
 
 ## Rapportering
 
-### [Israel går till val: ”Sämsta läget på länge”](https://www.sverigesradio.se/artikel/9328959)
+### [Finansministern: Då kommer övergångsbudgeten](https://www.sverigesradio.se/artikel/9329304)
 Ekot, Sveriges Radio · 2026-10-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Kritiker vill se ett regeringsskifte som de menar skulle stärka rättsväsendet och demokratin. Matematikern Idan från Tel Aviv, är en av de som vill se ett regeringsskifte, han säger att ”Israel befinner sig i sitt sämsta läge på länge”. Samtidigt har premiärminister Benjamin Netanyahu starkt stöd bland väljare som tycker att han gör ett bra jobb och vill att han ska sitta kvar.
+Regeringsförhandlingarna drar ut på tiden och finansminister Elisabeth Svantesson (M) kommer att lägga fram en opolitisk övergångsbudget. Den ska i princip vara en kopia av den senaste budgeten, det vill säga att myndigheterna får lika mycket pengar att jobba med som nu, men med vissa undantag för samhällsviktiga funktioner. Övergångsbudgeten som gäller för år 2027, oavsett om det skulle bildas en ny regering snart. Budgeten kommer läggas fram senast 12 november.
 
-### [Bolsonaros parti accepterar nu valresultatet](https://www.sverigesradio.se/artikel/9328962)
+### [”Röda linjer” vid regeringsbildningar nytt i svensk politik](https://www.sverigesradio.se/artikel/9329217)
 Ekot, Sveriges Radio · 2026-10-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-I Brasilien så har Flavio Bolsonaros parti som förlorade valet nu officiellt accepterat resultatet, trots att Bolsonaro initialt inte ville erkänna sig besegrad. Men i ett uttalande skriver partiet också att de farhågor som lyfts måste hanteras.
+Både Magdalena Andersson (S) och Elisabeth Thand Ringqvist (C) har gett upp försöken att bilda regering och sagt att partiernas låsningar står i vägen. De så kallade röda linjerna i regeringsförhandlingar är relativt nya i svensk politik, säger statsvetarprofessor Tommy Möller. Ett klassiskt exempel på en röd linje som luckrades upp inför de politiska realiteterna var när Centerpartiet i valrörelsen 1976 lovade att stoppa kärnkraften, men fick delvis ändra linje efter valet.
 
-### [Aktivisten: ”Vi har svårt att tro att det är sant”](https://www.sverigesradio.se/artikel/9328852)
-Ekot, Sveriges Radio · 2026-10-26 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Kristersson om Putin-samtalet: Ryssland är inte ute efter fred](https://www.sverigesradio.se/artikel/9329099)
+Ekot, Sveriges Radio · 2026-10-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-”Himlen ser annorlunda ut idag jämfört med i går och vi har svårt att tro att det är sant”, säger Hadzi Nenad Maricic, medlem i den serbiska aktivistgruppen Kreni Promeni till Ekot, om Studentlistans valseger. Att Studentlistan vann valet och att Vucic har erkänt sig besegrad, har överraskat många och Hadzi Nenad Maricic säger att valresultatet är en seger för demokratin och att landet går en ny tid till mötes. Härnäst måste den ledarlösa organisationen Studentlistan utse en ledare.
+Norges statsminister Jonas Gahr Støre och Finlands president Alexander Stubb har pratat med Rysslands president Vladimir Putin, om kriget i Ukraina och kommande fredsförhandlingar. ”Tittar vi på vad det är som Ryssland nu gör på marken varje dag så tycker jag inte att det finns någonting som antyder att det är fred de är ute efter”, säger statsminister Ulf Kristersson (M) om samtalet. Danmarks statsminister Mette Fredriksen säger till danska TV2 att hon är ”mycket skeptisk till det norska och finska initiativet”.
 
-### [Martin Ådahl (C): Vi försöker verkligen vara konstruktiva](https://www.sverigesradio.se/artikel/9328849)
-Ekot, Sveriges Radio · 2026-10-26 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Storstäderna får rödgröna styren – ”Behöver inte ge Magdalena Andersson några råd”](https://www.dn.se/sverige/storstaderna-far-rodgrona-styren-behover-inte-ge-magdalena-andersson-nagra-rad)
+DN Nyheter · 2026-10-27 · Lars Näslund
 
-Martin Ådahl, ekonomiskpolitisk talesperson för Centerpartiet, bemöter i Studio Ett reaktionerna om att C borde släppa taget om idén om en mittenregering, efter Elisabeth Thand Ringqvists sonderingsuppdrag misslyckats. Enligt Ådahl är det inte aktuellt för Centerpartiet att släppa sina röda linjer mot V och SD. ”Där finns inte den här sakgemenskapen på samma sätt”, säger han.
+Malmö höjer skatten men Göteborg och Stockholm ligger still. Samtidigt får stockholmarna behålla tre kronor mer per hundring jämfört med de andra. En sak är dock gemensam: Medan de har svårt att komma överens om regeringsmakten står det klart att S, V och MP ska styra landets tre största städer.
 
-### [Tomas Ramberg: Nu har både C och V tröttnat på Andersson](https://www.dn.se/sverige/tomas-ramberg-nu-har-bade-c-och-v-trottnat-pa-andersson) **[kommentator]**
-DN Nyheter · 2026-10-26 · Tomas Ramberg
+## Officiella besked
 
-Centern spelar ett högt spel i regeringsfrågan. Trots att de andra partierna återigen släckt Elisabeth Thand Ringqvists hopp om en mittenregering trappar Centerledaren upp striden mot Vänsterpartiet. Socialdemokraterna kan inte längre hoppas att V och C självmant ska backa från sina krav.
+### [Nordisk statsministerdeklaration om ungdomar och sociala medier](https://www.regeringen.se/rattsliga-dokument/sveriges-internationella-overenskommelser/2026/10/nordisk-statsministerdeklaration-om-ungdomar-och-sociala-medier)
+Regeringen.se · 2026-10-27 · Regeringskansliet
 
-_Genererat 2026-10-27T06:06:10.729477+00:00._
+Tisdagen den 27 oktober undertecknade de nordiska ledarna en avsiktsförklaring, Marienborgmanifestet, om att säkerställa att barn och unga inte far illa kopplat till sociala medier och digitala plattformar. Avsiktsförklaringen signerades i samband med att de nordiska statsministrarna och regeringsledarna träffades inom ramen för Nordiska ministerrådet i Helsingfors.
+
+### [Principer för en övergångsbudget](https://www.regeringen.se/pressmeddelanden/2026/10/principer-for-en-overgangsbudget)
+Regeringen.se · 2026-10-27 · Regeringskansliet
+
+Budgetpropositionen för 2027 ska överlämnas till riksdagen senast den 12 november. Om en ny regering inte har tillträtt då kommer övergångsregeringen att överlämna en så kallad övergångsbudget. Utformningen av en övergångsbudget följer ett antal vägledande principer.
+
+### [Finansminister Elisabeth Svantesson presenterar principerna för en övergångsbudget](https://www.regeringen.se/pressmeddelanden/2026/10/finansminister-elisabeth-svantesson-presenterar-principerna-for-en-overgangsbudget)
+Regeringen.se · 2026-10-27 · Regeringskansliet
+
+I dag, tisdag den 27 oktober kl. 11.00, bjuder finansminister Elisabeth Svantesson in till pressträff för att informera om de principer som övergångsregeringen kommer att utgå ifrån vid en övergångsbudget.
+
+_Genererat 2026-10-27T14:42:43.108852+00:00._

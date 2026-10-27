@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-27T06:06:10.729477+00:00",
-  "new_count": 8,
+  "fetched_at": "2026-10-27T14:42:43.108852+00:00",
+  "new_count": 7,
   "skipped": {
-    "seen": 35,
-    "offtopic": 155,
-    "old": 12
+    "seen": 38,
+    "offtopic": 154,
+    "old": 11
   },
-  "fetch_errors": 4,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 4,
+      "new": 3,
       "ok": true
     },
     {
@@ -29,13 +29,13 @@
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
@@ -65,143 +65,125 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/El14rl/bolsonaros-parti-erkanner-resultatet",
-      "title": "Bolsonaros parti erkänner valresultatet",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.regeringen.se/rattsliga-dokument/sveriges-internationella-overenskommelser/2026/10/nordisk-statsministerdeklaration-om-ungdomar-och-sociala-medier",
+      "title": "Nordisk statsministerdeklaration om ungdomar och sociala medier",
+      "source": "Regeringen.se",
+      "kind": "officiell",
       "published": "2026-10-27",
-      "author": "TT-AFP",
+      "author": "Regeringskansliet",
       "commentator": "",
-      "summary": "Högerkandidaten Flávio Bolsonaros parti PL erkänner resultatet i Brasiliens presidentval, trots att…",
-      "fulltext": "Högerkandidaten Flávio Bolsonaros parti PL erkänner resultatet i Brasiliens presidentval, trots att Bolsonaro tidigare själv sagt att han vill att valet ska ogiltigförklaras.\n”Vi erkänner presidentvalets resultat . . . men vi tycker att de frågor som lyfts måste tas itu med”, uppger partiet i ett uttalande.\nBolsonaro, son till fängslade expresidenten Jair Bolsonaro, har kritiserat att vallokalernas öppettider förlängdes under söndagskvällen. Han begärde själv att det skulle ske på vissa håll, men har kallat förlängningen för ”oacceptabel”.\nUnder måndagskvällen sade Bolsonaro dock att han kommer att leda oppositionen mot Lula.\nVänsterpresidenten Lula da Silva vann söndagens andra omgång i presidentvalet med 51,8 procent av rösterna. Det innebär runt 4,4 miljoner fler röster till Lula, som under tisdagen fyller 81 år. Han har därmed säkrat sin fjärde mandatperiod som president i landet.",
+      "summary": "Tisdagen den 27 oktober undertecknade de nordiska ledarna en avsiktsförklaring, Marienborgmanifestet, om att säkerställa att barn och unga inte far illa kopplat till sociala medier och digitala plattformar. Avsiktsförklaringen signerades i samband med att de nordiska statsministrarna och regeringsledarna träffades inom ramen för Nordiska ministerrådet i Helsingfors.",
+      "fulltext": "Tisdagen den 27 oktober undertecknade de nordiska ledarna en avsiktsförklaring, Marienborgmanifestet, om att säkerställa att barn och unga inte far illa kopplat till sociala medier och digitala plattformar. Avsiktsförklaringen signerades i samband med att de nordiska statsministrarna och regeringsledarna träffades inom ramen för Nordiska ministerrådet i Helsingfors.\nSidan är uppmärkt med följande kategorier:",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "valresultat"
+        "statsminister"
       ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
     },
     {
-      "url": "https://www.svd.se/a/1olP9l/saudiarabien-skjutit-ned-robotar",
-      "title": "Saudiarabien: Skjutit ned robotar",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/principer-for-en-overgangsbudget",
+      "title": "Principer för en övergångsbudget",
+      "source": "Regeringen.se",
+      "kind": "officiell",
       "published": "2026-10-27",
-      "author": "TT-AFP",
+      "author": "Regeringskansliet",
       "commentator": "",
-      "summary": "Den saudiledda koalitionen, som strider mot Huthirörelsen, uppger under tisdagen att den skjutit ned…",
-      "fulltext": "Den saudiledda koalitionen, som strider mot Huthirörelsen, uppger under tisdagen att den skjutit ned tre ballistiska robotar som huthierna avfyrat mot Saudiarabiens östra delar.\nHuthirörelsens styrkor kontrollerar en stor del av Jemen och har stöd från Iran. Den har trappat upp attacker mot Saudiarabien under de senaste veckorna.",
-      "paywall": true,
+      "summary": "Budgetpropositionen för 2027 ska överlämnas till riksdagen senast den 12 november. Om en ny regering inte har tillträtt då kommer övergångsregeringen att överlämna en så kallad övergångsbudget. Utformningen av en övergångsbudget följer ett antal vägledande principer.",
+      "fulltext": "Budgetpropositionen för 2027 ska överlämnas till riksdagen senast den 12 november. Om en ny regering inte har tillträtt då kommer övergångsregeringen att överlämna en så kallad övergångsbudget. Utformningen av en övergångsbudget följer ett antal vägledande principer.\nEn övergångsregering hanterar främst brådskande och löpande regeringsärenden och ska säkerställa att staten fungerar. Sverige ska ha en statsbudget, oavsett politisk situation. I regeringsformen, riksdagsordningen och budgetlagen finns bestämmelser om budgetpropositionen och dess innehåll. Bestämmelserna är också tillämpliga när en övergångsregering överlämnar en budgetproposition.\nNär en övergångsregering ska lämna en budgetproposition bör den utformas med utgångspunkt i den senaste beslutade budgetpropositionen. Huvudprincipen för arbetet med en eventuell övergångsbudget är därför att 2026 års anslagsnivå i budgeten för 2026 ska gälla också för budgeten för 2027.\nFöljande undantag görs från denna huvudprincip:\nPrinciperna är avstämda med samtliga riksdagspartier. De utgår från vad som följer av regeringsformen samt Statsrådsberedningens PM om en övergångsregerings befogenheter (SB PM 1990:1, rev 2020). Principerna har även tagit sin utgångspunkt i de principer som användes även vid övergångsbudgeten för 2019.\nPrinciperna utgår också från det faktum att en övergångsbudget gäller till och med att en ny regering tillträtt och riksdagen beslutat om en ny regerings ändringsbudget. Utgångspunkten är alltså att en övergångsbudget kommer att ändras så snart det är möjligt.\nSidan är uppmärkt med följande kategorier\nPublicerad 27 oktober 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 27 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 25 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 14 augusti 2026 · Kommittédirektiv , Rättsliga dokument från Finansdepartementet , Regeringen",
+      "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "koalition"
+        "övergångsregering"
       ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9328959",
-      "title": "Israel går till val: ”Sämsta läget på länge”",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/finansminister-elisabeth-svantesson-presenterar-principerna-for-en-overgangsbudget",
+      "title": "Finansminister Elisabeth Svantesson presenterar principerna för en övergångsbudget",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-10-27",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "I dag, tisdag den 27 oktober kl. 11.00, bjuder finansminister Elisabeth Svantesson in till pressträff för att informera om de principer som övergångsregeringen kommer att utgå ifrån vid en övergångsbudget.",
+      "fulltext": "I dag, tisdag den 27 oktober kl. 11.00, bjuder finansminister Elisabeth Svantesson in till pressträff för att informera om de principer som övergångsregeringen kommer att utgå ifrån vid en övergångsbudget.\nTid: 27 oktober 2026 kl. 11.00 Plats: Föranmälda journalister kan delta på plats i regeringens pressrum Rosenbad, ingång Drottninggatan 1. Praktisk information: Obligatorisk föranmälan senast den 27 oktober kl. 10.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering från kl. 10.30. Deltagande sker i mån av plats.\nPraktisk information: Obligatorisk föranmälan senast den 27 oktober kl. 10.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering från kl. 10.30. Deltagande sker i mån av plats.\nAnmälan till pressträff den 27 oktober - extern webbplats,\nDu kan följa sändningen direkt eller se den i efterhand på regeringen.se eller på Regeringskansliets Youtubekanal.\nSidan är uppmärkt med följande kategorier\nPublicerad 27 oktober 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 27 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 25 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 14 augusti 2026 · Kommittédirektiv , Rättsliga dokument från Finansdepartementet , Regeringen",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "övergångsregering"
+      ],
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9329304",
+      "title": "Finansministern: Då kommer övergångsbudgeten",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-27",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Kritiker vill se ett regeringsskifte som de menar skulle stärka rättsväsendet och demokratin. Matematikern Idan från Tel Aviv, är en av de som vill se ett regeringsskifte, han säger att ”Israel befinner sig i sitt sämsta läge på länge”. Samtidigt har premiärminister Benjamin Netanyahu starkt stöd bland väljare som tycker att han gör ett bra jobb och vill att han ska sitta kvar.",
+      "summary": "Regeringsförhandlingarna drar ut på tiden och finansminister Elisabeth Svantesson (M) kommer att lägga fram en opolitisk övergångsbudget. Den ska i princip vara en kopia av den senaste budgeten, det vill säga att myndigheterna får lika mycket pengar att jobba med som nu, men med vissa undantag för samhällsviktiga funktioner. Övergångsbudgeten som gäller för år 2027, oavsett om det skulle bildas en ny regering snart. Budgeten kommer läggas fram senast 12 november.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328959'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9329304'",
       "matched_terms": [
-        "regeringsskifte"
+        "regeringsförhandling"
       ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9328962",
-      "title": "Bolsonaros parti accepterar nu valresultatet",
+      "url": "https://www.sverigesradio.se/artikel/9329217",
+      "title": "”Röda linjer” vid regeringsbildningar nytt i svensk politik",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-27",
       "author": "Ekot",
       "commentator": "",
-      "summary": "I Brasilien så har Flavio Bolsonaros parti som förlorade valet nu officiellt accepterat resultatet, trots att Bolsonaro initialt inte ville erkänna sig besegrad. Men i ett uttalande skriver partiet också att de farhågor som lyfts måste hanteras.",
+      "summary": "Både Magdalena Andersson (S) och Elisabeth Thand Ringqvist (C) har gett upp försöken att bilda regering och sagt att partiernas låsningar står i vägen. De så kallade röda linjerna i regeringsförhandlingar är relativt nya i svensk politik, säger statsvetarprofessor Tommy Möller. Ett klassiskt exempel på en röd linje som luckrades upp inför de politiska realiteterna var när Centerpartiet i valrörelsen 1976 lovade att stoppa kärnkraften, men fick delvis ändra linje efter valet.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328962'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329217'",
       "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9328852",
-      "title": "Aktivisten: ”Vi har svårt att tro att det är sant”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-26",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "”Himlen ser annorlunda ut idag jämfört med i går och vi har svårt att tro att det är sant”, säger Hadzi Nenad Maricic, medlem i den serbiska aktivistgruppen Kreni Promeni till Ekot, om Studentlistans valseger. Att Studentlistan vann valet och att Vucic har erkänt sig besegrad, har överraskat många och Hadzi Nenad Maricic säger att valresultatet är en seger för demokratin och att landet går en ny tid till mötes. Härnäst måste den ledarlösa organisationen Studentlistan utse en ledare.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9328852'",
-      "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9328849",
-      "title": "Martin Ådahl (C): Vi försöker verkligen vara konstruktiva",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-26",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Martin Ådahl, ekonomiskpolitisk talesperson för Centerpartiet, bemöter i Studio Ett reaktionerna om att C borde släppa taget om idén om en mittenregering, efter Elisabeth Thand Ringqvists sonderingsuppdrag misslyckats. Enligt Ådahl är det inte aktuellt för Centerpartiet att släppa sina röda linjer mot V och SD. ”Där finns inte den här sakgemenskapen på samma sätt”, säger han.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9328849'",
-      "matched_terms": [
-        "sondering",
+        "regeringsbildning",
+        "regeringsförhandling",
         "Centerpartiet"
       ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-nu-har-bade-c-och-v-trottnat-pa-andersson",
-      "title": "Tomas Ramberg: Nu har både C och V tröttnat på Andersson",
+      "url": "https://www.sverigesradio.se/artikel/9329099",
+      "title": "Kristersson om Putin-samtalet: Ryssland är inte ute efter fred",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Norges statsminister Jonas Gahr Støre och Finlands president Alexander Stubb har pratat med Rysslands president Vladimir Putin, om kriget i Ukraina och kommande fredsförhandlingar. ”Tittar vi på vad det är som Ryssland nu gör på marken varje dag så tycker jag inte att det finns någonting som antyder att det är fred de är ute efter”, säger statsminister Ulf Kristersson (M) om samtalet. Danmarks statsminister Mette Fredriksen säger till danska TV2 att hon är ”mycket skeptisk till det norska och finska initiativet”.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329099'",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/storstaderna-far-rodgrona-styren-behover-inte-ge-magdalena-andersson-nagra-rad",
+      "title": "Storstäderna får rödgröna styren – ”Behöver inte ge Magdalena Andersson några råd”",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-10-26",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Centern spelar ett högt spel i regeringsfrågan. Trots att de andra partierna återigen släckt Elisabeth Thand Ringqvists hopp om en mittenregering trappar Centerledaren upp striden mot Vänsterpartiet. Socialdemokraterna kan inte längre hoppas att V och C självmant ska backa från sina krav.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-27 07:06\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-nu-har-bade-c-och-v-trottnat-pa-andersson/\nCentern spelar ett högt spel i regeringsfrågan. Trots att de andra partierna återigen släckt Elisabeth Thand Ringqvists hopp om en mittenregering trappar Centerledaren upp striden mot Vänsterpartiet.\nSocialdemokraterna kan inte längre hoppas att V och C självmant ska backa från sina krav.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
-    },
-    {
-      "url": "https://www.dn.se/ledare/isobel-hadley-kamptz-i-verkligheten-kan-monstren-besegras",
-      "title": "Isobel Hadley-Kamptz: I verkligheten kan monstren besegras",
-      "source": "DN Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-26",
-      "author": "Isobel Hadley-Kamptz",
+      "published": "2026-10-27",
+      "author": "Lars Näslund",
       "commentator": "",
-      "summary": "Kanske är det för tidigt att tala om ett trendbrott i kampen mot den globala radikalhögern. Men, som valresultaten i både Serbien och Brasilien visar, så går den att besegra.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-27 07:05\nArtikelns ursprungsadress: https://www.dn.se/ledare/isobel-hadley-kamptz-i-verkligheten-kan-monstren-besegras/\nKanske är det för tidigt att tala om ett trendbrott i kampen mot den globala radikalhögern. Men, som valresultaten i både Serbien och Brasilien visar, så går den att besegra.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFör några dagar sedan skrev jag om hur världspolitiken blivit en skräckfilm , där monstren alltid verkar komma tillbaka. Den här gången hade jag dock fel.\nFör i både Brasilien och Serbien stod en majoritet av väljarna i helgen upp för demokratin och valde bort den auktoritära nyhöger vars maktinnehav så ofta ses som närmast ödesbestämt.\nI Brasilien var den sittande vänsterpresidenten Lula da Silva nästan uträknad. I den första valomgången kom han efter högerpopulisten Flávio Bolsonaro, vars pappa avtjänar ett 27 år långt fängelsestraff för en planerad statskupp. Ingen har tidigare gått från förlust i den första omgången i det brasilianska presidentvalet till att vinna i den sista och avgörande.\nÄndå lyckades Lula, på bara tre veckor, vinna ytterligare 10 miljoner röster och slå Bolsonaro med dubbelt så stor marginal som när han 2022 besegrade pappan, Jair Bolsonaro. Det är än mer imponerande givet att de amerikanska it-jättarna tycks ha skjuvat den digitala spelplanen till Bolsonaros fördel och att konservativa borgmästare i stora brasilianska städer på valdagen stängde ner kollektivtrafik , till synes för att försvåra för icke bilburna att ta sig till vallokalerna.\nLula har också nått ut till nya väljargrupper, och vann bland annat i traditionellt högerlutande storstäder som Sao Paolo och Rio de Janeiro. En nyckelfaktor verkar ha varit mobilisering. Valdeltagandet var, till skillnad från hur det alltid brukar vara, högre i den andra omgången än i den första.\nI Serbien har Aleksandar Vučić och hans SNS (Serbiska framstegspartiet) suttit vid makten i 12 år, och under den tiden monterat ner centrala delar av den serbiska demokratin. Likt Viktor Orbán i Ungern kontrollerar Vučić nästan alla landets medier, som under valrörelsen enbart givit plats åt regeringspositiva röster. Ändå blev han alltså, precis som Orbán, nu bortröstad efter flera år av stora folkliga protester mot främst utbredd korruption.\nEfter att Vučić på söndagskvällen erkände sig besegrad – med större respekt för demokratin än Bolsonaro som hävdar att valet där han förlorade bör ogiltigförklaras – togs gatorna i Belgrad över av jublande folkmassor.\nVad den segrande Studentlistan nu vill göra är dock mer oklart, bortom krav på att stärka rättsstaten och mediefriheten och bekämpa korruptionen. Det är å andra sidan en bra början för att vrida Serbien i rätt riktning.\nKanske är det för tidigt att tala om trendbrott i kampen mot den globala radikalhögern. Men det viktiga är insikten att det går att vinna. Monstren må komma tillbaka, men de kan faktiskt också besegras.\nIsobel Hadley-Kamptz: Monstren kommer alltid tillbaka\nIsobel Hadley-Kamptz: Trump har alltid velat att Ryssland ska vinna\nDN:s ledarredaktion: Ett kommunalråd i Sveriges näst största stad avgår efter hot – borde skapa ramaskri\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nHenrik Brandão Jönsson: Högernationalisterna föll på eget grepp\nIsobel Hadley-Kamptz: Monstren kommer alltid tillbaka\nLedare: Ett kommunalråd i Sveriges näst största stad avgår efter hot – borde skapa ramaskri",
+      "summary": "Malmö höjer skatten men Göteborg och Stockholm ligger still. Samtidigt får stockholmarna behålla tre kronor mer per hundring jämfört med de andra. En sak är dock gemensam: Medan de har svårt att komma överens om regeringsmakten står det klart att S, V och MP ska styra landets tre största städer.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-27 15:41\nArtikelns ursprungsadress: https://www.dn.se/sverige/storstaderna-far-rodgrona-styren-behover-inte-ge-magdalena-andersson-nagra-rad/\nMalmö höjer skatten men Göteborg och Stockholm ligger still. Samtidigt får stockholmarna behålla tre kronor mer per hundring jämfört med de andra.\nEn sak är dock gemensam: Medan de har svårt att komma överens om regeringsmakten står det klart att S, V och MP ska styra landets tre största städer.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRegnet strilade på tisdagsförmiddagen ner över Göteborg och Gustav Adolfs torg.\nDet var en för rikets andra stad ungefär lika lite överraskande nyhet som det besked som lämnades inne i Börshuset, med Socialdemokraternas gruppledare Jonas Attenius i centrum för det nya politiska styrets presskonferens.\nTrots att det redan på valnatten stod klart att Socialdemokraterna, Vänsterpartiet och Miljöpartiet nu samlat egen majoritet, 43 av de 81 mandaten i i fullmäktige, tog det ändå 44 dagar att lägga hela Göteborgspusslet.\nFörutom att fem nya kommunalråd skulle skakas fram och och lotsas in, lämnades också en fråga öppen:\nHur det ska bli med Centerpartiet den här gången.\nUnder den nyss avslutade mandatperioden styrde de rödgröna Göteborg i minoritet med hjälp av så kallad valteknisk samverkan med Centern.\nC gick då med på att enbart rösta på sin egen budget – och därmed släppa fram den från S-V-MP – mot att skatten inte höjdes, och partiet fick platser i kommunstyrelsen och i vissa nämnder.\nNu, efter valet, behövs alltså Centern inte för egen rödgrön majoritet. Men mycket talar ändå för att, primärt S och Jonas Attenius, söker ett förnyat avtal med C – för att säkra långsiktigt goda relationer, lokalt och på riksplanet.\nCentern når för egen kraft inte upp till en plats i kommunstyrelsen.\n– Vi kommer fortsätta att sträva efter att ha ett bra samarbete med C, det pågår diskussioner, svarade Attenius på DN:s fråga och sa att han återkommer nästa vecka om eventuell ”valteknisk samverkan”.\nTrots att Vänsterpartiet i många år tryckt på för höjd skatt i Göteborg kommer den även 2027 att vara oförändrat, 21,12 kronor. Det är också väl känt att S-ledningen velat undvika en höjning trots att förvaltningen pekar på stora utmaningar framåt och en snabbt ökande låneskuld.\nMen det är också i den frågan som Centern länge varit tydlig med, att de inte kan tänka sig stötta en höjning.\nBeskedet på tisdagen om att S, V och MP bildar styre och har fördelat uppgifter innebär alltså att Göteborg inte rör skatten. Det gör inte det nya S-V-MP-styret i Stockholm heller – efter två höjningar under senaste mandatperioden.\nNär Vänsterpartiet tas in i värmen i Malmö och bildar styre med S och MP höjs dock skatten där, med 30 öre. Det var främst V:s krav efter förra valet om en höjning då som de kom att hållas utanför.\nMen: I Göteborg påpekar Jonas Attenius att beskedet om att inte röra skatten enbart gäller 2027.\nHan är väl medveten om vad den egna förvaltningen skriver i en färsk delårsrapport: ”Den demografiska utvecklingen försämrar samtidigt kommunens långsiktiga finansieringsmöjligheter. Sammantaget ökar detta behov av långsiktiga vägval för att upprätthålla en god ekonomisk hushållning.”\nUnder presentationen av det nya styret gick de tre partierna ut med var sitt specifikt löfte:\nx S: Ett maxtak på fyra barn per pedagog i förskolan ska genomföras under mandatperioden.\nx V: Privata företagsalternativ i hemtjänsten ska avskaffas, den så kallade LOV:en.\n– Vi ska ta tillbaka den demokratiska kontrollen, som V:s nya ledare Marie Brynolfsson uttryckte saken.\nx MP: Parkeringsplatserna ska bort från Kungstorget i centrala Göteborg.\n– Saluhallens försäljare kan flytta ut, vi kan ha kulturevent där, uteserveringar och lokala odlare få plats, sa MP:s nya gruppledare Klara Holmin.\nAtt samtliga tre storstäder nu ska syras av S, V och MP säger Jonas Attenius ”givetvis spelar roll”.\n– Städerna samarbetar ju en hel del, vi kan lättare genomföra gemensam politik. Men det betyder inte att vi har planerat något gemensamt, säger han till DN.\nDet är 44 dagar sedan valet och ni nådde egen majoritet redan på valnatten. Har det varit svårt att ändå komma överens?\n– För mig har det varit viktigt att investera tid i att lösa ut de övergripande konfliktfrågorna. Andra styren kan ha frågor kvar att hantera.\nAttenius säger att de inte enbart snackat ihop sig om budgeten för nästa år.\n– Vi har tittat på hela mandatperioden och har ett samverkansavtal, det har varit viktigt för mig och för oss. det har också handlat om många poster som ska tillsättas och ansvarområden som ska fördelas. Det tar sin tid.\nHar du något råd till Magdalena Andersson? Ta in Vänsterpartiet eller hålla dem borta i regeringsfrågan?\n– Haha... nej, jag ger inte henne några råd.\nI Stockholms stad är skattesatsen nästa år 18,22 kronor.\nKommunfullmäktige i Göteborg har 81 ledamöter. Så här fördelas mandaten efter valet 13 september (förändringen mot valet 2022 inom parentes):\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nNya Malmöstyret klart – Vänsterpartiet åter i värmen\nVallöften får vänta i budgeten – kronprinsessans firande säkrat\nTomas Ramberg: Nu har både C och V tröttnat på Andersson",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "valresultat"
+        "regeringsmakt"
       ],
-      "first_seen": "2026-10-27T06:06:10.729477+00:00"
+      "first_seen": "2026-10-27T14:42:43.108852+00:00"
     }
   ]
 }
