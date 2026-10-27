@@ -1,6 +1,15 @@
 # Arbetsutkast: Marknadspulsen v2, med data först
 
-Status: **i drift på main sedan 2026-09-24.** Rutinen `trig_01TkoGSFWagxXtcuG6x5EbtH` kör v2-prompten (se `rutin_prompt_utkast.md`). Den gamla rutinen (`trig_01TkoGSFWagxXtcuG6x5EbtH`) kör vidare oförändrad. Den ordagranna kopian ligger i [`original/`](original/rutin_fx_rantor_backup_2026-09-23.md).
+Status: **i drift på main sedan 2026-09-24.** Rutinen `trig_01JfhbGz51QENm6vawia7qXC` kör prompten i `rutin_prompt_utkast.md`. Den gamla FX- och ränterutinen (`trig_01TkoGSFWagxXtcuG6x5EbtH`) är pausad. Den ordagranna kopian av den ligger i [`original/`](original/rutin_fx_rantor_backup_2026-09-23.md).
+
+## v3: OMXS30-bolagen och tradingläge (gren `claude/sweet-rubin-xgvqi3`)
+
+Två nya avsnitt i dagsutskicket, räknade i `aktier.py` och skrivna till `marknadspuls.json["aktier"]`:
+
+- **OMXS30-bolagen** (efter marknadstabellerna): indexet mot MA20/50/200, RSI, z60, normal veckorörelse, bredd, och dagens och veckans största rörelser.
+- **Tradingläge — högst en vecka** (sist): kandidater med kurs, fall mot index, prognosrevidering, stopp och relativ vikt; uttänjda bolag; bolag att undvika; rapporter och makrohändelser kommande 7 dagar; utfallet för kandidaterna från en vecka sedan; signalkontroll som visar om urvalet fungerar.
+
+Bolagslistan och vinstprognoserna läses från `vinstforvantningar/` så att breven utgår från samma bolag. Makrohändelserna fylls på för hand i `handelser.json`. Kandidaterna sparas i `data/kandidater_historik.csv` för uppföljningen. Prompten i `rutin_prompt_utkast.md` ligger på rutinen `trig_01JfhbGz51QENm6vawia7qXC`.
 
 ## Vad som ändras
 

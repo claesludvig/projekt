@@ -2,6 +2,7 @@
 """Marknadspulsen: hämtar index, räntor, valutor och råvaror från Yahoo Finance
 (yfinance), räknar förändring över 1d/2d/3d/1v/2v/1m, korrelation mellan
 utvalda tillgångspar och ritar ett linjediagram per par över senaste månaden.
+OMXS30-bolagen och tradingläget räknas i aktier.py.
 
 Allt som går in i mejlet räknas här — rutinen som skriver texten läser bara
 data/marknadspuls.json och hittar aldrig på egna siffror."""
@@ -320,6 +321,15 @@ def main() -> None:
         )
     rensa_gamla_grafer(idag)
 
+    print("Räknar OMXS30-bolagen och tradingläget")
+    try:
+        from aktier import berakna_aktier
+
+        aktier, aktier_fel = berakna_aktier(t_o_m)
+    except Exception as exc:  # noqa: BLE001 — bolagsavsnittet får aldrig fälla resten av brevet
+        aktier, aktier_fel = None, [f"OMXS30-bolagen: {exc}"]
+    fel += aktier_fel
+
     ut = {
         "genererad": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "data_t_o_m": t_o_m.isoformat(),
@@ -330,6 +340,7 @@ def main() -> None:
         "stängningar sker vid olika tidpunkter, vilket dämpar dagliga korrelationer något.",
         "tabell": tabell,
         "par": par_ut,
+        "aktier": aktier,
         "fel": fel,
     }
     DATA_DIR.mkdir(parents=True, exist_ok=True)

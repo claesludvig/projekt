@@ -1,0 +1,10 @@
+{
+  "_kommentar": "Makrohändelser som visas under 'Händelser kommande 7 dagar' i Marknadspulsen. Bolagsrapporter läses automatiskt ur vinstforvantningar/data/vinst.json. Fyll på för hand och kontrollera datumen mot centralbankernas egna kalendrar (riksbank.se, federalreserve.gov, ecb.europa.eu).",
+  "handelser": [
+    {"datum": "2026-10-28", "handelse": "Fed: räntebesked (FOMC)", "kalla": "Feds mötesschema 2026, kontrollera"},
+    {"datum": "2026-10-29", "handelse": "ECB: räntebesked", "kalla": "ECB:s mötesschema 2026, kontrollera"},
+    {"datum": "2026-11-04", "handelse": "Riksbanken: räntebesked", "kalla": "SEB Macro & FICC (väntad höjning till 2,00 %)"},
+    {"datum": "2026-12-09", "handelse": "Fed: räntebesked (FOMC)", "kalla": "Feds mötesschema 2026, kontrollera"},
+    {"datum": "2026-12-17", "handelse": "ECB: räntebesked", "kalla": "ECB:s mötesschema 2026, kontrollera"}
+  ]
+}
