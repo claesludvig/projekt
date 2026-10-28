@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-27T14:42:43.108852+00:00",
-  "new_count": 7,
+  "fetched_at": "2026-10-28T06:03:24.643065+00:00",
+  "new_count": 6,
   "skipped": {
-    "seen": 38,
-    "offtopic": 154,
-    "old": 11
+    "seen": 39,
+    "offtopic": 156,
+    "old": 9
   },
-  "fetch_errors": 3,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 4,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,125 +65,107 @@
   ],
   "articles": [
     {
-      "url": "https://www.regeringen.se/rattsliga-dokument/sveriges-internationella-overenskommelser/2026/10/nordisk-statsministerdeklaration-om-ungdomar-och-sociala-medier",
-      "title": "Nordisk statsministerdeklaration om ungdomar och sociala medier",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-10-27",
-      "author": "Regeringskansliet",
+      "url": "https://www.sverigesradio.se/artikel/9329674",
+      "title": "Jämnt mellan blocken i Israel – men Netanyahu firade i natt",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-28",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Tisdagen den 27 oktober undertecknade de nordiska ledarna en avsiktsförklaring, Marienborgmanifestet, om att säkerställa att barn och unga inte far illa kopplat till sociala medier och digitala plattformar. Avsiktsförklaringen signerades i samband med att de nordiska statsministrarna och regeringsledarna träffades inom ramen för Nordiska ministerrådet i Helsingfors.",
-      "fulltext": "Tisdagen den 27 oktober undertecknade de nordiska ledarna en avsiktsförklaring, Marienborgmanifestet, om att säkerställa att barn och unga inte far illa kopplat till sociala medier och digitala plattformar. Avsiktsförklaringen signerades i samband med att de nordiska statsministrarna och regeringsledarna träffades inom ramen för Nordiska ministerrådet i Helsingfors.\nSidan är uppmärkt med följande kategorier:",
+      "summary": "I Israel pekar de preliminära valresultaten på ett jämnt läge mellan regeringsblocket och oppositionen. Inget av blocken ser ut att få egen majoritet, men premiärminister Benjamin Netanyahu firade i natt att hans parti Likud ser ut att bli störst. ”Likud är Israels största parti”, sa Benjamin Netanyahu inför jublande anhängare. Det slutliga resultatet kan dröja flera dagar. Det officiella valresultatet ska publiceras 4 november.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329674'",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-10-28T06:03:24.643065+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9329664",
+      "title": "Explosioner har hörts över Riyadh",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Saudiarabien har skjutit ner flera ballistiska robotar som avfyrats från houthi-rebellerna i grannlandet Jemen. Explosioner har hörts över huvudstaden Riyadh. Samtidigt har houthirebellerna anklagat den saudiledda koalitionen för att ha dödat två personer utanför staden Taiz i Jemen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329664'",
+      "matched_terms": [
+        "koalition"
+      ],
+      "first_seen": "2026-10-28T06:03:24.643065+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/b80Wwk/expert-om-valet-i-israel-otydligt-resultat",
+      "title": "Expert om valet i Israel: ”Otydligt resultat”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-27",
+      "author": "Cornelia Mikaelsson/TT",
+      "commentator": "",
+      "summary": "Valresultatet i Israel ser ut att bli ”otydligt”, enligt Mellanösternexperten Anders Persson.",
+      "fulltext": "Anders Persson, statsvetare på Linnéuniversitetet med fokus på Israel-Palestinakonflikten. Foto: Johan Nilsson/TT\nValresultatet i Israel ser ut att bli ”otydligt”, enligt Mellanösternexperten Anders Persson.\nInget av de två blocken, som är för respektive emot sittande premiärminister Benjamin Netanyahu, får enligt vallokalsundersökningar egen majoritet i det israeliska parlamentet knesset.\n– De tre stora undersökningarna visar en samstämmig bild med ett litet övertag för oppositionen, men där Likud gör ett bättre valresultat än de sista opinionsundersökningarna, säger Anders Persson, Mellanösternexpert vid Linnéuniversitetet.\nHan tillägger att resultaten från vallokalsundersökningarna ska tolkas med stor försiktighet. Ett preliminärt resultat väntas först på onsdagen.\n– Man vet inte om något litet parti skulle komma in, men det är ju i det stora hela ett otydligt valresultat.\nEnligt de stora tv-kanalernas vallokalsundersökningar får Netanyahus block 50 mandat medan oppositionen, som leds av Gadi Eisenkots parti Yashar, får 52 mandat.\nFör att få majoritet i knesset, det israeliska parlamentet, krävs 61 mandat.\nI samma vallokalsundersökning ser de två arabiska partierna, Gemensamma listan och Ra'am, ut att kunna bli vågmästare med sammanlagt 18 mandat.\n– Endast ett parti i oppositionen har tydligt sagt innan valet att man kan tänka sig att samarbeta med dessa partier, säger Persson.\nDet som krånglar till det för oppositionen är att det inte ser ut att räcka endast med stöd från Ra'am.\nEnligt Persson är Ra'am, som ser ut att få sju mandat, det arabiska parti som historiskt haft den mest vänliga inställningen till oppositionen.\n– Men det är egentligen nu som diskussionerna på allvar börjar. Alla vet att det är en diskussion innan valet och en efter valet, säger han och understryker att han tror att oppositionen kommer göra sitt bästa för att undvika extra val.\n– Men jag tror inte att de är nöjda med 53 mandat. Även om vissa utropar seger så tror jag att de hade hoppats på ett bättre resultat.\nDessutom pekar det mesta på att Netanyahu gör ett bättre val än de sista oppositionsundersökningarna gjorde gällande.\n– Han gör ett ganska bra val givet förutsättningarna, och jag undrar av ren nyfikenhet vad hans valspurt beror på. Det kan vara en Trump-effekt, säger Persson med hänvisning till USA:s presidents tydliga ställningstagande för Netanyahu.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister"
+        "valresultat"
       ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
+      "first_seen": "2026-10-28T06:03:24.643065+00:00"
     },
     {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/principer-for-en-overgangsbudget",
-      "title": "Principer för en övergångsbudget",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-10-27",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "Budgetpropositionen för 2027 ska överlämnas till riksdagen senast den 12 november. Om en ny regering inte har tillträtt då kommer övergångsregeringen att överlämna en så kallad övergångsbudget. Utformningen av en övergångsbudget följer ett antal vägledande principer.",
-      "fulltext": "Budgetpropositionen för 2027 ska överlämnas till riksdagen senast den 12 november. Om en ny regering inte har tillträtt då kommer övergångsregeringen att överlämna en så kallad övergångsbudget. Utformningen av en övergångsbudget följer ett antal vägledande principer.\nEn övergångsregering hanterar främst brådskande och löpande regeringsärenden och ska säkerställa att staten fungerar. Sverige ska ha en statsbudget, oavsett politisk situation. I regeringsformen, riksdagsordningen och budgetlagen finns bestämmelser om budgetpropositionen och dess innehåll. Bestämmelserna är också tillämpliga när en övergångsregering överlämnar en budgetproposition.\nNär en övergångsregering ska lämna en budgetproposition bör den utformas med utgångspunkt i den senaste beslutade budgetpropositionen. Huvudprincipen för arbetet med en eventuell övergångsbudget är därför att 2026 års anslagsnivå i budgeten för 2026 ska gälla också för budgeten för 2027.\nFöljande undantag görs från denna huvudprincip:\nPrinciperna är avstämda med samtliga riksdagspartier. De utgår från vad som följer av regeringsformen samt Statsrådsberedningens PM om en övergångsregerings befogenheter (SB PM 1990:1, rev 2020). Principerna har även tagit sin utgångspunkt i de principer som användes även vid övergångsbudgeten för 2019.\nPrinciperna utgår också från det faktum att en övergångsbudget gäller till och med att en ny regering tillträtt och riksdagen beslutat om en ny regerings ändringsbudget. Utgångspunkten är alltså att en övergångsbudget kommer att ändras så snart det är möjligt.\nSidan är uppmärkt med följande kategorier\nPublicerad 27 oktober 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 27 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 25 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 14 augusti 2026 · Kommittédirektiv , Rättsliga dokument från Finansdepartementet , Regeringen",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "övergångsregering"
-      ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
-    },
-    {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/10/finansminister-elisabeth-svantesson-presenterar-principerna-for-en-overgangsbudget",
-      "title": "Finansminister Elisabeth Svantesson presenterar principerna för en övergångsbudget",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-10-27",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "I dag, tisdag den 27 oktober kl. 11.00, bjuder finansminister Elisabeth Svantesson in till pressträff för att informera om de principer som övergångsregeringen kommer att utgå ifrån vid en övergångsbudget.",
-      "fulltext": "I dag, tisdag den 27 oktober kl. 11.00, bjuder finansminister Elisabeth Svantesson in till pressträff för att informera om de principer som övergångsregeringen kommer att utgå ifrån vid en övergångsbudget.\nTid: 27 oktober 2026 kl. 11.00 Plats: Föranmälda journalister kan delta på plats i regeringens pressrum Rosenbad, ingång Drottninggatan 1. Praktisk information: Obligatorisk föranmälan senast den 27 oktober kl. 10.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering från kl. 10.30. Deltagande sker i mån av plats.\nPraktisk information: Obligatorisk föranmälan senast den 27 oktober kl. 10.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering från kl. 10.30. Deltagande sker i mån av plats.\nAnmälan till pressträff den 27 oktober - extern webbplats,\nDu kan följa sändningen direkt eller se den i efterhand på regeringen.se eller på Regeringskansliets Youtubekanal.\nSidan är uppmärkt med följande kategorier\nPublicerad 27 oktober 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 27 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 25 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 14 augusti 2026 · Kommittédirektiv , Rättsliga dokument från Finansdepartementet , Regeringen",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "övergångsregering"
-      ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9329304",
-      "title": "Finansministern: Då kommer övergångsbudgeten",
+      "url": "https://www.sverigesradio.se/artikel/9329627",
+      "title": "Experten: Komplicerad tid väntar efter valet i Israel",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-27",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Regeringsförhandlingarna drar ut på tiden och finansminister Elisabeth Svantesson (M) kommer att lägga fram en opolitisk övergångsbudget. Den ska i princip vara en kopia av den senaste budgeten, det vill säga att myndigheterna får lika mycket pengar att jobba med som nu, men med vissa undantag för samhällsviktiga funktioner. Övergångsbudgeten som gäller för år 2027, oavsett om det skulle bildas en ny regering snart. Budgeten kommer läggas fram senast 12 november.",
+      "summary": "Vallokalsundersökningar i Israel pekar mot att Benjamin Netanyahus parti Likud blir störst, men oppositionsblocket kan ändå bli något större. Enligt statsvetaren Anders Persson är läget otydligt och ingen sida ser ut att ha en klar väg till majoritet. ”Det är ett otydligt resultat där ingen av oss är klokare i nuläget över vem som kommer att styra Israel framöver”, säger han om resultatet i vallokalsundersökningarna. Ett färdig valresultat kan dröja flera dagar.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9329304'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329627'",
       "matched_terms": [
-        "regeringsförhandling"
+        "valresultat"
       ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
+      "first_seen": "2026-10-28T06:03:24.643065+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9329217",
-      "title": "”Röda linjer” vid regeringsbildningar nytt i svensk politik",
+      "url": "https://www.sverigesradio.se/artikel/9329614",
+      "title": "Inget av blocken ser ut att få egen majoritet i Knesset",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-27",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Både Magdalena Andersson (S) och Elisabeth Thand Ringqvist (C) har gett upp försöken att bilda regering och sagt att partiernas låsningar står i vägen. De så kallade röda linjerna i regeringsförhandlingar är relativt nya i svensk politik, säger statsvetarprofessor Tommy Möller. Ett klassiskt exempel på en röd linje som luckrades upp inför de politiska realiteterna var när Centerpartiet i valrörelsen 1976 lovade att stoppa kärnkraften, men fick delvis ändra linje efter valet.",
+      "summary": "Vallokalsundersökningar efter valet i Israel visar en jämn kamp, där oppositionens koalition ser ut att bli något större än Netanyahublocket – just nu. Om siffrorna står sig kan det bli början på en ny regeringsprocess, men något klart valresultat väntas först om några dagar. I Tel Aviv utbröt jubel där vår korrespondent Love Lyssarides befinner sig, samtidigt som osäkerheten om vem som faktiskt kan bli premiärminister består.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329217'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329614'",
       "matched_terms": [
-        "regeringsbildning",
-        "regeringsförhandling",
-        "Centerpartiet"
+        "koalition",
+        "valresultat"
       ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
+      "first_seen": "2026-10-28T06:03:24.643065+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9329099",
-      "title": "Kristersson om Putin-samtalet: Ryssland är inte ute efter fred",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-27",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Norges statsminister Jonas Gahr Støre och Finlands president Alexander Stubb har pratat med Rysslands president Vladimir Putin, om kriget i Ukraina och kommande fredsförhandlingar. ”Tittar vi på vad det är som Ryssland nu gör på marken varje dag så tycker jag inte att det finns någonting som antyder att det är fred de är ute efter”, säger statsminister Ulf Kristersson (M) om samtalet. Danmarks statsminister Mette Fredriksen säger till danska TV2 att hon är ”mycket skeptisk till det norska och finska initiativet”.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329099'",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/storstaderna-far-rodgrona-styren-behover-inte-ge-magdalena-andersson-nagra-rad",
-      "title": "Storstäderna får rödgröna styren – ”Behöver inte ge Magdalena Andersson några råd”",
+      "url": "https://www.dn.se/sverige/kristersson-olika-uppfattningar-om-det-ar-dags-att-tala-med-putin",
+      "title": "Kristersson: Olika uppfattningar om det är dags att tala med Putin",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-10-27",
-      "author": "Lars Näslund",
+      "author": "Pia Gripenberg",
       "commentator": "",
-      "summary": "Malmö höjer skatten men Göteborg och Stockholm ligger still. Samtidigt får stockholmarna behålla tre kronor mer per hundring jämfört med de andra. En sak är dock gemensam: Medan de har svårt att komma överens om regeringsmakten står det klart att S, V och MP ska styra landets tre största städer.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-27 15:41\nArtikelns ursprungsadress: https://www.dn.se/sverige/storstaderna-far-rodgrona-styren-behover-inte-ge-magdalena-andersson-nagra-rad/\nMalmö höjer skatten men Göteborg och Stockholm ligger still. Samtidigt får stockholmarna behålla tre kronor mer per hundring jämfört med de andra.\nEn sak är dock gemensam: Medan de har svårt att komma överens om regeringsmakten står det klart att S, V och MP ska styra landets tre största städer.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRegnet strilade på tisdagsförmiddagen ner över Göteborg och Gustav Adolfs torg.\nDet var en för rikets andra stad ungefär lika lite överraskande nyhet som det besked som lämnades inne i Börshuset, med Socialdemokraternas gruppledare Jonas Attenius i centrum för det nya politiska styrets presskonferens.\nTrots att det redan på valnatten stod klart att Socialdemokraterna, Vänsterpartiet och Miljöpartiet nu samlat egen majoritet, 43 av de 81 mandaten i i fullmäktige, tog det ändå 44 dagar att lägga hela Göteborgspusslet.\nFörutom att fem nya kommunalråd skulle skakas fram och och lotsas in, lämnades också en fråga öppen:\nHur det ska bli med Centerpartiet den här gången.\nUnder den nyss avslutade mandatperioden styrde de rödgröna Göteborg i minoritet med hjälp av så kallad valteknisk samverkan med Centern.\nC gick då med på att enbart rösta på sin egen budget – och därmed släppa fram den från S-V-MP – mot att skatten inte höjdes, och partiet fick platser i kommunstyrelsen och i vissa nämnder.\nNu, efter valet, behövs alltså Centern inte för egen rödgrön majoritet. Men mycket talar ändå för att, primärt S och Jonas Attenius, söker ett förnyat avtal med C – för att säkra långsiktigt goda relationer, lokalt och på riksplanet.\nCentern når för egen kraft inte upp till en plats i kommunstyrelsen.\n– Vi kommer fortsätta att sträva efter att ha ett bra samarbete med C, det pågår diskussioner, svarade Attenius på DN:s fråga och sa att han återkommer nästa vecka om eventuell ”valteknisk samverkan”.\nTrots att Vänsterpartiet i många år tryckt på för höjd skatt i Göteborg kommer den även 2027 att vara oförändrat, 21,12 kronor. Det är också väl känt att S-ledningen velat undvika en höjning trots att förvaltningen pekar på stora utmaningar framåt och en snabbt ökande låneskuld.\nMen det är också i den frågan som Centern länge varit tydlig med, att de inte kan tänka sig stötta en höjning.\nBeskedet på tisdagen om att S, V och MP bildar styre och har fördelat uppgifter innebär alltså att Göteborg inte rör skatten. Det gör inte det nya S-V-MP-styret i Stockholm heller – efter två höjningar under senaste mandatperioden.\nNär Vänsterpartiet tas in i värmen i Malmö och bildar styre med S och MP höjs dock skatten där, med 30 öre. Det var främst V:s krav efter förra valet om en höjning då som de kom att hållas utanför.\nMen: I Göteborg påpekar Jonas Attenius att beskedet om att inte röra skatten enbart gäller 2027.\nHan är väl medveten om vad den egna förvaltningen skriver i en färsk delårsrapport: ”Den demografiska utvecklingen försämrar samtidigt kommunens långsiktiga finansieringsmöjligheter. Sammantaget ökar detta behov av långsiktiga vägval för att upprätthålla en god ekonomisk hushållning.”\nUnder presentationen av det nya styret gick de tre partierna ut med var sitt specifikt löfte:\nx S: Ett maxtak på fyra barn per pedagog i förskolan ska genomföras under mandatperioden.\nx V: Privata företagsalternativ i hemtjänsten ska avskaffas, den så kallade LOV:en.\n– Vi ska ta tillbaka den demokratiska kontrollen, som V:s nya ledare Marie Brynolfsson uttryckte saken.\nx MP: Parkeringsplatserna ska bort från Kungstorget i centrala Göteborg.\n– Saluhallens försäljare kan flytta ut, vi kan ha kulturevent där, uteserveringar och lokala odlare få plats, sa MP:s nya gruppledare Klara Holmin.\nAtt samtliga tre storstäder nu ska syras av S, V och MP säger Jonas Attenius ”givetvis spelar roll”.\n– Städerna samarbetar ju en hel del, vi kan lättare genomföra gemensam politik. Men det betyder inte att vi har planerat något gemensamt, säger han till DN.\nDet är 44 dagar sedan valet och ni nådde egen majoritet redan på valnatten. Har det varit svårt att ändå komma överens?\n– För mig har det varit viktigt att investera tid i att lösa ut de övergripande konfliktfrågorna. Andra styren kan ha frågor kvar att hantera.\nAttenius säger att de inte enbart snackat ihop sig om budgeten för nästa år.\n– Vi har tittat på hela mandatperioden och har ett samverkansavtal, det har varit viktigt för mig och för oss. det har också handlat om många poster som ska tillsättas och ansvarområden som ska fördelas. Det tar sin tid.\nHar du något råd till Magdalena Andersson? Ta in Vänsterpartiet eller hålla dem borta i regeringsfrågan?\n– Haha... nej, jag ger inte henne några råd.\nI Stockholms stad är skattesatsen nästa år 18,22 kronor.\nKommunfullmäktige i Göteborg har 81 ledamöter. Så här fördelas mandaten efter valet 13 september (förändringen mot valet 2022 inom parentes):\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nNya Malmöstyret klart – Vänsterpartiet åter i värmen\nVallöften får vänta i budgeten – kronprinsessans firande säkrat\nTomas Ramberg: Nu har både C och V tröttnat på Andersson",
+      "summary": "HELSINGFORS. Statsminister Ulf Kristersson anser inte att han fått någon förklaring till Finlands och Norges initiativ att samtala med Ryssland. – Inte annat än att de tycker att det är dags att tala med Putin. Jag tror att det finns lite olika uppfattningar om det.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-28 07:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/kristersson-olika-uppfattningar-om-det-ar-dags-att-tala-med-putin/\nHELSINGFORS. Statsminister Ulf Kristersson anser inte att han fått någon förklaring till Finlands och Norges initiativ att samtala med Ryssland.\n– Inte annat än att de tycker att det är dags att tala med Putin. Jag tror att det finns lite olika uppfattningar om det.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsmakt"
+        "statsminister"
       ],
-      "first_seen": "2026-10-27T14:42:43.108852+00:00"
+      "first_seen": "2026-10-28T06:03:24.643065+00:00"
     }
   ]
 }
