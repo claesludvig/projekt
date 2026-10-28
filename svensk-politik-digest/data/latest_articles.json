@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-28T06:03:24.643065+00:00",
-  "new_count": 6,
+  "fetched_at": "2026-10-28T14:07:27.551745+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 39,
-    "offtopic": 156,
-    "old": 9
+    "seen": 40,
+    "offtopic": 161,
+    "old": 7
   },
-  "fetch_errors": 4,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 4,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,107 +65,39 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9329674",
-      "title": "Jämnt mellan blocken i Israel – men Netanyahu firade i natt",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-28",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "I Israel pekar de preliminära valresultaten på ett jämnt läge mellan regeringsblocket och oppositionen. Inget av blocken ser ut att få egen majoritet, men premiärminister Benjamin Netanyahu firade i natt att hans parti Likud ser ut att bli störst. ”Likud är Israels största parti”, sa Benjamin Netanyahu inför jublande anhängare. Det slutliga resultatet kan dröja flera dagar. Det officiella valresultatet ska publiceras 4 november.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329674'",
-      "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-10-28T06:03:24.643065+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9329664",
-      "title": "Explosioner har hörts över Riyadh",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-28",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Saudiarabien har skjutit ner flera ballistiska robotar som avfyrats från houthi-rebellerna i grannlandet Jemen. Explosioner har hörts över huvudstaden Riyadh. Samtidigt har houthirebellerna anklagat den saudiledda koalitionen för att ha dödat två personer utanför staden Taiz i Jemen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329664'",
-      "matched_terms": [
-        "koalition"
-      ],
-      "first_seen": "2026-10-28T06:03:24.643065+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/b80Wwk/expert-om-valet-i-israel-otydligt-resultat",
-      "title": "Expert om valet i Israel: ”Otydligt resultat”",
-      "source": "SvD Ledare",
+      "url": "https://www.expressen.se/ledare/ho-ho-har-nagon-sett-till-talmannen",
+      "title": "Ho, ho – har någon sett till talmannen?",
+      "source": "Expressen Ledare",
       "kind": "kommentar",
-      "published": "2026-10-27",
-      "author": "Cornelia Mikaelsson/TT",
+      "published": "2026-10-28",
+      "author": "ledarredaktionen",
       "commentator": "",
-      "summary": "Valresultatet i Israel ser ut att bli ”otydligt”, enligt Mellanösternexperten Anders Persson.",
-      "fulltext": "Anders Persson, statsvetare på Linnéuniversitetet med fokus på Israel-Palestinakonflikten. Foto: Johan Nilsson/TT\nValresultatet i Israel ser ut att bli ”otydligt”, enligt Mellanösternexperten Anders Persson.\nInget av de två blocken, som är för respektive emot sittande premiärminister Benjamin Netanyahu, får enligt vallokalsundersökningar egen majoritet i det israeliska parlamentet knesset.\n– De tre stora undersökningarna visar en samstämmig bild med ett litet övertag för oppositionen, men där Likud gör ett bättre valresultat än de sista opinionsundersökningarna, säger Anders Persson, Mellanösternexpert vid Linnéuniversitetet.\nHan tillägger att resultaten från vallokalsundersökningarna ska tolkas med stor försiktighet. Ett preliminärt resultat väntas först på onsdagen.\n– Man vet inte om något litet parti skulle komma in, men det är ju i det stora hela ett otydligt valresultat.\nEnligt de stora tv-kanalernas vallokalsundersökningar får Netanyahus block 50 mandat medan oppositionen, som leds av Gadi Eisenkots parti Yashar, får 52 mandat.\nFör att få majoritet i knesset, det israeliska parlamentet, krävs 61 mandat.\nI samma vallokalsundersökning ser de två arabiska partierna, Gemensamma listan och Ra'am, ut att kunna bli vågmästare med sammanlagt 18 mandat.\n– Endast ett parti i oppositionen har tydligt sagt innan valet att man kan tänka sig att samarbeta med dessa partier, säger Persson.\nDet som krånglar till det för oppositionen är att det inte ser ut att räcka endast med stöd från Ra'am.\nEnligt Persson är Ra'am, som ser ut att få sju mandat, det arabiska parti som historiskt haft den mest vänliga inställningen till oppositionen.\n– Men det är egentligen nu som diskussionerna på allvar börjar. Alla vet att det är en diskussion innan valet och en efter valet, säger han och understryker att han tror att oppositionen kommer göra sitt bästa för att undvika extra val.\n– Men jag tror inte att de är nöjda med 53 mandat. Även om vissa utropar seger så tror jag att de hade hoppats på ett bättre resultat.\nDessutom pekar det mesta på att Netanyahu gör ett bättre val än de sista oppositionsundersökningarna gjorde gällande.\n– Han gör ett ganska bra val givet förutsättningarna, och jag undrar av ren nyfikenhet vad hans valspurt beror på. Det kan vara en Trump-effekt, säger Persson med hänvisning till USA:s presidents tydliga ställningstagande för Netanyahu.",
+      "summary": "Talmannen verkar ha tagit höstlov mitt i regeringskrisen.",
+      "fulltext": "Talmannen verkar ha tagit höstlov mitt i regeringskrisen.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nI måndags klockan elva presenterades höstens minst oväntade nyhet: Centerledaren Elisabeth Thand Ringqvist hade misslyckats med att sy ihop en mittenregering. Eftersom inget parti har ruckat på sina röda linjer sedan valet hade varje annat utfall varit en sensation.\nEfter en vecka i mittenfantasin skickade Thand Ringqvist således sonderingsuppdraget i retur till talmannen. Som via ett pressmeddelande lät hälsa att han ”ska diskutera med partiföreträdare per telefon om hur regeringsbildningsprocessen ska tas framåt”.\nHar Andreas Norlén åkt på höstlov? Eller struntar partiledarna helt enkelt i att svara när han ringer?\nTelefonkonfererandet borde vara en snabbt avklarad formalitet. Centerledarens sonderingsuppdrag var en politisk charad, ägnad att övertyga hennes egna partimedlemmar och väljare att C verkligen kört mittenspåret i botten. Så varför ägnade inte talmannen förra veckan åt att förbereda en plan B (eller C eller D)?\nDe rödgröna partiernas oförmåga att komma överens är naturligtvis inte talmannens fel. Som Norlén själv brukar påpeka – han ”är ingen trollkarl”.\nVad talmannen däremot kan göra är att sätta fart på processen. Han har ett verktyg att ta till: statsministeromröstningar. Efter fyra försök blir det extraval. Det lär de flesta partier vilja undvika. Genom att bränna av omröstningar kan talmannen öka trycket på partiledarna att börja kompromissa.\nAtt låta veckorna gå utan att regeringsbildningen rör sig framåt en millimeter gynnar inte landet. Och det verkar heller inte som att tiden löser upp några knutar. Partierna har snarare surrat sig hårdare vid sina röda linjer sedan valet, ett kategoriskt uttalande i Aktuellt i taget.\nDet var symtomatiskt att Elisabeth Thand Ringqvists slutsats efter sonderingsveckan var att alla andra partier måste ändra sig – men Centerns linjer ligger fast.\nNär partierna så småningom kommit överens om att försöka komma överens återstår den stora utmaningen: Att jämka ihop fyra (om det blir rödgrön regering) eller fem (om C väljer att gå högerut) partiers valmanifest till ett gemensamt program att regera på. Räkna med att det kräver mer än en eftermiddag på Lidingö.\nEfter valet 2018 tog det hela 134 dagar att bilda en regering. Det har talmannen varit självkritisk till i efterhand:\n– Jag kanske gav lite för generösa frister från början då. Man behöver tänka kring både sonderingsfrister och statsministeromröstningar så att man använder de verktyg som finns för att föra processen framåt, sa Andreas Norlén till SVT i september.\nEn månad senare har inte mycket hänt. Talmannen måste omsätta den dyrköpta erfarenheten från 2018 i handling. Ge partiledarna en tidplan – och rappa på.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "valresultat"
+        "regeringskris",
+        "talman"
       ],
-      "first_seen": "2026-10-28T06:03:24.643065+00:00"
+      "first_seen": "2026-10-28T14:07:27.551745+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9329627",
-      "title": "Experten: Komplicerad tid väntar efter valet i Israel",
+      "url": "https://www.sverigesradio.se/artikel/9329959",
+      "title": "Love Lyssarides: Mandat har flyttats till Netanyahus block",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-27",
+      "published": "2026-10-28",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Vallokalsundersökningar i Israel pekar mot att Benjamin Netanyahus parti Likud blir störst, men oppositionsblocket kan ändå bli något större. Enligt statsvetaren Anders Persson är läget otydligt och ingen sida ser ut att ha en klar väg till majoritet. ”Det är ett otydligt resultat där ingen av oss är klokare i nuläget över vem som kommer att styra Israel framöver”, säger han om resultatet i vallokalsundersökningarna. Ett färdig valresultat kan dröja flera dagar.",
+      "summary": "Alla röster är ännu inte räknade i Israels parlamentsval, men just nu leder sittande premiärminister Benjamin Netanyahus block. Som det ser ut nu har inget av blocken egen majoritet. ”Med största sannolikhet blir regeringsbildningen en ganska komplicerad process”, säger korrespondenten Love Lyssarides.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329627'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329959'",
       "matched_terms": [
-        "valresultat"
+        "regeringsbildning"
       ],
-      "first_seen": "2026-10-28T06:03:24.643065+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9329614",
-      "title": "Inget av blocken ser ut att få egen majoritet i Knesset",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-10-27",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Vallokalsundersökningar efter valet i Israel visar en jämn kamp, där oppositionens koalition ser ut att bli något större än Netanyahublocket – just nu. Om siffrorna står sig kan det bli början på en ny regeringsprocess, men något klart valresultat väntas först om några dagar. I Tel Aviv utbröt jubel där vår korrespondent Love Lyssarides befinner sig, samtidigt som osäkerheten om vem som faktiskt kan bli premiärminister består.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329614'",
-      "matched_terms": [
-        "koalition",
-        "valresultat"
-      ],
-      "first_seen": "2026-10-28T06:03:24.643065+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/kristersson-olika-uppfattningar-om-det-ar-dags-att-tala-med-putin",
-      "title": "Kristersson: Olika uppfattningar om det är dags att tala med Putin",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-27",
-      "author": "Pia Gripenberg",
-      "commentator": "",
-      "summary": "HELSINGFORS. Statsminister Ulf Kristersson anser inte att han fått någon förklaring till Finlands och Norges initiativ att samtala med Ryssland. – Inte annat än att de tycker att det är dags att tala med Putin. Jag tror att det finns lite olika uppfattningar om det.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-28 07:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/kristersson-olika-uppfattningar-om-det-ar-dags-att-tala-med-putin/\nHELSINGFORS. Statsminister Ulf Kristersson anser inte att han fått någon förklaring till Finlands och Norges initiativ att samtala med Ryssland.\n– Inte annat än att de tycker att det är dags att tala med Putin. Jag tror att det finns lite olika uppfattningar om det.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-10-28T06:03:24.643065+00:00"
+      "first_seen": "2026-10-28T14:07:27.551745+00:00"
     }
   ]
 }
