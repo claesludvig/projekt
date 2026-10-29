@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-28T14:07:27.551745+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-10-29T06:03:01.825885+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 40,
+    "seen": 38,
     "offtopic": 161,
     "old": 7
   },
-  "fetch_errors": 1,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,39 +65,78 @@
   ],
   "articles": [
     {
-      "url": "https://www.expressen.se/ledare/ho-ho-har-nagon-sett-till-talmannen",
-      "title": "Ho, ho – har någon sett till talmannen?",
+      "url": "https://www.expressen.se/ledare/ann-charlotte-marteus/deppa-inte-vi-ar-smartare-an-norge",
+      "title": "Deppa inte! Vi är smartare än Norge",
       "source": "Expressen Ledare",
       "kind": "kommentar",
-      "published": "2026-10-28",
-      "author": "ledarredaktionen",
+      "published": "2026-10-29",
+      "author": "ann-charlotte marteus",
       "commentator": "",
-      "summary": "Talmannen verkar ha tagit höstlov mitt i regeringskrisen.",
-      "fulltext": "Talmannen verkar ha tagit höstlov mitt i regeringskrisen.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nI måndags klockan elva presenterades höstens minst oväntade nyhet: Centerledaren Elisabeth Thand Ringqvist hade misslyckats med att sy ihop en mittenregering. Eftersom inget parti har ruckat på sina röda linjer sedan valet hade varje annat utfall varit en sensation.\nEfter en vecka i mittenfantasin skickade Thand Ringqvist således sonderingsuppdraget i retur till talmannen. Som via ett pressmeddelande lät hälsa att han ”ska diskutera med partiföreträdare per telefon om hur regeringsbildningsprocessen ska tas framåt”.\nHar Andreas Norlén åkt på höstlov? Eller struntar partiledarna helt enkelt i att svara när han ringer?\nTelefonkonfererandet borde vara en snabbt avklarad formalitet. Centerledarens sonderingsuppdrag var en politisk charad, ägnad att övertyga hennes egna partimedlemmar och väljare att C verkligen kört mittenspåret i botten. Så varför ägnade inte talmannen förra veckan åt att förbereda en plan B (eller C eller D)?\nDe rödgröna partiernas oförmåga att komma överens är naturligtvis inte talmannens fel. Som Norlén själv brukar påpeka – han ”är ingen trollkarl”.\nVad talmannen däremot kan göra är att sätta fart på processen. Han har ett verktyg att ta till: statsministeromröstningar. Efter fyra försök blir det extraval. Det lär de flesta partier vilja undvika. Genom att bränna av omröstningar kan talmannen öka trycket på partiledarna att börja kompromissa.\nAtt låta veckorna gå utan att regeringsbildningen rör sig framåt en millimeter gynnar inte landet. Och det verkar heller inte som att tiden löser upp några knutar. Partierna har snarare surrat sig hårdare vid sina röda linjer sedan valet, ett kategoriskt uttalande i Aktuellt i taget.\nDet var symtomatiskt att Elisabeth Thand Ringqvists slutsats efter sonderingsveckan var att alla andra partier måste ändra sig – men Centerns linjer ligger fast.\nNär partierna så småningom kommit överens om att försöka komma överens återstår den stora utmaningen: Att jämka ihop fyra (om det blir rödgrön regering) eller fem (om C väljer att gå högerut) partiers valmanifest till ett gemensamt program att regera på. Räkna med att det kräver mer än en eftermiddag på Lidingö.\nEfter valet 2018 tog det hela 134 dagar att bilda en regering. Det har talmannen varit självkritisk till i efterhand:\n– Jag kanske gav lite för generösa frister från början då. Man behöver tänka kring både sonderingsfrister och statsministeromröstningar så att man använder de verktyg som finns för att föra processen framåt, sa Andreas Norlén till SVT i september.\nEn månad senare har inte mycket hänt. Talmannen måste omsätta den dyrköpta erfarenheten från 2018 i handling. Ge partiledarna en tidplan – och rappa på.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "summary": "Regeringskris, skolkris och allmänt elände. Men under eländeshöljet finns ett kärnfriskt Sverige som fortfarande kan konsten att uppfinna framtiden.",
+      "fulltext": "Regeringskris, skolkris och allmänt elände. Men under eländeshöljet finns ett kärnfriskt Sverige som fortfarande kan konsten att uppfinna framtiden.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nSverige är på dekis. De rödgröna kan inte sy ihop en regering, Tidögänget vördar inte utredningsväsendet och ungarna kan inte läsa.\nVad hände med världens bästa land? Det knasiga lilla kungariket vars representanter i Bryssel inledde alla sina anföranden med ett odrägligt ”In Sweden we have a model...”\nOch detta gällde alla representanter, röda, gröna som blå.\nSvaret är att Sverige fortfarande har starka drag av världsbästhet. Vi är till exempel världens näst mest uppfinningsrika land, enligt World Intellectual Property Organization, Wipo, som varje år presenterar ett globalt innovationsindex.\nSchweiz ligger etta, Sverige tvåa, USA trea. Ungefär så har det sett ut år efter år.\nDen amerikanska ekonomijätten Bloomberg kallar Sverige för ”Silicon Valhalla” och förundras över hur vi kan ha 46 unicorns , tech start-ups värderade till mer än 1 miljard dollar.\nNär Bloomberg Tech reste till Stockholm för att söka förklaringen till hur detta gått till, fick man flera intressanta svar av entreprenörer och annat tech-folk: svenskarna är ett teknikkunnigt folk, vi har en liten hemmamarknad som tvingar entreprenörer att tänka globalt från dag ett och så har vi en tradition av att göra användarvänliga produkter. Vilket ju verkligen stämmer, från bokhyllan Billy till Jas Gripen.\nAndra aspekter som som nämns är måttlig respekt för auktoriteter, samarbetsförmåga och tillit. Och de många månaderna av mörker och kyla är ju som gjorda för att sitta inne och nörda, sade Legora-grundaren Max Junestrand.\nFrågar man vänsterlutande politiker vad den historiska förklaringen är till det svenska innovationsundret lär ett framträdande svar bli välfärdsstaten. En högerfigur kanske snarare svarar 90-talets avregleringar. Båda svaren är högst relevanta, men rötterna går mycket längre tillbaka än så.\nKlassiska svenska storföretag som Ericsson, Asea, SKF, Aga, Electrolux och Volvo såg dagens ljus under decennierna kring förra sekelskiftet, en era som föregicks av bland annat skrotandet av skråväsendet, ökad näringsfrihet och en lyckosam modernisering av aktiebolagslagen. Till det kom sådant som hög läskunnighet, välfungerande institutioner och rikliga naturresurser.\nDen epoken lade grunden till en industriell och teknisk kompetens som vi fortfarande kan skörda frukterna av.\nMen innan vi bryter ut i ett tårfyllt Du gamla du fria bör vi påminna oss om att Sverige inte är unikt, utan typiskt nordiskt. Finland och Danmark ligger också högt upp på Wipos innovationsindex: åtta och nia.\nMen var är Norge , denna superrika oljestat som borde kunna kasta hur mycket pengar som helst på sådant som skapar ett bra innovationsklimat, som utbildning, forskning, infrastruktur och kapital.\nNär norska Patentstyret analyserade Wipo-placeringen konstaterade myndigheten att Norge ligger på blygsamma 16:e plats vad gäller förutsättningar för innovationer – och på plats 30 vad gäller resultat, i form av ny kunskap, teknik och kommersiella framgångar. Skral utväxling, alltså. Sverige ligger trea i båda fallen.\nNå, Norge gråter väl hela vägen till banken. Men som stukad svensk i ett land utan regering, med den grymma vintersportsäsongen stående för dörren, kan man ändå glädja sig åt att vi fortfarande är fläckvis världsbäst. Och icke minst, världsbästare än Norge.\nAnn-Charlotte Marteus är ledarskribent på Expressen. Läs mer av henne här.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringskris",
-        "talman"
+        "regeringskris"
       ],
-      "first_seen": "2026-10-28T14:07:27.551745+00:00"
+      "first_seen": "2026-10-29T06:03:01.825885+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9329959",
-      "title": "Love Lyssarides: Mandat har flyttats till Netanyahus block",
+      "url": "https://www.sverigesradio.se/artikel/9329097",
+      "title": "M nästan ikapp S i Indikators oktobermätning",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraternas position som största parti hotas i Indikator Opinions oktobermätning där Moderaterna är nästan lika stora som Socialdemokraterna; det skiljer bara 0,7 procentenheter. Moderaterna ökar med 6,5 procentenheter jämfört med valresultatet och vinner både väljarröster från de andra Tidöpartierna och från Centerpartiet och Socialdemokraterna. ”Jag tror att det som speglas i det här, det är en otålighet som väljarna känner och den känner jag också. Jag vill såklart få en regering på plats”, säger Tobias Baudin, Socialdemokraternas partisekreterare.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329097'",
+      "matched_terms": [
+        "valresultat",
+        "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-10-29T06:03:01.825885+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/ex-partiledarna-sa-troligt-ar-det-att-det-blir-extraval",
+      "title": "Ex-partiledarna: Så troligt är det att det blir extraval",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-28",
+      "author": "Cecilia Tiberg",
+      "commentator": "",
+      "summary": "Hur stor är risken att för att regeringsbildningen slutar med ett extraval? Ganska stor, säger de före detta partiledarna Anna Kinberg Batra (M) och Mona Sahlin (S) i Politikbyrån.",
+      "fulltext": "Hur stor är risken att för att regeringsbildningen slutar med ett extraval?\nGanska stor, säger de före detta partiledarna Anna Kinberg Batra (M) och Mona Sahlin (S) i Politikbyrån.\nExtraval var på tapeten när det kärvade i regeringsbildningarna 2014 och 2018 – men kan det bli verklighet den här gången? I veckans Politikbyrån medverkar de två partiveteranerna Mona Sahlin och Anna Kinberg Batra, tillsammans med SVT:s politiska kommentator Mats Knutson.\nBatra tror att det med 60 procents sannolikhet blir ett nyval, medan Mona Sahlin tror på 50 procent. Hon tycker det är konstigt att Socialdemokraterna varit så tysta efter valet.\n– Jag är förvånad över att Socialdemokraterna har varit så passiva, utåt sett i alla fall. Att de inte tagit en mer offentlig och offensiv roll i förhandlingarna och visat det. Jag är bekymrad, säger Mona Sahlin.\nAnna Kinberg Batra var gruppledare för Moderaterna 2014, när Stefan Löfven meddelade att han skulle utlysa nyval.\n– Vi hade ganska många problem då, vi hade ingen partiledare till exempel. Men vi var inte rädda för ett extraval, blir det så får man ta sig an den uppgiften, säger hon.\nMot bakgrund av Moderaternas stigande opinionssiffror efter valet tror hon inte att partiet är rädda för en ny valrörelse den här gången heller.\n– Moderaterna mår nog ganska bra, de kan nog tänka sig ett extraval, säger hon.\nVeckans avsnitt av Politikbyrån hittar du här .\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "partiledar"
+      ],
+      "first_seen": "2026-10-29T06:03:01.825885+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9330282",
+      "title": "Blandade känslor bland väljarna efter jämnt val i Israel",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-28",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Alla röster är ännu inte räknade i Israels parlamentsval, men just nu leder sittande premiärminister Benjamin Netanyahus block. Som det ser ut nu har inget av blocken egen majoritet. ”Med största sannolikhet blir regeringsbildningen en ganska komplicerad process”, säger korrespondenten Love Lyssarides.",
+      "summary": "De preliminära valresultaten i Israel visar ett jämnt läge mellan blocken. 27-årige Nizan har röstat på Gadi Eisenkot och hoppas på ett regeringsskifte. 70-årige Amos har röstat på mittenvänsterpartiet Demokraterna och vill att oppositionen samarbetar med de arabiska partierna för att bilda regering. 23-åriga Daniella har röstat på Benjamin Netanyahu. Hon tycker att Israel behöver en ledare som är ”lite galen”, och inte är rädd. Men hon väntar med att fira.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329959'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9330282'",
       "matched_terms": [
-        "regeringsbildning"
+        "regeringsskifte",
+        "valresultat",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-28T14:07:27.551745+00:00"
+      "first_seen": "2026-10-29T06:03:01.825885+00:00"
     }
   ]
 }
