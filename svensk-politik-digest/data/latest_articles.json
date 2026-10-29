@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-29T06:03:01.825885+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-10-29T14:22:44.403946+00:00",
+  "new_count": 5,
   "skipped": {
     "seen": 38,
-    "offtopic": 161,
-    "old": 7
+    "offtopic": 153,
+    "old": 14
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,78 +65,95 @@
   ],
   "articles": [
     {
-      "url": "https://www.expressen.se/ledare/ann-charlotte-marteus/deppa-inte-vi-ar-smartare-an-norge",
-      "title": "Deppa inte! Vi är smartare än Norge",
-      "source": "Expressen Ledare",
+      "url": "https://www.svd.se/a/0p33lG/valet-2026-sverige-live-senaste-nytt?filter=allt",
+      "title": "Talmannen kallar till pressträff",
+      "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-10-29",
-      "author": "ann-charlotte marteus",
+      "author": "",
       "commentator": "",
-      "summary": "Regeringskris, skolkris och allmänt elände. Men under eländeshöljet finns ett kärnfriskt Sverige som fortfarande kan konsten att uppfinna framtiden.",
-      "fulltext": "Regeringskris, skolkris och allmänt elände. Men under eländeshöljet finns ett kärnfriskt Sverige som fortfarande kan konsten att uppfinna framtiden.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nSverige är på dekis. De rödgröna kan inte sy ihop en regering, Tidögänget vördar inte utredningsväsendet och ungarna kan inte läsa.\nVad hände med världens bästa land? Det knasiga lilla kungariket vars representanter i Bryssel inledde alla sina anföranden med ett odrägligt ”In Sweden we have a model...”\nOch detta gällde alla representanter, röda, gröna som blå.\nSvaret är att Sverige fortfarande har starka drag av världsbästhet. Vi är till exempel världens näst mest uppfinningsrika land, enligt World Intellectual Property Organization, Wipo, som varje år presenterar ett globalt innovationsindex.\nSchweiz ligger etta, Sverige tvåa, USA trea. Ungefär så har det sett ut år efter år.\nDen amerikanska ekonomijätten Bloomberg kallar Sverige för ”Silicon Valhalla” och förundras över hur vi kan ha 46 unicorns , tech start-ups värderade till mer än 1 miljard dollar.\nNär Bloomberg Tech reste till Stockholm för att söka förklaringen till hur detta gått till, fick man flera intressanta svar av entreprenörer och annat tech-folk: svenskarna är ett teknikkunnigt folk, vi har en liten hemmamarknad som tvingar entreprenörer att tänka globalt från dag ett och så har vi en tradition av att göra användarvänliga produkter. Vilket ju verkligen stämmer, från bokhyllan Billy till Jas Gripen.\nAndra aspekter som som nämns är måttlig respekt för auktoriteter, samarbetsförmåga och tillit. Och de många månaderna av mörker och kyla är ju som gjorda för att sitta inne och nörda, sade Legora-grundaren Max Junestrand.\nFrågar man vänsterlutande politiker vad den historiska förklaringen är till det svenska innovationsundret lär ett framträdande svar bli välfärdsstaten. En högerfigur kanske snarare svarar 90-talets avregleringar. Båda svaren är högst relevanta, men rötterna går mycket längre tillbaka än så.\nKlassiska svenska storföretag som Ericsson, Asea, SKF, Aga, Electrolux och Volvo såg dagens ljus under decennierna kring förra sekelskiftet, en era som föregicks av bland annat skrotandet av skråväsendet, ökad näringsfrihet och en lyckosam modernisering av aktiebolagslagen. Till det kom sådant som hög läskunnighet, välfungerande institutioner och rikliga naturresurser.\nDen epoken lade grunden till en industriell och teknisk kompetens som vi fortfarande kan skörda frukterna av.\nMen innan vi bryter ut i ett tårfyllt Du gamla du fria bör vi påminna oss om att Sverige inte är unikt, utan typiskt nordiskt. Finland och Danmark ligger också högt upp på Wipos innovationsindex: åtta och nia.\nMen var är Norge , denna superrika oljestat som borde kunna kasta hur mycket pengar som helst på sådant som skapar ett bra innovationsklimat, som utbildning, forskning, infrastruktur och kapital.\nNär norska Patentstyret analyserade Wipo-placeringen konstaterade myndigheten att Norge ligger på blygsamma 16:e plats vad gäller förutsättningar för innovationer – och på plats 30 vad gäller resultat, i form av ny kunskap, teknik och kommersiella framgångar. Skral utväxling, alltså. Sverige ligger trea i båda fallen.\nNå, Norge gråter väl hela vägen till banken. Men som stukad svensk i ett land utan regering, med den grymma vintersportsäsongen stående för dörren, kan man ändå glädja sig åt att vi fortfarande är fläckvis världsbäst. Och icke minst, världsbästare än Norge.\nAnn-Charlotte Marteus är ledarskribent på Expressen. Läs mer av henne här.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "summary": "",
+      "fulltext": "Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.\nSkapa ett kostnadsfritt SvD Bas-konto för att ställa en fråga.\nKällor: C-ledare ställs för statsministeromröstning\nTalmannen Andreas Norlén kommer att ställa C-ledaren Elisabeth Thand Ringqvist för omröstning som statsminister på tisdag, erfar SvD.\nNorlén har kallat till en pressträff vid 15.30 där beskedet väntas meddelas.\nKlockan 15.30 håller talmannen Andreas Norlén pressträff.\nTidigare idag utlovades besked om nästa steg i regeringsbildningen.\nBesked om nästa steg i regeringsbildningen idag\nIdag kommer talman Andreas Norlén ge besked om nästa steg i regeringsbildningen, skriver SVT.\n\"Det kommer antingen ett pressmeddelande eller en inbjudan till pressträff under dagen\", säger pressekreterare Johanna Holt till SVT.\nI måndags meddelade Centerpartiets Elisabeth Thand Ringqvist, som hade sonderingsuppdraget, att det inte fanns förutsättningar för att bilda en mittenregering.\nI en ny opinionsundersökning från Ekot/Indikator är Socialdemokraterna endast 0,7 procentenheter större än Moderaterna. M ökar med 6,5 procentenheter jämfört med valresultatet, samtidigt som S backar drygt en procentenhet.\nTidöpartiernas stöd i mätningen är 3,5 procentenheter högre än det som S, V, MP och C samlar tillsammans. Samtidigt hamnar L under spärren, på 3,8 procent.\n”Jag tror att det som speglas i det här, det är en otålighet som väljarna känner och den känner jag också. Jag vill såklart få en regering på plats”, säger Socialdemokraternas partisekreterare Tobias Baudin till radion.\nTidigare i oktober stod det klart att Socialdemokraterna och Moderaterna tillsammans ska styra i Gävle. Nykomlingen Maja Ullberg från Socialdemokraterna tar över ordförandeklubban i kommunfullmäktige – och hennes förste vice ordförande är den moderaten Lars Beckman. En veteran i både riksdag och kommunfullmäktige, känd för att vara mycket aktiv på sociala medier där han ofta riktar kritik mot medier och politiska motståndare. ”Det är väl ingen hemlighet att jag är väldigt höger i Moderaterna. Det jag har mött på stan är att väldigt många säger att ‘men nu blir det stabilitet i Gävle´ Så att vi ska leva upp till de förväntningarna såklart\", säger Beckman till P4 Gävleborg .\nAndre vice ordförande är Sverigedemokraten Mattias Eriksson Falk.\nVal 2026 – så bildas en ny regering efter valet",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringskris"
+        "talman"
       ],
-      "first_seen": "2026-10-29T06:03:01.825885+00:00"
+      "first_seen": "2026-10-29T14:22:44.403946+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9329097",
-      "title": "M nästan ikapp S i Indikators oktobermätning",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
+      "url": "https://www.svd.se/a/qyqvrE/israels-araber-nyckelspelare-i-regeringsbildningen",
+      "title": "Israels araber nyckelspelare i regeringsbildningen",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-10-29",
-      "author": "Ekot",
+      "author": "Georgina Harris/TT",
       "commentator": "",
-      "summary": "Socialdemokraternas position som största parti hotas i Indikator Opinions oktobermätning där Moderaterna är nästan lika stora som Socialdemokraterna; det skiljer bara 0,7 procentenheter. Moderaterna ökar med 6,5 procentenheter jämfört med valresultatet och vinner både väljarröster från de andra Tidöpartierna och från Centerpartiet och Socialdemokraterna. ”Jag tror att det som speglas i det här, det är en otålighet som väljarna känner och den känner jag också. Jag vill såklart få en regering på plats”, säger Tobias Baudin, Socialdemokraternas partisekreterare.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329097'",
-      "matched_terms": [
-        "valresultat",
-        "Centerpartiet",
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-10-29T06:03:01.825885+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/ex-partiledarna-sa-troligt-ar-det-att-det-blir-extraval",
-      "title": "Ex-partiledarna: Så troligt är det att det blir extraval",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-10-28",
-      "author": "Cecilia Tiberg",
-      "commentator": "",
-      "summary": "Hur stor är risken att för att regeringsbildningen slutar med ett extraval? Ganska stor, säger de före detta partiledarna Anna Kinberg Batra (M) och Mona Sahlin (S) i Politikbyrån.",
-      "fulltext": "Hur stor är risken att för att regeringsbildningen slutar med ett extraval?\nGanska stor, säger de före detta partiledarna Anna Kinberg Batra (M) och Mona Sahlin (S) i Politikbyrån.\nExtraval var på tapeten när det kärvade i regeringsbildningarna 2014 och 2018 – men kan det bli verklighet den här gången? I veckans Politikbyrån medverkar de två partiveteranerna Mona Sahlin och Anna Kinberg Batra, tillsammans med SVT:s politiska kommentator Mats Knutson.\nBatra tror att det med 60 procents sannolikhet blir ett nyval, medan Mona Sahlin tror på 50 procent. Hon tycker det är konstigt att Socialdemokraterna varit så tysta efter valet.\n– Jag är förvånad över att Socialdemokraterna har varit så passiva, utåt sett i alla fall. Att de inte tagit en mer offentlig och offensiv roll i förhandlingarna och visat det. Jag är bekymrad, säger Mona Sahlin.\nAnna Kinberg Batra var gruppledare för Moderaterna 2014, när Stefan Löfven meddelade att han skulle utlysa nyval.\n– Vi hade ganska många problem då, vi hade ingen partiledare till exempel. Men vi var inte rädda för ett extraval, blir det så får man ta sig an den uppgiften, säger hon.\nMot bakgrund av Moderaternas stigande opinionssiffror efter valet tror hon inte att partiet är rädda för en ny valrörelse den här gången heller.\n– Moderaterna mår nog ganska bra, de kan nog tänka sig ett extraval, säger hon.\nVeckans avsnitt av Politikbyrån hittar du här .\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Israels arabiska partier gör historiska framgångar i valet – och kan bli vågmästare i en svår…",
+      "fulltext": "En banderoll för det arabiska partiet Gemensamma listan i Jaffa. Foto: Mahmud Illian/AP/TT\nIsraels arabiska partier gör historiska framgångar i valet – och kan bli vågmästare i en svår regeringsbildning.\n– De ser ut att nästan dubbla sina mandat i parlamentet, vilket gör det svårare för båda block att bilda regering, säger Israelkännaren Anders Persson.\nDet verkar bli dödläge mellan Israels två block – för eller emot sittande premiärminister Benjamin Netanyahu – i parlamentet knesset. Men vid sidan av dem har ett tredje block växt fram: de arabiska partierna Gemensamma listan och Ra'am.\n– De är en del av det israeliska samhället och vill ha större politiskt inflytande, säger Isabell Schierenbeck, professor i statsvetenskap vid Göteborgs universitet.\n– Gadi Eisenkot (oppositionsledare) blir tvungen att samarbeta med de arabiska partierna eller sätta sig i en samlingsregering med Netanyahu, konstaterar Anders Persson, lektor i statsvetenskap vid Linnéuniversitetet.\nIsrael lyfts ofta fram som Mellanösterns enda demokrati. Att den arabiska minoriteten utökar sina platser i parlamentet är så sett en seger, enligt Persson.\n– Det betraktas som en stor demokratisk framgång när minoritetsgrupper röstar i hög utsträckning.\nInget huvudblock har i valrörelsen öppnat för att samarbeta med arabisraelerna, trots att de ser ut att bli vågmästare. Flest röster på den arabiska sidan fick Gemensamma listan – en samling av tre olika partier.\n– Ett parti är närmast kommunistiskt, och de andra två är nationalistiska, säger Persson.\nRa'am är i sin tur ett konservativt islamistparti och var första arabiska parti att ingå i en israelisk regering, en kort period 2021.\nIsraeler med arabiskt, ofta palestinskt, ursprung utgör drygt 20 procent av befolkningen. Yousef Jabareen, partiledare för Hadash i Gemensamma listan, efterfrågar ett vidgat judiskt-arabiskt samarbete.\n– Man kommer att behöva tala med oss för att säkra vägen till förändring som Israels allmänhet längtar efter, sade han på valdagen.\nYair Golan, ledare för oppositionspartiet Demokraterna, har vädjat om ett sådant samarbete – för att ”tjäna alla” israeler.\n– Han är den ende som sträcker ut en hand, men han står också längst till vänster, säger Persson om Golan.\nYtterligare en komplicerande faktor i regeringsbildningen är Israels krigföring i Gaza och regionen – något de arabiska partierna tros vända sig emot, även om de inte pratar så mycket om det.\nNetanyahustyrets nedskärningar av brottsförebyggande åtgärder i arabisk-israeliska samhällen är ett skäl till de arabiska partiernas uppsving, enligt Isabell Schierenbeck.\n– Kriminaliteten i de här städerna och byarna har gått upp väldigt mycket och antalet dödstal har fullständigt slagit i taket. Människor är extremt oroliga och väldigt förbannade, säger hon.\nIsrael har drygt 10 miljoner invånare, enligt statistik sammanställd 2024.\nSå kallade arabiska israeler utgör 21 procent av befolkningen. Drygt 17 procent har israeliskt medborgarskap och 4 procent bor i östra Jerusalem och har permanent uppehållstillstånd.\nDet finns totalt 163 arabiska lokalstyren i Israel. De två största arabiska städerna är Rahat och Nasaret.\nEn majoritet av de arabiska israeler är muslimer (83,2 procent). Övriga grupper är druser, kristna och beduiner. Många arabiska israeler definierar sig som palestinier, men det varierar.\nIsraels parlament knesset har 120 mandat. Efter tisdagens val ser de arabiska partierna Gemensamma listan och Ra'am ut att tillsammans få 19 mandat. Ingen av de två huvudblocken – premiärminister Benjamin Netanyahus samt ett oppositionellt ”förändringsblock” – ser ut att få egen majoritet (61 mandat).\nKälla: The Israel Democracy Institute, Israels statistiska centralbyrå (CBS).",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "partiledar"
+        "vågmästar"
       ],
-      "first_seen": "2026-10-29T06:03:01.825885+00:00"
+      "first_seen": "2026-10-29T14:22:44.403946+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9330282",
-      "title": "Blandade känslor bland väljarna efter jämnt val i Israel",
+      "url": "https://www.svd.se/a/X9XrVn/regeringsbildningen-far-garna-droja",
+      "title": "Regeringsbildningen får gärna dröja",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-29",
+      "author": "Edward Blom",
+      "commentator": "",
+      "summary": "Var dag av övergångsregering är en trygg dag.",
+      "fulltext": "Varje vecka regeringsbildningen drar ut på tiden, är en vecka i trygghet, med en allt mer erfaren samling ministrar.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nS åväl i pressen som på sociala medier hör man den ena efter den andra borgerliga debattören oja sig över den politiska situationen. De rödgröna presumtiva regeringsbildarna kritiseras som lättsinniga, ansvarslösa och tidsslösande; det fruktas för en urholkning av demokratin och ökat politikerförakt, ses rentav som en fara att staten står still. Till stor del är detta förstås illa dold skadeglädje, men jag upplever ändå att många till höger faktiskt på allvar finner rådande situation problematisk. Fast det är den ju inte alls!\nSanningen är att vi inte kunde ha en trevligare sorts styre än det vi har just nu – och ju längre regeringsbildningsprocessen drar ut på tiden, desto bättre blir det för Sverige.\nHar man den minsta lilla klassiska liberal inom sig så är ju en expeditionsministär det optimala styret. En regering som visserligen lagligt får gripa in – men som av hävd låter bli att göra det, såvida det inte blir krig eller allvarliga kriser. Bildskön laissez-faire! Är det inte så man önskar att det alltid skulle vara? Nu kan vi få leva som vi vill, och näringslivet rusa på utan ständigt nya ändringar av spelreglerna.\nVarje vecka försenad regeringsbildning är en till vecka i trygghet.\nMen även den lille konservative inom en kan vara förnöjd, drömma sig tillbaka till det vackra tankespråk som hängde på studentföreningen Heimdals vägg under studentåren: ”Förändring är förnedring”. När får man annars en politiker att hålla sig tillbakalutad och bara göra små justeringar? En expeditionsministär genomför inga uppslitande reformer, inte åt det håll man vill – men heller inte dit man inte vill. Man vet vad man har, men inte vad man får, så stillastående är ändå bäst... En lugn tid när man kan smutta portvin i gungstolen.\nDärtill, om vi drabbas av en svår ekonomisk kris, än sämre säkerhetsläge eller rentav krig, så har vi ju faktiskt en stabil, pålitlig regering på plats och som i sådana frågor har lika stort utrymme att agera som om den hade vunnit valet. Varje vecka försenad regeringsbildning är en till vecka i trygghet, med en allt erfarnare och mer populär samling ministrar.\nFör något år sedan klagade jag för en god vän, som varit aktiv i politiken, att den borgerliga regeringen knappt fått igenom några av sina vallöften de första åren. ”Först nu börjar det hända bra saker, och om ett år förlorar de säkert makten – och då ändrar väl vänsterregeringen tillbaka allting. Allt kommer att bli som KD:s vårdnadsbidrag 1994!” Min goda vän tog en klunk Pommac, log en aning och förklarade sedan för mig som för ett barn om utredningar, remissrundor, propositioner... I korthet, det tar nästan tre år att genomföra en större reform i Sverige.\nMed det i bakhuvudet är en utdragen regeringsbildning inte bara en trivsam semester, under vilken man kan lindra sin sorg över valförlusten, utan varje vecka den nya regering dröjer innebär en reform mindre. Skulle en rödgrön regering spricka ett knappt år före valet, då koalitionsregeringar alltid är som svagast eftersom partierna måste visa sig ståndaktiga i hjärtefrågor inför väljarna, är regeringsbildningstidens längd helt avgörande. Får en regering bara 2,5 år hinner de knappt genomföra någonting.\nFörra gången, 2018, tog det 134 dagar för dem att få till en regering. Jag håller tummarna att det ska ta ännu längre tid denna gång.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "övergångsregering"
+      ],
+      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9330456",
+      "title": "S och C-väljare missnöjda med hanteringen av regeringsbildningen",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "author": "Ekot",
       "commentator": "",
-      "summary": "De preliminära valresultaten i Israel visar ett jämnt läge mellan blocken. 27-årige Nizan har röstat på Gadi Eisenkot och hoppas på ett regeringsskifte. 70-årige Amos har röstat på mittenvänsterpartiet Demokraterna och vill att oppositionen samarbetar med de arabiska partierna för att bilda regering. 23-åriga Daniella har röstat på Benjamin Netanyahu. Hon tycker att Israel behöver en ledare som är ”lite galen”, och inte är rädd. Men hon väntar med att fira.",
+      "summary": "Socialdemokraternas och Centerpartiets väljare är de som är mest missnöjda med hur partiet de röstade på har hanterat frågan om regeringsbildningen efter valet enligt Indikator Opinion. Nästan var tredje av deras väljare svarar dåligt, vilket är något fler än de som tycker partiet skött det bra. Var femte väljare hos Vänsterpartiet svarar också dåligt men samtidigt tycker även hälften att V hanterat frågan bra. Väljarna hos Miljöpartiet och samtliga Tidöpartier är överlag mer nöjda.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9330282'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9330456'",
       "matched_terms": [
-        "regeringsskifte",
-        "valresultat",
+        "regeringsbildning",
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-10-29T06:03:01.825885+00:00"
+      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/s-toppens-kritik-mot-ledningen-en-forlorande-strategi",
+      "title": "S-toppens kritik mot ledningen: ”En förlorande strategi”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Evelyn Jones, Moa Källström",
+      "commentator": "",
+      "summary": "Det finns en stor oro över S-ledningens sätt att sköta regeringsförhandlingarna. Det säger S-toppen Annie Ross, som efterlyser större ledarskap från Magdalena Andersson. – Den strategi vi har haft är en förlorande strategi, säger hon.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-29 15:22\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-toppens-kritik-mot-ledningen-en-forlorande-strategi/\nDet finns en stor oro över S-ledningens sätt att sköta regeringsförhandlingarna. Det säger S-toppen Annie Ross, som efterlyser större ledarskap från Magdalena Andersson.\n– Den strategi vi har haft är en förlorande strategi, säger hon.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDet har gått över 40 dagar utan att en ny regering är i sikte. Magdalena Andersson har fallit i den hittills enda statsministeromröstningen. I hennes tilltänkta regeringsunderlag finns oförenliga krav där V kräver ministerposter för att stötta en regering, och C har en röd linje mot vänsterpartistiska ministrar.\n– Det här var ju ett högst troligt utfall som partiledningen borde ha varit förberedd på, säger Annie Ross.\nHon är ordförande i Socialdemokraternas största förening Reformisterna där hon möter en stor oro bland sina medlemmar. Bland annat över tystnaden om vad partiledningen vill ha för regering.\n– Som största parti, som ska forma regeringsalternativet, hade jag hoppats att vi skulle visa mer ledarskap om vad vi vill med ett samarbete, inte minst när det kommer till det politiska innehållet.\nAnnie Ross säger att en viss tystnad kan vara naturlig när regeringsförhandlingar pågår.\n– Men det har inte blivit tydligare efter valdagen vad Socialdemokraterna vill med en rödgrön regering och vilken politik man tänker sig att en sådan ska driva. Och medlemmarna lever därför i en stor ovisshet över vad partiledningen vill.\nFör Reformisterna, som består av runt 6 000 vänsterlutande socialdemokrater, gör otydligheten kring vilken politik S vill driva att man minns Januariavtalet med fasa.\n– Då sålde man ut väldigt mycket socialdemokratisk ideologi och politik för regeringsmakten. Och nu är det väldigt många som oroas över att det ska hända igen. Självklart förstår jag att vi måste kompromissa. Men vi måste också vara väldigt tydliga med vad våra politiska röda linjer är.\nAnnie Ross räds också att V:s krav på ministerposter kommer leda till ett för högt politiskt pris i form av en högerlutning: samma misstag som S gjorde vid Januariavtalet.\n– Om regeringsfrågan är den allra viktigaste för Vänsterpartiet oroas jag över att det kommer resultera i att man kommer acceptera mer centerorienterad politik.\nHon anser att partiledningen borde ha pratat ihop sig och byggt det rödgröna laget under hela den förra mandatperioden. Framför allt tycker hon att det är tydligt att S-ledningen hoppades kunna bryta blockpolitiken – och därför inte byggt relationer med Vänsterpartiet.\n– Det tror jag har varit ett misstag. Jag saknar en långsiktig strategi för hur vi ska bygga en progressiv majoritet för oss. Jag är besviken på att vi inte har gjort det långt innan.\nI valet fick Socialdemokraterna strax över 28 procent – en minskning med över två procentenheter jämfört med valet 2022. Annie Ross ser resultatet som ett underkännande av den socialdemokratiska valstrategin.\n– Väldigt många uppfattade oss som otydliga och det har legat oss i fatet. Under den här mandatperioden måste vi göra ett arbete med att återupprätta människors tro på att vi faktiskt håller våra löften och infriar vår politik.\nHon tror att den upplevda otydligheten beror på att S i sin iver att komma till makten försökt anpassa sig för att kunna locka över Tidöväljare.\n– Men den har uppenbarligen inte fungerat. Vi tappar till Tidösidan trots att vår målsättning var att vinna över de väljarna.\nNu oroas hon över att anpassningen ska prägla även regeringsförhandlingarna.\n– Den strategi vi har haft är en förlorande strategi. Om vi låter den strategin permanentas i vad vi förhandlar fram så är jag väldigt orolig för vad det skulle innebära för Socialdemokraterna.\nVad hade du velat se från Magdalena Andersson nu?\n– Jag hade velat att man talade tydligare om vad vi ser som vägen framåt och vad det är för politisk riktning och politiska krav vi har.\nOm S-ledaren inte får ihop en regering vad händer då med partiet?\n– Den bron kommer man få korsa den dagen det sker. Men jag ser inget alternativ än att lösa ut det här, säger Annie Ross.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSkolskjutskaoset drabbar elever med särskilda behov: ”En demokratifråga”\nLedare: Borgerligheten ser ut som hycklare när de ger partivänner välbetalda jobb\nKristersson: Olika uppfattningar om det är dags att tala med Putin",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling"
+      ],
+      "first_seen": "2026-10-29T14:22:44.403946+00:00"
     }
   ]
 }

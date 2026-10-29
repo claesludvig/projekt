@@ -1,29 +1,42 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-29
 
-4 nya poster sedan förra utskicket (38 redan utskickade, 161 utanför ämnet).
+5 nya poster sedan förra utskicket (38 redan utskickade, 153 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Deppa inte! Vi är smartare än Norge](https://www.expressen.se/ledare/ann-charlotte-marteus/deppa-inte-vi-ar-smartare-an-norge)
-Expressen Ledare · 2026-10-29 · ann-charlotte marteus
+### [Talmannen kallar till pressträff](https://www.svd.se/a/0p33lG/valet-2026-sverige-live-senaste-nytt?filter=allt)
+SvD Ledare · 2026-10-29
 
-Regeringskris, skolkris och allmänt elände. Men under eländeshöljet finns ett kärnfriskt Sverige som fortfarande kan konsten att uppfinna framtiden.
+Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.
+Skapa ett kostnadsfritt SvD Bas-konto för att ställa en fråga.
+Källor: C-ledare ställs för statsministeromröstning
+Talmannen Andreas Norlén kommer att ställa C-ledaren Elisabeth Thand Ringqvist för omröstning som statsminister på tisdag, erfar SvD.
+Norlén har kallat till en pressträff vid 15.30 där beskedet väntas meddelas.
+Klockan 15.30 håller talmannen Andreas Norlén pressträff.
+Tidigare idag utlovades besked om nästa steg i regeringsbildningen.
+Besked om nästa steg i regeringsbildningen idag
+Idag kommer talman Andreas Norlé
+
+### [Israels araber nyckelspelare i regeringsbildningen](https://www.svd.se/a/qyqvrE/israels-araber-nyckelspelare-i-regeringsbildningen)
+SvD Ledare · 2026-10-29 · Georgina Harris/TT
+
+Israels arabiska partier gör historiska framgångar i valet – och kan bli vågmästare i en svår…
+
+### [Regeringsbildningen får gärna dröja](https://www.svd.se/a/X9XrVn/regeringsbildningen-far-garna-droja)
+SvD Ledare · 2026-10-29 · Edward Blom
+
+Var dag av övergångsregering är en trygg dag.
 
 ## Rapportering
 
-### [M nästan ikapp S i Indikators oktobermätning](https://www.sverigesradio.se/artikel/9329097)
+### [S och C-väljare missnöjda med hanteringen av regeringsbildningen](https://www.sverigesradio.se/artikel/9330456)
 Ekot, Sveriges Radio · 2026-10-29 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Socialdemokraternas position som största parti hotas i Indikator Opinions oktobermätning där Moderaterna är nästan lika stora som Socialdemokraterna; det skiljer bara 0,7 procentenheter. Moderaterna ökar med 6,5 procentenheter jämfört med valresultatet och vinner både väljarröster från de andra Tidöpartierna och från Centerpartiet och Socialdemokraterna. ”Jag tror att det som speglas i det här, det är en otålighet som väljarna känner och den känner jag också. Jag vill såklart få en regering på plats”, säger Tobias Baudin, Socialdemokraternas partisekreterare.
+Socialdemokraternas och Centerpartiets väljare är de som är mest missnöjda med hur partiet de röstade på har hanterat frågan om regeringsbildningen efter valet enligt Indikator Opinion. Nästan var tredje av deras väljare svarar dåligt, vilket är något fler än de som tycker partiet skött det bra. Var femte väljare hos Vänsterpartiet svarar också dåligt men samtidigt tycker även hälften att V hanterat frågan bra. Väljarna hos Miljöpartiet och samtliga Tidöpartier är överlag mer nöjda.
 
-### [Ex-partiledarna: Så troligt är det att det blir extraval](https://www.svt.se/nyheter/inrikes/ex-partiledarna-sa-troligt-ar-det-att-det-blir-extraval)
-SVT Nyheter · 2026-10-28 · Cecilia Tiberg
+### [S-toppens kritik mot ledningen: ”En förlorande strategi”](https://www.dn.se/sverige/s-toppens-kritik-mot-ledningen-en-forlorande-strategi)
+DN Nyheter · 2026-10-29 · Evelyn Jones, Moa Källström
 
-Hur stor är risken att för att regeringsbildningen slutar med ett extraval? Ganska stor, säger de före detta partiledarna Anna Kinberg Batra (M) och Mona Sahlin (S) i Politikbyrån.
+Det finns en stor oro över S-ledningens sätt att sköta regeringsförhandlingarna. Det säger S-toppen Annie Ross, som efterlyser större ledarskap från Magdalena Andersson. – Den strategi vi har haft är en förlorande strategi, säger hon.
 
-### [Blandade känslor bland väljarna efter jämnt val i Israel](https://www.sverigesradio.se/artikel/9330282)
-Ekot, Sveriges Radio · 2026-10-28 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-De preliminära valresultaten i Israel visar ett jämnt läge mellan blocken. 27-årige Nizan har röstat på Gadi Eisenkot och hoppas på ett regeringsskifte. 70-årige Amos har röstat på mittenvänsterpartiet Demokraterna och vill att oppositionen samarbetar med de arabiska partierna för att bilda regering. 23-åriga Daniella har röstat på Benjamin Netanyahu. Hon tycker att Israel behöver en ledare som är ”lite galen”, och inte är rädd. Men hon väntar med att fira.
-
-_Genererat 2026-10-29T06:03:01.825885+00:00._
+_Genererat 2026-10-29T14:22:44.403946+00:00._
