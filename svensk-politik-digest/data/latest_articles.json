@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-10-29T14:22:44.403946+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-10-30T06:05:09.031059+00:00",
+  "new_count": 13,
   "skipped": {
-    "seen": 38,
-    "offtopic": 153,
+    "seen": 34,
+    "offtopic": 149,
     "old": 14
   },
-  "fetch_errors": 1,
+  "fetch_errors": 5,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 4,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 5,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
@@ -47,7 +47,7 @@
     {
       "name": "Aftonbladet Ledare",
       "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,95 +65,238 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/0p33lG/valet-2026-sverige-live-senaste-nytt?filter=allt",
-      "title": "Talmannen kallar till pressträff",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-29",
-      "author": "",
+      "url": "https://www.svt.se/nyheter/inrikes/chatt-forsta-politikdjungeln-svts-reportrar-svarar",
+      "title": "Chatt: Förstå politikdjungeln – SVT:s reportrar svarar",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-30",
+      "author": "Klara Stefansson",
       "commentator": "",
-      "summary": "",
-      "fulltext": "Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.\nSkapa ett kostnadsfritt SvD Bas-konto för att ställa en fråga.\nKällor: C-ledare ställs för statsministeromröstning\nTalmannen Andreas Norlén kommer att ställa C-ledaren Elisabeth Thand Ringqvist för omröstning som statsminister på tisdag, erfar SvD.\nNorlén har kallat till en pressträff vid 15.30 där beskedet väntas meddelas.\nKlockan 15.30 håller talmannen Andreas Norlén pressträff.\nTidigare idag utlovades besked om nästa steg i regeringsbildningen.\nBesked om nästa steg i regeringsbildningen idag\nIdag kommer talman Andreas Norlén ge besked om nästa steg i regeringsbildningen, skriver SVT.\n\"Det kommer antingen ett pressmeddelande eller en inbjudan till pressträff under dagen\", säger pressekreterare Johanna Holt till SVT.\nI måndags meddelade Centerpartiets Elisabeth Thand Ringqvist, som hade sonderingsuppdraget, att det inte fanns förutsättningar för att bilda en mittenregering.\nI en ny opinionsundersökning från Ekot/Indikator är Socialdemokraterna endast 0,7 procentenheter större än Moderaterna. M ökar med 6,5 procentenheter jämfört med valresultatet, samtidigt som S backar drygt en procentenhet.\nTidöpartiernas stöd i mätningen är 3,5 procentenheter högre än det som S, V, MP och C samlar tillsammans. Samtidigt hamnar L under spärren, på 3,8 procent.\n”Jag tror att det som speglas i det här, det är en otålighet som väljarna känner och den känner jag också. Jag vill såklart få en regering på plats”, säger Socialdemokraternas partisekreterare Tobias Baudin till radion.\nTidigare i oktober stod det klart att Socialdemokraterna och Moderaterna tillsammans ska styra i Gävle. Nykomlingen Maja Ullberg från Socialdemokraterna tar över ordförandeklubban i kommunfullmäktige – och hennes förste vice ordförande är den moderaten Lars Beckman. En veteran i både riksdag och kommunfullmäktige, känd för att vara mycket aktiv på sociala medier där han ofta riktar kritik mot medier och politiska motståndare. ”Det är väl ingen hemlighet att jag är väldigt höger i Moderaterna. Det jag har mött på stan är att väldigt många säger att ‘men nu blir det stabilitet i Gävle´ Så att vi ska leva upp till de förväntningarna såklart\", säger Beckman till P4 Gävleborg .\nAndre vice ordförande är Sverigedemokraten Mattias Eriksson Falk.\nVal 2026 – så bildas en ny regering efter valet",
+      "summary": "Över 40 dagar utan regering och otaliga talmansrundor. Har du svårt att navigera i den något snåriga politikdjungeln? Fråga de som kan den bäst. SVT:s politikreportrar Julia Lindvall och Daniel Ingmo svarar med start 10.00.",
+      "fulltext": "Över 40 dagar utan regering och otaliga talmansrundor.\nHar du svårt att navigera i den något snåriga politikdjungeln? Fråga de som kan den bäst.\nSVT:s politikreportrar Julia Lindvall och Daniel Ingmo svarar med start 10.00.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "talman"
       ],
-      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
     },
     {
-      "url": "https://www.svd.se/a/qyqvrE/israels-araber-nyckelspelare-i-regeringsbildningen",
-      "title": "Israels araber nyckelspelare i regeringsbildningen",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-10-29",
-      "author": "Georgina Harris/TT",
+      "url": "https://www.sverigesradio.se/artikel/9329322",
+      "title": "Motståndet mot V i regering ökar",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-30",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Israels arabiska partier gör historiska framgångar i valet – och kan bli vågmästare i en svår…",
-      "fulltext": "En banderoll för det arabiska partiet Gemensamma listan i Jaffa. Foto: Mahmud Illian/AP/TT\nIsraels arabiska partier gör historiska framgångar i valet – och kan bli vågmästare i en svår regeringsbildning.\n– De ser ut att nästan dubbla sina mandat i parlamentet, vilket gör det svårare för båda block att bilda regering, säger Israelkännaren Anders Persson.\nDet verkar bli dödläge mellan Israels två block – för eller emot sittande premiärminister Benjamin Netanyahu – i parlamentet knesset. Men vid sidan av dem har ett tredje block växt fram: de arabiska partierna Gemensamma listan och Ra'am.\n– De är en del av det israeliska samhället och vill ha större politiskt inflytande, säger Isabell Schierenbeck, professor i statsvetenskap vid Göteborgs universitet.\n– Gadi Eisenkot (oppositionsledare) blir tvungen att samarbeta med de arabiska partierna eller sätta sig i en samlingsregering med Netanyahu, konstaterar Anders Persson, lektor i statsvetenskap vid Linnéuniversitetet.\nIsrael lyfts ofta fram som Mellanösterns enda demokrati. Att den arabiska minoriteten utökar sina platser i parlamentet är så sett en seger, enligt Persson.\n– Det betraktas som en stor demokratisk framgång när minoritetsgrupper röstar i hög utsträckning.\nInget huvudblock har i valrörelsen öppnat för att samarbeta med arabisraelerna, trots att de ser ut att bli vågmästare. Flest röster på den arabiska sidan fick Gemensamma listan – en samling av tre olika partier.\n– Ett parti är närmast kommunistiskt, och de andra två är nationalistiska, säger Persson.\nRa'am är i sin tur ett konservativt islamistparti och var första arabiska parti att ingå i en israelisk regering, en kort period 2021.\nIsraeler med arabiskt, ofta palestinskt, ursprung utgör drygt 20 procent av befolkningen. Yousef Jabareen, partiledare för Hadash i Gemensamma listan, efterfrågar ett vidgat judiskt-arabiskt samarbete.\n– Man kommer att behöva tala med oss för att säkra vägen till förändring som Israels allmänhet längtar efter, sade han på valdagen.\nYair Golan, ledare för oppositionspartiet Demokraterna, har vädjat om ett sådant samarbete – för att ”tjäna alla” israeler.\n– Han är den ende som sträcker ut en hand, men han står också längst till vänster, säger Persson om Golan.\nYtterligare en komplicerande faktor i regeringsbildningen är Israels krigföring i Gaza och regionen – något de arabiska partierna tros vända sig emot, även om de inte pratar så mycket om det.\nNetanyahustyrets nedskärningar av brottsförebyggande åtgärder i arabisk-israeliska samhällen är ett skäl till de arabiska partiernas uppsving, enligt Isabell Schierenbeck.\n– Kriminaliteten i de här städerna och byarna har gått upp väldigt mycket och antalet dödstal har fullständigt slagit i taket. Människor är extremt oroliga och väldigt förbannade, säger hon.\nIsrael har drygt 10 miljoner invånare, enligt statistik sammanställd 2024.\nSå kallade arabiska israeler utgör 21 procent av befolkningen. Drygt 17 procent har israeliskt medborgarskap och 4 procent bor i östra Jerusalem och har permanent uppehållstillstånd.\nDet finns totalt 163 arabiska lokalstyren i Israel. De två största arabiska städerna är Rahat och Nasaret.\nEn majoritet av de arabiska israeler är muslimer (83,2 procent). Övriga grupper är druser, kristna och beduiner. Många arabiska israeler definierar sig som palestinier, men det varierar.\nIsraels parlament knesset har 120 mandat. Efter tisdagens val ser de arabiska partierna Gemensamma listan och Ra'am ut att tillsammans få 19 mandat. Ingen av de två huvudblocken – premiärminister Benjamin Netanyahus samt ett oppositionellt ”förändringsblock” – ser ut att få egen majoritet (61 mandat).\nKälla: The Israel Democracy Institute, Israels statistiska centralbyrå (CBS).",
+      "summary": "Allt färre väljare vill se Vänsterpartiet i regeringen. Runt två av fem säger nu nej till en sådan utveckling. Det visar Indikator Opinions oktobermätning. På bara ett halvår har siffran ökat med cirka 10 procentenheter – från 31 procent i mars till 42 procent nu. Jan Teorell, professor i Statsvetenskap vid Stockholms universitet, tror att utvecklingen kan hänga ihop med den tröga regeringsbildningsprocessen: ”Att det är fler som har fått ögonen på att V hör till de partier som blockerar en regeringsbildning verkar ju inte vara en orimlig tolkning”.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329322'",
+      "matched_terms": [
+        "regeringsbildning",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/susanne-nystrom-det-ar-inte-talmannen-som-agerar-anmarkningsvart",
+      "title": "Susanne Nyström: Det är inte talmannen som agerar ”anmärkningsvärt”",
+      "source": "DN Nyheter",
+      "kind": "kommentar",
+      "published": "2026-10-30",
+      "author": "Susanne Nyström",
+      "commentator": "Susanne Nyström",
+      "summary": "Hur man än vrider och vänder på det är det inte talmannen som agerar mest anmärkningsvärt i regeringsbildningsprocessen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-30 07:05\nArtikelns ursprungsadress: https://www.dn.se/ledare/susanne-nystrom-det-ar-inte-talmannen-som-agerar-anmarkningsvart/\nHur man än vrider och vänder på det är det inte talmannen som agerar mest anmärkningsvärt i regeringsbildningsprocessen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nJust nu pågår någon sorts blame game i regeringsbildningsprocessen.\nMagdalena Andersson (S) och Amanda Lind (MP) pekar på talman Andreas Norlén – och kallar beslutet att på tisdag lägga fram Elisabeth Thand Ringqvist (C) i en statsministeromröstning för ”anmärkningsvärt” ( TV4 29/10 ).\nStatsminister Ulf Kristersson (M) menar i sin tur att ”misslyckandet är helt Magdalena Anderssons ansvar”. Simona Mohamsson (L) skriver på X att S-ledaren är så rädd för riksdagen att den nu får rösta om C. Och källor inom Centern beskriver läget som bisarrt.\nHur vore det om alla inblandade i stället plockade fram en stor portion ödmjukhet?\nFör hur man än vrider och vänder på det är det inte talmannen som agerar mest anmärkningsvärt i den här processen – att påskina det är absurt.\nBakgrunden till beslutet ska vara att både Ulf Kristersson och Magdalena Andersson vägrat att ta på sig sonderingsuppdraget ( Expressen 29/10 ). Sannolikt för att båda tror att de kommer att misslyckas i det här skedet. Och om Thand Ringqvist inte blir statsminister nästa vecka, vilket knappast kommer att ske, går sonderingsturen snart vidare till Kristersson – vars tilltänkta regeringsunderlag samlar färre än 175 mandat och således kommer att förlora en eventuell votering.\nDå återgår vi till frågan om och hur Magdalena Andersson kommer att lyckas samla de partier som betraktar henne som sin statsministerkandidat. Hon borde fokusera mer på det, och mindre på talmannen.\nFör till syvende och sist kokar allt ner till det stora problemet i svensk politik: Det finns ingen tydlig värdegemenskap i riksdagen som har en majoritet av väljarna bakom sig.\nFör det är inte bara Tidölaget som inte lyckas skrapa ihop 50 procent.\nDe rödgröna partierna – S, V och MP – har knappt 43. De borgerliga – M, KD, L och C – drygt 38.\nDe traditionella blocken är alltså inte i närheten av att kunna bilda regering.\nDet öppnar för oheliga allianser – oavsett om man tittar åt höger, vänster eller den mitt som Thand Ringqvist hoppades på. Men fram till nu har partierna avvaktat. Norlén motiverade till och med torsdagens beslut med att många gjort uttalanden om att det kommer att krävas några misslyckade statsministeromröstningar innan det kan börja röra sig.\nVad som händer på den fronten framöver återstår givetvis att se. I dagsläget går det inte att utesluta att det kan komma att bli ett extra val.\nMen på vägen dit bör partierna hålla sig för goda för att peka finger åt Andreas Norlén. Det är inte han som står i vägen för nästa regeringsbildning.\nSusanne Nyström: Så får vi samhällsbärarna att sprida sig över landet\nSusanne Nyström: De fruktansvärda siffrorna talar sitt tydliga språk\nSusanne Nyström: Har ni tänkt på att bibliotekarien i Strömstad kanske gjorde rätt?\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSusanne Nyström: Så får vi samhällsbärarna att sprida sig över landet\nTalmannens överraskande drag: Prövar C-ledaren som statsminister\nSusanne Nyström: De fruktansvärda siffrorna talar sitt tydliga språk",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "vågmästar"
+        "talman"
       ],
-      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
     },
     {
-      "url": "https://www.svd.se/a/X9XrVn/regeringsbildningen-far-garna-droja",
-      "title": "Regeringsbildningen får gärna dröja",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.svt.se/nyheter/inrikes/analys-ologiskt-att-rosta-om-thand-ringqvist",
+      "title": "Analys: ”Ologiskt att rösta om Thand Ringqvist”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
       "published": "2026-10-29",
-      "author": "Edward Blom",
-      "commentator": "",
-      "summary": "Var dag av övergångsregering är en trygg dag.",
-      "fulltext": "Varje vecka regeringsbildningen drar ut på tiden, är en vecka i trygghet, med en allt mer erfaren samling ministrar.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nS åväl i pressen som på sociala medier hör man den ena efter den andra borgerliga debattören oja sig över den politiska situationen. De rödgröna presumtiva regeringsbildarna kritiseras som lättsinniga, ansvarslösa och tidsslösande; det fruktas för en urholkning av demokratin och ökat politikerförakt, ses rentav som en fara att staten står still. Till stor del är detta förstås illa dold skadeglädje, men jag upplever ändå att många till höger faktiskt på allvar finner rådande situation problematisk. Fast det är den ju inte alls!\nSanningen är att vi inte kunde ha en trevligare sorts styre än det vi har just nu – och ju längre regeringsbildningsprocessen drar ut på tiden, desto bättre blir det för Sverige.\nHar man den minsta lilla klassiska liberal inom sig så är ju en expeditionsministär det optimala styret. En regering som visserligen lagligt får gripa in – men som av hävd låter bli att göra det, såvida det inte blir krig eller allvarliga kriser. Bildskön laissez-faire! Är det inte så man önskar att det alltid skulle vara? Nu kan vi få leva som vi vill, och näringslivet rusa på utan ständigt nya ändringar av spelreglerna.\nVarje vecka försenad regeringsbildning är en till vecka i trygghet.\nMen även den lille konservative inom en kan vara förnöjd, drömma sig tillbaka till det vackra tankespråk som hängde på studentföreningen Heimdals vägg under studentåren: ”Förändring är förnedring”. När får man annars en politiker att hålla sig tillbakalutad och bara göra små justeringar? En expeditionsministär genomför inga uppslitande reformer, inte åt det håll man vill – men heller inte dit man inte vill. Man vet vad man har, men inte vad man får, så stillastående är ändå bäst... En lugn tid när man kan smutta portvin i gungstolen.\nDärtill, om vi drabbas av en svår ekonomisk kris, än sämre säkerhetsläge eller rentav krig, så har vi ju faktiskt en stabil, pålitlig regering på plats och som i sådana frågor har lika stort utrymme att agera som om den hade vunnit valet. Varje vecka försenad regeringsbildning är en till vecka i trygghet, med en allt erfarnare och mer populär samling ministrar.\nFör något år sedan klagade jag för en god vän, som varit aktiv i politiken, att den borgerliga regeringen knappt fått igenom några av sina vallöften de första åren. ”Först nu börjar det hända bra saker, och om ett år förlorar de säkert makten – och då ändrar väl vänsterregeringen tillbaka allting. Allt kommer att bli som KD:s vårdnadsbidrag 1994!” Min goda vän tog en klunk Pommac, log en aning och förklarade sedan för mig som för ett barn om utredningar, remissrundor, propositioner... I korthet, det tar nästan tre år att genomföra en större reform i Sverige.\nMed det i bakhuvudet är en utdragen regeringsbildning inte bara en trivsam semester, under vilken man kan lindra sin sorg över valförlusten, utan varje vecka den nya regering dröjer innebär en reform mindre. Skulle en rödgrön regering spricka ett knappt år före valet, då koalitionsregeringar alltid är som svagast eftersom partierna måste visa sig ståndaktiga i hjärtefrågor inför väljarna, är regeringsbildningstidens längd helt avgörande. Får en regering bara 2,5 år hinner de knappt genomföra någonting.\nFörra gången, 2018, tog det 134 dagar för dem att få till en regering. Jag håller tummarna att det ska ta ännu längre tid denna gång.",
+      "author": "Mats Knutson",
+      "commentator": "Mats Knutson",
+      "summary": "Att C-ledaren Elisabeth Thand Ringqvist nu ska ställas inför en statsministeromröstning i riksdagen är inte bara ologiskt, utan visar också tydligt att läget i regeringsfrågan är lika låst som förut.",
+      "fulltext": "Att C-ledaren Elisabeth Thand Ringqvist nu ska ställas inför en statsministeromröstning i riksdagen är inte bara ologiskt, utan visar också tydligt att läget i regeringsfrågan är lika låst som förut.\nElisabeth Thand Ringqvist (C) fick uppdraget att sondera för en mittenregering med S-ledaren Magdalena Andersson som statsminister.\nSonderingsuppdraget misslyckades, men talmannen Andreas Norlén vill ändå ha en statsministeromröstning, dock inte om Magdalena Andersson, som varit mer logiskt, utan om Elisabeth Thand Ringqvist.\nOmröstningen är dömd att misslyckas och missnöjet med talmannen växer nu bland flera partier i riksdagen.\nInom S och MP anser man att talmannen i stället borde ha gett ett nytt sonderingsuppdrag till M-ledaren Ulf Kristersson, men att han avstått från detta av partitaktiska skäl.\nAtt ställa Elisabeth Thand Ringqvist inför en statsministeromröstning innebär att den mittenregering centerpartisterna talat om nu prövas i botten, också formellt.\nTanken är att detta ska sätta ökad press på partierna att ta steg framåt i regeringsbildningen.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning",
-        "övergångsregering"
+        "regeringsfråg",
+        "statsminister"
       ],
-      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9330456",
-      "title": "S och C-väljare missnöjda med hanteringen av regeringsbildningen",
+      "url": "https://www.svt.se/nyheter/inrikes/rodgron-ilska-efter-beskedet-c-kalla-farsartat",
+      "title": "Rödgrön ilska efter beskedet – C-källa: ”Farsartat”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Erik Nilsson",
+      "commentator": "",
+      "summary": "Rödgröna partiledare rasar mot talmannens besked om att pröva C-ledaren Elisabeth Thand Ringqvist i en statsministeromröstning. Magdalena Andersson (S) kallar beslutet för ”anmärkningsvärt” – och inom C pyr missnöjet. – Alla tycker att det här är väldigt konstigt, säger en C-källa till SVT.",
+      "fulltext": "Rödgröna partiledare rasar mot talmannens besked om att pröva C-ledaren Elisabeth Thand Ringqvist i en statsministeromröstning.\nMagdalena Andersson (S) kallar beslutet för ”anmärkningsvärt” – och inom C pyr missnöjet.\n– Alla tycker att det här är väldigt konstigt, säger en C-källa till SVT.\nTalmannen meddelade på torsdagen att han kommer att pröva C-ledaren Elisabeth Thand Ringqvist i en statsministeromröstning.\nS-ledaren Magdalena Andersson säger i en kommentar till SVT att det rimliga hade varit att låta Ulf Kristersson sondera för ett högerregering.\n”Det är anmärkningsvärt att talmannen vill genomföra en omröstning om en person som inte sonderat för att själv bli statsminister och med ett regeringsunderlag som flera partier inte vill ingå i.” skriver hon.\nÄven Miljöpartiets språkrör Amanda Lind kallar beslutet för ”anmärkningsvärt” och hade önskat att sonderingsuppdraget gått till Kristersson.\n”Ett beslut som riskerar att fördröja regeringsbildningen ytterligare”, skriver hon till SVT.\nC-ledaren Elisabeth Thand Ringqvist har accepterat talmannens beslut, men skriver samtidigt i en kommentar till SVT att hon hellre hade sett att ”talmannen nu föreslog Magdalena Andersson som statsminister eller gav Ulf Kristersson möjlighet att sondera”.\nFlera personer inom Centerpartiet, som SVT har pratat med, är kritiska till att pröva Thand Ringqvist som statsminister.\n– Alla tycker att det här är väldigt konstigt, säger en C-källa till SVT.\nEn annan C-källa beskriver talmannens besked som ”farstartat”.\nV-ledaren Nooshi Dadgostar uttrycker inte samma kritik. I en kommentar till SVT skriver hon att ”beslutet är talmannens”.\n”Jag tolkar det som att han vill få Centerns mittenalternativ ordentligt utrett genom en omröstning i kammaren. Med ett tydligt avslut för det alternativet kan processen tas vidare till nästa steg”, skriver hon.\nOm Thand Ringqvist som väntat faller i omröstningen på tisdag går sonderingsuppdraget direkt till nuvarande statsminister Ulf Kristersson (M), meddelade talmannen. Skulle fyra statsministeromröstningar misslyckas blir det extraval.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "statsminister",
+        "partiledar"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/talmannens-besked-statsministeromrostning-om-elisabeth-thand-ringqvist-c",
+      "title": "Talmannens besked: Statsministeromröstning om Elisabeth Thand Ringqvist (C)",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Thea Mossige-Norheim, Julia Lindvall",
+      "commentator": "",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist kommer att prövas i en statsministeromröstning nästa vecka. Om hon faller blir det M-ledaren Ulf Kristersson som får sonderingsuppdraget av talmannen. – Genom att vi genomför en statsministeromröstning så kommer vi närmare extravalet och då ökar ju pressen på alla inblandade partier, säger Andreas Norlén (M).",
+      "fulltext": "C-ledaren Elisabeth Thand Ringqvist kommer att prövas i en statsministeromröstning nästa vecka.\nOm hon faller blir det M-ledaren Ulf Kristersson som får sonderingsuppdraget av talmannen.\n– Genom att vi genomför en statsministeromröstning så kommer vi närmare extravalet och då ökar ju pressen på alla inblandade partier, säger Andreas Norlén (M).\nDet blir en statsministeromröstning om C-ledaren Elisabeth Thand Ringqvist på tisdag, meddelar talmannen.\nDet blir den andra statsministeromröstningen efter valet och handlar om att hålla tempot uppe i processen, säger han.\nAndreas Norlén räknar dock med att C-ledaren faller i omröstningen och hon har själv varit tydlig med att hon själv inte avser att bli statsminister. Talmannen får föreslå högst fyra olika kandidater för riksdagen innan det måste bli extraval. Det är nu 46 dagar sedan valet.\n– Ibland så kan jag tycka att det raljeras lite över situationen, men jag har stor respekt för att partierna står inför svåra val, säger Andreas Norlén under en pressträff om den utdragna processen.\nFör två veckor sedan röstades S-ledaren Magdalena Andersson ned i en omröstning om henne som statsminister i en socialdemokratisk enpartiregering.\nDe röda linjerna mellan C och V står av allt att döma fast.\nEfter att sonderingsuppdraget sedan gick till Elisabeth Thand Ringqvist (C) meddelade hon i veckan att det saknas parlamentariskt stöd för en mittenregering.\nEfter talmannens nya besked skriver hon i en kommentar till SVT:\n”Centerpartiet kommer fortsatt att ta ansvar och bidra konstruktivt till att Sverige får en regering. Därför har jag accepterat att prövas som statsministerkandidat för en mittenregering bestående av Centerpartiet, Socialdemokraterna, Kristdemokraterna, Miljöpartiet och Liberalerna.”\nOm Thand Ringqvist som väntat faller på tisdag går sonderingsuppdraget direkt till nuvarande statsminister Ulf Kristersson (M), meddelar talmannen.\nHan får en vecka på sig att sondera, till den 10 november. Men talmannen har ännu inte bestämt om det blir en statsministeromröstning om honom direkt efter det.\n– Om den också genomförs, då har vi bara en kvar. Det innebär att det finns skäl att vara lite varsam med den tredje omröstningen. Det är naturligt att om Ulf Kristersson kommer tillbaka och inte har lyckats med en regeringsbildning, att jag innan vi går till en tredje omröstning, hör mig för också med den rödgröna sidan om man där har kommit längre, säger Andreas Norlén.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "sondering",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9330962",
+      "title": "Mindre skillnader i skolpeng föreslås för gymnasiet",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-29",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Socialdemokraternas och Centerpartiets väljare är de som är mest missnöjda med hur partiet de röstade på har hanterat frågan om regeringsbildningen efter valet enligt Indikator Opinion. Nästan var tredje av deras väljare svarar dåligt, vilket är något fler än de som tycker partiet skött det bra. Var femte väljare hos Vänsterpartiet svarar också dåligt men samtidigt tycker även hälften att V hanterat frågan bra. Väljarna hos Miljöpartiet och samtliga Tidöpartier är överlag mer nöjda.",
+      "summary": "Regeringen vill att det ska bli mindre skillnad i hur mycket skolpeng bland annat kommunala och fristående gymnasieskolor kan få. Det enligt en utredning som presenterades under torsdagen. Den föreslår bland annat att riksprislistan, som styr hur mycket pengar en skola ska få per elev, ska anpassas efter elevens studieförmåga, och samordnas mer mellan kommuner. Men förslaget kan inte klubbas nu. ”Min ambition är att kunna skicka ut det här på remiss men det är en övergångsregering, vi får inte ta ny politik”, säger utbildningsminister Simona Mohamsson (L).",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9330456'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9330962'",
       "matched_terms": [
-        "regeringsbildning",
-        "Centerpartiet",
-        "Miljöpartiet",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
+        "övergångsregering"
       ],
-      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/s-toppens-kritik-mot-ledningen-en-forlorande-strategi",
-      "title": "S-toppens kritik mot ledningen: ”En förlorande strategi”",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9331067",
+      "title": "Netanyahus Likud anklagar arabiska partier för valfusk",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-10-29",
-      "author": "Evelyn Jones, Moa Källström",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Det finns en stor oro över S-ledningens sätt att sköta regeringsförhandlingarna. Det säger S-toppen Annie Ross, som efterlyser större ledarskap från Magdalena Andersson. – Den strategi vi har haft är en förlorande strategi, säger hon.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-29 15:22\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-toppens-kritik-mot-ledningen-en-forlorande-strategi/\nDet finns en stor oro över S-ledningens sätt att sköta regeringsförhandlingarna. Det säger S-toppen Annie Ross, som efterlyser större ledarskap från Magdalena Andersson.\n– Den strategi vi har haft är en förlorande strategi, säger hon.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDet har gått över 40 dagar utan att en ny regering är i sikte. Magdalena Andersson har fallit i den hittills enda statsministeromröstningen. I hennes tilltänkta regeringsunderlag finns oförenliga krav där V kräver ministerposter för att stötta en regering, och C har en röd linje mot vänsterpartistiska ministrar.\n– Det här var ju ett högst troligt utfall som partiledningen borde ha varit förberedd på, säger Annie Ross.\nHon är ordförande i Socialdemokraternas största förening Reformisterna där hon möter en stor oro bland sina medlemmar. Bland annat över tystnaden om vad partiledningen vill ha för regering.\n– Som största parti, som ska forma regeringsalternativet, hade jag hoppats att vi skulle visa mer ledarskap om vad vi vill med ett samarbete, inte minst när det kommer till det politiska innehållet.\nAnnie Ross säger att en viss tystnad kan vara naturlig när regeringsförhandlingar pågår.\n– Men det har inte blivit tydligare efter valdagen vad Socialdemokraterna vill med en rödgrön regering och vilken politik man tänker sig att en sådan ska driva. Och medlemmarna lever därför i en stor ovisshet över vad partiledningen vill.\nFör Reformisterna, som består av runt 6 000 vänsterlutande socialdemokrater, gör otydligheten kring vilken politik S vill driva att man minns Januariavtalet med fasa.\n– Då sålde man ut väldigt mycket socialdemokratisk ideologi och politik för regeringsmakten. Och nu är det väldigt många som oroas över att det ska hända igen. Självklart förstår jag att vi måste kompromissa. Men vi måste också vara väldigt tydliga med vad våra politiska röda linjer är.\nAnnie Ross räds också att V:s krav på ministerposter kommer leda till ett för högt politiskt pris i form av en högerlutning: samma misstag som S gjorde vid Januariavtalet.\n– Om regeringsfrågan är den allra viktigaste för Vänsterpartiet oroas jag över att det kommer resultera i att man kommer acceptera mer centerorienterad politik.\nHon anser att partiledningen borde ha pratat ihop sig och byggt det rödgröna laget under hela den förra mandatperioden. Framför allt tycker hon att det är tydligt att S-ledningen hoppades kunna bryta blockpolitiken – och därför inte byggt relationer med Vänsterpartiet.\n– Det tror jag har varit ett misstag. Jag saknar en långsiktig strategi för hur vi ska bygga en progressiv majoritet för oss. Jag är besviken på att vi inte har gjort det långt innan.\nI valet fick Socialdemokraterna strax över 28 procent – en minskning med över två procentenheter jämfört med valet 2022. Annie Ross ser resultatet som ett underkännande av den socialdemokratiska valstrategin.\n– Väldigt många uppfattade oss som otydliga och det har legat oss i fatet. Under den här mandatperioden måste vi göra ett arbete med att återupprätta människors tro på att vi faktiskt håller våra löften och infriar vår politik.\nHon tror att den upplevda otydligheten beror på att S i sin iver att komma till makten försökt anpassa sig för att kunna locka över Tidöväljare.\n– Men den har uppenbarligen inte fungerat. Vi tappar till Tidösidan trots att vår målsättning var att vinna över de väljarna.\nNu oroas hon över att anpassningen ska prägla även regeringsförhandlingarna.\n– Den strategi vi har haft är en förlorande strategi. Om vi låter den strategin permanentas i vad vi förhandlar fram så är jag väldigt orolig för vad det skulle innebära för Socialdemokraterna.\nVad hade du velat se från Magdalena Andersson nu?\n– Jag hade velat att man talade tydligare om vad vi ser som vägen framåt och vad det är för politisk riktning och politiska krav vi har.\nOm S-ledaren inte får ihop en regering vad händer då med partiet?\n– Den bron kommer man få korsa den dagen det sker. Men jag ser inget alternativ än att lösa ut det här, säger Annie Ross.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSkolskjutskaoset drabbar elever med särskilda behov: ”En demokratifråga”\nLedare: Borgerligheten ser ut som hycklare när de ger partivänner välbetalda jobb\nKristersson: Olika uppfattningar om det är dags att tala med Putin",
+      "summary": "Nästan alla röster är räknade i valet i Israel, men inget block ser ut att få egen majoritet. Netanyahus block får 53 mandat, oppositionen 48 och de arabiska partierna 19, vilket öppnar för svåra regeringsförhandlingar och flera möjliga lösningar. Samtidigt anklagar Netanyahus parti, Likud, de arabiska partierna för valfusk, medan oppositionen avfärdar uppgifterna som fult spel.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9331067'",
       "matched_terms": [
         "regeringsförhandling"
       ],
-      "first_seen": "2026-10-29T14:22:44.403946+00:00"
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9330984",
+      "title": "Fredrik Furtenbach: Talmannen är i ett väldigt svårt läge",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist ska prövas i en statsministeromröstning på tisdag, meddelade talmannen Andreas Norlén (M) på en pressträff. Ekots inrikespolitiska kommentator Fredrik Furtenbach säger att beskedet är klart överraskande. ”Jag tolkar det här som ett uttryck för att talmannen är i ett väldigt svårt läge, han är i korstryck. Varken Magdalena Andersson eller Ulf Kristersson har velat ha omröstningar om sig själva som statsministrar i det här läget, och det har lett till det här udda förslaget”, säger Fredrik Furtenbach.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9330984'",
+      "matched_terms": [
+        "talman",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9330904",
+      "title": "C-ledaren ska prövas i statsministeromröstning",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiets partiledare Elisabeth Thand Ringqvist ska prövas i en statsministeromröstning på tisdag, 3 november, klockan 13. Det säger talman Andreas Norlén (M) på en pressträff på torsdagen. C-ledaren har gått med på att vara kandidat trots att hon inte själv sonderat med ambitionen att bli statsminister, säger talmannen. Om Thand Ringqvist inte väljs på tisdag får Kristersson uppdraget att sondera, säger talmannen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9330904'",
+      "matched_terms": [
+        "talman",
+        "statsminister",
+        "partiledar",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-sanningens-minut-for-thand-ringqvist",
+      "title": "Tomas Ramberg: Sanningens minut för Thand Ringqvist",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Talmannen vill en gång för alla få bort Centerns tänkta mittenregering från regeringsbildningen. För att stampa in budskapet ber han riksdagen rösta ner centerledarens förslag. Nu sitter Elisabeth Thand Ringqvist med Svarte Petter i spelet om regeringen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-30 07:05\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-sanningens-minut-for-thand-ringqvist/\nTalmannen vill en gång för alla få bort Centerns tänkta mittenregering från regeringsbildningen. För att stampa in budskapet ber han riksdagen rösta ner centerledarens förslag.\nNu sitter Elisabeth Thand Ringqvist med Svarte Petter i spelet om regeringen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDe senaste dagarna har talman Andreas Norlén fått kritik för att vara sölig. Men på torsdagen tryckte han ordentligt på gaspedalen. Redan om tre veckor kan vi stå inför den ödesmättade fjärde statsministeromröstning som – om den misslyckas – automatiskt skapar ett extra val.\nPå tisdag kommer centerledaren Elisabeth Thand Ringqvist med all sannolikhet att röstas ner av riksdagen och direkt efter det får Ulf Kristersson en vecka på sig att reda ut – den nästan lika osannolika – möjligheten att bilda en ny högerregering.\nCenterpartiet värjer sig energiskt mot beskrivningen att det är C som avgör om det blir extraval eller inte. Enligt Elisabeth Thand Ringqvist har hennes parti redan gjort alla förflyttningar som kan göras för att underlätta regeringsbildningen. Hon vill i stället att andra partier ska flytta på sig.\nMen politik handlar inte om vad man vill, utan om vad som är möjligt. Frågan är vad som går att uträtta inom de ramar som andra har satt upp, ramar som det egna partiet inte kan rucka på.\nDet finns i den pågående regeringsbildningen åtminstone två omständigheter som Centern tvingas förhålla sig till.\nFör det första finns det ingen majoritet för ett mittenalternativ. På tisdag kommer riksdagen att pränta in detta faktum i ett omröstningsprotokoll. Så länge Centern inte vill samarbeta med SD finns bara ett regeringsunderlag – och det är S, V, C och MP.\nFör det andra står Vänsterpartiet fast vid att stoppa alla regeringar partiet inte ingår i. Det finns inga tecken på sprickor i V, partistyrelsen och riksdagsgruppen står enade och partikongressens överväldigande majoritet har tagit ett tvingande beslut.\nNooshi Dadgostars linje har dessutom belönats av väljarna. Partiet gick fram mest av alla i en valrörelse där ingen kunde missa Dadgostars hållning. Efter valet har den upprepats dagligen. När opinionsföretaget Indikator frågar Vänsterpartiets väljare hur V hanterat regeringsfrågan efter valet är svaret mestadels positivt. Alla har hört partiets vice ordförande Ida Gabrielsson gång på gång gnugga in budskapet att ”alla ska med”.\nVarken Centern eller Socialdemokraterna gillar V:s ställningstagande, men tvingas förhålla sig till det. För S gör det trots allt mindre ont än ett nytt val, att rädda regeringsmakten kommer först. Dessutom skulle inte V:s uppfattning förändras i ett extra val – tvärtom skulle ett sånt val helt domineras av regeringsfrågan. Valet skulle stå mellan en M-ledd regering med SD och en S-ledd regering med V.\nI ett sådant val riskerar Centern att bli ovidkommande och hamna utanför diskussionen. Vad ska Thand Ringqvist gå till val på? Att vika sig för V eller SD vore lite senkommet. Återstår att än en gång begära väljarnas stöd för en mittenregering. Men den här gången med förslösad trovärdighet.\nMycket talar alltså för att S och C behöver hitta en reträttväg som räddar ansiktet på alla, en lösning där Centern kan visa upp politiska segrar för det egna partiet och samtidigt peka på att Vänsterpartiet tvingats vika sig i känsliga frågor. Dadgostars parti kommer att behöva acceptera en hel del förödmjukande eftergifter för att få några platser i regeringen.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nStatsvetaren om talmannens tempo: Ökar sannolikheten för extra val\nTalmannens överraskande drag: Prövar C-ledaren som statsminister\nS-toppens kritik mot ledningen: ”En förlorande strategi”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/c-ledaren-ska-provas-som-statsminister-det-finns-andra-mojliga-vagar-framat",
+      "title": "Talmannens överraskande drag: Prövar C-ledaren som statsminister",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-10-29",
+      "author": "Rebecka Rosengart, Pia Gripenberg, Hans Olsson, Evelyn Jones, Daniel Costantini",
+      "commentator": "",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist kommer att prövas i en statsministeromröstning på tisdag i nästa vecka. Detta trots att hon egentligen inte vill ha uppdraget. – Det hade varit bättre om vi hade kunnat gå till omröstning med en kandidat som uppenbart hade kunnat bli vald, säger talman Andreas Norlén.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-30 07:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/c-ledaren-ska-provas-som-statsminister-det-finns-andra-mojliga-vagar-framat/\nC-ledaren Elisabeth Thand Ringqvist kommer att prövas i en statsministeromröstning på tisdag i nästa vecka. Detta trots att hon egentligen inte vill ha uppdraget.\n– Det hade varit bättre om vi hade kunnat gå till omröstning med en kandidat som uppenbart hade kunnat bli vald, säger talman Andreas Norlén.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "statsminister"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
+    },
+    {
+      "url": "https://www.aftonbladet.se/ledare/a/vlqkqp/nu-behover-aven-ni-lagga-pa-ett-kol-s",
+      "title": "Nu behöver även ni lägga på ett kol, S",
+      "source": "Aftonbladet Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-29",
+      "author": "Frida Dunell",
+      "commentator": "",
+      "summary": "FRIDA DUNELL Sonderingspingisen kan sluta i katastrof",
+      "fulltext": "Aftonbladets ledarsida är oberoende socialdemokratisk.\nRegeringsbildningen rör sig i snigelfart.\nElisabeth Thand Ringqvist misslyckades att ena den mytomspunna politiska ”mitten” och lämnade tillbaka uppdraget i måndags. Röda linjer härs och tvärs satte stopp för Centerns dröm.\nEfter det följde en knäpptyst vecka. Kanske var alla på höstlov?\nI dag kallade talmannen äntligen till pressträff. Beskedet var lite oväntat.\nElisabeth Thand Ringqvist ska prövas som statsminister nästa vecka. Trots att hon inte ens sonderat för det. Förhoppningen är att det får saker att röra på sig i ett väldigt låst politiskt läge, menar talmannen. Efter prövningen återstår bara två statsministeromröstningar innan det är kört.\nEfter omröstningen på tisdag kommer Ulf Kristersson få sonderingsuppdraget. Han får en vecka på sig. Det meddelar talmannen redan nu.\nTrots att 46 dagar redan har passerat sedan valdagen står det helt stilla. Varken Vänsterpartiet eller Centern har flyttat sina röda linjer en millimeter. Formellt har de rödgröna partierna fortfarande inte träffats tillsammans och förhandlat – varken ministerposter eller sakpolitik.\nDet är bara att hoppas på att saker händer bakom kulisserna.\nLåsningen har lett till att förtroendet för Magdalena Andersson rasar . Hon har intagit en ganska passiv roll i förhandlingarna, något som förvånar den före detta S-ledaren Mona Sahlin.\n– Jag är bekymrad, sade hon i SVT:s Politikbyrån.\nOch Moderaterna bara ökar. Enligt Indikator Opinions senaste mätning är högerpartiet nästan lika stora som S – bara 0,7 procent skiljer dem emellan. I valet var avståndet 8,2 procent.\nUnder valnatten pratades det om ett mandatpingis mellan de två blocken. Frågan är om vi nu hamnat mitt i ett sonderingspingis? Uppdraget hoppar fram och tillbaka, men ingen lyckas få ihop det och bollen studsar vidare.\nOm de rödgröna inte lyckas med en smash snart brakar hela bordtennisbordet ihop. Väljarnas mandat blir meningslösa och regeringsbildningen misslyckas. Det blir extraval.\nNågot som beräknas kosta minst 630 miljoner av skattebetalarnas pengar.\nHär är en lista med saker som hade varit roligare att spendera pengar på: Elbilspremier, havsbaserad vindkraft, nya stambanor, grönt stål, batterier och solceller, välfärd och fler bostäder.\nVisst krävs det att C och V plockar fram sina suddgummin och justerar de röda linjerna om detta ska gå ihop, som Magdalena Andersson tidigare uttryckte det. Men S behöver också lägga på ett kol och samla partierna.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "sondering"
+      ],
+      "first_seen": "2026-10-30T06:05:09.031059+00:00"
     }
   ]
 }
