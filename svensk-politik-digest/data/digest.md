@@ -1,74 +1,56 @@
 # Svensk politik och regeringsförhandlingarna — 2026-10-30
 
-13 nya poster sedan förra utskicket (34 redan utskickade, 149 utanför ämnet).
+9 nya poster sedan förra utskicket (42 redan utskickade, 141 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Susanne Nyström: Det är inte talmannen som agerar ”anmärkningsvärt”](https://www.dn.se/ledare/susanne-nystrom-det-ar-inte-talmannen-som-agerar-anmarkningsvart) **[kommentator]**
-DN Nyheter · 2026-10-30 · Susanne Nyström
+### [Åkesson om bråket: ”Då får man starta blogg”](https://www.svd.se/a/77rPdo/jimmie-akesson-om-sd-s-brak-om-svenskhet-mellan-mattias-karlsson-och-richard-jomshof)
+SvD Ledare · 2026-10-30 · Oskar Carlsson
 
-Hur man än vrider och vänder på det är det inte talmannen som agerar mest anmärkningsvärt i regeringsbildningsprocessen.
+Sverigedemokraternas partiledare Jimmie Åkesson uttalar sig nu om partiets interna bråk om svenskhet.
 
-### [Nu behöver även ni lägga på ett kol, S](https://www.aftonbladet.se/ledare/a/vlqkqp/nu-behover-aven-ni-lagga-pa-ett-kol-s)
-Aftonbladet Ledare · 2026-10-29 · Frida Dunell
+### [Åkesson om SD-bråket: ”Extremt provocerande”](https://www.svd.se/a/zlqJn4/akesson-extremt-provocerande)
+SvD Ledare · 2026-10-30 · TT
 
-FRIDA DUNELL Sonderingspingisen kan sluta i katastrof
+SD:s partiledare Jimmie Åkesson ryter ifrån i det pågående bråket inom partiet om vad som definierar…
+
+### [Andersson har något att lära av Åkesson](https://www.expressen.se/ledare/andersson-har-nagot-att-lara-av-akesson)
+Expressen Ledare · 2026-10-30 · ledarredaktionen
+
+Jimmie Åkesson ger sig in i Sverigedemokraternas internbråk. Utan markeringen från partiledaren hade SD:s framtid hängt på en skör tråd.
+
+### [Norléns chockdrag är precis vad som behövs](https://www.expressen.se/ledare/norlens-chockdrag-ar-precis-vad-som-behovs)
+Expressen Ledare · 2026-10-29 · ledarredaktionen
+
+Det är en smula märkligt att rösta om Elisabeth Thand Ringqvist som statsminister. Men talmannen gör rätt som sparkar partiledarna i baken.
 
 ## Rapportering
 
-### [Chatt: Förstå politikdjungeln – SVT:s reportrar svarar](https://www.svt.se/nyheter/inrikes/chatt-forsta-politikdjungeln-svts-reportrar-svarar)
-SVT Nyheter · 2026-10-30 · Klara Stefansson
+### [Jimmie Åkesson (SD) sätter ner foten – efter det interna bråket](https://www.svt.se/nyheter/inrikes/jimmie-akesson-sd-satter-ner-foten-efter-det-interna-braket)
+SVT Nyheter · 2026-10-30 · Gustav Motte
 
-Över 40 dagar utan regering och otaliga talmansrundor. Har du svårt att navigera i den något snåriga politikdjungeln? Fråga de som kan den bäst. SVT:s politikreportrar Julia Lindvall och Daniel Ingmo svarar med start 10.00.
+Sedan valet har Sverigedemokraterna präglats av en infekterad debatt om svenskhet. Nu sätter partiledaren Jimmie Åkesson ned foten i partikonflikten. Han slår fast att man enligt partiet kan bli svensk utan att vara född i Sverige och att företrädare ska stå bakom principen. ”Annars får man kliva av, eller bli avslängd”, skriver SD-ledaren i en debattartikel i Expressen.
 
-### [Motståndet mot V i regering ökar](https://www.sverigesradio.se/artikel/9329322)
+### [Intern S-kritik mot strategin: ”Ett jättestort misstag”](https://www.svt.se/nyheter/inrikes/intern-s-kritik-mot-strategin-ett-jattestort-misstag)
+SVT Nyheter · 2026-10-30 · Erik Nilsson, Julia Lindvall
+
+Sverige står fortfarande utan ny regering. Inom de rödgröna partierna växer nu frustrationen mot S-ledaren Magdalena Anderssons hantering av regeringsbildningen, uppger källor för SVT. – Jag förstår verkligen Vänsterpartiets känslor och att de har känt sig lurade, säger S-profilen Annie Ross.
+
+### [Fredrik Furtenbach: Jimmie Åkesson ser tydligt arg ut](https://www.sverigesradio.se/artikel/9331509) **[kommentator]**
 Ekot, Sveriges Radio · 2026-10-30 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Allt färre väljare vill se Vänsterpartiet i regeringen. Runt två av fem säger nu nej till en sådan utveckling. Det visar Indikator Opinions oktobermätning. På bara ett halvår har siffran ökat med cirka 10 procentenheter – från 31 procent i mars till 42 procent nu. Jan Teorell, professor i Statsvetenskap vid Stockholms universitet, tror att utvecklingen kan hänga ihop med den tröga regeringsbildningsprocessen: ”Att det är fler som har fått ögonen på att V hör till de partier som blockerar en regeringsbildning verkar ju inte vara en orimlig tolkning”.
+Inom Sverigedemokraterna rasar just nu en debatt om vem som egentligen är svensk, men i en debattartikel i Expressen idag skriver partiledaren Jimmie Åkesson att den diskussionen inte hör hemma i partiet. Fredrik Furtenbach är inrikespolitisk kommentator på Ekot: ”Det är en dragkamp mellan en mer radikal höger och en mer pragmatisk del”. Han fortsätter: ”Rätt många Sverigedemokrater har frågat sig hur man ska vinna val när så många i Sverige har utländsk bakgrund och många av dem röstar rött”.
 
-### [Analys: ”Ologiskt att rösta om Thand Ringqvist”](https://www.svt.se/nyheter/inrikes/analys-ologiskt-att-rosta-om-thand-ringqvist) **[kommentator]**
-SVT Nyheter · 2026-10-29 · Mats Knutson
+### [Åkesson ger sig in i svenskhet-konflikten](https://www.sverigesradio.se/artikel/9331256)
+Ekot, Sveriges Radio · 2026-10-30 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Att C-ledaren Elisabeth Thand Ringqvist nu ska ställas inför en statsministeromröstning i riksdagen är inte bara ologiskt, utan visar också tydligt att läget i regeringsfrågan är lika låst som förut.
+Debatten har rasat mellan sverigedemokratiska profiler den senaste tiden, om vilken roll etnicitet ska spela i begreppet ”svenskhet”. Diskussionen har återkommit med jämna mellanrum i partiet och under fredagsmorgonen skrev Jimmie Åkesson en längre text i Expressen där han förtydligade partiets ståndpunkt. Partiledaren skriver att han har förståelse för frågeställningens komplexitet men att han som sverigedemokrat ”inte tvekar att svara ja på frågan om man kan bli svensk även om man inte föds som svensk”. Han skriver också att ”Det är extremt provocerande när egocentriska, självutnämnda idéväktare moraliserar” och att man som parti måste förhålla sig till verkligheten. ”Alla som tror, tycker och förfäktar att just deras personliga principer och åsikter är de enda rätta, passar dåligt i ett politiskt parti”, skriver han.
 
-### [Rödgrön ilska efter beskedet – C-källa: ”Farsartat”](https://www.svt.se/nyheter/inrikes/rodgron-ilska-efter-beskedet-c-kalla-farsartat)
-SVT Nyheter · 2026-10-29 · Erik Nilsson
+## Officiella besked
 
-Rödgröna partiledare rasar mot talmannens besked om att pröva C-ledaren Elisabeth Thand Ringqvist i en statsministeromröstning. Magdalena Andersson (S) kallar beslutet för ”anmärkningsvärt” – och inom C pyr missnöjet. – Alla tycker att det här är väldigt konstigt, säger en C-källa till SVT.
+### [Talmannen lägger fram Elisabeth Thand Ringqvist (C) som förslag till statsminister](https://www.riksdagen.se/sv/dokument-och-lagar/dokument//_cmsde7b2cc3-ca41-472b-b946-7715715b2f5fsv)
+Riksdagen · 2026-10-29 · riksdagsinformation@riksdagen.se _(brödtext ej hämtad — endast ingress)_
 
-### [Talmannens besked: Statsministeromröstning om Elisabeth Thand Ringqvist (C)](https://www.svt.se/nyheter/inrikes/talmannens-besked-statsministeromrostning-om-elisabeth-thand-ringqvist-c)
-SVT Nyheter · 2026-10-29 · Thea Mossige-Norheim, Julia Lindvall
+… Om Ulf Kristerssons uppdrag misslyckas så kommer jag att ta reda på om det vid den tidpunkten finns förutsättningar för en regeringsbildning på den rödgröna sidan innan jag utlyser en statsministeromröstning. Jag utgår fortfarande från begreppsparet sondering – votering, men det vore onekligen bra om regeringsbildningen kunde lösas inför den tredje omröstningen, så att vi om möjligt kan undvika den fjärde omröstningen och all den laddning och dramatik den skulle medföra. … 2026-10-29 15:36:00
 
-C-ledaren Elisabeth Thand Ringqvist kommer att prövas i en statsministeromröstning nästa vecka. Om hon faller blir det M-ledaren Ulf Kristersson som får sonderingsuppdraget av talmannen. – Genom att vi genomför en statsministeromröstning så kommer vi närmare extravalet och då ökar ju pressen på alla inblandade partier, säger Andreas Norlén (M).
-
-### [Mindre skillnader i skolpeng föreslås för gymnasiet](https://www.sverigesradio.se/artikel/9330962)
-Ekot, Sveriges Radio · 2026-10-29 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Regeringen vill att det ska bli mindre skillnad i hur mycket skolpeng bland annat kommunala och fristående gymnasieskolor kan få. Det enligt en utredning som presenterades under torsdagen. Den föreslår bland annat att riksprislistan, som styr hur mycket pengar en skola ska få per elev, ska anpassas efter elevens studieförmåga, och samordnas mer mellan kommuner. Men förslaget kan inte klubbas nu. ”Min ambition är att kunna skicka ut det här på remiss men det är en övergångsregering, vi får inte ta ny politik”, säger utbildningsminister Simona Mohamsson (L).
-
-### [Netanyahus Likud anklagar arabiska partier för valfusk](https://www.sverigesradio.se/artikel/9331067)
-Ekot, Sveriges Radio · 2026-10-29 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Nästan alla röster är räknade i valet i Israel, men inget block ser ut att få egen majoritet. Netanyahus block får 53 mandat, oppositionen 48 och de arabiska partierna 19, vilket öppnar för svåra regeringsförhandlingar och flera möjliga lösningar. Samtidigt anklagar Netanyahus parti, Likud, de arabiska partierna för valfusk, medan oppositionen avfärdar uppgifterna som fult spel.
-
-### [Fredrik Furtenbach: Talmannen är i ett väldigt svårt läge](https://www.sverigesradio.se/artikel/9330984) **[kommentator]**
-Ekot, Sveriges Radio · 2026-10-29 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-C-ledaren Elisabeth Thand Ringqvist ska prövas i en statsministeromröstning på tisdag, meddelade talmannen Andreas Norlén (M) på en pressträff. Ekots inrikespolitiska kommentator Fredrik Furtenbach säger att beskedet är klart överraskande. ”Jag tolkar det här som ett uttryck för att talmannen är i ett väldigt svårt läge, han är i korstryck. Varken Magdalena Andersson eller Ulf Kristersson har velat ha omröstningar om sig själva som statsministrar i det här läget, och det har lett till det här udda förslaget”, säger Fredrik Furtenbach.
-
-### [C-ledaren ska prövas i statsministeromröstning](https://www.sverigesradio.se/artikel/9330904)
-Ekot, Sveriges Radio · 2026-10-29 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Centerpartiets partiledare Elisabeth Thand Ringqvist ska prövas i en statsministeromröstning på tisdag, 3 november, klockan 13. Det säger talman Andreas Norlén (M) på en pressträff på torsdagen. C-ledaren har gått med på att vara kandidat trots att hon inte själv sonderat med ambitionen att bli statsminister, säger talmannen. Om Thand Ringqvist inte väljs på tisdag får Kristersson uppdraget att sondera, säger talmannen.
-
-### [Tomas Ramberg: Sanningens minut för Thand Ringqvist](https://www.dn.se/sverige/tomas-ramberg-sanningens-minut-for-thand-ringqvist) **[kommentator]**
-DN Nyheter · 2026-10-29 · Tomas Ramberg
-
-Talmannen vill en gång för alla få bort Centerns tänkta mittenregering från regeringsbildningen. För att stampa in budskapet ber han riksdagen rösta ner centerledarens förslag. Nu sitter Elisabeth Thand Ringqvist med Svarte Petter i spelet om regeringen.
-
-### [Talmannens överraskande drag: Prövar C-ledaren som statsminister](https://www.dn.se/sverige/c-ledaren-ska-provas-som-statsminister-det-finns-andra-mojliga-vagar-framat)
-DN Nyheter · 2026-10-29 · Rebecka Rosengart, Pia Gripenberg, Hans Olsson, Evelyn Jones, Daniel Costantini
-
-C-ledaren Elisabeth Thand Ringqvist kommer att prövas i en statsministeromröstning på tisdag i nästa vecka. Detta trots att hon egentligen inte vill ha uppdraget. – Det hade varit bättre om vi hade kunnat gå till omröstning med en kandidat som uppenbart hade kunnat bli vald, säger talman Andreas Norlén.
-
-_Genererat 2026-10-30T06:05:09.031059+00:00._
+_Genererat 2026-10-30T14:23:14.737221+00:00._
