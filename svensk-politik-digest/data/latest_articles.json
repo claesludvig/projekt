@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-10-31T06:02:47.679048+00:00",
+  "fetched_at": "2026-10-31T14:02:50.125393+00:00",
   "new_count": 1,
   "skipped": {
-    "seen": 44,
-    "offtopic": 147,
+    "seen": 45,
+    "offtopic": 146,
     "old": 18
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,25 +65,23 @@
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/sverige/c-toppen-kraver-svar-av-s-vill-de-se-v-i-regering",
-      "title": "C-toppen kräver svar av S: ”Vill de se V i regering?”",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9331864",
+      "title": "Statsvetaren: ”Extravalspel var inte tanken från början”",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-30",
-      "author": "Pia Gripenberg, Hanna Jakobson, Hans Olsson",
+      "published": "2026-10-31",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Talmannen Andreas Norléns beslut att snabba på med statsministeromröstningar ökar pressen på Centerpartiet att välja sida: rödgröna eller Tidö, anser Vänsterpartiet. Hos C vill man i stället att Magdalena Andersson tar större ansvar för regeringsbildningen. ”Vill de se V i regering eller inte?”, frågar CUF-toppen Emelie Rossheim.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-10-31 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/c-toppen-kraver-svar-av-s-vill-de-se-v-i-regering/\nTalmannen Andreas Norléns beslut att snabba på med statsministeromröstningar ökar pressen på Centerpartiet att välja sida: rödgröna eller Tidö, anser Vänsterpartiet.\nHos C vill man i stället att Magdalena Andersson tar större ansvar för regeringsbildningen.\n”Vill de se V i regering eller inte?”, frågar CUF-toppen Emelie Rossheim.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nTalmannen Andreas Norléns val att driva fram en statsministeromröstning om Elisabeth Thand Ringqvist (C) , som inte själv vill ha jobbet, har inte tagits emot väl inom Socialdemokraterna och Miljöpartiet.\n”Mycket anmärkningsvärt”, skrev Amanda Lind (MP) i ett uttalande på torsdagen. Liknande tongångar hördes från Magdalena Andersson (S).\nInom Vänsterpartiet anser man i stället att det är rimligt att Elisabeth Thand Ringqvist får köra sitt spår i botten och upptäcka att en mittenregering är omöjlig, enligt uppgifter till DN.\nVid den omröstning som därefter följer, om Ulf Kristersson enligt talmannens plan, blir det upp till bevis för Centerpartiet: gå till höger eller med de rödgröna, resonerar man inom V.\nNooshi Dadgostars reaktion på torsdagen, efter Norléns pressträff, var att upprepa att partierna som vill se Magdalena Andersson som statsminister borde förhandla om att bilda en fyrpartiregering.\nCenterpartiet står dock fast vid att inte ingå i eller släppa fram en regering med Vänsterpartiet.\nEnligt uppgifter till DN finns en frustration inom Centerpartiet över att arbetet med att få fram en regering går för långsamt, och irritationen riktas i första hand mot Socialdemokraterna.\nEmelie Rossheim, ordförande för Centerpartiets ungdomsförbund, CUF, hör till de centerpartister som vill att S tar ett större ansvar för regeringsbildningen.\n”Först och främst tydliggöra om de vill se Vänsterpartiet i regering eller inte. Därefter samla ett regeringsalternativ i minoritet som kan gå fram med ett gemensamt projekt”, skriver hon till DN.\nPartiledaren Elisabeth Thand Ringqvist har tidigare sagt att hon för samtal med ”alla partier” som C kan tänka sig att bilda regering med. Enligt vad DN erfar fortsätter de samtalen – alltså på både Anderssons och Kristerssons sida.\nMed stor sannolikhet kommer Centerledaren att fällas i nästa veckas statsministeromröstning. Då går sonderingsuppdraget till M-ledaren Ulf Kristersson.\nMen eftersom Centerns röda linjer kvarstår mot Sverigedemokraterna ser även de samtalen ut att bli komplicerade.\nCUF-toppen Emelie Rossheim har låga förväntningar på Kristerssons sonderingar. Hon anser att han på grund av SD-samarbetet diskvalificerat sig som statsministerkandidat.\n”Det finns inget som heter ’passivt stöd’ i svensk politik, ett samarbete är ett samarbete. SD kommer aldrig gå med på grön skatteväxling eller en mer liberal migrationspolitik”, skriver hon till DN.\nNär det gäller Vänsterpartiet har vice partiordförande Ida Gabrielsson varit den som synts utåt i sociala medier och i närmast otaliga debatter i tv. Hon har inte publicerat något inlägg på plattformen X sedan den 22 oktober, vilket har fått bland andra Aftonbladets ledarsida att spekulera i att det kan pågå något bakom kulisserna, exempelvis arbete med att förankra nya positioner.\nFrån V tonar man ned den tolkningen och pekar på att riksdagen dels har höstlov, dels har Ida Gabrielssons flitiga deltagande i rampljuset gjort att omvärlden numera är väl införstådd med att partiet kräver att få sitta i en regering.\nDet kommer inte heller några tecken på konkreta regeringsförhandlingar från socialdemokratiskt håll. Men en S-källa framhåller att det hela tiden pågår samtal med de andra partierna. Det bekräftas av andra personer på den rödgröna sidan som DN har talat med.\nDet ligger även i linje med vad Magdalena Andersson publicerade i sociala medier i torsdags. Hon berättar i ett inlägg att hon har haft många möten och samtal under veckan.\nDen 15 oktober röstade riksdagen ner Magdalena Andersson (S) i en statsministeromröstning. Samtliga partier förutom S röstar nej.\nPå tisdag den 3 november ska riksdagen rösta om Elisabeth Thand Ringqvist (C), trots att hon inte aspirerar på att bli statsminister.\nTalman Andreas Norlén tänker då ge sonderingsuppdraget till Ulf Kristersson (M). Han ska redovisa det den 10 november, är planen. Därefter kan en ny statministeromröstning, den tredje, bli av.\nEn statsminister behöver inte ha en majoritet bakom sig i riksdagen. Det räcker med att färre än 175 ledamöter röstar nej.\nOm riksdagen har röstat nej till en statsminister fyra gånger ska talmannen utlysa extraval.\nStatsvetaren om talmannens tempo: Ökar sannolikheten för extra val\nTomas Ramberg: Sanningens minut för Thand Ringqvist\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTomas Ramberg: 20 års kamp står på spel för Åkesson\nVäljarnas dom: Socialdemokraterna är fast i det förgångna\nStatsvetaren om talmannens tempo: Ökar sannolikheten för extra val",
+      "summary": "På tisdag kommer C-ledaren Elisabeth Thand Ringqvist att prövas i riksdagen, med stor sannolikhet kommer hon att förlora omröstningen. Det är fel att talmannen ska behöva använda statsministeromröstningarna som ett sätt att pressa partierna till kompromisser, säger statsvetarprofessor Tommy Möller. Efter den här regeringsbildningen kan det komma en diskussion om reglerna, säger statsvetaren Jenny Madestam.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9331864'",
       "matched_terms": [
         "regeringsbildning",
         "talman",
-        "statsminister",
-        "Centerpartiet",
-        "Vänsterpartiet"
+        "statsminister"
       ],
-      "first_seen": "2026-10-31T06:02:47.679048+00:00"
+      "first_seen": "2026-10-31T14:02:50.125393+00:00"
     }
   ]
 }
