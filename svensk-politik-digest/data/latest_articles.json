@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-10-31T14:02:50.125393+00:00",
-  "new_count": 1,
+  "fetched_at": "2026-11-01T06:02:56.304939+00:00",
+  "new_count": 2,
   "skipped": {
     "seen": 45,
-    "offtopic": 146,
-    "old": 18
+    "offtopic": 144,
+    "old": 19
   },
   "fetch_errors": 1,
   "sources": [
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,23 +65,41 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9331864",
-      "title": "Statsvetaren: ”Extravalspel var inte tanken från början”",
+      "url": "https://www.sverigesradio.se/artikel/9329320",
+      "title": "Kristersson har gått om Andersson i förtroendeligan",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-10-31",
+      "published": "2026-11-01",
       "author": "Ekot",
       "commentator": "",
-      "summary": "På tisdag kommer C-ledaren Elisabeth Thand Ringqvist att prövas i riksdagen, med stor sannolikhet kommer hon att förlora omröstningen. Det är fel att talmannen ska behöva använda statsministeromröstningarna som ett sätt att pressa partierna till kompromisser, säger statsvetarprofessor Tommy Möller. Efter den här regeringsbildningen kan det komma en diskussion om reglerna, säger statsvetaren Jenny Madestam.",
+      "summary": "Väljarna har nu större förtroende för Moderatledaren Ulf Kristersson än för Socialdemokraternas Magdalena Andersson, visar Indikator Opinions oktobermätning. Över hälften av väljarna, 55 procent, uppger att de har stort förtroende för moderatledaren. Det är en ökning med 10 procentenheter jämfört med förra mätningen som ägde rum i augusti i år. ”Det är ganska dramatiskt. Under mandatperioden har Magdalena Andersson hela tiden varit i topp när det kommer till förtroendeligan. Men i och med valet och de efterdyningarna som har funnits med regeringsbildningen så ser vi att Ulf Kristersson har tagit över förstaplatsen med ganska god marginal”, säger Per Oleskog Tryggvason, opinionschef på Indikator Opinion.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9331864'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329320'",
       "matched_terms": [
         "regeringsbildning",
-        "talman",
-        "statsminister"
+        "Moderaterna",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-10-31T14:02:50.125393+00:00"
+      "first_seen": "2026-11-01T06:02:56.304939+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/ylPXle/vansterpartiets-sajt-kapad",
+      "title": "Vänsterpartiets sajt kapades av nätkasino",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-10-31",
+      "author": "TT",
+      "commentator": "",
+      "summary": "Vänsterpartiets sajt kapades på lördagen. Den som ville läsa mer om partiledaren möttes av reklam…",
+      "fulltext": "Vänsterpartiets sajt kapades på lördagen. Den som ville läsa mer om partiledaren möttes av reklam för indonesiskt spel och dobbel.\nUnder fliken ”Om Nooshi Dadgostar” nåddes man på lördagseftermiddagen av reklam för vad som tycktes vara ett indonesiskt nätkasino, något Expressen var först att rapportera om.\nNär TT nådde Vänsterpartiets presstjänst kände de inte till problemet.\n– Oj, jävlar, det här behöver vi kolla upp, sade pressekreterare Hanna Brolund.\nVid 19-tiden verkade sajten fungera som vanligt igen. Vänsterpartiet har avböjt fler kommentarer.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-01T06:02:56.304939+00:00"
     }
   ]
 }

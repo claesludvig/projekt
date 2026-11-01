@@ -1,12 +1,19 @@
-# Svensk politik och regeringsförhandlingarna — 2026-10-31
+# Svensk politik och regeringsförhandlingarna — 2026-11-01
 
-1 nya poster sedan förra utskicket (45 redan utskickade, 146 utanför ämnet).
+2 nya poster sedan förra utskicket (45 redan utskickade, 144 utanför ämnet).
+
+## Analys och kommentar
+
+### [Vänsterpartiets sajt kapades av nätkasino](https://www.svd.se/a/ylPXle/vansterpartiets-sajt-kapad)
+SvD Ledare · 2026-10-31 · TT
+
+Vänsterpartiets sajt kapades på lördagen. Den som ville läsa mer om partiledaren möttes av reklam…
 
 ## Rapportering
 
-### [Statsvetaren: ”Extravalspel var inte tanken från början”](https://www.sverigesradio.se/artikel/9331864)
-Ekot, Sveriges Radio · 2026-10-31 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Kristersson har gått om Andersson i förtroendeligan](https://www.sverigesradio.se/artikel/9329320)
+Ekot, Sveriges Radio · 2026-11-01 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-På tisdag kommer C-ledaren Elisabeth Thand Ringqvist att prövas i riksdagen, med stor sannolikhet kommer hon att förlora omröstningen. Det är fel att talmannen ska behöva använda statsministeromröstningarna som ett sätt att pressa partierna till kompromisser, säger statsvetarprofessor Tommy Möller. Efter den här regeringsbildningen kan det komma en diskussion om reglerna, säger statsvetaren Jenny Madestam.
+Väljarna har nu större förtroende för Moderatledaren Ulf Kristersson än för Socialdemokraternas Magdalena Andersson, visar Indikator Opinions oktobermätning. Över hälften av väljarna, 55 procent, uppger att de har stort förtroende för moderatledaren. Det är en ökning med 10 procentenheter jämfört med förra mätningen som ägde rum i augusti i år. ”Det är ganska dramatiskt. Under mandatperioden har Magdalena Andersson hela tiden varit i topp när det kommer till förtroendeligan. Men i och med valet och de efterdyningarna som har funnits med regeringsbildningen så ser vi att Ulf Kristersson har tagit över förstaplatsen med ganska god marginal”, säger Per Oleskog Tryggvason, opinionschef på Indikator Opinion.
 
-_Genererat 2026-10-31T14:02:50.125393+00:00._
+_Genererat 2026-11-01T06:02:56.304939+00:00._
