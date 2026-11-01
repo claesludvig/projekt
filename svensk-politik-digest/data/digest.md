@@ -1,19 +1,22 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-01
 
-2 nya poster sedan förra utskicket (45 redan utskickade, 144 utanför ämnet).
+3 nya poster sedan förra utskicket (47 redan utskickade, 141 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Vänsterpartiets sajt kapades av nätkasino](https://www.svd.se/a/ylPXle/vansterpartiets-sajt-kapad)
-SvD Ledare · 2026-10-31 · TT
+### [49 dagar sedan valet – detta händer nu](https://www.svd.se/a/jvGqKo/49-dagar-sedan-valet-detta-hander-nu)
+SvD Ledare · 2026-11-01 · TT
 
-Vänsterpartiets sajt kapades på lördagen. Den som ville läsa mer om partiledaren möttes av reklam…
+Sju veckor har gått sedan valdagen. Här är turerna kring regeringsbildningen – och vad som händer nu.
 
-## Rapportering
+### [Statsvetare: Partierna ger sig först vid stupstocken](https://www.svd.se/a/mKJqLE/statsvetare-partierna-ger-sig-forst-vid-stupstocken)
+SvD Ledare · 2026-11-01 · Anja Haglund/TT
 
-### [Kristersson har gått om Andersson i förtroendeligan](https://www.sverigesradio.se/artikel/9329320)
-Ekot, Sveriges Radio · 2026-11-01 · Ekot _(brödtext ej hämtad — endast ingress)_
+Talmannens besked att pröva C-ledaren som statsminister har mötts av kritik.
 
-Väljarna har nu större förtroende för Moderatledaren Ulf Kristersson än för Socialdemokraternas Magdalena Andersson, visar Indikator Opinions oktobermätning. Över hälften av väljarna, 55 procent, uppger att de har stort förtroende för moderatledaren. Det är en ökning med 10 procentenheter jämfört med förra mätningen som ägde rum i augusti i år. ”Det är ganska dramatiskt. Under mandatperioden har Magdalena Andersson hela tiden varit i topp när det kommer till förtroendeligan. Men i och med valet och de efterdyningarna som har funnits med regeringsbildningen så ser vi att Ulf Kristersson har tagit över förstaplatsen med ganska god marginal”, säger Per Oleskog Tryggvason, opinionschef på Indikator Opinion.
+### [Max Hjelm: Tänk om vi i själva verket borde njuta av andningspausen](https://www.dn.se/ledare/max-hjelm-tank-om-vi-i-sjalva-verket-borde-njuta-av-andningspausen)
+DN Nyheter · 2026-11-01 · Max Hjelm
 
-_Genererat 2026-11-01T06:02:56.304939+00:00._
+Att regeringsbildningen drar ut på tiden gör många otåliga. Men kanske bör man i stället njuta av andningspausen.
+
+_Genererat 2026-11-01T14:03:15.968863+00:00._

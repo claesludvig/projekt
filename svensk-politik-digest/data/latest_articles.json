@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-01T06:02:56.304939+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-11-01T14:03:15.968863+00:00",
+  "new_count": 3,
   "skipped": {
-    "seen": 45,
-    "offtopic": 144,
+    "seen": 47,
+    "offtopic": 141,
     "old": 19
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,41 +65,56 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9329320",
-      "title": "Kristersson har gått om Andersson i förtroendeligan",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-01",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Väljarna har nu större förtroende för Moderatledaren Ulf Kristersson än för Socialdemokraternas Magdalena Andersson, visar Indikator Opinions oktobermätning. Över hälften av väljarna, 55 procent, uppger att de har stort förtroende för moderatledaren. Det är en ökning med 10 procentenheter jämfört med förra mätningen som ägde rum i augusti i år. ”Det är ganska dramatiskt. Under mandatperioden har Magdalena Andersson hela tiden varit i topp när det kommer till förtroendeligan. Men i och med valet och de efterdyningarna som har funnits med regeringsbildningen så ser vi att Ulf Kristersson har tagit över förstaplatsen med ganska god marginal”, säger Per Oleskog Tryggvason, opinionschef på Indikator Opinion.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9329320'",
-      "matched_terms": [
-        "regeringsbildning",
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-01T06:02:56.304939+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/ylPXle/vansterpartiets-sajt-kapad",
-      "title": "Vänsterpartiets sajt kapades av nätkasino",
+      "url": "https://www.svd.se/a/jvGqKo/49-dagar-sedan-valet-detta-hander-nu",
+      "title": "49 dagar sedan valet – detta händer nu",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-10-31",
+      "published": "2026-11-01",
       "author": "TT",
       "commentator": "",
-      "summary": "Vänsterpartiets sajt kapades på lördagen. Den som ville läsa mer om partiledaren möttes av reklam…",
-      "fulltext": "Vänsterpartiets sajt kapades på lördagen. Den som ville läsa mer om partiledaren möttes av reklam för indonesiskt spel och dobbel.\nUnder fliken ”Om Nooshi Dadgostar” nåddes man på lördagseftermiddagen av reklam för vad som tycktes vara ett indonesiskt nätkasino, något Expressen var först att rapportera om.\nNär TT nådde Vänsterpartiets presstjänst kände de inte till problemet.\n– Oj, jävlar, det här behöver vi kolla upp, sade pressekreterare Hanna Brolund.\nVid 19-tiden verkade sajten fungera som vanligt igen. Vänsterpartiet har avböjt fler kommentarer.",
+      "summary": "Sju veckor har gått sedan valdagen. Här är turerna kring regeringsbildningen – och vad som händer nu.",
+      "fulltext": "Sju veckor har gått sedan valdagen. Här är turerna kring regeringsbildningen – och vad som händer nu.\n13 september: Valdagen. SD och S backar kraftigt medan V ökar mest av alla partier. Läget mellan blocken är jämnt och mandat hoppar fram och tillbaka under rösträkningen.\n17 september: De rödgröna partierna vinner valet med 176 mandat mot Tidöpartiernas 173. Ulf Kristersson avgår som statsminister och leder nu en övergångsregering. Magdalena Andersson (S) håller segertal.\n18 september: Magdalena Andersson får det första sonderingsuppdraget.\n27 september: V meddelar att man röstar på moderaten Andreas Norlén som talman.\n28 september: Magdalena Andersson lämnar tillbaka sonderingsuppdraget.\n2 oktober: Talmannen ger tillbaka uppdraget till Magdalena Andersson och meddelar att hon ska prövas i en statsministeromröstning.\n9 oktober: De rödgröna partierna ses på Högberga gård på Lidingö för att få en gemensam lägesbild av Sveriges utmaningar.\n13 oktober: S-ledaren meddelar att det saknas förutsättningar för henne att bilda en regering.\n15 oktober: Riksdagen röstar ner Magdalena Andersson i en statsministeromröstning. Samtliga partier förutom S röstar nej.\n19 oktober: Centerpartiets Elisabeth Thand Ringqvist får i uppdrag att sondera möjligheterna för en mittenregering, med stöd av MP, S, C, KD och L, ledd av Magdalena Andersson.\n26 oktober: Thand Ringqvist återrapporterar att det saknas stöd för en sådan mittenregering.\n29 oktober: Talmannen meddelar att han lägger fram C-ledaren som statsministerkandidat.\n3 november: Riksdagen ska rösta om Thand Ringqvist. Om hon röstas ner kommer M-ledaren Ulf Kristersson att få uppdraget att försöka bilda regering.\n10 november: Ulf Kristersson ska i så fall återrapportera till talmannen detta datum.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "partiledar",
-        "Vänsterpartiet"
+        "regeringsbildning"
       ],
-      "first_seen": "2026-11-01T06:02:56.304939+00:00"
+      "first_seen": "2026-11-01T14:03:15.968863+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/mKJqLE/statsvetare-partierna-ger-sig-forst-vid-stupstocken",
+      "title": "Statsvetare: Partierna ger sig först vid stupstocken",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-01",
+      "author": "Anja Haglund/TT",
+      "commentator": "",
+      "summary": "Talmannens besked att pröva C-ledaren som statsminister har mötts av kritik.",
+      "fulltext": "Centerpartiets partiledare Elisabeth Thand Ringqvist och riksdagens talman Andreas Norlén. Arkivbild. Foto: TT\nTalmannens besked att pröva C-ledaren som statsminister har mötts av kritik.\n– Partierna är upprörda och förvånade och allt möjligt, men det viktiga är nog att det blir en omröstning, säger statsvetaren Jonas Hinnfors.\nEnligt honom är det förmodligen hotet om ett extraval som kan sätta i gång processen att få fram en regering på riktigt.\n– Osäkerheten om vad ett extraval kan resultera i leder till att man faktiskt börjar ändra sig om olika röda linjer, när man står inför stupstocken så att säga, säger Jonas Hinnfors, professor emeritus i statsvetenskap.\nTalman Andreas Norlén har varit tydlig med att han vill undvika en lika långdragen regeringsbildning som 2018, då det tog 134 dagar att få en regering på plats.\nSamtidigt fyllde tiden också en funktion när partierna skulle bryta upp tidigare positioner och landa i något helt nytt.\nMen det var även då först när talmannen började ge riksdagen möjlighet att rösta om olika kandidater som det egentligen gick framåt, påpekar Hinnfors.\nHan anser inte att talmannen med sin nya inställning, att en sondering ska leda till en votering, riskerar att forcera processen.\n– Givet alla låsningar och röda linjer är det nog så att det inte kommer av sig själv. Alla väntar på att någon annan ska ändra sig.\n– Nu vet alla att om några veckor kommer det att vara den tredje omröstningen, och det kanske är det som gör att partierna på allvar börjar diskutera.\nPå tisdag prövar riksdagen Elisabeth Thand Ringqvist (C), vars mittenalternativ av allt att döma kommer att röstas ner. Efter det går uppdraget till M-ledaren Ulf Kristersson.\nÄven hans uppdrag ska följas av en omröstning. Men det är inte säkert att den blir om Kristersson om han kommer tillbaka och säger att han har misslyckats.\n– Om talmannen märker att det börjat röra på sig hos de rödgröna kan han förlänga sonderingen och lämna över den till Andersson, säger Jonas Hinnfors.\nI samband med den tredje eller fjärde omröstningen tror han att processen tar fart på riktigt.\n– Det kanske kan dra in i december, men mycket längre kommer det nog inte att ta, säger Hinnfors om tidsperspektivet.\nDet mest troliga är att det rödgröna blocket med sina 176 mandat till slut enas kring Andersson, menar han.\nHans gissning är att C får stryka sin röda linje mot V i regeringen, medan V kan få vika sig i viktiga frågor och tvingas acceptera mittenpolitik.\n– Klarar man inte det, ja då är det kanske extraval som det blir. Det är nog närmare den här gången än det var 2018.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-01T14:03:15.968863+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/max-hjelm-tank-om-vi-i-sjalva-verket-borde-njuta-av-andningspausen",
+      "title": "Max Hjelm: Tänk om vi i själva verket borde njuta av andningspausen",
+      "source": "DN Nyheter",
+      "kind": "kommentar",
+      "published": "2026-11-01",
+      "author": "Max Hjelm",
+      "commentator": "",
+      "summary": "Att regeringsbildningen drar ut på tiden gör många otåliga. Men kanske bör man i stället njuta av andningspausen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-01 15:01\nArtikelns ursprungsadress: https://www.dn.se/ledare/max-hjelm-tank-om-vi-i-sjalva-verket-borde-njuta-av-andningspausen/\nAtt regeringsbildningen drar ut på tiden gör många otåliga. Men kanske bör man i stället njuta av andningspausen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nTalmannen Andreas Norlén börjar anta nästan mytiska proportioner, en snäll och mänsklig version av Bigfoot och Yeti. Det har funnits stunder när ett helt pressuppbåd undrat: Kommer han att visa sig?\nHan har en stor uppgift, förstås – att lotsa partierna till att bilda regering. I skrivande stund, en och en halv månad efter riksdagsvalet, har väldigt lite hänt.\nI måndags lämnade Elisabeth Thand Ringqvist (C) tillbaka sonderingsuppdraget. Därefter var talmannen tyst till torsdag eftermiddag, då han presenterade sitt nya drag: Thand Ringqvist ska utsättas för en statsministeromröstning på tisdag. En hon alldeles säkert kommer förlora. Därefter går turen vidare.\nNu är Norlén främst en symbol, det är partierna som till syvende och sist måste bilda regering. Många har varit oroliga att 2018 ska upprepas, då det tog 134 dagar tills regeringsfrågan löstes.\nDet har kommit påpekanden från olika håll: partierna beter sig omoget, borde skynda på, skärpa sig, och så vidare. Ingen nämnd, ingen glömd.\nOch visst, väntan är inte så värdig. Men kanske borde man passa på att njuta medan man kan av andningspausen?\nTanken slog mig när jag nyligen såg teatergruppen Hjärter Fems pjäs ”Exil i Hello Kitty City”, på Teater Brunnsgatan 4. Uppsättningen är en slags omarbetning av Samuel Becketts ”I väntan på Godot”. Då Beckett förbjöd kvinnor från att spela figurerna i hans pjäs har dramakollektivet, lite halvbusigt, skrivit en egen version där kvinnor tar huvudrollerna.\nGenom föreställningen sitter de två huvudpersonerna och väntar på en kille vid namn Daniel. Ibland är den ena på väg att ge upp, men de håller ut. Daniel kommer nog snart, intalar de sig.\nDet är nästan exotiskt, denna väntan. Vi lever ju i en tid när allt går så fort.\n80 procent av svenskarna har haft en utestående betalning hos Klarna – kreditbetalningar så att man inte behöver spara shopping till löningsdagen. Snabbleverans för att få paketet direkt. Med strömningssajter tvingas vi inte vänta på att en film på tv ska börja.\nI en så snabbrörlig tid kanske det inte är så fel att försöka njuta av väntans dagar?\nOm inte annat för att man inte vet vad som händer när skeenden väl drar igång.\nTill skillnad från den ursprungliga ”I väntan på Godot” så slutar faktiskt ”Exil i Hello Kitty City” med att personen de väntar på kommer. Daniel strosar in på scen, och vad sker? Tjejerna pepparsprejar honom i panik, psykar honom, de når varken fram till Daniel eller varandra.\nMax Hjelm: Högern har fastnat i ett heligt krig mot år 2014 – och det enda vapen de har är en hammare\nMax Hjelm: Avhumaniseringen underlättas när krigets offer görs osynliga i Gaza\nDN:s ledarredaktion: Borgerligheten ser ut som hycklare när de ger partivänner välbetalda jobb\nMax Hjelm gästar veckans avsnitt av podden ”Kära dagbok” och pratar om detta tema, lyssna gärna!\nKan Joakim Lundells tjejresa lösa regeringsbildningen?\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Borgerligheten ser ut som hycklare när de ger partivänner välbetalda jobb\nMax Hjelm: Högern har fastnat i ett heligt krig mot år 2014 – och det enda vapen de har är en hammare\nMax Hjelm: Avhumaniseringen underlättas när krigets offer görs osynliga i Gaza",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-01T14:03:15.968863+00:00"
     }
   ]
 }
