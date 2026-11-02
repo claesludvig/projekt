@@ -1647,42 +1647,43 @@ datum,parti,roll,namn,plattform,konto,foljare,verifierad
 2026-11-01,KD,partiledare,Ebba Busch,TikTok,buschebba,38600,True
 2026-11-01,V,partiledare,Nooshi Dadgostar,TikTok,nooshidadgostar,69300,True
 2026-11-01,L,partiledare,Simona Mohamsson,TikTok,smohamsson,14500,True
-2026-11-02,S,parti,Socialdemokraterna,X,socialdemokrat,112381,False
+2026-11-02,L,parti,Liberalerna,X,liberalerna,91756,False
+2026-11-02,S,parti,Socialdemokraterna,X,socialdemokrat,112382,False
 2026-11-02,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,39900,
-2026-11-02,S,parti,Socialdemokraterna,Facebook,socialdemokraterna,287910,
-2026-11-02,S,partiledare,Magdalena Andersson,X,magdandersson,31916,False
+2026-11-02,S,parti,Socialdemokraterna,Facebook,socialdemokraterna,287909,
+2026-11-02,S,partiledare,Magdalena Andersson,X,magdandersson,31917,False
 2026-11-02,S,partiledare,Magdalena Andersson,Bluesky,magdalenaandersson.socialdemokraterna.se,3422,
-2026-11-02,S,partiledare,Magdalena Andersson,Facebook,magdalenaeandersson,189632,
-2026-11-02,M,parti,Moderaterna,X,moderaterna,168654,True
+2026-11-02,S,partiledare,Magdalena Andersson,Facebook,magdalenaeandersson,189633,
+2026-11-02,M,parti,Moderaterna,X,moderaterna,168651,True
 2026-11-02,M,parti,Moderaterna,YouTube,UCaeBpLCv-n8wlKahXY4o1ZQ,8760,
-2026-11-02,M,parti,Moderaterna,Facebook,moderaterna,172157,
-2026-11-02,M,partiledare,Ulf Kristersson,Facebook,UlfKristerssonM,145753,
-2026-11-02,SD,parti,Sverigedemokraterna,X,sdriks,159653,True
+2026-11-02,M,parti,Moderaterna,Facebook,moderaterna,172170,
+2026-11-02,M,partiledare,Ulf Kristersson,Facebook,UlfKristerssonM,145765,
+2026-11-02,SD,parti,Sverigedemokraterna,X,sdriks,159650,True
 2026-11-02,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,107000,
-2026-11-02,SD,parti,Sverigedemokraterna,Facebook,sverigedemokraterna,420126,
-2026-11-02,SD,partiledare,Jimmie Åkesson,X,jimmieakesson,188503,True
-2026-11-02,C,parti,Centerpartiet,TikTok,Centerpartiet,4672,True
+2026-11-02,SD,parti,Sverigedemokraterna,Facebook,sverigedemokraterna,420143,
+2026-11-02,SD,partiledare,Jimmie Åkesson,X,jimmieakesson,188500,True
+2026-11-02,C,parti,Centerpartiet,X,centerpartiet,75079,False
+2026-11-02,C,parti,Centerpartiet,TikTok,Centerpartiet,4670,True
 2026-11-02,C,parti,Centerpartiet,YouTube,UCvFYHw6ahpdT4O1hFBxcQRQ,4670,
-2026-11-02,C,parti,Centerpartiet,Facebook,centerpartiet,66460,
+2026-11-02,C,parti,Centerpartiet,Facebook,centerpartiet,66467,
 2026-11-02,C,partiledare,Elisabeth Thand Ringqvist,X,elisabethtr,6987,True
 2026-11-02,C,partiledare,Elisabeth Thand Ringqvist,TikTok,elisabethtrc,644,False
 2026-11-02,C,partiledare,Elisabeth Thand Ringqvist,Bluesky,elisabethtr.bsky.social,122,
-2026-11-02,V,parti,Vänsterpartiet,X,vansterpartiet,101508,True
+2026-11-02,V,parti,Vänsterpartiet,X,vansterpartiet,101509,True
 2026-11-02,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,6750,
 2026-11-02,V,partiledare,Nooshi Dadgostar,X,dadgostarnooshi,85740,False
 2026-11-02,V,partiledare,Nooshi Dadgostar,Bluesky,nooshidadgostar.bsky.social,1168,
 2026-11-02,V,partiledare,Nooshi Dadgostar,Mastodon,nooshidadgostar@mastodon.nu,265,
-2026-11-02,KD,parti,Kristdemokraterna,X,kdriks,81758,False
+2026-11-02,KD,parti,Kristdemokraterna,X,kdriks,81757,False
 2026-11-02,KD,parti,Kristdemokraterna,YouTube,UCAELki5flaev4zikzAkr4Lw,2550,
-2026-11-02,KD,partiledare,Ebba Busch,X,buschebba,259012,True
+2026-11-02,KD,partiledare,Ebba Busch,X,buschebba,259014,True
 2026-11-02,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,7130,
-2026-11-02,L,parti,Liberalerna,X,liberalerna,91756,False
 2026-11-02,L,parti,Liberalerna,YouTube,UCDlEksDlX8aF_jE8eV3B4jA,2340,
-2026-11-02,L,partiledare,Simona Mohamsson,X,SMohamsson,29599,True
+2026-11-02,L,partiledare,Simona Mohamsson,X,SMohamsson,29598,True
 2026-11-02,MP,parti,Miljöpartiet,X,miljopartiet,100969,False
 2026-11-02,MP,parti,Miljöpartiet,YouTube,UC0fLpFcjZBHW5vLBXDrZBIg,3130,
-2026-11-02,MP,partiledare,Amanda Lind,X,amandalind_,15580,False
-2026-11-02,S,parti,Socialdemokraterna,TikTok,socialdemokraternas,85900,True
+2026-11-02,MP,partiledare,Amanda Lind,X,amandalind_,15582,False
+2026-11-02,S,parti,Socialdemokraterna,TikTok,socialdemokraternas,85800,True
 2026-11-02,SD,parti,Sverigedemokraterna,TikTok,sverigedemokraterna,238600,True
 2026-11-02,M,parti,Moderaterna,TikTok,moderaterna,219500,True
 2026-11-02,V,parti,Vänsterpartiet,TikTok,vansterpartiet,61300,True
