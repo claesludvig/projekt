@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-02T06:03:07.142012+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-11-02T15:09:18.598851+00:00",
+  "new_count": 6,
   "skipped": {
     "seen": 45,
-    "offtopic": 144,
-    "old": 19
+    "offtopic": 141,
+    "old": 18
   },
-  "fetch_errors": 1,
+  "fetch_errors": 6,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 6,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,40 +65,116 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9332361",
-      "title": "Ryssvänliga presidenten sitter kvar i Bulgarien",
+      "url": "https://www.sverigesradio.se/artikel/9332449",
+      "title": "Hur lång tid kan regeringsbildningen ta?",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-01",
+      "published": "2026-11-02",
       "author": "Ekot",
-      "commentator": "",
-      "summary": "I presidentvalet i Bulgarien har den sittande rysslandsvänliga presidenten Iliana Iotova utropat sig som segrare. Beräkningar av valresultatet visar att hon får kring 57 procent av rösterna, medan den mer västvänlige motkandidaten Andrey Gyurov ligger på kring 39 procent. Iotova var tidigare vicepresident men tillträdde presidentposten i januari i år. Hon är den första kvinna som valts till president i Bulgarien, en post som är ceremoniell.",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Ovissheten kring regeringsbildningen väcker många frågor, inte minst hur lång tid det kan ta innan Sverige får en ny statsminister. Bedömningen är att processen kan bli lång, men sannolikt inte lika utdragen som 2018, då regeringsbildningen tog 134 dagar. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332361'",
-      "matched_terms": [
-        "valresultat"
-      ],
-      "first_seen": "2026-11-02T06:03:07.142012+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/dn-ipsos-minskat-stod-for-att-s-och-c-ska-sitta-i-regering",
-      "title": "DN/Ipsos: Minskat stöd för att S och C ska sitta i regering",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-01",
-      "author": "Hans Olsson",
-      "commentator": "",
-      "summary": "Stödet sjunker för både Socialdemokraterna och Centerpartiet att de ska sitta med i en kommande regering, visar en mätning från DN/Ipsos. – S och C får bära ansvaret för att det går trögt i regeringsbildningen, säger Nicklas Källebring på Ipsos.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-02 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/dn-ipsos-minskat-stod-for-att-s-och-c-ska-sitta-i-regering/\nStödet sjunker för både Socialdemokraterna och Centerpartiet att de ska sitta med i en kommande regering, visar en mätning från DN/Ipsos.\n– S och C får bära ansvaret för att det går trögt i regeringsbildningen, säger Nicklas Källebring på Ipsos.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332449'",
       "matched_terms": [
         "regeringsbildning",
-        "Centerpartiet",
-        "Socialdemokraterna"
+        "statsminister"
       ],
-      "first_seen": "2026-11-02T06:03:07.142012+00:00"
+      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9332455",
+      "title": "Kan lagar skynda på processen?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-02",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "50 dagar har gått utan regering och imorgon röstar Riksdagen om en statsministerkandidat som ingen vill ha. Regeringsbildningen omgärdas av en hel del frågetecken. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332455'",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9332454",
+      "title": "Varför kom de rödgröna inte överens innan valet?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-02",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "50 dagar har gått utan regering och imorgon röstar Riksdagen om en statsministerkandidat som ingen vill ha. Regeringsbildningen omgärdas av en hel del frågetecken. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332454'",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9332453",
+      "title": "Hur ska de rödgröna kunna kampanja vid ett extraval?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-02",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Ett extraval kan bli mycket svårt för partier som inte lyckas få fram ett regeringsalternativ, menar Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet. Särskilt Socialdemokraterna pekas ut som sårbara, efter opinionsnedgång och partiets svagaste valresultat sedan 1911. Samtidigt beskrivs hur även Centerpartiet och Vänsterpartiet riskerar att tappa inflytande och hamna i opposition under resten av mandatperioden.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332453'",
+      "matched_terms": [
+        "regeringsalternativ",
+        "valresultat",
+        "Centerpartiet",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9332452",
+      "title": "Hur lång tid är 50 dagar utan ny regering?",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-02",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "50 dagar har gått utan regering och imorgon röstar Riksdagen om en statsministerkandidat som ingen vill ha. Regeringsbildningen omgärdas av en hel del frågetecken. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332452'",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9332450",
+      "title": "Furtenbach och Teorell svarade på lyssnarnas frågor",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-02",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "50 dagar sedan valdagen, och fortfarande är ingen ny regering på plats. Hur långt tid tar det innan vi vet vem nästa statsminister blir? Kan något göras för att processen ska gå snabbare? Och om det blir extraval, hur ska partier som inte lyckas få ihop något regeringsalternativ i så fall kunna kampanja på ett trovärdigt sätt? I P1 Morgon svarade Ekots inrikespolitiska kommentator Fredrik Furtenbach och statsvetarprofessorn Jan Teorell på lyssnarnas frågor om den knepiga regeringsbildningen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332450'",
+      "matched_terms": [
+        "regeringsbildning",
+        "regeringsalternativ",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-02T15:09:18.598851+00:00"
     }
   ]
 }
