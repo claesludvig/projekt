@@ -1,6 +1,6 @@
-# Lägesbild vecka 44 2026
+# Lägesbild vecka 45 2026
 
-Skapad 2026-11-01 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-11-02 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
 
 ## Värd att bevaka
 
@@ -13,7 +13,7 @@ Skapad 2026-11-01 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen j
 
 - **Bensin, prisförändring 12 mån (%)**: September 2026: 10,5 %. +15,9 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 - **Diesel, prisförändring 12 mån (%)**: September 2026: 32,8 %. +33,9 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
-- **Styrräntan (%)**: Oktober 2026: 1,8 %. 0,0 procentenheter mot ett år tidigare. _Källa: Riksbanken._
+- **Styrräntan (%)**: November 2026: 1,8 %. 0,0 procentenheter mot ett år tidigare. _Källa: Riksbanken._
 - **KPIF, 12-månadersförändring (%)**: September 2026: 1,5 %. −1,6 procentenheter mot ett år tidigare. Mål: 2,0 (Riksbankens inflationsmål (KPIF)). _Källa: SCB TAB6590._
 - **El, prisförändring 12 mån (%)**: September 2026: 17,0 %. −5,6 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 - **Beviljade uppehållstillstånd, skydd**: Augusti 2026: 882. Senaste tolv månaderna: 11 983 (året innan 12 527). De tre senaste månaderna: −22 % mot samma månader i fjol. _Källa: Migrationsverket._
