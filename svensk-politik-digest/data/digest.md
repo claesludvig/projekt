@@ -1,22 +1,17 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-01
+# Svensk politik och regeringsförhandlingarna — 2026-11-02
 
-3 nya poster sedan förra utskicket (47 redan utskickade, 141 utanför ämnet).
+2 nya poster sedan förra utskicket (45 redan utskickade, 144 utanför ämnet).
 
-## Analys och kommentar
+## Rapportering
 
-### [49 dagar sedan valet – detta händer nu](https://www.svd.se/a/jvGqKo/49-dagar-sedan-valet-detta-hander-nu)
-SvD Ledare · 2026-11-01 · TT
+### [Ryssvänliga presidenten sitter kvar i Bulgarien](https://www.sverigesradio.se/artikel/9332361)
+Ekot, Sveriges Radio · 2026-11-01 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sju veckor har gått sedan valdagen. Här är turerna kring regeringsbildningen – och vad som händer nu.
+I presidentvalet i Bulgarien har den sittande rysslandsvänliga presidenten Iliana Iotova utropat sig som segrare. Beräkningar av valresultatet visar att hon får kring 57 procent av rösterna, medan den mer västvänlige motkandidaten Andrey Gyurov ligger på kring 39 procent. Iotova var tidigare vicepresident men tillträdde presidentposten i januari i år. Hon är den första kvinna som valts till president i Bulgarien, en post som är ceremoniell.
 
-### [Statsvetare: Partierna ger sig först vid stupstocken](https://www.svd.se/a/mKJqLE/statsvetare-partierna-ger-sig-forst-vid-stupstocken)
-SvD Ledare · 2026-11-01 · Anja Haglund/TT
+### [DN/Ipsos: Minskat stöd för att S och C ska sitta i regering](https://www.dn.se/sverige/dn-ipsos-minskat-stod-for-att-s-och-c-ska-sitta-i-regering)
+DN Nyheter · 2026-11-01 · Hans Olsson
 
-Talmannens besked att pröva C-ledaren som statsminister har mötts av kritik.
+Stödet sjunker för både Socialdemokraterna och Centerpartiet att de ska sitta med i en kommande regering, visar en mätning från DN/Ipsos. – S och C får bära ansvaret för att det går trögt i regeringsbildningen, säger Nicklas Källebring på Ipsos.
 
-### [Max Hjelm: Tänk om vi i själva verket borde njuta av andningspausen](https://www.dn.se/ledare/max-hjelm-tank-om-vi-i-sjalva-verket-borde-njuta-av-andningspausen)
-DN Nyheter · 2026-11-01 · Max Hjelm
-
-Att regeringsbildningen drar ut på tiden gör många otåliga. Men kanske bör man i stället njuta av andningspausen.
-
-_Genererat 2026-11-01T14:03:15.968863+00:00._
+_Genererat 2026-11-02T06:03:07.142012+00:00._

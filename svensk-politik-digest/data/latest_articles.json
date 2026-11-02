@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-01T14:03:15.968863+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-11-02T06:03:07.142012+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 47,
-    "offtopic": 141,
+    "seen": 45,
+    "offtopic": 144,
     "old": 19
   },
-  "fetch_errors": 0,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,56 +65,40 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/jvGqKo/49-dagar-sedan-valet-detta-hander-nu",
-      "title": "49 dagar sedan valet – detta händer nu",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.sverigesradio.se/artikel/9332361",
+      "title": "Ryssvänliga presidenten sitter kvar i Bulgarien",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
       "published": "2026-11-01",
-      "author": "TT",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Sju veckor har gått sedan valdagen. Här är turerna kring regeringsbildningen – och vad som händer nu.",
-      "fulltext": "Sju veckor har gått sedan valdagen. Här är turerna kring regeringsbildningen – och vad som händer nu.\n13 september: Valdagen. SD och S backar kraftigt medan V ökar mest av alla partier. Läget mellan blocken är jämnt och mandat hoppar fram och tillbaka under rösträkningen.\n17 september: De rödgröna partierna vinner valet med 176 mandat mot Tidöpartiernas 173. Ulf Kristersson avgår som statsminister och leder nu en övergångsregering. Magdalena Andersson (S) håller segertal.\n18 september: Magdalena Andersson får det första sonderingsuppdraget.\n27 september: V meddelar att man röstar på moderaten Andreas Norlén som talman.\n28 september: Magdalena Andersson lämnar tillbaka sonderingsuppdraget.\n2 oktober: Talmannen ger tillbaka uppdraget till Magdalena Andersson och meddelar att hon ska prövas i en statsministeromröstning.\n9 oktober: De rödgröna partierna ses på Högberga gård på Lidingö för att få en gemensam lägesbild av Sveriges utmaningar.\n13 oktober: S-ledaren meddelar att det saknas förutsättningar för henne att bilda en regering.\n15 oktober: Riksdagen röstar ner Magdalena Andersson i en statsministeromröstning. Samtliga partier förutom S röstar nej.\n19 oktober: Centerpartiets Elisabeth Thand Ringqvist får i uppdrag att sondera möjligheterna för en mittenregering, med stöd av MP, S, C, KD och L, ledd av Magdalena Andersson.\n26 oktober: Thand Ringqvist återrapporterar att det saknas stöd för en sådan mittenregering.\n29 oktober: Talmannen meddelar att han lägger fram C-ledaren som statsministerkandidat.\n3 november: Riksdagen ska rösta om Thand Ringqvist. Om hon röstas ner kommer M-ledaren Ulf Kristersson att få uppdraget att försöka bilda regering.\n10 november: Ulf Kristersson ska i så fall återrapportera till talmannen detta datum.",
+      "summary": "I presidentvalet i Bulgarien har den sittande rysslandsvänliga presidenten Iliana Iotova utropat sig som segrare. Beräkningar av valresultatet visar att hon får kring 57 procent av rösterna, medan den mer västvänlige motkandidaten Andrey Gyurov ligger på kring 39 procent. Iotova var tidigare vicepresident men tillträdde presidentposten i januari i år. Hon är den första kvinna som valts till president i Bulgarien, en post som är ceremoniell.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332361'",
       "matched_terms": [
-        "regeringsbildning"
+        "valresultat"
       ],
-      "first_seen": "2026-11-01T14:03:15.968863+00:00"
+      "first_seen": "2026-11-02T06:03:07.142012+00:00"
     },
     {
-      "url": "https://www.svd.se/a/mKJqLE/statsvetare-partierna-ger-sig-forst-vid-stupstocken",
-      "title": "Statsvetare: Partierna ger sig först vid stupstocken",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-01",
-      "author": "Anja Haglund/TT",
-      "commentator": "",
-      "summary": "Talmannens besked att pröva C-ledaren som statsminister har mötts av kritik.",
-      "fulltext": "Centerpartiets partiledare Elisabeth Thand Ringqvist och riksdagens talman Andreas Norlén. Arkivbild. Foto: TT\nTalmannens besked att pröva C-ledaren som statsminister har mötts av kritik.\n– Partierna är upprörda och förvånade och allt möjligt, men det viktiga är nog att det blir en omröstning, säger statsvetaren Jonas Hinnfors.\nEnligt honom är det förmodligen hotet om ett extraval som kan sätta i gång processen att få fram en regering på riktigt.\n– Osäkerheten om vad ett extraval kan resultera i leder till att man faktiskt börjar ändra sig om olika röda linjer, när man står inför stupstocken så att säga, säger Jonas Hinnfors, professor emeritus i statsvetenskap.\nTalman Andreas Norlén har varit tydlig med att han vill undvika en lika långdragen regeringsbildning som 2018, då det tog 134 dagar att få en regering på plats.\nSamtidigt fyllde tiden också en funktion när partierna skulle bryta upp tidigare positioner och landa i något helt nytt.\nMen det var även då först när talmannen började ge riksdagen möjlighet att rösta om olika kandidater som det egentligen gick framåt, påpekar Hinnfors.\nHan anser inte att talmannen med sin nya inställning, att en sondering ska leda till en votering, riskerar att forcera processen.\n– Givet alla låsningar och röda linjer är det nog så att det inte kommer av sig själv. Alla väntar på att någon annan ska ändra sig.\n– Nu vet alla att om några veckor kommer det att vara den tredje omröstningen, och det kanske är det som gör att partierna på allvar börjar diskutera.\nPå tisdag prövar riksdagen Elisabeth Thand Ringqvist (C), vars mittenalternativ av allt att döma kommer att röstas ner. Efter det går uppdraget till M-ledaren Ulf Kristersson.\nÄven hans uppdrag ska följas av en omröstning. Men det är inte säkert att den blir om Kristersson om han kommer tillbaka och säger att han har misslyckats.\n– Om talmannen märker att det börjat röra på sig hos de rödgröna kan han förlänga sonderingen och lämna över den till Andersson, säger Jonas Hinnfors.\nI samband med den tredje eller fjärde omröstningen tror han att processen tar fart på riktigt.\n– Det kanske kan dra in i december, men mycket längre kommer det nog inte att ta, säger Hinnfors om tidsperspektivet.\nDet mest troliga är att det rödgröna blocket med sina 176 mandat till slut enas kring Andersson, menar han.\nHans gissning är att C får stryka sin röda linje mot V i regeringen, medan V kan få vika sig i viktiga frågor och tvingas acceptera mittenpolitik.\n– Klarar man inte det, ja då är det kanske extraval som det blir. Det är nog närmare den här gången än det var 2018.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-01T14:03:15.968863+00:00"
-    },
-    {
-      "url": "https://www.dn.se/ledare/max-hjelm-tank-om-vi-i-sjalva-verket-borde-njuta-av-andningspausen",
-      "title": "Max Hjelm: Tänk om vi i själva verket borde njuta av andningspausen",
+      "url": "https://www.dn.se/sverige/dn-ipsos-minskat-stod-for-att-s-och-c-ska-sitta-i-regering",
+      "title": "DN/Ipsos: Minskat stöd för att S och C ska sitta i regering",
       "source": "DN Nyheter",
-      "kind": "kommentar",
+      "kind": "nyhet",
       "published": "2026-11-01",
-      "author": "Max Hjelm",
+      "author": "Hans Olsson",
       "commentator": "",
-      "summary": "Att regeringsbildningen drar ut på tiden gör många otåliga. Men kanske bör man i stället njuta av andningspausen.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-01 15:01\nArtikelns ursprungsadress: https://www.dn.se/ledare/max-hjelm-tank-om-vi-i-sjalva-verket-borde-njuta-av-andningspausen/\nAtt regeringsbildningen drar ut på tiden gör många otåliga. Men kanske bör man i stället njuta av andningspausen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nTalmannen Andreas Norlén börjar anta nästan mytiska proportioner, en snäll och mänsklig version av Bigfoot och Yeti. Det har funnits stunder när ett helt pressuppbåd undrat: Kommer han att visa sig?\nHan har en stor uppgift, förstås – att lotsa partierna till att bilda regering. I skrivande stund, en och en halv månad efter riksdagsvalet, har väldigt lite hänt.\nI måndags lämnade Elisabeth Thand Ringqvist (C) tillbaka sonderingsuppdraget. Därefter var talmannen tyst till torsdag eftermiddag, då han presenterade sitt nya drag: Thand Ringqvist ska utsättas för en statsministeromröstning på tisdag. En hon alldeles säkert kommer förlora. Därefter går turen vidare.\nNu är Norlén främst en symbol, det är partierna som till syvende och sist måste bilda regering. Många har varit oroliga att 2018 ska upprepas, då det tog 134 dagar tills regeringsfrågan löstes.\nDet har kommit påpekanden från olika håll: partierna beter sig omoget, borde skynda på, skärpa sig, och så vidare. Ingen nämnd, ingen glömd.\nOch visst, väntan är inte så värdig. Men kanske borde man passa på att njuta medan man kan av andningspausen?\nTanken slog mig när jag nyligen såg teatergruppen Hjärter Fems pjäs ”Exil i Hello Kitty City”, på Teater Brunnsgatan 4. Uppsättningen är en slags omarbetning av Samuel Becketts ”I väntan på Godot”. Då Beckett förbjöd kvinnor från att spela figurerna i hans pjäs har dramakollektivet, lite halvbusigt, skrivit en egen version där kvinnor tar huvudrollerna.\nGenom föreställningen sitter de två huvudpersonerna och väntar på en kille vid namn Daniel. Ibland är den ena på väg att ge upp, men de håller ut. Daniel kommer nog snart, intalar de sig.\nDet är nästan exotiskt, denna väntan. Vi lever ju i en tid när allt går så fort.\n80 procent av svenskarna har haft en utestående betalning hos Klarna – kreditbetalningar så att man inte behöver spara shopping till löningsdagen. Snabbleverans för att få paketet direkt. Med strömningssajter tvingas vi inte vänta på att en film på tv ska börja.\nI en så snabbrörlig tid kanske det inte är så fel att försöka njuta av väntans dagar?\nOm inte annat för att man inte vet vad som händer när skeenden väl drar igång.\nTill skillnad från den ursprungliga ”I väntan på Godot” så slutar faktiskt ”Exil i Hello Kitty City” med att personen de väntar på kommer. Daniel strosar in på scen, och vad sker? Tjejerna pepparsprejar honom i panik, psykar honom, de når varken fram till Daniel eller varandra.\nMax Hjelm: Högern har fastnat i ett heligt krig mot år 2014 – och det enda vapen de har är en hammare\nMax Hjelm: Avhumaniseringen underlättas när krigets offer görs osynliga i Gaza\nDN:s ledarredaktion: Borgerligheten ser ut som hycklare när de ger partivänner välbetalda jobb\nMax Hjelm gästar veckans avsnitt av podden ”Kära dagbok” och pratar om detta tema, lyssna gärna!\nKan Joakim Lundells tjejresa lösa regeringsbildningen?\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Borgerligheten ser ut som hycklare när de ger partivänner välbetalda jobb\nMax Hjelm: Högern har fastnat i ett heligt krig mot år 2014 – och det enda vapen de har är en hammare\nMax Hjelm: Avhumaniseringen underlättas när krigets offer görs osynliga i Gaza",
+      "summary": "Stödet sjunker för både Socialdemokraterna och Centerpartiet att de ska sitta med i en kommande regering, visar en mätning från DN/Ipsos. – S och C får bära ansvaret för att det går trögt i regeringsbildningen, säger Nicklas Källebring på Ipsos.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-02 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/dn-ipsos-minskat-stod-for-att-s-och-c-ska-sitta-i-regering/\nStödet sjunker för både Socialdemokraterna och Centerpartiet att de ska sitta med i en kommande regering, visar en mätning från DN/Ipsos.\n– S och C får bära ansvaret för att det går trögt i regeringsbildningen, säger Nicklas Källebring på Ipsos.\nÄr du redan prenumerant, logga in för att fortsätta läsa.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.\nHalloween-erbjudande! Därefter 249 kr/mån. Ingen bindningstid.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning"
+        "regeringsbildning",
+        "Centerpartiet",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-01T14:03:15.968863+00:00"
+      "first_seen": "2026-11-02T06:03:07.142012+00:00"
     }
   ]
 }
