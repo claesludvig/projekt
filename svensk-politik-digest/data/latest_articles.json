@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-11-03T06:02:49.216670+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-11-03T14:04:09.162166+00:00",
+  "new_count": 12,
   "skipped": {
-    "seen": 43,
-    "offtopic": 148,
-    "old": 17
+    "seen": 39,
+    "offtopic": 147,
+    "old": 12
   },
-  "fetch_errors": 1,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -59,48 +59,233 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.expressen.se/ledare/patrik-kronqvist/ga-inte-pa-s-spinnet-om-andreas-norlen",
-      "title": "Gå inte på S-spinnet om Andreas Norlén",
-      "source": "Expressen Ledare",
+      "url": "https://www.svd.se/a/4OMV0G/elisabeth-thand-ringqvist-rostas-ned-som-statsminister",
+      "title": "Riktar udden mot andra: ”Får ta ansvar”",
+      "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-11-02",
-      "author": "patrik kronqvist",
-      "commentator": "Patrik Kronqvist",
-      "summary": "Nu försöker Socialdemokraterna misstänkliggöra talmannen. Det är ett fult spel för att dölja det egna misslyckandet.",
-      "fulltext": "Nu försöker Socialdemokraterna misstänkliggöra talmannen. Det är ett fult spel för att dölja det egna misslyckandet.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nTalman Andreas Norlén har bestämt sig för att pröva C-ledaren Elisabeth Thand Ringqvist i en statsministeromröstning. Det har rört upp ilska inom Socialdemokraterna.\nPartiledaren Magdalena Andersson kallar beslutet för ”anmärkningsvärt”. Andra S-röster ifrågasätter öppet talmannens neutralitet.\n– Han agerar mer som en moderat än på länge, säger en anonym S-källa till Aftonbladet.\nSom man känner sig själv känner man andra. Nu förstår man den socialdemokratiska upprördheten över att Vänsterpartiet röstade på Norlén som talman. S hade hoppats på en kandidat som de själva kunde styra över.\nAnklagelserna mot Andreas Norlén är struntprat. Om något är problemet att talmannen har tagit för mycket hänsyn till partiet.\nDet rimliga hade varit att pröva Andersson och inte Thand Ringqvist som statsministerkandidat för ett mittenalternativ. Det var det som C-ledarens sonderingsuppdrag handlade om. Men enligt uppgifter var Andersson inte med på det tåget. Hon ville inte.\nI praktiken spelar det mindre roll vem man röstar om. Andersson hade gått mot ett lika säkert nederlag som Thand Ringqvist. Det viktiga är att en andra statsministeromröstning sätter press på partierna att komma överens.\nOch det är här skon klämmer för Socialdemokraterna. I sin strävan att nöta ut de andra rödgröna partierna önskar man mer tid.\nS-märkta Anders Lindberg på Aftonbladets ledarsida anklagade talmannen för att ”forcera processen” när jag debatterade mot honom i SVT:s Aktuellt i förra veckan.\nUrsäkta, men det är faktiskt talmannens jobb. Behovet av tempo i förhandlingarna är själva grundtanken med de regler som styr regeringsbildningen.\n”En regeringskris bör bli så kort som möjligt”, som det står i utredningen om ny regeringsform och ny riksdagsordning från 1972.\nFör att åstadkomma det införde man regeln om automatiskt extra val efter en fjärde misslyckad statsministeromröstning: ”Det bör finnas ett medel att förmå de medverkande att åstadkomma en positiv lösning inom rimlig tid.”\nMen när talmannen använder det verktyget kräver Anders Lindberg i stället att de rödgröna ska få tid på sig för att ”bygga förtroende” mellan partiledningarna.\nMer tid? Magdalena Andersson har haft hela förra mandatperioden och tiden efter valet att bygga förtroende. Det är fyra år och sju veckor. Att det enda konkreta som hittills har kommit ut ur de försöken är en seminarieövning på Lidingö är inte talmannens fel.\nGenom sitt agerande vill Socialdemokraterna nu åstadkomma två saker. Dels vill man sätta press på talmannen inför slutskedet av regeringsbildningen. Dels förbereder man en bortförklaring. Om Magdalena Andersson misslyckas, vilket verkar alltmer sannolikt, ska S kunna skylla på Andreas Norlén.\nFör att lyckas med det försöker man urholka förtroendet för talmannens opartiskhet. Det är lika fult som oansvarigt.\nPatrik Kronqvist är politisk redaktör och chef för Expressens ledarsida. Läs fler av hans texter här.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
+      "published": "2026-11-03",
+      "author": "Malin Hector, Jenny Nyman, Etezaz Yousuf",
+      "commentator": "",
+      "summary": "Elisabeth Thand Ringqvist har röstats ned som statsminister – men berättar om nya möten mellan de…",
+      "fulltext": "Elisabeth Thand Ringqvist har röstats ned som statsminister – men berättar om nya möten mellan de rödgröna partiledarna. Nu går sonderings­uppdraget till Ulf Kristersson som måste få med sig Centerpartiet om han ska lyckas.\nCenterledaren Elisabeth Thand Ringqvist föll som väntat i en statsminister­omröstning i riksdagen på tisdagen.\nTalmannen vill skynda på processen att bilda regering och la därför fram henne som förslag – trots att hon inte haft för avsikt att själv bli statsminister.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "Socialdemokraterna"
+        "statsminister"
       ],
-      "first_seen": "2026-11-03T06:02:49.216670+00:00"
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9333107",
-      "title": "Statsvetaren: C skulle kunna släppa in V – men med hårda villkor",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-02",
-      "author": "Ekot",
+      "url": "https://www.svd.se/a/aOmynO/valuno-daniel-sonesson-atalas-for-grovt-insiderbrott",
+      "title": "Tidigare partiledare åtalas",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-03",
+      "author": "Cindrella Soliman",
       "commentator": "",
-      "summary": "Riksdagen röstar på tisdag om Centerns Elisabeth Thand Ringqvist som statsminister, trots att hon själv bedömer att hon inte kan vinna. Enligt talmannen kräver grundlagen en omröstning när en kandidat fått försöka bilda regering. Statsvetaren Jonas Hinnfors pekar ut ett möjligt höstscenario där Magdalena Andersson (S) kan återkomma och där Vänsterpartiet kan släppas in av Centerpartiet men på hårda villkor.",
+      "summary": "Två tidigare toppchefer inom kryptobolaget Valuno åtalas för insiderbrott.",
+      "fulltext": "Två tidigare toppchefer inom kryptobolaget Valuno åtalas för insiderbrott. En av dem är den tidigare partiledaren för Medborgerlig Samling, Daniel Sonesson. ”Jag anser att jag är fullständigt oskyldig”, skriver han till SvD.\nI ett pressmeddelande uppger Ekobrottsmyndigheten att Daniel Sonesson, tidigare vd för Valuno, och bolagets tidigare ekonomichef åtalas för grovt insiderbrott.\nDen 3 juli 2025 fick cheferna besked om att Finansinspektionen avslagit en viktig tillståndsansökan från ett av Valunos dotterbolag. Ansökan gällde en Mica-licens, ett ”tillstånd att erbjuda tjänster kopplade till kryptotillgångar inom EU”, skriver Ekobrottsmyndigheten i pressmeddelandet.\nAI-jättar faller – här är strategens val på börsen",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/QgGqWQ/busch-naturligt-att-kristersson-far-sondera",
+      "title": "Kristerssons tur att sondera – C-ledare föll",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-03",
+      "author": "Niklas Svahn/TT, Peter Wallberg/TT, Maria Davidsson/TT, Johanna Ekström/TT",
+      "commentator": "",
+      "summary": "Riksdagen har nu röstat nej till C-ledaren Elisabeth Thand Ringqvist som statsminister.",
+      "fulltext": "Riksdagen har nu röstat nej till C-ledaren Elisabeth Thand Ringqvist som statsminister. Nu går sonderingsuppdraget vidare till Moderatledaren Ulf Kristersson.\nBara Centerpartiets 25 riksdagsledamöter röstade ja till Thand Ringqvist. Alla andra röstade nej.\nRedan på förhand stod det klart att statsministeromröstningen mer var ett sätt att komma framåt i regeringsprocessen än att talman Andreas Norlén trodde att hon skulle bli vald. Efter fyra misslyckade statsministeromröstningar väntar ett extra val.\n– Vi tyckte kanske inte att det var det mest logiska att jag fick vara den som det i dag skulle voteras för, säger Thand Ringqvist.\nHon lades fram som kandidat för en regering bestående av C, S, KD, MP och L. Men varken KD, MP eller L vill ingå i en sådan regering.\nRedan i förra veckan gav talmannen nästa sonderingsuppdrag till Ulf Kristersson, om C-ledaren skulle misslyckas.\nUlf Kristersson kommer att ta uppdraget på största allvar och försöka få till en lösning, säger M:s gruppledare i riksdagen Mattias Karlsson.\n– Samtidigt är matematiken klar. Det är helt osannolikt att vi skulle ha en lösning på plats, säger han.\nHan syftar på att de rödgröna partierna har en majoritet i riksdagen, 176 mandat mot Tidöpartiernas 173.\nKarlsson tycker att det är ”ett misslyckande” att omröstningen om C-ledaren ens hålls.\n– Och det misslyckandet ligger helt och hållet på Magdalena Andersson, som under fyra år har mörkat och inte förberett ett eget regeringsalternativ, säger han.\nHittills har läget varit låst på den rödgröna sidan, men samtal uppges nu pågå mellan partiledarna.\nC:s röda linjer består dock. Partiet kan inte acceptera att V sitter i regering och kan inte heller stödja en regering där SD har inflytande.\nSamtidigt står V fast vid sitt krav om att sitta i en S-ledd regering för att rösta ja.\nS-ledaren Magdalena Andersson har hittills inte sagt vilka partier hon själv vill ha med i en regering.\n– Det är min bedömning att jag för de samtalen bättre direkt med involverade partier, säger Andersson.\nElisabeth Thand Ringqvist tycker dock att det skulle vara bra om Andersson var tydlig med vilken regering hon vill bilda, och hur hon ser på V i en S-regering.\n– Det är ju många som försöker förstå var Socialdemokraterna står i den frågan. Men jag har inte kunnat utröna det när jag tittat på intervjuer och uttalanden från Socialdemokrater, säger hon.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/c-ledaren-gar-mot-nederlag-kristersson-vantas-fa-stafettpinnen",
+      "title": "C-ledaren går mot nederlag – Kristersson väntas få stafettpinnen",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Julia Selin",
+      "commentator": "",
+      "summary": "I dag tar riksdagen ställning om en mittenregering ledd av Elisabeth Thand Ringqvist – men inte ens C-ledaren själv tror att hon kommer röstas fram som statsminister. – Det kommer gå käpprätt åt skogen, säger SVT:s politikreporter Erik Nilsson. I stället väntas stafettpinnen nu gå till Ulf Kristersson.",
+      "fulltext": "I dag tar riksdagen ställning om en mittenregering ledd av Elisabeth Thand Ringqvist – men inte ens C-ledaren själv tror att hon kommer röstas fram som statsminister.\n– Det kommer gå käpprätt åt skogen, säger SVT:s politikreporter Erik Nilsson.\nI stället väntas stafettpinnen nu gå till Ulf Kristersson.\nTalmannen Andreas Norléns beslut i förra veckan att pröva Elisabeth Thand Ringqvist (C) i en statsministeromröstning har lett till missnöje bland flera av de rödgröna partierna .\nInte minst på grund av att C-ledaren inte sonderat för att själv bli statsminister.\nNär hon fick uppdraget för drygt två veckor sedan poängterade hon att hennes ambition var att ”bidra till en lösning på regeringsfrågan, inte att själv bli statsminister”.\nInte ens Thand Ringqvist själv tror att hon kommer röstas igenom när riksdagen nu ska ta ställning till en mittenregering med C-ledaren som statsminister, menar SVT:s politikreporter Erik Nilsson.\n– Någon ny statsminister kommer det inte bli, säger Nilsson i Morgonstudion inför omröstningen.\n– Hon kommer inte få så många röster förutom centerpartisterna själva. Inte ens Thand Ringqvist själv tror att hon kommer bli statsminister.\nC-ledaren kan endast bli vald ifall en majoritet i kammaren inte röstar ned henne.\nBusch: Årets julklapp såg ut att bli en ny regering\nEnergi- och näringsminister Ebba Busch (KD) kommenterade läget i regeringsbildningen vid en pressträff på tisdagsförmiddagen.\n– Det kändes ett tag som att vi var på väg mot en situation där årets julklapp skulle bli en ny regering och årets julvärd skulle bli Ida Gabrielsson, säger Busch.\nHon säger att det nu är ”fullt naturligt” att Ulf Kristersson ges det formella sonderingsuppdraget, enligt talmannens nästa steg i processen ifall C-ledaren röstas ner som statsminister.\nM-ledaren får då en vecka på sig att utforska förutsättningarna för att bilda regering.\nBåde Magdalena Andersson (S) och språkröret Amanda Lind (MP) har poängterat att de anser att Kristersson borde ha fått sondera direkt, i stället för att låta C-ledaren gå till statsministeromröstning.\nOmröstningen är den andra i ordningen sedan S-ledaren prövades och röstades ned i mitten av oktober. Ytterligare två statsministeromröstningar kan hållas innan ett extraval automatiskt blir utlyst, enligt regeringsformen.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/regeringsbildningen-steg-for-steg",
+      "title": "Regeringsbildningen steg för steg",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Emma Blomström",
+      "commentator": "",
+      "summary": "Ett av talmannens uppdrag är att föreslå en statsminister efter ett val. Nuvarande talmannen Andreas Norlén har använt så kallade sonderingsuppdrag som verktyg att föra processen framåt. Elisabeth Thand Ringqvist (C) röstades ner i en andra statsministeromröstning den 3 november.",
+      "fulltext": "Ett av talmannens uppdrag är att föreslå en statsminister efter ett val. Nuvarande talmannen Andreas Norlén har använt så kallade sonderingsuppdrag som verktyg att föra processen framåt.\nElisabeth Thand Ringqvist (C) röstades ner i en andra statsministeromröstning den 3 november.\nEtt sonderingsuppdrag innebär att en partiledare får möjligheten att undersöka, det vill säga sondera, förutsättningarna för att bilda en regering. Därefter bestämmer talmannen om partiledarens förslag ska gå vidare till en omröstning i riksdagen.\nSonderingsuppdraget är inte reglerat i regeringsformen, utan ett arbetssätt som talmannen kan använda.\nOm fyra omröstningar misslyckas blir det ett obligatorisk extraval. Fyra omröstningar innan ett extraval är utformat i regeringsformen från 1974.\nIngen partiledare har hittills utryckt vilja att sondera eller presentera en regering.\n13 september: Val. Oppositionen vinner efter ett jämt lopp.\n18 september: Magdalena Andersson (S) får det första sonderingsuppdraget av talmannen.\n28 september: Andreas Norlén återväljs till talman med stöd av M, KD, L, SD och V. Magdalena Andersson meddelar att hon lämnar tillbaka sonderingsuppdraget efter att V valt att stödja Moderaternas talmanskandidat.\n2 oktober: Talmannen meddelar att S-ledaren får återuppta sonderingsuppdraget.\n5 oktober: Anderssons sonderingsomgång inleds.\n15 oktober: Magdalena Andersson (S) röstas ned i den första statsministeromröstningen i riksdagen. Hon kunde inte presentera en regeringskonstellation, och fick inte förtroendet att bilda regering.\n19 oktober: Talmannen ger sonderingsuppdraget till Centerpartiets Elisabeth Thand Ringqvist. C-ledaren har sedan tidigare uppgett att hon inte aspirerar på statsministerposten.\n27 oktober: Talmannen beslutar att även C-ledaren ska vidare till en omröstning i riksdagen. Då ska riksdagen ta ställning till en mittenregering bestående av C, S, KD, MP och L, med Elisabeth Thand Ringqvist som statsminister.\n3 november: Thand Ringqvist röstades ned i riksdagen. Talmannen ger uppdraget till Moderaternas Ulf Kristersson som tackar ja.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman",
+        "sondering",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument//_cms6afacb7c-be00-432a-b75e-37e169872323sv",
+      "title": "Nej till Elisabeth Thand Ringqvist (C) som statsminister",
+      "source": "Riksdagen",
+      "kind": "officiell",
+      "published": "2026-11-03",
+      "author": "riksdagsinformation@riksdagen.se",
+      "commentator": "",
+      "summary": "… Fram till dess att en ny regering tillträtt i samband med en skifteskonselj är Ulf Kristersson (M) statsminister i övergångsregeringen som består av företrädare för Moderaterna, Kristdemokraterna och Liberalerna. Mer information Så bildas en ny regering Valet och regeringsbildningen 2026 Kontakt Riksdagsinformation, telefon 020-349 000, e-post riksdagsinformation@riksdagen.se Nej till Elisabeth Thand 2026-11-03 14:00:00",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9333107'",
+      "fetch_error": "Client error '404 Not Found' for url 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_cms6afacb7c-be00-432a-b75e-37e169872323sv/'",
+      "matched_terms": [
+        "regeringsbildning",
+        "övergångsregering",
+        "statsminister",
+        "Kristdemokraterna",
+        "Liberalerna",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9333576",
+      "title": "Gissén: ”Uppfattas nog som ganska konstigt för väljarna”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Under tisdagen röstades Centerpartiets ledare Elisabeth Thand Ringqvist ner som statsminister i riksdagen – vilket var väntat, enligt Ekots inrikespolitiska kommentator Helena Gissén. ”Det kan nog uppfattas som ganska konstigt för väljarna att man gång på gång lägger fram statsministrar för votering i kammaren, fast man vet på förhand att det inte kommer fungera”, säger Gissén. Hon säger att statsministeromröstningar är ett verktyg talmannen har för att få regeringsbildningsprocessen att gå framåt, eftersom det automatiskt blir extraval efter fyra misslyckade omröstningar.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9333576'",
+      "matched_terms": [
+        "regeringsbildning",
+        "talman",
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9333567",
+      "title": "Thand Rindqvist (C) röstas ner som statsminister",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiets ledare Elisabeth Thand Ringqvist röstas ner som statsminister i riksdagen. Det var i fredags som talmannen Andreas Norlén meddelade att C-ledaren skulle prövas i en statsministeromröstning, efter att hon sonderat för en regering som består av C, S, MP, KD och L. Det här är den andra statsministeromröstningen efter valet. I den första röstades Socialdemokraternas partiledare Magdalena Andersson ner. Efter fyra blir det automatiskt extraval.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9333567'",
       "matched_terms": [
         "talman",
         "statsminister",
+        "partiledar",
         "Centerpartiet",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9333300",
+      "title": "Gissén: Centerpartiet kan bli avgörande",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiet väntas rösta grönt i tisdagens statsministeromröstning, resterande partier rött vilket innebär att centerledaren Elisabeth Thand Ringqvist kommer förlora. Samtidigt är Centerpartiet det mest intressanta partiet att följa framåt, enligt politikkommentator Helena Gissén. ”Är det en regering med Vänsterpartiet i eller är det en regering som på ett eller annat sätt är beroende av Sverigedemokraterna, kanske då utan SD-ministrar eller är det extraval?\"",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9333300'",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet",
+        "Sverigedemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-03T06:02:49.216670+00:00"
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/c-ledaren-faller-i-statsministeromrostningen",
+      "title": "Brakförlust för C-ledaren i statsministeromröstningen",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Sofia Clason, Hans Olsson, Pia Gripenberg",
+      "commentator": "",
+      "summary": "Det blev som väntat en brakförlust för C-ledaren Elisabeth Thand Ringqvist när riksdagen prövade henne i en statsministeromröstning. Bara ledamöterna från det egna partiet röstade ja. – Jag accepterade att ställa upp, säger Elisabeth Thand Ringqvist.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-03 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/c-ledaren-faller-i-statsministeromrostningen/\nDet blev som väntat en brakförlust för C-ledaren Elisabeth Thand Ringqvist när riksdagen prövade henne i en statsministeromröstning. Bara ledamöterna från det egna partiet röstade ja.\n– Jag accepterade att ställa upp, säger Elisabeth Thand Ringqvist.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nNär riksdagsledamöterna samlades efter lunch på tisdagen var det redan klart att Elisabeth Thand Ringqvist skulle röstas ned. Ingen, inte ens hon själv ville egentligen ha uppdraget. Att hon över huvud taget ställdes upp för omröstning var en konsekvens av att det går fortsatt trögt med regeringsbildningen.\n– Magdalena Andersson är vår statsministerkandidat, säger Elisabeth Thand Ringqvist.\nRöstsiffrorna blev förkrossande 324–25 till C-ledarens nackdel. Det var enbart C-ledamöterna som tryckte på grön knapp.\nOmröstningen är den andra i ordningen efter att Magdalena Andersson tidigare röstats ned. Därmed återstår två försök innan extra val utlyses automatiskt.\nNu övergår sonderingsuppdraget till Moderatledaren Ulf Kristersson, enligt den plan som talman Andreas Norlén stakat ut för den fortsatta regeringsbildningen. Kristersson får en vecka på sig att sondera om det finns något möjligt regeringsunderlag bland partierna på hans sida.\nAtt Ulf Kristersson får uppdraget välkomnas av S-ledaren Magdalena Andersson.\n– Jag har haft sonderingsuppdraget en gång och sedan har jag tyckt hela vägen att det är läge för Kristersson att ha ett sonderingsuppdrag. Jag tycker att han borde ha fått det utan den omröstning som vi har i dag, säger hon.\nDet har på tisdagen gått 51 dagar sedan valdagen och än så länge finns det ingen regering i sikte. Den främsta låsningen finns mellan Centerpartiet och Vänsterpartiet, som båda dragit upp röda linjer för sin regeringsmedverkan. C kräver att V inte får vara med i regeringen medan V kräver ministerposter för att släppa fram en regering som är beroende av partiets mandat.\nV-ledaren Nooshi Dadgostar anser att tisdagens omröstning bekräftar att det inte finns något stöd för det så kallade mittenalternativ som C har förespråkat. Hon tycker nu att partierna på den rödgröna sidan måste sätta sig ned med målet att bilda en regering där S, C, V och MP ingår.\n– Låt oss bilda en stark fyrpartiregering som kan få igenom sina förslag, säger Nooshi Dadgostar.\nSamtidigt öppnar hon för att börja diskutera sakpolitik med de övriga partierna, något som V tidigare sagt nej till om det inte finns garantier för att partiet ska få ministerposter. Hon nämner att C bland annat gått till val på att stärka landsbygden, att satsa på psykisk ohälsa och sänka utsläppen.\n– Självklart kan vi sätta oss ned och prata om de saker som de lovade väljarna, säger Nooshi Dadgostar.\nTalman Andreas Norlén har sagt att han kommer att överväga om Ulf Kristersson kommer att prövas i en statsministeromröstning eller inte efter avslutat sonderingsuppdrag. Om de rödgröna partierna kan rapportera att de kommit framåt i förhandlingarna kan uppdraget i stället övergå till Magdalena Andersson. De framstegen måste i så fall ske under den kommande veckan.\nAndreas Norlén har också sagt att han vill att den pågående regeringsprocessen ska gå snabbare än vad den gjorde 2018. Då tog det 134 dagar innan Socialdemokraterna och Miljöpartiet kunde tillträda genom januariavtalet med Centerpartiet och Liberalerna. Nu har det gått 51 dagar sedan valdagen.\n– Min ambition är att vi inte ska hålla på i 134 dagar igen, har Andreas Norlén sagt.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Var håller egentligen Magdalena Andersson hus?\nC-ledaren går mot storförlust när riksdagen röstar om statsminister",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/chatta-med-dns-politikreportrar-om-regeringsbildningen-2",
+      "title": "Chatta med DN om regeringsbildningen",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "DN",
+      "commentator": "Tomas Ramberg",
+      "summary": "Finns det någon möjlighet att Elisabeth Thand Ringqvist blir vald till statsminister? Vad händer efter dagens omröstning och har partierna råd med ett extra val? Ställ dina frågor om regeringsbildningen till DN:s politikreporter Hanna Jakobson och politiske kommentator Tomas Ramberg. Chatten drar igång klockan 11.00.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-03 15:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/chatta-med-dns-politikreportrar-om-regeringsbildningen-2/\nFinns det någon möjlighet att Elisabeth Thand Ringqvist blir vald till statsminister? Vad händer efter dagens omröstning och har partierna råd med ett extra val?\nStäll dina frågor om regeringsbildningen till DN:s politikreporter Hanna Jakobson och politiske kommentator Tomas Ramberg. Chatten drar igång klockan 11.00.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nBrakförlust för C-ledaren i statsministeromröstningen\nLedare: Var håller egentligen Magdalena Andersson hus?\nC-ledaren går mot storförlust när riksdagen röstar om statsminister",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/c-ledaren-gar-mot-storforlust-nar-riksdagen-rostar-om-statsminister",
+      "title": "C-ledaren går mot storförlust när riksdagen röstar om statsminister",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-03",
+      "author": "Hans Olsson, Pia Gripenberg",
+      "commentator": "",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist prövas i dag i en unik statsministeromröstning. Ingen, vare sig hon själv eller någon från andra partier, vill att hon ska bli regeringsbildare.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-03 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/c-ledaren-gar-mot-storforlust-nar-riksdagen-rostar-om-statsminister/\nC-ledaren Elisabeth Thand Ringqvist prövas i dag i en unik statsministeromröstning. Ingen, vare sig hon själv eller någon från andra partier, vill att hon ska bli regeringsbildare.\nÄr du redan prenumerant, logga in för att fortsätta läsa.",
+      "paywall": true,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-03T14:04:09.162166+00:00"
     }
   ]
 }
