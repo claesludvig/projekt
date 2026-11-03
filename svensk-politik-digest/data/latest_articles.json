@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-02T15:09:18.598851+00:00",
-  "new_count": 6,
+  "fetched_at": "2026-11-03T06:02:49.216670+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 45,
-    "offtopic": 141,
-    "old": 18
+    "seen": 43,
+    "offtopic": 148,
+    "old": 17
   },
-  "fetch_errors": 6,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 6,
+      "new": 1,
       "ok": true
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,116 +65,42 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9332449",
-      "title": "Hur lång tid kan regeringsbildningen ta?",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
+      "url": "https://www.expressen.se/ledare/patrik-kronqvist/ga-inte-pa-s-spinnet-om-andreas-norlen",
+      "title": "Gå inte på S-spinnet om Andreas Norlén",
+      "source": "Expressen Ledare",
+      "kind": "kommentar",
       "published": "2026-11-02",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Ovissheten kring regeringsbildningen väcker många frågor, inte minst hur lång tid det kan ta innan Sverige får en ny statsminister. Bedömningen är att processen kan bli lång, men sannolikt inte lika utdragen som 2018, då regeringsbildningen tog 134 dagar. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
-      "fulltext": "",
+      "author": "patrik kronqvist",
+      "commentator": "Patrik Kronqvist",
+      "summary": "Nu försöker Socialdemokraterna misstänkliggöra talmannen. Det är ett fult spel för att dölja det egna misslyckandet.",
+      "fulltext": "Nu försöker Socialdemokraterna misstänkliggöra talmannen. Det är ett fult spel för att dölja det egna misslyckandet.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.\nTalman Andreas Norlén har bestämt sig för att pröva C-ledaren Elisabeth Thand Ringqvist i en statsministeromröstning. Det har rört upp ilska inom Socialdemokraterna.\nPartiledaren Magdalena Andersson kallar beslutet för ”anmärkningsvärt”. Andra S-röster ifrågasätter öppet talmannens neutralitet.\n– Han agerar mer som en moderat än på länge, säger en anonym S-källa till Aftonbladet.\nSom man känner sig själv känner man andra. Nu förstår man den socialdemokratiska upprördheten över att Vänsterpartiet röstade på Norlén som talman. S hade hoppats på en kandidat som de själva kunde styra över.\nAnklagelserna mot Andreas Norlén är struntprat. Om något är problemet att talmannen har tagit för mycket hänsyn till partiet.\nDet rimliga hade varit att pröva Andersson och inte Thand Ringqvist som statsministerkandidat för ett mittenalternativ. Det var det som C-ledarens sonderingsuppdrag handlade om. Men enligt uppgifter var Andersson inte med på det tåget. Hon ville inte.\nI praktiken spelar det mindre roll vem man röstar om. Andersson hade gått mot ett lika säkert nederlag som Thand Ringqvist. Det viktiga är att en andra statsministeromröstning sätter press på partierna att komma överens.\nOch det är här skon klämmer för Socialdemokraterna. I sin strävan att nöta ut de andra rödgröna partierna önskar man mer tid.\nS-märkta Anders Lindberg på Aftonbladets ledarsida anklagade talmannen för att ”forcera processen” när jag debatterade mot honom i SVT:s Aktuellt i förra veckan.\nUrsäkta, men det är faktiskt talmannens jobb. Behovet av tempo i förhandlingarna är själva grundtanken med de regler som styr regeringsbildningen.\n”En regeringskris bör bli så kort som möjligt”, som det står i utredningen om ny regeringsform och ny riksdagsordning från 1972.\nFör att åstadkomma det införde man regeln om automatiskt extra val efter en fjärde misslyckad statsministeromröstning: ”Det bör finnas ett medel att förmå de medverkande att åstadkomma en positiv lösning inom rimlig tid.”\nMen när talmannen använder det verktyget kräver Anders Lindberg i stället att de rödgröna ska få tid på sig för att ”bygga förtroende” mellan partiledningarna.\nMer tid? Magdalena Andersson har haft hela förra mandatperioden och tiden efter valet att bygga förtroende. Det är fyra år och sju veckor. Att det enda konkreta som hittills har kommit ut ur de försöken är en seminarieövning på Lidingö är inte talmannens fel.\nGenom sitt agerande vill Socialdemokraterna nu åstadkomma två saker. Dels vill man sätta press på talmannen inför slutskedet av regeringsbildningen. Dels förbereder man en bortförklaring. Om Magdalena Andersson misslyckas, vilket verkar alltmer sannolikt, ska S kunna skylla på Andreas Norlén.\nFör att lyckas med det försöker man urholka förtroendet för talmannens opartiskhet. Det är lika fult som oansvarigt.\nPatrik Kronqvist är politisk redaktör och chef för Expressens ledarsida. Läs fler av hans texter här.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332449'",
+      "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
+        "talman",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+      "first_seen": "2026-11-03T06:02:49.216670+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9332455",
-      "title": "Kan lagar skynda på processen?",
+      "url": "https://www.sverigesradio.se/artikel/9333107",
+      "title": "Statsvetaren: C skulle kunna släppa in V – men med hårda villkor",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-02",
       "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "50 dagar har gått utan regering och imorgon röstar Riksdagen om en statsministerkandidat som ingen vill ha. Regeringsbildningen omgärdas av en hel del frågetecken. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
+      "commentator": "",
+      "summary": "Riksdagen röstar på tisdag om Centerns Elisabeth Thand Ringqvist som statsminister, trots att hon själv bedömer att hon inte kan vinna. Enligt talmannen kräver grundlagen en omröstning när en kandidat fått försöka bilda regering. Statsvetaren Jonas Hinnfors pekar ut ett möjligt höstscenario där Magdalena Andersson (S) kan återkomma och där Vänsterpartiet kan släppas in av Centerpartiet men på hårda villkor.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332455'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9333107'",
       "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-02T15:09:18.598851+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9332454",
-      "title": "Varför kom de rödgröna inte överens innan valet?",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-02",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "50 dagar har gått utan regering och imorgon röstar Riksdagen om en statsministerkandidat som ingen vill ha. Regeringsbildningen omgärdas av en hel del frågetecken. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332454'",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-02T15:09:18.598851+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9332453",
-      "title": "Hur ska de rödgröna kunna kampanja vid ett extraval?",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-02",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Ett extraval kan bli mycket svårt för partier som inte lyckas få fram ett regeringsalternativ, menar Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet. Särskilt Socialdemokraterna pekas ut som sårbara, efter opinionsnedgång och partiets svagaste valresultat sedan 1911. Samtidigt beskrivs hur även Centerpartiet och Vänsterpartiet riskerar att tappa inflytande och hamna i opposition under resten av mandatperioden.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332453'",
-      "matched_terms": [
-        "regeringsalternativ",
-        "valresultat",
+        "talman",
+        "statsminister",
         "Centerpartiet",
-        "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-02T15:09:18.598851+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9332452",
-      "title": "Hur lång tid är 50 dagar utan ny regering?",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-02",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "50 dagar har gått utan regering och imorgon röstar Riksdagen om en statsministerkandidat som ingen vill ha. Regeringsbildningen omgärdas av en hel del frågetecken. Ekots politiska kommentator Fredrik Furtenbach och Jan Teorell, professor i statsvetenskap vid Stockholms universitet, svarar på lyssnarnas frågor.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332452'",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-02T15:09:18.598851+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9332450",
-      "title": "Furtenbach och Teorell svarade på lyssnarnas frågor",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-02",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "50 dagar sedan valdagen, och fortfarande är ingen ny regering på plats. Hur långt tid tar det innan vi vet vem nästa statsminister blir? Kan något göras för att processen ska gå snabbare? Och om det blir extraval, hur ska partier som inte lyckas få ihop något regeringsalternativ i så fall kunna kampanja på ett trovärdigt sätt? I P1 Morgon svarade Ekots inrikespolitiska kommentator Fredrik Furtenbach och statsvetarprofessorn Jan Teorell på lyssnarnas frågor om den knepiga regeringsbildningen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9332450'",
-      "matched_terms": [
-        "regeringsbildning",
-        "regeringsalternativ",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-02T15:09:18.598851+00:00"
+      "first_seen": "2026-11-03T06:02:49.216670+00:00"
     }
   ]
 }
