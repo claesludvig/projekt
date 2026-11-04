@@ -77,7 +77,13 @@ def main():
     df = hamta("TAB1368", {"Hustyp": "*", "Kostnadsslag": "TOTAL", "ContentsCode": "*", "Tid": "*"})
     bred(df, "Hustyp", {"FLERBO": "bki_flerbo", "GRUPPSMÅ": "bki_smahus"}).to_csv(DATA / "bki.csv")
 
-    # 12. Styrräntan (Riksbanken SWEA), månadsmedel
+    # 12. Hushållens snittränta, utestående lån hos MFI (alla ändamål), lång serie från 1996
+    df = hamta("TAB5780", {"Referenssektor": "1.1", "Motpartssektor": "2", "Avtal": "0200",
+                           "Rantebindningstid": "1", "ContentsCode": "*", "Tid": "*"})
+    df["datum"] = tid_till_datum(df["Tid"])
+    df.set_index("datum")["varde"].rename("hush_utest_mfi").to_csv(DATA / "hushall_ranta_utest_lang.csv")
+
+    # 13. Styrräntan (Riksbanken SWEA), månadsmedel
     r = requests.get("https://api.riksbank.se/swea/v1/Observations/SECBREPOEFF/2005-01-01", timeout=60)
     r.raise_for_status()
     s = pd.DataFrame(r.json()).assign(date=lambda d: pd.to_datetime(d["date"])).set_index("date")["value"]

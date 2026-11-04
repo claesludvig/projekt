@@ -28,3 +28,10 @@ Kvartal 2006–2026. Resultat i `data/modell_resultat.json`, graf `grafer/5_mode
 5. **Identitet** – bestånd = bestånd + färdigställda; färdigställda ≈ 0,87·påbörjade 7 kv tidigare.
 
 Simulering: +1 pe permanent styrränta med andel rörligt 42 % (2022) resp. 78 % (2026).
+
+## Huspris-ECM enligt Riksbanken/Riksgälden (`python prismodell.py`)
+
+Replikerar felkorrigeringsmodellen i Riksbankens bostadsutredning (2011) och Riksgälden (Bjellerup & Majtorp 2019):
+långsikt med dynamisk OLS `hp* = α + β_y·di − β_r·ir − γ·D_LTV`, kortsikt med general-to-specific.
+Tre varianter: Riksgäldens definition (realränta efter skatt, bakåtblickande KPIF) t.o.m. 2019 respektive hela urvalet,
+samt realränta med förväntad inflation = inflationsmålet (huvudvariant). Resultat i `data/prismodell_resultat.json`.

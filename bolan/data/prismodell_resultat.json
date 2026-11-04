@@ -1,0 +1,124 @@
+{
+ "langsikt": {
+  "A_riksgalden_t.o.m._2019": {
+   "period": "1997-06–2018-12",
+   "n": 87,
+   "langsikt": {
+    "const": {
+     "b": -19.54,
+     "t": -7.85
+    },
+    "di": {
+     "b": 1.455,
+     "t": 8.54
+    },
+    "ir": {
+     "b": -0.044,
+     "t": -2.69
+    },
+    "D_LTV": {
+     "b": -0.097,
+     "t": -2.13
+    }
+   },
+   "engle_granger_p": 0.13,
+   "gap_senast_pct": -8.2,
+   "gap_kvartal": "2026-06"
+  },
+  "B_riksgalden_hela_urvalet": {
+   "period": "1997-06–2025-06",
+   "n": 113,
+   "langsikt": {
+    "const": {
+     "b": -20.831,
+     "t": -12.1
+    },
+    "di": {
+     "b": 1.539,
+     "t": 13.01
+    },
+    "ir": {
+     "b": -0.023,
+     "t": -2.46
+    },
+    "D_LTV": {
+     "b": -0.099,
+     "t": -2.89
+    }
+   },
+   "engle_granger_p": 0.393,
+   "gap_senast_pct": -6.8,
+   "gap_kvartal": "2026-06"
+  },
+  "C_inflationsmal_hela_urvalet": {
+   "period": "1997-06–2025-06",
+   "n": 113,
+   "langsikt": {
+    "const": {
+     "b": -16.546,
+     "t": -11.66
+    },
+    "di": {
+     "b": 1.254,
+     "t": 12.98
+    },
+    "ir_mal": {
+     "b": -0.076,
+     "t": -6.94
+    },
+    "D_LTV": {
+     "b": -0.112,
+     "t": -3.86
+    }
+   },
+   "engle_granger_p": 0.123,
+   "gap_senast_pct": -7.5,
+   "gap_kvartal": "2026-06"
+  }
+ },
+ "kortsikt": {
+  "langsiktsvariant": "C_inflationsmal_hela_urvalet",
+  "period": "1996-12–2026-06",
+  "n": 119,
+  "r2_adj": 0.56,
+  "koef": {
+   "const": {
+    "b": 0.0056,
+    "t": 3.38
+   },
+   "ecm_l1": {
+    "b": -0.1047,
+    "t": -3.35
+   },
+   "dhp_l1": {
+    "b": 0.5726,
+    "t": 6.71
+   },
+   "dir_l1": {
+    "b": -0.0243,
+    "t": -2.15
+   },
+   "dhp_l2": {
+    "b": 0.2563,
+    "t": 3.04
+   },
+   "dir_l2": {
+    "b": 0.0287,
+    "t": 2.38
+   },
+   "ddi_l2": {
+    "b": -0.5244,
+    "t": -2.72
+   }
+  },
+  "breusch_godfrey_p": 0.593,
+  "andel_korrigerad_inom_1ar": 0.36
+ },
+ "jamforelse_riksgalden_2019": {
+  "beta_y": 1.37,
+  "beta_r": 0.06,
+  "LTV": -0.07,
+  "lambda": -0.06,
+  "period": "1985K4–2018K3"
+ }
+}
