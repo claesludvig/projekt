@@ -1,0 +1,261 @@
+{
+ "1a_rorlig_stock": {
+  "n": 84,
+  "period": "2005-12–2026-09",
+  "r2": 0.93,
+  "koef": {
+   "const": {
+    "b": -0.0012,
+    "t": -0.09
+   },
+   "di": {
+    "b": 0.828,
+    "t": 13.2
+   },
+   "di_l1": {
+    "b": 0.1492,
+    "t": 2.75
+   }
+  }
+ },
+ "1b_ny_bunden_3_5ar": {
+  "n": 64,
+  "period": "2010-12–2026-09",
+  "r2": 0.2,
+  "koef": {
+   "const": {
+    "b": -0.0069,
+    "t": -0.19
+   },
+   "di": {
+    "b": 0.6557,
+    "t": 5.27
+   },
+   "di_l1": {
+    "b": -0.4113,
+    "t": -2.71
+   }
+  }
+ },
+ "1c_omsattning_bundna": {
+  "n": 64,
+  "period": "2010-12–2026-09",
+  "r2": 0.82,
+  "koef": {
+   "const": {
+    "b": -0.0263,
+    "t": -3.85
+   },
+   "gap_l1": {
+    "b": 0.1131,
+    "t": 11.52
+   }
+  },
+  "implicit_snittlop_ar": 2.2
+ },
+ "2a_pris_langsikt_fri": {
+  "n": 84,
+  "period": "2005-09–2026-06",
+  "r2": 0.9,
+  "koef": {
+   "const": {
+    "b": -17.2772,
+    "t": -1.59
+   },
+   "y": {
+    "b": 0.5782,
+    "t": 1.76
+   },
+   "h": {
+    "b": 1.002,
+    "t": 0.99
+   },
+   "r": {
+    "b": -0.0582,
+    "t": -2.89
+   }
+  }
+ },
+ "2b_pris_langsikt_p_minus_y": {
+  "n": 84,
+  "period": "2005-09–2026-06",
+  "r2": 0.37,
+  "koef": {
+   "const": {
+    "b": -8.1415,
+    "t": -162.65
+   },
+   "r": {
+    "b": -0.0433,
+    "t": -2.56
+   }
+  },
+  "engle_granger_p_y_r_pvarde": 0.201
+ },
+ "2c_pris_ecm": {
+  "n": 83,
+  "period": "2006-03–2026-09",
+  "r2": 0.43,
+  "koef": {
+   "const": {
+    "b": 0.0025,
+    "t": 1.3
+   },
+   "ecm_l1": {
+    "b": -0.0696,
+    "t": -2.03
+   },
+   "dp_l1": {
+    "b": 0.5377,
+    "t": 6.58
+   },
+   "dr_l1": {
+    "b": -0.0191,
+    "t": -2.97
+   }
+  }
+ },
+ "3_utbud_tobins_q": {
+  "n": 82,
+  "period": "2006-03–2026-06",
+  "r2": 0.77,
+  "koef": {
+   "const": {
+    "b": 12.5673,
+    "t": 66.94
+   },
+   "q_l2": {
+    "b": 1.7916,
+    "t": 4.3
+   },
+   "r_l2": {
+    "b": -0.1867,
+    "t": -3.77
+   },
+   "trend": {
+    "b": -0.0195,
+    "t": -2.57
+   }
+  }
+ },
+ "5_fardigstallda": {
+  "n": 112,
+  "period": "1998-09–2026-06",
+  "r2": 0.95,
+  "koef": {
+   "const": {
+    "b": 3476.7932,
+    "t": 3.55
+   },
+   "pab_lag": {
+    "b": 0.8745,
+    "t": 32.7
+   }
+  },
+  "lag_kv": 7
+ },
+ "4_konsumtion": {
+  "n": 51,
+  "period": "2011-12–2026-06",
+  "r2": 0.57,
+  "koef": {
+   "const": {
+    "b": 0.0153,
+    "t": 3.97
+   },
+   "d4y": {
+    "b": 0.1194,
+    "t": 0.72
+   },
+   "d4B_l1": {
+    "b": -0.0049,
+    "t": -2.27
+   },
+   "d4p_l2": {
+    "b": 0.1072,
+    "t": 2.55
+   }
+  }
+ },
+ "nulage": {
+  "s": 0.773,
+  "B_pct_av_inkomst": 3.7,
+  "skuld_inkomst_pct": 131.0
+ },
+ "simulering_plus1pe": {
+  "s=0.42": {
+   "1": {
+    "bolaneranta_pe": 0.35,
+    "huspris_pct": 0.0,
+    "paborjade_pct": 0.0,
+    "rantebelastning_pe": 0.46,
+    "konsumtion_pct": 0.0
+   },
+   "2": {
+    "bolaneranta_pe": 0.45,
+    "huspris_pct": -0.77,
+    "paborjade_pct": 0.0,
+    "rantebelastning_pe": 0.6,
+    "konsumtion_pct": -0.22
+   },
+   "4": {
+    "bolaneranta_pe": 0.47,
+    "huspris_pct": -1.9,
+    "paborjade_pct": -9.85,
+    "rantebelastning_pe": 0.62,
+    "konsumtion_pct": -0.38
+   },
+   "8": {
+    "bolaneranta_pe": 0.5,
+    "huspris_pct": -2.45,
+    "paborjade_pct": -13.33,
+    "rantebelastning_pe": 0.66,
+    "konsumtion_pct": -0.57
+   },
+   "16": {
+    "bolaneranta_pe": 0.53,
+    "huspris_pct": -2.41,
+    "paborjade_pct": -14.22,
+    "rantebelastning_pe": 0.7,
+    "konsumtion_pct": -0.6
+   }
+  },
+  "s=0.78": {
+   "1": {
+    "bolaneranta_pe": 0.65,
+    "huspris_pct": 0.0,
+    "paborjade_pct": 0.0,
+    "rantebelastning_pe": 0.85,
+    "konsumtion_pct": 0.0
+   },
+   "2": {
+    "bolaneranta_pe": 0.78,
+    "huspris_pct": -1.43,
+    "paborjade_pct": 0.0,
+    "rantebelastning_pe": 1.02,
+    "konsumtion_pct": -0.41
+   },
+   "4": {
+    "bolaneranta_pe": 0.79,
+    "huspris_pct": -3.27,
+    "paborjade_pct": -17.1,
+    "rantebelastning_pe": 1.03,
+    "konsumtion_pct": -0.65
+   },
+   "8": {
+    "bolaneranta_pe": 0.8,
+    "huspris_pct": -3.95,
+    "paborjade_pct": -21.71,
+    "rantebelastning_pe": 1.05,
+    "konsumtion_pct": -0.92
+   },
+   "16": {
+    "bolaneranta_pe": 0.81,
+    "huspris_pct": -3.65,
+    "paborjade_pct": -21.72,
+    "rantebelastning_pe": 1.06,
+    "konsumtion_pct": -0.91
+   }
+  }
+ }
+}

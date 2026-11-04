@@ -65,7 +65,19 @@ def main():
     df = hamta("TAB6331", {"Andamal": "*", "ContentsCode": "0000079L", "Tid": "*"})
     bred(df, "Andamal").to_csv(DATA / "konsumtion_nr_kvartal.csv")
 
-    # 9. Styrräntan (Riksbanken SWEA), månadsmedel
+    # 9. Hushållens disponibla inkomst (S14+15), nominell och real, mnkr per kvartal (ej säsongrensad)
+    df = hamta("TAB1518", {"Transaktionspost": "B6n,B6real", "ContentsCode": "NR0103DQ", "Tid": "*"})
+    bred(df, "Transaktionspost", {"B6n": "disp_nom", "B6real": "disp_real"}).to_csv(DATA / "disponibel_inkomst.csv")
+
+    # 10. KPIF (2020=100), månad
+    df = hamta("TAB6590", {"ContentsCode": "000007ZN", "Tid": "*"})
+    bred(df, "ContentsCode", {"000007ZN": "kpif"}).to_csv(DATA / "kpif.csv")
+
+    # 11. Byggkostnadsindex bostäder (1968=100), total, månad
+    df = hamta("TAB1368", {"Hustyp": "*", "Kostnadsslag": "TOTAL", "ContentsCode": "*", "Tid": "*"})
+    bred(df, "Hustyp", {"FLERBO": "bki_flerbo", "GRUPPSMÅ": "bki_smahus"}).to_csv(DATA / "bki.csv")
+
+    # 12. Styrräntan (Riksbanken SWEA), månadsmedel
     r = requests.get("https://api.riksbank.se/swea/v1/Observations/SECBREPOEFF/2005-01-01", timeout=60)
     r.raise_for_status()
     s = pd.DataFrame(r.json()).assign(date=lambda d: pd.to_datetime(d["date"])).set_index("date")["value"]
