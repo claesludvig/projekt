@@ -1,0 +1,234 @@
+{
+  "datafel_maskade_manader": [
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "andelar_senast": {
+    "manad": "2026-09",
+    "bolan_urspr_rorlig": 0.78,
+    "hush_aterst_3m": 0.824,
+    "hush_aterst_1ar": 0.907,
+    "hush_urspr_rorlig": 0.796
+  },
+  "andelar_min": {
+    "bolan_urspr_rorlig": {
+      "varde": 0.417,
+      "manad": "2022-04"
+    },
+    "hush_aterst_3m": {
+      "varde": 0.506,
+      "manad": "2022-05"
+    },
+    "hush_aterst_1ar": {
+      "varde": 0.653,
+      "manad": "2022-04"
+    },
+    "hush_urspr_rorlig": {
+      "varde": 0.482,
+      "manad": "2022-04"
+    }
+  },
+  "andelar_max": {
+    "bolan_urspr_rorlig": {
+      "varde": 0.78,
+      "manad": "2026-09"
+    },
+    "hush_aterst_3m": {
+      "varde": 0.824,
+      "manad": "2026-09"
+    },
+    "hush_aterst_1ar": {
+      "varde": 0.907,
+      "manad": "2026-09"
+    },
+    "hush_urspr_rorlig": {
+      "varde": 0.796,
+      "manad": "2026-09"
+    }
+  },
+  "bolan_stock_mdkr": 4366,
+  "hushallslan_stock_mdkr": 5270,
+  "genomslag_utestaende": {
+    "period": "2006-10–2026-09",
+    "n": 240,
+    "kumulativt_efter_3m": 0.55,
+    "kumulativt_efter_6m": 0.56,
+    "kumulativt_efter_12m": 0.68
+  },
+  "hojningscykel_2022_2024": {
+    "styrranta_pp": 4.0,
+    "ny_rorlig_bolaneranta_pp": 3.41,
+    "snittranta_utestaende_pp": 2.63
+  },
+  "rantutgift_bolan_mdkr_ar": {
+    "senast": 123,
+    "manad": "2026-09",
+    "topp": 169,
+    "topp_manad": "2024-04",
+    "2021-12": 57
+  },
+  "bostadspriser_adl": {
+    "period": "2006Q–2026Q",
+    "n": 80,
+    "r2": 0.41,
+    "kumulativ_effekt_4kv_pct_per_pp": -2.2,
+    "langsiktig_pct_per_pp": -4.6,
+    "dp_l1": {
+      "koef": 0.51,
+      "t": 6.5
+    }
+  },
+  "bostadspriser_interaktion": {
+    "n": 64,
+    "dr4_l1": {
+      "koef": -4.649,
+      "t": -3.73
+    },
+    "dr4xandel_l1": {
+      "koef": 0.456,
+      "t": 2.58
+    },
+    "tolkning": "dr4xandel: extra %-effekt per pp ränta per +1 pe högre rörlig andel"
+  },
+  "bygglov_leder_paborjade": {
+    "k0": 0.9,
+    "k1": 0.85,
+    "k2": 0.73,
+    "k3": 0.55,
+    "k4": 0.33,
+    "k5": 0.16,
+    "k6": -0.0
+  },
+  "byggande": {
+    "bygglov": {
+      "korr_prisbastlag": {
+        "lag_kv": 0,
+        "r": 0.7
+      },
+      "period": "2007–2026",
+      "n": 78,
+      "r2": 0.51,
+      "pris_1pct": {
+        "koef": 1.763,
+        "t": 2.75
+      },
+      "ranta_1pp": {
+        "koef": -15.291,
+        "t": -2.59
+      }
+    },
+    "pab": {
+      "korr_prisbastlag": {
+        "lag_kv": 1,
+        "r": 0.63
+      },
+      "period": "2007–2026",
+      "n": 78,
+      "r2": 0.49,
+      "pris_1pct": {
+        "koef": 1.76,
+        "t": 2.57
+      },
+      "ranta_1pp": {
+        "koef": -16.057,
+        "t": -2.61
+      }
+    }
+  },
+  "byggande_senast": {
+    "kvartal": "2026-06",
+    "pab_4kv": 29378,
+    "bygglov_4kv": 26662,
+    "pab_4kv_topp": 69626,
+    "pab_4kv_topp_kv": "1990-12"
+  },
+  "konsumtion_coicop": {
+    "manad_senast": "2026-09",
+    "n_obs": 53,
+    "per_kategori": {
+      "Livsmedel": {
+        "beta_pct_per_pp": -1.88,
+        "t": -1.75,
+        "fall_topp_till_botten_pct": -10.3,
+        "senast_vs_2021H2_22H1_pct": 1.6
+      },
+      "Alkohol/tobak": {
+        "beta_pct_per_pp": -0.58,
+        "t": -1.44,
+        "fall_topp_till_botten_pct": -4.8,
+        "senast_vs_2021H2_22H1_pct": -2.8
+      },
+      "Kläder/skor": {
+        "beta_pct_per_pp": -3.54,
+        "t": -7.64,
+        "fall_topp_till_botten_pct": -16.5,
+        "senast_vs_2021H2_22H1_pct": -4.0
+      },
+      "Boende/el": {
+        "beta_pct_per_pp": -0.87,
+        "t": -2.91,
+        "fall_topp_till_botten_pct": -1.1,
+        "senast_vs_2021H2_22H1_pct": 5.6
+      },
+      "Möbler/hushållsutr.": {
+        "beta_pct_per_pp": -5.93,
+        "t": -5.2,
+        "fall_topp_till_botten_pct": -18.9,
+        "senast_vs_2021H2_22H1_pct": -2.6
+      },
+      "Hälsa": {
+        "beta_pct_per_pp": -0.44,
+        "t": -0.35,
+        "fall_topp_till_botten_pct": -7.3,
+        "senast_vs_2021H2_22H1_pct": 3.4
+      },
+      "Transport": {
+        "beta_pct_per_pp": 0.1,
+        "t": 0.16,
+        "fall_topp_till_botten_pct": -0.4,
+        "senast_vs_2021H2_22H1_pct": 13.5
+      },
+      "Info/komm.": {
+        "beta_pct_per_pp": -3.08,
+        "t": -4.46,
+        "fall_topp_till_botten_pct": -9.2,
+        "senast_vs_2021H2_22H1_pct": 13.3
+      },
+      "Rekreation/kultur": {
+        "beta_pct_per_pp": -4.58,
+        "t": -3.88,
+        "fall_topp_till_botten_pct": -8.4,
+        "senast_vs_2021H2_22H1_pct": 4.5
+      },
+      "Restaurang/hotell": {
+        "beta_pct_per_pp": -1.27,
+        "t": -1.7,
+        "fall_topp_till_botten_pct": -1.7,
+        "senast_vs_2021H2_22H1_pct": 1.3
+      },
+      "Personlig vård m.m.": {
+        "beta_pct_per_pp": -1.8,
+        "t": -4.33,
+        "fall_topp_till_botten_pct": -10.1,
+        "senast_vs_2021H2_22H1_pct": -1.3
+      },
+      "Totalt": {
+        "beta_pct_per_pp": -1.7,
+        "t": -4.41,
+        "fall_topp_till_botten_pct": -3.5,
+        "senast_vs_2021H2_22H1_pct": 4.3
+      }
+    }
+  }
+}
