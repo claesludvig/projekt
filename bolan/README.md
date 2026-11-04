@@ -35,3 +35,10 @@ Replikerar felkorrigeringsmodellen i Riksbankens bostadsutredning (2011) och Rik
 långsikt med dynamisk OLS `hp* = α + β_y·di − β_r·ir − γ·D_LTV`, kortsikt med general-to-specific.
 Tre varianter: Riksgäldens definition (realränta efter skatt, bakåtblickande KPIF) t.o.m. 2019 respektive hela urvalet,
 samt realränta med förväntad inflation = inflationsmålet (huvudvariant). Resultat i `data/prismodell_resultat.json`.
+
+## SVAR över delperioder à la Riksbanken (`python hamta_svar.py && python svar.py`)
+
+Replikering av Stockhammar, Strid & Tornese (2022, EK nr 9). BVAR(4) med Minnesota-prior (dummyobservationer),
+sju svenska variabler i Cholesky-ordning (KPIF, konsumtion, BNP, reala skulder, reala huspriser, styrränta, real växelkurs),
+euroområdet som exogent omvärldsblock. 77 delperioder 1997–2019 (expanderande slut / krympande start).
+`LAM=0.5 SUF=_lam05 python svar.py` kör med lösare prior. Resultat i `data/svar_resultat*.json`, `grafer/7_svar_delperioder*.png`.

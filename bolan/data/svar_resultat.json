@@ -1,0 +1,119 @@
+{
+ "lambda": 0.2,
+ "P": 4,
+ "antal_delperioder": 77,
+ "helt_urval": {
+  "start": "1997-12",
+  "slut": "2019-12",
+  "T": 89,
+  "max_effekt_kons": -0.17,
+  "kvartal_max": 7,
+  "band68": [
+   -0.7804584250904987,
+   0.43401379998463013
+  ],
+  "skuldkvot_medel": 141.83
+ },
+ "lagst_skuldkvot": {
+  "start": "1997-12",
+  "slut": "2009-12",
+  "skuldkvot_medel": 121.54,
+  "max_effekt_kons": -0.23
+ },
+ "hogst_skuldkvot": {
+  "start": "2006-03",
+  "slut": "2019-12",
+  "skuldkvot_medel": 160.04,
+  "max_effekt_kons": -0.18
+ },
+ "lutning_per_10pe_skuldkvot": 0.001,
+ "korrelation": 0.01,
+ "expanderande": {
+  "korr": -0.08,
+  "lutning_per_10pe": -0.017
+ },
+ "krympande": {
+  "korr": -0.45,
+  "lutning_per_10pe": -0.077
+ },
+ "rullande_2020_2026": [
+  {
+   "slut": "2020-03",
+   "skuldkvot": 161.0,
+   "max_effekt": -0.2,
+   "band68": [
+    -1.79,
+    0.84
+   ]
+  },
+  {
+   "slut": "2021-03",
+   "skuldkvot": 165.0,
+   "max_effekt": -0.07,
+   "band68": [
+    -0.36,
+    0.22
+   ]
+  },
+  {
+   "slut": "2022-03",
+   "skuldkvot": 168.0,
+   "max_effekt": -0.38,
+   "band68": [
+    -7.57,
+    7.91
+   ]
+  },
+  {
+   "slut": "2023-03",
+   "skuldkvot": 171.0,
+   "max_effekt": -0.11,
+   "band68": [
+    -4.44,
+    3.86
+   ]
+  },
+  {
+   "slut": "2024-03",
+   "skuldkvot": 173.0,
+   "max_effekt": -0.63,
+   "band68": [
+    -7.26,
+    3.96
+   ]
+  },
+  {
+   "slut": "2025-03",
+   "skuldkvot": 174.0,
+   "max_effekt": -0.71,
+   "band68": [
+    -4.89,
+    3.02
+   ]
+  },
+  {
+   "slut": "2025-12",
+   "skuldkvot": 175.0,
+   "max_effekt": 0.0,
+   "band68": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "slut": "2025-12",
+   "skuldkvot": 175.0,
+   "max_effekt": 0.0,
+   "band68": [
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "jamforelse_riksbanken": {
+  "skuldkvot_spann": "126–170 %",
+  "effekt": "ca −0,5 till −1,2 %",
+  "MAJA": -0.65,
+  "slutsats": "ungefär dubbelt så stor effekt vid 200 % som vid 150 %"
+ }
+}
