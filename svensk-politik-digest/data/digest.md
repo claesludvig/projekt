@@ -1,27 +1,37 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-05
 
-4 nya poster sedan förra utskicket (40 redan utskickade, 157 utanför ämnet).
+5 nya poster sedan förra utskicket (43 redan utskickade, 151 utanför ämnet).
+
+## Analys och kommentar
+
+### [Pudlar plötsligt: ”Kan uttrycka mig trevligare”](https://www.svd.se/a/d7xXEJ/magdalena-andersson-till-attack-mot-ida-gabrielsson)
+SvD Ledare · 2026-11-05 · Etezaz Yousuf _(betalvägg — endast ingress)_
+
+Magdalena Andersson riktar skarp kritik mot Vänsterpartiets vice partiledare Ida Gabrielsson – för…
+
+### [Andersson till attack mot V:s vice partiledare](https://www.svd.se/a/0p33lG?pinnedEntry=79502)
+SvD Ledare · 2026-11-05
+
+Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.
+Andersson till attack mot V:s vice partiledare
+Socialdemokraternas partiledare Magdalena Andersson kritiserar Vänsterpartiets vice partiledare Ida Gabrielsson i ett inlägg på Instagram. Detta efter att Ida Gabrielsson gjort en längre intervju med DN , som publicerades på torsdagen.
+"Den intervju som Ida Gabrielsson från Vänsterpartiet har gjort i DN bidrar inte positivt i den processen. De omdömen och uttryckssätt som används om Centerpartiet och dess företrädare bidrar inte till att skapa tillit och förtroende, snarare tvärto
 
 ## Rapportering
 
-### [Då kan Ulf Kristersson bli statsminister – mot alla odds](https://www.svt.se/nyheter/inrikes/da-kan-ulf-kristersson-bli-statsminister-mot-alla-odds) **[kommentator]**
-SVT Nyheter · 2026-11-05 · Malvina Britts
+### [Uppgifter: C-toppar i hemligt möte om regeringsfrågan](https://www.svt.se/nyheter/inrikes/uppgifter-c-toppar-i-hemligt-mote-om-regeringsfragan)
+SVT Nyheter · 2026-11-05 · Daniel Ingmo, Erik Nilsson, Julia Lindvall
 
-Nu ligger sonderingsuppdraget hos Ulf Kristersson. Även om oddsen är emot honom så finns det några möjliga vägar till Rosenbad för M-ledaren. – Vi kan räkna med att han kommer erbjuda Centerpartiet en hel radda sakfrågor för att få dem att byta sida, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.
+Centerpartiets toppskikt samlas under torsdagen för att diskutera regeringsfrågan, uppger källor för SVT. Både partistyrelsen och riksdagsgruppen är kallade. – Man får ha en stor ödmjukhet i att det här är svårt, säger C-toppen Martin Ådahl.
 
-### [SD och MP tar plats i allt fler kommunstyren](https://www.sverigesradio.se/artikel/9334225)
+### [Uppgifter: C i möte – ska diskutera regeringsbildningen](https://www.sverigesradio.se/artikel/9335192)
 Ekot, Sveriges Radio · 2026-11-05 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-När det saknas besked från drygt 20 av landets 290 kommuner om hur de ska styras framöver står det redan klart att Sverigedemokraterna tar plats i klart fler styren än tidigare. Innan valet var SD med och styrde i 34 kommuner. Efter valet har det getts besked om runt 60 styren där partiet ingår, trots att man totalt sett backar i kommunvalen och tappar mandat. Miljöpartiet som var med i ledningen av 47 kommuner innan valet är också med i runt 60 av de klara styrena visar Ekots och P4:s genomgång.
+Centerpartiet har kallat till ett viktigt möte på torsdagen med regeringsbildningen i fokus, enligt uppgifter till Ekot. Mötet, där både partistyrelsen och riksdagsgruppen ska delta, sammanfaller med att Moderatledaren Ulf Kristersson sonderar möjligheterna för att bilda en regering. För en sådan regering behöver Kristersson Centerpartiets mandat i Riksdagen. Hittills har Centerledaren Elisabeth Thand Ringqvist sagt att tidigare röda linjer mot SD kvarstår – partiet kommer inte stödja en högerregering där SD:s stöd krävs.
 
-### [Ida Gabrielsson: Jag hade sagt till Mohamed Ali att han borde pröva lite annat först](https://www.dn.se/sverige/ida-gabrielsson-jag-hade-sagt-till-mohamed-ali-att-han-borde-prova-lite-annat-forst)
-DN Nyheter · 2026-11-05 · Björn af Kleen, Linus Sundahl Djerf
+### [S och C till attack mot Vänsterpartiet: ”Kommer aldrig att hända”](https://www.dn.se/sverige/s-och-c-till-attack-mot-vansterpartiet-kommer-aldrig-att-handa)
+DN Nyheter · 2026-11-05 · Hans Olsson, Evelyn Jones
 
-SANDVIKEN. Hon slogs, drack och rökte. Men behöll alltid kontrollen. Vänsterpartiets vice ordförande Ida Gabrielsson är en produkt av bruksorten Sandviken. Förklarar det hennes sturskhet i kampen om regeringsmakten?
+S och C är starkt kritiska till hur Vänsterpartiets Ida Gabrielsson uttrycker sig i en DN-intervju. Kritiken handlar om hur hon uttrycker sig om Centerpartiet. ”Partier som man vill samarbeta med talar man inte om på det sättet”, skriver S-ledaren Magdalena Andersson i en kommentar. Ida Gabrielsson säger till TT att ”man kan uttrycka sig trevligare”.
 
-### [Partiledarna svarar efter omtalade gesten: ”Massa hemligheter”](https://www.svt.se/nyheter/inrikes/partiledarna-svarar-efter-omtalade-gesten-massa-hemligheter)
-SVT Nyheter · 2026-11-04 · Erik Nilsson, Daniel Ingmo
-
-En handgest mellan Magdalena Andersson (S) och Nooshi Dadgostar (V) har väckt stor uppmärksamhet. Nu svarar partiledarna på vad handsignalerna betyder. – Massa hemligheter såklart, säger S-ledaren.
-
-_Genererat 2026-11-05T06:03:11.524594+00:00._
+_Genererat 2026-11-05T14:02:42.231479+00:00._
