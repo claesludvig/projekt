@@ -1,37 +1,26 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-05
+# Svensk politik och regeringsförhandlingarna — 2026-11-06
 
-5 nya poster sedan förra utskicket (43 redan utskickade, 151 utanför ämnet).
+3 nya poster sedan förra utskicket (43 redan utskickade, 152 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Pudlar plötsligt: ”Kan uttrycka mig trevligare”](https://www.svd.se/a/d7xXEJ/magdalena-andersson-till-attack-mot-ida-gabrielsson)
-SvD Ledare · 2026-11-05 · Etezaz Yousuf _(betalvägg — endast ingress)_
+### [”Fel att jubla högt åt valresultatet”](https://www.svd.se/a/Ab6V6q/martin-peterson-om-trump-och-den-akademiska-friheten)
+SvD Ledare · 2026-11-05 · Martin Peterson
 
-Magdalena Andersson riktar skarp kritik mot Vänsterpartiets vice partiledare Ida Gabrielsson – för…
+KULTURDEBATT | Donald Trumps försök att styra de amerikanska universiteten har väckt strid om den akademiska friheten. Efter mellanårsvalet hoppas många på en ny era. Men filosofi­professorn Martin Peterson, som själv uppmanats att sluta undervisa om Platon, drar sig för att fira.
+Det här är en idé- & kulturdebattsartikel publicerad av SvD:s kulturredaktion. Åsikterna som uttrycks är skribentens egna. Om du har synpunkter eller vill delta i debatten kan du mejla kulturdebatt@svd.se
+När resultatet från mellanårsvalet i Texas står klart sent på tisdagskvällen bryter en spontan fest ut på min gat
 
-### [Andersson till attack mot V:s vice partiledare](https://www.svd.se/a/0p33lG?pinnedEntry=79502)
-SvD Ledare · 2026-11-05
+### [SD ger besked om regeringsfrågan](https://www.svd.se/a/4O6v1E/sd-ger-besked-om-regeringsfragan)
+SvD Ledare · 2026-11-05 · TT
 
-Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.
-Andersson till attack mot V:s vice partiledare
-Socialdemokraternas partiledare Magdalena Andersson kritiserar Vänsterpartiets vice partiledare Ida Gabrielsson i ett inlägg på Instagram. Detta efter att Ida Gabrielsson gjort en längre intervju med DN , som publicerades på torsdagen.
-"Den intervju som Ida Gabrielsson från Vänsterpartiet har gjort i DN bidrar inte positivt i den processen. De omdömen och uttryckssätt som används om Centerpartiet och dess företrädare bidrar inte till att skapa tillit och förtroende, snarare tvärto
+Jimmie Åkesson håller på fredag, vid lunchtid, en pressträff i Sölvesborg om…
 
 ## Rapportering
 
-### [Uppgifter: C-toppar i hemligt möte om regeringsfrågan](https://www.svt.se/nyheter/inrikes/uppgifter-c-toppar-i-hemligt-mote-om-regeringsfragan)
-SVT Nyheter · 2026-11-05 · Daniel Ingmo, Erik Nilsson, Julia Lindvall
-
-Centerpartiets toppskikt samlas under torsdagen för att diskutera regeringsfrågan, uppger källor för SVT. Både partistyrelsen och riksdagsgruppen är kallade. – Man får ha en stor ödmjukhet i att det här är svårt, säger C-toppen Martin Ådahl.
-
-### [Uppgifter: C i möte – ska diskutera regeringsbildningen](https://www.sverigesradio.se/artikel/9335192)
+### [Det här vill Sverige på FN:s klimatmöte: ”Tufft läge”](https://www.sverigesradio.se/artikel/9334929)
 Ekot, Sveriges Radio · 2026-11-05 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet har kallat till ett viktigt möte på torsdagen med regeringsbildningen i fokus, enligt uppgifter till Ekot. Mötet, där både partistyrelsen och riksdagsgruppen ska delta, sammanfaller med att Moderatledaren Ulf Kristersson sonderar möjligheterna för att bilda en regering. För en sådan regering behöver Kristersson Centerpartiets mandat i Riksdagen. Hittills har Centerledaren Elisabeth Thand Ringqvist sagt att tidigare röda linjer mot SD kvarstår – partiet kommer inte stödja en högerregering där SD:s stöd krävs.
+För Sveriges del är det viktigt med ökad handlingskraft på FN:s kommande klimattoppmöte COP31 i Turkiet som går av stapeln i ett svårt geopolitiskt läge. ”Det är många länder som just nu drabbas av ett tufft internationellt läge, med handelskonflikter och krig som försvagar förtroendet”, säger övergångsregeringens miljö- och klimatminister Romina Pourmokhtari som kommer delta. Sveriges viktigaste bidrag kommer vara att visa upp näringslivets framgångsrika omställning, enligt Pourmokhtari.
 
-### [S och C till attack mot Vänsterpartiet: ”Kommer aldrig att hända”](https://www.dn.se/sverige/s-och-c-till-attack-mot-vansterpartiet-kommer-aldrig-att-handa)
-DN Nyheter · 2026-11-05 · Hans Olsson, Evelyn Jones
-
-S och C är starkt kritiska till hur Vänsterpartiets Ida Gabrielsson uttrycker sig i en DN-intervju. Kritiken handlar om hur hon uttrycker sig om Centerpartiet. ”Partier som man vill samarbeta med talar man inte om på det sättet”, skriver S-ledaren Magdalena Andersson i en kommentar. Ida Gabrielsson säger till TT att ”man kan uttrycka sig trevligare”.
-
-_Genererat 2026-11-05T14:02:42.231479+00:00._
+_Genererat 2026-11-06T06:03:01.029241+00:00._

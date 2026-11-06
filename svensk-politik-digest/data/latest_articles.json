@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-11-05T14:02:42.231479+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-11-06T06:03:01.029241+00:00",
+  "new_count": 3,
   "skipped": {
     "seen": 43,
-    "offtopic": 151,
-    "old": 11
+    "offtopic": 152,
+    "old": 12
   },
   "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,94 +65,55 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/d7xXEJ/magdalena-andersson-till-attack-mot-ida-gabrielsson",
-      "title": "Pudlar plötsligt: ”Kan uttrycka mig trevligare”",
+      "url": "https://www.svd.se/a/Ab6V6q/martin-peterson-om-trump-och-den-akademiska-friheten",
+      "title": "”Fel att jubla högt åt valresultatet”",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-05",
-      "author": "Etezaz Yousuf",
-      "commentator": "",
-      "summary": "Magdalena Andersson riktar skarp kritik mot Vänsterpartiets vice partiledare Ida Gabrielsson – för…",
-      "fulltext": "Magdalena Andersson riktar skarp kritik mot Vänsterpartiets vice partiledare Ida Gabrielsson – för att inte bidra positivt till regeringsbildningen. ”Behöver visa att de menar allvar”, säger S-ledaren.\nDet handlar om ett porträtt av Vänsterpartiets vice partiledare som DN publicerade på torsdagen.\nI den återger hon bland annat Nooshi Dadgostars interna förhandlingsretorik.\nUlf Kristerssons nya plan: Samla C och SD",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-05T14:02:42.231479+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/0p33lG?pinnedEntry=79502",
-      "title": "Andersson till attack mot V:s vice partiledare",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-05",
-      "author": "",
+      "author": "Martin Peterson",
       "commentator": "",
       "summary": "",
-      "fulltext": "Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.\nAndersson till attack mot V:s vice partiledare\nSocialdemokraternas partiledare Magdalena Andersson kritiserar Vänsterpartiets vice partiledare Ida Gabrielsson i ett inlägg på Instagram. Detta efter att Ida Gabrielsson gjort en längre intervju med DN , som publicerades på torsdagen.\n\"Den intervju som Ida Gabrielsson från Vänsterpartiet har gjort i DN bidrar inte positivt i den processen. De omdömen och uttryckssätt som används om Centerpartiet och dess företrädare bidrar inte till att skapa tillit och förtroende, snarare tvärtom. Partier som man vill samarbeta med talar man inte om på det sättet\", skriver Magdalena Andersson i inlägget.\nAndersson skriver i inlägget att det är ett komplicerat parlamentariskt läge som kräver att ansvarstagande och omdöme från alla inblandade parter.\n\"Vänsterpartiet behöver nu visa att de menar allvar med att få ihop ett samarbete som åstadkommer det\", skriver Andersson.\nSkapa ett kostnadsfritt SvD Bas-konto för att ställa en fråga.\nC öppnar för att rösta på övergångsbudget\nCenterpartiet är öppna för att rösta på en övergångsbudget i en avgörande omröstning i riksdagen, rapporterar TT.\n– Vi är beredda att stödja en övergångsbudget, säger C:s ekonomisk-politiska talesperson Martin Ådahl till nyhetsbyrån.\nDagens besked kommer efter ett möte i finansutskottet.\nKristersson: ”Alla lösningar förefaller osannolika”\nUlf Kristersson (M) har fått sonderingsuppdraget av talman Andreas Norlén och säger att han kommer att använda kommande vecka till att undersöka möjligheterna till en ”icke-socialistisk regering”.\n”Jag är beredd att pröva om den icke-socialistiska majoriteten kan bilda regering”, säger han på en pressträff på tisdagseftermiddagen.\nHan säger att det kommer att bli en mycket svår, men inte omöjlig, utmaning.\n”Hade det varit omöjligt hade jag tackat nej till uppdraget”.\nHan tillägger att alla lösningar förefaller osannolika.\n”Men det allra mest osannolika är att Sverige aldrig mer får en regering”.\nKristersson säger att det naturliga är att prata med KD, SD, L och C, men att man kan komma att samarbeta med S i vissa frågor.\nHan säger att det troligen kommer att vara tyst när samtalen pågår.\nÅkesson: ”Vi ska inte hamna i Vänsterpartifällan”\nJimmie Åkesson (SD) avfärdar bestämt spekulationerna om att SD skulle kunna släppa kravet på ministerposter för att möjliggöra en borgerlig regering.\nDet beskedet ger han inför det samlade pressuppbådet efter tisdagens statsministeromröstning.\n– Jag har sagt hela tiden att under den här mandatperioden är vi antingen ett regeringsparti eller ett oppositionsparti. Och det ligger fast naturligtvis.\nDärmed säger han bestämt nej till att förhandla med en borgerlig minoritetsregering i enskilda sakfrågor, på samma sätt som SD gjort under den gångna mandatperioden.\n– SD är ju inte något av de små partierna. Vi har inte för avsikt att hamna i Vänsterpartifällan, att i hundra år agera stödparti till ett annat parti.\nElisabeth Thand Rinqvist röstas ned som statsminister\nElisabeth Thand Ringqvist blir inte Sveriges statsminister.\nCenterpartiet har de senaste två veckorna sonderat möjligheterna för en mittenregering ledd av Elisabeth Thand Ringqvist.\n324 riksdagsledamöter röstade nej till Thand Ringqvist. Endast Centerpartiets 25 ledamöter röstade ja.\nSonderingsuppdraget kommer nu att gå vidare till Ulf Kristersson (M).\nElisabeth Thand Ringqvist blir inte Sveriges statsminister.\nCenterpartiet har de senaste två veckorna sonderat möjligheterna för en mittenregering ledd av Elisabeth Thand Ringqvist.\nSonderingsuppdraget kommer nu att gå vidare till Ulf Kristersson (M).\nVal 2026 – så bildas en ny regering efter valet",
+      "fulltext": "KULTURDEBATT | Donald Trumps försök att styra de amerikanska universiteten har väckt strid om den akademiska friheten. Efter mellanårsvalet hoppas många på en ny era. Men filosofi­professorn Martin Peterson, som själv uppmanats att sluta undervisa om Platon, drar sig för att fira.\nDet här är en idé- & kulturdebattsartikel publicerad av SvD:s kulturredaktion. Åsikterna som uttrycks är skribentens egna. Om du har synpunkter eller vill delta i debatten kan du mejla kulturdebatt@svd.se\nNär resultatet från mellanårsvalet i Texas står klart sent på tisdagskvällen bryter en spontan fest ut på min gata i Dallas. Grannarna skriker och bilarna tutar; nästan alla i min bubbla röstade demokratiskt.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "partiledar"
+        "valresultat"
       ],
-      "first_seen": "2026-11-05T14:02:42.231479+00:00"
+      "first_seen": "2026-11-06T06:03:01.029241+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/uppgifter-c-toppar-i-hemligt-mote-om-regeringsfragan",
-      "title": "Uppgifter: C-toppar i hemligt möte om regeringsfrågan",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
+      "url": "https://www.svd.se/a/4O6v1E/sd-ger-besked-om-regeringsfragan",
+      "title": "SD ger besked om regeringsfrågan",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-11-05",
-      "author": "Daniel Ingmo, Erik Nilsson, Julia Lindvall",
+      "author": "TT",
       "commentator": "",
-      "summary": "Centerpartiets toppskikt samlas under torsdagen för att diskutera regeringsfrågan, uppger källor för SVT. Både partistyrelsen och riksdagsgruppen är kallade. – Man får ha en stor ödmjukhet i att det här är svårt, säger C-toppen Martin Ådahl.",
-      "fulltext": "Centerpartiets toppskikt samlas under torsdagen för att diskutera regeringsfrågan, uppger källor för SVT.\nBåde partistyrelsen och riksdagsgruppen är kallade.\n– Man får ha en stor ödmjukhet i att det här är svårt, säger C-toppen Martin Ådahl.\nJust nu sonderar Ulf Kristersson (M) för att försöka bilda en regering baserad på den ”icke-socialistiska majoriteten” som finns i riksdagen.\nFör att lyckas behöver han locka över Centerpartiet som hittills stängt dörren till ett samarbete högerut.\nSamtidigt sker möten bland de rödgröna partierna där Magdalena Andersson (S) arbetar parallellt med Kristerssons sonderingsuppdrag för att försöka få ihop sitt lag.\nÄven i den konstellationen är Centerpartiets inställning helt avgörande.\nEnligt SVT:s uppgifter väntas Centerpartiets hållning i frågan diskuteras under ett möte som äger rum under torsdagen.\nMötet ska varit inbokat sedan en tid tillbaka och handlar om att medlemmarna i riksdagsgruppen och partistyrelsen ska få en gemensam lägesbild, enligt flera källor.\nC-toppen Martin Ådahl vill inte bekräfta att mötet ska hållas.\n– Då blir det svårt för oss att ha de här mötena i lugn och ro för att fatta kloka beslut, säger han.\nKommer det komma något nytt besked från C i regeringsfrågan?\n– Det kommer ni att veta när det kommer så att säga. Det är ju så det fungerar här, man får ju ha en stor ödmjukhet i att det här är svårt.\nGruppledaren: ”Får diskutera olika vägar”\nSamtidigt upprepar han partiets röda linjer: C ska varken ge SD politiskt inflytande eller släppa in V i regering.\n– Det stora problemet just nu är att vi behöver ett besked från S, om de verkligen vill ha V i regering, säger Ådahl.\nGruppledaren Daniel Bäckström betonar att bollen just nu ligger hos Ulf Kristersson som har sonderingsuppdraget. Enligt Bäckström kommer C fortsätta agera ”konstruktivt” i det här läget.\n– Våra ingångar ligger fast som vi också gick till val på. Och nu kommer vi följa sonderingsuppdraget som Ulf har. Sen får vi utifrån kommande steg också diskutera olika vägar.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Jimmie Åkesson håller på fredag, vid lunchtid, en pressträff i Sölvesborg om…",
+      "fulltext": "Jimmie Åkesson håller på fredag, vid lunchtid, en pressträff i Sölvesborg om ”regeringsfrågan”, meddelar Sverigedemokraterna.\n”På pressträffen kommer Jimmie Åkesson att redogöra för regeringsfrågan”, skriver partiet.\nSD har hittills under den fastfrusna regeringsbildningen hållit fast sitt krav på ministerposter för att släppa fram en regering.\nHögerpartierna saknar mandat för att kunna samla en majoritet i riksdagen. Centerpartiet, som strävat efter ett mittenalternativ, har hittills sagt nej till samarbete med SD.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg",
-        "Centerpartiet"
+        "regeringsfråg"
       ],
-      "first_seen": "2026-11-05T14:02:42.231479+00:00"
+      "first_seen": "2026-11-06T06:03:01.029241+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9335192",
-      "title": "Uppgifter: C i möte – ska diskutera regeringsbildningen",
+      "url": "https://www.sverigesradio.se/artikel/9334929",
+      "title": "Det här vill Sverige på FN:s klimatmöte: ”Tufft läge”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-05",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Centerpartiet har kallat till ett viktigt möte på torsdagen med regeringsbildningen i fokus, enligt uppgifter till Ekot. Mötet, där både partistyrelsen och riksdagsgruppen ska delta, sammanfaller med att Moderatledaren Ulf Kristersson sonderar möjligheterna för att bilda en regering. För en sådan regering behöver Kristersson Centerpartiets mandat i Riksdagen. Hittills har Centerledaren Elisabeth Thand Ringqvist sagt att tidigare röda linjer mot SD kvarstår – partiet kommer inte stödja en högerregering där SD:s stöd krävs.",
+      "summary": "För Sveriges del är det viktigt med ökad handlingskraft på FN:s kommande klimattoppmöte COP31 i Turkiet som går av stapeln i ett svårt geopolitiskt läge. ”Det är många länder som just nu drabbas av ett tufft internationellt läge, med handelskonflikter och krig som försvagar förtroendet”, säger övergångsregeringens miljö- och klimatminister Romina Pourmokhtari som kommer delta. Sveriges viktigaste bidrag kommer vara att visa upp näringslivets framgångsrika omställning, enligt Pourmokhtari.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9335192'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9334929'",
       "matched_terms": [
-        "regeringsbildning",
-        "Centerpartiet",
-        "Moderaterna"
+        "övergångsregering"
       ],
-      "first_seen": "2026-11-05T14:02:42.231479+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/s-och-c-till-attack-mot-vansterpartiet-kommer-aldrig-att-handa",
-      "title": "S och C till attack mot Vänsterpartiet: ”Kommer aldrig att hända”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-05",
-      "author": "Hans Olsson, Evelyn Jones",
-      "commentator": "",
-      "summary": "S och C är starkt kritiska till hur Vänsterpartiets Ida Gabrielsson uttrycker sig i en DN-intervju. Kritiken handlar om hur hon uttrycker sig om Centerpartiet. ”Partier som man vill samarbeta med talar man inte om på det sättet”, skriver S-ledaren Magdalena Andersson i en kommentar. Ida Gabrielsson säger till TT att ”man kan uttrycka sig trevligare”.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-05 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-och-c-till-attack-mot-vansterpartiet-kommer-aldrig-att-handa/\nS och C är starkt kritiska till hur Vänsterpartiets Ida Gabrielsson uttrycker sig i en DN-intervju. Kritiken handlar om hur hon uttrycker sig om Centerpartiet.\n”Partier som man vill samarbeta med talar man inte om på det sättet”, skriver S-ledaren Magdalena Andersson i en kommentar.\nIda Gabrielsson säger till TT att ”man kan uttrycka sig trevligare”.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nI en DN-intervju som publicerades på torsdagen uttrycker sig V:s vice partiledare Ida Gabrielsson och hennes pappa nedsättande om Centerpartiet. Uttalandena kommer samtidigt som partierna på den rödgröna sidan ska försöka samla sig för att kunna bilda en regering.\n”Att lösa ut detta kräver ansvarstagande och omdöme från alla inblandade parter. I det arbetet behöver alla hjälpas åt”, skriver Magdalena Andersson i en kommentar.\nHon framhåller att DN-intervjun med Ida Gabrielsson inte bidrar positivt i den processen.\n”De omdömen och uttryckssätt som används om Centerpartiet och dess företrädare bidrar inte till att skapa tillit och förtroende, snarare tvärtom. Partier som man vill samarbeta med talar man inte om på det sättet”, skriver Magdalena Andersson.\n”Vänsterpartiet behöver nu visa att de menar allvar med att få ihop ett samarbete.”\nHannes Hervieu, C:s partisekreterare, reagerar på att Ida Gabrielsson ”raljerar över våra företrädare över en öl” – men då behövs småföretagare.\n– Man kan sitta i bastun och klaga på Centerpartiet. Men veden kommer från skogen. Och då behövs det en skogsägare som vårdar och brukar sin skog.\n– De människorna står Centerpartiet upp för. Och de människorna vill absolut inte se Vänsterpartiet i regering.\nI intervjun återger Ida Gabrielsson partiledaren Nooshis förhandlingsteknik som att ”Centerpartisterna får fan skylla sig själva. Nu får de äta upp all vänsterpolitik.”\n– Vänsterpartiet säger ju tydligen att vi ska äta upp all vänsterpolitik, släppa in V i regering och genomföra en historisk vänstersväng. Det kommer aldrig att hända, säger Hannes Hervieu.\nHan frågar sig hur Socialdemokraterna ser på uttalandena.\n– De har ju tidigare uttryckt att Vänsterpartiet har väldigt lång väg att gå innan man kan sitta i regering. Man kan ju fråga sig om de tycker att de har tagit rätt steg framåt under den här regeringsprocessen, säger han.\nIda Gabrielsson har svarat på kritiken till TT:\n– Man kan alltid tänka på hur man uttrycker sig, så det kanske de har rätt i att man kan uttrycka sig trevligare, säger hon.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nIda Gabrielsson: Jag hade sagt till Mohamed Ali att han borde pröva lite annat först\nKristina Lindquist: För SD är svenskhet en fråga om politisk lydnad\nRegeringen inför gränskontroll vid Sveriges inre gräns",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-05T14:02:42.231479+00:00"
+      "first_seen": "2026-11-06T06:03:01.029241+00:00"
     }
   ]
 }
