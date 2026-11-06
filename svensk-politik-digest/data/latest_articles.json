@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-11-06T06:03:01.029241+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-11-06T14:02:39.515563+00:00",
+  "new_count": 10,
   "skipped": {
-    "seen": 43,
-    "offtopic": 152,
-    "old": 12
+    "seen": 40,
+    "offtopic": 147,
+    "old": 13
   },
-  "fetch_errors": 1,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,55 +65,187 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/Ab6V6q/martin-peterson-om-trump-och-den-akademiska-friheten",
-      "title": "”Fel att jubla högt åt valresultatet”",
+      "url": "https://www.svd.se/a/gdXyB9/jag-kan-inte-gora-100-procent-ratt-har",
+      "title": "”Jag kan inte göra 100 procent rätt här”",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-11-05",
-      "author": "Martin Peterson",
+      "published": "2026-11-06",
+      "author": "Malin Hector",
       "commentator": "",
-      "summary": "",
-      "fulltext": "KULTURDEBATT | Donald Trumps försök att styra de amerikanska universiteten har väckt strid om den akademiska friheten. Efter mellanårsvalet hoppas många på en ny era. Men filosofi­professorn Martin Peterson, som själv uppmanats att sluta undervisa om Platon, drar sig för att fira.\nDet här är en idé- & kulturdebattsartikel publicerad av SvD:s kulturredaktion. Åsikterna som uttrycks är skribentens egna. Om du har synpunkter eller vill delta i debatten kan du mejla kulturdebatt@svd.se\nNär resultatet från mellanårsvalet i Texas står klart sent på tisdagskvällen bryter en spontan fest ut på min gata i Dallas. Grannarna skriker och bilarna tutar; nästan alla i min bubbla röstade demokratiskt.",
+      "summary": "SD slopar kravet på ministerposter och lovar att släppa fram Ulf Kristersson som statsminister…",
+      "fulltext": "SD slopar kravet på ministerposter och lovar att släppa fram Ulf Kristersson som statsminister – oavsett vad. ”Mitt bidrag för att få stopp på den här cirkusen” säger Jimmie Åkesson.\nSverigedemokraterna släpper fram Ulf Kristersson som statsminister i nästa omröstning – oavsett vad. Det beskedet ger Jimmie Åkesson på en pressträffen han blixtinkallat till i hemstaden Sölvesborg.\n– I den händelse att C röda linjer sätter stopp för en sådan regering så är SD beredda att tolerera Ulf Kristersson som statsminister i en borgerlig fyrpartiregering. Och därefter gå i full opposition, säger Åkesson.\nPudlar plötsligt: ”Kan uttrycka mig trevligare”\nUlf Kristerssons nya plan: Samla C och SD",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "valresultat"
+        "statsminister",
+        "ministerpost"
       ],
-      "first_seen": "2026-11-06T06:03:01.029241+00:00"
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
     },
     {
-      "url": "https://www.svd.se/a/4O6v1E/sd-ger-besked-om-regeringsfragan",
-      "title": "SD ger besked om regeringsfrågan",
+      "url": "https://www.svd.se/a/X9GOvm/spant-infor-jimmie-akessons-presstraff",
+      "title": "SD släpper krav – tolererar borgerlig regering",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-11-05",
-      "author": "TT",
+      "published": "2026-11-06",
+      "author": "Anja Haglund/TT, Maria Davidsson/TT, Cecilia Klintö/TT",
       "commentator": "",
-      "summary": "Jimmie Åkesson håller på fredag, vid lunchtid, en pressträff i Sölvesborg om…",
-      "fulltext": "Jimmie Åkesson håller på fredag, vid lunchtid, en pressträff i Sölvesborg om ”regeringsfrågan”, meddelar Sverigedemokraterna.\n”På pressträffen kommer Jimmie Åkesson att redogöra för regeringsfrågan”, skriver partiet.\nSD har hittills under den fastfrusna regeringsbildningen hållit fast sitt krav på ministerposter för att släppa fram en regering.\nHögerpartierna saknar mandat för att kunna samla en majoritet i riksdagen. Centerpartiet, som strävat efter ett mittenalternativ, har hittills sagt nej till samarbete med SD.",
+      "summary": "SD släpper sitt krav på ministerposter och är berett att tolerera M-ledaren Ulf Kristersson som…",
+      "fulltext": "SD släpper sitt krav på ministerposter och är berett att tolerera M-ledaren Ulf Kristersson som statsminister för en borgerlig fyrpartiregering.\nUlf Kristersson tror att det kan göra hans sonderingsuppdrag ”något mindre svårt”.\nPå en pressträff i hemstaden Sölvesborg meddelar SD-ledaren Jimmie Åkesson att partiet kan avstå från ministerposter och släppa fram en regering bestående av C, KD, L och M.\n– Det innebär att tolerera Ulf Kristersson genom att trycka avstå i en statsministeromröstning. Och därefter så låter vi regeringsbildaren ta ansvar för sin regering, säger han.\nEfter det skulle partiet gå i ”full opposition” och bli en viktig vågmästare, enligt Åkesson.\n– Eftersom det saknas förutsättningar för att ingå i en regering så kommer Sverigedemokraterna att vara i opposition fram till nästa val.\n– En riktig vinst skulle vara att vi slipper Miljöpartiet och Vänsterpartiet i Rosenbad, det är väldigt viktigt för mina väljare.\nCenterpartiet har en röd linje mot att ge SD inflytande i en regering. Åkesson hoppas nu att beskedet ska bidra till att det parlamentariska dödläget ska kunna brytas.\nUlf Kristersson, som sonderar för att försöka bilda en ny regering, välkomnar beskedet:\n”Sverigedemokraternas ansvarstagande besked är välkommet och kan möjligen göra det som var mycket svårt något mindre svårt. Samtalen fortsätter”, säger Kristersson i en skriftlig kommentar.\nCenterpartiet överraskades av SD:s besked och har ännu inte kommenterat.\nÄven om Kristersson lyckas locka över C och SD tolererar honom i en statsministeromröstning, så kan han fortfarande inte vara säker på att få igenom budgetar.\nOm S, V och MP går samman om ett gemensamt budgetalternativ har det 151 röster mot 136 för M, KD, L och C. För att en ”Alliansregering” ska få igenom sin budget i det läget, måste den ha stöd av SD.\nMen SD kan inte släppa fram en budget utan att ha förhandlat om den, säger Åkesson.\n– Nej, det är ganska osannolikt. Men vi är absolut öppna för att förhandla budget naturligtvis, precis som rimligen alla oppositionspartier borde vara om man vill ha inflytande.\n– Vi kommer inte att vara ett stödparti. Jag är väldigt noga med det. Vi kommer inte att sluta några långsiktiga avtal, vi kommer inte lova några överenskommelser om budgetar eller någonting, utan det är i så fall en regering som tillträder på premissen att de får ta ansvar för det själva och söka majoriteter i riksdagen.\nSocialdemokraternas vice gruppledare i riksdagen, Anders Ygeman, kommenterar beskedet:\n”Sverigedemokraternas besked förändrar ingenting. En regering ledd av Kristersson skulle fortsatt vara helt beroende av Jimmie Åkesson och Sverigedemokraterna.”\nM-ledaren Ulf Kristersson har just nu sonderingsuppdraget att försöka bilda en ny regering.\nFör att Kristersson ska kunna bli statsminister krävs att han inte får 175 eller fler röster emot sig i en statsministeromröstning. Det innebär att om S, V och MP röstar nej, så måste M, KD, L, C och SD antingen rösta ja eller lägga ned sina röster.\nÄven om det skulle lyckas så kan Kristersson inte vara säker på att sedan få tillräckligt stöd för en budget.\nOm S, V och MP i ett sådant läge skulle gå samman om ett gemensamt budgetalternativ har det 151 röster. M, KD, L och C når bara upp till 136 röster. I ett sådant läge måste även SD rösta för Kristerssons budgetproposition för att den ska kunna klubbas av riksdagen.\nKristersson ska på tisdag redogöra för hur hans sondering har gått.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/maud-olofsson-tror-inte-pa-akessons-losning-bara-en-del-av-fyra-ar",
+      "title": "Maud Olofsson tror inte på Åkessons lösning: ”Bara en del av fyra år”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-06",
+      "author": "Kristoffer Törnmalm",
+      "commentator": "",
+      "summary": "Jimmie Åkesson lägger sig platt i regeringsfrågan – SD släpper fram en M-ledd regering utan krav på att de själva ska ingå. Men tidigare centerledaren Maud Olofsson är skeptisk till en sådan lösning. – Det är bara en del av fyra år, sedan ska man trycka gult på en budget, säger hon och nämner flera andra möjliga falluckor.",
+      "fulltext": "Jimmie Åkesson lägger sig platt i regeringsfrågan – SD släpper fram en M-ledd regering utan krav på att de själva ska ingå.\nMen tidigare centerledaren Maud Olofsson är skeptisk till en sådan lösning.\n– Det är bara en del av fyra år, sedan ska man trycka gult på en budget, säger hon och nämner flera andra möjliga falluckor.\nJimmie Åkessons linje i regeringsfrågan har legat fast: antingen sitter SD med i en regering eller så röstar man rött och går i opposition.\nMen Åkesson bytte på fredagen fot, och släppte kravet. SD-ledaren säger nu att man är beredd att släppa förbi en borgerlig regering och gå i ”full opposition”.\n– Likväl är jag övertygad om att en borgerlig regering i dag bättre kan förvalta viktiga sverigedemokratiska reformer som genomförts de senaste åren, säger SD-ledaren Jimmie Åkesson.\nNär SVT mötte Maud Olofsson vid hennes hem utanför Örnsköldsvik i veckan ställdes hon inför frågan om just en sådan här situation: där SD i opposition trycker gult för en Kristersson-ledd ”alliansregering”.\nHon tror inte på den lösningen. Efter en statsministeromröstning om Ulf Kristersson identifierar hon nämligen flera möjliga falluckor för en sådan regering.\n– Det är bara en del av fyra år, sedan ska man trycka gult på en budget och de kan inte lägga en egen budget. Man ska trycka gult på energi- och klimatpolitik, man ska trycka gult på förändringar i lönegolvet, säger Maud Olofsson.\nHör den tidigare centerledaren om Centerpartiets vägval i videon ovan.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsfråg"
       ],
-      "first_seen": "2026-11-06T06:03:01.029241+00:00"
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9334929",
-      "title": "Det här vill Sverige på FN:s klimatmöte: ”Tufft läge”",
+      "url": "https://www.svt.se/nyheter/inrikes/tveksamt-om-sds-besked-racker-for-centerpartiet",
+      "title": "Analys: ”Tveksamt om SD:s besked räcker för Centerpartiet”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-06",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Jimmie Åkessons helomvändning gör det svårare för Centerpartiet att säga nej till Ulf Kristersson SD stod inför ett val – antingen konkurrera med M , KD och L i opposition mot en rödgrön regering. Eller bli det enda oppositionspartiet till höger. Nu hänger Ulf Kristerssons möjligheter att fortsätta som statsminister helt på Centerpartiet.",
+      "fulltext": "Jimmie Åkessons helomvändning gör det svårare för Centerpartiet att säga nej till Ulf Kristersson\nSD stod inför ett val – antingen konkurrera med M , KD och L i opposition mot en rödgrön regering. Eller bli det enda oppositionspartiet till höger.\nNu hänger Ulf Kristerssons möjligheter att fortsätta som statsminister helt på Centerpartiet.\nSe SVT:s politiska kommentator Elisabeth Marmorsteins analys av händelseutveckling i regeringsbildningen i videon ovan.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/reportern-det-kan-sds-besked-om-regeringsfragan-handla-om",
+      "title": "Reportern: Det kan SD:s besked om regeringsfrågan handla om",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-06",
+      "author": "Gustav Motte",
+      "commentator": "",
+      "summary": "Sverigedemokraterna ska ge besked om regeringsfrågan klockan 12.30 på fredagen. Det kan handla om att partiet omprövar kravet på ministerposter, enligt Expressens politikreporter Anette Holmqvist. – Det är väl troligt att det kan komma någon sådan typ av besked i dag, säger hon i SVT:s Morgonstudion.",
+      "fulltext": "Sverigedemokraterna ska ge besked om regeringsfrågan klockan 12.30 på fredagen.\nDet kan handla om att partiet omprövar kravet på ministerposter, enligt Expressens politikreporter Anette Holmqvist.\n– Det är väl troligt att det kan komma någon sådan typ av besked i dag, säger hon i SVT:s Morgonstudion.\nSverigedemokraternas partiledare Jimmie Åkesson (SD) ska vid pressträffen i Sölvesborg redogöra för partiets hållning i regeringsfrågan.\nPartiet har inte sagt vad beskedet innebär – eller vad pressträffen ska avhandla i sak.\nSverigedemokraterna kan ge upp ministerposter\nEnligt Expressens politikreporter Anette Holmqvist, som medverkar i SVT:s Morgonstudion, kan beskedet handla om att SD är berett att ändra kravet på att sitta i en regering.\n– Det har förekommit sådana uppgifter i media och jag har personligen känt mig lite skeptisk till det, för jag har haft svårt att se vad Sverigedemokraterna vinner på det. Men det är väl troligt att det kan komma någon sådan typ av besked i dag, säger hon.\nI april i år utlovade Ulf Kristersson (M) att Sverigedemokraterna skulle få ministerposter vid en eventuell valvinst.\nAftonbladet har tidigare, med hänvisning till källor, uppgett att Sverigedemokraterna överväger att släppa kravet på ministerposter. Syftet skulle vara att göra det lättare för Centerpartiet att stödja en regering på Tidösidan.\nEn annan möjlig lösning är enligt Holmqvist att SD kan släppa fram en renodlad moderatregering.\n– Jag pratade med en del företrädare i går kväll som menade att det skulle kunna handla om att de släpper fram en renodlad moderatregering. Att det skulle kanske Centerpartiet kunna acceptera, säger hon.\nI tisdags fick Ulf Kristersson sonderingsuppdraget av talmannen för att försöka bilda regering. Centerpartiets stöd avgörande om det ska bli möjligt.\n– Det blir sannolikt mycket svårt, men kanske inte helt omöjligt, sa Kristersson under det efterföljande pressträffen.\nDe rödgröna partierna har 176 mandat i riksdagen mot Tidöpartiernas 173.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "ministerpost",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.regeringen.se/artiklar/2026/11/statsministern-och-klimatministern-stod-vard-for-lunchsamtal-infor-cop31",
+      "title": "Statsministern och klimatministern stod värd för lunchsamtal inför COP31",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-11-06",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "Onsdagen den 4 november samlades de svenska företag som deltar i FN:s klimatkonferens COP31 på inbjudan av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari. Syftet med lunchen var att lyfta fram svenska prioriteringar och lägga grund för ett starkt svenskt näringslivsengagemang vid COP31.",
+      "fulltext": "Onsdagen den 4 november samlades de svenska företag som deltar i FN:s klimatkonferens COP31 på inbjudan av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari. Syftet med lunchen var att lyfta fram svenska prioriteringar och lägga grund för ett starkt svenskt näringslivsengagemang vid COP31.\nDe svenska företag som deltar i FN:s klimatkonferens COP31 samlades i Rosenbad på inbjudan av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari.\nKlimat- och miljöminister Romina Pourmokhtari.\nSyftet med lunchen var att lyfta fram svenska prioriteringar och lägga grund för ett starkt svenskt näringslivsengagemang vid COP31.\nDen 9–20 november möts världens länder i Antalya, Turkiet för att ange inriktningen för klimatarbetet inom ramen för Parisavtalet. Mötet äger rum i ljuset av flera händelser den senaste tiden som visar på allvaret i klimatförändringarnas effekter och belyser brådskan i klimatarbetet.\nUnder lunchsamtalen diskuterade företagsledarna och regeringen hur genomslag för svenska prioriteringar vid FN:s klimatkonferens kan säkras. På lunchen deltog även Sveriges klimatambassadör Mattias Frumerie.\n– För svensk del är inriktningen tydlig – svenska företag har lösningar som kan medverka till att ställa om energisystem, transporter och industri. Den gröna omställningen bidrar till stärkt konkurrenskraft, ökad motståndskraft och nya jobb. COP31 är ett viktigt tillfälle att lyfta fram dessa lösningar och att uppmuntra till regelverk som stärker efterfrågan och driver på omställningen, säger statsminister Ulf Kristersson.\n– Svenska företag ligger i global framkant och utvecklar lösningar som minskar utsläppen och påskyndar klimatomställningen, både i Sverige och i resten av världen. Det är oerhört värdefullt att företagen är på plats under COP31 och med goda exempel visar hur klimatomställningen kan gå från höga ambitioner till konkret handling. Genom att exportera deras svenska produkter och tekniker kan vi bidra till att fler länder lyckas ställa om, säger klimat- och miljöminister Romina Pourmokhtari.\nDen 5 november höll klimat- och miljöminister Romina Pourmokhtari och Sveriges chefsförhandlare och klimatambassadör Mattias Frumerie en pressbriefing inför FN:s klimatmöte COP31 i Turkiet.\nSidan är uppmärkt med följande kategorier:\nPublicerad 03 november 2026 · Pressmeddelande , Webb-tv från Romina Pourmokhtari , Klimat- och näringslivsdepartementet",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336054",
+      "title": "Jimmie Åkesson (SD): ”Vi måste navigera i den verklighet vi har”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-05",
+      "published": "2026-11-06",
       "author": "Ekot",
       "commentator": "",
-      "summary": "För Sveriges del är det viktigt med ökad handlingskraft på FN:s kommande klimattoppmöte COP31 i Turkiet som går av stapeln i ett svårt geopolitiskt läge. ”Det är många länder som just nu drabbas av ett tufft internationellt läge, med handelskonflikter och krig som försvagar förtroendet”, säger övergångsregeringens miljö- och klimatminister Romina Pourmokhtari som kommer delta. Sveriges viktigaste bidrag kommer vara att visa upp näringslivets framgångsrika omställning, enligt Pourmokhtari.",
+      "summary": "Sverigedemokraternas partiledare Jimmie Åkesson gav besked under fredagen att partiet kommer gå i opposition, släppa ministerkravet och ”trycka avstå” vid en statsministeromröstning på Ulf Kristersson. SD-ledaren förklarar fredagens besked att det var en möjlighet för han att dyrka upp låsningar under Ulf Kristerssons (M) sondering i regeringsbildningen. ”Vi måste navigera i den verklighet vi har och väljarna vill inte ha Sverigedemokraterna i regering, även om det inte skilde många röster för en sådan majoritet”, säger Åkesson (SD).",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9334929'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336054'",
       "matched_terms": [
-        "övergångsregering"
+        "regeringsbildning",
+        "sondering",
+        "statsminister",
+        "partiledar",
+        "Sverigedemokraterna"
       ],
-      "first_seen": "2026-11-06T06:03:01.029241+00:00"
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336034",
+      "title": "Helena Gissén om Åkessons (SD) besked: ”Absolut en skräll”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-06",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Sverigedemokraterna går i opposition, släpper ministerkravet och kommer ”tolerera” Ulf Kristersson som statsminister i en borgerlig fyrpartiregering. Det sa SD-ledaren Jimmie Åkesson i en pressträff i Sölvesborg under fredagen. ”Det här är hans bidrag till att få slut på den cirkus som han anser råder”, säger Ekots inrikespolitiska kommentator Helena Gissén.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336034'",
+      "matched_terms": [
+        "statsminister",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336006",
+      "title": "Sverigedemokraterna går i opposition",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-06",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Sverigedemokraterna kommer att vara i opposition fram till nästa val och släpper kravet på ministerposter. Det sa Sverigedemokraternas partiledare Jimmie Åkesson på pressträffen i Sölvesborg under fredagen. SD-ledaren säger även att partiet är beredda att ”tolerera” Ulf Kristersson (M) som statsminister genom att avstå i statsministeromröstning.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336006'",
+      "matched_terms": [
+        "statsminister",
+        "ministerpost",
+        "partiledar",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/sd-redo-ga-i-full-opposition-you-re-on-your-own",
+      "title": "SD redo gå i full opposition: ”You're on your own”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-06",
+      "author": "Evelyn Jones, Pia Gripenberg, Hanna Grosshög",
+      "commentator": "",
+      "summary": "SD är berett att gå i full opposition – men tolerera Kristersson som statsminister med en fyrpartiregering utan några motkrav på ministerposter eller politik. – Har vi minsta möjlighet att kunna välja vilken regering vi ska vara opposition mot tycker jag det är rimligt att vi gör ett försök, säger Åkesson på en pressträff.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-06 15:00\nArtikelns ursprungsadress: https://www.dn.se/sverige/sd-redo-ga-i-full-opposition-you-re-on-your-own/\nSD är berett att gå i full opposition – men tolerera Kristersson som statsminister med en fyrpartiregering utan några motkrav på ministerposter eller politik.\n– Har vi minsta möjlighet att kunna välja vilken regering vi ska vara opposition mot tycker jag det är rimligt att vi gör ett försök, säger Åkesson på en pressträff.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nVid en pressträff i Sölvesborg på fredagen redogjorde SD:s partiledare Jimmie Åkesson för partiets ståndpunkt i regeringsbildningen.\nSverigedemokraterna är beredda att tolerera Ulf Kristersson genom att trycka gult i en statsministeromröstning utan några krav på ministerposter eller politik och därefter gå i full opposition.\n– Vi har agerat stödparti i fyra år men har hela tiden varit tydliga med att det var en tillfällig lösning. Vi har vart tydliga med att vi inte har för avsikt att hamna i stödpartifällan, säger Åkesson.\nSD gick till val med krav om ministerposter.\n– Hur mycket jag än vill det så kommer inte SD att ha ministerposter före nästa val åtminstone. Vi förlorade valet med 40 000–50 000 röster, det är den bistra sanningen.\nHan menar att partiet kan släppa fram en borgerlig fyrpartiregering med Ulf Kristersson (M) som statsminister. SD kommer inte vilja ha någon överenskommelse med en sådan regering.\n– Gör vi minsta överenskommelse så kommer vi behöva bevaka den och då är vi inte i full opposition. Vi kan förhandla med regeringen, men då gör vi det från gång till gång, säger Åkesson.\nEnligt SD-ledaren är en borgerlig regering bättre än en rödgrön sådan – även om den enligt Åkesson är sämre utan ett Tidöavtal.\n– Kan vi gripa minsta halmstrå för att välja vilken regering vi vill vara opposition mot så tycker jag att det skulle vara tjänstefel av mig att inte göra det, säger Jimmie Åkesson till DN.\nÅkesson säger att en tid i opposition kan ge SD möjligheter inför nästa val. Det efter att SD har klumpats ihop med de borgerliga partierna under Tidötiden. Han menar att SD vill vara en egen entitet i svensk politik.\n– SD har nu möjlighet att inte fastna i att vara partiet för repression och stram invandring utan att vi faktiskt också kan bredda vår ekonomiska politik och förtroendet för vår politik i stort.\nÅkesson menar att just det har varit svårt under Tidösamarbetet.\n– Det är svårt att göra det i en kontext där vi har tre borgerliga partier som vill föra borgerlig politik och ett SD som är mer av ett mittenparti i grunden när det gäller den ekonomiska politiken och fördelningspolitiken.\nI det här sammanhanget betyder full opposition att tolerera Ulf Kristersson och därefter låta regeringsbildaren ta ansvar för sin regering utan avtal eller förutsättningar.\n– You're on your own, säger Åkesson till Kristersson.\nSD-ledaren har goda förhoppningar om att partiet skulle få igenom sin politik i opposition.\n– Om en sådan här borgerlig minoritetsregering skulle tillträda så kommer vi att kunna agera kraftfull opposition. Vi kommer att kunna ha majoritet tillsammans med Socialdemokraterna till exempel.\nTrots att dörren hittills varit stängd när det gäller samarbete med Socialdemokraterna tror han inte det är omöjligt att S på sikt kommer att öppna för förhandling.\n– Då har vi den position som jag ursprungligen ville ha nämligen den mittemellan de traditionella blocken där vi kan förhandla åt båda håll.\nI nuläget har Ulf Kristersson sonderingsuppdraget, som han ska slutrapportera till talmannen i nästa vecka. Jimmie Åkesson säger att SD:s nya besked innebär att Centerpartiet måste ta ställning till om de kan tänka sig att ingå i en borgerlig fyrpartiregering.\n– Centerpartiet måste bekänna färg, säger Åkesson.\n– Nu kan de antingen välja att ingå i en borgerlig minoritetsregering som kan förhandla brett i riksdagen, som inte är låsta av något avtal med oss eller något annat parti. Eller så får de acceptera Vänsterpartiet i regering, säger han.\nUlf Kristersson välkomnar det ”ansvarstagande” beskedet.\n”Det kan möjligen göra det som var mycket svårt något mindre svårt”, säger han enligt ett skriftligt uttalande.\nHan säger att hans samtal kommer fortsätta:\n”Under veckan har jag fört konstruktiva samtal med flera partier. Alla lösningar är just nu osannolika, och det har inte förändrats.”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTomas Ramberg: Trots lockbetet skulle C tvingas anpassa politiken till SD\n”Politisk teater” – blandade reaktioner efter Åkessons besked\nMalmös kommunalråd delade konspirationsteorier",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "ministerpost"
+      ],
+      "first_seen": "2026-11-06T14:02:39.515563+00:00"
     }
   ]
 }
