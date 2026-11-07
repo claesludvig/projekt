@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-11-07T06:02:49.659349+00:00",
-  "new_count": 10,
+  "fetched_at": "2026-11-07T14:03:00.494281+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 43,
-    "offtopic": 144,
+    "seen": 52,
+    "offtopic": 143,
     "old": 13
   },
-  "fetch_errors": 5,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 5,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,197 +65,41 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9336463",
-      "title": "Statsvetare: Fortsatt oklart om nästa regering",
+      "url": "https://www.sverigesradio.se/artikel/9336585",
+      "title": "SD kan spela åt båda håll i opposition: ”Kan slita C itu”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-07",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Fredagens besked i regeringsbildningen tolkas av statsvetare främst som försök från partierna att visa ansvar, medan läget om nästa regering fortfarande är oklart. ”Mandatfördelningen är som den är, de röda linjerna är mestadels oförändrade”, säger Anders Sundell, statsvetare vid Göteborgs universitet. Sverigedemokraterna har släppt kravet på ministerposter och nu har moderatledaren Ulf Kristersson fått förlängd sonderingstid.",
+      "summary": "Det kommer reaktioner på gårdagens politiska utspel där Sverigedemokraterna backade från krav på ministerposter. ”Trots att man egentligen är en förutsättning för den här borgerliga regeringen så har man också med borgerlighetens godkännande gjort sig till opposition och kan spela åt båda håll” säger Carl Eos på konservativa tankesmedjan Oikos. Gustaf Lindskog, centerpartistisk ledarskribent på Östersundsposten, tycker att Centerpartiet ska välja det regeringsalternativ som ger mest sakpolitiska eftergifter.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336463'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336585'",
       "matched_terms": [
-        "regeringsbildning",
-        "sondering",
+        "regeringsalternativ",
         "ministerpost",
-        "mandatfördelning",
-        "Moderaterna",
+        "Centerpartiet",
         "Sverigedemokraterna"
       ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
+      "first_seen": "2026-11-07T14:03:00.494281+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/akessons-besked-om-ministerposter-andrar-inget-for-centerpartiet",
-      "title": "Ledare: Åkessons besked om ministerposter ändrar inget för Centerpartiet",
-      "source": "DN Ledare",
-      "kind": "kommentar",
+      "url": "https://www.sverigesradio.se/artikel/9335477",
+      "title": "Bildt: Mellanårsvalen kan ändra USA:s Ukrainapolitik",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
       "published": "2026-11-07",
-      "author": "DN:s ledarredaktion",
-      "commentator": "",
-      "summary": "Sverigedemokraterna säger att de inte måste sitta i en regering för att tolerera den. Betyder det att Ulf Kristersson nu kan aktivera den ”icke-socialistiska majoriteten”?",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-07 07:02\nArtikelns ursprungsadress: https://www.dn.se/ledare/akessons-besked-om-ministerposter-andrar-inget-for-centerpartiet/\nSverigedemokraterna säger att de inte måste sitta i en regering för att tolerera den. Betyder det att Ulf Kristersson nu kan aktivera den ”icke-socialistiska majoriteten”?\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDet finns en ”icke-socialistisk majoritet” i riksdagen, har Ulf Kristersson påtalat ända sedan valnatten. Men på fredagen existerade inte längre den termen i hans vokabulär, när han kallade till presskonferens efter Jimmie Åkessons besked om att han kan tänka sig att tolerera en M-ledd regering utan själva sitta med i den och Elisabeth Thand Ringqvists begäran om ”totalpaket” från statsministerkandidaterna.\nI stället talade Kristersson om hur han hela tiden velat bilda en ”borgerlig mittenregering”.\nHar han alltså en ny plan för att formera en majoritet, som inte kräver att C och SD trycks ihop i samma regeringsunderlag?\nTillsammans med KD, L och C förfogar Kristersson bara över 136 mandat, de rödgröna har 151. Några planer på att regera på oppositionens budget har han inte. Och att tillträda som statsminister på Jimmie Åkessons mandat och sedan styra på Magdalena Anderssons? Nej, det är självklart inte ett alternativ.\nDet är SD som är den tilltänkta partnern. Och är det då möjligt att locka in Centerpartiet i ett sådant samarbete, nu när Åkesson säger att han inte behöver bli minister?\nNej, det här är naturligtvis slöseri med tid.\nC:s motstånd till att samarbeta med SD handlar inte om artificiella röda linjer – utan om att det sakpolitiska gapet är bråddjupt.\nC vill öka arbetskraftsinvandringen och antalet kvotflyktingar. SD har ägnat de senaste veckorna åt en infekterad interndebatt om huruvida människor ska få sina medborgarskap och permanenta uppehållstillstånd rivna på grund av att de har fel biologi eller fel kultur.\nKoldioxidutsläppen ska ner, lovade Centern i valrörelsen. För Jimmie Åkesson gäller det endast riktningen för bensinpriset.\nVad gäller just ”icke-socialismen” så kan man konstatera att SD älskar offentliga utgifter nästan lika mycket som vänstern – och att det gjort avtryck i en ekonomisk politik de senaste fyra åren som präglats av rekordstora underskott i stället för borgerlig återhållsamhet. C är tvärtom ett marknadsliberalt parti.\nHär är det inte godtyckligt dragna röda linjer som gör ett samarbete omöjligt, utan sakpolitik grundad i värderingar.\nDet räcker alltså inte att Kristerssons ”totalpaket” saknar SD-ministrar. Det måste också inkludera en plan för hur han ska få Åkesson att ge upp sin sakpolitik och ideologi.\nDet förstår så klart centerpartisterna att han inte kommer att kunna leverera; målet är att låsa in dem i en borgerlig fyrpartiregering, fasthakad i Sverigedemokraterna – alltså allt annat än mitten.\nOch de vet vad som hände med M, KD och L när de gjorde sig beroende av SD de senaste fyra åren. Inte minst Liberalerna: partiet har tömts på egen idé och vilja, och formligen förvandlats till en blindtarm, inte bara till Moderaterna utan också – faktiskt – till Sverigedemokraterna.\nDN:s ledarredaktion: Muslimen från Michigan 1 – Donald Trump 0\nDN:s ledarredaktion: Det är svårt att inte känna hopp inför väljarnas revolt i USA\n\"Läskigt när privata bråk blir offentliga\"\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Muslimen från Michigan 1 – Donald Trump 0\nLedare: Det är svårt att inte känna hopp inför väljarnas revolt i USA\nCenterpartiet vill se totalpaket från både S och M",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost",
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/4On4J9/sd-s-svanging-i-regeringsfragan-bedoms-ge-c-en-starkare-position-i-regeringsforhandlingarna-forhandlingsexpert-en-riktig-skitsits-for-v",
-      "title": "Förhandlingsexpert: ”En riktig skitsits för V”",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-06",
-      "author": "Joel Dahlberg",
-      "commentator": "",
-      "summary": "Sverigedemokraternas svängning i regeringsfrågan sätter Vänsterpartiet i en svår sits.",
-      "fulltext": "Sverigedemokraternas svängning i regeringsfrågan sätter Vänsterpartiet i en svår sits. ”Det här ger C en betydligt starkare position i förhandlingarna”, säger förhandlingsexperten Johan Lagerbielke.\n– Det är ett väldigt spännande läge just nu.\nJohan Lagerbielke, förhandlingsexpert och tidigare forskare och lärare i ekonomisk psykologi, följer utvecklingen i regeringsförhandlingarna med stort intresse. Fredagens besked från SD-ledaren Jimmie Åkesson om att partiet släpper kravet på ministerposter och går i full opposition, har förändrat förutsättningarna i regeringsbildningen, säger han.\nUlf Kristersson vill återuppliva Alliansen",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "Sverigedemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/kristersson-far-forlangd-sondering-efter-nya-besked-fran-sd-och-c",
-      "title": "Kristersson får förlängd sondering – efter nya besked från SD och C",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-06",
-      "author": "Julia Selin",
-      "commentator": "",
-      "summary": "Ulf Kristerssons sonderingsuppdrag förlängs med ytterligare några dagar. Detta efter att Sverigedemokraterna släpper sina krav på ministerposter – och Centerpartiet kräver politiska ”totalpaket” från statsministerkandidaterna. – Nu kan vi fokusera på sakfrågor, säger M-ledaren vid en pressträff på fredagseftermiddagen.",
-      "fulltext": "Ulf Kristerssons sonderingsuppdrag förlängs med ytterligare några dagar.\nDetta efter att Sverigedemokraterna släpper sina krav på ministerposter – och Centerpartiet kräver politiska ”totalpaket” från statsministerkandidaterna.\n– Nu kan vi fokusera på sakfrågor, säger M-ledaren vid en pressträff på fredagseftermiddagen.\nCenterpartiet kan tänka sig att sitta i en regering med alla partier förutom ytterkantspartierna, meddelar partiledaren Elisabeth Thand Ringqvist på fredagen.\nC-ledaren vill nu att S och M presenterar sin tänkta sakpolitik och hur den ska genomföras i ett svar senast nästa fredag.\n– Vi vill att både Magdalena Andersson och Ulf Kristersson presenterar varsitt totalpaket för hur de vill styra Sverige, säger C-ledaren vid en pressträff på fredagen.\nBland annat efterfrågas politiska förslag och hur de ska finansieras, samt med vilka partier åtgärderna ska genomföras, för att få en uppfattning om hur väl partierna skulle begränsa ytterkantspartiernas inflytande.\n– Ulf Kristersson bör förklara hur han tänker säkerställa att Sverigedemokraterna inte dikterar villkoren. Magdalena Andersson behöver visa hur en regering kan fungera utan att släppa in Vänsterpartiet, säger Thand Ringqvist.\nPresskonferensen sker bara några timmar efter Jimmie Åkessons besked att man släpper kravet på att sitta i regering .\nOm Centerpartiets röda linjer sätter stopp för en blågul regering, så är man villiga att i stället tolerera Ulf Kristersson i en borgerlig fyrpartiregering, meddelade SD-ledaren.\nCenterpartiet har vid flera tillfällen hållit fast vid att man varken kommer sitta i regering eller samarbeta med Sverigedemokraterna.\nHur en Kristerssonregering utan stöd av SD skulle kunna fungera i praktiken vill Thand Ringqvist inte gå in på.\n– Vi får se vad Ulf Kristersson kan presentera, säger Thand Ringqvist till SVT.\nBeskeden från Sverigedemokraterna och Centerpartiet under dagen har gjort sonderingsuppdraget ”lite mindre omöjlig”, säger Kristersson vid en pressträff på fredagseftermiddagen.\n– Sverigedemokraternas ansvarstagande besked i dag är välkommet. Det kan vara en del av en lösning. Även Centerpartiets besked under eftermiddagen är välkommet. De bidrar till att regeringsbildningen från och med nu kan fokusera på sakpolitik, säger M-ledaren.\nTalmannen Andreas Norlén har nu gått med på att förlänga Kristerssons sonderingsuppdrag, som skulle ha presenterats den 10 november, med ”ytterligare några dagar”.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "sondering",
-        "statsminister",
-        "ministerpost",
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/chock-i-centerpartiet-efter-akessons-besked",
-      "title": "Chock i Centerpartiet efter Åkessons besked",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-06",
-      "author": "Daniel Ingmo, Julia Lindvall",
-      "commentator": "",
-      "summary": "Flera centerpartister är ”chockade” efter Jimmie Åkessons (SD) nya besked i regeringsfrågan, enligt SVT:s källor. Samtidigt är budskapet från både S och V att ingenting har förändrats. Nu förbereder sig C på hur man ska svara.",
-      "fulltext": "Flera centerpartister är ”chockade” efter Jimmie Åkessons (SD) nya besked i regeringsfrågan, enligt SVT:s källor.\nSamtidigt är budskapet från både S och V att ingenting har förändrats.\nNu förbereder sig C på hur man ska svara.\nJimmie Åkessons besked om att Sverigedemokraterna är villiga att tolerera en borgerlig regering har lett till reaktioner bland de rödgröna partierna.\nFlera centerpartister beskriver för SVT att beskedet kom som en chock och C gör sig nu redo för att svara på utspelet.\nPartiet har kallat till en pressträff under fredagseftermiddagen med anledning av ett ”nytt initiativ” från partiets riksdagsgrupp och partistyrelse som samlades under torsdagskvällen.\nUnder mötet ska regeringsfrågan ha diskuterats, enligt SVT:s uppgifter. Även V-toppen Ida Gabrielssons uttalanden om Centerpartiet i en artikel I Dagens Nyheter ska ha avhandlats.\nReaktionerna inom Socialdemokraterna är betydligt svalare efter SD-ledarens nya besked.\n”Sverigedemokraternas besked förändrar ingenting. En regering ledd av Kristersson skulle fortsatt vara helt beroende av Jimmie Åkesson och Sverigedemokraterna”, skriver Anders Ygeman i en kommentar till SVT.\nV-toppen Ida Gabrielsson gör en liknande bedömning:\n”Matematiken ligger fast, det går inte att stödja Kristersson om man inte samtidigt accepterar en SD-beroende regering. Det vet Åkesson och därför är dagens besked inte särskilt svårt för honom att ge”, skriver hon på X.\nEnligt vad SVT erfar kommer SD-beskedet inte få Vänsterpartiet att göra någon förflyttning i regeringsfrågan – att backa från kravet på ministerposter för att säkra Centerpartiets stöd för Magdalena Andersson, ligger enligt uppgift inte på bordet.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9336424",
-      "title": "Runt 30 dödade vid attack mot marknad i Jemen",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-06",
       "author": "Ekot",
       "commentator": "",
-      "summary": "I Jemen har runt 30 personer dödats vid flygattacker mot en marknad i sydvästra delarna av landet, skriver nyhetsbyrån AFP. Huthirebellerna anklagar den saudiledda koalitionen för angreppet, men jemenitiska regeringsstyrkor hävdar att huthierna avfyrade en ballistisk robot mot marknaden. Det är en av de dödligaste attackerna hittills sen striderna flammade upp igen mellan huthirebellerna och saudistödda regeringsstyrkor i Jemen.",
+      "summary": "Valresultatet i de amerikanska mellanårsvalen, som nu gör att Demokraterna kontrollerar båda kamrarna i kongressen, kan komma att leda till en förändrad Ukrainapolitik från amerikanskt håll. Den bedömningen gör Sveriges tidigare utrikesminister Carl Bildt. Om kongressen tar initiativ till mer stöd till Ukraina skulle det sannolikt leda till en hårdnande maktkamp med Vita huset. Bildt tror även kongressen i högre grad än tidigare kommer kunna tvinga fram transparens i de avtal som president Trump och hans rådgivare förhandlar med Ryssland.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336424'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9335477'",
       "matched_terms": [
-        "koalition"
+        "valresultat"
       ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9336340",
-      "title": "Fredrik Furtenbach: Spelet mellan partierna går på högvarv",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-06",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "SD slopar krav på ministerposter, C vill att M och S presenterar ”totalpaket” och Kristersson har begärt förlängt sonderingsuppdrag. Ekots inrikespolitiska kommentator Fredrik Furtenbach reder ut de politiska besked som kommit på fredagen. ”Det rör på sig, en sak är säker och det är att spelet mellan partierna går på högvarv nu. Helhetsintrycket för vad som hänt idag är nog ganska förvirrande för väljarna”.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336340'",
-      "matched_terms": [
-        "sondering",
-        "ministerpost"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9336329",
-      "title": "Kristersson (M): Lite mindre omöjligt att bilda regering",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-06",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Efter Sverigedemokraternas och Centerpartiets besked under fredagen höll Moderaternas partiledare Ulf Kristersson pressträff. Kristersson säger att uppgiften att bilda regering nu är ”lite mindre omöjlig”. Samtidigt berättar M-ledaren att han bett om mer tid från talmannen att sondera.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336329'",
-      "matched_terms": [
-        "talman",
-        "partiledar",
-        "Centerpartiet",
-        "Moderaterna",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9336287",
-      "title": "C kräver totalpaket från Andersson (S) och Kristersson (M)",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-06",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Efter Sverigedemokraternas besked att partiet släpper kravet om ministerposter för att släppa fram en regering, höll Centerpartiets ledare Elisabeth Thand Ringqvist pressträff. ”Centerpartiet vill nu att både Magdalena Andersson och Ulf Kristersson presenterar var sitt totalpaket för hur de vill styra Sverige. Vi vill ha förslagen nästa fredag.” Det var Thand Ringqvists besked på pressträffen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336287'",
-      "matched_terms": [
-        "ministerpost",
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/centerpartiet-vill-se-totalpaket-fran-bade-s-och-m",
-      "title": "Centerpartiet vill se totalpaket från både S och M",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-06",
-      "author": "Ida Palm Ekspong, Hans Olsson, Thomas Karlsson",
-      "commentator": "",
-      "summary": "Centerpartiet ger M och S en vecka att lägga fram ”totalpaket” för hur de vill styra Sverige. Beskedet kommer efter att SD slopat kravet på ministerposter. Talmannen ger Ulf Kristersson ytterligare tid för att försöka bilda regering. – Båda beskeden kommer göra det lite mindre omöjligt att få en bra regering för Sverige, säger Kristersson.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-07 07:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/centerpartiet-vill-se-totalpaket-fran-bade-s-och-m/\nCenterpartiet ger M och S en vecka att lägga fram ”totalpaket” för hur de vill styra Sverige.\nBeskedet kommer efter att SD slopat kravet på ministerposter.\nTalmannen ger Ulf Kristersson ytterligare tid för att försöka bilda regering.\n– Båda beskeden kommer göra det lite mindre omöjligt att få en bra regering för Sverige, säger Kristersson.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nPå fredagen har 54 dagar passerat sedan riksdagsvalet hölls – utan att en ny regering bildats.\nCenterledaren Elisabeth Thand Ringqvist säger på en pressträff att partiet är villigt att stötta statsministerkandidater både från både S och M, även om Andersson fortsatt beskrivs som partiets mest sannolika kandidat.\nI öppningen mot Socialdemokraterna och Moderaterna vill C-ledaren att partierna presenterar varsitt sakpolitiskt paket på hur de vill styra Sverige.\n– Vi vill ha svaren nästa fredag, säger Thand Ringqvist och kallar det för en parallell förhandling.\nDe röda linjerna mot att sitta i regering där V eller SD ingår ligger fast. C vägrar fortsatt även att sitta i en regering som samarbetar med Jimmie Åkessons parti.\nPressträffen hölls efter att Åkesson meddelat att Sverigedemokraterna är redo att släppa fram Kristersson som statsminister utan motkrav på ministerposter eller någon särskild politik – en vändning för SD som gick till val på att sitta i en regering.\n– Hur mycket jag än vill det så kommer inte SD att ha ministerposter före nästa val åtminstone. Vi förlorade valet med 40 000–50 000 röster, det är den bistra sanningen, sade Åkesson.\nAtt släppa fram en borgerlig minoritetsregering utan motkrav anses vara bättre än en rödgrön regering, resonerade SD-ledaren.\nC-ledaren fick frågan om SD:s besked gör det möjligt att samarbeta med Kristersson.\n– Frågan ligger hos Ulf Kristersson. Det beror på hur han säger att han kan genomföra politik som C kan ställa upp på, säger Thand Ringqvist.\nI det så kallade totalpaketet ska M och S redogöra för en sakpolitik som C kan ställa sig bakom och frågor om regeringsbildningen.\n– Vilka partier ska ni samarbeta med? Hur ska ni få stöd för era reformer och begränsa ytterkanterna från inflytande?\nHon säger att talmannen fortfarande bestämmer över regeringsbildningen rent formellt – men att det inte hindrar andra partier från att ta initiativ.\n– Vi är fullt medvetna om att det här sättet att regeringsförhandla är helt nytt för svensk politik. Men situationen är också ovanligt låst.\nEfter C-ledarens uttalande blixtkallade M-ledaren Ulf Kristersson, som har sonderingsuppdraget, till en pressträff på fredagseftermiddagen. Han beskriver fortsatt regeringsbildningen som svår, men att den kan ha blivit lite lättare efter C:s och SD:s uttalanden.\n– Det blir lite mindre omöjligt att få en bra regering för Sverige.\nKristersson har bett om mer tid till sonderingsuppdraget, som skulle slutrapporterat till talmannen på tisdag. Talmannen har sagt ja , men det är oklart hur många fler dagar M-ledaren får på sig.\n– Talmannen och jag återkommer om exakt tid för detta möte, säger Kristersson.\nDe parlamentariska möjligheterna att bilda en majoritetsregering är obefintliga just nu, enligt statsministern. Han undersöker därför underlaget för en minoritetsregering bestående av forna Alliansens partier.\nS-ledaren Magdalena Andersson skriver till DN att fredagens besked inte förändrar de parlamentariska förutsättningarna.\n”En regering med Ulf Kristersson som statsminister kommer vara helt beroende av SD”, skriver hon och tillägger att hon ser fram emot fortsatta samtal med C.\nTomas Ramberg: Centern försöker prata upp sitt förhandlingsläge och får hjälp av Åkesson\nSD redo gå i full opposition: ”You're on your own”\nBlandade reaktioner efter Åkessons besked: ”Politisk teater”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTomas Ramberg: Centern försöker prata upp sitt förhandlingsläge och får hjälp av Åkesson\nSD redo gå i full opposition: ”You're on your own”\nBlandade reaktioner efter Åkessons besked: ”Politisk teater”",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman",
-        "ministerpost",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-07T06:02:49.659349+00:00"
+      "first_seen": "2026-11-07T14:03:00.494281+00:00"
     }
   ]
 }
