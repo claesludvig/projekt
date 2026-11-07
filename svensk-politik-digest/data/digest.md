@@ -1,61 +1,59 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-06
+# Svensk politik och regeringsförhandlingarna — 2026-11-07
 
-10 nya poster sedan förra utskicket (40 redan utskickade, 147 utanför ämnet).
+10 nya poster sedan förra utskicket (43 redan utskickade, 144 utanför ämnet).
 
 ## Analys och kommentar
 
-### [”Jag kan inte göra 100 procent rätt här”](https://www.svd.se/a/gdXyB9/jag-kan-inte-gora-100-procent-ratt-har)
-SvD Ledare · 2026-11-06 · Malin Hector
+### [Ledare: Åkessons besked om ministerposter ändrar inget för Centerpartiet](https://www.dn.se/ledare/akessons-besked-om-ministerposter-andrar-inget-for-centerpartiet)
+DN Ledare · 2026-11-07 · DN:s ledarredaktion
 
-SD slopar kravet på ministerposter och lovar att släppa fram Ulf Kristersson som statsminister…
+Sverigedemokraterna säger att de inte måste sitta i en regering för att tolerera den. Betyder det att Ulf Kristersson nu kan aktivera den ”icke-socialistiska majoriteten”?
 
-### [SD släpper krav – tolererar borgerlig regering](https://www.svd.se/a/X9GOvm/spant-infor-jimmie-akessons-presstraff)
-SvD Ledare · 2026-11-06 · Anja Haglund/TT, Maria Davidsson/TT, Cecilia Klintö/TT
+### [Förhandlingsexpert: ”En riktig skitsits för V”](https://www.svd.se/a/4On4J9/sd-s-svanging-i-regeringsfragan-bedoms-ge-c-en-starkare-position-i-regeringsforhandlingarna-forhandlingsexpert-en-riktig-skitsits-for-v)
+SvD Ledare · 2026-11-06 · Joel Dahlberg
 
-SD släpper sitt krav på ministerposter och är berett att tolerera M-ledaren Ulf Kristersson som…
+Sverigedemokraternas svängning i regeringsfrågan sätter Vänsterpartiet i en svår sits.
 
 ## Rapportering
 
-### [Maud Olofsson tror inte på Åkessons lösning: ”Bara en del av fyra år”](https://www.svt.se/nyheter/inrikes/maud-olofsson-tror-inte-pa-akessons-losning-bara-en-del-av-fyra-ar)
-SVT Nyheter · 2026-11-06 · Kristoffer Törnmalm
+### [Statsvetare: Fortsatt oklart om nästa regering](https://www.sverigesradio.se/artikel/9336463)
+Ekot, Sveriges Radio · 2026-11-07 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Jimmie Åkesson lägger sig platt i regeringsfrågan – SD släpper fram en M-ledd regering utan krav på att de själva ska ingå. Men tidigare centerledaren Maud Olofsson är skeptisk till en sådan lösning. – Det är bara en del av fyra år, sedan ska man trycka gult på en budget, säger hon och nämner flera andra möjliga falluckor.
+Fredagens besked i regeringsbildningen tolkas av statsvetare främst som försök från partierna att visa ansvar, medan läget om nästa regering fortfarande är oklart. ”Mandatfördelningen är som den är, de röda linjerna är mestadels oförändrade”, säger Anders Sundell, statsvetare vid Göteborgs universitet. Sverigedemokraterna har släppt kravet på ministerposter och nu har moderatledaren Ulf Kristersson fått förlängd sonderingstid.
 
-### [Analys: ”Tveksamt om SD:s besked räcker för Centerpartiet”](https://www.svt.se/nyheter/inrikes/tveksamt-om-sds-besked-racker-for-centerpartiet) **[kommentator]**
-SVT Nyheter · 2026-11-06 · Elisabeth Marmorstein
+### [Kristersson får förlängd sondering – efter nya besked från SD och C](https://www.svt.se/nyheter/inrikes/kristersson-far-forlangd-sondering-efter-nya-besked-fran-sd-och-c)
+SVT Nyheter · 2026-11-06 · Julia Selin
 
-Jimmie Åkessons helomvändning gör det svårare för Centerpartiet att säga nej till Ulf Kristersson SD stod inför ett val – antingen konkurrera med M , KD och L i opposition mot en rödgrön regering. Eller bli det enda oppositionspartiet till höger. Nu hänger Ulf Kristerssons möjligheter att fortsätta som statsminister helt på Centerpartiet.
+Ulf Kristerssons sonderingsuppdrag förlängs med ytterligare några dagar. Detta efter att Sverigedemokraterna släpper sina krav på ministerposter – och Centerpartiet kräver politiska ”totalpaket” från statsministerkandidaterna. – Nu kan vi fokusera på sakfrågor, säger M-ledaren vid en pressträff på fredagseftermiddagen.
 
-### [Reportern: Det kan SD:s besked om regeringsfrågan handla om](https://www.svt.se/nyheter/inrikes/reportern-det-kan-sds-besked-om-regeringsfragan-handla-om)
-SVT Nyheter · 2026-11-06 · Gustav Motte
+### [Chock i Centerpartiet efter Åkessons besked](https://www.svt.se/nyheter/inrikes/chock-i-centerpartiet-efter-akessons-besked)
+SVT Nyheter · 2026-11-06 · Daniel Ingmo, Julia Lindvall
 
-Sverigedemokraterna ska ge besked om regeringsfrågan klockan 12.30 på fredagen. Det kan handla om att partiet omprövar kravet på ministerposter, enligt Expressens politikreporter Anette Holmqvist. – Det är väl troligt att det kan komma någon sådan typ av besked i dag, säger hon i SVT:s Morgonstudion.
+Flera centerpartister är ”chockade” efter Jimmie Åkessons (SD) nya besked i regeringsfrågan, enligt SVT:s källor. Samtidigt är budskapet från både S och V att ingenting har förändrats. Nu förbereder sig C på hur man ska svara.
 
-### [Jimmie Åkesson (SD): ”Vi måste navigera i den verklighet vi har”](https://www.sverigesradio.se/artikel/9336054)
+### [Runt 30 dödade vid attack mot marknad i Jemen](https://www.sverigesradio.se/artikel/9336424)
 Ekot, Sveriges Radio · 2026-11-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sverigedemokraternas partiledare Jimmie Åkesson gav besked under fredagen att partiet kommer gå i opposition, släppa ministerkravet och ”trycka avstå” vid en statsministeromröstning på Ulf Kristersson. SD-ledaren förklarar fredagens besked att det var en möjlighet för han att dyrka upp låsningar under Ulf Kristerssons (M) sondering i regeringsbildningen. ”Vi måste navigera i den verklighet vi har och väljarna vill inte ha Sverigedemokraterna i regering, även om det inte skilde många röster för en sådan majoritet”, säger Åkesson (SD).
+I Jemen har runt 30 personer dödats vid flygattacker mot en marknad i sydvästra delarna av landet, skriver nyhetsbyrån AFP. Huthirebellerna anklagar den saudiledda koalitionen för angreppet, men jemenitiska regeringsstyrkor hävdar att huthierna avfyrade en ballistisk robot mot marknaden. Det är en av de dödligaste attackerna hittills sen striderna flammade upp igen mellan huthirebellerna och saudistödda regeringsstyrkor i Jemen.
 
-### [Helena Gissén om Åkessons (SD) besked: ”Absolut en skräll”](https://www.sverigesradio.se/artikel/9336034)
+### [Fredrik Furtenbach: Spelet mellan partierna går på högvarv](https://www.sverigesradio.se/artikel/9336340) **[kommentator]**
 Ekot, Sveriges Radio · 2026-11-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sverigedemokraterna går i opposition, släpper ministerkravet och kommer ”tolerera” Ulf Kristersson som statsminister i en borgerlig fyrpartiregering. Det sa SD-ledaren Jimmie Åkesson i en pressträff i Sölvesborg under fredagen. ”Det här är hans bidrag till att få slut på den cirkus som han anser råder”, säger Ekots inrikespolitiska kommentator Helena Gissén.
+SD slopar krav på ministerposter, C vill att M och S presenterar ”totalpaket” och Kristersson har begärt förlängt sonderingsuppdrag. Ekots inrikespolitiska kommentator Fredrik Furtenbach reder ut de politiska besked som kommit på fredagen. ”Det rör på sig, en sak är säker och det är att spelet mellan partierna går på högvarv nu. Helhetsintrycket för vad som hänt idag är nog ganska förvirrande för väljarna”.
 
-### [Sverigedemokraterna går i opposition](https://www.sverigesradio.se/artikel/9336006)
+### [Kristersson (M): Lite mindre omöjligt att bilda regering](https://www.sverigesradio.se/artikel/9336329)
 Ekot, Sveriges Radio · 2026-11-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sverigedemokraterna kommer att vara i opposition fram till nästa val och släpper kravet på ministerposter. Det sa Sverigedemokraternas partiledare Jimmie Åkesson på pressträffen i Sölvesborg under fredagen. SD-ledaren säger även att partiet är beredda att ”tolerera” Ulf Kristersson (M) som statsminister genom att avstå i statsministeromröstning.
+Efter Sverigedemokraternas och Centerpartiets besked under fredagen höll Moderaternas partiledare Ulf Kristersson pressträff. Kristersson säger att uppgiften att bilda regering nu är ”lite mindre omöjlig”. Samtidigt berättar M-ledaren att han bett om mer tid från talmannen att sondera.
 
-### [SD redo gå i full opposition: ”You're on your own”](https://www.dn.se/sverige/sd-redo-ga-i-full-opposition-you-re-on-your-own)
-DN Nyheter · 2026-11-06 · Evelyn Jones, Pia Gripenberg, Hanna Grosshög
+### [C kräver totalpaket från Andersson (S) och Kristersson (M)](https://www.sverigesradio.se/artikel/9336287)
+Ekot, Sveriges Radio · 2026-11-06 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-SD är berett att gå i full opposition – men tolerera Kristersson som statsminister med en fyrpartiregering utan några motkrav på ministerposter eller politik. – Har vi minsta möjlighet att kunna välja vilken regering vi ska vara opposition mot tycker jag det är rimligt att vi gör ett försök, säger Åkesson på en pressträff.
+Efter Sverigedemokraternas besked att partiet släpper kravet om ministerposter för att släppa fram en regering, höll Centerpartiets ledare Elisabeth Thand Ringqvist pressträff. ”Centerpartiet vill nu att både Magdalena Andersson och Ulf Kristersson presenterar var sitt totalpaket för hur de vill styra Sverige. Vi vill ha förslagen nästa fredag.” Det var Thand Ringqvists besked på pressträffen.
 
-## Officiella besked
+### [Centerpartiet vill se totalpaket från både S och M](https://www.dn.se/sverige/centerpartiet-vill-se-totalpaket-fran-bade-s-och-m)
+DN Nyheter · 2026-11-06 · Ida Palm Ekspong, Hans Olsson, Thomas Karlsson
 
-### [Statsministern och klimatministern stod värd för lunchsamtal inför COP31](https://www.regeringen.se/artiklar/2026/11/statsministern-och-klimatministern-stod-vard-for-lunchsamtal-infor-cop31)
-Regeringen.se · 2026-11-06 · Regeringskansliet
+Centerpartiet ger M och S en vecka att lägga fram ”totalpaket” för hur de vill styra Sverige. Beskedet kommer efter att SD slopat kravet på ministerposter. Talmannen ger Ulf Kristersson ytterligare tid för att försöka bilda regering. – Båda beskeden kommer göra det lite mindre omöjligt att få en bra regering för Sverige, säger Kristersson.
 
-Onsdagen den 4 november samlades de svenska företag som deltar i FN:s klimatkonferens COP31 på inbjudan av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari. Syftet med lunchen var att lyfta fram svenska prioriteringar och lägga grund för ett starkt svenskt näringslivsengagemang vid COP31.
-
-_Genererat 2026-11-06T14:02:39.515563+00:00._
+_Genererat 2026-11-07T06:02:49.659349+00:00._
