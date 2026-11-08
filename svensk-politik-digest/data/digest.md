@@ -1,17 +1,19 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-07
+# Svensk politik och regeringsförhandlingarna — 2026-11-08
 
-2 nya poster sedan förra utskicket (52 redan utskickade, 143 utanför ämnet).
+2 nya poster sedan förra utskicket (44 redan utskickade, 151 utanför ämnet).
+
+## Analys och kommentar
+
+### [C:s vägval: ”Blindtarm eller kungamakare?”](https://www.svd.se/a/BrJEJe/statsvetare-sd-s-besked-kan-luckra-upp-lasta-laget)
+SvD Ledare · 2026-11-07 · William Hernvall
+
+SD:s besked i regeringsfrågan ”förändrar ingenting”, enligt S. Men statsvetare som SvD pratat med…
 
 ## Rapportering
 
-### [SD kan spela åt båda håll i opposition: ”Kan slita C itu”](https://www.sverigesradio.se/artikel/9336585)
+### [C i Jämtland: Underlättar inte regeringsbildningen](https://www.sverigesradio.se/artikel/9336637)
 Ekot, Sveriges Radio · 2026-11-07 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Det kommer reaktioner på gårdagens politiska utspel där Sverigedemokraterna backade från krav på ministerposter. ”Trots att man egentligen är en förutsättning för den här borgerliga regeringen så har man också med borgerlighetens godkännande gjort sig till opposition och kan spela åt båda håll” säger Carl Eos på konservativa tankesmedjan Oikos. Gustaf Lindskog, centerpartistisk ledarskribent på Östersundsposten, tycker att Centerpartiet ska välja det regeringsalternativ som ger mest sakpolitiska eftergifter.
+Att Sverigedemokraterna nu har släppt sitt krav på ministerposter i en möjlig högerregering och går i opposition, förändrar inte Centerpartiets inställning till SD och underlättar inte försöken att bilda regering, enligt Centerns distriktsordförande i Jämtland, Effie Kourlos . ”Att ge SD en sådan vågmästarroll är inte förenligt med det som vi i Centerpartiet gick till val på”, säger hon. Samtidigt fräser socialdemokrater och vänsterpartister åt varandra på sociala medier.
 
-### [Bildt: Mellanårsvalen kan ändra USA:s Ukrainapolitik](https://www.sverigesradio.se/artikel/9335477)
-Ekot, Sveriges Radio · 2026-11-07 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Valresultatet i de amerikanska mellanårsvalen, som nu gör att Demokraterna kontrollerar båda kamrarna i kongressen, kan komma att leda till en förändrad Ukrainapolitik från amerikanskt håll. Den bedömningen gör Sveriges tidigare utrikesminister Carl Bildt. Om kongressen tar initiativ till mer stöd till Ukraina skulle det sannolikt leda till en hårdnande maktkamp med Vita huset. Bildt tror även kongressen i högre grad än tidigare kommer kunna tvinga fram transparens i de avtal som president Trump och hans rådgivare förhandlar med Ryssland.
-
-_Genererat 2026-11-07T14:03:00.494281+00:00._
+_Genererat 2026-11-08T06:02:36.709512+00:00._

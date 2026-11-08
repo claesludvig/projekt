@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-07T14:03:00.494281+00:00",
+  "fetched_at": "2026-11-08T06:02:36.709512+00:00",
   "new_count": 2,
   "skipped": {
-    "seen": 52,
-    "offtopic": 143,
+    "seen": 44,
+    "offtopic": 151,
     "old": 13
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,41 +65,43 @@
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9336585",
-      "title": "SD kan spela åt båda håll i opposition: ”Kan slita C itu”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
+      "url": "https://www.svd.se/a/BrJEJe/statsvetare-sd-s-besked-kan-luckra-upp-lasta-laget",
+      "title": "C:s vägval: ”Blindtarm eller kungamakare?”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-11-07",
-      "author": "Ekot",
+      "author": "William Hernvall",
       "commentator": "",
-      "summary": "Det kommer reaktioner på gårdagens politiska utspel där Sverigedemokraterna backade från krav på ministerposter. ”Trots att man egentligen är en förutsättning för den här borgerliga regeringen så har man också med borgerlighetens godkännande gjort sig till opposition och kan spela åt båda håll” säger Carl Eos på konservativa tankesmedjan Oikos. Gustaf Lindskog, centerpartistisk ledarskribent på Östersundsposten, tycker att Centerpartiet ska välja det regeringsalternativ som ger mest sakpolitiska eftergifter.",
-      "fulltext": "",
+      "summary": "SD:s besked i regeringsfrågan ”förändrar ingenting”, enligt S. Men statsvetare som SvD pratat med…",
+      "fulltext": "SD:s besked i regeringsfrågan ”förändrar ingenting”, enligt S. Men statsvetare som SvD pratat med menar att det låsta läget kan börja luckras upp när den första röda linjen suddats ut. ”C får välja mellan att vara kungamakare eller blindtarm.”\nJimmie Åkesson blev först med att stryka ett ultimatum.\nPå en pressträff i Sölvesborg på fredagen meddelade SD-ledaren att partiet släpper alla krav på ministerposter eller formella samarbeten, men ändå kan tolerera en högerregering bestående av de gamla allianspartierna.\nFörhandlingsexpert: ”En riktig skitsits för V”",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336585'",
+      "fetch_error": "",
       "matched_terms": [
-        "regeringsalternativ",
-        "ministerpost",
-        "Centerpartiet",
-        "Sverigedemokraterna"
+        "regeringsfråg"
       ],
-      "first_seen": "2026-11-07T14:03:00.494281+00:00"
+      "first_seen": "2026-11-08T06:02:36.709512+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9335477",
-      "title": "Bildt: Mellanårsvalen kan ändra USA:s Ukrainapolitik",
+      "url": "https://www.sverigesradio.se/artikel/9336637",
+      "title": "C i Jämtland: Underlättar inte regeringsbildningen",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-07",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Valresultatet i de amerikanska mellanårsvalen, som nu gör att Demokraterna kontrollerar båda kamrarna i kongressen, kan komma att leda till en förändrad Ukrainapolitik från amerikanskt håll. Den bedömningen gör Sveriges tidigare utrikesminister Carl Bildt. Om kongressen tar initiativ till mer stöd till Ukraina skulle det sannolikt leda till en hårdnande maktkamp med Vita huset. Bildt tror även kongressen i högre grad än tidigare kommer kunna tvinga fram transparens i de avtal som president Trump och hans rådgivare förhandlar med Ryssland.",
+      "summary": "Att Sverigedemokraterna nu har släppt sitt krav på ministerposter i en möjlig högerregering och går i opposition, förändrar inte Centerpartiets inställning till SD och underlättar inte försöken att bilda regering, enligt Centerns distriktsordförande i Jämtland, Effie Kourlos . ”Att ge SD en sådan vågmästarroll är inte förenligt med det som vi i Centerpartiet gick till val på”, säger hon. Samtidigt fräser socialdemokrater och vänsterpartister åt varandra på sociala medier.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9335477'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336637'",
       "matched_terms": [
-        "valresultat"
+        "regeringsbildning",
+        "ministerpost",
+        "vågmästar",
+        "Centerpartiet",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-07T14:03:00.494281+00:00"
+      "first_seen": "2026-11-08T06:02:36.709512+00:00"
     }
   ]
 }
