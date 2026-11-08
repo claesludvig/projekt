@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-08T06:02:36.709512+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-11-08T14:02:24.387884+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 44,
-    "offtopic": 151,
-    "old": 13
+    "seen": 41,
+    "offtopic": 155,
+    "old": 10
   },
-  "fetch_errors": 1,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,43 +65,80 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/BrJEJe/statsvetare-sd-s-besked-kan-luckra-upp-lasta-laget",
-      "title": "C:s vägval: ”Blindtarm eller kungamakare?”",
+      "url": "https://www.svd.se/a/53V4Kz/magdalena-anderssons-helomvanding-om-samarbeten",
+      "title": "Anderssons tal var bara tomt prat",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-11-07",
-      "author": "William Hernvall",
+      "published": "2026-11-08",
+      "author": "Henrik Torehammar",
       "commentator": "",
-      "summary": "SD:s besked i regeringsfrågan ”förändrar ingenting”, enligt S. Men statsvetare som SvD pratat med…",
-      "fulltext": "SD:s besked i regeringsfrågan ”förändrar ingenting”, enligt S. Men statsvetare som SvD pratat med menar att det låsta läget kan börja luckras upp när den första röda linjen suddats ut. ”C får välja mellan att vara kungamakare eller blindtarm.”\nJimmie Åkesson blev först med att stryka ett ultimatum.\nPå en pressträff i Sölvesborg på fredagen meddelade SD-ledaren att partiet släpper alla krav på ministerposter eller formella samarbeten, men ändå kan tolerera en högerregering bestående av de gamla allianspartierna.\nFörhandlingsexpert: ”En riktig skitsits för V”",
+      "summary": "När statsministerposten är hotad visar Magdalena Andersson tänderna mot C.",
+      "fulltext": "När statsministerposten är hotad visar Magdalena Andersson tänderna mot C. Nu är valrörelsens tal om samarbete högerut plötsligt otänkbart.\nJ immie Åkesson river röda linjer. Magdalena Andersson reser dem. Partiledaren som ägnade en hel valrörelse åt att prata om breda uppgörelser har nu meddelat att det är absolut omöjligt att samarbeta högerut.\n”Vi skulle gå i full opposition mot en Tidö 2-regering och inte medverka i några förhandlingar med en sådan regeringskonstellation. Det kan avskrivas fullständigt”, skriver Socialdemokraternas partiledare på sociala medier.\nMagdalena Andersson: Då går vi i full opposition",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg"
+        "statsminister",
+        "ministerpost"
       ],
-      "first_seen": "2026-11-08T06:02:36.709512+00:00"
+      "first_seen": "2026-11-08T14:02:24.387884+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9336637",
-      "title": "C i Jämtland: Underlättar inte regeringsbildningen",
+      "url": "https://www.svd.se/a/4OnMkq/ai-tar-plats-i-fransk-debatt",
+      "title": "AI tar plats i den politiska debatten",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-08",
+      "author": "Janerik Larsson",
+      "commentator": "",
+      "summary": "AI-genererad desinformation påverkade inte europeiska valresultat.",
+      "fulltext": "Den dåliga ekonomin i både Finland och Frankrike har gjort AI till en akut fråga i politiken. En nyckelfråga är beroendet av amerikanska techföretag.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nB lir riksdagsvalet i Finland i april 2027 det första nationella valet där artificiell intelligens på allvar blir en politisk fråga? Hufvudstadsbladet har spanat om hur landets partier ser på saken. Sammanfattningsvis vill flera partier bromsa och reglera medan andra partier talar om vikten av att riva hinder så Finland hänger med i svängarna.\nDet går för långsamt, tycker Samlingspartiets riksdagsledamot Martin Paasi: ”Det bästa skyddet mot AI är att omfamna AI.” Han vill se lagändringar redan i början av nästa valperiod för att få fart på AI i den offentliga sektorn, bland annat inom vården. Enligt Paasi kan AI redan förbättra samhällsservicen så mycket att det är etiskt fel att inte utnyttja möjligheten.\n”Om offentliga sektorn lyckas ta AI i bruk är det medborgarna som vinner på det.” Han menar att Finland måste inta en mer proaktiv roll för att omställningen ska ta fart. Juridiska hinder kring automatiserad rådgivning och mänskligt ansvar måste bort. Oron för massarbetslöshet är helt befogad, säger däremot S-riksdagsledamoten Timo Harakka. ”Man kan inte kräva att folk automatiserar sig själva till arbetslöshet.”\nDebatten om hur Finland ska hantera AI förs i skuggan av landets betydande ekonomiska bekymmer. Inför det franska presidentvalet våren 2027 har det redan hållits tv-sänd debatt om AI. Flera av de främsta kandidaterna valde dock att inte delta.\nLiksom i Finland bidrar den usla ekonomin i Frankrike till att AI-frågan akut även där. Men i den franska debatten finns också andra perspektiv. En nyckelfråga är om Frankrike kan acceptera ett långvarigt beroende av amerikanska AI-företag. Två av de mer namnkunniga kandidaterna – Gabriel Attal och Édouard Philippe – betonar behovet av att bygga upp landets egen AI-kapacitet.\nMellanårsvalet blev ett bakslag för de republikanska kandidater som fått ekonomiskt stort stöd från techföretagen\nAI kan också tvinga fram en diskussion om frågor som den traditionella politiken inte har något självklart svar på, till exempel hur produktivitetsvinsterna ska fördelas. Men också om hur välfärdsstaten ska finansieras om arbetet förändras, vilket ansvar staten har för människor vars yrken omvandlas, och hur mycket politikerna bör reglera en teknologi som samtidigt kan vara avgörande för landets framtida konkurrenskraft. Det är frågeställningar som kan engagera väljare långt utanför den krets som redan intresserar sig för AI.\nI USA har de mest påtagliga frågorna med koppling till AI handlat om den snabba utbyggnaden av datacenter. Intensitet i debatten har liknat den som åtminstone inledningsvis präglade den om landbaserad vindkraft. Mellanårsvalet blev ett bakslag för de republikanska kandidater som fått ekonomiskt stort stöd från techföretagen och det kan få effekter på kongressens arbete med dessa frågor inför presidentvalet om två år. Utbyggnadsfrågor har en annan närhet och relevans jämfört med de svåröverskådliga frågeställningarna kring hur AI kan komma att påverka medborgarnas liv på sikt.\nKommer AI att användas för att påverka den politiska debatten? Brittiska Turinginstitutet har undersökt valen i Storbritannien, Frankrike och EU sommaren 2024: AI-genererad desinformation och deep fakes påverkade inte valresultaten på något avgörande sätt. Forskarna hittade bara 16 bekräftade virala fall under det brittiska valet och sammanlagt elva under de franska och EU-valen\nKlart är att AI kommer förändra politiken oavsett om den påverkar valresultat. Om inte annat lär många väljare kräva att de har något att säga till om när tekniken förändrar deras liv.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "valresultat"
+      ],
+      "first_seen": "2026-11-08T14:02:24.387884+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336754",
+      "title": "S stänger tänker inte förhandla med ”Tidö 2”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-07",
+      "published": "2026-11-08",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Att Sverigedemokraterna nu har släppt sitt krav på ministerposter i en möjlig högerregering och går i opposition, förändrar inte Centerpartiets inställning till SD och underlättar inte försöken att bilda regering, enligt Centerns distriktsordförande i Jämtland, Effie Kourlos . ”Att ge SD en sådan vågmästarroll är inte förenligt med det som vi i Centerpartiet gick till val på”, säger hon. Samtidigt fräser socialdemokrater och vänsterpartister åt varandra på sociala medier.",
+      "summary": "Magdalena Andersson säger att Socialdemokraterna varken vill samarbeta eller förhandla med en regering där M, L, KD och C styr med stöd av Sverigedemokraterna. Beskedet kommer när regeringsfrågan fortfarande är öppen och Centerpartiet för samtal med både Socialdemokraterna och Moderaterna. Enligt Ekots politikreporter är utspelet främst en press mot Centerpartiet, samtidigt som han betonar att förhandlingarna långtifrån är över.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336637'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336754'",
       "matched_terms": [
-        "regeringsbildning",
-        "ministerpost",
-        "vågmästar",
+        "regeringsfråg",
         "Centerpartiet",
-        "Sverigedemokraterna",
-        "Vänsterpartiet"
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Sverigedemokraterna"
       ],
-      "first_seen": "2026-11-08T06:02:36.709512+00:00"
+      "first_seen": "2026-11-08T14:02:24.387884+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336747",
+      "title": "Andersson: Går i full opposition till en Tidö 2-regering",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraternas Magdalena Andersson kommenterar nu de pågående förhandlingarna, efter de tre presskonferenser som hölls i fredags av Sverigedemokraterna, Centerpartiet och Moderaterna. ”En högerregering vars hela existens förutsätter Sverigedemokraternas stöd skulle i praktiken vara en Tidö 2-regering och bryta mot Centerpartiets viktigaste vallöfte, nämligen att inte stödja eller ingå i en regering som är beroende av Sverigedemokraterna” skriver Magdalena Andersson på Instagram. Hon skriver också att Socialdemokraterna skulle gå i full opposition till en ”Tidö 2-regering” och inte medverka i några förhandlingar.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9336747'",
+      "matched_terms": [
+        "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-08T14:02:24.387884+00:00"
     }
   ]
 }
