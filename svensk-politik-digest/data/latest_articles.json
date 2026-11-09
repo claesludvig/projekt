@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-11-08T14:02:24.387884+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-11-09T06:06:05.243556+00:00",
+  "new_count": 16,
   "skipped": {
-    "seen": 41,
-    "offtopic": 155,
-    "old": 10
+    "seen": 34,
+    "offtopic": 147,
+    "old": 13
   },
-  "fetch_errors": 2,
+  "fetch_errors": 7,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 7,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Ledare",
       "feed": "https://www.dn.se/ledare/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 3,
       "ok": true
     },
     {
@@ -65,80 +65,310 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/53V4Kz/magdalena-anderssons-helomvanding-om-samarbeten",
-      "title": "Anderssons tal var bara tomt prat",
+      "url": "https://www.svd.se/a/kMaraL/merz-pekar-ut-presidentkandidat",
+      "title": "Merz pekar ut presidentkandidat",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-09",
+      "author": "TT-AFP",
+      "commentator": "",
+      "summary": "Tysklands förbundskansler Friedrich Merz avser att nominera Ilse Aigner, talman i Bayerns…",
+      "fulltext": "Tysklands förbundskansler Friedrich Merz avser att nominera Ilse Aigner, talman i Bayerns delstatsparlament, till landets nästa president år 2027, uppgav han sent på söndagen.\nPresidenten utses av förbundsförsamlingen – med ledamöter från förbundsdagen och delstaterna – och skulle Aigner samla tillräckligt stöd blir hon den första kvinnan på ämbetet, som till stor del är ceremoniell.\nIlse Aigner tillhör CSU, systerparti till Merz CDU.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/pressen-okar-pa-andersson-s-da-kan-hon-tvingas-avga",
+      "title": "Pressen ökar på Andersson (S) – då kan hon tvingas avgå",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-09",
+      "author": "Julia Wide",
+      "commentator": "",
+      "summary": "Det börjar bli bråttom för Magdalena Andersson. Två månader och två statsministeromröstningar senare finns fortfarande ingen ny regering i sikte. Nu växer irritationen inom partiet, enligt källor till SVT.",
+      "fulltext": "Det börjar bli bråttom för Magdalena Andersson.\nTvå månader och två statsministeromröstningar senare finns fortfarande ingen ny regering i sikte.\nNu växer irritationen inom partiet, enligt källor till SVT.\nMycket står på spel för S-ledaren efter förra veckans besked.\nSverigedemokraternas beslut att släppa kravet på ministerposter och gå i opposition förändrar spelplanen för regeringsbildningen, då möjligheten för Ulf Kristersson (M) att locka över Centerpartiet ökar. Och efter två av fyra voteringar i riksdagen står C:s och V:s röda linjer fortfarande fast.\n– Om man nu skulle gå till extraval hade självfallet de rödgröna partierna inklusive Socialdemokraterna blivit straffade av väljarna, för att man anser att 'ni lyckades inte lösa det här, varför ska vi rösta på er igen', säger Jenny Madestam, forskare i statsvetenskap.\n”Aldrig varit särskilt bra som partiledare”\nUnder valrörelsen 2022 var den relativt nyvalda partiledaren Magdalena Andersson Socialdemokraternas starkaste kort. Trots förlusten då tycks strategin varit densamma i år.\n– Man kan inte bara ha ett starkt politiskt ledarskap och en partiledare som haft ett högt förtroende, man måste också ha en berättelse som talar om vilka partiet är , i dag och i framtiden, säger Jenny Madestam.\nGöran Greider, chefredaktör för oberoende socialdemokratiska Dalademokraten och vänsterdebattör, håller med om att partiet behöver en ledare som kan formulera sig ideologiskt – särskilt i ett allt mer polariserat samhälle.\n– Jag har aldrig tyckt att hon varit särskilt bra som partiledare. Hon är nämligen ingen idépolitiker överhuvudtaget.\nSocialdemokraternas historiskt dåliga valresultat och oförmågan att få ihop en regering har fått förtroendet för Magdalena Andersson att rasa . Enligt flera källor till SVT växer också missnöjet inom partiet.\n– Många känner Andersson som en ganska bestämd politisk ledare. Det ryktas också ibland om att hon har ett sämre tålamod och vill se resultat snabbt. De egenskaperna kanske inte är de bästa om man ska gå in i en förhandling som många gånger kräver just uthållighet, säger Jenny Madestam.\nHon har länge studerat Socialdemokraternas maktstrukturer, och enligt henne brukar partiet sluta upp bakom sin ledare så länge statsministerposten fortfarande är inom räckhåll.\n– Men om hon misslyckas med det här kommer partiet att börja dra öronen åt sig. Avgångskrav är inte helt otänkbart.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336923",
+      "title": "V om S regeringsbesked: Omöjligt upplägg",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-09",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraterna meddelade under söndagen att de vill bilda regering utan Vänsterpartiet. Ett omöjligt upplägg, enligt Vänsterpartiets vice partiledare Ida Gabrielsson. ”När man väl har öppnat den dörren, att man kan gå över till Sverigedemokraterna, då finns det ju ingen hejd på hur mycket man kan utpressa av sin högerpolitik”, säger Gabrielsson.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336923'",
+      "matched_terms": [
+        "partiledar",
+        "Socialdemokraterna",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/varfor-tog-det-sa-lang-tid-magdalena-andersson",
+      "title": "Ledare: Varför tog det så lång tid, Magdalena Andersson?",
+      "source": "DN Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-09",
+      "author": "DN:s ledarredaktion",
+      "commentator": "",
+      "summary": "Vänsterpartisterna gömmer sig bakom låtsasargument när de stakar ut sina ultimativa krav på ministerposter.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-09 07:06\nArtikelns ursprungsadress: https://www.dn.se/ledare/varfor-tog-det-sa-lang-tid-magdalena-andersson/\nVänsterpartisterna gömmer sig bakom låtsasargument när de stakar ut sina ultimativa krav på ministerposter.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nPå söndagen rev Magdalena Andersson till slut av plåstret. Hon vill bilda regering med Centerpartiet och Miljöpartiet. Vänsterpartiet får inga ministerposter.\nVarför tog det så lång tid att få ur sig det?\nFör det är inte direkt så att V påbörjat den långa ”resan” Andersson var så tydlig med i valrörelsen att partiet hade kvar att göra. I stället har nya bevis om att Nooshi Dadgostar inte har koll på sina kandidater i alltifrån riksdagen till kommunalrådsposten i Sveriges tredje största stad rullats ut.\nÄndå hade inte S-ledaren några egna invändningar mot vänsterpartisterna. Hon verkade inställd på att släppa in dem i regeringen. Däremot har hon insett att Centern inte kommer att göra det.\nVänsterpartiet gick direkt och förväntat i taket. Vice ordförande Ida Gabrielsson upprepade omgående kravet på ministerposter. Hon förklarade vidare att om V ger sig nu kommer partiet att tvingas acceptera en massa ”högerpolitik” och i praktiken ett nytt januariavtal.\nRiksdagsledamoten Håkan Svenneling (V) jublade över att Centerpartiet snart kommer att falla mot fyraprocentspärren om man inte accepterar V i regeringen. Samtidigt upprepade Gabrielsson att Vänstern har kongressbeslut på sitt ultimativa krav. Partiledningens händer är bundna.\nOch nej, det var väl inte så överraskande. Hårt fastnitade positioner ändras inte på en söndagseftermiddag.\nMen det är hög tid för vänsterpartisterna att förhålla sig till verkligheten så som den ser ut.\nFör det första: Det är – tyvärr – inget januariavtal som står på agendan. Då krävdes V:s mandat i statsministeromröstningen, men partiet ingick inte i regeringsunderlaget. Det skulle V göra den här gången.\nFör det andra: Av just det skälet kommer sakpolitiken luta mer åt vänster än 2019. Den gången var marknadshyror och liberaliserad arbetsrätt de stora reformerna. Den här gången skulle det sannolikt handla om ett avskaffat karensavdrag.\nCentern är benhårda motståndare mot det, men har också öppnat för att diskutera saken givet att företagarna kompenseras på andra sätt.\nVäljarkalkylen är så klart osäker för alla inblandade. Troligen minskar både C och V vid ett extra val – mest sannolikt vinner Tidögänget en majoritet.\nIdén om att de rödgröna i valet 2030 skulle kunna nå 50 procent om Centern puttas över till Ulf Kristersson nu framstår däremot som en hallucination.\nS, MP och V samlar knappt 43 procent av väljarna. Visst går det att föreställa sig att ett par procentenheter C-sympatisörer som inte vill ha SD-inflytande tar steget till S eller MP. Men då är man fortfarande bara på 45. Och ett tydligt vänsterlag kommer också att skrämma en hel del.\nDet finns mittenväljare som verkligen inte gillar SD:s högernationalism – men väldigt många ogillar också skarpt Nooshi Dadgostars vänsterpopulism.\nVänsterpartiets kongressbeslut är i sin tur ett ovanligt litet fikonlöv. Det är sant att det antogs utan protester. Men det är också sant att det inte handlade om något gräsrotskrav. Det var partiledningen som ville ha det klubbat för att framstå som tuffare i förhandlingarna.\nOm Dadgostar kommer tillbaka med tjänstemän i regeringskansliet och en överenskommelse som sätter stopp för utvisningspolitiken, slår fast en ambitiös klimatpolitik och avskaffar karensavdraget – då kommer medlemmarna knappast att protestera.\nVad de gör om Dadgostar driver fram ett Tidö 2.0 är mer osäkert.\nFör de två alternativen för V är inte ministerkrav eller januariavtal , utan Magdalena Andersson som statsminister med V som del av regeringsunderlaget – eller en ökenvandring för svensk vänster.\nDN:s ledarredaktion: Åkessons intervention säger mycket – inte minst om borgerligheten\nSusanne Nyström: Vänsterpartiets usla försvar håller inte\n\"Läskigt när privata bråk blir offentliga\"\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSusanne Nyström: Vänsterpartiets usla försvar håller inte\nLedare: Åkessons intervention säger mycket – inte minst om borgerligheten\nAmanda Sokolnicki: Dadgostar vägrar ta ansvar – beskriver misstänkta fusket som ”få röster”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/1vPP7e/nya-glosor-i-svensk-politik",
+      "title": "Bus eller utpressning?",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-08",
       "author": "Henrik Torehammar",
       "commentator": "",
-      "summary": "När statsministerposten är hotad visar Magdalena Andersson tänderna mot C.",
-      "fulltext": "När statsministerposten är hotad visar Magdalena Andersson tänderna mot C. Nu är valrörelsens tal om samarbete högerut plötsligt otänkbart.\nJ immie Åkesson river röda linjer. Magdalena Andersson reser dem. Partiledaren som ägnade en hel valrörelse åt att prata om breda uppgörelser har nu meddelat att det är absolut omöjligt att samarbeta högerut.\n”Vi skulle gå i full opposition mot en Tidö 2-regering och inte medverka i några förhandlingar med en sådan regeringskonstellation. Det kan avskrivas fullständigt”, skriver Socialdemokraternas partiledare på sociala medier.\nMagdalena Andersson: Då går vi i full opposition",
+      "summary": "Äntligen rör det på sig i regeringsbildningen. Och i skuggan av själva huvudfrågan händer de mest…",
+      "fulltext": "Äntligen rör det på sig i regeringsbildningen. Och i skuggan av själva huvudfrågan händer de mest oväntade saker. Nyskilda sverigedemokrater, julvärdsbesvikelse och porrfilms-sossar – här är nya glosorna i svensk politik.\nElisabeth Thand Ringqvist lyckades sticka ut ibland helgens pressträffar med sitt krav på ”totalpaket” från både S och M. Nu var det en kombo, att regeringsbildarna in spe både skulle tydliggöra det politiska erbjudandet och förklara hur de skulle genomföra det - utan att överträda C:s röda linjer mot vare sig V eller SD. Ett totalpaket lyckas i sin konsultsvenskhet vara otippat fantasieggande. När Ida Gabrielsson sa ordet i söndagens Agenda lät det som hon såg det som en hemsk utpressning. När partisekreteraren Hannes Hervieu beskrev det fanns en busig underton: vad man vill göra, med vem, och hur. Eller så gäller ETC-journalisten Laura Ingemarssons tolkning – en dryckesspecial man festar loss på. På söndagen var Andersson först ute med sitt totalpaket: hon erbjuder C företagande, klimat och går med på att utestänga V från ministerposter.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "statsminister",
-        "ministerpost"
+        "regeringsbildning"
       ],
-      "first_seen": "2026-11-08T14:02:24.387884+00:00"
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
     },
     {
-      "url": "https://www.svd.se/a/4OnMkq/ai-tar-plats-i-fransk-debatt",
-      "title": "AI tar plats i den politiska debatten",
+      "url": "https://www.svd.se/a/XowQax/s-vill-regera-med-mp-och-c",
+      "title": "S vill regera med MP och C",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-08",
-      "author": "Janerik Larsson",
+      "author": "Karin Thurfjell",
       "commentator": "",
-      "summary": "AI-genererad desinformation påverkade inte europeiska valresultat.",
-      "fulltext": "Den dåliga ekonomin i både Finland och Frankrike har gjort AI till en akut fråga i politiken. En nyckelfråga är beroendet av amerikanska techföretag.\nDet här är en text från SvD Ledare. Ledarredaktionen är partipolitiskt oavhängig med beteckningen obunden moderat.\nB lir riksdagsvalet i Finland i april 2027 det första nationella valet där artificiell intelligens på allvar blir en politisk fråga? Hufvudstadsbladet har spanat om hur landets partier ser på saken. Sammanfattningsvis vill flera partier bromsa och reglera medan andra partier talar om vikten av att riva hinder så Finland hänger med i svängarna.\nDet går för långsamt, tycker Samlingspartiets riksdagsledamot Martin Paasi: ”Det bästa skyddet mot AI är att omfamna AI.” Han vill se lagändringar redan i början av nästa valperiod för att få fart på AI i den offentliga sektorn, bland annat inom vården. Enligt Paasi kan AI redan förbättra samhällsservicen så mycket att det är etiskt fel att inte utnyttja möjligheten.\n”Om offentliga sektorn lyckas ta AI i bruk är det medborgarna som vinner på det.” Han menar att Finland måste inta en mer proaktiv roll för att omställningen ska ta fart. Juridiska hinder kring automatiserad rådgivning och mänskligt ansvar måste bort. Oron för massarbetslöshet är helt befogad, säger däremot S-riksdagsledamoten Timo Harakka. ”Man kan inte kräva att folk automatiserar sig själva till arbetslöshet.”\nDebatten om hur Finland ska hantera AI förs i skuggan av landets betydande ekonomiska bekymmer. Inför det franska presidentvalet våren 2027 har det redan hållits tv-sänd debatt om AI. Flera av de främsta kandidaterna valde dock att inte delta.\nLiksom i Finland bidrar den usla ekonomin i Frankrike till att AI-frågan akut även där. Men i den franska debatten finns också andra perspektiv. En nyckelfråga är om Frankrike kan acceptera ett långvarigt beroende av amerikanska AI-företag. Två av de mer namnkunniga kandidaterna – Gabriel Attal och Édouard Philippe – betonar behovet av att bygga upp landets egen AI-kapacitet.\nMellanårsvalet blev ett bakslag för de republikanska kandidater som fått ekonomiskt stort stöd från techföretagen\nAI kan också tvinga fram en diskussion om frågor som den traditionella politiken inte har något självklart svar på, till exempel hur produktivitetsvinsterna ska fördelas. Men också om hur välfärdsstaten ska finansieras om arbetet förändras, vilket ansvar staten har för människor vars yrken omvandlas, och hur mycket politikerna bör reglera en teknologi som samtidigt kan vara avgörande för landets framtida konkurrenskraft. Det är frågeställningar som kan engagera väljare långt utanför den krets som redan intresserar sig för AI.\nI USA har de mest påtagliga frågorna med koppling till AI handlat om den snabba utbyggnaden av datacenter. Intensitet i debatten har liknat den som åtminstone inledningsvis präglade den om landbaserad vindkraft. Mellanårsvalet blev ett bakslag för de republikanska kandidater som fått ekonomiskt stort stöd från techföretagen och det kan få effekter på kongressens arbete med dessa frågor inför presidentvalet om två år. Utbyggnadsfrågor har en annan närhet och relevans jämfört med de svåröverskådliga frågeställningarna kring hur AI kan komma att påverka medborgarnas liv på sikt.\nKommer AI att användas för att påverka den politiska debatten? Brittiska Turinginstitutet har undersökt valen i Storbritannien, Frankrike och EU sommaren 2024: AI-genererad desinformation och deep fakes påverkade inte valresultaten på något avgörande sätt. Forskarna hittade bara 16 bekräftade virala fall under det brittiska valet och sammanlagt elva under de franska och EU-valen\nKlart är att AI kommer förändra politiken oavsett om den påverkar valresultat. Om inte annat lär många väljare kräva att de har något att säga till om när tekniken förändrar deras liv.",
+      "summary": "Socialdemokraternas Magdalena Andersson nobbar Vänsterpartiets krav på ministerposter - Hon arbetar…",
+      "fulltext": "Socialdemokraternas Magdalena Andersson nobbar Vänsterpartiets krav på ministerposter - Hon arbetar för en regering med S, C och MP.\nMed en timmes förvarning kallade Socialdemokraterna till pressträff i riksdagen på söndagskvällen. Framför journalisterna berättade Magdalena Andersson om vilken regering hon kommer försöka bilda:\n– Jag vill använda den kommande veckan för att arbeta för en regering som består av Socialdemokrater, Centerpartiet och Miljöpartiet. I nära samarbete med Vänsterpartiet.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "valresultat"
+        "ministerpost",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-08T14:02:24.387884+00:00"
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9336754",
-      "title": "S stänger tänker inte förhandla med ”Tidö 2”",
+      "url": "https://www.svt.se/nyheter/inrikes/fordel-kristersson-eller-extraval",
+      "title": "”Fördel Kristersson eller extraval”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Mats Knutson",
+      "commentator": "Mats Knutson",
+      "summary": "Magdalena Andersson försöker ta tillbaka det politiska initiativet i regeringsbildningen. Men om Vänsterpartiet står fast vid sina ministerkrav kommer det antingen att leda till att Ulf Kristersson blir statsminister eller extraval.",
+      "fulltext": "Magdalena Andersson försöker ta tillbaka det politiska initiativet i regeringsbildningen. Men om Vänsterpartiet står fast vid sina ministerkrav kommer det antingen att leda till att Ulf Kristersson blir statsminister eller extraval.\nSocialdemokraterna har mer och mer hamnat i händerna på Centerpartiet och Vänsterpartiet. Det är de som har oförenliga ståndpunkter och det är de som kommer att avgöra utgången.\nEgentligen gjorde Centerpartiet samma sak 2018, men då var det väldigt tyst om förhandlingsprocessen. Den här gången utspelas mycket inför öppen ridå med ledande politiker som ställer krav och ultimatum.\nSocialdemokraterna försöker nu återta initiativet. Men det är fortsatt fördel Kristersson eller ett extraval, med tanke på Vänsterpartiets besked ikväll.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/andersson-vill-regera-med-c-och-mp-utan-v",
+      "title": "Andersson: Vill regera med C och MP – utan V",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Hedvig Eriksson",
+      "commentator": "",
+      "summary": "Socialdemokraterna vill bilda regering tillsammans med Centerpartiet och Miljöpartiet, med Vänsterpartiet som stödparti. – Vänsterpartiets vilja att sitta regering handlar om att man vill säkerställa sitt inflytande. Det går att genomföra på andra sätt än att man innehar ministerposter, säger partiledare Magdalena Andersson (S) på en pressträff.",
+      "fulltext": "Socialdemokraterna vill bilda regering tillsammans med Centerpartiet och Miljöpartiet, med Vänsterpartiet som stödparti.\n– Vänsterpartiets vilja att sitta regering handlar om att man vill säkerställa sitt inflytande. Det går att genomföra på andra sätt än att man innehar ministerposter, säger partiledare Magdalena Andersson (S) på en pressträff.\nI fredags meddelade Sverigedemokraterna att partiet släpper sitt krav på ministerposter för att stötta en borgerlig regering. Kort därpå gick Centerpartiet ut med ett krav på både S och M att inom en vecka presentera såväl sin sakpolitik som hur de ska få stöd för den.\nPå söndagen presenterade Magdalena Andersson sitt regeringsalternativ – en regering utan Vänsterpartiet.\n– Jag vill den kommande veckan jobba mot en regering bestående av socialdemokrater, Centerpartiet och Miljöpartiet i nära samarbete med Vänsterpartiet för att genomföra den politik svenska folket röstat för, säger hon på en pressträff.\nAndersson säger att hon under dagen haft samtal med alla tre partier. Hon vill inte gå in på vilka reaktioner hon fått.\n– Jag hoppas att Vänsterpartiet tar tid på sig att reflektera kring det här, vad som står på spel för människor i vårt land. Jag hoppas också att Centerpartiet har förståelse för att det kan ta tid.\nMagdalena Andersson säger att hon upplever att Centerpartiets röda linjer mot Vänsterpartiet handlar om ideologi men att Vänsterpartiets krav på ministerposter handlar om att få inflytande – som kan fås på andra sätt.\n– De har uttryckt att de vill sitta i regering för att säkerställa att deras politik blir verklighet och för att deras mandat ska räknas. Det kan man göra på andra sätt än att sitta i regering, säger Magdalena Andersson.\nSom exempel säger hon att V skulle kunna ha tjänstemän i regeringskansliet eller vara delaktiga i beredningsprocesserna.\nCenterpartiets partiledare Elisabeth Thand Ringqvist vill inte kommentera enskilda delar utan vill invänta M och S politiska totalpaket.\n”Det handlar dels om hur ska ni genomföra politiken? Vilka partier ska samarbeta? Hur ska ni få stöd för era reformer i riksdagen? Och hur ska ni begränsa ytterkanternas inflytande?”, skriver hon.\nVice ordförande Ida Gabrielsson (V) skriver i ett inlägg på X att regeringskravet inte går att påverka eftersom det bygger på ett kongressbeslut.\n”S och C vet att V inte kan säga ja till detta, just det här har vi diskuterat de senaste veckorna. Thand Ringqvist öppnar alltså för SD väl medveten om att vi rödgröna inte kan leverera, det kan enbart handla om att hon faktiskt vill byta sida.”\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "stödparti",
+        "partiledar",
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336899",
+      "title": "Ida Gabrielsson (V): ”Otroligt dumt”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-08",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Magdalena Andersson säger att Socialdemokraterna varken vill samarbeta eller förhandla med en regering där M, L, KD och C styr med stöd av Sverigedemokraterna. Beskedet kommer när regeringsfrågan fortfarande är öppen och Centerpartiet för samtal med både Socialdemokraterna och Moderaterna. Enligt Ekots politikreporter är utspelet främst en press mot Centerpartiet, samtidigt som han betonar att förhandlingarna långtifrån är över.",
+      "summary": "Socialdemokraterna vill bilda regering utan Vänsterpartiet, något som Vänsterpartiets vice partiledare Ida Gabrielsson kallar ”otroligt dumt”. Enligt Gabrielsson riskerar upplägget att göra regeringen beroende av Centerpartiet och i förlängningen Sverigedemokraterna, medan Socialdemokraterna står fast vid sitt besked. I Ekots intervju varnar hon för att en öppnad dörr mot SD kan leda till krav och utpressning från högern.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336754'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336899'",
       "matched_terms": [
-        "regeringsfråg",
+        "partiledar",
         "Centerpartiet",
-        "Moderaterna",
         "Socialdemokraterna",
-        "Sverigedemokraterna"
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-08T14:02:24.387884+00:00"
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9336747",
-      "title": "Andersson: Går i full opposition till en Tidö 2-regering",
+      "url": "https://www.sverigesradio.se/artikel/9336882",
+      "title": "Katastrofval för Mandelas gamla parti",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-08",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Socialdemokraternas Magdalena Andersson kommenterar nu de pågående förhandlingarna, efter de tre presskonferenser som hölls i fredags av Sverigedemokraterna, Centerpartiet och Moderaterna. ”En högerregering vars hela existens förutsätter Sverigedemokraternas stöd skulle i praktiken vara en Tidö 2-regering och bryta mot Centerpartiets viktigaste vallöfte, nämligen att inte stödja eller ingå i en regering som är beroende av Sverigedemokraterna” skriver Magdalena Andersson på Instagram. Hon skriver också att Socialdemokraterna skulle gå i full opposition till en ”Tidö 2-regering” och inte medverka i några förhandlingar.",
+      "summary": "Sydafrikas regerande parti ANC, den forna frihetsrörelsen som tidigare leddes av Nelson Mandela, tappar stort i landets lokalval. Ständiga elavbrott och brist på rent vatten pekas ut som orsaker. Enligt Sydafrikas valkommission har partiet fått runt 30 procent av rösterna, ett dramatiskt tapp från de 46 procent man fick i kommunalvalet 2021. I stället har det marknadsliberala partiet Democratic Alliance tagit mark i flera stora städer och landar nu på drygt 24 procent av rösterna. Just nu finns inga stabila majoriteter i Sydafrikas städer och en tid av svåra och utdragna koalitionsförhandlingar lär vänta.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9336747'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336882'",
+      "matched_terms": [
+        "koalition"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336863",
+      "title": "Fredrik Furtenbach: Andersson vill blidka Centern",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Socialdemokraterna vill bilda regering med MP och C, utan V men i nära samarbete med V, det meddelar S-ledaren Magdalena Andersson. Beskedet som kommer på en snabbt inkallad pressträff en söndagskväll är ett tydligt tecken på nervositet hos Socialdemokraterna, enligt Ekots inrikespolitiska kommentator Fredrik Furtenbach. ”Jag tolkar det som att Andersson vill blidka Centern helt enkelt, både Vänsterpartiet och Centerpartiet har velat ha besked om vilken regering som Magdalena Andersson tänker sig och C har till och med formellt krävt svar senast på fredag”, säger han.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336863'",
       "matched_terms": [
         "Centerpartiet",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336846",
+      "title": "Moderaterna rasar mot Anderssons besked",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Moderaterna riktar skarp kritik mot Socialdemokraterna efter Magdalena Anderssons besked att S inte tänker förhandla med en borgerlig fyrpartiregering som släpps fram av SD. Andersson skriver att partiet i stället skulle gå i full opposition, medan Moderaterna anser att beskedet går emot talet om breda samarbeten efter valet. ”När man själv vill bli statsminister är man öppen för samarbeten, men när det verkar gå en lite emot är man inte beredd att göra samma sak tillbaka”, säger Niklas Wykman (M), finansmarknadsminister.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336846'",
+      "matched_terms": [
+        "statsminister",
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336864",
+      "title": "Andersson (S) vill bilda regering med MP och C – utan V",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraterna vill bilda regering med Miljöpartiet och Centerpartiet – i nära samarbete med V. Det meddelade Socialdemokraternas partiledare Magdalena Andersson på en pressträff på söndagen. ”Min förhoppning är att Vänsterpartiet tar sig en rejäl funderare”, säger S-ledaren efter pressträffen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336864'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9336170",
+      "title": "S styr 15 regioner – C, V och MP tar större plats",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraterna behåller ett starkt grepp över regionpolitiken tillsammans med framförallt Centerpartiet, Vänsterpartiet och Miljöpartiet som alla tar plats i fler styren än innan valet. Socialdemokraterna styr i 15 och Centerpartiet i 14 av de 20 av landets 21 regioner som är färdigförhandlade, visar Ekots genomgång. Moderaterna och Kristdemokraterna tappar makten i flera regioner och ska båda styra i sju regioner av de som är klara. För Liberalerna är läget oförändrat och Sverigedemokraterna ökar från två till tre.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336170'",
+      "matched_terms": [
+        "Centerpartiet",
+        "Kristdemokraterna",
+        "Liberalerna",
+        "Miljöpartiet",
         "Moderaterna",
         "Socialdemokraterna",
-        "Sverigedemokraterna"
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-08T14:02:24.387884+00:00"
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/tomas-ramberg-andersson-fruktar-centerns-inre-strid",
+      "title": "Tomas Ramberg: Andersson fruktar Centerns inre strid",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Magdalena Andersson befarar att Centern är på väg att falla för Jimmie Åkessons förslag om en borgerlig fyrpartiregering. S-ledarens utspel att ställa V utanför regeringen är ett försök att få C att stanna kvar på hennes sida. Frågan är brännande eftersom nästa statsministeromröstning kan gälla Ulf Kristersson.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-09 07:05\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-andersson-fruktar-centerns-inre-strid/\nMagdalena Andersson befarar att Centern är på väg att falla för Jimmie Åkessons förslag om en borgerlig fyrpartiregering. S-ledarens utspel att ställa V utanför regeringen är ett försök att få C att stanna kvar på hennes sida.\nFrågan är brännande eftersom nästa statsministeromröstning kan gälla Ulf Kristersson.",
+      "paywall": true,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/s-ledaren-vill-bilda-regering-utan-vansterpartiet",
+      "title": "S-ledaren vill bilda regering utan Vänsterpartiet",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-08",
+      "author": "Rebecka Rosengart, Hans Rosén",
+      "commentator": "",
+      "summary": "S-ledaren Magdalena Andersson vill bilda regering med C och MP – med V som stödparti. Vänsterpartiets ministerkrav står dock fast, skriver V-toppen Ida Gabrielsson på X. ”S och C vet att vi inte kan säga ja till detta”.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-09 07:04\nArtikelns ursprungsadress: https://www.dn.se/sverige/s-ledaren-vill-bilda-regering-utan-vansterpartiet/\nS-ledaren Magdalena Andersson vill bilda regering med C och MP – med V som stödparti.\nVänsterpartiets ministerkrav står dock fast, skriver V-toppen Ida Gabrielsson på X .\n”S och C vet att vi inte kan säga ja till detta”.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\n56 dagar efter valet visade Magdalena Andersson till slut korten i regeringsfrågan. Beskedet kom efter att Jimmie Åkesson på fredagen meddelat att SD kan tänka sig att släppa fram en borgerlig regering där C ingår. C-ledaren sade sig då hålla öppet för förhandlingar med både Magdalena Andersson och Ulf Kristersson.\nS-ledaren motiverar sitt besked på söndagen med att en regering med S, C och MP har ”störst sannolikhet att kunna tillträda”.\nDet innebär att hon går Centerpartiet till mötes och samtidigt säger nej till Vänsterpartiets benhårda krav på ministerposter.\n– Jag bedömer att Centerpartiets röda linjer bottnar i ideologi medan Vänsterpartiet framför allt är ute efter att säkerställa sitt inflytande, motiverar S-ledaren sitt ställningstagande.\nDen trepartiregering som hon ser framför sig skulle ha ett ”nära samarbete” med Vänsterpartiet.\n– Det vill jag gärna diskutera med Vänsterpartiet de närmaste dagarna. Självklart måste de kunna få igenom politik i ett sådant här samarbete. Deras väljare ska naturligtvis också räknas. V ska kunna känna sig säkra på att de inte snuvas på några förhandlingsvinster.\nMagdalena Andersson öppnar för att Vänsterpartiet skulle kunna ha tjänstemän i regeringskansliet, ungefär så som SD deltog i Tidöregeringens arbete. Det skulle enligt S-ledaren kunna räcka för att säkerställa det inflytande som V är ute efter.\nSamtidigt sätter hon press på V, som står fast vid sina krav.\n– Jag hoppas att Vänsterpartiet tar tid på sig att reflektera kring det här, och att de förstår vad som står på spel, säger S-ledaren och varnar för att ett nej från V kan leda till högerpolitik som står väldigt långt ifrån vad partiets väljare har röstat för.\nOm Vänsterpartiet ”inte ens vill diskutera” förslaget är det enda alternativ som kan utestänga SD från inflytande en regering där både S och M ingår, enligt Andersson.\nVänsterpartiets vice ordförande Ida Gabrielsson skriver på X att ministerkravet står fast .\n”Både C och S är väl medvetna om det kongressbeslut som V har, och att just detta inte går att påverka.”\nGabrielsson ska vara med i SVT:s ”Agenda” på söndagen.\nS-ledaren höjer också ett varningens finger mot C-ledaren Elisabeth Thand Ringqvist. Ett centerpartistiskt sidbyte till en regering som vilar på SD:s stöd vore ”det största sveket i modern politisk historia”.\n– Jag utgår ifrån att Centerpartiet visar förståelse för att det här kan ta tid, säger Andersson.\nElisabeth Thand Ringqvist skriver i ett uttalande att partiet vill avvakta tills man tagit del av totalpaketen som S och M på fredag ska presentera för C om hur de vill styra Sverige.\n”Vi vill se helheten och avvaktar därför med att kommentera enskilda delar tills vi har tagit del av båda totalpaketen.”\nTidigare på söndagen skrev S-ledaren på Instagram att hon helt utesluter att samarbeta eller förhandla med en regering som består av M, L, KD och C med stöd av Sverigedemokraterna. Det är det alternativ som moderatledaren Ulf Kristersson just nu sonderar.\n”Vi skulle gå i full opposition mot en Tidö 2-regering”, skrev hon i inlägget.\nEnligt S-ledaren skulle en regering bestående av M, L, KD och C bli beroende av SD och i praktiken bli ”en Tidöregering”. Hon varnar samtidigt för att det skulle bryta mot Centerpartiets viktigaste vallöfte.\nI fredags sade M-ledaren Ulf Kristersson att han undersökte möjligheten att bilda en ”borgerlig mittenregering” med fyra partier.\nS avfärdar Tidö 2-förhandlingar öppet – ”Högst olämpligt”\nCenterpartiet vill se totalpaket från både S och M\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTomas Ramberg: Andersson fruktar Centerns inre strid\nS avfärdar Tidö 2-förhandlingar öppet – ”Högst olämpligt”\nCenterpartiet vill se totalpaket från både S och M",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "stödparti",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-09T06:06:05.243556+00:00"
     }
   ]
 }
