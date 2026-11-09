@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "9765 artiklar i 7 flöden",
-   "varde": 9765.0
+   "detalj": "9822 artiklar i 7 flöden",
+   "varde": 9822.0
   },
   {
    "grupp": "aktualitet",
@@ -1187,7 +1187,7 @@
    "id": "rader_polisen_manad",
    "beskrivning": "Tabell polisen_manad",
    "status": "ok",
-   "detalj": "5376 rader (förra 5328)",
+   "detalj": "5376 rader (förra 5376)",
    "varde": 5376.0
   },
   {
@@ -1363,7 +1363,7 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7387 rader (förra 7385)",
+   "detalj": "7387 rader (förra 7387)",
    "varde": 7387.0
   },
   {
@@ -1371,7 +1371,7 @@
    "id": "rader_riksdag_beslut",
    "beskrivning": "Tabell riksdag_beslut",
    "status": "ok",
-   "detalj": "8293 rader (förra 8289)",
+   "detalj": "8293 rader (förra 8293)",
    "varde": 8293.0
   },
   {
@@ -1387,7 +1387,7 @@
    "id": "rader_riksdag_samstammighet",
    "beskrivning": "Tabell riksdag_samstammighet",
    "status": "ok",
-   "detalj": "256 rader (förra 192)",
+   "detalj": "256 rader (förra 256)",
    "varde": 256.0
   },
   {
@@ -1403,7 +1403,7 @@
    "id": "rader_riksdag_ledamot",
    "beskrivning": "Tabell riksdag_ledamot",
    "status": "ok",
-   "detalj": "4949 rader (förra 4943)",
+   "detalj": "4949 rader (förra 4949)",
    "varde": 4949.0
   },
   {
@@ -1427,15 +1427,15 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "2085 rader (förra 2037)",
-   "varde": 2085.0
+   "detalj": "2089 rader (förra 2085)",
+   "varde": 2089.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "56 rader (förra 55)",
+   "detalj": "56 rader (förra 56)",
    "varde": 56.0
   },
   {
@@ -1443,7 +1443,7 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "448 rader (förra 392)",
+   "detalj": "448 rader (förra 448)",
    "varde": 448.0
   },
   {
@@ -1451,7 +1451,7 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "849 rader (förra 837)",
+   "detalj": "849 rader (förra 849)",
    "varde": 849.0
   },
   {
@@ -1459,7 +1459,7 @@
    "id": "rader_media_talartid",
    "beskrivning": "Tabell media_talartid",
    "status": "ok",
-   "detalj": "104 rader (förra 96)",
+   "detalj": "104 rader (förra 104)",
    "varde": 104.0
   },
   {
@@ -1475,7 +1475,7 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "1954 rader (förra 2091)",
+   "detalj": "1954 rader (förra 1954)",
    "varde": 1954.0
   },
   {
@@ -1563,7 +1563,7 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2754 rader (förra 2751)",
+   "detalj": "2754 rader (förra 2754)",
    "varde": 2754.0
   },
   {
