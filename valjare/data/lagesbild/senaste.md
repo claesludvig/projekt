@@ -1,13 +1,13 @@
-# Lägesbild vecka 45 2026
+# Lägesbild vecka 46 2026
 
-Skapad 2026-11-08 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-11-09 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
 
 ## Värd att bevaka
 
 - **Beviljade uppehållstillstånd, första**: Augusti 2026: 6 863. Senaste tolv månaderna: 87 984 (året innan 89 405). De tre senaste månaderna: −9 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2021). _Källa: Migrationsverket._
-- **Skjutningar**: September 2026: 8. Senaste tolv månaderna: 83 (året innan 198). De tre senaste månaderna: −58 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
-- **Döda i skjutningar**: September 2026: 1. Senaste tolv månaderna: 18 (året innan 48). De tre senaste månaderna: −64 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
-- **Sprängningar (detonationer)**: September 2026: 1. Senaste tolv månaderna: 112 (året innan 207). De tre senaste månaderna: −86 % mot samma månader i fjol. _Källa: Polismyndigheten._
+- **Skjutningar**: Oktober 2026: 6. Senaste tolv månaderna: 82 (året innan 178). De tre senaste månaderna: −57 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
+- **Döda i skjutningar**: Oktober 2026: 2. Senaste tolv månaderna: 17 (året innan 46). De tre senaste månaderna: −75 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
+- **Sprängningar (detonationer)**: Oktober 2026: 0. Senaste tolv månaderna: 98 (året innan 208). De tre senaste månaderna: −90 % mot samma månader i fjol. _Källa: Polismyndigheten._
 
 ## Inom det vanliga
 

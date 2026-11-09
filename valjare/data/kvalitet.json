@@ -1,5 +1,5 @@
 {
- "skapad": "2026-11-08",
+ "skapad": "2026-11-09",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -19,24 +19,24 @@
    "id": "lage_skjutningar",
    "beskrivning": "Månadsserie: Skjutningar",
    "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_skjutningar_doda",
    "beskrivning": "Månadsserie: Döda i skjutningar",
    "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_sprangningar",
    "beskrivning": "Månadsserie: Sprängningar (detonationer)",
    "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -1035,24 +1035,24 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "9553 artiklar i 7 flöden",
-   "varde": 9553.0
+   "detalj": "9765 artiklar i 7 flöden",
+   "varde": 9765.0
   },
   {
    "grupp": "aktualitet",
    "id": "wikidata_foljare",
    "beskrivning": "Följarantal från Wikidata",
    "status": "ok",
-   "detalj": "55 konton med följarantal",
-   "varde": 55.0
+   "detalj": "56 konton med följarantal",
+   "varde": 56.0
   },
   {
    "grupp": "aktualitet",
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-10-29, 10 dagar sedan",
-   "varde": 10.0
+   "detalj": "senaste dokument 2026-11-06, 3 dagar sedan",
+   "varde": 3.0
   },
   {
    "grupp": "volym",
@@ -1187,8 +1187,8 @@
    "id": "rader_polisen_manad",
    "beskrivning": "Tabell polisen_manad",
    "status": "ok",
-   "detalj": "5328 rader (förra 5328)",
-   "varde": 5328.0
+   "detalj": "5376 rader (förra 5328)",
+   "varde": 5376.0
   },
   {
    "grupp": "volym",
@@ -1363,16 +1363,16 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7385 rader (förra 7385)",
-   "varde": 7385.0
+   "detalj": "7387 rader (förra 7385)",
+   "varde": 7387.0
   },
   {
    "grupp": "volym",
    "id": "rader_riksdag_beslut",
    "beskrivning": "Tabell riksdag_beslut",
    "status": "ok",
-   "detalj": "8289 rader (förra 8289)",
-   "varde": 8289.0
+   "detalj": "8293 rader (förra 8289)",
+   "varde": 8293.0
   },
   {
    "grupp": "volym",
@@ -1387,8 +1387,8 @@
    "id": "rader_riksdag_samstammighet",
    "beskrivning": "Tabell riksdag_samstammighet",
    "status": "ok",
-   "detalj": "192 rader (förra 192)",
-   "varde": 192.0
+   "detalj": "256 rader (förra 192)",
+   "varde": 256.0
   },
   {
    "grupp": "volym",
@@ -1403,8 +1403,8 @@
    "id": "rader_riksdag_ledamot",
    "beskrivning": "Tabell riksdag_ledamot",
    "status": "ok",
-   "detalj": "4943 rader (förra 4943)",
-   "varde": 4943.0
+   "detalj": "4949 rader (förra 4943)",
+   "varde": 4949.0
   },
   {
    "grupp": "volym",
@@ -1427,40 +1427,40 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "2037 rader (förra 1990)",
-   "varde": 2037.0
+   "detalj": "2085 rader (förra 2037)",
+   "varde": 2085.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare_nu",
    "beskrivning": "Tabell media_foljare_nu",
    "status": "ok",
-   "detalj": "55 rader (förra 55)",
-   "varde": 55.0
+   "detalj": "56 rader (förra 55)",
+   "varde": 56.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "392 rader (förra 392)",
-   "varde": 392.0
+   "detalj": "448 rader (förra 392)",
+   "varde": 448.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "837 rader (förra 823)",
-   "varde": 837.0
+   "detalj": "849 rader (förra 837)",
+   "varde": 849.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_talartid",
    "beskrivning": "Tabell media_talartid",
    "status": "ok",
-   "detalj": "96 rader (förra 96)",
-   "varde": 96.0
+   "detalj": "104 rader (förra 96)",
+   "varde": 104.0
   },
   {
    "grupp": "volym",
@@ -1475,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "2091 rader (förra 2091)",
-   "varde": 2091.0
+   "detalj": "1954 rader (förra 2091)",
+   "varde": 1954.0
   },
   {
    "grupp": "volym",
@@ -1563,8 +1563,8 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2751 rader (förra 2751)",
-   "varde": 2751.0
+   "detalj": "2754 rader (förra 2751)",
+   "varde": 2754.0
   },
   {
    "grupp": "volym",
@@ -1643,7 +1643,7 @@
    "id": "voteringar_349",
    "beskrivning": "Varje votering räknar alla 349 ledamöter",
    "status": "ok",
-   "detalj": "100.0 % av 8289 voteringar har 340–349 röster inklusive frånvaro",
+   "detalj": "100.0 % av 8293 voteringar har 340–349 röster inklusive frånvaro",
    "varde": 100.0
   },
   {
