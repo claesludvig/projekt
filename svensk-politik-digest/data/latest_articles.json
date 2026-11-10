@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-11-09T14:03:58.463657+00:00",
-  "new_count": 9,
+  "fetched_at": "2026-11-10T06:05:35.388994+00:00",
+  "new_count": 11,
   "skipped": {
-    "seen": 39,
-    "offtopic": 152,
-    "old": 10
+    "seen": 33,
+    "offtopic": 158,
+    "old": 8
   },
-  "fetch_errors": 6,
+  "fetch_errors": 4,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 6,
+      "new": 4,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -65,177 +65,207 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/z0LBxr/gabrielsson-efter-s-beskedet-ar-besviken",
-      "title": "Dadgostar vädjar till C: Gå inte över",
+      "url": "https://www.svd.se/a/7Pl82B/v-distrikt-kompakt-stod-for-partilinjen",
+      "title": "V-distrikt: ”Kompakt stöd för partilinjen”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-10",
+      "author": "Johanna Ekström/TT, Anja Haglund/TT",
+      "commentator": "",
+      "summary": "S-ledaren vill att V överväger rollen som samarbetsparti i stället för regeringsparti.",
+      "fulltext": "S-ledaren vill att V överväger rollen som samarbetsparti i stället för regeringsparti.\nMen att ändra på kongressbeslutet om ministerposter är inte aktuellt enligt flera av Vänsterpartiets distrikt.\n– Det går inte att rucka på, säger Eva Arvidsson, vice ordförande för V i Västerbotten.\nS-ledaren Magdalena Andersson meddelade i söndags att hon vill lämna V utanför en regering. Samtidigt vädjade hon till V att tänka över sitt regeringskrav.\n– Jag hoppas att Vänsterpartiet tar tid på sig att reflektera kring det här och vad som står på spel för människor i vårt land, sade Andersson.\nV har ett kongressbeslut på att man ska sitta i en regering om partiets mandat krävs, och har hittills vägrat tumma på det.\nFlera av partiets distriktsordföranden håller fast vid det, även efter S-ledarens besked.\n– Det går inte att rucka på. Det är alldeles självklart att våra mandat är lika mycket värda som andras mandat, säger Eva Arvidsson i Västerbotten.\nLiknande linjer hörs från Vänsterpartiets distrikt i Stockholm, Göteborg, Kalmar, Jönköping och Östergötland.\n”Det finns ett kompakt stöd för partilinjen i Storstockholm. Våra medlemmar förväntar sig att kongressbeslutet ska följas”, säger August Flensburg, ordförande i Stockholm, i en skriftlig kommentar.\nJonatan Wassberg, ordförande för Vänsterpartiet i Kalmar, säger att medlemmar har hört av sig och sagt att partiet måste stå på sig i regeringsfrågan.\n– Jag har inte hört en enda människa som är medlem i vårt distrikt som tycker att vi ska gå en annan väg. Det finns ett tryck på att behålla den här linjen, säger han.\nEnligt Julia Löf, ordförande i Jönköping, är Vänsterpartiet förberett på det som nu sker.\n– Vi har förutsett att den här pressen skulle komma på oss att ge upp våra mandat, utan att få det här inflytandet i regeringen som vi ser behövs, säger hon.\nHon säger att det tidigare har kostat V dyrt att stå utanför regeringen.\n– Vi har sett att det är den här vägen vi behöver gå för att våra väljares röster ska respekteras och räknas. Jag möter ingen som vacklar eller tvivlar på detta, vi står enade, säger hon.\nTommy Möller, professor i statsvetenskap vid Stockholms universitet, har i dagsläget svårt att bedöma om V kan tänkas ändra sig.\n– Det vore ju någonting som skulle överraska om de verkligen gör det.\n– Utåt sett säger de ju att de inte behöver reflektera över det här. ”Take it or leave it”, det är den linjen de har, säger han.\nRent formellt är däremot kongressbeslutet inget hinder om V skulle komma fram till att man ska släppa regeringskravet.\n– Det skulle vara möjligt för partistyrelsen att besluta om det, säger Möller.\nHan konstaterar samtidigt att det är ont om tid.\n– Nu har tempot på väldigt kort tid trappats upp i den här processen. Så det här med förankringsprocesser kan ju försvåras när tidsmarginalerna är så snäva.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "samarbetspart"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9337662",
+      "title": "Flera V-distrikt ställer sig bakom krav på ministerposter",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-10",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Flera av Vänsterpartiets distrikt ute i landet står fast vid partiets kongressbeslutet att kräva ministerposter i en regering, skriver TT. Västerbotten, Stockholm, Göteborg, Kalmar, Jönköping och Östergötland uppger att deras medlemmar inte kommer backa från regeringskravet. Socialdemokraternas Magdalena Andersson meddelade i söndags att hon vill lämna V utanför en regering och vädjade samtidigt till vänsterpartiet att tänka över sitt regeringskrav.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337662'",
+      "matched_terms": [
+        "ministerpost",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/ez1QOM/ida-gabriellson-v-redo-slappa-viktiga-fragor",
+      "title": "Gabrielsson: Redo släppa viktiga frågor",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-09",
-      "author": "Peter Wallberg/TT, Anja Haglund/TT",
+      "author": "Karin Thurfjell",
       "commentator": "",
-      "summary": "Vänsterpartiet är besviket efter Socialdemokraternas besked att man inte vill ha med V i regering.",
-      "fulltext": "Vänsterpartiet är besviket efter Socialdemokraternas besked att man inte vill ha med V i regering.\nV-ledaren Nooshi Dadgostar försöker nu sätta press på C:\n– Vi vädjar till Centerpartiet: Sätt stopp för Sverigedemokraterna. Gå inte över, säger hon till Aftonbladet .\nV-toppar reagerar starkt dagen efter det att S-ledarens meddelat att hon inte vill ha med Vänsterpartiet i en regering.\nMagdalena Andersson gav beskedet vid en snabbinkallad pressträff på söndagen – sedan C-ledaren Elisabeth Thand Ringqvist i fredags gick ut med att hon vill förhandla både med S-ledaren och M-ledaren Ulf Kristersson.\nNooshi Dadgostar hävdar att det vore ”ett monumentalt svek” om C bytte sida.\n– Ett svek vi aldrig har sett i modern svensk historia, säger hon till Aftonbladet.\n– Centerpartiet har gjort det som ingen trodde: Öppnat upp för Sverigedemokraterna.\nSocialdemokraternas nya ingång är att man vill bilda regering med bara Centerpartiet och Miljöpartiet. Vice partiledaren för V, Ida Gabrielsson, är besviken.\n– Jag tycker att man ska inte bara stå och hålla presskonferenser och diktera vad som ska ske. Nu när vi hade börjat samtal hade det varit bättre om vi fört dem med varandra, säger hon till TT utanför riksdagen på måndagsmorgonen.\nV:s regeringskrav står fast och enligt Gabrielsson är det inte aktuellt att ta upp det för diskussion.\n– Det är absolut ett stort stöd för det (kongressbeslutet) och det har alla varit medvetna om.\nHon antar att V inte kommer att vara med i veckans förhandlingar mellan de rödgröna och C, om den lösning som C vill se till på fredag.\n– Nu har man ju sagt att man ska göra ett totalpaket där vi inte ingår och överträffa Ulf Kristersson i högerpolitik. Så det utgår vi från att man inte har som avsikt, säger Gabrielsson.\nSonderingsuppdraget för att bilda en ny regering ligger just nu hos Ulf Kristersson. Han siktar på en borgerlig fyrpartiregering, som kommer behöva samarbeta med andra partier för att få stöd för sin politik i riksdagen.\nPartiernas förflyttningar inleddes med att SD i fredags sade sig kunna tolerera en borgerlig regering utan krav på att själva ingå i den.\nM-ledaren skulle återrapportera till talmannen på tisdag men fick efter SD:s och C:s besked ytterligare ”några dagar” på sig. Det är ännu inte känt vilket datum som nu gäller.",
+      "summary": "Vänsterpartiet var redo släppa viktiga frågor i förhandlingar med Centerpartiet, säger Ida…",
+      "fulltext": "Vänsterpartiet var redo släppa viktiga frågor i förhandlingar med Centerpartiet, säger Ida Gabrielsson i SVT:s Aktuellt. På frågan om det gäller ministerposter svarar V-toppen ”Det hade vi behövt diskutera ordentligt”.\nVänsterpartiet uteblev från ett möte med ledarna för Socialdemokraterna, Centerpartiet och Miljöpartiet under måndagen. I SVT:s Aktuelltsändning säger Vänsterpartiets vice ordförande att det beror på att Centerpartiet öppnat för att bilda regering med Moderaternas Ulf Kristersson som statsminister, och vill ha ”totalpaket” från både Kristersson och Socialdemokraternas Magdalena Andersson.\nGabrielsson säger också att Vänsterpartiet hade fått släppa viktiga frågor för att få till en regering med Magdalena Andersson som statsminister. På frågan om V var beredda att backa från kravet på ministerposter säger Gabrielsson:\nCenterstudenter öppnar för Ulf Kristersson",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Socialdemokraterna",
+        "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/ygeman-s-misslyckande-for-alla-fyra-partier",
-      "title": "Ygeman (S): ”Misslyckande för alla fyra partier”",
+      "url": "https://www.svt.se/nyheter/inrikes/ida-gabrielsson-pressas-om-ministerkravet-har-diskuterats",
+      "title": "Ida Gabrielsson pressas om ministerkravet: ”Har diskuterats”",
       "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-09",
-      "author": "Gustav Motte",
+      "author": "Emma Blomström",
       "commentator": "",
-      "summary": "Socialdemokraterna vill se en regering utan Vänsterpartiet – något Ida Gabrielsson (V) säger är omöjligt. Temperaturen i regeringsförhandlingarna höjs nu. – Det är naturligtvis ett misslyckande för alla fyra partier, säger Anders Ygeman (S) om inte de rödgröna lyckas bilda en regering.",
-      "fulltext": "Socialdemokraterna vill se en regering utan Vänsterpartiet – något Ida Gabrielsson (V) säger är omöjligt.\nTemperaturen i regeringsförhandlingarna höjs nu.\n– Det är naturligtvis ett misslyckande för alla fyra partier, säger Anders Ygeman (S) om inte de rödgröna lyckas bilda en regering.\nI söndags kallade Magdalena Andersson (S) till pressträff – där hon gav besked om vilka partier Socialdemokraterna kan tänka sig sitta i regering med.\nDen regeringen skulle bestå av Socialdemokraterna, Miljöpartiet och Centerpartiet, med stöd av Vänsterpartiet.\nEn lösning som Vänsterpartiets vice partiledare Ida Gabrielsson anser vara omöjlig. På plattformen X skriver Gabrielsson:\n”S och C vet att V inte kan säga ja till detta.”\n– Det har vi redan meddelat Magdalena Andersson och Elisabeth Thand Ringqvist, säger Vänsterpartiets vice partiledare Ida Gabrielsson i SVT:s Agenda.\nI SVT:s Morgonstudion svarar Anders Ygeman (S) på kritiken som framförts.\n– Det vore ett misslyckande för alla fyra partier om vi inte kan växla 176 mandat i riksdagen till politiskt inflytande, säger Ygeman och fortsätter:\n– Nu ska vi försöka fokusera på att få igenom den här regeringen. Skulle det någon gång misslyckas så får vi väl ta den diskussionen då. Men jag är, precis som Magdalena Andersson, helt fokuserad på att vi ska få en ny regering och ny riktning för Sverige.\nDala-Demokratens chefredaktör Göran Greider säger att avgångskraven kan bli starka om regeringsbildningen misslyckas.\n– Misslyckas Magdalena Andersson med regeringsbildningen kommer kraven bli starka på hennes avgång helt enkelt. Det är ingen tvekan om att det, säger Göran Greider i SVT:s Agenda.\nHan kritiserar också hennes partiledarskap.\n– Jag har aldrig tyckt att hon har varit särskilt bra som partiledare. Hon är ingen idépolitiker överhuvudtaget. Hon är född till finansminister kan man säga, men knappast till partiledare.\nEnligt flera källor till SVT Nyheter växer missnöjet med Magdalena Andersson. Jenny Madestam, forskare i statsvetenskap, bedömer att de rödgröna partierna, och särskilt Socialdemokraterna, kommer att straffas av väljarna om de inte får ihop en regering.\n– Jag tror att inget parti vill ha ett extraval. Det vore ett ännu större misslyckande, säger Anders Ygeman i SVT:s Morgonstudion under måndagenmåndagen.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "I Aktuellt pressas Ida Gabrielsson (V) på kravet om ministerposter. Hon säger att partiet varit redo att förhandla och prata om allt – till och med ministerkravet. – Det där hade vi fått diskutera ordentligt, säger hon. Strax efter förtydligar hon på X att V inte bytt ståndpunkt.",
+      "fulltext": "I Aktuellt pressas Ida Gabrielsson (V) på kravet om ministerposter. Hon säger att partiet varit redo att förhandla och prata om allt – till och med ministerkravet.\n– Det där hade vi fått diskutera ordentligt, säger hon.\nStrax efter förtydligar hon på X att V inte bytt ståndpunkt.\nTidigare har Vänsterpartiet varit tydliga med att de inte kommer släppa regeringskravet, med hänvisning till partiets kongressbeslut om ministerposter.\nNär Ida Gabrielsson pressas i Aktuellt säger hon att V varit redo att släppa på många viktiga frågor och att till och med kravet om ministerposter har diskuterats.\n– Det var det som var absolut svårast men det ifrågasattes inte av C. Jag trodde snarare att vi skulle få ett bud om vilken politisk eftergift Centern ville ha, säger hon.\nHon menar att C har svängt eftersom de gick till val på Magdalena Andersson som statsministerkandidat, och aldrig har nämnt möjligheten att öppna upp för en högerregering eller ett beroende av SD-stöd.\nGabrielsson är därför övertygad om att ”processen är riggad” och att C-ledaren vill ta över partiet till Åkesson.\n”Smäller C igen dörren till Åkesson, kan vi som vunnit valet sätta oss och förhandla igen, ge och ta, och förstås kompromissa. Men den dörren måste C stänga själva”, skriver hon senare på X .\nEfter programmet var det många som undrade om V vacklat i sin hårda hållning om ministerposter. Men, strax därefter publicerade hon ett förtydligande inlägg på X .\n”Nej, vi har inte ändrat ståndpunkt, min poäng här är att jag inte tror att det har någon som helst betydelse nu när C är beredda att gå till SD”, inleds inlägget.\nC-ledaren Elisabeth Thand Ringqvist meddelade på fredagen att partiet vill se var sitt ”totalpaket” från S och M. Därefter ska partiet välja vilken sida de vill stå på. Magdalena Andersson och Ulf Kristersson har tills på fredag att ta fram totalpaketen.\nPå söndagens presskonferens gav Magdalena Andersson besked om att partiet vill regera tillsammans med MP och C. Elisabeth Thand Ringqvist meddelade därefter att de avvaktar med att kommentera tills de tagit del av totalpaketen.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsförhandling",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
+        "ministerpost"
       ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9337240",
-      "title": "Helena Gissén om Anderssons (S) ord: ”Jag hoppade till”",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/statsvetare-da-kan-v-overge-regeringskravet",
+      "title": "Statsvetare: ”Då kan V överge regeringskravet”",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-09",
-      "author": "Ekot",
+      "author": "Malvina Britts",
       "commentator": "",
-      "summary": "Regeringsbildningsprocessen fortsätter och Socialdemokraternas partiledare Magdalena Andersson säger i P4 Extra att hon tror att väljarna undrar ”vad fan” politikerna håller på med , ett uttalande som Ekots inrikespolitiska kommentator Helena Gissén reagerar på. ”Jag hoppade till”, säger hon i en analys i P4 Extra . S-ledaren meddelade under söndagen att hon vill leda en regering bestående av S, C och MP, i samarbete med V. Men Helena Gissén tror att V kommer hålla fast vid sitt regeringskrav.",
-      "fulltext": "",
+      "summary": "Vänsterpartiet kan inte ändra sig i regeringsfrågan, hävdar vice partiledaren Ida Gabrielsson med hänvisning till ett kongressbeslut. Men det stämmer inte, menar statsvetare som SVT pratat med. – Jag tror att det finns mycket som talar för att Vänsterpartiet kan överväga att släppa kravet, säger Jenny Madestam.",
+      "fulltext": "Vänsterpartiet kan inte ändra sig i regeringsfrågan, hävdar vice partiledaren Ida Gabrielsson med hänvisning till ett kongressbeslut. Men det stämmer inte, menar statsvetare som SVT pratat med.\n– Jag tror att det finns mycket som talar för att Vänsterpartiet kan överväga att släppa kravet, säger Jenny Madestam.\nEfter att ha fått nobben av Magdalena Andersson under söndagen upprepade Ida Gabrielsson Vänsterpartiets krav i Agenda : Ingen regering som bygger på V-mandat släpps igenom, om inte också V ingår i regeringen. Enligt Gabrielsson är det ett beslut som ”inte går att ändra”.\nMen Jenny Madestam, statsvetare vid Södertörns högskola, menar att det finns möjligheter för partistyrelsen att gå en annan väg.\n– Någon typ av mandat behöver man ha från sitt parti. Men det har hänt förr att partier ändrar sina kongressbeslut eller går emot dem, säger hon.\nDet finns ett tidigare exempel på att V:s partistyrelse gått emot en linje som beslutats av kongressen. 2018 slog kongressen fast att vapenexporten skulle upphöra. Men efter Rysslands fullskaliga invasion av Ukraina 2022 ändrade partistyrelsen beslutet, för att kunna skicka vapen till Ukraina.\nStatsvetaren Magnus Hagevi, professor vid Linnéuniversitetet, menar att partistyrelsen kan agera självständigt, utan att en ny kongress behöver sammankallas.\n– Partistyrelsen är högsta beslutande organ mellan kongresserna. Men man riskerar en svekdebatt naturligtvis, säger han.\nJenny Madestam menar att en eventuell svekdebatt inte nödvändigtvis behöver bli så svår för partiledningen.\n– Allting handlar om vad man kan visa upp. Kan Vänsterpartiet få igenom riktigt mycket av sin politik, då tror jag att de kommer kunna överväga att faktiskt släppa kravet och stå utanför regeringen.\nKommer C gå med på stora politiska eftergifter till V?\n– Det är ju frågan. Samtidigt kommer Centerpartiet att få ministerposter, och det smäller högre än sakpolitiken. Men det är klart, Vänsterpartiet vill till exempel ha en miljardärsskatt. Det tror jag blir svårt för Centerpartiet att acceptera, säger hon.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337240'",
-      "matched_terms": [
-        "regeringsbildning",
-        "partiledar",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9337216",
-      "title": "Så ser politiska veckan ut",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-09",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Senast nu på fredag den 13 november ska både Magdalena Andersson och Ulf Kristersson ha presenterat hela sitt ”totalpaket” till Elisabeth Thand Ringqvist. Ulf Kristersson ska även slutrapportera sitt sonderingsuppdrag till talmannen i slutet av veckan. Dessutom drar budgetprocessen igång när regeringen lämnar över sin budgetproposition till riksdagen nu på torsdag den 12 november.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337216'",
-      "matched_terms": [
-        "talman",
-        "sondering"
-      ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9337224",
-      "title": "Andersson (S): ”Tror de undrar vad fan vi håller på med”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-09",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Hittills har det gått 56 sedan valet och Sverige har ännu inte en regering på plats. När Socialdemokraternas partiledare Magdalena Andersson intervjuades i P4 Extra under måndagen fick hon frågan om vad hon tror att väljarna tänker om regeringsbildningsprocessen. ”Jag tror att de undrar vad fan vi håller på med”, svarade S-ledaren då. Det var under söndagen som Magdalena Andersson meddelade att hon vill se en regering bestående av S, C och MP, med stöd av V.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337224'",
-      "matched_terms": [
-        "regeringsbildning",
-        "partiledar",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9337178",
-      "title": "Källor: Dragkamp inom C om en högersväng",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-09",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Det pågår en dragkamp inom Centerpartiet efter centerledaren Elisabeth Thand Ringqvists öppning högerut i fredags. Frågan om partiet ska gå höger eller vänsterut har just nu inget svar, men flera källor i partiet beskriver öppningen som ett försök att dra partiet högerut. Vilken väg partiet väljer kommer enligt en C-källa att avgöras i partiets förtroenderåd efter Socialdemokraternas och Moderaternas återkoppling på fredag.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337178'",
-      "matched_terms": [
-        "Centerpartiet",
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9337014",
-      "title": "Gissén: Sverige är inte närmare en rödgrön regering",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-09",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Sverige är inte närmare en rödgrön regering, och även på den borgerliga sidan finns stora utmaningar, säger Ekots politiska kommentator Helena Gissén efter de senaste dagarnas politiska utspel. Centerpartiet har öppnat för att även kunna stödja Ulf Kristersson, beroende på vilken politik han presenterar. På söndagen meddelade Socialdemokraternas partiledare Magdalena Andersson att hon vill bilda regering tillsammans med Centerpartiet och Miljöpartiet, men utan Vänsterpartiet.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337014'",
-      "matched_terms": [
-        "partiledar",
-        "Centerpartiet",
-        "Miljöpartiet",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9336943",
-      "title": "Ygeman (S): ”Det sista V vill se är ännu en Tidö-regering stödd av SD”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-09",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Socialdemokraternas partiledare Magdalena Andersson gav beskedet på söndagskvällen om att man vill bilda regering med Centerpartiet och Miljöpartiet, men inte Vänsterpartiet. Socialdemokraternas vice gruppledare Anders Ygeman berättar varför det har tagit så lång tid att ge besked om regeringsfrågan, men ser ändå en möjlighet att Vänsterpartiet kommer ändra sig. ”Det sista de vill se är ännu en Tidö-regering stödd på Sverigedemokraterna”, säger vice gruppledaren i P1 Morgon på måndagen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9336943'",
+      "fetch_error": "",
       "matched_terms": [
         "regeringsfråg",
         "partiledar",
-        "Centerpartiet",
-        "Miljöpartiet",
-        "Socialdemokraterna",
-        "Sverigedemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/inte-hangt-med-i-regeringsbildningen-detta-har-hant",
-      "title": "Inte hängt med i regeringsbildningen? Detta har hänt",
-      "source": "DN Nyheter",
+      "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-svarar-pa-dina-fragor-om-svensk-politik-och-regeringsbildningen",
+      "title": "Mats Knutson svarar på dina frågor om svensk politik och regeringsbildningen",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-09",
-      "author": "Ossi Carp",
-      "commentator": "",
-      "summary": "De senaste dagarna har svensk toppolitik präglats extra mycket av olika utspel om vem som kan tänka sig samarbeta med vem. Här är en sammanfattning av läget efter 57 dagar utan ny regering.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-09 15:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/inte-hangt-med-i-regeringsbildningen-detta-har-hant/\nDe senaste dagarna har svensk toppolitik präglats extra mycket av olika utspel om vem som kan tänka sig samarbeta med vem. Här är en sammanfattning av läget efter 57 dagar utan ny regering.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDen politiska positioneringshelgen tjuvstartade på fredagen när SD-ledare Jimmie Åkesson meddelade att partiet kan släppa sitt krav på ministerposter i en borgerlig regering. I det scenariot skulle SD alltså tolerera en Ulf Kristersson-ledd koalition av de 136 riksdagsmandat som M, C, KD och L har tillsammans.\n– Om en sådan här borgerlig minoritetsregering skulle tillträda så kommer vi att kunna agera kraftfull opposition. Vi kommer att kunna ha majoritet tillsammans med Socialdemokraterna till exempel, sade Jimmie Åkesson.\nUtspelet skulle potentiellt öppna för C att bli regeringsparti med sina forna Alliansenkollegor, eftersom det eliminerar en av partiets röda linjer om att absolut inte sitta i regering med vare sig V eller SD. Åkessons besked satte också fart på S som nu ser ett hot mot det rödgröna alternativ man gått till val på och fått en 176 mandat skör majoritet för.\nS-ledaren Magdalena Andersson startade söndagsmorgonen med att formulera sitt motdrag i sociala medier: ”Jag vill under den kommande veckan arbeta för att en regering bestående av S, C och MP, i nära samarbete med V, ska kunna tillträda och genomföra den politiska riktning som svenska folket har röstat för”.\n– Jag bedömer att Centerpartiets röda linjer bottnar i ideologi, medan Vänsterpartiet framför allt är ute efter att säkerställa sitt inflytande, löd hennes uttalade analys av regeringsbildningen som i praktiken skulle innebära att V släpper sitt krav på ministerposter i utbyte mot ”nära samarbete” med S, MP och C.\n– Det vill jag gärna diskutera med Vänsterpartiet de närmaste dagarna. Självklart måste de kunna få igenom politik i ett sådant här samarbete. Deras väljare ska naturligtvis också räknas. V ska kunna känna sig säkra på att de inte snuvas på några förhandlingsvinster, sade Andersson.\nV:s krav är ett kongressbeslut som åtminstone hittills visat sig vara väldigt grundmurat. Att byta fot till att bli stödparti är under inga omständigheter ett alternativ, enligt partisekreterare Ida Gabrielsson, även om man fick ha egna politiska tjänstemän i regeringskansliet, så som SD fått ha den senaste mandatperioden.\n– Vi hade redan meddelat henne det innan pressträffen, att vi inte kan gå den vägen, sade Gabrielsson i SVT:s Agenda där hon utfärdade en varning om att med en sådan utveckling kan det sluta med två högerblock.\n– Om C öppnar för att styra med totalt SD-beroende kommer de att utpressa oss i varje läge. Är man beredd att göra det här sidbytet finns det inget stopp. Jag är väldigt förvånad över att Magdalena Andersson vill sätta sig och bli utpressad.\nSlutligen C, vars ledare Elisabeth Thand Ringqvist som väntat misslyckades med en riksdagsomröstning för en mittenregering av typen S, C, KD, MP och L förra veckan. Hon lät på söndagen bli att säga något om huruvida partiets krav påverkats i någon riktning av SD:s eller S:s utspel.\nI stället upprepade Thand Ringqvist sitt önskemål från Magdalena Andersson och Ulf Kristersson om att få se deras respektive lösningar för hur de vill styra Sverige. ”Vi vill se helheten och avvaktar därför med att kommentera enskilda delar tills vi har tagit del av båda totalpaketen”, skrev Thand Ringqvist i ett uttalande.\nI det fall C skulle välja M framför S varnade Andersson Thand Ringqvist på söndagen. Enligt S-ledaren skulle en högergir av det slaget, det vill säga ett borgerligt alternativ som vore beroende av SD, vara ”det största sveket i modern politisk historia”.\nTalmannen Andreas Norlén (M) gav sonderingsuppdraget till Ulf Kristersson förra tisdagen. M-ledaren skulle ursprungligen återrapportera i morgon, men i fredags gav talmannen honom respit ”med ytterligare några dagar”.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nDyrare bussresor och bensin väntar när regeringen lägger tandlös budget\nTomas Ramberg: Andersson fruktar Centerns inre strid\nIdeologiska fiender nya makthavare – så blir styrena i Stockholms kommuner",
+      "author": "Jonas Ekman",
+      "commentator": "Mats Knutson",
+      "summary": "”Monumentala svek”, släppta regeringskrav och hemliga möten – utanför strålkastarljusen. Det händer mycket i svensk politik just nu, vad undrar du om regeringsbildningen? Chatta med SVT:s inrikespolitiska kommentator Mats Knutson här nedan:",
+      "fulltext": "”Monumentala svek”, släppta regeringskrav och hemliga möten – utanför strålkastarljusen.\nDet händer mycket i svensk politik just nu, vad undrar du om regeringsbildningen?\nChatta med SVT:s inrikespolitiska kommentator Mats Knutson här nedan:\nChatta med Mats Knutson om läget i svensk politik\nTack för alla frågor. Jag har svarat på så många jag hunnit med. Nu måste jag förbereda mig för Rapport kl 18. Tack för den här gången!\nTove • Hur är det tänkt att V ska kunna bryta mot sitt kongressbeslut om stadgar inte tillåter det? Många ledarskribenter verkar ta det för givet att det går?\nHej Tove. Partier kan alltid ändra sig. Det finns flera exempel i historien där partier frångått kongressbeslut när saker har inträffat som man inte förutsåg. Men svårigheten i det här fallet består i att det skulle utlösa en svårartad svekdebatt inom V om man plötsligt backade från sina krav på ministerposter.\nOla • Varför är analysen av maktfrågan så centrerad till regeringsbildning? Är det inte riksdagen som är den största makthavaren? och då har ju alla partier det inflytande dom givits av sin väljarprocent. Vad ger en ministerpost i beslutsmakt? SD har väl dubbelt så mycket makt som C oavsett ministerposter och regeringsalternativ sett till antal röster i riksdagen.\nHej Ola. En regering har mycket makt, t ex hur man styr myndigheter, sköter utrikespolitiken och lägger fram lagförslag. Det är viktigt för ett parti att sitta i regering, för V handlar det mycket om att man vill kasta av sig oket som dörrmatta. SD visade ju förra mandatperioden att man kan få igenom mycket politik utan att sitta i regering.\nFredrik • Är det inte läge att ändra 4%-spärren och höja den för att underlätta regeringsbildningar i framtiden? Det skulle även minska risken för att taktikröster räddar kvar partier som inte kan stå på egna ben.\nHej Fredrik. Att ändra grundlagen som du föreslår skulle vara mycket kontroversiellt och ifrågasättas av flera riksdagspartier som odemokratiskt. Det är nog ingen framkomlig väg..\nEmma • Du skrev att en samlingsregering endast skulle vara aktuell (enligt partierna) krig eller krigsrisk. Hur nära krig innebär det? Just nu pågår ju hybridskrigföring.\nHej Emma. Ja, och skulle detta bli allvarligare för svensk del ska vi inte utesluta möjligheten att det blir någon form av samlingsregering. Men där är vi inte ännu.\nMikael B • Hej, nu pekas det redan ganska vilt om vem och vems röda linje som ska få skulden för ett eventuellt nyval. Det förvånar mig att L kommer undan så lätt, dom som ju drog en tjock röd linje mot en bred mittenregering med S. Visst fanns det andra problem med det scenariot, men ologiskt är alternativet inte och med avtal och kompromisser som kanske inte alls vore svårare att överkomma i en sista utvägen lösning, än de röda linjer som gäller ytterpartierna. Nu har ju dessutom Simonas kramar varit helt förgäves när SD vänder ryggen till !!!???\nHej Mikael. L gör bedömningen att deras trovärdighet och överlevnad som parti inte klarar ett nytt sidbyte. De räddades ju kvar i riksdagen av moderata stödröster.\nIda • Om det går så långt som till extraval, är inte risken stor att det blir samma låsningar igen om alla röstar som i förra valet? Känns som många måste ändra sig för att utfallet ska bli annat, och att antalet som ”byter sida” borde vara plus-minus-noll?\nHej Ida. Ja, så kan det bli. Det finns ju ingen empiri kring detta då vi bara haft ett extraval (1958) så hur väljarna skulle reagera vet ingen. Just nu ser det ut som att Tidöpartierna gynnas i opinionen av den utdragna regeringsbildningen, men ingen vet ju hur detta skulle utvecklas i en ny valrörelse någon gång i början av nästa år. Därför är ett extraval ett vågspel för alla inblandade.\nPär • I ett sådant här dödläge, vad hindrar talmannen från att utlysa nyval direkt?\nHej Pär. Talmannens uppgift är att se till så att en statsminister kan bli vald. Först om detta misslyckas i fyra omröstningar i riksdagen blir det ett extraval.\nJan Ahlström från Båstad • Det framförs från S att ” en ny riktning skall genomföras som svenska folket röstat på ”. Jag undrar varför ställer journalister inte frågan till S vad denna inriktning innebär i praktiken?\nNick • Utsikterna för en S-ledd regering tycks bli allt dystrare. Vilka lärdomar anser du, Mats, att Socialdemokraterna bör dra av det rådande politiska läget? Är det dags för en självkritisk analys på Sveavägen 68, och vilka slutsatser borde i så fall dras?\nHej Nick. Det är uppenbart att man inom S har underskattat motsättningarna mellan V och C. Hade man försökt hantera det innan valet hade regeringsbildningen kunnat gå smidigare. Å andra sidan hade man kanske gjort ett betydligt sämre val i så fall. Grundproblemet för S är att det inte varit en vänstermajoritet i riksdagen sedan 2006. Det har man tidvis kunnat kontra genom att utnyttja splittringen bland borgerliga partier i synen på SD. Det skedde 2014-2022 när man regerade i minoritet. Kanske lyckas man även denna gång, men blir Kristersson statsminister igen kommer det att bli en infekterad debatt i S om varför det gick som det gick.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning"
       ],
-      "first_seen": "2026-11-09T14:03:58.463657+00:00"
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/presentation-av-budgetpropositionen-for-2027",
+      "title": "Presentation av budgetpropositionen för 2027",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-11-09",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "Torsdag den 12 november klockan 08.00 kommer övergångsregeringen att överlämna budgetpropositionen för 2027 till riksdagen. Finansminister Elisabeth Svantesson kommer att presentera budgeten under en pressträff som börjar klockan 08.30.",
+      "fulltext": "Torsdag den 12 november klockan 08.00 kommer övergångsregeringen att överlämna budgetpropositionen för 2027 till riksdagen. Finansminister Elisabeth Svantesson kommer att presentera budgeten under en pressträff som börjar klockan 08.30.\nTid: 12 november 2026 kl. 08.30 Plats: Föranmälda journalister kan delta på plats i Regeringens pressrum, Rosenbad. Ingång Drottninggatan 1. Praktisk information: Praktisk information: Obligatorisk föranmälan senast 11 nov kl. 15.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering sker mellan kl. 07.30–08.15. Deltagande sker i mån av plats.\nPraktisk information: Praktisk information: Obligatorisk föranmälan senast 11 nov kl. 15.00 via anmälningsformuläret nedan. I formuläret anger du namn, redaktion och i vilken funktion du vill delta (reporter eller fotograf) samt bekräftar att du har giltig presslegitimation och vilken organisation som utfärdat den. Presslegitimationen ska du visa vid inpassering. Inpassering sker mellan kl. 07.30–08.15. Deltagande sker i mån av plats.\nDu kan följa sändningen direkt eller se den i efterhand på regeringen.se eller på Regeringskansliets Youtubekanal.\nAnmälan till pressträff den 12 november kl. 08.30 - extern webbplats,\nPressträff med finansminister Elisabeth Svantesson\n07.30 Insläpp för journalister med presslegitimation för säkerhetskontroll. Kaffe och smörgås serveras.\n08.00 Budgeten blir offentlig och finns tillgänglig på plats samt på regeringen.se.\n08.30 Pressträff med Elisabeth Svantesson startar. Den kan även följas på regeringen.se/budget.\n12.30 Elisabeth Svantesson börjar sin promenad från Finansdepartementet (Jakobsgatan 24) till riksdagen.\n13.00 börjar riksdagsdebatten som kan följas på riksdagen.se.\nSidan är uppmärkt med följande kategorier\nPublicerad 27 oktober 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 27 oktober 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 27 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet\nPublicerad 25 augusti 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "övergångsregering"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9337633",
+      "title": "Tidigare S-ministern: M och S borde regera tillsammans",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-09",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "I fler än 50 svenska kommuner styr Socialdemokraterna och Moderaterna tillsammans. Thomas Bodström, som var socialdemokratisk justitieminister mellan år 2000 och 2006, tycker att den konstellationen bör prövas även på nationell nivå. ”Båda partierna skulle ju vara tvungna att kompromissa. Men det är två partier som faktiskt är rätt lika på många sätt”, säger Bodström.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337633'",
+      "matched_terms": [
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9337314",
+      "title": "Gabrielsson: Jättenervös för hur det här ska sluta",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-09",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Vänsterpartiet håller fast vid kongressbeslutet att inte släppa fram en S-ledd regering med Magdalena Andersson som statsminister om partiet inte självt ingår. Socialdemokraterna säger att V kan få inflytande utan ministerposter och uppmanar partiet att tänka om. V:s vice partiledare Ida Gabrielsson är orolig för regeringsbildningen: ”Jättenervös. Jag tycker det är väldigt beklagligt att vi inte gjorde mer innan valet.”",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337314'",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister",
+        "ministerpost",
+        "partiledar",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9337571",
+      "title": "V nobbar möte: ”Man satte ju stopp för det vi hade börjat”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-09",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Enligt uppgift till Ekot har partiledarna för Socialdemokraterna, Centerpartiet och Miljöpartiet under måndagen haft möte på en konferensanläggning utanför Stockholm, något som Dagens Nyheter var först med att berätta. V:s ledare var inbjuden, men valde att inte delta, uppger en S-källa för Ekot. Det efter helgens besked från Magdalena Andersson om att Vänsterpartiet inte ska ingå i en tänkt rödgrön regering. ”Man satte ju stopp för det arbetet vi hade börjat”, säger Ida Gabrielsson (V). ”Vi var väldigt överens om att inte överraska varandra med presskonferenser”, fortsätter hon.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9337571'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/stor-oro-i-v-efter-nobben-fran-s-ledaren-har-gatt-helt-overstyr",
+      "title": "Stor oro i V efter nobben från S-ledaren: ”Har gått helt överstyr”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-09",
+      "author": "Evelyn Jones, Hans Rosén",
+      "commentator": "",
+      "summary": "Det finns en stor oro i Vänsterpartiet över att Centern är på väg att byta sida, enligt källor i V-toppen – men själva tänker de inte vika ner sig om ministerposter. – Att vi inte får vara med i en regering är befängt, säger en vänsterpartist. Samtidigt har V-ledningen i ett internt mejl uppmanat sina företrädare att inte prata med journalister.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-10 07:04\nArtikelns ursprungsadress: https://www.dn.se/sverige/stor-oro-i-v-efter-nobben-fran-s-ledaren-har-gatt-helt-overstyr/\nDet finns en stor oro i Vänsterpartiet över att Centern är på väg att byta sida, enligt källor i V-toppen – men själva tänker de inte vika ner sig om ministerposter.\n– Att vi inte får vara med i en regering är befängt, säger en vänsterpartist.\nSamtidigt har V-ledningen i ett internt mejl uppmanat sina företrädare att inte prata med journalister.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-10T06:05:35.388994+00:00"
     }
   ]
 }

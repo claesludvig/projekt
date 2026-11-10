@@ -1,54 +1,66 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-09
+# Svensk politik och regeringsförhandlingarna — 2026-11-10
 
-9 nya poster sedan förra utskicket (39 redan utskickade, 152 utanför ämnet).
+11 nya poster sedan förra utskicket (33 redan utskickade, 158 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Dadgostar vädjar till C: Gå inte över](https://www.svd.se/a/z0LBxr/gabrielsson-efter-s-beskedet-ar-besviken)
-SvD Ledare · 2026-11-09 · Peter Wallberg/TT, Anja Haglund/TT
+### [V-distrikt: ”Kompakt stöd för partilinjen”](https://www.svd.se/a/7Pl82B/v-distrikt-kompakt-stod-for-partilinjen)
+SvD Ledare · 2026-11-10 · Johanna Ekström/TT, Anja Haglund/TT
 
-Vänsterpartiet är besviket efter Socialdemokraternas besked att man inte vill ha med V i regering.
+S-ledaren vill att V överväger rollen som samarbetsparti i stället för regeringsparti.
+
+### [Gabrielsson: Redo släppa viktiga frågor](https://www.svd.se/a/ez1QOM/ida-gabriellson-v-redo-slappa-viktiga-fragor)
+SvD Ledare · 2026-11-09 · Karin Thurfjell
+
+Vänsterpartiet var redo släppa viktiga frågor i förhandlingar med Centerpartiet, säger Ida…
 
 ## Rapportering
 
-### [Ygeman (S): ”Misslyckande för alla fyra partier”](https://www.svt.se/nyheter/inrikes/ygeman-s-misslyckande-for-alla-fyra-partier)
-SVT Nyheter · 2026-11-09 · Gustav Motte
+### [Flera V-distrikt ställer sig bakom krav på ministerposter](https://www.sverigesradio.se/artikel/9337662)
+Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Socialdemokraterna vill se en regering utan Vänsterpartiet – något Ida Gabrielsson (V) säger är omöjligt. Temperaturen i regeringsförhandlingarna höjs nu. – Det är naturligtvis ett misslyckande för alla fyra partier, säger Anders Ygeman (S) om inte de rödgröna lyckas bilda en regering.
+Flera av Vänsterpartiets distrikt ute i landet står fast vid partiets kongressbeslutet att kräva ministerposter i en regering, skriver TT. Västerbotten, Stockholm, Göteborg, Kalmar, Jönköping och Östergötland uppger att deras medlemmar inte kommer backa från regeringskravet. Socialdemokraternas Magdalena Andersson meddelade i söndags att hon vill lämna V utanför en regering och vädjade samtidigt till vänsterpartiet att tänka över sitt regeringskrav.
 
-### [Helena Gissén om Anderssons (S) ord: ”Jag hoppade till”](https://www.sverigesradio.se/artikel/9337240)
+### [Ida Gabrielsson pressas om ministerkravet: ”Har diskuterats”](https://www.svt.se/nyheter/inrikes/ida-gabrielsson-pressas-om-ministerkravet-har-diskuterats)
+SVT Nyheter · 2026-11-09 · Emma Blomström
+
+I Aktuellt pressas Ida Gabrielsson (V) på kravet om ministerposter. Hon säger att partiet varit redo att förhandla och prata om allt – till och med ministerkravet. – Det där hade vi fått diskutera ordentligt, säger hon. Strax efter förtydligar hon på X att V inte bytt ståndpunkt.
+
+### [Statsvetare: ”Då kan V överge regeringskravet”](https://www.svt.se/nyheter/inrikes/statsvetare-da-kan-v-overge-regeringskravet)
+SVT Nyheter · 2026-11-09 · Malvina Britts
+
+Vänsterpartiet kan inte ändra sig i regeringsfrågan, hävdar vice partiledaren Ida Gabrielsson med hänvisning till ett kongressbeslut. Men det stämmer inte, menar statsvetare som SVT pratat med. – Jag tror att det finns mycket som talar för att Vänsterpartiet kan överväga att släppa kravet, säger Jenny Madestam.
+
+### [Mats Knutson svarar på dina frågor om svensk politik och regeringsbildningen](https://www.svt.se/nyheter/inrikes/mats-knutson-svarar-pa-dina-fragor-om-svensk-politik-och-regeringsbildningen) **[kommentator]**
+SVT Nyheter · 2026-11-09 · Jonas Ekman
+
+”Monumentala svek”, släppta regeringskrav och hemliga möten – utanför strålkastarljusen. Det händer mycket i svensk politik just nu, vad undrar du om regeringsbildningen? Chatta med SVT:s inrikespolitiska kommentator Mats Knutson här nedan:
+
+### [Tidigare S-ministern: M och S borde regera tillsammans](https://www.sverigesradio.se/artikel/9337633)
 Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Regeringsbildningsprocessen fortsätter och Socialdemokraternas partiledare Magdalena Andersson säger i P4 Extra att hon tror att väljarna undrar ”vad fan” politikerna håller på med , ett uttalande som Ekots inrikespolitiska kommentator Helena Gissén reagerar på. ”Jag hoppade till”, säger hon i en analys i P4 Extra . S-ledaren meddelade under söndagen att hon vill leda en regering bestående av S, C och MP, i samarbete med V. Men Helena Gissén tror att V kommer hålla fast vid sitt regeringskrav.
+I fler än 50 svenska kommuner styr Socialdemokraterna och Moderaterna tillsammans. Thomas Bodström, som var socialdemokratisk justitieminister mellan år 2000 och 2006, tycker att den konstellationen bör prövas även på nationell nivå. ”Båda partierna skulle ju vara tvungna att kompromissa. Men det är två partier som faktiskt är rätt lika på många sätt”, säger Bodström.
 
-### [Så ser politiska veckan ut](https://www.sverigesradio.se/artikel/9337216)
+### [Gabrielsson: Jättenervös för hur det här ska sluta](https://www.sverigesradio.se/artikel/9337314)
 Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Senast nu på fredag den 13 november ska både Magdalena Andersson och Ulf Kristersson ha presenterat hela sitt ”totalpaket” till Elisabeth Thand Ringqvist. Ulf Kristersson ska även slutrapportera sitt sonderingsuppdrag till talmannen i slutet av veckan. Dessutom drar budgetprocessen igång när regeringen lämnar över sin budgetproposition till riksdagen nu på torsdag den 12 november.
+Vänsterpartiet håller fast vid kongressbeslutet att inte släppa fram en S-ledd regering med Magdalena Andersson som statsminister om partiet inte självt ingår. Socialdemokraterna säger att V kan få inflytande utan ministerposter och uppmanar partiet att tänka om. V:s vice partiledare Ida Gabrielsson är orolig för regeringsbildningen: ”Jättenervös. Jag tycker det är väldigt beklagligt att vi inte gjorde mer innan valet.”
 
-### [Andersson (S): ”Tror de undrar vad fan vi håller på med”](https://www.sverigesradio.se/artikel/9337224)
+### [V nobbar möte: ”Man satte ju stopp för det vi hade börjat”](https://www.sverigesradio.se/artikel/9337571)
 Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Hittills har det gått 56 sedan valet och Sverige har ännu inte en regering på plats. När Socialdemokraternas partiledare Magdalena Andersson intervjuades i P4 Extra under måndagen fick hon frågan om vad hon tror att väljarna tänker om regeringsbildningsprocessen. ”Jag tror att de undrar vad fan vi håller på med”, svarade S-ledaren då. Det var under söndagen som Magdalena Andersson meddelade att hon vill se en regering bestående av S, C och MP, med stöd av V.
+Enligt uppgift till Ekot har partiledarna för Socialdemokraterna, Centerpartiet och Miljöpartiet under måndagen haft möte på en konferensanläggning utanför Stockholm, något som Dagens Nyheter var först med att berätta. V:s ledare var inbjuden, men valde att inte delta, uppger en S-källa för Ekot. Det efter helgens besked från Magdalena Andersson om att Vänsterpartiet inte ska ingå i en tänkt rödgrön regering. ”Man satte ju stopp för det arbetet vi hade börjat”, säger Ida Gabrielsson (V). ”Vi var väldigt överens om att inte överraska varandra med presskonferenser”, fortsätter hon.
 
-### [Källor: Dragkamp inom C om en högersväng](https://www.sverigesradio.se/artikel/9337178)
-Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Stor oro i V efter nobben från S-ledaren: ”Har gått helt överstyr”](https://www.dn.se/sverige/stor-oro-i-v-efter-nobben-fran-s-ledaren-har-gatt-helt-overstyr)
+DN Nyheter · 2026-11-09 · Evelyn Jones, Hans Rosén
 
-Det pågår en dragkamp inom Centerpartiet efter centerledaren Elisabeth Thand Ringqvists öppning högerut i fredags. Frågan om partiet ska gå höger eller vänsterut har just nu inget svar, men flera källor i partiet beskriver öppningen som ett försök att dra partiet högerut. Vilken väg partiet väljer kommer enligt en C-källa att avgöras i partiets förtroenderåd efter Socialdemokraternas och Moderaternas återkoppling på fredag.
+Det finns en stor oro i Vänsterpartiet över att Centern är på väg att byta sida, enligt källor i V-toppen – men själva tänker de inte vika ner sig om ministerposter. – Att vi inte får vara med i en regering är befängt, säger en vänsterpartist. Samtidigt har V-ledningen i ett internt mejl uppmanat sina företrädare att inte prata med journalister.
 
-### [Gissén: Sverige är inte närmare en rödgrön regering](https://www.sverigesradio.se/artikel/9337014)
-Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
+## Officiella besked
 
-Sverige är inte närmare en rödgrön regering, och även på den borgerliga sidan finns stora utmaningar, säger Ekots politiska kommentator Helena Gissén efter de senaste dagarnas politiska utspel. Centerpartiet har öppnat för att även kunna stödja Ulf Kristersson, beroende på vilken politik han presenterar. På söndagen meddelade Socialdemokraternas partiledare Magdalena Andersson att hon vill bilda regering tillsammans med Centerpartiet och Miljöpartiet, men utan Vänsterpartiet.
+### [Presentation av budgetpropositionen för 2027](https://www.regeringen.se/pressmeddelanden/2026/11/presentation-av-budgetpropositionen-for-2027)
+Regeringen.se · 2026-11-09 · Regeringskansliet
 
-### [Ygeman (S): ”Det sista V vill se är ännu en Tidö-regering stödd av SD”](https://www.sverigesradio.se/artikel/9336943)
-Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
+Torsdag den 12 november klockan 08.00 kommer övergångsregeringen att överlämna budgetpropositionen för 2027 till riksdagen. Finansminister Elisabeth Svantesson kommer att presentera budgeten under en pressträff som börjar klockan 08.30.
 
-Socialdemokraternas partiledare Magdalena Andersson gav beskedet på söndagskvällen om att man vill bilda regering med Centerpartiet och Miljöpartiet, men inte Vänsterpartiet. Socialdemokraternas vice gruppledare Anders Ygeman berättar varför det har tagit så lång tid att ge besked om regeringsfrågan, men ser ändå en möjlighet att Vänsterpartiet kommer ändra sig. ”Det sista de vill se är ännu en Tidö-regering stödd på Sverigedemokraterna”, säger vice gruppledaren i P1 Morgon på måndagen.
-
-### [Inte hängt med i regeringsbildningen? Detta har hänt](https://www.dn.se/sverige/inte-hangt-med-i-regeringsbildningen-detta-har-hant)
-DN Nyheter · 2026-11-09 · Ossi Carp
-
-De senaste dagarna har svensk toppolitik präglats extra mycket av olika utspel om vem som kan tänka sig samarbeta med vem. Här är en sammanfattning av läget efter 57 dagar utan ny regering.
-
-_Genererat 2026-11-09T14:03:58.463657+00:00._
+_Genererat 2026-11-10T06:05:35.388994+00:00._
