@@ -1,66 +1,66 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-10
 
-11 nya poster sedan förra utskicket (33 redan utskickade, 158 utanför ämnet).
+10 nya poster sedan förra utskicket (37 redan utskickade, 154 utanför ämnet).
 
 ## Analys och kommentar
 
-### [V-distrikt: ”Kompakt stöd för partilinjen”](https://www.svd.se/a/7Pl82B/v-distrikt-kompakt-stod-for-partilinjen)
-SvD Ledare · 2026-11-10 · Johanna Ekström/TT, Anja Haglund/TT
+### [Andersson: Redo för nytt sonderingsuppdrag](https://www.svd.se/a/XowVPm/andersson-det-ror-pa-sig-behover-mer-tid)
+SvD Ledare · 2026-11-10 · Niklas Svahn/TT, Anja Haglund/TT
 
-S-ledaren vill att V överväger rollen som samarbetsparti i stället för regeringsparti.
+S-ledaren Magdalena Andersson har varit hos talmannen och framfört att det rör på sig i…
 
-### [Gabrielsson: Redo släppa viktiga frågor](https://www.svd.se/a/ez1QOM/ida-gabriellson-v-redo-slappa-viktiga-fragor)
-SvD Ledare · 2026-11-09 · Karin Thurfjell
+### [Kristersson på nordiskt möte med Zelenskyj](https://www.svd.se/a/8Pwy0r/kristersson-pa-nordiskt-mote-med-zelenskyj)
+SvD Ledare · 2026-11-10 · Fredrik Tideman, TT
 
-Vänsterpartiet var redo släppa viktiga frågor i förhandlingar med Centerpartiet, säger Ida…
+Statsminister Ulf Kristersson kommer att delta på ett möte med Volodymyr Zelenskyj och flera…
+
+### [LO till V: Släpp kravet på ministerposter](https://www.svd.se/a/0p33lG?pinnedEntry=79746)
+SvD Ledare · 2026-11-10
+
+Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.
+LO till V: Släpp kravet på ministerposter
+I en debattartikel som publiceras på Aftonbladets debattsida vädjar nu LO till Vänsterpartiet att släppa sitt absoluta krav på ministerposter.
+"Vänsterpartiet har all rätt att kräva politiskt inflytande för sina mandat. Partiet driver dessutom en politik som i stora delar ligger nära våra fackliga intressen. Men politiskt inflytande och ministerposter är inte samma sak", skriver de bland annat.
+LO uppmanar Vänsterpartiet att i stället satsa allt på att förhandla sakpolitik.
+Skapa ett k
 
 ## Rapportering
 
-### [Flera V-distrikt ställer sig bakom krav på ministerposter](https://www.sverigesradio.se/artikel/9337662)
+### [Chatt: Rör det på sig nu i regeringsbildningen?](https://www.svt.se/nyheter/inrikes/chatt-ror-det-pa-sig-nu-i-regeringsbildningen)
+SVT Nyheter · 2026-11-10 · Klara Stefansson
+
+Det fullkomligt regnar av utspel i svensk politik när regeringsförhandlingarna kokar till höger och vänster. Nu återstår frågorna: Rör det på sig nu – på riktigt? Vem kan ta vem? Få svar av SVT:s politikreportrar Julia Lindvall och Daniel Ingmo med start 14.15.
+
+### [Oro i Vänsterpartiet – tror att Kristersson blir statsminister](https://www.svt.se/nyheter/inrikes/oro-i-vansterpartiet-tror-att-kristersson-blir-statsminister)
+SVT Nyheter · 2026-11-10 · Julia Lindvall, Kristoffer Törnmalm
+
+Oro och nedstämdhet. Vänsterpartiet upplever att det är mer eller mindre kört för en rödgrön regering att tillträda, enligt SVT:s källor. Samtidigt finns ett fortsatt starkt stöd för kravet på ministerposter. – Jag ser inte så många vägar framåt än att fortsätta stå upp, det är vår trovärdighet som står på spel, säger en V-källa.
+
+### [Zelenskyj träffar nordiska ledare i dag](https://www.sverigesradio.se/artikel/9337730)
 Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Flera av Vänsterpartiets distrikt ute i landet står fast vid partiets kongressbeslutet att kräva ministerposter i en regering, skriver TT. Västerbotten, Stockholm, Göteborg, Kalmar, Jönköping och Östergötland uppger att deras medlemmar inte kommer backa från regeringskravet. Socialdemokraternas Magdalena Andersson meddelade i söndags att hon vill lämna V utanför en regering och vädjade samtidigt till vänsterpartiet att tänka över sitt regeringskrav.
+Ukrainas president Zelenskyj ska idag träffa nordiska stats- och regeringschefer i Danmark, uppger danska regeringen. De ska bland annat diskutera militärt stöd till Ukraina och säkerhet i Europa. På dagordningen står också Ukrainas akuta behov av luftförsvar och skydd av energiskektorn, enligt regeringen. Med på mötet är bland andra statsminister Ulf Kristersson.
 
-### [Ida Gabrielsson pressas om ministerkravet: ”Har diskuterats”](https://www.svt.se/nyheter/inrikes/ida-gabrielsson-pressas-om-ministerkravet-har-diskuterats)
-SVT Nyheter · 2026-11-09 · Emma Blomström
+### [Konto på bettingsajt kan tjäna nära 130 000 kronor efter Åkessons utspel](https://www.dn.se/sverige/konto-pa-bettingsajt-kan-tjana-nara-130-000-kronor-efter-akessons-utspel)
+DN Nyheter · 2026-11-10 · Hugo Ewald
 
-I Aktuellt pressas Ida Gabrielsson (V) på kravet om ministerposter. Hon säger att partiet varit redo att förhandla och prata om allt – till och med ministerkravet. – Det där hade vi fått diskutera ordentligt, säger hon. Strax efter förtydligar hon på X att V inte bytt ståndpunkt.
+Någon kan tjäna en rejäl hacka på regeringsbildningen. Timmarna innan Jimmie Åkessons dramatiska besked i regeringsfrågan satsade ett nystartat bettingkonto över 100 000 kronor på att Ulf Kristersson blir återvald som statsminister. Positionerna går att sälja vidare – och har nu ökat kraftigt i värde.
 
-### [Statsvetare: ”Då kan V överge regeringskravet”](https://www.svt.se/nyheter/inrikes/statsvetare-da-kan-v-overge-regeringskravet)
-SVT Nyheter · 2026-11-09 · Malvina Britts
+### [Centern: ”Vi har inte bytt position om SD”](https://www.dn.se/sverige/centern-vi-har-inte-bytt-position-om-sd)
+DN Nyheter · 2026-11-10 · Hans Rosén
 
-Vänsterpartiet kan inte ändra sig i regeringsfrågan, hävdar vice partiledaren Ida Gabrielsson med hänvisning till ett kongressbeslut. Men det stämmer inte, menar statsvetare som SVT pratat med. – Jag tror att det finns mycket som talar för att Vänsterpartiet kan överväga att släppa kravet, säger Jenny Madestam.
+Centern håller öppet för att stödja Ulf Kristersson som statsminister – men partiets inställning till Sverigedemokraterna är fortfarande densamma, enligt partisekreterare Hannes Hervieu. – Vi har inte bytt position, säger han.
 
-### [Mats Knutson svarar på dina frågor om svensk politik och regeringsbildningen](https://www.svt.se/nyheter/inrikes/mats-knutson-svarar-pa-dina-fragor-om-svensk-politik-och-regeringsbildningen) **[kommentator]**
-SVT Nyheter · 2026-11-09 · Jonas Ekman
+### [Så fungerar det om det blir ett extra val](https://www.dn.se/sverige/sa-fungerar-det-om-det-blir-ett-extra-val)
+DN Nyheter · 2026-11-10 · William Svensson _(betalvägg — endast ingress)_
 
-”Monumentala svek”, släppta regeringskrav och hemliga möten – utanför strålkastarljusen. Det händer mycket i svensk politik just nu, vad undrar du om regeringsbildningen? Chatta med SVT:s inrikespolitiska kommentator Mats Knutson här nedan:
-
-### [Tidigare S-ministern: M och S borde regera tillsammans](https://www.sverigesradio.se/artikel/9337633)
-Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-I fler än 50 svenska kommuner styr Socialdemokraterna och Moderaterna tillsammans. Thomas Bodström, som var socialdemokratisk justitieminister mellan år 2000 och 2006, tycker att den konstellationen bör prövas även på nationell nivå. ”Båda partierna skulle ju vara tvungna att kompromissa. Men det är två partier som faktiskt är rätt lika på många sätt”, säger Bodström.
-
-### [Gabrielsson: Jättenervös för hur det här ska sluta](https://www.sverigesradio.se/artikel/9337314)
-Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Vänsterpartiet håller fast vid kongressbeslutet att inte släppa fram en S-ledd regering med Magdalena Andersson som statsminister om partiet inte självt ingår. Socialdemokraterna säger att V kan få inflytande utan ministerposter och uppmanar partiet att tänka om. V:s vice partiledare Ida Gabrielsson är orolig för regeringsbildningen: ”Jättenervös. Jag tycker det är väldigt beklagligt att vi inte gjorde mer innan valet.”
-
-### [V nobbar möte: ”Man satte ju stopp för det vi hade börjat”](https://www.sverigesradio.se/artikel/9337571)
-Ekot, Sveriges Radio · 2026-11-09 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Enligt uppgift till Ekot har partiledarna för Socialdemokraterna, Centerpartiet och Miljöpartiet under måndagen haft möte på en konferensanläggning utanför Stockholm, något som Dagens Nyheter var först med att berätta. V:s ledare var inbjuden, men valde att inte delta, uppger en S-källa för Ekot. Det efter helgens besked från Magdalena Andersson om att Vänsterpartiet inte ska ingå i en tänkt rödgrön regering. ”Man satte ju stopp för det arbetet vi hade börjat”, säger Ida Gabrielsson (V). ”Vi var väldigt överens om att inte överraska varandra med presskonferenser”, fortsätter hon.
-
-### [Stor oro i V efter nobben från S-ledaren: ”Har gått helt överstyr”](https://www.dn.se/sverige/stor-oro-i-v-efter-nobben-fran-s-ledaren-har-gatt-helt-overstyr)
-DN Nyheter · 2026-11-09 · Evelyn Jones, Hans Rosén
-
-Det finns en stor oro i Vänsterpartiet över att Centern är på väg att byta sida, enligt källor i V-toppen – men själva tänker de inte vika ner sig om ministerposter. – Att vi inte får vara med i en regering är befängt, säger en vänsterpartist. Samtidigt har V-ledningen i ett internt mejl uppmanat sina företrädare att inte prata med journalister.
+För varje misslyckad statsministeromröstning rycker ett extra val allt närmare. Det kommer i så fall att kosta hundratals miljoner att genomföra och sätta hård press på landets kommuner. – Vi är förberedda, säger Anna Nyqvist på Valmyndigheten.
 
 ## Officiella besked
 
-### [Presentation av budgetpropositionen för 2027](https://www.regeringen.se/pressmeddelanden/2026/11/presentation-av-budgetpropositionen-for-2027)
-Regeringen.se · 2026-11-09 · Regeringskansliet
+### [Statsministern till Danmark för möte med nordiska ledare och president Zelenskyj](https://www.regeringen.se/pressmeddelanden/2026/11/statsministern-till-danmark-for-mote-med-nordiska-ledare-och-president-zelenskyj)
+Regeringen.se · 2026-11-10 · Regeringskansliet
 
-Torsdag den 12 november klockan 08.00 kommer övergångsregeringen att överlämna budgetpropositionen för 2027 till riksdagen. Finansminister Elisabeth Svantesson kommer att presentera budgeten under en pressträff som börjar klockan 08.30.
+Tisdag 10 november reser statsminister Ulf Kristersson till Danmark för ett möte mellan de nordiska stats- och regeringscheferna och Ukrainas president Volodymyr Zelenskyj.
 
-_Genererat 2026-11-10T06:05:35.388994+00:00._
+_Genererat 2026-11-10T14:06:23.988266+00:00._
