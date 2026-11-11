@@ -1,6 +1,6 @@
 # Lägesbild vecka 46 2026
 
-Skapad 2026-11-10 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-11-11 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
 
 ## Värd att bevaka
 
