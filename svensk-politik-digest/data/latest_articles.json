@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-11T06:02:47.534337+00:00",
-  "new_count": 15,
+  "fetched_at": "2026-11-11T14:03:07.506735+00:00",
+  "new_count": 8,
   "skipped": {
-    "seen": 35,
-    "offtopic": 149,
-    "old": 11
+    "seen": 40,
+    "offtopic": 147,
+    "old": 15
   },
-  "fetch_errors": 6,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 5,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 6,
+      "new": 3,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -53,290 +53,165 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/z0LaV5/akesson-siktar-pa-statsminister-2030-koslapp",
-      "title": "Åkesson siktar på statsminister 2030: ”Kosläpp”",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-11",
-      "author": "Niklas Svahn/TT",
-      "commentator": "",
-      "summary": "Jimmie Åkesson är sugen på oppositionsrollen. Nu har SD fyra år på sig att bredda sin politik och…",
-      "fulltext": "Partiledare Jimmie Åkesson (SD) Foto: Johan Nilsson/TT\nJimmie Åkesson är sugen på oppositionsrollen. Nu har SD fyra år på sig att bredda sin politik och sikta mot regeringsmakten 2030.\n– Riksdagsgruppen mår bra, det är lite kosläpp, säger Åkesson.\nDet är en glad partiledare som ger intervjuer två månader efter valdagen.\nSD kommer att gå i ”full opposition” den här mandatperioden, oavsett vem som bildar regering. Jimmie Åkesson säger att han ser att mycket bra politik har kommit ut ur Tidösamarbetet med M, KD och L – men samtidigt har SD hållits tillbaka, anser han.\n– Som största parti i det här regeringsunderlaget har vi fått tugga i oss en del saker. Ibland har jag låtit som en bättre moderat än Moderaterna själva, och det är inte riktigt den rollen jag vill ha.\nHan nämner framför allt att SD fått svälja ”borgerlig moderat ekonomisk politik” med sänkta skatter för höginkomsttagare. Den har nödvändigtvis inte varit dålig, enligt Åkesson. Men svårsmält.\n– Det är något som vi tvingats göra mer eller mindre för att vi fått andra saker.\n– Vi hade nog ändå prioriterat att sänka skatten för människor med mer normala inkomster. På det sättet är vi ju inte ett ekonomiskt högerparti. Andra partier är väldigt besjälade av marginalskatter och sådant.\nMånga av SD:s riksdagsledamöter har också känt en frustration de gångna fyra åren.\n– Det finns ett uppdämt behov av att trycka till Moderaterna från oss. Det är lite kosläpp, nu är Sverigedemokraterna fria, säger han.\nSänkt matmoms samt sänkt bensin- och dieselskatt har varit viktigare för SD i budgetförhandlingar. Nästa mandatperiod blir fokus för partiet en stor tandvårdsreform.\nÅkesson nämner också att SD ska utveckla sin politik inom utrikes-, landsbygds- och välfärdsfrågor.\nVem som bildar regering är fortfarande oklart men Åkesson hade föredragit att vara i opposition mot en borgerlig regering. Annars ser han en risk att SD inte blir lika relevant.\nSamtidigt hoppas han på sikt att kunna samarbeta över blockgränsen med S.\n– Vi är i grunden ett parti som kan förhandla åt båda håll. Vi har ett vänsterblock och ett högerblock och sedan oss i mitten som ett tredje block.\nÅkesson har suttit på partiledarposten i 21 år. Han har inga planer på att sluta. Det är i opposition som SD haft ”växtvärk” sedan man kom in i riksdagen 2010.\n– Jag är jättesugen på det. Det är jättekul att se vad det här kan ta vägen.\nHan har tidigare sagt att han siktar på statsministerposten 2030 och det står han fast vid.\nSamtidigt ser han ”absolut” att det finns företrädare i partiet som skulle kunna ta över hans ledarroll.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/oMR5XK/kristersson-risk-att-lander-spelar-solo-om-ukraina",
-      "title": "Kristersson: Risk att länder spelar solo om Ukraina",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-10",
-      "author": "TT",
-      "commentator": "",
-      "summary": "Statsminister Ulf Kristersson håller med president Volodymyr Zelenskyj om att Europa bör utse en…",
-      "fulltext": "Statsminister Ulf Kristersson håller med president Volodymyr Zelenskyj om att Europa bör utse en gemensam företrädare för fredsförhandlingarna. Själv ställer han dock inte upp som kandidat.\n– Jag håller helt med honom i sak om detta, säger Kristersson till TT efter att ha deltagit i ett möte mellan Zelenskyj och nordiska ledare på plats i Köpenhamn.\nTidigare på tisdagen sade Ukrainas ledare i samband med ett samtal inför åhörare vid Köpenhamns universitet att Europa ”inte kan ha 40 personer som pratar med Putin”. Uppmaningen kommer samtidigt som trepartssamtalen mellan Ryssland och Ukraina med USA som medlare pågår i Abu Dhabi.\nStatsministern ser å sin sida tydliga risker om man inte lyckas enas om en person som kan föra européernas talan.\n– Det är alldeles uppenbart att det finns ju en viss risk att det är väldigt många olika länder som börjar företräda sig själva eller Europa i direkt kontakt med Ryssland, säger Kristersson, och fortsätter:\n– Ju mer Europa talar med samlad röst, desto bättre.\nHan beskriver samtidigt processen med att hitta denna företrädare som ”lättare sagt än gjort” och nämner att det finns en del att bena ut, däribland att alla europeiska länder inte är medlemmar i EU.\n– Nej, det är jag inte. Det måste i grund och botten vara antingen något av de riktigt stora europeiska länderna, som också har auktoritet gentemot både USA och Ryssland, eller så måste det vara någon person som kan tala för samtliga EU-länder.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/regeringsfragan-kan-avgoras-redan-nasta-vecka",
-      "title": "”Regeringsfrågan kan avgöras redan nästa vecka”",
+      "url": "https://www.svt.se/nyheter/inrikes/svtverian-s-sjunker-i-opinionen-lagsta-siffran-under-andersson",
+      "title": "SVT/Verian: S sjunker i opinionen – lägsta siffran under Andersson",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Mats Knutson",
-      "commentator": "Mats Knutson",
-      "summary": "Efter flera veckor på tomgång går regeringsbildningen nu på högvarv. På tisdag i nästa vecka ska M-ledaren Ulf Kristersson rapportera sitt sonderingsuppdrag till talmannen. Därmed kan regeringsfrågan avgöras i en statsministeromröstning redan i slutet av nästa vecka.",
-      "fulltext": "Efter flera veckor på tomgång går regeringsbildningen nu på högvarv. På tisdag i nästa vecka ska M-ledaren Ulf Kristersson rapportera sitt sonderingsuppdrag till talmannen. Därmed kan regeringsfrågan avgöras i en statsministeromröstning redan i slutet av nästa vecka.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "published": "2026-11-11",
+      "author": "Malvina Britts",
+      "commentator": "",
+      "summary": "Samtidigt som Magdalena Andersson försöker få ihop en regering sjunker Socialdemokraternas väljarstöd. I SVT/Verians novembermätning får partiet sin lägsta notering sedan Andersson tillträdde hösten 2021. – Den tilltagande kritiken mot S hantering av regeringsbildningen har troligen påverkat stödet för partiet, säger Per Söderpalm, opinionsansvarig på Verian.",
+      "fulltext": "Samtidigt som Magdalena Andersson försöker få ihop en regering sjunker Socialdemokraternas väljarstöd. I SVT/Verians novembermätning får partiet sin lägsta notering sedan Andersson tillträdde hösten 2021.\n– Den tilltagande kritiken mot S hantering av regeringsbildningen har troligen påverkat stödet för partiet, säger Per Söderpalm, opinionsansvarig på Verian.\nHösten har inrikespolitiskt präglats av en långsam regeringsbildning. Först den senaste veckan har det vittnats om att förhandlingar gjort att processen mot en ny regering börjat ta fart.\nVäljarna har sedan valet gjort vissa förflyttningar, enligt Verians väljarbarometer.\nBåde C och S har statistiskt säkerställda tapp. För S tycks tappet främst ha skett den senaste månaden, och i mätningen landar de på 26,1 procent. Det är partiets lägsta notering sedan september 2021 och ett bottenrekord för S under Magdalena Anderssons tid som partiledare. De tappar främst väljare till Moderaterna, men också till Miljöpartiet.\n– Den utlovade starka statsministern har inte lyckats få ihop det och det är klart att det straffar sig i opinionen, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.\nModeraterna går i motsatt riktning och fortsätter att stärka sitt stöd. De får 23,3 procent och det skiljer i dag knappt tre procentenheter mellan M och S.\nSamtidigt går Tidöpartierna för första gången på över fyra år om de rödgröna i en Verianmätning.\n– Att M lyckas locka väljare över blockgränsen är den främsta förklaringen till att Tidöpartierna går om de rödgröna, säger Per Söderpalm.\nVänsterpartiet noterar i den här mätningen 8,5 procent och ligger därmed i nivå med sitt valresultat.\nElisabeth Marmorstein menar att det kan stärka V i de pågående förhandlingarna.\n– De som har hoppats på att fallande opinionssiffror skulle få V att vika sig i sitt krav på ministerposter får nog tänka om, säger hon.\nCenterpartiet backar däremot för andra månaden i rad och får 5,7 procent. Det är partiets lägsta stöd sedan juni och en signifikant nedgång jämfört med valresultatet. Partiet tappar främst väljare till M, men också till S.\n– Osäkerheten kring Centerpartiets vägval i regeringsfrågan kan ha spelat en roll för vissa väljare, säger Söderpalm.\nElisabeth Marmorstein är inne på samma linje.\n– Risken är att de tappar ytterligare om deras vägval i regeringsfrågan leder till en svekdebatt.\nTidöpartierna samlar totalt 50,6 procent mot de rödgröna partiernas 47,7 procent. Skillnaden på 2,9 procentenheter är dock inte statistiskt säkerställd.\nI en tidigare version av artikeln framgick felaktiga siffror på Moderaterna och Kristdemokraternas förändringar. Det korrekta är att M stigit 1,0 procentenheter och KD har stigit 0,4 procentenheter.\nVerians väljarbarometer baseras på cirka 3 000 genomförda intervjuer med personer i Sifo-panelen – en panel som rekryteras via slumpmässiga riksrepresentativa urval. Panelen består av cirka 85 000 deltagare. Urvalet sker i åldrarna 18-84 år. Undersökningen kompletteras med telefonintervjuer med personer i åldrarna 85 år och uppåt.\nFrågan som ställs är: ”Vilket parti skulle du rösta på om det vore val i dag?”\nSvarsfrekvensen i väljarbarometern ligger kring 40 procent. De svarande kontrolleras så att de är representativa för olika demografiska grupper som kön, ålder, region, utbildning och partisympati i föregående val.\nVäljarbarometer genomfördes under dessa datum: 26 oktober till 8 november 2026.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "regeringsfråg",
-        "talman",
-        "sondering",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument//_cms4af359f6-45b3-4573-92ba-f4995b5144dbsv",
-      "title": "Talmannen ger besked om den fortsatta processen för regeringsbildningen",
-      "source": "Riksdagen",
-      "kind": "officiell",
-      "published": "2026-11-10",
-      "author": "riksdagsinformation@riksdagen.se",
-      "commentator": "",
-      "summary": "… Pressackreditering Praktisk information för arbete i anslutning till riksdagsvalet Kontakt Talmannens pressekreterare, 08-786 44 00, press@riksdagen.se Talmannen ger besked om den fortsatta processen för regeringsbildningen Ulf Kristersson (M) kommer tisdagen den 17 november att rapportera sitt uppdrag att sondera förutsättningarna för att bilda regering till talman Andreas Norlén. Talmannen ger besked om den fortsatta processen för regeringsbildningen press … 2026-11-10 15:53:00",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '404 Not Found' for url 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_cms4af359f6-45b3-4573-92ba-f4995b5144dbsv/'",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman",
-        "riksdagsval"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338313",
-      "title": "Bildt: ”Putin är inriktad på att eskalera kriget”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Tidigare statsministern Carl Bildt bedömer att Vladimir Putin vill trappa upp kriget mot Ukraina, samtidigt som samtal om fred har inletts i Förenade Arabemiraten. Enligt Bildt saknas tecken på rysk vilja till vapenvila, medan Ukraina driver krav på säkerhetsgarantier liknande Natos artikel 5. ”Jag tror att väldigt mycket av de här talet om garantier är mycket luftslott”, säger han.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338313'",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338258",
-      "title": "Furtenbach: ”Kristerssons chanser har definitivt ökat”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "58 dagar har gått sedan regeringsbildningen och det politiska läget är fortsatt låst. Men efter Jimmie Åkessons (SD):s slopade krav på ministerposter har nya öppningar skapats, enligt Ekots politiska kommentatorer Helena Gissén och Fredrik Furtenbach. ”Kristerssons chanser har definitivt ökat”, säger Fredrik Furtenbach i Studio Ett.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338258'",
-      "matched_terms": [
-        "regeringsbildning",
-        "ministerpost"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338254",
-      "title": "Furtenbach: ”Det kan gå ganska fort nu”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Ulf Kristerssons chanser att bli statsminister har ökat, samtidigt som Magdalena Andersson vill vänta med en omröstning. Enligt Ekots politikkommentator Fredrik Furtenbach har SD:s besked och Centerns hållning skapat oro i de rödgröna partierna, medan C internt uppges väga mellan båda kandidaterna. ”Jag tror att även om processen inte blir helt klar så tror jag att det kan gå ganska fort nu innan vi ser vartåt det lutar. Det är opinionen inom Centern som kan avgöra detta”, säger Furtenbach om regeringsbildningen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338254'",
-      "matched_terms": [
-        "regeringsbildning",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338201",
-      "title": "Talmannen ger Kristersson en vecka till att sondera",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "• Ulf Kristersson (M) får ytterligare tid för att sondera förutsättningarna för att bilda en ny regering. Han får nu förlängt till tisdag den 17 november. Ulf Kristersson själv välkomnar talmannens besked, det skriver han i ett inlägg på sociala medier.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338201'",
-      "matched_terms": [
-        "talman"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338114",
-      "title": "Andersson: Det rör på sig i regeringsfrågan",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Socialdemokraternas partiledare Magdalena Andersson ger nu besked om att det rör på sig i regeringsfrågan på hennes sida. Hon har bett talmannen att inte pröva M-ledaren Ulf Kristersson i nästa statsministeromröstning, om han inte har fått ihop en regering. ”En sådan här process behöver ha en kombination av viss tidspress, men också tid för eftertanke”, säger hon.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338114'",
-      "matched_terms": [
-        "regeringsfråg",
-        "talman",
-        "statsminister",
-        "partiledar",
         "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
     },
     {
-      "url": "https://www.dn.se/ledare/susanne-nystrom-romina-pourmokhtari-gor-en-katastrofal-felbedomning",
-      "title": "Susanne Nyström: Romina Pourmokhtari gör en katastrofal felbedömning",
-      "source": "DN Nyheter",
-      "kind": "kommentar",
-      "published": "2026-11-10",
-      "author": "Susanne Nyström",
-      "commentator": "Susanne Nyström",
-      "summary": "Det går att få för sig att SD:s stöd är gratis, nu när Jimmie Åkesson har sagt sig acceptera Ulf Kristersson som statsminister utan att ställa några krav. Inget kan vara mer fel.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 07:02\nArtikelns ursprungsadress: https://www.dn.se/ledare/susanne-nystrom-romina-pourmokhtari-gor-en-katastrofal-felbedomning/\nDet går att få för sig att SD:s stöd är gratis, nu när Jimmie Åkesson har sagt sig acceptera Ulf Kristersson som statsminister utan att ställa några krav. Inget kan vara mer fel.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nDen som tittade på Aktuellt i måndags hörde minister Romina Pourmokhtari (L) sjunga Jimmie Åkessons (SD) lov ( 9/11 ). Det hette att han avstår från allt inflytande och åsidosätter partiets politiska intressen för Sveriges bästa. Något som bottnar i att Sverigedemokraterna tolererar Ulf Kristersson (M) som statsminister, utan krav på vare sig ministerposter eller avtal.\nDet tolkar Liberalerna som att SD har förvandlats till Tidösamarbetets mest osjälviska kompis, som nu är beredd att ta en rejäl kula för laget.\nFör Jimmie Åkessons enda löfte gäller att trycka gult för en koalition med M, KD, L och C vid en statsministeromröstning. Han har inte sagt sig vara villig att acceptera deras politik.\nTvärtom har han varit tydlig med att SD efter voteringen går i full opposition.\n”You're on your own”, som han sa till Kristersson på sin pressträff förra veckan.\nDen som undrar vad uttalandet innebär behöver inte fundera särskilt länge. Det räcker att ta del av SD-ledarens ord.\n”Om det bildas en borgerlig fyrpartiregering blir Sverigedemokraterna i praktiken en stark vågmästare i riksdagen”, skriver han i en debattartikel ( Expressen 6/11 ).\nÅkesson sticker inte under stol med att SD:s möjligheter till inflytande bedöms vara bättre med en M-ledd regering än med en S-ledd. Han har uttalat goda förhoppningar om att partiet kommer att få igenom sin politik. Och han menar att tiden i opposition kan göra att SD hittar tillbaka till positionen som ett ”mittenparti” som kan samarbeta brett.\nI klartext handlar det om att kunna göra upp med – eller i varje fall rösta på samma förslag som – Socialdemokraterna, vilket han inte hymlar med.\nBeskedet betyder att Ulf Kristersson – vars underlag med M, KD, L och C samlar färre mandat än S, MP och V – kommer ha problem vid voteringar. Inte minst den om budgeten.\nDär vinner de rödgrönas, förutsatt att inte Kristersson har säkrat Åkessons stöd. Det kräver i sin tur en budgetförhandling med SD, som sträcker sig över de flesta politikområden.\nAlternativet till att göra upp är att M, KD, L och C är ”on your own”, med en budget och politiska förslag som kanske – kanske inte – går igenom riksdagen. Samtidigt sitter Jimmie Åkesson där som vågmästare och avgör hur utfallen blir.\nDet osjälviska erbjudandet, där SD släpper sina krav, innebär alltså att Ulf Kristersson kan känna sig som vinnare dagen han tillträder som statsminister. Därefter blir det tydligt att Åkesson inte har agerat kungamakare av altruistiska skäl – utan för att maximera sitt inflytande.\nSusanne Nyström: Vänsterpartiets usla försvar håller inte\nSusanne Nyström: Så låter surret efter en valförlust\n”Bästa lösningen är att avskaffa regeringen”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSusanne Nyström: Vänsterpartiets usla försvar håller inte\nSD redo gå i full opposition: ”You're on your own”\nSusanne Nyström: Så låter surret efter en valförlust",
+      "url": "https://www.regeringen.se/debattartiklar/2026/11/ambitios-svensk-linje-under-cop31",
+      "title": "\"Ambitiös svensk linje under COP31\"",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-11-11",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "Debattartikel av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari, den 11 november 2026, Dagens Industri.",
+      "fulltext": "Debattartikel av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari, den 11 november 2026, Dagens Industri.\nSverige är världsledande i arbetet för att minska de globala utsläppen samtidigt som vi stärker konkurrenskraften för våra företag. Sedan år 1990 har Sveriges utsläpp minskat med ungefär en tredjedel, samtidigt som storleken på svensk ekonomi nästan har fördubblats. Vi har mycket att vara stolta över och förmågan att kunna kombinera utsläppsminskningar med ekonomisk tillväxt är bland det viktigaste vi bidrar med på FN:s klimattoppmöte, COP31 i Turkiet.\nOavsett om vi leder en regering, en övergångsregering eller verkar i opposition arbetar vi alltid oförtröttligt för att samla politiken bakom den linje som är bäst för Sverige. Det gör att vår svenska linje i klimatförhandlingarna förblir konsekvent och ambitiös.\nVåra prioriteringar kokar ner till två budskap: brådska och möjligheter. Utsläppen behöver minska snabbare, samtidigt som våra samhällen behöver rustas för klimatförändringarnas följder. Men klimatomställningen är också en möjlighet till innovation, nya jobb, växande ekonomier och stärkt konkurrenskraft.\nFör Sverige handlar COP31 framför allt om genomförande. Ländernas klimatplaner behöver omsättas i beslut om hur energi produceras, hur industrin ställer om och vart investeringarna går. Efterfrågan på fossilfria lösningar behöver stärkas och ambitionerna måste öka över tid. Att genomföra de löften som finns idag är nödvändigt, men det är inte tillräckligt. Ett särskilt ansvar vilar på de stora utsläppsländerna – för det är där åtgärderna gör som störst skillnad för de totala utsläppen i världen.\nI EU är vi överens om att fortsätta driva på för genomförandet av Parisavtalet och att det globala klimatarbetet ska påskyndas. Vi vill att omställningen från fossila bränslen ska gå snabbare. Ren elektrifiering, mer fossilfri energi samt effektivare energianvändning är helt centrala delar för den processen.\nFinansieringsfrågan kommer att vara avgörande. Klimatfinansiering till utvecklingsländer behöver öka och bli mer tillgängligt, särskilt för de mest sårbara länderna. Det kräver att fler länder behöver bidra, samtidigt som det är alldeles uppenbart att offentliga medel inte ensamt kan bära hela omställningen. Privat kapital behöver mobiliseras i större omfattning och oavsett var pengarna kommer ifrån behöver de styras bort från fossila bränslen mot rena tekniker och energikällor.\nVi vet också att näringslivet både kan och vill göra mer. Därför är det bra att vi under klimattoppmötet samlar företag, lokala och regionala företrädare och andra aktörer kring praktiska lösningar. Där kan klimatutmaningar möta teknik, kunskap och finansiering.\nPartnerskap och frivilliga initiativ ersätter inte Parisavtalet, men det kan hjälpa motvilliga länder att genomföra det. Därför är framsteg utanför förhandlingsrummen också en viktig del av mötets resultat. Vi vill att COP31 skickar en signal till länder och marknader som stärker efterfrågan, och uppmuntrar länder att ge stabila förutsättningar för innovation och investeringar.\nSveriges ledarskap inom innovation är ett viktigt bidrag i det här arbetet. Vi kan visa hur svenska företags lösningar kan påskynda omställningen av energisystem, transporter och tung industri. Tre helt centrala områden för att världen ska lyckas med omställningen.\nDet som blir avgörande på COP31 är om det samlade resultatet påskyndar utsläppsminskningarna, stärker klimatanpassningen och gör fler fossilfria investeringar möjliga. Ett enda möte löser inte klimatfrågan. Men COP31 måste föra arbetet framåt – från löften till handling.\nUlf Kristersson , statsminister Romina Pourmokhtari , klimat- och miljöminister\nSidan är uppmärkt med följande kategorier:\nPublicerad 09 november 2026 · Pressmeddelande från Romina Pourmokhtari , Klimat- och näringslivsdepartementet , Landsbygds- och infrastrukturdepartementet , Utrikesdepartementet",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "statsminister"
       ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/trots-rekordval-mp-forlorar-makten-i-fjallkommunen",
-      "title": "Trots rekordval – MP förlorar makten i fjällkommunen",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9338774",
+      "title": "Dadgostar efter rödgrönt möte: Står fast vid våra krav",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Emma Isberg, Oscar Stål",
+      "published": "2026-11-11",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Miljöpartiet gjorde ett rekordval i Jokkmokk som blev deras starkaste fäste i landet. Ändå förlorar de makten till en koalition med Socialdemokraterna och Moderaterna i spetsen. – Det är klart att det känns sorgligt, säger Henrik Blind (MP), kommunalråd. Samtidigt har vågmästaren i den nya majoriteten redan hoppat av samarbetet.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/trots-rekordval-mp-forlorar-makten-i-fjallkommunen/\nMiljöpartiet gjorde ett rekordval i Jokkmokk som blev deras starkaste fäste i landet. Ändå förlorar de makten till en koalition med Socialdemokraterna och Moderaterna i spetsen.\n– Det är klart att det känns sorgligt, säger Henrik Blind (MP), kommunalråd.\nSamtidigt har vågmästaren i den nya majoriteten redan hoppat av samarbetet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nMer än var femte Jokkmokksbo lade sin röst på Miljöpartiet i kommunvalet och i riksdagsvalet blev Jokkmokk partiets starkaste fäste. Kommunalrådet Henrik Blind (MP) var återigen en kryssraket.\n– Miljöpartiet har gjort det bästa valet någonsin i Jokkmokk men i slutändan handlar det om att samla en majoritet och det lyckas vi inte göra som det ser ut nu. Det är klart att det känns sorgligt, säger han.\nDen senaste mandatperioden har kommunen styrts av en majoritet med Miljöpartiet tillsammans med Framtid i Jokkmokks kommun, Samernas väl och Vänsterpartiet.\nMen efter årets valresultat stod det klart att de inte samlat nog med mandat. Koalitionen fick totalt elva mandat. För att få majoritet i kommunfullmäktige krävs tolv.\nEnligt Henrik Blind har Miljöpartiet sökt samarbeten bland alla partier förutom Sverigedemokraterna. Men att bilda styre med kommunens största parti Socialdemokraterna uteslöts snabbt efter ett möte partierna emellan.\n– De var tydliga med att de ville ha ett kommunalråd. Indirekt så läser jag in att det skulle vara ett socialdemokratiskt. För Jokkmokks del så tror jag att det hade varit bra med ett fortsatt delat ledarskap, men de tycktes inte vara intresserade av det. Vi hann aldrig diskutera några sakfrågor.\nSamtidigt började ett nytt styre att utformas – en koalition bestående av Moderaterna, Socialdemokraterna och Samernas väl.\nModeraterna var, efter Miljöpartiet, det parti som ökade mest i kommunen. Och det var inte bara i Jokkmokk som partiet nådde framgångar. Partiet växte i merparten av kommunerna i de fyra nordligaste länen.\n– Vi uppfattas inte längre som ett storstadsparti, sa Kalixpolitikern tillika ledamot i partistyrelsen, Linda Frohm (M), till DN efter valet . Hon är numera också riksdagsledamot.\nMen den nya koalitionen i Jokkmokk har redan stött på patrull.\nSocialdemokraterna – 27,74 procent (7 mandat)\nFramtid i Jokkmokks Kommun – 13,15 procent (3 mandat)\nSverigedemokraterna – 5,12 procent (1 mandat)\n● Forna koalitionen: MP, FJK, V och Karin Vannar (11 mandat)\n● Nya koalitionen: S, M och Samernas väl (11 mandat)\nNär Samernas väl bestämde sig för att gå in i ett samarbete med S och M avgick deras partiledare Karin Vannar och lämnade partiet.\nHon har varit med i partiet i nästan ett kvarts sekel. Men partiets svängning mot ett nytt samarbete med M och S rimmade inte väl med de frågor som hon och partiet har drivit, menar hon.\n– Vi är ett samiskt parti så de samiska frågorna är viktigast för oss och våra medlemmar. Som motståndet mot en gruva i Gallok till exempel.\nUnder kommunfullmäktige i måndags höll hon ett anförande på lulesamiska.\n– Jag har aldrig pratat samiska i fullmäktige över huvud taget. Men när det blev såhär så kände jag ”nej nu jäklar ska dom få höra samiska”.\nProblemet är att Karin Vannar sitter på partiets enda mandat i fullmäktige och sitter kvar som politisk vilde. Hon har nu återgått till den forna majoriteten.\n– Det blev ju helt nytt styre i mitt parti där jag inte var med över huvud taget. Jag tycker att vi jobbade bra i det förra styret. Och då finns det ju ingenting annat än att göra än att säga tack och adjö. Vi får se vart det här bär, men jag känner i alla fall att jag har gjort rätt.\nDärmed står det elva-elva mellan två koalitioner som båda behöver tolv mandat för att få igenom sin politik. Det sista avgörande mandatet tillhör SD.\nHenrik Blind (MP) säger att han skulle bli förvånad om S och M skulle styra kommunen med stöd av SD.\n– Jokkmokk är ju känt för många saker just nu. Jag tror inte att Socialdemokraterna vill bli kända för att styra med stöd av Sverigedemokraterna.\nMen ett samarbete med Sverigedemokraterna är otänkbart enligt Socialdemokraternas gruppledare Julia Nord Axelsson.\n– Vi har väldigt olika ideologiska tankar i grunden och ser inte vi att vi kan komma överens med dem.\nTiotusenkronorsfrågan är hur kommunen ska styras utan majoritet och det har ingen av sidorna svar på i dagsläget. Det nya styret vill fortsatta samarbetet med Samernas väl. Men i dagsläget får de hoppas på att Karin Vannar inte dyker upp i kommunfullmäktige, så att en ersättare från Samernas väl kan ta henne plats.\n– Vi har velat lyfta in Samernas väl för att vi behöver hjälp med de samiska frågorna som är högst aktuella i Jokkmokk. I december har vi val till nämnder och styrelser och budget. Det är väl först efter det vi egentligen vet hur det blir, säger Julia Nord Axelsson.\nArjeplog – Socialdemokraterna (8 av 21 mandat)\nArvidsjaur – Socialdemokraterna, Centerpartiet, Vänsterpartiet (17 av 23 mandat)\nBoden – Socialdemokraterna, Centerpartiet, Sjukvårdspartiet, Aktiv samling – Bodenalternativet (27 av 49 mandat)\nGällivare – Moderaterna, Kristdemokraterna, Sverigedemokraterna (18 av 35 mandat)\nJokkmokk – Socialdemokraterna, Moderaterna, Samernas Väl (12 av 23 mandat)\nKalix – Socialdemokraterna, Centerpartiet, Miljöpartiet (18 av 37 mandat)\nKiruna – Socialdemokraterna, Vänsterpartiet, Samelistan, Sjukvårdspartiet (26 av 45 mandat)\nLuleå – Socialdemokraterna, Centerpartiet, Miljöpartiet (30 av 61 mandat)\nPajala – Vänsterpartiet, Centerpartiet, Moderaterna och Sjukvårdspartiet (12 av 21 mandat)\nPiteå – Socialdemokraterna, Centerpartiet, Miljöpartiet (27 av 51 mandat)\nÄlvsbyn – Socialdemokraterna, Vänsterpartiet (14 av 27 mandat)\nÖverkalix – Centerpartiet, Vänsterpartiet (14 av 25 mandat)\nÖvertorneå – Centerpartiet, Framtid S Övertorneå, Kristdemokraterna och Vänsterpartiet (12 av 25 mandat)\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nNär Åkesson går i ”full opposition” släpps SD in i värmen i Göteborg\nRekordval för Miljöpartiet i fjällkommunen – knep var femte väljare\nM växer i norrkommuner: ”Röda fästet har mattats av”",
+      "summary": "Vänsterpartiet håller fast vid sitt krav på att sitta i regering, säger partiledare Nooshi Dadgostar efter att hon kommit ut från ett möte med de rödgröna partierna. I måndags havererade ett möte mellan företrädare för partierna efter att Magdalena Andersson (S) meddelat att hon inte vill ha V i hennes regering, och V därefter inte dök upp på mötet. Men nu säger Nooshi Dadgostar att upplägget för samtalen har ändrats. Detta därför att Centerpartiet meddelat att man kan tänka sig att stödja både en regering ledd av Socialdemokraterna, och en regering ledd av Moderaterna.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338774'",
       "matched_terms": [
-        "koalition",
-        "vågmästar",
+        "partiledar",
+        "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9338723",
+      "title": "Riksdagen röstar om möjligheten att återkalla medborgarskap",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "I dag fattar riksdagen beslut om att ändra grundlagen, bland annat när det gäller möjligheten att frånta en person sitt svenska medborgarskap. Det gäller de med dubbelt medborgarskap som begår allvarliga brott eller har fått medborgarskap på felaktiga grunder. De rödgröna partierna är oeniga i frågan. Vänsterpartiet och Miljöpartiet är kritiska medan Socialdemokraterna står bakom förslaget, som drivits fram av Sverigedemokraterna i Tidösamarbetet. Det här är andra gången beslut tas om den här ändringen i grundlagen vilket krävs för att den ska börja gälla.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9338723'",
+      "matched_terms": [
         "Miljöpartiet",
+        "Socialdemokraterna",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9338479",
+      "title": "Både S och M kan locka Centern med klimatpolitik",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiet har fått en av huvudrollerna i regeringsbildningen. Elisabeth Thand Ringqvist har krävt att få helhetslösningar av Socialdemokraterna och Moderaterna att ta ställning till. ”Nyckeln ligger väldigt mycket i den gröna omställningen”, säger Lisa Pelling, vd för den progressiva tankesmedjan Arena Idé till P1 Morgon. Också Sigrun Fagerfjäll, chefsekonom vid marknadsliberala tankesmedjan Timbro, lyfter fram klimatpolitiken. ”Där tror jag vi behöver Centerpartiet som en reformmotor i en alliansregering”, säger hon.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338479'",
+      "matched_terms": [
+        "regeringsbildning",
+        "Centerpartiet",
         "Moderaterna",
         "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/andersson-radd-att-det-kan-fattas-beslut-man-kan-angra",
-      "title": "Andersson: Rädd att det kan fattas beslut man kan ångra",
+      "url": "https://www.dn.se/sverige/regeringskaoset-skarpare-roda-linjer-i-sverige-an-ovriga-norden",
+      "title": "Regeringskaoset: Skarpare röda linjer i Sverige än övriga Norden",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Evelyn Jones, Pia Gripenberg, Molly Karlsson Inde",
-      "commentator": "",
-      "summary": "Magdalena Andersson vill ha ”tid till eftertanke”. Det är därför hon inte tycker talmannen ska släppa fram M-ledaren Ulf Kristersson till omröstning. – Det är inte bra om det fattas väldigt viktiga beslut i tidspanik, säger hon.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/andersson-radd-att-det-kan-fattas-beslut-man-kan-angra/\nMagdalena Andersson vill ha ”tid till eftertanke”. Det är därför hon inte tycker talmannen ska släppa fram M-ledaren Ulf Kristersson till omröstning.\n– Det är inte bra om det fattas väldigt viktiga beslut i tidspanik, säger hon.",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-darfor-vill-akesson-sa-garna-ha-centern-i-regeringen",
-      "title": "Tomas Ramberg: Därför vill Åkesson så gärna ha Centern i regeringen",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Genom att rösta in Centern i regeringen blir Sverigedemokraterna mäktiga vågmästare. Men det ger också en möjlighet att mala ner det sista borgerliga motståndet mot SD. Och i förlängningen lockar ett extra val.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 07:03\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-darfor-vill-akesson-sa-garna-ha-centern-i-regeringen/\nGenom att rösta in Centern i regeringen blir Sverigedemokraterna mäktiga vågmästare. Men det ger också en möjlighet att mala ner det sista borgerliga motståndet mot SD.\nOch i förlängningen lockar ett extra val.",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "vågmästar",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/akesson-ny-regering-kan-forhandla-budget-med-oss",
-      "title": "Åkesson: Ny regering kan förhandla budget med oss",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-10",
+      "published": "2026-11-11",
       "author": "Pia Gripenberg",
       "commentator": "",
-      "summary": "Sverigedemokraterna är redo att släppa fram Ulf Kristersson (M) i en regering där Centerpartiet ingår. Men det betyder inte att SD vill släppa sitt inflytande. – Vill de ha stöd för sin budget behöver man sannolikt söka stöd hos riksdagen. Vi är en part där, säger Jimmie Åkesson.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/akesson-ny-regering-kan-forhandla-budget-med-oss/\nSverigedemokraterna är redo att släppa fram Ulf Kristersson (M) i en regering där Centerpartiet ingår. Men det betyder inte att SD vill släppa sitt inflytande.\n– Vill de ha stöd för sin budget behöver man sannolikt söka stöd hos riksdagen. Vi är en part där, säger Jimmie Åkesson.",
-      "paywall": true,
+      "summary": "Blir svenska Vänsterpartiet åter blåst på att sitta i en regering? I Danmark delar V:s systerparti ministerposter med S och två liberala partier. Nordenprofessorn Johan Strang har svårt att förstå låsningarna i Sverige. – De röda linjerna verkar vara mycket, mycket skarpare, säger han till DN.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/regeringskaoset-skarpare-roda-linjer-i-sverige-an-ovriga-norden/\nBlir svenska Vänsterpartiet åter blåst på att sitta i en regering? I Danmark delar V:s systerparti ministerposter med S och två liberala partier.\nNordenprofessorn Johan Strang har svårt att förstå låsningarna i Sverige.\n– De röda linjerna verkar vara mycket, mycket skarpare, säger han till DN.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nSocialdemokraterna under Magdalena Andersson har inspirerats av Danmarks statsminister Mette Frederiksen (S) och ändrat sig i migrations- och kriminalpolitiken för att nå mittenväljare. Strategin har gjort att S tappar röster till partierna på vänsterkanten.\n– Mette Frederiksen vet att även om hon tappar väljare åt vänster kan hon behålla makten, men hon kan inte göra det om hon tappar över skiljelinjen, till Dansk Folkeparti. För de kommer aldrig att stödja henne som statsminister, säger Kasper Møller Hansen, professor vid Köpenhamns universitet.\nTill skillnad från sina svenska partikamrater har de danska socialdemokraterna genom åren släppt in vänstern i styret. Precis som S i Norge och Finland.\nEfter danska valet i våras tog det 69 dagar innan Mette Frederiksen kunde presentera en ny regering. Koalitionen består av partier både till vänster och höger om Socialdemokratiet. Den kombinationen ser just nu omöjlig ut för Magdalena Andersson.\nEn anledning är Centerpartiets stenhårda motstånd mot V-ministrar. Men S vill helst inte heller ha med V.\n– Jag vet inte om någon som följer svensk politik de senaste veckorna tycker att Vänsterpartiet i alla lägen har agerat konstruktivt, sade Magdalena Andersson på en pressträff i söndags .\nInför valet sade hon att V har ”en lång resa” att göra innan partiet kan sitta i en regering.\nS-källor som DN talat med lyfter gärna fram att det oftast går bra att samarbeta politiskt med V, men man har inte glömt att partiet gick samman med SD och avsatte Stefan Löfven 2021. Att V sedan röstade fram en moderat talman har inte hjälpt relationen.\nVissa nämner också att svenska V har en mer komprometterande historia med kommunismen än andra nordiska vänsterpartier. Dessa tröttnade dessutom tidigare på rollen att vara stödpartier. Svenska V valde länge strategin att påverka utifrån, inte från insidan.\n– Det har varit en mognadsprocess att vilja gå in i en regering, säger en V-källa.\nI Mette Frederiksens fyrpartiregering ingår V:s systerparti Socialistisk Folkeparti. Koalitionen har dessutom parlamentariskt stöd av två partier som står ännu längre till vänster, Enhedslisten och Alternativet.\n– När det formella regeringsunderlaget togs fram inkluderades även stödpartierna, vilket säkrade att vissa av deras prioriterade politiska frågor kom med. Ett exempel är kravet på avgiftsfri tandvård, berättar Kasper Møller Hansen.\nHan talar om en anda av att ge och ta – partierna till vänster accepterar att S vänder sig högerut i skattefrågor om de får gehör i till exempel sina klimatfrågor.\n– Vi har en kultur av konsensus och pragmatism, vilket innebär att vi ändå kan finna gemensam grund i många frågor där det råder djupa meningsskiljaktigheter.\nAtt det finns flera partier på vänsterkanten ger också Mette Frederiksen möjligheten att ta in det mindre radikala partiet i regeringen och hålla de andra utanför. Enhedslisten och Alternativet är å sin sida inte heller lika angelägna att sitta med i en regering som Socialistisk Folkeparti.\nJohan Strang, Nordenprofessor vid Helsingfors universitet, för ett liknande resonemang om dansk pragmatism som Møller Hansen.\n– I Danmark var det ett jättelåst läge efter senaste valet. Lars Løkke, som i vart fall i sin retorik var minst lika envis som svenska Centerpartiet är, gav till sist med sig.\nDen piprökande Lars Løkke Rasmussen är partiledare för Moderaterne. Han har tidigare varit statsminister och är nu utrikesminister. Det var han som i början av året skickades till USA för att diskutera Grönland med vicepresident JD Vance.\n– För honom handlade regeringsförhandlingarna ideologiskt om utrikespolitik – herregud, vårt lands territoriella integritet är hotad, vi har krig i Europa, vi behöver en regering som är förnuftig, säger Johan Strang.\nHan anser att den argumentationen är mer begriplig än Centerpartiets.\n– Vad är de ute efter? Vad är målsättningen med ideologin de vill driva igenom?\nJohan Strang säger att när politiken i Danmark handlar om att lösa praktiska problem blir den i Sverige i stället till ideologi som kläs i ord som folkhemmet eller nyliberalism och leder till låsningar\n– De röda linjerna i Sverige verkar vara mycket, mycket skarpare.\nI valet 2010 hade S, V och MP ett nära samarbete. Det gick inte bra. De rödgröna förlorade till dåvarande alliansen.\nI sin eftervalsanalys skrev Socialdemokraterna att S-väljare som inte gillade MP och V gick till andra partier. S skrev också att MP i viss mån legitimerades som regeringsparti och gjorde det lättare att ta steget från S till MP.\nSamma resonemang om att legitimera ett parti hörs nu om V i regeringsfrågan.\nJohan Strang förstår inte Socialdemokraternas argument gentemot Vänsterpartiet. Han tycker det är tvärtom.\n– Om man är rädd för att tappa väljare är det lättare att ha dem innanför regeringen än utanför.\nHan tar åter Danmark som exempel. Där har Socialistisk Folkeparti varit närmast utrotningshotat efter att man har ingått i en regering.\n– Socialdemokraterna i Sverige är mer vana vid att regera själva. De andra socialdemokratiska partierna i Norden har en större vana att ingå i koalitioner och vara tvungna att förhandla med andra, konstaterar Johan Strang.\nDanmark: S styr tillsammans med Socialistisk Folkeparti och liberala Moderaterne och Radikale Venstre i en minoritetsregering. I riksdagen (Folktinget) sitter 179 ledamöter fördelade på tolv partier samt fyra ledamöter som representerar Färöarna och Grönland.\nFinland: moderata Samlingspartiet styr tillsammans med Sannfinländarna, liberala Svenska folkpartiet och KD i en majoritetsregering. I riksdagen sitter 200 ledamöter fördelade på tio partier. Norge: S styr en enpartiregering som söker stöd av Senterpartiet, Sosialistisk Venstreparti, Rødt och Miljøpartiet de grønne. I riksdagen (Stortinget) finns 169 ledamöter fördelade på nio partier.\nSå kan Magdalena Andersson mäkla fred mellan C och V\nStor oro i V efter nobben från S-ledaren: ”Har gått helt överstyr”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nNytt rödgrönt samtal: ”Vill ha in olika bud”\nTomas Ramberg: Därför vill Åkesson så gärna ha Centern i regeringen\nVäljarna om V:s ministerkrav: ”Var realistiska”",
+      "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Centerpartiet",
-        "Sverigedemokraterna"
+        "ministerpost",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/kristersson-far-en-vecka-till-s-ledaren-vill-ha-ny-chans",
-      "title": "Kristersson får en vecka till av talmannen",
+      "url": "https://www.dn.se/sverige/manga-ser-ju-centern-som-svikare-har",
+      "title": "”Många ser ju Centern som svikare här”",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-10",
-      "author": "Frida Bergkvist",
+      "published": "2026-11-11",
+      "author": "Anton Säll, Jonas Gratzer",
       "commentator": "",
-      "summary": "Ulf Kristersson får ytterligare en vecka på sig att sondera för en ny regering. Därefter står M-ledaren redo för en statsministeromröstning, skriver han på X.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/kristersson-far-en-vecka-till-s-ledaren-vill-ha-ny-chans/\nUlf Kristersson får ytterligare en vecka på sig att sondera för en ny regering. Därefter står M-ledaren redo för en statsministeromröstning, skriver han på X.",
+      "summary": "I Täby har gamla alliansen styrt tillsammans i 16 år. Men nu är samarbetet över. M, KD och L styr i stället själva – och anger regeringsfrågan som orsak till det avslutade samarbetet.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/manga-ser-ju-centern-som-svikare-har/\nI Täby har gamla alliansen styrt tillsammans i 16 år. Men nu är samarbetet över. M, KD och L styr i stället själva – och anger regeringsfrågan som orsak till det avslutade samarbetet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nMellan Moderaternas och Socialdemokraternas kontor på kommunhuset i Täby står ett tomt kontor.\nDet här är den demilitariserade zonen, skämtar kommunstyrelsens ordförande Erik Andersson (M).\nTäby har länge varit ett skyltfönster för den moderatledda borgerligheten. Både Fredrik och Filippa Reinfeldt har varit aktiva i lokalpolitiken, den sistnämnda som både som kommunalråd och som kommunstyrelsens ordförande.\nTäbys kommunhus är både ljust och fräscht. Det byggdes 2017 och politikerna sitter alla på samma våning.\nSedan 2010 har den gamla alliansen med M, L, C och KD styrt tillsammans i Täby med en förkrossande majoritet.\nMen efter det här valet får Centerpartiet inte vara med längre. I stället kommer Moderaterna, Liberalerna och Kristdemokraterna styra i en egen majoritet.\nUt med Täbyalliansen. Nu styr Borgerlig allians för Täby i stället.\nDet är möjligt eftersom Moderaterna fick 46,6 procent i senaste kommunvalet.\n– Det var ett ganska enkelt val. Vi kände att Centern stödjer vänsterpartierna i regeringsfrågan, säger Erik Andersson.\nKanske borde Centerpartiet flytta in i rummet mellan S och M i framtiden.\nC är besvikna på att de uteslöts från styret efter 16 års samarbete. De blev överraskade, enligt tillträdande gruppledaren Lena Kvarnström.\n– Jag tycker det var konstigt att fatta beslut utifrån spekulation eftersom vi inte visste vad regeringsfrågan och regionstyret skulle landa i, säger Lena Kvarnström,\nI det senaste valet ökade Moderaterna med sju procentenheter.\nLiberalerna tappade med ungefär lika mycket.\nMen trots att L halverade sitt stöd är man nöjda med valresultatet.\nFokus, enligt Thomas Helleday, kommunalråd för (L), var att rädda Liberalerna över riksdagsspärren. Det kommunala valet var inte lika viktigt i det här valet, menar han.\nHan ser det som att väljarna tycker att partiet gjort rätt.\n– Vi såg ju det väldigt tydligt när vi gjorde vårt vägval, när vi faktiskt också blev tydliga med vilken regering vi ville se. Vi fick ju både nya medlemmar och medlemmar som kom tillbaka, som kanske hade lämnat oss i samband med januariavtalet, säger Thomas Helleday (L).\nJanuariavtalet 2018 var en överenskommelse som höll Vänsterpartiet och Sverigedemokraterna borta från matchen.\nKristdemokraterna backade med en dryg procentenhet.\n– Jag uppfattar det som att våra kommuninvånare är väldigt, väldigt nöjda med hur kommunen drivs. Och då är det inte så onaturligt att det största partiet som sitter i styret också får ytterligare stöd, säger Eva von Wowern (KD).\nOfta brukar kommunpolitiker prata om att kommunpolitiken särskiljer sig från politiken på riksplanet. Det är inte ovanligt me d olika konstellationer som raderar ut de röda linjerna på riksnivå .\nMen i Täby är det annorlunda. Här väljer förra mandatperiodens regeringspartier på riksplanet att fortsätta på egen hand.\n– Alliansen är ett projekt som växte ju uppifrån och ner. Det var ingen folkrörelse på det sättet, säger Erik Andersson (M) och fortsätter:\n– Många ser ju Centern som svikare här. Att de stödjer vänsterpolitik.\nHär har regeringsfrågan direkt påverkat möjligheterna till samarbete, enligt Erik Andersson. Redan under förra mandatperioden var partierna oense vid ett par tillfällen.\nFör ett år sedan ville återvandringssamordnaren bjuda in kommuner till ett frivilligt möte för att öka den frivilliga återvandringen. Det skapade ramaskri i kommunsverige, många kommuner nobbade mötet. I Täby var partierna oeniga i hur man skulle förhålla sig till inbjudningen.\nVad hade blivit den stora skillnaden i politiken om Centerpartiet suttit med i styret?\n– Ja, bra fråga, säger Thomas Helleday (L).\n– Lokalt tror jag inte att det hade skilt sig åt så mycket, faktiskt, säger Erik Andersson (M).\nRedan under förra mandatperioden var partierna oense vid ett par tillfällen, bland annat om huruvida man skulle delta på ett möte med återvandringssamordnaren och om hur kommunen borde svara på en remiss om fritidskortet, KD-satsningen på subventionerat föreningsliv.\n– Ja, vi sitter här på mandat av Täbyborna och det är ju deras intressen vi ska bevaka. Och då gör vi det gentemot de olika instanser som vi kan göra det, säger Eva Von Wovern (KD)\nIdeologiska fiender nya makthavare – så blir styrena i Stockholms kommuner\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nIdeologiska fiender nya makthavare – så blir styrena i Stockholms kommuner\nNytt rödgrönt samtal: ”Vill ha in olika bud”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg"
+      ],
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/valjarna-om-vs-ministerkrav-var-realistiska",
+      "title": "Väljarna om V:s ministerkrav: ”Var realistiska”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Christy Chamy, Ali Lorestani",
+      "commentator": "",
+      "summary": "Efter att Magdalena Andersson (S) sagt att hon vill bilda regering enbart med C och MP ökar pressen på Vänsterpartiet att överge sitt krav på ministerposter. Men flera av partiets distriktsordförande vill stå fast vid linjen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/valjarna-om-vs-ministerkrav-var-realistiska/\nEfter att Magdalena Andersson (S) sagt att hon vill bilda regering enbart med C och MP ökar pressen på Vänsterpartiet att överge sitt krav på ministerposter. Men flera av partiets distriktsordförande vill stå fast vid linjen.",
       "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "statsminister"
+        "ministerpost",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-11T06:02:47.534337+00:00"
+      "first_seen": "2026-11-11T14:03:07.506735+00:00"
     }
   ]
 }
