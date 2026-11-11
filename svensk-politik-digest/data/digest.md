@@ -1,66 +1,86 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-10
+# Svensk politik och regeringsförhandlingarna — 2026-11-11
 
-10 nya poster sedan förra utskicket (37 redan utskickade, 154 utanför ämnet).
+15 nya poster sedan förra utskicket (35 redan utskickade, 149 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Andersson: Redo för nytt sonderingsuppdrag](https://www.svd.se/a/XowVPm/andersson-det-ror-pa-sig-behover-mer-tid)
-SvD Ledare · 2026-11-10 · Niklas Svahn/TT, Anja Haglund/TT
+### [Åkesson siktar på statsminister 2030: ”Kosläpp”](https://www.svd.se/a/z0LaV5/akesson-siktar-pa-statsminister-2030-koslapp)
+SvD Ledare · 2026-11-11 · Niklas Svahn/TT
 
-S-ledaren Magdalena Andersson har varit hos talmannen och framfört att det rör på sig i…
+Jimmie Åkesson är sugen på oppositionsrollen. Nu har SD fyra år på sig att bredda sin politik och…
 
-### [Kristersson på nordiskt möte med Zelenskyj](https://www.svd.se/a/8Pwy0r/kristersson-pa-nordiskt-mote-med-zelenskyj)
-SvD Ledare · 2026-11-10 · Fredrik Tideman, TT
+### [Kristersson: Risk att länder spelar solo om Ukraina](https://www.svd.se/a/oMR5XK/kristersson-risk-att-lander-spelar-solo-om-ukraina)
+SvD Ledare · 2026-11-10 · TT
 
-Statsminister Ulf Kristersson kommer att delta på ett möte med Volodymyr Zelenskyj och flera…
+Statsminister Ulf Kristersson håller med president Volodymyr Zelenskyj om att Europa bör utse en…
 
-### [LO till V: Släpp kravet på ministerposter](https://www.svd.se/a/0p33lG?pinnedEntry=79746)
-SvD Ledare · 2026-11-10
+### [Susanne Nyström: Romina Pourmokhtari gör en katastrofal felbedömning](https://www.dn.se/ledare/susanne-nystrom-romina-pourmokhtari-gor-en-katastrofal-felbedomning) **[kommentator]**
+DN Nyheter · 2026-11-10 · Susanne Nyström
 
-Följ SvD:s liverapport med de senaste nyheterna om valet i Sverige.
-LO till V: Släpp kravet på ministerposter
-I en debattartikel som publiceras på Aftonbladets debattsida vädjar nu LO till Vänsterpartiet att släppa sitt absoluta krav på ministerposter.
-"Vänsterpartiet har all rätt att kräva politiskt inflytande för sina mandat. Partiet driver dessutom en politik som i stora delar ligger nära våra fackliga intressen. Men politiskt inflytande och ministerposter är inte samma sak", skriver de bland annat.
-LO uppmanar Vänsterpartiet att i stället satsa allt på att förhandla sakpolitik.
-Skapa ett k
+Det går att få för sig att SD:s stöd är gratis, nu när Jimmie Åkesson har sagt sig acceptera Ulf Kristersson som statsminister utan att ställa några krav. Inget kan vara mer fel.
 
 ## Rapportering
 
-### [Chatt: Rör det på sig nu i regeringsbildningen?](https://www.svt.se/nyheter/inrikes/chatt-ror-det-pa-sig-nu-i-regeringsbildningen)
-SVT Nyheter · 2026-11-10 · Klara Stefansson
+### [”Regeringsfrågan kan avgöras redan nästa vecka”](https://www.svt.se/nyheter/inrikes/regeringsfragan-kan-avgoras-redan-nasta-vecka) **[kommentator]**
+SVT Nyheter · 2026-11-10 · Mats Knutson
 
-Det fullkomligt regnar av utspel i svensk politik när regeringsförhandlingarna kokar till höger och vänster. Nu återstår frågorna: Rör det på sig nu – på riktigt? Vem kan ta vem? Få svar av SVT:s politikreportrar Julia Lindvall och Daniel Ingmo med start 14.15.
+Efter flera veckor på tomgång går regeringsbildningen nu på högvarv. På tisdag i nästa vecka ska M-ledaren Ulf Kristersson rapportera sitt sonderingsuppdrag till talmannen. Därmed kan regeringsfrågan avgöras i en statsministeromröstning redan i slutet av nästa vecka.
 
-### [Oro i Vänsterpartiet – tror att Kristersson blir statsminister](https://www.svt.se/nyheter/inrikes/oro-i-vansterpartiet-tror-att-kristersson-blir-statsminister)
-SVT Nyheter · 2026-11-10 · Julia Lindvall, Kristoffer Törnmalm
-
-Oro och nedstämdhet. Vänsterpartiet upplever att det är mer eller mindre kört för en rödgrön regering att tillträda, enligt SVT:s källor. Samtidigt finns ett fortsatt starkt stöd för kravet på ministerposter. – Jag ser inte så många vägar framåt än att fortsätta stå upp, det är vår trovärdighet som står på spel, säger en V-källa.
-
-### [Zelenskyj träffar nordiska ledare i dag](https://www.sverigesradio.se/artikel/9337730)
+### [Bildt: ”Putin är inriktad på att eskalera kriget”](https://www.sverigesradio.se/artikel/9338313)
 Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Ukrainas president Zelenskyj ska idag träffa nordiska stats- och regeringschefer i Danmark, uppger danska regeringen. De ska bland annat diskutera militärt stöd till Ukraina och säkerhet i Europa. På dagordningen står också Ukrainas akuta behov av luftförsvar och skydd av energiskektorn, enligt regeringen. Med på mötet är bland andra statsminister Ulf Kristersson.
+Tidigare statsministern Carl Bildt bedömer att Vladimir Putin vill trappa upp kriget mot Ukraina, samtidigt som samtal om fred har inletts i Förenade Arabemiraten. Enligt Bildt saknas tecken på rysk vilja till vapenvila, medan Ukraina driver krav på säkerhetsgarantier liknande Natos artikel 5. ”Jag tror att väldigt mycket av de här talet om garantier är mycket luftslott”, säger han.
 
-### [Konto på bettingsajt kan tjäna nära 130 000 kronor efter Åkessons utspel](https://www.dn.se/sverige/konto-pa-bettingsajt-kan-tjana-nara-130-000-kronor-efter-akessons-utspel)
-DN Nyheter · 2026-11-10 · Hugo Ewald
+### [Furtenbach: ”Kristerssons chanser har definitivt ökat”](https://www.sverigesradio.se/artikel/9338258) **[kommentator]**
+Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Någon kan tjäna en rejäl hacka på regeringsbildningen. Timmarna innan Jimmie Åkessons dramatiska besked i regeringsfrågan satsade ett nystartat bettingkonto över 100 000 kronor på att Ulf Kristersson blir återvald som statsminister. Positionerna går att sälja vidare – och har nu ökat kraftigt i värde.
+58 dagar har gått sedan regeringsbildningen och det politiska läget är fortsatt låst. Men efter Jimmie Åkessons (SD):s slopade krav på ministerposter har nya öppningar skapats, enligt Ekots politiska kommentatorer Helena Gissén och Fredrik Furtenbach. ”Kristerssons chanser har definitivt ökat”, säger Fredrik Furtenbach i Studio Ett.
 
-### [Centern: ”Vi har inte bytt position om SD”](https://www.dn.se/sverige/centern-vi-har-inte-bytt-position-om-sd)
-DN Nyheter · 2026-11-10 · Hans Rosén
+### [Furtenbach: ”Det kan gå ganska fort nu”](https://www.sverigesradio.se/artikel/9338254) **[kommentator]**
+Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centern håller öppet för att stödja Ulf Kristersson som statsminister – men partiets inställning till Sverigedemokraterna är fortfarande densamma, enligt partisekreterare Hannes Hervieu. – Vi har inte bytt position, säger han.
+Ulf Kristerssons chanser att bli statsminister har ökat, samtidigt som Magdalena Andersson vill vänta med en omröstning. Enligt Ekots politikkommentator Fredrik Furtenbach har SD:s besked och Centerns hållning skapat oro i de rödgröna partierna, medan C internt uppges väga mellan båda kandidaterna. ”Jag tror att även om processen inte blir helt klar så tror jag att det kan gå ganska fort nu innan vi ser vartåt det lutar. Det är opinionen inom Centern som kan avgöra detta”, säger Furtenbach om regeringsbildningen.
 
-### [Så fungerar det om det blir ett extra val](https://www.dn.se/sverige/sa-fungerar-det-om-det-blir-ett-extra-val)
-DN Nyheter · 2026-11-10 · William Svensson _(betalvägg — endast ingress)_
+### [Talmannen ger Kristersson en vecka till att sondera](https://www.sverigesradio.se/artikel/9338201)
+Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-För varje misslyckad statsministeromröstning rycker ett extra val allt närmare. Det kommer i så fall att kosta hundratals miljoner att genomföra och sätta hård press på landets kommuner. – Vi är förberedda, säger Anna Nyqvist på Valmyndigheten.
+• Ulf Kristersson (M) får ytterligare tid för att sondera förutsättningarna för att bilda en ny regering. Han får nu förlängt till tisdag den 17 november. Ulf Kristersson själv välkomnar talmannens besked, det skriver han i ett inlägg på sociala medier.
+
+### [Andersson: Det rör på sig i regeringsfrågan](https://www.sverigesradio.se/artikel/9338114)
+Ekot, Sveriges Radio · 2026-11-10 · Ekot _(brödtext ej hämtad — endast ingress)_
+
+Socialdemokraternas partiledare Magdalena Andersson ger nu besked om att det rör på sig i regeringsfrågan på hennes sida. Hon har bett talmannen att inte pröva M-ledaren Ulf Kristersson i nästa statsministeromröstning, om han inte har fått ihop en regering. ”En sådan här process behöver ha en kombination av viss tidspress, men också tid för eftertanke”, säger hon.
+
+### [Trots rekordval – MP förlorar makten i fjällkommunen](https://www.dn.se/sverige/trots-rekordval-mp-forlorar-makten-i-fjallkommunen)
+DN Nyheter · 2026-11-10 · Emma Isberg, Oscar Stål
+
+Miljöpartiet gjorde ett rekordval i Jokkmokk som blev deras starkaste fäste i landet. Ändå förlorar de makten till en koalition med Socialdemokraterna och Moderaterna i spetsen. – Det är klart att det känns sorgligt, säger Henrik Blind (MP), kommunalråd. Samtidigt har vågmästaren i den nya majoriteten redan hoppat av samarbetet.
+
+### [Andersson: Rädd att det kan fattas beslut man kan ångra](https://www.dn.se/sverige/andersson-radd-att-det-kan-fattas-beslut-man-kan-angra)
+DN Nyheter · 2026-11-10 · Evelyn Jones, Pia Gripenberg, Molly Karlsson Inde _(betalvägg — endast ingress)_
+
+Magdalena Andersson vill ha ”tid till eftertanke”. Det är därför hon inte tycker talmannen ska släppa fram M-ledaren Ulf Kristersson till omröstning. – Det är inte bra om det fattas väldigt viktiga beslut i tidspanik, säger hon.
+
+### [Tomas Ramberg: Därför vill Åkesson så gärna ha Centern i regeringen](https://www.dn.se/sverige/tomas-ramberg-darfor-vill-akesson-sa-garna-ha-centern-i-regeringen) **[kommentator]**
+DN Nyheter · 2026-11-10 · Tomas Ramberg _(betalvägg — endast ingress)_
+
+Genom att rösta in Centern i regeringen blir Sverigedemokraterna mäktiga vågmästare. Men det ger också en möjlighet att mala ner det sista borgerliga motståndet mot SD. Och i förlängningen lockar ett extra val.
+
+### [Åkesson: Ny regering kan förhandla budget med oss](https://www.dn.se/sverige/akesson-ny-regering-kan-forhandla-budget-med-oss)
+DN Nyheter · 2026-11-10 · Pia Gripenberg _(betalvägg — endast ingress)_
+
+Sverigedemokraterna är redo att släppa fram Ulf Kristersson (M) i en regering där Centerpartiet ingår. Men det betyder inte att SD vill släppa sitt inflytande. – Vill de ha stöd för sin budget behöver man sannolikt söka stöd hos riksdagen. Vi är en part där, säger Jimmie Åkesson.
+
+### [Kristersson får en vecka till av talmannen](https://www.dn.se/sverige/kristersson-far-en-vecka-till-s-ledaren-vill-ha-ny-chans)
+DN Nyheter · 2026-11-10 · Frida Bergkvist _(betalvägg — endast ingress)_
+
+Ulf Kristersson får ytterligare en vecka på sig att sondera för en ny regering. Därefter står M-ledaren redo för en statsministeromröstning, skriver han på X.
 
 ## Officiella besked
 
-### [Statsministern till Danmark för möte med nordiska ledare och president Zelenskyj](https://www.regeringen.se/pressmeddelanden/2026/11/statsministern-till-danmark-for-mote-med-nordiska-ledare-och-president-zelenskyj)
-Regeringen.se · 2026-11-10 · Regeringskansliet
+### [Talmannen ger besked om den fortsatta processen för regeringsbildningen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument//_cms4af359f6-45b3-4573-92ba-f4995b5144dbsv)
+Riksdagen · 2026-11-10 · riksdagsinformation@riksdagen.se _(brödtext ej hämtad — endast ingress)_
 
-Tisdag 10 november reser statsminister Ulf Kristersson till Danmark för ett möte mellan de nordiska stats- och regeringscheferna och Ukrainas president Volodymyr Zelenskyj.
+… Pressackreditering Praktisk information för arbete i anslutning till riksdagsvalet Kontakt Talmannens pressekreterare, 08-786 44 00, press@riksdagen.se Talmannen ger besked om den fortsatta processen för regeringsbildningen Ulf Kristersson (M) kommer tisdagen den 17 november att rapportera sitt uppdrag att sondera förutsättningarna för att bilda regering till talman Andreas Norlén. Talmannen ger besked om den fortsatta processen för regeringsbildningen press … 2026-11-10 15:53:00
 
-_Genererat 2026-11-10T14:06:23.988266+00:00._
+_Genererat 2026-11-11T06:02:47.534337+00:00._
