@@ -1,49 +1,64 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-11
+# Svensk politik och regeringsförhandlingarna — 2026-11-12
 
-8 nya poster sedan förra utskicket (40 redan utskickade, 147 utanför ämnet).
+11 nya poster sedan förra utskicket (45 redan utskickade, 139 utanför ämnet).
+
+## Analys och kommentar
+
+### [Anderssons diviga stil kan kosta S makten](https://www.expressen.se/ledare/linda-jerneck/anderssons-diviga-stil-kan-kosta-s-makten)
+Expressen Ledare · 2026-11-12 · linda jerneck
+
+Magdalena Anderssons valhänta ledarskap har gjort regeringsbildningen svårare än den behövt vara. Nu är makten på väg att glida S ur händerna.
 
 ## Rapportering
 
-### [SVT/Verian: S sjunker i opinionen – lägsta siffran under Andersson](https://www.svt.se/nyheter/inrikes/svtverian-s-sjunker-i-opinionen-lagsta-siffran-under-andersson)
-SVT Nyheter · 2026-11-11 · Malvina Britts
+### [Arbetsmarknadens parter besvikna över budgeten](https://www.sverigesradio.se/artikel/9338891)
+Ekot, Sveriges Radio · 2026-11-12 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Samtidigt som Magdalena Andersson försöker få ihop en regering sjunker Socialdemokraternas väljarstöd. I SVT/Verians novembermätning får partiet sin lägsta notering sedan Andersson tillträdde hösten 2021. – Den tilltagande kritiken mot S hantering av regeringsbildningen har troligen påverkat stödet för partiet, säger Per Söderpalm, opinionsansvarig på Verian.
+Det blir som brukligt inga stora reformer under torsdagen när övergångsregeringen presenterar sin budget. Det beklagar arbetsmarknadens parter som önskar satsningar för jobb och tillväxt. Sven Olov Daunfeldt på Svenskt Näringsliv hade hoppats på ett kostnadsavdrag för investeringar i forskning och utveckling. Torbjörn Hållö på LO vill se stimulanser som gynnar dem med lägre inkomster, som höjda barnbidrag och riktade sänkta skatter.
 
-### [Dadgostar efter rödgrönt möte: Står fast vid våra krav](https://www.sverigesradio.se/artikel/9338774)
+### [Analysen: Det krävs för att C ska välja vänstersidan](https://www.sverigesradio.se/artikel/9338795)
 Ekot, Sveriges Radio · 2026-11-11 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Vänsterpartiet håller fast vid sitt krav på att sitta i regering, säger partiledare Nooshi Dadgostar efter att hon kommit ut från ett möte med de rödgröna partierna. I måndags havererade ett möte mellan företrädare för partierna efter att Magdalena Andersson (S) meddelat att hon inte vill ha V i hennes regering, och V därefter inte dök upp på mötet. Men nu säger Nooshi Dadgostar att upplägget för samtalen har ändrats. Detta därför att Centerpartiet meddelat att man kan tänka sig att stödja både en regering ledd av Socialdemokraterna, och en regering ledd av Moderaterna.
+Senast på fredag vill Centerpartiet att Socialdemokraterna och Moderaterna ska presentera sina regeringspaket. Och för centern kan det innebära ett val om vilken röd linje som ska överges - Vänsterpartiet i regering eller att bli beroende av Sverigedemokraterna. Enligt Elias Rosell, ledarskribent på centerprofilerade Norrtelje Tidning, kan alternativet till höger vara ett dubbelsvek mot väljarna. ”Dels en svekdebatt om att man på något sätt samarbetar med SD och en svekdebatt om att man ändå mer framhöll Magdalena Andersson som sin statsministerkandidat innan valet”, säger han.
 
-### [Riksdagen röstar om möjligheten att återkalla medborgarskap](https://www.sverigesradio.se/artikel/9338723)
+### [Ekot erfar: V-distrikten ger massivt stöd för regeringskrav](https://www.sverigesradio.se/artikel/9339160)
 Ekot, Sveriges Radio · 2026-11-11 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-I dag fattar riksdagen beslut om att ändra grundlagen, bland annat när det gäller möjligheten att frånta en person sitt svenska medborgarskap. Det gäller de med dubbelt medborgarskap som begår allvarliga brott eller har fått medborgarskap på felaktiga grunder. De rödgröna partierna är oeniga i frågan. Vänsterpartiet och Miljöpartiet är kritiska medan Socialdemokraterna står bakom förslaget, som drivits fram av Sverigedemokraterna i Tidösamarbetet. Det här är andra gången beslut tas om den här ändringen i grundlagen vilket krävs för att den ska börja gälla.
+Vänsterpartiets krav på ministerposter har ett "massivt" stöd i de 25 partidistrikten. Det står, enligt Ekots källor, klart efter ett internt möte tidigare i veckan, där även frågan om extraval lyftes. "Vi ska inte vika oss", säger en person som närvarade på mötet. Beskedet från partiledaren Nooshi Dadgostar, så sent som i dag, är att Vänsterpartiets regeringskrav ligger fast.
 
-### [Både S och M kan locka Centern med klimatpolitik](https://www.sverigesradio.se/artikel/9338479)
+### [V öppnar för elstöd till företag – S och SD vill avvakta](https://www.sverigesradio.se/artikel/9338968)
 Ekot, Sveriges Radio · 2026-11-11 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet har fått en av huvudrollerna i regeringsbildningen. Elisabeth Thand Ringqvist har krävt att få helhetslösningar av Socialdemokraterna och Moderaterna att ta ställning till. ”Nyckeln ligger väldigt mycket i den gröna omställningen”, säger Lisa Pelling, vd för den progressiva tankesmedjan Arena Idé till P1 Morgon. Också Sigrun Fagerfjäll, chefsekonom vid marknadsliberala tankesmedjan Timbro, lyfter fram klimatpolitiken. ”Där tror jag vi behöver Centerpartiet som en reformmotor i en alliansregering”, säger hon.
+Vänsterpartiet öppnar för elstöd till företag i vinter, medan Sverigedemokraterna och Socialdemokraterna vill avvakta en ny regering. Frågan är akut för många företagare eftersom dagens elstöd bara gäller hushåll och än så länge året ut. I Skåne berättar bagaren Emilia Blixt om en elräkning på 30 000 kronor – samtidigt som partierna ger olika besked om vad som kan göras.
 
-### [Regeringskaoset: Skarpare röda linjer i Sverige än övriga Norden](https://www.dn.se/sverige/regeringskaoset-skarpare-roda-linjer-i-sverige-an-ovriga-norden)
-DN Nyheter · 2026-11-11 · Pia Gripenberg
+### [Riksdagen säger ja till ändrad grundlag om medborgarskap](https://www.sverigesradio.se/artikel/9338982)
+Ekot, Sveriges Radio · 2026-11-11 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Blir svenska Vänsterpartiet åter blåst på att sitta i en regering? I Danmark delar V:s systerparti ministerposter med S och två liberala partier. Nordenprofessorn Johan Strang har svårt att förstå låsningarna i Sverige. – De röda linjerna verkar vara mycket, mycket skarpare, säger han till DN.
+Riksdagen har röstat ja till att ändra grundlagen angående möjligheten att frånta en person sitt svenska medborgarskap. Det ska bli möjligt att återkalla det svenska medborgarskapet för den som har dubbelt medborgarskap, som begår allvarliga brott eller har fått medborgarskap på felaktiga grunder. Vänsterpartiet och Miljöpartiet röstade emot.
 
-### [”Många ser ju Centern som svikare här”](https://www.dn.se/sverige/manga-ser-ju-centern-som-svikare-har)
-DN Nyheter · 2026-11-11 · Anton Säll, Jonas Gratzer
+### [Experter: Chanserna för Kristersson har ökat](https://www.dn.se/sverige/experter-chanserna-for-kristersson-har-okat)
+DN Nyheter · 2026-11-11 · Frida Bergkvist _(betalvägg — endast ingress)_
 
-I Täby har gamla alliansen styrt tillsammans i 16 år. Men nu är samarbetet över. M, KD och L styr i stället själva – och anger regeringsfrågan som orsak till det avslutade samarbetet.
+Ulf Kristerssons chanser att bli statsminister har ökat, menar de statsvetare som DN har talat med. Men mycket talar fortfarande emot M-ledaren. – Det blir svårt för Kristersson att inte göra en ”deal” med Sverigedemokraterna, säger statsvetaren Jenny Madestam.
 
-### [Väljarna om V:s ministerkrav: ”Var realistiska”](https://www.dn.se/sverige/valjarna-om-vs-ministerkrav-var-realistiska)
-DN Nyheter · 2026-11-11 · Christy Chamy, Ali Lorestani _(betalvägg — endast ingress)_
+### [DN Debatt. ”Centerpartiet har numera mer makt än Moderaterna”](https://www.dn.se/debatt/centerpartiet-har-numera-mer-makt-an-moderaterna)
+DN Nyheter · 2026-11-11
 
-Efter att Magdalena Andersson (S) sagt att hon vill bilda regering enbart med C och MP ökar pressen på Vänsterpartiet att överge sitt krav på ministerposter. Men flera av partiets distriktsordförande vill stå fast vid linjen.
+DN DEBATT. Den som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet, såvida inte Socialdemokraterna och Moderaterna är beredda att regera tillsammans. En spelteoretisk analys visar att C numera är landets näst mäktigaste parti, som dock måste välja mellan makt och politik, skriver Jörgen W Weibull, professor emeritus vid Handelshögskolan i Stockholm.
 
-## Officiella besked
+### [M-källor: Kommer krävas tid att få över C](https://www.dn.se/sverige/m-kallor-kommer-kravas-tid-att-fa-over-c)
+DN Nyheter · 2026-11-11 · Hanna Jakobson, Pia Gripenberg, Hans Rosén, Annie Reuterskiöld
 
-### ["Ambitiös svensk linje under COP31"](https://www.regeringen.se/debattartiklar/2026/11/ambitios-svensk-linje-under-cop31)
-Regeringen.se · 2026-11-11 · Regeringskansliet
+Moderaternas försök att övertala Centerpartiet att byta sida lär kräva mer tid än man först trodde, enligt DN:s källor. Problemet är den parlamentariska matematiken: hur ska en M-ledd regering undgå att bli beroende av SD? – Visar det sig sedan omöjligt att styra får man väl avgå, bilda en ny regering eller utlysa ett nyval, säger M-toppen Christofer Fjellner.
 
-Debattartikel av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari, den 11 november 2026, Dagens Industri.
+### [Nu letar alla efter nyckeln – här är låsningarna i regeringsfrågan](https://www.dn.se/sverige/nu-letar-alla-efter-nyckeln-har-ar-lasningarna-i-regeringsfragan)
+DN Nyheter · 2026-11-11 · Hans Rosén, Elin Lindwall _(betalvägg — endast ingress)_
 
-_Genererat 2026-11-11T14:03:07.506735+00:00._
+Magdalena Andersson nobbar vänsterpartisterna medan Jimmie Åkesson försöker locka över Centern. Plötsligt är alla bollar uppe i luften samtidigt i kampen om regeringsmakten. Men vad innebär de olika alternativen egentligen?
+
+### [V-toppen ser att ministerkravet ligger kvar: ”Har ett beslut”](https://www.dn.se/sverige/nytt-rodgront-samtal-vill-ha-in-olika-bud)
+DN Nyheter · 2026-11-11 · Frida Bergkvist, Pia Gripenberg, Molly Karlsson Inde
+
+S-ledaren Magdalena Andersson hoppas fortsatt kunna få ihop en regering och vill att talmannen avvaktar med en ny statsministeromröstning. Enligt V-toppen Ida Gabrielsson kommer Vänsterns ministerkrav inte att ändras. På onsdagen möttes de fyra rödgröna partierna igen.
+
+_Genererat 2026-11-12T06:03:02.680403+00:00._

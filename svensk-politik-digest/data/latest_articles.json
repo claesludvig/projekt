@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-11-11T14:03:07.506735+00:00",
-  "new_count": 8,
+  "fetched_at": "2026-11-12T06:03:02.680403+00:00",
+  "new_count": 11,
   "skipped": {
-    "seen": 40,
-    "offtopic": 147,
+    "seen": 45,
+    "offtopic": 139,
     "old": 15
   },
-  "fetch_errors": 3,
+  "fetch_errors": 5,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 5,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 3,
+      "new": 5,
       "ok": true
     },
     {
@@ -41,7 +41,7 @@
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,153 +65,208 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/svtverian-s-sjunker-i-opinionen-lagsta-siffran-under-andersson",
-      "title": "SVT/Verian: S sjunker i opinionen – lägsta siffran under Andersson",
-      "source": "SVT Nyheter",
+      "url": "https://www.expressen.se/ledare/linda-jerneck/anderssons-diviga-stil-kan-kosta-s-makten",
+      "title": "Anderssons diviga stil kan kosta S makten",
+      "source": "Expressen Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-12",
+      "author": "linda jerneck",
+      "commentator": "",
+      "summary": "Magdalena Anderssons valhänta ledarskap har gjort regeringsbildningen svårare än den behövt vara. Nu är makten på väg att glida S ur händerna.",
+      "fulltext": "Magdalena Anderssons valhänta ledarskap har gjort regeringsbildningen svårare än den behövt vara. Nu är makten på väg att glida S ur händerna.\nAnderssons diviga stil kan kosta S makten\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\n”Taktik för att få en stark statsminister: Rösta på en stark statsminister.”\nSocialdemokraternas valbudskap åldrades som Dorian Grays porträtt i vindsskrubben. Efter 60 dagar har de rödgröna inte lyckats växla in sin valseger till en regering.\nI stället verkar Ulf Kristerssons chanser att få bo kvar i Sagerska allt större. På bettingsajten Polymarket har det varit jämnt skägg mellan honom och Magdalena Andersson trots moderatledarens sämre förutsättningar.\nHur hamnade vi här, när Socialdemokraterna utropade seger redan i augusti?\nMagdalena Anderssons valhänta sonderande är en delförklaring. Det var inget lätt uppdrag hon fick – Centerns röda linjer och Vänsterns absoluta krav på ministerposter låter sig inte jämkas med mindre än att någon viker sig.\nMen Anderssons taktik har snarare fördjupat än överbryggat motsättningarna. Hittills har hon mest skällt på dem hon vill samarbeta med. På söndagens blixtinkallade presskonferens – där S-ledaren till sist skulle meddela det alla undrat hela valrörelsen, nämligen vilka partier hon vill regera med – gav hon inte bara Nooshi på båten, utan också en skopa ovett.\n– Jag vet inte om någon som har följt svensk politik senaste veckorna tycker att Vänsterpartiet i alla lägen har agerat konstruktivt, sa Andersson om partiet som hon vill luta sig mot men inte ge de ministerposterna de kräver.\nSka S lyckas övertyga V om att släppa både kongressbeslut och prestige för att blidka C krävs skicklig diplomati och politiska eftergifter. Om det alls går. Vänsterpartisternas besvikelse över beskedet var omedelbar och frän. Att ge dem gliringar och anklaga dem för att vara ansvariga för landets förfall om högerpartierna får styra är enastående klantigt.\nÄven Centerpartiet får en släng av tårtspaden. Om Thand Ringqvist väljer att samarbeta med M, KD och L – med passivt stöd av SD – gör hon sig skyldig till ”det största sveket i svensk politisk historia”.\nDet är viss skillnad mot hur det lät i den dimmiga dåtid som var september: I sitt segertal efter valet lovade Magdalena Andersson samarbetsanda och sammanhållning och att lägga partitaktiken åt sidan. Hon upprepade budskapet tio gånger på tre minuter.\nSamarbetsanda, det är tydligen att S förklarar för de andra vad som ska ske och de lyder.\nOm och om igen har initiativet glidit S ur händerna. Det var centerledaren Elisabeth Thand Ringqvist som först samlade alla fyra rödgröna partier i samma konferensrum på Lidingö. Och efter att Jimmie Åkesson deklarerat att SD kan trycka gult för en alliansregering utan några krav på formellt samarbete, var det återigen C som snodde åt sig taktpinnen.\nPå en presskonferens inbjöd Thand Ringqvist S och M att lägga fram varsitt regeringspaket – komplett med koalitionspartier och politiskt program – som Centern kan välja mellan. Deadline: en vecka.\nMagdalena Andersson har presenterat vilka hon vill släppa in i Rosenbad och vilka hon vill porta. Men hon verkar inte vilja ta ansvar för att realisera sin plan:\n– Sen måste Centerpartiet komma med förslag till Vänsterpartiet på hur man ska kunna trygga att de får inflytande och att det blir verklighet, sade hon till SVT i tisdags.\nVem är det som styr, undrar man. Det är ju jag, höhö, säger den starka statsministerkandidaten från soffan bak i husvagnen.\nLinda Jerneck är biträdande politisk redaktör på Expressen. Läs fler av hennes texter här .\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9338891",
+      "title": "Arbetsmarknadens parter besvikna över budgeten",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Malvina Britts",
+      "published": "2026-11-12",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Samtidigt som Magdalena Andersson försöker få ihop en regering sjunker Socialdemokraternas väljarstöd. I SVT/Verians novembermätning får partiet sin lägsta notering sedan Andersson tillträdde hösten 2021. – Den tilltagande kritiken mot S hantering av regeringsbildningen har troligen påverkat stödet för partiet, säger Per Söderpalm, opinionsansvarig på Verian.",
-      "fulltext": "Samtidigt som Magdalena Andersson försöker få ihop en regering sjunker Socialdemokraternas väljarstöd. I SVT/Verians novembermätning får partiet sin lägsta notering sedan Andersson tillträdde hösten 2021.\n– Den tilltagande kritiken mot S hantering av regeringsbildningen har troligen påverkat stödet för partiet, säger Per Söderpalm, opinionsansvarig på Verian.\nHösten har inrikespolitiskt präglats av en långsam regeringsbildning. Först den senaste veckan har det vittnats om att förhandlingar gjort att processen mot en ny regering börjat ta fart.\nVäljarna har sedan valet gjort vissa förflyttningar, enligt Verians väljarbarometer.\nBåde C och S har statistiskt säkerställda tapp. För S tycks tappet främst ha skett den senaste månaden, och i mätningen landar de på 26,1 procent. Det är partiets lägsta notering sedan september 2021 och ett bottenrekord för S under Magdalena Anderssons tid som partiledare. De tappar främst väljare till Moderaterna, men också till Miljöpartiet.\n– Den utlovade starka statsministern har inte lyckats få ihop det och det är klart att det straffar sig i opinionen, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.\nModeraterna går i motsatt riktning och fortsätter att stärka sitt stöd. De får 23,3 procent och det skiljer i dag knappt tre procentenheter mellan M och S.\nSamtidigt går Tidöpartierna för första gången på över fyra år om de rödgröna i en Verianmätning.\n– Att M lyckas locka väljare över blockgränsen är den främsta förklaringen till att Tidöpartierna går om de rödgröna, säger Per Söderpalm.\nVänsterpartiet noterar i den här mätningen 8,5 procent och ligger därmed i nivå med sitt valresultat.\nElisabeth Marmorstein menar att det kan stärka V i de pågående förhandlingarna.\n– De som har hoppats på att fallande opinionssiffror skulle få V att vika sig i sitt krav på ministerposter får nog tänka om, säger hon.\nCenterpartiet backar däremot för andra månaden i rad och får 5,7 procent. Det är partiets lägsta stöd sedan juni och en signifikant nedgång jämfört med valresultatet. Partiet tappar främst väljare till M, men också till S.\n– Osäkerheten kring Centerpartiets vägval i regeringsfrågan kan ha spelat en roll för vissa väljare, säger Söderpalm.\nElisabeth Marmorstein är inne på samma linje.\n– Risken är att de tappar ytterligare om deras vägval i regeringsfrågan leder till en svekdebatt.\nTidöpartierna samlar totalt 50,6 procent mot de rödgröna partiernas 47,7 procent. Skillnaden på 2,9 procentenheter är dock inte statistiskt säkerställd.\nI en tidigare version av artikeln framgick felaktiga siffror på Moderaterna och Kristdemokraternas förändringar. Det korrekta är att M stigit 1,0 procentenheter och KD har stigit 0,4 procentenheter.\nVerians väljarbarometer baseras på cirka 3 000 genomförda intervjuer med personer i Sifo-panelen – en panel som rekryteras via slumpmässiga riksrepresentativa urval. Panelen består av cirka 85 000 deltagare. Urvalet sker i åldrarna 18-84 år. Undersökningen kompletteras med telefonintervjuer med personer i åldrarna 85 år och uppåt.\nFrågan som ställs är: ”Vilket parti skulle du rösta på om det vore val i dag?”\nSvarsfrekvensen i väljarbarometern ligger kring 40 procent. De svarande kontrolleras så att de är representativa för olika demografiska grupper som kön, ålder, region, utbildning och partisympati i föregående val.\nVäljarbarometer genomfördes under dessa datum: 26 oktober till 8 november 2026.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Det blir som brukligt inga stora reformer under torsdagen när övergångsregeringen presenterar sin budget. Det beklagar arbetsmarknadens parter som önskar satsningar för jobb och tillväxt. Sven Olov Daunfeldt på Svenskt Näringsliv hade hoppats på ett kostnadsavdrag för investeringar i forskning och utveckling. Torbjörn Hållö på LO vill se stimulanser som gynnar dem med lägre inkomster, som höjda barnbidrag och riktade sänkta skatter.",
+      "fulltext": "",
       "paywall": false,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338891'",
       "matched_terms": [
-        "regeringsbildning",
-        "Socialdemokraterna"
+        "övergångsregering"
       ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
     },
     {
-      "url": "https://www.regeringen.se/debattartiklar/2026/11/ambitios-svensk-linje-under-cop31",
-      "title": "\"Ambitiös svensk linje under COP31\"",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-11-11",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "Debattartikel av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari, den 11 november 2026, Dagens Industri.",
-      "fulltext": "Debattartikel av statsminister Ulf Kristersson och klimat- och miljöminister Romina Pourmokhtari, den 11 november 2026, Dagens Industri.\nSverige är världsledande i arbetet för att minska de globala utsläppen samtidigt som vi stärker konkurrenskraften för våra företag. Sedan år 1990 har Sveriges utsläpp minskat med ungefär en tredjedel, samtidigt som storleken på svensk ekonomi nästan har fördubblats. Vi har mycket att vara stolta över och förmågan att kunna kombinera utsläppsminskningar med ekonomisk tillväxt är bland det viktigaste vi bidrar med på FN:s klimattoppmöte, COP31 i Turkiet.\nOavsett om vi leder en regering, en övergångsregering eller verkar i opposition arbetar vi alltid oförtröttligt för att samla politiken bakom den linje som är bäst för Sverige. Det gör att vår svenska linje i klimatförhandlingarna förblir konsekvent och ambitiös.\nVåra prioriteringar kokar ner till två budskap: brådska och möjligheter. Utsläppen behöver minska snabbare, samtidigt som våra samhällen behöver rustas för klimatförändringarnas följder. Men klimatomställningen är också en möjlighet till innovation, nya jobb, växande ekonomier och stärkt konkurrenskraft.\nFör Sverige handlar COP31 framför allt om genomförande. Ländernas klimatplaner behöver omsättas i beslut om hur energi produceras, hur industrin ställer om och vart investeringarna går. Efterfrågan på fossilfria lösningar behöver stärkas och ambitionerna måste öka över tid. Att genomföra de löften som finns idag är nödvändigt, men det är inte tillräckligt. Ett särskilt ansvar vilar på de stora utsläppsländerna – för det är där åtgärderna gör som störst skillnad för de totala utsläppen i världen.\nI EU är vi överens om att fortsätta driva på för genomförandet av Parisavtalet och att det globala klimatarbetet ska påskyndas. Vi vill att omställningen från fossila bränslen ska gå snabbare. Ren elektrifiering, mer fossilfri energi samt effektivare energianvändning är helt centrala delar för den processen.\nFinansieringsfrågan kommer att vara avgörande. Klimatfinansiering till utvecklingsländer behöver öka och bli mer tillgängligt, särskilt för de mest sårbara länderna. Det kräver att fler länder behöver bidra, samtidigt som det är alldeles uppenbart att offentliga medel inte ensamt kan bära hela omställningen. Privat kapital behöver mobiliseras i större omfattning och oavsett var pengarna kommer ifrån behöver de styras bort från fossila bränslen mot rena tekniker och energikällor.\nVi vet också att näringslivet både kan och vill göra mer. Därför är det bra att vi under klimattoppmötet samlar företag, lokala och regionala företrädare och andra aktörer kring praktiska lösningar. Där kan klimatutmaningar möta teknik, kunskap och finansiering.\nPartnerskap och frivilliga initiativ ersätter inte Parisavtalet, men det kan hjälpa motvilliga länder att genomföra det. Därför är framsteg utanför förhandlingsrummen också en viktig del av mötets resultat. Vi vill att COP31 skickar en signal till länder och marknader som stärker efterfrågan, och uppmuntrar länder att ge stabila förutsättningar för innovation och investeringar.\nSveriges ledarskap inom innovation är ett viktigt bidrag i det här arbetet. Vi kan visa hur svenska företags lösningar kan påskynda omställningen av energisystem, transporter och tung industri. Tre helt centrala områden för att världen ska lyckas med omställningen.\nDet som blir avgörande på COP31 är om det samlade resultatet påskyndar utsläppsminskningarna, stärker klimatanpassningen och gör fler fossilfria investeringar möjliga. Ett enda möte löser inte klimatfrågan. Men COP31 måste föra arbetet framåt – från löften till handling.\nUlf Kristersson , statsminister Romina Pourmokhtari , klimat- och miljöminister\nSidan är uppmärkt med följande kategorier:\nPublicerad 09 november 2026 · Pressmeddelande från Romina Pourmokhtari , Klimat- och näringslivsdepartementet , Landsbygds- och infrastrukturdepartementet , Utrikesdepartementet",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338774",
-      "title": "Dadgostar efter rödgrönt möte: Står fast vid våra krav",
+      "url": "https://www.sverigesradio.se/artikel/9338795",
+      "title": "Analysen: Det krävs för att C ska välja vänstersidan",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-11",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Vänsterpartiet håller fast vid sitt krav på att sitta i regering, säger partiledare Nooshi Dadgostar efter att hon kommit ut från ett möte med de rödgröna partierna. I måndags havererade ett möte mellan företrädare för partierna efter att Magdalena Andersson (S) meddelat att hon inte vill ha V i hennes regering, och V därefter inte dök upp på mötet. Men nu säger Nooshi Dadgostar att upplägget för samtalen har ändrats. Detta därför att Centerpartiet meddelat att man kan tänka sig att stödja både en regering ledd av Socialdemokraterna, och en regering ledd av Moderaterna.",
+      "summary": "Senast på fredag vill Centerpartiet att Socialdemokraterna och Moderaterna ska presentera sina regeringspaket. Och för centern kan det innebära ett val om vilken röd linje som ska överges - Vänsterpartiet i regering eller att bli beroende av Sverigedemokraterna. Enligt Elias Rosell, ledarskribent på centerprofilerade Norrtelje Tidning, kan alternativet till höger vara ett dubbelsvek mot väljarna. ”Dels en svekdebatt om att man på något sätt samarbetar med SD och en svekdebatt om att man ändå mer framhöll Magdalena Andersson som sin statsministerkandidat innan valet”, säger han.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338774'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338795'",
       "matched_terms": [
-        "partiledar",
+        "statsminister",
         "Centerpartiet",
         "Moderaterna",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338723",
-      "title": "Riksdagen röstar om möjligheten att återkalla medborgarskap",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "I dag fattar riksdagen beslut om att ändra grundlagen, bland annat när det gäller möjligheten att frånta en person sitt svenska medborgarskap. Det gäller de med dubbelt medborgarskap som begår allvarliga brott eller har fått medborgarskap på felaktiga grunder. De rödgröna partierna är oeniga i frågan. Vänsterpartiet och Miljöpartiet är kritiska medan Socialdemokraterna står bakom förslaget, som drivits fram av Sverigedemokraterna i Tidösamarbetet. Det här är andra gången beslut tas om den här ändringen i grundlagen vilket krävs för att den ska börja gälla.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9338723'",
-      "matched_terms": [
-        "Miljöpartiet",
         "Socialdemokraterna",
         "Sverigedemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9338479",
-      "title": "Både S och M kan locka Centern med klimatpolitik",
+      "url": "https://www.sverigesradio.se/artikel/9339160",
+      "title": "Ekot erfar: V-distrikten ger massivt stöd för regeringskrav",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-11",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Centerpartiet har fått en av huvudrollerna i regeringsbildningen. Elisabeth Thand Ringqvist har krävt att få helhetslösningar av Socialdemokraterna och Moderaterna att ta ställning till. ”Nyckeln ligger väldigt mycket i den gröna omställningen”, säger Lisa Pelling, vd för den progressiva tankesmedjan Arena Idé till P1 Morgon. Också Sigrun Fagerfjäll, chefsekonom vid marknadsliberala tankesmedjan Timbro, lyfter fram klimatpolitiken. ”Där tror jag vi behöver Centerpartiet som en reformmotor i en alliansregering”, säger hon.",
+      "summary": "Vänsterpartiets krav på ministerposter har ett \"massivt\" stöd i de 25 partidistrikten. Det står, enligt Ekots källor, klart efter ett internt möte tidigare i veckan, där även frågan om extraval lyftes. \"Vi ska inte vika oss\", säger en person som närvarade på mötet. Beskedet från partiledaren Nooshi Dadgostar, så sent som i dag, är att Vänsterpartiets regeringskrav ligger fast.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338479'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9339160'",
       "matched_terms": [
-        "regeringsbildning",
+        "ministerpost",
+        "partiledar",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9338968",
+      "title": "V öppnar för elstöd till företag – S och SD vill avvakta",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Vänsterpartiet öppnar för elstöd till företag i vinter, medan Sverigedemokraterna och Socialdemokraterna vill avvakta en ny regering. Frågan är akut för många företagare eftersom dagens elstöd bara gäller hushåll och än så länge året ut. I Skåne berättar bagaren Emilia Blixt om en elräkning på 30 000 kronor – samtidigt som partierna ger olika besked om vad som kan göras.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338968'",
+      "matched_terms": [
+        "Socialdemokraterna",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9338982",
+      "title": "Riksdagen säger ja till ändrad grundlag om medborgarskap",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Riksdagen har röstat ja till att ändra grundlagen angående möjligheten att frånta en person sitt svenska medborgarskap. Det ska bli möjligt att återkalla det svenska medborgarskapet för den som har dubbelt medborgarskap, som begår allvarliga brott eller har fått medborgarskap på felaktiga grunder. Vänsterpartiet och Miljöpartiet röstade emot.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338982'",
+      "matched_terms": [
+        "Miljöpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/experter-chanserna-for-kristersson-har-okat",
+      "title": "Experter: Chanserna för Kristersson har ökat",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Frida Bergkvist",
+      "commentator": "",
+      "summary": "Ulf Kristerssons chanser att bli statsminister har ökat, menar de statsvetare som DN har talat med. Men mycket talar fortfarande emot M-ledaren. – Det blir svårt för Kristersson att inte göra en ”deal” med Sverigedemokraterna, säger statsvetaren Jenny Madestam.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/experter-chanserna-for-kristersson-har-okat/\nUlf Kristerssons chanser att bli statsminister har ökat, menar de statsvetare som DN har talat med. Men mycket talar fortfarande emot M-ledaren.\n– Det blir svårt för Kristersson att inte göra en ”deal” med Sverigedemokraterna, säger statsvetaren Jenny Madestam.",
+      "paywall": true,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+    },
+    {
+      "url": "https://www.dn.se/debatt/centerpartiet-har-numera-mer-makt-an-moderaterna",
+      "title": "DN Debatt. ”Centerpartiet har numera mer makt än Moderaterna”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "",
+      "commentator": "",
+      "summary": "DN DEBATT. Den som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet, såvida inte Socialdemokraterna och Moderaterna är beredda att regera tillsammans. En spelteoretisk analys visar att C numera är landets näst mäktigaste parti, som dock måste välja mellan makt och politik, skriver Jörgen W Weibull, professor emeritus vid Handelshögskolan i Stockholm.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:01\nArtikelns ursprungsadress: https://www.dn.se/debatt/centerpartiet-har-numera-mer-makt-an-moderaterna/\nDen som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet, såvida inte Socialdemokraterna och Moderaterna är beredda att regera tillsammans. En spelteoretisk analys visar att C numera är landets näst mäktigaste parti, som dock måste välja mellan makt och politik, skriver Jörgen W Weibull, professor emeritus vid Handelshögskolan i Stockholm.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRiksdagen har förkastat två statsministerkandidater: Magdalena Andersson (S) i oktober och Elisabeth Thand Ringqvist (C) den 3 november. Nu sonderar Ulf Kristersson (M). Två av riksdagens fyra försök är förbrukade innan ett extraval blir oundvikligt.\nMandatfördelningen förklarar en del av låsningen. Men mandat är inte detsamma som politisk makt.\nTidöpartierna – Moderaterna, Kristdemokraterna, Liberalerna och Sverigedemokraterna – har tillsammans 173 mandat och har därmed förlorat sin majoritet. Socialdemokraterna, Vänsterpartiet, Centerpartiet och Miljöpartiet har en svag majoritet med 176 mandat.\nUtifrån partiernas svar på de 35 frågorna i SVT:s valkompass har jag beräknat varje partis politiska makt med en spelteoretisk modell utvecklad tillsammans med Atahan Afsar, gästforskare vid MIT. Måttet, det rumsliga Shapleyvärdet (efter ekonomipristagaren Lloyd Shapley), anger sannolikheten för att ett parti är tungan på vågen i en slumpmässigt vald sakfråga.\nEtt parti med egen majoritet har makt 1, ett parti som aldrig fäller avgörandet har makt 0, och partiernas makt summerar till 1.\nKalkylerna bygger på en enkel modell och begränsade data och bör därför tas med en nypa salt. Men resultaten är som följer:\n1. S och C är riksdagens maktcentra. S har 28 procent av mandaten men 35 procent av makten (det vill säga maktindex 0,35). C har 7 procent av mandaten men 20 procent av makten – mer än M (15 procent) och SD (12 procent), som har nästan 3 respektive 2,5 gånger så många mandat.\nFörklaringen är var partierna står. S och C ligger närmast riksdagens ideologiska mittpunkt, och partier i mitten blir oftast utslagsgivande. SD ligger längst från mitten, följt av KD och V, som har cirka 4 respektive 8 procent av makten. MP har 5 procent. L har minst makt av alla, bara 2 procent. Partiet är litet och i de flesta sakfrågor är det C eller M som fäller avgörandet i stället.\n2. C ingår i fyra av fem majoritetsalternativ. Jag har analyserat 14 potentiella regeringskoalitioner (se tabellen), där varje koalition antas enas om en gemensam plattform, som är ett genomsnitt av partiernas politik, viktat efter deras makt. Fem har egen majoritet och därmed makt 1:\n● Två blocköverskridande storkoalitioner, S+M+C och S+M+L.\n3. S+M+L ger störst maktvinst. Maktvinsten mäter hur mycket mer makt partierna får tillsammans än summan av vad de har var för sig. S+M+L ger 0,92, det vill säga nästan en fördubbling. En mittenregering ger 0,52, de rödgröna 0,47 och storkoalitionen S+M+C 0,43. Att lägga till C till S+M höjer alltså makten till 1 men sänker maktvinsten, eftersom C redan på egen hand har mycket makt.\nAtt i stället lägga till L, som har lite egen makt, ger också makt 1 men höjer samtidigt maktvinsten. För SD och KD vore den så kallade femklövern (Tidö+C) det maktmässigt klart bästa alternativet, men där har Centerpartiet tydligt sagt nej.\n4. Minoritetsregeringar blir svaga – med två undantag. Tidöpartierna utan C får bara makt 0,37 och möter C som stark opposition. Regeringar där S styr med C och något eller några av MP och L får makt mellan 0,62 och 0,74 och en måttlig maktvinst.\nTvå minoritetsalternativ sticker ut. En regering S+M får makt 0,88 och maktvinst 0,77, tredje högst av alla fjorton koalitioner, och möter bara en svag opposition. M+C+KD+L får makt 0,67 och maktvinst 0,66. (En regering S+C+MP+L får visserligen makt 0,74, men måttlig maktvinst.)\n5. C står inför ett val mellan makt och politik. S och C ligger båda nära mitten i politikrummet men är långt ifrån eniga: de svarar olika på 21 av valkompassens 35 frågor och står på motsatta sidor i 7 av dem. Femklöverns gemensamma politik skulle dock ligga längre från Centerpartiets egen än den gemensamma politiken i någon av de tre majoritetsregeringar där C ingår med S. Femklövern ger C mest utslagsgivande makt, ett samarbete med S ger C mer av sin politik.\nThand Ringqvists mittenregering var alltså ett av de fem majoritetsalternativen, men den föll när alla partier utom C röstade nej. Det visar vad beräkningarna inte fångar: partiernas vallöften, lojaliteter och uttalade röda linjer för vilka de kan tänka sig att samregera med. Däremot visar de vad varje röd linje kostar i makt.\nDen som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet – såvida inte S och M är beredda att regera tillsammans.\nHans Bergström, fd chefredaktör för Dagens Nyheter: ” Vår ensidiga demokratisyn har gjort det svårare att regera ”\nJohanna Jeansson, stiftelsen Kunskapsverket: ” Tar partierna sitt ansvar för att vi ska bry oss om politik? ”\nJörgen W Weibull, professor emeritus i nationalekonomi vid Handelshögskolan i Stockholm\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nDN Debatt. ”Vår ensidiga demokratisyn har gjort det svårare att regera”\nDN Debatt. ”Tar partierna sitt ansvar för att vi ska bry oss om politik?”\nExperter: Chanserna för Kristersson har ökat",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
         "Centerpartiet",
         "Moderaterna",
         "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/regeringskaoset-skarpare-roda-linjer-i-sverige-an-ovriga-norden",
-      "title": "Regeringskaoset: Skarpare röda linjer i Sverige än övriga Norden",
+      "url": "https://www.dn.se/sverige/m-kallor-kommer-kravas-tid-att-fa-over-c",
+      "title": "M-källor: Kommer krävas tid att få över C",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-11-11",
-      "author": "Pia Gripenberg",
+      "author": "Hanna Jakobson, Pia Gripenberg, Hans Rosén, Annie Reuterskiöld",
       "commentator": "",
-      "summary": "Blir svenska Vänsterpartiet åter blåst på att sitta i en regering? I Danmark delar V:s systerparti ministerposter med S och två liberala partier. Nordenprofessorn Johan Strang har svårt att förstå låsningarna i Sverige. – De röda linjerna verkar vara mycket, mycket skarpare, säger han till DN.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/regeringskaoset-skarpare-roda-linjer-i-sverige-an-ovriga-norden/\nBlir svenska Vänsterpartiet åter blåst på att sitta i en regering? I Danmark delar V:s systerparti ministerposter med S och två liberala partier.\nNordenprofessorn Johan Strang har svårt att förstå låsningarna i Sverige.\n– De röda linjerna verkar vara mycket, mycket skarpare, säger han till DN.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nSocialdemokraterna under Magdalena Andersson har inspirerats av Danmarks statsminister Mette Frederiksen (S) och ändrat sig i migrations- och kriminalpolitiken för att nå mittenväljare. Strategin har gjort att S tappar röster till partierna på vänsterkanten.\n– Mette Frederiksen vet att även om hon tappar väljare åt vänster kan hon behålla makten, men hon kan inte göra det om hon tappar över skiljelinjen, till Dansk Folkeparti. För de kommer aldrig att stödja henne som statsminister, säger Kasper Møller Hansen, professor vid Köpenhamns universitet.\nTill skillnad från sina svenska partikamrater har de danska socialdemokraterna genom åren släppt in vänstern i styret. Precis som S i Norge och Finland.\nEfter danska valet i våras tog det 69 dagar innan Mette Frederiksen kunde presentera en ny regering. Koalitionen består av partier både till vänster och höger om Socialdemokratiet. Den kombinationen ser just nu omöjlig ut för Magdalena Andersson.\nEn anledning är Centerpartiets stenhårda motstånd mot V-ministrar. Men S vill helst inte heller ha med V.\n– Jag vet inte om någon som följer svensk politik de senaste veckorna tycker att Vänsterpartiet i alla lägen har agerat konstruktivt, sade Magdalena Andersson på en pressträff i söndags .\nInför valet sade hon att V har ”en lång resa” att göra innan partiet kan sitta i en regering.\nS-källor som DN talat med lyfter gärna fram att det oftast går bra att samarbeta politiskt med V, men man har inte glömt att partiet gick samman med SD och avsatte Stefan Löfven 2021. Att V sedan röstade fram en moderat talman har inte hjälpt relationen.\nVissa nämner också att svenska V har en mer komprometterande historia med kommunismen än andra nordiska vänsterpartier. Dessa tröttnade dessutom tidigare på rollen att vara stödpartier. Svenska V valde länge strategin att påverka utifrån, inte från insidan.\n– Det har varit en mognadsprocess att vilja gå in i en regering, säger en V-källa.\nI Mette Frederiksens fyrpartiregering ingår V:s systerparti Socialistisk Folkeparti. Koalitionen har dessutom parlamentariskt stöd av två partier som står ännu längre till vänster, Enhedslisten och Alternativet.\n– När det formella regeringsunderlaget togs fram inkluderades även stödpartierna, vilket säkrade att vissa av deras prioriterade politiska frågor kom med. Ett exempel är kravet på avgiftsfri tandvård, berättar Kasper Møller Hansen.\nHan talar om en anda av att ge och ta – partierna till vänster accepterar att S vänder sig högerut i skattefrågor om de får gehör i till exempel sina klimatfrågor.\n– Vi har en kultur av konsensus och pragmatism, vilket innebär att vi ändå kan finna gemensam grund i många frågor där det råder djupa meningsskiljaktigheter.\nAtt det finns flera partier på vänsterkanten ger också Mette Frederiksen möjligheten att ta in det mindre radikala partiet i regeringen och hålla de andra utanför. Enhedslisten och Alternativet är å sin sida inte heller lika angelägna att sitta med i en regering som Socialistisk Folkeparti.\nJohan Strang, Nordenprofessor vid Helsingfors universitet, för ett liknande resonemang om dansk pragmatism som Møller Hansen.\n– I Danmark var det ett jättelåst läge efter senaste valet. Lars Løkke, som i vart fall i sin retorik var minst lika envis som svenska Centerpartiet är, gav till sist med sig.\nDen piprökande Lars Løkke Rasmussen är partiledare för Moderaterne. Han har tidigare varit statsminister och är nu utrikesminister. Det var han som i början av året skickades till USA för att diskutera Grönland med vicepresident JD Vance.\n– För honom handlade regeringsförhandlingarna ideologiskt om utrikespolitik – herregud, vårt lands territoriella integritet är hotad, vi har krig i Europa, vi behöver en regering som är förnuftig, säger Johan Strang.\nHan anser att den argumentationen är mer begriplig än Centerpartiets.\n– Vad är de ute efter? Vad är målsättningen med ideologin de vill driva igenom?\nJohan Strang säger att när politiken i Danmark handlar om att lösa praktiska problem blir den i Sverige i stället till ideologi som kläs i ord som folkhemmet eller nyliberalism och leder till låsningar\n– De röda linjerna i Sverige verkar vara mycket, mycket skarpare.\nI valet 2010 hade S, V och MP ett nära samarbete. Det gick inte bra. De rödgröna förlorade till dåvarande alliansen.\nI sin eftervalsanalys skrev Socialdemokraterna att S-väljare som inte gillade MP och V gick till andra partier. S skrev också att MP i viss mån legitimerades som regeringsparti och gjorde det lättare att ta steget från S till MP.\nSamma resonemang om att legitimera ett parti hörs nu om V i regeringsfrågan.\nJohan Strang förstår inte Socialdemokraternas argument gentemot Vänsterpartiet. Han tycker det är tvärtom.\n– Om man är rädd för att tappa väljare är det lättare att ha dem innanför regeringen än utanför.\nHan tar åter Danmark som exempel. Där har Socialistisk Folkeparti varit närmast utrotningshotat efter att man har ingått i en regering.\n– Socialdemokraterna i Sverige är mer vana vid att regera själva. De andra socialdemokratiska partierna i Norden har en större vana att ingå i koalitioner och vara tvungna att förhandla med andra, konstaterar Johan Strang.\nDanmark: S styr tillsammans med Socialistisk Folkeparti och liberala Moderaterne och Radikale Venstre i en minoritetsregering. I riksdagen (Folktinget) sitter 179 ledamöter fördelade på tolv partier samt fyra ledamöter som representerar Färöarna och Grönland.\nFinland: moderata Samlingspartiet styr tillsammans med Sannfinländarna, liberala Svenska folkpartiet och KD i en majoritetsregering. I riksdagen sitter 200 ledamöter fördelade på tio partier. Norge: S styr en enpartiregering som söker stöd av Senterpartiet, Sosialistisk Venstreparti, Rødt och Miljøpartiet de grønne. I riksdagen (Stortinget) finns 169 ledamöter fördelade på nio partier.\nSå kan Magdalena Andersson mäkla fred mellan C och V\nStor oro i V efter nobben från S-ledaren: ”Har gått helt överstyr”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nNytt rödgrönt samtal: ”Vill ha in olika bud”\nTomas Ramberg: Därför vill Åkesson så gärna ha Centern i regeringen\nVäljarna om V:s ministerkrav: ”Var realistiska”",
+      "summary": "Moderaternas försök att övertala Centerpartiet att byta sida lär kräva mer tid än man först trodde, enligt DN:s källor. Problemet är den parlamentariska matematiken: hur ska en M-ledd regering undgå att bli beroende av SD? – Visar det sig sedan omöjligt att styra får man väl avgå, bilda en ny regering eller utlysa ett nyval, säger M-toppen Christofer Fjellner.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/m-kallor-kommer-kravas-tid-att-fa-over-c/\nModeraternas försök att övertala Centerpartiet att byta sida lär kräva mer tid än man först trodde, enligt DN:s källor.\nProblemet är den parlamentariska matematiken: hur ska en M-ledd regering undgå att bli beroende av SD?\n– Visar det sig sedan omöjligt att styra får man väl avgå, bilda en ny regering eller utlysa ett nyval, säger M-toppen Christofer Fjellner.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "ministerpost",
-        "Vänsterpartiet"
+        "Centerpartiet",
+        "Moderaterna"
       ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/manga-ser-ju-centern-som-svikare-har",
-      "title": "”Många ser ju Centern som svikare här”",
+      "url": "https://www.dn.se/sverige/nu-letar-alla-efter-nyckeln-har-ar-lasningarna-i-regeringsfragan",
+      "title": "Nu letar alla efter nyckeln – här är låsningarna i regeringsfrågan",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-11-11",
-      "author": "Anton Säll, Jonas Gratzer",
+      "author": "Hans Rosén, Elin Lindwall",
       "commentator": "",
-      "summary": "I Täby har gamla alliansen styrt tillsammans i 16 år. Men nu är samarbetet över. M, KD och L styr i stället själva – och anger regeringsfrågan som orsak till det avslutade samarbetet.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/manga-ser-ju-centern-som-svikare-har/\nI Täby har gamla alliansen styrt tillsammans i 16 år. Men nu är samarbetet över. M, KD och L styr i stället själva – och anger regeringsfrågan som orsak till det avslutade samarbetet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nMellan Moderaternas och Socialdemokraternas kontor på kommunhuset i Täby står ett tomt kontor.\nDet här är den demilitariserade zonen, skämtar kommunstyrelsens ordförande Erik Andersson (M).\nTäby har länge varit ett skyltfönster för den moderatledda borgerligheten. Både Fredrik och Filippa Reinfeldt har varit aktiva i lokalpolitiken, den sistnämnda som både som kommunalråd och som kommunstyrelsens ordförande.\nTäbys kommunhus är både ljust och fräscht. Det byggdes 2017 och politikerna sitter alla på samma våning.\nSedan 2010 har den gamla alliansen med M, L, C och KD styrt tillsammans i Täby med en förkrossande majoritet.\nMen efter det här valet får Centerpartiet inte vara med längre. I stället kommer Moderaterna, Liberalerna och Kristdemokraterna styra i en egen majoritet.\nUt med Täbyalliansen. Nu styr Borgerlig allians för Täby i stället.\nDet är möjligt eftersom Moderaterna fick 46,6 procent i senaste kommunvalet.\n– Det var ett ganska enkelt val. Vi kände att Centern stödjer vänsterpartierna i regeringsfrågan, säger Erik Andersson.\nKanske borde Centerpartiet flytta in i rummet mellan S och M i framtiden.\nC är besvikna på att de uteslöts från styret efter 16 års samarbete. De blev överraskade, enligt tillträdande gruppledaren Lena Kvarnström.\n– Jag tycker det var konstigt att fatta beslut utifrån spekulation eftersom vi inte visste vad regeringsfrågan och regionstyret skulle landa i, säger Lena Kvarnström,\nI det senaste valet ökade Moderaterna med sju procentenheter.\nLiberalerna tappade med ungefär lika mycket.\nMen trots att L halverade sitt stöd är man nöjda med valresultatet.\nFokus, enligt Thomas Helleday, kommunalråd för (L), var att rädda Liberalerna över riksdagsspärren. Det kommunala valet var inte lika viktigt i det här valet, menar han.\nHan ser det som att väljarna tycker att partiet gjort rätt.\n– Vi såg ju det väldigt tydligt när vi gjorde vårt vägval, när vi faktiskt också blev tydliga med vilken regering vi ville se. Vi fick ju både nya medlemmar och medlemmar som kom tillbaka, som kanske hade lämnat oss i samband med januariavtalet, säger Thomas Helleday (L).\nJanuariavtalet 2018 var en överenskommelse som höll Vänsterpartiet och Sverigedemokraterna borta från matchen.\nKristdemokraterna backade med en dryg procentenhet.\n– Jag uppfattar det som att våra kommuninvånare är väldigt, väldigt nöjda med hur kommunen drivs. Och då är det inte så onaturligt att det största partiet som sitter i styret också får ytterligare stöd, säger Eva von Wowern (KD).\nOfta brukar kommunpolitiker prata om att kommunpolitiken särskiljer sig från politiken på riksplanet. Det är inte ovanligt me d olika konstellationer som raderar ut de röda linjerna på riksnivå .\nMen i Täby är det annorlunda. Här väljer förra mandatperiodens regeringspartier på riksplanet att fortsätta på egen hand.\n– Alliansen är ett projekt som växte ju uppifrån och ner. Det var ingen folkrörelse på det sättet, säger Erik Andersson (M) och fortsätter:\n– Många ser ju Centern som svikare här. Att de stödjer vänsterpolitik.\nHär har regeringsfrågan direkt påverkat möjligheterna till samarbete, enligt Erik Andersson. Redan under förra mandatperioden var partierna oense vid ett par tillfällen.\nFör ett år sedan ville återvandringssamordnaren bjuda in kommuner till ett frivilligt möte för att öka den frivilliga återvandringen. Det skapade ramaskri i kommunsverige, många kommuner nobbade mötet. I Täby var partierna oeniga i hur man skulle förhålla sig till inbjudningen.\nVad hade blivit den stora skillnaden i politiken om Centerpartiet suttit med i styret?\n– Ja, bra fråga, säger Thomas Helleday (L).\n– Lokalt tror jag inte att det hade skilt sig åt så mycket, faktiskt, säger Erik Andersson (M).\nRedan under förra mandatperioden var partierna oense vid ett par tillfällen, bland annat om huruvida man skulle delta på ett möte med återvandringssamordnaren och om hur kommunen borde svara på en remiss om fritidskortet, KD-satsningen på subventionerat föreningsliv.\n– Ja, vi sitter här på mandat av Täbyborna och det är ju deras intressen vi ska bevaka. Och då gör vi det gentemot de olika instanser som vi kan göra det, säger Eva Von Wovern (KD)\nIdeologiska fiender nya makthavare – så blir styrena i Stockholms kommuner\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nIdeologiska fiender nya makthavare – så blir styrena i Stockholms kommuner\nNytt rödgrönt samtal: ”Vill ha in olika bud”",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg"
-      ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/valjarna-om-vs-ministerkrav-var-realistiska",
-      "title": "Väljarna om V:s ministerkrav: ”Var realistiska”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Christy Chamy, Ali Lorestani",
-      "commentator": "",
-      "summary": "Efter att Magdalena Andersson (S) sagt att hon vill bilda regering enbart med C och MP ökar pressen på Vänsterpartiet att överge sitt krav på ministerposter. Men flera av partiets distriktsordförande vill stå fast vid linjen.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-11 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/valjarna-om-vs-ministerkrav-var-realistiska/\nEfter att Magdalena Andersson (S) sagt att hon vill bilda regering enbart med C och MP ökar pressen på Vänsterpartiet att överge sitt krav på ministerposter. Men flera av partiets distriktsordförande vill stå fast vid linjen.",
+      "summary": "Magdalena Andersson nobbar vänsterpartisterna medan Jimmie Åkesson försöker locka över Centern. Plötsligt är alla bollar uppe i luften samtidigt i kampen om regeringsmakten. Men vad innebär de olika alternativen egentligen?",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/nu-letar-alla-efter-nyckeln-har-ar-lasningarna-i-regeringsfragan/\nMagdalena Andersson nobbar vänsterpartisterna medan Jimmie Åkesson försöker locka över Centern. Plötsligt är alla bollar uppe i luften samtidigt i kampen om regeringsmakten. Men vad innebär de olika alternativen egentligen?",
       "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "ministerpost",
+        "regeringsfråg",
+        "regeringsmakt",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-11T14:03:07.506735+00:00"
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/nytt-rodgront-samtal-vill-ha-in-olika-bud",
+      "title": "V-toppen ser att ministerkravet ligger kvar: ”Har ett beslut”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-11",
+      "author": "Frida Bergkvist, Pia Gripenberg, Molly Karlsson Inde",
+      "commentator": "",
+      "summary": "S-ledaren Magdalena Andersson hoppas fortsatt kunna få ihop en regering och vill att talmannen avvaktar med en ny statsministeromröstning. Enligt V-toppen Ida Gabrielsson kommer Vänsterns ministerkrav inte att ändras. På onsdagen möttes de fyra rödgröna partierna igen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/nytt-rodgront-samtal-vill-ha-in-olika-bud/\nS-ledaren Magdalena Andersson hoppas fortsatt kunna få ihop en regering och vill att talmannen avvaktar med en ny statsministeromröstning.\nEnligt V-toppen Ida Gabrielsson kommer Vänsterns ministerkrav inte att ändras.\nPå onsdagen möttes de fyra rödgröna partierna igen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFöreträdare för Socialdemokraterna, Centerpartiet, Miljöpartiet och Vänsterpartiet träffades på Tändstickspalatset i centrala Stockholm på onsdagen.\nEtt bra möte, enligt V-ledaren Nooshi Dadgostar – men V:s ministerkrav ligger kvar.\n– När det gäller regeringssamverkan har vi ett kongressbeslut på det och det finns inga nya besked i det avseendet, säger hon.\nMagdalena Andersson beskriver också mötet som bra. S-ledaren hoppas fortsatt få ihop en regering.\n– Alla fyra partier har ett stort ansvar att agera på sådant sätt att vi kan ta valresultatet vidare. Sitter fyra partier i ett rum och vill hitta en lösning så kan vi också hitta den, säger Magdalena Andersson (S) till DN på onsdagseftermiddagen.\nMed hänvisning till att ”processen” nu pågår vill hon att talmannen avvaktar med att initiera en ny omröstning om statsminister i riksdagen.\n– Jag tycker en eller två veckor är lämpligt, säger hon om tidsaspekten framåt.\nMiljöpartiets språkrör Amanda Lind och Daniel Helldén sågs lämna Tändstickspalatset vid 13-tiden.\n– Bra och konstruktiva möten, säger Lind till DN.\nTidigare den här veckan drog sig V ur de rödgröna mötena med hänvisning till att Centern ”svängt”. Under onsdagsmorgonen kom beskedet att de fyra partierna skulle träffas igen.\n– Vi är här för att lyssna in det nya upplägg som Centerpartiet har. Vi hade ett annat upplägg fram till förra veckan men Centerpartiet valde att ändra inriktning för det, säger Dadgostar till DN.\nC-ledaren Elisabeth Thand Ringqvist har begärt att Magdalena Anderson och Ulf Kristersson ska lägga fram var sitt ”totalpaket” över den politik som deras respektive regering ska föra samt vilka partier som ska ingå. Dessa ska presenteras på fredag.\n– Vi sitter i en position där Centerpartiet vill ha någonting annat. Nu ser det allt mer ut som om de vill ha in olika bud, som vi förstår det, säger Dadgostar.\nV-toppen Ida Gabrielsson säger att hon under dagens möte fått en bild av hur S, C och MP vill gå vidare med regeringsbildningen. På frågan om hon ser att Vänstern kommer att ändra sig om ministerkravet svarar hon:\nGabrielsson säger att V gärna deltar i möten för att få information.\n– Vi har varit här mest för att lyssna och förstå den nya processen, säger hon.\nAndersson har meddelat att hon vill bilda regering med MP och C med V som stödparti. Dadgostar säger på onsdagen att hon fortfarande vill se en fyrpartiregering.\nRegeringskaoset: Skarpare röda linjer i Sverige än övriga Norden\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nExperter: Chanserna för Kristersson har ökat\nM-källor: Kommer krävas tid att få över C\nNu letar alla efter nyckeln – här är låsningarna i regeringsfrågan",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-12T06:03:02.680403+00:00"
     }
   ]
 }
