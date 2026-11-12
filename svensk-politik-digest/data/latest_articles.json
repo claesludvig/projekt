@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-12T06:03:02.680403+00:00",
-  "new_count": 11,
+  "fetched_at": "2026-11-12T14:03:13.876256+00:00",
+  "new_count": 9,
   "skipped": {
-    "seen": 45,
-    "offtopic": 139,
-    "old": 15
+    "seen": 47,
+    "offtopic": 150,
+    "old": 4
   },
-  "fetch_errors": 5,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 5,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 5,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -53,220 +53,178 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.expressen.se/ledare/linda-jerneck/anderssons-diviga-stil-kan-kosta-s-makten",
-      "title": "Anderssons diviga stil kan kosta S makten",
-      "source": "Expressen Ledare",
+      "url": "https://www.svd.se/a/OynRR3/dadgostar-holl-pa-att-reda-ut-regeringsfragan",
+      "title": "Dadgostar: Höll på att reda ut regeringsfrågan",
+      "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-12",
-      "author": "linda jerneck",
+      "author": "Jenny Nyman, Malin Hector",
       "commentator": "",
-      "summary": "Magdalena Anderssons valhänta ledarskap har gjort regeringsbildningen svårare än den behövt vara. Nu är makten på väg att glida S ur händerna.",
-      "fulltext": "Magdalena Anderssons valhänta ledarskap har gjort regeringsbildningen svårare än den behövt vara. Nu är makten på väg att glida S ur händerna.\nAnderssons diviga stil kan kosta S makten\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\n”Taktik för att få en stark statsminister: Rösta på en stark statsminister.”\nSocialdemokraternas valbudskap åldrades som Dorian Grays porträtt i vindsskrubben. Efter 60 dagar har de rödgröna inte lyckats växla in sin valseger till en regering.\nI stället verkar Ulf Kristerssons chanser att få bo kvar i Sagerska allt större. På bettingsajten Polymarket har det varit jämnt skägg mellan honom och Magdalena Andersson trots moderatledarens sämre förutsättningar.\nHur hamnade vi här, när Socialdemokraterna utropade seger redan i augusti?\nMagdalena Anderssons valhänta sonderande är en delförklaring. Det var inget lätt uppdrag hon fick – Centerns röda linjer och Vänsterns absoluta krav på ministerposter låter sig inte jämkas med mindre än att någon viker sig.\nMen Anderssons taktik har snarare fördjupat än överbryggat motsättningarna. Hittills har hon mest skällt på dem hon vill samarbeta med. På söndagens blixtinkallade presskonferens – där S-ledaren till sist skulle meddela det alla undrat hela valrörelsen, nämligen vilka partier hon vill regera med – gav hon inte bara Nooshi på båten, utan också en skopa ovett.\n– Jag vet inte om någon som har följt svensk politik senaste veckorna tycker att Vänsterpartiet i alla lägen har agerat konstruktivt, sa Andersson om partiet som hon vill luta sig mot men inte ge de ministerposterna de kräver.\nSka S lyckas övertyga V om att släppa både kongressbeslut och prestige för att blidka C krävs skicklig diplomati och politiska eftergifter. Om det alls går. Vänsterpartisternas besvikelse över beskedet var omedelbar och frän. Att ge dem gliringar och anklaga dem för att vara ansvariga för landets förfall om högerpartierna får styra är enastående klantigt.\nÄven Centerpartiet får en släng av tårtspaden. Om Thand Ringqvist väljer att samarbeta med M, KD och L – med passivt stöd av SD – gör hon sig skyldig till ”det största sveket i svensk politisk historia”.\nDet är viss skillnad mot hur det lät i den dimmiga dåtid som var september: I sitt segertal efter valet lovade Magdalena Andersson samarbetsanda och sammanhållning och att lägga partitaktiken åt sidan. Hon upprepade budskapet tio gånger på tre minuter.\nSamarbetsanda, det är tydligen att S förklarar för de andra vad som ska ske och de lyder.\nOm och om igen har initiativet glidit S ur händerna. Det var centerledaren Elisabeth Thand Ringqvist som först samlade alla fyra rödgröna partier i samma konferensrum på Lidingö. Och efter att Jimmie Åkesson deklarerat att SD kan trycka gult för en alliansregering utan några krav på formellt samarbete, var det återigen C som snodde åt sig taktpinnen.\nPå en presskonferens inbjöd Thand Ringqvist S och M att lägga fram varsitt regeringspaket – komplett med koalitionspartier och politiskt program – som Centern kan välja mellan. Deadline: en vecka.\nMagdalena Andersson har presenterat vilka hon vill släppa in i Rosenbad och vilka hon vill porta. Men hon verkar inte vilja ta ansvar för att realisera sin plan:\n– Sen måste Centerpartiet komma med förslag till Vänsterpartiet på hur man ska kunna trygga att de får inflytande och att det blir verklighet, sade hon till SVT i tisdags.\nVem är det som styr, undrar man. Det är ju jag, höhö, säger den starka statsministerkandidaten från soffan bak i husvagnen.\nLinda Jerneck är biträdande politisk redaktör på Expressen. Läs fler av hennes texter här .\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.",
+      "summary": "Nooshi Dadgostar upprepar att ministerkravet ligger fast – och säger att regeringsfrågan höll på att…",
+      "fulltext": "Nooshi Dadgostar upprepar att ministerkravet ligger fast – och säger att regeringsfrågan höll på att redas ut före Centerpartiets nya besked. Elisabeth Thand Ringqvist svarar direkt: ”Nu måste V släppa sitt ultimatum.”\nNooshi Dadgostar kliver in i riksdagens presscenter för att prata om ”tidsplanen” framåt. Vänster­ledaren menar att Centerpartiet står inför ett historiskt beslut.\n– Skulle man ta det steget att gå vidare med Ulf Kristerssons totalpaket, då är det uppenbart någonting annat än det som de har sagt i tio års tid, säger hon.\nIlskan mot V: ”Idiotiskt på så många plan”",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning"
+        "regeringsfråg"
       ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9338891",
-      "title": "Arbetsmarknadens parter besvikna över budgeten",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
+      "url": "https://www.svd.se/a/qOnKw1/c-anderssons-besked-har-fort-fragorna-framat",
+      "title": "Centern ger Vänsterpartiet deadline om ministerkrav",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-11-12",
-      "author": "Ekot",
+      "author": "Peter Wallberg/TT, Anja Haglund/TT, Niklas Svahn/TT",
       "commentator": "",
-      "summary": "Det blir som brukligt inga stora reformer under torsdagen när övergångsregeringen presenterar sin budget. Det beklagar arbetsmarknadens parter som önskar satsningar för jobb och tillväxt. Sven Olov Daunfeldt på Svenskt Näringsliv hade hoppats på ett kostnadsavdrag för investeringar i forskning och utveckling. Torbjörn Hållö på LO vill se stimulanser som gynnar dem med lägre inkomster, som höjda barnbidrag och riktade sänkta skatter.",
-      "fulltext": "",
+      "summary": "Vänsterpartiet vill att Centerpartiet väljer sida i regeringsprocessen.",
+      "fulltext": "Vänsterpartiet vill att Centerpartiet väljer sida i regeringsprocessen. Samtidigt står man fast vid sitt regeringskrav.\nC svarar med ett ultimatum - senast i morgon klockan 17 måste V ge besked om man släpper ministerkravet.\nVänsterpartiet blixtinkallade till pressträff på torsdagen och ville där sätta press på Centerpartiet att bestämma sig för vilket block man vill ingå i.\nLäget i regeringsprocessen är just nu att S-ledaren Magdalena Andersson har sagt att hon vill se en S-C-MP-regering, där V inte ingår. En lösning som C kallat för ”intressant”.\nSamtidigt förhandlar C-ledaren parallellt med M-ledaren Ulf Kristersson. Elisabeth Thand Ringqvist har krävt att både Andersson och Kristersson presenterar varsitt ”totalpaket” för sina regeringsalternativ senast på fredag.\nVänsterpartiet anser nu att C måste välja sida. Innan de gjort det är V inte beredda att sätta sig i några nya samtal med de rödgröna partierna, enligt partiledaren Nooshi Dadgostar.\n– Skulle Centerpartiet välja att gå vidare med Magdalena Anderssons paket så står vi förstås klara att förhandla vidare för att bilda en regering, säger Dadgostar på pressträffen.\nHon uppger samtidigt att Vänsterpartiets ministerkrav, som C inte kan acceptera, står fast.\nC-ledaren Elisabeth Thand Ringqvist slår efter pressträffen tillbaka mot V.\n”Nu måste V släppa sitt ultimatum om regeringsmedverkan och komma tillbaka till förhandlingsbordet”, skriver hon på X.\n”Inför att Magdalena Andersson ska leverera sitt totalpaket 17.00 i morgon behöver Nooshi Dadgostar välja mellan att stå fast vid sitt krav på ministerposter eller att få politiskt genomslag”, fortsätter hon.\nVad som händer om Dadgostar inte ger besked framgår inte av inlägget.\nEnligt Dadgostar pågick samtal mellan de rödgröna partierna när Centerledaren i fredags kom med sitt besked att hon även vill förhandla högerut.\n– Det var en överraskning för oss, att det blev en ändrad process.\nOm C väljer att ingå i en borgerlig alliansregering skulle man vara beroende av SD:s stöd, framhåller V-ledaren.\n– Det vore ett epokskifte i svensk politik om de tar steget mot Sverigedemokraterna, säger hon.\nVice partiledare Ida Gabrielsson svarar samtidigt tydligt nej på om V är beredda att göra som SD – det vill säga släppa fram Magdalena Andersson som statsminister och sedan gå i opposition.\nJust nu har M-ledaren Ulf Kristersson uppdraget av talmannen att sondera för en ny regering. Han ska rapportera hur det har gått på tisdag nästa vecka. För att bli vald krävs att han lockar över C till sin sida.\nM-ledaren Ulf Kristersson sonderar just nu för en ny regering.\nHan väntas försöka få C att stödja en borgerlig regering, men C säger nej till en regering som är beroende av SD.\nSD har öppnat för att tolerera en borgerlig fyrpartiregering, utan krav på egna ministerposter.\nMen även om Kristersson lyckas locka över C och SD tolererar honom i en statsministeromröstning, så kan han fortfarande inte vara säker på att få igenom budgetar.\nOm S, V och MP går samman om ett gemensamt budgetalternativ har det 151 röster mot 136 för M, KD, L och C. För att en borgerlig regering ska få igenom sin budget i det läget, måste den ha stöd av SD.\nS-ledaren Magdalena Andersson jobbar samtidigt för att få till en S-C-MP-regering, med stöd av V.\nV visar dock än så länge inga tecken på att släppa sitt ministerkrav.\nCenterpartiet har å sin sida en röd linje mot V i regering.\nPå fredag den 13 november klockan 17 ska S och M presentera sina ”totalpaket” för C.\nPå tisdag den 17 november ska Ulf Kristersson återrapportera till talman Andreas Norlén.\nS-ledaren har sagt att talmannen bör ge de rödgröna partierna mer tid innan den tredje statsministeromröstningen hålls, ”en till två veckor” extra.",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338891'",
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+    },
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he02394",
+      "title": "Återför ansvaret för att föreslå ny statsminister för riksdagen till statschefen",
+      "source": "Riksdagen",
+      "kind": "officiell",
+      "published": "2026-11-12",
+      "author": "riksdagsinformation@riksdagen.se",
+      "commentator": "",
+      "summary": "… Kompromissen var en del av grundlagsberedningens arbete och innebar att den svenska monarkin bestod, men till priset av att monarken fråntogs allt politiskt inflytande, till exempel vid regeringsbildningen. Det är nu 50 år sedan kompromissen slöts och det politiska landskapet i Sverige är förändrat. Efter valet 2018 kunde vi konstatera att de tidigare traditionella blocken inte längre finns och att möjligheterna att bilda regering har förändrats. … 2026-11-12",
+      "fulltext": "Yrkandena i denna motion kan komma att ändras efter den konstitutionella och språkliga granskningen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att förändra regeringsformen så att statschefen åter får ansvaret att föreslå ny statsminister för riksdagen och tillkännager detta för regeringen.\nSverige skiljer sig från andra parlamentariska demokratier genom att talmannen, istället för statschefen, har till uppgift att föreslå en ny statsminister för riksdagen. Att det är talmannens uppgift står fastslaget i regeringsformen. Att Sverige skiljer ut sig gentemot andra parlamentariska demokratier beror på den kompromiss som slöts mellan Socialdemokraterna och de borgerliga partierna 1971 i Torekov, den sk Torekovskompromissen. Kompromissen var en del av grundlagsberedningens arbete och innebar att den svenska monarkin bestod, men till priset av att monarken fråntogs allt politiskt inflytande, till exempel vid regeringsbildningen.\nDet är nu 50 år sedan kompromissen slöts och det politiska landskapet i Sverige är förändrat.\nEfter valet 2018 kunde vi konstatera att de tidigare traditionella blocken inte längre finns och att möjligheterna att bilda regering har förändrats. Istället har nya konstellationer växt fram. Efter valet 2018 såg vi hur talmansrollen drogs in i det politiska spelet om regeringsmakten på ett sätt som vi tidigare inte upplevt. I och med talmansvalen 2018 slogs också all tidigare praxis ut. Efter valet 2026 har vi åter sett hur valet av talman blivit föremål för politiska strategier.\nDet finns därför starka skäl till att vidta åtgärder för att talmansrollen skiljs från det rent politiska spelet kring statsministerrollen och inte fortsätter att bli föremål för partipolitiska strategier och smutsigt spel. Därför bör ansvaret för att föreslå ny statsminister för riksdagen flyttas tillbaka till statschefen, som står helt utanför partipolitiken. Både valet till talman och talmansämbetet i sig skulle därmed undgå att dras in i politiska fulspel som skedde 2018, vilket inte är värdigt ämbetet eller riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att förändra regeringsformen så att statschefen åter får ansvaret att föreslå ny statsminister för riksdagen och tillkännager detta för regeringen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "statsminister"
+      ],
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+    },
+    {
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/statsministern-till-dublin-for-informellt-mote-i-europeiska-radet-och-internationellt-toppmote",
+      "title": "Statsministern till Dublin för informellt möte i Europeiska rådet och internationellt toppmöte",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-11-12",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "Den 12–13 november deltar statsminister Ulf Kristersson vid ett informellt möte i Europeiska rådet och i toppmötet European Political Community i Dublin.",
+      "fulltext": "Den 12–13 november deltar statsminister Ulf Kristersson vid ett informellt möte i Europeiska rådet och i toppmötet European Political Community i Dublin.\nFredag den 13 november möts EU:s stats och regeringschefer i Dublin för ett informellt möte i Europeiska rådet. På dagordningen står AI och diskussionen kommer att fokusera på två huvudsakliga frågor. Den första handlar om AI:s möjligheter för europeisk konkurrenskraft och den andra om AI:s påverkan på samhället. Det irländska ordförandeskapet i EU:s ministerråd, tillsammans med Europeiska rådets ordförande António Costa, står värd för mötet.\nI anslutning till det informella mötet i Europeiska rådet deltar statsminister Ulf Kristersson torsdag den 12 november också i toppmötet European Political Community (EPC), vilket är ett forum för europeiska stats- och regeringschefer som främjar politisk dialog och samarbete.\nInför det informella mötet i Europeiska rådet skedde ett samråd med riksdagens EU-nämnd under ett öppet sammanträde.\nSidan är uppmärkt med följande kategorier",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+    },
+    {
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/overgangsregeringen-har-overlamnat-budgetpropositionen-for-2027",
+      "title": "Övergångsregeringen har överlämnat budgetpropositionen för 2027",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-11-12",
+      "author": "Regeringskansliet",
+      "commentator": "",
+      "summary": "I dag har övergångsregeringen överlämnat budgetpropositionen för 2027 till riksdagen. Budgeten bygger på principer som har förankrats hos samtliga riksdagspartier och säkerställer att nödvändiga statliga verksamheter kan upprätthållas under tiden fram till dess att en ny regering tillträder. En övergångsbudget bör inte innehålla ny politik.",
+      "fulltext": "I dag har övergångsregeringen överlämnat budgetpropositionen för 2027 till riksdagen. Budgeten bygger på principer som har förankrats hos samtliga riksdagspartier och säkerställer att nödvändiga statliga verksamheter kan upprätthållas under tiden fram till dess att en ny regering tillträder. En övergångsbudget bör inte innehålla ny politik.\nBudgetpropositionen för 2027 är en så kallad övergångsbudget. Huvudprincipen för en övergångsbudget är att den utformas med utgångspunkt i den senaste beslutade budgetpropositionen, det vill säga budgeten för 2026.\n– Vi befinner oss i ett speciellt politiskt läge. Regeringsbildningen tar tid och vi behöver förhålla oss till det. Mitt budskap till svenska folket är att även om vi saknar en ordinarie regering så kommer vi ta ansvar för att se till att statens verksamhet i grunden ska fungera genom övergångsbudgeten, säger finansminister Elisabeth Svantesson.\nVissa undantag görs från huvudprincipen, bland annat för att viktiga samhällsfunktioner ska kunna upprätthållas och för att ta hänsyn till redan beslutade lagar och ingångna avtal.\nVissa större förslag som innebär undantag från huvudprincipen\nI det turbulenta omvärldsläget behöver Sveriges totalförsvar fortsätta att fungera. De tidigare planerade satsningarna för uppbyggnaden av totalförsvaret kvarstår därför, med vissa justeringar. Detta står alla riksdagspartier bakom.\nHöjd åldersgräns för jobbskatteavdraget för seniorer\nDet remitterade förslaget om att höja åldersgränsen för jobbskatteavdraget för seniorer ingår också i budgetpropositionen. Förslaget tas med i budgeten med hänsyn till undantagsprincipen om lagförslag som är politiskt okontroversiella och som inte kan genomföras under pågående budgetår.\nDet finns sedan tidigare beräknade ökningar av anslagen till transportinfrastruktur. Ökningarna följer av riksdagens beslut om en ny långsiktig ekonomisk ram för åtgärder inom den statliga transportinfrastrukturen för perioden 2026–2037.\nRegeringen föreslår även ökade medel till investeringar i transportinfrastruktur utifrån försvarets behov. Investeringarna motiveras av att en oförändrad anslagsnivå medför risker: dels risken att uppbyggnaden av totalförsvaret saktas ner, dels att nödvändig verksamhet inte kan upprätthållas.\nInvesteringarna utifrån försvarets behov är en del av den parlamentariska överenskommelsen om finansiering av försvaret. För dessa investeringar medges en avvikelse från målet för den offentliga förvaltningens finansiella sparande under perioden 2026–2034. Dessa investeringar är inte en del av den ekonomiska ramen 2026–2034 för transportinfrastruktur.\nFlera av de tidigare aviserade tillskotten till Kriminalvården kvarstår antingen för att de är bundna i lag eller för att upprätthålla nödvändiga samhällsfunktioner. Detta har sin utgångspunkt i principen om att anslag kan justeras till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. Det grundas även i principen om att anslag kan justeras om det krävs för att nödvändiga samhällsfunktioner ska kunna upprätthållas.\nEn övergångsbudget måste, liksom alla budgetpropositioner, följa de regler om budgetens innehåll som finns i bland annat regeringsformen, riksdagsordningen och budgetlagen. När en övergångsregering ska lämna en budgetproposition utformas den med utgångspunkt i den senaste beslutade budgetpropositionen. Huvudprincipen för arbetet med övergångsbudgeten är därför att 2026 års ursprungliga anslagsnivåer också ska gälla för budgeten för 2027. Följande undantag görs från denna huvudprincip: • Anslag som används för förvaltnings- och investeringsändamål har pris- och löneomräknats på sedvanligt sätt. Anslag som avser regelstyrda transfereringssystem har justerats utifrån ändrad makroekonomisk utveckling liksom ändrade volymer (till exempel antal personer som omfattas). • Anslag har justerats till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. • Anslag har justerats med anledning av att riksdagen beslutat om flyttar av ändamål och verksamheter mellan utgiftsområden. • Anslag har justerats om det krävts för att nödvändiga samhällsfunktioner ska kunna upprätthållas. • Uppenbart tillfälliga satsningar från tidigare budgetår som upphör vid utgången av 2026 har inte förlängts. • Lagförslag som är politiskt okontroversiella, och som inte kan genomföras under pågående budgetår, har inkluderats i de fall det råder politisk samsyn om förslagen. Motsvarande principer har beaktats i tillämpliga delar för förslag som avser statens inkomster. Principerna är avstämda med samtliga riksdagspartier. De utgår från vad som följer av regeringsformen samt Statsrådsberedningens PM om en övergångsregerings befogenheter (SB PM 1990:1, rev 2020).\nFoton finns i Regeringskansliets mediabank. Fotografierna får användas fritt för redaktionellt ändamål. Ange alltid fotografens namn vid publicering.\nDu kan följa sändningen direkt eller se den i efterhand på regeringen.se eller på Regeringskansliets Youtubekanal.\nSidan är uppmärkt med följande kategorier\nPublicerad 12 november 2026 · Artikel , Webb-tv från Elisabeth Svantesson , Finansdepartementet",
+      "paywall": false,
+      "fetch_error": "",
       "matched_terms": [
         "övergångsregering"
       ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9338795",
-      "title": "Analysen: Det krävs för att C ska välja vänstersidan",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Ekot",
+      "url": "https://www.regeringen.se/artiklar/2026/11/budgetpropositionen-for-2027-pa-fem-minuter",
+      "title": "Budgetpropositionen för 2027 på fem minuter",
+      "source": "Regeringen.se",
+      "kind": "officiell",
+      "published": "2026-11-12",
+      "author": "Regeringskansliet",
       "commentator": "",
-      "summary": "Senast på fredag vill Centerpartiet att Socialdemokraterna och Moderaterna ska presentera sina regeringspaket. Och för centern kan det innebära ett val om vilken röd linje som ska överges - Vänsterpartiet i regering eller att bli beroende av Sverigedemokraterna. Enligt Elias Rosell, ledarskribent på centerprofilerade Norrtelje Tidning, kan alternativet till höger vara ett dubbelsvek mot väljarna. ”Dels en svekdebatt om att man på något sätt samarbetar med SD och en svekdebatt om att man ändå mer framhöll Magdalena Andersson som sin statsministerkandidat innan valet”, säger han.",
-      "fulltext": "",
+      "summary": "Övergångsregeringen överlämnar budgetpropositionen för 2027 till riksdagen den 12 november eftersom ingen ny regering har tillträtt. Budgetpropositionen utformas med utgångspunkt i budgeten för 2026, med vissa undantag.",
+      "fulltext": "Övergångsregeringen överlämnar budgetpropositionen för 2027 till riksdagen den 12 november eftersom ingen ny regering har tillträtt. Budgetpropositionen utformas med utgångspunkt i budgeten för 2026, med vissa undantag.\nTrots ett utmanande omvärldsläge fortsatte konjunkturåterhämtningen i svensk ekonomi under första halvåret 2026. Återhämtningen väntas fortgå även under andra halvåret 2026 och under 2027, men i en successivt avtagande takt. Detta förklaras både av en dämpad utveckling i omvärlden och av att ekonomin gradvis bedöms närma sig balans. Under de kommande åren väntas tillväxten drivas av såväl stärkt inhemsk efterfrågan som en fortsatt god exportutveckling.\nPrognoser för den ekonomiska utvecklingen\nVad är skillnaden mellan en vanlig budget och en övergångsbudget?\nDet är andra gången en övergångsregering lämnar en budgetproposition till riksdagen. Vad budgetpropositionen ska innehålla regleras i regeringsformen, riksdagsordningen och budgetlagen.\nDessa regler gäller även för en övergångsregering. Samtidigt bör en övergångsregering inte lägga fram en budget som innehåller ny politik. Huvudprincipen är att budgeten ska utformas med utgångspunkt i den senaste beslutade budgeten. Det betyder att anslagsnivåerna för 2026 också ska gälla för 2027.\nVissa nödvändiga justeringar görs dock. Det handlar om sedvanliga uppräkningar för att kompensera myndigheter för höjda löner och hyror samt att anpassa regelstyrda anslag som barnbidrag och a-kassa efter aktuella prognoser. Budgeten tar även hänsyn till exempelvis redan beslutade lagar, ingångna avtal och till att nödvändiga samhällsfunktioner ska kunna upprätthållas.\nSe faktaruta om principerna för en övergångsbudget längre ner.\nVissa större förslag som innebär undantag från huvudprincipen\nI det turbulenta omvärldsläget behöver Sveriges totalförsvar fortsätta att fungera. De tidigare planerade satsningarna för uppbyggnaden av totalförsvaret kvarstår därför, med vissa justeringar. Detta står alla riksdagspartier bakom.\nHöjd åldersgräns för jobbskatteavdraget för seniorer\nDet remitterade förslaget om att höja åldersgränsen för jobbskatteavdraget för seniorer ingår också i budgetpropositionen. Förslaget tas med i budgeten med hänsyn till undantagsprincipen om lagförslag som är politiskt okontroversiella och som inte kan genomföras under pågående budgetår.\nDet finns sedan tidigare beräknade ökningar av anslagen till transportinfrastruktur. Ökningarna följer av riksdagens beslut om en ny långsiktig ekonomisk ram för åtgärder inom den statliga transportinfrastrukturen för perioden 2026–2037.\nRegeringen föreslår även ökade medel till investeringar i transportinfrastruktur utifrån försvarets behov. Investeringarna motiveras av att en oförändrad anslagsnivå medför risker: dels risken att uppbyggnaden av totalförsvaret saktas ner, dels att nödvändig verksamhet inte kan upprätthållas.\nInvesteringarna utifrån försvarets behov är en del av den parlamentariska överenskommelsen om finansiering av försvaret. För dessa investeringar medges en avvikelse från målet för den offentliga förvaltningens finansiella sparande under perioden 2026–2034. Dessa investeringar är inte en del av den ekonomiska ramen 2026–2034 för transportinfrastruktur.\nFlera av de tidigare aviserade tillskotten till Kriminalvården kvarstår antingen för att de är bundna i lag eller för att upprätthålla nödvändiga samhällsfunktioner. Detta har sin utgångspunkt i principen om att anslag kan justeras till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. Det grundas även i principen om att anslag kan justeras om det krävs för att nödvändiga samhällsfunktioner ska kunna upprätthållas.\nEn övergångsbudget måste, liksom alla budgetpropositioner, följa de regler om budgetens innehåll som finns i bland annat regeringsformen, riksdagsordningen och budgetlagen. När en övergångsregering ska lämna en budgetproposition utformas den med utgångspunkt i den senaste beslutade budgetpropositionen. Huvudprincipen för arbetet med övergångsbudgeten är därför att 2026 års ursprungliga anslagsnivåer också ska gälla för budgeten för 2027. Följande undantag görs från denna huvudprincip: • Anslag som används för förvaltnings- och investeringsändamål har pris- och löneomräknats på sedvanligt sätt. Anslag som avser regelstyrda transfereringssystem har justerats utifrån ändrad makroekonomisk utveckling liksom ändrade volymer (till exempel antal personer som omfattas). • Anslag har justerats till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. • Anslag har justerats med anledning av att riksdagen beslutat om flyttar av ändamål och verksamheter mellan utgiftsområden. • Anslag har justerats om det krävts för att nödvändiga samhällsfunktioner ska kunna upprätthållas. • Uppenbart tillfälliga satsningar från tidigare budgetår som upphör vid utgången av 2026 har inte förlängts. • Lagförslag som är politiskt okontroversiella, och som inte kan genomföras under pågående budgetår, har inkluderats i de fall det råder politisk samsyn om förslagen. Motsvarande principer har beaktats i tillämpliga delar för förslag som avser statens inkomster. Principerna är avstämda med samtliga riksdagspartier. De utgår från vad som följer av regeringsformen samt Statsrådsberedningens PM om en övergångsregerings befogenheter (SB PM 1990:1, rev 2020).\nHur påverkar justeringarna utgifterna i budgetförslaget för 2027?\n¹ Enligt riksdagens beslut med anledning av budgetpropositionen för 2026 (prop. 2025/26:1, bet. 2025/26:FiU10, rskr. 2025/26:137).\nTabellen återfinns i finansplanen: Finansplan: Utdrag ur budgetpropositionen för 2027\nNästa steg – riksdagsbehandlingen av budgetförslaget\nNär regeringen har lämnat sitt budgetförslag till riksdagen påbörjas riksdagens behandling. Den är uppdelad i två steg: Steg 1: Först beslutar riksdagen om riktlinjerna för den ekonomiska politiken samt de ekonomiska ramarna för statens budget. Rambeslutet, det vill säga beslutet om ramarna för hur stora utgifterna får vara per utgiftsområde, är sedan styrande för den fortsatta riksdagsbehandlingen eftersom utgiftsramarna inte får överskridas. Steg 2: I det andra steget tar riksdagen ställning till hur utgifterna ska fördelas inom varje utgiftsområde, det vill säga hur mycket pengar (anslag) olika verksamheter ska få. Budgetpropositionen är slutbehandlad när riksdagen har tagit ställning till förslagen för samtliga 27 utgiftsområden. Utifrån resultatet av riksdagsbehandlingen beslutar sedan regeringen om regleringsbrev för alla myndigheter och anslag.\nSidan är uppmärkt med följande kategorier:\nPublicerad 12 november 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338795'",
+      "fetch_error": "",
       "matched_terms": [
-        "statsminister",
-        "Centerpartiet",
-        "Moderaterna",
-        "Socialdemokraterna",
-        "Sverigedemokraterna",
-        "Vänsterpartiet"
+        "övergångsregering"
       ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9339160",
-      "title": "Ekot erfar: V-distrikten ger massivt stöd för regeringskrav",
+      "url": "https://www.sverigesradio.se/artikel/9339523",
+      "title": "Furtenbach: ”Bekräftar bara att läget forfarande är låst”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-11",
+      "published": "2026-11-12",
       "author": "Ekot",
-      "commentator": "",
-      "summary": "Vänsterpartiets krav på ministerposter har ett \"massivt\" stöd i de 25 partidistrikten. Det står, enligt Ekots källor, klart efter ett internt möte tidigare i veckan, där även frågan om extraval lyftes. \"Vi ska inte vika oss\", säger en person som närvarade på mötet. Beskedet från partiledaren Nooshi Dadgostar, så sent som i dag, är att Vänsterpartiets regeringskrav ligger fast.",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Vänsterpartiet kom inte med några nya besked på torsdagens pressträff, säger Fredrik Furtenbach, inrikespolitisk kommentator: ”Man kan sammanfatta budskapet väldigt kort: blir det inget rödgrönt samarbete är det inte vårt fel.” Vänsterpartiet håller fast vid sina krav på ministerposter, och Centerpartiet har redan hunnit svara att de inte heller ger vika.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9339160'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9339523'",
       "matched_terms": [
         "ministerpost",
-        "partiledar",
+        "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9338968",
-      "title": "V öppnar för elstöd till företag – S och SD vill avvakta",
+      "url": "https://www.sverigesradio.se/artikel/9339506",
+      "title": "Dadgostar till C: ”Vår dörr står öppen”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-11",
+      "published": "2026-11-12",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Vänsterpartiet öppnar för elstöd till företag i vinter, medan Sverigedemokraterna och Socialdemokraterna vill avvakta en ny regering. Frågan är akut för många företagare eftersom dagens elstöd bara gäller hushåll och än så länge året ut. I Skåne berättar bagaren Emilia Blixt om en elräkning på 30 000 kronor – samtidigt som partierna ger olika besked om vad som kan göras.",
+      "summary": "Vänsterpartiet är berett att förhandla med Centerpartiet i regeringsfrågan, men kravet på att få sitta i regering kvarstår. Det framkom på en pressträff som partiledare Nooshi Dadgostar kallade till strax före lunch. ”Vår dörr står som vanligt öppen.”",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338968'",
-      "matched_terms": [
-        "Socialdemokraterna",
-        "Sverigedemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9338982",
-      "title": "Riksdagen säger ja till ändrad grundlag om medborgarskap",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Riksdagen har röstat ja till att ändra grundlagen angående möjligheten att frånta en person sitt svenska medborgarskap. Det ska bli möjligt att återkalla det svenska medborgarskapet för den som har dubbelt medborgarskap, som begår allvarliga brott eller har fått medborgarskap på felaktiga grunder. Vänsterpartiet och Miljöpartiet röstade emot.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9338982'",
-      "matched_terms": [
-        "Miljöpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/experter-chanserna-for-kristersson-har-okat",
-      "title": "Experter: Chanserna för Kristersson har ökat",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Frida Bergkvist",
-      "commentator": "",
-      "summary": "Ulf Kristerssons chanser att bli statsminister har ökat, menar de statsvetare som DN har talat med. Men mycket talar fortfarande emot M-ledaren. – Det blir svårt för Kristersson att inte göra en ”deal” med Sverigedemokraterna, säger statsvetaren Jenny Madestam.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/experter-chanserna-for-kristersson-har-okat/\nUlf Kristerssons chanser att bli statsminister har ökat, menar de statsvetare som DN har talat med. Men mycket talar fortfarande emot M-ledaren.\n– Det blir svårt för Kristersson att inte göra en ”deal” med Sverigedemokraterna, säger statsvetaren Jenny Madestam.",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
-    },
-    {
-      "url": "https://www.dn.se/debatt/centerpartiet-har-numera-mer-makt-an-moderaterna",
-      "title": "DN Debatt. ”Centerpartiet har numera mer makt än Moderaterna”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "",
-      "commentator": "",
-      "summary": "DN DEBATT. Den som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet, såvida inte Socialdemokraterna och Moderaterna är beredda att regera tillsammans. En spelteoretisk analys visar att C numera är landets näst mäktigaste parti, som dock måste välja mellan makt och politik, skriver Jörgen W Weibull, professor emeritus vid Handelshögskolan i Stockholm.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:01\nArtikelns ursprungsadress: https://www.dn.se/debatt/centerpartiet-har-numera-mer-makt-an-moderaterna/\nDen som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet, såvida inte Socialdemokraterna och Moderaterna är beredda att regera tillsammans. En spelteoretisk analys visar att C numera är landets näst mäktigaste parti, som dock måste välja mellan makt och politik, skriver Jörgen W Weibull, professor emeritus vid Handelshögskolan i Stockholm.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRiksdagen har förkastat två statsministerkandidater: Magdalena Andersson (S) i oktober och Elisabeth Thand Ringqvist (C) den 3 november. Nu sonderar Ulf Kristersson (M). Två av riksdagens fyra försök är förbrukade innan ett extraval blir oundvikligt.\nMandatfördelningen förklarar en del av låsningen. Men mandat är inte detsamma som politisk makt.\nTidöpartierna – Moderaterna, Kristdemokraterna, Liberalerna och Sverigedemokraterna – har tillsammans 173 mandat och har därmed förlorat sin majoritet. Socialdemokraterna, Vänsterpartiet, Centerpartiet och Miljöpartiet har en svag majoritet med 176 mandat.\nUtifrån partiernas svar på de 35 frågorna i SVT:s valkompass har jag beräknat varje partis politiska makt med en spelteoretisk modell utvecklad tillsammans med Atahan Afsar, gästforskare vid MIT. Måttet, det rumsliga Shapleyvärdet (efter ekonomipristagaren Lloyd Shapley), anger sannolikheten för att ett parti är tungan på vågen i en slumpmässigt vald sakfråga.\nEtt parti med egen majoritet har makt 1, ett parti som aldrig fäller avgörandet har makt 0, och partiernas makt summerar till 1.\nKalkylerna bygger på en enkel modell och begränsade data och bör därför tas med en nypa salt. Men resultaten är som följer:\n1. S och C är riksdagens maktcentra. S har 28 procent av mandaten men 35 procent av makten (det vill säga maktindex 0,35). C har 7 procent av mandaten men 20 procent av makten – mer än M (15 procent) och SD (12 procent), som har nästan 3 respektive 2,5 gånger så många mandat.\nFörklaringen är var partierna står. S och C ligger närmast riksdagens ideologiska mittpunkt, och partier i mitten blir oftast utslagsgivande. SD ligger längst från mitten, följt av KD och V, som har cirka 4 respektive 8 procent av makten. MP har 5 procent. L har minst makt av alla, bara 2 procent. Partiet är litet och i de flesta sakfrågor är det C eller M som fäller avgörandet i stället.\n2. C ingår i fyra av fem majoritetsalternativ. Jag har analyserat 14 potentiella regeringskoalitioner (se tabellen), där varje koalition antas enas om en gemensam plattform, som är ett genomsnitt av partiernas politik, viktat efter deras makt. Fem har egen majoritet och därmed makt 1:\n● Två blocköverskridande storkoalitioner, S+M+C och S+M+L.\n3. S+M+L ger störst maktvinst. Maktvinsten mäter hur mycket mer makt partierna får tillsammans än summan av vad de har var för sig. S+M+L ger 0,92, det vill säga nästan en fördubbling. En mittenregering ger 0,52, de rödgröna 0,47 och storkoalitionen S+M+C 0,43. Att lägga till C till S+M höjer alltså makten till 1 men sänker maktvinsten, eftersom C redan på egen hand har mycket makt.\nAtt i stället lägga till L, som har lite egen makt, ger också makt 1 men höjer samtidigt maktvinsten. För SD och KD vore den så kallade femklövern (Tidö+C) det maktmässigt klart bästa alternativet, men där har Centerpartiet tydligt sagt nej.\n4. Minoritetsregeringar blir svaga – med två undantag. Tidöpartierna utan C får bara makt 0,37 och möter C som stark opposition. Regeringar där S styr med C och något eller några av MP och L får makt mellan 0,62 och 0,74 och en måttlig maktvinst.\nTvå minoritetsalternativ sticker ut. En regering S+M får makt 0,88 och maktvinst 0,77, tredje högst av alla fjorton koalitioner, och möter bara en svag opposition. M+C+KD+L får makt 0,67 och maktvinst 0,66. (En regering S+C+MP+L får visserligen makt 0,74, men måttlig maktvinst.)\n5. C står inför ett val mellan makt och politik. S och C ligger båda nära mitten i politikrummet men är långt ifrån eniga: de svarar olika på 21 av valkompassens 35 frågor och står på motsatta sidor i 7 av dem. Femklöverns gemensamma politik skulle dock ligga längre från Centerpartiets egen än den gemensamma politiken i någon av de tre majoritetsregeringar där C ingår med S. Femklövern ger C mest utslagsgivande makt, ett samarbete med S ger C mer av sin politik.\nThand Ringqvists mittenregering var alltså ett av de fem majoritetsalternativen, men den föll när alla partier utom C röstade nej. Det visar vad beräkningarna inte fångar: partiernas vallöften, lojaliteter och uttalade röda linjer för vilka de kan tänka sig att samregera med. Däremot visar de vad varje röd linje kostar i makt.\nDen som vill bilda en stark regering i dagens riksdag måste få med Centerpartiet – såvida inte S och M är beredda att regera tillsammans.\nHans Bergström, fd chefredaktör för Dagens Nyheter: ” Vår ensidiga demokratisyn har gjort det svårare att regera ”\nJohanna Jeansson, stiftelsen Kunskapsverket: ” Tar partierna sitt ansvar för att vi ska bry oss om politik? ”\nJörgen W Weibull, professor emeritus i nationalekonomi vid Handelshögskolan i Stockholm\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nDN Debatt. ”Vår ensidiga demokratisyn har gjort det svårare att regera”\nDN Debatt. ”Tar partierna sitt ansvar för att vi ska bry oss om politik?”\nExperter: Chanserna för Kristersson har ökat",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/m-kallor-kommer-kravas-tid-att-fa-over-c",
-      "title": "M-källor: Kommer krävas tid att få över C",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Hanna Jakobson, Pia Gripenberg, Hans Rosén, Annie Reuterskiöld",
-      "commentator": "",
-      "summary": "Moderaternas försök att övertala Centerpartiet att byta sida lär kräva mer tid än man först trodde, enligt DN:s källor. Problemet är den parlamentariska matematiken: hur ska en M-ledd regering undgå att bli beroende av SD? – Visar det sig sedan omöjligt att styra får man väl avgå, bilda en ny regering eller utlysa ett nyval, säger M-toppen Christofer Fjellner.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/m-kallor-kommer-kravas-tid-att-fa-over-c/\nModeraternas försök att övertala Centerpartiet att byta sida lär kräva mer tid än man först trodde, enligt DN:s källor.\nProblemet är den parlamentariska matematiken: hur ska en M-ledd regering undgå att bli beroende av SD?\n– Visar det sig sedan omöjligt att styra får man väl avgå, bilda en ny regering eller utlysa ett nyval, säger M-toppen Christofer Fjellner.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/nu-letar-alla-efter-nyckeln-har-ar-lasningarna-i-regeringsfragan",
-      "title": "Nu letar alla efter nyckeln – här är låsningarna i regeringsfrågan",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Hans Rosén, Elin Lindwall",
-      "commentator": "",
-      "summary": "Magdalena Andersson nobbar vänsterpartisterna medan Jimmie Åkesson försöker locka över Centern. Plötsligt är alla bollar uppe i luften samtidigt i kampen om regeringsmakten. Men vad innebär de olika alternativen egentligen?",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/nu-letar-alla-efter-nyckeln-har-ar-lasningarna-i-regeringsfragan/\nMagdalena Andersson nobbar vänsterpartisterna medan Jimmie Åkesson försöker locka över Centern. Plötsligt är alla bollar uppe i luften samtidigt i kampen om regeringsmakten. Men vad innebär de olika alternativen egentligen?",
-      "paywall": true,
-      "fetch_error": "",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9339506'",
       "matched_terms": [
         "regeringsfråg",
-        "regeringsmakt",
+        "partiledar",
+        "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/nytt-rodgront-samtal-vill-ha-in-olika-bud",
-      "title": "V-toppen ser att ministerkravet ligger kvar: ”Har ett beslut”",
+      "url": "https://www.dn.se/sverige/tomas-ramberg-v-vill-pressa-fram-omrostning-om-kristersson",
+      "title": "Tomas Ramberg: V vill pressa fram omröstning om Kristersson",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-11",
-      "author": "Frida Bergkvist, Pia Gripenberg, Molly Karlsson Inde",
-      "commentator": "",
-      "summary": "S-ledaren Magdalena Andersson hoppas fortsatt kunna få ihop en regering och vill att talmannen avvaktar med en ny statsministeromröstning. Enligt V-toppen Ida Gabrielsson kommer Vänsterns ministerkrav inte att ändras. På onsdagen möttes de fyra rödgröna partierna igen.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/nytt-rodgront-samtal-vill-ha-in-olika-bud/\nS-ledaren Magdalena Andersson hoppas fortsatt kunna få ihop en regering och vill att talmannen avvaktar med en ny statsministeromröstning.\nEnligt V-toppen Ida Gabrielsson kommer Vänsterns ministerkrav inte att ändras.\nPå onsdagen möttes de fyra rödgröna partierna igen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFöreträdare för Socialdemokraterna, Centerpartiet, Miljöpartiet och Vänsterpartiet träffades på Tändstickspalatset i centrala Stockholm på onsdagen.\nEtt bra möte, enligt V-ledaren Nooshi Dadgostar – men V:s ministerkrav ligger kvar.\n– När det gäller regeringssamverkan har vi ett kongressbeslut på det och det finns inga nya besked i det avseendet, säger hon.\nMagdalena Andersson beskriver också mötet som bra. S-ledaren hoppas fortsatt få ihop en regering.\n– Alla fyra partier har ett stort ansvar att agera på sådant sätt att vi kan ta valresultatet vidare. Sitter fyra partier i ett rum och vill hitta en lösning så kan vi också hitta den, säger Magdalena Andersson (S) till DN på onsdagseftermiddagen.\nMed hänvisning till att ”processen” nu pågår vill hon att talmannen avvaktar med att initiera en ny omröstning om statsminister i riksdagen.\n– Jag tycker en eller två veckor är lämpligt, säger hon om tidsaspekten framåt.\nMiljöpartiets språkrör Amanda Lind och Daniel Helldén sågs lämna Tändstickspalatset vid 13-tiden.\n– Bra och konstruktiva möten, säger Lind till DN.\nTidigare den här veckan drog sig V ur de rödgröna mötena med hänvisning till att Centern ”svängt”. Under onsdagsmorgonen kom beskedet att de fyra partierna skulle träffas igen.\n– Vi är här för att lyssna in det nya upplägg som Centerpartiet har. Vi hade ett annat upplägg fram till förra veckan men Centerpartiet valde att ändra inriktning för det, säger Dadgostar till DN.\nC-ledaren Elisabeth Thand Ringqvist har begärt att Magdalena Anderson och Ulf Kristersson ska lägga fram var sitt ”totalpaket” över den politik som deras respektive regering ska föra samt vilka partier som ska ingå. Dessa ska presenteras på fredag.\n– Vi sitter i en position där Centerpartiet vill ha någonting annat. Nu ser det allt mer ut som om de vill ha in olika bud, som vi förstår det, säger Dadgostar.\nV-toppen Ida Gabrielsson säger att hon under dagens möte fått en bild av hur S, C och MP vill gå vidare med regeringsbildningen. På frågan om hon ser att Vänstern kommer att ändra sig om ministerkravet svarar hon:\nGabrielsson säger att V gärna deltar i möten för att få information.\n– Vi har varit här mest för att lyssna och förstå den nya processen, säger hon.\nAndersson har meddelat att hon vill bilda regering med MP och C med V som stödparti. Dadgostar säger på onsdagen att hon fortfarande vill se en fyrpartiregering.\nRegeringskaoset: Skarpare röda linjer i Sverige än övriga Norden\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nExperter: Chanserna för Kristersson har ökat\nM-källor: Kommer krävas tid att få över C\nNu letar alla efter nyckeln – här är låsningarna i regeringsfrågan",
+      "published": "2026-11-12",
+      "author": "Tomas Ramberg",
+      "commentator": "Tomas Ramberg",
+      "summary": "Vänsterpartiet vill få till en statsministeromröstning om Ulf Kristersson och därmed tvinga Centern att välja sida. Genom att V lämnar förhandlingarna ska talmannen se att Magdalena Andersson inte gör några framsteg och därmed inte heller har argument för att fördröja nästa omröstning. Om Centern väljer att nobba Kristersson räknar V med att få ett bättre förhandlingsläge inför en sista och avgörande riksdagsvotering.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-v-vill-pressa-fram-omrostning-om-kristersson/\nVänsterpartiet vill få till en statsministeromröstning om Ulf Kristersson och därmed tvinga Centern att välja sida. Genom att V lämnar förhandlingarna ska talmannen se att Magdalena Andersson inte gör några framsteg och därmed inte heller har argument för att fördröja nästa omröstning.\nOm Centern väljer att nobba Kristersson räknar V med att få ett bättre förhandlingsläge inför en sista och avgörande riksdagsvotering.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFör några dagar sedan såg Centerpartiet ut att vara på väg till en moderatledd fyrpartiregering. En sådan skulle vara i minoritet men ändå försöka hanka sig fram genom att samarbeta åt både höger och vänster.\nMagdalena Andersson var snabbt ute och stängde dörren åt vänster genom att nobba allt stöd till en borgerlig minoritetsregering. Och för att locka Centern att hejda sig bredde hon på med ett erbjudande om att hålla V utanför en S-ledd regering.\nI början av veckan gjorde Jimmie Åkesson livet ännu svårare för Centerns nya alternativ genom att klargöra att han kommer att kräva inflytande över en borgerlig regerings politik. Tillsammans med Anderssons besked betyder det att Centern inte kan hävda att en sådan regering skulle bli oberoende av SD.\nDärmed stärktes den falang inom Centern som vill hålla fast vid linjen att inte ge Sverigedemokraterna politisk makt. Och som fruktar den svåra svekdebatt som skulle drabba C om partiet valde ett SD-beroende alternativ.\nAv detta drar Socialdemokraterna och Vänsterpartiet helt olika slutsatser. Magdalena Andersson såg hoppet komma tillbaka och begärde mera tid till förhandlingar. Nu är hennes lag på banan igen, lät Andersson förstå. S-ledarens ljusa bild stärktes ytterligare när Nooshi Dadgostar i går dök upp på de rödgrönas partiledarförhandlingar.\nMen nu krossar Vänsterpartiet Anderssons idyll, genom att hoppa av samtalen. Därmed kan alla se att Andersson inte gör några framsteg.\nDadgostars kalkyl är att V:s bästa chans kommer inför en fjärde statsministeromröstning. Om Centern då står inför att antingen gå till extraval eller möta Vänsterpartiets krav blir det svårt att nobba V. Centerpartiet har ett svagt budskap i ett extraval, bedömer V.\nDadgostars agerande är ett vågspel. Att driva fram en statsministeromröstning om Kristersson kan tvinga Centern att rösta ner Kristersson, men det kan mycket väl landa i motsatsen – alltså att Centern stressas att stödja honom. Elisabeth Thand Ringqvist förstår lika väl som V att hennes förhandlingsläge försvagas om Centern avvisar det borgerliga alternativet.\nMen ledningen runt Dadgostar är beredd att chansa. Alternativen har krympt och därmed har också kostnaderna för att V misslyckas minskat. Att sitta med i en förhandling som handlar om hur det egna partiet ska hållas borta från makten är föga aptitligt för V-ledningen. Åtminstone så länge Centern kan hota att gå högerut.\nDadgostars nya drag kan åter placera regeringsbollen i Thand Ringqvists och Centerns knä. Det blir då opinionen bland landets centerpartister som avgör regeringsfrågan. Inför en omröstning om Ulf Kristersson ställs C-folket obönhörligt inför slutspelets hårda beslut.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nVänsterpartiets krav på Centern: Välj sida\nNu letar alla efter nyckeln – här är låsningarna i regeringsfrågan\nMartin Liby Troein: Vänsterpartiets logik är obegriplig – om man inte tror på en sak",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "talman",
-        "statsminister"
+        "statsminister",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-12T06:03:02.680403+00:00"
+      "first_seen": "2026-11-12T14:03:13.876256+00:00"
     }
   ]
 }
