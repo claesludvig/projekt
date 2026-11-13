@@ -1,4 +1,4 @@
-## Väljardatabasen: kvalitetskontroll 2026-11-12
+## Väljardatabasen: kvalitetskontroll 2026-11-13
 
 **Varningar.**
 
