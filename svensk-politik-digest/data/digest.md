@@ -1,29 +1,39 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-13
 
-4 nya poster sedan förra utskicket (43 redan utskickade, 157 utanför ämnet).
+6 nya poster sedan förra utskicket (42 redan utskickade, 155 utanför ämnet).
+
+## Analys och kommentar
+
+### [Vad händer i regeringsbildningen?](https://www.svd.se/a/QromaA/vad-hander-i-regeringsbildningen)
+SvD Ledare · 2026-11-13 · TT
+
+Det har nu gått 61 dagar sedan valdagen och det är ännu oklart vilken regering Sverige ska få.
 
 ## Rapportering
 
-### [”SD-hotet ska få C att välja Andersson – trots Vänsterpartiet”](https://www.svt.se/nyheter/inrikes/sd-hotet-ska-fa-c-att-valja-andersson-trots-vansterpartiet) **[kommentator]**
-SVT Nyheter · 2026-11-12 · Elisabeth Marmorstein
+### [Centerpartiets väljare ser hellre alliansregering än V i regering](https://www.svt.se/nyheter/inrikes/centerpartiets-valjare-ser-hellre-alliansregering-an-v-i-regering)
+SVT Nyheter · 2026-11-13 · Kristoffer Törnmalm
 
-Till sist tog Centerpartiet fasta på sin vågmästarroll och möttes av en rödgrön ångvält av kritik. Magdalena Andersson lägger nu mycket kraft på att varna C för vad en Kristersson-regering skulle innebära. De tolv SD-ministrarna är visserligen borta från bordet men budskapet om att ett SD-inflytande är ett hot mot den liberala demokratin ligger fast. I det läget kan det vara för kostsamt för C att byta sida.
+Centerpartiets väljare vill helst sitta i regering med Magdalena Andersson – förutsatt att Vänsterpartiet hålls utanför. Annars föredrar de en alliansregering som släpps fram av SD, visar en undersökning från Indikator opinion. – Ju mer SD lyckas tona ned sin roll i ett sådant upplägg, desto lättare blir det för C:s väljare att acceptera det, säger opinionschefen Per Oleskog Tryggvason.
 
-### [Konflikten mellan C och V: ”Hoppas V inser stundens allvar”](https://www.sverigesradio.se/artikel/9339865)
-Ekot, Sveriges Radio · 2026-11-12 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Besked från M och S om totalpaket](https://www.sverigesradio.se/artikel/9340248)
+Ekot, Sveriges Radio · 2026-11-13 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Konflikten mellan Vänsterpartiet och Centerpartiet hårdnar sedan V lämnat regeringsförhandlingarna när partiet hålls utanför regeringen. C kräver att V återvänder till bordet, medan V vill att C stödjer Magdalena Andersson i stället för att öppna för Ulf Kristersson och SD-inflytande. ”Nu får C ta ansvar för sitt vägval så vi vet var de hör hemma och så att väljarna inte blir lurade”, säger Vänsterpartiets vice ordförande, Ida Gabrielsson.
+Moderaterna och Socialdemokraterna väntas i dag lämna varsitt totalpaket till Centerpartiet om politik och regeringsbildning. Beskeden kommer efter att C-ledaren Elisabeth Thand Ringqvist förra veckan begärde underlag inför partiets beslut. Ulf Kristersson beskriver sitt förslag som en borgerlig minoritetsregering, medan Magdalena Andersson lovar ett S-förslag senast klockan 17.
 
-### [V-källor: S ”totalpaket” till Centerpartiet är oseriöst](https://www.dn.se/sverige/v-kallor-s-totalpaket-till-centerpartiet-ar-oseriost)
-DN Nyheter · 2026-11-12 · Pia Gripenberg, Annie Reuterskiöld _(betalvägg — endast ingress)_
+### [Frustrationen ökar i Miljöpartiet: ”Inte vi som är problemet”](https://www.dn.se/sverige/frustrationen-okar-i-miljopartiet-inte-vi-som-ar-problemet)
+DN Nyheter · 2026-11-13 · Evelyn Jones, William Svensson _(betalvägg — endast ingress)_
 
-Socialdemokraterna har presenterat en lång lista på sakförslag för att få ihop en regering. Tandvårdsreform, avskaffat karensavdrag och reformering av Arbetsförmedlingen fanns med för att locka Vänsterpartiet att stå utanför. – Det fanns ingen finansiering, det var ingen seriös förhandling, säger en V-källa med insyn i samtalen.
+Frustrationen ökar lokalt i Miljöpartiet, enligt flera företrädare som DN har talat med. Det finns en oro över att regeringsmakten kan glida de rödgröna ur händerna – och över det hårda tonläget partierna emellan. – Risken är att man skapar låsningar som inte behöver finnas, säger en lokal MP-topp.
 
-## Officiella besked
+### [Så har det svängt i jakten på en ny regering](https://www.dn.se/sverige/sa-har-det-svangt-i-jakten-pa-en-ny-regering)
+DN Nyheter · 2026-11-13 · DN, Stefan Rothmaier
 
-### [Protokoll 2026/27:17 Torsdagen den 12 november](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_he0917)
-Riksdagen · 2026-11-12 · riksdagsinformation@riksdagen.se
+Efter det jämna valresultatet har turerna i regeringsfrågan avlöst varandra. Sverige står fortfarande utan ny regering. Här är de viktigaste vändningarna sedan valet den 13 september.
 
-… För den som behöver bilen blir kostnaderna högre igen. Många svenska familjer får det i så fall kärvare. Regeringsbildningen kräver svåra avvägningar. Men vi har också ett ansvar för att nödvändiga beslut fattas i tid och att det som byggts upp inte går förlorat medan förhandlingarna pågår. Sverigedemokraterna ingår inte i någon tilltänkt regeringskonstellation. … 2026-11-12
+### [I dag vill C ha besked från Andersson och Kristersson](https://www.dn.se/sverige/i-dag-vill-c-ha-besked-fran-andersson-och-kristersson)
+DN Nyheter · 2026-11-13 · Pia Gripenberg, Molly Karlsson Inde
 
-_Genererat 2026-11-13T06:03:00.968134+00:00._
+Sanningens minut väntar i regeringsfrågan. I alla fall för Centerpartiet. I dag klockan 17.00 har man satt tidsgränsen för Magdalena Andersson och Ulf Kristersson att lämna sina politiska alternativ för C att ta ställning till.
+
+_Genererat 2026-11-13T14:48:59.076532+00:00._

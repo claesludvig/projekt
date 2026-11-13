@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-13T06:03:00.968134+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-11-13T14:48:59.076532+00:00",
+  "new_count": 6,
   "skipped": {
-    "seen": 43,
-    "offtopic": 157,
-    "old": 6
+    "seen": 42,
+    "offtopic": 155,
+    "old": 7
   },
   "fetch_errors": 1,
   "sources": [
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -59,85 +59,119 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/sd-hotet-ska-fa-c-att-valja-andersson-trots-vansterpartiet",
-      "title": "”SD-hotet ska få C att välja Andersson – trots Vänsterpartiet”",
+      "url": "https://www.svd.se/a/QromaA/vad-hander-i-regeringsbildningen",
+      "title": "Vad händer i regeringsbildningen?",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-13",
+      "author": "TT",
+      "commentator": "",
+      "summary": "Det har nu gått 61 dagar sedan valdagen och det är ännu oklart vilken regering Sverige ska få.",
+      "fulltext": "Det har nu gått 61 dagar sedan valdagen och det är ännu oklart vilken regering Sverige ska få. Få koll på de senaste turerna i regeringsbildningen.\nPå fredagen presenterar S-ledaren Magdalena Andersson samt M-ledaren Ulf Kristersson sina respektive ”totalpaket” som Centerpartiet har efterlyst.\nPaketen ska både innehålla sakpolitik och hur politiken ska genomföras, så att inte C:s röda linjer bryts. Partiet accepterar inte att V sitter med i en regering och säger nej till att ge SD inflytande över regeringspolitiken.\nC har sagt att man inte planerar att kommentera paketen på fredagen, utan troligtvis först nästa vecka.\nM-ledaren Ulf Kristersson har för tillfället uppdraget att försöka bilda regering. Han siktar på en borgerlig fyrpartiregering med M, KD, L och C. Utmaningen är hur han ska minimera en sådan regerings beroende av SD för att till exempel få igenom sin budget.\nS-ledaren Magdalena Andersson arbetar samtidigt för att få ihop en S-C-MP-regering, som Vänsterpartiet inte ska ingå i men samarbeta med. V kräver dock fortsatt ministerposter och har meddelat att man lämnar samtalen med de rödgröna tills C valt sida.\nDet är fortsatt ett väldigt låst läge. Hittills är det enda parti som backat från sina röda linjer Sverigedemokraterna som meddelat att man släpper kravet på ministerposter och kan tolerera en borgerlig fyrpartiregering.\nPå den rödgröna sidan, som ju fick majoritet med 176 mandat i valet, står de röda linjerna fast.\nDet brukar vanligtvis gå snabbare än såhär att bilda regering efter ett riksdagsval. Men 2018 tog det 134 dagar att få till en ny regering.\nExtra val blir det när fyra statsministeromröstningar i riksdagen misslyckats. Hittills har det hållits två, den första om S-ledaren och den andra om C-ledaren.\nPå tisdag ska Ulf Kristersson återrapportera till talman Andreas Norlén. Talmannen har sagt att han arbetar efter principen att en sondering ska följas av en votering. Men eftersom nästa omröstning blir den tredje har han också sagt att det kan finnas skäl att vara lite varsam med den.\nMagdalena Andersson ansåg tidigare i veckan att talmannen bör ge de rödgröna partierna mer tid innan den tredje statsministeromröstningen hålls, ”en till två veckor” extra.\nDet går inte att säga. Om talman Andreas Norlén lägger fram Ulf Kristersson i en statsministeromröstning nästa vecka och den misslyckas återstår bara ett försök innan det automatiskt blir extra val. Det torde öka pressen på partierna att komma överens.\nSka den rödgröna sidan lyckas krävs av allt att döma att något parti, antingen V eller C, backar från sina röda linjer och tar den svekdebatt som kommer att följa på det.\nEtt extra val, om det blir aktuellt, ska hållas inom tre månader efter beslut om det.\n13 september: Valdagen. De rödgröna partierna får tillsammans 176 mandat mot Tidöpartiernas 173.\n18 september: S-ledaren Magdalena Andersson får det första sonderingsuppdraget.\n28 september: Andersson ger upp efter att V meddelat att man röstar på moderaten Andreas Norlén som talman.\n2 oktober: S-ledaren får tillbaka sonderingsuppdraget av talmannen, men lyckas inte bilda regering.\n15 oktober: Andersson röstas ner som statsminister i den första omröstningen i riksdagen.\n19 oktober: Sonderingsuppdraget går till C-ledaren Elisabeth Thand Ringqvist, som efter en vecka meddelar att hon misslyckats med att hitta stöd för en mittenregering med stöd av MP, S, C, KD och L, ledd av Magdalena Andersson.\n3 november: C-ledaren röstas ner i en statsministeromröstning. Sonderingsuppdraget går vidare till M-ledaren Ulf Kristersson.\n6 november: SD släpper kravet på ministerposter. Partiet är berett att tolerera Ulf Kristersson som statsminister för en borgerlig fyrpartiregering.\n8 november: Magdalena Andersson meddelar att hon vill bilda en regering med S, MP och C, och stänger därmed regeringsdörren för V.\n10 november: Talmannen ger Ulf Kristersson ytterligare en vecka att sondera.\n11 november: Alla fyra rödgröna partier ses i centrala Stockholm.\n12 november: V meddelar att man lämnar förhandlingarna och kräver på en pressträff att C väljer sida. C svarar med en deadline: senast klockan 17 på fredag måste V ge besked om man släpper sitt ministerkrav.\n13 november: S och M ska presentera sina ”totalpaket” för C senast klockan 17.\nNästa vecka, den 17 november: Ulf Kristersson ska rapportera hur hans sonderingar gått till talmannen.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-13T14:48:59.076532+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/centerpartiets-valjare-ser-hellre-alliansregering-an-v-i-regering",
+      "title": "Centerpartiets väljare ser hellre alliansregering än V i regering",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-12",
-      "author": "Elisabeth Marmorstein",
-      "commentator": "Elisabeth Marmorstein",
-      "summary": "Till sist tog Centerpartiet fasta på sin vågmästarroll och möttes av en rödgrön ångvält av kritik. Magdalena Andersson lägger nu mycket kraft på att varna C för vad en Kristersson-regering skulle innebära. De tolv SD-ministrarna är visserligen borta från bordet men budskapet om att ett SD-inflytande är ett hot mot den liberala demokratin ligger fast. I det läget kan det vara för kostsamt för C att byta sida.",
-      "fulltext": "Till sist tog Centerpartiet fasta på sin vågmästarroll och möttes av en rödgrön ångvält av kritik.\nMagdalena Andersson lägger nu mycket kraft på att varna C för vad en Kristersson-regering skulle innebära.\nDe tolv SD-ministrarna är visserligen borta från bordet men budskapet om att ett SD-inflytande är ett hot mot den liberala demokratin ligger fast.\nI det läget kan det vara för kostsamt för C att byta sida.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "published": "2026-11-13",
+      "author": "Kristoffer Törnmalm",
+      "commentator": "",
+      "summary": "Centerpartiets väljare vill helst sitta i regering med Magdalena Andersson – förutsatt att Vänsterpartiet hålls utanför. Annars föredrar de en alliansregering som släpps fram av SD, visar en undersökning från Indikator opinion. – Ju mer SD lyckas tona ned sin roll i ett sådant upplägg, desto lättare blir det för C:s väljare att acceptera det, säger opinionschefen Per Oleskog Tryggvason.",
+      "fulltext": "Centerpartiets väljare vill helst sitta i regering med Magdalena Andersson – förutsatt att Vänsterpartiet hålls utanför.\nAnnars föredrar de en alliansregering som släpps fram av SD, visar en undersökning från Indikator opinion.\n– Ju mer SD lyckas tona ned sin roll i ett sådant upplägg, desto lättare blir det för C:s väljare att acceptera det, säger opinionschefen Per Oleskog Tryggvason.\nCenterpartiet har hamnat i strålkastarljuset efter kravet om ett ”totalpaket” från både Andersson (S) och Kristersson (M) – innan partiet väljer sida i regeringsbildningen. Deadline: 17.00 under fredagseftermiddagen.\nNär Indikator opinion på uppdrag av SVT ställer frågan till Centerpartiets väljare vilken regering de föredrar, svarar drygt hälften att de vill se en lösning baserad på partierna till vänster i riksdagen.\nStörst stöd får konstellationen S, MP och C med stöd av V.\n– När man får välja mellan de olika regeringsalternativen föredrar en majoritet en Andersson-regering. Men de allra flesta av dem vill då att Vänsterpartiet står utanför regeringen och agerar samarbetsparti, säger Per Oleskog Tryggvason.\nEn regering där V får ministerposter gillas av bara sex procent av de tillfrågade C-väljarna. Och när en sådan lösning ställs mot en regering bestående av de forna allianspartierna som släpps fram av SD, väljer de tillfrågade C-väljarna det senare alternativet.\nHela 54 procent säger att de föredrar en regering bestående av M, KD, L och C som släpps fram av SD framför en där Vänsterpartiet får ministerposter, eller extraval. En rödgrön fyrpartiregering föredras av 28 procent.\n– Vi vet från tidigare undersökningar att Centerpartiets väljare har starka antipatier mot både Vänsterpartiet och Sverigedemokraterna, men att man tycker mer illa om SD. Samtidigt är det skillnad på att ett parti sitter i regeringen och att det ger sitt stöd från utsidan, säger Per Oleskog Tryggvason.\n* Om du fick välja mellan följande fyra alternativ, vilket skulle du välja?\n49% – En regering med S, MP och C, med V som samarbetsparti utanför regeringen\n38% – En regering med M, KD, L och C, som SD släpper fram utan att ingå i regeringen\n* Om du fick välja mellan följande tre alternativ, vilket skulle du föredra?\n54% – En regering med M, KD, L och C, som SD släpper fram utan att ingå i regeringen\n*Vilket av följande utfall tror du är mest sannolikt?\n27% – Att Magdalena Andersson kan samla ett regeringsunderlag bestående av S, V, MP och C\n44% – Att Ulf Kristersson kan samla ett regeringsunderlag bestående av M, KD, L och C\nUndersökningen genomfördes av Indikator Opinion på uppdrag av SVT under perioden 9–12 november 2026. Totalt deltog 1 659 rödgröna väljare. I just denna publicering har vi endast brutit ut Centerpartiets väljare.\nDatainsamlingen genomfördes inom ramen för Indikators slumpmässigt rekryterade Sverigepanel, där deltagarfrekvensen bland inbjudna panelister var 41 procent.\nDärutöver genomfördes en kompletterande datainsamling genom ett slumpmässigt urval med inbjudan via digital brevlåda, i syfte att stärka representationen i grupper med lägre deltagande i panelen.\nVäljare som röstat på Vänsterpartiet, Centerpartiet och Miljöpartiet har översamplats för att ge ett större svarsunderlag och mer tillförlitliga skattningar för dessa väljargrupper. Totalresultaten för de rödgröna väljarna har viktats efter kända populationsparametrar för kön och ålder samt efter resultatet i riksdagsvalet 2026. Viktningen korrigerar därmed för översamplingen, så att partiernas väljare får sin rätta andel bland de rödgröna väljarna i totalresultaten.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "vågmästar",
         "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-13T06:03:00.968134+00:00"
+      "first_seen": "2026-11-13T14:48:59.076532+00:00"
     },
     {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_he0917",
-      "title": "Protokoll 2026/27:17 Torsdagen den 12 november",
-      "source": "Riksdagen",
-      "kind": "officiell",
-      "published": "2026-11-12",
-      "author": "riksdagsinformation@riksdagen.se",
-      "commentator": "",
-      "summary": "… För den som behöver bilen blir kostnaderna högre igen. Många svenska familjer får det i så fall kärvare. Regeringsbildningen kräver svåra avvägningar. Men vi har också ett ansvar för att nödvändiga beslut fattas i tid och att det som byggts upp inte går förlorat medan förhandlingarna pågår. Sverigedemokraterna ingår inte i någon tilltänkt regeringskonstellation. … 2026-11-12",
-      "fulltext": "Protokoll Riksdagens protokoll 2026/27:17\nI kammarens protokoll finns allt som sägs i kammaren nedskrivet. I protokollet står det också hur partierna har röstat. Ett snabbprotokoll publiceras ungefär sex timmar efter att dagens sista debatt i kammaren är slut. Det slutliga protokollet är färdigt efter några veckor.\nI kammarens protokoll finns allt som sägs i kammaren nedskrivet. I protokollet står det också hur partierna har röstat. Ett snabbprotokoll publiceras ungefär sex timmar efter att dagens sista debatt i kammaren är slut. Det slutliga protokollet är färdigt efter några veckor.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-13T06:03:00.968134+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9339865",
-      "title": "Konflikten mellan C och V: ”Hoppas V inser stundens allvar”",
+      "url": "https://www.sverigesradio.se/artikel/9340248",
+      "title": "Besked från M och S om totalpaket",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-12",
+      "published": "2026-11-13",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Konflikten mellan Vänsterpartiet och Centerpartiet hårdnar sedan V lämnat regeringsförhandlingarna när partiet hålls utanför regeringen. C kräver att V återvänder till bordet, medan V vill att C stödjer Magdalena Andersson i stället för att öppna för Ulf Kristersson och SD-inflytande. ”Nu får C ta ansvar för sitt vägval så vi vet var de hör hemma och så att väljarna inte blir lurade”, säger Vänsterpartiets vice ordförande, Ida Gabrielsson.",
+      "summary": "Moderaterna och Socialdemokraterna väntas i dag lämna varsitt totalpaket till Centerpartiet om politik och regeringsbildning. Beskeden kommer efter att C-ledaren Elisabeth Thand Ringqvist förra veckan begärde underlag inför partiets beslut. Ulf Kristersson beskriver sitt förslag som en borgerlig minoritetsregering, medan Magdalena Andersson lovar ett S-förslag senast klockan 17.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9339865'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9340248'",
       "matched_terms": [
-        "regeringsförhandling",
+        "regeringsbildning",
         "Centerpartiet",
-        "Vänsterpartiet"
+        "Moderaterna",
+        "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-13T06:03:00.968134+00:00"
+      "first_seen": "2026-11-13T14:48:59.076532+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/v-kallor-s-totalpaket-till-centerpartiet-ar-oseriost",
-      "title": "V-källor: S ”totalpaket” till Centerpartiet är oseriöst",
+      "url": "https://www.dn.se/sverige/frustrationen-okar-i-miljopartiet-inte-vi-som-ar-problemet",
+      "title": "Frustrationen ökar i Miljöpartiet: ”Inte vi som är problemet”",
       "source": "DN Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-12",
-      "author": "Pia Gripenberg, Annie Reuterskiöld",
+      "published": "2026-11-13",
+      "author": "Evelyn Jones, William Svensson",
       "commentator": "",
-      "summary": "Socialdemokraterna har presenterat en lång lista på sakförslag för att få ihop en regering. Tandvårdsreform, avskaffat karensavdrag och reformering av Arbetsförmedlingen fanns med för att locka Vänsterpartiet att stå utanför. – Det fanns ingen finansiering, det var ingen seriös förhandling, säger en V-källa med insyn i samtalen.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-13 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-kallor-s-totalpaket-till-centerpartiet-ar-oseriost/\nSocialdemokraterna har presenterat en lång lista på sakförslag för att få ihop en regering.\nTandvårdsreform, avskaffat karensavdrag och reformering av Arbetsförmedlingen fanns med för att locka Vänsterpartiet att stå utanför.\n– Det fanns ingen finansiering, det var ingen seriös förhandling, säger en V-källa med insyn i samtalen.",
+      "summary": "Frustrationen ökar lokalt i Miljöpartiet, enligt flera företrädare som DN har talat med. Det finns en oro över att regeringsmakten kan glida de rödgröna ur händerna – och över det hårda tonläget partierna emellan. – Risken är att man skapar låsningar som inte behöver finnas, säger en lokal MP-topp.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-13 15:47\nArtikelns ursprungsadress: https://www.dn.se/sverige/frustrationen-okar-i-miljopartiet-inte-vi-som-ar-problemet/\nFrustrationen ökar lokalt i Miljöpartiet, enligt flera företrädare som DN har talat med. Det finns en oro över att regeringsmakten kan glida de rödgröna ur händerna – och över det hårda tonläget partierna emellan.\n– Risken är att man skapar låsningar som inte behöver finnas, säger en lokal MP-topp.",
       "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "Centerpartiet",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
+        "regeringsmakt",
+        "Miljöpartiet"
       ],
-      "first_seen": "2026-11-13T06:03:00.968134+00:00"
+      "first_seen": "2026-11-13T14:48:59.076532+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/sa-har-det-svangt-i-jakten-pa-en-ny-regering",
+      "title": "Så har det svängt i jakten på en ny regering",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-13",
+      "author": "DN, Stefan Rothmaier",
+      "commentator": "",
+      "summary": "Efter det jämna valresultatet har turerna i regeringsfrågan avlöst varandra. Sverige står fortfarande utan ny regering. Här är de viktigaste vändningarna sedan valet den 13 september.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-13 15:49\nArtikelns ursprungsadress: https://www.dn.se/sverige/sa-har-det-svangt-i-jakten-pa-en-ny-regering/\nEfter det jämna valresultatet har turerna i regeringsfrågan avlöst varandra. Sverige står fortfarande utan ny regering. Här är de viktigaste vändningarna sedan valet den 13 september.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nFrustrationen ökar i Miljöpartiet: ”Inte vi som är problemet”\nI dag vill C ha besked från Andersson och Kristersson\nVäntar på svenska statens ursäkt – får en ny hemsida",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "valresultat"
+      ],
+      "first_seen": "2026-11-13T14:48:59.076532+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/i-dag-vill-c-ha-besked-fran-andersson-och-kristersson",
+      "title": "I dag vill C ha besked från Andersson och Kristersson",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-13",
+      "author": "Pia Gripenberg, Molly Karlsson Inde",
+      "commentator": "",
+      "summary": "Sanningens minut väntar i regeringsfrågan. I alla fall för Centerpartiet. I dag klockan 17.00 har man satt tidsgränsen för Magdalena Andersson och Ulf Kristersson att lämna sina politiska alternativ för C att ta ställning till.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-13 15:48\nArtikelns ursprungsadress: https://www.dn.se/sverige/i-dag-vill-c-ha-besked-fran-andersson-och-kristersson/\nSanningens minut väntar i regeringsfrågan. I alla fall för Centerpartiet.\nI dag klockan 17.00 har man satt tidsgränsen för Magdalena Andersson och Ulf Kristersson att lämna sina politiska alternativ för C att ta ställning till.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFör en vecka sedan stod Centerledaren Elisabeth Thand Ringqvist i riksdagens presscenter och startade en politisk budgivning. C vill senast klockan 17 i dag ha varsitt ”totalpaket” från Magdalena Andersson (S) och Ulf Kristersson (M).\nElisabeth Thand Ringqvist begär att de båda redovisar:\n* Vilken politik de tänker driva som C kan ställa sig bakom.\n* Hur de ska göra för att genomföra den, alltså vem Andersson respektive Kristersson ska samarbeta med.\nC-ledarens besked är också att partiets röda linjer ligger fast: ingen regering där Vänsterpartiet eller Sverigedemokraterna ingår och ingen regering som samarbetar med SD.\nElisabeth Thand Ringqvists pressträff förra fredagen hölls några timmar efter att Jimmie Åkesson (SD) meddelat att hans parti inte längre kräver ministerposter. SD är redo att släppa fram en M, C, KD och L-regering, men därefter gå i full opposition.\nUlf Kristersson, som just nu har talmannens sonderingsuppdrag, blixtinkallade även han pressen och konstaterade att regeringsbildningen är svår, men att den kan ha blivit lite lättare efter C:s och SD:s uttalanden.\n– Det blir lite mindre omöjligt att få en bra regering för Sverige, sade Kristersson förra veckan.\nMagdalena Andersson svarade i söndags med att hennes regeringsalternativ är S, C och MP, vilket Vänsterpartiet motsätter sig eftersom de själva inte ingår.\nUnder fredagsmorgonen har både Kristersson och Andersson meddelat att de ska lämna varsitt förslag till Centerledaren. Det är fortfarande oklart om det handlar om ett ”totalpaket”, så som Centern har uttryckt det.\nI ett inlägg på Instagram säger Andersson att hon under eftermiddagen kommer att lämna ett förslag till C om hur regeringsprocessen bör drivas vidare.\nHon säger också att hon under veckan har suttit i ”många långa förhandlingar” med C, V och MP. Andersson upprepar att hon ser en regering utan V som mest sannolik.\nKristersson säger att han kommer att lämna ett ”politiskt helhetsförslag” till Centerpartiet under dagen, rapporterar TV4 Nyheterna.\n– Vi kommer i dag naturligtvis att lämna in ett helhetsförslag från våra partier. Vi har haft bra samtal mellan våra fyra partier för att bilda en borgerlig mittenregering, säger han till TV4.\nCenterpartiets presstjänst uppger på fredagen att partiet inte planerar att ha någon presskonferens i dag. Däremot kommer de på något sätt att meddela när förslagen har kommit in.\nSocialdemokraterna uppger att de återkommer under dagen om det blir någon pressträff.\nI Sveriges riksdag sitter 349 ledamöter fördelade på åtta partier.\nSD, med 62 ledamöter, har sagt att man går i full opposition efter att man släppt igenom en regering med M (70 ledamöter) ledamöter, C (25), KD (22) och L (19).\nS (99 ledamöter), V (30) och MP (22) får tillsammans 151 mandat.\nDe tre rödgröna partierna behöver inte samarbeta om en budget för att vinna över till exempel regeringens budgetförslag. Det räcker att de tre partierna röstar tillsammans i en slutvotering.\nMagdalena Anderssons tilltänkta S, C, MP-regering skulle få 146 mandat och behöva söka stöd av andra partier i riksdagen.\nM-källor: Kommer krävas tid att få över C\nNu letar alla efter nyckeln – här är låsningarna i regeringsfrågan\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nFrustrationen ökar i Miljöpartiet: ”Inte vi som är problemet”\nSå har det svängt i jakten på en ny regering\nM-källor: Kommer krävas tid att få över C",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsfråg",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-13T14:48:59.076532+00:00"
     }
   ]
 }
