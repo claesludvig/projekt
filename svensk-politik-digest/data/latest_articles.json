@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-11-12T14:03:13.876256+00:00",
-  "new_count": 9,
+  "fetched_at": "2026-11-13T06:03:00.968134+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 47,
-    "offtopic": 150,
-    "old": 4
+    "seen": 43,
+    "offtopic": 157,
+    "old": 6
   },
-  "fetch_errors": 2,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 3,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,166 +65,79 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/OynRR3/dadgostar-holl-pa-att-reda-ut-regeringsfragan",
-      "title": "Dadgostar: Höll på att reda ut regeringsfrågan",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.svt.se/nyheter/inrikes/sd-hotet-ska-fa-c-att-valja-andersson-trots-vansterpartiet",
+      "title": "”SD-hotet ska få C att välja Andersson – trots Vänsterpartiet”",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
       "published": "2026-11-12",
-      "author": "Jenny Nyman, Malin Hector",
-      "commentator": "",
-      "summary": "Nooshi Dadgostar upprepar att ministerkravet ligger fast – och säger att regeringsfrågan höll på att…",
-      "fulltext": "Nooshi Dadgostar upprepar att ministerkravet ligger fast – och säger att regeringsfrågan höll på att redas ut före Centerpartiets nya besked. Elisabeth Thand Ringqvist svarar direkt: ”Nu måste V släppa sitt ultimatum.”\nNooshi Dadgostar kliver in i riksdagens presscenter för att prata om ”tidsplanen” framåt. Vänster­ledaren menar att Centerpartiet står inför ett historiskt beslut.\n– Skulle man ta det steget att gå vidare med Ulf Kristerssons totalpaket, då är det uppenbart någonting annat än det som de har sagt i tio års tid, säger hon.\nIlskan mot V: ”Idiotiskt på så många plan”",
+      "author": "Elisabeth Marmorstein",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Till sist tog Centerpartiet fasta på sin vågmästarroll och möttes av en rödgrön ångvält av kritik. Magdalena Andersson lägger nu mycket kraft på att varna C för vad en Kristersson-regering skulle innebära. De tolv SD-ministrarna är visserligen borta från bordet men budskapet om att ett SD-inflytande är ett hot mot den liberala demokratin ligger fast. I det läget kan det vara för kostsamt för C att byta sida.",
+      "fulltext": "Till sist tog Centerpartiet fasta på sin vågmästarroll och möttes av en rödgrön ångvält av kritik.\nMagdalena Andersson lägger nu mycket kraft på att varna C för vad en Kristersson-regering skulle innebära.\nDe tolv SD-ministrarna är visserligen borta från bordet men budskapet om att ett SD-inflytande är ett hot mot den liberala demokratin ligger fast.\nI det läget kan det vara för kostsamt för C att byta sida.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg"
-      ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/qOnKw1/c-anderssons-besked-har-fort-fragorna-framat",
-      "title": "Centern ger Vänsterpartiet deadline om ministerkrav",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-12",
-      "author": "Peter Wallberg/TT, Anja Haglund/TT, Niklas Svahn/TT",
-      "commentator": "",
-      "summary": "Vänsterpartiet vill att Centerpartiet väljer sida i regeringsprocessen.",
-      "fulltext": "Vänsterpartiet vill att Centerpartiet väljer sida i regeringsprocessen. Samtidigt står man fast vid sitt regeringskrav.\nC svarar med ett ultimatum - senast i morgon klockan 17 måste V ge besked om man släpper ministerkravet.\nVänsterpartiet blixtinkallade till pressträff på torsdagen och ville där sätta press på Centerpartiet att bestämma sig för vilket block man vill ingå i.\nLäget i regeringsprocessen är just nu att S-ledaren Magdalena Andersson har sagt att hon vill se en S-C-MP-regering, där V inte ingår. En lösning som C kallat för ”intressant”.\nSamtidigt förhandlar C-ledaren parallellt med M-ledaren Ulf Kristersson. Elisabeth Thand Ringqvist har krävt att både Andersson och Kristersson presenterar varsitt ”totalpaket” för sina regeringsalternativ senast på fredag.\nVänsterpartiet anser nu att C måste välja sida. Innan de gjort det är V inte beredda att sätta sig i några nya samtal med de rödgröna partierna, enligt partiledaren Nooshi Dadgostar.\n– Skulle Centerpartiet välja att gå vidare med Magdalena Anderssons paket så står vi förstås klara att förhandla vidare för att bilda en regering, säger Dadgostar på pressträffen.\nHon uppger samtidigt att Vänsterpartiets ministerkrav, som C inte kan acceptera, står fast.\nC-ledaren Elisabeth Thand Ringqvist slår efter pressträffen tillbaka mot V.\n”Nu måste V släppa sitt ultimatum om regeringsmedverkan och komma tillbaka till förhandlingsbordet”, skriver hon på X.\n”Inför att Magdalena Andersson ska leverera sitt totalpaket 17.00 i morgon behöver Nooshi Dadgostar välja mellan att stå fast vid sitt krav på ministerposter eller att få politiskt genomslag”, fortsätter hon.\nVad som händer om Dadgostar inte ger besked framgår inte av inlägget.\nEnligt Dadgostar pågick samtal mellan de rödgröna partierna när Centerledaren i fredags kom med sitt besked att hon även vill förhandla högerut.\n– Det var en överraskning för oss, att det blev en ändrad process.\nOm C väljer att ingå i en borgerlig alliansregering skulle man vara beroende av SD:s stöd, framhåller V-ledaren.\n– Det vore ett epokskifte i svensk politik om de tar steget mot Sverigedemokraterna, säger hon.\nVice partiledare Ida Gabrielsson svarar samtidigt tydligt nej på om V är beredda att göra som SD – det vill säga släppa fram Magdalena Andersson som statsminister och sedan gå i opposition.\nJust nu har M-ledaren Ulf Kristersson uppdraget av talmannen att sondera för en ny regering. Han ska rapportera hur det har gått på tisdag nästa vecka. För att bli vald krävs att han lockar över C till sin sida.\nM-ledaren Ulf Kristersson sonderar just nu för en ny regering.\nHan väntas försöka få C att stödja en borgerlig regering, men C säger nej till en regering som är beroende av SD.\nSD har öppnat för att tolerera en borgerlig fyrpartiregering, utan krav på egna ministerposter.\nMen även om Kristersson lyckas locka över C och SD tolererar honom i en statsministeromröstning, så kan han fortfarande inte vara säker på att få igenom budgetar.\nOm S, V och MP går samman om ett gemensamt budgetalternativ har det 151 röster mot 136 för M, KD, L och C. För att en borgerlig regering ska få igenom sin budget i det läget, måste den ha stöd av SD.\nS-ledaren Magdalena Andersson jobbar samtidigt för att få till en S-C-MP-regering, med stöd av V.\nV visar dock än så länge inga tecken på att släppa sitt ministerkrav.\nCenterpartiet har å sin sida en röd linje mot V i regering.\nPå fredag den 13 november klockan 17 ska S och M presentera sina ”totalpaket” för C.\nPå tisdag den 17 november ska Ulf Kristersson återrapportera till talman Andreas Norlén.\nS-ledaren har sagt att talmannen bör ge de rödgröna partierna mer tid innan den tredje statsministeromröstningen hålls, ”en till två veckor” extra.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
+        "vågmästar",
         "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+      "first_seen": "2026-11-13T06:03:00.968134+00:00"
     },
     {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he02394",
-      "title": "Återför ansvaret för att föreslå ny statsminister för riksdagen till statschefen",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_he0917",
+      "title": "Protokoll 2026/27:17 Torsdagen den 12 november",
       "source": "Riksdagen",
       "kind": "officiell",
       "published": "2026-11-12",
       "author": "riksdagsinformation@riksdagen.se",
       "commentator": "",
-      "summary": "… Kompromissen var en del av grundlagsberedningens arbete och innebar att den svenska monarkin bestod, men till priset av att monarken fråntogs allt politiskt inflytande, till exempel vid regeringsbildningen. Det är nu 50 år sedan kompromissen slöts och det politiska landskapet i Sverige är förändrat. Efter valet 2018 kunde vi konstatera att de tidigare traditionella blocken inte längre finns och att möjligheterna att bilda regering har förändrats. … 2026-11-12",
-      "fulltext": "Yrkandena i denna motion kan komma att ändras efter den konstitutionella och språkliga granskningen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att förändra regeringsformen så att statschefen åter får ansvaret att föreslå ny statsminister för riksdagen och tillkännager detta för regeringen.\nSverige skiljer sig från andra parlamentariska demokratier genom att talmannen, istället för statschefen, har till uppgift att föreslå en ny statsminister för riksdagen. Att det är talmannens uppgift står fastslaget i regeringsformen. Att Sverige skiljer ut sig gentemot andra parlamentariska demokratier beror på den kompromiss som slöts mellan Socialdemokraterna och de borgerliga partierna 1971 i Torekov, den sk Torekovskompromissen. Kompromissen var en del av grundlagsberedningens arbete och innebar att den svenska monarkin bestod, men till priset av att monarken fråntogs allt politiskt inflytande, till exempel vid regeringsbildningen.\nDet är nu 50 år sedan kompromissen slöts och det politiska landskapet i Sverige är förändrat.\nEfter valet 2018 kunde vi konstatera att de tidigare traditionella blocken inte längre finns och att möjligheterna att bilda regering har förändrats. Istället har nya konstellationer växt fram. Efter valet 2018 såg vi hur talmansrollen drogs in i det politiska spelet om regeringsmakten på ett sätt som vi tidigare inte upplevt. I och med talmansvalen 2018 slogs också all tidigare praxis ut. Efter valet 2026 har vi åter sett hur valet av talman blivit föremål för politiska strategier.\nDet finns därför starka skäl till att vidta åtgärder för att talmansrollen skiljs från det rent politiska spelet kring statsministerrollen och inte fortsätter att bli föremål för partipolitiska strategier och smutsigt spel. Därför bör ansvaret för att föreslå ny statsminister för riksdagen flyttas tillbaka till statschefen, som står helt utanför partipolitiken. Både valet till talman och talmansämbetet i sig skulle därmed undgå att dras in i politiska fulspel som skedde 2018, vilket inte är värdigt ämbetet eller riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att förändra regeringsformen så att statschefen åter får ansvaret att föreslå ny statsminister för riksdagen och tillkännager detta för regeringen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.",
+      "summary": "… För den som behöver bilen blir kostnaderna högre igen. Många svenska familjer får det i så fall kärvare. Regeringsbildningen kräver svåra avvägningar. Men vi har också ett ansvar för att nödvändiga beslut fattas i tid och att det som byggts upp inte går förlorat medan förhandlingarna pågår. Sverigedemokraterna ingår inte i någon tilltänkt regeringskonstellation. … 2026-11-12",
+      "fulltext": "Protokoll Riksdagens protokoll 2026/27:17\nI kammarens protokoll finns allt som sägs i kammaren nedskrivet. I protokollet står det också hur partierna har röstat. Ett snabbprotokoll publiceras ungefär sex timmar efter att dagens sista debatt i kammaren är slut. Det slutliga protokollet är färdigt efter några veckor.\nI kammarens protokoll finns allt som sägs i kammaren nedskrivet. I protokollet står det också hur partierna har röstat. Ett snabbprotokoll publiceras ungefär sex timmar efter att dagens sista debatt i kammaren är slut. Det slutliga protokollet är färdigt efter några veckor.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "statsminister"
+        "Sverigedemokraterna"
       ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+      "first_seen": "2026-11-13T06:03:00.968134+00:00"
     },
     {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/statsministern-till-dublin-for-informellt-mote-i-europeiska-radet-och-internationellt-toppmote",
-      "title": "Statsministern till Dublin för informellt möte i Europeiska rådet och internationellt toppmöte",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-11-12",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "Den 12–13 november deltar statsminister Ulf Kristersson vid ett informellt möte i Europeiska rådet och i toppmötet European Political Community i Dublin.",
-      "fulltext": "Den 12–13 november deltar statsminister Ulf Kristersson vid ett informellt möte i Europeiska rådet och i toppmötet European Political Community i Dublin.\nFredag den 13 november möts EU:s stats och regeringschefer i Dublin för ett informellt möte i Europeiska rådet. På dagordningen står AI och diskussionen kommer att fokusera på två huvudsakliga frågor. Den första handlar om AI:s möjligheter för europeisk konkurrenskraft och den andra om AI:s påverkan på samhället. Det irländska ordförandeskapet i EU:s ministerråd, tillsammans med Europeiska rådets ordförande António Costa, står värd för mötet.\nI anslutning till det informella mötet i Europeiska rådet deltar statsminister Ulf Kristersson torsdag den 12 november också i toppmötet European Political Community (EPC), vilket är ett forum för europeiska stats- och regeringschefer som främjar politisk dialog och samarbete.\nInför det informella mötet i Europeiska rådet skedde ett samråd med riksdagens EU-nämnd under ett öppet sammanträde.\nSidan är uppmärkt med följande kategorier",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
-    },
-    {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/overgangsregeringen-har-overlamnat-budgetpropositionen-for-2027",
-      "title": "Övergångsregeringen har överlämnat budgetpropositionen för 2027",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-11-12",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "I dag har övergångsregeringen överlämnat budgetpropositionen för 2027 till riksdagen. Budgeten bygger på principer som har förankrats hos samtliga riksdagspartier och säkerställer att nödvändiga statliga verksamheter kan upprätthållas under tiden fram till dess att en ny regering tillträder. En övergångsbudget bör inte innehålla ny politik.",
-      "fulltext": "I dag har övergångsregeringen överlämnat budgetpropositionen för 2027 till riksdagen. Budgeten bygger på principer som har förankrats hos samtliga riksdagspartier och säkerställer att nödvändiga statliga verksamheter kan upprätthållas under tiden fram till dess att en ny regering tillträder. En övergångsbudget bör inte innehålla ny politik.\nBudgetpropositionen för 2027 är en så kallad övergångsbudget. Huvudprincipen för en övergångsbudget är att den utformas med utgångspunkt i den senaste beslutade budgetpropositionen, det vill säga budgeten för 2026.\n– Vi befinner oss i ett speciellt politiskt läge. Regeringsbildningen tar tid och vi behöver förhålla oss till det. Mitt budskap till svenska folket är att även om vi saknar en ordinarie regering så kommer vi ta ansvar för att se till att statens verksamhet i grunden ska fungera genom övergångsbudgeten, säger finansminister Elisabeth Svantesson.\nVissa undantag görs från huvudprincipen, bland annat för att viktiga samhällsfunktioner ska kunna upprätthållas och för att ta hänsyn till redan beslutade lagar och ingångna avtal.\nVissa större förslag som innebär undantag från huvudprincipen\nI det turbulenta omvärldsläget behöver Sveriges totalförsvar fortsätta att fungera. De tidigare planerade satsningarna för uppbyggnaden av totalförsvaret kvarstår därför, med vissa justeringar. Detta står alla riksdagspartier bakom.\nHöjd åldersgräns för jobbskatteavdraget för seniorer\nDet remitterade förslaget om att höja åldersgränsen för jobbskatteavdraget för seniorer ingår också i budgetpropositionen. Förslaget tas med i budgeten med hänsyn till undantagsprincipen om lagförslag som är politiskt okontroversiella och som inte kan genomföras under pågående budgetår.\nDet finns sedan tidigare beräknade ökningar av anslagen till transportinfrastruktur. Ökningarna följer av riksdagens beslut om en ny långsiktig ekonomisk ram för åtgärder inom den statliga transportinfrastrukturen för perioden 2026–2037.\nRegeringen föreslår även ökade medel till investeringar i transportinfrastruktur utifrån försvarets behov. Investeringarna motiveras av att en oförändrad anslagsnivå medför risker: dels risken att uppbyggnaden av totalförsvaret saktas ner, dels att nödvändig verksamhet inte kan upprätthållas.\nInvesteringarna utifrån försvarets behov är en del av den parlamentariska överenskommelsen om finansiering av försvaret. För dessa investeringar medges en avvikelse från målet för den offentliga förvaltningens finansiella sparande under perioden 2026–2034. Dessa investeringar är inte en del av den ekonomiska ramen 2026–2034 för transportinfrastruktur.\nFlera av de tidigare aviserade tillskotten till Kriminalvården kvarstår antingen för att de är bundna i lag eller för att upprätthålla nödvändiga samhällsfunktioner. Detta har sin utgångspunkt i principen om att anslag kan justeras till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. Det grundas även i principen om att anslag kan justeras om det krävs för att nödvändiga samhällsfunktioner ska kunna upprätthållas.\nEn övergångsbudget måste, liksom alla budgetpropositioner, följa de regler om budgetens innehåll som finns i bland annat regeringsformen, riksdagsordningen och budgetlagen. När en övergångsregering ska lämna en budgetproposition utformas den med utgångspunkt i den senaste beslutade budgetpropositionen. Huvudprincipen för arbetet med övergångsbudgeten är därför att 2026 års ursprungliga anslagsnivåer också ska gälla för budgeten för 2027. Följande undantag görs från denna huvudprincip: • Anslag som används för förvaltnings- och investeringsändamål har pris- och löneomräknats på sedvanligt sätt. Anslag som avser regelstyrda transfereringssystem har justerats utifrån ändrad makroekonomisk utveckling liksom ändrade volymer (till exempel antal personer som omfattas). • Anslag har justerats till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. • Anslag har justerats med anledning av att riksdagen beslutat om flyttar av ändamål och verksamheter mellan utgiftsområden. • Anslag har justerats om det krävts för att nödvändiga samhällsfunktioner ska kunna upprätthållas. • Uppenbart tillfälliga satsningar från tidigare budgetår som upphör vid utgången av 2026 har inte förlängts. • Lagförslag som är politiskt okontroversiella, och som inte kan genomföras under pågående budgetår, har inkluderats i de fall det råder politisk samsyn om förslagen. Motsvarande principer har beaktats i tillämpliga delar för förslag som avser statens inkomster. Principerna är avstämda med samtliga riksdagspartier. De utgår från vad som följer av regeringsformen samt Statsrådsberedningens PM om en övergångsregerings befogenheter (SB PM 1990:1, rev 2020).\nFoton finns i Regeringskansliets mediabank. Fotografierna får användas fritt för redaktionellt ändamål. Ange alltid fotografens namn vid publicering.\nDu kan följa sändningen direkt eller se den i efterhand på regeringen.se eller på Regeringskansliets Youtubekanal.\nSidan är uppmärkt med följande kategorier\nPublicerad 12 november 2026 · Artikel , Webb-tv från Elisabeth Svantesson , Finansdepartementet",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "övergångsregering"
-      ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
-    },
-    {
-      "url": "https://www.regeringen.se/artiklar/2026/11/budgetpropositionen-for-2027-pa-fem-minuter",
-      "title": "Budgetpropositionen för 2027 på fem minuter",
-      "source": "Regeringen.se",
-      "kind": "officiell",
-      "published": "2026-11-12",
-      "author": "Regeringskansliet",
-      "commentator": "",
-      "summary": "Övergångsregeringen överlämnar budgetpropositionen för 2027 till riksdagen den 12 november eftersom ingen ny regering har tillträtt. Budgetpropositionen utformas med utgångspunkt i budgeten för 2026, med vissa undantag.",
-      "fulltext": "Övergångsregeringen överlämnar budgetpropositionen för 2027 till riksdagen den 12 november eftersom ingen ny regering har tillträtt. Budgetpropositionen utformas med utgångspunkt i budgeten för 2026, med vissa undantag.\nTrots ett utmanande omvärldsläge fortsatte konjunkturåterhämtningen i svensk ekonomi under första halvåret 2026. Återhämtningen väntas fortgå även under andra halvåret 2026 och under 2027, men i en successivt avtagande takt. Detta förklaras både av en dämpad utveckling i omvärlden och av att ekonomin gradvis bedöms närma sig balans. Under de kommande åren väntas tillväxten drivas av såväl stärkt inhemsk efterfrågan som en fortsatt god exportutveckling.\nPrognoser för den ekonomiska utvecklingen\nVad är skillnaden mellan en vanlig budget och en övergångsbudget?\nDet är andra gången en övergångsregering lämnar en budgetproposition till riksdagen. Vad budgetpropositionen ska innehålla regleras i regeringsformen, riksdagsordningen och budgetlagen.\nDessa regler gäller även för en övergångsregering. Samtidigt bör en övergångsregering inte lägga fram en budget som innehåller ny politik. Huvudprincipen är att budgeten ska utformas med utgångspunkt i den senaste beslutade budgeten. Det betyder att anslagsnivåerna för 2026 också ska gälla för 2027.\nVissa nödvändiga justeringar görs dock. Det handlar om sedvanliga uppräkningar för att kompensera myndigheter för höjda löner och hyror samt att anpassa regelstyrda anslag som barnbidrag och a-kassa efter aktuella prognoser. Budgeten tar även hänsyn till exempelvis redan beslutade lagar, ingångna avtal och till att nödvändiga samhällsfunktioner ska kunna upprätthållas.\nSe faktaruta om principerna för en övergångsbudget längre ner.\nVissa större förslag som innebär undantag från huvudprincipen\nI det turbulenta omvärldsläget behöver Sveriges totalförsvar fortsätta att fungera. De tidigare planerade satsningarna för uppbyggnaden av totalförsvaret kvarstår därför, med vissa justeringar. Detta står alla riksdagspartier bakom.\nHöjd åldersgräns för jobbskatteavdraget för seniorer\nDet remitterade förslaget om att höja åldersgränsen för jobbskatteavdraget för seniorer ingår också i budgetpropositionen. Förslaget tas med i budgeten med hänsyn till undantagsprincipen om lagförslag som är politiskt okontroversiella och som inte kan genomföras under pågående budgetår.\nDet finns sedan tidigare beräknade ökningar av anslagen till transportinfrastruktur. Ökningarna följer av riksdagens beslut om en ny långsiktig ekonomisk ram för åtgärder inom den statliga transportinfrastrukturen för perioden 2026–2037.\nRegeringen föreslår även ökade medel till investeringar i transportinfrastruktur utifrån försvarets behov. Investeringarna motiveras av att en oförändrad anslagsnivå medför risker: dels risken att uppbyggnaden av totalförsvaret saktas ner, dels att nödvändig verksamhet inte kan upprätthållas.\nInvesteringarna utifrån försvarets behov är en del av den parlamentariska överenskommelsen om finansiering av försvaret. För dessa investeringar medges en avvikelse från målet för den offentliga förvaltningens finansiella sparande under perioden 2026–2034. Dessa investeringar är inte en del av den ekonomiska ramen 2026–2034 för transportinfrastruktur.\nFlera av de tidigare aviserade tillskotten till Kriminalvården kvarstår antingen för att de är bundna i lag eller för att upprätthålla nödvändiga samhällsfunktioner. Detta har sin utgångspunkt i principen om att anslag kan justeras till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. Det grundas även i principen om att anslag kan justeras om det krävs för att nödvändiga samhällsfunktioner ska kunna upprätthållas.\nEn övergångsbudget måste, liksom alla budgetpropositioner, följa de regler om budgetens innehåll som finns i bland annat regeringsformen, riksdagsordningen och budgetlagen. När en övergångsregering ska lämna en budgetproposition utformas den med utgångspunkt i den senaste beslutade budgetpropositionen. Huvudprincipen för arbetet med övergångsbudgeten är därför att 2026 års ursprungliga anslagsnivåer också ska gälla för budgeten för 2027. Följande undantag görs från denna huvudprincip: • Anslag som används för förvaltnings- och investeringsändamål har pris- och löneomräknats på sedvanligt sätt. Anslag som avser regelstyrda transfereringssystem har justerats utifrån ändrad makroekonomisk utveckling liksom ändrade volymer (till exempel antal personer som omfattas). • Anslag har justerats till följd av beslutade lagar och förordningar, internationella avtal, civilrättsligt bindande avtal eller EU-rättsakter. • Anslag har justerats med anledning av att riksdagen beslutat om flyttar av ändamål och verksamheter mellan utgiftsområden. • Anslag har justerats om det krävts för att nödvändiga samhällsfunktioner ska kunna upprätthållas. • Uppenbart tillfälliga satsningar från tidigare budgetår som upphör vid utgången av 2026 har inte förlängts. • Lagförslag som är politiskt okontroversiella, och som inte kan genomföras under pågående budgetår, har inkluderats i de fall det råder politisk samsyn om förslagen. Motsvarande principer har beaktats i tillämpliga delar för förslag som avser statens inkomster. Principerna är avstämda med samtliga riksdagspartier. De utgår från vad som följer av regeringsformen samt Statsrådsberedningens PM om en övergångsregerings befogenheter (SB PM 1990:1, rev 2020).\nHur påverkar justeringarna utgifterna i budgetförslaget för 2027?\n¹ Enligt riksdagens beslut med anledning av budgetpropositionen för 2026 (prop. 2025/26:1, bet. 2025/26:FiU10, rskr. 2025/26:137).\nTabellen återfinns i finansplanen: Finansplan: Utdrag ur budgetpropositionen för 2027\nNästa steg – riksdagsbehandlingen av budgetförslaget\nNär regeringen har lämnat sitt budgetförslag till riksdagen påbörjas riksdagens behandling. Den är uppdelad i två steg: Steg 1: Först beslutar riksdagen om riktlinjerna för den ekonomiska politiken samt de ekonomiska ramarna för statens budget. Rambeslutet, det vill säga beslutet om ramarna för hur stora utgifterna får vara per utgiftsområde, är sedan styrande för den fortsatta riksdagsbehandlingen eftersom utgiftsramarna inte får överskridas. Steg 2: I det andra steget tar riksdagen ställning till hur utgifterna ska fördelas inom varje utgiftsområde, det vill säga hur mycket pengar (anslag) olika verksamheter ska få. Budgetpropositionen är slutbehandlad när riksdagen har tagit ställning till förslagen för samtliga 27 utgiftsområden. Utifrån resultatet av riksdagsbehandlingen beslutar sedan regeringen om regleringsbrev för alla myndigheter och anslag.\nSidan är uppmärkt med följande kategorier:\nPublicerad 12 november 2026 · Pressmeddelande , Webb-tv från Elisabeth Svantesson , Finansdepartementet",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "övergångsregering"
-      ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9339523",
-      "title": "Furtenbach: ”Bekräftar bara att läget forfarande är låst”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-12",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Vänsterpartiet kom inte med några nya besked på torsdagens pressträff, säger Fredrik Furtenbach, inrikespolitisk kommentator: ”Man kan sammanfatta budskapet väldigt kort: blir det inget rödgrönt samarbete är det inte vårt fel.” Vänsterpartiet håller fast vid sina krav på ministerposter, och Centerpartiet har redan hunnit svara att de inte heller ger vika.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9339523'",
-      "matched_terms": [
-        "ministerpost",
-        "Centerpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9339506",
-      "title": "Dadgostar till C: ”Vår dörr står öppen”",
+      "url": "https://www.sverigesradio.se/artikel/9339865",
+      "title": "Konflikten mellan C och V: ”Hoppas V inser stundens allvar”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-12",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Vänsterpartiet är berett att förhandla med Centerpartiet i regeringsfrågan, men kravet på att få sitta i regering kvarstår. Det framkom på en pressträff som partiledare Nooshi Dadgostar kallade till strax före lunch. ”Vår dörr står som vanligt öppen.”",
+      "summary": "Konflikten mellan Vänsterpartiet och Centerpartiet hårdnar sedan V lämnat regeringsförhandlingarna när partiet hålls utanför regeringen. C kräver att V återvänder till bordet, medan V vill att C stödjer Magdalena Andersson i stället för att öppna för Ulf Kristersson och SD-inflytande. ”Nu får C ta ansvar för sitt vägval så vi vet var de hör hemma och så att väljarna inte blir lurade”, säger Vänsterpartiets vice ordförande, Ida Gabrielsson.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9339506'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9339865'",
       "matched_terms": [
-        "regeringsfråg",
-        "partiledar",
+        "regeringsförhandling",
         "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+      "first_seen": "2026-11-13T06:03:00.968134+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-v-vill-pressa-fram-omrostning-om-kristersson",
-      "title": "Tomas Ramberg: V vill pressa fram omröstning om Kristersson",
+      "url": "https://www.dn.se/sverige/v-kallor-s-totalpaket-till-centerpartiet-ar-oseriost",
+      "title": "V-källor: S ”totalpaket” till Centerpartiet är oseriöst",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-11-12",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Vänsterpartiet vill få till en statsministeromröstning om Ulf Kristersson och därmed tvinga Centern att välja sida. Genom att V lämnar förhandlingarna ska talmannen se att Magdalena Andersson inte gör några framsteg och därmed inte heller har argument för att fördröja nästa omröstning. Om Centern väljer att nobba Kristersson räknar V med att få ett bättre förhandlingsläge inför en sista och avgörande riksdagsvotering.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-12 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-v-vill-pressa-fram-omrostning-om-kristersson/\nVänsterpartiet vill få till en statsministeromröstning om Ulf Kristersson och därmed tvinga Centern att välja sida. Genom att V lämnar förhandlingarna ska talmannen se att Magdalena Andersson inte gör några framsteg och därmed inte heller har argument för att fördröja nästa omröstning.\nOm Centern väljer att nobba Kristersson räknar V med att få ett bättre förhandlingsläge inför en sista och avgörande riksdagsvotering.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFör några dagar sedan såg Centerpartiet ut att vara på väg till en moderatledd fyrpartiregering. En sådan skulle vara i minoritet men ändå försöka hanka sig fram genom att samarbeta åt både höger och vänster.\nMagdalena Andersson var snabbt ute och stängde dörren åt vänster genom att nobba allt stöd till en borgerlig minoritetsregering. Och för att locka Centern att hejda sig bredde hon på med ett erbjudande om att hålla V utanför en S-ledd regering.\nI början av veckan gjorde Jimmie Åkesson livet ännu svårare för Centerns nya alternativ genom att klargöra att han kommer att kräva inflytande över en borgerlig regerings politik. Tillsammans med Anderssons besked betyder det att Centern inte kan hävda att en sådan regering skulle bli oberoende av SD.\nDärmed stärktes den falang inom Centern som vill hålla fast vid linjen att inte ge Sverigedemokraterna politisk makt. Och som fruktar den svåra svekdebatt som skulle drabba C om partiet valde ett SD-beroende alternativ.\nAv detta drar Socialdemokraterna och Vänsterpartiet helt olika slutsatser. Magdalena Andersson såg hoppet komma tillbaka och begärde mera tid till förhandlingar. Nu är hennes lag på banan igen, lät Andersson förstå. S-ledarens ljusa bild stärktes ytterligare när Nooshi Dadgostar i går dök upp på de rödgrönas partiledarförhandlingar.\nMen nu krossar Vänsterpartiet Anderssons idyll, genom att hoppa av samtalen. Därmed kan alla se att Andersson inte gör några framsteg.\nDadgostars kalkyl är att V:s bästa chans kommer inför en fjärde statsministeromröstning. Om Centern då står inför att antingen gå till extraval eller möta Vänsterpartiets krav blir det svårt att nobba V. Centerpartiet har ett svagt budskap i ett extraval, bedömer V.\nDadgostars agerande är ett vågspel. Att driva fram en statsministeromröstning om Kristersson kan tvinga Centern att rösta ner Kristersson, men det kan mycket väl landa i motsatsen – alltså att Centern stressas att stödja honom. Elisabeth Thand Ringqvist förstår lika väl som V att hennes förhandlingsläge försvagas om Centern avvisar det borgerliga alternativet.\nMen ledningen runt Dadgostar är beredd att chansa. Alternativen har krympt och därmed har också kostnaderna för att V misslyckas minskat. Att sitta med i en förhandling som handlar om hur det egna partiet ska hållas borta från makten är föga aptitligt för V-ledningen. Åtminstone så länge Centern kan hota att gå högerut.\nDadgostars nya drag kan åter placera regeringsbollen i Thand Ringqvists och Centerns knä. Det blir då opinionen bland landets centerpartister som avgör regeringsfrågan. Inför en omröstning om Ulf Kristersson ställs C-folket obönhörligt inför slutspelets hårda beslut.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nVänsterpartiets krav på Centern: Välj sida\nNu letar alla efter nyckeln – här är låsningarna i regeringsfrågan\nMartin Liby Troein: Vänsterpartiets logik är obegriplig – om man inte tror på en sak",
-      "paywall": false,
+      "author": "Pia Gripenberg, Annie Reuterskiöld",
+      "commentator": "",
+      "summary": "Socialdemokraterna har presenterat en lång lista på sakförslag för att få ihop en regering. Tandvårdsreform, avskaffat karensavdrag och reformering av Arbetsförmedlingen fanns med för att locka Vänsterpartiet att stå utanför. – Det fanns ingen finansiering, det var ingen seriös förhandling, säger en V-källa med insyn i samtalen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-13 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-kallor-s-totalpaket-till-centerpartiet-ar-oseriost/\nSocialdemokraterna har presenterat en lång lista på sakförslag för att få ihop en regering.\nTandvårdsreform, avskaffat karensavdrag och reformering av Arbetsförmedlingen fanns med för att locka Vänsterpartiet att stå utanför.\n– Det fanns ingen finansiering, det var ingen seriös förhandling, säger en V-källa med insyn i samtalen.",
+      "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "talman",
-        "statsminister",
+        "Centerpartiet",
+        "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-12T14:03:13.876256+00:00"
+      "first_seen": "2026-11-13T06:03:00.968134+00:00"
     }
   ]
 }
