@@ -1,0 +1,175 @@
+{
+  "fetched_at": "2026-11-14T06:02:37.809112+00:00",
+  "new_count": 6,
+  "skipped": {
+    "seen": 44,
+    "offtopic": 153,
+    "old": 7
+  },
+  "fetch_errors": 3,
+  "sources": [
+    {
+      "name": "SVT Nyheter",
+      "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
+      "new": 1,
+      "ok": true
+    },
+    {
+      "name": "Ekot, Sveriges Radio",
+      "feed": "https://api.sr.se/api/rss/program/83",
+      "new": 3,
+      "ok": true
+    },
+    {
+      "name": "DN Nyheter",
+      "feed": "https://www.dn.se/nyheter/politik/rss/",
+      "new": 2,
+      "ok": true
+    },
+    {
+      "name": "DN Ledare",
+      "feed": "https://www.dn.se/ledare/rss/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "SvD Ledare",
+      "feed": "https://www.svd.se/feed/articles.rss",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Expressen Ledare",
+      "feed": "https://feeds.expressen.se/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Aftonbladet Ledare",
+      "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Regeringen.se",
+      "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Riksdagen",
+      "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
+      "new": 0,
+      "ok": true
+    }
+  ],
+  "articles": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/9340574",
+      "title": "LO:s medlemmar om regeringsbildningen: ”Vuxendagis”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-14",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "LO:s ordförande Johan Lindholm reagerar med frustration på den utdragna regeringsprocessen. ”Jag har lagt mycket tid ute på landets arbetsplatser innan valdagen och hört frustration över att det handlat mer om vem som tar vem. Sluta tjafsa, prata sakpolitik.” ”Det finns ett politiker och etablissemangsförakt ute på landets arbetsplatser. De förväntar sig en bättre pension eller ett borttagande av karensavdraget. Och nu är det mest bråk om vem som tar vem eller roller och positioner och så vidare”, säger Johan Lindholm.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9340574'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-14T06:02:37.809112+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/amanda-sokolnicki-nu-kan-magdalena-andersson-tvingas-gora-ulf-kristersson-till-statsminister",
+      "title": "Amanda Sokolnicki: Nu kan Magdalena Andersson tvingas göra Ulf Kristersson till statsminister",
+      "source": "DN Nyheter",
+      "kind": "kommentar",
+      "published": "2026-11-14",
+      "author": "Amanda Sokolnicki",
+      "commentator": "Amanda Sokolnicki",
+      "summary": "Magdalena Andersson har varit tydlig med att hon kan tänka sig att samarbeta med moderater. Men det hon kan tvingas till nu ingick sannerligen inte i planen.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-14 07:00\nArtikelns ursprungsadress: https://www.dn.se/ledare/amanda-sokolnicki-nu-kan-magdalena-andersson-tvingas-gora-ulf-kristersson-till-statsminister/\nMagdalena Andersson har varit tydlig med att hon kan tänka sig att samarbeta med moderater. Men det hon kan tvingas till nu ingick sannerligen inte i planen.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nVilken partiledare är mest pressad? Det är en hård kamp om pallplatserna i den tävlingen just nu. Men frågan är om inte Magdalena Andersson ändå förtjänar guldmedaljen?\nSocialdemokraternas situation blir alltmer desperat: inte bara håller deras regeringsunderlag på att falla i bitar. Indikators mätning från oktober visar dessutom att förtroendet för Magdalena Andersson är det lägsta som uppmätts sedan hon blev partiledare. Detta samtidigt som Ulf Kristersson för första gången någonsin har störst förtroende bland väljarna, efter en ökning med 10 procentenheter på bara några månader.\nI samma mätning lockar Socialdemokraterna nu 27 procent av väljarna , samtidigt som Moderaterna har vuxit till 26,3 procent. Och detta är alltså innan väljarna fått veta om Magdalena Andersson får ihop en regering eller inte.\nHur skulle de här siffrorna se ut efter en krasch?\nSedan valet har S-ledaren också skickat märkliga signaler till väljarna: efter att i flera år ha pratat om vikten av att göra upp över blockgränsen i viktiga frågor tvärvände hon förra helgen. Om en borgerlig regering släpps fram av Sverigedemokraterna lovar hon att ”inte medverka i några förhandlingar med en sådan regeringskonstellation”. Bilden som Magdalena Andersson velat måla upp av en handlingskraftig och samarbetsinriktad ledare krackelerar.\nMånga till höger drog snabbt slutsatsen att hennes uttalande visar att hon bara vill samarbeta när hon själv är statsminister. Men frågan är om inte den tesen kommer att motbevisas ganska snart.\nFör vad har Socialdemokraterna i praktiken kvar för alternativ? Om Vänsterpartiet inte går med på att samarbeta med en regering som består av S, C och MP återstår bara en sak, konstaterade hon själv på den blixtinkallade presskonferensen förra helgen: ett samarbete som innefattar både socialdemokrater och moderater.\nAnnars väntar ett extra val. Och vad ska hon säga i en sådan valrörelse? Då har hon både misslyckats med att sammanföra gröna, röda och liberaler – och i skarpt läge sagt tvärnej till att samarbeta högerut.\nMagdalena Andersson skulle få söka nytt jobb.\nOch om tidigare skisser på samarbeten mellan S och M utgått från tanken att Magdalena Andersson skulle bli statsminister i en sådan, är läget nu förändrat.\nDet konstateras även i socialdemokratiska kretsar: En uppgörelse med Moderaterna – där Ulf Kristersson blir statsminister – kan vara det enda som återstår för Magdalena Andersson, skriver Aftonbladets tidigare och mångårige ledarskribent, Ingvar Persson, i Arbetet (2/11).\nHan hoppas att V och C ska komma överens, men tvivlar. Utifrån det drar han också den slutsats som få socialdemokrater hittills velat ta i sin mun: Det här kan mycket väl sluta med att Kristersson blir framsläppt som statsminister – av socialdemokrater.\nMen varför skulle Moderaterna nappa på en sådan idé? Nu när de har så fina siffror och, till skillnad från Magdalena Andersson, ett tydligt regeringsunderlag.\nOch svaret är ganska simpelt: för att Ulf Kristersson skulle få behålla Sagerska palatset – och vara med och sätta den politiska agendan. I Aftonbladet skriver han på fredagskvällen att ”alla förstår att valrörelser kan bli lite upphettade, men därefter måste vi alla kunna prata med varandra – och om varandra – på ett sätt som inte omöjliggör framtida samarbeten”.\nHan vill värna breda överenskommelser i riksdagen, skriver han i sin argumentation för en borgerlig fyrpartiregering. Men om Centern tar sitt förnuft till fånga, och säger nej till en sådan SD-stödd lösning, är hans ord en utmärkt utgångspunkt för en uppgörelse med Magdalena Andersson.\nTillsammans skulle de kunna få till den energipolitiska överenskommelse som näringslivet efterfrågat för att investera i kärnkraft, återgå till en grön klimatpolitik, stoppa tonårsutvisningar – och fortsätta den snabba uppbyggnaden av försvaret.\nDen som trodde att Ulf Kristersson bara ville tillträda som statsminister med en majoritetsregering bestående av Tidöpartier, vet nu att även han är flexibel. Och till skillnad från den borgerliga fyrpartiregering han testar – som skulle bli väldigt svag – kan en uppgörelse med Magdalena Andersson erbjuda en helt annan typ av handlingskraft.\nKanske säger Ulf Kristersson nej. Men då blir det, precis som Ingvar Persson påpekar, Moderaterna som väljer att ta Sverige till extra val.\nPersson är också ärlig med att uppgörelsen som han skissar på skulle vara motbjudande för honom som socialdemokrat. Men han bedömer ändå att det kan vara det bästa alternativet som står till buds.\nOch visst: Det skulle förstås vara en enorm prestigeförlust för Socialdemokraterna att göra Ulf Kristersson till statsminister. Å andra sidan: Framstod inte Magdalena Andersson ändå alltid lyckligast som finansminister?\nAmanda Sokolnicki: Med ”fittor”, borgare och förakt vill Dadgostar bygga sin nya allians\nDN:s ledarredaktion: I dag skedde något i riksdagen som alla svenskar borde känna till\n”Bästa lösningen är att avskaffa regeringen”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: I dag skedde något i riksdagen som alla svenskar borde känna till\nAmanda Sokolnicki: Med ”fittor”, borgare och förakt vill Dadgostar bygga sin nya allians\nL-källa: Kristersson-regering kommer att behöva samverka med SD",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-11-14T06:02:37.809112+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/deadline-for-totalpaket-har-lopt-ut",
+      "title": "Deadline för ”totalpaket” har löpt ut – C har tagit emot förslagen",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-13",
+      "author": "Mathilda Ståhl, Julia Lindvall",
+      "commentator": "",
+      "summary": "Nu har deadline löpt ut för när Moderaterna och Socialdemokaterna behöver lämna in sina ”totalpaket” till Centerpartiet. Centerpartiet meddelar på fredagskvällen att de har tagit emot båda paketen. ”Nu kommer vi att gå igenom förslagen noggrant i våra interna beslutsprocesser”, skriver Centerledaren på fredagen.",
+      "fulltext": "Nu har deadline löpt ut för när Moderaterna och Socialdemokaterna behöver lämna in sina ”totalpaket” till Centerpartiet.\nCenterpartiet meddelar på fredagskvällen att de har tagit emot båda paketen.\n”Nu kommer vi att gå igenom förslagen noggrant i våra interna beslutsprocesser”, skriver Centerledaren på fredagen.\nFör en vecka sedan meddelade Centerledaren Elisabeth Thand Ringqvist att hon ville att Ulf Kristersson (M) och Magdalena Andersson (S) skulle presentera varsitt ”totalpaket”.\nDe skulle presenteras för C senast 17.00 på fredagen.\nPaketen ska innehålla en plan för sidornas politik och hur den ska kunna genomföras med hjälp C under kommande mandatperiod.\nUnder fredagen har Socialdemokraterna och Moderaterna lämnat in sina totalpaket till Centerpartiet.\n”Nu kommer vi att gå igenom förslagen noggrant i våra interna beslutsprocesser. Vårt fokus är att Sverige ska få en handlingskraftig regering som kan ta ansvar, genomföra viktiga reformer och begränsa ytterkanternas inflytande över svensk politik. ”, skriver Elisabeth Thand Ringqvist i en kommentar till SVT.\nHon ger inga detaljer om hur förslagen ser ut men skriver att de handlar om både politik och samarbete:\n”Förslagen omfattar både vilken politik de vill genomföra, vilka partier de vill samarbeta med och hur de tänker få stöd för politiken i riksdagen”, skriver C-ledaren.\nPå fredagseftermiddagen meddelade Magdalena Andersson i ett inlägg på Instagram att S fört fortsatta samtal med de rödgröna.\n– Jag har idag berättat för de partier som vill se mig som statsminister min plan för att bilda en regering som tar hela Sverige framåt, säger Andersson i klippet.\nSamtidigt skriver Ulf Kristersson på Instagram att han ämnar skapa en borgerlig mittenregering som då blir en minoritetsregering.\n”Den nya regering som jag skulle vilja bilda är en borgerlig mittenregering som består av M, C, KD och L”, skriver Kristersson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-11-14T06:02:37.809112+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9340658",
+      "title": "60 dagar utan ny regering – det här har hänt",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-13",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "I dag har det gått 60 dagar utan en ny regering. Är det svårt att hänga med i regeringsbildningen? Ekot sammanfattar vad som har hänt de här två senaste månaderna i svensk politik.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9340658'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-14T06:02:37.809112+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9340771",
+      "title": "C har fått förslagen från M och S: ”Ska gå igenom noggrant”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-13",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiet har fått regeringsförslag från både Socialdemokraterna och Moderaterna, men besked om vem partiet väljer dröjer. Enligt partiledaren Elisabeth Thand Ringqvist ska förslagen nu granskas internt, med fokus på en handlingskraftig regering och att begränsa ytterkanternas inflytande. Samtidigt säger Magdalena Andersson (S) att de rödgröna samtalen kan fortsätta, medan Ulf Kristersson (M) lyfter fram ett borgerligt mittenalternativ.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9340771'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-14T06:02:37.809112+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/centerledaren-har-fatt-totalpaket-fran-s-och-m",
+      "title": "Centerledaren har fått ”totalpaket” från S och M",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-13",
+      "author": "Molly Karlsson Inde",
+      "commentator": "",
+      "summary": "C-ledarens statsministerkandidater har lämnat in varsitt ”totalpaket”. Magdalena Andersson (S) föreslår en regering med C, S och MP. Ulf Kristersson (M) föreslår en regering med C, M, KD och L.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-14 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/centerledaren-har-fatt-totalpaket-fran-s-och-m/\nC-ledarens statsministerkandidater har lämnat in varsitt ”totalpaket”.\nMagdalena Andersson (S) föreslår en regering med C, S och MP.\nUlf Kristersson (M) föreslår en regering med C, M, KD och L.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFör en vecka sedan begärde C-ledaren Elisabeth Thand Ringqvist varsitt ”totalpaket” från Andersson och Kristersson. Där i vill hon få besked om vilken politik de två statsministerkandidaterna vill driva och hur de tänker få igenom den.\nSamtidigt står Centerpartiet fast vid sina röda linjer: Att inte sitta i regering med V eller SD och att inte samarbeta med SD.\nDeadlinen sattes till klockan 17 på fredagen. Tidigare under dagen meddelade Andersson att hon kommer att lämna in ett ”förslag” till C om hur regeringsprocessen bör drivas vidare, och Kristersson att han kommer att lämna ett ”helhetsförslag”.\nNu har paketen anlänt, meddelar Thand Ringqvist i en kommentar strax efter klockan 17.\n”Jag har nu tagit emot både Ulf Kristerssons och Magdalena Anderssons totalpaket för hur de vill styra Sverige. Förslagen omfattar både vilken politik de vill genomföra, vilka partier de vill samarbeta med och hur de tänker få stöd för politiken i riksdagen”, skriver hon.\nNu kommer Centerpartiet att gå igenom förslagen i interna beslutsprocesser, enligt partiledaren.\n”Vårt fokus är att Sverige ska få en handlingskraftig regering som kan ta ansvar, genomföra viktiga reformer och begränsa ytterkanternas inflytande över svensk politik”.\nDet är fortfarande oklart när Centerpartiet kommer att kommentera innehållet i förslagen, enligt Thand Ringqvists pressekreterare.\nI en video på Instagram, publicerad strax innan Centerledarens kommentar, säger Magdalena Andersson att hennes regeringsalternativ är S, MP och C, i ett nära samarbete med V. Hon säger även att en sådan regering ”ligger inom räckhåll”.\n– Vänsterpartiet har klargjort att även de står redo att delta i de här förhandlingarna, säger Andersson i videon.\nVänsterpartiet är berett att återuppta diskussionerna med de övriga rödgröna partierna först om C väljer Anderssons totalpaket. Samtidigt håller V fast vid sitt ministerkrav.\nUlf Kristersson beskriver sitt förslag som en borgerlig minoritetsregering bestående av C, M, L och KD.\n”Det blir en minoritetsregering, men med bra förutsättningar att söka och nå fram till brett förankrade politiska lösningar i Sveriges riksdag. Det blir en regering med en tydlig politisk inriktning, men som också är ödmjuk och samarbetsinriktad” skriver han på Aftonbladet Debatt om sitt förslag.\nJimmie Åkesson har sagt att Sverigedemokraterna skulle ”tolerera” en regering med den gamla alliansen genom att avstå från att rösta.\nM-ledaren lyfter en dansk modell som en inspirationskälla för budgetförhandlingarna:\n”Man diskuterar budgeten med många partier för att inom ramen för en politisk färdriktning få så brett stöd som möjligt”, skriver Kristersson.\nMagdalena Andersson har sagt att S inte kommer att samarbeta eller förhandla med en borgerlig regering.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nL-källa: Kristersson-regering kommer att behöva samverka med SD\nSå har det svängt i jakten på en ny regering\nFrustrationen ökar i Miljöpartiet: ”Inte vi som är problemet”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister"
+      ],
+      "first_seen": "2026-11-14T06:02:37.809112+00:00"
+    }
+  ]
+}
