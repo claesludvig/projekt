@@ -1,39 +1,39 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-13
+# Svensk politik och regeringsförhandlingarna — 2026-11-14
 
-6 nya poster sedan förra utskicket (42 redan utskickade, 155 utanför ämnet).
+6 nya poster sedan förra utskicket (44 redan utskickade, 153 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Vad händer i regeringsbildningen?](https://www.svd.se/a/QromaA/vad-hander-i-regeringsbildningen)
-SvD Ledare · 2026-11-13 · TT
+### [Amanda Sokolnicki: Nu kan Magdalena Andersson tvingas göra Ulf Kristersson till statsminister](https://www.dn.se/ledare/amanda-sokolnicki-nu-kan-magdalena-andersson-tvingas-gora-ulf-kristersson-till-statsminister) **[kommentator]**
+DN Nyheter · 2026-11-14 · Amanda Sokolnicki
 
-Det har nu gått 61 dagar sedan valdagen och det är ännu oklart vilken regering Sverige ska få.
+Magdalena Andersson har varit tydlig med att hon kan tänka sig att samarbeta med moderater. Men det hon kan tvingas till nu ingick sannerligen inte i planen.
 
 ## Rapportering
 
-### [Centerpartiets väljare ser hellre alliansregering än V i regering](https://www.svt.se/nyheter/inrikes/centerpartiets-valjare-ser-hellre-alliansregering-an-v-i-regering)
-SVT Nyheter · 2026-11-13 · Kristoffer Törnmalm
+### [LO:s medlemmar om regeringsbildningen: ”Vuxendagis”](https://www.sverigesradio.se/artikel/9340574)
+Ekot, Sveriges Radio · 2026-11-14 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiets väljare vill helst sitta i regering med Magdalena Andersson – förutsatt att Vänsterpartiet hålls utanför. Annars föredrar de en alliansregering som släpps fram av SD, visar en undersökning från Indikator opinion. – Ju mer SD lyckas tona ned sin roll i ett sådant upplägg, desto lättare blir det för C:s väljare att acceptera det, säger opinionschefen Per Oleskog Tryggvason.
+LO:s ordförande Johan Lindholm reagerar med frustration på den utdragna regeringsprocessen. ”Jag har lagt mycket tid ute på landets arbetsplatser innan valdagen och hört frustration över att det handlat mer om vem som tar vem. Sluta tjafsa, prata sakpolitik.” ”Det finns ett politiker och etablissemangsförakt ute på landets arbetsplatser. De förväntar sig en bättre pension eller ett borttagande av karensavdraget. Och nu är det mest bråk om vem som tar vem eller roller och positioner och så vidare”, säger Johan Lindholm.
 
-### [Besked från M och S om totalpaket](https://www.sverigesradio.se/artikel/9340248)
+### [Deadline för ”totalpaket” har löpt ut – C har tagit emot förslagen](https://www.svt.se/nyheter/inrikes/deadline-for-totalpaket-har-lopt-ut)
+SVT Nyheter · 2026-11-13 · Mathilda Ståhl, Julia Lindvall
+
+Nu har deadline löpt ut för när Moderaterna och Socialdemokaterna behöver lämna in sina ”totalpaket” till Centerpartiet. Centerpartiet meddelar på fredagskvällen att de har tagit emot båda paketen. ”Nu kommer vi att gå igenom förslagen noggrant i våra interna beslutsprocesser”, skriver Centerledaren på fredagen.
+
+### [60 dagar utan ny regering – det här har hänt](https://www.sverigesradio.se/artikel/9340658)
 Ekot, Sveriges Radio · 2026-11-13 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Moderaterna och Socialdemokraterna väntas i dag lämna varsitt totalpaket till Centerpartiet om politik och regeringsbildning. Beskeden kommer efter att C-ledaren Elisabeth Thand Ringqvist förra veckan begärde underlag inför partiets beslut. Ulf Kristersson beskriver sitt förslag som en borgerlig minoritetsregering, medan Magdalena Andersson lovar ett S-förslag senast klockan 17.
+I dag har det gått 60 dagar utan en ny regering. Är det svårt att hänga med i regeringsbildningen? Ekot sammanfattar vad som har hänt de här två senaste månaderna i svensk politik.
 
-### [Frustrationen ökar i Miljöpartiet: ”Inte vi som är problemet”](https://www.dn.se/sverige/frustrationen-okar-i-miljopartiet-inte-vi-som-ar-problemet)
-DN Nyheter · 2026-11-13 · Evelyn Jones, William Svensson _(betalvägg — endast ingress)_
+### [C har fått förslagen från M och S: ”Ska gå igenom noggrant”](https://www.sverigesradio.se/artikel/9340771)
+Ekot, Sveriges Radio · 2026-11-13 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Frustrationen ökar lokalt i Miljöpartiet, enligt flera företrädare som DN har talat med. Det finns en oro över att regeringsmakten kan glida de rödgröna ur händerna – och över det hårda tonläget partierna emellan. – Risken är att man skapar låsningar som inte behöver finnas, säger en lokal MP-topp.
+Centerpartiet har fått regeringsförslag från både Socialdemokraterna och Moderaterna, men besked om vem partiet väljer dröjer. Enligt partiledaren Elisabeth Thand Ringqvist ska förslagen nu granskas internt, med fokus på en handlingskraftig regering och att begränsa ytterkanternas inflytande. Samtidigt säger Magdalena Andersson (S) att de rödgröna samtalen kan fortsätta, medan Ulf Kristersson (M) lyfter fram ett borgerligt mittenalternativ.
 
-### [Så har det svängt i jakten på en ny regering](https://www.dn.se/sverige/sa-har-det-svangt-i-jakten-pa-en-ny-regering)
-DN Nyheter · 2026-11-13 · DN, Stefan Rothmaier
+### [Centerledaren har fått ”totalpaket” från S och M](https://www.dn.se/sverige/centerledaren-har-fatt-totalpaket-fran-s-och-m)
+DN Nyheter · 2026-11-13 · Molly Karlsson Inde
 
-Efter det jämna valresultatet har turerna i regeringsfrågan avlöst varandra. Sverige står fortfarande utan ny regering. Här är de viktigaste vändningarna sedan valet den 13 september.
+C-ledarens statsministerkandidater har lämnat in varsitt ”totalpaket”. Magdalena Andersson (S) föreslår en regering med C, S och MP. Ulf Kristersson (M) föreslår en regering med C, M, KD och L.
 
-### [I dag vill C ha besked från Andersson och Kristersson](https://www.dn.se/sverige/i-dag-vill-c-ha-besked-fran-andersson-och-kristersson)
-DN Nyheter · 2026-11-13 · Pia Gripenberg, Molly Karlsson Inde
-
-Sanningens minut väntar i regeringsfrågan. I alla fall för Centerpartiet. I dag klockan 17.00 har man satt tidsgränsen för Magdalena Andersson och Ulf Kristersson att lämna sina politiska alternativ för C att ta ställning till.
-
-_Genererat 2026-11-13T14:48:59.076532+00:00._
+_Genererat 2026-11-14T06:02:37.809112+00:00._
