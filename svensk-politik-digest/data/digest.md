@@ -1,27 +1,39 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-14
+# Svensk politik och regeringsförhandlingarna — 2026-11-15
 
-4 nya poster sedan förra utskicket (48 redan utskickade, 151 utanför ämnet).
+6 nya poster sedan förra utskicket (47 redan utskickade, 148 utanför ämnet).
+
+## Analys och kommentar
+
+### [Ledare: Inget kalas när Centerpartiet får paket](https://www.dn.se/ledare/inget-kalas-nar-centerpartiet-far-paket)
+DN Nyheter · 2026-11-15 · DN:s ledarredaktion
+
+Varken S- eller M-ledaren har ett paket som håller måttet. Centerpartiet kommer att behöva trycka rött i nästa statsministervotering.
 
 ## Rapportering
 
-### [Uppgifter: Detta erbjuder S till C i sitt ”totalpaket”](https://www.svt.se/nyheter/inrikes/uppgifter-detta-erbjuder-s-till-c-i-sitt-totalpaket)
-SVT Nyheter · 2026-11-14 · Jesper Brännmark, Ulf Hambraeus, Kristoffer Törnmalm
+### [Forskare om C:s motstånd mot V: ”Handlar om väljarna”](https://www.sverigesradio.se/artikel/9339368)
+Ekot, Sveriges Radio · 2026-11-15 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Socialdemokraterna och Moderaterna har lämnat varsitt ”totalpaket” till Centerpartiet. Här är delar av Socialdemokraternas innehåll, enligt uppgifter till SVT. Ett förslag är att ändra grundlagen för äganderätten av skog.
+Centerpartiets motstånd mot att samarbeta med Sverigedemokraterna handlar framförallt om olika människosyn. När det gäller motståndet mot att släppa in Vänsterpartiet i regeringen är det mer komplicerat, säger källor till Ekot. Det finns sakpolitiska skillnader, men andra skäl väger tyngre, som att motståndet fungerar som ett alibi mot SD. ”C:s V-motstånd handlar mest om att partiet vill locka borgerliga väljare som ogillar SD, men som inte heller vill att politiken dras åt vänster”, säger Jan Teorell, professor i statsvetenskap.
 
-### [Magdalena Andersson: V är redo att delta i förhandlingar](https://www.sverigesradio.se/artikel/9340985)
+### [”Ett smörgåsbord för C – men det kan få stå oätet”](https://www.svt.se/nyheter/inrikes/ett-smorgasbord-for-c-men-det-kan-fa-sta-oatet)
+SVT Nyheter · 2026-11-14 · Kristoffer Törnmalm
+
+Av läckorna att döma är Socialdemokraternas ”totalpaket” till Centerpartiet ett smörgåsbord av centerpartistisk politik. Risken är dock att det får stå oätet – och att en lösning på regeringsfrågan är längre bort än det kan framstå.
+
+### [Så försöker Socialdemokraterna locka Centerpartiet till sig](https://www.sverigesradio.se/artikel/9341055)
 Ekot, Sveriges Radio · 2026-11-14 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Socialdemokraterna vill bilda en regering med Centerpartiet och Miljöpartiet i samarbete med Vänsterpartiet, skriver Magdalena Andersson i en debattartikel i Expressen . Vänsterpartiet har tydliggjort att även de står redo att delta i dessa förhandlingar, enligt Andersson. I debattartikeln presenterar hon det ”totalpaket” som hon lagt fram på Centerpartiets begäran. ”Om ett sådant regeringsalternativ inte går i lås är det bara en regering där både Socialdemokraterna och Moderaterna ingår som har förutsättningar att kunna fungera”, skriver partiledaren i Expressen.
+Inför Centerpartiets besked om vilken statsministerkandidat partiet kommer välja, försöker nu Socialdemokraterna öka trycket på partiet. Mikael Damberg (S) säger till TT att Socialdemokraterna är berett att stoppa en budget från en regering ledd av Ulf Kristersson. I en debattartikel i Expressen utlovar Socialdemokraternas partiledare Magdalena Andersson bland annat att gå Centerpartiet till mötes i frågan om att grundlagsskydda ägandet av skogen.
 
-### [Centerpartister delade mellan höger och vänster](https://www.sverigesradio.se/artikel/9340977)
+### [”Nu sätter Socialdemokraterna in det tunga artilleriet”](https://www.sverigesradio.se/artikel/9341051)
 Ekot, Sveriges Radio · 2026-11-14 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet är delat i frågan om partiet ska gå högerut eller vänsterut, efter att Moderaterna och Socialdemokraterna lämnat sina regeringsförslag. I Laholm hoppas kommunstyrelsens ordförande Ove Bengtsson på en borgerlig lösning sedan SD släppt kravet på ministerposter, medan Lars Vikinge, kommunalråd i Linköping, varnar för beroende av SD och lutar åt Magdalena Andersson. Samtidigt kritiserar båda C-företrädarna partiets röda linjer.
+Under lördagen har det kommit flera socialdemokratiska utspel i regeringsfrågan. Ekots inrikespolitiska kommentator, Helena Gissén, säger att Socialdemokraterna nu sätter in det tunga artilleriet och läcker ut olika punkter ur sitt erbjudande till Centerpartiet. Samtidigt vill S ge sken av att Vänsterpartiet skulle vara beredda att förhandla, trots att Ida Gabrielsson vidhåller kravet på ministerposter.
 
-### [Tomas Ramberg: C behöver inte välja sida nu heller](https://www.dn.se/sverige/tomas-ramberg-c-behover-inte-valja-sida-nu-heller) **[kommentator]**
-DN Nyheter · 2026-11-14 · Tomas Ramberg _(betalvägg — endast ingress)_
+### [Den galna politikveckan – vad var det egentligen som hände?](https://www.dn.se/sverige/den-galna-politikveckan-vad-var-det-egentligen-som-hande)
+DN Nyheter · 2026-11-14 · Pia Gripenberg _(betalvägg — endast ingress)_
 
-Det är inte slut förrän det är slut. Centern kan ta god tid på sig att välja statsministerkandidat. Ingenting hindrar Elisabeth Thand Ringqvist från att dröja till den fjärde och sista omröstningen innan hon sätter ned foten.
+Länge verkade det helt omöjligt att få någon att vilja bli statsminister. Motvilligt accepterade Ulf Kristersson (M) att ta på sig talmannens sonderingsuppdrag. Men så kallade Jimmie Åkesson (SD) till pressträff. Det satte sådan fart på förhandlingarna att till och med erfarna politikjournalister fick svårt att hänga med. Så vad hände egentligen?
 
-_Genererat 2026-11-14T14:03:03.123559+00:00._
+_Genererat 2026-11-15T06:06:14.700421+00:00._

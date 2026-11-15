@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-14T14:03:03.123559+00:00",
-  "new_count": 4,
+  "fetched_at": "2026-11-15T06:06:14.700421+00:00",
+  "new_count": 6,
   "skipped": {
-    "seen": 48,
-    "offtopic": 151,
-    "old": 7
+    "seen": 47,
+    "offtopic": 148,
+    "old": 9
   },
-  "fetch_errors": 2,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,83 +65,120 @@
   ],
   "articles": [
     {
-      "url": "https://www.svt.se/nyheter/inrikes/uppgifter-detta-erbjuder-s-till-c-i-sitt-totalpaket",
-      "title": "Uppgifter: Detta erbjuder S till C i sitt ”totalpaket”",
+      "url": "https://www.sverigesradio.se/artikel/9339368",
+      "title": "Forskare om C:s motstånd mot V: ”Handlar om väljarna”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-15",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiets motstånd mot att samarbeta med Sverigedemokraterna handlar framförallt om olika människosyn. När det gäller motståndet mot att släppa in Vänsterpartiet i regeringen är det mer komplicerat, säger källor till Ekot. Det finns sakpolitiska skillnader, men andra skäl väger tyngre, som att motståndet fungerar som ett alibi mot SD. ”C:s V-motstånd handlar mest om att partiet vill locka borgerliga väljare som ogillar SD, men som inte heller vill att politiken dras åt vänster”, säger Jan Teorell, professor i statsvetenskap.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9339368'",
+      "matched_terms": [
+        "Centerpartiet",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-15T06:06:14.700421+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/inget-kalas-nar-centerpartiet-far-paket",
+      "title": "Ledare: Inget kalas när Centerpartiet får paket",
+      "source": "DN Nyheter",
+      "kind": "kommentar",
+      "published": "2026-11-15",
+      "author": "DN:s ledarredaktion",
+      "commentator": "",
+      "summary": "Varken S- eller M-ledaren har ett paket som håller måttet. Centerpartiet kommer att behöva trycka rött i nästa statsministervotering.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-15 07:06\nArtikelns ursprungsadress: https://www.dn.se/ledare/inget-kalas-nar-centerpartiet-far-paket/\nVarken S- eller M-ledaren har ett paket som håller måttet. Centerpartiet kommer att behöva trycka rött i nästa statsministervotering.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nKalasstämning? Ja, de centerpartister som hade hoppats på det när det äntligen var dags för paketöppning lär ha blivit besvikna. De som Ulf Kristersson (M) och Magdalena Andersson (S) lämnade över på fredagen löser ju inte den här regeringsbildningen.\nAllt är inte offentligt, men de viktigaste bitarna av innehållen är enkla att lista ut.\nS-ledaren vill bilda regering med Miljöpartiet och Centerpartiet, i nära samarbete med Vänsterpartiet. Sakpolitiskt bjuder hon på klimatsatsningar, ett stopp för tonårsutvisningar och skattesänkningar som faller Elisabeth Thand Ringqvist i smaken, men också en del vänsterförslag.\nDe fyra har i alla fall 176 mandat. Sluter de en överenskommelse kommer de att kunna regera.\nProblemet är att Nooshi Dadgostar vägrar. Hon insisterar på ministerposter, och vill inte ens förhandla innan C sagt definitivt nej till Kristersson som statsminister.\nM-ledarens paket innehåller i sin tur mandaten för att tillträda i en statsministeromröstning. Det är också fyllt av ekonomisk-politiska godbitar, även om det lär vara tunnare på andra områden.\nOch framför allt: M, KD, L och C samlar bara 136 mandat. Det duger inte för att leverera. För att göra det krävs ett samarbete med Sverigedemokraterna, vilket centerpartisterna varit kristallklara med att de inte kan acceptera.\nNej, inget av dessa erbjudanden är något som C kan tillsätta en regering utifrån.\nUlf Kristersson ska rapportera till talmannen Andreas Norlén på tisdag. Rimligen blir hans besked att han saknar mandaten för att väljas. Och rimligen, givet att Norlén vill hålla tempot uppe, kommer han att hålla en statsministervotering, som M-ledaren i så fall förlorar.\nDärmed kommer allt att avgöras på det sista försöket – då ett misslyckande innebär extra val.\nBetyder det att Dadgostar i så fall får som hon vill? Att Kristerssons chans att bli vald till statsminister är förbrukad?\nNej, det har blivit ett orimligt stort fokus på ordningen på sonderingsuppdrag och omröstningar. I den sista och avgörande omröstningen kommer Norlén att lägga fram den av Andersson och Kristersson som har bäst chans att vinna voteringen. Båda kommer att finnas kvar som alternativ.\nMan kan konstatera att Kristersson inte kan trolla, och därför aldrig kan regera utan att C:s röda linje mot SD korsas. Men Andersson är heller ingen magiker. Dadgostar säger att hon hellre går till extra val än släpper sitt ultimativa krav på ministerposter. Ett sådant lär Tidöpartierna vinna.\nVill vänsterpartisterna göra Ulf Kristersson till statsminister?\nDN:s ledarredaktion: Högern talar klarspråk – lyssnar centerpartisterna?\nDN:s ledarredaktion: I dag skedde något i riksdagen som alla svenskar borde känna till\n”Bästa lösningen är att avskaffa regeringen”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Högern talar klarspråk – lyssnar centerpartisterna?\nLedare: I dag skedde något i riksdagen som alla svenskar borde känna till\nS, MP och C vill riva upp Tidös regler för arbetskraftsinvandring",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-15T06:06:14.700421+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/ett-smorgasbord-for-c-men-det-kan-fa-sta-oatet",
+      "title": "”Ett smörgåsbord för C – men det kan få stå oätet”",
       "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-14",
-      "author": "Jesper Brännmark, Ulf Hambraeus, Kristoffer Törnmalm",
+      "author": "Kristoffer Törnmalm",
       "commentator": "",
-      "summary": "Socialdemokraterna och Moderaterna har lämnat varsitt ”totalpaket” till Centerpartiet. Här är delar av Socialdemokraternas innehåll, enligt uppgifter till SVT. Ett förslag är att ändra grundlagen för äganderätten av skog.",
-      "fulltext": "Socialdemokraterna och Moderaterna har lämnat varsitt ”totalpaket” till Centerpartiet.\nHär är delar av Socialdemokraternas innehåll, enligt uppgifter till SVT.\nEtt förslag är att ändra grundlagen för äganderätten av skog.\nSocialdemokraterna har lämnat sitt ”totalpaket” till Centerpartiet. Flera av punkterna handlar om företagande och landsbygd.\nEnligt uppgifter till SVT vill S säkra äganderätten av skogen i grundlagen, en sakfråga som är central för Centerpartiet men svårsmält för Miljöpartiet. MP sägs heller inte stå bakom hela det bud S lämnat till C.\n”Det här är det enda alternativet som kan garantera ett grundlagsskydd för ägandet av skogen”, skriver Magdalena Andersson i en debattartikel i Expressen .\nEn annan punkt att ”förbättra det lokala företagsklimatet”, bland annat genom att återinföra medel för näringslivsutveckling i landsbygdskommuner och förenkla regler för besöksnäring.\nDessutom vill man genomföra ett ”landsbygdslyft”, bland annat genom att rusta upp centrum, lekplatser, infrastruktur och belysning.\n* Återställd straffbarhetsålder till 15 år.\n* Nya ”rimliga” regler för arbetskraftsinvandring”.\n* Ett nystartsår för att snabba på integrationen av utlandsfödda.\n* Sänkta kostnader för småföretag att anställa\n* Stoppade kompetensutvisningar och tonårsutvisningar. Samt humanare försörjningskrav för föräldrar till minderåriga.\nEn annan del av Socialdemokraternas ”totalpaket” till Centerpartiet, enligt uppgifterna, är att öka myndigheternas närvaro utanför storstäderna och utreda en ”kommunal turistavgift”.\nMan vill också ”minska regelkrånglet för företag”, bland annat genom att ge statliga myndigheter i uppdrag att förenkla regler och att pröva hur nya regler påverkar företag på landsbygden.\nEn annan del är att förstärka Gotlandstrafiken, uppdatera Ölandsbrons beredskapsplaner och se över behovet av beredskapsfärjor för att ”säkra tillgängligheten till Gotland och Öland”.\nTidigare i dag skrev Magdalena Andersson (S) i en debattartikel i Expressen att S vill bilda en regering med C och MP, med stöd av V.\nOm C väljer deras ”totalpaket”, så har ”Vänsterpartiet tydliggjort att även de står redo att delta i förhandlingar”, skriver Andersson.\nVänsterpartiets vice partiledare Ida Gabrielsson uppger för SVT att partiets hållning i regeringsfrågan inte har förändrats.\nMiljöpartiet vill inte kommentera uppgifterna i nuläget. Inte heller Centerpartiet vill kommentera uppgifterna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Av läckorna att döma är Socialdemokraternas ”totalpaket” till Centerpartiet ett smörgåsbord av centerpartistisk politik. Risken är dock att det får stå oätet – och att en lösning på regeringsfrågan är längre bort än det kan framstå.",
+      "fulltext": "Av läckorna att döma är Socialdemokraternas ”totalpaket” till Centerpartiet ett smörgåsbord av centerpartistisk politik.\nRisken är dock att det får stå oätet – och att en lösning på regeringsfrågan är längre bort än det kan framstå.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
+        "regeringsfråg",
         "Centerpartiet",
-        "Moderaterna",
         "Socialdemokraterna"
       ],
-      "first_seen": "2026-11-14T14:03:03.123559+00:00"
+      "first_seen": "2026-11-15T06:06:14.700421+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9340985",
-      "title": "Magdalena Andersson: V är redo att delta i förhandlingar",
+      "url": "https://www.sverigesradio.se/artikel/9341055",
+      "title": "Så försöker Socialdemokraterna locka Centerpartiet till sig",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-14",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Socialdemokraterna vill bilda en regering med Centerpartiet och Miljöpartiet i samarbete med Vänsterpartiet, skriver Magdalena Andersson i en debattartikel i Expressen . Vänsterpartiet har tydliggjort att även de står redo att delta i dessa förhandlingar, enligt Andersson. I debattartikeln presenterar hon det ”totalpaket” som hon lagt fram på Centerpartiets begäran. ”Om ett sådant regeringsalternativ inte går i lås är det bara en regering där både Socialdemokraterna och Moderaterna ingår som har förutsättningar att kunna fungera”, skriver partiledaren i Expressen.",
+      "summary": "Inför Centerpartiets besked om vilken statsministerkandidat partiet kommer välja, försöker nu Socialdemokraterna öka trycket på partiet. Mikael Damberg (S) säger till TT att Socialdemokraterna är berett att stoppa en budget från en regering ledd av Ulf Kristersson. I en debattartikel i Expressen utlovar Socialdemokraternas partiledare Magdalena Andersson bland annat att gå Centerpartiet till mötes i frågan om att grundlagsskydda ägandet av skogen.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://www.sverigesradio.se/artikel/9340985'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9341055'",
       "matched_terms": [
-        "regeringsalternativ",
+        "statsminister",
         "partiledar",
         "Centerpartiet",
-        "Miljöpartiet",
-        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-15T06:06:14.700421+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9341051",
+      "title": "”Nu sätter Socialdemokraterna in det tunga artilleriet”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-14",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Under lördagen har det kommit flera socialdemokratiska utspel i regeringsfrågan. Ekots inrikespolitiska kommentator, Helena Gissén, säger att Socialdemokraterna nu sätter in det tunga artilleriet och läcker ut olika punkter ur sitt erbjudande till Centerpartiet. Samtidigt vill S ge sken av att Vänsterpartiet skulle vara beredda att förhandla, trots att Ida Gabrielsson vidhåller kravet på ministerposter.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9341051'",
+      "matched_terms": [
+        "regeringsfråg",
+        "ministerpost",
+        "Centerpartiet",
         "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-14T14:03:03.123559+00:00"
+      "first_seen": "2026-11-15T06:06:14.700421+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9340977",
-      "title": "Centerpartister delade mellan höger och vänster",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-14",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Centerpartiet är delat i frågan om partiet ska gå högerut eller vänsterut, efter att Moderaterna och Socialdemokraterna lämnat sina regeringsförslag. I Laholm hoppas kommunstyrelsens ordförande Ove Bengtsson på en borgerlig lösning sedan SD släppt kravet på ministerposter, medan Lars Vikinge, kommunalråd i Linköping, varnar för beroende av SD och lutar åt Magdalena Andersson. Samtidigt kritiserar båda C-företrädarna partiets röda linjer.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9340977'",
-      "matched_terms": [
-        "ministerpost",
-        "Centerpartiet",
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-14T14:03:03.123559+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-c-behover-inte-valja-sida-nu-heller",
-      "title": "Tomas Ramberg: C behöver inte välja sida nu heller",
+      "url": "https://www.dn.se/sverige/den-galna-politikveckan-vad-var-det-egentligen-som-hande",
+      "title": "Den galna politikveckan – vad var det egentligen som hände?",
       "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-11-14",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Det är inte slut förrän det är slut. Centern kan ta god tid på sig att välja statsministerkandidat. Ingenting hindrar Elisabeth Thand Ringqvist från att dröja till den fjärde och sista omröstningen innan hon sätter ned foten.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-14 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-c-behover-inte-valja-sida-nu-heller/\nDet är inte slut förrän det är slut. Centern kan ta god tid på sig att välja statsministerkandidat. Ingenting hindrar Elisabeth Thand Ringqvist från att dröja till den fjärde och sista omröstningen innan hon sätter ned foten.",
+      "author": "Pia Gripenberg",
+      "commentator": "",
+      "summary": "Länge verkade det helt omöjligt att få någon att vilja bli statsminister. Motvilligt accepterade Ulf Kristersson (M) att ta på sig talmannens sonderingsuppdrag. Men så kallade Jimmie Åkesson (SD) till pressträff. Det satte sådan fart på förhandlingarna att till och med erfarna politikjournalister fick svårt att hänga med. Så vad hände egentligen?",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-15 07:06\nArtikelns ursprungsadress: https://www.dn.se/sverige/den-galna-politikveckan-vad-var-det-egentligen-som-hande/\nLänge verkade det helt omöjligt att få någon att vilja bli statsminister. Motvilligt accepterade Ulf Kristersson (M) att ta på sig talmannens sonderingsuppdrag.\nMen så kallade Jimmie Åkesson (SD) till pressträff. Det satte sådan fart på förhandlingarna att till och med erfarna politikjournalister fick svårt att hänga med.",
       "paywall": true,
       "fetch_error": "",
       "matched_terms": [
+        "talman",
+        "sondering",
         "statsminister"
       ],
-      "first_seen": "2026-11-14T14:03:03.123559+00:00"
+      "first_seen": "2026-11-15T06:06:14.700421+00:00"
     }
   ]
 }
