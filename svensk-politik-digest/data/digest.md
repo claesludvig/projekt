@@ -1,39 +1,29 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-15
 
-6 nya poster sedan förra utskicket (47 redan utskickade, 148 utanför ämnet).
+4 nya poster sedan förra utskicket (50 redan utskickade, 147 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Ledare: Inget kalas när Centerpartiet får paket](https://www.dn.se/ledare/inget-kalas-nar-centerpartiet-far-paket)
-DN Nyheter · 2026-11-15 · DN:s ledarredaktion
+### [Uppgift: Centertoppar möts om regeringsfrågan](https://www.svd.se/a/qOLP81/uppgift-centertoppar-mots-om-regeringsfragan)
+SvD Ledare · 2026-11-15 · TT
 
-Varken S- eller M-ledaren har ett paket som håller måttet. Centerpartiet kommer att behöva trycka rött i nästa statsministervotering.
+Centerpartiets partistyrelse och riksdagsgrupp har kallats till möte på söndagen för att fatta…
 
 ## Rapportering
 
-### [Forskare om C:s motstånd mot V: ”Handlar om väljarna”](https://www.sverigesradio.se/artikel/9339368)
+### [Uppgifter om C-toppmöten – detta har hänt i helgen](https://www.svt.se/nyheter/inrikes/uppgifter-om-c-toppmoten-detta-har-hant-i-helgen)
+SVT Nyheter · 2026-11-15 · Jesper Brännmark
+
+I helgen har regeringsbildningen satt fart och enligt uppgifter till SVT kommer C-toppmöten hållas på söndagen. Här är vad som har hänt.
+
+### [Uppgifter: Centerns ödesbeslut är nära – möts i dag](https://www.sverigesradio.se/artikel/9341242)
 Ekot, Sveriges Radio · 2026-11-15 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiets motstånd mot att samarbeta med Sverigedemokraterna handlar framförallt om olika människosyn. När det gäller motståndet mot att släppa in Vänsterpartiet i regeringen är det mer komplicerat, säger källor till Ekot. Det finns sakpolitiska skillnader, men andra skäl väger tyngre, som att motståndet fungerar som ett alibi mot SD. ”C:s V-motstånd handlar mest om att partiet vill locka borgerliga väljare som ogillar SD, men som inte heller vill att politiken dras åt vänster”, säger Jan Teorell, professor i statsvetenskap.
+Ett avgörande kan vara nära om centerns vägval mellan höger och vänster, något som till slut kan ge Sverige en regering. Enligt källor till Ekot ska centerns partistyrelse och riksdagsgrupp mötas för att ta ställning idag. Centerns röda linje mot Vänsterpartiet är mer komplicerad än den mot Sverigedemokraterna, säger tidigare C-topp till Ekot.
 
-### [”Ett smörgåsbord för C – men det kan få stå oätet”](https://www.svt.se/nyheter/inrikes/ett-smorgasbord-for-c-men-det-kan-fa-sta-oatet)
-SVT Nyheter · 2026-11-14 · Kristoffer Törnmalm
+### [Björn Wiman: Tonen är hårdare än i Ida Gabrielssons bastu](https://www.dn.se/kultur/bjorn-wiman-tonen-ar-hardare-an-i-ida-gabrielssons-bastu)
+DN Nyheter · 2026-11-15 · Björn Wiman
 
-Av läckorna att döma är Socialdemokraternas ”totalpaket” till Centerpartiet ett smörgåsbord av centerpartistisk politik. Risken är dock att det får stå oätet – och att en lösning på regeringsfrågan är längre bort än det kan framstå.
+Regeringsbildningen efter valet ser ut att kunna bli ett brutalt misslyckande för den svenska vänstern. I så fall ett med skrämmande historiska förebilder, skriver Björn Wiman.
 
-### [Så försöker Socialdemokraterna locka Centerpartiet till sig](https://www.sverigesradio.se/artikel/9341055)
-Ekot, Sveriges Radio · 2026-11-14 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Inför Centerpartiets besked om vilken statsministerkandidat partiet kommer välja, försöker nu Socialdemokraterna öka trycket på partiet. Mikael Damberg (S) säger till TT att Socialdemokraterna är berett att stoppa en budget från en regering ledd av Ulf Kristersson. I en debattartikel i Expressen utlovar Socialdemokraternas partiledare Magdalena Andersson bland annat att gå Centerpartiet till mötes i frågan om att grundlagsskydda ägandet av skogen.
-
-### [”Nu sätter Socialdemokraterna in det tunga artilleriet”](https://www.sverigesradio.se/artikel/9341051)
-Ekot, Sveriges Radio · 2026-11-14 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Under lördagen har det kommit flera socialdemokratiska utspel i regeringsfrågan. Ekots inrikespolitiska kommentator, Helena Gissén, säger att Socialdemokraterna nu sätter in det tunga artilleriet och läcker ut olika punkter ur sitt erbjudande till Centerpartiet. Samtidigt vill S ge sken av att Vänsterpartiet skulle vara beredda att förhandla, trots att Ida Gabrielsson vidhåller kravet på ministerposter.
-
-### [Den galna politikveckan – vad var det egentligen som hände?](https://www.dn.se/sverige/den-galna-politikveckan-vad-var-det-egentligen-som-hande)
-DN Nyheter · 2026-11-14 · Pia Gripenberg _(betalvägg — endast ingress)_
-
-Länge verkade det helt omöjligt att få någon att vilja bli statsminister. Motvilligt accepterade Ulf Kristersson (M) att ta på sig talmannens sonderingsuppdrag. Men så kallade Jimmie Åkesson (SD) till pressträff. Det satte sådan fart på förhandlingarna att till och med erfarna politikjournalister fick svårt att hänga med. Så vad hände egentligen?
-
-_Genererat 2026-11-15T06:06:14.700421+00:00._
+_Genererat 2026-11-15T14:02:47.538201+00:00._
