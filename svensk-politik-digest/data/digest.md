@@ -1,64 +1,61 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-16
 
-11 nya poster sedan förra utskicket (46 redan utskickade, 144 utanför ämnet).
+10 nya poster sedan förra utskicket (46 redan utskickade, 146 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Susanne Nyström: Ingen statsminister kan vara nöjd med den här siffran](https://www.dn.se/ledare/susanne-nystrom-ingen-statsminister-kan-vara-nojd-med-den-har-siffran) **[kommentator]**
-DN Nyheter · 2026-11-16 · Susanne Nyström
+### [Oväntade hyllningarna till Jimmie Åkesson](https://www.svd.se/a/0vnBvG/sd-ledaren-jimmie-akesson-hyllas-av-vanstern)
+SvD Ledare · 2026-11-16 · Alexandra Karlsson
 
-Under Ulf Kristerssons (M) tid som statsminister har Sverige rasat i klimatrankningen. Det är ingen slump, utan resultatet av medveten politik.
-
-### [Gabrielsson (V): ”Tillbaka på ruta ett”](https://www.svd.se/a/dJO44X/v-s-krav-om-att-inga-i-en-regering-ligger-fast)
-SvD Ledare · 2026-11-15 · Niklas Svahn/TT, Firdos Faras/TT, Cornelia Mikaelsson/TT
-
-Vänsterpartiets krav på att ingå i en regering ligger fast, säger vice partiledare Ida Gabrielsson.
-
-### [Beskedet: Centerpartiet väljer S totalpaket](https://www.svd.se/a/M5R7LJ/centerpartiet-valjer-magdalena-anderssons-totalpaket)
-SvD Ledare · 2026-11-15 · Emilia Lindell, Jenny Nyman, Ingrid Friberg
-
-Centerpartiet har valt Magdalena Anderssons totalpaket, meddelar partiledaren Elisabeth Thand…
+SD-ledaren Jimmie Åkessons besked i regeringsfrågan ändrade spelplanen i förhandlingarna.
 
 ## Rapportering
 
-### [Partierna reagerar: ”Välkommet” – men borgerliga dörren hålls öppen](https://www.svt.se/nyheter/inrikes/partierna-reagerar-valkommet-men-borgerliga-dorren-halls-oppen)
-SVT Nyheter · 2026-11-15 · Edith Lindvall
+### [Senaste turerna inom politiken – och det väntar nu](https://www.svt.se/nyheter/inrikes/senaste-turerna-inom-politiken-och-det-vantar-nu)
+SVT Nyheter · 2026-11-16 · Simon Nilsson
 
-Centerpartiet går vidare med Socialdemokraternas totalpaket. Beskedet välkomnas av S och MP, medan M, KD och L fortsatt hoppas på en mittenregering. Samtidigt står Vänsterpartiet fast vid kravet på ministerposter.
+Centerpartiet väljer S, Vänsterpartiets krav står fast och kanske blir det en ny statsministeromröstning i veckan. Här är de senaste beskeden inom politiken – och det som väntar härnäst.
 
-### [”Positionerna är lika låsta”](https://www.svt.se/nyheter/inrikes/positionerna-ar-lika-lasta) **[kommentator]**
-SVT Nyheter · 2026-11-15 · Mats Knutson
+### [Andersson och Dadgostar i nytt möte om regeringsfrågan: ”Jättepositivt”](https://www.svt.se/nyheter/inrikes/andersson-och-dadgostar-i-nytt-mote-om-regeringsfragan-jattepositivt)
+SVT Nyheter · 2026-11-16 · Daniel Ingmo, Erik Nilsson
 
-Centerpartiet har inte suddat ut några röda linjer. De stora tvistefrågorna är fortfarande olösta och positionerna är lika låsta. Men om inte Vänsterpartiet eller Centerpartiet ändrar sig kan bollen i något skede komma tillbaka till Ulf Kristersson (M) eller extraval.
+S-ledaren Magdalena Andersson mötte V-ledaren Nooshi Dadgostar på måndagsförmiddagen. Målet för S är att få Vänsterpartiet att backa på sitt ministerkrav – men låsningen ligger kvar. – Vi har samma besked som tidigare, säger V-toppen Ida Gabrielsson efter mötet.
 
-### [Klart: Centern väljer Socialdemokraterna](https://www.svt.se/nyheter/inrikes/klart-centern-valjer-socialdemokraterna)
-SVT Nyheter · 2026-11-15 · Erik Norman, Erik Nilsson
+### [Fredrik Furtenbach: Känslorna är väldigt kyliga mellan V och C](https://www.sverigesradio.se/artikel/9343581) **[kommentator]**
+Ekot, Sveriges Radio · 2026-11-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet väljer S totalpaket, säger partiledare till Elisabeth Thand Ringqvist i en kommentar till SVT. – Efter att ha granskat Anderssons totalpaket är vårt besked att Socialdemokraternas alternativ är det vi väljer att förhandla vidare om, säger Thand Ringqvist.
+Det är fortsatt låsta positioner bland de rödgröna partierna, trots söndagens besked från Elisabeth Thand Ringqvist (C) att partiet väljer att fortsätta förhandla fram en regering ledd av Socialdemokraterna. Efter att Centerpartiet har varit öppna för både Magdalena Andersson (S) och Ulf Kristersson (M) som statsministerkandidater, är känslorna fortfarande kyliga mellan Vänsterpartiet och Centerpartiet, menar Ekots inrikespolitiske kommentator Fredrik Furtenbach. ”Vänsterpartiet talar om att Centerpartiet måste offentligt stänga dörren till Kristersson och att man måste försöka reparera förtroendet mellan de båda partierna”, säger Furtenbach.
 
-### [V: ”I ett totalpaket behöver alla vara med på lika villkor”](https://www.sverigesradio.se/artikel/9341350)
-Ekot, Sveriges Radio · 2026-11-15 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Dadgostar efter mötet med Socialdemokraterna: ”Knäckfråga”](https://www.sverigesradio.se/artikel/9343620)
+Ekot, Sveriges Radio · 2026-11-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Trots att Centerpartiet valt vänster istället för höger verkar positionerna fortfarande vara låsta mellan de rödgröna partierna. Centerns krav på samarbete utan Vänsterpartiet i regeringen ligger fast. Det gör också V:s krav på ministerposter. ”Om det ska bli ett totalpaket måste alla vara med på lika villkor”, säger vice partiledaren, Ida Gabrielsson (V).
+I förmiddags hölls ett nytt möte mellan Socialdemokraternas partiledare Magdalena Andersson och Vänsterpartiets ledare Nooshi Dadgostar. Målet från Socialdemokraternas sida ska enligt uppgift till SVT ha varit att få Vänstern att backa från sitt krav på ministerposter – men så lät det inte när Nooshi Dadgostar lämnade Socialdemokraternas kansli. ”Vi diskuterar ju inte privata samtal på det sättet”, sade Dadgostar innan hon försvann in i en hiss.
 
-### [C väljer S – röda linjen mot V ligger fast](https://www.sverigesradio.se/artikel/9341320)
-Ekot, Sveriges Radio · 2026-11-15 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Helena Gissén: Ska inte utesluta att C går tillbaka till högerspåret](https://www.sverigesradio.se/artikel/9341416)
+Ekot, Sveriges Radio · 2026-11-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet har valt Socialdemokraternas ”totalpaket” och vill se Magdalena Andersson (S) som statsminister, säger partiledaren Elisabeth Thand Ringqvist till Ekot. Nu vill Thand Ringqvist gå in i förhandlingar med de övriga rödgröna partierna men kravet på att Vänsterpartiet inte ska sitta i regering står lika fast som Vänsterpartiets eget krav att få göra det. ”I det förslag som Magdalena Andersson presenterat för oss är det en regering med Centerpartiet, Socialdemokraterna och Miljöpartiet”, säger Elisabeth Thand Ringqvist.
+På söndagen kom beskedet att Centerpartiets partiledare Elisabeth Thand Ringqvist väljer att försöka bilda regering med Socialdemokraterna och Miljöpartiet. Men Magdalena Andersson (S) har en tuff uppgift framför sig efter C-ledarens besked, menar Ekots inrikespolitiska kommentator Helena Gissén, när varken Centerpartiet eller Vänsterpartiet tänker vika sig om deras fortsatta krav om regering. ”Om Magdalena Andersson inte lyckas övertala Vänsterpartiet att överge det här ministerkravet, då tror jag inte att man ska utesluta att centerpartisterna trots allt går tillbaka till högerspåret”, säger kommentatorn.
 
-### [”Pressen kommer vara stenhård på Vänsterpartiet”](https://www.sverigesradio.se/artikel/9341311) **[kommentator]**
-Ekot, Sveriges Radio · 2026-11-15 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [V: ”Kan inte tro att Magdalena Andersson är som jultomten”](https://www.sverigesradio.se/artikel/9341414)
+Ekot, Sveriges Radio · 2026-11-16 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet väljer att gå vidare med Socialdemokraternas totalpaket – men med det fortsatta kravet att hålla Vänsterpartiet utanför en regering. Ekots politiska kommentator Fredrik Furtenbach säger att det av allt att döma kommer bli nya förhandlingar mellan de rödgröna: ”Då kommer pressen vara stenhård på Vänsterpartiet, men även på Magdalena Andersson”. ”Än finns inga tecken på att Vänsterpartiet kommer ge sig i sitt krav på ministerposter, så vi vet ju ännu inte hur det här slutar”, säger Fredrik Furtenbach.
+Centerpartiet väljer att gå vidare med Socialdemokraternas regeringsförslag. Samtidigt ligger både Centerpartiets krav på samarbete utan Vänsterpartiet i regeringen, och Vänsterpartiets krav på ministerposter fast. ”Man kan inte tro att Magdalena Andersson är som jultomten. Utan man sitter ner och så ger man och tar”, sade Vänsterpartiets vice partiledare Ida Gabrielsson i P1 Morgon på måndagsmorgonen. Samtidigt besökte Centerledaren Elisabeth Thand Ringqvist TV4:s nyhetsmorgon, där hon garanterade en regering utan V-ministrar.
 
-### [”Mycket möjligt att det kommer fram något under kvällen”](https://www.sverigesradio.se/artikel/9341281)
-Ekot, Sveriges Radio · 2026-11-15 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Chatta med DN:s Hanna Jakobsson och Evelyn Jones](https://www.dn.se/sverige/chatta-med-dns-evelyn-jones-och-hanna-jakobsson)
+DN Nyheter · 2026-11-16 · DN
 
-Efter att S och M i fredags lämnade över sina så kallade totalpaket, pågår just nu troligen det möte med Centerns partistyrelse och riksdagsgruppen, som Ekot har fått bekräftat ska äga rum under söndagen för att fatta ett beslut i regeringsfrågan. Ekots inrikespolitiska kommentator Helena Gissén tror att vi inom kort kommer att få ett besked från Elisabeth Thand Ringqvist (C) om vilken sida partiet väljer. ”Det har ju gått väldigt många rykten”, säger hon. Men på tisdag ska Ulf Kristersson (M) rapportera till talmannen om hur hans sondering gått.
+Är vi närmare en regering nu? Kommer V släppa sitt ministerkrav? DN:s politikreportrar Hanna Jakobson och Evelyn Jones svarade på läsarnas frågor om regeringsbildningen.
 
-### [Centerpartiet väljer Magdalena Anderssons sida](https://www.dn.se/sverige/centern-valjer-magdalena-anderssons-sida)
-DN Nyheter · 2026-11-15 · Linnea Bergman, Melvin Londen, Molly Karlsson Inde
+### [Regeringsbildningen: Detta har hänt](https://www.dn.se/sverige/regeringsbildningen-detta-har-hant)
+DN Nyheter · 2026-11-16 · Fredrik Thambert _(betalvägg — endast ingress)_
 
-Centerpartiet väljer Socialdemokraternas regeringsalternativ. Samtidigt håller Vänsterpartiet fast vid sitt krav på ministerposter. – De vet precis var vi står, säger vice partiledaren Ida Gabrielsson.
+Centerpartiet har valt att fortsätta förhandla med de rödgröna partierna om att bilda regering. Men flera frågetecken återstår.
 
-_Genererat 2026-11-16T06:03:02.418354+00:00._
+## Officiella besked
+
+### [Statsministern deltar i Coalition of the Willing-möte i Berlin](https://www.regeringen.se/pressmeddelanden/2026/11/statsministern-deltar-i-coalition-of-the-willing-mote-i-berlin)
+Regeringen.se · 2026-11-16 · Regeringskansliet
+
+Torsdag den 19 november reser statsminister Ulf Kristersson till Berlin för att delta i ett möte på stats- och regeringschefsnivå i Coalition of the Willing, till stöd för Ukraina.
+
+_Genererat 2026-11-16T14:03:29.996065+00:00._
