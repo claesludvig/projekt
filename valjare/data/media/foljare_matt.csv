@@ -2299,38 +2299,39 @@ datum,parti,roll,namn,plattform,konto,foljare,verifierad
 2026-11-15,KD,partiledare,Ebba Busch,TikTok,buschebba,38600,True
 2026-11-15,V,partiledare,Nooshi Dadgostar,TikTok,nooshidadgostar,69000,True
 2026-11-15,L,partiledare,Simona Mohamsson,TikTok,smohamsson,14600,True
-2026-11-16,S,parti,Socialdemokraterna,X,socialdemokrat,112439,False
-2026-11-16,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,39900,
 2026-11-16,S,parti,Socialdemokraterna,Facebook,socialdemokraterna,288345,
-2026-11-16,S,partiledare,Magdalena Andersson,X,magdandersson,32195,False
-2026-11-16,S,partiledare,Magdalena Andersson,Bluesky,magdalenaandersson.socialdemokraterna.se,3431,
 2026-11-16,S,partiledare,Magdalena Andersson,Facebook,magdalenaeandersson,190659,
-2026-11-16,M,parti,Moderaterna,X,moderaterna,168900,True
-2026-11-16,M,parti,Moderaterna,YouTube,UCaeBpLCv-n8wlKahXY4o1ZQ,8760,
 2026-11-16,M,parti,Moderaterna,Facebook,moderaterna,174117,
-2026-11-16,SD,parti,Sverigedemokraterna,X,sdriks,159766,True
+2026-11-16,S,parti,Socialdemokraterna,X,socialdemokrat,112441,False
+2026-11-16,S,parti,Socialdemokraterna,YouTube,UCFR62TKgCgN8m11xYtdBM-g,39900,
+2026-11-16,S,partiledare,Magdalena Andersson,X,magdandersson,32196,False
+2026-11-16,S,partiledare,Magdalena Andersson,Bluesky,magdalenaandersson.socialdemokraterna.se,3431,
+2026-11-16,M,parti,Moderaterna,X,moderaterna,168899,True
+2026-11-16,M,parti,Moderaterna,YouTube,UCaeBpLCv-n8wlKahXY4o1ZQ,8760,
+2026-11-16,SD,parti,Sverigedemokraterna,X,sdriks,159768,True
 2026-11-16,SD,parti,Sverigedemokraterna,YouTube,UCq41VZObmC59nLaI8IrO8OA,107000,
-2026-11-16,SD,partiledare,Jimmie Åkesson,X,jimmieakesson,188670,True
+2026-11-16,SD,partiledare,Jimmie Åkesson,X,jimmieakesson,188672,True
+2026-11-16,C,parti,Centerpartiet,X,centerpartiet,75166,False
 2026-11-16,C,parti,Centerpartiet,TikTok,Centerpartiet,4763,True
 2026-11-16,C,parti,Centerpartiet,YouTube,UCvFYHw6ahpdT4O1hFBxcQRQ,4690,
-2026-11-16,C,partiledare,Elisabeth Thand Ringqvist,X,elisabethtr,7701,True
+2026-11-16,C,partiledare,Elisabeth Thand Ringqvist,X,elisabethtr,7707,True
 2026-11-16,C,partiledare,Elisabeth Thand Ringqvist,TikTok,elisabethtrc,645,False
 2026-11-16,C,partiledare,Elisabeth Thand Ringqvist,Bluesky,elisabethtr.bsky.social,127,
-2026-11-16,V,parti,Vänsterpartiet,X,vansterpartiet,101626,True
+2026-11-16,V,parti,Vänsterpartiet,X,vansterpartiet,101629,True
 2026-11-16,V,parti,Vänsterpartiet,YouTube,UCjnTl-4Iw0VZCEMUnLk82tQ,6800,
-2026-11-16,V,partiledare,Nooshi Dadgostar,X,dadgostarnooshi,85885,False
-2026-11-16,V,partiledare,Nooshi Dadgostar,Bluesky,nooshidadgostar.bsky.social,1170,
+2026-11-16,V,partiledare,Nooshi Dadgostar,X,dadgostarnooshi,85890,False
+2026-11-16,V,partiledare,Nooshi Dadgostar,Bluesky,nooshidadgostar.bsky.social,1171,
 2026-11-16,V,partiledare,Nooshi Dadgostar,Mastodon,nooshidadgostar@mastodon.nu,265,
-2026-11-16,KD,parti,Kristdemokraterna,X,kdriks,81852,False
+2026-11-16,KD,parti,Kristdemokraterna,X,kdriks,81851,False
 2026-11-16,KD,parti,Kristdemokraterna,YouTube,UCAELki5flaev4zikzAkr4Lw,2560,
-2026-11-16,KD,partiledare,Ebba Busch,X,buschebba,259467,True
+2026-11-16,KD,partiledare,Ebba Busch,X,buschebba,259466,True
 2026-11-16,KD,partiledare,Ebba Busch,YouTube,UCVz96hqv6YN5exnJdI6QSdw,7130,
-2026-11-16,L,parti,Liberalerna,X,liberalerna,91831,False
+2026-11-16,L,parti,Liberalerna,X,liberalerna,91829,False
 2026-11-16,L,parti,Liberalerna,YouTube,UCDlEksDlX8aF_jE8eV3B4jA,2340,
-2026-11-16,L,partiledare,Simona Mohamsson,X,SMohamsson,30041,True
-2026-11-16,MP,parti,Miljöpartiet,X,miljopartiet,101026,False
+2026-11-16,L,partiledare,Simona Mohamsson,X,SMohamsson,30045,True
+2026-11-16,MP,parti,Miljöpartiet,X,miljopartiet,101025,False
 2026-11-16,MP,parti,Miljöpartiet,YouTube,UC0fLpFcjZBHW5vLBXDrZBIg,3130,
-2026-11-16,MP,partiledare,Amanda Lind,X,amandalind_,15684,False
+2026-11-16,MP,partiledare,Amanda Lind,X,amandalind_,15685,False
 2026-11-16,MP,partiledare,Amanda Lind,Bluesky,amandalindmp.bsky.social,476,
 2026-11-16,S,parti,Socialdemokraterna,TikTok,socialdemokraternas,85400,True
 2026-11-16,SD,parti,Sverigedemokraterna,TikTok,sverigedemokraterna,238300,True

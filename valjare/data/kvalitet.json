@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "11362 artiklar i 7 flöden",
-   "varde": 11362.0
+   "detalj": "11394 artiklar i 7 flöden",
+   "varde": 11394.0
   },
   {
    "grupp": "aktualitet",
@@ -1363,7 +1363,7 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7422 rader (förra 7387)",
+   "detalj": "7422 rader (förra 7422)",
    "varde": 7422.0
   },
   {
@@ -1371,7 +1371,7 @@
    "id": "rader_riksdag_beslut",
    "beskrivning": "Tabell riksdag_beslut",
    "status": "ok",
-   "detalj": "8296 rader (förra 8293)",
+   "detalj": "8296 rader (förra 8296)",
    "varde": 8296.0
   },
   {
@@ -1403,7 +1403,7 @@
    "id": "rader_riksdag_ledamot",
    "beskrivning": "Tabell riksdag_ledamot",
    "status": "ok",
-   "detalj": "4950 rader (förra 4949)",
+   "detalj": "4950 rader (förra 4950)",
    "varde": 4950.0
   },
   {
@@ -1419,7 +1419,7 @@
    "id": "rader_opinion_beslut",
    "beskrivning": "Tabell opinion_beslut",
    "status": "ok",
-   "detalj": "104 rader (förra 100)",
+   "detalj": "104 rader (förra 104)",
    "varde": 104.0
   },
   {
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "2407 rader (förra 2363)",
-   "varde": 2407.0
+   "detalj": "2408 rader (förra 2407)",
+   "varde": 2408.0
   },
   {
    "grupp": "volym",
@@ -1443,7 +1443,7 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "504 rader (förra 448)",
+   "detalj": "504 rader (förra 504)",
    "varde": 504.0
   },
   {
@@ -1451,7 +1451,7 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "934 rader (förra 919)",
+   "detalj": "934 rader (förra 934)",
    "varde": 934.0
   },
   {
@@ -1563,7 +1563,7 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2758 rader (förra 2754)",
+   "detalj": "2758 rader (förra 2758)",
    "varde": 2758.0
   },
   {
