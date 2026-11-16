@@ -1,11 +1,27 @@
 {
- "skapad": "2026-11-15",
+ "skapad": "2026-11-16",
  "status": "varning",
  "antal": {
   "ok": 207,
   "varning": 3
  },
  "kontroller": [
+  {
+   "grupp": "aktualitet",
+   "id": "lage_pris_diesel",
+   "beskrivning": "Månadsserie: Diesel, prisförändring 12 mån (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
+  },
+  {
+   "grupp": "aktualitet",
+   "id": "lage_pris_bensin",
+   "beskrivning": "Månadsserie: Bensin, prisförändring 12 mån (%)",
+   "status": "ok",
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
+  },
   {
    "grupp": "aktualitet",
    "id": "lage_ut_totalt",
@@ -40,22 +56,6 @@
   },
   {
    "grupp": "aktualitet",
-   "id": "lage_pris_bensin",
-   "beskrivning": "Månadsserie: Bensin, prisförändring 12 mån (%)",
-   "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
-  },
-  {
-   "grupp": "aktualitet",
-   "id": "lage_pris_diesel",
-   "beskrivning": "Månadsserie: Diesel, prisförändring 12 mån (%)",
-   "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
-  },
-  {
-   "grupp": "aktualitet",
    "id": "lage_styrranta",
    "beskrivning": "Månadsserie: Styrräntan (%)",
    "status": "ok",
@@ -67,16 +67,16 @@
    "id": "lage_kpif",
    "beskrivning": "Månadsserie: KPIF, 12-månadersförändring (%)",
    "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
    "id": "lage_pris_el",
    "beskrivning": "Månadsserie: El, prisförändring 12 mån (%)",
    "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "11153 artiklar i 7 flöden",
-   "varde": 11153.0
+   "detalj": "11362 artiklar i 7 flöden",
+   "varde": 11362.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-11-06, 9 dagar sedan",
-   "varde": 9.0
+   "detalj": "senaste dokument 2026-11-13, 3 dagar sedan",
+   "varde": 3.0
   },
   {
    "grupp": "volym",
@@ -1363,16 +1363,16 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7387 rader (förra 7387)",
-   "varde": 7387.0
+   "detalj": "7422 rader (förra 7387)",
+   "varde": 7422.0
   },
   {
    "grupp": "volym",
    "id": "rader_riksdag_beslut",
    "beskrivning": "Tabell riksdag_beslut",
    "status": "ok",
-   "detalj": "8293 rader (förra 8293)",
-   "varde": 8293.0
+   "detalj": "8296 rader (förra 8293)",
+   "varde": 8296.0
   },
   {
    "grupp": "volym",
@@ -1403,8 +1403,8 @@
    "id": "rader_riksdag_ledamot",
    "beskrivning": "Tabell riksdag_ledamot",
    "status": "ok",
-   "detalj": "4949 rader (förra 4949)",
-   "varde": 4949.0
+   "detalj": "4950 rader (förra 4949)",
+   "varde": 4950.0
   },
   {
    "grupp": "volym",
@@ -1419,16 +1419,16 @@
    "id": "rader_opinion_beslut",
    "beskrivning": "Tabell opinion_beslut",
    "status": "ok",
-   "detalj": "100 rader (förra 100)",
-   "varde": 100.0
+   "detalj": "104 rader (förra 100)",
+   "varde": 104.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "2363 rader (förra 2317)",
-   "varde": 2363.0
+   "detalj": "2407 rader (förra 2363)",
+   "varde": 2407.0
   },
   {
    "grupp": "volym",
@@ -1443,16 +1443,16 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "448 rader (förra 448)",
-   "varde": 448.0
+   "detalj": "504 rader (förra 448)",
+   "varde": 504.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "919 rader (förra 908)",
-   "varde": 919.0
+   "detalj": "934 rader (förra 919)",
+   "varde": 934.0
   },
   {
    "grupp": "volym",
@@ -1563,8 +1563,8 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2754 rader (förra 2754)",
-   "varde": 2754.0
+   "detalj": "2758 rader (förra 2754)",
+   "varde": 2758.0
   },
   {
    "grupp": "volym",
@@ -1643,7 +1643,7 @@
    "id": "voteringar_349",
    "beskrivning": "Varje votering räknar alla 349 ledamöter",
    "status": "ok",
-   "detalj": "100.0 % av 8293 voteringar har 340–349 röster inklusive frånvaro",
+   "detalj": "100.0 % av 8296 voteringar har 340–349 röster inklusive frånvaro",
    "varde": 100.0
   },
   {

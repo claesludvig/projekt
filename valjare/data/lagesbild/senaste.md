@@ -1,9 +1,14 @@
-# Lägesbild vecka 46 2026
+# Lägesbild vecka 47 2026
 
-Skapad 2026-11-15 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-11-16 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+
+## Ovanlig utveckling
+
+- **Diesel, prisförändring 12 mån (%)**: Oktober 2026: 38,2 %. +42,5 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 
 ## Värd att bevaka
 
+- **Bensin, prisförändring 12 mån (%)**: Oktober 2026: 15,7 %. +23,7 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 - **Beviljade uppehållstillstånd, första**: Augusti 2026: 6 863. Senaste tolv månaderna: 87 984 (året innan 89 405). De tre senaste månaderna: −9 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2021). _Källa: Migrationsverket._
 - **Skjutningar**: Oktober 2026: 6. Senaste tolv månaderna: 82 (året innan 178). De tre senaste månaderna: −57 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
 - **Döda i skjutningar**: Oktober 2026: 2. Senaste tolv månaderna: 17 (året innan 46). De tre senaste månaderna: −75 % mot samma månader i fjol. Tolvmånaderssumman är den lägsta i serien (från 2017). _Källa: Polismyndigheten._
@@ -11,11 +16,9 @@ Skapad 2026-11-15 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen j
 
 ## Inom det vanliga
 
-- **Bensin, prisförändring 12 mån (%)**: September 2026: 10,5 %. +15,9 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
-- **Diesel, prisförändring 12 mån (%)**: September 2026: 32,8 %. +33,9 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
-- **Styrräntan (%)**: November 2026: 1,8 %. 0,0 procentenheter mot ett år tidigare. _Källa: Riksbanken._
-- **KPIF, 12-månadersförändring (%)**: September 2026: 1,5 %. −1,6 procentenheter mot ett år tidigare. Mål: 2,0 (Riksbankens inflationsmål (KPIF)). _Källa: SCB TAB6590._
-- **El, prisförändring 12 mån (%)**: September 2026: 17,0 %. −5,6 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
+- **Styrräntan (%)**: November 2026: 1,8 %. +0,1 procentenheter mot ett år tidigare. _Källa: Riksbanken._
+- **KPIF, 12-månadersförändring (%)**: Oktober 2026: 1,1 %. −2,0 procentenheter mot ett år tidigare. Mål: 2,0 (Riksbankens inflationsmål (KPIF)). _Källa: SCB TAB6590._
+- **El, prisförändring 12 mån (%)**: Oktober 2026: 14,3 %. −7,5 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 - **Beviljade uppehållstillstånd, skydd**: Augusti 2026: 882. Senaste tolv månaderna: 11 983 (året innan 12 527). De tre senaste månaderna: −22 % mot samma månader i fjol. _Källa: Migrationsverket._
 - **Beviljade uppehållstillstånd, anknytning**: Augusti 2026: 1 780. Senaste tolv månaderna: 25 442 (året innan 24 953). De tre senaste månaderna: −10 % mot samma månader i fjol. _Källa: Migrationsverket._
 - **Beviljade uppehållstillstånd, arbete**: Augusti 2026: 1 981. Senaste tolv månaderna: 23 847 (året innan 23 894). De tre senaste månaderna: +11 % mot samma månader i fjol. _Källa: Migrationsverket._

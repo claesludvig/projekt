@@ -4593,358 +4593,359 @@ intressent_id,namn,parti,valkrets,kon,fodd,avstar,franvarande,ja,nej,rm,votering
 0992473266516,Larry Söder,KD,Hallands län,man,1969,0,57,739,2,2025/26,798,92.85714285714286
 0992867772421,Nils Seye Larsen,MP,Västerbottens län,man,1980,179,58,203,358,2025/26,798,92.73182957393485
 0999976269027,Amanda Palmstierna,MP,Stockholms län,kvinna,1977,158,123,188,329,2025/26,798,84.58646616541353
-010392780417,Marie Olsson,S,Dalarnas län,kvinna,1967,0,0,3,1,2026/27,4,100.0
-0105632258713,Boriana Åberg,M,Skåne läns södra,kvinna,1968,0,0,2,2,2026/27,4,100.0
-010643534813,Eric Westroth,SD,Jönköpings län,man,1971,0,0,1,3,2026/27,4,100.0
-0109529900621,Andrea Kronvall,SD,Stockholms län,kvinna,1985,0,0,1,3,2026/27,4,100.0
-0111479807829,Anna Wallentheim,S,Skåne läns norra och östra,kvinna,1985,0,0,3,1,2026/27,4,100.0
-0111528589028,Jennie Bergius Eriksson,M,Västra Götalands läns norra,kvinna,1982,0,0,2,2,2026/27,4,100.0
-0112333043027,Rasmus Giertz,SD,Dalarnas län,man,1994,0,0,1,3,2026/27,4,100.0
-0119851690521,David Perez,SD,Uppsala län,man,1990,0,0,1,3,2026/27,4,100.0
-0130640724922,Clara Aranda,SD,Östergötlands län,kvinna,1988,0,0,1,3,2026/27,4,100.0
-0130789484021,Mattias Bäckström Johansson,SD,Kalmar län,man,1985,0,0,1,3,2026/27,4,100.0
-0132818093422,Rickard Nordin,C,Göteborgs kommun,man,1983,0,0,3,1,2026/27,4,100.0
-0133295889596,Marcus Willershausen,L,Stockholms län,man,2000,0,0,2,2,2026/27,4,100.0
-0139595721190,Samuel Pettersson,S,Norrbottens län,man,2001,0,0,3,1,2026/27,4,100.0
-0146133946627,Andreas Lennkvist Manriquez,V,Stockholms kommun,man,1994,0,0,1,3,2026/27,4,100.0
-014744660015,Mikael Damberg,S,Stockholms län,man,1971,0,0,3,1,2026/27,4,100.0
-0148424181819,Ann-Christine Frohm,SD,Kronobergs län,kvinna,1972,0,0,1,3,2026/27,4,100.0
-0148532412629,Willhelm Sundman,L,Örebro län,man,1992,0,0,2,2,2026/27,4,100.0
-014998255626,Elin Andersson,L,Västra Götalands läns västra,kvinna,1981,0,0,2,2,2026/27,4,100.0
-0150200797210,Mats Sander,M,Skåne läns västra,man,1963,0,0,2,2,2026/27,4,100.0
-0151793888627,Malin Malm,S,Västerbottens län,kvinna,1994,0,0,3,1,2026/27,4,100.0
-0155487380917,Kerstin Lundgren,C,Stockholms län,kvinna,1955,0,0,3,1,2026/27,4,100.0
-0161616238120,Lina Nordquist,L,Uppsala län,kvinna,1977,0,0,2,2,2026/27,4,100.0
-0163772273014,Anna Vedin,M,Västra Götalands läns västra,kvinna,1966,0,0,2,2,2026/27,4,100.0
-0174490514929,Marcus Andersson,S,Västra Götalands läns östra,man,1987,0,0,3,1,2026/27,4,100.0
-0174658004428,Ida Kors,SD,Jönköpings län,kvinna,1982,0,0,1,3,2026/27,4,100.0
-0176574413717,Robert Andersson Hammarstrand,S,Göteborgs kommun,man,1972,0,0,3,1,2026/27,4,100.0
-0178323535715,Johnny Svedin,SD,Kalmar län,man,1969,0,0,1,3,2026/27,4,100.0
-0183544538819,Patrik Jönsson,SD,Hallands län,man,1972,0,0,1,3,2026/27,4,100.0
-0184968091618,Jan Riise,MP,Hallands län,man,1957,0,0,2,2,2026/27,4,100.0
-0191189790215,Peter Ollén,M,Malmö kommun,man,1959,0,0,2,2,2026/27,4,100.0
+010392780417,Marie Olsson,S,Dalarnas län,kvinna,1967,0,0,6,1,2026/27,7,100.0
+0105632258713,Boriana Åberg,M,Skåne läns södra,kvinna,1968,0,0,5,2,2026/27,7,100.0
+010643534813,Eric Westroth,SD,Jönköpings län,man,1971,0,0,4,3,2026/27,7,100.0
+0109529900621,Andrea Kronvall,SD,Stockholms län,kvinna,1985,0,0,4,3,2026/27,7,100.0
+0111479807829,Anna Wallentheim,S,Skåne läns norra och östra,kvinna,1985,0,0,6,1,2026/27,7,100.0
+0111528589028,Jennie Bergius Eriksson,M,Västra Götalands läns norra,kvinna,1982,0,0,5,2,2026/27,7,100.0
+0112333043027,Rasmus Giertz,SD,Dalarnas län,man,1994,0,0,4,3,2026/27,7,100.0
+0119851690521,David Perez,SD,Uppsala län,man,1990,0,0,4,3,2026/27,7,100.0
+0130640724922,Clara Aranda,SD,Östergötlands län,kvinna,1988,0,0,4,3,2026/27,7,100.0
+0130789484021,Mattias Bäckström Johansson,SD,Kalmar län,man,1985,0,0,4,3,2026/27,7,100.0
+0132818093422,Rickard Nordin,C,Göteborgs kommun,man,1983,0,0,6,1,2026/27,7,100.0
+0133295889596,Marcus Willershausen,L,Stockholms län,man,2000,0,0,5,2,2026/27,7,100.0
+0139595721190,Samuel Pettersson,S,Norrbottens län,man,2001,0,0,6,1,2026/27,7,100.0
+0146133946627,Andreas Lennkvist Manriquez,V,Stockholms kommun,man,1994,0,0,3,4,2026/27,7,100.0
+014744660015,Mikael Damberg,S,Stockholms län,man,1971,0,0,6,1,2026/27,7,100.0
+0148424181819,Ann-Christine Frohm,SD,Kronobergs län,kvinna,1972,0,0,4,3,2026/27,7,100.0
+0148532412629,Willhelm Sundman,L,Örebro län,man,1992,0,0,5,2,2026/27,7,100.0
+014998255626,Elin Andersson,L,Västra Götalands läns västra,kvinna,1981,0,0,5,2,2026/27,7,100.0
+0150200797210,Mats Sander,M,Skåne läns västra,man,1963,0,0,5,2,2026/27,7,100.0
+0151793888627,Malin Malm,S,Västerbottens län,kvinna,1994,0,0,6,1,2026/27,7,100.0
+0155487380917,Kerstin Lundgren,C,Stockholms län,kvinna,1955,0,0,6,1,2026/27,7,100.0
+0161616238120,Lina Nordquist,L,Uppsala län,kvinna,1977,0,0,5,2,2026/27,7,100.0
+0163772273014,Anna Vedin,M,Västra Götalands läns västra,kvinna,1966,0,0,5,2,2026/27,7,100.0
+0174490514929,Marcus Andersson,S,Västra Götalands läns östra,man,1987,0,0,6,1,2026/27,7,100.0
+0174658004428,Ida Kors,SD,Jönköpings län,kvinna,1982,0,0,4,3,2026/27,7,100.0
+0176574413717,Robert Andersson Hammarstrand,S,Göteborgs kommun,man,1972,0,0,6,1,2026/27,7,100.0
+0178323535715,Johnny Svedin,SD,Kalmar län,man,1969,0,0,4,3,2026/27,7,100.0
+0183544538819,Patrik Jönsson,SD,Hallands län,man,1972,0,0,4,3,2026/27,7,100.0
+0184968091618,Jan Riise,MP,Hallands län,man,1957,0,0,3,4,2026/27,7,100.0
+0191189790215,Peter Ollén,M,Malmö kommun,man,1959,0,0,5,2,2026/27,7,100.0
 019430605328,Josefin Malmqvist,M,Stockholms län,kvinna,1987,0,0,0,1,2026/27,1,100.0
-0202577142527,Matheus Enholm,SD,Västra Götalands läns norra,man,1979,0,0,1,3,2026/27,4,100.0
-0203115394824,Andreas Ahlqvist,SD,Hallands län,man,1973,0,0,1,3,2026/27,4,100.0
-0203877548421,Malin Larsson,S,Västernorrlands län,kvinna,1980,0,0,3,1,2026/27,4,100.0
+0202577142527,Matheus Enholm,SD,Västra Götalands läns norra,man,1979,0,0,4,3,2026/27,7,100.0
+0203115394824,Andreas Ahlqvist,SD,Hallands län,man,1973,0,0,4,3,2026/27,7,100.0
+0203877548421,Malin Larsson,S,Västernorrlands län,kvinna,1980,0,0,6,1,2026/27,7,100.0
 0211757295524,Josef Fransson,SD,Västra Götalands läns östra,man,1978,0,0,0,1,2026/27,1,100.0
-02125451399,Emil Eneblad,SD,Uppsala län,man,2001,0,0,1,3,2026/27,4,100.0
-0218091322915,Tony Ring,M,Örebro län,man,1964,0,0,2,2,2026/27,4,100.0
-0222102752213,Stefan Olsson,M,Uppsala län,man,1968,0,0,2,2,2026/27,4,100.0
-0229627943828,Jytte Guteland,S,Stockholms kommun,kvinna,1979,0,0,3,1,2026/27,4,100.0
-0236799560811,Caroline Schmidt,C,Gävleborgs län,kvinna,1960,0,0,3,1,2026/27,4,100.0
-0242094381121,Sarkis Khatchadourian,S,Stockholms län,man,1997,0,0,3,1,2026/27,4,100.0
-0245113256029,Daniel Vencu Öhrlund Castro,S,Stockholms kommun,man,1994,0,0,3,1,2026/27,4,100.0
-0245468368228,Yusuf Aydin,KD,Stockholms län,man,1982,0,0,2,2,2026/27,4,100.0
-0248070824217,Lotta Högström,M,Stockholms kommun,kvinna,1962,0,0,2,2,2026/27,4,100.0
-0250583732424,Jesper Skalberg Karlsson,M,Gotlands län,man,1993,0,0,2,2,2026/27,4,100.0
-0251136832626,Muharrem Demirok,C,Östergötlands län,man,1976,0,0,3,1,2026/27,4,100.0
-025158809026,Ida Gabrielsson,V,Stockholms kommun,kvinna,1981,0,0,1,3,2026/27,4,100.0
-0254987712526,Katarina Bosetti-Kristoffersson,S,Västra Götalands läns västra,kvinna,1979,0,0,3,1,2026/27,4,100.0
-0256404677510,Cecilia Engström,KD,Skåne läns södra,kvinna,1972,0,0,2,2,2026/27,4,100.0
-0257313105220,Arber Gashi,S,Hallands län,man,1994,0,0,3,1,2026/27,4,100.0
-025931369428,Jonas Andersson,SD,Östergötlands län,man,1989,0,0,1,3,2026/27,4,100.0
-0261500266924,Sophia Granswed Baat,M,Stockholms kommun,kvinna,1986,0,0,2,2,2026/27,4,100.0
-0265240520811,Leif Gripestam,M,Stockholms län,man,1963,0,0,2,1,2026/27,3,100.0
-0271338654822,Ola Möller,S,Skåne läns västra,man,1983,0,0,3,1,2026/27,4,100.0
-0273506284025,Edward Riedl,M,Västerbottens län,man,1976,0,0,2,2,2026/27,4,100.0
-0274462857213,Petter Löberg,S,Västra Götalands läns södra,man,1968,0,0,3,1,2026/27,4,100.0
-0279488554424,Alexander Christiansson,SD,Västra Götalands läns västra,man,1981,0,0,1,3,2026/27,4,100.0
-027964311318,Karin Sundin,S,Örebro län,kvinna,1972,0,0,3,1,2026/27,4,100.0
-0283284978818,Markus Kallifatides,S,Stockholms kommun,man,1972,0,0,3,1,2026/27,4,100.0
-0287286742398,Alice Landerholm,M,Södermanlands län,kvinna,2003,0,0,2,2,2026/27,4,100.0
-0288073636613,Åsa Andersson,S,Uppsala län,kvinna,1971,0,0,3,1,2026/27,4,100.0
-028954589415,Ann-Sofie Alm,M,Västra Götalands läns norra,kvinna,1971,0,0,2,2,2026/27,4,100.0
-0294138886823,Martin Kinnunen,SD,Stockholms län,man,1983,0,0,1,3,2026/27,4,100.0
-0296384583518,Åsa Eriksson,S,Västmanlands län,kvinna,1972,0,0,3,1,2026/27,4,100.0
-0296399299324,Pär Gustafsson,L,Göteborgs kommun,man,1983,0,0,2,2,2026/27,4,100.0
-0296585987334,Emma Altenhammar,SD,Göteborgs kommun,kvinna,1998,0,0,1,3,2026/27,4,100.0
-030110584526,Caroline Täljeblad,V,Västerbottens län,kvinna,1986,0,0,1,3,2026/27,4,100.0
-0301987597720,Liza-Maria Norlin,KD,Västernorrlands län,kvinna,1980,0,0,2,2,2026/27,4,100.0
-0302393368216,Camilla Rinaldo Miller,KD,Jönköpings län,kvinna,1969,0,0,2,2,2026/27,4,100.0
-0305221682227,Anfal Mahdi,V,Malmö kommun,kvinna,1989,0,0,1,3,2026/27,4,100.0
-0308306375022,Roger Haddad,L,Västmanlands län,man,1978,0,0,2,2,2026/27,4,100.0
-0309480686522,Leila Ali Elmi,MP,Göteborgs kommun,kvinna,1988,0,0,2,2,2026/27,4,100.0
-0312613056828,Robin Lennartsson,SD,Värmlands län,man,1994,0,0,1,3,2026/27,4,100.0
-0315109717927,Karolina Widerberg,SD,Blekinge län,kvinna,1984,0,0,1,3,2026/27,4,100.0
-0315499690028,Teresa Carvalho,S,Östergötlands län,kvinna,1984,0,0,3,1,2026/27,4,100.0
-0316505710324,Janine Alm Ericson,MP,Västra Götalands läns västra,kvinna,1973,0,0,2,2,2026/27,4,100.0
-031744450126,Julia Algotsson,C,Västerbottens län,kvinna,1996,0,0,3,1,2026/27,4,100.0
-0327372175911,Fredrik Ahlstedt,M,Uppsala län,man,1968,0,0,2,2,2026/27,4,100.0
-0331791853028,Yasmine Eriksson,SD,Jönköpings län,kvinna,1989,0,0,1,3,2026/27,4,100.0
-0333193598116,Bo Broman,SD,Skåne läns västra,man,1969,0,0,1,3,2026/27,4,100.0
-0338088431726,Sara Gille,SD,Västerbottens län,kvinna,1981,0,0,1,3,2026/27,4,100.0
-033935884729,Martina Johansson,C,Södermanlands län,kvinna,1975,0,0,3,1,2026/27,4,100.0
-0339894357417,Jennie Nilsson,S,Hallands län,kvinna,1972,0,0,3,1,2026/27,4,100.0
-0344222203323,Dennis Dioukarev,SD,Göteborgs kommun,man,1993,0,0,1,3,2026/27,4,100.0
-0348035469126,Annelie Hastig Olsson,M,Västra Götalands läns södra,kvinna,1974,0,0,2,2,2026/27,4,100.0
-0356608320529,Johanna Holmdahl,KD,Göteborgs kommun,kvinna,1982,0,0,2,2,2026/27,4,100.0
-0357184489817,Terje Skaarnes,SD,Västra Götalands läns norra,man,1972,0,0,1,3,2026/27,4,100.0
-0360187680814,Mats Hellhoff,SD,Västernorrlands län,man,1954,0,0,1,3,2026/27,4,100.0
-0362791199110,Erik Nygårds,L,Jönköpings län,man,1965,0,0,2,2,2026/27,4,100.0
-0366024425628,Amanda Thonander,M,Skåne läns södra,kvinna,1996,0,0,2,2,2026/27,4,100.0
-0369212790927,Sofia Skönnbrink,S,Värmlands län,kvinna,1991,0,0,3,1,2026/27,4,100.0
-0372414474424,Oskar Svärd,M,Örebro län,man,1995,0,0,2,2,2026/27,4,100.0
-037561614928,Lawen Redar,S,Stockholms kommun,kvinna,1989,0,0,3,1,2026/27,4,100.0
-0376353897112,Leif Nysmed,S,Stockholms län,man,1970,0,0,3,1,2026/27,4,100.0
-0376395541120,Joakim Sandell,S,Malmö kommun,man,1975,0,0,3,1,2026/27,4,100.0
-0378597308227,Camilla Brodin,KD,Stockholms kommun,kvinna,1979,0,0,2,2,2026/27,4,100.0
-0385243834229,Olle Olson,M,Kalmar län,man,1994,0,0,2,2,2026/27,4,100.0
-0386985788291,Edmir Mehmeti,M,Skåne läns södra,man,2001,0,0,2,1,2026/27,3,100.0
-0387230530213,Crister Carlsson,M,Dalarnas län,man,1963,0,0,2,2,2026/27,4,100.0
-0388994689418,Malin Östh,V,Östergötlands län,kvinna,1972,0,0,1,3,2026/27,4,100.0
-0389220391128,Christian Carlsson,KD,Stockholms län,man,1987,0,0,2,2,2026/27,4,100.0
-039102787629,Oliver Rosengren,M,Kronobergs län,man,1992,0,0,2,2,2026/27,4,100.0
-0392083468315,Lotta Björklund,M,Värmlands län,kvinna,1969,0,0,2,2,2026/27,4,100.0
-0396903353424,Martin Hallander,KD,Skåne läns norra och östra,man,1993,0,0,2,2,2026/27,4,100.0
-0397073482210,Camilla Mårtensen,L,Skåne läns södra,kvinna,1970,0,0,2,2,2026/27,4,100.0
-0398471271026,Frida Tånghag,V,Göteborgs kommun,kvinna,1989,0,0,1,3,2026/27,4,100.0
-0400092969612,Katarina Berggren,S,Stockholms län,kvinna,1968,0,0,3,1,2026/27,4,100.0
-0404025497421,Birgitta Ohlsson,C,Stockholms kommun,kvinna,1975,0,0,3,1,2026/27,4,100.0
-0405594274208,Ewa Pihl Krabbe,S,Skåne läns norra och östra,kvinna,1947,0,0,3,1,2026/27,4,100.0
-0406831930624,Henrik Vinge,SD,Stockholms kommun,man,1988,0,0,1,3,2026/27,4,100.0
-0407051482520,Carl Wiktor Svensson,KD,Kalmar län,man,1990,0,2,0,2,2026/27,4,50.0
-0407081382317,Anna-Caren Sätherberg,S,Jämtlands län,kvinna,1964,0,0,3,1,2026/27,4,100.0
-0410231576416,Lars Johnsson,M,Skåne läns norra och östra,man,1964,0,0,2,2,2026/27,4,100.0
-0410640630411,Ulrik Nilsson,M,Västra Götalands läns södra,man,1963,0,0,2,2,2026/27,4,100.0
-0411459873625,Hanna Gunnarsson,V,Skåne läns södra,kvinna,1983,0,0,1,3,2026/27,4,100.0
-041849602329,Jennifer Merelaid Hankins,V,Göteborgs kommun,kvinna,1985,0,0,1,3,2026/27,4,100.0
+02125451399,Emil Eneblad,SD,Uppsala län,man,2001,0,0,4,3,2026/27,7,100.0
+0218091322915,Tony Ring,M,Örebro län,man,1964,0,0,5,2,2026/27,7,100.0
+0222102752213,Stefan Olsson,M,Uppsala län,man,1968,0,0,5,2,2026/27,7,100.0
+0229627943828,Jytte Guteland,S,Stockholms kommun,kvinna,1979,0,0,6,1,2026/27,7,100.0
+0236799560811,Caroline Schmidt,C,Gävleborgs län,kvinna,1960,0,0,6,1,2026/27,7,100.0
+0242094381121,Sarkis Khatchadourian,S,Stockholms län,man,1997,0,0,6,1,2026/27,7,100.0
+0245113256029,Daniel Vencu Öhrlund Castro,S,Stockholms kommun,man,1994,0,0,6,1,2026/27,7,100.0
+0245468368228,Yusuf Aydin,KD,Stockholms län,man,1982,0,3,2,2,2026/27,7,57.14285714285714
+0248070824217,Lotta Högström,M,Stockholms kommun,kvinna,1962,0,0,5,2,2026/27,7,100.0
+0250583732424,Jesper Skalberg Karlsson,M,Gotlands län,man,1993,0,0,5,2,2026/27,7,100.0
+0251136832626,Muharrem Demirok,C,Östergötlands län,man,1976,0,0,6,1,2026/27,7,100.0
+025158809026,Ida Gabrielsson,V,Stockholms kommun,kvinna,1981,0,0,3,4,2026/27,7,100.0
+0254987712526,Katarina Bosetti-Kristoffersson,S,Västra Götalands läns västra,kvinna,1979,0,0,6,1,2026/27,7,100.0
+0256404677510,Cecilia Engström,KD,Skåne läns södra,kvinna,1972,0,0,5,2,2026/27,7,100.0
+0257313105220,Arber Gashi,S,Hallands län,man,1994,0,0,6,1,2026/27,7,100.0
+025931369428,Jonas Andersson,SD,Östergötlands län,man,1989,0,0,4,3,2026/27,7,100.0
+0261500266924,Sophia Granswed Baat,M,Stockholms kommun,kvinna,1986,0,0,5,2,2026/27,7,100.0
+0265240520811,Leif Gripestam,M,Stockholms län,man,1963,0,0,5,1,2026/27,6,100.0
+0271338654822,Ola Möller,S,Skåne läns västra,man,1983,0,0,6,1,2026/27,7,100.0
+0273506284025,Edward Riedl,M,Västerbottens län,man,1976,0,0,5,2,2026/27,7,100.0
+0274462857213,Petter Löberg,S,Västra Götalands läns södra,man,1968,0,0,6,1,2026/27,7,100.0
+0279488554424,Alexander Christiansson,SD,Västra Götalands läns västra,man,1981,0,0,4,3,2026/27,7,100.0
+027964311318,Karin Sundin,S,Örebro län,kvinna,1972,0,0,6,1,2026/27,7,100.0
+0283284978818,Markus Kallifatides,S,Stockholms kommun,man,1972,0,0,6,1,2026/27,7,100.0
+0287286742398,Alice Landerholm,M,Södermanlands län,kvinna,2003,0,0,5,2,2026/27,7,100.0
+0288073636613,Åsa Andersson,S,Uppsala län,kvinna,1971,0,0,6,1,2026/27,7,100.0
+028954589415,Ann-Sofie Alm,M,Västra Götalands läns norra,kvinna,1971,0,0,5,2,2026/27,7,100.0
+0294138886823,Martin Kinnunen,SD,Stockholms län,man,1983,0,0,4,3,2026/27,7,100.0
+0296384583518,Åsa Eriksson,S,Västmanlands län,kvinna,1972,0,0,6,1,2026/27,7,100.0
+0296399299324,Pär Gustafsson,L,Göteborgs kommun,man,1983,0,0,5,2,2026/27,7,100.0
+0296585987334,Emma Altenhammar,SD,Göteborgs kommun,kvinna,1998,0,0,4,3,2026/27,7,100.0
+030110584526,Caroline Täljeblad,V,Västerbottens län,kvinna,1986,0,0,3,4,2026/27,7,100.0
+0301987597720,Liza-Maria Norlin,KD,Västernorrlands län,kvinna,1980,0,0,5,2,2026/27,7,100.0
+0302393368216,Camilla Rinaldo Miller,KD,Jönköpings län,kvinna,1969,0,0,5,2,2026/27,7,100.0
+0305221682227,Anfal Mahdi,V,Malmö kommun,kvinna,1989,0,0,3,4,2026/27,7,100.0
+0308306375022,Roger Haddad,L,Västmanlands län,man,1978,0,0,5,2,2026/27,7,100.0
+0309480686522,Leila Ali Elmi,MP,Göteborgs kommun,kvinna,1988,0,0,3,4,2026/27,7,100.0
+0312613056828,Robin Lennartsson,SD,Värmlands län,man,1994,0,0,4,3,2026/27,7,100.0
+0315109717927,Karolina Widerberg,SD,Blekinge län,kvinna,1984,0,0,4,3,2026/27,7,100.0
+0315499690028,Teresa Carvalho,S,Östergötlands län,kvinna,1984,0,0,6,1,2026/27,7,100.0
+0316505710324,Janine Alm Ericson,MP,Västra Götalands läns västra,kvinna,1973,0,0,3,4,2026/27,7,100.0
+031744450126,Julia Algotsson,C,Västerbottens län,kvinna,1996,0,3,3,1,2026/27,7,57.14285714285714
+0327372175911,Fredrik Ahlstedt,M,Uppsala län,man,1968,0,0,5,2,2026/27,7,100.0
+0331791853028,Yasmine Eriksson,SD,Jönköpings län,kvinna,1989,0,0,4,3,2026/27,7,100.0
+0333193598116,Bo Broman,SD,Skåne läns västra,man,1969,0,0,4,3,2026/27,7,100.0
+0338088431726,Sara Gille,SD,Västerbottens län,kvinna,1981,0,0,4,3,2026/27,7,100.0
+033935884729,Martina Johansson,C,Södermanlands län,kvinna,1975,0,0,6,1,2026/27,7,100.0
+0339894357417,Jennie Nilsson,S,Hallands län,kvinna,1972,0,0,6,1,2026/27,7,100.0
+0344222203323,Dennis Dioukarev,SD,Göteborgs kommun,man,1993,0,0,4,3,2026/27,7,100.0
+0348035469126,Annelie Hastig Olsson,M,Västra Götalands läns södra,kvinna,1974,0,0,5,2,2026/27,7,100.0
+0356608320529,Johanna Holmdahl,KD,Göteborgs kommun,kvinna,1982,0,0,5,2,2026/27,7,100.0
+0357184489817,Terje Skaarnes,SD,Västra Götalands läns norra,man,1972,0,0,4,3,2026/27,7,100.0
+0360187680814,Mats Hellhoff,SD,Västernorrlands län,man,1954,0,0,4,3,2026/27,7,100.0
+0362791199110,Erik Nygårds,L,Jönköpings län,man,1965,0,0,5,2,2026/27,7,100.0
+0366024425628,Amanda Thonander,M,Skåne läns södra,kvinna,1996,0,0,5,2,2026/27,7,100.0
+0369212790927,Sofia Skönnbrink,S,Värmlands län,kvinna,1991,0,0,6,1,2026/27,7,100.0
+0372414474424,Oskar Svärd,M,Örebro län,man,1995,0,0,5,2,2026/27,7,100.0
+037561614928,Lawen Redar,S,Stockholms kommun,kvinna,1989,0,0,6,1,2026/27,7,100.0
+0376353897112,Leif Nysmed,S,Stockholms län,man,1970,0,0,6,1,2026/27,7,100.0
+0376395541120,Joakim Sandell,S,Malmö kommun,man,1975,0,0,6,1,2026/27,7,100.0
+0378597308227,Camilla Brodin,KD,Stockholms kommun,kvinna,1979,0,0,5,2,2026/27,7,100.0
+0385243834229,Olle Olson,M,Kalmar län,man,1994,0,0,5,2,2026/27,7,100.0
+0386985788291,Edmir Mehmeti,M,Skåne läns södra,man,2001,0,0,5,1,2026/27,6,100.0
+0387230530213,Crister Carlsson,M,Dalarnas län,man,1963,0,0,5,2,2026/27,7,100.0
+0388994689418,Malin Östh,V,Östergötlands län,kvinna,1972,0,0,3,4,2026/27,7,100.0
+0389220391128,Christian Carlsson,KD,Stockholms län,man,1987,0,0,5,2,2026/27,7,100.0
+039102787629,Oliver Rosengren,M,Kronobergs län,man,1992,0,0,5,2,2026/27,7,100.0
+0392083468315,Lotta Björklund,M,Värmlands län,kvinna,1969,0,0,5,2,2026/27,7,100.0
+0396903353424,Martin Hallander,KD,Skåne läns norra och östra,man,1993,0,0,5,2,2026/27,7,100.0
+0397073482210,Camilla Mårtensen,L,Skåne läns södra,kvinna,1970,0,0,5,2,2026/27,7,100.0
+0398471271026,Frida Tånghag,V,Göteborgs kommun,kvinna,1989,0,0,3,4,2026/27,7,100.0
+0400092969612,Katarina Berggren,S,Stockholms län,kvinna,1968,0,0,6,1,2026/27,7,100.0
+0404025497421,Birgitta Ohlsson,C,Stockholms kommun,kvinna,1975,0,0,6,1,2026/27,7,100.0
+0405594274208,Ewa Pihl Krabbe,S,Skåne läns norra och östra,kvinna,1947,0,0,6,1,2026/27,7,100.0
+0406831930624,Henrik Vinge,SD,Stockholms kommun,man,1988,0,0,4,3,2026/27,7,100.0
+0407051482520,Carl Wiktor Svensson,KD,Kalmar län,man,1990,0,2,3,2,2026/27,7,71.42857142857143
+0407081382317,Anna-Caren Sätherberg,S,Jämtlands län,kvinna,1964,0,0,6,1,2026/27,7,100.0
+0410231576416,Lars Johnsson,M,Skåne läns norra och östra,man,1964,0,0,5,2,2026/27,7,100.0
+0410640630411,Ulrik Nilsson,M,Västra Götalands läns södra,man,1963,0,0,5,2,2026/27,7,100.0
+0411459873625,Hanna Gunnarsson,V,Skåne läns södra,kvinna,1983,0,0,3,4,2026/27,7,100.0
+041849602329,Jennifer Merelaid Hankins,V,Göteborgs kommun,kvinna,1985,0,0,3,4,2026/27,7,100.0
 0418929039326,Patrik Lundqvist,S,Gävleborgs län,man,1984,0,0,1,0,2026/27,1,100.0
-0421274796317,Tomas Brandberg,SD,Västmanlands län,man,1972,0,0,1,3,2026/27,4,100.0
-0424875227496,Linnea Bengtsson,V,Skåne läns norra och östra,kvinna,2000,0,0,1,3,2026/27,4,100.0
-0425115010020,Kadir Kasirga,S,Stockholms kommun,man,1975,0,0,3,1,2026/27,4,100.0
-0430865615328,Linda Lindberg,SD,Skåne läns västra,kvinna,1974,0,0,1,3,2026/27,4,100.0
-043324610819,Liselotte Forsberg,SD,Dalarnas län,kvinna,1972,0,0,1,3,2026/27,4,100.0
-0440225263920,Robert Olesen,S,Kronobergs län,man,1975,0,0,3,1,2026/27,4,100.0
-0440673458216,Ulrika Liljeberg,C,Dalarnas län,kvinna,1969,0,0,3,1,2026/27,4,100.0
-0443963997818,Michael Melby,S,Västra Götalands läns norra,man,1969,0,0,3,1,2026/27,4,100.0
-0448973586529,Adrian Magnusson,S,Skåne läns södra,man,1994,0,0,3,1,2026/27,4,100.0
-0450884035316,Åsa Kullgren,S,Södermanlands län,kvinna,1971,0,0,2,1,2026/27,3,100.0
-0452755722723,Björn Söder,SD,Skåne läns norra och östra,man,1976,0,2,0,2,2026/27,4,50.0
-0456522027421,Linnéa Wickman,S,Gävleborgs län,kvinna,1992,0,0,3,1,2026/27,4,100.0
-04571388712,Adam Reuterskiöld,M,Stockholms län,man,1966,0,0,2,2,2026/27,4,100.0
-0461127104120,Jonas Cronert,S,Västmanlands län,man,1980,0,0,3,1,2026/27,4,100.0
-0466653728712,Denis Begic,S,Örebro län,man,1970,0,0,3,1,2026/27,4,100.0
-0468904415516,Cilla Dahl Andersson,S,Skåne läns södra,kvinna,1971,0,0,3,1,2026/27,4,100.0
-0468956880528,Mikael Eskilandersson,SD,Skåne läns norra och östra,man,1977,0,0,1,3,2026/27,4,100.0
-0469084171710,Ulrika Westerlund,MP,Stockholms kommun,kvinna,1972,0,0,2,2,2026/27,4,100.0
-0469384565811,Anders Alftberg,SD,Västra Götalands läns södra,man,1973,0,0,1,3,2026/27,4,100.0
-0471368553320,Ylva Stadell,S,Uppsala län,kvinna,1982,0,0,3,1,2026/27,4,100.0
-0471642162218,Magnus Johansson,S,Blekinge län,man,1967,0,0,3,1,2026/27,4,100.0
-0472349361027,Kalle Olsson,S,Jämtlands län,man,1984,0,0,3,1,2026/27,4,100.0
-0473783431010,Morgan Johansson,S,Skåne läns södra,man,1970,0,0,3,1,2026/27,4,100.0
-0474290584024,Azadeh Rojhan,S,Stockholms län,kvinna,1986,0,0,3,1,2026/27,4,100.0
-0477456392722,Tobias Smedberg,V,Uppsala län,man,1978,0,0,1,3,2026/27,4,100.0
-0482689573825,Björn Wiechel,S,Västerbottens län,man,1983,0,0,3,1,2026/27,4,100.0
-0492644357418,Per Söderlund,SD,Örebro län,man,1972,0,0,1,3,2026/27,4,100.0
-0493411956313,Katarina Stenström Ros,M,Dalarnas län,kvinna,1966,0,0,2,2,2026/27,4,100.0
-0494242537816,Hans Eklind,KD,Örebro län,man,1966,0,0,2,2,2026/27,4,100.0
-0494843794418,Martin Ådahl,C,Stockholms kommun,man,1969,0,0,3,1,2026/27,4,100.0
-0496341906327,Alexandra Völker,S,Stockholms län,kvinna,1989,0,0,3,1,2026/27,4,100.0
-0497217816024,Markus Selin,S,Stockholms län,man,1978,0,0,3,1,2026/27,4,100.0
-0499755198526,Mattias Jonsson,S,Göteborgs kommun,man,1974,0,0,3,1,2026/27,4,100.0
-0502490570219,Kristina Axén Olin,M,Stockholms kommun,kvinna,1962,0,0,2,2,2026/27,4,100.0
-0503029811325,David Josefsson,M,Göteborgs kommun,man,1983,0,0,2,2,2026/27,4,100.0
-0504851635310,Daniel Helldén,MP,Stockholms kommun,man,1965,0,0,2,2,2026/27,4,100.0
-0506482805418,Isak From,S,Västerbottens län,man,1967,0,0,3,1,2026/27,4,100.0
+0421274796317,Tomas Brandberg,SD,Västmanlands län,man,1972,0,0,4,3,2026/27,7,100.0
+0424875227496,Linnea Bengtsson,V,Skåne läns norra och östra,kvinna,2000,0,0,3,4,2026/27,7,100.0
+0425115010020,Kadir Kasirga,S,Stockholms kommun,man,1975,0,0,6,1,2026/27,7,100.0
+0430865615328,Linda Lindberg,SD,Skåne läns västra,kvinna,1974,0,0,4,3,2026/27,7,100.0
+043324610819,Liselotte Forsberg,SD,Dalarnas län,kvinna,1972,0,0,4,3,2026/27,7,100.0
+0440225263920,Robert Olesen,S,Kronobergs län,man,1975,0,0,6,1,2026/27,7,100.0
+0440673458216,Ulrika Liljeberg,C,Dalarnas län,kvinna,1969,0,0,6,1,2026/27,7,100.0
+0443963997818,Michael Melby,S,Västra Götalands läns norra,man,1969,0,0,6,1,2026/27,7,100.0
+0448973586529,Adrian Magnusson,S,Skåne läns södra,man,1994,0,0,6,1,2026/27,7,100.0
+0450884035316,Åsa Kullgren,S,Södermanlands län,kvinna,1971,0,0,5,1,2026/27,6,100.0
+0452755722723,Björn Söder,SD,Skåne läns norra och östra,man,1976,0,2,3,2,2026/27,7,71.42857142857143
+0456522027421,Linnéa Wickman,S,Gävleborgs län,kvinna,1992,0,0,6,1,2026/27,7,100.0
+04571388712,Adam Reuterskiöld,M,Stockholms län,man,1966,0,0,5,2,2026/27,7,100.0
+0461127104120,Jonas Cronert,S,Västmanlands län,man,1980,0,0,6,1,2026/27,7,100.0
+0466653728712,Denis Begic,S,Örebro län,man,1970,0,0,6,1,2026/27,7,100.0
+0468904415516,Cilla Dahl Andersson,S,Skåne läns södra,kvinna,1971,0,0,6,1,2026/27,7,100.0
+0468956880528,Mikael Eskilandersson,SD,Skåne läns norra och östra,man,1977,0,0,4,3,2026/27,7,100.0
+0469084171710,Ulrika Westerlund,MP,Stockholms kommun,kvinna,1972,0,0,3,4,2026/27,7,100.0
+0469384565811,Anders Alftberg,SD,Västra Götalands läns södra,man,1973,0,0,4,3,2026/27,7,100.0
+0471368553320,Ylva Stadell,S,Uppsala län,kvinna,1982,0,0,6,1,2026/27,7,100.0
+0471642162218,Magnus Johansson,S,Blekinge län,man,1967,0,0,6,1,2026/27,7,100.0
+0472349361027,Kalle Olsson,S,Jämtlands län,man,1984,0,0,6,1,2026/27,7,100.0
+0473783431010,Morgan Johansson,S,Skåne läns södra,man,1970,0,0,6,1,2026/27,7,100.0
+0474290584024,Azadeh Rojhan,S,Stockholms län,kvinna,1986,0,0,6,1,2026/27,7,100.0
+0477456392722,Tobias Smedberg,V,Uppsala län,man,1978,0,0,3,4,2026/27,7,100.0
+0482689573825,Björn Wiechel,S,Västerbottens län,man,1983,0,0,6,1,2026/27,7,100.0
+0492644357418,Per Söderlund,SD,Örebro län,man,1972,0,0,4,3,2026/27,7,100.0
+0493411956313,Katarina Stenström Ros,M,Dalarnas län,kvinna,1966,0,0,5,2,2026/27,7,100.0
+0494242537816,Hans Eklind,KD,Örebro län,man,1966,0,0,5,2,2026/27,7,100.0
+0494843794418,Martin Ådahl,C,Stockholms kommun,man,1969,0,0,6,1,2026/27,7,100.0
+0496341906327,Alexandra Völker,S,Stockholms län,kvinna,1989,0,0,6,1,2026/27,7,100.0
+0497217816024,Markus Selin,S,Stockholms län,man,1978,0,0,6,1,2026/27,7,100.0
+0499755198526,Mattias Jonsson,S,Göteborgs kommun,man,1974,0,0,6,1,2026/27,7,100.0
+0502490570219,Kristina Axén Olin,M,Stockholms kommun,kvinna,1962,0,0,5,2,2026/27,7,100.0
+0503029811325,David Josefsson,M,Göteborgs kommun,man,1983,0,0,5,2,2026/27,7,100.0
+0504851635310,Daniel Helldén,MP,Stockholms kommun,man,1965,0,0,3,4,2026/27,7,100.0
+0506482805418,Isak From,S,Västerbottens län,man,1967,0,0,6,1,2026/27,7,100.0
 0506806850221,Linus Bylund,SD,Stockholms kommun,man,1978,0,0,1,3,2026/27,4,100.0
-0509415296421,Kjell-Arne Ottosson,KD,Värmlands län,man,1975,0,0,2,2,2026/27,4,100.0
-0509830681123,Ida Karkiainen,S,Norrbottens län,kvinna,1988,0,0,3,1,2026/27,4,100.0
-051207517226,Jimmie Åkesson,SD,Örebro län,man,1979,0,0,1,3,2026/27,4,100.0
-0512645510895,Jonathan Svensson,S,Västra Götalands läns norra,man,2000,0,0,3,1,2026/27,4,100.0
-0515213566019,Lars Isacsson,S,Dalarnas län,man,1970,0,0,3,1,2026/27,4,100.0
-0518502642228,Marcus Fridlund,S,Kalmar län,man,1992,0,0,3,1,2026/27,4,100.0
-0521260619925,Sofia Amloh,S,Södermanlands län,kvinna,1986,0,0,3,1,2026/27,4,100.0
-0522054204918,Mattias Karlsson,M,Norrbottens län,man,1972,0,0,2,2,2026/27,4,100.0
-0523902030928,Aylin Nouri,S,Västra Götalands läns västra,kvinna,1992,0,0,3,1,2026/27,4,100.0
-0525562399327,Caroline Högström,M,Västmanlands län,kvinna,1991,0,0,2,2,2026/27,4,100.0
-0525766480025,Emil Högberg,S,Stockholms län,man,1976,0,0,3,1,2026/27,4,100.0
-0526748040023,Ludvig Aspling,SD,Stockholms län,man,1983,0,0,1,3,2026/27,4,100.0
-0530395429228,Maria Forsberg,V,Södermanlands län,kvinna,1974,0,0,1,3,2026/27,4,100.0
-0533104339313,Merit Frost Lindberg,M,Stockholms kommun,kvinna,1973,0,0,2,2,2026/27,4,100.0
-0538387395826,Mats Green,M,Jönköpings län,man,1979,0,0,2,2,2026/27,4,100.0
-0541314446913,Susanne Wahlström,M,Jönköpings län,kvinna,1973,0,0,2,2,2026/27,4,100.0
+0509415296421,Kjell-Arne Ottosson,KD,Värmlands län,man,1975,0,0,5,2,2026/27,7,100.0
+0509830681123,Ida Karkiainen,S,Norrbottens län,kvinna,1988,0,0,6,1,2026/27,7,100.0
+051207517226,Jimmie Åkesson,SD,Örebro län,man,1979,0,0,4,3,2026/27,7,100.0
+0512645510895,Jonathan Svensson,S,Västra Götalands läns norra,man,2000,0,0,6,1,2026/27,7,100.0
+0515213566019,Lars Isacsson,S,Dalarnas län,man,1970,0,0,6,1,2026/27,7,100.0
+0518502642228,Marcus Fridlund,S,Kalmar län,man,1992,0,0,6,1,2026/27,7,100.0
+0521260619925,Sofia Amloh,S,Södermanlands län,kvinna,1986,0,0,6,1,2026/27,7,100.0
+0522054204918,Mattias Karlsson,M,Norrbottens län,man,1972,0,0,5,2,2026/27,7,100.0
+0522240580423,Arin Karapet,SD,Stockholms kommun,man,1988,0,0,3,0,2026/27,3,100.0
+0523902030928,Aylin Nouri,S,Västra Götalands läns västra,kvinna,1992,0,0,6,1,2026/27,7,100.0
+0525562399327,Caroline Högström,M,Västmanlands län,kvinna,1991,0,0,5,2,2026/27,7,100.0
+0525766480025,Emil Högberg,S,Stockholms län,man,1976,0,0,6,1,2026/27,7,100.0
+0526748040023,Ludvig Aspling,SD,Stockholms län,man,1983,0,0,4,3,2026/27,7,100.0
+0530395429228,Maria Forsberg,V,Södermanlands län,kvinna,1974,0,0,3,4,2026/27,7,100.0
+0533104339313,Merit Frost Lindberg,M,Stockholms kommun,kvinna,1973,0,0,5,2,2026/27,7,100.0
+0538387395826,Mats Green,M,Jönköpings län,man,1979,0,0,5,2,2026/27,7,100.0
+0541314446913,Susanne Wahlström,M,Jönköpings län,kvinna,1973,0,0,5,2,2026/27,7,100.0
 0542980071622,Alexander Rosenberg,M,Stockholms län,man,1988,0,0,0,1,2026/27,1,100.0
-0545733815610,Patrick Reslow,SD,Malmö kommun,man,1970,0,0,1,3,2026/27,4,100.0
-0546731406922,Rebecka Le Moine,MP,Östergötlands län,kvinna,1990,0,0,2,2,2026/27,4,100.0
-055257333723,Oscar Sjöstedt,SD,Västmanlands län,man,1981,0,0,1,3,2026/27,4,100.0
-0554852839719,Mikael Dahlkvist,S,Värmlands län,man,1967,0,0,3,1,2026/27,4,100.0
-0555046239394,Denice Westerberg,SD,Västra Götalands läns södra,kvinna,2002,0,0,1,3,2026/27,4,100.0
-0557180142229,Fredrik Lindahl,SD,Stockholms län,man,1987,0,0,1,3,2026/27,4,100.0
-0560529926022,Nila Vikhe Patil,MP,Stockholms kommun,kvinna,1985,0,0,2,2,2026/27,4,100.0
-0564126739422,Åsa Coenraads,M,Blekinge län,kvinna,1978,0,0,2,2,2026/27,4,100.0
-0575282798912,Charlotte Broberg,M,Stockholms kommun,kvinna,1968,0,0,2,2,2026/27,4,100.0
-0576122429317,Martin Melin,L,Stockholms kommun,man,1967,0,0,2,2,2026/27,4,100.0
-058441394428,David Höglund Velasquez,V,Västra Götalands läns norra,man,1989,0,0,1,3,2026/27,4,100.0
-0587736055221,Niels Paarup-Petersen,C,Malmö kommun,man,1978,0,0,3,1,2026/27,4,100.0
-0588277881928,Mohamed Abdukani,MP,Södermanlands län,man,1979,0,0,2,2,2026/27,4,100.0
-0588282566419,Lars Beckman,M,Gävleborgs län,man,1967,0,0,2,2,2026/27,4,100.0
-0589561178823,Peter Hedberg,S,Västernorrlands län,man,1990,0,0,3,1,2026/27,4,100.0
-0591055036519,Mauricio Rojas,L,Skåne läns västra,man,1950,0,0,2,2,2026/27,4,100.0
-0592345073323,Anna af Sillén,M,Södermanlands län,kvinna,1976,0,0,2,2,2026/27,4,100.0
-0600069352021,Fredrik Kärrholm,M,Stockholms län,man,1985,0,0,2,2,2026/27,4,100.0
-0600282147125,Amanda Lindblad,S,Västmanlands län,kvinna,1991,0,0,3,1,2026/27,4,100.0
-0602744999917,Elisabeth Thand Ringqvist,C,Stockholms kommun,kvinna,1972,0,0,3,1,2026/27,4,100.0
-0604604418610,Jacob Risberg,MP,Uppsala län,man,1972,0,1,2,1,2026/27,4,75.0
-0604811710522,Ida Drougge,M,Stockholms län,kvinna,1990,0,0,2,2,2026/27,4,100.0
-0607691439013,Karin Enström,M,Stockholms län,kvinna,1966,0,0,2,2,2026/27,4,100.0
-0613012481513,Elise Ryder Wikén,M,Jämtlands län,kvinna,1968,0,0,2,2,2026/27,4,100.0
-0613297818326,Mathias Tegnér,S,Stockholms län,man,1979,0,0,3,1,2026/27,4,100.0
-0613869444326,Talla Alkurdi,S,Stockholms kommun,kvinna,1984,0,0,3,1,2026/27,4,100.0
-061508745820,Daniel Bernmar,V,Göteborgs kommun,man,1982,0,0,1,3,2026/27,4,100.0
+0545733815610,Patrick Reslow,SD,Malmö kommun,man,1970,0,3,1,3,2026/27,7,57.14285714285714
+0546731406922,Rebecka Le Moine,MP,Östergötlands län,kvinna,1990,0,0,3,4,2026/27,7,100.0
+055257333723,Oscar Sjöstedt,SD,Västmanlands län,man,1981,0,0,4,3,2026/27,7,100.0
+0554852839719,Mikael Dahlkvist,S,Värmlands län,man,1967,0,0,6,1,2026/27,7,100.0
+0555046239394,Denice Westerberg,SD,Västra Götalands läns södra,kvinna,2002,0,0,4,3,2026/27,7,100.0
+0557180142229,Fredrik Lindahl,SD,Stockholms län,man,1987,0,0,4,3,2026/27,7,100.0
+0560529926022,Nila Vikhe Patil,MP,Stockholms kommun,kvinna,1985,0,0,3,4,2026/27,7,100.0
+0564126739422,Åsa Coenraads,M,Blekinge län,kvinna,1978,0,0,5,2,2026/27,7,100.0
+0575282798912,Charlotte Broberg,M,Stockholms kommun,kvinna,1968,0,0,5,2,2026/27,7,100.0
+0576122429317,Martin Melin,L,Stockholms kommun,man,1967,0,0,5,2,2026/27,7,100.0
+058441394428,David Höglund Velasquez,V,Västra Götalands läns norra,man,1989,0,0,3,4,2026/27,7,100.0
+0587736055221,Niels Paarup-Petersen,C,Malmö kommun,man,1978,0,0,6,1,2026/27,7,100.0
+0588277881928,Mohamed Abdukani,MP,Södermanlands län,man,1979,0,0,3,4,2026/27,7,100.0
+0588282566419,Lars Beckman,M,Gävleborgs län,man,1967,0,0,5,2,2026/27,7,100.0
+0589561178823,Peter Hedberg,S,Västernorrlands län,man,1990,0,0,6,1,2026/27,7,100.0
+0591055036519,Mauricio Rojas,L,Skåne läns västra,man,1950,0,0,5,2,2026/27,7,100.0
+0592345073323,Anna af Sillén,M,Södermanlands län,kvinna,1976,0,0,5,2,2026/27,7,100.0
+0600069352021,Fredrik Kärrholm,M,Stockholms län,man,1985,0,0,5,2,2026/27,7,100.0
+0600282147125,Amanda Lindblad,S,Västmanlands län,kvinna,1991,0,0,6,1,2026/27,7,100.0
+0602744999917,Elisabeth Thand Ringqvist,C,Stockholms kommun,kvinna,1972,0,3,3,1,2026/27,7,57.14285714285714
+0604604418610,Jacob Risberg,MP,Uppsala län,man,1972,0,1,3,3,2026/27,7,85.71428571428572
+0604811710522,Ida Drougge,M,Stockholms län,kvinna,1990,0,0,5,2,2026/27,7,100.0
+0607691439013,Karin Enström,M,Stockholms län,kvinna,1966,0,0,5,2,2026/27,7,100.0
+0613012481513,Elise Ryder Wikén,M,Jämtlands län,kvinna,1968,0,0,5,2,2026/27,7,100.0
+0613297818326,Mathias Tegnér,S,Stockholms län,man,1979,0,0,6,1,2026/27,7,100.0
+0613869444326,Talla Alkurdi,S,Stockholms kommun,kvinna,1984,0,0,6,1,2026/27,7,100.0
+061508745820,Daniel Bernmar,V,Göteborgs kommun,man,1982,0,0,3,4,2026/27,7,100.0
 0616721755222,Louise Meijer,M,Skåne läns södra,kvinna,1990,0,0,0,1,2026/27,1,100.0
-0618259964316,Peter Eriksson,SD,Jämtlands län,man,1959,0,0,1,3,2026/27,4,100.0
-0623225425598,Kevin Sahlin,SD,Västernorrlands län,man,2001,0,0,1,3,2026/27,4,100.0
-062367962120,Åsa Lindhagen,MP,Stockholms kommun,kvinna,1980,0,0,2,2,2026/27,4,100.0
-0628005785225,Jörgen Berglund,M,Västernorrlands län,man,1974,0,0,2,2,2026/27,4,100.0
-0630820052511,Per-Arne Håkansson,S,Skåne läns norra och östra,man,1963,0,0,3,1,2026/27,4,100.0
-0632665870298,Paul Sabo,KD,Södermanlands län,man,2001,0,0,2,2,2026/27,4,100.0
-0635943298419,Dan Hovskär,KD,Västra Götalands läns östra,man,1970,0,0,2,2,2026/27,4,100.0
-0638497389621,Julia Kronlid,SD,Stockholms län,kvinna,1980,0,0,1,3,2026/27,4,100.0
-0639398547124,Bassem Nasr,MP,Malmö kommun,man,1981,0,0,2,2,2026/27,4,100.0
-0641953830512,Magnus Persson,SD,Skåne läns norra och östra,man,1970,0,0,1,3,2026/27,4,100.0
-064205084029,Peter Söderström,S,Värmlands län,man,1975,0,0,3,1,2026/27,4,100.0
-0642243049322,Therese Kristiansson,S,Västra Götalands läns östra,kvinna,1995,0,0,3,1,2026/27,4,100.0
-065105536026,Niklas Karlsson,S,Skåne läns västra,man,1974,0,0,3,1,2026/27,4,100.0
-0651284526718,Malin Björk,V,Stockholms kommun,kvinna,1972,0,0,1,3,2026/27,4,100.0
-0652497579621,Johanna Haraldsson,S,Jönköpings län,kvinna,1980,0,0,3,1,2026/27,4,100.0
-0653904370212,Fredrik Olovsson,S,Södermanlands län,man,1973,0,0,3,1,2026/27,4,100.0
-065701062615,Runar Filper,SD,Värmlands län,man,1964,0,0,1,3,2026/27,4,100.0
-066036027425,Mikael Damsgaard,M,Västmanlands län,man,1976,0,0,2,2,2026/27,4,100.0
-0662032691523,Amalia Rud Stenlöf,S,Göteborgs kommun,kvinna,1993,0,0,3,1,2026/27,4,100.0
-0665485817222,Daniel Bäckström,C,Värmlands län,man,1975,0,0,3,1,2026/27,4,100.0
-0667220767927,Erik Ezelius,S,Västra Götalands läns östra,man,1986,0,0,3,1,2026/27,4,100.0
-0671571847522,Mattias Eriksson Falk,SD,Gävleborgs län,man,1990,0,0,1,3,2026/27,4,100.0
-0677609280627,Filip Reinhag,S,Gotlands län,man,1984,0,0,3,1,2026/27,4,100.0
-0678597762924,Martin Westmont,SD,Stockholms län,man,1978,0,0,1,3,2026/27,4,100.0
-068293047210,Veronica Kerr,KD,Västerbottens län,kvinna,1970,0,0,2,2,2026/27,4,100.0
-0682989845822,Håkan Svenneling,V,Värmlands län,man,1985,0,0,1,3,2026/27,4,100.0
-0692076685824,Camilla Hansén,MP,Örebro län,kvinna,1976,0,0,2,2,2026/27,4,100.0
-069534526423,Mathias Bengtsson,KD,Dalarnas län,man,1998,0,0,2,2,2026/27,4,100.0
-0704212851213,Mårten Blix,M,Stockholms län,man,1968,0,0,2,1,2026/27,3,100.0
-0709911904721,Johanna Rantsi,M,Västra Götalands läns västra,kvinna,1990,0,0,2,2,2026/27,4,100.0
-0710595759638,Aida Birinxhiku,S,Hallands län,kvinna,1999,0,0,3,1,2026/27,4,100.0
-071293048118,Thomas Ragnarsson,M,Kronobergs län,man,1970,0,0,2,2,2026/27,4,100.0
-0714968014016,Anders Ekegren,L,Stockholms län,man,1957,0,0,2,2,2026/27,4,100.0
-0717363246311,Jessica Stegrud,SD,Skåne läns södra,kvinna,1970,0,0,1,3,2026/27,4,100.0
-0721509806321,Nooshi Dadgostar,V,Stockholms län,kvinna,1985,0,0,1,3,2026/27,4,100.0
-0723133822026,Carl Nordblom,M,Stockholms kommun,man,1994,0,0,2,2,2026/27,4,100.0
-0724967784997,Sara Fladje,M,Hallands län,kvinna,2005,0,0,2,2,2026/27,4,100.0
-0727756996891,Hanna Lindqvist,MP,Skåne läns södra,kvinna,2004,0,0,2,2,2026/27,4,100.0
-0737666060225,Joakim Järrebring,S,Västra Götalands läns västra,man,1976,0,0,3,1,2026/27,4,100.0
-0737824098113,Magnus Berntsson,KD,Västra Götalands läns västra,man,1973,0,2,0,2,2026/27,4,50.0
-0739249519522,Hawar Asaiesh,V,Västmanlands län,kvinna,1985,0,0,1,3,2026/27,4,100.0
-0741297456226,Cecilia Prins,L,Västra Götalands läns norra,kvinna,1979,0,0,2,2,2026/27,4,100.0
-0742703244417,Ilan De Basso,S,Jönköpings län,man,1969,0,0,3,1,2026/27,4,100.0
-0742883909221,John E. Weinerhall,M,Östergötlands län,man,1995,0,0,2,2,2026/27,4,100.0
-074310796828,Magnus Resare,M,Värmlands län,man,1987,0,0,2,2,2026/27,4,100.0
-0743233841823,Alexander Svensson,M,Skåne läns västra,man,1995,0,0,2,2,2026/27,4,100.0
-0744993950910,Anders Ygeman,S,Stockholms kommun,man,1970,0,0,3,1,2026/27,4,100.0
-0749416304126,Marie Nicholson,M,Kalmar län,kvinna,1976,0,0,2,2,2026/27,4,100.0
-0750092881021,Joanna Lewerentz,M,Stockholms län,kvinna,1992,0,0,2,2,2026/27,4,100.0
-0755328959926,Mursal Isa,MP,Dalarnas län,man,1981,0,0,2,2,2026/27,4,100.0
-075747847023,Gustaf Lantz,S,Uppsala län,man,1981,0,0,3,1,2026/27,4,100.0
-0758270743529,Marcus Friberg,MP,Skåne läns västra,man,1987,0,0,2,2,2026/27,4,100.0
-0760500234712,Monica Haider,S,Kronobergs län,kvinna,1963,0,0,3,1,2026/27,4,100.0
-076855336638,Elin Hjelmestam,L,Stockholms kommun,kvinna,1999,0,0,2,2,2026/27,4,100.0
-0773497241728,Roger Hedlund,SD,Gävleborgs län,man,1979,0,0,1,3,2026/27,4,100.0
-0775164379410,Magnus Haara,C,Skåne läns västra,man,1972,0,0,3,1,2026/27,4,100.0
-0776705932527,Ciczie Weidby,V,Jönköpings län,kvinna,1974,0,0,1,3,2026/27,4,100.0
-0780214960516,Eva Lindh,S,Östergötlands län,kvinna,1971,0,0,3,1,2026/27,4,100.0
-0783069490115,Mirja Räihä,S,Stockholms kommun,kvinna,1959,0,0,3,1,2026/27,4,100.0
-07921826010,Anna-Belle Strömberg,S,Västernorrlands län,kvinna,1965,0,0,3,1,2026/27,4,100.0
-0792733370419,Magnus Oscarsson,KD,Östergötlands län,man,1970,0,0,2,2,2026/27,4,100.0
-079417294123,Emmy Ahlstedt,C,Kalmar län,kvinna,1981,0,0,3,1,2026/27,4,100.0
-0796312429425,Viktor Wärnick,M,Gävleborgs län,man,1991,0,0,2,2,2026/27,4,100.0
-0802091197024,Andrea Andersson Tay,V,Stockholms län,kvinna,1988,0,0,1,3,2026/27,4,100.0
-0802546764724,Åsa Westlund,S,Stockholms län,kvinna,1976,0,0,3,1,2026/27,4,100.0
-0803753212716,Richard Jomshof,SD,Blekinge län,man,1969,0,0,1,3,2026/27,4,100.0
-0803790353229,Azra Muranovic,S,Jönköpings län,kvinna,1987,0,0,3,1,2026/27,4,100.0
-0805149227627,Elias Aguirre,S,Östergötlands län,man,1984,0,0,3,1,2026/27,4,100.0
+0618259964316,Peter Eriksson,SD,Jämtlands län,man,1959,0,0,4,3,2026/27,7,100.0
+0623225425598,Kevin Sahlin,SD,Västernorrlands län,man,2001,0,0,4,3,2026/27,7,100.0
+062367962120,Åsa Lindhagen,MP,Stockholms kommun,kvinna,1980,0,0,3,4,2026/27,7,100.0
+0628005785225,Jörgen Berglund,M,Västernorrlands län,man,1974,0,0,5,2,2026/27,7,100.0
+0630820052511,Per-Arne Håkansson,S,Skåne läns norra och östra,man,1963,0,0,6,1,2026/27,7,100.0
+0632665870298,Paul Sabo,KD,Södermanlands län,man,2001,0,0,5,2,2026/27,7,100.0
+0635943298419,Dan Hovskär,KD,Västra Götalands läns östra,man,1970,0,0,5,2,2026/27,7,100.0
+0638497389621,Julia Kronlid,SD,Stockholms län,kvinna,1980,0,0,4,3,2026/27,7,100.0
+0639398547124,Bassem Nasr,MP,Malmö kommun,man,1981,0,0,3,4,2026/27,7,100.0
+0641953830512,Magnus Persson,SD,Skåne läns norra och östra,man,1970,0,0,4,3,2026/27,7,100.0
+064205084029,Peter Söderström,S,Värmlands län,man,1975,0,0,6,1,2026/27,7,100.0
+0642243049322,Therese Kristiansson,S,Västra Götalands läns östra,kvinna,1995,0,0,6,1,2026/27,7,100.0
+065105536026,Niklas Karlsson,S,Skåne läns västra,man,1974,0,0,6,1,2026/27,7,100.0
+0651284526718,Malin Björk,V,Stockholms kommun,kvinna,1972,0,0,3,4,2026/27,7,100.0
+0652497579621,Johanna Haraldsson,S,Jönköpings län,kvinna,1980,0,0,6,1,2026/27,7,100.0
+0653904370212,Fredrik Olovsson,S,Södermanlands län,man,1973,0,0,6,1,2026/27,7,100.0
+065701062615,Runar Filper,SD,Värmlands län,man,1964,0,0,4,3,2026/27,7,100.0
+066036027425,Mikael Damsgaard,M,Västmanlands län,man,1976,0,0,5,2,2026/27,7,100.0
+0662032691523,Amalia Rud Stenlöf,S,Göteborgs kommun,kvinna,1993,0,0,6,1,2026/27,7,100.0
+0665485817222,Daniel Bäckström,C,Värmlands län,man,1975,0,0,6,1,2026/27,7,100.0
+0667220767927,Erik Ezelius,S,Västra Götalands läns östra,man,1986,0,0,6,1,2026/27,7,100.0
+0671571847522,Mattias Eriksson Falk,SD,Gävleborgs län,man,1990,0,0,4,3,2026/27,7,100.0
+0677609280627,Filip Reinhag,S,Gotlands län,man,1984,0,0,6,1,2026/27,7,100.0
+0678597762924,Martin Westmont,SD,Stockholms län,man,1978,0,0,4,3,2026/27,7,100.0
+068293047210,Veronica Kerr,KD,Västerbottens län,kvinna,1970,0,0,5,2,2026/27,7,100.0
+0682989845822,Håkan Svenneling,V,Värmlands län,man,1985,0,0,3,4,2026/27,7,100.0
+0692076685824,Camilla Hansén,MP,Örebro län,kvinna,1976,0,0,3,4,2026/27,7,100.0
+069534526423,Mathias Bengtsson,KD,Dalarnas län,man,1998,0,0,5,2,2026/27,7,100.0
+0704212851213,Mårten Blix,M,Stockholms län,man,1968,0,0,5,1,2026/27,6,100.0
+0709911904721,Johanna Rantsi,M,Västra Götalands läns västra,kvinna,1990,0,0,5,2,2026/27,7,100.0
+0710595759638,Aida Birinxhiku,S,Hallands län,kvinna,1999,0,0,6,1,2026/27,7,100.0
+071293048118,Thomas Ragnarsson,M,Kronobergs län,man,1970,0,0,5,2,2026/27,7,100.0
+0714968014016,Anders Ekegren,L,Stockholms län,man,1957,0,0,5,2,2026/27,7,100.0
+0717363246311,Jessica Stegrud,SD,Skåne läns södra,kvinna,1970,0,0,4,3,2026/27,7,100.0
+0721509806321,Nooshi Dadgostar,V,Stockholms län,kvinna,1985,0,0,3,4,2026/27,7,100.0
+0723133822026,Carl Nordblom,M,Stockholms kommun,man,1994,0,0,5,2,2026/27,7,100.0
+0724967784997,Sara Fladje,M,Hallands län,kvinna,2005,0,0,5,2,2026/27,7,100.0
+0727756996891,Hanna Lindqvist,MP,Skåne läns södra,kvinna,2004,0,0,3,4,2026/27,7,100.0
+0737666060225,Joakim Järrebring,S,Västra Götalands läns västra,man,1976,0,0,6,1,2026/27,7,100.0
+0737824098113,Magnus Berntsson,KD,Västra Götalands läns västra,man,1973,0,2,3,2,2026/27,7,71.42857142857143
+0739249519522,Hawar Asaiesh,V,Västmanlands län,kvinna,1985,0,0,3,4,2026/27,7,100.0
+0741297456226,Cecilia Prins,L,Västra Götalands läns norra,kvinna,1979,0,0,5,2,2026/27,7,100.0
+0742703244417,Ilan De Basso,S,Jönköpings län,man,1969,0,0,6,1,2026/27,7,100.0
+0742883909221,John E. Weinerhall,M,Östergötlands län,man,1995,0,0,5,2,2026/27,7,100.0
+074310796828,Magnus Resare,M,Värmlands län,man,1987,0,0,5,2,2026/27,7,100.0
+0743233841823,Alexander Svensson,M,Skåne läns västra,man,1995,0,0,5,2,2026/27,7,100.0
+0744993950910,Anders Ygeman,S,Stockholms kommun,man,1970,0,0,6,1,2026/27,7,100.0
+0749416304126,Marie Nicholson,M,Kalmar län,kvinna,1976,0,0,5,2,2026/27,7,100.0
+0750092881021,Joanna Lewerentz,M,Stockholms län,kvinna,1992,0,0,5,2,2026/27,7,100.0
+0755328959926,Mursal Isa,MP,Dalarnas län,man,1981,0,0,2,5,2026/27,7,100.0
+075747847023,Gustaf Lantz,S,Uppsala län,man,1981,0,0,6,1,2026/27,7,100.0
+0758270743529,Marcus Friberg,MP,Skåne läns västra,man,1987,0,0,3,4,2026/27,7,100.0
+0760500234712,Monica Haider,S,Kronobergs län,kvinna,1963,0,0,6,1,2026/27,7,100.0
+076855336638,Elin Hjelmestam,L,Stockholms kommun,kvinna,1999,0,0,5,2,2026/27,7,100.0
+0773497241728,Roger Hedlund,SD,Gävleborgs län,man,1979,0,0,4,3,2026/27,7,100.0
+0775164379410,Magnus Haara,C,Skåne läns västra,man,1972,0,0,6,1,2026/27,7,100.0
+0776705932527,Ciczie Weidby,V,Jönköpings län,kvinna,1974,0,0,3,4,2026/27,7,100.0
+0780214960516,Eva Lindh,S,Östergötlands län,kvinna,1971,0,0,6,1,2026/27,7,100.0
+0783069490115,Mirja Räihä,S,Stockholms kommun,kvinna,1959,0,0,6,1,2026/27,7,100.0
+07921826010,Anna-Belle Strömberg,S,Västernorrlands län,kvinna,1965,0,0,6,1,2026/27,7,100.0
+0792733370419,Magnus Oscarsson,KD,Östergötlands län,man,1970,0,0,5,2,2026/27,7,100.0
+079417294123,Emmy Ahlstedt,C,Kalmar län,kvinna,1981,0,0,6,1,2026/27,7,100.0
+0796312429425,Viktor Wärnick,M,Gävleborgs län,man,1991,0,0,5,2,2026/27,7,100.0
+0802091197024,Andrea Andersson Tay,V,Stockholms län,kvinna,1988,0,0,3,4,2026/27,7,100.0
+0802546764724,Åsa Westlund,S,Stockholms län,kvinna,1976,0,0,6,1,2026/27,7,100.0
+0803753212716,Richard Jomshof,SD,Blekinge län,man,1969,0,0,4,3,2026/27,7,100.0
+0803790353229,Azra Muranovic,S,Jönköpings län,kvinna,1987,0,0,6,1,2026/27,7,100.0
+0805149227627,Elias Aguirre,S,Östergötlands län,man,1984,0,0,6,1,2026/27,7,100.0
 0805196085522,Jimmy Jansson,S,Södermanlands län,man,1978,0,0,1,0,2026/27,1,100.0
-0809334009920,Emma Brihall,C,Jönköpings län,kvinna,1997,0,0,3,1,2026/27,4,100.0
-0810852280213,Marie-Louise Hänel Sandström,M,Göteborgs kommun,kvinna,1968,0,0,2,2,2026/27,4,100.0
-0812008415929,Banesa Martinez Roldán,V,Malmö kommun,kvinna,1982,0,0,1,3,2026/27,4,100.0
-0819601620927,Annika Hirvonen,MP,Stockholms län,kvinna,1989,0,0,2,2,2026/27,4,100.0
-0821049469728,My Rosell,S,Skåne läns västra,kvinna,1984,0,0,3,1,2026/27,4,100.0
-0822010116020,Jim Svensk Larm,S,Gävleborgs län,man,1987,0,0,2,1,2026/27,3,100.0
-0825441263617,Birger Lahti,V,Norrbottens län,man,1964,0,0,1,3,2026/27,4,100.0
-0828001951212,Ingemar Kihlström,KD,Västra Götalands läns södra,man,1966,0,0,2,2,2026/27,4,100.0
-0828721176319,Sten Bergheden,M,Västra Götalands läns östra,man,1965,0,0,2,2,2026/27,4,100.0
-0831039938224,Adam Marttinen,SD,Södermanlands län,man,1983,0,0,1,3,2026/27,4,100.0
-0831636664429,Mattias Karlsson Bergman,SD,Kronobergs län,man,1977,0,0,1,3,2026/27,4,100.0
-0832311880029,Erik Ottoson,M,Stockholms län,man,1989,0,0,2,2,2026/27,4,100.0
-0834510274913,Charlotte Nordström,M,Västra Götalands läns östra,kvinna,1963,0,0,2,2,2026/27,4,100.0
-0836001490919,Ulrika Heie,C,Västra Götalands läns östra,kvinna,1965,0,0,3,1,2026/27,4,100.0
-083699632927,Gurgin Bakircioglu,MP,Stockholms kommun,man,1984,0,0,2,2,2026/27,4,100.0
-0837394708917,Anders Ådahl,C,Västra Götalands läns västra,man,1972,0,0,3,1,2026/27,4,100.0
-0842088470022,Jonas Lindberg,V,Stockholms län,man,1983,0,0,1,3,2026/27,4,100.0
-0845133742919,Lili André,KD,Gävleborgs län,kvinna,1970,0,0,2,2,2026/27,4,100.0
-0845783625227,Arwin Sohrabi,S,Malmö kommun,man,1994,0,0,3,1,2026/27,4,100.0
-0847676507229,Stina Larsson,C,Skåne läns södra,kvinna,1977,0,0,3,1,2026/27,4,100.0
-0853395328224,Lena Hallengren,S,Kalmar län,kvinna,1973,0,0,3,1,2026/27,4,100.0
-0853651496711,Niclas Nilsson,M,Hallands län,man,1965,0,0,2,2,2026/27,4,100.0
-0855092600927,Daniel Lyckestam,M,Skåne läns norra och östra,man,1991,0,0,2,2,2026/27,4,100.0
-0855286184126,Jessica Rodén,S,Västra Götalands läns södra,kvinna,1976,0,0,3,1,2026/27,4,100.0
-085691144610,Marianne Littke,L,Skåne läns norra och östra,kvinna,1965,0,0,2,2,2026/27,4,100.0
-0859909330720,Sanna Backeskog,S,Gävleborgs län,kvinna,1985,0,0,3,1,2026/27,4,100.0
-0861521539920,Aron Emilsson,SD,Östergötlands län,man,1990,0,0,1,3,2026/27,4,100.0
-0866055333028,Alexandra Anstrell,M,Stockholms län,kvinna,1974,0,0,2,2,2026/27,4,100.0
-086684470825,Tobias Andersson,SD,Västra Götalands läns östra,man,1996,0,0,1,3,2026/27,4,100.0
-0867597453723,Rikard Salander,MP,Jönköpings län,man,1981,0,0,2,2,2026/27,4,100.0
-0869100760228,Tony Rahm,M,Malmö kommun,man,1987,0,0,2,2,2026/27,4,100.0
-0870629548818,Gunilla Gomér,SD,Västra Götalands läns västra,kvinna,1960,0,0,1,3,2026/27,4,100.0
-0871514710725,Matilda Ekeblad,M,Östergötlands län,kvinna,1996,0,0,2,2,2026/27,4,100.0
-0875225206221,Magdalena Hermelin,M,Östergötlands län,kvinna,1975,0,0,2,2,2026/27,4,100.0
-0877144786628,Rasmus Elfström,C,Stockholms län,man,1997,0,0,3,1,2026/27,4,100.0
-0877778793323,Johan Büser,S,Göteborgs kommun,man,1983,0,0,3,1,2026/27,4,100.0
-0880018341619,Thomas Morell,SD,Västra Götalands läns östra,man,1957,0,0,1,2,2026/27,3,100.0
-0880137451720,Emma Nohrén,MP,Göteborgs kommun,kvinna,1980,0,0,2,2,2026/27,4,100.0
-088326858427,Andrine Winther,S,Stockholms län,kvinna,1977,0,0,3,1,2026/27,4,100.0
-0888807074321,Amanda Lind,MP,Stockholms län,kvinna,1980,0,0,2,2,2026/27,4,100.0
-0890152141226,Nadja Awad,V,Örebro län,kvinna,1991,0,0,1,3,2026/27,4,100.0
-0898131508523,Sandra Sönnergren,V,Stockholms län,kvinna,1990,0,0,1,3,2026/27,4,100.0
-0903081277919,Helena Vilhelmsson,C,Örebro län,kvinna,1965,0,0,3,1,2026/27,4,100.0
-0905254899611,Louise Thunström,S,Västra Götalands läns norra,kvinna,1973,0,0,3,1,2026/27,4,100.0
-0907540133326,Umihana Rasovic,V,Skåne läns västra,kvinna,1986,0,0,1,3,2026/27,4,100.0
-0911067396229,Mattias Vepsä,S,Stockholms kommun,man,1980,0,0,3,1,2026/27,4,100.0
-0911916463828,Fredrik Lundh Sammeli,S,Norrbottens län,man,1977,0,0,3,1,2026/27,4,100.0
-091303475611,Eric Palmqvist,SD,Norrbottens län,man,1970,0,0,1,3,2026/27,4,100.0
-0915390084323,Johan Tireland,SD,Stockholms kommun,man,1988,0,0,1,3,2026/27,4,100.0
-0921977442025,Hanna Schölander,L,Hallands län,kvinna,1979,0,0,2,2,2026/27,4,100.0
-0922497728524,Ardalan Shekarabi,S,Uppsala län,man,1978,0,0,3,1,2026/27,4,100.0
-0926002991620,Pontus Andersson Garpvall,SD,Skåne läns västra,man,1992,0,0,1,3,2026/27,4,100.0
-0926214745119,Heléne Björklund,S,Blekinge län,kvinna,1972,0,0,3,1,2026/27,4,100.0
-0929594210324,Mohamed Ali,V,Dalarnas län,man,1996,0,1,1,2,2026/27,4,75.0
-0932000030511,Maria Stockhaus,M,Stockholms län,kvinna,1963,0,0,2,2,2026/27,4,100.0
-0933340739714,Ingrid Andreae,S,Göteborgs kommun,kvinna,1961,0,0,3,1,2026/27,4,100.0
-0937688366013,Peter Hultqvist,S,Dalarnas län,man,1958,0,0,3,1,2026/27,4,100.0
-0939158389321,Samuel Gonzalez Westling,V,Gävleborgs län,man,1983,0,0,1,3,2026/27,4,100.0
-0942653287010,Carina Örgård,V,Västra Götalands läns västra,kvinna,1970,0,0,1,3,2026/27,4,100.0
-0947183329316,Louise Minnhagen,L,Stockholms län,kvinna,1969,0,0,2,2,2026/27,4,100.0
-0947396490227,Linda Frohm,M,Norrbottens län,kvinna,1977,0,0,2,2,2026/27,4,100.0
-0947572086414,Anne-Li Sjölund,C,Västernorrlands län,kvinna,1966,0,0,3,1,2026/27,4,100.0
-0948821964428,Ajda Asgari,MP,Stockholms län,kvinna,1989,0,0,2,2,2026/27,4,100.0
-0951905661227,Christofer Bergenblock,C,Hallands län,man,1974,0,0,3,1,2026/27,4,100.0
-0953214365911,Agnes Hultén,V,Hallands län,kvinna,1973,0,0,1,3,2026/27,4,100.0
-0963148100123,Hanna Netterberg,M,Hallands län,kvinna,1983,0,0,2,2,2026/27,4,100.0
-0964730940415,Johan Andersson,S,Östergötlands län,man,1961,0,0,3,1,2026/27,4,100.0
-0966063008623,Leonid Yurkovskiy,SD,Norrbottens län,man,1995,0,0,1,3,2026/27,4,100.0
-0966157104128,Mikael Strömberg,SD,Södermanlands län,man,1979,0,0,1,3,2026/27,4,100.0
-0970341267319,Birte Sandberg,C,Skåne läns norra och östra,kvinna,1965,0,0,3,1,2026/27,4,100.0
-0973350087929,Patrik Karlson,L,Östergötlands län,man,1987,0,0,2,2,2026/27,4,100.0
-0973782197017,Mikael Oscarsson,KD,Uppsala län,man,1967,0,0,2,2,2026/27,4,100.0
-0977592683711,Magnus Jacobsson,KD,Västra Götalands läns norra,man,1968,0,0,2,2,2026/27,4,100.0
-0980092192122,Joar Forssell,L,Stockholms kommun,man,1993,0,0,2,2,2026/27,4,100.0
-0980725315516,Lars Leijonborg,L,Malmö kommun,man,1949,0,0,2,2,2026/27,4,100.0
-0983384083620,Dennis Alvdén,M,Västra Götalands läns västra,man,1997,0,0,2,2,2026/27,4,100.0
-0983984918111,Matilda Ernkrans,S,Örebro län,kvinna,1973,0,0,3,1,2026/27,4,100.0
-098412828516,Magdalena Andersson,S,Stockholms län,kvinna,1967,0,0,3,1,2026/27,4,100.0
-0984153507725,Gustaf Göthberg,M,Göteborgs kommun,man,1993,0,0,2,2,2026/27,4,100.0
-0985426914829,Anna Lasses,C,Stockholms län,kvinna,1977,0,0,3,1,2026/27,4,100.0
-0985943148917,Victoria Tiblom,SD,Skåne läns södra,kvinna,1969,0,0,1,3,2026/27,4,100.0
-0986091320811,Catarina Deremar,C,Uppsala län,kvinna,1965,0,0,3,1,2026/27,4,100.0
-0990587970528,Zinaida Kajevic,S,Malmö kommun,kvinna,1979,0,0,3,1,2026/27,4,100.0
-0992473266516,Larry Söder,KD,Hallands län,man,1969,0,2,0,2,2026/27,4,50.0
-0992867772421,Nils Seye Larsen,MP,Västerbottens län,man,1980,0,0,2,2,2026/27,4,100.0
-0995202822028,Ilyas Hassan,V,Stockholms kommun,man,1992,0,0,1,3,2026/27,4,100.0
+0809334009920,Emma Brihall,C,Jönköpings län,kvinna,1997,0,0,6,1,2026/27,7,100.0
+0810852280213,Marie-Louise Hänel Sandström,M,Göteborgs kommun,kvinna,1968,0,0,5,2,2026/27,7,100.0
+0812008415929,Banesa Martinez Roldán,V,Malmö kommun,kvinna,1982,0,0,3,4,2026/27,7,100.0
+0819601620927,Annika Hirvonen,MP,Stockholms län,kvinna,1989,0,0,3,4,2026/27,7,100.0
+0821049469728,My Rosell,S,Skåne läns västra,kvinna,1984,0,0,6,1,2026/27,7,100.0
+0822010116020,Jim Svensk Larm,S,Gävleborgs län,man,1987,0,0,5,1,2026/27,6,100.0
+0825441263617,Birger Lahti,V,Norrbottens län,man,1964,0,0,3,4,2026/27,7,100.0
+0828001951212,Ingemar Kihlström,KD,Västra Götalands läns södra,man,1966,0,0,5,2,2026/27,7,100.0
+0828721176319,Sten Bergheden,M,Västra Götalands läns östra,man,1965,0,0,5,2,2026/27,7,100.0
+0831039938224,Adam Marttinen,SD,Södermanlands län,man,1983,0,0,4,3,2026/27,7,100.0
+0831636664429,Mattias Karlsson Bergman,SD,Kronobergs län,man,1977,0,0,4,3,2026/27,7,100.0
+0832311880029,Erik Ottoson,M,Stockholms län,man,1989,0,3,2,2,2026/27,7,57.14285714285714
+0834510274913,Charlotte Nordström,M,Västra Götalands läns östra,kvinna,1963,0,0,5,2,2026/27,7,100.0
+0836001490919,Ulrika Heie,C,Västra Götalands läns östra,kvinna,1965,0,0,6,1,2026/27,7,100.0
+083699632927,Gurgin Bakircioglu,MP,Stockholms kommun,man,1984,0,1,2,4,2026/27,7,85.71428571428572
+0837394708917,Anders Ådahl,C,Västra Götalands läns västra,man,1972,0,0,6,1,2026/27,7,100.0
+0842088470022,Jonas Lindberg,V,Stockholms län,man,1983,0,0,3,4,2026/27,7,100.0
+0845133742919,Lili André,KD,Gävleborgs län,kvinna,1970,0,0,5,2,2026/27,7,100.0
+0845783625227,Arwin Sohrabi,S,Malmö kommun,man,1994,0,0,6,1,2026/27,7,100.0
+0847676507229,Stina Larsson,C,Skåne läns södra,kvinna,1977,0,0,6,1,2026/27,7,100.0
+0853395328224,Lena Hallengren,S,Kalmar län,kvinna,1973,0,0,6,1,2026/27,7,100.0
+0853651496711,Niclas Nilsson,M,Hallands län,man,1965,0,0,5,2,2026/27,7,100.0
+0855092600927,Daniel Lyckestam,M,Skåne läns norra och östra,man,1991,0,0,5,2,2026/27,7,100.0
+0855286184126,Jessica Rodén,S,Västra Götalands läns södra,kvinna,1976,0,0,6,1,2026/27,7,100.0
+085691144610,Marianne Littke,L,Skåne läns norra och östra,kvinna,1965,0,0,5,2,2026/27,7,100.0
+0859909330720,Sanna Backeskog,S,Gävleborgs län,kvinna,1985,0,0,6,1,2026/27,7,100.0
+0861521539920,Aron Emilsson,SD,Östergötlands län,man,1990,0,0,4,3,2026/27,7,100.0
+0866055333028,Alexandra Anstrell,M,Stockholms län,kvinna,1974,0,0,5,2,2026/27,7,100.0
+086684470825,Tobias Andersson,SD,Västra Götalands läns östra,man,1996,0,0,4,3,2026/27,7,100.0
+0867597453723,Rikard Salander,MP,Jönköpings län,man,1981,0,0,3,4,2026/27,7,100.0
+0869100760228,Tony Rahm,M,Malmö kommun,man,1987,0,0,5,2,2026/27,7,100.0
+0870629548818,Gunilla Gomér,SD,Västra Götalands läns västra,kvinna,1960,0,0,4,3,2026/27,7,100.0
+0871514710725,Matilda Ekeblad,M,Östergötlands län,kvinna,1996,0,0,5,2,2026/27,7,100.0
+0875225206221,Magdalena Hermelin,M,Östergötlands län,kvinna,1975,0,0,5,2,2026/27,7,100.0
+0877144786628,Rasmus Elfström,C,Stockholms län,man,1997,0,0,6,1,2026/27,7,100.0
+0877778793323,Johan Büser,S,Göteborgs kommun,man,1983,0,0,6,1,2026/27,7,100.0
+0880018341619,Thomas Morell,SD,Västra Götalands läns östra,man,1957,0,0,4,2,2026/27,6,100.0
+0880137451720,Emma Nohrén,MP,Göteborgs kommun,kvinna,1980,0,3,2,2,2026/27,7,57.14285714285714
+088326858427,Andrine Winther,S,Stockholms län,kvinna,1977,0,0,6,1,2026/27,7,100.0
+0888807074321,Amanda Lind,MP,Stockholms län,kvinna,1980,0,0,3,4,2026/27,7,100.0
+0890152141226,Nadja Awad,V,Örebro län,kvinna,1991,0,0,3,4,2026/27,7,100.0
+0898131508523,Sandra Sönnergren,V,Stockholms län,kvinna,1990,0,0,3,4,2026/27,7,100.0
+0903081277919,Helena Vilhelmsson,C,Örebro län,kvinna,1965,0,0,6,1,2026/27,7,100.0
+0905254899611,Louise Thunström,S,Västra Götalands läns norra,kvinna,1973,0,0,6,1,2026/27,7,100.0
+0907540133326,Umihana Rasovic,V,Skåne läns västra,kvinna,1986,0,0,3,4,2026/27,7,100.0
+0911067396229,Mattias Vepsä,S,Stockholms kommun,man,1980,0,0,6,1,2026/27,7,100.0
+0911916463828,Fredrik Lundh Sammeli,S,Norrbottens län,man,1977,0,0,6,1,2026/27,7,100.0
+091303475611,Eric Palmqvist,SD,Norrbottens län,man,1970,0,0,4,3,2026/27,7,100.0
+0915390084323,Johan Tireland,SD,Stockholms kommun,man,1988,0,0,4,3,2026/27,7,100.0
+0921977442025,Hanna Schölander,L,Hallands län,kvinna,1979,0,0,5,2,2026/27,7,100.0
+0922497728524,Ardalan Shekarabi,S,Uppsala län,man,1978,0,0,6,1,2026/27,7,100.0
+0926002991620,Pontus Andersson Garpvall,SD,Skåne läns västra,man,1992,0,0,4,3,2026/27,7,100.0
+0926214745119,Heléne Björklund,S,Blekinge län,kvinna,1972,0,0,6,1,2026/27,7,100.0
+0929594210324,Mohamed Ali,V,Dalarnas län,man,1996,0,1,3,3,2026/27,7,85.71428571428572
+0932000030511,Maria Stockhaus,M,Stockholms län,kvinna,1963,0,0,5,2,2026/27,7,100.0
+0933340739714,Ingrid Andreae,S,Göteborgs kommun,kvinna,1961,0,0,6,1,2026/27,7,100.0
+0937688366013,Peter Hultqvist,S,Dalarnas län,man,1958,0,0,6,1,2026/27,7,100.0
+0939158389321,Samuel Gonzalez Westling,V,Gävleborgs län,man,1983,0,0,3,4,2026/27,7,100.0
+0942653287010,Carina Örgård,V,Västra Götalands läns västra,kvinna,1970,0,0,3,4,2026/27,7,100.0
+0947183329316,Louise Minnhagen,L,Stockholms län,kvinna,1969,0,0,5,2,2026/27,7,100.0
+0947396490227,Linda Frohm,M,Norrbottens län,kvinna,1977,0,0,5,2,2026/27,7,100.0
+0947572086414,Anne-Li Sjölund,C,Västernorrlands län,kvinna,1966,0,0,6,1,2026/27,7,100.0
+0948821964428,Ajda Asgari,MP,Stockholms län,kvinna,1989,0,0,3,4,2026/27,7,100.0
+0951905661227,Christofer Bergenblock,C,Hallands län,man,1974,0,0,6,1,2026/27,7,100.0
+0953214365911,Agnes Hultén,V,Hallands län,kvinna,1973,0,0,3,4,2026/27,7,100.0
+0963148100123,Hanna Netterberg,M,Hallands län,kvinna,1983,0,0,5,2,2026/27,7,100.0
+0964730940415,Johan Andersson,S,Östergötlands län,man,1961,0,0,6,1,2026/27,7,100.0
+0966063008623,Leonid Yurkovskiy,SD,Norrbottens län,man,1995,0,0,4,3,2026/27,7,100.0
+0966157104128,Mikael Strömberg,SD,Södermanlands län,man,1979,0,0,4,3,2026/27,7,100.0
+0970341267319,Birte Sandberg,C,Skåne läns norra och östra,kvinna,1965,0,0,6,1,2026/27,7,100.0
+0973350087929,Patrik Karlson,L,Östergötlands län,man,1987,0,0,5,2,2026/27,7,100.0
+0973782197017,Mikael Oscarsson,KD,Uppsala län,man,1967,0,0,5,2,2026/27,7,100.0
+0977592683711,Magnus Jacobsson,KD,Västra Götalands läns norra,man,1968,0,0,5,2,2026/27,7,100.0
+0980092192122,Joar Forssell,L,Stockholms kommun,man,1993,0,0,5,2,2026/27,7,100.0
+0980725315516,Lars Leijonborg,L,Malmö kommun,man,1949,0,0,5,2,2026/27,7,100.0
+0983384083620,Dennis Alvdén,M,Västra Götalands läns västra,man,1997,0,0,5,2,2026/27,7,100.0
+0983984918111,Matilda Ernkrans,S,Örebro län,kvinna,1973,0,0,6,1,2026/27,7,100.0
+098412828516,Magdalena Andersson,S,Stockholms län,kvinna,1967,0,0,6,1,2026/27,7,100.0
+0984153507725,Gustaf Göthberg,M,Göteborgs kommun,man,1993,0,0,5,2,2026/27,7,100.0
+0985426914829,Anna Lasses,C,Stockholms län,kvinna,1977,0,0,6,1,2026/27,7,100.0
+0985943148917,Victoria Tiblom,SD,Skåne läns södra,kvinna,1969,0,0,4,3,2026/27,7,100.0
+0986091320811,Catarina Deremar,C,Uppsala län,kvinna,1965,0,0,6,1,2026/27,7,100.0
+0990587970528,Zinaida Kajevic,S,Malmö kommun,kvinna,1979,0,0,6,1,2026/27,7,100.0
+0992473266516,Larry Söder,KD,Hallands län,man,1969,0,2,3,2,2026/27,7,71.42857142857143
+0992867772421,Nils Seye Larsen,MP,Västerbottens län,man,1980,0,0,3,4,2026/27,7,100.0
+0995202822028,Ilyas Hassan,V,Stockholms kommun,man,1992,0,0,3,4,2026/27,7,100.0
