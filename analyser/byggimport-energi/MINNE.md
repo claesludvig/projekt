@@ -18,7 +18,7 @@ Ludvig skriver en bok: "Bostadspolitiskt bokprojekt (omarbetad)" i Google Drive
 - Avsnittet om inhemsk producentdel hör till kapitel 4 (byggkostnader), under "Energin och byggkostnaderna",
   som redan säger: energins direkta vikt i BKI är liten (<1/20), energin når byggandet via förädlingskedjan
   (Prognoscentret 2026: ~hälften av kostnaden i stål, >1/4 i betong), Sverige "importerar" krisen via materialpriser.
-- Bokens stil: enkel, läsbar prosa, referenser som (Författare år) + referenslista. Få siffror. "vi" förekommer.
+- Bokens stil: enkel, läsbar prosa. Få siffror. "vi" förekommer. Referera SPARSAMT – inte efter varje påstående; Ludvig vill inte ha källhänvisningar hela tiden.
 - LÄXA: när Ludvig ber om språklig bearbetning av sitt utkast, ändra LITE. Behåll hans struktur, stycken och tes.
   Lägg bara till källor och få siffror. Skriv inte om argumentet (v2 var för omfattande och fick kritik).
 
