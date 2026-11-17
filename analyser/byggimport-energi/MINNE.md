@@ -11,6 +11,17 @@ och koppla det till **energikänslighet**:
 Sammanhang: prognosarbete på Prognoscentret. Texten kan senare skrivas om i hans prognosstil
 (skill `prognostext-stil`) eller bli bilder i Prognoscentrets mall.
 
+## Bokprojektet (VIKTIGT)
+Ludvig skriver en bok: "Bostadspolitiskt bokprojekt (omarbetad)" i Google Drive
+(fil-ID 1IgfeXa3ZkZZHIxgN9WLjXwoUtVc7xY6ybtpQKT8EJ68). Utkast på lösa delar: "Utkast på enskilda delar"
+(fil-ID 1arMYZF-bCxTO2trxnAGcX-Y348G5l4HOzeF0uC8iBbk).
+- Avsnittet om inhemsk producentdel hör till kapitel 4 (byggkostnader), under "Energin och byggkostnaderna",
+  som redan säger: energins direkta vikt i BKI är liten (<1/20), energin når byggandet via förädlingskedjan
+  (Prognoscentret 2026: ~hälften av kostnaden i stål, >1/4 i betong), Sverige "importerar" krisen via materialpriser.
+- Bokens stil: enkel, läsbar prosa, referenser som (Författare år) + referenslista. Få siffror. "vi" förekommer.
+- LÄXA: när Ludvig ber om språklig bearbetning av sitt utkast, ändra LITE. Behåll hans struktur, stycken och tes.
+  Lägg bara till källor och få siffror. Skriv inte om argumentet (v2 var för omfattande och fick kritik).
+
 ## Status
 - [x] Första genomgång via webbsökning → `RAPPORT.md`
 - [x] Datapunkter → `data/datapunkter.csv`, källor → `data/kallor.csv`
@@ -49,7 +60,8 @@ Krig/Iran-konflikt från feb 2026, Hormuz-störningar, vapenvila i maj. Brent i 
 
 ## Filer
 - `RAPPORT.md` – läsbar sammanställning med källor
-- `BOKTEXT_inhemsk_produktion_v2.md` – Ludvigs utkast, omarbetat med IO-siffror och genomslagsskattningar (aktuell version)
+- `BOKTEXT_inhemsk_produktion_v3.md` – lätt bearbetad version av Ludvigs utkast (AKTUELL)
+- `BOKTEXT_inhemsk_produktion_v2.md` – Ludvigs utkast, omarbetat med IO-siffror och genomslagsskattningar (för omfattande, ej aktuell)
 - `BOKTEXT_inhemsk_produktion.md` – bokavsnitt om den inhemska producentdelen (pristak och prisgolv)
 - `data/datapunkter.csv` – alla siffror med period, källa och anmärkning
 - `data/kallor.csv` – källförteckning
