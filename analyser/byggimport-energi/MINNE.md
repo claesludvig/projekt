@@ -42,6 +42,7 @@ Krig/Iran-konflikt från feb 2026, Hormuz-störningar, vapenvila i maj. Brent i 
 
 ## Filer
 - `RAPPORT.md` – läsbar sammanställning med källor
+- `BOKTEXT_inhemsk_produktion.md` – bokavsnitt om den inhemska producentdelen (pristak och prisgolv)
 - `data/datapunkter.csv` – alla siffror med period, källa och anmärkning
 - `data/kallor.csv` – källförteckning
 - `kod/hamta_data.py` – hämtning från SCB och Eurostat (tabell-ID:n behöver kontrolleras)
