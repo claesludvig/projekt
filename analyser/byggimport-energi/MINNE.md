@@ -60,7 +60,7 @@ Krig/Iran-konflikt från feb 2026, Hormuz-störningar, vapenvila i maj. Brent i 
 
 ## Filer
 - `RAPPORT.md` – läsbar sammanställning med källor
-- `BOKTEXT_inhemsk_produktion_v3.md` – lätt bearbetad version av Ludvigs utkast (AKTUELL)
+- `BOKTEXT_inhemsk_produktion_v3.md` – lätt bearbetad version av Ludvigs utkast (AKTUELL) – INLAGD i bokens Google Doc 17 nov 2026, kap. 4 "Energin och byggkostnaderna", efter stycket "Den indirekta vägen…", före "Det avgörande är ändå…"
 - `BOKTEXT_inhemsk_produktion_v2.md` – Ludvigs utkast, omarbetat med IO-siffror och genomslagsskattningar (för omfattande, ej aktuell)
 - `BOKTEXT_inhemsk_produktion.md` – bokavsnitt om den inhemska producentdelen (pristak och prisgolv)
 - `data/datapunkter.csv` – alla siffror med period, källa och anmärkning
