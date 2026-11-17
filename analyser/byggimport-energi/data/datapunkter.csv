@@ -1,0 +1,42 @@
+kategori,variabel,varde,enhet,period,kalla,anmarkning
+import,importandel byggmaterialmarknaden,15-20,procent,ca 2021,Konkurrensverket 2021:4,direkt import; ej indirekt importinnehall
+import,importandel byggmarknadens omsattning,knappt 15,procent,2006,Examensarbete 2006 (diva),aldre
+import,import byggmaterial,>30,mdkr,2006,Examensarbete 2006 (diva),ca 5 % av total varuimport
+import,importerade insatsvaror tillverkningsindustri,15 -> 20,procent av produktion,1995-2021,SNS 2026,ej byggspecifikt
+cement,inhemsk produktion Slite,2.2,Mt,2021,Boverket 2022:11,
+cement,inhemsk produktion Skovde,0.688,Mt,2021,Boverket 2022:11,
+cement,import,>0.5,Mt,2021,Boverket 2022:11,framst Lettland (Schwenk Broceni)
+cement,importandel,ca 15,procent,2021,egen berakning,import/(prod+import)
+stal,armering produktion Sverige (bearbetning),110-120,kt/ar,2024,Bergsmannen,Celsa; ravara fran Mo i Rana (Norge)
+stal,inhemsk produktion konstruktionsstal,ca 0,,2021,Konkurrensverket podcast,i praktiken helt importerat
+skivor,andel spanskiveimport fran NO/DK/DE,70-72,procent,2022-2023,TMF i siffror,
+skivor,import skivor totalt,>5,mdkr,2020,iSkogen/SCB,
+handel,Tysklands andel av varuimporten,15.5,procent,H1 2026,SCB,alla varor
+handel,Kinas andel av varuimporten,4.9,procent,H1 2026,SCB,alla varor
+handel,Polens andel av varuimporten,4.7,procent,H1 2026,SCB,alla varor
+olja,Brent snitt,96.38,USD/fat,2026 hittills,Global Oil Shock/Trading Economics,
+olja,Brent snitt,69.14,USD/fat,2025,Global Oil Shock/Trading Economics,
+olja,Brent,ca 92-98,USD/fat,mitten nov 2026,Trading Economics/Fortune/FRED,+48 % y/y
+bki,diesel,42.5,procent y/y,okt 2026,SCB BKI,+5.4 % m/m
+bki,transporter drivmedel el,12.6,procent y/y,okt 2026,SCB BKI via Maskinentreprenoren,
+bki,byggkostnadsindex totalt,4.8,procent y/y,okt 2026,SCB BKI via Byggindustrin,flerbostadshus
+bki,byggmaterial,5.9,procent y/y,okt 2026,SCB BKI,
+bki,armeringsstal,10.3,procent y/y,okt 2026,SCB BKI via Byggindustrin,storst okning
+bki,elkraft,4.7,procent y/y,okt 2026,SCB BKI via Byggindustrin,
+anlaggning,drivmedel andel av driftskostnad per maskintimme,ca 33,procent,2026,Maskinentreprenorerna,
+gas,TTF fore kriget,ca 30,EUR/MWh,feb 2026,Global Oil Shock,
+gas,TTF,ca 93-103,EUR/MWh,okt-nov 2026,Global Oil Shock,uppgifter gar isar
+gas,TTF (Eurofer),ca 50 (toppar 80),EUR/MWh,hosten 2026,Eurofer,uppgifter gar isar
+gas,TTF (WIFO),ca 40,EUR/MWh,efter toppen mars 2026,WIFO via sokresultat,uppgifter gar isar
+gas,gaspriskvot EU/USA,2.8 -> 3.6,ganger,jan-jul 2025 -> jan-jul 2026,Cefic,
+energiandel,tegel,16,procent av produktionsvarde,fore 2022,Ecofys 2016,
+energiandel,cement kalk gips,15,procent av produktionsvarde,fore 2022,Ecofys 2016,
+energiandel,glas (ihaligt),13,procent av produktionsvarde,fore 2022,Ecofys 2016,
+energiandel,keramiska plattor,9,procent av produktionsvarde,fore 2022,Ecofys 2016,
+energiandel,betongvaror,3,procent av produktionsvarde,fore 2022,Ecofys 2016,
+gasberoende,glas gasandel av slutlig energi,69,procent,2022,Eurostat,
+gasberoende,ovr icke-metalliska mineral gasandel,62,procent,2022,Eurostat,
+gasberoende,gas andel av kostnad tegelbruk,upp till 33,procent,2022,ING,
+eu_produktion,EU raastalsproduktion,125.8,Mt,2025,Eurofer,historisk lagstaniva
+eu_produktion,TTF-antagande vs foregaende prognos,47,procent hogre,2026,EU-kommissionen via Metalnomist,
+eu_import,Turkiets andel av EU:s cement/klinkerimport,48.2,procent,H1 2026,Hellenic Shipping News,
