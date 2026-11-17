@@ -1,16 +1,13 @@
 {
- "start": "2026-11-16T16:00:46.667711+00:00",
+ "start": "2026-11-17T16:11:51.864764+00:00",
  "scb": [],
  "dokument": [],
  "lanksidor": [],
  "fel": [
-  "följare S parti Facebook socialdemokraterna: inget följarantal i svaret",
+  "följare S parti X socialdemokrat: inget följarantal i svaret",
   "följare S partiledare TikTok AnderssonMagda: inget följarantal i svaret",
-  "följare S partiledare Facebook magdalenaeandersson: inget följarantal i svaret",
-  "följare M parti Facebook moderaterna: inget följarantal i svaret",
-  "följare M partiledare Facebook UlfKristerssonM: inget följarantal i svaret",
-  "följare SD parti Facebook sverigedemokraterna: inget följarantal i svaret",
-  "följare C parti Facebook centerpartiet: inget följarantal i svaret",
+  "följare SD partiledare X jimmieakesson: inget följarantal i svaret",
+  "följare C partiledare X elisabethtr: inget följarantal i svaret",
   "följare C partiledare Facebook elisabethtr: inget följarantal i svaret",
   "följare C partiledare Facebook Elisabeththandringqvist: inget följarantal i svaret",
   "följare V parti Facebook vansterpartiet: inget följarantal i svaret",
@@ -20,19 +17,11 @@
   "följare L partiledare Facebook SMohamsson: inget följarantal i svaret",
   "följare MP parti Facebook miljopartiet: inget följarantal i svaret",
   "följare MP partiledare Facebook amandalindmp: inget följarantal i svaret",
-  "följare KD parti Facebook kristdemokraterna: inget följarantal i svaret",
-  "rss Google Nyheter S: GET https://news.google.com/rss/search?q=%22Socialdemokraterna%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter M: GET https://news.google.com/rss/search?q=%22Moderaterna%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter SD: GET https://news.google.com/rss/search?q=%22Sverigedemokraterna%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter C: GET https://news.google.com/rss/search?q=%22Centerpartiet%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter V: GET https://news.google.com/rss/search?q=%22V%C3%A4nsterpartiet%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter KD: GET https://news.google.com/rss/search?q=%22Kristdemokraterna%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter L: GET https://news.google.com/rss/search?q=%22Liberalerna%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503",
-  "rss Google Nyheter MP: GET https://news.google.com/rss/search?q=%22Milj%C3%B6partiet%22&hl=sv&gl=SE&ceid=SE:sv: HTTP 503"
+  "följare KD parti Facebook kristdemokraterna: inget följarantal i svaret"
  ],
  "foljare_matt": {
   "konton": 59,
-  "matta": 42
+  "matta": 45
  },
- "slut": "2026-11-16T16:16:03.556169+00:00"
+ "slut": "2026-11-17T16:19:45.377427+00:00"
 }
