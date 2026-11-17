@@ -40,3 +40,19 @@ gasberoende,gas andel av kostnad tegelbruk,upp till 33,procent,2022,ING,
 eu_produktion,EU raastalsproduktion,125.8,Mt,2025,Eurofer,historisk lagstaniva
 eu_produktion,TTF-antagande vs foregaende prognos,47,procent hogre,2026,EU-kommissionen via Metalnomist,
 eu_import,Turkiets andel av EU:s cement/klinkerimport,48.2,procent,H1 2026,Hellenic Shipping News,
+io,byggets direkta import,12,procent av produktionsvarde,2023,SCB input-output (egen berakning annan session),
+io,import inkl indirekt via inhemska leverantorer,24.5,procent av produktionsvarde,2023,SCB input-output (egen berakning),2019: 20.9 %
+io,inhemsk andel av materialkop,65,procent,2023,SCB input-output (egen berakning),import 35 %
+io,inhemsk andel tra,80,procent,2023,SCB input-output (egen berakning),
+io,inhemsk andel betong cement glas tegel,73,procent,2023,SCB input-output (egen berakning),
+io,inhemsk andel stal,41,procent,2023,SCB input-output (egen berakning),
+io,inhemsk andel el och VVS,15-18,procent,2023,SCB input-output (egen berakning),
+genomslag,importpris->inhemskt PPI stal,0.8,andel inom 3 man,,egen skattning,prissatts mot varldsmarknaden
+genomslag,importpris->inhemskt PPI elkablar,0.6,andel inom 3 man,,egen skattning,kopparpriset
+genomslag,importpris->inhemskt PPI farg,0.4,andel inom 3 man,,egen skattning,oljebaserad
+genomslag,importpris->inhemskt PPI betong tra VVS,0.10-0.15,andel inom 3 man,,egen skattning,prissatts i Sverige
+ballast,leveranser,89.6,Mt,2024,SGU via Metaller och Gruvor,krossberg 84.9 Mt (95 %)
+betong,produktion,>6,miljoner m3/ar,senaste aren,Svensk Betong,
+tra,produktion sagade travaror,17.8,miljoner m3,2024,Skogsindustrierna,
+tra,exportandel sagade travaror,75-80,procent,,Skogsindustrierna,uppgifter skiljer
+konkurrens,merkostnad retroaktiva rabatter (exempel),20,procent av installatorens materialersattning,2025,Konkurrensverket 2025:6,800 000 kr over fyra ar

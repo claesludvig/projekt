@@ -26,6 +26,13 @@ Blockerade i molnsessionen: `scb.se`, `api.scb.se`, `statistikdatabasen.scb.se`,
 `konkurrensverket.se`, `think.ing.com`, `sdmx.oecd.org`, `comtradeapi.un.org`.
 De måste läggas till i miljöns tillåtna värdar innan `kod/hamta_data.py` kan köras.
 
+## Resultat från input-output-beräkning (annan session, SCB IO 2023)
+Direkt import 12 % av byggets produktionsvärde; inkl. indirekt 24,5 % (20,9 % 2019).
+Materialköp 65 % inhemskt / 35 % import. Inhemsk andel: trä 80 %, betong/cement/glas/tegel 73 %, stål 41 %, el och VVS 15–18 %.
+Genomslag importpris → inhemskt producentpris inom 3 mån: stål 0,8, elkablar 0,6, färg 0,4, betong/trä/VVS 0,1–0,15.
+Slutsats: tunga material prissätts i Sverige på kort sikt → konkurrens och marginaler viktigare än importpriset.
+(Metod och kod finns i den andra sessionen, inte i det här paketet.)
+
 ## Huvudslutsatser hittills
 1. Direkt import ≈ 15–20 % av byggmaterialmarknaden; det fulla importinnehållet är sannolikt högre.
 2. Stål är i praktiken helt importerat (armering från Celsa i Mo i Rana). Cement ~15 % import (Lettland).
@@ -42,6 +49,7 @@ Krig/Iran-konflikt från feb 2026, Hormuz-störningar, vapenvila i maj. Brent i 
 
 ## Filer
 - `RAPPORT.md` – läsbar sammanställning med källor
+- `BOKTEXT_inhemsk_produktion_v2.md` – Ludvigs utkast, omarbetat med IO-siffror och genomslagsskattningar (aktuell version)
 - `BOKTEXT_inhemsk_produktion.md` – bokavsnitt om den inhemska producentdelen (pristak och prisgolv)
 - `data/datapunkter.csv` – alla siffror med period, källa och anmärkning
 - `data/kallor.csv` – källförteckning
