@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-17T06:03:04.448059+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-11-17T14:03:24.150579+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 45,
-    "offtopic": 152,
-    "old": 8
+    "seen": 47,
+    "offtopic": 147,
+    "old": 12
   },
-  "fetch_errors": 3,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
@@ -59,105 +59,81 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.sverigesradio.se/artikel/9344033",
-      "title": "Professorn: Behöver inte lägga fram omröstning om Kristersson",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-17",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Under tisdagen ska Ulf Kristersson (M) rapportera till talman Andreas Norlén om sina försök att bilda en regering. Efter helgens besked från Centerpartiet om att man valt att förhandla vidare med Socialdemokraterna skulle en omröstning om Kristersson som statsminister sluta med ett nej. Men enligt professorn i statsvetenskap vid Göteborgs universitet, Johannes Lindvall så behöver talmannen inte lägga fram ett förslag om att rösta om Kristersson som statsminister.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9344033'",
-      "matched_terms": [
-        "talman",
-        "statsminister",
-        "Centerpartiet",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-17T06:03:04.448059+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/aGwJzE/sa-kan-s-pressa-v-i-regeringsforhandlingarna",
-      "title": "Taktiken när S pressar V: ”Väldigt stöddiga”",
+      "url": "https://www.svd.se/a/9Bvozd/kristersson-vill-vanta-med-statsministeromrostning",
+      "title": "Kristersson vill vänta med statsministeromröstning",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-11-16",
-      "author": "William Hernvall",
+      "published": "2026-11-17",
+      "author": "TT",
       "commentator": "",
-      "summary": "Efter Centerpartiets besked sägs regeringsbildningen vara ”tillbaka på ruta ett”.",
-      "fulltext": "Efter Centerpartiets besked sägs regeringsbildningen vara ”tillbaka på ruta ett”. Nu spås hård förhandlingstaktik från S för att V ska släppa sitt regeringskrav. ”S har varit väldigt stöddiga”, säger tidigare MP-språkröret Peter Eriksson.\nSedan Centerpartiet på söndagen meddelade sitt val av Magdalena Anderssons så kallade totalpaket har fokus återigen hamnat på de rödgrönas oförenliga ultimatum: C:s röda linje mot V i regeringen – och V:s krav på ministerposter.\n– Vi är tillbaka på ruta ett, men nu kanske Centerpartiet har fått fundera ett varv till, sa vice partiledare Ida Gabrielsson (V) i Agenda på söndagskvällen.\nBeskedet: Centerpartiet väljer S totalpaket\nOväntade hyllningarna till Jimmie Åkesson",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-17T06:03:04.448059+00:00"
-    },
-    {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument//_cmsd5a4651b-9319-4bf0-a47a-6f8a97634791sv",
-      "title": "Talmannen tar emot rapport från Ulf Kristersson (M)",
-      "source": "Riksdagen",
-      "kind": "officiell",
-      "published": "2026-11-16",
-      "author": "riksdagsinformation@riksdagen.se",
-      "commentator": "",
-      "summary": "… Mötet äger rum på talmannens kontor efter att Ulf Kristersson i riksdagens kammare med början klockan 13.00 lämnat en redogörelse från det informella mötet mellan EU:s stats- och regeringschefer. Mer information om den fortsatta processen för regeringsbildningen kommer att lämnas efter mötet. Pressackreditering och annan praktisk information Journalister och fotografer som vill arbeta på egen hand i riksdagens 2026-11-16 15:44:20",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '404 Not Found' for url 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/_cmsd5a4651b-9319-4bf0-a47a-6f8a97634791sv/'",
-      "matched_terms": [
-        "regeringsbildning",
-        "talman"
-      ],
-      "first_seen": "2026-11-17T06:03:04.448059+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9343910",
-      "title": "De röda linjerna ligger fast mellan V och C",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-16",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Dagen efter beskedet att Centerpartiet väljer att fortsätta förhandlingarna med de rödgröna partierna om att bilda regering med Magdalena Andersson som statsminister, har de rödgröna partierna mötts i olika konstellationer. När Vänsterpartiets Nooshi Dadgostar svarade på frågor efter sitt möte med Socialdemokraternas Magdalena Andersson på måndagen, höll hon fast vid ministerkravet. ”Vår linje är logisk. Alla röster ska räknas likadant. Det kan inte vara en orimlig hållning”, säger Nooshi Dadgostar.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9343910'",
-      "matched_terms": [
-        "statsminister",
-        "Centerpartiet",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-17T06:03:04.448059+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/kallor-regeringsfragan-langt-ifran-lost",
-      "title": "Källor: Regeringsfrågan långt ifrån löst",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-16",
-      "author": "Hans Rosén, Hanna Jakobson",
-      "commentator": "",
-      "summary": "Miljardärsskatt, billigare mat, höjda löner för välfärdsarbetare och ministerposter – det är tunga krav från Vänsterpartiet inför de förhandlingar som väntar. Magdalena Anderssons totalpaket är långt ifrån en lösning på regeringsfrågan, enligt DN:s källor bland de rödgröna partierna.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-17 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/kallor-regeringsfragan-langt-ifran-lost/\nMiljardärsskatt, billigare mat, höjda löner för välfärdsarbetare och ministerposter – det är tunga krav från Vänsterpartiet inför de förhandlingar som väntar.\nMagdalena Anderssons totalpaket är långt ifrån en lösning på regeringsfrågan, enligt DN:s källor bland de rödgröna partierna.",
+      "summary": "M-ledaren Ulf Kristersson anser att det behövs ytterligare några dagar innan en…",
+      "fulltext": "M-ledaren Ulf Kristersson anser att det behövs ytterligare några dagar innan en statsministeromröstning kan äga rum.\n– Så att Centerpartiet kan få det fullständiga beslutsunderlag som de behöver för att ta ställning, säger han på en pressträff.",
       "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg",
-        "ministerpost",
-        "Vänsterpartiet"
+        "statsminister"
       ],
-      "first_seen": "2026-11-17T06:03:04.448059+00:00"
+      "first_seen": "2026-11-17T14:03:24.150579+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/dJOkwA/mp-toppen-koper-inte-totalpaketet-s-bud",
+      "title": "MP-toppen köper inte totalpaketet: ”S-bud”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-17",
+      "author": "Jenny Nyman",
+      "commentator": "",
+      "summary": "Miljöpartiet köper inte hela Socialdemokraternas totalpaket. ”Tydligt ett S-bud”, säger partitoppen…",
+      "fulltext": "Miljöpartiet köper inte hela Socialdemokraternas totalpaket. ”Tydligt ett S-bud”, säger partitoppen Janine Alm Ericson. Samtidigt funderar partiet nu över Vänsterpartiets plats i en regering.\nCenterpartiet har valt att gå vidare med Magdalena Anderssons totalpaket – efter att ha bett både henne och Ulf Kristersson att presentera planen framåt.\nMen totalpaketet är inte en färdigförhandlad produkt mellan de rödgröna partierna.\n”Vi lyckades få S att sätta ned foten om V”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Miljöpartiet",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-17T14:03:24.150579+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/bk5Xkg/regeringsbildningen-kristersson-ska-traffa-talmannen",
+      "title": "”Vill inte stå med kniven mot strupen”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-17",
+      "author": "Olivia Viklund",
+      "commentator": "",
+      "summary": "Idag ska Kristersson träffa talmannen. Om han sedan lägger fram Ulf Kristersson i en…",
+      "fulltext": "Idag ska Kristersson träffa talmannen. Om han sedan lägger fram Ulf Kristersson i en statsministeromröstning kan Moderatledaren ha fördel av det, enligt statsvetaren Jenny Madestam.\nEfter 65 dagar utan en ny regering, i dag klockan 14.30, ska Ulf Kristersson (M) träffa talmannen Andreas Norlén för att rapportera hur hans sonderingsuppdrag för att bilda en regering har gått.\nDärefter ska Norlén lämna ”mer information om den fortsatta processen för regeringsbildningen”, enligt ett pressmeddelande från riksdagen.\n”Vi lyckades få S att sätta ned foten om V”\nOväntade hyllningarna till Jimmie Åkesson",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "talman"
+      ],
+      "first_seen": "2026-11-17T14:03:24.150579+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/mp-koper-inte-hela-totalpaketet",
+      "title": "MP: Köper inte hela totalpaketet",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-17",
+      "author": "TT",
+      "commentator": "",
+      "summary": "Miljöpartiet (MP) köper inte det så kallade totalpaket som Socialdemokraterna har tagit fram. – Nej, totalpaketet var väldigt tydligt ett S-bud till Centerpartiet, säger MP:s ekonomisk-politiska talesperson Janine Alm Ericson.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-17 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/mp-koper-inte-hela-totalpaketet/\nMiljöpartiet (MP) köper inte det så kallade totalpaket som Socialdemokraterna har tagit fram.\n– Nej, totalpaketet var väldigt tydligt ett S-bud till Centerpartiet, säger MP:s ekonomisk-politiska talesperson Janine Alm Ericson.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\n– Men vi tycker att det är en bra utgångspunkt att börja i för nya förhandlingar.\nEnligt Alm Ericson har totalpaketet inte börjat förhandlas i fyrpartikonstellationen S, MP, C och V.\nMen hon pekar på att förhandlingar mellan de rödgröna partierna kan komma att inledas snart.\n– Vi har olika ingångar i de förhandlingar som vi hoppas ska ta vid.\nDet så kallade totalpaketet som S överlämnade till C i fredags har som mål att bilda en regering med S, MP och C, som samarbetar med V. C gav i söndags besked om att man vill fortsätta förhandla med S om Anderssons totalpaket.\nMiljöpartiet har tidigare varit en stark förespråkare för en fyrpartiregering som består av S, C, V och MP. Men därefter har S-ledaren Magdalena Andersson sagt att hon vill hålla V utanför.\n– Vi får se var vi landar i den frågan. Vi har hela tiden varit tydliga med att det vore bra med Vänsterpartiet i en regering. Nu har Magdalena Andersson gett ett besked om att hon inte tycker det ska se ut så. Vi får ta det därifrån, säger Alm Ericson.\nAlm Ericson svarade på mediernas frågor i samband med finansutskottets möte. Där var även Socialdemokraternas ekonomisk-politiske talesperson Mikael Damberg, som inte ville svara på frågor.\n– Jag kommenterar inte förhandlingar överhuvudtaget. De fortsätter, säger han.\nÄven Centerpartiets ekonomisk-politiske talesperson Martin Ådahl var försiktig. Han beskriver Socialdemokraternas totalpaket som ett bud.\n– Det är inte färdigförhandlat. Det kommer att ske förhandlingar om det, säger han.\nDen stora knäckfrågan är dock att V kräver ministerposter i en rödgrön regering, vilket C inte kan acceptera. Ådahl uppger att det är S-ledaren Magdalena Anderssons ansvar att se till att totalpaketet kan genomföras.\n– Det ligger på henne att lösa det, säger Ådahl.\nTotalpaketet består av hundra sakpolitiska förslag, men enligt medieuppgifter innehåller det mycket lite om finansiering. Det är inget Ådahl vill bekräfta.\n– Vi kommer naturligtvis alltid att stå för en ansvarsfull politik i alla samarbeten vi medverkar i, säger han.\nEnligt finansdepartementet kommer det bara att finnas 50 miljarder kronor under hela denna mandatperiod för nya satsningar, utan att finansiera dem med skattehöjningar eller besparingar.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nCenterpartister: Därför är Vänsterpartiet omöjligt att ha i en regering\nRasmus Giertz framtid osäker: ”I frysboxen”\nSusanne Nyström: Sluta lura unga som står på tröskeln till vuxenlivet",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-17T14:03:24.150579+00:00"
     }
   ]
 }
