@@ -1,18 +1,18 @@
 {
-  "fetched_at": "2026-11-19T06:03:00.069974+00:00",
+  "fetched_at": "2026-11-19T14:03:23.145922+00:00",
   "new_count": 2,
   "skipped": {
-    "seen": 34,
-    "offtopic": 141,
-    "old": 8
+    "seen": 39,
+    "offtopic": 162,
+    "old": 7
   },
   "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
-      "feed": "",
-      "new": 0,
-      "ok": false
+      "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
+      "new": 1,
+      "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
@@ -23,7 +23,7 @@
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -59,46 +59,45 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.dn.se/sverige/oron-i-s-ledningen-sjabblar-bort-regeringsmakten",
-      "title": "Oron i S: Ledningen sjabblar bort regeringsmakten",
-      "source": "DN Nyheter",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he021038",
+      "title": "Försöksverksamhet med kommunal parlamentarism",
+      "source": "Riksdagen",
+      "kind": "officiell",
+      "published": "2026-11-19",
+      "author": "riksdagsinformation@riksdagen.se",
+      "commentator": "",
+      "summary": "… Förslaget innebar att kommuner och landsting frivilligt skulle kunna välja en styrelse bestående enbart av den politiska majoriteten. Utredningen föreslog också regler för regeringsbildning, misstroendeförklaring och oppositionens insyn. Utredningen om en kommunallag för framtiden återkom senare med förslag om försöksverksamhet inför mandatperioden 2018–2022. Det finns nu anledning att återkomma till frågan. … 2026-11-19",
+      "fulltext": "Motioner är förslag som riksdagens ledamöter har lämnat till riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att överväga att införa en försöksverksamhet som ger kommuner möjlighet att tillämpa kommunal parlamentarism och tillkännager detta för regeringen.\nDet finns en olycklig diskrepans mellan hur den kommunala demokratin faktiskt fungerar och hur den är reglerad. Kommunallagen bygger i grunden på principen om samlingsstyre. Kommunstyrelsen och nämnderna utses proportionellt, vilket innebär att både majoritet och opposition normalt är representerade. I praktiken fungerar de flesta kommuner på ett annat sätt. Efter valet bildas en politisk majoritet som styr kommunen, fördelar ordförandeposterna och driver en gemensam politisk plattform, medan övriga partier betraktas som opposition.\nStatsvetarna David Karlsson och Mikael Gilljam har beskrivit den här ordningen som ”kvasi-parlamentarism” - kommunerna styrs i realiteten av en politisk majoritet samtidigt som det formella regelverket bygger på samlingsstyre.\nDet finns skäl att pröva om denna skillnad mellan form och verklighet kan minska.\nRedan 2007 föreslogs i en motion till riksdagen (Mats Gerdau 2007/08: K230) att kommuner skulle ges möjlighet att pröva kommunal parlamentarism. Motionären pekade bland annat på Norge, där kommuner kan välja en parlamentarisk modell. Grundtanken är att den lokala ”regeringen” består av de partier som har stöd av, eller åtminstone tolereras av, en majoritet i fullmäktige. Oppositionen sitter inte i regeringen men garanteras insyn och goda arbetsmöjligheter.\nFrågan har därefter utretts. Kommittén för förstärkning av den kommunala demokratins funktionssätt föreslog i SOU 2012:30, Vital kommunal demokrati, en särskild lag om försöksverksamhet med majoritetsstyre. Förslaget innebar att kommuner och landsting frivilligt skulle kunna välja en styrelse bestående enbart av den politiska majoriteten. Utredningen föreslog också regler för regeringsbildning, misstroendeförklaring och oppositionens insyn. Utredningen om en kommunallag för framtiden återkom senare med förslag om försöksverksamhet inför mandatperioden 2018–2022.\nDet finns nu anledning att återkomma till frågan. Ett parlamentariskt system skulle för det första kunna göra det lättare för väljarna att se vem som styr kommunen och vem som utgör opposition. Det skulle också kunna stärka fullmäktiges roll som kommunens centrala politiska arena. Majoriteten skulle få ett tydligare ansvar för styret och oppositionens uppgift att granska och presentera politiska alternativ skulle bli tydligare.\nEtt sådant system skulle också bättre kunna hantera förändrade politiska majoriteter under en mandatperiod. Kommunpolitiken har blivit mer fragmenterad och koalitioner förändras allt oftare mellan valen. När ett styre spricker och en ny majoritet bildas kan den nya majoriteten i dag behöva förhålla sig till en kommunstyrelse och nämndorganisation som valdes utifrån den tidigare politiska situationen.\nKommunallagen innehåller visserligen möjligheter att återkalla samtliga uppdrag i en nämnd när den politiska majoriteten där inte längre är densamma som i fullmäktige och att byta presidium när majoriteten förändrats. Men ordningen är betydligt mer omständlig än i ett parlamentariskt system, där det är självklart att den politiska ledningen måste åtnjuta den folkvalda församlingens förtroende.\nEtt parlamentariskt system måste förstås innehålla ett starkt minoritetsskydd. Oppositionen behöver få goda möjligheter till insyn i beredningen av ärenden, tillgång till relevanta handlingar samt politiska och administrativa resurser som gör att de kan granska majoriteten och formulera sina alternativ.\nRiksdagen ställer sig bakom det som anförs i motionen om att överväga att införa en försöksverksamhet som ger kommuner möjlighet att tillämpa kommunal parlamentarism och tillkännager detta för regeringen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsbildning",
+        "misstroendeförklaring"
+      ],
+      "first_seen": "2026-11-19T14:03:23.145922+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar",
+      "title": "Flera partitoppar skippade omröstning – sitter i förhandlingar",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-18",
-      "author": "Evelyn Jones, Hans Rosén",
+      "author": "Daniel Ingmo, Julia Lindvall, Erik Nilsson",
       "commentator": "",
-      "summary": "Låsningarna bland de rödgröna finns kvar – samtidigt som högerns lockrop på C blir allt högre. Det får oron att sprida sig inom socialdemokratin för att partiledningen ska misslyckas. – Om strategin inte lyckas har jag svårt att se framför mig att vi inte så småningom kommer byta företrädare, säger S-profilen Linn Svansbo.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-19 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/oron-i-s-ledningen-sjabblar-bort-regeringsmakten/\nLåsningarna bland de rödgröna finns kvar – samtidigt som högerns lockrop på C blir allt högre. Det får oron att sprida sig inom socialdemokratin för att partiledningen ska misslyckas.\n– Om strategin inte lyckas har jag svårt att se framför mig att vi inte så småningom kommer byta företrädare, säger S-profilen Linn Svansbo.",
+      "summary": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).",
+      "fulltext": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen.\nEnligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten.\n– Vi jobbar på, säger Daniel Helldén (MP).\nEnligt uppgifter till SVT pågår det just nu förhandlingar mellan S, C, MP och V – där partierna försöker lösa upp knutarna som blockerar en S-ledd regering.\nDärför skippade flera rödgröna partitoppar onsdagens riksdagsvotering, då riksdagsledamöterna samlades för att rösta om en rad förslag från utskotten.\nC-ledaren Elisabeth Thand Ringqvist bekräftar för SVT att partierna träffas ”på olika nivåer”. Hon vill dock inte säga hur processen går.\n– Det går inte att säga mitt i förhandlingarna, säger Thand Ringqvist.\nFrån Socialdemokraterna saknades Mikael Damberg, Ardalan Shekarabi samt Åsa Westlund vid omröstningen. De har alla tre nyckelroller i regeringsbildningsprocessen och har varit delaktiga vid tidigare möten mellan partierna.\n”Han har andra åtaganden därav borta”, skriver Mikael Dambergs pressekreterare i en kommentar till SVT.\nEnligt vad SVT erfar deltar C-topparna Ulrika Liljeberg samt Rickard Nordin tillsammans med Miljöpartiets gruppledare Annika Hirvonen och Janine Alm Ericson vid förhandlingsbordet.\nDärför var de inte med under onsdagens omröstning.\n– De försöker se till så att Sverige ska få en ny regering, säger en källa.\nÄven flera vänsterpartister missade omröstningen i riksdagen. Däribland partiledaren Nooshi Dadgostar, vice partiledare Ida Gabrielsson, gruppledaren Samuel Gonzalez Westling samt partisekreteraren Maria Forsberg.\nDet rödgröna mötet är ett av flera som ägt rum i veckan. Magdalena Andersson har träffat partiledarna för V, C och MP, enligt SVT:s uppgifter.\n– Vi jobbar på, säger Miljöpartiets språkrör Daniel Helldén om läget i de rödgröna förhandlingarna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsmakt"
       ],
-      "first_seen": "2026-11-19T06:03:00.069974+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/v-ger-sig-inte-ministerkravet-ar-en-naturlig-del-av-oss",
-      "title": "V ger sig inte: ”Ministerkravet är en naturlig del av oss”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-18",
-      "author": "Molly Karlsson Inde, William Svensson",
-      "commentator": "",
-      "summary": "Socialdemokraterna ”jobbar intensivt” för att få Vänsterpartiet att släppa kravet på ministerposter, och Centerledaren säger att förhandlingarna går bra. Men enligt flera V-ledamöter är kravet lika intakt som förut. – Om syftet är att vi ska hållas undan från regeringen blir allt annat tramsigt, säger Tobias Smedberg (V).",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-19 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-ger-sig-inte-ministerkravet-ar-en-naturlig-del-av-oss/\nSocialdemokraterna ”jobbar intensivt” för att få Vänsterpartiet att släppa kravet på ministerposter, och Centerledaren säger att förhandlingarna går bra.\nMen enligt flera V-ledamöter är kravet lika intakt som förut.\n– Om syftet är att vi ska hållas undan från regeringen blir allt annat tramsigt, säger Tobias Smedberg (V).",
-      "paywall": true,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-19T06:03:00.069974+00:00"
+      "first_seen": "2026-11-19T14:03:23.145922+00:00"
     }
   ]
 }

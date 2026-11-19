@@ -1,17 +1,19 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-19
 
-2 nya poster sedan förra utskicket (34 redan utskickade, 141 utanför ämnet).
+2 nya poster sedan förra utskicket (39 redan utskickade, 162 utanför ämnet).
 
 ## Rapportering
 
-### [Oron i S: Ledningen sjabblar bort regeringsmakten](https://www.dn.se/sverige/oron-i-s-ledningen-sjabblar-bort-regeringsmakten)
-DN Nyheter · 2026-11-18 · Evelyn Jones, Hans Rosén
+### [Flera partitoppar skippade omröstning – sitter i förhandlingar](https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar)
+SVT Nyheter · 2026-11-18 · Daniel Ingmo, Julia Lindvall, Erik Nilsson
 
-Låsningarna bland de rödgröna finns kvar – samtidigt som högerns lockrop på C blir allt högre. Det får oron att sprida sig inom socialdemokratin för att partiledningen ska misslyckas. – Om strategin inte lyckas har jag svårt att se framför mig att vi inte så småningom kommer byta företrädare, säger S-profilen Linn Svansbo.
+Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).
 
-### [V ger sig inte: ”Ministerkravet är en naturlig del av oss”](https://www.dn.se/sverige/v-ger-sig-inte-ministerkravet-ar-en-naturlig-del-av-oss)
-DN Nyheter · 2026-11-18 · Molly Karlsson Inde, William Svensson _(betalvägg — endast ingress)_
+## Officiella besked
 
-Socialdemokraterna ”jobbar intensivt” för att få Vänsterpartiet att släppa kravet på ministerposter, och Centerledaren säger att förhandlingarna går bra. Men enligt flera V-ledamöter är kravet lika intakt som förut. – Om syftet är att vi ska hållas undan från regeringen blir allt annat tramsigt, säger Tobias Smedberg (V).
+### [Försöksverksamhet med kommunal parlamentarism](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he021038)
+Riksdagen · 2026-11-19 · riksdagsinformation@riksdagen.se
 
-_Genererat 2026-11-19T06:03:00.069974+00:00._
+… Förslaget innebar att kommuner och landsting frivilligt skulle kunna välja en styrelse bestående enbart av den politiska majoriteten. Utredningen föreslog också regler för regeringsbildning, misstroendeförklaring och oppositionens insyn. Utredningen om en kommunallag för framtiden återkom senare med förslag om försöksverksamhet inför mandatperioden 2018–2022. Det finns nu anledning att återkomma till frågan. … 2026-11-19
+
+_Genererat 2026-11-19T14:03:23.145922+00:00._
