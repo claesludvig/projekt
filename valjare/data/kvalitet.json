@@ -1,5 +1,5 @@
 {
- "skapad": "2026-11-18",
+ "skapad": "2026-11-19",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "11850 artiklar i 7 flöden",
-   "varde": 11850.0
+   "detalj": "12096 artiklar i 7 flöden",
+   "varde": 12096.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-11-13, 5 dagar sedan",
-   "varde": 5.0
+   "detalj": "senaste dokument 2026-11-13, 6 dagar sedan",
+   "varde": 6.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "2503 rader (förra 2453)",
-   "varde": 2503.0
+   "detalj": "2555 rader (förra 2503)",
+   "varde": 2555.0
   },
   {
    "grupp": "volym",
@@ -1451,8 +1451,8 @@
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "968 rader (förra 959)",
-   "varde": 968.0
+   "detalj": "983 rader (förra 968)",
+   "varde": 983.0
   },
   {
    "grupp": "volym",
