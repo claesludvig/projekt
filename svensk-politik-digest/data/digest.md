@@ -1,24 +1,17 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-18
+# Svensk politik och regeringsförhandlingarna — 2026-11-19
 
-3 nya poster sedan förra utskicket (45 redan utskickade, 155 utanför ämnet).
-
-## Analys och kommentar
-
-### [Trots oenighet: Kan bli USA:s första svarta talman](https://www.svd.se/a/pMLVmE/trots-oenighet-kan-bli-usa-s-forsta-svarta-talman)
-SvD Ledare · 2026-11-18 · Tina Magnergård Bjers/TT
-
-Demokraterna i USA:s representanthus samlas nu bakom stängda dörrar för att rösta fram sin…
+2 nya poster sedan förra utskicket (34 redan utskickade, 141 utanför ämnet).
 
 ## Rapportering
 
-### [Mats Knutson: Tre scenarier – det kan hända nu](https://www.svt.se/nyheter/inrikes/mats-knutson-tre-scenarier-det-kan-handa-nu) **[kommentator]**
-SVT Nyheter · 2026-11-18 · Sebastian Strandberg
+### [Oron i S: Ledningen sjabblar bort regeringsmakten](https://www.dn.se/sverige/oron-i-s-ledningen-sjabblar-bort-regeringsmakten)
+DN Nyheter · 2026-11-18 · Evelyn Jones, Hans Rosén
 
-Försöken att bilda en ny svensk regering fortsätter. Men vägen framåt är långt ifrån självklar. SVT:s inrikespolitiska kommentator Mats Knutson har därför listat tre möjliga scenarier för hur regeringsfrågan kan komma att lösas. – För att lösa regeringspusslet måste förmodligen något osannolikt inträffa, säger han.
+Låsningarna bland de rödgröna finns kvar – samtidigt som högerns lockrop på C blir allt högre. Det får oron att sprida sig inom socialdemokratin för att partiledningen ska misslyckas. – Om strategin inte lyckas har jag svårt att se framför mig att vi inte så småningom kommer byta företrädare, säger S-profilen Linn Svansbo.
 
-### [M går om S – blir största partiet](https://www.sverigesradio.se/artikel/9344892)
-Ekot, Sveriges Radio · 2026-11-18 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [V ger sig inte: ”Ministerkravet är en naturlig del av oss”](https://www.dn.se/sverige/v-ger-sig-inte-ministerkravet-ar-en-naturlig-del-av-oss)
+DN Nyheter · 2026-11-18 · Molly Karlsson Inde, William Svensson _(betalvägg — endast ingress)_
 
-Moderaterna är största parti i en ny Novusmätning som publiceras i TV4 och Göteborgs-Posten, med 26,5 procent av väljarstödet. Moderaterna ökar med 2,6 procentenheter, medan Socialdemokraterna backar med 1 procentenhet till 24,9 procent. Tidöpartierna är tillsammans drygt 6 procentenheter större än de rödgröna partierna.
+Socialdemokraterna ”jobbar intensivt” för att få Vänsterpartiet att släppa kravet på ministerposter, och Centerledaren säger att förhandlingarna går bra. Men enligt flera V-ledamöter är kravet lika intakt som förut. – Om syftet är att vi ska hållas undan från regeringen blir allt annat tramsigt, säger Tobias Smedberg (V).
 
-_Genererat 2026-11-18T14:03:02.464979+00:00._
+_Genererat 2026-11-19T06:03:00.069974+00:00._

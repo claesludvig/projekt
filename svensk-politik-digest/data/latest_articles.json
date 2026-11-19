@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-11-18T14:03:02.464979+00:00",
-  "new_count": 3,
+  "fetched_at": "2026-11-19T06:03:00.069974+00:00",
+  "new_count": 2,
   "skipped": {
-    "seen": 45,
-    "offtopic": 155,
-    "old": 7
+    "seen": 34,
+    "offtopic": 141,
+    "old": 8
   },
-  "fetch_errors": 1,
+  "fetch_errors": 0,
   "sources": [
     {
       "name": "SVT Nyheter",
-      "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
-      "ok": true
+      "feed": "",
+      "new": 0,
+      "ok": false
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,56 +65,40 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/pMLVmE/trots-oenighet-kan-bli-usa-s-forsta-svarta-talman",
-      "title": "Trots oenighet: Kan bli USA:s första svarta talman",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.dn.se/sverige/oron-i-s-ledningen-sjabblar-bort-regeringsmakten",
+      "title": "Oron i S: Ledningen sjabblar bort regeringsmakten",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
       "published": "2026-11-18",
-      "author": "Tina Magnergård Bjers/TT",
+      "author": "Evelyn Jones, Hans Rosén",
       "commentator": "",
-      "summary": "Demokraterna i USA:s representanthus samlas nu bakom stängda dörrar för att rösta fram sin…",
-      "fulltext": "Demokraterna i USA:s representanthus samlas nu bakom stängda dörrar för att rösta fram sin talmanskandidat.\nDet väntas bli den nuvarande minoritetsledaren Hakeem Jeffries – men alla i partiet är inte entusiastiska.\nDe senaste dagarna, efter Demokraternas storseger i mellanårsvalet, har flera nyinvalda progressiva ledamöter uttryckt tveksamheter kring Jeffries, skriver Axios . En namninsamling emot honom har gjorts och nyvalda demokrater, som deltar i omröstningen, luftar starka åsikter.\n– Just nu planerar jag att rösta nej. Folket säger att vi förtjänar bättre och en bättre (kandidat) är möjlig, säger den blivande representanthusledamoten Angela Gonzales-Torres från Kalifornien till Axios.\nInga uttalade motkandidater finns dock och den 56-årige New York-demokraten Jeffries verkar själv inställd på att skriva historia som USA:s första svarta talman.\n– Räkna med att Demokraterna intar en helt ny och offensiv hållning för att säkra att våra skattepengar. . . används till att göra livet mer överkomligt, sade han nyligen i en intervju med tv-kanalen NY1.\nJuristen Jeffries har suttit i representanthuset sedan 2013 och tog 2023 över som gruppledare från Kaliforniendemokraten Nancy Pelosi. Jeffries är känd för skarp retorik och för att emellanåt citera rappare – men han har kritiserats för att inte vara tillräckligt hård mot Donald Trumps styre. I augusti hade han ett möte med presidentens svärson och rådgivare Jared Kushner, vilket fick många partikamrater att höja på ögonbrynen.\nJeffries har också klandrats för sitt stöd till Israel. Vid en presskonferens i förra veckan manade han dock till ”dramatisk förändring” i Mellanöstern och upprepade sitt stöd för en tvåstatslösning på konflikten mellan israeler och palestinier, enligt Reuters .\nDet räcker med enkel majoritet för att segra i onsdagens omröstning och bli talmanskandidat. Ingen har formellt utmanat Jeffries om gruppledarrollen, även om namn som Jamie Raskin och Ayanna Pressley enligt medier förts fram i interna diskussioner i den splittrade partigruppen.\nVid voteringen utses även ett antal utskottsordförande, personer som väntas få stor makt i nästa kongress eftersom Demokraterna lovat omfattande utredningar av Trumpstyret.\nSjälva talmansomröstningen hålls den 3 januari, då USA:s 120 kongressmöte öppnar. Demokraterna väntas få minst 257 av representanthusets 435 platser, vilket innebär att den demokratiske kandidaten har råd att tappa ett antal röster och ändå segra.\nKongressen är den federala lagstiftande församlingen i USA med säte i Kapitolium i huvudstaden Washington DC. Dess arbete löper i tvåårsperioder – den 3 januari 2027 startar det 120:e kongressmötet.\nKongressen består av senaten med 100 ledamöter, två från varje delstat, och representanthuset med 435 platser fördelade i relation till delstaternas folkmängd.\nDemokraterna kommer efter valet att kontrollera 56 av senatens 100 platser, med stödet av de oberoende senatorerna Angus King och Bernie Sanders, som brukar rösta med Demokraterna, inräknat. Partiet tar även över makten i representanthuset med minst 257 av de 435 platserna.\nKongressen stiftar federala lagar, beslutar om skatter och anslag och godkänner statsbudgeten. Kongressen granskar och godkänner även ministrar och andra höga tjänstemän – och kan avsätta federala tjänstemän, inklusive presidenten och domare, genom riksrätt.\nKällor: USA:s kongress, House Press Gallery",
+      "summary": "Låsningarna bland de rödgröna finns kvar – samtidigt som högerns lockrop på C blir allt högre. Det får oron att sprida sig inom socialdemokratin för att partiledningen ska misslyckas. – Om strategin inte lyckas har jag svårt att se framför mig att vi inte så småningom kommer byta företrädare, säger S-profilen Linn Svansbo.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-19 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/oron-i-s-ledningen-sjabblar-bort-regeringsmakten/\nLåsningarna bland de rödgröna finns kvar – samtidigt som högerns lockrop på C blir allt högre. Det får oron att sprida sig inom socialdemokratin för att partiledningen ska misslyckas.\n– Om strategin inte lyckas har jag svårt att se framför mig att vi inte så småningom kommer byta företrädare, säger S-profilen Linn Svansbo.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman"
+        "regeringsmakt"
       ],
-      "first_seen": "2026-11-18T14:03:02.464979+00:00"
+      "first_seen": "2026-11-19T06:03:00.069974+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-scenarier-det-kan-handa-nu",
-      "title": "Mats Knutson: Tre scenarier – det kan hända nu",
-      "source": "SVT Nyheter",
+      "url": "https://www.dn.se/sverige/v-ger-sig-inte-ministerkravet-ar-en-naturlig-del-av-oss",
+      "title": "V ger sig inte: ”Ministerkravet är en naturlig del av oss”",
+      "source": "DN Nyheter",
       "kind": "nyhet",
       "published": "2026-11-18",
-      "author": "Sebastian Strandberg",
-      "commentator": "Mats Knutson",
-      "summary": "Försöken att bilda en ny svensk regering fortsätter. Men vägen framåt är långt ifrån självklar. SVT:s inrikespolitiska kommentator Mats Knutson har därför listat tre möjliga scenarier för hur regeringsfrågan kan komma att lösas. – För att lösa regeringspusslet måste förmodligen något osannolikt inträffa, säger han.",
-      "fulltext": "Försöken att bilda en ny svensk regering fortsätter. Men vägen framåt är långt ifrån självklar. SVT:s inrikespolitiska kommentator Mats Knutson har därför listat tre möjliga scenarier för hur regeringsfrågan kan komma att lösas.\n– För att lösa regeringspusslet måste förmodligen något osannolikt inträffa, säger han.\nDet är inte helt lätt att hänga med i alla svängar i regeringsförhandlingarna. Centerpartiet har valt det så kallade totalpaketet som Socialdemokraterna lagt fram , samtidigt som partiets röda linjer mot Vänsterpartiet i regering ligger fast. M-ledare Ulf Kristersson, som har sonderingsuppdraget, har fått mer tid från talmannen att bilda regering.\nSVT:s Mats Knutson listat tre möjliga huvudscenarier framåt. Ett av dem är extraval. Det skulle ske om varken Andersson eller Kristersson släpps fram i de två återstående statsministeromröstningarna.\n– Det kan ske genom att de rödgrönas förhandlingar havererar, man når ingen uppgörelse, och att en majoritet i riksdagen röstar först rött till Andersson, och att Centerpartiet efter det även röstar rött till Kristersson på grund av SD:s roll, säger Mats Knutson.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
+      "author": "Molly Karlsson Inde, William Svensson",
+      "commentator": "",
+      "summary": "Socialdemokraterna ”jobbar intensivt” för att få Vänsterpartiet att släppa kravet på ministerposter, och Centerledaren säger att förhandlingarna går bra. Men enligt flera V-ledamöter är kravet lika intakt som förut. – Om syftet är att vi ska hållas undan från regeringen blir allt annat tramsigt, säger Tobias Smedberg (V).",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-19 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-ger-sig-inte-ministerkravet-ar-en-naturlig-del-av-oss/\nSocialdemokraterna ”jobbar intensivt” för att få Vänsterpartiet att släppa kravet på ministerposter, och Centerledaren säger att förhandlingarna går bra.\nMen enligt flera V-ledamöter är kravet lika intakt som förut.\n– Om syftet är att vi ska hållas undan från regeringen blir allt annat tramsigt, säger Tobias Smedberg (V).",
+      "paywall": true,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg"
+        "ministerpost",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-18T14:03:02.464979+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9344892",
-      "title": "M går om S – blir största partiet",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-18",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Moderaterna är största parti i en ny Novusmätning som publiceras i TV4 och Göteborgs-Posten, med 26,5 procent av väljarstödet. Moderaterna ökar med 2,6 procentenheter, medan Socialdemokraterna backar med 1 procentenhet till 24,9 procent. Tidöpartierna är tillsammans drygt 6 procentenheter större än de rödgröna partierna.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9344892'",
-      "matched_terms": [
-        "Moderaterna",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-18T14:03:02.464979+00:00"
+      "first_seen": "2026-11-19T06:03:00.069974+00:00"
     }
   ]
 }
