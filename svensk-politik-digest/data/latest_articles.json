@@ -1,10 +1,10 @@
 {
-  "fetched_at": "2026-11-19T14:03:23.145922+00:00",
+  "fetched_at": "2026-11-20T06:02:58.223399+00:00",
   "new_count": 2,
   "skipped": {
     "seen": 39,
-    "offtopic": 162,
-    "old": 7
+    "offtopic": 163,
+    "old": 6
   },
   "fetch_errors": 0,
   "sources": [
@@ -53,51 +53,51 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he021038",
-      "title": "Försöksverksamhet med kommunal parlamentarism",
-      "source": "Riksdagen",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/carl-oskar-bohlin-till-luxemburg-for-ministermote-om-civil-beredskap",
+      "title": "Carl-Oskar Bohlin till Luxemburg för ministermöte om civil beredskap",
+      "source": "Regeringen.se",
       "kind": "officiell",
-      "published": "2026-11-19",
-      "author": "riksdagsinformation@riksdagen.se",
+      "published": "2026-11-20",
+      "author": "Regeringskansliet",
       "commentator": "",
-      "summary": "… Förslaget innebar att kommuner och landsting frivilligt skulle kunna välja en styrelse bestående enbart av den politiska majoriteten. Utredningen föreslog också regler för regeringsbildning, misstroendeförklaring och oppositionens insyn. Utredningen om en kommunallag för framtiden återkom senare med förslag om försöksverksamhet inför mandatperioden 2018–2022. Det finns nu anledning att återkomma till frågan. … 2026-11-19",
-      "fulltext": "Motioner är förslag som riksdagens ledamöter har lämnat till riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att överväga att införa en försöksverksamhet som ger kommuner möjlighet att tillämpa kommunal parlamentarism och tillkännager detta för regeringen.\nDet finns en olycklig diskrepans mellan hur den kommunala demokratin faktiskt fungerar och hur den är reglerad. Kommunallagen bygger i grunden på principen om samlingsstyre. Kommunstyrelsen och nämnderna utses proportionellt, vilket innebär att både majoritet och opposition normalt är representerade. I praktiken fungerar de flesta kommuner på ett annat sätt. Efter valet bildas en politisk majoritet som styr kommunen, fördelar ordförandeposterna och driver en gemensam politisk plattform, medan övriga partier betraktas som opposition.\nStatsvetarna David Karlsson och Mikael Gilljam har beskrivit den här ordningen som ”kvasi-parlamentarism” - kommunerna styrs i realiteten av en politisk majoritet samtidigt som det formella regelverket bygger på samlingsstyre.\nDet finns skäl att pröva om denna skillnad mellan form och verklighet kan minska.\nRedan 2007 föreslogs i en motion till riksdagen (Mats Gerdau 2007/08: K230) att kommuner skulle ges möjlighet att pröva kommunal parlamentarism. Motionären pekade bland annat på Norge, där kommuner kan välja en parlamentarisk modell. Grundtanken är att den lokala ”regeringen” består av de partier som har stöd av, eller åtminstone tolereras av, en majoritet i fullmäktige. Oppositionen sitter inte i regeringen men garanteras insyn och goda arbetsmöjligheter.\nFrågan har därefter utretts. Kommittén för förstärkning av den kommunala demokratins funktionssätt föreslog i SOU 2012:30, Vital kommunal demokrati, en särskild lag om försöksverksamhet med majoritetsstyre. Förslaget innebar att kommuner och landsting frivilligt skulle kunna välja en styrelse bestående enbart av den politiska majoriteten. Utredningen föreslog också regler för regeringsbildning, misstroendeförklaring och oppositionens insyn. Utredningen om en kommunallag för framtiden återkom senare med förslag om försöksverksamhet inför mandatperioden 2018–2022.\nDet finns nu anledning att återkomma till frågan. Ett parlamentariskt system skulle för det första kunna göra det lättare för väljarna att se vem som styr kommunen och vem som utgör opposition. Det skulle också kunna stärka fullmäktiges roll som kommunens centrala politiska arena. Majoriteten skulle få ett tydligare ansvar för styret och oppositionens uppgift att granska och presentera politiska alternativ skulle bli tydligare.\nEtt sådant system skulle också bättre kunna hantera förändrade politiska majoriteter under en mandatperiod. Kommunpolitiken har blivit mer fragmenterad och koalitioner förändras allt oftare mellan valen. När ett styre spricker och en ny majoritet bildas kan den nya majoriteten i dag behöva förhålla sig till en kommunstyrelse och nämndorganisation som valdes utifrån den tidigare politiska situationen.\nKommunallagen innehåller visserligen möjligheter att återkalla samtliga uppdrag i en nämnd när den politiska majoriteten där inte längre är densamma som i fullmäktige och att byta presidium när majoriteten förändrats. Men ordningen är betydligt mer omständlig än i ett parlamentariskt system, där det är självklart att den politiska ledningen måste åtnjuta den folkvalda församlingens förtroende.\nEtt parlamentariskt system måste förstås innehålla ett starkt minoritetsskydd. Oppositionen behöver få goda möjligheter till insyn i beredningen av ärenden, tillgång till relevanta handlingar samt politiska och administrativa resurser som gör att de kan granska majoriteten och formulera sina alternativ.\nRiksdagen ställer sig bakom det som anförs i motionen om att överväga att införa en försöksverksamhet som ger kommuner möjlighet att tillämpa kommunal parlamentarism och tillkännager detta för regeringen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.",
+      "summary": "Den 20 november reser minister för civilt försvar Carl-Oskar Bohlin till Luxemburg för att delta i ett möte i den europeiska koalitionen för stärkt civil beredskap och motståndskraft.",
+      "fulltext": "Den 20 november reser minister för civilt försvar Carl-Oskar Bohlin till Luxemburg för att delta i ett möte i den europeiska koalitionen för stärkt civil beredskap och motståndskraft.\nDet är det fjärde mötet som hålls inom koalitionen, som bildades 2025 som ett europeiskt samarbete mellan ministrar med ansvar för civil beredskap, civilt försvar och samhällets motståndskraft.\nPå mötesagendan står en diskussion om erfarenheter av hybridhot och hur europeisk beredskap och samordning kan stärkas.\nPå agendan står även ett samtal om Ukrainas erfarenheter av att upprätthålla samhällsviktig verksamhet under krig, och vilka lärdomar EU:s medlemsstater bör dra för att stärka civil beredskap.\nEuropeiska koalitionen för stärkt civil beredskap och motståndskraft\nEn koalition med tolv likasinnade länder som vill stärka den civila beredskapen och motståndskraften i EU. I koalitionen ingår Belgien, Danmark, Estland, Finland, Lettland, Litauen, Luxembourg, Nederländerna, Polen, Rumänien, Sverige och Tyskland.\nHybridhot är utformade för att hålla sig under den gräns som skulle kunna utgöra eller uppfattas som krigshandling. Det kan till exempel inkludera cyberattacker, otillbörlig informationspåverkan och sabotage mot kritisk infrastruktur. Det är primärt statsaktörer som genomför hybridoperationer, men de kan också använda sig av ombud. Hybridoperationer är ofta svåra att upptäcka och försvara sig mot.\nSidan är uppmärkt med följande kategorier\nPublicerad 10 november 2026 · Faktapromemoria från Försvarsdepartementet , Regeringen\nPublicerad 27 februari 2026 · Pressmeddelande från Andreas Carlson , Carl-Oskar Bohlin , Försvarsdepartementet , Landsbygds- och infrastrukturdepartementet\nPublicerad 07 maj 2025 · Faktapromemoria från Försvarsdepartementet\nPublicerad 19 mars 2025 · Pressmeddelande från Carl-Oskar Bohlin , Erik Slottner , Finansdepartementet , Försvarsdepartementet",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning",
-        "misstroendeförklaring"
+        "koalition"
       ],
-      "first_seen": "2026-11-19T14:03:23.145922+00:00"
+      "first_seen": "2026-11-20T06:02:58.223399+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar",
-      "title": "Flera partitoppar skippade omröstning – sitter i förhandlingar",
+      "url": "https://www.svt.se/nyheter/inrikes/kd-ministerns-skogsvarning-till-c-ett-rent-hot",
+      "title": "KD-ministerns skogsvarning till C: ”Ett rent hot”",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-18",
-      "author": "Daniel Ingmo, Julia Lindvall, Erik Nilsson",
+      "published": "2026-11-19",
+      "author": "Kristoffer Törnmalm",
       "commentator": "",
-      "summary": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).",
-      "fulltext": "Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen.\nEnligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten.\n– Vi jobbar på, säger Daniel Helldén (MP).\nEnligt uppgifter till SVT pågår det just nu förhandlingar mellan S, C, MP och V – där partierna försöker lösa upp knutarna som blockerar en S-ledd regering.\nDärför skippade flera rödgröna partitoppar onsdagens riksdagsvotering, då riksdagsledamöterna samlades för att rösta om en rad förslag från utskotten.\nC-ledaren Elisabeth Thand Ringqvist bekräftar för SVT att partierna träffas ”på olika nivåer”. Hon vill dock inte säga hur processen går.\n– Det går inte att säga mitt i förhandlingarna, säger Thand Ringqvist.\nFrån Socialdemokraterna saknades Mikael Damberg, Ardalan Shekarabi samt Åsa Westlund vid omröstningen. De har alla tre nyckelroller i regeringsbildningsprocessen och har varit delaktiga vid tidigare möten mellan partierna.\n”Han har andra åtaganden därav borta”, skriver Mikael Dambergs pressekreterare i en kommentar till SVT.\nEnligt vad SVT erfar deltar C-topparna Ulrika Liljeberg samt Rickard Nordin tillsammans med Miljöpartiets gruppledare Annika Hirvonen och Janine Alm Ericson vid förhandlingsbordet.\nDärför var de inte med under onsdagens omröstning.\n– De försöker se till så att Sverige ska få en ny regering, säger en källa.\nÄven flera vänsterpartister missade omröstningen i riksdagen. Däribland partiledaren Nooshi Dadgostar, vice partiledare Ida Gabrielsson, gruppledaren Samuel Gonzalez Westling samt partisekreteraren Maria Forsberg.\nDet rödgröna mötet är ett av flera som ägt rum i veckan. Magdalena Andersson har träffat partiledarna för V, C och MP, enligt SVT:s uppgifter.\n– Vi jobbar på, säger Miljöpartiets språkrör Daniel Helldén om läget i de rödgröna förhandlingarna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Äganderätten till skogen har blivit en het fråga i regeringsförhandlingarna. Nu anklagar landsbygdsminister Peter Kullgren (KD) Magdalena Andersson för att utpressa centerpartisterna i sitt totalpaket. – Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas”, säger han.",
+      "fulltext": "Äganderätten till skogen har blivit en het fråga i regeringsförhandlingarna.\nNu anklagar landsbygdsminister Peter Kullgren (KD) Magdalena Andersson för att utpressa centerpartisterna i sitt totalpaket.\n– Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas”, säger han.\nNär den parlamentariska egendomsskyddskommitténs förslag presenterades nyligen var riksdagspartierna splittrade.\nDe till höger ville, precis som C, stärka skogsägarnas äganderätt i grundlagen. Ett nej från staten till att hugga ner skog skulle ge skogsägarna full statlig ersättning.\nDet reserverade sig S, V och MP emot i kommittén.\nMen efter valet låter det nu annorlunda från Socialdemokraterna. I sitt totalpaket till Centerpartiet lovar S att ”skyddet för äganderätten av skogen ska stärkas i grundlagen”.\nEnligt dokumentet ska frivillighet gälla som utgångspunkt vid skydd av skog. Och detta samtidigt som markägare skyddas från ”orimliga överklagandeförfaranden” och ”oproportionerlig bevisbörda”, så att markägare inte hamnar i kläm.\nMan skriver också att EU-lagstiftning inte ska överimplementeras.\n– Vi erbjuder Centern att göra de här lagförändringarna som är viktiga för C, säger Anders Ygeman (S).\nSkogspolitiken är central för Centerpartiet. Men för att ändra i grundlagen behöver lagförslaget vinna riksdagens gillande i två omröstningar – med ett val emellan – varav den andra med två tredjedelars majoritet i kammaren, från och med april 2027.\n”Det här är det enda alternativet som kan garantera ett grundlagsskydd för ägandet av skogen”, skrev S-ledaren Magdalena Andersson i en debattartikel i Expressen i lördags.\n– Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas i en fråga som är viktig för Centerpartiet”. Vi får se om det är framgångsrikt eller inte.\n– Vi står på exakt samma position som C vad gäller att öka skyddet i grundlagen för äganderätten, fortsätter Kullgren.\nHan påpekar att totalpaketet inte är slutförhandlat.\n– Nu har Miljöpartiet sagt att man inte köper allting som står i det här totalpaketet, så vi får väl se vart det landar till slut.\nMiljöpartiet vill inte kommentera skogsförslaget och Elisabeth Thand Ringqvist (C) känner inte igen sig i att C hotas.\nAnders Ygeman medger däremot att S förflyttning är villkorad:\n– Vi har ju inte drivit en grundlagsförändring och det är klart, om vi inte bildar regering så kommer vi inte rösta för det.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsmakt"
+        "regeringsförhandling",
+        "Centerpartiet"
       ],
-      "first_seen": "2026-11-19T14:03:23.145922+00:00"
+      "first_seen": "2026-11-20T06:02:58.223399+00:00"
     }
   ]
 }

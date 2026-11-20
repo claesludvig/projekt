@@ -1,19 +1,19 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-19
+# Svensk politik och regeringsförhandlingarna — 2026-11-20
 
-2 nya poster sedan förra utskicket (39 redan utskickade, 162 utanför ämnet).
+2 nya poster sedan förra utskicket (39 redan utskickade, 163 utanför ämnet).
 
 ## Rapportering
 
-### [Flera partitoppar skippade omröstning – sitter i förhandlingar](https://www.svt.se/nyheter/inrikes/flera-partitoppar-skippade-omrostning-sitter-i-forhandlingar)
-SVT Nyheter · 2026-11-18 · Daniel Ingmo, Julia Lindvall, Erik Nilsson
+### [KD-ministerns skogsvarning till C: ”Ett rent hot”](https://www.svt.se/nyheter/inrikes/kd-ministerns-skogsvarning-till-c-ett-rent-hot)
+SVT Nyheter · 2026-11-19 · Kristoffer Törnmalm
 
-Flera tunga rödgröna politiker saknades vid onsdagens omröstning i riksdagen. Enligt SVT:s uppgifter är orsaken att flera av dem just nu sitter i förhandlingar om regeringsmakten. – Vi jobbar på, säger Daniel Helldén (MP).
+Äganderätten till skogen har blivit en het fråga i regeringsförhandlingarna. Nu anklagar landsbygdsminister Peter Kullgren (KD) Magdalena Andersson för att utpressa centerpartisterna i sitt totalpaket. – Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas”, säger han.
 
 ## Officiella besked
 
-### [Försöksverksamhet med kommunal parlamentarism](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he021038)
-Riksdagen · 2026-11-19 · riksdagsinformation@riksdagen.se
+### [Carl-Oskar Bohlin till Luxemburg för ministermöte om civil beredskap](https://www.regeringen.se/pressmeddelanden/2026/11/carl-oskar-bohlin-till-luxemburg-for-ministermote-om-civil-beredskap)
+Regeringen.se · 2026-11-20 · Regeringskansliet
 
-… Förslaget innebar att kommuner och landsting frivilligt skulle kunna välja en styrelse bestående enbart av den politiska majoriteten. Utredningen föreslog också regler för regeringsbildning, misstroendeförklaring och oppositionens insyn. Utredningen om en kommunallag för framtiden återkom senare med förslag om försöksverksamhet inför mandatperioden 2018–2022. Det finns nu anledning att återkomma till frågan. … 2026-11-19
+Den 20 november reser minister för civilt försvar Carl-Oskar Bohlin till Luxemburg för att delta i ett möte i den europeiska koalitionen för stärkt civil beredskap och motståndskraft.
 
-_Genererat 2026-11-19T14:03:23.145922+00:00._
+_Genererat 2026-11-20T06:02:58.223399+00:00._
