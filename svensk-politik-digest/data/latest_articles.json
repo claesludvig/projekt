@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-20T06:02:58.223399+00:00",
-  "new_count": 2,
+  "fetched_at": "2026-11-20T14:03:04.749838+00:00",
+  "new_count": 5,
   "skipped": {
-    "seen": 39,
-    "offtopic": 163,
-    "old": 6
+    "seen": 38,
+    "offtopic": 159,
+    "old": 8
   },
-  "fetch_errors": 0,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 3,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "Regeringen.se",
       "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,39 +65,99 @@
   ],
   "articles": [
     {
-      "url": "https://www.regeringen.se/pressmeddelanden/2026/11/carl-oskar-bohlin-till-luxemburg-for-ministermote-om-civil-beredskap",
-      "title": "Carl-Oskar Bohlin till Luxemburg för ministermöte om civil beredskap",
-      "source": "Regeringen.se",
-      "kind": "officiell",
+      "url": "https://www.svd.se/a/QroXQQ/rodgrona-forhandlar-under-hard-tidspress",
+      "title": "Låst mellan de rödgröna: ”Vägrar förhandla”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
       "published": "2026-11-20",
-      "author": "Regeringskansliet",
+      "author": "Peter Wallberg/TT, Johanna Ekström/TT, Niklas Svahn/TT",
       "commentator": "",
-      "summary": "Den 20 november reser minister för civilt försvar Carl-Oskar Bohlin till Luxemburg för att delta i ett möte i den europeiska koalitionen för stärkt civil beredskap och motståndskraft.",
-      "fulltext": "Den 20 november reser minister för civilt försvar Carl-Oskar Bohlin till Luxemburg för att delta i ett möte i den europeiska koalitionen för stärkt civil beredskap och motståndskraft.\nDet är det fjärde mötet som hålls inom koalitionen, som bildades 2025 som ett europeiskt samarbete mellan ministrar med ansvar för civil beredskap, civilt försvar och samhällets motståndskraft.\nPå mötesagendan står en diskussion om erfarenheter av hybridhot och hur europeisk beredskap och samordning kan stärkas.\nPå agendan står även ett samtal om Ukrainas erfarenheter av att upprätthålla samhällsviktig verksamhet under krig, och vilka lärdomar EU:s medlemsstater bör dra för att stärka civil beredskap.\nEuropeiska koalitionen för stärkt civil beredskap och motståndskraft\nEn koalition med tolv likasinnade länder som vill stärka den civila beredskapen och motståndskraften i EU. I koalitionen ingår Belgien, Danmark, Estland, Finland, Lettland, Litauen, Luxembourg, Nederländerna, Polen, Rumänien, Sverige och Tyskland.\nHybridhot är utformade för att hålla sig under den gräns som skulle kunna utgöra eller uppfattas som krigshandling. Det kan till exempel inkludera cyberattacker, otillbörlig informationspåverkan och sabotage mot kritisk infrastruktur. Det är primärt statsaktörer som genomför hybridoperationer, men de kan också använda sig av ombud. Hybridoperationer är ofta svåra att upptäcka och försvara sig mot.\nSidan är uppmärkt med följande kategorier\nPublicerad 10 november 2026 · Faktapromemoria från Försvarsdepartementet , Regeringen\nPublicerad 27 februari 2026 · Pressmeddelande från Andreas Carlson , Carl-Oskar Bohlin , Försvarsdepartementet , Landsbygds- och infrastrukturdepartementet\nPublicerad 07 maj 2025 · Faktapromemoria från Försvarsdepartementet\nPublicerad 19 mars 2025 · Pressmeddelande från Carl-Oskar Bohlin , Erik Slottner , Finansdepartementet , Försvarsdepartementet",
+      "summary": "De rödgröna partiledarna förhandlar under tidspress för att lösa regeringsfrågan.",
+      "fulltext": "De rödgröna partiledarna förhandlar under tidspress för att lösa regeringsfrågan.\nV och C anklagar varandra för att blockera.\nDe rödgröna partiledarna har befunnit sig på hemlig ort sedan i onsdags. Där har de övernattat för att inte förlora någon tid.\nDe har nu lämnat orten – utan några tecken på att ha närmat sig en uppgörelse.\nV anklagar C för att bromsa förhandlingarna och motsätta sig en rad reformer som S lagt fram och som V står bakom, enligt uppgifter till TT. Bland annat ett vinstförbud i skolan, slopat karensavdrag, höjda pensioner och stärkt a-kassa.\nCenterns vice partiledare Rickard Nordin slår tillbaka i en skriftlig kommentar.\nAtt partiet vägrar förhandla är ”lögn”, skriver han.\n”Vi har suttit i diskussioner i flera dagar på alla nivåer och vill förhandla om både sakfrågor och samarbetsformer, men Vänsterpartiet har vägrat förhandla trots att det hade inneburit både sakpolitiskt inflytande och tydliga samarbetsformer i regeringen.”\nEnligt uppgifter till Ekot och TV4 ska S ha gett ett bud till V som partiet har nobbat.\nSocialdemokraternas ekonomisk-politiske talesperson Mikael Damberg uppger dock i ett skriftligt uttalande: ”Alla partier har bidragit konstruktivt till samtalen. Jag hoppas det finns en gemensam vilja att hitta lösningar och ta ansvar för Sverige att få en handlingskraftig regering.”\nS-ledaren Magdalena Andersson siktar på en regering med S, MP och C som har ett nära samarbete med V.\nDen stora knäckfrågan är V:s krav på att få sitta i en regering och C:s motstånd mot att acceptera det kravet.\nInget av partierna verkar villigt att backa på den punkten.\nInom V hade man förväntat sig att C skulle försöka ”köpa ut” V och erbjuda sakpolitik mot att eventuellt kunna släppa kravet på ministerposter.\nV har bland annat fört upp en miljardärsskatt och höjda löner i kvinnodominerade välfärdsyrken i förhandlingarna, enligt uppgifter, utan att få gehör.\nTidspressen på att nå framsteg i förhandlingarna har ökat sedan riksdagens talman Andreas Norlén i tisdags meddelade att det i god tid före jul ska vara klart om Sverige får en ny regering eller om extra val ska utlysas.\nPå tisdag eller onsdag ska Norlén ha enskilda samtal med riksdagens samtliga partiledare i en så kallad talmansrunda.\nDärefter ska han ge besked om när riksdagen ska hålla en tredje statsministeromröstning. Vem talmannen då kommer att föreslå beror på hur förhandlingarna har gått på den rödgröna sidan.\nOm det gjorts framsteg kan Magdalena Andersson föreslås. Om inte har Norlén principen att den partiledare som haft sonderingsuppdraget också ska prövas i en statsministeromröstning.\nDet uppdraget har för närvarande M-ledaren Ulf Kristersson. Han har dock tagit paus i sonderingarna i väntan på att C ska välja sida – en S-ledd rödgrön regering eller en M-ledd borgerlig minoritetsregering.\n– Jag har ett regeringsalternativ och det kommer att prövas nästa vecka om det inte är så att C och V före det datumet berättar att de nu är överens om att bilda en regering, säger Kristersson till P4 Extra.\nTeoretiskt skulle en tredje statsministeromröstning kunna hållas i slutet av nästa vecka. En komplikation är att Ulf Kristersson (M) då är på EU-toppmöte i Bryssel. Annars kan en statsministeromröstning hållas i början av veckan därpå.\nInom S finns en oro för att låta det gå till en fjärde omröstning, eftersom en sådan är mer oförutsägbar.\nDå står valet mellan den statsministerkandidat talmannen föreslår och ett extra val. Extra val ska utlysas om fyra statsministeromröstningar har hållits utan att någon kandidat tolererats av riksdagen.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "koalition"
+        "regeringsfråg",
+        "partiledar"
       ],
-      "first_seen": "2026-11-20T06:02:58.223399+00:00"
+      "first_seen": "2026-11-20T14:03:04.749838+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/kd-ministerns-skogsvarning-till-c-ett-rent-hot",
-      "title": "KD-ministerns skogsvarning till C: ”Ett rent hot”",
+      "url": "https://www.svt.se/nyheter/inrikes/lokal-c-topp-oppnar-for-v-ministrar-i-regeringen",
+      "title": "Lokal C-topp öppnar för V-ministrar i regeringen",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-19",
-      "author": "Kristoffer Törnmalm",
+      "published": "2026-11-20",
+      "author": "Johanna Waldenström",
       "commentator": "",
-      "summary": "Äganderätten till skogen har blivit en het fråga i regeringsförhandlingarna. Nu anklagar landsbygdsminister Peter Kullgren (KD) Magdalena Andersson för att utpressa centerpartisterna i sitt totalpaket. – Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas”, säger han.",
-      "fulltext": "Äganderätten till skogen har blivit en het fråga i regeringsförhandlingarna.\nNu anklagar landsbygdsminister Peter Kullgren (KD) Magdalena Andersson för att utpressa centerpartisterna i sitt totalpaket.\n– Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas”, säger han.\nNär den parlamentariska egendomsskyddskommitténs förslag presenterades nyligen var riksdagspartierna splittrade.\nDe till höger ville, precis som C, stärka skogsägarnas äganderätt i grundlagen. Ett nej från staten till att hugga ner skog skulle ge skogsägarna full statlig ersättning.\nDet reserverade sig S, V och MP emot i kommittén.\nMen efter valet låter det nu annorlunda från Socialdemokraterna. I sitt totalpaket till Centerpartiet lovar S att ”skyddet för äganderätten av skogen ska stärkas i grundlagen”.\nEnligt dokumentet ska frivillighet gälla som utgångspunkt vid skydd av skog. Och detta samtidigt som markägare skyddas från ”orimliga överklagandeförfaranden” och ”oproportionerlig bevisbörda”, så att markägare inte hamnar i kläm.\nMan skriver också att EU-lagstiftning inte ska överimplementeras.\n– Vi erbjuder Centern att göra de här lagförändringarna som är viktiga för C, säger Anders Ygeman (S).\nSkogspolitiken är central för Centerpartiet. Men för att ändra i grundlagen behöver lagförslaget vinna riksdagens gillande i två omröstningar – med ett val emellan – varav den andra med två tredjedelars majoritet i kammaren, från och med april 2027.\n”Det här är det enda alternativet som kan garantera ett grundlagsskydd för ägandet av skogen”, skrev S-ledaren Magdalena Andersson i en debattartikel i Expressen i lördags.\n– Det där ser jag som ett rent hot: ”gör som jag vill annars tänker jag göra allt för att jäklas i en fråga som är viktig för Centerpartiet”. Vi får se om det är framgångsrikt eller inte.\n– Vi står på exakt samma position som C vad gäller att öka skyddet i grundlagen för äganderätten, fortsätter Kullgren.\nHan påpekar att totalpaketet inte är slutförhandlat.\n– Nu har Miljöpartiet sagt att man inte köper allting som står i det här totalpaketet, så vi får väl se vart det landar till slut.\nMiljöpartiet vill inte kommentera skogsförslaget och Elisabeth Thand Ringqvist (C) känner inte igen sig i att C hotas.\nAnders Ygeman medger däremot att S förflyttning är villkorad:\n– Vi har ju inte drivit en grundlagsförändring och det är klart, om vi inte bildar regering så kommer vi inte rösta för det.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen. – Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.",
+      "fulltext": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen.\n– Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.\nNorrköpings valresultat är det som kom närmast riksgenomsnittet i årets val, och där har S, MP, V och C kommit överens om att styra kommunen tillsammans under namnet ”Kraftsamling Norrköping.”\nStadens centerpartistiska kommunalråd menar att hans parti på riksplanet har fastnat mellan de två röda linjerna mot Sverigedemokraterna och Vänsterpartiet. Christian Widlund tycker att det viktigaste är att inte samarbeta alls med SD.\n– Vi bör stänga dörren helt mot Kristersson, som i varje omröstning skulle bli beroende av att förhandla med Sverigedemokraterna, säger han.\nSkulle du själv stanna kvar i Centerpartiet om ditt parti skulle ingå i regering ledd av Ulf Kristersson?\n– Jag vill inte ens tänka på det i dagsläget, men jag kommer att fundera över det i så fall.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsförhandling",
-        "Centerpartiet"
+        "Centerpartiet",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-20T06:02:58.223399+00:00"
+      "first_seen": "2026-11-20T14:03:04.749838+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9347166",
+      "title": "Ekot erfar: S har lämnat bud till V och fått nobben",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Enligt flera källor till Ekot ska Socialdemokraterna under de pågående regeringsförhandlingarna ha lämnat över ett bud till Vänsterpartiet som partiet nu ska ha tackat nej till. Flera av Ekots källor uppger att Socialdemokraterna enbart sträcker sig till försöka få igenom en del sakpolitiska förslag, men att det saknas löften om att de ska genomföras. Talmannen ska inleda sina samtal med partiledarna nästa vecka.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347166'",
+      "matched_terms": [
+        "regeringsförhandling",
+        "talman",
+        "partiledar",
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-20T14:03:04.749838+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9347155",
+      "title": "Ulf Kristersson i P4 Extra: ”Inte en sekund rädd för ett extraval”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Moderaternas partiledare Ulf Kristersson intervjuades i P4 Extra på fredagseftermiddagen. Omkring 70 dagar efter valet leder han en övergångsregering i väntan på att riksdagen ska välja en ny regeringsbildare. ”Jag vet hur svårt det är att bilda en regering i koalition, även om man har förberett sig”, säger Ulf Kristersson till P4 Extra.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347155'",
+      "matched_terms": [
+        "övergångsregering",
+        "koalition",
+        "partiledar",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-11-20T14:03:04.749838+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9347118",
+      "title": "Ulf Kristersson om Donald Trumps samtal: ”Skällde inte”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-20",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Nu dementerar statsminister Ulf Kristersson The Telegraph s uppgifter om att USA:s president Donald Trump ska ha skällt ut världsledarna under toppmötet i Berlin och uppmanat till att avsluta stödet till Ukraina. ”Han skällde absolut inte ut någon”, säger Kristersson i P4 Extra. Igår träffades de så kallade ”De villigas koalition” i Berlin, till stöd för Ukraina där Statsminister Ulf Kristersson deltog. Toppmötet i Berlin hölls bara timmar efter det historiska mötet mellan Xi, Trump och Putin i Shenzhen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347118'",
+      "matched_terms": [
+        "statsminister",
+        "koalition"
+      ],
+      "first_seen": "2026-11-20T14:03:04.749838+00:00"
     }
   ]
 }
