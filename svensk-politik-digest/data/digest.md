@@ -1,17 +1,17 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-21
 
-2 nya poster sedan förra utskicket (38 redan utskickade, 160 utanför ämnet).
+2 nya poster sedan förra utskicket (37 redan utskickade, 161 utanför ämnet).
 
-## Rapportering
+## Analys och kommentar
 
-### [Därför backar inte V](https://www.svt.se/nyheter/inrikes/darfor-backar-inte-v) **[kommentator]**
-SVT Nyheter · 2026-11-21 · Malvina Britts
+### [C-profil vill samarbeta med Kristersson: Låst läge](https://www.svd.se/a/nLaJOB/wiesner-c-v-inte-beredda-att-kompromissa)
+SvD Ledare · 2026-11-21 · Joakim Magnå/TT
 
-Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar. Varför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig? – Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.
+Centerpartiets EU-parlamentariker Emma Ytterell säger att läget i regeringsförhandlingarna är…
 
-### [Furtenbach: ”Talmannen har konstruerat en sorts tävling”](https://www.sverigesradio.se/artikel/9347532) **[kommentator]**
-Ekot, Sveriges Radio · 2026-11-20 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [S-ledningen är lågt hängande frukt](https://www.svd.se/a/LoALOp/s-ledningen-ar-lagt-hangande-frukt)
+SvD Ledare · 2026-11-21 · Henrik Torehammar
 
-Regeringsförhandlingarna är inne i ett intensivt skede. På tisdag håller talmannen en ny talmansrunda, samtidigt som både Magdalena Andersson och Ulf Kristersson försöker få Centerpartiet med sig. ”Talmannen har konstruerat en sorts tävling mellan Magdalena Andersson och Ulf Kristersson”, säger Fredrik Furtenbach, Ekots inrikespolitiska kommentator i Studio Ett.
+Från högerhåll spås nu att Magdalena Anderssons dagar som partiledare är räknade – och Elisabeth…
 
-_Genererat 2026-11-21T06:02:32.231379+00:00._
+_Genererat 2026-11-21T14:02:52.521219+00:00._
