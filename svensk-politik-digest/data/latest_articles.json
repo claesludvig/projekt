@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-20T14:03:04.749838+00:00",
-  "new_count": 5,
+  "fetched_at": "2026-11-21T06:02:32.231379+00:00",
+  "new_count": 2,
   "skipped": {
     "seen": 38,
-    "offtopic": 159,
-    "old": 8
+    "offtopic": 160,
+    "old": 10
   },
-  "fetch_errors": 3,
+  "fetch_errors": 1,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,7 +17,7 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 3,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,99 +65,41 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/QroXQQ/rodgrona-forhandlar-under-hard-tidspress",
-      "title": "Låst mellan de rödgröna: ”Vägrar förhandla”",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-20",
-      "author": "Peter Wallberg/TT, Johanna Ekström/TT, Niklas Svahn/TT",
-      "commentator": "",
-      "summary": "De rödgröna partiledarna förhandlar under tidspress för att lösa regeringsfrågan.",
-      "fulltext": "De rödgröna partiledarna förhandlar under tidspress för att lösa regeringsfrågan.\nV och C anklagar varandra för att blockera.\nDe rödgröna partiledarna har befunnit sig på hemlig ort sedan i onsdags. Där har de övernattat för att inte förlora någon tid.\nDe har nu lämnat orten – utan några tecken på att ha närmat sig en uppgörelse.\nV anklagar C för att bromsa förhandlingarna och motsätta sig en rad reformer som S lagt fram och som V står bakom, enligt uppgifter till TT. Bland annat ett vinstförbud i skolan, slopat karensavdrag, höjda pensioner och stärkt a-kassa.\nCenterns vice partiledare Rickard Nordin slår tillbaka i en skriftlig kommentar.\nAtt partiet vägrar förhandla är ”lögn”, skriver han.\n”Vi har suttit i diskussioner i flera dagar på alla nivåer och vill förhandla om både sakfrågor och samarbetsformer, men Vänsterpartiet har vägrat förhandla trots att det hade inneburit både sakpolitiskt inflytande och tydliga samarbetsformer i regeringen.”\nEnligt uppgifter till Ekot och TV4 ska S ha gett ett bud till V som partiet har nobbat.\nSocialdemokraternas ekonomisk-politiske talesperson Mikael Damberg uppger dock i ett skriftligt uttalande: ”Alla partier har bidragit konstruktivt till samtalen. Jag hoppas det finns en gemensam vilja att hitta lösningar och ta ansvar för Sverige att få en handlingskraftig regering.”\nS-ledaren Magdalena Andersson siktar på en regering med S, MP och C som har ett nära samarbete med V.\nDen stora knäckfrågan är V:s krav på att få sitta i en regering och C:s motstånd mot att acceptera det kravet.\nInget av partierna verkar villigt att backa på den punkten.\nInom V hade man förväntat sig att C skulle försöka ”köpa ut” V och erbjuda sakpolitik mot att eventuellt kunna släppa kravet på ministerposter.\nV har bland annat fört upp en miljardärsskatt och höjda löner i kvinnodominerade välfärdsyrken i förhandlingarna, enligt uppgifter, utan att få gehör.\nTidspressen på att nå framsteg i förhandlingarna har ökat sedan riksdagens talman Andreas Norlén i tisdags meddelade att det i god tid före jul ska vara klart om Sverige får en ny regering eller om extra val ska utlysas.\nPå tisdag eller onsdag ska Norlén ha enskilda samtal med riksdagens samtliga partiledare i en så kallad talmansrunda.\nDärefter ska han ge besked om när riksdagen ska hålla en tredje statsministeromröstning. Vem talmannen då kommer att föreslå beror på hur förhandlingarna har gått på den rödgröna sidan.\nOm det gjorts framsteg kan Magdalena Andersson föreslås. Om inte har Norlén principen att den partiledare som haft sonderingsuppdraget också ska prövas i en statsministeromröstning.\nDet uppdraget har för närvarande M-ledaren Ulf Kristersson. Han har dock tagit paus i sonderingarna i väntan på att C ska välja sida – en S-ledd rödgrön regering eller en M-ledd borgerlig minoritetsregering.\n– Jag har ett regeringsalternativ och det kommer att prövas nästa vecka om det inte är så att C och V före det datumet berättar att de nu är överens om att bilda en regering, säger Kristersson till P4 Extra.\nTeoretiskt skulle en tredje statsministeromröstning kunna hållas i slutet av nästa vecka. En komplikation är att Ulf Kristersson (M) då är på EU-toppmöte i Bryssel. Annars kan en statsministeromröstning hållas i början av veckan därpå.\nInom S finns en oro för att låta det gå till en fjärde omröstning, eftersom en sådan är mer oförutsägbar.\nDå står valet mellan den statsministerkandidat talmannen föreslår och ett extra val. Extra val ska utlysas om fyra statsministeromröstningar har hållits utan att någon kandidat tolererats av riksdagen.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "partiledar"
-      ],
-      "first_seen": "2026-11-20T14:03:04.749838+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/lokal-c-topp-oppnar-for-v-ministrar-i-regeringen",
-      "title": "Lokal C-topp öppnar för V-ministrar i regeringen",
+      "url": "https://www.svt.se/nyheter/inrikes/darfor-backar-inte-v",
+      "title": "Därför backar inte V",
       "source": "SVT Nyheter",
       "kind": "nyhet",
-      "published": "2026-11-20",
-      "author": "Johanna Waldenström",
-      "commentator": "",
-      "summary": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen. – Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.",
-      "fulltext": "Christian Widlund (C) är kommunalråd i Norrköping. Han är den första förtroendevalda Centerpartisten som öppet säger att C bör ta bort sin röda linje mot att släppa in Vänsterpartiet i regeringen.\n– Vi behöver en regering och är det det som behövs får vi nog tugga i oss det, säger han till SVT:s Agenda.\nNorrköpings valresultat är det som kom närmast riksgenomsnittet i årets val, och där har S, MP, V och C kommit överens om att styra kommunen tillsammans under namnet ”Kraftsamling Norrköping.”\nStadens centerpartistiska kommunalråd menar att hans parti på riksplanet har fastnat mellan de två röda linjerna mot Sverigedemokraterna och Vänsterpartiet. Christian Widlund tycker att det viktigaste är att inte samarbeta alls med SD.\n– Vi bör stänga dörren helt mot Kristersson, som i varje omröstning skulle bli beroende av att förhandla med Sverigedemokraterna, säger han.\nSkulle du själv stanna kvar i Centerpartiet om ditt parti skulle ingå i regering ledd av Ulf Kristersson?\n– Jag vill inte ens tänka på det i dagsläget, men jag kommer att fundera över det i så fall.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "published": "2026-11-21",
+      "author": "Malvina Britts",
+      "commentator": "Elisabeth Marmorstein",
+      "summary": "Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar. Varför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig? – Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.",
+      "fulltext": "Vänsterpartiet kräver att få sitta i en rödgrön regering – men pressen att de ska backa ökar.\nVarför är det så viktigt för V med ministerposter? Och finns det något som talar för att de kommer vika ner sig?\n– Det är nu eller aldrig för Vänsterpartiet, säger SVT:s inrikespolitiska kommentator Elisabeth Marmorstein.\nVänsterpartiet har länge velat ha ett större inflytande över regeringspolitiken. Men trots att de ofta förväntats släppa fram en socialdemokratisk regering så har de aldrig fått ministerposter.\n– I grund och botten handlar det om att Socialdemokraterna inte litar på Vänsterpartiet, men minst lika viktigt är att de är övertygade om att V-ministrar skulle skrämma bort mittenväljare, säger Elisabeth Marmorstein.\nI videon tittar vi tillbaka på decennier av konflikt mellan partierna – och varför V ser dagens regeringskrav som en chans de inte tänker släppa.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "Centerpartiet",
+        "ministerpost",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-20T14:03:04.749838+00:00"
+      "first_seen": "2026-11-21T06:02:32.231379+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9347166",
-      "title": "Ekot erfar: S har lämnat bud till V och fått nobben",
+      "url": "https://www.sverigesradio.se/artikel/9347532",
+      "title": "Furtenbach: ”Talmannen har konstruerat en sorts tävling”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-20",
       "author": "Ekot",
-      "commentator": "",
-      "summary": "Enligt flera källor till Ekot ska Socialdemokraterna under de pågående regeringsförhandlingarna ha lämnat över ett bud till Vänsterpartiet som partiet nu ska ha tackat nej till. Flera av Ekots källor uppger att Socialdemokraterna enbart sträcker sig till försöka få igenom en del sakpolitiska förslag, men att det saknas löften om att de ska genomföras. Talmannen ska inleda sina samtal med partiledarna nästa vecka.",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Regeringsförhandlingarna är inne i ett intensivt skede. På tisdag håller talmannen en ny talmansrunda, samtidigt som både Magdalena Andersson och Ulf Kristersson försöker få Centerpartiet med sig. ”Talmannen har konstruerat en sorts tävling mellan Magdalena Andersson och Ulf Kristersson”, säger Fredrik Furtenbach, Ekots inrikespolitiska kommentator i Studio Ett.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347166'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347532'",
       "matched_terms": [
         "regeringsförhandling",
         "talman",
-        "partiledar",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
+        "Centerpartiet"
       ],
-      "first_seen": "2026-11-20T14:03:04.749838+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9347155",
-      "title": "Ulf Kristersson i P4 Extra: ”Inte en sekund rädd för ett extraval”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Moderaternas partiledare Ulf Kristersson intervjuades i P4 Extra på fredagseftermiddagen. Omkring 70 dagar efter valet leder han en övergångsregering i väntan på att riksdagen ska välja en ny regeringsbildare. ”Jag vet hur svårt det är att bilda en regering i koalition, även om man har förberett sig”, säger Ulf Kristersson till P4 Extra.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347155'",
-      "matched_terms": [
-        "övergångsregering",
-        "koalition",
-        "partiledar",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-11-20T14:03:04.749838+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9347118",
-      "title": "Ulf Kristersson om Donald Trumps samtal: ”Skällde inte”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-20",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Nu dementerar statsminister Ulf Kristersson The Telegraph s uppgifter om att USA:s president Donald Trump ska ha skällt ut världsledarna under toppmötet i Berlin och uppmanat till att avsluta stödet till Ukraina. ”Han skällde absolut inte ut någon”, säger Kristersson i P4 Extra. Igår träffades de så kallade ”De villigas koalition” i Berlin, till stöd för Ukraina där Statsminister Ulf Kristersson deltog. Toppmötet i Berlin hölls bara timmar efter det historiska mötet mellan Xi, Trump och Putin i Shenzhen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347118'",
-      "matched_terms": [
-        "statsminister",
-        "koalition"
-      ],
-      "first_seen": "2026-11-20T14:03:04.749838+00:00"
+      "first_seen": "2026-11-21T06:02:32.231379+00:00"
     }
   ]
 }
