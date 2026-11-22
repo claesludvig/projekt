@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-11-22T06:02:24.632818+00:00",
-  "new_count": 1,
+  "fetched_at": "2026-11-22T14:02:37.405089+00:00",
+  "new_count": 3,
   "skipped": {
     "seen": 35,
-    "offtopic": 162,
-    "old": 12
+    "offtopic": 161,
+    "old": 11
   },
-  "fetch_errors": 0,
+  "fetch_errors": 2,
   "sources": [
     {
       "name": "SVT Nyheter",
@@ -17,13 +17,13 @@
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 0,
+      "new": 2,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 0,
+      "new": 1,
       "ok": true
     },
     {
@@ -35,7 +35,7 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -65,21 +65,58 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/XogL7W/inspirerade-av-trump-nu-kan-vox-bli-vagmastare",
-      "title": "Inspirerade av Trump – nu kan Vox bli vågmästare",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
+      "url": "https://www.sverigesradio.se/artikel/9347864",
+      "title": "Enorma applåder efter kollapsen: ”Uppskattad markering”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
       "published": "2026-11-22",
-      "author": "Elin Swedenmark/TT",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Högerradikala Vox väntas gå framåt i det spanska nyvalet om en vecka och få en vågmästarroll.",
-      "fulltext": "Högerradikala Vox väntas gå framåt i det spanska nyvalet om en vecka och få en vågmästarroll. Populistpartiet har gjort invandringen till sin huvudfråga och nätverkar med ytterhögerpartier världen över.\n– Spanien har polariserats snabbt, säger statsvetaren José Javier Olivas Osuna.\nEfter en höst av ihållande protester mot premiärminister Pedro Sánchez socialistregering väntas en ny riktning i Spanien. Landets traditionella höger, Partido Popular (PP), ligger bäst till inför valet, enligt de flesta opinionsundersökningar. Men för att uppnå majoritet väntas PP behöva stöd av populistpartiet Vox, som spås få uppemot 18–20 procent, skriver AFP.\nVox skapades 2013 av missnöjda partimedlemmar ur PP.\n– Först hade de inte någon utpräglad populistisk eller högerradikal agenda. Fokus låg främst på en fri marknad och låga skatter. Men det har förändrats mycket snabbt, säger José Javier Olivas Osuna, statsvetare vid Uned-universitetet i Madrid.\nI början var Vox näst intill osynligt, men 2016 blev dess ledare Santiago Abascal starkt inspirerad av USA:s president Donald Trump.\n– Partiet började använda sociala medier, talade i allt högre grad om kristna värderingar och förde en mer konfrontativ debatt mot vänstern. De kopierade till och med slagorden – och anammade principen om ”Spanien först”, säger José Javier Olivas Osuna.\nEfter valet 2019 tog partiet klivet in i parlamentet. Först profilerade sig Vox som en motståndare till Kataloniens självständighet men nu står framför allt invandringen i fokus. I ljuset av händelserna vid den spanska exklaven Ceuta i somras, då tiotusentals migranter och asylsökande anlände på kort tid, har fler spanjorer en negativ inställning till invandring.\n– Förr var främlingsfientliga attityder inte så utbredda i Spanien. Nu har det förändrats, delvis på grund av Vox. I Katalonien finns också ett snabbt växande högerextremt, separatistiskt parti – som är betydligt mer radikalt.\nVox har även blivit en brobyggare mellan högerradikala världen över. Partiet har knutit band till Argentinas Javier Milei och José Antonio Kast i Chile, liksom med frontfigurer i Maga-rörelsen.\n– Vox har varit en av de främsta drivkrafterna bakom att föra högerradikala européer, amerikaner och latinamerikaner närmare varandra, säger Olivas Osuna.\nSom vågmästarparti lär partiet inte lyckas genomdriva några omvälvande reformer – däremot kan det utveckla sin partistruktur och sitt nätverk, tror Olivas Osuna.\n– På så sätt kommer deras makt odiskutabelt att växa.\nEfter parlamentsvalet i juli 2023 bildade Pedro Sánchez sin tredje regering i koalition mellan socialdemokratiska PSOE och vänsteralliansen Sumar. Han behöll makten genom uppgörelser med katalanska separatistpartier, vilket ytterhögern likställde med landsförräderi.\nHösten 2025 drog separatistpartiet Junts tillbaka sitt stöd. Det gjorde budgetarbetet mer komplicerat.\nHösten har präglats av demonstrationer mot för höga hyror. Sánchez regering lade fram förslag för att hindra fastighetsspekulation och ville införa en automatisk förlängning av hyresavtal, men förslagen röstades ned av högeroppositionen samt Junts.\nEfter att regeringens bostadspaket för att lösa landets pågående bostadskris röstades ner meddelade Pedro Sánchez i början av oktober att parlamentsvalet tidigareläggs, till den 29 november.\nSánchez och PSOE framställs som allt mer maktfullkomliga, efter att flera höga tjänstemän inom partiet utreds för korruption.\nEfter händelserna vid Ceuta anklagar oppositionen också Sánchez för att vara slapphänt mot såväl Marocko som migranter. Nyligen har tusentals migranter också anlänt till Kanarieöarna, vilket eldat på invandringsmotståndet ytterligare.",
+      "summary": "FN:s klimatmöte COP31 avslutas utan överenskommelse sedan EU sagt nej till slutdokumentet. Den svenska delegationen lämnade mötet under söndagen. Oenigheten gäller främst formuleringarna om fossila bränslen. Enligt klimatforskaren Maria Jernes har en koalition av länder länge drivit på för en väg bort från dem. Klimatprofessorn Björn-Ola Linnér berättar om de enorma applåder som följde på EU:s markering.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347864'",
+      "matched_terms": [
+        "koalition"
+      ],
+      "first_seen": "2026-11-22T14:02:37.405089+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9347799",
+      "title": "Centerns distrikt träffas för att ta ställning i regeringsfrågan",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-22",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Under helgen håller flera av Centerpartiets distrikt möten om regeringsfrågan. På lördagen hölls stämma i Jönköpings län där läget på riksnivå skulle diskuteras och på söndagen kommer samtliga 33 kretsordföranden i Centerpartiets största partidistrikt i Skåne att träffas för att ta ställning. Förhandlingarna med Socialdemokraterna fortsätter, men flera Centerprofiler vill nu styra partiet mot en alliansregering.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9347799'",
+      "matched_terms": [
+        "regeringsfråg",
+        "Centerpartiet",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-22T14:02:37.405089+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/annu-en-c-topp-vill-overge-andersson-och-gora-upp-hogerut",
+      "title": "Ännu en C-topp vill överge Andersson och göra upp högerut",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-22",
+      "author": "Juan Flores",
+      "commentator": "",
+      "summary": "Flera tongivande personer inom Centerpartiet har de senaste dagarna gått ut offentligt och manat partiledningen att gå högerut i de pågående förhandlingarna. Nu sällar sig den tidigare tungviktaren Emil Källström till skaran. Ryktet om ett konkret bud till Vänsterpartiet i förhandlingarna förnekas av partiet.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-22 15:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/annu-en-c-topp-vill-overge-andersson-och-gora-upp-hogerut/\nFlera tongivande personer inom Centerpartiet har de senaste dagarna gått ut offentligt och manat partiledningen att gå högerut i de pågående förhandlingarna.\nNu sällar sig den tidigare tungviktaren Emil Källström till skaran.\nRyktet om ett konkret bud till Vänsterpartiet i förhandlingarna förnekas av partiet.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nCenterledaren Elisabeth Thand Ringqvist valde förra helgen Magdalena Anderssons (S) så kallade totalpaket för en regering med S, MP och C med stöd av V.\nPartiledningarna sitter sedan i onsdags i förhandlingar på hemlig ort, men trycket växer inom Centerpartiet för att i stället göra upp med Ulf Kristersson (M) om en borgerlig regering.\nEU-parlamentarikern Emma Ytterell , tidigare Wiesner, lade under lördagen ut ett inlägg på Facebook där hon menar att Vänsterpartiet inte är en seriös samarbetspartner och att Centerpartiet borde undersöka möjligheterna att bilda regering med Ulf Kristersson (M), Liberalerna och Kristdemokraterna. Synen på Sverigedemokraterna har inte förändrats, men ett samarbete med de tidigare allianspartierna är den ”mest realistiska och ansvarsfulla vägen framåt i det här läget”, skriver hon.\nÄven Kristoffer Svensson Sellin , distriktsordförande i Västernorrland, skrev i ett pressmeddelande under lördagen att partiet borde förhandla högerut eftersom förhandlingarna med S, MP och V inte gett något resultat. Svensson Sellin anser att Centerpartiets röda linjer borde handla mer om politikens innehåll än om vilka partier man samarbetar med.\nEn tredje röst som sällade sig till kören på söndagen är partiets tidigare ekonomisk-politiske talesperson Emil Källström, som under en tid sågs som drömkandidat till partiledarjobbet.\nI en intervju med tidningen ATL säger han att Centerpartiet bör ingå i en borgerlig regering.\n– Väljarna sade sitt för två månader sedan. Sedan dess har det blivit tydligt var det finns grogrund för samarbete och var det inte finns det. Under den tid som nu gått efter valet tycker jag det blir allt tydligare: Det är dags för Centerpartiet att komma hem till Alliansen och borgerligheten, säger Emil Källström till tidningen.\nOm att en ny alliansregering skulle bli beroende av Sverigedemokraterna, vilket är en röd linje för C, säger Källström:\n– Jag tycker att det är ett kraftigt förvanskat synsätt. En regering är beroende av riksdagen, punkt slut, det är så parlamentariska demokratier fungerar. Detta kommer yttra sig olika i olika frågor. Här tycker jag den samförståndslinje med breda samtal i riksdagen i fler frågor som både Moderaterna och Centerpartiet talat om är en väldigt klok väg framåt.\nSamtidigt har andra källor uttryckt oro för att en högersväng skulle kunna leda till en allvarlig splittring inom partiet.\nUppgifter till Expressen från de S-ledda förhandlingarna gör gällande att S, C och MP lämnat ett gemensamt bud till V. Vad det innehåller är okänt, men det ska vara upp till partiet att acceptera eller avvisa förslagen.\nIda Gabrielsson, vice partiordförande i V, skriver dock på X strax efter midnatt att hon inte tagit emot något förslag:\n”Går och lägger mig, utan att ha sett skymten av detta totalpaket till V.”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nSvårt för de rödgröna att hinna bygga tillit i förhandlingarna\nVarnar efter C-toppens M-öppning: ”Skulle slita itu partiet”\nKällor: C blockerar vänsterpolitik – förhandlingarna har kört fast",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "vågmästar"
+        "Centerpartiet",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-22T06:02:24.632818+00:00"
+      "first_seen": "2026-11-22T14:02:37.405089+00:00"
     }
   ]
 }
