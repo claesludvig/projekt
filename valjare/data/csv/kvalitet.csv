@@ -12,7 +12,7 @@ aktualitet,lage_ut_skydd,"Månadsserie: Beviljade uppehållstillstånd, skydd",o
 aktualitet,lage_ut_anknytning,"Månadsserie: Beviljade uppehållstillstånd, anknytning",ok,"senaste 2026-08, 3 månader sedan",3.0
 aktualitet,lage_ut_arbete,"Månadsserie: Beviljade uppehållstillstånd, arbete",ok,"senaste 2026-08, 3 månader sedan",3.0
 aktualitet,lage_ut_studier,"Månadsserie: Beviljade uppehållstillstånd, studier",ok,"senaste 2026-08, 3 månader sedan",3.0
-aktualitet,lage_aku,"Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",ok,"senaste 2026-09, 2 månader sedan",2.0
+aktualitet,lage_aku,"Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",ok,"senaste 2026-10, 1 månader sedan",1.0
 aktualitet,verk_Anmälda bostadsinbrott (per 100 000 inv),Årsserie: Anmälda bostadsinbrott (per 100 000 inv),ok,senaste år 2025,2025.0
 aktualitet,verk_Anmälda brott per 100 000 inv,Årsserie: Anmälda brott per 100 000 inv,ok,senaste år 2025,2025.0
 aktualitet,verk_Anmälda narkotikabrott (per 100 000 inv),Årsserie: Anmälda narkotikabrott (per 100 000 inv),ok,senaste år 2025,2025.0
@@ -127,9 +127,9 @@ aktualitet,norden_syss_utrikes,"Eurostat: Sysselsättningsgrad 20–64, utrikes 
 aktualitet,norden_vantan,"Eurostat: Avstått från vård på grund av väntetid (%, 16+)",ok,senaste år för Sverige 2025,2025.0
 aktualitet,norden_vardplatser,Eurostat: Vårdplatser på sjukhus per 100 000 inv,ok,senaste år för Sverige 2024,2024.0
 aktualitet,nyhetsfloden,Nyhetsflödena (Google Nyheter),ok,senaste artikel för 0 dagar sedan,0.0
-aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,12717 artiklar i 7 flöden,12717.0
+aktualitet,redaktionsfloden,Redaktionernas nyhetsflöden,ok,12940 artiklar i 7 flöden,12940.0
 aktualitet,wikidata_foljare,Följarantal från Wikidata,ok,56 konton med följarantal,56.0
-aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-11-13, 9 dagar sedan",9.0
+aktualitet,riksdag_dokument,Riksdagens dokument,ok,"senaste dokument 2026-11-20, 3 dagar sedan",3.0
 volym,rader_kalla,Tabell kalla,ok,16 rader (förra 16),16.0
 volym,rader_partistod,Tabell partistod,ok,65350 rader (förra 65350),65350.0
 volym,rader_gruppvikt,Tabell gruppvikt,ok,5809 rader (förra 5809),5809.0
@@ -168,21 +168,21 @@ volym,rader_valresultat_valkrets,Tabell valresultat_valkrets,ok,2146 rader (för
 volym,rader_valkrets_indikator,Tabell valkrets_indikator,ok,29815 rader (förra 29815),29815.0
 volym,rader_valkrets_oversikt,Tabell valkrets_oversikt,ok,2368 rader (förra 2368),2368.0
 volym,rader_opinion,Tabell opinion,ok,359 rader (förra 359),359.0
-volym,rader_riksdag_dokument,Tabell riksdag_dokument,ok,7422 rader (förra 7422),7422.0
-volym,rader_riksdag_beslut,Tabell riksdag_beslut,ok,8296 rader (förra 8296),8296.0
+volym,rader_riksdag_dokument,Tabell riksdag_dokument,ok,7442 rader (förra 7422),7442.0
+volym,rader_riksdag_beslut,Tabell riksdag_beslut,ok,8297 rader (förra 8296),8297.0
 volym,rader_riksdag_aktivitet,Tabell riksdag_aktivitet,ok,212 rader (förra 212),212.0
 volym,rader_riksdag_samstammighet,Tabell riksdag_samstammighet,ok,256 rader (förra 256),256.0
 volym,rader_riksdag_parti_fraga,Tabell riksdag_parti_fraga,ok,382 rader (förra 382),382.0
 volym,rader_riksdag_ledamot,Tabell riksdag_ledamot,ok,4950 rader (förra 4950),4950.0
 volym,rader_opinion_forslag,Tabell opinion_forslag,ok,24 rader (förra 24),24.0
 volym,rader_opinion_beslut,Tabell opinion_beslut,ok,104 rader (förra 104),104.0
-volym,rader_media_foljare,Tabell media_foljare,ok,2693 rader (förra 2647),2693.0
+volym,rader_media_foljare,Tabell media_foljare,ok,2739 rader (förra 2693),2739.0
 volym,rader_media_foljare_nu,Tabell media_foljare_nu,ok,56 rader (förra 56),56.0
-volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,504 rader (förra 504),504.0
-volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,1022 rader (förra 1009),1022.0
+volym,rader_media_omnamnanden,Tabell media_omnamnanden,ok,560 rader (förra 504),560.0
+volym,rader_media_google_nyheter,Tabell media_google_nyheter,ok,1032 rader (förra 1022),1032.0
 volym,rader_media_talartid,Tabell media_talartid,ok,104 rader (förra 104),104.0
 volym,rader_media_annonser,Tabell media_annonser,ok,0 rader (förra 0),0.0
-volym,rader_media_wikipedia,Tabell media_wikipedia,ok,1954 rader (förra 1954),1954.0
+volym,rader_media_wikipedia,Tabell media_wikipedia,ok,2091 rader (förra 1954),2091.0
 volym,rader_media_sakfragor,Tabell media_sakfragor,ok,136 rader (förra 136),136.0
 volym,rader_media_rd_aktivitet,Tabell media_rd_aktivitet,ok,104 rader (förra 104),104.0
 volym,rader_som_fortroende,Tabell som_fortroende,ok,7944 rader (förra 7944),7944.0
@@ -193,7 +193,7 @@ volym,rader_partier_likhet,Tabell partier_likhet,ok,28 rader (förra 28),28.0
 volym,rader_partier_politik,Tabell partier_politik,ok,1043 rader (förra 1043),1043.0
 volym,rader_norden,Tabell norden,ok,2448 rader (förra 2448),2448.0
 volym,rader_lagesbild,Tabell lagesbild,ok,14 rader (förra 14),14.0
-volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2758 rader (förra 2758),2758.0
+volym,rader_lagesbild_serie,Tabell lagesbild_serie,ok,2759 rader (förra 2758),2759.0
 volym,rader_evidensniva,Tabell evidensniva,ok,15 rader (förra 15),15.0
 volym,rader_kontroll,Tabell kontroll,ok,1571 rader (förra 1571),1571.0
 volym,rader_licens,Tabell licens,ok,19 rader (förra 19),19.0
@@ -203,7 +203,7 @@ rimlighet,mandat_2026,Mandaten 2026 summerar till 349,ok,summa 349,349.0
 rimlighet,kommuner_290,290 kommuner i valkretsindelningen,ok,290 kommuner,290.0
 rimlighet,valkrets_andelar_100,Partiernas andelar per valkrets summerar till 100,ok,största avvikelse 0.00 procentenheter,1.4210854715202004e-14
 rimlighet,profil_100,Partiprofilerna summerar till 100 inom varje indelning,ok,98 % av profilerna inom ±2 procentenheter,98.42577338458722
-rimlighet,voteringar_349,Varje votering räknar alla 349 ledamöter,ok,100.0 % av 8296 voteringar har 340–349 röster inklusive frånvaro,100.0
+rimlighet,voteringar_349,Varje votering räknar alla 349 ledamöter,ok,100.0 % av 8297 voteringar har 340–349 röster inklusive frånvaro,100.0
 rimlighet,samstammighet_diagonal,Ett parti röstar alltid som sig självt,ok,diagonalen 100–100 %,
 rimlighet,som_forslag,SOM-förslagen hittas i rapporterna,ok,"2022: 10, 2025: 14",14.0
 rimlighet,norden_sverige,Sverige finns i alla nordiska serier,ok,19 serier,

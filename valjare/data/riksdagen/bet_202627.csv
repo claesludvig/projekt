@@ -1,6 +1,4 @@
 dok_id,rm,beteckning,doktyp,typ,subtyp,organ,titel,undertitel,datum,dokument_url_html
-HE01SoU2,2026/27,SoU2,bet,bet,bet,SoU,Riksrevisionens rapport om tandvårdsstödet,,2026-05-29,//data.riksdagen.se/dokument/HE01SoU2.html
-HE01SoU3,2026/27,SoU3,bet,bet,bet,SoU,En förändrad abortlag,,2026-05-29,//data.riksdagen.se/dokument/HE01SoU3.html
 HE01FiU6,2026/27,FiU6,bet,bet,bet,FiU,Redovisning av AP-fondernas verksamhet t.o.m. 2025,,2026-06-01,//data.riksdagen.se/dokument/HE01FiU6.html
 HE01SoU4,2026/27,SoU4,bet,bet,bet,SoU,Riksrevisionens rapport statens arbete mot problem med spel om pengar,,2026-06-02,//data.riksdagen.se/dokument/HE01SoU4.html
 HE01SoU5,2026/27,SoU5,bet,bet,bet,SoU,Riksrevisionens rapport om statens styrning av kommunernas myndighetsutövning som avser LSS,,2026-06-22,//data.riksdagen.se/dokument/HE01SoU5.html
@@ -15,36 +13,22 @@ HE01FiU11,2026/27,FiU11,bet,bet,bet,FiU,Höständringsbudget för 2026,,2026-08-
 HE01SoU7,2026/27,SoU7,bet,bet,bet,SoU,Nytt regelverk för hälsodataregister,,2026-09-03,//data.riksdagen.se/dokument/HE01SoU7.html
 HE01KrU1,2026/27,KrU1,bet,bet,bet,KrU,"Utgiftsområde 17 Kultur, medier, trossamfund och fritid",,2026-09-21,//data.riksdagen.se/dokument/HE01KrU1.html
 HE01CU1,2026/27,CU1,bet,bet,bet,CU,"Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande samt konsumentpolitik",,2026-10-06,//data.riksdagen.se/dokument/HE01CU1.html
-HE01CU2,2026/27,CU2,bet,bet,bet,CU,Stärkt trygghet i bostadsrätter,,2026-10-06,//data.riksdagen.se/dokument/HE01CU2.html
-HE01CU3,2026/27,CU3,bet,bet,bet,CU,Några förtydliganden och justeringar i de nya reglerna om bygglov,,2026-10-06,//data.riksdagen.se/dokument/HE01CU3.html
 HE01JuU1,2026/27,JuU1,bet,bet,bet,JuU,Utgiftsområde 4 Rättsväsendet,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU1.html
 HE01JuU3,2026/27,JuU3,bet,bet,bet,JuU,Stärkt skydd för domstolarnas och domarnas oberoende,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU3.html
 HE01JuU4,2026/27,JuU4,bet,bet,bet,JuU,Kompletterande bestämmelser till EU:s förordning om överföring av straffrättsliga förfaranden,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU4.html
-HE01JuU6,2026/27,JuU6,bet,bet,bet,JuU,Uppföljning av den brottsförebyggande strategin Barriärer mot brott,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU6.html
 HE01JuU7,2026/27,JuU7,bet,bet,bet,JuU,Uppföljning av den nationella strategin mot organiserad brottslighet,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU7.html
 HE01JuU8,2026/27,JuU8,bet,bet,bet,JuU,Uppföljning av den nationella strategin mot våldsbejakande extremism och terrorism,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU8.html
-HE01JuU9,2026/27,JuU9,bet,bet,bet,JuU,Ett nytt brott och andra åtgärder mot människohandel,,2026-10-06,//data.riksdagen.se/dokument/HE01JuU9.html
 HE01KU1,2026/27,KU1,bet,bet,bet,KU,Utgiftsområde 1 Rikets styrelse,,2026-10-06,//data.riksdagen.se/dokument/HE01KU1.html
 HE01KU5,2026/27,KU5,bet,bet,bet,KU,Uppföljning av riksdagens tillämpning av subsidiaritetsprincipen,,2026-10-06,//data.riksdagen.se/dokument/HE01KU5.html
-HE01SkU4,2026/27,SkU4,bet,bet,bet,SkU,Stadigvarande vistelse – en definition,,2026-10-06,//data.riksdagen.se/dokument/HE01SkU4.html
-HE01SkU5,2026/27,SkU5,bet,bet,bet,SkU,Förändringar i förfarandet för kupongskatt,,2026-10-06,//data.riksdagen.se/dokument/HE01SkU5.html
-HE01SkU6,2026/27,SkU6,bet,bet,bet,SkU,Skatteavtal mellan Sverige och Nederländerna,,2026-10-06,//data.riksdagen.se/dokument/HE01SkU6.html
-HE01SkU7,2026/27,SkU7,bet,bet,bet,SkU,Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd,,2026-10-06,//data.riksdagen.se/dokument/HE01SkU7.html
 HE01KU10,2026/27,KU10,bet,bet,bet,KU,Granskning av statsrådens tjänsteutövning och regeringsärendenas handläggning,,2026-10-07,//data.riksdagen.se/dokument/HE01KU10.html
 HE01MJU1,2026/27,MJU1,bet,bet,bet,MJU,"Utgiftsområde 20 Klimat, miljö och natur",,2026-10-07,//data.riksdagen.se/dokument/HE01MJU1.html
 HE01MJU2,2026/27,MJU2,bet,bet,bet,MJU,"Utgiftsområde 23 Areella näringar, landsbygd och livsmedel",,2026-10-07,//data.riksdagen.se/dokument/HE01MJU2.html
-HE01MJU5,2026/27,MJU5,bet,bet,bet,MJU,Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion,,2026-10-07,//data.riksdagen.se/dokument/HE01MJU5.html
-HE01KrU3,2026/27,KrU3,bet,bet,bet,KrU,Ny politisk inriktning för ett starkare filmland,,2026-10-09,//data.riksdagen.se/dokument/HE01KrU3.html
 HE01AU1,2026/27,AU1,bet,bet,bet,AU,Utgiftsområde 13 Integration och jämställdhet,,2026-10-14,//data.riksdagen.se/dokument/HE01AU1.html
 HE01AU2,2026/27,AU2,bet,bet,bet,AU,Utgiftsområde 14 Arbetsmarknad och arbetsliv,,2026-10-14,//data.riksdagen.se/dokument/HE01AU2.html
-HE01CU4,2026/27,CU4,bet,bet,bet,CU,En ny produktansvarslag,,2026-10-14,//data.riksdagen.se/dokument/HE01CU4.html
-HE01FöU4,2026/27,FöU4,bet,bet,bet,FöU,En ny lag för ökad motståndskraft hos kritiska verksamhetsutövare,,2026-10-14,//data.riksdagen.se/dokument/HE01FöU4.html
-HE01SkU8,2026/27,SkU8,bet,bet,bet,SkU,Nya förenklingsregler och andra kompletteringar i lagen om tilläggsskatt,,2026-10-14,//data.riksdagen.se/dokument/HE01SkU8.html
 HE01TU1,2026/27,TU1,bet,bet,bet,TU,Utgiftsområde 22 Kommunikationer,,2026-10-14,//data.riksdagen.se/dokument/HE01TU1.html
 HE01UbU1,2026/27,UbU1,bet,bet,bet,UbU,Utgiftsområde 16 Utbildning och universitetsforskning,,2026-10-14,//data.riksdagen.se/dokument/HE01UbU1.html
 HE01UbU2,2026/27,UbU2,bet,bet,bet,UbU,Utgiftsområde 15 Studiestöd,,2026-10-14,//data.riksdagen.se/dokument/HE01UbU2.html
 HE01FöU1,2026/27,FöU1,bet,bet,bet,FöU,Utgiftsområde 6 Försvar och samhällets krisberedskap,,2026-10-15,//data.riksdagen.se/dokument/HE01FöU1.html
-HE01FöU5,2026/27,FöU5,bet,bet,bet,FöU,Kommuners och regioners grundläggande beredskap inför kris och krig,,2026-10-15,//data.riksdagen.se/dokument/HE01FöU5.html
 HE01NU1,2026/27,NU1,bet,bet,bet,NU,Utgiftsområde 24 Näringsliv,,2026-10-15,//data.riksdagen.se/dokument/HE01NU1.html
 HE01NU2,2026/27,NU2,bet,bet,bet,NU,Utgiftsområde 19 Regional utveckling,,2026-10-15,//data.riksdagen.se/dokument/HE01NU2.html
 HE01NU3,2026/27,NU3,bet,bet,bet,NU,Utgiftsområde 21 Energi,,2026-10-15,//data.riksdagen.se/dokument/HE01NU3.html
@@ -92,3 +76,35 @@ HE01MJU4,2026/27,MJU4,bet,bet,bet,MJU,En mer enhetlig reglering av tillsyn och k
 HE01JuU5,2026/27,JuU5,bet,bet,bet,JuU,Riksrevisionens rapport om infiltration i staten,,2026-11-13,//data.riksdagen.se/dokument/HE01JuU5.html
 HE01KrU2,2026/27,KrU2,bet,bet,bet,KrU,Ungdomspolitisk skrivelse,,2026-11-13,//data.riksdagen.se/dokument/HE01KrU2.html
 HE01NU4,2026/27,NU4,bet,bet,bet,NU,2026 års redogörelse för företag med statligt ägande,,2026-11-13,//data.riksdagen.se/dokument/HE01NU4.html
+HE01SkU8,2026/27,SkU8,bet,bet,bet,SkU,Nya förenklingsregler och andra kompletteringar i lagen om tilläggsskatt,,2026-11-17,//data.riksdagen.se/dokument/HE01SkU8.html
+HE01UbU3,2026/27,UbU3,bet,bet,bet,UbU,Ett tydligare regelverk för barns och ungas utbildning i kriminalvårdsanstalt,,2026-11-17,//data.riksdagen.se/dokument/HE01UbU3.html
+HE01FöU4,2026/27,FöU4,bet,bet,bet,FöU,En ny lag för ökad motståndskraft hos kritiska verksamhetsutövare,,2026-11-18,//data.riksdagen.se/dokument/HE01FöU4.html
+HE01FöU5,2026/27,FöU5,bet,bet,bet,FöU,Kommuners och regioners grundläggande beredskap inför kris och krig,,2026-11-18,//data.riksdagen.se/dokument/HE01FöU5.html
+HE01KrU3,2026/27,KrU3,bet,bet,bet,KrU,Ny politisk inriktning för ett starkare filmland,,2026-11-18,//data.riksdagen.se/dokument/HE01KrU3.html
+HE01NU7,2026/27,NU7,bet,bet,bet,NU,En myndighet för redovisning och revision,,2026-11-18,//data.riksdagen.se/dokument/HE01NU7.html
+HE01SfU7,2026/27,SfU7,bet,bet,bet,SfU,Migration,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU7.html
+HE01SfU8,2026/27,SfU8,bet,bet,bet,SfU,Socialavgifter,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU8.html
+HE01SfU9,2026/27,SfU9,bet,bet,bet,SfU,Arbetskraftsinvandring,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU9.html
+HE01SfU10,2026/27,SfU10,bet,bet,bet,SfU,Pensioner,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU10.html
+HE01SfU11,2026/27,SfU11,bet,bet,bet,SfU,Socialförsäkring,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU11.html
+HE01SfU12,2026/27,SfU12,bet,bet,bet,SfU,Ekonomisk familjepolitik,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU12.html
+HE01SfU13,2026/27,SfU13,bet,bet,bet,SfU,Nya regler om ansökningsförfarandet för vissa uppehålls- och arbetstillstånd,,2026-11-18,//data.riksdagen.se/dokument/HE01SfU13.html
+HE01SkU7,2026/27,SkU7,bet,bet,bet,SkU,Särskilda bestämmelser i systemet för tonnagebeskattning för företag som är föremål för återkrav av statligt stöd,,2026-11-18,//data.riksdagen.se/dokument/HE01SkU7.html
+HE01SoU2,2026/27,SoU2,bet,bet,bet,SoU,Riksrevisionens rapport om tandvårdsstödet,,2026-11-18,//data.riksdagen.se/dokument/HE01SoU2.html
+HE01SoU3,2026/27,SoU3,bet,bet,bet,SoU,En förändrad abortlag,,2026-11-18,//data.riksdagen.se/dokument/HE01SoU3.html
+HE01CU2,2026/27,CU2,bet,bet,bet,CU,Stärkt trygghet i bostadsrätter,,2026-11-19,//data.riksdagen.se/dokument/HE01CU2.html
+HE01CU3,2026/27,CU3,bet,bet,bet,CU,Några förtydliganden och justeringar i de nya reglerna om bygglov,,2026-11-19,//data.riksdagen.se/dokument/HE01CU3.html
+HE01CU4,2026/27,CU4,bet,bet,bet,CU,En ny produktansvarslag,,2026-11-19,//data.riksdagen.se/dokument/HE01CU4.html
+HE01MJU5,2026/27,MJU5,bet,bet,bet,MJU,Sveriges tillträde till avtalet inom ramen för FN:s havsrättskonvention om bevarande och hållbar användning av marin biologisk mångfald i områden utanför nationell jurisdiktion,,2026-11-19,//data.riksdagen.se/dokument/HE01MJU5.html
+HE01NU5,2026/27,NU5,bet,bet,bet,NU,Energieffektivitet i företag och i fjärrvärme- och fjärrkylesektorn,,2026-11-19,//data.riksdagen.se/dokument/HE01NU5.html
+HE01NU6,2026/27,NU6,bet,bet,bet,NU,"Kontaktpunkter, tillstånd och tidsfrister enligt EU-förordningen om kritiska råmaterial och EU-förordningen om nettonollindustri",,2026-11-19,//data.riksdagen.se/dokument/HE01NU6.html
+HE01SkU4,2026/27,SkU4,bet,bet,bet,SkU,Stadigvarande vistelse – en definition,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU4.html
+HE01SkU5,2026/27,SkU5,bet,bet,bet,SkU,Förändringar i förfarandet för kupongskatt,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU5.html
+HE01SkU6,2026/27,SkU6,bet,bet,bet,SkU,Skatteavtal mellan Sverige och Nederländerna,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU6.html
+HE01SkU10,2026/27,SkU10,bet,bet,bet,SkU,Skattskyldighet för samriskföretag och deras dotterföretag,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU10.html
+HE01SkU11,2026/27,SkU11,bet,bet,bet,SkU,Avveckling av Skatteverkets id-kortsverksamhet,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU11.html
+HE01SkU17,2026/27,SkU17,bet,bet,bet,SkU,Riksrevisionens rapport om Kronofogdens indrivning av skulder,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU17.html
+HE01SkU18,2026/27,SkU18,bet,bet,bet,SkU,Ändring i skatteavtalet mellan Sverige och Cypern,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU18.html
+HE01SkU19,2026/27,SkU19,bet,bet,bet,SkU,Ändring i skatteavtalet mellan Sverige och Irland,,2026-11-19,//data.riksdagen.se/dokument/HE01SkU19.html
+HE01JuU6,2026/27,JuU6,bet,bet,bet,JuU,Uppföljning av den brottsförebyggande strategin Barriärer mot brott,,2026-11-20,//data.riksdagen.se/dokument/HE01JuU6.html
+HE01JuU9,2026/27,JuU9,bet,bet,bet,JuU,Ett nytt brott och andra åtgärder mot människohandel,,2026-11-20,//data.riksdagen.se/dokument/HE01JuU9.html

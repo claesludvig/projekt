@@ -1,5 +1,5 @@
 {
- "skapad": "2026-11-22",
+ "skapad": "2026-11-23",
  "status": "varning",
  "antal": {
   "ok": 207,
@@ -115,8 +115,8 @@
    "id": "lage_aku",
    "beskrivning": "Månadsserie: Arbetslöshet 15–74 år, säsongrensad (AKU, %)",
    "status": "ok",
-   "detalj": "senaste 2026-09, 2 månader sedan",
-   "varde": 2.0
+   "detalj": "senaste 2026-10, 1 månader sedan",
+   "varde": 1.0
   },
   {
    "grupp": "aktualitet",
@@ -1035,8 +1035,8 @@
    "id": "redaktionsfloden",
    "beskrivning": "Redaktionernas nyhetsflöden",
    "status": "ok",
-   "detalj": "12717 artiklar i 7 flöden",
-   "varde": 12717.0
+   "detalj": "12940 artiklar i 7 flöden",
+   "varde": 12940.0
   },
   {
    "grupp": "aktualitet",
@@ -1051,8 +1051,8 @@
    "id": "riksdag_dokument",
    "beskrivning": "Riksdagens dokument",
    "status": "ok",
-   "detalj": "senaste dokument 2026-11-13, 9 dagar sedan",
-   "varde": 9.0
+   "detalj": "senaste dokument 2026-11-20, 3 dagar sedan",
+   "varde": 3.0
   },
   {
    "grupp": "volym",
@@ -1363,16 +1363,16 @@
    "id": "rader_riksdag_dokument",
    "beskrivning": "Tabell riksdag_dokument",
    "status": "ok",
-   "detalj": "7422 rader (förra 7422)",
-   "varde": 7422.0
+   "detalj": "7442 rader (förra 7422)",
+   "varde": 7442.0
   },
   {
    "grupp": "volym",
    "id": "rader_riksdag_beslut",
    "beskrivning": "Tabell riksdag_beslut",
    "status": "ok",
-   "detalj": "8296 rader (förra 8296)",
-   "varde": 8296.0
+   "detalj": "8297 rader (förra 8296)",
+   "varde": 8297.0
   },
   {
    "grupp": "volym",
@@ -1427,8 +1427,8 @@
    "id": "rader_media_foljare",
    "beskrivning": "Tabell media_foljare",
    "status": "ok",
-   "detalj": "2693 rader (förra 2647)",
-   "varde": 2693.0
+   "detalj": "2739 rader (förra 2693)",
+   "varde": 2739.0
   },
   {
    "grupp": "volym",
@@ -1443,16 +1443,16 @@
    "id": "rader_media_omnamnanden",
    "beskrivning": "Tabell media_omnamnanden",
    "status": "ok",
-   "detalj": "504 rader (förra 504)",
-   "varde": 504.0
+   "detalj": "560 rader (förra 504)",
+   "varde": 560.0
   },
   {
    "grupp": "volym",
    "id": "rader_media_google_nyheter",
    "beskrivning": "Tabell media_google_nyheter",
    "status": "ok",
-   "detalj": "1022 rader (förra 1009)",
-   "varde": 1022.0
+   "detalj": "1032 rader (förra 1022)",
+   "varde": 1032.0
   },
   {
    "grupp": "volym",
@@ -1475,8 +1475,8 @@
    "id": "rader_media_wikipedia",
    "beskrivning": "Tabell media_wikipedia",
    "status": "ok",
-   "detalj": "1954 rader (förra 1954)",
-   "varde": 1954.0
+   "detalj": "2091 rader (förra 1954)",
+   "varde": 2091.0
   },
   {
    "grupp": "volym",
@@ -1563,8 +1563,8 @@
    "id": "rader_lagesbild_serie",
    "beskrivning": "Tabell lagesbild_serie",
    "status": "ok",
-   "detalj": "2758 rader (förra 2758)",
-   "varde": 2758.0
+   "detalj": "2759 rader (förra 2758)",
+   "varde": 2759.0
   },
   {
    "grupp": "volym",
@@ -1643,7 +1643,7 @@
    "id": "voteringar_349",
    "beskrivning": "Varje votering räknar alla 349 ledamöter",
    "status": "ok",
-   "detalj": "100.0 % av 8296 voteringar har 340–349 röster inklusive frånvaro",
+   "detalj": "100.0 % av 8297 voteringar har 340–349 röster inklusive frånvaro",
    "varde": 100.0
   },
   {

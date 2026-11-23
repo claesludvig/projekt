@@ -1,6 +1,6 @@
-# Lägesbild vecka 47 2026
+# Lägesbild vecka 48 2026
 
-Skapad 2026-11-22 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
+Skapad 2026-11-23 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen jämför den senaste förändringen med seriens egen historik; den säger inte varför något har hänt och inte om det är bra eller dåligt.
 
 ## Ovanlig utveckling
 
@@ -16,11 +16,11 @@ Skapad 2026-11-22 ur Polisens, SCB:s och Riksbankens senaste siffror. Statusen j
 
 ## Inom det vanliga
 
-- **Styrräntan (%)**: November 2026: 1,8 %. +0,1 procentenheter mot ett år tidigare. _Källa: Riksbanken._
+- **Styrräntan (%)**: November 2026: 1,9 %. +0,1 procentenheter mot ett år tidigare. _Källa: Riksbanken._
 - **KPIF, 12-månadersförändring (%)**: Oktober 2026: 1,1 %. −2,0 procentenheter mot ett år tidigare. Mål: 2,0 (Riksbankens inflationsmål (KPIF)). _Källa: SCB TAB6590._
 - **El, prisförändring 12 mån (%)**: Oktober 2026: 14,3 %. −7,5 procentenheter mot ett år tidigare. _Källa: SCB KPI/KPIF._
 - **Beviljade uppehållstillstånd, skydd**: Augusti 2026: 882. Senaste tolv månaderna: 11 983 (året innan 12 527). De tre senaste månaderna: −22 % mot samma månader i fjol. _Källa: Migrationsverket._
 - **Beviljade uppehållstillstånd, anknytning**: Augusti 2026: 1 780. Senaste tolv månaderna: 25 442 (året innan 24 953). De tre senaste månaderna: −10 % mot samma månader i fjol. _Källa: Migrationsverket._
 - **Beviljade uppehållstillstånd, arbete**: Augusti 2026: 1 981. Senaste tolv månaderna: 23 847 (året innan 23 894). De tre senaste månaderna: +11 % mot samma månader i fjol. _Källa: Migrationsverket._
 - **Beviljade uppehållstillstånd, studier**: Augusti 2026: 1 555. Senaste tolv månaderna: 16 002 (året innan 15 972). De tre senaste månaderna: −7 % mot samma månader i fjol. _Källa: Migrationsverket._
-- **Arbetslöshet 15–74 år, säsongrensad (AKU, %)**: September 2026: 8,6 %. −0,2 procentenheter mot ett år tidigare. _Källa: SCB TAB6387._
+- **Arbetslöshet 15–74 år, säsongrensad (AKU, %)**: Oktober 2026: 8,2 %. −1,2 procentenheter mot ett år tidigare. _Källa: SCB TAB6387._
