@@ -8,7 +8,7 @@ description: Skriv, transkribera, redigera och faktagranska Ludvigs bostadspolit
 ## Var boken finns
 
 - **Huvudmanuset** är Google Docs-dokumentet "Bostadspolitiskt bokprojekt (omarbetad)" i hans Drive (id 1IgfeXa3ZkZZHIxgN9WLjXwoUtVc7xY6ybtpQKT8EJ68). Det är den senaste versionen, språkbearbetad 19 november 2026, med kapitel 1–4 och omkring 26 000 ord. En kopia från före språkbearbetningen finns som "… – kopia före språkbearbetning 19 nov 2026".
-- **Den publicerade läsversionen** är artefakten "Bostadspolitiskt bokprojekt" på claude.ai (https://claude.ai/artifact/Ur6Mwemx22uYBBrVYJinrM). Den är från 22 oktober och äldre än Drive-dokumentet. Den har kapitel 1–3 och referenslista, och kapitel 4 står som ej skrivet. Den ska uppdateras från Drive-dokumentet, inte tvärtom.
+- **Den publicerade läsversionen** är artefakten "Bostadspolitiskt bokprojekt" på claude.ai (https://claude.ai/artifact/Ur6Mwemx22uYBBrVYJinrM). Den uppdaterades 24 november 2026 med Drive-versionen från 19 november (kapitel 1–4, referenslista, platshållare markerade med gult). Den byggs från Drive-dokumentet, inte tvärtom. Behåll sidans design och skript när den uppdateras igen, och byt bara ut innehållet.
 - **Kapitelutkast** skrivs i separata dokument och flyttas in senare, till exempel "Planering och avreglering" (flikarna Tab 1 med diktat, Kapitelversion och Löpande text) och "Wienmodellen – utkast till boken".
 - Relaterade artefakter är "Plan för kapitel 2", "Kapitel 2 – placering och omskrivning av nytt material", "Inledningskapitel – utkast", "Ett decennium av planutredningar", "Prop. 1947:235 Bostadsförsörjningen", "Ohlin i kammaren" och "Reservationerna i utredningarna".
 
