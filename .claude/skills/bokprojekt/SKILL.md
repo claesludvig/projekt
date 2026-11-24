@@ -26,6 +26,7 @@ Kapitlen:
 2. **Kreditreglering och bostadsfinansiering.** Norrlandsfonden som kreditpolitik i "marknadsmässig dräkt", räntekänslighet, efterkrigstidens kreditpolitik, SOU 1941:4 och hur krisåtgärder blir permanenta.
 3. **Hyresmarknaden och bruksvärdessystemet.** Borgerlighetens konfliktundvikande, hyreschocksrädslan, läget och hyressplittringen, bruksvärdessystemets framväxt, reformförsök som stannat halvvägs och allmännyttans uppdrag.
 4. **Byggkostnader och produktivitetsutveckling.** Kostnadschocken 2021–23, räntan och energin i byggkostnaderna, produktiviteten, taxorna och realistiska ambitioner.
+5. **Planering och avreglering** (inflyttat 24 november 2026, ännu utan underrubriker och utan Harvard-referenser i texten). Varför plan- och byggreformer inte lyckats, utländska exempel (Auckland, Storbritannien, New York, Kalifornien), SOU 2015:109 och samverkan som svar, planmonopolet och Timbros förslag, SOU 2019:9, decentralisering med tydligt ansvar, outnyttjade byggrätter (SOU 2018:67), etappindelning och riskdelning. Utkastet finns kvar i dokumentet "Planering och avreglering". PDF:en och webbläsversionen innehåller ännu inte kapitel 5.
 
 Återkommande begrepp är bostadsförsörjning, efterfrågestyrt byggande, institutionell spårbundenhet, kapitalintensitet, räntekänslighet, glidning, presumtionshyror, lägesfaktorer, hyressplittring, besittningsskydd, marknadskonforma medel, oavsiktliga konsekvenser och ambitionsfattigdom.
 
