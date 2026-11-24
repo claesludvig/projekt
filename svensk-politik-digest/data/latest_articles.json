@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-11-23T14:03:21.851601+00:00",
-  "new_count": 7,
+  "fetched_at": "2026-11-24T06:02:55.637902+00:00",
+  "new_count": 15,
   "skipped": {
-    "seen": 36,
-    "offtopic": 154,
+    "seen": 34,
+    "offtopic": 123,
     "old": 13
   },
-  "fetch_errors": 4,
+  "fetch_errors": 7,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 4,
+      "new": 7,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "https://www.dn.se/ledare/rss/",
+      "feed": "",
       "new": 0,
-      "ok": true
+      "ok": false
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 2,
       "ok": true
     },
     {
@@ -65,132 +65,274 @@
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/wdPGoA/statsvetare-s-budet-gar-langre-an-tidoavtalet",
-      "title": "Statsvetare: S-budet går längre än Tidöavtalet",
+      "url": "https://www.sverigesradio.se/artikel/9348584",
+      "title": "Talmannens täta tisdag – här är vägen till en regering",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-24",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Talman Andreas Norlén träffar på tisdagen partiledarna inför nästa steg mot en ny regering. Ulf Kristersson (M) lämnar sin slutrapport om sonderingsuppdraget. Kristersson kan därefter prövas som statsminister, men Magdalena Andersson (S) kan få företräde om hon presenterar ett färdigt regeringsunderlag. Om en fjärde statsministeromröstning misslyckas väntar extraval inom tre månader.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348584'",
+      "matched_terms": [
+        "regeringsunderlag",
+        "talman",
+        "sondering",
+        "statsminister",
+        "partiledar"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9348700",
+      "title": "Högersvängen splittrar C: ”Inte alls överens”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-24",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiet återupptar samtalen med högersidan. Det beskedet gav partiledaren Elisabeth Thand Ringqvist på måndagskvällen i en kommentar till Ekot. Men Centerpartiet är splittrat. Tidigare under måndagen skrev 35 centerpolitiker i en debattartikel i Aftonbladet att det skulle vara ett svek mot väljarna att bilda en borgerlig regering med SD som vågmästare. ”Vi är ju inte alls överens. Hade vi varit överens så hade väl ingen behövt gå ut i media och tala om vilken väg man tycker att partiet ska ta”, säger Mattias Larsson, Centerpartiets gruppledare i Umeå, som har skrivit under debattartikeln.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348700'",
+      "matched_terms": [
+        "partiledar",
+        "vågmästar",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.svd.se/a/r8A79w/v-beklagar-c-s-sidbyte",
+      "title": "Vänsterpartiet: ”Beklagar C:s sidbyte”",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-23",
-      "author": "Anja Haglund/TT",
+      "author": "TT",
       "commentator": "",
-      "summary": "Socialdemokraterna erbjuder Vänsterpartiet egna statssekreterare och ett eget budgetkansli – om V…",
-      "fulltext": "Socialdemokraterna erbjuder Vänsterpartiet egna statssekreterare och ett eget budgetkansli – om V släpper sitt ministerkrav.\n– Det är så nära man kan komma att sitta med i regeringen, säger statsvetaren Andreas Johansson Heinö.\nI det bud som S, C och MP lagt fram för V erbjuder man utöver sakpolitik även en ny samarbetsform. I stället för ministerposter erbjuds V bland annat plats i ”ett inre kabinett”, ett eget budgetkansli på finansdepartementet och egna statssekreterare.\nS-ledaren Magdalena Andersson skriver i en debattartikel i Expressen att detta skulle ge V ”det största inflytande” som ett samarbetsparti hittills haft.\nStatsvetaren Andreas Johansson Heinö konstaterar att förslaget är långtgående.\n– Tittar man på de tidigare samarbeten som funnits med stödpartier har det väl aldrig varit så här pass stor närvaro av statssekreterare, kanslier och så vidare, säger Johansson Heinö, som också är förläggare på Timbro förlag.\n– Det går ju längre än vad Tidöavtalet gjorde.\nÄven Tidöpartierna hade ”ett inre kabinett”, där alla fyra partiledare för M, KD, L och SD sågs för att hantera vissa frågor.\n– Det skulle ha en motsvarighet även här då, där Nooshi Dadgostar (V) kan vara med, säger Johansson Heinö.\nEnligt S ska V också få ett eget kansli i samordningen på statsrådsberedningen som leds av en statssekreterare. Även V:s budgetkansli skulle ledas av en statssekreterare. Därtill erbjuds V en kommunikationsenhet på statsrådsberedningen.\nS framhåller att budet skulle ge Vänsterpartiet ett brett inflytande inom flera områden: från överenskommelse, via utredning och beslut, till genomförande.\n– Vänsterpartiet skulle vara med vid en väldigt stor del av processen kring regeringsarbetet – men inte när besluten fattas vid bordet, konstaterar Johansson Heinö.\nAtt V erbjuds ”statssekreterare” tror han kan vara mer av en symbolhandling.\n– Statssekreterare är ju att du leder arbetet på departementet. Det är inte det som Vänsterpartiet erbjuds här. Utan det är att en person som leder V:s kansli får den här titeln.\n– Det blir mer att man ska vara där för att ha tillgång till informationen och känna sig delaktig i processen, men man kommer ju inte att kunna vara det fullt ut, fortsätter han.\nV tackade direkt nej till budet. Hittills tyder inget på att partiet är berett att släppa ministerkravet.\nEnligt Johansson Heinö krävs sannolikt mer sakpolitik för att det ska börja röra på sig, men han tror också att formen spelar roll – att budet presenterades i en debattartikel uppfattas inte som seriöst av V.\nDet handlar enligt en debattartikel i Expressen bland annat om följande beståndsdelar:\n– Ett inre kabinett som inrättas, där samtliga partiledare ingår.\n– Eget kansli i regeringssamordningen på statsrådsberedningen som leds av en statssekreterare.\n– Eget budgetkansli på finansdepartementet som leds av en statssekreterare.\n– Egen kommunikationsenhet på statsrådsberedningen.",
+      "summary": "Centerpartiet återupptar samtalen med M, KD och L, meddelade Elisabeth Thand Ringqvist…",
+      "fulltext": "Centerpartiet återupptar samtalen med M, KD och L, meddelade Elisabeth Thand Ringqvist på måndagskvällen.\nBeskedet beklagas av Vänsterpartiet som anser att de rödgröna borde ha ”synat” Centerpartiets röda linjer innan valet, skriver Vänsterpartiets vice partiledare Ida Gabrielsson på X .\nThand Ringqvist lämnade sitt besked efter det att Centerpartiet hållit ett extrainsatt möte på måndagskvällen.\n”I går lämnade vi tillsammans med Socialdemokraterna och Miljöpartiet ett slutbud till Vänsterpartiet för att möjliggöra en regering med Magdalena Andersson som statsminister. Budet sträckte sig långt, både politiskt och när det gäller samarbetsformer. Vi har ännu inte fått några tydliga besked från V som gör att vi i nuläget kan komma vidare”, skriver hon på X på måndagskvällen\nCenterledaren uppger vidare att man inte tänker låta regeringsbildningen ”fastna” och därför återupptar samtalen med M, KD och L.\n”Beklagar C:s sidbyte efter valet. Men ännu mer att vi inte hjälptes åt att syna hur förankrade C egentligen var innan valet. Då hade vi sluppit detta nu”, skriver Ida Gabrielsson på X efter Centerns besked.\nGabrielsson uppgav i Sveriges Radios Studio ett på eftermiddagen att V kan tänka sig att släppa sitt ministerkrav mot ”enormt stora eftergifter”, men övriga partier har enligt henne inte velat gå V till mötes.\n”I skapt läge var inte en humanare migrationspolitik viktigare än skattesänkningar. De hoppades bara i stället att vi rödgröna skulle överge våra vallöften under press”, skriver Gabrielsson på måndagskvällen.\nTT söker Socialdemokraterna och Moderaterna för kommentarer.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "tidöavtal",
-        "Socialdemokraterna",
+        "Centerpartiet",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
     },
     {
-      "url": "https://www.svt.se/nyheter/inrikes/chatt-vem-blir-statsminister-och-nar-ar-det-klart",
-      "title": "Chatt: Vem blir statsminister – och när är det klart?",
+      "url": "https://www.svd.se/a/r8A7mK/c-gar-hogerut-inga-tydliga-besked-fran-v",
+      "title": "C ska prata med högern: ”Inga tydliga besked”",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-23",
+      "author": "Emilia Lindell",
+      "commentator": "",
+      "summary": "Centerpartiet återupptar samtalen med högersidan, skriver partiledare Elisabeth Thand Ringqvist…",
+      "fulltext": "Centerpartiet återupptar samtalen med högersidan, skriver partiledare Elisabeth Thand Ringqvist på Instagram. ”Vi tänker inte låta regeringsbildningen fastna”, skriver hon.\nElisabeth Thand Ringqvist anser att samtalen med de rödgröna partierna har kört fast.\n”Sverige behöver en regering och därför behöver vi öppna fler dörrar, inte stänga några”, skriver hon.\nC kan tvingas välja sida: ”Inte fungerat så bra”",
+      "paywall": true,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/thand-ringqvist-tillbaka-till-samtal-med-m-l-och-kd",
+      "title": "Thand Ringqvist: Tillbaka till samtal med M, L och KD",
       "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-23",
-      "author": "Klara Stefansson",
+      "author": "Carl Enderstein",
       "commentator": "",
-      "summary": "Över 70 dagar utan regering. Förhandlingar inför öppen ridå. Andersson vs. Kristersson. Hur ska regeringsbildningen sluta? Och när? Ställ dina frågor till SVT:s politikreporter Kristoffer Törnmalm – som svarar i chatt och livesändning.",
-      "fulltext": "Över 70 dagar utan regering. Förhandlingar inför öppen ridå. Andersson vs. Kristersson.\nHur ska regeringsbildningen sluta? Och när?\nStäll dina frågor till SVT:s politikreporter Kristoffer Törnmalm – som svarar i chatt och livesändning.\nNu är det dags för mig att sätta mig i studion och svara på frågor – kommer försöka få med så många av era undringar där som möjligt.\nYngve • Verkar som Gud har lyssnat på Ulf Kristerssons och Birgitta Eds böner. Vem är troligast att ta över som partiledare efter Magdalena Andersson om hon misslyckas att bilda regering?\nEn spännande fråga som håller alla journalister och politiska nördar vakna om nätterna. Jag skulle säga att det beror på. 1. Om hon lyckas bilda en regering eller inte (kanske givet). 2. Om processen blir ”ordnad” eller inte. Och det hänger ihop med hur partiledaren väljer att göra.\nRedan nu vet jag att en del socialdemokrater funderar i de här banorna, inte minst sådana som sällar sig till partivänstern.\nJenny • Varför ställer svt’s journalister så dåliga frågor till politikerna? Ta fram någon journalist som på riktigt förstår det parlamentariska läget och be dem ställa kritiskt granskande frågor till M, C och S representanter så att vi som tittare kan få några svar det är värt att lyssna på.\nVet inte om du syftar på presskonferenser? I så fall kan jag förstå att vi ibland verkar lite dumma, men det du ser är ju processen bakom ett inslag eller en artikel och då kan ibland dumma frågor krävas för att få bra svar, om det är begripligt. Döm oss gärna hellre utifrån den färdiga produkten!\nFredrik • Som väljare känner man sig ganska uppgiven kring denna regeringsbildningsprocess. Hur känner du och dina kollegor, förstår att arbetsdagen kanske är spännande och det inte är några frihelger, men ni kanske också är förbluffade över alla turer?\nPolitik kan vara mycket vardag också under en mandatperiod, så tror de flesta av oss lever upp lite nu. Och det är väl bra så att vi inte lutar oss tillbaka när så mycket står på spel. Men det märks att även vi riksdagsjournalister börjar bli lite slitna, efter valrörelse, val och perioden som varit efter valet.\nErik • S och C framstår som väldigt osympatiska i den här situationen. Nästan mobbning av V. Bra att V står på sig och visar musklerna!\nDet verkar, utifrån nuvarande opinion, som att många vänsterpartister känner likadant. Partiet har inte förlorat på situationen, inte ännu åtminstone.\nPeter • Magdalena Andersson sa hela valrörelsen att hon skulle bli en stark och enande statsminister, tror du att hon ångrar detta nu?\nMja, hon är nog hyffsat nöjd med valresultatet och kanske trodde hon på det när hon sade det. Det är heller inte över förrän det är över.\nPeter • Vilket parti skulle förlora mest på ett nyval?\nSom det ser ut i opinionsundersökningarna, S. Men L är nog inte jättepigga på att pröva sitt drömresultat från valet, som till stor del byggde på stödröster.\nAndreas • (C) är det parti som borde få stå till svars för mycket. De har juni princip ingen politik och den politik de har tex arbetsmarknadspolitiken är ju bevisat icke fungerande, omdaningen av Arbetsförmedlingen är ju en katastrof och bara för att gagna näringslivet (fristående, korrupta leverantörer med dåligt resultat, se SVT UG tex). I övrigt är det mest fantasier om marknaden och skogen som outsinlig källa där skogarna skövlas. I övrigt är (C) livsluft bara att kritisera och håna och tala illa om (V) och (SD). Jag förstår inte att Ni politikreporter inte granskar detta fjantparti hårdare - de är ju den mest oseriösa av dem alla!\nJag tycker nog att granskningarna av Januariavtalet och dess resultat var rätt noggranna. Även inför valet har vi frågat ut partiföreträdare och borrat i sakfrågor, och inte bara vi utan hela Mediesverige. Med det sagt: vi kan så klart bli bättre som kollektiv\nLinn • Hur möjligt är det att de röd-gröna kan få ihop det? Min känsla är att det är totalt låst mellan partierna.\nMånga hänvisar till bettingsajten Polymarket som ger Kristersson 51 procents chans att ta det nu. Kanske är det så, 50/50, även om jag inte råder någon att betta på politik: det finns så många faktorer vi inte ser när folk låser in sig i förhandlingsrum och bara läcker det respektive parti vill ha ut.\nGunnar • Dags att damma av ett gammalt konstaterande om vad Centerpartiet vill: \"Centerpartiet har alltid velat och kommer alltid att vela\".\nLär ha varit C:s tidigare partiledare Gunnar Hedlund som sade. Lika bevingat som C.H Hermanssons (V) kommentar om sitt parti: ”någon jävla ordning ska det vara i ett parti”\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "summary": "Centerpartiet kommer återuppta samtalen om en ny regering med högersidan, det skriver Elisabeth Thand Ringqvist på sociala medier. ”Vi tänker inte låta regeringsbildningen fastna”, skriver Thand Ringqvist på X.",
+      "fulltext": "Centerpartiet kommer återuppta samtalen om en ny regering med högersidan, det skriver Elisabeth Thand Ringqvist på sociala medier.\n”Vi tänker inte låta regeringsbildningen fastna”, skriver Thand Ringqvist på X.\nC-ledaren Elisabeth Thand Ringqvist skriver på sociala medier att partiet återupptar samtal med Moderaterna, Kristdemokraterna och Liberalerna. Det efter Vänsterpartiets besked att man inte accepterar det så kallade ”startpaketet” som presenterades av C, MP och S:\n”Vi har ännu inte fått några tydliga besked från V som gör att vi i nuläget kan komma vidare med att få på plats en regering ledd av Magdalena Andersson. Centerpartiet har gått långt för att hitta en lösning och ytterligare omfattande eftergifter för att få Vänsterpartiet till förhandlingsbordet är inte aktuella.”\nDärför vill partiet söka lösningar höger ut istället:\n”Men vi tänker inte låta regeringsbildningen fastna. Sverige behöver en regering och därför behöver vi öppna fler dörrar, inte stänga några. Vi återupptar därför samtalen med Moderaterna, Kristdemokraterna och Liberalerna. Centerpartiet är fortsatt villiga att ta ansvar, söka lösningar och prata med båda sidor så att Sverige kan få en ny regering”.\nBeskedet kommer inför tisdagens talmansrunda. Där ska alla partiledare samtala med talmannen Andreas Norlén.\nKort efter Thand Ringqvists inlägg svarade Ida Gabrielsson (V) på X att de rödgröna partierna borde ”synat” Centerpartiets röda linjer innan valet:\n”Tänk om någon hade pressat C innan valet och tagit reda på att gränsen för att lätta på den röda linjen mot SD gick vid billigare tandvård för unga och ett bostadsbidrag. Det går inte att muta till sig ett högerparti som inte är grundad i sitt eget val.”\n”Beklagar C:s sidbyte efter valet. Men ännu mer att vi inte hjälptes åt att syna hur förankrade C egentligen var innan valet. Då hade vi sluppit detta nu. Vill man göra stora kompromisser är man förstås välkommen tillbaka, men det får då komma från C själva”, skriver Ida Gabrielsson på X.\nSVT har sökt Centerpartiet som inte vill ge några ytterligare kommentarer. Man hänvisar till Elisabeth Thand Ringqvists kommentar på sociala medier.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
         "regeringsbildning",
-        "statsminister"
+        "Centerpartiet"
       ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9348271",
-      "title": "Vänsterpartister sluter upp bakom ledningens nej till startpaketet",
-      "source": "Ekot, Sveriges Radio",
+      "url": "https://www.svt.se/nyheter/inrikes/mojlig-oppning-for-att-v-ska-slappa-ministerkraven",
+      "title": "Möjlig öppning för att V ska släppa ministerkraven",
+      "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-23",
-      "author": "Ekot",
+      "author": "Carl Enderstein",
       "commentator": "",
-      "summary": "Beskedet från Vänsterpartiets Nooshi Dadgostar och Ida Gabrielsson att budet från S, MP och C får nobben har full uppbackning från de vänsterpartister som Ekot talat med under förmiddagen. ”Det finns en stor enighet i Storstockholm. Vi sluter upp bakom partiledningen och Ida Gabrielsson”, säger August Flensburg, ordförande i partiets största distriktet, Storstockholm. Knäckfrågan är Vänsterpartiets krav på ministerposter. Där är det nej från S, MP och C.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348271'",
-      "matched_terms": [
-        "ministerpost",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9348236",
-      "title": "Bryssels flygtrafik ligger nere när tusentals demonstrerar",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-23",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Tiotusentals belgare demonstrerar – samtidigt som regeringskrisen blir allt mer akut. Det har lett till att flygtrafiken till och från Bryssel ligger nere. Måndagens storstrejk stöttas av Belgiens tre största fackföreningar, i protest mot regeringens åtstramningspolitik och planerade nedskärningar. Bland de strejkande finns även flygledarna på Bryssels flygplats Zaventem, där så gott som samtliga flygningar under dagen har ställts in.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348236'",
-      "matched_terms": [
-        "regeringskris"
-      ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9348059",
-      "title": "S gick emot vädjan från V: ”Vänstern förhandlar ju inte”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-23",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "I dag ska Vänsterpartiet ge besked om Socialdemokraternas startpaket för att återuppta förhandlingarna, men vice partiledaren Ida Gabrielsson har redan sagt nej i ett inlägg på plattformen X. Förslaget från S, MP och C innehåller bland annat en tandvårdsreform men inga ministerposter. En av anledningarna till nejet är att budet inte innehåller skattepolitik. ”C kan få stora skattesänkningar och då blir det ju nedskärningar i välfärden”, säger Ida Gabrielsson till Dagens ETC . Medan S:s Mikael Damberg beskriver budet snarare som ett seriöst försök att komma framåt. V riktar också kritik mot att startpaketet nådde dem via en debattartikel i Expressen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348059'",
-      "matched_terms": [
-        "ministerpost",
-        "partiledar",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9348036",
-      "title": "Fredrik Furtenbach om S erbjudande till V: Kärvar rejält",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-23",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Socialdemokraternas debattartikel i Expressen på söndagskvällen, där man erbjuder Vänsterpartiet flera reformer och positioner, vittnar om förhandlingsproblem. Det säger Ekots inrikespolitiske kommentator Fredrik Furtenbach: ”Det kärvar uppenbarligen rejält”. Många faktorer spelar in i förhandlingarna, menar han: ”Det är också så att för Vänsterpartiet så handlar det här om något mer än ministerposter. Det handlar ju också, kan man säga, om ett slags revansch”.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348036'",
-      "matched_terms": [
-        "ministerpost",
-        "Socialdemokraterna",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
-    },
-    {
-      "url": "https://www.dn.se/kultur/elin-peters-talmannens-vattenfika-var-en-tydlig-signal-om-andra-bullar",
-      "title": "Elin Peters: Talmannens vattenfika var en tydlig signal om andra bullar",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-23",
-      "author": "Elin Peters",
-      "commentator": "",
-      "summary": "Kan politiskt samförstånd verkligen uppnås över ett glas vatten? Kaffebrödets roll som socialt smörjmedel ska inte underskattas, skriver DN:s matredaktör Elin Peters.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-23 15:02\nArtikelns ursprungsadress: https://www.dn.se/kultur/elin-peters-talmannens-vattenfika-var-en-tydlig-signal-om-andra-bullar/\nKan politiskt samförstånd verkligen uppnås över ett glas vatten? Kaffebrödets roll som socialt smörjmedel ska inte underskattas, skriver DN:s matredaktör Elin Peters.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nRedan när talman Andreas Norlén i slutet av september lanserade sin ”vattenfika” – att partiledarna under sonderingssamtalen endast skulle bjudas på ett glas vatten – borde man ha förstått vartåt det barkade: Att en ny regering inte skulle vara på plats på mycket länge.\nKaffebrödets roll som socialt smörjmedel ska inte underskattas, och talmannen var långt i från först med att utnyttja kraften i kondisbitar och chokladbiskvier under sina möten med partiledarna vid regeringsbildningen 2018. Det fungerar till och med på internationell nivå ; skandinaviska medlare har berättat om hur de använt informella fikapauser (eller en sillfrukost) som en form av ”kulinarisk diplomati”.\nFör det är något som händer med människor när de tvingas samtala över mat i allmänhet och en kopp kaffe och söta bakverk i synnerhet: garden sänks, man beter sig som folk. Att fika tillsammans är en vardagsritual som inte bara innebär att man dricker kaffe, utan en umgängesform där man förväntas interagera med varandra.\nMan ser det på arbetsplatser, i politiska sammanhang, i föreningslivet: Man kan ha hur många möten som helst, men om man inte sitter ner och tar en fika tillsammans kommer man aldrig att riktigt mötas. Så stark är den svenska fikatraditionen att medarbetare under covid möttes på ”digital fika” och visade upp sina hembakade kakor på varsin datorskärm, och ve den rektor som säger sig vilja förbjuda lussebrödsbak på förskolan. Att vägra fika är ett avståndstagande från den svenska gemensamhetskulturen.\nKafferepets historia går långt tillbaka i tiden, och minst lika viktigt som kaffet, kakorna och handarbetet var möjligheten till samtal kvinnor emellan. Det var en av få sociala aktiviteter där kvinnor kunde träffas och prata, dela (potentiellt farliga) tankar och idéer utan män och barn närvarande. Naturligtvis blev de hånade och förlöjligade.\nSå småningom – när nykterhetsrörelsen växte fram – blev kaffedrickandet också en ersättare för spriten. Men även de söta tillbehören spelade en liknande roll. Tidskriften Essä ägnar ett av sina senaste nummer åt den ikoniska kokboken ”Sju sorters kakor” från 1945. Där lyfter Edward Blom svenskarnas förhållande till det söta, och skriver att sockret har en alldeles särskild laddning som kan liknas vid alkohol: ”Kafferep med oändliga mängder småkakor, grovdoppa och tårtor ger samma uppsluppenhet, feststämning och markering av att det råder ett undantag från den vanliga vardagen.”\nKakätandet tog ytterligare fart efter andra världskriget. När krigets ransoneringar upphörde exploderade intresset och en duglig husmor förväntades kunna skapa underverk av den heliga treenigheten vetemjöl, socker och smör.\nTrots att man numera kan köpa en kaffe i vilket gathörn som helst har fikat fortfarande en särställning. Här kan man testa tankar som inte är riktigt färdigtänkta, kasta ut en idé och se om motparten nappar och spinner vidare. Inget protokollförs, man behöver aldrig stå till svars.\nSå när talmannen lanserade ”vattenfika” för att signalera att det skulle bli ett kort och effektivt möte handlade det om mer än bristen på tilltugg. Det var en passivt aggressiv signal om att det inte var samförstånd som eftersträvades utan att det snarare handlade om att ”rapportera till chefen”.\nKanske släpper man inte sina röda linjer i utbyte mot en hallongrotta. Men efter så här lång tid utan vare sig regering eller kaffebröd börjar man misstänka att det finns ett samband.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nHyresgästerna om budet till V: ”Jätteviktiga reformer”\nSå ser rödgröna budet ut till V: ”Mot vår uttryckliga vilja”\n”Partiet kan inte ha företrädare som säger sig rösta på andra partier”",
+      "summary": "Vänsterpartiet kan tänka sig att överväga släppa kravet på ministerposter – men bara om de får igenom större politiska sakfrågor, det säger Ida Gabrielsson (V) i Aktuellt. – Jag hade förväntat mig ett ordentlig bud, inte småsaker.",
+      "fulltext": "Vänsterpartiet kan tänka sig att överväga släppa kravet på ministerposter – men bara om de får igenom större politiska sakfrågor, det säger Ida Gabrielsson (V) i Aktuellt.\n– Jag hade förväntat mig ett ordentlig bud, inte småsaker.\nDet så kallade ”startpaketet”, som presenterats av S, C och MP, räcker inte för Vänsterpartiet. I Aktuellt fick Ida Gabrielsson frågor om vad V kan tänka sig i utbyte mot slopade krav på ministerposter.\nOm ni fick miljardärskatt eller en generell arbetstidsförkortning, skulle det erbjudandet vara acceptabelt?\n– Det har jag sagt till Centern och Socialdemokraterna, det är den nivån det ska krävas om jag ska pröva det. Men nu har man inte ens gett en smula av det, säger Vänsterpartiets Ida Gabrielsson i Aktuellt.\nSocialdemokraternas arbetsmarknadspolitiska talesperson Ardalan Shekarabi säger att V inte har velat förhandla sakpolitik. Men tycker att V-beskedet är positivt:\n– Det väcker ett hopp. För om det finns en möjlighet att förhandla, att se till att vi kan genomföra den här politiken som vi nu presenterat i det här paketet. Och förhandla om fler politiska områden, då kan vi också leverera till de människor som faktiskt har valt att rösta på våra partier, säger han i Aktuellt.\nMen Ida Gabrielsson ser i nuläget inte större hopp ifall det skulle bli fler förhandlingar:\n– Därför att då hade man lagt upp det på bordet. Här har man inte A-kassan, inte karensen, inte marknadsskolan och det är för att Centern inte sagt ja till någon av dem.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "talman"
+        "ministerpost",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-23T14:03:21.851601+00:00"
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/mats-knutson-tre-skal-till-att-v-nobbar-s-budet",
+      "title": "Mats Knutson: Tre skäl till att V nobbar S-budet",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Malvina Britts",
+      "commentator": "Mats Knutson",
+      "summary": "Vänsterpartiet nobbar det nya budet från S, MP och C. Men varför räcker inte erbjudandet? SVT:s inrikespolitiske kommentator Mats Knutson pekar på tre viktiga skäl. – Symboliken att få ministerposter är avgörande, säger han.",
+      "fulltext": "Vänsterpartiet nobbar det nya budet från S, MP och C. Men varför räcker inte erbjudandet? SVT:s inrikespolitiske kommentator Mats Knutson pekar på tre viktiga skäl.\n– Symboliken att få ministerposter är avgörande, säger han.\nUnder söndagskvällen presenterade Socialdemokraterna, Miljöpartiet och Centerpartiet ett nytt bud till Vänsterpartiet, i en debattartikel i Expressen . I budet garanteras V bland annat ett antal politiska sakfrågor samt tjänstemän i regeringskansliet.\n– Flera för Vänsterpartiet viktiga saker finns inte med, säger Mats Knutson.\nI videon listar Mats Knutson tre skäl till varför V nobbar Magdalena Anderssons erbjudande.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9348620",
+      "title": "Så sköter sig politikerna: ”Spelar stor roll med inflytande”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Jerry Segerberg berättar att han röstade på Vänsterpartiet. Han säger att han till viss del är besviken på de rödgröna partiernas hantering av valresultatet, men om det skulle gå till extra val, så skulle han rösta på samma parti igen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348620'",
+      "matched_terms": [
+        "valresultat",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9348631",
+      "title": "Så sköter sig politikerna: ”Jag hoppas på ett extraval”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Hugo Söderbäck i Stockholm hoppas på extraval och är kritisk till att partier går till val utan ett regeringsunderlag. Trots missnöjet med situationen är han säker på sin röst och förklarar varför ett extraval inte skulle ändra hans partival.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348631'",
+      "matched_terms": [
+        "regeringsunderlag"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9348623",
+      "title": "Så sköter sig politikerna: ”Jag tycker de är lite mesiga”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Stockholmaren Jessica Sandqvist är kritisk till att regeringsbildningen drar ut på tiden och tycker att politikerna inte lyssnar på medborgarna. Hon jämför med regeringsbildningen efter förra valet och beskriver känslan av att den egna rösten kanske inte spelar någon roll.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348623'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9348614",
+      "title": "Så sköter sig politikerna: ”Man tappar förtroendet för dem”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Oenigheten om regeringsbildningen får Malin Tagesson, som bor utanför Ulricehamn, att tappa förtroendet för politikerna, som hon upplever som opålitliga. Hon tycker att den rödgröna sidan borde ha haft en genomtänkt plan för att bilda regering efter valsegern och efterlyser större öppenhet för samarbete.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348614'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9348607",
+      "title": "Så sköter sig politikerna: Ulf Andersson hoppas på extraval",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Ulf Andersson i Stockholm är frustrerad över att det inte finns en ny regering och hoppas på extraval. Han tycker att politikerna ägnar sig åt tjafs istället för att hitta en lösning och anser att partierna måste kompromissa för att lösa regeringsbildningen.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9348607'",
+      "matched_terms": [
+        "regeringsbildning"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/naringslivets-c-kritik-det-ar-snarare-ett-stoppaket",
+      "title": "Näringslivets C-kritik: ”Det är snarare ett stoppaket”",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Molly Karlsson Inde",
+      "commentator": "",
+      "summary": "Startpaketet till Vänsterpartiet väcker stark kritik i näringslivet. – Det är snarare ett stoppaket för tillväxten än ett startpaket för någonting, säger Företagarnas vd Magnus Demervall. Att Centerpartiet ställt sig bakom förslagen förvånar även Svenskt Näringsliv.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-24 07:01\nArtikelns ursprungsadress: https://www.dn.se/sverige/naringslivets-c-kritik-det-ar-snarare-ett-stoppaket/\nStartpaketet till Vänsterpartiet väcker stark kritik i näringslivet.\n– Det är snarare ett stoppaket för tillväxten än ett startpaket för någonting, säger Företagarnas vd Magnus Demervall.\nAtt Centerpartiet ställt sig bakom förslagen förvånar även Svenskt Näringsliv.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nSocialdemokraterna, Centerpartiet och Miljöpartiet gick i helgen ut med att de gemensamt garanterar flera reformer i ett försök att få Vänsterpartiet att släppa sitt ministerkrav.\nDet handlar bland annat om ett nej till marknadshyror, en rejäl hyresrabatt, arbetstidsförkortning för välfärdens skiftarbetare, en prispresskommission för lägre priser samt stärkt sjuk- och aktivitetsersättning\nFlera av förslagen är sådana som Centerpartiet, som brukar kalla sig för ett företagarparti, normalt inte driver. Det har väckt kritik i näringslivet. Både Företagarna och Svenskt Näringsliv menar att förslagen hämmar tillväxten.\n– Jag har alltid sett Centerpartiet som ett väldigt företagarvänligt parti. När man pratar med företrädare för dem och tittar på deras program så månar de ju om småföretagen. Därför blir det lite svårt att se hur man kan ställa sig bakom någonting sådant här, säger Sven-Olov Daunfeldt, chefsekonom på Svenskt Näringsliv.\nSamtidigt, säger han, är förslagen luddigt formulerade och det är därför svårt att veta exakt hur ”illa” konsekvenserna blir.\nHan blev förvånad redan när Elisabeth Thand Ringqvist valde Socialdemokraternas ”totalpaket”. I det föreslogs bland annat att karensavdraget skulle slopas, något som Svenskt Näringsliv räknar med skulle leda till att korttidssjukfrånvaron ökar.\n– Det var rent av tillväxthämmande reformer i det totalpaketet som S gick fram med. Jag var lite förvånad över att Centern ansåg att det var ett bra paket. Samtidigt vet man inte så mycket om Kristerssons förslag.\nBland annat lyfter han hyresrabatten, nejet till marknadshyror och arbetstidsförkortning som några av de största problemen i startpaketet.\nÄven Företagarna är besvikna över förslagen i startpaketet.\n– Det är ett smatterband av förslag som skulle leda till mer regelkrångel, högre kostnader och minskad tillväxt. Det är snarare ett stoppaket för tillväxten än ett startpaket för någonting, säger Företagarnas vd Magnus Demervall.\nDemervall, som länge var politiskt aktiv i Centerpartiet, tror att många av förslagen i startpaketet har svidit för partiet.\n– Visst gör det mig lite förvånad att ett parti som Centerpartiet, som talar sig varma för småföretag, kan gå med på förslag om politiska ingrepp i arbetstiden eller för den delen en så kallad priskommission.\nFakta. Svenskt Näringsliv och Företagarna\nSvenskt Näringsliv är en medlemsstyrd intresse- och arbetsgivarorganisation som samlar 60 000 medlemsföretag.\nFöretagarna är en medlemsorganisation som samlar cirka 60 000 små och medelstora företag i Sverige.\nHan är däremot positiv till att många förslag inte är en del av startpaketet – som skattehöjningar, slopat karensavdrag och avprivatiseringar av välfärden.\n– Min tolkning är att Centerpartiet har förmått att förhandla bort de skadliga förslagen från startpaketet.\nSamtidigt ska paketet, enligt DN:s uppgifter, förstås som att även andra frågor fortsatt ligger på bordet, men att det som listas i paketet är gemensamt garanterat.\n– Skulle man röra sig ännu längre i en riktning där man ökar kostnaderna för företagen så vore det en katastrof, säger Demervall.\nFastighetsägarna har också reagerat på förslagen om att ”se över skiljemannaförfarandet”, som Vänsterpartiet vill slopa, och om att ”förhindra renovräkningar”. Skiljemannaförfarande är en privat metod för att lösa tvister utanför domstol, medan ”renovräkningar” syftar på renoveringar som leder till högre hyror.\nHär hittar du alla punkter i budet till V.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nStatsvetare: Därför är det så tyst från Nooshi Dadgostar i förhandlingarna\nShekarabi försvarar startpaketet – trots V:s ilska\nSå ser rödgröna budet ut till V: ”Mot vår uttryckliga vilja”",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/max-hjelm-hogern-borde-slappa-sin-snuttefilt-och-lara-sig-av-vansterpartiet",
+      "title": "Max Hjelm: Högern borde släppa sin snuttefilt och lära sig av Vänsterpartiet",
+      "source": "DN Nyheter",
+      "kind": "kommentar",
+      "published": "2026-11-23",
+      "author": "Max Hjelm",
+      "commentator": "",
+      "summary": "Varför gick det så bra för Vänsterpartiet och Socialdemokraterna i utsatta områden? Järvaveckans nya rapport ger en indikation.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-24 07:03\nArtikelns ursprungsadress: https://www.dn.se/ledare/max-hjelm-hogern-borde-slappa-sin-snuttefilt-och-lara-sig-av-vansterpartiet/\nVarför gick det så bra för Vänsterpartiet och Socialdemokraterna i utsatta områden? Järvaveckans nya rapport ger en indikation.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nFrån vissa delar av Tidöhögerns håll började en bitter valanalys ritas upp redan innan valet, och när förlusten var ett faktum fick det hela skruv. Legitimiteten hos muslimers och invandrares röster ifrågasattes. Det talades om röstboskap. Varningar om klanröster slogs upp stort. När utredningar om valfusk drog i gång blandades de olika beskrivningarna till en giftig snuttefilt.\nFör ja: indikationerna på valfusk och att personer pressats att rösta på ett visst sätt är allvarliga och behöver utredas ordentligt. Men: de som därför avfärdar högerpartiers möjlighet att vinna röster i utsatta områden intar bara en bekväm och intellektuellt slapp position.\nOm man på riktigt vill förstå valresultatet, och varför Vänsterpartiet och Socialdemokraterna tillsammans fick över 70 procent av rösterna i utsatta områden, är Stiftelsen Järvaveckans nya rapport ” Två bilder av samma val ” intressant läsning.\nSärskilt svenskars svar på en fråga säger väldigt mycket om valet: I utsatta områden uppger 38 procent att deras livssituation försämrats sedan 2022, medan bara två av tio har fått det bättre. I resten av Sverige är upplevelsen nästan omvänd: där har 44 procent fått det bättre och bara 15 procent upplever en försämring.\nDet är nästan som att Tidöpartierna ville få till den här upplevelsen efter den senaste mandatperioden.\nDe talade sällan till folk i utsatta områden, snarare varnade man medelklasspersoner i trygga områden för dem, med skrämselord om ”tvångsblandning”. Regeringen införde sitt bidragstak trots att det inte gav märkbart större incitament att arbeta, bara att folk blev fattigare. Många invandrare upplevde under de senaste fyra åren att tonen mot dem blev hårdare, och hotet från extremhögern större.\nÄr det så konstigt att man röstade på oppositionen, och främst de partier som faktiskt kampanjade mycket i utsatta områden?\nJärvaveckans rapport visar att saker såsom arbetslösheten och bostadskostnader sågs som mycket viktigare för partival i utsatta områden än i andra delar av Sverige. Och andelen i områdena som valde parti efter religiösa ledares uppmaning eller etnicitet är försvinnande liten. Den höger som bara fokuserat på det senare kommer att få svårt att vinna dessa väljare.\nMax Hjelm: Min generation blev blåst av er äldre\nMax Hjelm: Ni borde tacka oss som älskar lussekorven\nMax Hjelm: Det här är valet som borde oroa alla européer\nDN:s ledarredaktion: Den största skandalen handlar inte om otrohet\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nMax Hjelm: Min generation blev blåst av er äldre\nMax Hjelm: Ni borde tacka oss som älskar lussekorven\nLedare: Den största skandalen handlar inte om otrohet",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "Socialdemokraterna",
+        "Vänsterpartiet"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/statsvetare-darfor-ar-det-sa-tyst-fran-nooshi-dadgostar-i-forhandlingarna",
+      "title": "Statsvetare: Därför är det så tyst från Nooshi Dadgostar i förhandlingarna",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-23",
+      "author": "Frida Bergkvist",
+      "commentator": "",
+      "summary": "Medan Vänstertoppen Ida Gabrielsson intervjuas i tv och twittrar, är det tyst från partiledaren Nooshi Dadgostar. Det finns en anledning, enligt statsvetaren Jonas Hinnfors. Här är partiledarna som hållit låg profil under regeringsförhandlingarna.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-24 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/statsvetare-darfor-ar-det-sa-tyst-fran-nooshi-dadgostar-i-forhandlingarna/\nMedan Vänstertoppen Ida Gabrielsson intervjuas i tv och twittrar, är det tyst från partiledaren Nooshi Dadgostar.\nDet finns en anledning, enligt statsvetaren Jonas Hinnfors.\nHär är partiledarna som hållit låg profil under regeringsförhandlingarna.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "regeringsförhandling",
+        "partiledar"
+      ],
+      "first_seen": "2026-11-24T06:02:55.637902+00:00"
     }
   ]
 }
