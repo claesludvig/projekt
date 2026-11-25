@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-11-25T06:02:47.128015+00:00",
-  "new_count": 16,
+  "fetched_at": "2026-11-25T14:02:51.494069+00:00",
+  "new_count": 4,
   "skipped": {
-    "seen": 45,
-    "offtopic": 137,
-    "old": 12
+    "seen": 49,
+    "offtopic": 147,
+    "old": 10
   },
-  "fetch_errors": 7,
+  "fetch_errors": 3,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 5,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 6,
+      "new": 3,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
@@ -35,13 +35,13 @@
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     },
     {
       "name": "Expressen Ledare",
       "feed": "https://feeds.expressen.se/ledare/",
-      "new": 2,
+      "new": 0,
       "ok": true
     },
     {
@@ -59,315 +59,92 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/0vndBo/svd-politiken-poddserie-nooshi-dadgostar-och-ida-gabrielsson-v",
-      "title": "”Bilden av dem som en maktduo gillar de inte”",
-      "source": "SvD Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-25",
-      "author": "Malin Hector",
-      "commentator": "",
-      "summary": "Vänsterpartiet kräver ministerposter – och Ida Gabrielsson får förklara varför.",
-      "fulltext": "Vänsterpartiet kräver ministerposter – och Ida Gabrielsson får förklara varför. Men är det hon eller Nooshi Dadgostar som håller hårdast på kravet? I SvD Politikens nya poddserie följer Maggie Strömberg och Torbjörn Nilsson duon från ungdomsförbundet till regeringsförhandlingarna.\nJimmie Åkesson fick en egen poddserie. Magdalena Andersson och Ulf Kristersson likaså. Men när det var Nooshi Dadgostars tur fick hon dela med vice partiledaren Ida Gabrielsson.\nDen som har tittat på Aktuellt sedan valet kan nog förstå varför. Där har Ida Gabrielsson gång på gång fått försvara Vänsterpartiets krav på ministerposter.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "ministerpost",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/anderssons-sista-strid",
-      "title": "”Anderssons sista strid”",
+      "url": "https://www.svt.se/nyheter/inrikes/stall-dina-fragor-vilka-ska-styra-sverige",
+      "title": "Ställ dina frågor – vilka ska styra Sverige?",
       "source": "SVT Nyheter",
       "kind": "nyhet",
       "published": "2026-11-25",
-      "author": "Mats Knutson",
+      "author": "Jesper Brännmark",
       "commentator": "Mats Knutson",
-      "summary": "Under hela valrörelsen undvek Magdalena Andersson att berätta hur hon tänkte bilda regering. Nu får hon betala priset – och det priset kan bli högt om regeringsmakten glider henne ur händerna. Det som nu utspelar sig kan bli Anderssons sista strid.",
-      "fulltext": "Under hela valrörelsen undvek Magdalena Andersson att berätta hur hon tänkte bilda regering. Nu får hon betala priset – och det priset kan bli högt om regeringsmakten glider henne ur händerna.\nDet som nu utspelar sig kan bli Anderssons sista strid.\nSlutsatserna är journalistens egna. SVT:s medarbetare agerar inte i något politiskt parti-, företags- eller intresseorganisations intresse. Det är förenligt med SVT:s sändningstillstånd §4 att ”kommentera och belysa händelser och skeenden”.",
+      "summary": "På måndagen ska riksdagen på måndag rösta om Ulf Kristersson som statsminister i en M, KD, L och C-regering. Men Centerpartiet har ännu inte valt sida. Vad undrar du om regeringsbildningen? Klockan 13 kan du chatta med SVT:s inrikespolitiske kommentator Mats Knutson.",
+      "fulltext": "På måndagen ska riksdagen på måndag rösta om Ulf Kristersson som statsminister i en M, KD, L och C-regering.\nMen Centerpartiet har ännu inte valt sida.\nVad undrar du om regeringsbildningen? Klockan 13 kan du chatta med SVT:s inrikespolitiske kommentator Mats Knutson.\nFråga Mats Knutson om regeringsbildningen\nTack för alla frågor! Har varit både kul och intressant att få svara på dem. Nu väntar andra arbetsuppgifter. Hej då!\nJoachim • Rent hypotetiskt: Hur intresserade tror du att S & M är av att bilda regering om någon annan än Andersson och Kristersson blir statsminister . Visst är man båda intresserade av att ta posten - men skulle det kunna vara en kompromiss i en 4e omröstning?\nHej Joachim! Tror varken att S eller M är beredda att ge statsministerposten till någon annan.\nJerka • Det talas mycket om att S och C är oroliga för ett extraval, men sanningen är väl att L definitivt åker ur riksdagen vid extraval. Enligt uppgift finns inte en krona för valkampanj i partikassan. Och vem vill satsa pengar och stödröster på L vid extraval? Tidösidan kanske har mest att förlora på extraval trots allt. Det lär bli mycket lågt valdeltagande också efter den här hösten.\nHej, ja Liberalerna vill definitivt inte ha ett extraval. Det skulle innebära ny osäkerhet kring deras vara eller icke vara i riksdagen.\nMåns • Professionella politiker som inte kan enas efter nästa 80 dagar av förhandling anser jag skickar en konstig signal till alla väljare oavsett tillhörighet. Tror du det kommer leda till någon form av systemförändring eller en utredning för att inte hamna i dessa dödlägen igen?\nHej Måns! Tveksamt. Läget var ju liknande efter valet 2018, men då gjordes ingenting för att undvika att det skulle upprepas. Det finns politiker idag som mellan skål och vägg talar om att systemet behöver förändras, men när väl en regering är på plats är jag inte säker på att de tycker det är lika viktigt. Det här handlar ju också om grundlagsändringar, så det är beslut som tar lång tid att genomföra och där det krävs bred enighet i riksdagen.\nP • Oavsett politisk tillhörighet hos många väljare så verkar det som om Ida Gabrielsson uppskattas mycket för sin uppriktighet och demokratiska hållning till att alla fyra partier ska vara med på samma villkor.\nHej, ja, och det kan man ju tycka är en fullt rimlig uppfattning. Problemet för V är att C säger absolut nej, och egentligen vill inte S heller ha V i en regering.\nGhino • Vore bättre lättare om vi hade haft mindre antal än 8st partier i riksdagen. L och KD dom minsta borde åkt ut då hade vi haft 6st partier. Tankar om de?\nHej Ghino! När grundlagen skrevs hade vi fem partier i riksdagen. Det är självklart enklare att bilda regeringar då. Men det som samtidigt skett är att mittenpartierna har försvagats, samtidigt som ytterkanterna stärkts. Det är ju det som just nu försvårar regeringsbildningen.\nLars-olof • Är det helt omöjligt att S och M går ihop och styr landet\nHej, helt omöjligt är det inte, men det känns som att varken S eller M egentligen vill det. Standardsvaret brukar vara att den typen av samlingsregering är bra i krigstid, men där är vi inte riktigt ännu. En S-M-regering skulle sannolikt leda till att V och SD växte sig starkare.\nAdam • Har Centerpartiet verkligen börjat tolerera SD:s inflytande till större grad än innan, eller är det endast V:s ministerkrav som tvingar dem? Det verkar som att C de senaste åren i vilket fall har dragit olika hårda linjer mot SD och V, där V tolereras som stödparti men inte SD.\nHej Adam! Ja, C har sagt att man accepterar samarbete med V, men inte ministerposter. I den meningen är den röda linjen mot SD hårdare. Därav de konvulsioner vi nu ser inom C.\nIngemar • Hej! Hur stor chans tror du att Magdalena Andersson bildar en minoritetsregering tillsammans med Miljöpartiets och Centern?\nHej Ingemar! Det är ett alternativ, men det förutsätter ju att V släpper kravet på ministerposter. Några sådana signaler finns inte ännu.\nPeter • Liberalerna tog ju mycket stryk när de valde att acceptera samarbete med SD. Om Centern gör samma sak lär väl de gå samma öde till mötes? En följdfråga är vart C:s missnöjda väljare skall ta vägen, till L är väl ganska lönlöst?\nHej Peter! Ja, risken för C är stor att man tappar väljare om man accepterar Kristersson som statsminister i det här läget. Problemet för C är att man förmodligen också tappar väljare om man släpper fram V-ministrar. Vad som blir den värsta svekdebatten är nu upp till partiet självt att avgöra.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsmakt"
+        "regeringsbildning",
+        "statsminister",
+        "Centerpartiet"
       ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
+      "first_seen": "2026-11-25T14:02:51.494069+00:00"
     },
     {
-      "url": "https://www.expressen.se/ledare/linda-jerneck/nu-har-det-liberala-vralet-natt-centern",
-      "title": "Nu har det liberala vrålet nått Centern",
-      "source": "Expressen Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-25",
-      "author": "linda jerneck",
-      "commentator": "",
-      "summary": "Birgitta Ohlsson bytte parti i protest mot Liberalernas närmande till SD. Men regeringsfrågan följde med till Centern.",
-      "fulltext": "Birgitta Ohlsson bytte parti i protest mot Liberalernas närmande till SD. Men regeringsfrågan följde med till Centern.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDe rödgröna förhandlingarna har strandat. Det betyder att Centerpartiet till slut måste klättra ner från läktaren och bestämma sig för hur man ska hantera valresultatet 2010, då Sverigedemokraterna kom in i riksdagen och spelplanen ritades om.\nFör Liberalerna tog det tre år av diskussioner att komma fram till att man kan samarbeta med SD utanför regeringen, och tre till att omfamna tanken på att sitta i samma regering.\nNu kan Centerpartiet behöva göra samma tvära kast på en vecka.\nLiberalerna närapå splittrades som en följd av närmandet till SD. En rad framträdande partimedlemmar gick över till Centern med buller, bång och offentliga förbannelser.\nNär den tidigare EU-ministern Birgitta Ohlsson innan valet lanserade sin kandidatur för C – med sloganen ” Samma feminist. Samma ideal. Nytt parti.” – talade vissa experter om att L var på väg ”att rasa samman”.\nMånga var ledsna i Liberalerna. Det är inget kul när tidigare vänner och kolleger hoppar av och anklagar en för att vara halvnazist. Men inte helt få hördes också muttra ”good riddance” om de interna krypskyttar som lämnade. Det blev äntligen lite lugn och arbetsro.\nSå hur tar partibytarna att C är på väg att göra samma omsvägning som det forna Folkpartiet?\nAtt det hermetiskt tillslutna Centerpartiet har börjat läcka till journalister, och 35 missnöjda partister skriver upprop i form av debattartiklar är en indikation.\n”Ju fler jättearga och jättekränkta tidigare medlemmar i L som Centern värvar, desto mer får Centern den internkultur L till varje pris vill komma bort ifrån… ”, noterade Fredrik Malm, L, på Facebook häromdagen.\nBirgitta Ohlsson motiverade sin övergång med att det var en protest mot Trump och Tidöavtalet. I september sa hon att hon blir vilde om Centern samarbetar med SD. Senare backade hon.\n– Jag skämtade lite grann, men det är klart, jag gick med i Centerpartiet och engagerade mig för att jag tror på att det är viktigt att hålla ytterkanterna borta från svensk politik, sa Ohlsson till Expressen .\nLinda Jerneck är biträdande politisk redaktör på Expressen. Läs fler av hennes texter här .\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se\nDetta är en krönika från Expressens ledarredaktion. Expressens politiska hållning är liberal.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsfråg",
-        "Liberalerna"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9349048",
-      "title": "Centern tappar i ny mätning: ”Inte förvånande”",
+      "url": "https://www.sverigesradio.se/artikel/9349498",
+      "title": "Så fick Centern en vågmästarroll i regeringsbildningen",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
       "published": "2026-11-25",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Stödet för Centern minskar i en ny mätning. Partiet får 4,8 procent, alltså strax över spärren till riksdagen. Socialdemokraterna får sin sämsta siffra sedan 2023. De långdragna regeringsförhandlingarna är förklaringen, enligt Per Oleskog Tryggvason på Indikator Opinion som gjort undersökningen. Liberalerna hamnar strax under spärren på 3,7 procent. Miljöpartiet får 8 procent, Kristdemokraterna får 6,2 procent och SD får 16,7 procent.",
+      "summary": "Centerpartiet gick till val på att hålla Sverigedemokraterna och Vänsterpartiet borta från regeringsmakten. Löftet har gett Centerpartiet en nyckelroll i regeringskampen. Efter över 70 dagar är det fortfarande osäkert vilken väg partiet kommer välja.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349048'",
-      "matched_terms": [
-        "regeringsförhandling",
-        "Kristdemokraterna",
-        "Liberalerna",
-        "Miljöpartiet",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/andersson-v-har-inte-rort-sig-en-millimeter",
-      "title": "Andersson: V har inte ”rört sig en centimeter”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Johan Wicklén, Carl Enderstein",
-      "commentator": "",
-      "summary": "Klockan tickar inför statsministeromröstningen om Ulf Kristersson (M). På den rödgröna sidan säger S-ledaren Magdalena Andersson att Vänsterpartiet inte ”rört sig en centimeter”, men Miljöpartiet har inte gett upp hoppet om en rödgrön regering. – Vi kan konstatera att skulle Centerpartiet byta sida, ja då är det ett stort svek mot sina väljare, säger MP:s språkrör Amanda Lind i Aktuellt.",
-      "fulltext": "Klockan tickar inför statsministeromröstningen om Ulf Kristersson (M).\nPå den rödgröna sidan säger S-ledaren Magdalena Andersson att Vänsterpartiet inte ”rört sig en centimeter”, men Miljöpartiet har inte gett upp hoppet om en rödgrön regering.\n– Vi kan konstatera att skulle Centerpartiet byta sida, ja då är det ett stort svek mot sina väljare, säger MP:s språkrör Amanda Lind i Aktuellt.\nEfter tisdagens talmansrunda konstaterade S-ledaren Magdalena Andersson att hon i nuläget saknar förutsättningar att bilda regering. Hon pekar på Vänsterpartiets krav på ministerposter och ovilja att förhandla om sakpolitik.\nI tisdagens Aktuellt vill hon dock inte säga att det är helt kört.\n– Det beror på hur V och C väljer att agera.\nAndersson menar att Vänsterpartiet inte ”rört sig en centimeter” i diskussionerna, trots att S enligt henne lagt fram ”ett generöst bud”.\n– Då är det svårt att dra någon annan slutsats än att det riskerar vara så att en röst på V faktiskt blir en röst på en Tidö 2-regering.\nMiljöpartiets båda språkrör är mer hoppfulla. Daniel Helldén hänvisar till det omfattande politiska program som tagits fram tillsammans med Centerpartiet och de sakpolitiska förslag som presenterats för Vänsterpartiet.\n– Här finns något att bygga vidare och vi kommer att försöka se till att vi faktiskt sätter oss ner nu och gör detta.\nAmanda Lind välkomnar att Vänsterpartiet nu börjat resonera kring konkreta sakpolitiska frågor.\nHon menar att det skulle vara ett ”stort svek” mot Centerpartiets väljare om partiet väljer att byta sida.\nPå måndag prövas Ulf Kristersson som statsminister för en regering bestående av M, KD, C och L. Centerpartiet har öppnat för fördjupade samtal med Kristersson, men C-ledaren Elisabeth Thand Rinqvist har sagt att de inte ändrat sin linje kring SD.\nJustitieminister Gunnar Strömmer (M) säger i Aktuellt att han ser goda förutsättningar för att komma överens med C. Han menar att det inte, som Magdalena Andersson hävdat, skulle handla om en ”Tidö 2-lösning”, utan om något nytt.\nEn sådan minoritetsregering måste enligt Strömmer vara ödmjuk inför övriga riksdagspartier och söka stöd för sin politik.\nHan pekar på flera sakpolitiska frågor där partierna kan mötas.\n– Sen finns det frågor som man varit öppen med är väldigt viktiga för C, som att stoppa tonårsutvisningarna, och där möts vi, säger Strömmer.\nMåndagens statsministeromröstning blir den tredje sedan valet. Om Kristersson röstas ner återstår bara ett försök innan ett extra val måste utlysas.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister",
-        "Centerpartiet",
-        "Miljöpartiet",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/har-ar-ms-totalpaket-till-c-hade-hogre-forvantningar",
-      "title": "Här är M:s totalpaket till C: ”Hade högre förväntningar”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Kristoffer Törnmalm",
-      "commentator": "",
-      "summary": "Centerpartiet går nu in i nya regeringssamtal med Moderaterna. SVT har tagit del av M:s totalpaket som ligger till grund för samtalen. – Jag hade ärligt talat högre förväntningar, säger en C-källa.",
-      "fulltext": "Centerpartiet går nu in i nya regeringssamtal med Moderaterna.\nSVT har tagit del av M:s totalpaket som ligger till grund för samtalen.\n– Jag hade ärligt talat högre förväntningar, säger en C-källa.\nSVT kunde kort efter att S presenterat sitt totalpaket avslöja innehållet i det 135 punkter långa budet. S förde fram saker som vinstförbud i skolan, grundlagsfäst äganderätt av skogen och nya regler för arbetskraftsinvandring.\nMen vad Moderaterna erbjudit C har än så länge hemlighållits.\n– Det är något som vi diskuterar med partier, inte på pressträffar, sade Elisabeth Svantesson (M) i onsdags.\nSVT har nu tagit del av även det moderata förslaget.\nPå skogsområdet, som är en kärnfråga för C, skriver M att man vill se en tillväxtagenda för svenskt skogs- och lantbruk. Man vill också stärka det familjeägda skogsbruket. Lantbrukets lönsamhet och konkurrenskraft ska öka. M föreslår också en plan som ökar Sveriges självförsörjningsgrad och driver på den gröna omställningen.\nHur förändringarna ska bli verklighet framgår inte.\nNär det gäller den för C viktiga klimatpolitiken står det att man vill att Sverige ska leva upp till EU:s klimatåtaganden. Men de svenska klimatmålen till 2030 och 2045 nämns inte.\nM slår också fast att utbyggnaden av ny kärnkraft ska fortsätta, samtidigt som man ser den havsbaserade vindkraften som en viktig komponent för att nå klimatmålen.\nDet står inget om skärpta vinstbegränsningar i skolan, något L drivit på för i regeringen.\nNär det gäller hur en Kristerssonregering ska få igenom sin politik i riksdagen, nämns inte Sverigedemokraterna. I stället står det att regeringen kommer att söka stöd hos i första hand de som har en politik som bäst rimmar med regeringens.\nStödet för budgeten förhandlas i finansutskottet.\nInnehållet i M:s bud har bland centerpartister setts som generellt sett schematiskt formulerat. Och det ryms på färre sidor är S förslag: en drygt handfull A4-ark jämfört med 15 i S-paketet. Källor vittnar om hur paketet bland en del i C inte levde upp till förväntningarna.\n– Jag hade högre förväntningar om att det skulle vara bättre sakpolitiskt. Det var skrivet mer som en inriktning, säger en källa med insyn i förhandlingarna.\nEn annan källa beskriver att man internt reagerat på mindre bra förslag i båda paketen.\nElisabeth Thand Ringqvist har under tisdagen öppnat en dörr högerut med samtal med Ulf Kristersson (M). Han ville efter att han besökt talmannen inte säga närmare när partierna ses på nytt, utan konstaterade bara:\n– Samtalen kommer självklart att fortsätta nu.\nEkonomisk tillväxt, företagande och hushållsekonomi\nLandsbygd, regional utveckling, skog och lantbruk\nIntegration, migration och samhällsgemenskap\nBrottsbekämpning, trygghet och rättssäkerhet\nFri- och rättigheter, jämställdhet och civilsamhälle\nFörenklingar, offentlig förvaltning, äganderätt och byggande\nKultur, public service, folkbildning, idrott och friluftsliv\nParlamentariskt samarbete och politisk förankring\nRegeringens interna styrning, budgetprocesser och ansvarsfördelning\nDepartementsorganisation och ministerposter\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/talmannen-kristersson-provas-som-statsminister-pa-mandag",
-      "title": "Talmannen: Kristersson prövas som statsminister på måndag",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Johan Wicklén",
-      "commentator": "",
-      "summary": "Moderaternas partiledare Ulf Kristersson kommer att prövas som statsminister på måndag nästa vecka. Det meddelar talman Andreas Norlén. – Han har varit noga med att understryka att han inte vet i dag hur Centerpartiet kommer ställa sig, säger Norlén.",
-      "fulltext": "Moderaternas partiledare Ulf Kristersson kommer att prövas som statsminister på måndag nästa vecka. Det meddelar talman Andreas Norlén.\n– Han har varit noga med att understryka att han inte vet i dag hur Centerpartiet kommer ställa sig, säger Norlén.\nTalmannens besked innebär en tredje statsministeromröstningen i riksdagen. Vid fyra misslyckade omröstningar utlyses extraval.\n– Jag har beslutat att nominera Ulf Kristersson som kandidat till statsministerposten och den nomineringen kommer att prövas av riksdagen måndagen den 30 november klockan 13.\nNorléns ambition är fortsatt att svenskarna före jul ska veta om landet får en ny regering eller om det blir extraval.\nDagens besked från talmannen kommer sedan Centerpartiet öppnat för nya samtal med Ulf Kristersson och han sagt sig vara redo att pröva stödet för en regering bestående av M, KD, L och C.\nCentern har dock inte ingått något avtal med Kristersson om en sådan regering utan endast meddelat att samtalen med honom ska fördjupas.\n– Ulf Kristersson har meddelat att han vill bli prövad som statsminister för en regering som består av M, C, KD och L. Han har varit noga med att understryka att han inte vet i dag hur Centerpartiet kommer ställa sig, säger Norlén.\nKnäckfrågan har varit hur beroende en ny högerregering skulle vara av SD. C-ledaren Elisabeth Thand Ringqvist har under dagen meddelat att den röda linjen mot SD ligger fast.\nEnligt uppgifter till SVT Nyheter har Elisabeth Thand Rinqqvist bjudit in Centerpartiets partistyrelse, riksdagsgrupp samt lokala företrädare till ett digitalt möte klockan 21.30 i kväll.\nUnder mötet är det tänkt att Centerledaren ska ge partiföreträdarna en uppdatering om regeringsförhandlingarna.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "talman",
-        "statsminister",
-        "partiledar",
-        "Centerpartiet",
-        "Moderaterna"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/tidigare-v-toppen-om-samarbetet-med-s-goran-persson-hanade-mig",
-      "title": "Tidigare V-toppen om samarbetet med S: ”Göran Persson hånade mig”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Marie Nordstrand",
-      "commentator": "",
-      "summary": "Vänsterpartiet har blivit erbjudna tjänstemän i regeringskansliet och statssekreterare men tydligt sagt nej. Tidigare mandatperioder som stödparti till S har gett känslan av att man blivit lurad. – Man kände sig som en gäst, en främling, säger Johan Lönnroth, före detta vice partiledare i V.",
-      "fulltext": "Vänsterpartiet har blivit erbjudna tjänstemän i regeringskansliet och statssekreterare men tydligt sagt nej. Tidigare mandatperioder som stödparti till S har gett känslan av att man blivit lurad.\n– Man kände sig som en gäst, en främling, säger Johan Lönnroth, före detta vice partiledare i V.\nVänsterpartiet har kategoriskt sagt nej till alla förslag på regeringslösningar där de själva inte ingår. I flera mandatperioder har partiet agerat stödparti men inför 2026 års val var man tydliga med att man skulle få ministerposter – annars kunde deras mandat inte räknas in.\nSVT har träffat den tidigare riksdagsledamoten och V-toppen Johan Lönnroth som var partiets vice ordförande mellan åren 1993-2003, en period som för V präglades mycket av samarbeten med Socialdemokraterna. I dag propagerar han starkt för att partiet ska behålla sin linje om ministerkrav.\n– Man kan inte utkräva ansvar av ett stödparti för ingen vet vad stödpartiet bidragit med. Mitt påstående om att vi ska sitta i regering är inte partiegoistiska skäl. Det kan vara lättare att vara stödparti – mina skäl är konstitutionella, säger han.\nJohan Lönnroth förhandlade ofta med Göran Persson (S), en partiledare som aldrig accepterade Vänsterpartiets önskemål om att sitta i regering. Inte heller 1998 när V fick ett valresultat på 12 procent.\n– Jag tyckte det var självklart att vi skulle begära att få sitta i en regering. Men mina partikamrater sa att jag var ”ministerkåt” och Göran Persson tyckte jag var naiv, berättar Johan Lönnroth.\nSVT har sökt Göran Persson för en kommentar.\nSe intervjun med den förra V-toppen i videon ovan.\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "stödparti",
-        "partiledar",
-        "Vänsterpartiet"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/presskonferens/_hec220261124pk1",
-      "title": "Pressträff med talmannen",
-      "source": "Riksdagen",
-      "kind": "officiell",
-      "published": "2026-11-24",
-      "author": "riksdagsinformation@riksdagen.se",
-      "commentator": "",
-      "summary": "… Med anledning av regeringsbildningen möter talman Andreas Norlén media i riksdagens presscenter tisdagen den 24 november. … 2026-11-24 16:30:00",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '404 Not Found' for url 'https://www.riksdagen.se/sv/dokument-och-lagar/dokument/presskonferens/_hec220261124pk1/'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349498'",
       "matched_terms": [
         "regeringsbildning",
-        "talman"
+        "regeringsmakt",
+        "vågmästar",
+        "Centerpartiet",
+        "Sverigedemokraterna",
+        "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
+      "first_seen": "2026-11-25T14:02:51.494069+00:00"
     },
     {
-      "url": "https://www.expressen.se/ledare/ett-lyft-for-sverige-om-c-valjer-ratt",
-      "title": "Ett lyft för Sverige om C väljer rätt",
-      "source": "Expressen Ledare",
-      "kind": "kommentar",
-      "published": "2026-11-24",
-      "author": "ledarredaktionen",
-      "commentator": "",
-      "summary": "Ulf Kristersson har fått en ny chans att bli statsminister. Om han lyckas sy ihop en alliansregering kan den bli bättre än Tidöregeringen.",
-      "fulltext": "Ulf Kristersson har fått en ny chans att bli statsminister. Om han lyckas sy ihop en alliansregering kan den bli bättre än Tidöregeringen.\nLjuduppspelningen är AI-genererad. Felaktigheter kan förekomma.\nDetta är en osignerad ledartext . Expressens politiska hållning är liberal.\nI Centerpartiets självbild ingår att man alltid är extra redo att ta ansvar för landet. Därför var det inte förvånande att Elisabeth Thand Ringqvist motiverade partiets nya högertrevare med att ”Sverige behöver en regering och därför behöver vi öppna fler dörrar, inte stänga några” .\nVänsterpartisten Ida Gabrielsson skulle möjligen invända att Centern har drämt igen dörren till V med visst eftertryck. Men roten till Magdalena Anderssons problem är att Centern rent sakpolitiskt är en främmande fågel bland de rödgröna.\nCenterpartiets naturliga element är borgerligheten och om partiet väljer lag Kristersson kan det bli riktigt bra, både för Centern och för Sverige. Förutsatt att kompromisserna blir de rätta.\nTidöregeringen fokuserade på migration och brottsbekämpning, vilket var helt nödvändigt. Men man försummade mycket annat, som tillväxten och långsiktiga strukturreformer. Här kan Centerpartiet tillföra mycket med sitt fokus på goda villkor för företagande. Skattesänkningar vore bra, liksom regelförenklingar (så länge de sistnämna inte skapar ett vilda västern för den organiserade brottsligheten).\nEn annan stor försummelse under Tidöåren var klimat och miljö. Sverigedemokraterna, Moderaterna och Kristdemokraterna ägnade sig åt dum bensinpopulism vilket kan få följden att Sverige missar sina klimatmål.\nCentern vill däremot minska de fossila utsläppen, inte bara inom transport och industri utan även inom jordbruket. Partiet ser också det fossila beroendet som en fara för rikets säkerhet, vilket är korrekt.\nNär ex-partiledaren Maud Olofsson gav sin välsignelse till en högergir, i Aktuellt i måndags, nämnde hon migrationspolitiken som en stötesten. Där är Centern ”vänster”. Om eftergifterna till C landar i sådant som en moderat sänkning av lönegolvet för arbetskraftsinvandrare, ett stopp för ”kompetensutvisningarna” och lättnader i det regelverk som orsakat orimliga tonårsutvisningar vore det en välgärning. Det sistnämnda har ju till och med Jimmie Åkesson gjort tummen upp för.\nSD:s radikala idé att retroaktivt riva upp permanenta uppehållstillstånd är dumhård och kan med fördel begravas för gott. Däremot bör Kristersson & Co inte gå med på att återinföra den sortens regler som ledde till flyktingkrisen 2015: permanenta uppehållstillstånd som huvudregel, minimala krav för familjeåterförening, möjlighet till spårbyte. En drastisk ökning av antalet kvotflyktingar vore inte heller bra, där ligger Sverige fortfarande i världstopp.\nKristerssons eventuella alliansregering kommer inte ha majoritet i riksdagen. Den kommer att bli beroende av Sverigedemokraternas välvilja och Socialdemokraternas vilja att vara konstruktiva.\nDet kan bli en skakig resa. Men, som Maud Olofsson sade, om ett samarbete ska hålla en mandatperiod måste det finnas ”tillit och tilltro”. Den finns förhoppningsvis där, som ett muskelminne sedan Reinfeldts era. Då kan det gå riktigt bra.\nExpressen erbjuder möjligheten att kommentera artiklar. Vi tar bort inlägg som vi bedömer är olämpliga. Kommentarer granskas inte i förväg. Kommentarerna omfattas inte av utgivaransvaret enligt yttrandefrihetslagen och de är inte heller en del av den grundlagsskyddade databasen expressen.se",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9349491",
-      "title": "C-toppens lösning på regeringsfrågan: ”Konstruktiv opposition”",
+      "url": "https://www.sverigesradio.se/artikel/9349693",
+      "title": "C kvinnoförbund har valt sida – vill inte vara ”i klorna på SD”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "author": "Ekot",
       "commentator": "",
-      "summary": "Centerpartiet är just nu splittrat i vägvalen om man ska samarbeta med höger eller vänstersidan och i sin tur i vilken mån ytterkantspartierna V eller SD ska kunna få inflytande. Kommunalrådet Thomas Selin (C) i Huddinge föreslår en bred mittenregering eller konstruktiv opposition. ”Jag ser att det ändå är det bästa alternativet där Centerpartiet som mittenalternativ kan bidra med att få igenom politik vi tycker är bra och stoppa politik vi tycker är dålig” säger Selin.",
+      "summary": "Nu har Centerpartiets kvinnoförbund fattat beslut i den omstridda regeringsfrågan Om de rödgröna partierna inte kan enas, så bör Centerpartiet gå i opposition, är beskedet. Centerkvinnorna säger också nej till att ingå i en borgerlig regering, som behöver stöd av Sverigedemokraterna. ”Det här är jätteviktigt, att vår röda linje mot Sverigedemokraterna står fast”, säger Marie-Louise Wernersson, som är förbundsordförande.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349491'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349693'",
       "matched_terms": [
         "regeringsfråg",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9349374",
-      "title": "Ulf Kristersson (M) ska prövas som statsminister",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Riksdagen röstar på måndag om Ulf Kristersson som statsminister, det meddelar talman Andreas Norlén. Varken Kristersson eller Magdalena Andersson har presenterat ett färdigt regeringsunderlag utan det är istället Kristerssons avslutade sonderingsuppdrag som ligger bakom talmannens val. Det blir den tredje av maximalt fyra statsministeromröstningar.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349374'",
-      "matched_terms": [
-        "regeringsunderlag",
-        "talman",
-        "sondering",
-        "statsminister"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9349359",
-      "title": "Gissén: Omröstningen hänger på Centerpartiet",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Ingen partiledare har några invändningar mot att Ulf Kristersson prövas i en statsministeromröstning, men hur den omröstningen kommer att gå hänger på Centerpartiet, säger Ekots inrikespolitiska kommentator Helena Gissén. ”De har nu en intern process nu, där försöker komma fram till hur de ska ställa sig”, säger Gissén om Centerpartiet. Statministeromröstningen äger rum måndagen den 30 november.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349359'",
-      "matched_terms": [
-        "statsminister",
-        "partiledar",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9349349",
-      "title": "Talmannen: Ulf Kristersson (M) ska prövas",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Ulf Kristersson (M) ska prövas i en statsministeromröstning, säger talmannen Andreas Norlén på en pressträff efter dagens talmansrundor. Nomineringen kommer att prövas måndagen 30 november. ”Ulf Kristersson har meddelat mig att han vill bli prövad som statsminister för en regering bestående av Moderaterna, Centerpartiet, Kristdemokraterna och Liberalerna”, säger talmannen.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349349'",
-      "matched_terms": [
-        "talman",
-        "statsminister",
         "Centerpartiet",
-        "Kristdemokraterna",
-        "Liberalerna",
-        "Moderaterna"
+        "Sverigedemokraterna"
       ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
+      "first_seen": "2026-11-25T14:02:51.494069+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9349018",
-      "title": "Statsvetare: Splittring inom C kan skapa extraval",
+      "url": "https://www.sverigesradio.se/artikel/9349559",
+      "title": "”C-väljarna står närmre de rödgröna än de aktiva politikerna”",
       "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-24",
+      "published": "2026-11-25",
       "author": "Ekot",
-      "commentator": "",
-      "summary": "Ulf Kristersson har fått ett starkare läge i regeringsbildningen efter Vänsterpartiets nej till det rödgröna startpaketet, enligt statsvetare som Ekot har pratat med. Vänsterpartiet pekade ut avsaknaden av ministerposter som avgörande. Jonas Hinnfors vill inte förutsäga vilket regeringsalternativ som är mest troligt, men tror att sannolikheten för extraval har ökat. Centerpartiets splittring kan enligt Hinnfors tvinga fram stora eftergifter från flera håll.",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Centerpartiet och Socialdemokraterna tappar i Indikators opinionsmätning, medan Moderaterna når nästan samma stöd som S på 25 procent. Efter 73 dagars regeringsbildning får Centerpartiet 4,8 procent och ligger inte statistiskt säkerställt över riksdagsspärren. Vänsterpartiet ligger däremot kring sitt valresultat. ”Det handlar nog om att många av Centerns väljare är besvikna. Deras väljare ligger närmare de rödgröna än vad de aktiva politikerna gör”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349018'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9349559'",
       "matched_terms": [
         "regeringsbildning",
-        "regeringsalternativ",
-        "ministerpost",
+        "valresultat",
         "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna",
         "Vänsterpartiet"
       ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/c-kommunalradet-varnar-vi-kommer-ga-samma-ode-till-motes-som-liberalerna",
-      "title": "C-kommunalrådet varnar: ”Vi kommer gå samma öde till mötes som Liberalerna”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-24",
-      "author": "Anton Säll",
-      "commentator": "",
-      "summary": "Förhandla med den rödgröna sidan. Om det inte går borde Centerpartiet förhandla om ett S-C-M-styre. Om det inte går borde Centerpartiet gå i opposition. Det säger Tomas Selin (C), kommunalråd i Huddinge.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-25 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/c-kommunalradet-varnar-vi-kommer-ga-samma-ode-till-motes-som-liberalerna/\nFörhandla med den rödgröna sidan. Om det inte går borde Centerpartiet förhandla om ett S-C-M-styre. Om det inte går borde Centerpartiet gå i opposition. Det säger Tomas Selin (C), kommunalråd i Huddinge.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Liberalerna"
-      ],
-      "first_seen": "2026-11-25T06:02:47.128015+00:00"
+      "first_seen": "2026-11-25T14:02:51.494069+00:00"
     }
   ]
 }
