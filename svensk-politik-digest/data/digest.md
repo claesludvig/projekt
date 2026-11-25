@@ -1,101 +1,91 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-24
+# Svensk politik och regeringsförhandlingarna — 2026-11-25
 
-18 nya poster sedan förra utskicket (38 redan utskickade, 141 utanför ämnet).
+16 nya poster sedan förra utskicket (45 redan utskickade, 137 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Kristersson redo att prövas – efter C:s sidbyte](https://www.svd.se/a/oMpgWR/riktar-anklagelser-mot-v-vill-inte-forhandla)
-SvD Ledare · 2026-11-24 · Jenny Nyman, Etezaz Yousuf
+### [”Bilden av dem som en maktduo gillar de inte”](https://www.svd.se/a/0vndBo/svd-politiken-poddserie-nooshi-dadgostar-och-ida-gabrielsson-v)
+SvD Ledare · 2026-11-25 · Malin Hector
 
-Ulf Kristersson är redo att bli prövad i en statsministervotering efter C:s sidbyte.
+Vänsterpartiet kräver ministerposter – och Ida Gabrielsson får förklara varför.
 
-### [M ökar i regeringskaoset](https://www.svd.se/a/3BJGyd/m-okar-i-regeringskaoset)
-SvD Ledare · 2026-11-24 · TT
+### [Nu har det liberala vrålet nått Centern](https://www.expressen.se/ledare/linda-jerneck/nu-har-det-liberala-vralet-natt-centern)
+Expressen Ledare · 2026-11-25 · linda jerneck
 
-Väljarstödet för Moderaterna ökar kraftigt och Liberalerna hamnar under riksdagsspärren, enligt en…
+Birgitta Ohlsson bytte parti i protest mot Liberalernas närmande till SD. Men regeringsfrågan följde med till Centern.
+
+### [Ett lyft för Sverige om C väljer rätt](https://www.expressen.se/ledare/ett-lyft-for-sverige-om-c-valjer-ratt)
+Expressen Ledare · 2026-11-24 · ledarredaktionen
+
+Ulf Kristersson har fått en ny chans att bli statsminister. Om han lyckas sy ihop en alliansregering kan den bli bättre än Tidöregeringen.
 
 ## Rapportering
 
-### [Andersson (S): Finns inga förutsättningar att bilda regering](https://www.svt.se/nyheter/inrikes/andersson-s-finns-inga-forutsattningar-att-bilda-regering)
-SVT Nyheter · 2026-11-24 · Hedvig Eriksson
+### [”Anderssons sista strid”](https://www.svt.se/nyheter/inrikes/anderssons-sista-strid) **[kommentator]**
+SVT Nyheter · 2026-11-25 · Mats Knutson
 
-Socialdemokraternas partiledare Magdalena Andersson har i dag meddelat talmannen att hon inte har några förutsättningar för att klara en statsministeromröstning. – Vi haft bra samtal och kommit en bit på väg men eftersom Vänsterpartiet valt att inte förhandla finns nu inga förutsättningar för mig att bilda regering som tolereras av riksdagen, säger hon på en pressträff.
+Under hela valrörelsen undvek Magdalena Andersson att berätta hur hon tänkte bilda regering. Nu får hon betala priset – och det priset kan bli högt om regeringsmakten glider henne ur händerna. Det som nu utspelar sig kan bli Anderssons sista strid.
 
-### [Kristersson (M): Beredd att prövas som statsminister](https://www.svt.se/nyheter/inrikes/kristersson-m-beredd-att-provas-som-statsminister)
-SVT Nyheter · 2026-11-24 · Iva Horvatovic
+### [Centern tappar i ny mätning: ”Inte förvånande”](https://www.sverigesradio.se/artikel/9349048)
+Ekot, Sveriges Radio · 2026-11-25 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Ulf Kristersson (M), som har haft sonderingsuppdraget de senaste veckorna, är beredd att prövas som statsminister för en borgerlig regering med M, KD, L och C – när talmannen anser att tiden är rätt. – Jag hade inte prövat det om jag inte trott att det fanns förutsättningar, säger han under en pressträff på tisdagen.
+Stödet för Centern minskar i en ny mätning. Partiet får 4,8 procent, alltså strax över spärren till riksdagen. Socialdemokraterna får sin sämsta siffra sedan 2023. De långdragna regeringsförhandlingarna är förklaringen, enligt Per Oleskog Tryggvason på Indikator Opinion som gjort undersökningen. Liberalerna hamnar strax under spärren på 3,7 procent. Miljöpartiet får 8 procent, Kristdemokraterna får 6,2 procent och SD får 16,7 procent.
 
-### [Regeringsbildningen – vad händer nu?](https://www.svt.se/nyheter/inrikes/regeringsbildningen-vad-hander-nu)
-SVT Nyheter · 2026-11-24 · Emma Blomström
+### [Andersson: V har inte ”rört sig en centimeter”](https://www.svt.se/nyheter/inrikes/andersson-v-har-inte-rort-sig-en-millimeter)
+SVT Nyheter · 2026-11-24 · Johan Wicklén, Carl Enderstein
 
-Regeringsbildningen går mot en tredje statsministeromröstning, men vilken partiledare det ska röstas om är ännu oklart. Talmannen ska under tisdagen tala med alla partiledare för att skapa sig en bild av regeringsmöjligheterna.
+Klockan tickar inför statsministeromröstningen om Ulf Kristersson (M). På den rödgröna sidan säger S-ledaren Magdalena Andersson att Vänsterpartiet inte ”rört sig en centimeter”, men Miljöpartiet har inte gett upp hoppet om en rödgrön regering. – Vi kan konstatera att skulle Centerpartiet byta sida, ja då är det ett stort svek mot sina väljare, säger MP:s språkrör Amanda Lind i Aktuellt.
 
-### [Gabrielsson (V): ”Det har aldrig handlat om bara ministerposterna”](https://www.svt.se/nyheter/inrikes/v-borde-synat-centerpartiets-roda-linjer)
-SVT Nyheter · 2026-11-24 · Hedvig Eriksson
+### [Här är M:s totalpaket till C: ”Hade högre förväntningar”](https://www.svt.se/nyheter/inrikes/har-ar-ms-totalpaket-till-c-hade-hogre-forvantningar)
+SVT Nyheter · 2026-11-24 · Kristoffer Törnmalm
 
-Vänsterpartiets vice partiledare Ida Gabrielsson blev inte förvånad över beskedet att Centerpartiet valt att återuppta samtalen med Ulf Kristerssons sida. – Man var inte beredda att kompromissa vare sig om inflytande eller stora politiska eftergifter, säger hon i SVT:s Morgonstudion.
+Centerpartiet går nu in i nya regeringssamtal med Moderaterna. SVT har tagit del av M:s totalpaket som ligger till grund för samtalen. – Jag hade ärligt talat högre förväntningar, säger en C-källa.
 
-### [Ordkrig mellan S och V: ”Långlånglånglång rad förslag”](https://www.sverigesradio.se/artikel/9349070)
+### [Talmannen: Kristersson prövas som statsminister på måndag](https://www.svt.se/nyheter/inrikes/talmannen-kristersson-provas-som-statsminister-pa-mandag)
+SVT Nyheter · 2026-11-24 · Johan Wicklén
+
+Moderaternas partiledare Ulf Kristersson kommer att prövas som statsminister på måndag nästa vecka. Det meddelar talman Andreas Norlén. – Han har varit noga med att understryka att han inte vet i dag hur Centerpartiet kommer ställa sig, säger Norlén.
+
+### [Tidigare V-toppen om samarbetet med S: ”Göran Persson hånade mig”](https://www.svt.se/nyheter/inrikes/tidigare-v-toppen-om-samarbetet-med-s-goran-persson-hanade-mig)
+SVT Nyheter · 2026-11-24 · Marie Nordstrand
+
+Vänsterpartiet har blivit erbjudna tjänstemän i regeringskansliet och statssekreterare men tydligt sagt nej. Tidigare mandatperioder som stödparti till S har gett känslan av att man blivit lurad. – Man kände sig som en gäst, en främling, säger Johan Lönnroth, före detta vice partiledare i V.
+
+### [C-toppens lösning på regeringsfrågan: ”Konstruktiv opposition”](https://www.sverigesradio.se/artikel/9349491)
 Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Efter över 70 dagar utan att regeringsfrågan är avgjord haglar anklagelserna på den rödgröna sidan om vems fel det är att förhandlingarna spruckit. ”Vänsterpartiet har inte kommit med ett enda konkret förslag”, säger Magdalena Andersson. ”Vi har vänt ut och in på oss själva och kommit med en långlånglånglång rad förslag”, kontrar Nooshi Dadgostar.
+Centerpartiet är just nu splittrat i vägvalen om man ska samarbeta med höger eller vänstersidan och i sin tur i vilken mån ytterkantspartierna V eller SD ska kunna få inflytande. Kommunalrådet Thomas Selin (C) i Huddinge föreslår en bred mittenregering eller konstruktiv opposition. ”Jag ser att det ändå är det bästa alternativet där Centerpartiet som mittenalternativ kan bidra med att få igenom politik vi tycker är bra och stoppa politik vi tycker är dålig” säger Selin.
 
-### [Furtenbach: Ser mörkt ut för de rödgröna](https://www.sverigesradio.se/artikel/9349060) **[kommentator]**
+### [Ulf Kristersson (M) ska prövas som statsminister](https://www.sverigesradio.se/artikel/9349374)
 Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Magdalena Andersson visade inte upp någon optimistisk fasad, utan lät både irriterad och pessimistisk, när hon träffade pressen efter sitt samtal med talman Andreas Norlén. ”Hon kritiserade Centerpartiet men framförallt Vänsterpartiet, och V tar heder och ära av C. Debatten om vems fel det är, den är i full gång”, säger Ekots inrikespolitiske kommentator Fredrik Furtenbach. Nu har Ulf Kristersson chanser att bilda regering kraftigt ökat, menar Furtenbach.
+Riksdagen röstar på måndag om Ulf Kristersson som statsminister, det meddelar talman Andreas Norlén. Varken Kristersson eller Magdalena Andersson har presenterat ett färdigt regeringsunderlag utan det är istället Kristerssons avslutade sonderingsuppdrag som ligger bakom talmannens val. Det blir den tredje av maximalt fyra statsministeromröstningar.
 
-### [Här står partierna i regeringsfrågan efter talmansrundan](https://www.sverigesradio.se/artikel/9348829)
+### [Gissén: Omröstningen hänger på Centerpartiet](https://www.sverigesradio.se/artikel/9349359)
 Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Efter tisdagens talmansrunda meddelade att Magdalena Andersson (S) att hon inte ser några förutsättningar att kunna bilda regering och att det beror på att Vänsterpartiet inte samarbetat i samma utsträckning som Centerpartiet. Men Nooshi Dadgostar (V) bollade tillbaka kritiken och sa att Andersson inte visade ”det ledarskap som hade behövts”. När Centerpartiet nu ska förhandla om en borgerlig fyrpartiregering brottas de internt med att en sådan minoritetsregeringsbudget behöver accepteras av Sverigedemokraterna, om de inte släpps fram av Socialdemokraterna. Men det avfärdade Magdalena Andersson återigen. Ulf Kristersson i sin tur meddelade att han är redo att prövas i en omröstning i riksdagen för en borgerlig fyrpartiregering med M, L, KD och C. Även han avfärdade en borgerlig minoritetsregering med stöd av S, ett alternativ han gav ”noll procents chans”.
+Ingen partiledare har några invändningar mot att Ulf Kristersson prövas i en statsministeromröstning, men hur den omröstningen kommer att gå hänger på Centerpartiet, säger Ekots inrikespolitiska kommentator Helena Gissén. ”De har nu en intern process nu, där försöker komma fram till hur de ska ställa sig”, säger Gissén om Centerpartiet. Statministeromröstningen äger rum måndagen den 30 november.
 
-### [Centerledaren: ”Vi måste hålla dörren öppen”](https://www.sverigesradio.se/artikel/9349012)
+### [Talmannen: Ulf Kristersson (M) ska prövas](https://www.sverigesradio.se/artikel/9349349)
 Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-En regering med Magdalena Andersson (S) som statsminister är just nu blockerad, säger Elisabeth Thand Ringqvist (C). Hon säger även att Centerpartiet kommer att återuppta samtal med Moderaterna, Kristdemokraterna och Liberalerna men att man ännu inte fattat beslut i regeringsfrågan. ”I det här läget måste vi hålla en öppen dörr fler möjligheter”, säger hon.
+Ulf Kristersson (M) ska prövas i en statsministeromröstning, säger talmannen Andreas Norlén på en pressträff efter dagens talmansrundor. Nomineringen kommer att prövas måndagen 30 november. ”Ulf Kristersson har meddelat mig att han vill bli prövad som statsminister för en regering bestående av Moderaterna, Centerpartiet, Kristdemokraterna och Liberalerna”, säger talmannen.
 
-### [V-toppen: Utesluter inte att C alltid ville högerut – men skylla på V](https://www.sverigesradio.se/artikel/9348982)
+### [Statsvetare: Splittring inom C kan skapa extraval](https://www.sverigesradio.se/artikel/9349018)
 Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Vänsterpartiets ledare meddelar att förhandlingarna inte är i mål, och att även de kommer rösta nej till Kristersson i en omröstning. Dadgostar menar att Centerpartiet aldrig haft ”ett ärligt uppsåt att förhandla.” ”Det går inte att utesluta att detta har varit upplägget hela tiden. Att få det att se ut som att det är till exempel Vänsterpartiets fel men i grund och botten har man alltid velat gå högerut” säger Dadgostar under en pressträff efter samtalet med talmannen. När hon får frågan om vad hon tycker om att Magdalena Andersson (S) sa att förhandlingarna havererat på grund av att Vänsterpartiet inte ville komma till sakpolitiska förhandlingar, kritiserar Dadgostar S-ledarens ledarskap och säger att ministerkravet från V är en liten sak i sammanhanget.
+Ulf Kristersson har fått ett starkare läge i regeringsbildningen efter Vänsterpartiets nej till det rödgröna startpaketet, enligt statsvetare som Ekot har pratat med. Vänsterpartiet pekade ut avsaknaden av ministerposter som avgörande. Jonas Hinnfors vill inte förutsäga vilket regeringsalternativ som är mest troligt, men tror att sannolikheten för extraval har ökat. Centerpartiets splittring kan enligt Hinnfors tvinga fram stora eftergifter från flera håll.
 
-### [Kristersson redo för omröstning: Beredd att prövas](https://www.sverigesradio.se/artikel/9348940)
-Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [C-kommunalrådet varnar: ”Vi kommer gå samma öde till mötes som Liberalerna”](https://www.dn.se/sverige/c-kommunalradet-varnar-vi-kommer-ga-samma-ode-till-motes-som-liberalerna)
+DN Nyheter · 2026-11-24 · Anton Säll
 
-Ulf Kristersson (M) har rapporterat sitt sonderingsuppdrag för att bilda regering till talman Andreas Norlén. Han säger sig vara beredd att pröva en borgerlig fyrpartiregering i omröstning i riksdagen. ”Alltså en borgerlig fyrpartiregering och pröva möjligheterna för den regeringen att tolereras av riksdagen, och att göra det så fort talmannen tycker att det ska ske” säger Kristersson. På frågan om han vill samarbeta med Sverigedemokraterna svarar Kristersson att en minoritetsregering måste samarbeta med riksdagen, och att det troligtvis kommer vara olika partier i olika samarbeten.
-
-### [Lokala centerpartister splittrade om högersväng: ”Kört fast”](https://www.sverigesradio.se/artikel/9348927)
-Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Centerpartiet återupptar samtalen med högersidan, meddelade partiledaren Elisabeth Thand Ringqvist i går, men bland partiets lokala företrädare råder delade meningar. Christian Widlund, kommunalråd för Centerpartiet i Norrköping går ett steg längre och vill ge Vänsterpartiet en plats i en rödgrön regering. Magnus Claesson, Centerpartiets toppnamn i Kumla kommun, tycker tvärtom att partiet bör öppna för en regering som tar stöd från Sverigedemokraterna.
-
-### [Anderssons besked efter talmansrundan: ”Kommer rösta nej”](https://www.sverigesradio.se/artikel/9348892)
-Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Socialdemokraternas Magdalena Andersson har meddelat talmannen att det inte finns förutsättningar för henne att få ihop en regering. Hon har också meddelat att partiet kommer att rösta nej till Ulf Kristersson i en statsministeromröstning. ”Eftersom Vänsterpartiet har valt att inte förhandla så finns nu inga förutsättningar för mig att bilda en regering som tolereras av riksdagen” sa hon på en pressträff efter mötet med talmannen. När hon får en fråga om vilket parti som bär ansvaret för att de rödgröna inte lyckats bilda regering att Vänsterpartiet inte visat kompromissvilja på samma sätt som Centerpartiet visat. Hon säger också att hennes dörr fortfarande står öppen för fortsatta förhandlingar.
-
-### [V-toppen: Vi borde pressat C hårdare före valet](https://www.sverigesradio.se/artikel/9348795)
-Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Vänsterpartiets vice partiledare Ida Gabrielsson säger att partiet borde ha pressat Centerpartiet hårdare före valet om vilka politiska kompromisser de var beredda att acceptera. Gabrielsson anser att debatten förenklats till att handla om ministerposter, men att det egentliga problemet är att Centerpartiet inte vill se en vänstersväng. ”Centerpartiet har inte varit villigt att gå Vänsterpartiet till mötes i frågor som karensavdrag, höjd A-kassa och arbetstidsförkortning”, säger hon till SVT.
-
-### [Gissén: Det ljusnar för Ulf Kristersson](https://www.sverigesradio.se/artikel/9348764)
-Ekot, Sveriges Radio · 2026-11-24 · Ekot _(brödtext ej hämtad — endast ingress)_
-
-Elisabeth Thand Ringqvist (C) återupptar samtalen med Moderaterna, Liberalerna och Kristdemokraterna om regeringsbildningen, efter att Vänsterpartiet avvisat det rödgröna budet. Centerpartiet såg erbjudandet som ett slutbud, medan Socialdemokraterna kallat det ett startbud, enligt Ekots inrikespolitiska kommentator Helena Gissén. ”Eftersom det rödgröna alternativet verkar uttömt nu, enligt Centerpartiet, så återstår bara Kristerssons idé eller extraval”, säger hon.
-
-### [M lyfter i opinionen – hack i häl på S](https://www.dn.se/sverige/m-lyfter-i-opinionen-hack-i-hal-pa-s)
-DN Nyheter · 2026-11-24 · Hans Rosén, Elin Lindwall
-
-Ulf Kristersson må leda en vingklippt regering men i opinionen flyger hans parti fram. Moderaterna får sin högsta notering på nästan åtta år i DN/Ipsos novembermätning. Avståndet till Socialdemokraterna är nu inom felmarginalen – samtidigt som ett extraval rycker närmare.
+Förhandla med den rödgröna sidan. Om det inte går borde Centerpartiet förhandla om ett S-C-M-styre. Om det inte går borde Centerpartiet gå i opposition. Det säger Tomas Selin (C), kommunalråd i Huddinge.
 
 ## Officiella besked
 
-### [Pressträff med talmannen (tidigast klockan 16.30)](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/presskonferens/_rdhec220261124pk1)
+### [Pressträff med talmannen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/presskonferens/_hec220261124pk1)
 Riksdagen · 2026-11-24 · riksdagsinformation@riksdagen.se _(brödtext ej hämtad — endast ingress)_
 
 … Med anledning av regeringsbildningen möter talman Andreas Norlén media i riksdagens presscenter tisdagen den 24 november. … 2026-11-24 16:30:00
 
-_Genererat 2026-11-24T14:03:14.644325+00:00._
+_Genererat 2026-11-25T06:02:47.128015+00:00._
