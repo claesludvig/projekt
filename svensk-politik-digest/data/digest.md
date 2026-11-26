@@ -1,66 +1,66 @@
 # Svensk politik och regeringsförhandlingarna — 2026-11-26
 
-11 nya poster sedan förra utskicket (41 redan utskickade, 146 utanför ämnet).
+11 nya poster sedan förra utskicket (42 redan utskickade, 146 utanför ämnet).
 
 ## Analys och kommentar
 
-### [Forskare: Regeringskaoset tär på förtroendet](https://www.svd.se/a/wdPadL/forskare-regeringskaoset-tar-pa-fortroendet)
-SvD Ledare · 2026-11-26 · Anja Haglund/TT
+### [C-strategin: Behövs inte enighet för Alliansen](https://www.svd.se/a/mMRA7O/centerpartiets-riksdagsgrupp-oenig-bryter-partilinjen-i-regeringsfragan)
+SvD Ledare · 2026-11-26 · Etezaz Yousuf
 
-Den utdragna regeringsbildningen skadar förtroendet för politikerna – och på sikt kanske även…
+C samlas för nytt hemligt möte i regeringsfrågan inför en högersväng. SvD erfar att riksdagsgruppen…
 
-### [Vännernas stora plan – därför vägrar V vika sig](https://www.svd.se/a/6PjR8Q/svd-politiken-vem-av-nooshi-dadgostar-och-ida-gabrielsson-ar-det-som-bestammer)
-SvD Ledare · 2026-11-25 · SvD
+### [S glömde det helt uppenbara](https://www.expressen.se/ledare/karin-pihl/sossarnas-senaste-drag-ar-pinsamt)
+Expressen Ledare · 2026-11-26 · karin pihl
 
-Ida Gabrielsson och Nooshi Dadgostar har blivit regeringsbildningens huvudpersoner.
+Magdalena Andersson gick till val som en stark statsministerkandidat. 74 dagar senare skriver hon arga lappar till Centerpartiet.
 
 ## Rapportering
 
-### [Sverige vill fortsätta hålla stenhård i EU-pengarna](https://www.sverigesradio.se/artikel/9350291)
+### [”Håll gränsen” – historien bakom C-topparnas slagord](https://www.svt.se/nyheter/inrikes/hall-gransen-historien-bakom-c-topparnas-slagord)
+SVT Nyheter · 2026-11-26 · Filip Brusman, Malvina Britts
+
+På måndag röstar riksdagen om Ulf Kristersson (M) som statsminister. Inom Centerpartiet ställs då två linjer mot varandra. Bland C-topparna finns enligt SVT:s uppgifter de som vill säga ja, med en ny regering och stort politiskt inflytande i sikte. Andra har istället dammat av ett gammalt slagord: ”håll gränsen”.
+
+### [Allianspartierna har slutit ny överenskommelse – fokus på tillväxt och välfärd](https://www.svt.se/nyheter/inrikes/allianspartierna-har-slutit-ny-overenskommelse-fokus-pa-tillvaxt-och-valfard)
+SVT Nyheter · 2026-11-26 · Tomas Nordenskiöld
+
+Sent igår nådde de fyra borgerliga partierna den överenskommelse som Centerpartiet nu har att ta ställning till. Inriktningen blir en helt annan än under de gångna fyra åren, enligt vad SVT erfar, och inom Moderaterna räknar man med att Thand Ringqvist vinner striden i sitt parti.
+
+### [Marmorstein: ”Jag har aldrig varit med om en sån här infekterad interndebatt”](https://www.svt.se/nyheter/inrikes/marmorstein-jag-har-aldrig-varit-med-om-en-san-har-infekterad-interndebatt)
+SVT Nyheter · 2026-11-26 · Axel Rydén
+
+Centerpartiet splittras inför omröstningen om Moderaternas partiledare Ulf Kristersson som statsminister. Ett förtroenderåd kan samlas i helgen.
+
+### [Budgetförhandlingarna beskrivs som ett kommande blodbad](https://www.sverigesradio.se/artikel/9350187)
 Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-EU:s stats- och regeringschefer samlas i Bryssel för att försöka närma sig en överenskommelse om långtidsbudgeten för 2028–2034. Målet är att nå en uppgörelse före årsskiftet. Sverige och sex andra medlemsländer anser att det senaste kompromissförslaget är för dyrt. Under toppmötet ska ledarna också försöka enas om finansieringen av nästa års stöd till Ukraina. ”Om vi ytterst inte kan enas om en ny långtidsbudget så äventyras hela EU:s långsiktiga stöd till Ukraina”, säger statsminister Ulf Kristersson (M).
+Det finns ingen annan förhandling som är svårare i EU än att hamra fram en kompromiss om en ny sjuårig långtidsbudget – det har beskrivits som ett kommande blodbad. Det handlar om mycket pengar, tusentals miljarder, och det spelar stor roll då budgeten sätter de ekonomiska ramarna för EU:s politik för flera år framåt. Alla länder försöker roffa åt sig så stora fördelar för sig själv som möjligt och alla har vetorätt – det krävs fullständig enhällighet bland EU:s 27 medlemsländer.
 
-### [Spricka mellan C-topparna inför vägvalet: ”Slöseri”](https://www.svt.se/nyheter/inrikes/spricka-mellan-c-topparna-infor-vagvalet-sloseri)
-SVT Nyheter · 2026-11-25 · Erik Nilsson, Daniel Ingmo
+### [Nya EU-skatter föreslås inför budgetförhandlingarna](https://www.sverigesradio.se/artikel/9350186)
+Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Inom C pågår interna strider om vägvalet i regeringsfrågan. Motståndare till en Kristersson-lösning mobiliserar för ett annat alternativ – och källor varnar för en framtid med partisplittring och avhopp.
+Det mesta av EU:s budget finansieras genom bidrag från EU-länderna men det finns också egna medel – avgifter eller skatter som går direkt till budgeten. Det finns flera förslag om nya egna medel, bland annat tobaksskatt, digital skatt på stora techbolag, koldioxidavgifter och inkomster från EU:s utsläppshandel. Sverige är det enda landet som säger nej till alla nya egna medel då man inte vill ge EU mer beskattningsrätt.
 
-### [Väljare: C har skött regeringsbildningen sämst](https://www.svt.se/nyheter/inrikes/valjarna-c-har-skott-regeringsbildningen-samst)
-SVT Nyheter · 2026-11-25 · Alice Uhlin
+### [Sveriges krav i budgetförhandlingen](https://www.sverigesradio.se/artikel/9350180)
+Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-En ny undersökning från Verian visar att väljarna anser att Centerpartiet är det parti som har agerat sämst under regeringsbildningen. – Det är ingen som hade önskat att det skulle vara så här svårt, säger Martin Ådahl, Centerpartiets ekonomiskpolitiska talesperson, till Politikbyrån.
+Det absolut viktigaste för Sverige i den pågående budgetförhandlingen är att hålla nere den svenska avgiften. Sverige vill särskilt skära ner i de gamla stora posterna – jordbruksstödet och sammanhållningsstödet som går till fattigare regioner – men vill också satsa mer på nya områden som försvar, säkerhet och EU:s konkurrenskraft. Problemet för Sverige är att de ändringsförslag som lagts fram har gjort precis tvärtom – man har skurit på nya områden men bevarat de gamla stöden.
 
-### [C-företrädare öppnar för Kristersson: ”Har nått vägs ände”](https://www.sverigesradio.se/artikel/9350332)
-Ekot, Sveriges Radio · 2026-11-25 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Ukrainastöd försvårar EU:s budgetförhandling](https://www.sverigesradio.se/artikel/9350189)
+Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-41 lokala centerpartister vill att C nu prövar Ulf Kristerssons regeringsalternativ. I en debattartikel i Expressen skriver de att S-spåret kört fast på grund av Vänsterpartiet. ”På grund av Vänsterpartiets inställning och ovilja att genomföra konkreta förhandlingar så har det här alternativet helt enkelt nått vägs ände”, säger Fredrik Jarl, kommunstyrelsens ordförande i Gagnef. Debattartikeln kommer bara en dag efter att 35 andra centerpartister skrev på Aftonbladet Debatt att en borgerlig regering som är beroende av Sverigedemokraterna vore ett svek mot Centerpartiets väljare.
+Bulgarien, Slovakien, Tjeckien och Ungern har sagt att de inte vill vara med och betala för EU:s lånestöd till Ukraina trots att de får mycket stöd från EU:s budget som de dessutom vill öka. Budgetstrama länder som Sverige har ilsknat till och de har i princip sagt att alla måste betala för Ukrainastödet annars kommer de inte acceptera en ny långtidsbudget. Att långtidsbudgeten och Ukrainastödet har kopplats ihop gör det ännu svårare att enas och risken är att det tar längre tid att besluta om nya pengar till Ukraina.
 
-### [S-veteraner: Andersson kan få avgå om rödgröna misslyckas](https://www.dn.se/sverige/s-veteraner-andersson-kan-fa-avga-om-rodgrona-misslyckas)
-DN Nyheter · 2026-11-25 · Ossi Carp, Linnea Bergman
+### [Centerpartiet i ödesmöte – öppen splittring i partiet](https://www.dn.se/sverige/centerpartiet-blixtinkallar-till-mote-oppen-splittring-i-partiet)
+DN Nyheter · 2026-11-26 · Evelyn Jones, Hanna Jakobson, Molly Karlsson Inde
 
-Än så länge har S-ledaren stöd i partiet, enligt tidigare S-toppar DN talat med. Men om regeringsförhandlingarna slutar med en borgerlig regering kommer det att utlösa en kritisk debatt – som riktas mot Magdalena Andersson. – På kort sikt kommer det att vara en allvarlig kris för vårt parti, säger Lars Stjernkvist.
-
-### [DN Debatt. ”Här är sakpolitiken som kan få Vänsterpartiet att vända”](https://www.dn.se/debatt/har-ar-sakpolitiken-som-kan-fa-vansterpartiet-att-vanda)
-DN Nyheter · 2026-11-25
-
-DN DEBATT. Med tanke på den tredje statsministeromröstningen på måndag är det bråda dagar om en rödgrön regering trots allt ska bli verklighet. Här är sju reformer som skulle kunna få både Centerpartiet och Vänsterpartiet att lösa upp sina röda linjer, skriver Max Jerneck, chefsekonom på den fackliga tankesmedjan Katalys.
+Centerpartiet samlades för ett ödesmöte om regeringsfrågan vid lunchtid på torsdagen. Riksdagsledamoten Birgitta Ohlsson betonar allvaret på väg in till mötet. – Vi ska fatta viktiga beslut för Centerns framtid, säger hon.
 
 ## Officiella besked
 
-### [Protokoll 2026/27:22 Onsdagen den 25 november](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/_he0922)
-Riksdagen · 2026-11-25 · riksdagsinformation@riksdagen.se
+### [Konservativ politik för samtid och framtid](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he022391)
+Riksdagen · 2026-11-26 · riksdagsinformation@riksdagen.se
 
-… De partierna står ju knappast i mitten i svensk politik, och deras track record i frågor om hbtqi är raka motsatsen till ert och vårt. Som du ser är det de partier som ni för samtal med om regeringsbildning som också reserverar sig mot våra förslag här i dag. Så min fråga till dig är Hur tänker du i denna fråga? Anf. 3 CHRISTOFER BERGENBLOCK C replik Fru talman! Tack till ledamoten Jonas Lindberg för frågorna! … 2026-11-25
+… I denna motion presenterar våra förslag för en sammanhållen konservativ reformagenda. Politik för Sverige i tiden. Arbete och ceremonier i samband med regeringsbildning Kungen eller drottningen bör precis som i alla andra europeiska monarkier i egenskap av statschef och samlande symbol för riket, återta den roll som talmannen idag har att genomföra sonderingssamtal med partiföreträdarna och därpå föreslå statsminister för Riksdagen. … 2026-11-26
 
-### [Statsministern deltar på extrainsatt möte i Europeiska rådet](https://www.regeringen.se/pressmeddelanden/2026/11/statsministern-deltar-pa-extrainsatt-mote-i-europeiska-radet)
-Regeringen.se · 2026-11-25 · Regeringskansliet
-
-Den 26–27 november samlas EU:s stats- och regeringschefer för ett extrainsatt toppmöte i Bryssel. Statsminister Ulf Kristersson deltar.
-
-### [En förändrad abortlag](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/_he01sou3)
-Riksdagen · 2026-11-18 · riksdagsinformation@riksdagen.se
-
-… De partierna står ju knappast i mitten i svensk politik, och deras track record i frågor om hbtqi är raka motsatsen till ert och vårt. Som du ser är det de partier som ni för samtal med om regeringsbildning som också reserverar sig mot våra förslag här i dag. Så min fråga till dig är: Hur tänker du i denna fråga? Fru talman! Tack till ledamoten Jonas Lindberg för frågorna! Centerpartiet samtalar naturligtvis med alla partier i Sveriges riksdag – det har vi alltid gjort. … 2026-11-18
-
-_Genererat 2026-11-26T06:02:46.227860+00:00._
+_Genererat 2026-11-26T14:02:40.731446+00:00._
