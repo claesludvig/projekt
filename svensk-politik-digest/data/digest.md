@@ -1,66 +1,101 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-26
+# Svensk politik och regeringsförhandlingarna — 2026-11-27
 
-11 nya poster sedan förra utskicket (42 redan utskickade, 146 utanför ämnet).
+18 nya poster sedan förra utskicket (40 redan utskickade, 115 utanför ämnet).
 
 ## Analys och kommentar
 
-### [C-strategin: Behövs inte enighet för Alliansen](https://www.svd.se/a/mMRA7O/centerpartiets-riksdagsgrupp-oenig-bryter-partilinjen-i-regeringsfragan)
-SvD Ledare · 2026-11-26 · Etezaz Yousuf
+### [Varningen från skogen: ”Är ju vi som får stryk”](https://www.svd.se/a/4Eqlgq/centerpartiet-har-styr-c-med-sd-och-v)
+SvD Ledare · 2026-11-27 · Malin Hector, Magnus Hjalmarson Neideman
 
-C samlas för nytt hemligt möte i regeringsfrågan inför en högersväng. SvD erfar att riksdagsgruppen…
+Centerpartiet våndas om regeringsbildningen. Men här i de djupa skogarna valde C mellan V och SD…
 
-### [S glömde det helt uppenbara](https://www.expressen.se/ledare/karin-pihl/sossarnas-senaste-drag-ar-pinsamt)
-Expressen Ledare · 2026-11-26 · karin pihl
+### [Går emot ledningen: Lovat väljarna](https://www.svd.se/a/GPGoLJ/kritik-inom-centerpartiets-fortroenderad-att-slappa-fram-ulf-kristersson)
+SvD Ledare · 2026-11-26 · Martin Palmborg, Karin Thurfjell
 
-Magdalena Andersson gick till val som en stark statsministerkandidat. 74 dagar senare skriver hon arga lappar till Centerpartiet.
+C-ledningen vill se Ulf Kristersson som statsminister – och beslutet ligger nu hos partiets…
 
 ## Rapportering
 
-### [”Håll gränsen” – historien bakom C-topparnas slagord](https://www.svt.se/nyheter/inrikes/hall-gransen-historien-bakom-c-topparnas-slagord)
-SVT Nyheter · 2026-11-26 · Filip Brusman, Malvina Britts
+### [Moderaterna ingår i flest kommunstyren – fler än före valet](https://www.sverigesradio.se/artikel/9350736)
+Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-På måndag röstar riksdagen om Ulf Kristersson (M) som statsminister. Inom Centerpartiet ställs då två linjer mot varandra. Bland C-topparna finns enligt SVT:s uppgifter de som vill säga ja, med en ny regering och stort politiskt inflytande i sikte. Andra har istället dammat av ett gammalt slagord: ”håll gränsen”.
+75 dagar efter valet finns ett konkret förslag om hur alla utom sex av landets 290 kommuner ska styras. Moderaterna är med i ledningen av av drygt 180, fler än Socialdemokraterna som backar till knappt 160. Strax efter kommer Centerpartiet följt av Kristdemokraterna. Precis som förra mandatperioden får hälften av kommunerna blocköverskridande styren med partier på olika delar av den klassiska höger-vänsterskalan; vanligast är där att Socialdemokraterna och Centerpartiet hittar varandra.
 
-### [Allianspartierna har slutit ny överenskommelse – fokus på tillväxt och välfärd](https://www.svt.se/nyheter/inrikes/allianspartierna-har-slutit-ny-overenskommelse-fokus-pa-tillvaxt-och-valfard)
-SVT Nyheter · 2026-11-26 · Tomas Nordenskiöld
+### [C-sprickan – ”Riskerar att bryta isär partiet”](https://www.sverigesradio.se/artikel/9351197)
+Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Sent igår nådde de fyra borgerliga partierna den överenskommelse som Centerpartiet nu har att ta ställning till. Inriktningen blir en helt annan än under de gångna fyra åren, enligt vad SVT erfar, och inom Moderaterna räknar man med att Thand Ringqvist vinner striden i sitt parti.
+Det kommer hård kritik inifrån Centerpartiet mot ledningens nya linje att partiet bör ingå i en regering ledd av Ulf Kristersson. ”Det går ju rakt emot det som vi lovade väljarna i valrörelsen, att SD inte ska få inflytande. Det här riskerar att bryta isär partiet”, säger Jonas Naddebo, distriktsordförande för Centerpartiet i Stockholms stad. En splittrad partistyrelse och riksdagsgrupp i Centern vill att partiet ska rösta grönt för Ulf Kristersson som statsminister på måndag. Partiets förtroenderådet ska fatta beslutet på söndag.
 
-### [Marmorstein: ”Jag har aldrig varit med om en sån här infekterad interndebatt”](https://www.svt.se/nyheter/inrikes/marmorstein-jag-har-aldrig-varit-med-om-en-san-har-infekterad-interndebatt)
-SVT Nyheter · 2026-11-26 · Axel Rydén
+### [Andersson rasar – Kristersson ny etta i förtroendeligan](https://www.dn.se/sverige/andersson-rasar-kristersson-ny-etta-i-fortroendeligan)
+DN Nyheter · 2026-11-27 · Hans Rosén, Elin Lindwall
 
-Centerpartiet splittras inför omröstningen om Moderaternas partiledare Ulf Kristersson som statsminister. Ett förtroenderåd kan samlas i helgen.
+Magdalena Anderssons försök att bilda en ny regering har kraschat. Det har hennes förtroendesiffror också. I en ny mätning från DN/Ipsos rasar hon till plats fyra bland partiledarna. – Det är slående hur snabbt man kan förbruka sitt förtroendekapital, säger Nicklas Källebring på Ipsos.
 
-### [Budgetförhandlingarna beskrivs som ett kommande blodbad](https://www.sverigesradio.se/artikel/9350187)
+### [Efter C:s ”ödesmöte” – det här händer nu](https://www.svt.se/nyheter/inrikes/efter-cs-odesmote-det-har-hander-nu)
+SVT Nyheter · 2026-11-26 · Jesper Brännmark, Carl Enderstein
+
+Efter ett extrainsatt möte har Centerpartiets ledning beslutat att man vill rösta igenom Ulf Kristersson (M) till statsminister. Nu återstår de här stegen C måste ta om Sverige ska få en regering på måndag.
+
+### [C-ledamot ska rösta nej till Kristersson: ”Oerhört upprörd”](https://www.svt.se/nyheter/inrikes/c-toppen-ska-rosta-nej-till-kristersson-oerhort-upprord)
+SVT Nyheter · 2026-11-26 · Erik Nilsson
+
+C-ledamoten Anna Lasses går emot sin partiledare. Hon kommer att rösta nej till en Kristersson-ledd regering – och säger att fler partikollegor kan göra samma sak. – Det kanske rör sig om en tredjedel, säger hon i Aktuellt.
+
+### [C-ledningen säger ja till Ulf Kristersson](https://www.svt.se/nyheter/inrikes/c-ledningen-sager-ja-till-ulf-kristersson)
+SVT Nyheter · 2026-11-26 · Julia Wide
+
+Centerpartiets ledning vill rösta ja till Ulf Kristersson (M) på måndag och ingå i en minoritetsregering. Det meddelar partiledaren Elisabeth Thand Ringqvist under en pressträff. – Vi kommer att ta oss igenom detta tillsammans, säger hon.
+
+### [Furtenbach om C:s besked: ”En kris för Socialdemokraterna”](https://www.sverigesradio.se/artikel/9351198) **[kommentator]**
 Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Det finns ingen annan förhandling som är svårare i EU än att hamra fram en kompromiss om en ny sjuårig långtidsbudget – det har beskrivits som ett kommande blodbad. Det handlar om mycket pengar, tusentals miljarder, och det spelar stor roll då budgeten sätter de ekonomiska ramarna för EU:s politik för flera år framåt. Alla länder försöker roffa åt sig så stora fördelar för sig själv som möjligt och alla har vetorätt – det krävs fullständig enhällighet bland EU:s 27 medlemsländer.
+Centerpartiets styrelse vill ingå i en borgerlig regering och vill att partiet nu på måndag röstar fram Ulf Kristersson som statsminister. Det beskedet gav partiledaren Elisabeth Thand Ringqvist under torsdagen efter ett flera timmar långt möte med partistyrelsen och riksdagsgruppen. ”Det är en kris för Socialdemokraterna”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach.
 
-### [Nya EU-skatter föreslås inför budgetförhandlingarna](https://www.sverigesradio.se/artikel/9350186)
+### [C i Stockholm sågar beslutet – kommer inte rösta ja](https://www.sverigesradio.se/artikel/9351171)
 Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Det mesta av EU:s budget finansieras genom bidrag från EU-länderna men det finns också egna medel – avgifter eller skatter som går direkt till budgeten. Det finns flera förslag om nya egna medel, bland annat tobaksskatt, digital skatt på stora techbolag, koldioxidavgifter och inkomster från EU:s utsläppshandel. Sverige är det enda landet som säger nej till alla nya egna medel då man inte vill ge EU mer beskattningsrätt.
+Centerpartiets Stockholmsdistrikt säger nej till partiledningens linje i regeringsfrågan, uppger distriktsordförande Jonas Naddebo. Förtroenderådet fattar beslut på söndag om stödet till Ulf Kristerssons regering. I rådet kommer Stockholmsdistriktet att rösta nej till att gå högerut. ”Det gör så att Centerpartiet riskerar att bli ett femte Tidöparti och det går rakt emot det vi lovade väljarna i valrörelsen, att SD inte skulle få inflytande”, säger Naddebo.
 
-### [Sveriges krav i budgetförhandlingen](https://www.sverigesradio.se/artikel/9350180)
+### [Kristersson (M): ”Ett mycket välkommet besked”](https://www.sverigesradio.se/artikel/9351129)
 Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Det absolut viktigaste för Sverige i den pågående budgetförhandlingen är att hålla nere den svenska avgiften. Sverige vill särskilt skära ner i de gamla stora posterna – jordbruksstödet och sammanhållningsstödet som går till fattigare regioner – men vill också satsa mer på nya områden som försvar, säkerhet och EU:s konkurrenskraft. Problemet för Sverige är att de ändringsförslag som lagts fram har gjort precis tvärtom – man har skurit på nya områden men bevarat de gamla stöden.
+Moderatledaren Ulf Kristersson välkomnar beskedet från Elisabeth Thand Ringqvist om att Centerpartiet rekommenderar sitt förtroenderåd att gå vidare med en borgerlig fyrpartiregering i mitten. ”Ett mycket välkommet besked”, säger Moderatledaren. Samtidigt säger Kristersson att han har besked för att besluten inte är fattade än.
 
-### [Ukrainastöd försvårar EU:s budgetförhandling](https://www.sverigesradio.se/artikel/9350189)
+### [Furtenbach: ”Svarade inte på hur det ska gå till”](https://www.sverigesradio.se/artikel/9351100) **[kommentator]**
 Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Bulgarien, Slovakien, Tjeckien och Ungern har sagt att de inte vill vara med och betala för EU:s lånestöd till Ukraina trots att de får mycket stöd från EU:s budget som de dessutom vill öka. Budgetstrama länder som Sverige har ilsknat till och de har i princip sagt att alla måste betala för Ukrainastödet annars kommer de inte acceptera en ny långtidsbudget. Att långtidsbudgeten och Ukrainastödet har kopplats ihop gör det ännu svårare att enas och risken är att det tar längre tid att besluta om nya pengar till Ukraina.
+Centerledaren Elisabeth Thand Ringqvist gav under en pressträff besked att partiets riksdagsgrupp och partistyrelse vill släppa fram Ulf Kristersson (M) som statsminister. ”Uppenbart att det var ett tufft beslut för Centern”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach. Frågan om hur en regering med M, C, KD och L ska kunna regera utan SD:s stöd fick inga svar under pressträffen, säger Fredrik Furtenbach.
 
-### [Centerpartiet i ödesmöte – öppen splittring i partiet](https://www.dn.se/sverige/centerpartiet-blixtinkallar-till-mote-oppen-splittring-i-partiet)
-DN Nyheter · 2026-11-26 · Evelyn Jones, Hanna Jakobson, Molly Karlsson Inde
+### [Thand Ringqvist: Inget organiserat samarbete med SD](https://www.sverigesradio.se/artikel/9351091)
+Ekot, Sveriges Radio · 2026-11-26 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiet samlades för ett ödesmöte om regeringsfrågan vid lunchtid på torsdagen. Riksdagsledamoten Birgitta Ohlsson betonar allvaret på väg in till mötet. – Vi ska fatta viktiga beslut för Centerns framtid, säger hon.
+Centerpartiets partistyrelse rekommenderar sitt förtroenderåd att säga ja till Ulf Kristerssons regering på måndag. Man vill då själv ingå i en fyrpartiregering. Gällande Sverigedemokraterna så menar Thand Ringqvist att det inte är något organiserat samarbete. Utan att SD släpper fram regeringen utan sakpolitiska krav. ”Vi kommer att samtala och förankra regeringens politik i utskotten. Vi kommer att göra det med partierna som står närmast den politiken”, säger hon.
+
+### [Ilska och besvikelse bland C-toppar efter beslutet: ”Känner mig bedrövad”](https://www.dn.se/sverige/ilska-och-besvikelse-bland-c-toppar-efter-beslutet-kanner-mig-bedrovad)
+DN Nyheter · 2026-11-26 · Molly Karlsson Inde, Evelyn Jones, Linn Jönsson, Ida Palm Ekspong
+
+Centerpartiets vägval i regeringsfrågan har föregåtts av en stor splittring inom partiet. Och efter att det står klart att partistyrelsen säger ja till Ulf Kristersson som statsminister är flera C-toppar besvikna. – Det är en stor existentiell fråga tror jag för många liberaler, säger Birgitta Ohlsson, som bytte från L till C på grund av motståndet mot SD.
+
+### [Tomas Ramberg: Det blev Thand Ringqvist som höll i yxan](https://www.dn.se/sverige/tomas-ramberg-det-blev-thand-ringqvist-som-holl-i-yxan) **[kommentator]**
+DN Nyheter · 2026-11-26 · Tomas Ramberg
+
+Elisabeth Thand Ringqvist går till historien som den som gav upp Centerns fajt mot Sverigedemokraterna. Att det sista liberala alternativet till SD-samarbete försvinner är en händelse som knappast kan överskattas. Den största förloraren blir sannolikt Centerpartiet självt.
+
+### [Partistyrelse säger ja till Kristersson – C-ledarens avgångshot vid extraval](https://www.dn.se/sverige/cs-partistyrelse-sager-ja-till-kristersson)
+DN Nyheter · 2026-11-26 · Evelyn Jones _(brödtext ej hämtad — endast ingress)_
+
+Partistyrelsen och riksdagsgruppen i Centerpartiet säger ja till att rösta fram Ulf Kristersson som ny statsminister. Thand Ringqvist hotade att avgå vid extraval. Nu går regeringsfrågan vidare till partiets förtroenderåd. – Det är ett beslut som väcker starka känslor i partiet, säger partiledare Elisabeth Thand Ringqvist.
+
+### [Språkrören om C-beskedet: ”Det är inte för sent”](https://www.dn.se/sverige/sprakroren-centern-maste-se-sanningen-om-sd-i-vitogat)
+DN Nyheter · 2026-11-26 · Hans Rosén _(brödtext ej hämtad — endast ingress)_
+
+Miljöpartiets språkrör ger inte upp kampen om regeringsmakten, trots Centerledningens besked om att man vill ha Ulf Kristersson som statsminister. – Det skulle bli ett budgetkaos. Det är en sanning som Centerpartiet måste se i vitögat, säger Amanda Lind.
 
 ## Officiella besked
 
-### [Konservativ politik för samtid och framtid](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he022391)
+### [Demokrati och konstitutionella frågor](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he022549)
 Riksdagen · 2026-11-26 · riksdagsinformation@riksdagen.se
 
-… I denna motion presenterar våra förslag för en sammanhållen konservativ reformagenda. Politik för Sverige i tiden. Arbete och ceremonier i samband med regeringsbildning Kungen eller drottningen bör precis som i alla andra europeiska monarkier i egenskap av statschef och samlande symbol för riket, återta den roll som talmannen idag har att genomföra sonderingssamtal med partiföreträdarna och därpå föreslå statsminister för Riksdagen. … 2026-11-26
+… Därför bör frågan om hur aktiv dödshjälp kan införas med tydliga gränser för vad som krävs för att det ska kunna ges utredas noggrant. Hållbara demokratiska spelregler Fungerande regeringsbildningar Trots att regeringsformen syftar till att underlätta för minoritetsregeringar har det under det senaste decenniet blivit allt svårare för minoritetsregeringar såväl att tillträda som att styra riket. Regeringskriser 2026-11-26
 
-_Genererat 2026-11-26T14:02:40.731446+00:00._
+_Genererat 2026-11-27T06:02:45.802005+00:00._
