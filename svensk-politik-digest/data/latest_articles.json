@@ -1,41 +1,41 @@
 {
-  "fetched_at": "2026-11-27T06:02:45.802005+00:00",
-  "new_count": 18,
+  "fetched_at": "2026-11-27T14:02:49.865787+00:00",
+  "new_count": 11,
   "skipped": {
-    "seen": 40,
-    "offtopic": 115,
-    "old": 12
+    "seen": 46,
+    "offtopic": 140,
+    "old": 13
   },
-  "fetch_errors": 9,
+  "fetch_errors": 6,
   "sources": [
     {
       "name": "SVT Nyheter",
       "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
-      "new": 3,
+      "new": 1,
       "ok": true
     },
     {
       "name": "Ekot, Sveriges Radio",
       "feed": "https://api.sr.se/api/rss/program/83",
-      "new": 7,
+      "new": 6,
       "ok": true
     },
     {
       "name": "DN Nyheter",
       "feed": "https://www.dn.se/nyheter/politik/rss/",
-      "new": 5,
+      "new": 0,
       "ok": true
     },
     {
       "name": "DN Ledare",
-      "feed": "",
-      "new": 0,
-      "ok": false
+      "feed": "https://www.dn.se/ledare/rss/",
+      "new": 1,
+      "ok": true
     },
     {
       "name": "SvD Ledare",
       "feed": "https://www.svd.se/feed/articles.rss",
-      "new": 2,
+      "new": 3,
       "ok": true
     },
     {
@@ -59,339 +59,215 @@
     {
       "name": "Riksdagen",
       "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
-      "new": 1,
+      "new": 0,
       "ok": true
     }
   ],
   "articles": [
     {
-      "url": "https://www.svd.se/a/4Eqlgq/centerpartiet-har-styr-c-med-sd-och-v",
-      "title": "Varningen från skogen: ”Är ju vi som får stryk”",
+      "url": "https://www.svd.se/a/WmOlba/m-kd-l-och-c-overens-om-ny-klimatpolitik",
+      "title": "M, KD, L och C överens om ny klimatpolitik",
       "source": "SvD Ledare",
       "kind": "kommentar",
       "published": "2026-11-27",
-      "author": "Malin Hector, Magnus Hjalmarson Neideman",
+      "author": "Niklas Svahn/TT, Maria Davidsson/TT",
       "commentator": "",
-      "summary": "Centerpartiet våndas om regeringsbildningen. Men här i de djupa skogarna valde C mellan V och SD…",
-      "fulltext": "Centerpartiet våndas om regeringsbildningen. Men här i de djupa skogarna valde C mellan V och SD – utan svårigheter. ”De kommer inte att förstå det på riksnivå”, säger kommunalrådet Erik Sandberg.\nI nordvästra Dalsland står tallarna glest från sjöstränderna upp över höjderna. Här köpte Erik Sandberg sin första skog när har var elva år. Numera packar han kaffe och matsäck i en kylväska på morgonen och kör sen skogsmaskin till sent på kvällen.\nHan är också Centerpartiets kommunalråd i Bengtsfors.",
+      "summary": "Partiledarna för Moderaterna, Kristdemokraterna, Liberalerna och Centerpartiet är överens om hur…",
+      "fulltext": "Partiledarna för Moderaterna, Kristdemokraterna, Liberalerna och Centerpartiet är överens om hur Sveriges klimatpolitik ska bli mer ambitiös. Det framgår i den inriktningsöverenskommelse som de har ingått, erfar TT.\nÖverenskommelsen inleds med meningen ”En samarbetsregering för tillväxt och välfärd”.\nDet är ett avtal mellan M, KD, L och C – men Centern har ännu inte godkänt avtalet i sitt parti.\nI texten sägs att klimatpolitiken är bunden av klimatlagen, och att Sverige med utsläppshandelssystemet som grund ska verka för ambitiösa mål och regler i EU.\n”Sverige ska leva upp till EU:s bindande klimatåtagande”, står det i dokumentet.\nElbilspremien ska breddas för att öka försäljningen av elfordon och ett elektrifieringsmål ska införas.\nTakten i utsläppsminskningen, elektrifieringen och användningen av fossilfria drivmedel ska öka utan att svenska hushåll drabbas av högre drivmedelspriser, står det i överenskommelsen.\nBrukandet av skogen framhålls, vilket är en hjärtefråga för C, liksom att svensk biodrivmedelsindustri ska främjas.\nDen planerade utbyggnaden av ny kärnkraft ska fortsätta, men det konstateras också att alla fossilfria kraftslag behövs för att öka effekten och produktionen i närtid. Havsvindkraften nämns särskilt. Regeringen, om den väljs, kommer att bjuda in till breda politiska energisamtal.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsbildning",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9350736",
-      "title": "Moderaterna ingår i flest kommunstyren – fler än före valet",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-27",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "75 dagar efter valet finns ett konkret förslag om hur alla utom sex av landets 290 kommuner ska styras. Moderaterna är med i ledningen av av drygt 180, fler än Socialdemokraterna som backar till knappt 160. Strax efter kommer Centerpartiet följt av Kristdemokraterna. Precis som förra mandatperioden får hälften av kommunerna blocköverskridande styren med partier på olika delar av den klassiska höger-vänsterskalan; vanligast är där att Socialdemokraterna och Centerpartiet hittar varandra.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9350736'",
-      "matched_terms": [
+        "partiledar",
         "Centerpartiet",
         "Kristdemokraterna",
-        "Moderaterna",
-        "Socialdemokraterna"
+        "Liberalerna",
+        "Moderaterna"
       ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9351197",
-      "title": "C-sprickan – ”Riskerar att bryta isär partiet”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-27",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Det kommer hård kritik inifrån Centerpartiet mot ledningens nya linje att partiet bör ingå i en regering ledd av Ulf Kristersson. ”Det går ju rakt emot det som vi lovade väljarna i valrörelsen, att SD inte ska få inflytande. Det här riskerar att bryta isär partiet”, säger Jonas Naddebo, distriktsordförande för Centerpartiet i Stockholms stad. En splittrad partistyrelse och riksdagsgrupp i Centern vill att partiet ska rösta grönt för Ulf Kristersson som statsminister på måndag. Partiets förtroenderådet ska fatta beslutet på söndag.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351197'",
-      "matched_terms": [
-        "statsminister",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/andersson-rasar-kristersson-ny-etta-i-fortroendeligan",
-      "title": "Andersson rasar – Kristersson ny etta i förtroendeligan",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-27",
-      "author": "Hans Rosén, Elin Lindwall",
-      "commentator": "",
-      "summary": "Magdalena Anderssons försök att bilda en ny regering har kraschat. Det har hennes förtroendesiffror också. I en ny mätning från DN/Ipsos rasar hon till plats fyra bland partiledarna. – Det är slående hur snabbt man kan förbruka sitt förtroendekapital, säger Nicklas Källebring på Ipsos.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-27 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/andersson-rasar-kristersson-ny-etta-i-fortroendeligan/\nMagdalena Anderssons försök att bilda en ny regering har kraschat. Det har hennes förtroendesiffror också. I en ny mätning från DN/Ipsos rasar hon till plats fyra bland partiledarna.\n– Det är slående hur snabbt man kan förbruka sitt förtroendekapital, säger Nicklas Källebring på Ipsos.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nMagdalena Andersson hade bara varit statsminister i tre månader när hon ställdes inför Sveriges allvarligaste säkerhetspolitiska kris på mycket länge. Rysslands fullskaliga attack mot Ukraina var en tuff prövning för hennes ledarskap. Hon fick inledningsvis kritik för en trevande reaktion, men snart sköt väljarnas förtroende för henne i höjden, till nivåer som inte hade skådats sedan Göran Perssons och Fredrik Reinfeldts dagar.\nOch det höll i sig – fram till nu. I en ny mätning från DN/Ipsos rasar Magdalena Andersson i förtroendeligan.\n– Det är normalt att förtroendet för partiledarna skiftar men det är väldigt ovanligt att vi ser ett så här tydligt skifte på bara ett par månader. Det är slående hur snabbt man kan förbruka sitt förtroendekapital, säger Nicklas Källebring, opinionsanalytiker på Ipsos.\nTrenden hade varit negativ en tid för Magdalena Andersson, men hon var ändå fortfarande klar etta när DN/Ipsos mätte förtroendet för partiledarna strax före valet. Därefter har den stökiga regeringsbildningen och de rödgröna partiernas oförmåga att komma överens helt kastat om bilden.\nS-ledaren rasar till plats fyra efter att ha prenumererat på förstaplatsen i nästan fem år. Särskilt illavarslande för henne är att tappet även syns tydligt bland S-väljarna. Stödet internt är nu nere på 77 procent, att jämföra med över 90 när det var som starkast. Bara Simona Mohamsson (L) och Daniel Helldén (MP) har svagare positioner i de egna leden.\nHändelseutvecklingen har i motsvarande grad varit synnerligen gynnsam för Ulf Kristersson (M) som är ny etta på listan. Hans ledarskap har tidigare inte imponerat på väljarna men nu sker en omvärdering. Nästan varannan uppger i mätningen att de har stort förtroende för Kristersson, hans i särklass bästa notering hittills under de nio år han har varit partiledare.\nDN/Ipsos ställer också kompletterande frågor för att få en djupare bild av hur väljarna ser på partiledarnas egenskaper. Även de svaren är dyster läsning för Magdalena Andersson – och rena peppen för Ulf Kristersson.\nTidigare rankades S-ledaren som etta när det kom till ledarskap, kunnighet om sakfrågor och förståelse för de problem väljarna vill ha lösta. Nu är hon inte bättre än delad tvåa på något av de fem områden som ingår i undersökningen.\nTidigare såg väljarna Ulf Kristersson som underlägsen såväl Magdalena Andersson som Jimmie Åkesson i alla fem kategorierna. Nu seglar han upp som etta både när det gäller kunnighet och ledarskap.\nSD-ledaren får det högsta sammantagna omdömet i den nya mätningen, med tre förstaplatser. Särskilt bra är han enligt väljarna på att förklara det egna partiets politik.\nVid sidan om Magdalena Andersson har också Nooshi Dadgostar (V) tagit stryk av de havererade regeringsförhandlingarna. Väljarna placerar henne nu i botten av listan. Bara en av tio uppger att de har stort förtroende för Dadgostar.\n– Man får gå tillbaka till 2005 och Lars Ohly för att hitta en mer impopulär ledare för Vänsterpartiet, säger Nicklas Källebring.\nDe egna väljarna har dock inte tappat tron på Nooshi Dadgostar, enligt mätningen.\nHon och Centerpartiets Elisabeth Thand Ringqvist har stått i centrum för de rödgröna konflikterna om regeringsbildningen. Även C-ledaren har förlorat på det.\n– Elisabeth Thand Ringqvist har blivit mer känd, men det har samtidigt lett till att hon har tappat i förtroende, säger Nicklas Källebring.\nTrenden bland centerväljarna är däremot positiv.\nMätningens stora vinnare jämte Ulf Kristersson är Kristdemokraternas Ebba Busch. Att 37 procent säger att de har stort förtroende för henne är nytt personligt rekord. Det gör henne till ny tvåa.\nHennes position bland KD-väljarna är också rekordartad. Hela 96 procent av dem litar på Busch, vilket är den högsta siffra som någon partiledare har fått hittills i den 26-åriga mätserien.\n● Ipsos har genomfört 1 609 intervjuer med röstberättigade personer under perioden 10-23 november. Utifrån ett slumpmässigt urval gjordes 215 intervjuer via telefonsamtal och 916 digitala enkäter som skickades ut via mejl eller post. 540 digitala intervjuer gjordes med ett kvoturval från en slumpmässigt rekryterad webbpanel. Syftet med kvoturval är att säkerställa representativiteten hos de svarande.\n● Frågorna som ställdes var: Har du mycket stort, stort, litet eller inget förtroende för (partiledaren)? Vem av riksdagspartiernas ledare/språkrör tycker du är bäst respektive sämst: på att förklara det egna partiets politik, att vara insatt/kunnig i de politiska sakfrågorna, som ledare, på att förstå vilka samhällsproblem väljarna vill se lösningar på, att uppträda/kommunicera på ett övertygande sätt?\n● För att undvika fokus på obetydliga skillnader redovisar DN/Ipsos resultaten som avrundade heltal.\n● För mer information om urval, bortfall och svarsfrekvens, se ipsos.se eller kontakta Ipsos opinionsanalytiker Nicklas Källebring.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nTomas Ramberg: Det blev Thand Ringqvist som höll i yxan\nPartistyrelse säger ja till Kristersson – C-ledarens avgångshot vid extraval\nIlska och besvikelse bland C-toppar efter beslutet: ”Känner mig bedrövad”",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.svd.se/a/GPGoLJ/kritik-inom-centerpartiets-fortroenderad-att-slappa-fram-ulf-kristersson",
-      "title": "Går emot ledningen: Lovat väljarna",
+      "url": "https://www.svd.se/a/XogGao/kristersson-siktar-pa-ny-regering-om-en-vecka",
+      "title": "Kristersson siktar på ny regering om en vecka",
       "source": "SvD Ledare",
       "kind": "kommentar",
-      "published": "2026-11-26",
-      "author": "Martin Palmborg, Karin Thurfjell",
+      "published": "2026-11-27",
+      "author": "Niklas Svahn/TT",
       "commentator": "",
-      "summary": "C-ledningen vill se Ulf Kristersson som statsminister – och beslutet ligger nu hos partiets…",
-      "fulltext": "C-ledningen vill se Ulf Kristersson som statsminister – och beslutet ligger nu hos partiets förtroenderåd. Vägen framåt riskerar att kantas av interna slitningar. En av rådets medlemmar beskriver Elisabeth Thand Ringqvists besked som ”ett svek” mot väljarna.\nCenterns partistyrelse har sagt sitt och vill att riksdagsledamöterna trycker grönt när Ulf Kristersson prövas i en statsministeromröstning på måndag. Men det slutgiltiga beslutet fattas när partiets förtroenderåd samlas på söndag.",
+      "summary": "Om Centerpartiet säger ja till Moderatledaren Ulf Kristersson på måndag kan en ny regering…",
+      "fulltext": "Om Centerpartiet säger ja till Moderatledaren Ulf Kristersson på måndag kan en ny regering presenteras redan på fredag nästa vecka, enligt uppgifter till TT.\nEn majoritet i Centerpartiets partiledning vill rösta fram Ulf Kristersson (M) som statsminister.\nMen det är oklart om ombuden från Centerns distrikt ställer sig bakom beslutet. Svaret kommer på söndag när partiets förtroenderåd samlas.\nPå måndag hålls sedan en statsministeromröstning i riksdagen.\nOm Centern säger ja till Kristersson tar intensiva samtal om ministerposter vid direkt efteråt, uppger regeringskällor. Övergripande diskussioner har redan förts, men inga exakta namn eller poster har spikats.\nEn ny Kristersson-regering bestående av M, KD, L och C skulle kunna presenteras redan om en vecka, uppger en källa.\nDå blir det skifteskonselj på slottet och regeringsförklaring i riksdagen. Men planen är inte låst, enligt källan.\nUnder torsdagen röstade en splittrad partistyrelse och riksdagsgrupp i Centern ja till en ny borgerlig fyrpartiregering.\nDe forna Allianspartierna har suttit i samtal sedan valdagen, men när C-ledaren Elisabeth Thand Ringqvist begärde in ”totalpaket” från S-ledaren Magdalena Andersson respektive Ulf Kristersson intensifierades förhandlingar högerut.\nEn källa som varit inblandad i förhandlingarna uppger att KD-ledaren Ebba Busch ”jobbat för detta i en evighet” och att alla i partiet har agerat för att ge henne arbetsro. Företrädare för M, KD och L har också i intervjuer konsekvent varit trevliga och förstående gentemot Centerpartiet.\nNär samtalen med vänstersidan kraschade och Thand Ringqvist öppnade för nya samtal med Kristersson gick förhandlingarna in i en ny fas.\nDen plattform som de ”grönblå”, som Thand Ringqvist uttryckte det, har kommit överens om ska enligt M-ledaren fokusera på tillväxt och välfärd. Enligt C handlar den också om grön omställning, landsbygd samt ”framtidstro och humanism”.\n– Det här är en ny kurs för Sverige, det är inte en förlängning av de fyra gångna åren. Det är en politik för tillväxt och klimatarbete, för landsbygd och ökad tillit mellan människor, sade C-ledaren på en presskonferens under torsdagen.",
       "paywall": false,
       "fetch_error": "",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/efter-cs-odesmote-det-har-hander-nu",
-      "title": "Efter C:s ”ödesmöte” – det här händer nu",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Jesper Brännmark, Carl Enderstein",
-      "commentator": "",
-      "summary": "Efter ett extrainsatt möte har Centerpartiets ledning beslutat att man vill rösta igenom Ulf Kristersson (M) till statsminister. Nu återstår de här stegen C måste ta om Sverige ska få en regering på måndag.",
-      "fulltext": "Efter ett extrainsatt möte har Centerpartiets ledning beslutat att man vill rösta igenom Ulf Kristersson (M) till statsminister.\nNu återstår de här stegen C måste ta om Sverige ska få en regering på måndag.\nPå torsdagen höll Centerpartiet i ett extrainsatt möte vars syfte var att undersöka om det finns stöd i partiet för att välja Ulf Kristersson (M) som statsminister, som C-ledaren Elisabeth Thand Ringqvist verkar för.\nDär togs beslut att C-ledningen vill rösta igenom Ulf Kristersson (M) som statsminister. Beslutet hade en majoritet men var inte enhälligt.\nPå mötet befann sig partistyrelsen och riksdagsgruppen. Däribland var Birgitta Ohlsson som tycker det är ” fel väg att gå ”.\nC-ledaren, Elisabeth Thand Ringqvist, kallar det ” en ny kurs för Sverige ”.\nNågon gång under helgen väntas C-ledningen lägga fram sitt beslut inför det så kallade förtroenderådet. Enligt uppgifter till SVT kommer rådet sammanträda på söndag.\nDär kommer man fatta det avgörande beslutet om huruvida partiet ska rösta ja till Ulf Kristersson (M) som statsminister.\nOm förtroenderådet väljer att följa C-ledningens linje är det däremot inte säkert att alla i riksdagsgruppen kommer rösta ja på statsministeromröstningen på måndag.\nPå måndag klockan 13 ska riksdagen rösta om Ulf Kristersson som statsminister i en regering bestående av M, KD, L och C.\nDet blir den tredje statsministeromröstningen. Om omröstningen misslyckas blir det en fjärde innan jul, enligt talmannen Andreas Norlén .\nFör att nå en majoritet behöver Ulf Kristersson få med sig röster från sitt eget parti, KD, L, C och Sverigedemokraterna. SD har tidigare sagt att ifall en omröstning blir av med Kristersson som statsministerkandidat kommer man ” tolerera ” en borgerlig fyrpartiregering – som de själva inte sitter i.\nOm fyra omröstningar misslyckas blir det extraval.\nFörtroenderådet är Centerpartiets högsta beslutande organ mellan partistämmor.\nEnligt Centerpartiets egen hemsida är förtroenderådet inte öppet för media. Men enligt partiets dokument från 2025 framgår att förtroenderådet består av fem reformgrupper. Gruppernas ordföranden är Christofer Bergenblock, Jonny Cato, Emma Wiesner, Niels Paarup-Petersen och Malin Björk.\nEnligt ett pressmeddelande som publicerades 2025 går det att utläsa att de leder dessa reformgrupper inom förtroenderådet:\nVälfärdens kärna ska fungera på landsbygden Leds av Christofer Bergenblock\nSverige ska vara världens bästa land för livsresor Leds av Jonny Cato\nGrön tillväxt ska rädda klimatet Leds av Emma Wiesner\nStoppa utslagningen: Skolan ska ge varje elev goda livschanser Leds av Niels Paarup-Petersen\nMaffians pengakran ska strypas Leds av Malin Björk\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "statsminister",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/c-toppen-ska-rosta-nej-till-kristersson-oerhort-upprord",
-      "title": "C-ledamot ska rösta nej till Kristersson: ”Oerhört upprörd”",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Erik Nilsson",
-      "commentator": "",
-      "summary": "C-ledamoten Anna Lasses går emot sin partiledare. Hon kommer att rösta nej till en Kristersson-ledd regering – och säger att fler partikollegor kan göra samma sak. – Det kanske rör sig om en tredjedel, säger hon i Aktuellt.",
-      "fulltext": "C-ledamoten Anna Lasses går emot sin partiledare.\nHon kommer att rösta nej till en Kristersson-ledd regering – och säger att fler partikollegor kan göra samma sak.\n– Det kanske rör sig om en tredjedel, säger hon i Aktuellt.\nC-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar fram en M-ledd regering på måndag.\nEn majoritet av riksdagsgruppen och partistyrelsen har gett grönt ljus och i helgen ska partiets förtroenderåd avgöra saken.\nMen partiet är mycket splittrat och riksdagsledamoten Anna Lasses kommer inte att rösta ja till den borgerliga regeringen. Hon säger att fler ”definitivt” kommer att göra samma sak, men vet inte hur många.\n– Jag kommer under alla förhållanden att rösta rött oavsett vad förtroenderådet beslutar.\nVarför röstar du rött även om förtroenderådet säger ja?\n– För mig så handlar det här om vad jag står för och vad jag har lovat mina väljare, men också mina olika partikamrater som jag jobbar tillsammans med.\nAnna Lasses motsätter sig en Kristersson-ledd regering eftersom hon menar att den skulle vara beroende av Sverigedemokraterna.\nOch även om partiledaren har slagit fast att det inte finns något organiserat samarbete med SD så har Thand Ringqvist öppnat för samtal och förhandlingar i riksdagens utskott.\n– Det är korrekt att det inte kommer att finnas något organiserat samarbete, men som mandaten ser ut i riksdagen så kommer vi att vara helt beroende utav Sverigedemokraterna i varenda beslut, säger Anna Lasses.\nHon tycker, som alternativ, att C hellre ska gå i opposition eller undersöka andra möjligheter efter en misslyckad tredje statsministeromröstning.\nÄnnu har hon inte bestämt sig om hon kommer att stanna kvar i C eller i riksdagen, om C-ledningens plan går i lås.\n– Jag tror inte att man ska ta ett beslut direkt så här när man är oerhört upprörd, vilket jag faktiskt är.\nFörtroenderådet är Centerpartiets högsta beslutande organ mellan partistämmor.\nEnligt Centerpartiets egen hemsida är förtroenderådet inte öppet för media. Men enligt partiets dokument från 2025 framgår att förtroenderådet består av fem reformgrupper. Gruppernas ordföranden är Christofer Bergenblock, Jonny Cato, Emma Wiesner, Niels Paarup-Petersen och Malin Björk.\nEnligt ett pressmeddelande som publicerades 2025 går det att utläsa att de leder dessa reformgrupper inom förtroenderådet:\nVälfärdens kärna ska fungera på landsbygden Leds av Christofer Bergenblock\nSverige ska vara världens bästa land för livsresor Leds av Jonny Cato\nGrön tillväxt ska rädda klimatet Leds av Emma Wiesner\nStoppa utslagningen: Skolan ska ge varje elev goda livschanser Leds av Niels Paarup-Petersen\nMaffians pengakran ska strypas Leds av Malin Björk\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.svt.se/nyheter/inrikes/c-ledningen-sager-ja-till-ulf-kristersson",
-      "title": "C-ledningen säger ja till Ulf Kristersson",
-      "source": "SVT Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Julia Wide",
-      "commentator": "",
-      "summary": "Centerpartiets ledning vill rösta ja till Ulf Kristersson (M) på måndag och ingå i en minoritetsregering. Det meddelar partiledaren Elisabeth Thand Ringqvist under en pressträff. – Vi kommer att ta oss igenom detta tillsammans, säger hon.",
-      "fulltext": "Centerpartiets ledning vill rösta ja till Ulf Kristersson (M) på måndag och ingå i en minoritetsregering.\nDet meddelar partiledaren Elisabeth Thand Ringqvist under en pressträff.\n– Vi kommer att ta oss igenom detta tillsammans, säger hon.\nBeslutet hade en majoritet i partistyrelsen men var inte enhälligt.\n– Det är ett beslut som väcker starka känslor i partiet, säger Thand Ringqvist.\nI en kommentar till SVT uppger hon att hon hade avgått om C släppt in V i en regering.\n– Jag har tidigare informerat min partistyrelse att jag är inte rätt person att leda Centerpartiet in i regering som Vänsterpartiet sitter i eller till ett extraval.\nPartiledaren inledde pressträffen med att betona att C sedan valnatten, för 75 dagar sedan, har arbetat för att hitta en lösning i regeringsfrågan.\n– Vi har prövat flera olika alternativ och fört samtal med alla partier.\nPressträffen utlystes efter ett blixtinkallat möte med partistyrelsen och riksdagsgruppen under torsdagen, som pågick i flera timmar.\nDär fattades beslutet att kalla till ett förtroenderåd, förklarar Thand Ringqvist. Förtroenderådet ska fatta det slutgiltiga beslutet.\n– Vi rekommenderar att förtroenderådet ställer sig bakom att C röstar ja på måndagens statsministeromröstning, och tar plats i den fyrpartiregering som talmannen lagt på riksdagens bord.\nEnligt C-ledaren finns mycket bra centerpolitik i överenskommelsen som förhandlats fram med M, KD och L.\n– Det här är en ny kurs för Sverige, inte en förlängning av de fyra gångna åren.\nUppgörelsen innebär inte en ändrad syn på SD, betonar hon.\n– Det finns inget avtal med strukturerat budgetsamarbete med Sverigedemokraterna. Inga löften har getts till dem. De sitter inte i regeringen, de får inga egna tjänstemän i regeringskansliet.\nUlf Kristersson (M) uppger i en kommentar att han välkomnar beskedet.\n”En samarbetsregering med våra fyra partier som fokuserar på tillväxt och välfärd, skulle vara bra för Sverige. Det är bara Centerpartiet som kommer fatta Centerpartiets beslut under sitt förtroenderåd, och det har jag stor respekt för”, skriver M-ledaren.\nKD-ledaren Ebba Busch välkomnar också C:s beslut.\n”Det våras för en ny politisk tid för Sverige”, skriver hon på X.\n”En borgerlig regering är inom räckhåll. Nu avgör Centerpartiet om Sverige ska styras av Magdalena Anderssons låsningar eller en Kristersson II-regering”, skriver Liberalernas partiledare Simona Mohamsson på X.\nI tisdags meddelade Thand Ringqvist att C återupptar samtalen med M, KD och L.\nFörtroenderådet är Centerpartiets högsta beslutande organ mellan partistämmor.\nEnligt Centerpartiets egen hemsida är förtroenderådet inte öppet för media. Men enligt partiets dokument från 2025 framgår att förtroenderådet består av fem reformgrupper. Gruppernas ordföranden är Christofer Bergenblock, Jonny Cato, Emma Wiesner, Niels Paarup-Petersen och Malin Björk.\nEnligt ett pressmeddelande som publicerades 2025 går det att utläsa att de leder dessa reformgrupper inom förtroenderådet:\nVälfärdens kärna ska fungera på landsbygden Leds av Christofer Bergenblock\nSverige ska vara världens bästa land för livsresor Leds av Jonny Cato\nGrön tillväxt ska rädda klimatet Leds av Emma Wiesner\nStoppa utslagningen: Skolan ska ge varje elev goda livschanser Leds av Niels Paarup-Petersen\nMaffians pengakran ska strypas Leds av Malin Björk\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "partiledar",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he022549",
-      "title": "Demokrati och konstitutionella frågor",
-      "source": "Riksdagen",
-      "kind": "officiell",
-      "published": "2026-11-26",
-      "author": "riksdagsinformation@riksdagen.se",
-      "commentator": "",
-      "summary": "… Därför bör frågan om hur aktiv dödshjälp kan införas med tydliga gränser för vad som krävs för att det ska kunna ges utredas noggrant. Hållbara demokratiska spelregler Fungerande regeringsbildningar Trots att regeringsformen syftar till att underlätta för minoritetsregeringar har det under det senaste decenniet blivit allt svårare för minoritetsregeringar såväl att tillträda som att styra riket. Regeringskriser 2026-11-26",
-      "fulltext": "Motion 2026/27:2549 av Magnus Haara m.fl. (C)\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.\nRiksdagen ställer sig bakom det som anförs i motionen om att stärka de grundläggande fri- och rättigheterna och behovet av grundlagsändringar och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av att bredda Diskrimineringsombudsmannens uppdrag och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om införandet av en diskrimineringsnämnd och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att aborträtten ska grundlagsskyddas och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att utreda införandet av aktiv dödshjälp och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av att införa en reglering om konstruktivt misstroendevotum i regeringsformen och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om en kodifierad budgetprocess och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att oppositionens roll behöver formaliseras i grundlagsform och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av tydliga krav på transparens för politiska partier i all kommunikation som härrör från dem och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av att utreda de globala plattformsföretagens påverkan på demokratin och det offentliga samtalet och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om demokratisk delaktighet och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att utreda om, och i sådana fall hur, FN:s konvention om rättigheter för personer med funktionsnedsättning kan införlivas i svensk rätt och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att reformera val- och valsedelssystemet och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att reformera nämndemannasystemet och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att förstärka förbudet mot utländsk partifinansiering och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av skärpt insyn i partifinansieringen och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att förtroendevalda som utsätts för hot, hat och trakasserier måste få bättre och effektivare stöd och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av att förtroendevalda måste få bättre möjligheter att kombinera förtroendeuppdrag med arbete och familjeliv och tillkännager detta för riksdagsstyrelsen.\nRiksdagen ställer sig bakom det som anförs i motionen om förstärkta möjligheter till ansvarsutkrävande i den svenska förvaltningsmodellen och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att begränsa tillgången till personuppgifter genom offentliga hemsidor och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om behovet av en förstärkt medborgerlig kontroll av hanteringen av persondata och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att det måste bli möjligt att frånta medlemsstater i EU som inte lever upp till de europarättsliga kraven på demokrati, mänskliga rättigheter och antikorruption EU-medel och beslutsrätt, och detta tillkännager riksdagen för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att inrätta ett nationellt centrum för undersökande journalistik och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om ökat stöd till utsatta journalister och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om ökat stöd till medierna för att hantera säkerhetsfrågor och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att stödet till trossamfunden för säkerhetsåtgärder skyndsamt behöver stärkas och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att införa en interreligiös utbildning för religiösa ledare och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att de nationella minoriteterna och de nationella minoritetsspråken bör framgå av regeringsformen och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att ge svenskt teckenspråk status som minoritetsspråk och tillkännager detta för regeringen.\nRiksdagen ställer sig bakom det som anförs i motionen om att erkänna älvdalskan som minoritets- eller landsdelsspråk och tillkännager detta för regeringen.\nMotioner är förslag som riksdagens ledamöter har lämnat till riksdagen.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "regeringsbildning",
-        "regeringskris"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9351198",
-      "title": "Furtenbach om C:s besked: ”En kris för Socialdemokraterna”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Centerpartiets styrelse vill ingå i en borgerlig regering och vill att partiet nu på måndag röstar fram Ulf Kristersson som statsminister. Det beskedet gav partiledaren Elisabeth Thand Ringqvist under torsdagen efter ett flera timmar långt möte med partistyrelsen och riksdagsgruppen. ”Det är en kris för Socialdemokraterna”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351198'",
-      "matched_terms": [
-        "statsminister",
-        "partiledar",
-        "Centerpartiet",
-        "Socialdemokraterna"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9351171",
-      "title": "C i Stockholm sågar beslutet – kommer inte rösta ja",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Centerpartiets Stockholmsdistrikt säger nej till partiledningens linje i regeringsfrågan, uppger distriktsordförande Jonas Naddebo. Förtroenderådet fattar beslut på söndag om stödet till Ulf Kristerssons regering. I rådet kommer Stockholmsdistriktet att rösta nej till att gå högerut. ”Det gör så att Centerpartiet riskerar att bli ett femte Tidöparti och det går rakt emot det vi lovade väljarna i valrörelsen, att SD inte skulle få inflytande”, säger Naddebo.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351171'",
-      "matched_terms": [
-        "regeringsfråg",
-        "Centerpartiet"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9351129",
-      "title": "Kristersson (M): ”Ett mycket välkommet besked”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Ekot",
-      "commentator": "",
-      "summary": "Moderatledaren Ulf Kristersson välkomnar beskedet från Elisabeth Thand Ringqvist om att Centerpartiet rekommenderar sitt förtroenderåd att gå vidare med en borgerlig fyrpartiregering i mitten. ”Ett mycket välkommet besked”, säger Moderatledaren. Samtidigt säger Kristersson att han har besked för att besluten inte är fattade än.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351129'",
       "matched_terms": [
         "Centerpartiet",
         "Moderaterna"
       ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
     },
     {
-      "url": "https://www.sverigesradio.se/artikel/9351100",
-      "title": "Furtenbach: ”Svarade inte på hur det ska gå till”",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Ekot",
-      "commentator": "Fredrik Furtenbach",
-      "summary": "Centerledaren Elisabeth Thand Ringqvist gav under en pressträff besked att partiets riksdagsgrupp och partistyrelse vill släppa fram Ulf Kristersson (M) som statsminister. ”Uppenbart att det var ett tufft beslut för Centern”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach. Frågan om hur en regering med M, C, KD och L ska kunna regera utan SD:s stöd fick inga svar under pressträffen, säger Fredrik Furtenbach.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351100'",
-      "matched_terms": [
-        "statsminister"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.sverigesradio.se/artikel/9351091",
-      "title": "Thand Ringqvist: Inget organiserat samarbete med SD",
-      "source": "Ekot, Sveriges Radio",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Ekot",
+      "url": "https://www.svd.se/a/Wmb9KL/demirok-jag-rostade-nej-till-ulf-kristersson",
+      "title": "Vice partiledaren gick emot Thand Ringqvist",
+      "source": "SvD Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-27",
+      "author": "Anja Haglund/TT, Niklas Svahn/TT, Maria Davidsson/TT",
       "commentator": "",
-      "summary": "Centerpartiets partistyrelse rekommenderar sitt förtroenderåd att säga ja till Ulf Kristerssons regering på måndag. Man vill då själv ingå i en fyrpartiregering. Gällande Sverigedemokraterna så menar Thand Ringqvist att det inte är något organiserat samarbete. Utan att SD släpper fram regeringen utan sakpolitiska krav. ”Vi kommer att samtala och förankra regeringens politik i utskotten. Vi kommer att göra det med partierna som står närmast den politiken”, säger hon.",
-      "fulltext": "",
-      "paywall": false,
-      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351091'",
-      "matched_terms": [
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/ilska-och-besvikelse-bland-c-toppar-efter-beslutet-kanner-mig-bedrovad",
-      "title": "Ilska och besvikelse bland C-toppar efter beslutet: ”Känner mig bedrövad”",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Molly Karlsson Inde, Evelyn Jones, Linn Jönsson, Ida Palm Ekspong",
-      "commentator": "",
-      "summary": "Centerpartiets vägval i regeringsfrågan har föregåtts av en stor splittring inom partiet. Och efter att det står klart att partistyrelsen säger ja till Ulf Kristersson som statsminister är flera C-toppar besvikna. – Det är en stor existentiell fråga tror jag för många liberaler, säger Birgitta Ohlsson, som bytte från L till C på grund av motståndet mot SD.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-27 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/ilska-och-besvikelse-bland-c-toppar-efter-beslutet-kanner-mig-bedrovad/\nCenterpartiets vägval i regeringsfrågan har föregåtts av en stor splittring inom partiet. Och efter att det står klart att partistyrelsen säger ja till Ulf Kristersson som statsminister är flera C-toppar besvikna.\n– Det är en stor existentiell fråga tror jag för många liberaler, säger Birgitta Ohlsson, som bytte från L till C på grund av motståndet mot SD.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.",
+      "summary": "Centerpartiet är splittrat på högsta nivå om de ska rösta ja till Moderatledaren Ulf Kristersson som…",
+      "fulltext": "Centerpartiet är splittrat på högsta nivå om de ska rösta ja till Moderatledaren Ulf Kristersson som statsminister och ingå i hans regering.\nVice partiledare Rickard Nordin säger nej, liksom tidigare C-ledaren Muharrem Demirok och affischnamnet Birgitta Ohlsson.\nEfter ett maratonmöte på torsdagen meddelade C-ledaren Elisabeth Thand Ringqvist att partistyrelsen och riksdagsgruppen vill rösta ja till Ulf Kristersson i statsministeromröstningen på måndag.\nMen beslutet var inte enhälligt. Minst tio av 35 personer reserverade sig, enligt TT:s uppgifter, däribland Martin Ådahl, ekonomisk-politisk talesperson, och Abir Al-Sahlani, EU-parlamentariker.\nRickard Nordin skriver i en kommentar till TT att det förslag och samarbetsformer som nu ligger på bordet inte ger förutsättningar att driva igenom det han har kämpat för i sitt politiska liv, bland annat i klimat- och energipolitiken.\n”Det är ambitioner jag inte är beredd att kompromissa bort”, skriver han.\nHan står dock bakom Elisabeth Thand Ringqvist, och gör det oavsett utfallet på söndagens förtroenderåd. Där ska partiet ta ställning till Ulf Kristersson som statsminister för en borgerlig regering där C ingår.\nMuharrem Demirok är kritisk till att C, som han ser det, hamnar i ett beroende av SD.\n”En väldigt stor del av Centerpartiet delar min oro och tycker att det här är fel väg”, skriver han på Facebook.\n”Många menar att det är en avgörande skillnad så länge vi inte sitter i samma regering som Sverigedemokraterna. Jag förstår den tanken, men i praktiken innebär vårt beslut ändå att vi måste förhandla med dem”, skriver han.\nRunt om i landet möts nu centerpartister inför söndagens möte. Även om en borgerlig minoritetsregering inte är deras förstahandsval måste de väga in alternativen i sitt beslut. En rödgrön regering utan V-ministrar verkar osannolik och ett nej kan leda till extra val om även den fjärde statsministeromröstningen misslyckas. Om det blir extra val har C-ledaren sagt att hon kommer att avgå.\nFör flera av dem som TT pratat med handlar det om att välja det minst dåliga alternativet.\n”Cuf är djupt kritiska till att vi har hamnat i en situation där röda linjer behöver brytas. Hade makten legat i våra händer hade vi gått till extra val, men för den linjen finns det inte stöd. Då är en grönblå regering det bästa av de alternativ som finns kvar”, skriver ordföranden Emelie Rossheim i en kommentar till TT.\nCenterns största distrikt, Skåne, ställer sig bakom att rösta ja till Kristersson, medan ett annat stort distrikt, Stockholms stad, säger nej. Även kvinnoförbundet är emot att gå högerut.\nElisabeth Thand Ringqvist medger att en M-KD-L-C-regering är beroende av SD:s röster för att kunna tillträda.\n– Men det är en väldigt stor skillnad att de släpper fram utan några avtal eller någon att-göra-lista som vi måste göra. Hade det funnits, då hade det här varit helt omöjligt, säger hon i SR:s P1 Morgon.\nFörtroenderådet är Centerpartiets högsta beslutande organ mellan stämmor.\nFörtroenderådet består av totalt 59 medlemmar. Partiordföranden är en av medlemmarna. Centerkvinnorna, Centerpartiets ungdomsförbund, Centerstudenter och partistyrelsen utser två ombud vardera och 50 ombud väljs av distrikten.",
       "paywall": false,
       "fetch_error": "",
       "matched_terms": [
-        "regeringsfråg",
-        "statsminister",
+        "partiledar",
+        "Centerpartiet",
+        "Moderaterna"
+      ],
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
+    },
+    {
+      "url": "https://www.svt.se/nyheter/inrikes/uppgifter-vice-partiledaren-gick-emot-thand-ringqvist",
+      "title": "Uppgifter: Vice partiledaren gick emot Thand Ringqvist",
+      "source": "SVT Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-27",
+      "author": "Erik Nilsson, Daniel Ingmo",
+      "commentator": "",
+      "summary": "C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag. Men partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter. Vice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.",
+      "fulltext": "C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag.\nMen partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter.\nVice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.\nC-ledaren Elisabeth Thand Ringqvist gick under torsdagen ut med att hon vill att partiet röstar ja till Ulf Kristersson som statsminister på måndag.\nBeskedet kom efter ett möte mellan partistyrelsen och riksdagsgruppen som pågick i drygt fem timmar.\nEnligt C-ledaren står en majoritet av mötesdeltagarna bakom linjen, men hon medgav att det inte var ett enhälligt beslut.\nI det verkställande utskottet däremot, hade hon en majoritet emot sig, enligt SVT:s uppgifter.\nDet verkställande utskottet (VU) är ett viktigt beslutsorgan med partiets högsta ledning.\nI VU har fem personer rösträtt – och endast partiledaren själv samt andre vice partiledare Ulrika Heie röstade på Thand Ringqvists linje.\nVice partiledaren Rickard Nordin, den ekonomisk-politiske talespersonen Martin Ådahl och Madelaine Jakobsson röstade nej, enligt vad SVT erfar.\nRickard Nordin är förutom vice partiledare också partiets klimat- och energipolitisk talesperson. Under hösten har han även ingått i partiets förhandlingsdelegation.\n” Jag har vigt hela mitt politiska liv för ett Sverige som tar ledartröjan i klimatarbetet och för en energipolitik som möjliggör omställningen, stärker svensk konkurrenskraft och ger hushåll och företag tillgång till el till rimliga priser. Det är ambitioner jag inte är beredd att kompromissa bort. Med det förslag och de samarbetsformer som nu ligger på bordet ser jag inte förutsättningar för att förverkliga dem”, skriver Nordin till SVT.\nNordin berättar också att han står bakom Thand Ringqvist som partiledare.\nFlera andra högt uppsatta C-profiler motsatte sig Thand Ringqvists plan. Enligt SVT:s uppgifter handlar det om åtminstone en tredjedel av de röstberättigande.\nDäribland den tidigare partiledaren Muharrem Demirok och riksdagsledamoten Birgitta Ohlsson, som tidigare var en framträdande profil för Liberalerna.\nÄven riksdagsledamöterna Kerstin Lundgren, Anna Lasses och Helena Vilhelmsson fanns bland dem som röstade nej.\nHur partiet röstar på måndag kommer avgöras av Centerpartiets förtroenderåd, bestående av medlemmar från hela landet. Förtroenderådet tar ställning på söndag.\n”Jag har vigt hela mitt politiska liv för ett Sverige som tar ledartröjan i klimatarbetet och för en energipolitik som möjliggör omställningen, stärker svensk konkurrenskraft och ger hushåll och företag tillgång till el till rimliga priser. Det är ambitioner jag inte är beredd att kompromissa bort. Med det förslag och de samarbetsformer som nu ligger på bordet ser jag inte förutsättningar för att förverkliga dem.\nHur jag agerade på mötet framgår tydligt av protokollet. Jag kommer i nuläget inte att kommentera mitt ställningstagande ytterligare, utan har förtroende för att våra medlemmar fattar ett klokt beslut på söndagens förtroenderåd.\nFör att vara tydlig. Jag står bakom Elisabeth som vår partiledare och det kommer jag göra oavsett utfall på söndag.”\nSVT:s nyheter ska stå för saklighet och opartiskhet. Det vi publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. Läs mer om hur vi arbetar.",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "partiledar",
         "Centerpartiet"
       ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/tomas-ramberg-det-blev-thand-ringqvist-som-holl-i-yxan",
-      "title": "Tomas Ramberg: Det blev Thand Ringqvist som höll i yxan",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9351195",
+      "title": "Youtubern Jordi Wild har blivit spanska valrörelsens nya maktfaktor",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Tomas Ramberg",
-      "commentator": "Tomas Ramberg",
-      "summary": "Elisabeth Thand Ringqvist går till historien som den som gav upp Centerns fajt mot Sverigedemokraterna. Att det sista liberala alternativet till SD-samarbete försvinner är en händelse som knappast kan överskattas. Den största förloraren blir sannolikt Centerpartiet självt.",
-      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-27 07:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/tomas-ramberg-det-blev-thand-ringqvist-som-holl-i-yxan/\nElisabeth Thand Ringqvist går till historien som den som gav upp Centerns fajt mot Sverigedemokraterna. Att det sista liberala alternativet till SD-samarbete försvinner är en händelse som knappast kan överskattas.\nDen största förloraren blir sannolikt Centerpartiet självt.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.\nBlack Week! Läs DN i 6 mån för bara 9 kr.\nSedan 59 kr/mån i 4 mån. Därefter 249 kr/mån. Ingen bindningstid.",
-      "paywall": false,
-      "fetch_error": "",
-      "matched_terms": [
-        "Centerpartiet",
-        "Sverigedemokraterna"
-      ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
-    },
-    {
-      "url": "https://www.dn.se/sverige/cs-partistyrelse-sager-ja-till-kristersson",
-      "title": "Partistyrelse säger ja till Kristersson – C-ledarens avgångshot vid extraval",
-      "source": "DN Nyheter",
-      "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Evelyn Jones",
+      "published": "2026-11-27",
+      "author": "Ekot",
       "commentator": "",
-      "summary": "Partistyrelsen och riksdagsgruppen i Centerpartiet säger ja till att rösta fram Ulf Kristersson som ny statsminister. Thand Ringqvist hotade att avgå vid extraval. Nu går regeringsfrågan vidare till partiets förtroenderåd. – Det är ett beslut som väcker starka känslor i partiet, säger partiledare Elisabeth Thand Ringqvist.",
+      "summary": "I Spanien har valrörelsen flyttat från de traditionella tv-debatterna till sociala medier och youtubekanaler med miljontals följare. En av de viktigaste arenorna är ” The Wild Project”, där youtubern Jordi Wild bjöd in partiledarna till långa och djuplodande intervjuer. Medieforskare beskriver en kampanj där känslorna som förmedlas är viktigare än det politiska sakinnehållet",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/cs-partistyrelse-sager-ja-till-kristersson'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351195'",
       "matched_terms": [
-        "regeringsfråg",
+        "partiledar"
+      ],
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9351618",
+      "title": "C:s vice partiledare stod inte bakom beslutet",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiets riksdagsgrupp och partistyrelse, har beslutat att förorda ett ja till Ulf Kristersson som statsminister och partiets medlemmar är splittrade. Splittringen finns även i partiets yttersta ledning. Vice partiledare Rickard Nordin bekräftar nu för Ekot att han är en av dem som reserverade sig mot partiledaren Elisabeth Thand Ringqvists linje att bilda en borgerlig fyrpartiregering. Två riksdagsledamöter, Birgitta Ohlsson och Anna Lasses har deklarerat, att de oavsett vad partiets förtroenderåd kommer fram till tänker rösta rött vid statsministeromröstningen på måndag.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351618'",
+      "matched_terms": [
         "statsminister",
         "partiledar",
         "Centerpartiet"
       ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
     },
     {
-      "url": "https://www.dn.se/sverige/sprakroren-centern-maste-se-sanningen-om-sd-i-vitogat",
-      "title": "Språkrören om C-beskedet: ”Det är inte för sent”",
-      "source": "DN Nyheter",
+      "url": "https://www.sverigesradio.se/artikel/9351600",
+      "title": "Furtenbach: ”Förvärras av att SD väcker så starka känslor”",
+      "source": "Ekot, Sveriges Radio",
       "kind": "nyhet",
-      "published": "2026-11-26",
-      "author": "Hans Rosén",
-      "commentator": "",
-      "summary": "Miljöpartiets språkrör ger inte upp kampen om regeringsmakten, trots Centerledningens besked om att man vill ha Ulf Kristersson som statsminister. – Det skulle bli ett budgetkaos. Det är en sanning som Centerpartiet måste se i vitögat, säger Amanda Lind.",
+      "published": "2026-11-27",
+      "author": "Ekot",
+      "commentator": "Fredrik Furtenbach",
+      "summary": "Efter Centerpartiets högersväng har debatten inom partiet hårdnat. Enligt Fredrik Furtenbach har partiet inte varit så här splittrat på väldigt lång tid. ”Splittringen förvärras av att frågan om att närma sig Sverigedemokraterna väcker så starka känslor”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach.",
       "fulltext": "",
       "paywall": false,
-      "fetch_error": "Client error '406 Not Acceptable' for url 'https://www.dn.se/sverige/sprakroren-centern-maste-se-sanningen-om-sd-i-vitogat'",
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351600'",
       "matched_terms": [
-        "regeringsmakt",
-        "statsminister",
         "Centerpartiet",
-        "Miljöpartiet"
+        "Sverigedemokraterna"
       ],
-      "first_seen": "2026-11-27T06:02:45.802005+00:00"
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9351389",
+      "title": "Martin Ådahl (C) om partiets besked: ”Reserverat mig mot beslutet”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Centerpartiets ekonomisk-politiske talesperson säger att han reserverat sig mot beslutet att Centerpartiet ska ingå i en regering som är beroende av Sverigedemokraterna. På torsdagen kom beskedet från partiledaren Elisabeth Thand Ringqvist, att Centerpartiet vill ingå i en fyrpartiregering ledd av Ulf Kristersson (M). Först måste förtroenderådet säga ja till beslutet. Och enligt Martin Ådahl (C), finns det möjlighet att rådet kan gå emot partistyrelsens beslut.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351389'",
+      "matched_terms": [
+        "partiledar",
+        "Centerpartiet",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9351365",
+      "title": "Förre C-ledaren utesluter inte att rösta nej: Äger min egen röst",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Riksdagsledmoten och tidigare Centerledaren Muharrem Demirok kan i dag inte säga hur han kommer att rösta statsministeromröstningen på måndag, oavsett vad Centerpartiets förtroenderåd kommer fram till på sitt möte på söndag. Det säger han till Ekot. ”Jag kommer ta den diskussionen internt, men min röst i slutändan äger jag själv. Den har jag fått ett starkt mandat från Östergötland att bära,” säger Muharrem Demirok. Muharrem Demriok var en av de på gårdagens möte, med riksdagsgruppen och partistyrelsen som sade nej till partiledare Elisabeth Thand Ringqvists linje att bilda en borgerlig minoritetsregering ledd av Ulf Kristersson. För honom är det ofrånkomligt att en sådan regering kommer att göra sig beroende av Sverigedemokraterna.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351365'",
+      "matched_terms": [
+        "statsminister",
+        "partiledar",
+        "Centerpartiet",
+        "Sverigedemokraterna"
+      ],
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9351273",
+      "title": "”Inte oväntat att det var ett kontroversiellt beslut”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-27",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Enligt Tommy Möller, professor i statsvetenskap vid Stockholms universitet, är Centerpartiet i en svår situation och de kommande dagarna kan visa om partiet kommer hålla ihop. Det eftersom enskilda ledamöter kan gå emot partilinjen om förtroenderådet beslutar att stödja Ulf Kristersson som statsminister. ”Hur många det blir återstår att se, men det skulle vara ganska dramatiskt för då har vi i praktiken början på det som skulle kunna bli en partisprängning”, säger han.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9351273'",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
+    },
+    {
+      "url": "https://www.dn.se/ledare/c-har-battre-alternativ-infor-en-fjarde-statsministeromrostning",
+      "title": "Ledare: C har bättre alternativ inför en fjärde statsministeromröstning",
+      "source": "DN Ledare",
+      "kind": "kommentar",
+      "published": "2026-11-27",
+      "author": "DN:s ledarredaktion",
+      "commentator": "",
+      "summary": "Centerpartiets alternativ på måndag är inte Ulf Kristersson eller extra val, utan Ulf Kristersson eller en fjärde statsministervotering – i en sådan kommer alternativen att vara bättre.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-27 15:03\nArtikelns ursprungsadress: https://www.dn.se/ledare/c-har-battre-alternativ-infor-en-fjarde-statsministeromrostning/\nCenterpartiets alternativ på måndag är inte Ulf Kristersson eller extra val, utan Ulf Kristersson eller en fjärde statsministervotering – i en sådan kommer alternativen att vara bättre.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nAntingen väljs Ulf Kristersson till statsminister på måndag eller så blir det extra val. Och i ett extra val kommer väljarna att straffa Centerpartiet för att det varit bråkigt. Så har en tröttkörd C-ledning beskrivit alternativen när den under de senaste dagarna drivit fram det partiråd som ska hållas till helgen med uppgift att pröva ett deltagande i en M-ledd regering med SD-stöd.\nOch det är sannerligen inte märkligt att topparna är utmattade efter att ha brottats med vänsterpartisterna en hel höst. Då kan det kännas lockande att sätta sig på den stol Jimmie Åkessons skjuter fram. Men ibland är det bättre att bita ihop och inte göra det som känns lättast för stunden.\nFör det är inte sant att det bara finns två alternativ.\nFör det första: Magdalena Anderssons ”totalpaket” är inte kört i botten. Visst vore det jobbigt att ge sig in i förhandlingsrummet med Nooshi Dadgostar igen, och det finns inga garantier att hon till slut släpper ministerkravet. Men ingen trodde att det skulle bli enkelt. Alla förutsatte att bud skulle läggas fram och förkastas, och Vänstern möjligen vika sig först inför hotet om ett extra val.\nFör det andra: C kan trycka gult för M-ledaren utan att själv ta plats i regeringen. Jimmie Åkesson vill ha med Centern eftersom han vet att det innebär att partiet kommer att behöva samarbeta med honom, att C:s röda linje mot SD därmed suddas ut och att C:s förhandlingsposition försvagas. Men inget av detta är skäl för centerpartisterna att acceptera en sådan lösning.\nFör det tredje: Magdalena Andersson har vid flera tillfällen sagt att om hon misslyckas att bilda regering med stöd av MP, C och V så är en regering med S och M den enda som kan få något uträttat. Alternativet att S skulle släppa fram – och samarbeta med – en moderatregering har också luftats. Detta är inte något partis förstahandsalternativ, men inför ett extra val kommer också andra- och tredjehandsalternativ upp på bordet.\nDet har de inte gjort ännu – just eftersom vi inte står inför ett extra val. Faktum är att Centerpartiets alternativ på måndag inte är Ulf Kristersson eller extra val, utan Ulf Kristersson eller en fjärde statsministervotering. En sådan kommer däremot att ske under hotet av extra val, vilket kommer att skärpa sinnena hos alla partier – inte bara C.\nVänsterpartiet har inte tagit stryk på ett nämnvärt sätt i opinionen, men Dadgostar ser naturligtvis också att det mesta pekar på en högerseger och att ingenting pekar mot en majoritet för S, MP och V. Tar hon inte chansen nu ryker alla möjligheter till inflytande för lång tid framöver.\nSocialdemokraterna ser inte bara en Tidöseger framför sig utan en historisk kollaps. Magdalena Andersson kommer att behöva överväga alla alternativ, inklusive att släppa fram M-ledaren till Rosenbad.\nModeraterna då? De längtar väl efter att hösta in de 25 procent som de just nu hovrar kring i opinionsmätningarna? Säkert – men de har rimligen också konstaterat att svenska väljare är mycket rörliga, inte minst i utrymmet mellan S och M. Hela hösten har Anderssons misslyckanden varit i fokus. Åkesson har dessutom befunnit sig på tacksamt avstånd i Sölvesborg. Den dynamiken kan ändras snabbt. Extra val är en osäker affär.\nI en fjärde statsministeromröstning skulle antingen Anderssons S-C-MP-alternativ prövas eller moderatledaren, ensam eller tillsammans med KD och L. Centern skulle trycka grönt eller gult. Om det slutade i extra val skulle det vara på grund av att V eller SD tryckt rött. Centerpartiet skulle inte ha varit bråkigast.\nMen framför allt: få vill ha ett extra val, inget parti vill vara ansvarigt för ett. Andra partier än C skulle känna tyngden inför en fjärde votering. Centerpartiets alternativ skulle vara bättre än det som ligger på bordet på måndag.\nDN:s ledarredaktion: Varför är det bara Jimmie Åkesson som säger sanningen?\nDN:s ledarredaktion: Centerpartiet riskerar allt om man går åt höger\n”Nooshi är tyst, men hennes sambo pratar”\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nLedare: Varför är det bara Jimmie Åkesson som säger sanningen?\nLedare: Centerpartiet riskerar allt om man går åt höger\nBjörn Wiman: Hästhandlarna i Centern lät sig luras av en skojare",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-27T14:02:49.865787+00:00"
     }
   ]
 }
