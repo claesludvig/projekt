@@ -1,64 +1,61 @@
-# Svensk politik och regeringsförhandlingarna — 2026-11-27
+# Svensk politik och regeringsförhandlingarna — 2026-11-28
 
-11 nya poster sedan förra utskicket (46 redan utskickade, 140 utanför ämnet).
+10 nya poster sedan förra utskicket (39 redan utskickade, 147 utanför ämnet).
 
 ## Analys och kommentar
 
-### [M, KD, L och C överens om ny klimatpolitik](https://www.svd.se/a/WmOlba/m-kd-l-och-c-overens-om-ny-klimatpolitik)
-SvD Ledare · 2026-11-27 · Niklas Svahn/TT, Maria Davidsson/TT
+### [Den dramatiska veckan då allt vände](https://www.svd.se/a/R19b8W/den-dramatiska-veckan-da-allt-vande)
+SvD Ledare · 2026-11-27 · Svenska Dagbladet
 
-Partiledarna för Moderaterna, Kristdemokraterna, Liberalerna och Centerpartiet är överens om hur…
-
-### [Kristersson siktar på ny regering om en vecka](https://www.svd.se/a/XogGao/kristersson-siktar-pa-ny-regering-om-en-vecka)
-SvD Ledare · 2026-11-27 · Niklas Svahn/TT
-
-Om Centerpartiet säger ja till Moderatledaren Ulf Kristersson på måndag kan en ny regering…
-
-### [Vice partiledaren gick emot Thand Ringqvist](https://www.svd.se/a/Wmb9KL/demirok-jag-rostade-nej-till-ulf-kristersson)
-SvD Ledare · 2026-11-27 · Anja Haglund/TT, Niklas Svahn/TT, Maria Davidsson/TT
-
-Centerpartiet är splittrat på högsta nivå om de ska rösta ja till Moderatledaren Ulf Kristersson som…
-
-### [Ledare: C har bättre alternativ inför en fjärde statsministeromröstning](https://www.dn.se/ledare/c-har-battre-alternativ-infor-en-fjarde-statsministeromrostning)
-DN Ledare · 2026-11-27 · DN:s ledarredaktion
-
-Centerpartiets alternativ på måndag är inte Ulf Kristersson eller extra val, utan Ulf Kristersson eller en fjärde statsministervotering – i en sådan kommer alternativen att vara bättre.
+Så kom den dag då allt gick i kras, med regeringsunderlaget som var en moras.
 
 ## Rapportering
 
-### [Uppgifter: Vice partiledaren gick emot Thand Ringqvist](https://www.svt.se/nyheter/inrikes/uppgifter-vice-partiledaren-gick-emot-thand-ringqvist)
-SVT Nyheter · 2026-11-27 · Erik Nilsson, Daniel Ingmo
+### [M, L och KD presenterar gemensam budget](https://www.svt.se/nyheter/inrikes/m-l-och-kd-presenterar-gemensam-budget)
+SVT Nyheter · 2026-11-27 · Oscar Schau
 
-C-ledaren Elisabeth Thand Ringqvist vill att Centerpartiet röstar ja till Ulf Kristersson på måndag. Men partiet är splittrat på högsta nivå – och hon hade en majoritet emot sig i det verkställande utskottet, enligt SVT:s uppgifter. Vice partiledaren Rickard Nordin röstade nej till den lösningen under torsdagens ödesmöte.
+Moderaterna, Liberalerna och Kristdemokraterna har presenterat en gemensamt budgetmotion på Expressen Debatt.
 
-### [Youtubern Jordi Wild har blivit spanska valrörelsens nya maktfaktor](https://www.sverigesradio.se/artikel/9351195)
+### [Flera ledamöter tänker trotsa Thand Ringqvist](https://www.sverigesradio.se/artikel/9352005)
 Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-I Spanien har valrörelsen flyttat från de traditionella tv-debatterna till sociala medier och youtubekanaler med miljontals följare. En av de viktigaste arenorna är ” The Wild Project”, där youtubern Jordi Wild bjöd in partiledarna till långa och djuplodande intervjuer. Medieforskare beskriver en kampanj där känslorna som förmedlas är viktigare än det politiska sakinnehållet
+In i det sista är det oklart hur regeringsbildningen kommer sluta. På söndag möts Centerpartiets förtroenderåd och Ekots rundringning visar att flera av ledamöterna kommer att rösta emot nuvarande partilinjen. ”Vårt ställningstagande mot Sverigedemokraterna och vårt löfte mot väljarna är lätt att försvara”, säger Aida Karimli, som företräder Centerkvinnorna i rådet.
 
-### [C:s vice partiledare stod inte bakom beslutet](https://www.sverigesradio.se/artikel/9351618)
+### [KD: Budgetmotionen inte anpassad för SD](https://www.sverigesradio.se/artikel/9352028)
 Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiets riksdagsgrupp och partistyrelse, har beslutat att förorda ett ja till Ulf Kristersson som statsminister och partiets medlemmar är splittrade. Splittringen finns även i partiets yttersta ledning. Vice partiledare Rickard Nordin bekräftar nu för Ekot att han är en av dem som reserverade sig mot partiledaren Elisabeth Thand Ringqvists linje att bilda en borgerlig fyrpartiregering. Två riksdagsledamöter, Birgitta Ohlsson och Anna Lasses har deklarerat, att de oavsett vad partiets förtroenderåd kommer fram till tänker rösta rött vid statsministeromröstningen på måndag.
+I en gemensam motion föreslår M, KD och L stärkta resurser till cancervården och psykiatrin. Kristdemokraternas förste vice ordförande Jakob Forssmed säger att M, KD och L inte har anpassat budgetmotionen efter Sverigedemokraterna och inte heller har förhandlat med dem. Budgeten sammanfaller ändå i vissa delar med SD:s politik, bland annat om elskatt och bränsleskatt. Detsamma gäller med Centerpartiet som partierna är öppna att samtala med om justeringar.
 
-### [Furtenbach: ”Förvärras av att SD väcker så starka känslor”](https://www.sverigesradio.se/artikel/9351600) **[kommentator]**
+### [MP lägger fram egen budget – hoppas på gemensam framöver](https://www.sverigesradio.se/artikel/9352031)
 Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Efter Centerpartiets högersväng har debatten inom partiet hårdnat. Enligt Fredrik Furtenbach har partiet inte varit så här splittrat på väldigt lång tid. ”Splittringen förvärras av att frågan om att närma sig Sverigedemokraterna väcker så starka känslor”, säger Ekots inrikespolitiska kommentator Fredrik Furtenbach.
+Idag fredag är sista dagen för riksdagens partier att lämna in sina budgetmotioner. Miljöpartiet lämnade in en egen motion för att markera sina viktigaste förslag, men hoppas att det ska gå att få till ett gemensamt rödgrönt budgetförslag framöver. Janine Alm Ericson (MP) hoppas att det går att få till ett gemensamt förslag som kan ställas mot ett borgerligt och säger att man ännu inte räknat bort Centerpartiet.
 
-### [Martin Ådahl (C) om partiets besked: ”Reserverat mig mot beslutet”](https://www.sverigesradio.se/artikel/9351389)
+### [Erbjudandet till C: Kall öl och euroutredning – inte ett ord om SD](https://www.sverigesradio.se/artikel/9351950)
 Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Centerpartiets ekonomisk-politiske talesperson säger att han reserverat sig mot beslutet att Centerpartiet ska ingå i en regering som är beroende av Sverigedemokraterna. På torsdagen kom beskedet från partiledaren Elisabeth Thand Ringqvist, att Centerpartiet vill ingå i en fyrpartiregering ledd av Ulf Kristersson (M). Först måste förtroenderådet säga ja till beslutet. Och enligt Martin Ådahl (C), finns det möjlighet att rådet kan gå emot partistyrelsens beslut.
+Nu har Moderaterna offentliggjort det avtal som framförhandlats mellan de borgerliga partierna och som ska ligga till grund för Ulf Kristerssons regeringssamarbete om Centerpartiet ställer sig bakom det. Bland annat föreslås stopp för de så kallade tonårsutvisningarna. Man vill även införa utökade öppettider för Systembolaget, utveckla distanshandeln och ett sortiment av kylda drycker I dokumentet nämns inte Sverigedemokraterna vid något tillfälle. På klimatområdet slår man bland annat fast att Sverige ska leva upp till EU:s bindande klimatåtaganden.
 
-### [Förre C-ledaren utesluter inte att rösta nej: Äger min egen röst](https://www.sverigesradio.se/artikel/9351365)
+### [Expert inför förtroenderådet: ”Partiet kluvet mitt itu”](https://www.sverigesradio.se/artikel/9351822)
 Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
 
-Riksdagsledmoten och tidigare Centerledaren Muharrem Demirok kan i dag inte säga hur han kommer att rösta statsministeromröstningen på måndag, oavsett vad Centerpartiets förtroenderåd kommer fram till på sitt möte på söndag. Det säger han till Ekot. ”Jag kommer ta den diskussionen internt, men min röst i slutändan äger jag själv. Den har jag fått ett starkt mandat från Östergötland att bära,” säger Muharrem Demirok. Muharrem Demriok var en av de på gårdagens möte, med riksdagsgruppen och partistyrelsen som sade nej till partiledare Elisabeth Thand Ringqvists linje att bilda en borgerlig minoritetsregering ledd av Ulf Kristersson. För honom är det ofrånkomligt att en sådan regering kommer att göra sig beroende av Sverigedemokraterna.
+Förtroenderådet ska på söndagen bestämma om Centerpartiet kan rösta fram Ulf Kristersson som statsminister på måndag. Rådet har kallats in vid andra avgörande beslut som kring Januariavtalet. Det vanliga är att Förtroenderådet följer partistyrelsens rekommendation, men nu är splittringen ovanligt stor, enligt Magnus Hagevi, professor i statsvetenskap på Linneuniveritetet i Växjö. ”Jag är inte lika säker på att det blir resultatet den här gången”, säger han.
 
-### [”Inte oväntat att det var ett kontroversiellt beslut”](https://www.sverigesradio.se/artikel/9351273)
-Ekot, Sveriges Radio · 2026-11-27 · Ekot _(brödtext ej hämtad — endast ingress)_
+### [Rödgröna ligger lågt inför Centerns ödesbeslut](https://www.dn.se/sverige/rodgrona-ligger-lagt-infor-centerns-odesbeslut)
+DN Nyheter · 2026-11-27 · Hans Rosén
 
-Enligt Tommy Möller, professor i statsvetenskap vid Stockholms universitet, är Centerpartiet i en svår situation och de kommande dagarna kan visa om partiet kommer hålla ihop. Det eftersom enskilda ledamöter kan gå emot partilinjen om förtroenderådet beslutar att stödja Ulf Kristersson som statsminister. ”Hur många det blir återstår att se, men det skulle vara ganska dramatiskt för då har vi i praktiken början på det som skulle kunna bli en partisprängning”, säger han.
+De rödgröna vänsterpartierna ligger tills vidare lågt inför Centerns avgörande beslut i regeringsfrågan. Samtal förs med enskilda centerpartister men inga större framstötar är planerade, erfar DN. ”Väljer ni att rösta nej till Ulf Kristersson står vår dörr öppen”, skriver Nooshi Dadgostar (V) i sociala medier.
 
-_Genererat 2026-11-27T14:02:49.865787+00:00._
+### [Intern mätning skakade om C – riskerade tappa varannan väljare](https://www.dn.se/sverige/intern-matning-skakade-om-c-riskerade-tappa-varannan-valjare)
+DN Nyheter · 2026-11-27 · Evelyn Jones, Annie Reuterskiöld
+
+En intern opinionsundersökning som gjordes åt Centerpartiet efter den andra statsministeromröstningen visade att partiet riskerar att tappa hälften av sina väljare vid ett extra val. – Man hade trott att det var farligt med extra val men inte så här farligt, säger en C-källa.
+
+## Officiella besked
+
+### [Budgetmotion 2027](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/_he022981)
+Riksdagen · 2026-11-27 · riksdagsinformation@riksdagen.se
+
+… Våra partier tar i och med denna budgetmotion ansvar för att 2027 inte ska bli ett förlorat år på grund av den utdragna regeringsbildningen. Fokus ligger på nödvändiga satsningar som inte kunnat genomföras i övergångsbudgeten. Detta för att lägga grunden för ökad långsiktig tillväxt och stärkt svensk konkurrenskraft, ytterligare stötta hushållen i ett osäkert omvärldsläge, förbättra villkoren på landsbygden 2026-11-27
+
+_Genererat 2026-11-28T06:02:44.163016+00:00._
