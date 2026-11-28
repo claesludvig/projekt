@@ -1,0 +1,142 @@
+{
+  "fetched_at": "2026-11-28T14:03:20.055160+00:00",
+  "new_count": 4,
+  "skipped": {
+    "seen": 46,
+    "offtopic": 147,
+    "old": 13
+  },
+  "fetch_errors": 3,
+  "sources": [
+    {
+      "name": "SVT Nyheter",
+      "feed": "https://www.svt.se/nyheter/inrikes/rss.xml",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Ekot, Sveriges Radio",
+      "feed": "https://api.sr.se/api/rss/program/83",
+      "new": 3,
+      "ok": true
+    },
+    {
+      "name": "DN Nyheter",
+      "feed": "https://www.dn.se/nyheter/politik/rss/",
+      "new": 1,
+      "ok": true
+    },
+    {
+      "name": "DN Ledare",
+      "feed": "https://www.dn.se/ledare/rss/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "SvD Ledare",
+      "feed": "https://www.svd.se/feed/articles.rss",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Expressen Ledare",
+      "feed": "https://feeds.expressen.se/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Aftonbladet Ledare",
+      "feed": "https://rss.aftonbladet.se/rss2/small/pages/sections/ledare/",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Regeringen.se",
+      "feed": "https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&rootPageReference=0&displayLocal=true",
+      "new": 0,
+      "ok": true
+    },
+    {
+      "name": "Riksdagen",
+      "feed": "https://data.riksdagen.se/dokumentlista/?sok=regeringsbildning&sort=datum&sortorder=desc&utformat=rss",
+      "new": 0,
+      "ok": true
+    }
+  ],
+  "articles": [
+    {
+      "url": "https://www.sverigesradio.se/artikel/9352170",
+      "title": "Anderssons vädjan till C: ”Kommer göra allt i min makt”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "Socialdemokraternas ledare Magdalena Andersson vädjar idag till Centerpartiet att avstå från att rösta för moderatledaren Ulf Kristersson som statsminister på måndag i riksdagen. Magdalena Andersson riktar sig till centerpartiets förtroenderåd som möts i morgon söndag och kommer att avgöra frågan. ”Jag kommer göra allt, som överhuvudtaget står i min makt, för att vi inte ska gå till ett extraval”, säger S-ledaren.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9352170'",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet",
+        "Moderaterna",
+        "Socialdemokraterna"
+      ],
+      "first_seen": "2026-11-28T14:03:20.055160+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9352104",
+      "title": "Framåt för nationalistiska partiet: ”Det här är det riktiga Spanien”",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "På söndagen är det val i EU:s fjärde största ekonomi, Spanien där det är helt öppen fråga om landets högerblock ska vinna över socialdemokraten Pedro Sanchez sittande regeringskoalition. Valresultatet kommer följas noga inte minst i Bryssel, detta för att nationlistiska Vox för första gången kan komma in i regeringen. På fredagskvällen kväll höll partierna sina avslutande valmöten.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9352104'",
+      "matched_terms": [
+        "koalition",
+        "valresultat"
+      ],
+      "first_seen": "2026-11-28T14:03:20.055160+00:00"
+    },
+    {
+      "url": "https://www.sverigesradio.se/artikel/9352155",
+      "title": "155 centerpartister i upprop mot ledningens högersväng",
+      "source": "Ekot, Sveriges Radio",
+      "kind": "nyhet",
+      "published": "2026-11-28",
+      "author": "Ekot",
+      "commentator": "",
+      "summary": "155 centerpartister protesterar i dag i en debattartikel i Expressen mot partiledningens avsikt att rösta ja till en regering med Ulf Kristersson som statsminister. ”Vi undrar, varär centerpolitiken? Var är i synnerhet klimatpolitiken, miljöpolitiken som ska kunna vända den utveckling vi haft de senaste fyra åren?”, säger Martin Ådahl som sitter i Centerpartiets ledning. Bland namnen finns, förutom Martin Ådahl, riksdagsledamöterna Muharrem Demirok, Kerstin Lundgren och Birgitta Ohlsson bland de 155 namnunderskrifterna.",
+      "fulltext": "",
+      "paywall": false,
+      "fetch_error": "Client error '403 Forbidden' for url 'https://sverigesradio.se/artikel/9352155'",
+      "matched_terms": [
+        "statsminister",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-28T14:03:20.055160+00:00"
+    },
+    {
+      "url": "https://www.dn.se/sverige/v-battre-med-en-hogerregering-an-att-s-driver-hogerpolitik",
+      "title": "V-topp: Bättre med en högerregering än att S driver högerpolitik",
+      "source": "DN Nyheter",
+      "kind": "nyhet",
+      "published": "2026-11-28",
+      "author": "Molly Karlsson Inde",
+      "commentator": "",
+      "summary": "Nooshi Dadgostar lovar att göra sitt yttersta i förhandlingar om Centerpartiet röstar nej till Kristersson. Men kravet på ministerposter står fast, säger V-ledamoten Jonas Lindberg. – Just nu är det bättre med en högerregering som bedriver högerpolitik än att Magda ska göra det. Men det bästa är en fyrpartiregering där vi alla kompromissar, säger han.",
+      "fulltext": "En utskrift från Dagens Nyheter, 2026-11-28 15:02\nArtikelns ursprungsadress: https://www.dn.se/sverige/v-battre-med-en-hogerregering-an-att-s-driver-hogerpolitik/\nNooshi Dadgostar lovar att göra sitt yttersta i förhandlingar om Centerpartiet röstar nej till Kristersson. Men kravet på ministerposter står fast, säger V-ledamoten Jonas Lindberg.\n– Just nu är det bättre med en högerregering som bedriver högerpolitik än att Magda ska göra det. Men det bästa är en fyrpartiregering där vi alla kompromissar, säger han.\nDu vet väl att du kan skapa ett gratiskonto på DN? Som inloggad kan du ta del av flera smarta funktioner.\nPå ett frukostmöte arrangerat av ABF med Nooshi Dadgostar och V-ledamoten Jonas Lindberg säger de båda att Vänsterpartiet har förhandlat och kompromissat.\nDet till skillnad från Magdalena Andersson (S) som sagt att Vänsterpartiet inte har velat diskutera sakfrågor i förhandlingarna.\n– Det är helt fel. Vi är Sveriges mest kompromissvilliga parti, säger Nooshi Dadgostar.\nEnligt Dadgostar har ministerkravet handlat om att det måste bli skillnad i svensk politik.\n– Vill man att någon ska släppa något jättecentralt måste man ge ett stort bud till den.\nV-ledaren menar att någon sådan omfattande vänsterpolitik inte har lagts fram. Samtidigt säger att hon att hon när som helst är beredd att sätta sig ner för att förhandla, om C säger nej till Ulf Kristerssons (M) regeringsalternativ.\n– Vi ska göra vårt yttersta för att det ska bli bra för alla partier. Det lovar vi. Gå inte till de högerextrema, säger Dadgostar.\nHon tror att ledningen lobbat för en högerregering sedan första början:\n– Det går inte att utesluta att partiledningen har agerat på ett sådant sätt så man har underlättat att gå högerut. Kanske var det redan vid valet av partiledningen en inriktning som de hade bestämt sig för. Det är hela vår bild.\nDadgostar säger att det hade varit bättre om de rödgröna partierna hade förberett sig bättre inför valrörelsen. Enligt henne kallade Vänsterpartiet de andra rödgröna partierna till samtal före valet, som varken S eller C har velat medverka vid.\n– C har inte tillåtit sina riksdagsledamöter att prata med oss, säger hon och fortsätter:\n– Det är tråkigt. Jag tror att det finns centerpartister som mycket väl kan komma överens med oss.\nEnligt Dadgostar har S antagligen väntat in valresultatet för att se om det exempelvis går att samarbeta med KD i stället.\nInför mötet ger Jonas Lindberg sin syn på C-ledarens beslut:\n– Det bekräftar vår bild av att Elisabeth Thand Ringqvist har velat göra det här ganska länge. Egentligen i strid mot vad hennes parti har sagt. Och nu har hon nästan satt dem i en gisslansituation inför imorgon, att om de inte röstar för Kristersson på måndag så avgår hon.\nLindberg menar att pressen på Vänsterpartiet är ett sätt för Centerpartiet att flytta fokus från att ”de själva äger beslutet”.\nMen vilken regering tror du hade drivit den bästa politiken: en Kristerssonregering som den som ligger på bordet nu, eller en regering där S, C och MP får stöd av er?\n– Det har ju varit ett förslag att vi ska vara ett stödparti till en sådan. Förutsättningen för det har varit att Centerpartiets ekonomiska politik egentligen ska vara hela det som dominerar inriktningen. Och då får vi två högerblock i svensk politik.\n– Ja, just nu är det bättre med en högerregering som bedriver högerpolitik än att Magda ska göra det. Men det bästa är en fyrpartiregering där vi alla kompromissar.\nEnligt Jonas Lindberg kommer V inte att släppa ministerkravet.\nMagdalena Andersson (S) kommenterar Dadgostars uttalande genom att säga att hon kommer att fortsätta kämpa för att förverkliga en politisk inriktning som svenskarna röstade för i valet:\n”Om Centerpartiet imorgon säger nej till en Tidö 2-regering så kommer jag göra allt som står i min makt för att hitta en väg framåt och säkerställa att en fjärde omröstning inte slutar i extraval. I det läget kan nya möjligheter öppnas. Vi kan fortfarande ta Sverige i en annan riktning, bort från Sverigedemokraternas dominerande ställning”, skriver Andersson.\nⒸ Detta material är skyddat enligt lagen om upphovsrätt\nOron inom S: ”Vi närmar oss en mycket allvarlig kris”\nStatsvetare: Då bör C-politiker lämna sina uppdrag\nStatsvetare: Hotet om extraval kommer hänga även över en ny regering",
+      "paywall": false,
+      "fetch_error": "",
+      "matched_terms": [
+        "ministerpost",
+        "Centerpartiet"
+      ],
+      "first_seen": "2026-11-28T14:03:20.055160+00:00"
+    }
+  ]
+}
